@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import GameScene from "@/components/GameScene";
 import { scenes, Choice } from "@/data/scenes";
 import { sceneImages } from "@/data/sceneImages";
+import { sceneSprites } from "@/data/spriteConfig";
 import startImg from "@/assets/scenes/start.jpg";
 
 const Index = () => {
@@ -26,7 +27,6 @@ const Index = () => {
   if (!started) {
     return (
       <div className="fixed inset-0 flex flex-col items-center justify-center">
-        {/* Background */}
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${startImg})` }}
@@ -37,9 +37,9 @@ const Index = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="relative z-10 text-center max-w-lg px-4"
+          className="relative z-10 text-center max-w-md px-4"
         >
-          <h1 className="font-display text-4xl md:text-5xl text-primary-foreground tracking-wide mb-4">
+          <h1 className="font-display text-3xl md:text-5xl text-primary-foreground tracking-wide mb-4">
             In the Beginning
           </h1>
           <div className="flex items-center justify-center gap-3 mb-6">
@@ -47,9 +47,9 @@ const Index = () => {
             <div className="w-2 h-2 rotate-45 bg-gold" />
             <div className="h-px w-16 bg-gold" />
           </div>
-          <p className="font-body text-xl text-primary-foreground/80 mb-10 leading-relaxed">
-            An interactive journey through the Garden of Eden. You are Adam, the first man.
-            Explore paradise, name the creatures, and face the choice that changed everything.
+          <p className="font-body text-lg md:text-xl text-primary-foreground/80 mb-10 leading-relaxed">
+            You are Adam. The first man.<br />
+            Paradise awaits.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -74,6 +74,7 @@ const Index = () => {
       onRestart={handleRestart}
       stepCount={stepCount}
       backgroundImage={sceneImages[currentScene]}
+      sprites={sceneSprites[currentScene]}
     />
   );
 };
