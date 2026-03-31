@@ -4,6 +4,7 @@ import GameScene from "@/components/GameScene";
 import { scenes, Choice } from "@/data/scenes";
 import { sceneImages } from "@/data/sceneImages";
 import { sceneSprites } from "@/data/spriteConfig";
+import { useSceneAudio } from "@/hooks/useSceneAudio";
 import startImg from "@/assets/scenes/start.jpg";
 
 const Index = () => {
@@ -12,6 +13,9 @@ const Index = () => {
   const [started, setStarted] = useState(false);
 
   const scene = scenes[currentScene];
+
+  // Audio engine - plays scene-specific ambient music & environmental sounds
+  useSceneAudio(currentScene, started);
 
   const handleChoice = useCallback((choice: Choice) => {
     setCurrentScene(choice.nextScene);
