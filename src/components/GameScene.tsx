@@ -45,11 +45,8 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onRestart, stepCou
         {sprites && (
           <>
             {/* Adam - left side */}
-            <motion.div
+            <div
               key={sprites.left}
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
               className="absolute bottom-0 left-0 z-10 pointer-events-none"
             >
               <img
