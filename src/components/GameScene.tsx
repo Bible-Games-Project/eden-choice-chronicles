@@ -66,7 +66,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onRestart, stepCou
                 key={sprites.right}
                 initial={{ opacity: 0, x: 30 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: 0.4 }}
+                transition={{ duration: 0.8 }}
                 className="absolute bottom-0 right-0 z-10 pointer-events-none"
               >
                 <img
