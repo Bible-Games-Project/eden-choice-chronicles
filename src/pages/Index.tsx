@@ -4,6 +4,7 @@ import GameScene from "@/components/GameScene";
 import { scenes, Choice } from "@/data/scenes";
 import { sceneImages } from "@/data/sceneImages";
 import { sceneSprites } from "@/data/spriteConfig";
+import { useSceneAudio } from "@/hooks/useSceneAudio";
 import startImg from "@/assets/scenes/start.jpg";
 
 const Index = () => {
