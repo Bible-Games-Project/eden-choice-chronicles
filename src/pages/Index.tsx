@@ -14,6 +14,9 @@ const Index = () => {
 
   const scene = scenes[currentScene];
 
+  // Audio engine - plays scene-specific ambient music & environmental sounds
+  useSceneAudio(currentScene, started);
+
   const handleChoice = useCallback((choice: Choice) => {
     setCurrentScene(choice.nextScene);
     setStepCount((s) => s + 1);
