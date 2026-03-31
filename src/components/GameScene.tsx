@@ -55,15 +55,12 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onRestart, stepCou
                 className="h-[45vh] md:h-[55vh] w-auto object-contain object-bottom opacity-80"
                 loading="lazy"
               />
-            </motion.div>
+            </div>
 
             {/* Right character (Eve/Serpent) */}
             {sprites.right && (
-              <motion.div
+              <div
                 key={sprites.right}
-                initial={{ opacity: 0, x: 30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
                 className="absolute bottom-0 right-0 z-10 pointer-events-none"
               >
                 <img
@@ -72,7 +69,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onRestart, stepCou
                   className="h-[40vh] md:h-[50vh] w-auto object-contain object-bottom opacity-80"
                   loading="lazy"
                 />
-              </motion.div>
+              </div>
             )}
           </>
         )}
