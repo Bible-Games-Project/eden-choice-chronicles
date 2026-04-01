@@ -5,16 +5,19 @@ import GameScene from "@/components/GameScene";
 import { useGameProgress } from "@/hooks/useGameProgress";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
 import { creationScenes, creationAudio, StoryChoice } from "@/data/stories/creation";
+import { creationImages } from "@/data/stories/creationImages";
 import { useSceneAudio } from "@/hooks/useSceneAudio";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
 
-// Story scene registry - add new stories here
 const storySceneRegistry: Record<string, Record<string, any>> = {
   creation: creationScenes,
 };
 const storyAudioRegistry: Record<string, Record<string, any>> = {
   creation: creationAudio,
+};
+const storyImageRegistry: Record<string, Record<string, string>> = {
+  creation: creationImages,
 };
 
 const Index = () => {
@@ -24,12 +27,11 @@ const Index = () => {
   const [stepCount, setStepCount] = useState(1);
   const progress = useGameProgress();
 
-  // Audio - use story-specific audio config
-  const audioConfig = currentStory ? storyAudioRegistry[currentStory.id] : null;
+  const audioConfig = currentStory ? storyAudioRegistry[currentStory.id]?.[currentSceneId] : null;
   useSceneAudio(
     screen === "playing" ? `${currentStory?.id}_${currentSceneId}` : "",
     screen === "playing",
-    audioConfig?.[currentSceneId]
+    audioConfig
   );
 
   const handleSelectStory = useCallback((story: StoryMeta) => {
@@ -52,7 +54,6 @@ const Index = () => {
     setCurrentStory(null);
   }, [currentStory, progress]);
 
-  // Render screens
   if (screen === "menu") {
     return (
       <MainMenu
@@ -90,12 +91,13 @@ const Index = () => {
     );
   }
 
-  // Playing screen
   if (!currentStory) return null;
   const scenes = storySceneRegistry[currentStory.id];
   if (!scenes) return null;
   const scene = scenes[currentSceneId];
   if (!scene) return null;
+
+  const images = storyImageRegistry[currentStory.id];
 
   return (
     <GameScene
@@ -106,6 +108,7 @@ const Index = () => {
       onChoice={handleChoice}
       onComplete={handleComplete}
       stepCount={stepCount}
+      backgroundImage={images?.[currentSceneId]}
     />
   );
 };
