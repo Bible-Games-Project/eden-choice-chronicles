@@ -1,7 +1,7 @@
 import { useEffect, useCallback, useRef } from "react";
 import { audioEngine } from "@/audio/AudioEngine";
 
-export function useSceneAudio(sceneId: string, isActive: boolean) {
+export function useSceneAudio(sceneKey: string, isActive: boolean, audioConfig?: any) {
   const hasInteracted = useRef(false);
 
   const enableAudio = useCallback(() => {
@@ -9,13 +9,12 @@ export function useSceneAudio(sceneId: string, isActive: boolean) {
       hasInteracted.current = true;
       audioEngine.resume();
       if (isActive) {
-        audioEngine.playScene(sceneId);
+        audioEngine.playScene(sceneKey, audioConfig);
       }
     }
-  }, [sceneId, isActive]);
+  }, [sceneKey, isActive, audioConfig]);
 
   useEffect(() => {
-    // Listen for first user interaction to unlock audio context
     const handler = () => {
       enableAudio();
       window.removeEventListener("click", handler);
@@ -34,12 +33,12 @@ export function useSceneAudio(sceneId: string, isActive: boolean) {
 
   useEffect(() => {
     if (isActive && hasInteracted.current) {
-      audioEngine.playScene(sceneId);
+      audioEngine.playScene(sceneKey, audioConfig);
     }
     if (!isActive) {
       audioEngine.stop();
     }
-  }, [sceneId, isActive]);
+  }, [sceneKey, isActive, audioConfig]);
 
   return { enableAudio };
 }

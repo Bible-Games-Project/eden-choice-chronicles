@@ -1,72 +1,103 @@
 import { useState, useCallback } from "react";
-import { motion } from "framer-motion";
+import MainMenu from "@/components/MainMenu";
+import StoryMap from "@/components/StoryMap";
 import GameScene from "@/components/GameScene";
-import { scenes, Choice } from "@/data/scenes";
-import { sceneImages } from "@/data/sceneImages";
-import { sceneSprites } from "@/data/spriteConfig";
+import { useGameProgress } from "@/hooks/useGameProgress";
+import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
+import { creationScenes, creationAudio, StoryChoice } from "@/data/stories/creation";
+import { creationImages } from "@/data/stories/creationImages";
 import { useSceneAudio } from "@/hooks/useSceneAudio";
-import startImg from "@/assets/scenes/start.jpg";
+
+type Screen = "menu" | "map_ot" | "map_nt" | "playing";
+
+const storySceneRegistry: Record<string, Record<string, any>> = {
+  creation: creationScenes,
+};
+const storyAudioRegistry: Record<string, Record<string, any>> = {
+  creation: creationAudio,
+};
+const storyImageRegistry: Record<string, Record<string, string>> = {
+  creation: creationImages,
+};
 
 const Index = () => {
-  const [currentScene, setCurrentScene] = useState("start");
+  const [screen, setScreen] = useState<Screen>("menu");
+  const [currentStory, setCurrentStory] = useState<StoryMeta | null>(null);
+  const [currentSceneId, setCurrentSceneId] = useState("start");
   const [stepCount, setStepCount] = useState(1);
-  const [started, setStarted] = useState(false);
+  const progress = useGameProgress();
 
-  const scene = scenes[currentScene];
+  const audioConfig = currentStory ? storyAudioRegistry[currentStory.id]?.[currentSceneId] : null;
+  useSceneAudio(
+    screen === "playing" ? `${currentStory?.id}_${currentSceneId}` : "",
+    screen === "playing",
+    audioConfig
+  );
 
-  // Audio engine - plays scene-specific ambient music & environmental sounds
-  useSceneAudio(currentScene, started);
+  const handleSelectStory = useCallback((story: StoryMeta) => {
+    setCurrentStory(story);
+    setCurrentSceneId("start");
+    setStepCount(1);
+    setScreen("playing");
+  }, []);
 
-  const handleChoice = useCallback((choice: Choice) => {
-    setCurrentScene(choice.nextScene);
+  const handleChoice = useCallback((choice: StoryChoice) => {
+    setCurrentSceneId(choice.nextScene);
     setStepCount((s) => s + 1);
   }, []);
 
-  const handleRestart = useCallback(() => {
-    setCurrentScene("start");
-    setStepCount(1);
-    setStarted(false);
-  }, []);
+  const handleComplete = useCallback(() => {
+    if (currentStory) {
+      progress.completeStory(currentStory.id);
+    }
+    setScreen(currentStory?.section === "old_testament" ? "map_ot" : "map_nt");
+    setCurrentStory(null);
+  }, [currentStory, progress]);
 
-  if (!started) {
+  if (screen === "menu") {
     return (
-      <div className="fixed inset-0 flex flex-col items-center justify-center">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${startImg})` }}
-        />
-        <div className="absolute inset-0 bg-foreground/50" />
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="relative z-10 text-center max-w-md px-4"
-        >
-          <h1 className="font-display text-3xl md:text-5xl text-primary-foreground tracking-wide mb-4">
-            In the Beginning
-          </h1>
-          <div className="flex items-center justify-center gap-3 mb-6">
-            <div className="h-px w-16 bg-gold" />
-            <div className="w-2 h-2 rotate-45 bg-gold" />
-            <div className="h-px w-16 bg-gold" />
-          </div>
-          <p className="font-body text-lg md:text-xl text-primary-foreground/80 mb-10 leading-relaxed">
-            You are Adam. The first man.<br />
-            Paradise awaits.
-          </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            onClick={() => setStarted(true)}
-            className="font-display text-sm tracking-[0.2em] uppercase px-10 py-4 rounded-lg border border-gold bg-gold/20 backdrop-blur-sm text-gold hover:bg-gold hover:text-foreground transition-all duration-300 cursor-pointer"
-          >
-            Enter the Garden
-          </motion.button>
-        </motion.div>
-      </div>
+      <MainMenu
+        onSelectTestament={(t) => setScreen(t === "old" ? "map_ot" : "map_nt")}
+        isNTUnlocked={progress.isNTUnlocked()}
+        otProgress={progress.otProgress}
+        ntProgress={progress.ntProgress}
+      />
     );
   }
+
+  if (screen === "map_ot") {
+    return (
+      <StoryMap
+        title="Old Testament"
+        stories={OLD_TESTAMENT_STORIES}
+        isStoryCompleted={progress.isStoryCompleted}
+        isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
+        onSelectStory={handleSelectStory}
+        onBack={() => setScreen("menu")}
+      />
+    );
+  }
+
+  if (screen === "map_nt") {
+    return (
+      <StoryMap
+        title="New Testament"
+        stories={ALL_NT_STORIES}
+        isStoryCompleted={progress.isStoryCompleted}
+        isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
+        onSelectStory={handleSelectStory}
+        onBack={() => setScreen("menu")}
+      />
+    );
+  }
+
+  if (!currentStory) return null;
+  const scenes = storySceneRegistry[currentStory.id];
+  if (!scenes) return null;
+  const scene = scenes[currentSceneId];
+  if (!scene) return null;
+
+  const images = storyImageRegistry[currentStory.id];
 
   return (
     <GameScene
@@ -75,10 +106,9 @@ const Index = () => {
       choices={scene.choices}
       isFinal={scene.isFinal}
       onChoice={handleChoice}
-      onRestart={handleRestart}
+      onComplete={handleComplete}
       stepCount={stepCount}
-      backgroundImage={sceneImages[currentScene]}
-      sprites={sceneSprites[currentScene]}
+      backgroundImage={images?.[currentSceneId]}
     />
   );
 };
