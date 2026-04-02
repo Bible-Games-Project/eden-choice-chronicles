@@ -54,8 +54,16 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
   });
 
   return (
-    <div className="fixed inset-0 bg-foreground overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-foreground via-[hsl(25,30%,20%)] to-foreground" />
+    <div className="fixed inset-0 overflow-hidden">
+      {/* Immersive background */}
+      <img
+        src={mapBg}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      {/* Atmospheric overlays */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[hsl(25,40%,12%)]/70 via-transparent to-[hsl(43,60%,70%)]/10" />
 
       <div className="relative z-10 h-full flex flex-col">
         {/* Header */}
