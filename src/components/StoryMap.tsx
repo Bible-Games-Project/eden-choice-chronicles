@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Lock, Check, ChevronLeft, Play } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
+import mapBg from "@/assets/map/ot-map-bg.jpg";
 
 interface StoryMapProps {
   title: string;
@@ -53,8 +54,16 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
   });
 
   return (
-    <div className="fixed inset-0 bg-foreground overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-foreground via-[hsl(25,30%,20%)] to-foreground" />
+    <div className="fixed inset-0 overflow-hidden">
+      {/* Immersive background */}
+      <img
+        src={mapBg}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      {/* Atmospheric overlays */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[hsl(25,40%,12%)]/70 via-transparent to-[hsl(43,60%,70%)]/10" />
 
       <div className="relative z-10 h-full flex flex-col">
         {/* Header */}
@@ -128,14 +137,14 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                   <button
                     onClick={() => playable && onSelectStory(story)}
                     disabled={!playable}
-                    className={`relative flex items-center justify-center w-11 h-11 rounded-full border-2 transition-all ${
+                    className={`relative flex items-center justify-center w-12 h-12 rounded-full border-2 transition-all backdrop-blur-sm ${
                       completed
-                        ? "border-eden bg-eden/30 shadow-[0_0_12px_hsl(140,30%,30%,0.4)]"
+                        ? "border-eden bg-eden/40 shadow-[0_0_16px_hsl(140,30%,30%,0.5)]"
                         : playable
-                        ? "border-gold bg-gold/20 shadow-[0_0_12px_hsl(43,75%,55%,0.3)] cursor-pointer hover:scale-110 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.5)]"
+                        ? "border-gold bg-gold/30 shadow-[0_0_16px_hsl(43,75%,55%,0.4)] cursor-pointer hover:scale-110 hover:shadow-[0_0_24px_hsl(43,75%,55%,0.6)]"
                         : unlocked && !story.hasContent
-                        ? "border-muted-foreground/30 bg-foreground/40 opacity-50 cursor-not-allowed"
-                        : "border-muted-foreground/15 bg-foreground/30 opacity-30 cursor-not-allowed"
+                        ? "border-muted-foreground/30 bg-black/30 opacity-50 cursor-not-allowed"
+                        : "border-muted-foreground/20 bg-black/20 opacity-30 cursor-not-allowed"
                     }`}
                   >
                     {completed ? (
@@ -159,18 +168,18 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                     }`}
                   >
                     <span
-                      className={`font-display text-[11px] tracking-wider ${
+                      className={`font-display text-[11px] tracking-wider drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)] ${
                         completed
                           ? "text-eden-light"
                           : playable
                           ? "text-gold"
-                          : "text-muted-foreground/50"
+                          : "text-muted-foreground/60"
                       }`}
                     >
                       {story.number}. {story.title}
                     </span>
                     {unlocked && !story.hasContent && (
-                      <p className="font-body text-[10px] text-muted-foreground/40">Coming soon</p>
+                      <p className="font-body text-[10px] text-muted-foreground/40 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">Coming soon</p>
                     )}
                   </div>
                 </motion.div>
