@@ -1,11 +1,11 @@
 // Web Audio API-based ambient audio engine
+// Plays ONE continuous track per context (menu or story), not per scene.
 
 class AudioEngine {
   private ctx: AudioContext | null = null;
   private masterGain: GainNode | null = null;
-  private musicLayer: { nodes: AudioNode[]; gain: GainNode } | null = null;
-  private ambientLayer: { nodes: AudioNode[]; gain: GainNode } | null = null;
-  private currentScene: string = "";
+  private activeLayer: { nodes: AudioNode[]; gain: GainNode } | null = null;
+  private currentTrack: string = "";
   private isPlaying = false;
   private fadeTime = 1.5;
 
@@ -13,22 +13,21 @@ class AudioEngine {
     if (!this.ctx) {
       this.ctx = new AudioContext();
       this.masterGain = this.ctx.createGain();
-      this.masterGain.gain.value = 0.35;
+      this.masterGain.gain.value = 0.3;
       this.masterGain.connect(this.ctx.destination);
     }
     if (this.ctx.state === "suspended") this.ctx.resume();
     return this.ctx;
   }
 
-  private createNoiseSource(ctx: AudioContext, type: "white" | "pink" | "brown"): AudioBufferSourceNode {
-    const bufferSize = ctx.sampleRate * 4;
+  private createNoiseSource(ctx: AudioContext, type: "pink" | "brown"): AudioBufferSourceNode {
+    const bufferSize = ctx.sampleRate * 6;
     const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
     const data = buffer.getChannelData(0);
     let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
     for (let i = 0; i < bufferSize; i++) {
       const white = Math.random() * 2 - 1;
-      if (type === "white") { data[i] = white * 0.2; }
-      else if (type === "pink") {
+      if (type === "pink") {
         b0 = 0.99886 * b0 + white * 0.0555179;
         b1 = 0.99332 * b1 + white * 0.0750759;
         b2 = 0.96900 * b2 + white * 0.1538520;
@@ -60,41 +59,41 @@ class AudioEngine {
       osc.frequency.exponentialRampToValueAtTime(freq * 1.3, now + 0.05);
       osc.frequency.exponentialRampToValueAtTime(freq * 0.8, now + 0.1);
       chirpGain.gain.setValueAtTime(0, now);
-      chirpGain.gain.linearRampToValueAtTime(0.06, now + 0.02);
+      chirpGain.gain.linearRampToValueAtTime(0.04, now + 0.02);
       chirpGain.gain.linearRampToValueAtTime(0, now + 0.12);
       osc.connect(chirpGain);
       chirpGain.connect(gain);
       osc.start(now);
       osc.stop(now + 0.15);
-      setTimeout(scheduleChirp, 1500 + Math.random() * 4000);
+      setTimeout(scheduleChirp, 2000 + Math.random() * 5000);
     };
-    setTimeout(scheduleChirp, 500 + Math.random() * 2000);
+    setTimeout(scheduleChirp, 800 + Math.random() * 2000);
   }
 
-  private createWind(ctx: AudioContext, gain: GainNode, intensity: number = 0.3): AudioNode[] {
+  private createWind(ctx: AudioContext, gain: GainNode, intensity: number): AudioNode[] {
     const noise = this.createNoiseSource(ctx, "brown");
     const filter = ctx.createBiquadFilter();
-    filter.type = "lowpass"; filter.frequency.value = 400 + intensity * 300; filter.Q.value = 0.5;
+    filter.type = "lowpass"; filter.frequency.value = 350 + intensity * 200; filter.Q.value = 0.5;
     const noiseGain = ctx.createGain();
-    noiseGain.gain.value = intensity * 0.4;
+    noiseGain.gain.value = intensity * 0.3;
     const lfo = ctx.createOscillator();
     const lfoGain = ctx.createGain();
-    lfo.type = "sine"; lfo.frequency.value = 0.15 + Math.random() * 0.1;
-    lfoGain.gain.value = 100;
+    lfo.type = "sine"; lfo.frequency.value = 0.1 + Math.random() * 0.08;
+    lfoGain.gain.value = 80;
     lfo.connect(lfoGain); lfoGain.connect(filter.frequency); lfo.start();
     noise.connect(filter); filter.connect(noiseGain); noiseGain.connect(gain); noise.start();
     return [noise, lfo];
   }
 
-  private createWater(ctx: AudioContext, gain: GainNode, intensity: number = 0.5): AudioNode[] {
+  private createWater(ctx: AudioContext, gain: GainNode, intensity: number): AudioNode[] {
     const noise = this.createNoiseSource(ctx, "pink");
     const filter = ctx.createBiquadFilter();
     filter.type = "bandpass"; filter.frequency.value = 800; filter.Q.value = 0.8;
     const noiseGain = ctx.createGain();
-    noiseGain.gain.value = intensity * 0.3;
+    noiseGain.gain.value = intensity * 0.25;
     const lfo = ctx.createOscillator();
     const lfoGain = ctx.createGain();
-    lfo.type = "sine"; lfo.frequency.value = 0.3; lfoGain.gain.value = 200;
+    lfo.type = "sine"; lfo.frequency.value = 0.25; lfoGain.gain.value = 150;
     lfo.connect(lfoGain); lfoGain.connect(filter.frequency); lfo.start();
     noise.connect(filter); filter.connect(noiseGain); noiseGain.connect(gain); noise.start();
     return [noise, lfo];
@@ -103,20 +102,21 @@ class AudioEngine {
   private createPadChord(ctx: AudioContext, gain: GainNode, notes: number[]): AudioNode[] {
     const nodes: AudioNode[] = [];
     const filter = ctx.createBiquadFilter();
-    filter.type = "lowpass"; filter.frequency.value = 1200; filter.Q.value = 0.5;
+    filter.type = "lowpass"; filter.frequency.value = 1000; filter.Q.value = 0.5;
     filter.connect(gain);
     notes.forEach((freq) => {
       const osc = ctx.createOscillator(); osc.type = "triangle"; osc.frequency.value = freq;
-      const g = ctx.createGain(); g.gain.value = 0.04;
+      const g = ctx.createGain(); g.gain.value = 0.035;
       osc.connect(g); g.connect(filter); osc.start(); nodes.push(osc);
+      // Slight detune for warmth
       const osc2 = ctx.createOscillator(); osc2.type = "sine"; osc2.frequency.value = freq * 2.001;
-      const g2 = ctx.createGain(); g2.gain.value = 0.015;
+      const g2 = ctx.createGain(); g2.gain.value = 0.012;
       osc2.connect(g2); g2.connect(filter); osc2.start(); nodes.push(osc2);
     });
     return nodes;
   }
 
-  private createDrone(ctx: AudioContext, gain: GainNode, notes: number[], volume: number = 0.06): AudioNode[] {
+  private createDrone(ctx: AudioContext, gain: GainNode, notes: number[], volume: number): AudioNode[] {
     const nodes: AudioNode[] = [];
     notes.forEach((freq) => {
       const osc = ctx.createOscillator(); osc.type = "sine"; osc.frequency.value = freq;
@@ -145,7 +145,8 @@ class AudioEngine {
     }, this.fadeTime * 1000 + 100);
   }
 
-  playScene(sceneKey: string, config?: {
+  /** Play a named track. If already playing this track, do nothing. */
+  play(trackId: string, config: {
     chordNotes: number[];
     droneNotes?: number[];
     droneVolume?: number;
@@ -155,53 +156,73 @@ class AudioEngine {
     waterIntensity?: number;
     birds?: boolean;
   }) {
-    if (sceneKey === this.currentScene) return;
-    this.currentScene = sceneKey;
+    if (trackId === this.currentTrack) return;
+    this.currentTrack = trackId;
     this.isPlaying = true;
 
     const ctx = this.getCtx();
     const master = this.masterGain!;
 
-    this.stopLayer(this.musicLayer);
-    this.stopLayer(this.ambientLayer);
+    this.stopLayer(this.activeLayer);
 
-    const cfg = config || { chordNotes: [261.63, 329.63, 392.00], wind: true, windIntensity: 0.2 };
+    const gain = ctx.createGain();
+    gain.gain.setValueAtTime(0, ctx.currentTime);
+    gain.gain.linearRampToValueAtTime(1, ctx.currentTime + this.fadeTime);
+    gain.connect(master);
 
-    const musicGain = ctx.createGain();
-    musicGain.gain.setValueAtTime(0, ctx.currentTime);
-    musicGain.gain.linearRampToValueAtTime(1, ctx.currentTime + this.fadeTime);
-    musicGain.connect(master);
+    const nodes: AudioNode[] = [];
+    nodes.push(...this.createPadChord(ctx, gain, config.chordNotes));
+    if (config.droneNotes) nodes.push(...this.createDrone(ctx, gain, config.droneNotes, config.droneVolume || 0.05));
+    if (config.wind) nodes.push(...this.createWind(ctx, gain, config.windIntensity || 0.2));
+    if (config.water) nodes.push(...this.createWater(ctx, gain, config.waterIntensity || 0.4));
+    if (config.birds) this.createBirds(ctx, gain);
 
-    const ambientGain = ctx.createGain();
-    ambientGain.gain.setValueAtTime(0, ctx.currentTime);
-    ambientGain.gain.linearRampToValueAtTime(1, ctx.currentTime + this.fadeTime);
-    ambientGain.connect(master);
-
-    const musicNodes: AudioNode[] = [];
-    const ambientNodes: AudioNode[] = [];
-
-    musicNodes.push(...this.createPadChord(ctx, musicGain, cfg.chordNotes));
-    if (cfg.droneNotes) musicNodes.push(...this.createDrone(ctx, musicGain, cfg.droneNotes, cfg.droneVolume || 0.06));
-    if (cfg.wind) ambientNodes.push(...this.createWind(ctx, ambientGain, cfg.windIntensity || 0.3));
-    if (cfg.water) ambientNodes.push(...this.createWater(ctx, ambientGain, cfg.waterIntensity || 0.5));
-    if (cfg.birds) this.createBirds(ctx, ambientGain);
-
-    this.musicLayer = { nodes: musicNodes, gain: musicGain };
-    this.ambientLayer = { nodes: ambientNodes, gain: ambientGain };
+    this.activeLayer = { nodes, gain };
   }
 
   stop() {
     this.isPlaying = false;
-    this.currentScene = "";
-    this.stopLayer(this.musicLayer);
-    this.stopLayer(this.ambientLayer);
-    this.musicLayer = null;
-    this.ambientLayer = null;
+    this.currentTrack = "";
+    this.stopLayer(this.activeLayer);
+    this.activeLayer = null;
   }
 
   resume() {
     if (this.ctx?.state === "suspended") this.ctx.resume();
   }
+
+  getCurrentTrack() {
+    return this.currentTrack;
+  }
 }
 
 export const audioEngine = new AudioEngine();
+
+// Predefined track configs
+export const MENU_AUDIO = {
+  chordNotes: [220.00, 261.63, 329.63],
+  droneNotes: [110.00],
+  droneVolume: 0.04,
+  wind: true,
+  windIntensity: 0.15,
+};
+
+export const STORY_AUDIO: Record<string, {
+  chordNotes: number[];
+  droneNotes?: number[];
+  droneVolume?: number;
+  wind?: boolean;
+  windIntensity?: number;
+  water?: boolean;
+  waterIntensity?: number;
+  birds?: boolean;
+}> = {
+  creation: {
+    chordNotes: [261.63, 329.63, 392.00, 523.25],
+    droneNotes: [130.81, 196.00],
+    droneVolume: 0.06,
+    wind: true,
+    windIntensity: 0.15,
+    birds: true,
+  },
+};

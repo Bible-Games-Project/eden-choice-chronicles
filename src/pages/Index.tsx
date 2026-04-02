@@ -1,23 +1,25 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import MainMenu from "@/components/MainMenu";
 import StoryMap from "@/components/StoryMap";
 import GameScene from "@/components/GameScene";
 import { useGameProgress } from "@/hooks/useGameProgress";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
-import { creationScenes, creationAudio, StoryChoice } from "@/data/stories/creation";
+import { creationScenes, StoryChoice } from "@/data/stories/creation";
 import { creationImages } from "@/data/stories/creationImages";
+import { creationSprites, SpriteConfig } from "@/data/creationSprites";
 import { useSceneAudio } from "@/hooks/useSceneAudio";
+import { MENU_AUDIO, STORY_AUDIO } from "@/audio/AudioEngine";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
 
 const storySceneRegistry: Record<string, Record<string, any>> = {
   creation: creationScenes,
 };
-const storyAudioRegistry: Record<string, Record<string, any>> = {
-  creation: creationAudio,
-};
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
+};
+const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
+  creation: creationSprites,
 };
 
 const Index = () => {
@@ -27,12 +29,18 @@ const Index = () => {
   const [stepCount, setStepCount] = useState(1);
   const progress = useGameProgress();
 
-  const audioConfig = currentStory ? storyAudioRegistry[currentStory.id]?.[currentSceneId] : null;
-  useSceneAudio(
-    screen === "playing" ? `${currentStory?.id}_${currentSceneId}` : "",
-    screen === "playing",
-    audioConfig
-  );
+  // Audio: one track for menu screens, one track per story
+  const isMenuScreen = screen === "menu" || screen === "map_ot" || screen === "map_nt";
+  const isPlaying = screen === "playing";
+
+  const audioTrackId = isMenuScreen ? "menu" : isPlaying && currentStory ? `story_${currentStory.id}` : "";
+  const audioConfig = isMenuScreen
+    ? MENU_AUDIO
+    : isPlaying && currentStory
+    ? STORY_AUDIO[currentStory.id] || STORY_AUDIO.creation
+    : null;
+
+  useSceneAudio(audioTrackId, !!audioTrackId, audioConfig);
 
   const handleSelectStory = useCallback((story: StoryMeta) => {
     setCurrentStory(story);
@@ -98,6 +106,7 @@ const Index = () => {
   if (!scene) return null;
 
   const images = storyImageRegistry[currentStory.id];
+  const sprites = storySpriteRegistry[currentStory.id]?.[currentSceneId];
 
   return (
     <GameScene
@@ -109,6 +118,7 @@ const Index = () => {
       onComplete={handleComplete}
       stepCount={stepCount}
       backgroundImage={images?.[currentSceneId]}
+      sprites={sprites}
     />
   );
 };

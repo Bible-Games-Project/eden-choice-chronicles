@@ -1,18 +1,22 @@
 import { useEffect, useCallback, useRef } from "react";
 import { audioEngine } from "@/audio/AudioEngine";
 
-export function useSceneAudio(sceneKey: string, isActive: boolean, audioConfig?: any) {
+/**
+ * Plays ONE continuous audio track identified by trackId.
+ * Does NOT change audio per scene — only per story or menu context.
+ */
+export function useSceneAudio(trackId: string, isActive: boolean, audioConfig?: any) {
   const hasInteracted = useRef(false);
 
   const enableAudio = useCallback(() => {
     if (!hasInteracted.current) {
       hasInteracted.current = true;
       audioEngine.resume();
-      if (isActive) {
-        audioEngine.playScene(sceneKey, audioConfig);
+      if (isActive && audioConfig) {
+        audioEngine.play(trackId, audioConfig);
       }
     }
-  }, [sceneKey, isActive, audioConfig]);
+  }, [trackId, isActive, audioConfig]);
 
   useEffect(() => {
     const handler = () => {
@@ -32,13 +36,13 @@ export function useSceneAudio(sceneKey: string, isActive: boolean, audioConfig?:
   }, [enableAudio]);
 
   useEffect(() => {
-    if (isActive && hasInteracted.current) {
-      audioEngine.playScene(sceneKey, audioConfig);
+    if (isActive && hasInteracted.current && audioConfig) {
+      audioEngine.play(trackId, audioConfig);
     }
     if (!isActive) {
       audioEngine.stop();
     }
-  }, [sceneKey, isActive, audioConfig]);
+  }, [trackId, isActive, audioConfig]);
 
   return { enableAudio };
 }
