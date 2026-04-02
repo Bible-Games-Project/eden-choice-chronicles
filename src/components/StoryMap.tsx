@@ -11,13 +11,45 @@ interface StoryMapProps {
   onBack: () => void;
 }
 
+// Generate winding path coordinates for story nodes
+function generatePathNodes(count: number): { x: number; y: number }[] {
+  const nodes: { x: number; y: number }[] = [];
+  const amplitude = 28; // horizontal wave amplitude (%)
+  const centerX = 50;
+  const startY = 8;
+  const spacing = 14; // vertical gap between nodes (%)
+
+  for (let i = 0; i < count; i++) {
+    const wave = Math.sin(i * 0.8) * amplitude;
+    nodes.push({
+      x: centerX + wave,
+      y: startY + i * spacing,
+    });
+  }
+  return nodes;
+}
+
+function buildPathD(nodes: { x: number; y: number }[]): string {
+  if (nodes.length < 2) return "";
+  let d = `M ${nodes[0].x} ${nodes[0].y}`;
+  for (let i = 1; i < nodes.length; i++) {
+    const prev = nodes[i - 1];
+    const curr = nodes[i];
+    const cpY = (prev.y + curr.y) / 2;
+    d += ` C ${prev.x} ${cpY}, ${curr.x} ${cpY}, ${curr.x} ${curr.y}`;
+  }
+  return d;
+}
+
 const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectStory, onBack }: StoryMapProps) => {
-  // Group stories by category
-  const categories: { name: string; stories: StoryMeta[] }[] = [];
-  stories.forEach((s) => {
-    const existing = categories.find((c) => c.name === s.category);
-    if (existing) existing.stories.push(s);
-    else categories.push({ name: s.category, stories: [s] });
+  const pathNodes = generatePathNodes(stories.length);
+  const totalHeight = pathNodes.length > 0 ? pathNodes[pathNodes.length - 1].y + 12 : 100;
+  const pathD = buildPathD(pathNodes);
+
+  // Group by category for section labels
+  const categoryFirstIndex: Record<string, number> = {};
+  stories.forEach((s, i) => {
+    if (!(s.category in categoryFirstIndex)) categoryFirstIndex[s.category] = i;
   });
 
   return (
@@ -26,7 +58,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
 
       <div className="relative z-10 h-full flex flex-col">
         {/* Header */}
-        <div className="flex items-center gap-3 px-4 pt-6 pb-4">
+        <div className="flex items-center gap-3 px-4 pt-6 pb-3 flex-shrink-0">
           <button
             onClick={onBack}
             className="p-2 rounded-lg text-gold hover:bg-gold/10 transition-colors cursor-pointer"
@@ -38,80 +70,113 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
           </h2>
         </div>
 
-        {/* Scrollable story list */}
-        <div className="flex-1 overflow-y-auto px-4 pb-8">
-          {categories.map((cat, ci) => (
-            <motion.div
-              key={cat.name}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: ci * 0.08 }}
-              className="mb-6"
+        {/* Scrollable map */}
+        <div className="flex-1 overflow-y-auto overflow-x-hidden px-2 pb-12">
+          <div className="relative w-full" style={{ height: `${totalHeight}vh` }}>
+            {/* SVG path */}
+            <svg
+              className="absolute inset-0 w-full h-full pointer-events-none"
+              viewBox={`0 0 100 ${totalHeight}`}
+              preserveAspectRatio="none"
             >
-              <p className="font-display text-xs tracking-widest uppercase text-gold/60 mb-3 px-1">
-                {cat.name}
-              </p>
-              <div className="flex flex-col gap-2">
-                {cat.stories.map((story) => {
-                  const completed = isStoryCompleted(story.id);
-                  const unlocked = isStoryUnlocked(story, stories);
-                  const playable = unlocked && story.hasContent;
+              <path
+                d={pathD}
+                fill="none"
+                stroke="hsl(43,75%,55%)"
+                strokeWidth="0.4"
+                strokeOpacity="0.25"
+                strokeDasharray="1.5 1"
+              />
+            </svg>
 
-                  return (
-                    <button
-                      key={story.id}
-                      onClick={() => playable && onSelectStory(story)}
-                      disabled={!playable}
-                      className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg border text-left transition-all ${
+            {/* Story nodes */}
+            {stories.map((story, i) => {
+              const node = pathNodes[i];
+              const completed = isStoryCompleted(story.id);
+              const unlocked = isStoryUnlocked(story, stories);
+              const playable = unlocked && story.hasContent;
+              const isNewCategory = categoryFirstIndex[story.category] === i;
+
+              return (
+                <motion.div
+                  key={story.id}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: i * 0.03, duration: 0.4 }}
+                  className="absolute flex items-center"
+                  style={{
+                    left: `${node.x}%`,
+                    top: `${node.y}vh`,
+                    transform: "translate(-50%, -50%)",
+                  }}
+                >
+                  {/* Category label */}
+                  {isNewCategory && (
+                    <div
+                      className="absolute whitespace-nowrap font-display text-[10px] tracking-widest uppercase text-gold/40"
+                      style={{
+                        top: "-18px",
+                        left: "50%",
+                        transform: "translateX(-50%)",
+                      }}
+                    >
+                      {story.category}
+                    </div>
+                  )}
+
+                  {/* Node button */}
+                  <button
+                    onClick={() => playable && onSelectStory(story)}
+                    disabled={!playable}
+                    className={`relative flex items-center justify-center w-11 h-11 rounded-full border-2 transition-all ${
+                      completed
+                        ? "border-eden bg-eden/30 shadow-[0_0_12px_hsl(140,30%,30%,0.4)]"
+                        : playable
+                        ? "border-gold bg-gold/20 shadow-[0_0_12px_hsl(43,75%,55%,0.3)] cursor-pointer hover:scale-110 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.5)]"
+                        : unlocked && !story.hasContent
+                        ? "border-muted-foreground/30 bg-foreground/40 opacity-50 cursor-not-allowed"
+                        : "border-muted-foreground/15 bg-foreground/30 opacity-30 cursor-not-allowed"
+                    }`}
+                  >
+                    {completed ? (
+                      <Check className="w-4 h-4 text-eden-light" />
+                    ) : playable ? (
+                      <Play className="w-3.5 h-3.5 text-gold ml-0.5" />
+                    ) : (
+                      <Lock className="w-3 h-3 text-muted-foreground" />
+                    )}
+
+                    {/* Pulse ring for playable */}
+                    {playable && !completed && (
+                      <span className="absolute inset-0 rounded-full border border-gold/40 animate-ping" />
+                    )}
+                  </button>
+
+                  {/* Story label */}
+                  <div
+                    className={`absolute whitespace-nowrap ${
+                      node.x > 50 ? "right-full mr-3" : "left-full ml-3"
+                    }`}
+                  >
+                    <span
+                      className={`font-display text-[11px] tracking-wider ${
                         completed
-                          ? "border-eden/40 bg-eden/10 cursor-pointer hover:bg-eden/20"
+                          ? "text-eden-light"
                           : playable
-                          ? "border-gold/30 bg-gold/10 cursor-pointer hover:border-gold/60 hover:bg-gold/20"
-                          : unlocked && !story.hasContent
-                          ? "border-muted-foreground/20 bg-foreground/20 cursor-not-allowed opacity-40"
-                          : "border-muted-foreground/10 bg-foreground/10 cursor-not-allowed opacity-30"
+                          ? "text-gold"
+                          : "text-muted-foreground/50"
                       }`}
                     >
-                      {/* Status icon */}
-                      <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${
-                        completed
-                          ? "bg-eden/20"
-                          : playable
-                          ? "bg-gold/20"
-                          : "bg-muted-foreground/10"
-                      }`}>
-                        {completed ? (
-                          <Check className="w-4 h-4 text-eden-light" />
-                        ) : playable ? (
-                          <Play className="w-3 h-3 text-gold ml-0.5" />
-                        ) : (
-                          <Lock className="w-3 h-3 text-muted-foreground" />
-                        )}
-                      </div>
-
-                      {/* Story info */}
-                      <div className="flex-1 min-w-0">
-                        <span className={`font-display text-xs tracking-wider ${
-                          completed
-                            ? "text-eden-light"
-                            : playable
-                            ? "text-gold"
-                            : "text-muted-foreground"
-                        }`}>
-                          {story.number}. {story.title}
-                        </span>
-                        {unlocked && !story.hasContent && (
-                          <p className="font-body text-xs text-muted-foreground/50 mt-0.5">
-                            Coming soon
-                          </p>
-                        )}
-                      </div>
-                    </button>
-                  );
-                })}
-              </div>
-            </motion.div>
-          ))}
+                      {story.number}. {story.title}
+                    </span>
+                    {unlocked && !story.hasContent && (
+                      <p className="font-body text-[10px] text-muted-foreground/40">Coming soon</p>
+                    )}
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
