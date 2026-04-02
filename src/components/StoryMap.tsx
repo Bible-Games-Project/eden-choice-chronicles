@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Lock, Check, ChevronLeft, Play } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
+import mapBg from "@/assets/map/ot-map-bg.jpg";
 
 interface StoryMapProps {
   title: string;
