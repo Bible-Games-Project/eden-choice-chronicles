@@ -168,18 +168,18 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                     }`}
                   >
                     <span
-                      className={`font-display text-[11px] tracking-wider ${
+                      className={`font-display text-[11px] tracking-wider drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)] ${
                         completed
                           ? "text-eden-light"
                           : playable
                           ? "text-gold"
-                          : "text-muted-foreground/50"
+                          : "text-muted-foreground/60"
                       }`}
                     >
                       {story.number}. {story.title}
                     </span>
                     {unlocked && !story.hasContent && (
-                      <p className="font-body text-[10px] text-muted-foreground/40">Coming soon</p>
+                      <p className="font-body text-[10px] text-muted-foreground/40 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">Coming soon</p>
                     )}
                   </div>
                 </motion.div>
