@@ -1,11 +1,11 @@
 import { useEffect, useCallback, useRef } from "react";
-import { audioEngine } from "@/audio/AudioEngine";
+import { audioEngine, MusicConfig } from "@/audio/AudioEngine";
 
 /**
- * Plays ONE continuous audio track identified by trackId.
+ * Plays ONE continuous music track identified by trackId.
  * Does NOT change audio per scene — only per story or menu context.
  */
-export function useSceneAudio(trackId: string, isActive: boolean, audioConfig?: any) {
+export function useSceneAudio(trackId: string, isActive: boolean, audioConfig?: MusicConfig | null) {
   const hasInteracted = useRef(false);
 
   const enableAudio = useCallback(() => {

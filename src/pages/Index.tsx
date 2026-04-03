@@ -8,7 +8,7 @@ import { creationScenes, StoryChoice } from "@/data/stories/creation";
 import { creationImages } from "@/data/stories/creationImages";
 import { creationSprites, SpriteConfig } from "@/data/creationSprites";
 import { useSceneAudio } from "@/hooks/useSceneAudio";
-import { MENU_AUDIO, STORY_AUDIO } from "@/audio/AudioEngine";
+import { MENU_AUDIO, STORY_AUDIO, type MusicConfig } from "@/audio/AudioEngine";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
 

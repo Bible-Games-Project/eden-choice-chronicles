@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Lock, Check, ChevronLeft, Play } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
-import mapBg from "@/assets/map/ot-map-bg.jpg";
+import bibleBookBg from "@/assets/map/bible-book-bg.jpg";
 
 interface StoryMapProps {
   title: string;
@@ -12,20 +12,21 @@ interface StoryMapProps {
   onBack: () => void;
 }
 
-// Generate winding path coordinates for story nodes
+// Generate winding path coordinates across the "pages" of the book
 function generatePathNodes(count: number): { x: number; y: number }[] {
   const nodes: { x: number; y: number }[] = [];
-  const amplitude = 28; // horizontal wave amplitude (%)
-  const centerX = 50;
   const startY = 8;
-  const spacing = 14; // vertical gap between nodes (%)
+  const spacing = 12;
 
   for (let i = 0; i < count; i++) {
-    const wave = Math.sin(i * 0.8) * amplitude;
-    nodes.push({
-      x: centerX + wave,
-      y: startY + i * spacing,
-    });
+    // Serpentine path across the book pages
+    const row = Math.floor(i / 3);
+    const col = i % 3;
+    const goingRight = row % 2 === 0;
+    const xPositions = [22, 50, 78];
+    const x = goingRight ? xPositions[col] : xPositions[2 - col];
+    const y = startY + row * spacing;
+    nodes.push({ x, y });
   }
   return nodes;
 }
@@ -47,7 +48,6 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
   const totalHeight = pathNodes.length > 0 ? pathNodes[pathNodes.length - 1].y + 12 : 100;
   const pathD = buildPathD(pathNodes);
 
-  // Group by category for section labels
   const categoryFirstIndex: Record<string, number> = {};
   stories.forEach((s, i) => {
     if (!(s.category in categoryFirstIndex)) categoryFirstIndex[s.category] = i;
@@ -55,15 +55,15 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
 
   return (
     <div className="fixed inset-0 overflow-hidden">
-      {/* Immersive background */}
+      {/* Bible book background */}
       <img
-        src={mapBg}
+        src={bibleBookBg}
         alt=""
         className="absolute inset-0 w-full h-full object-cover"
       />
-      {/* Atmospheric overlays */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[hsl(25,40%,12%)]/70 via-transparent to-[hsl(43,60%,70%)]/10" />
+      {/* Warm atmospheric overlays */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[hsl(25,30%,8%)]/60 via-transparent to-[hsl(25,30%,8%)]/70" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[hsl(30,40%,15%)]/30 via-transparent to-[hsl(30,40%,15%)]/30" />
 
       <div className="relative z-10 h-full flex flex-col">
         {/* Header */}
@@ -92,9 +92,9 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                 d={pathD}
                 fill="none"
                 stroke="hsl(43,75%,55%)"
-                strokeWidth="0.4"
-                strokeOpacity="0.25"
-                strokeDasharray="1.5 1"
+                strokeWidth="0.3"
+                strokeOpacity="0.35"
+                strokeDasharray="1.2 0.8"
               />
             </svg>
 
@@ -112,7 +112,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: i * 0.03, duration: 0.4 }}
-                  className="absolute flex items-center"
+                  className="absolute flex flex-col items-center"
                   style={{
                     left: `${node.x}%`,
                     top: `${node.y}vh`,
@@ -121,14 +121,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                 >
                   {/* Category label */}
                   {isNewCategory && (
-                    <div
-                      className="absolute whitespace-nowrap font-display text-[10px] tracking-widest uppercase text-gold/40"
-                      style={{
-                        top: "-18px",
-                        left: "50%",
-                        transform: "translateX(-50%)",
-                      }}
-                    >
+                    <div className="absolute whitespace-nowrap font-display text-[9px] tracking-widest uppercase text-gold/50 -top-5">
                       {story.category}
                     </div>
                   )}
@@ -137,14 +130,14 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                   <button
                     onClick={() => playable && onSelectStory(story)}
                     disabled={!playable}
-                    className={`relative flex items-center justify-center w-12 h-12 rounded-full border-2 transition-all backdrop-blur-sm ${
+                    className={`relative flex items-center justify-center w-11 h-11 rounded-full border-2 transition-all backdrop-blur-sm ${
                       completed
-                        ? "border-eden bg-eden/40 shadow-[0_0_16px_hsl(140,30%,30%,0.5)]"
+                        ? "border-eden bg-eden/40 shadow-[0_0_14px_hsl(140,30%,30%,0.5)]"
                         : playable
-                        ? "border-gold bg-gold/30 shadow-[0_0_16px_hsl(43,75%,55%,0.4)] cursor-pointer hover:scale-110 hover:shadow-[0_0_24px_hsl(43,75%,55%,0.6)]"
+                        ? "border-gold bg-gold/25 shadow-[0_0_14px_hsl(43,75%,55%,0.4)] cursor-pointer hover:scale-110 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.6)]"
                         : unlocked && !story.hasContent
-                        ? "border-muted-foreground/30 bg-black/30 opacity-50 cursor-not-allowed"
-                        : "border-muted-foreground/20 bg-black/20 opacity-30 cursor-not-allowed"
+                        ? "border-muted-foreground/30 bg-black/20 opacity-50 cursor-not-allowed"
+                        : "border-muted-foreground/20 bg-black/15 opacity-30 cursor-not-allowed"
                     }`}
                   >
                     {completed ? (
@@ -155,33 +148,26 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                       <Lock className="w-3 h-3 text-muted-foreground" />
                     )}
 
-                    {/* Pulse ring for playable */}
                     {playable && !completed && (
-                      <span className="absolute inset-0 rounded-full border border-gold/40 animate-ping" />
+                      <span className="absolute inset-0 rounded-full border border-gold/30 animate-ping" />
                     )}
                   </button>
 
                   {/* Story label */}
-                  <div
-                    className={`absolute whitespace-nowrap ${
-                      node.x > 50 ? "right-full mr-3" : "left-full ml-3"
+                  <span
+                    className={`mt-1.5 whitespace-nowrap font-display text-[10px] tracking-wider drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)] ${
+                      completed
+                        ? "text-eden-light"
+                        : playable
+                        ? "text-gold"
+                        : "text-muted-foreground/50"
                     }`}
                   >
-                    <span
-                      className={`font-display text-[11px] tracking-wider drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)] ${
-                        completed
-                          ? "text-eden-light"
-                          : playable
-                          ? "text-gold"
-                          : "text-muted-foreground/60"
-                      }`}
-                    >
-                      {story.number}. {story.title}
-                    </span>
-                    {unlocked && !story.hasContent && (
-                      <p className="font-body text-[10px] text-muted-foreground/40 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">Coming soon</p>
-                    )}
-                  </div>
+                    {story.number}. {story.title}
+                  </span>
+                  {unlocked && !story.hasContent && (
+                    <span className="font-body text-[9px] text-muted-foreground/40 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">Coming soon</span>
+                  )}
                 </motion.div>
               );
             })}
