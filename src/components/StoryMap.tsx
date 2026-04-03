@@ -74,7 +74,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
-          <h2 className="font-display text-lg tracking-widest uppercase text-gold">
+          <h2 className="font-display text-xl tracking-widest uppercase text-gold drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
             {title}
           </h2>
         </div>
@@ -121,7 +121,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                 >
                   {/* Category label */}
                   {isNewCategory && (
-                    <div className="absolute whitespace-nowrap font-display text-[9px] tracking-widest uppercase text-gold/50 -top-5">
+                    <div className="absolute whitespace-nowrap font-display text-xs tracking-widest uppercase text-gold/70 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] -top-6">
                       {story.category}
                     </div>
                   )}
@@ -130,14 +130,14 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                   <button
                     onClick={() => playable && onSelectStory(story)}
                     disabled={!playable}
-                    className={`relative flex items-center justify-center w-11 h-11 rounded-full border-2 transition-all backdrop-blur-sm ${
+                    className={`relative flex items-center justify-center w-12 h-12 rounded-full border-2 transition-all backdrop-blur-sm ${
                       completed
                         ? "border-eden bg-eden/40 shadow-[0_0_14px_hsl(140,30%,30%,0.5)]"
                         : playable
                         ? "border-gold bg-gold/25 shadow-[0_0_14px_hsl(43,75%,55%,0.4)] cursor-pointer hover:scale-110 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.6)]"
                         : unlocked && !story.hasContent
-                        ? "border-muted-foreground/30 bg-black/20 opacity-50 cursor-not-allowed"
-                        : "border-muted-foreground/20 bg-black/15 opacity-30 cursor-not-allowed"
+                        ? "border-muted-foreground/40 bg-black/25 opacity-60 cursor-not-allowed"
+                        : "border-muted-foreground/30 bg-black/20 opacity-40 cursor-not-allowed"
                     }`}
                   >
                     {completed ? (
@@ -155,18 +155,18 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
 
                   {/* Story label */}
                   <span
-                    className={`mt-1.5 whitespace-nowrap font-display text-[10px] tracking-wider drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)] ${
+                    className={`mt-2 whitespace-nowrap font-display text-[13px] font-semibold tracking-wide drop-shadow-[0_1px_4px_rgba(0,0,0,0.95)] ${
                       completed
                         ? "text-eden-light"
                         : playable
                         ? "text-gold"
-                        : "text-muted-foreground/50"
+                        : "text-muted-foreground/70"
                     }`}
                   >
                     {story.number}. {story.title}
                   </span>
                   {unlocked && !story.hasContent && (
-                    <span className="font-body text-[9px] text-muted-foreground/40 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">Coming soon</span>
+                    <span className="font-body text-[11px] text-muted-foreground/50 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">Coming soon</span>
                   )}
                 </motion.div>
               );
