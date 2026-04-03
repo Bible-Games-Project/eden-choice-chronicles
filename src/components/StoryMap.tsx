@@ -155,18 +155,18 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
 
                   {/* Story label */}
                   <span
-                    className={`mt-1.5 whitespace-nowrap font-display text-[10px] tracking-wider drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)] ${
+                    className={`mt-2 whitespace-nowrap font-display text-[13px] font-semibold tracking-wide drop-shadow-[0_1px_4px_rgba(0,0,0,0.95)] ${
                       completed
                         ? "text-eden-light"
                         : playable
                         ? "text-gold"
-                        : "text-muted-foreground/50"
+                        : "text-muted-foreground/70"
                     }`}
                   >
                     {story.number}. {story.title}
                   </span>
                   {unlocked && !story.hasContent && (
-                    <span className="font-body text-[9px] text-muted-foreground/40 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">Coming soon</span>
+                    <span className="font-body text-[11px] text-muted-foreground/50 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">Coming soon</span>
                   )}
                 </motion.div>
               );
