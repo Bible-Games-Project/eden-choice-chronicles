@@ -130,14 +130,14 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                   <button
                     onClick={() => playable && onSelectStory(story)}
                     disabled={!playable}
-                    className={`relative flex items-center justify-center w-11 h-11 rounded-full border-2 transition-all backdrop-blur-sm ${
+                    className={`relative flex items-center justify-center w-12 h-12 rounded-full border-2 transition-all backdrop-blur-sm ${
                       completed
                         ? "border-eden bg-eden/40 shadow-[0_0_14px_hsl(140,30%,30%,0.5)]"
                         : playable
                         ? "border-gold bg-gold/25 shadow-[0_0_14px_hsl(43,75%,55%,0.4)] cursor-pointer hover:scale-110 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.6)]"
                         : unlocked && !story.hasContent
-                        ? "border-muted-foreground/30 bg-black/20 opacity-50 cursor-not-allowed"
-                        : "border-muted-foreground/20 bg-black/15 opacity-30 cursor-not-allowed"
+                        ? "border-muted-foreground/40 bg-black/25 opacity-60 cursor-not-allowed"
+                        : "border-muted-foreground/30 bg-black/20 opacity-40 cursor-not-allowed"
                     }`}
                   >
                     {completed ? (
