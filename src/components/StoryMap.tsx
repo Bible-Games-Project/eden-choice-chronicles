@@ -121,7 +121,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                 >
                   {/* Category label */}
                   {isNewCategory && (
-                    <div className="absolute whitespace-nowrap font-display text-[9px] tracking-widest uppercase text-gold/50 -top-5">
+                    <div className="absolute whitespace-nowrap font-display text-xs tracking-widest uppercase text-gold/70 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] -top-6">
                       {story.category}
                     </div>
                   )}
