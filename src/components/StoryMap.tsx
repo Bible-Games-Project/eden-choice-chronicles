@@ -74,7 +74,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
-          <h2 className="font-display text-lg tracking-widest uppercase text-gold">
+          <h2 className="font-display text-xl tracking-widest uppercase text-gold drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
             {title}
           </h2>
         </div>
