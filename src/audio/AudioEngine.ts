@@ -1,11 +1,12 @@
 // Web Audio API-based music engine
-// Generates continuous instrumental piano-like compositions that loop seamlessly.
+// Generates continuous instrumental piano compositions with melody, harmony, bass, and pads.
 
 export interface MusicConfig {
   bpm: number;
-  scale: number[]; // frequencies
-  chordProgression: number[][]; // arrays of scale indices per chord
-  bassNotes?: number[]; // bass frequencies
+  scale: number[];
+  chordProgression: number[][];
+  bassNotes?: number[];
+  melodyPattern?: number[];
   style: "arpeggiate" | "flowing";
 }
 
@@ -22,16 +23,34 @@ class AudioEngine {
   private currentChordIdx = 0;
   private currentNoteInChord = 0;
   private beatCount = 0;
+  private reverbNode: ConvolverNode | null = null;
 
   private getCtx(): AudioContext {
     if (!this.ctx) {
       this.ctx = new AudioContext();
       this.masterGain = this.ctx.createGain();
-      this.masterGain.gain.value = 0.25;
+      this.masterGain.gain.value = 0.3;
       this.masterGain.connect(this.ctx.destination);
+      this.reverbNode = this.createReverb(this.ctx);
+      this.reverbNode.connect(this.masterGain);
     }
     if (this.ctx.state === "suspended") this.ctx.resume();
     return this.ctx;
+  }
+
+  private createReverb(ctx: AudioContext): ConvolverNode {
+    const convolver = ctx.createConvolver();
+    const rate = ctx.sampleRate;
+    const length = rate * 2.5;
+    const impulse = ctx.createBuffer(2, length, rate);
+    for (let ch = 0; ch < 2; ch++) {
+      const data = impulse.getChannelData(ch);
+      for (let i = 0; i < length; i++) {
+        data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / length, 2.5);
+      }
+    }
+    convolver.buffer = impulse;
+    return convolver;
   }
 
   private scheduleNote(
@@ -41,34 +60,52 @@ class AudioEngine {
     time: number,
     duration: number,
     volume: number,
-    type: OscillatorType = "sine"
+    type: OscillatorType = "sine",
+    useReverb = false
   ) {
     const osc = ctx.createOscillator();
+    const osc2 = ctx.createOscillator();
     const env = ctx.createGain();
     const filter = ctx.createBiquadFilter();
 
     osc.type = type;
     osc.frequency.value = freq;
+    osc2.type = "sine";
+    osc2.frequency.value = freq * 1.001; // slight detune for richness
 
     filter.type = "lowpass";
-    filter.frequency.value = 2000;
-    filter.Q.value = 0.7;
+    filter.frequency.value = 2500;
+    filter.Q.value = 0.5;
 
-    // Piano-like envelope: quick attack, sustain, gentle release
-    const attack = 0.02;
-    const release = duration * 0.4;
+    const attack = 0.015;
+    const decay = duration * 0.15;
+    const sustain = volume * 0.7;
+    const release = duration * 0.35;
+
     env.gain.setValueAtTime(0, time);
     env.gain.linearRampToValueAtTime(volume, time + attack);
-    env.gain.setValueAtTime(volume, time + duration - release);
+    env.gain.linearRampToValueAtTime(sustain, time + attack + decay);
+    env.gain.setValueAtTime(sustain, time + duration - release);
     env.gain.exponentialRampToValueAtTime(0.001, time + duration);
 
     osc.connect(filter);
+    osc2.connect(filter);
     filter.connect(env);
     env.connect(dest);
-    osc.start(time);
-    osc.stop(time + duration + 0.05);
 
-    this.activeNodes.push(osc);
+    if (useReverb && this.reverbNode) {
+      const reverbSend = ctx.createGain();
+      reverbSend.gain.value = 0.3;
+      env.connect(reverbSend);
+      reverbSend.connect(this.reverbNode);
+    }
+
+    osc.start(time);
+    osc2.start(time);
+    osc.stop(time + duration + 0.05);
+    osc2.stop(time + duration + 0.05);
+
+    this.activeNodes.push(osc, osc2);
   }
 
   private scheduleBassNote(
@@ -80,64 +117,79 @@ class AudioEngine {
   ) {
     const osc = ctx.createOscillator();
     const env = ctx.createGain();
+    const filter = ctx.createBiquadFilter();
 
     osc.type = "triangle";
     osc.frequency.value = freq;
 
+    filter.type = "lowpass";
+    filter.frequency.value = 400;
+
     env.gain.setValueAtTime(0, time);
-    env.gain.linearRampToValueAtTime(0.06, time + 0.05);
-    env.gain.setValueAtTime(0.06, time + duration * 0.6);
+    env.gain.linearRampToValueAtTime(0.07, time + 0.06);
+    env.gain.setValueAtTime(0.07, time + duration * 0.5);
     env.gain.exponentialRampToValueAtTime(0.001, time + duration);
 
-    osc.connect(env);
+    osc.connect(filter);
+    filter.connect(env);
     env.connect(dest);
     osc.start(time);
     osc.stop(time + duration + 0.05);
     this.activeNodes.push(osc);
   }
 
-  private schedulePadNote(
+  private schedulePadChord(
     ctx: AudioContext,
     dest: GainNode,
-    freq: number,
+    freqs: number[],
     time: number,
     duration: number
   ) {
-    // Soft sustained pad for warmth
-    const osc = ctx.createOscillator();
-    const osc2 = ctx.createOscillator();
-    const env = ctx.createGain();
-    const filter = ctx.createBiquadFilter();
+    freqs.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const osc2 = ctx.createOscillator();
+      const env = ctx.createGain();
+      const filter = ctx.createBiquadFilter();
 
-    osc.type = "sine";
-    osc.frequency.value = freq;
-    osc2.type = "sine";
-    osc2.frequency.value = freq * 1.002; // slight detune
+      osc.type = "sine";
+      osc.frequency.value = freq * 0.5;
+      osc2.type = "sine";
+      osc2.frequency.value = freq * 0.5 * 1.003;
 
-    filter.type = "lowpass";
-    filter.frequency.value = 800;
+      filter.type = "lowpass";
+      filter.frequency.value = 600;
 
-    env.gain.setValueAtTime(0, time);
-    env.gain.linearRampToValueAtTime(0.015, time + 0.5);
-    env.gain.setValueAtTime(0.015, time + duration - 1);
-    env.gain.linearRampToValueAtTime(0, time + duration);
+      const vol = 0.012;
+      env.gain.setValueAtTime(0, time);
+      env.gain.linearRampToValueAtTime(vol, time + 0.8);
+      env.gain.setValueAtTime(vol, time + duration - 1.5);
+      env.gain.linearRampToValueAtTime(0, time + duration);
 
-    osc.connect(filter);
-    osc2.connect(filter);
-    filter.connect(env);
-    env.connect(dest);
-    osc.start(time);
-    osc2.start(time);
-    osc.stop(time + duration + 0.1);
-    osc2.stop(time + duration + 0.1);
-    this.activeNodes.push(osc, osc2);
+      osc.connect(filter);
+      osc2.connect(filter);
+      filter.connect(env);
+      env.connect(dest);
+
+      if (this.reverbNode) {
+        const send = ctx.createGain();
+        send.gain.value = 0.4;
+        env.connect(send);
+        send.connect(this.reverbNode);
+      }
+
+      osc.start(time);
+      osc2.start(time);
+      osc.stop(time + duration + 0.2);
+      osc2.stop(time + duration + 0.2);
+      this.activeNodes.push(osc, osc2);
+    });
   }
 
   private startMusicLoop(config: MusicConfig) {
     const ctx = this.getCtx();
     const gain = this.activeGain!;
     const beatDuration = 60 / config.bpm;
-    const { scale, chordProgression } = config;
+    const { scale, chordProgression, melodyPattern } = config;
 
     this.nextNoteTime = ctx.currentTime + 0.1;
     this.currentChordIdx = 0;
@@ -150,47 +202,73 @@ class AudioEngine {
     const scheduler = () => {
       if (!this.isPlaying) return;
 
-      while (this.nextNoteTime < ctx.currentTime + 0.3) {
+      while (this.nextNoteTime < ctx.currentTime + 0.4) {
         const chordIndices = chordProgression[this.currentChordIdx % totalChords];
+        const beatInChord = this.currentNoteInChord;
 
         if (config.style === "arpeggiate") {
-          // Arpeggiate through chord tones
-          const noteIdx = chordIndices[this.currentNoteInChord % chordIndices.length];
+          // Rich arpeggio pattern: up, down, up variations
+          const arpeggioPatterns = [
+            [0, 1, 2, 3, 2, 1, 0, 3],
+            [0, 2, 1, 3, 0, 3, 2, 1],
+            [3, 2, 1, 0, 1, 2, 3, 0],
+            [0, 1, 3, 2, 0, 2, 3, 1],
+          ];
+          const patternIdx = this.currentChordIdx % arpeggioPatterns.length;
+          const arpIdx = arpeggioPatterns[patternIdx][beatInChord % 8];
+          const noteIdx = chordIndices[arpIdx % chordIndices.length];
           const freq = scale[noteIdx % scale.length];
           const octaveShift = Math.floor(noteIdx / scale.length);
           const finalFreq = freq * Math.pow(2, octaveShift);
 
-          this.scheduleNote(ctx, gain, finalFreq, this.nextNoteTime, beatDuration * 1.8, 0.08);
+          // Main arpeggio note
+          this.scheduleNote(ctx, gain, finalFreq, this.nextNoteTime, beatDuration * 2, 0.09, "sine", true);
 
-          // Add higher octave echo on every other note
-          if (this.currentNoteInChord % 2 === 0) {
+          // Octave shimmer on beats 1 and 5
+          if (beatInChord === 0 || beatInChord === 4) {
             this.scheduleNote(
               ctx, gain, finalFreq * 2,
-              this.nextNoteTime + beatDuration * 0.5,
-              beatDuration * 1.2, 0.03
+              this.nextNoteTime + beatDuration * 0.33,
+              beatDuration * 1.5, 0.025, "sine", true
             );
           }
+
+          // Ghost note between beats for flow
+          if (beatInChord % 2 === 1) {
+            const ghostIdx = chordIndices[(arpIdx + 1) % chordIndices.length];
+            const ghostFreq = scale[ghostIdx % scale.length] * Math.pow(2, Math.floor(ghostIdx / scale.length));
+            this.scheduleNote(ctx, gain, ghostFreq, this.nextNoteTime + beatDuration * 0.5, beatDuration * 0.8, 0.02, "sine", true);
+          }
         } else {
-          // Flowing style: play chord tones with slight delays
+          // Flowing: staggered chord voicings
           chordIndices.forEach((noteIdx, i) => {
             const freq = scale[noteIdx % scale.length];
-            const delay = i * 0.08;
-            this.scheduleNote(ctx, gain, freq, this.nextNoteTime + delay, beatDuration * 2.5, 0.05);
+            const delay = i * 0.12;
+            this.scheduleNote(ctx, gain, freq, this.nextNoteTime + delay, beatDuration * 3, 0.05, "sine", true);
           });
         }
 
-        // Bass note on beat 1 of each chord
-        if (this.currentNoteInChord === 0 && config.bassNotes) {
+        // Melody line on top
+        if (melodyPattern && beatInChord % 2 === 0) {
+          const melIdx = (this.beatCount / 2) % melodyPattern.length;
+          const melNoteIdx = melodyPattern[Math.floor(melIdx)];
+          if (melNoteIdx >= 0) {
+            const melFreq = scale[melNoteIdx % scale.length] * Math.pow(2, Math.floor(melNoteIdx / scale.length) + 1);
+            this.scheduleNote(ctx, gain, melFreq, this.nextNoteTime + 0.05, beatDuration * 2.5, 0.04, "sine", true);
+          }
+        }
+
+        // Bass on beat 1 and beat 5
+        if ((beatInChord === 0 || beatInChord === 4) && config.bassNotes) {
           const bassFreq = config.bassNotes[this.currentChordIdx % config.bassNotes.length];
-          this.scheduleBassNote(ctx, gain, bassFreq, this.nextNoteTime, beatDuration * beatsPerChord);
+          const bassDur = beatInChord === 0 ? beatDuration * 4 : beatDuration * 3;
+          this.scheduleBassNote(ctx, gain, bassFreq, this.nextNoteTime, bassDur);
         }
 
         // Pad chord on beat 1
-        if (this.currentNoteInChord === 0) {
-          chordIndices.forEach((noteIdx) => {
-            const freq = scale[noteIdx % scale.length];
-            this.schedulePadNote(ctx, gain, freq * 0.5, this.nextNoteTime, beatDuration * beatsPerChord);
-          });
+        if (beatInChord === 0) {
+          const padFreqs = chordIndices.map(idx => scale[idx % scale.length]);
+          this.schedulePadChord(ctx, gain, padFreqs, this.nextNoteTime, beatDuration * beatsPerChord);
         }
 
         this.currentNoteInChord++;
@@ -203,10 +281,32 @@ class AudioEngine {
         this.beatCount++;
       }
 
-      this.schedulerTimer = window.setTimeout(scheduler, 100);
+      this.schedulerTimer = window.setTimeout(scheduler, 80);
     };
 
     scheduler();
+  }
+
+  // Soft click sound for button feedback
+  playClickSound() {
+    const ctx = this.getCtx();
+    if (!this.masterGain) return;
+
+    const osc = ctx.createOscillator();
+    const env = ctx.createGain();
+
+    osc.type = "sine";
+    osc.frequency.value = 800;
+    osc.frequency.exponentialRampToValueAtTime(1200, ctx.currentTime + 0.03);
+
+    env.gain.setValueAtTime(0, ctx.currentTime);
+    env.gain.linearRampToValueAtTime(0.08, ctx.currentTime + 0.005);
+    env.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.12);
+
+    osc.connect(env);
+    env.connect(this.masterGain);
+    osc.start(ctx.currentTime);
+    osc.stop(ctx.currentTime + 0.15);
   }
 
   play(trackId: string, config: MusicConfig) {
@@ -274,44 +374,50 @@ class AudioEngine {
 
 export const audioEngine = new AudioEngine();
 
-// C major scale frequencies (octave 4)
+// Scales
 const C4 = 261.63, D4 = 293.66, E4 = 329.63, F4 = 349.23, G4 = 392.00, A4 = 440.00, B4 = 493.88;
 const C5 = 523.25, D5 = 587.33, E5 = 659.25;
 
-// Menu: gentle, contemplative piano arpeggios in C major
+// Menu: warm contemplative arpeggios
 export const MENU_AUDIO: MusicConfig = {
-  bpm: 72,
+  bpm: 68,
   scale: [C4, D4, E4, F4, G4, A4, B4, C5, D5, E5],
   chordProgression: [
-    [0, 2, 4, 7],  // C maj (C E G C5)
-    [3, 5, 7, 9],  // F maj (F A C5 E5)
-    [4, 6, 8, 7],  // G (G B D5 C5)
-    [0, 2, 4, 5],  // Am (C E G A)
-    [3, 5, 7, 9],  // F maj
     [0, 2, 4, 7],  // C maj
-    [2, 4, 6, 8],  // Em (E G B D5)
+    [5, 7, 9, 4],  // Am7
+    [3, 5, 7, 9],  // F maj7
     [4, 6, 8, 7],  // G
+    [0, 2, 4, 7],  // C maj
+    [2, 4, 6, 8],  // Em7
+    [3, 5, 7, 9],  // F maj7
+    [4, 7, 0, 2],  // G → C
   ],
-  bassNotes: [C4 / 2, F4 / 2, G4 / 2, A4 / 2, F4 / 2, C4 / 2, E4 / 2, G4 / 2],
+  melodyPattern: [7, 9, 8, 7, 4, 5, 7, 4, 9, 7, 5, 4, 2, 4, 7, 9],
+  bassNotes: [C4 / 2, A4 / 4, F4 / 2, G4 / 2, C4 / 2, E4 / 2, F4 / 2, G4 / 2],
   style: "arpeggiate",
 };
 
-// Creation story: majestic, emotional piano in C major with wonder
+// Creation story: majestic, emotional, spiritual
 export const STORY_AUDIO: Record<string, MusicConfig> = {
   creation: {
-    bpm: 60,
+    bpm: 56,
     scale: [C4, D4, E4, F4, G4, A4, B4, C5, D5, E5],
     chordProgression: [
-      [0, 4, 7, 9],  // C with high E5
-      [5, 7, 9, 4],  // Am7 feel
-      [3, 5, 7, 8],  // F maj7
+      [0, 4, 7, 9],  // C with high color
+      [5, 7, 9, 4],  // Am7
+      [3, 5, 7, 8],  // Fmaj7
+      [0, 2, 7, 9],  // Csus2/add9
+      [2, 4, 7, 9],  // Em add9
+      [3, 5, 0, 4],  // F/C
       [4, 6, 8, 7],  // G
+      [0, 4, 7, 9],  // C resolve
+      [5, 7, 9, 2],  // Am9
+      [3, 7, 9, 4],  // F6
       [0, 2, 4, 7],  // C
-      [2, 5, 7, 9],  // Dm7 feel
-      [3, 5, 7, 8],  // F
-      [4, 7, 9, 0],  // G → C resolution
+      [4, 7, 9, 0],  // G → C
     ],
-    bassNotes: [C4 / 2, A4 / 4, F4 / 2, G4 / 2, C4 / 2, D4 / 2, F4 / 2, G4 / 2],
+    melodyPattern: [9, 7, 4, 7, 9, 8, 7, 5, 4, 2, 4, 7, 9, 7, 5, 4, 0, 2, 4, 5, 7, 9, 8, 7],
+    bassNotes: [C4 / 2, A4 / 4, F4 / 2, C4 / 2, E4 / 2, F4 / 2, G4 / 2, C4 / 2, A4 / 4, F4 / 2, C4 / 2, G4 / 2],
     style: "arpeggiate",
   },
 };
