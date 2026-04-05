@@ -143,9 +143,9 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
 
         {/* ==================== MOBILE LAYOUT (vertical) ==================== */}
         <div className="relative z-20 h-full flex flex-col md:hidden">
-          {/* Top: Text + Buttons */}
-          <div className="flex-shrink-0 px-4 pt-5 pb-2 max-h-[40vh] overflow-y-auto">
-            <div className="w-full max-w-sm mx-auto">
+          {/* Top: Text + Buttons — centered, upper portion */}
+          <div className="flex-shrink-0 px-4 pt-5 pb-2 max-h-[38vh] overflow-y-auto">
+            <div className="w-full max-w-sm mx-auto text-center">
               {renderTextBlock()}
               <div className="mt-3">
                 {renderChoices()}
@@ -153,7 +153,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
             </div>
           </div>
 
-          {/* Bottom: Sprite anchored to bottom-center */}
+          {/* Bottom: Sprite anchored to bottom-center, consistent 65vh */}
           {sprites?.left && (
             <div className="flex-1 relative pointer-events-none">
               <motion.div
@@ -164,21 +164,21 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
                 <img
                   src={sprites.left}
                   alt="Character"
-                  className="h-[60vh] w-auto object-contain object-bottom"
+                  className="h-[65vh] w-auto object-contain object-bottom"
                 />
               </motion.div>
             </div>
           )}
         </div>
 
-        {/* ==================== DESKTOP / TABLET LAYOUT (horizontal) ==================== */}
-        <div className="relative z-20 h-full hidden md:flex">
+        {/* ==================== TABLET LAYOUT (horizontal) ==================== */}
+        <div className="relative z-20 h-full hidden md:flex lg:hidden">
           {/* Left: Sprite anchored to bottom-left */}
           {sprites?.left && (
-            <div className="relative w-[35%] lg:w-[30%] flex-shrink-0 pointer-events-none">
+            <div className="relative w-[35%] flex-shrink-0 pointer-events-none">
               <motion.div
-                key={`sprite-desktop-${title}`}
-                className="absolute bottom-0 left-[8%]"
+                key={`sprite-tablet-${title}`}
+                className="absolute bottom-0 left-[5%]"
                 {...spriteAnimation}
               >
                 <img
@@ -190,9 +190,9 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
             </div>
           )}
 
-          {/* Center: Text + Buttons */}
+          {/* Center: Text + Buttons — truly centered */}
           <div className="flex-1 flex flex-col items-center justify-center px-6">
-            <div className="w-full max-w-md">
+            <div className="w-full max-w-md mx-auto text-center">
               {renderTextBlock()}
               <div className="mt-6">
                 {renderChoices()}
@@ -200,12 +200,59 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
             </div>
           </div>
 
-          {/* Right: Empty space for future characters */}
-          <div className="w-[20%] lg:w-[25%] flex-shrink-0 relative pointer-events-none">
+          {/* Right: reserved space */}
+          <div className="w-[20%] flex-shrink-0 relative pointer-events-none">
             {sprites?.right && (
               <motion.div
-                key={`sprite-right-${title}`}
-                className="absolute bottom-0 right-[8%]"
+                key={`sprite-right-tablet-${title}`}
+                className="absolute bottom-0 right-[5%]"
+                {...spriteAnimation}
+              >
+                <img
+                  src={sprites.right}
+                  alt="Character"
+                  className="h-[60vh] w-auto object-contain object-bottom"
+                />
+              </motion.div>
+            )}
+          </div>
+        </div>
+
+        {/* ==================== DESKTOP LAYOUT (horizontal) ==================== */}
+        <div className="relative z-20 h-full hidden lg:flex">
+          {/* Left: Sprite anchored to bottom-left */}
+          {sprites?.left && (
+            <div className="relative w-[30%] flex-shrink-0 pointer-events-none">
+              <motion.div
+                key={`sprite-desktop-${title}`}
+                className="absolute bottom-0 left-[5%]"
+                {...spriteAnimation}
+              >
+                <img
+                  src={sprites.left}
+                  alt="Character"
+                  className="h-[65vh] w-auto object-contain object-bottom"
+                />
+              </motion.div>
+            </div>
+          )}
+
+          {/* Center: Text + Buttons — truly centered */}
+          <div className="flex-1 flex flex-col items-center justify-center px-6">
+            <div className="w-full max-w-lg mx-auto text-center">
+              {renderTextBlock()}
+              <div className="mt-6">
+                {renderChoices()}
+              </div>
+            </div>
+          </div>
+
+          {/* Right: reserved space for future characters */}
+          <div className="w-[25%] flex-shrink-0 relative pointer-events-none">
+            {sprites?.right && (
+              <motion.div
+                key={`sprite-right-desktop-${title}`}
+                className="absolute bottom-0 right-[5%]"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 0.9, scale: 1, y: [0, -3, 0] }}
                 transition={{
@@ -217,7 +264,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
                 <img
                   src={sprites.right}
                   alt="Character"
-                  className="h-[60vh] w-auto object-contain object-bottom"
+                  className="h-[65vh] w-auto object-contain object-bottom"
                 />
               </motion.div>
             )}
