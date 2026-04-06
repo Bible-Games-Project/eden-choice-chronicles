@@ -132,18 +132,18 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
         <div className="absolute inset-0 bg-foreground/55" />
 
         {/* ==================== MOBILE & TABLET LAYOUT (vertical) ==================== */}
-        <div className="relative z-20 h-full lg:hidden">
-          {/* UI: top portion, centered, scrollable only inside */}
-          <div className="absolute top-0 left-0 right-0 px-4 pt-5 pb-2 z-10 overflow-y-auto" style={{ maxHeight: '38vh' }}>
+        <div className="relative z-20 h-full lg:hidden overflow-hidden">
+          {/* UI: top portion, compact, no scroll */}
+          <div className="absolute top-0 left-0 right-0 px-4 pt-3 pb-1 z-10" style={{ maxHeight: '30vh' }}>
             <div className="w-full max-w-sm mx-auto text-center">
-              {renderTextBlock()}
-              <div className="mt-3">
-                {renderChoices()}
+              {renderTextBlock(true)}
+              <div className="mt-1.5">
+                {renderChoices(true)}
               </div>
             </div>
           </div>
 
-          {/* Sprite: fixed bottom-center, 70vh tall */}
+          {/* Sprite: fixed bottom-center, 75vh tall */}
           {sprites?.left && (
             <motion.div
               key={`sprite-mobile-${title}`}
@@ -158,7 +158,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
               <img
                 src={sprites.left}
                 alt="Character"
-                style={{ height: '70vh', width: 'auto' }}
+                style={{ height: '75vh', width: 'auto' }}
                 className="object-contain object-bottom"
               />
             </motion.div>
