@@ -120,7 +120,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="fixed inset-0"
+        className="fixed inset-0 overflow-hidden"
       >
         {/* Background */}
         {backgroundImage && (
@@ -131,10 +131,10 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
         )}
         <div className="absolute inset-0 bg-foreground/55" />
 
-        {/* ==================== MOBILE LAYOUT (vertical) ==================== */}
-        <div className="relative z-20 h-full md:hidden">
-          {/* UI: top portion, centered */}
-          <div className="absolute top-0 left-0 right-0 px-4 pt-5 pb-2 z-10" style={{ maxHeight: '38vh', overflowY: 'auto' }}>
+        {/* ==================== MOBILE & TABLET LAYOUT (vertical) ==================== */}
+        <div className="relative z-20 h-full lg:hidden">
+          {/* UI: top portion, centered, scrollable only inside */}
+          <div className="absolute top-0 left-0 right-0 px-4 pt-5 pb-2 z-10 overflow-y-auto" style={{ maxHeight: '38vh' }}>
             <div className="w-full max-w-sm mx-auto text-center">
               {renderTextBlock()}
               <div className="mt-3">
@@ -143,7 +143,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
             </div>
           </div>
 
-          {/* Sprite: fixed bottom-center, 65vh tall */}
+          {/* Sprite: fixed bottom-center, 70vh tall */}
           {sprites?.left && (
             <motion.div
               key={`sprite-mobile-${title}`}
@@ -158,61 +158,11 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
               <img
                 src={sprites.left}
                 alt="Character"
-                style={{ height: '65vh', width: 'auto' }}
+                style={{ height: '70vh', width: 'auto' }}
                 className="object-contain object-bottom"
               />
             </motion.div>
           )}
-        </div>
-
-        {/* ==================== TABLET LAYOUT (horizontal) ==================== */}
-        <div className="relative z-20 h-full hidden md:block lg:hidden">
-          {/* Sprite: fixed bottom-left */}
-          {sprites?.left && (
-            <motion.div
-              key={`sprite-tablet-${title}`}
-              className="absolute pointer-events-none"
-              style={{
-                bottom: 0,
-                left: '5%',
-              }}
-              {...spriteMotion}
-            >
-              <img
-                src={sprites.left}
-                alt="Character"
-                style={{ height: '65vh', width: 'auto' }}
-                className="object-contain object-bottom"
-              />
-            </motion.div>
-          )}
-
-          {/* Right sprite if present */}
-          {sprites?.right && (
-            <motion.div
-              key={`sprite-right-tablet-${title}`}
-              className="absolute pointer-events-none"
-              style={{ bottom: 0, right: '5%' }}
-              {...spriteMotion}
-            >
-              <img
-                src={sprites.right}
-                alt="Character"
-                style={{ height: '60vh', width: 'auto' }}
-                className="object-contain object-bottom"
-              />
-            </motion.div>
-          )}
-
-          {/* UI: centered in viewport */}
-          <div className="absolute inset-0 flex items-center justify-center px-6">
-            <div className="w-full max-w-md mx-auto text-center">
-              {renderTextBlock()}
-              <div className="mt-6">
-                {renderChoices()}
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* ==================== DESKTOP LAYOUT (horizontal) ==================== */}
