@@ -25,29 +25,29 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
     onComplete();
   }, [onComplete]);
 
-  const renderTextBlock = () => (
+  const renderTextBlock = (compact = false) => (
     <motion.div
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}
       className="text-center"
     >
-      <div className="mb-1.5">
+      <div className={compact ? "mb-0.5" : "mb-1.5"}>
         <span className="text-xs font-display tracking-widest uppercase text-gold-glow/80">
           Step {stepCount}
         </span>
       </div>
-      <h2 className="font-display text-lg md:text-2xl text-center mb-2 text-primary-foreground tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
+      <h2 className={`font-display text-center text-primary-foreground tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] ${compact ? 'text-sm mb-1' : 'text-lg md:text-2xl mb-2'}`}>
         {title}
       </h2>
-      <div className="flex items-center justify-center gap-3 mb-2">
+      <div className={`flex items-center justify-center gap-3 ${compact ? 'mb-1' : 'mb-2'}`}>
         <div className="h-px w-8 bg-gold" />
         <div className="w-1.5 h-1.5 rotate-45 bg-gold" />
         <div className="h-px w-8 bg-gold" />
       </div>
-      <div className="mb-1">
+      <div className={compact ? "" : "mb-1"}>
         {textLines.map((line, i) => (
-          <p key={i} className="font-body text-base md:text-xl leading-relaxed text-primary-foreground/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)]">
+          <p key={i} className={`font-body leading-snug text-primary-foreground/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] ${compact ? 'text-xs' : 'text-base md:text-xl leading-relaxed'}`}>
             {line}
           </p>
         ))}
