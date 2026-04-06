@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback } from "react";
 import MainMenu from "@/components/MainMenu";
 import StoryMap from "@/components/StoryMap";
 import GameScene from "@/components/GameScene";
@@ -7,8 +7,6 @@ import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories
 import { creationScenes, StoryChoice } from "@/data/stories/creation";
 import { creationImages } from "@/data/stories/creationImages";
 import { creationSprites, SpriteConfig } from "@/data/creationSprites";
-import { useSceneAudio } from "@/hooks/useSceneAudio";
-import { MENU_AUDIO, STORY_AUDIO, type MusicConfig } from "@/audio/AudioEngine";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
 
@@ -28,19 +26,6 @@ const Index = () => {
   const [currentSceneId, setCurrentSceneId] = useState("start");
   const [stepCount, setStepCount] = useState(1);
   const progress = useGameProgress();
-
-  // Audio: one track for menu screens, one track per story
-  const isMenuScreen = screen === "menu" || screen === "map_ot" || screen === "map_nt";
-  const isPlaying = screen === "playing";
-
-  const audioTrackId = isMenuScreen ? "menu" : isPlaying && currentStory ? `story_${currentStory.id}` : "";
-  const audioConfig = isMenuScreen
-    ? MENU_AUDIO
-    : isPlaying && currentStory
-    ? STORY_AUDIO[currentStory.id] || STORY_AUDIO.creation
-    : null;
-
-  useSceneAudio(audioTrackId, !!audioTrackId, audioConfig);
 
   const handleSelectStory = useCallback((story: StoryMeta) => {
     setCurrentStory(story);

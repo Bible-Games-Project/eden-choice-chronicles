@@ -1,6 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { StoryChoice } from "@/data/stories/creation";
-import { audioEngine } from "@/audio/AudioEngine";
 import { useCallback } from "react";
 
 interface GameSceneProps {
@@ -15,30 +14,14 @@ interface GameSceneProps {
   sprites?: { left?: string; right?: string };
 }
 
-const spriteAnimation = {
-  initial: { opacity: 0, scale: 0.95 },
-  animate: {
-    opacity: 0.95,
-    scale: 1,
-    y: [0, -3, 0],
-  },
-  transition: {
-    opacity: { duration: 0.8, ease: "easeOut" as const },
-    scale: { duration: 1, ease: "easeOut" as const },
-    y: { duration: 4, ease: "easeInOut" as const, repeat: Infinity, repeatType: "reverse" as const, delay: 1 },
-  },
-};
-
 const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites }: GameSceneProps) => {
   const textLines = text.split("\n");
 
   const handleChoice = useCallback((choice: StoryChoice) => {
-    audioEngine.playClickSound();
     onChoice(choice);
   }, [onChoice]);
 
   const handleComplete = useCallback(() => {
-    audioEngine.playClickSound();
     onComplete();
   }, [onComplete]);
 
@@ -122,6 +105,13 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
     </motion.div>
   );
 
+  // Shared sprite idle animation (subtle breathing only, no repositioning)
+  const spriteMotion = {
+    initial: { opacity: 0 },
+    animate: { opacity: 1 },
+    transition: { duration: 0.8, ease: "easeOut" as const },
+  };
+
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -142,9 +132,9 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
         <div className="absolute inset-0 bg-foreground/55" />
 
         {/* ==================== MOBILE LAYOUT (vertical) ==================== */}
-        <div className="relative z-20 h-full flex flex-col md:hidden">
-          {/* Top: Text + Buttons — centered, upper portion */}
-          <div className="flex-shrink-0 px-4 pt-5 pb-2 max-h-[38vh] overflow-y-auto">
+        <div className="relative z-20 h-full md:hidden">
+          {/* UI: top portion, centered */}
+          <div className="absolute top-0 left-0 right-0 px-4 pt-5 pb-2 z-10" style={{ maxHeight: '38vh', overflowY: 'auto' }}>
             <div className="w-full max-w-sm mx-auto text-center">
               {renderTextBlock()}
               <div className="mt-3">
@@ -153,45 +143,69 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
             </div>
           </div>
 
-          {/* Bottom: Sprite anchored to bottom-center, consistent 65vh */}
+          {/* Sprite: fixed bottom-center, 65vh tall */}
           {sprites?.left && (
-            <div className="flex-1 relative pointer-events-none">
-              <motion.div
-                key={`sprite-mobile-${title}`}
-                className="absolute bottom-0 left-1/2 -translate-x-1/2"
-                {...spriteAnimation}
-              >
-                <img
-                  src={sprites.left}
-                  alt="Character"
-                  className="h-[65vh] w-auto object-contain object-bottom"
-                />
-              </motion.div>
-            </div>
+            <motion.div
+              key={`sprite-mobile-${title}`}
+              className="absolute pointer-events-none"
+              style={{
+                bottom: 0,
+                left: '50%',
+                transform: 'translateX(-50%)',
+              }}
+              {...spriteMotion}
+            >
+              <img
+                src={sprites.left}
+                alt="Character"
+                style={{ height: '65vh', width: 'auto' }}
+                className="object-contain object-bottom"
+              />
+            </motion.div>
           )}
         </div>
 
         {/* ==================== TABLET LAYOUT (horizontal) ==================== */}
-        <div className="relative z-20 h-full hidden md:flex lg:hidden">
-          {/* Left: Sprite anchored to bottom-left */}
+        <div className="relative z-20 h-full hidden md:block lg:hidden">
+          {/* Sprite: fixed bottom-left */}
           {sprites?.left && (
-            <div className="relative w-[35%] flex-shrink-0 pointer-events-none">
-              <motion.div
-                key={`sprite-tablet-${title}`}
-                className="absolute bottom-0 left-[5%]"
-                {...spriteAnimation}
-              >
-                <img
-                  src={sprites.left}
-                  alt="Character"
-                  className="h-[65vh] w-auto object-contain object-bottom"
-                />
-              </motion.div>
-            </div>
+            <motion.div
+              key={`sprite-tablet-${title}`}
+              className="absolute pointer-events-none"
+              style={{
+                bottom: 0,
+                left: '5%',
+              }}
+              {...spriteMotion}
+            >
+              <img
+                src={sprites.left}
+                alt="Character"
+                style={{ height: '65vh', width: 'auto' }}
+                className="object-contain object-bottom"
+              />
+            </motion.div>
           )}
 
-          {/* Center: Text + Buttons — truly centered */}
-          <div className="flex-1 flex flex-col items-center justify-center px-6">
+          {/* Right sprite if present */}
+          {sprites?.right && (
+            <motion.div
+              key={`sprite-right-tablet-${title}`}
+              className="absolute pointer-events-none"
+              style={{ bottom: 0, right: '5%' }}
+              {...spriteMotion}
+            >
+              <img
+                src={sprites.right}
+                alt="Character"
+                style={{ height: '60vh', width: 'auto' }}
+                className="object-contain object-bottom"
+              />
+            </motion.div>
+          )}
+
+          {/* UI: centered in viewport */}
+          <div className="absolute inset-0 flex items-center justify-center px-6">
             <div className="w-full max-w-md mx-auto text-center">
               {renderTextBlock()}
               <div className="mt-6">
@@ -199,75 +213,55 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
               </div>
             </div>
           </div>
-
-          {/* Right: reserved space */}
-          <div className="w-[20%] flex-shrink-0 relative pointer-events-none">
-            {sprites?.right && (
-              <motion.div
-                key={`sprite-right-tablet-${title}`}
-                className="absolute bottom-0 right-[5%]"
-                {...spriteAnimation}
-              >
-                <img
-                  src={sprites.right}
-                  alt="Character"
-                  className="h-[60vh] w-auto object-contain object-bottom"
-                />
-              </motion.div>
-            )}
-          </div>
         </div>
 
         {/* ==================== DESKTOP LAYOUT (horizontal) ==================== */}
-        <div className="relative z-20 h-full hidden lg:flex">
-          {/* Left: Sprite anchored to bottom-left */}
+        <div className="relative z-20 h-full hidden lg:block">
+          {/* Sprite: fixed bottom-left */}
           {sprites?.left && (
-            <div className="relative w-[30%] flex-shrink-0 pointer-events-none">
-              <motion.div
-                key={`sprite-desktop-${title}`}
-                className="absolute bottom-0 left-[5%]"
-                {...spriteAnimation}
-              >
-                <img
-                  src={sprites.left}
-                  alt="Character"
-                  className="h-[65vh] w-auto object-contain object-bottom"
-                />
-              </motion.div>
-            </div>
+            <motion.div
+              key={`sprite-desktop-${title}`}
+              className="absolute pointer-events-none"
+              style={{
+                bottom: 0,
+                left: '5%',
+              }}
+              {...spriteMotion}
+            >
+              <img
+                src={sprites.left}
+                alt="Character"
+                style={{ height: '65vh', width: 'auto' }}
+                className="object-contain object-bottom"
+              />
+            </motion.div>
           )}
 
-          {/* Center: Text + Buttons — truly centered */}
-          <div className="flex-1 flex flex-col items-center justify-center px-6">
+          {/* Right sprite if present */}
+          {sprites?.right && (
+            <motion.div
+              key={`sprite-right-desktop-${title}`}
+              className="absolute pointer-events-none"
+              style={{ bottom: 0, right: '5%' }}
+              {...spriteMotion}
+            >
+              <img
+                src={sprites.right}
+                alt="Character"
+                style={{ height: '65vh', width: 'auto' }}
+                className="object-contain object-bottom"
+              />
+            </motion.div>
+          )}
+
+          {/* UI: centered in viewport */}
+          <div className="absolute inset-0 flex items-center justify-center px-6">
             <div className="w-full max-w-lg mx-auto text-center">
               {renderTextBlock()}
               <div className="mt-6">
                 {renderChoices()}
               </div>
             </div>
-          </div>
-
-          {/* Right: reserved space for future characters */}
-          <div className="w-[25%] flex-shrink-0 relative pointer-events-none">
-            {sprites?.right && (
-              <motion.div
-                key={`sprite-right-desktop-${title}`}
-                className="absolute bottom-0 right-[5%]"
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 0.9, scale: 1, y: [0, -3, 0] }}
-                transition={{
-                  opacity: { duration: 0.8, ease: "easeOut" },
-                  scale: { duration: 1, ease: "easeOut" },
-                  y: { duration: 5, ease: "easeInOut", repeat: Infinity, repeatType: "reverse", delay: 1.2 },
-                }}
-              >
-                <img
-                  src={sprites.right}
-                  alt="Character"
-                  className="h-[65vh] w-auto object-contain object-bottom"
-                />
-              </motion.div>
-            )}
           </div>
         </div>
       </motion.div>
