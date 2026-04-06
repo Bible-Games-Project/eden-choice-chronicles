@@ -55,14 +55,14 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
     </motion.div>
   );
 
-  const renderChoices = () => (
+  const renderChoices = (compact = false) => (
     <motion.div
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.3 }}
     >
       {!isFinal ? (
-        <div className="flex flex-col gap-2">
+        <div className={`flex flex-col ${compact ? 'gap-1' : 'gap-2'}`}>
           {choices.map((choice, i) => (
             <motion.button
               key={i}
@@ -71,12 +71,12 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
               transition={{ delay: 0.4 + i * 0.1 }}
               onClick={() => handleChoice(choice)}
               whileTap={{ scale: 0.97 }}
-              className="group w-full text-center px-4 py-2.5 rounded-lg border border-gold/30 bg-foreground/70 backdrop-blur-sm hover:bg-gold/20 hover:border-gold transition-all duration-300 cursor-pointer"
+              className={`group w-full text-center rounded-lg border border-gold/30 bg-foreground/70 backdrop-blur-sm hover:bg-gold/20 hover:border-gold transition-all duration-300 cursor-pointer ${compact ? 'px-3 py-1.5' : 'px-4 py-2.5'}`}
             >
               <span className="font-display text-xs tracking-widest uppercase text-gold mr-2">
                 {String.fromCharCode(65 + i)}.
               </span>
-              <span className="font-body text-sm md:text-lg text-primary-foreground/90 group-hover:text-primary-foreground transition-colors">
+              <span className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${compact ? 'text-xs' : 'text-sm md:text-lg'}`}>
                 {choice.text}
               </span>
             </motion.button>
@@ -87,7 +87,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="flex flex-col items-center gap-4"
+          className={`flex flex-col items-center ${compact ? 'gap-2' : 'gap-4'}`}
         >
           <div className="flex items-center justify-center gap-3">
             <div className="h-px w-14 bg-gold" />
@@ -96,7 +96,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
           </div>
           <button
             onClick={handleComplete}
-            className="font-display text-xs tracking-widest uppercase px-8 py-3 rounded-lg border border-gold text-gold hover:bg-gold hover:text-foreground transition-all duration-300 cursor-pointer"
+            className={`font-display text-xs tracking-widest uppercase rounded-lg border border-gold text-gold hover:bg-gold hover:text-foreground transition-all duration-300 cursor-pointer ${compact ? 'px-6 py-2' : 'px-8 py-3'}`}
           >
             Continue Journey
           </button>
