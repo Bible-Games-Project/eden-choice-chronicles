@@ -14,7 +14,7 @@ interface GameSceneProps {
   sprites?: { left?: string; right?: string };
 }
 
-const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites }: GameSceneProps) => {
+const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites }: GameSceneProps) => {
   const textLines = text.split("\n");
 
   const handleChoice = useCallback((choice: StoryChoice) => {
@@ -27,27 +27,19 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
 
   const renderTextBlock = (compact = false) => (
     <motion.div
-      initial={{ opacity: 0, y: -10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.2 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.7, delay: 0.15 }}
       className="text-center"
     >
-      <div className={compact ? "mb-0.5" : "mb-1.5"}>
-        <span className="text-xs font-display tracking-widest uppercase text-gold-glow/80">
-          Step {stepCount}
-        </span>
-      </div>
-      <h2 className={`font-display text-center text-primary-foreground tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] ${compact ? 'text-sm mb-1' : 'text-lg md:text-2xl mb-2'}`}>
-        {title}
-      </h2>
-      <div className={`flex items-center justify-center gap-3 ${compact ? 'mb-1' : 'mb-2'}`}>
-        <div className="h-px w-8 bg-gold" />
-        <div className="w-1.5 h-1.5 rotate-45 bg-gold" />
-        <div className="h-px w-8 bg-gold" />
-      </div>
-      <div className={compact ? "" : "mb-1"}>
+      <div className={compact ? "mb-2" : "mb-3"}>
         {textLines.map((line, i) => (
-          <p key={i} className={`font-body leading-snug text-primary-foreground/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] ${compact ? 'text-xs' : 'text-base md:text-xl leading-relaxed'}`}>
+          <p
+            key={i}
+            className={`font-body italic text-primary-foreground/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)] leading-relaxed ${
+              compact ? "text-base" : "text-lg md:text-2xl"
+            }`}
+          >
             {line}
           </p>
         ))}
@@ -57,26 +49,29 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
 
   const renderChoices = (compact = false) => (
     <motion.div
-      initial={{ opacity: 0, y: 15 }}
+      initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.3 }}
+      transition={{ duration: 0.5, delay: 0.35 }}
     >
       {!isFinal ? (
-        <div className={`flex flex-col ${compact ? 'gap-1' : 'gap-2'}`}>
+        <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
           {choices.map((choice, i) => (
             <motion.button
               key={i}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               transition={{ delay: 0.4 + i * 0.1 }}
               onClick={() => handleChoice(choice)}
               whileTap={{ scale: 0.97 }}
-              className={`group w-full text-center rounded-lg border border-gold/30 bg-foreground/70 backdrop-blur-sm hover:bg-gold/20 hover:border-gold transition-all duration-300 cursor-pointer ${compact ? 'px-3 py-1.5' : 'px-4 py-2.5'}`}
+              className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
+                compact ? "px-4 py-2" : "px-5 py-3"
+              }`}
             >
-              <span className="font-display text-xs tracking-widest uppercase text-gold mr-2">
-                {String.fromCharCode(65 + i)}.
-              </span>
-              <span className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${compact ? 'text-xs' : 'text-sm md:text-lg'}`}>
+              <span
+                className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                  compact ? "text-sm" : "text-base md:text-lg"
+                }`}
+              >
                 {choice.text}
               </span>
             </motion.button>
@@ -87,16 +82,18 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className={`flex flex-col items-center ${compact ? 'gap-2' : 'gap-4'}`}
+          className={`flex flex-col items-center ${compact ? "gap-3" : "gap-4"}`}
         >
           <div className="flex items-center justify-center gap-3">
-            <div className="h-px w-14 bg-gold" />
-            <span className="font-display text-xs tracking-widest uppercase text-gold">The End</span>
-            <div className="h-px w-14 bg-gold" />
+            <div className="h-px w-10 bg-gold/40" />
+            <div className="w-1.5 h-1.5 rotate-45 bg-gold/60" />
+            <div className="h-px w-10 bg-gold/40" />
           </div>
           <button
             onClick={handleComplete}
-            className={`font-display text-xs tracking-widest uppercase rounded-lg border border-gold text-gold hover:bg-gold hover:text-foreground transition-all duration-300 cursor-pointer ${compact ? 'px-6 py-2' : 'px-8 py-3'}`}
+            className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 cursor-pointer ${
+              compact ? "px-6 py-2" : "px-8 py-3"
+            }`}
           >
             Continue Journey
           </button>
@@ -105,7 +102,6 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
     </motion.div>
   );
 
-  // Shared sprite idle animation (subtle breathing only, no repositioning)
   const spriteMotion = {
     initial: { opacity: 0 },
     animate: { opacity: 1 },
@@ -115,7 +111,7 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        key={title}
+        key={text}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -131,84 +127,70 @@ const GameScene = ({ title, text, choices, isFinal, onChoice, onComplete, stepCo
         )}
         <div className="absolute inset-0 bg-foreground/55" />
 
-        {/* ==================== MOBILE & TABLET LAYOUT (vertical) ==================== */}
+        {/* ==================== MOBILE & TABLET ==================== */}
         <div className="relative z-20 h-full lg:hidden overflow-hidden">
-          {/* UI: top portion, compact, no scroll */}
-          <div className="absolute top-0 left-0 right-0 px-4 pt-3 pb-1 z-10" style={{ maxHeight: '30vh' }}>
+          <div className="absolute top-0 left-0 right-0 px-5 pt-4 pb-1 z-10" style={{ maxHeight: "32vh" }}>
             <div className="w-full max-w-sm mx-auto text-center">
               {renderTextBlock(true)}
-              <div className="mt-1.5">
-                {renderChoices(true)}
-              </div>
+              {renderChoices(true)}
             </div>
           </div>
 
-          {/* Sprite: fixed bottom-center, 75vh tall */}
           {sprites?.left && (
             <motion.div
-              key={`sprite-mobile-${title}`}
+              key={`sprite-mobile-${text}`}
               className="absolute pointer-events-none"
-              style={{
-                bottom: 0,
-                left: '50%',
-                transform: 'translateX(-50%)',
-              }}
+              style={{ bottom: 0, left: "50%", transform: "translateX(-50%)" }}
               {...spriteMotion}
             >
               <img
                 src={sprites.left}
                 alt="Character"
-                style={{ height: '75vh', width: 'auto' }}
+                style={{ height: "75vh", width: "auto" }}
                 className="object-contain object-bottom"
               />
             </motion.div>
           )}
         </div>
 
-        {/* ==================== DESKTOP LAYOUT (horizontal) ==================== */}
+        {/* ==================== DESKTOP ==================== */}
         <div className="relative z-20 h-full hidden lg:block">
-          {/* Sprite: fixed bottom-left */}
           {sprites?.left && (
             <motion.div
-              key={`sprite-desktop-${title}`}
+              key={`sprite-desktop-${text}`}
               className="absolute pointer-events-none"
-              style={{
-                bottom: 0,
-                left: '5%',
-              }}
+              style={{ bottom: 0, left: "5%" }}
               {...spriteMotion}
             >
               <img
                 src={sprites.left}
                 alt="Character"
-                style={{ height: '65vh', width: 'auto' }}
+                style={{ height: "65vh", width: "auto" }}
                 className="object-contain object-bottom"
               />
             </motion.div>
           )}
 
-          {/* Right sprite if present */}
           {sprites?.right && (
             <motion.div
-              key={`sprite-right-desktop-${title}`}
+              key={`sprite-right-desktop-${text}`}
               className="absolute pointer-events-none"
-              style={{ bottom: 0, right: '5%' }}
+              style={{ bottom: 0, right: "5%" }}
               {...spriteMotion}
             >
               <img
                 src={sprites.right}
                 alt="Character"
-                style={{ height: '65vh', width: 'auto' }}
+                style={{ height: "65vh", width: "auto" }}
                 className="object-contain object-bottom"
               />
             </motion.div>
           )}
 
-          {/* UI: centered in viewport */}
           <div className="absolute inset-0 flex items-center justify-center px-6">
             <div className="w-full max-w-lg mx-auto text-center">
               {renderTextBlock()}
-              <div className="mt-6">
+              <div className="mt-4">
                 {renderChoices()}
               </div>
             </div>
