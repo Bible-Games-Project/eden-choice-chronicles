@@ -10,86 +10,166 @@ interface MainMenuProps {
 
 const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress }: MainMenuProps) => {
   return (
-    <div className="fixed inset-0 flex flex-col items-center justify-center bg-foreground">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-foreground via-[hsl(25,30%,20%)] to-foreground" />
+    <div className="fixed inset-0 flex flex-col items-center justify-center overflow-hidden">
+      {/* Layered atmospheric background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[hsl(25,25%,8%)] via-[hsl(30,30%,14%)] to-[hsl(25,20%,6%)]" />
+      {/* Warm radial glow */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(ellipse 60% 50% at 50% 45%, hsl(38,50%,25%,0.3) 0%, transparent 70%)",
+        }}
+      />
+      {/* Subtle parchment texture overlay */}
+      <div
+        className="absolute inset-0 opacity-[0.04]"
+        style={{
+          backgroundImage:
+            "url(\"data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E\")",
+        }}
+      />
+      {/* Vignette */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(ellipse at center, transparent 30%, hsl(25,25%,6%) 100%)",
+        }}
+      />
 
       <motion.div
-        initial={{ opacity: 0, y: 30 }}
+        initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="relative z-10 text-center max-w-sm w-full px-6"
+        transition={{ duration: 1, ease: "easeOut" }}
+        className="relative z-10 text-center max-w-md w-full px-8"
       >
-        {/* Title */}
-        <h1 className="font-display text-3xl md:text-4xl text-gold tracking-wide mb-2">
+        {/* Title with warm glow */}
+        <motion.h1
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2, delay: 0.2 }}
+          className="font-display text-4xl md:text-5xl text-gold tracking-[0.15em] mb-3"
+          style={{
+            textShadow:
+              "0 0 40px hsl(43,75%,55%,0.3), 0 2px 8px rgba(0,0,0,0.8)",
+          }}
+        >
           Bible Journey
-        </h1>
-        <p className="font-body text-base text-primary-foreground/60 mb-10">
-          Walk through the greatest stories ever told.
-        </p>
+        </motion.h1>
 
-        {/* Testament buttons */}
-        <div className="flex flex-col gap-4">
+        {/* Decorative divider */}
+        <motion.div
+          initial={{ opacity: 0, scaleX: 0 }}
+          animate={{ opacity: 1, scaleX: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="flex items-center justify-center gap-3 mb-3"
+        >
+          <div className="h-px w-12 bg-gradient-to-r from-transparent to-gold/50" />
+          <div className="w-1.5 h-1.5 rotate-45 bg-gold/60" />
+          <div className="h-px w-12 bg-gradient-to-l from-transparent to-gold/50" />
+        </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.6 }}
+          className="font-body italic text-lg md:text-xl text-primary-foreground/50 mb-12"
+        >
+          Walk through the greatest stories ever told.
+        </motion.p>
+
+        {/* Testament cards */}
+        <div className="flex flex-col gap-5">
           {/* Old Testament */}
           <motion.button
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.8 }}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => onSelectTestament("old")}
-            className="w-full p-5 rounded-xl border border-gold/30 bg-gold/10 backdrop-blur-sm text-left cursor-pointer transition-all hover:border-gold/60 hover:bg-gold/20"
+            className="group w-full p-6 rounded-2xl border border-gold/20 bg-gradient-to-br from-gold/10 via-gold/5 to-transparent backdrop-blur-sm text-left cursor-pointer transition-all duration-500 hover:border-gold/40 hover:shadow-[0_0_30px_hsl(43,75%,55%,0.1)]"
           >
-            <div className="flex items-center gap-3 mb-2">
-              <BookOpen className="w-5 h-5 text-gold" />
-              <span className="font-display text-sm tracking-widest uppercase text-gold">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 rounded-full border border-gold/30 flex items-center justify-center bg-gold/10 group-hover:bg-gold/20 transition-colors">
+                <BookOpen className="w-4 h-4 text-gold" />
+              </div>
+              <span className="font-display text-base tracking-[0.15em] uppercase text-gold">
                 Old Testament
               </span>
             </div>
-            <p className="font-body text-sm text-primary-foreground/60">
-              {otProgress.completed} / {otProgress.total} stories
+            <p className="font-body text-base text-primary-foreground/50 mb-4 pl-[52px]">
+              {otProgress.completed} of {otProgress.total} stories completed
             </p>
-            <div className="mt-3 h-1.5 w-full rounded-full bg-foreground/50 overflow-hidden">
-              <div
-                className="h-full bg-gold rounded-full transition-all duration-500"
-                style={{ width: `${(otProgress.completed / otProgress.total) * 100}%` }}
+            <div className="ml-[52px] h-1 w-[calc(100%-52px)] rounded-full bg-foreground/40 overflow-hidden">
+              <motion.div
+                className="h-full rounded-full bg-gradient-to-r from-gold/80 to-gold"
+                initial={{ width: 0 }}
+                animate={{
+                  width: `${(otProgress.completed / Math.max(otProgress.total, 1)) * 100}%`,
+                }}
+                transition={{ duration: 1, delay: 1.2 }}
               />
             </div>
           </motion.button>
 
           {/* New Testament */}
           <motion.button
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 1 }}
             whileHover={isNTUnlocked ? { scale: 1.02 } : {}}
             whileTap={isNTUnlocked ? { scale: 0.98 } : {}}
             onClick={() => isNTUnlocked && onSelectTestament("new")}
-            className={`w-full p-5 rounded-xl border text-left transition-all ${
+            className={`group w-full p-6 rounded-2xl border text-left transition-all duration-500 ${
               isNTUnlocked
-                ? "border-gold/30 bg-gold/10 backdrop-blur-sm cursor-pointer hover:border-gold/60 hover:bg-gold/20"
-                : "border-muted-foreground/20 bg-foreground/30 cursor-not-allowed opacity-50"
+                ? "border-gold/20 bg-gradient-to-br from-gold/10 via-gold/5 to-transparent backdrop-blur-sm cursor-pointer hover:border-gold/40 hover:shadow-[0_0_30px_hsl(43,75%,55%,0.1)]"
+                : "border-primary-foreground/10 bg-foreground/20 cursor-not-allowed"
             }`}
           >
-            <div className="flex items-center gap-3 mb-2">
-              {isNTUnlocked ? (
-                <BookOpen className="w-5 h-5 text-gold" />
-              ) : (
-                <Lock className="w-5 h-5 text-muted-foreground" />
-              )}
-              <span className={`font-display text-sm tracking-widest uppercase ${
-                isNTUnlocked ? "text-gold" : "text-muted-foreground"
-              }`}>
+            <div className="flex items-center gap-3 mb-3">
+              <div
+                className={`w-10 h-10 rounded-full border flex items-center justify-center transition-colors ${
+                  isNTUnlocked
+                    ? "border-gold/30 bg-gold/10 group-hover:bg-gold/20"
+                    : "border-primary-foreground/15 bg-foreground/20"
+                }`}
+              >
+                {isNTUnlocked ? (
+                  <BookOpen className="w-4 h-4 text-gold" />
+                ) : (
+                  <Lock className="w-4 h-4 text-primary-foreground/30" />
+                )}
+              </div>
+              <span
+                className={`font-display text-base tracking-[0.15em] uppercase ${
+                  isNTUnlocked ? "text-gold" : "text-primary-foreground/30"
+                }`}
+              >
                 New Testament
               </span>
             </div>
-            <p className={`font-body text-sm ${
-              isNTUnlocked ? "text-primary-foreground/60" : "text-muted-foreground/50"
-            }`}>
+            <p
+              className={`font-body text-base pl-[52px] ${
+                isNTUnlocked
+                  ? "text-primary-foreground/50"
+                  : "text-primary-foreground/25 italic"
+              }`}
+            >
               {isNTUnlocked
-                ? `${ntProgress.completed} / ${ntProgress.total} stories`
-                : "Complete all Old Testament stories to unlock"
-              }
+                ? `${ntProgress.completed} of ${ntProgress.total} stories completed`
+                : "Complete all Old Testament stories to unlock"}
             </p>
             {isNTUnlocked && (
-              <div className="mt-3 h-1.5 w-full rounded-full bg-foreground/50 overflow-hidden">
-                <div
-                  className="h-full bg-gold rounded-full transition-all duration-500"
-                  style={{ width: `${(ntProgress.completed / ntProgress.total) * 100}%` }}
+              <div className="mt-4 ml-[52px] h-1 w-[calc(100%-52px)] rounded-full bg-foreground/40 overflow-hidden">
+                <motion.div
+                  className="h-full rounded-full bg-gradient-to-r from-gold/80 to-gold"
+                  initial={{ width: 0 }}
+                  animate={{
+                    width: `${(ntProgress.completed / Math.max(ntProgress.total, 1)) * 100}%`,
+                  }}
+                  transition={{ duration: 1, delay: 1.4 }}
                 />
               </div>
             )}
