@@ -127,99 +127,112 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         )}
         <div className="absolute inset-0 bg-foreground/55" />
 
-        {/* ==================== MOBILE (phones only) ==================== */}
-        <div className="relative z-20 h-full md:hidden overflow-hidden">
-          <div className="absolute left-0 right-0 px-5 pt-[8vh] pb-1 z-10">
+        {/* ==================== MOBILE ==================== */}
+        <div className="relative z-20 h-full flex flex-col md:hidden overflow-hidden">
+          {/* Zone 1: Text + Buttons — 33% */}
+          <div className="flex-none flex items-center justify-center px-5" style={{ height: '33vh' }}>
             <div className="w-full max-w-xs mx-auto text-center">
               {renderTextBlock(true)}
               {renderChoices(true)}
             </div>
           </div>
-
-          {sprites?.left && (
-            <motion.div
-              key={`sprite-mobile-${text}`}
-              className="absolute pointer-events-none"
-              style={{ bottom: 0, left: "50%", transform: "translateX(-50%)" }}
-              {...spriteMotion}
-            >
-              <img
-                src={sprites.left}
-                alt="Character"
-                style={{ height: "78vh", width: "auto" }}
-                className="object-contain object-bottom"
-              />
-            </motion.div>
-          )}
+          {/* Zone 2: Sprite — 67% */}
+          <div className="relative flex-none overflow-hidden" style={{ height: '67vh' }}>
+            {sprites?.left && (
+              <motion.div
+                key={`sprite-mobile-${text}`}
+                className="absolute pointer-events-none"
+                style={{ bottom: 0, left: '50%', transform: 'translateX(-50%)' }}
+                {...spriteMotion}
+              >
+                <img
+                  src={sprites.left}
+                  alt="Character"
+                  style={{ height: '65vh', width: 'auto' }}
+                  className="object-contain object-bottom"
+                />
+              </motion.div>
+            )}
+          </div>
         </div>
 
         {/* ==================== TABLET ==================== */}
-        <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
-          <div className="absolute left-0 right-0 px-6 pt-4 pb-1 z-10">
+        <div className="relative z-20 h-full hidden md:flex lg:hidden flex-col overflow-hidden">
+          {/* Zone 1: Text + Buttons — 33% */}
+          <div className="flex-none flex items-center justify-center px-6" style={{ height: '33vh' }}>
             <div className="w-full max-w-md mx-auto text-center">
               {renderTextBlock(true)}
               {renderChoices(true)}
             </div>
           </div>
-
-          {sprites?.left && (
-            <motion.div
-              key={`sprite-tablet-${text}`}
-              className="absolute pointer-events-none"
-              style={{ bottom: 0, left: "50%", transform: "translateX(-50%)" }}
-              {...spriteMotion}
-            >
-              <img
-                src={sprites.left}
-                alt="Character"
-                style={{ height: "58vh", width: "auto" }}
-                className="object-contain object-bottom"
-              />
-            </motion.div>
-          )}
+          {/* Zone 2: Sprite — 67% */}
+          <div className="relative flex-none overflow-hidden" style={{ height: '67vh' }}>
+            {sprites?.left && (
+              <motion.div
+                key={`sprite-tablet-${text}`}
+                className="absolute pointer-events-none"
+                style={{ bottom: 0, left: '50%', transform: 'translateX(-50%)' }}
+                {...spriteMotion}
+              >
+                <img
+                  src={sprites.left}
+                  alt="Character"
+                  style={{ height: '58vh', width: 'auto' }}
+                  className="object-contain object-bottom"
+                />
+              </motion.div>
+            )}
+          </div>
         </div>
 
-        {/* ==================== DESKTOP ==================== */}
-        <div className="relative z-20 h-full hidden lg:block">
-          {sprites?.left && (
-            <motion.div
-              key={`sprite-desktop-${text}`}
-              className="absolute pointer-events-none"
-              style={{ bottom: 0, left: "5%" }}
-              {...spriteMotion}
-            >
-              <img
-                src={sprites.left}
-                alt="Character"
-                style={{ height: "65vh", width: "auto" }}
-                className="object-contain object-bottom"
-              />
-            </motion.div>
-          )}
+        {/* ==================== DESKTOP (3 columns) ==================== */}
+        <div className="relative z-20 h-full hidden lg:grid overflow-hidden" style={{ gridTemplateColumns: '1fr minmax(0, 480px) 1fr' }}>
+          {/* Left column: main sprite */}
+          <div className="relative">
+            {sprites?.left && (
+              <motion.div
+                key={`sprite-desktop-${text}`}
+                className="absolute pointer-events-none"
+                style={{ bottom: 0, left: '10%' }}
+                {...spriteMotion}
+              >
+                <img
+                  src={sprites.left}
+                  alt="Character"
+                  style={{ height: '65vh', width: 'auto' }}
+                  className="object-contain object-bottom"
+                />
+              </motion.div>
+            )}
+          </div>
 
-          {sprites?.right && (
-            <motion.div
-              key={`sprite-right-desktop-${text}`}
-              className="absolute pointer-events-none"
-              style={{ bottom: 0, right: "5%" }}
-              {...spriteMotion}
-            >
-              <img
-                src={sprites.right}
-                alt="Character"
-                style={{ height: "65vh", width: "auto" }}
-                className="object-contain object-bottom"
-              />
-            </motion.div>
-          )}
-
-          <div className="absolute inset-0 flex items-center justify-center px-6">
+          {/* Center column: text + buttons */}
+          <div className="flex items-center justify-center px-6">
             <div className="w-full max-w-lg mx-auto text-center">
               {renderTextBlock()}
               <div className="mt-4">
                 {renderChoices()}
               </div>
             </div>
+          </div>
+
+          {/* Right column: optional second sprite */}
+          <div className="relative">
+            {sprites?.right && (
+              <motion.div
+                key={`sprite-right-desktop-${text}`}
+                className="absolute pointer-events-none"
+                style={{ bottom: 0, right: '10%' }}
+                {...spriteMotion}
+              >
+                <img
+                  src={sprites.right}
+                  alt="Character"
+                  style={{ height: '65vh', width: 'auto' }}
+                  className="object-contain object-bottom"
+                />
+              </motion.div>
+            )}
           </div>
         </div>
       </motion.div>
