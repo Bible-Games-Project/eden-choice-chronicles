@@ -128,27 +128,32 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         <div className="absolute inset-0 bg-foreground/55" />
 
         {/* ==================== MOBILE ==================== */}
-        <div className="relative z-20 h-full flex flex-col md:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 33% */}
-          <div className="flex-none flex items-center justify-center px-5" style={{ height: '33vh' }}>
-            <div className="w-full max-w-xs mx-auto text-center">
+        <div className="relative z-20 h-full md:hidden overflow-hidden">
+          {/* Zone 1: Text + Buttons — 35% */}
+          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: '35vh' }}>
+            <div
+              className="absolute left-1/2 w-full max-w-xs px-5 text-center"
+              style={{ top: '30%', transform: 'translateX(-50%)' }}
+            >
               {renderTextBlock(true)}
-              {renderChoices(true)}
+              <div style={{ marginTop: '0.75rem' }}>
+                {renderChoices(true)}
+              </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 67% */}
-          <div className="relative flex-none overflow-hidden" style={{ height: '67vh' }}>
+          {/* Zone 2: Sprite — 65% */}
+          <div className="absolute inset-x-0 bottom-0 overflow-hidden" style={{ height: '65vh' }}>
             {sprites?.left && (
               <motion.div
                 key={`sprite-mobile-${text}`}
                 className="absolute pointer-events-none"
-                style={{ bottom: 0, left: '50%', transform: 'translateX(-50%)' }}
+                style={{ bottom: '2vh', left: '50%', transform: 'translateX(-50%)' }}
                 {...spriteMotion}
               >
                 <img
                   src={sprites.left}
                   alt="Character"
-                  style={{ height: '65vh', width: 'auto' }}
+                  style={{ height: '55vh', width: 'auto' }}
                   className="object-contain object-bottom"
                 />
               </motion.div>
