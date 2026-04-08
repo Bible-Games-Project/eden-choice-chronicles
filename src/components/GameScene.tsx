@@ -37,7 +37,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           <p
             key={i}
             className={`font-body italic text-primary-foreground/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)] leading-snug ${
-              compact ? "text-lg" : "text-lg md:text-2xl"
+              compact ? "text-xl" : "text-lg md:text-2xl"
             }`}
           >
             {line}
@@ -143,14 +143,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-mobile-center-${text}`}
-                className="absolute bottom-0 left-1/2 pointer-events-none flex items-end justify-center"
-                style={{ height: '80%', width: 'auto', transform: 'translateX(-50%)' }}
+                className="absolute bottom-0 inset-x-0 pointer-events-none"
+                style={{ height: '80%' }}
                 {...spriteMotion}
               >
                 <img
                   src={sprites.left}
                   alt="Character"
-                  className="h-full w-auto object-contain object-bottom"
+                  className="w-full h-full object-cover object-bottom"
                 />
               </motion.div>
             )}
@@ -158,26 +158,26 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
               <>
                 <motion.div
                   key={`sprite-mobile-left-${text}`}
-                  className="absolute bottom-0 left-0 pointer-events-none flex items-end justify-center"
+                  className="absolute bottom-0 left-0 pointer-events-none"
                   style={{ width: '50%', height: '80%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="h-full w-auto object-contain object-bottom"
+                    className="w-full h-full object-cover object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-mobile-right-${text}`}
-                  className="absolute bottom-0 right-0 pointer-events-none flex items-end justify-center"
+                  className="absolute bottom-0 right-0 pointer-events-none"
                   style={{ width: '50%', height: '80%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="h-full w-auto object-contain object-bottom"
+                    className="w-full h-full object-cover object-bottom"
                     style={{ transform: 'scaleX(-1)' }}
                   />
                 </motion.div>
@@ -202,14 +202,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-tablet-center-${text}`}
-                className="absolute bottom-0 left-1/2 pointer-events-none flex items-end justify-center"
-                style={{ height: '60%', width: 'auto', transform: 'translateX(-50%)' }}
+                className="absolute bottom-0 inset-x-0 pointer-events-none"
+                style={{ height: '60%' }}
                 {...spriteMotion}
               >
                 <img
                   src={sprites.left}
                   alt="Character"
-                  className="h-full w-auto object-contain object-bottom"
+                  className="w-full h-full object-cover object-bottom"
                 />
               </motion.div>
             )}
@@ -217,26 +217,26 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
               <>
                 <motion.div
                   key={`sprite-tablet-left-${text}`}
-                  className="absolute bottom-0 left-0 pointer-events-none flex items-end justify-center"
+                  className="absolute bottom-0 left-0 pointer-events-none"
                   style={{ width: '50%', height: '60%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="h-full w-auto object-contain object-bottom"
+                    className="w-full h-full object-cover object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-tablet-right-${text}`}
-                  className="absolute bottom-0 right-0 pointer-events-none flex items-end justify-center"
+                  className="absolute bottom-0 right-0 pointer-events-none"
                   style={{ width: '50%', height: '60%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="h-full w-auto object-contain object-bottom"
+                    className="w-full h-full object-cover object-bottom"
                     style={{ transform: 'scaleX(-1)' }}
                   />
                 </motion.div>
