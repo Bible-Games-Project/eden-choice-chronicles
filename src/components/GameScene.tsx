@@ -36,8 +36,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         {textLines.map((line, i) => (
           <p
             key={i}
-            className={`font-body italic text-primary-foreground/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)] leading-snug ${
-              compact ? "text-xl" : "text-lg md:text-2xl"
+            className={`font-body italic text-primary-foreground/90 drop-shadow-[0_3px_8px_rgba(0,0,0,0.85)] leading-snug ${
+              compact ? "text-2xl" : "text-xl md:text-3xl"
             }`}
           >
             {line}
