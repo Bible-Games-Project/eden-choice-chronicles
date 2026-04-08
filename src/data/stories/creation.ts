@@ -16,122 +16,158 @@ export const creationScenes: Record<string, StoryScene> = {
   start: {
     id: "start",
     title: "Before All Things",
-    text: "Darkness covers the deep.\nNothing exists. Nothing moves.",
+    text: "Darkness covers everything.\nSilence… deeper than silence.",
     choices: [
-      { text: "Listen to the silence", nextScene: "silence", tag: "contemplative" },
-      { text: "Wait for the voice", nextScene: "voice", tag: "faithful" },
-      { text: "Feel the void", nextScene: "void", tag: "aware" },
+      { text: "Stay still in the void", nextScene: "silence", tag: "contemplative" },
+      { text: "Reach out into the darkness", nextScene: "void", tag: "aware" },
+      { text: "Listen… closely", nextScene: "voice", tag: "faithful" },
     ],
   },
   silence: {
     id: "silence",
     title: "The Great Silence",
-    text: "An eternity of stillness.\nThen — a breath.",
+    text: "You hold your breath.\nAn eternity passes — then something stirs.",
     choices: [
-      { text: "Follow the breath", nextScene: "light", tag: "drawn" },
-      { text: "Tremble at what comes", nextScene: "light", tag: "awestruck" },
+      { text: "Lean toward the stirring", nextScene: "light", tag: "drawn" },
+      { text: "Let it wash over you", nextScene: "light_awe", tag: "awestruck" },
     ],
   },
   voice: {
     id: "voice",
     title: "The Word",
-    text: "A voice thunders across nothing.\nIt speaks with the weight of forever.",
+    text: "A voice tears through the nothing.\nIt carries the weight of forever.",
     choices: [
-      { text: "\"Let there be light\"", nextScene: "light", tag: "obedient" },
-      { text: "Feel the power of the word", nextScene: "light", tag: "reverent" },
+      { text: "Speak with it: \"Let there be light\"", nextScene: "light_obey", tag: "obedient" },
+      { text: "Fall to your knees", nextScene: "light_awe", tag: "reverent" },
     ],
   },
   void: {
     id: "void",
     title: "The Formless Deep",
-    text: "Water without shores. Dark without end.\nThe Spirit hovers over the face of the deep.",
+    text: "Endless waters surround you.\nSomething moves… above the deep.",
     choices: [
-      { text: "Watch the Spirit move", nextScene: "light", tag: "witness" },
-      { text: "Sense what is coming", nextScene: "light", tag: "prophetic" },
+      { text: "Draw closer to the presence", nextScene: "light", tag: "witness" },
+      { text: "Hold still and let it pass over you", nextScene: "light_awe", tag: "prophetic" },
     ],
   },
   light: {
     id: "light",
     title: "Let There Be Light",
-    text: "Light explodes from nothing.\nGod divides light from darkness.",
+    text: "Light bursts into the darkness.\nWarmth touches you for the first time.",
     choices: [
-      { text: "Watch the sky form", nextScene: "sky", tag: "wonder" },
-      { text: "Feel warmth for the first time", nextScene: "warmth", tag: "grateful" },
-      { text: "See day and night born", nextScene: "day_night", tag: "understanding" },
+      { text: "Step into the light", nextScene: "sky", tag: "wonder" },
+      { text: "Shield your eyes", nextScene: "warmth", tag: "grateful" },
+      { text: "Turn back toward the dark", nextScene: "day_night", tag: "understanding" },
+    ],
+  },
+  light_obey: {
+    id: "light_obey",
+    title: "Let There Be Light",
+    text: "Your words merge with His.\nLight explodes — infinite, blinding, alive.",
+    choices: [
+      { text: "Breathe in the warmth", nextScene: "warmth", tag: "grateful" },
+      { text: "Open your eyes slowly", nextScene: "sky", tag: "wonder" },
+    ],
+  },
+  light_awe: {
+    id: "light_awe",
+    title: "Let There Be Light",
+    text: "Light crashes over you like a wave.\nYou tremble — but it is beautiful.",
+    choices: [
+      { text: "Rise and face it", nextScene: "sky", tag: "brave" },
+      { text: "Let tears fall", nextScene: "day_night", tag: "moved" },
     ],
   },
   warmth: {
     id: "warmth",
     title: "First Warmth",
-    text: "Light touches everything.\nWhere there was cold, now there is life.",
+    text: "Light wraps around you.\nWhere there was cold — now there is life.",
     choices: [
-      { text: "Look upward", nextScene: "sky", tag: "curious" },
-      { text: "Watch the waters part", nextScene: "sky", tag: "amazed" },
+      { text: "Lift your face upward", nextScene: "sky", tag: "curious" },
+      { text: "Stretch your arms wide", nextScene: "sky_vast", tag: "amazed" },
     ],
   },
   day_night: {
     id: "day_night",
     title: "Evening and Morning",
-    text: "The first sunset. The first dawn.\nTime begins.",
+    text: "Color bleeds across the sky.\nThe first sunset. The first dawn.",
     choices: [
-      { text: "Witness the second day", nextScene: "sky", tag: "patient" },
-      { text: "Marvel at the rhythm", nextScene: "sky", tag: "joyful" },
+      { text: "Step into the new morning", nextScene: "sky", tag: "patient" },
+      { text: "Close your eyes and feel the rhythm", nextScene: "sky_vast", tag: "joyful" },
     ],
   },
   sky: {
     id: "sky",
     title: "The Heavens Above",
-    text: "God stretches out the sky.\nWaters above, waters below — separated by breath.",
+    text: "The sky stretches open above you.\nWaters part — above and below.",
     choices: [
-      { text: "Watch the land emerge", nextScene: "land", tag: "expectant" },
-      { text: "Listen to the waters", nextScene: "waters_gather", tag: "peaceful" },
-      { text: "Look at the vast expanse", nextScene: "expanse", tag: "humbled" },
+      { text: "Reach for the ground beneath you", nextScene: "land", tag: "expectant" },
+      { text: "Kneel by the rushing waters", nextScene: "waters_gather", tag: "peaceful" },
+      { text: "Stand beneath the vast expanse", nextScene: "expanse", tag: "humbled" },
+    ],
+  },
+  sky_vast: {
+    id: "sky_vast",
+    title: "The Vast Sky",
+    text: "Blue stretches endlessly above.\nYou feel impossibly small — and impossibly held.",
+    choices: [
+      { text: "Turn your gaze downward", nextScene: "land", tag: "grounded" },
+      { text: "Breathe deeply and wait", nextScene: "waters_gather", tag: "anticipating" },
     ],
   },
   waters_gather: {
     id: "waters_gather",
     title: "The Gathering of Waters",
-    text: "Oceans rush into their places.\nRivers carve the young earth.",
+    text: "Oceans rush to their places.\nRivers carve paths through the young earth.",
     choices: [
-      { text: "See dry land appear", nextScene: "land", tag: "eager" },
-      { text: "Follow the rivers", nextScene: "land", tag: "explorer" },
+      { text: "Follow a river's path", nextScene: "land", tag: "explorer" },
+      { text: "Press your hands into the wet ground", nextScene: "land_emerge", tag: "eager" },
     ],
   },
   expanse: {
     id: "expanse",
-    title: "The Vast Sky",
-    text: "Blue stretches endlessly.\nThe dome of heaven arches over all creation.",
+    title: "The Dome of Heaven",
+    text: "The sky arches like a cathedral.\nEvery direction holds a promise.",
     choices: [
-      { text: "Turn your gaze downward", nextScene: "land", tag: "grounded" },
-      { text: "Wait for what fills it", nextScene: "land", tag: "anticipating" },
+      { text: "Kneel on the new ground", nextScene: "land", tag: "grounded" },
+      { text: "Raise your hands toward it", nextScene: "land_emerge", tag: "worshipful" },
     ],
   },
   land: {
     id: "land",
     title: "Dry Ground",
-    text: "Mountains rise from the sea.\nGod speaks — and green erupts everywhere.",
+    text: "Mountains rise from the sea.\nGreen erupts — sudden, wild, everywhere.",
     choices: [
-      { text: "Walk through the new forest", nextScene: "plants", tag: "wanderer" },
-      { text: "Touch the first flower", nextScene: "flowers", tag: "gentle" },
-      { text: "Climb the first mountain", nextScene: "mountain", tag: "bold" },
+      { text: "Step into the new forest", nextScene: "plants", tag: "wanderer" },
+      { text: "Bend down and touch the first flower", nextScene: "flowers", tag: "gentle" },
+      { text: "Climb the highest peak", nextScene: "mountain", tag: "bold" },
+    ],
+  },
+  land_emerge: {
+    id: "land_emerge",
+    title: "The Earth Rises",
+    text: "Solid ground forms under your feet.\nYou feel the earth breathe for the first time.",
+    choices: [
+      { text: "Walk deeper into the green", nextScene: "plants", tag: "wanderer" },
+      { text: "Sit beside a growing tree", nextScene: "flowers", tag: "patient" },
     ],
   },
   plants: {
     id: "plants",
     title: "The First Garden",
-    text: "Trees stretch toward heaven.\nFruit hangs heavy — sweet and untouched.",
+    text: "Trees stretch toward heaven.\nFruit hangs heavy — sweet, untouched.",
     choices: [
-      { text: "Wait for the stars", nextScene: "stars", tag: "patient" },
-      { text: "Taste the first fruit", nextScene: "stars", tag: "delighted" },
+      { text: "Taste the first fruit", nextScene: "stars_delight", tag: "delighted" },
+      { text: "Lie beneath the branches and wait", nextScene: "stars", tag: "patient" },
     ],
   },
   flowers: {
     id: "flowers",
     title: "Colors Unnamed",
-    text: "Petals open for the first time.\nNo eye has seen them before yours.",
+    text: "Petals open for the first time.\nNo eye has ever seen them before yours.",
     choices: [
-      { text: "Look up at the darkening sky", nextScene: "stars", tag: "dreamer" },
-      { text: "Breathe in the fragrance", nextScene: "stars", tag: "savoring" },
+      { text: "Breathe in the fragrance", nextScene: "stars_delight", tag: "savoring" },
+      { text: "Lift your gaze to the darkening sky", nextScene: "stars", tag: "dreamer" },
     ],
   },
   mountain: {
@@ -139,7 +175,7 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "The Summit",
     text: "From the peak, you see it all.\nAn empty world — waiting to be filled.",
     choices: [
-      { text: "Watch the sky change", nextScene: "stars", tag: "visionary" },
+      { text: "Stay and let the sky change", nextScene: "stars_vision", tag: "visionary" },
       { text: "Descend into the valley", nextScene: "stars", tag: "humble" },
     ],
   },
@@ -148,9 +184,27 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Sun, Moon, and Stars",
     text: "God hangs the sun like a lamp.\nA thousand stars pierce the velvet dark.",
     choices: [
-      { text: "Listen for the sea", nextScene: "sea_creatures", tag: "attentive" },
-      { text: "Count the stars", nextScene: "countless_stars", tag: "awed" },
-      { text: "Watch the moon rise", nextScene: "moonrise", tag: "contemplative" },
+      { text: "Close your eyes and listen for the sea", nextScene: "sea_creatures", tag: "attentive" },
+      { text: "Try to count the stars", nextScene: "countless_stars", tag: "awed" },
+      { text: "Stand in the silver moonlight", nextScene: "moonrise", tag: "contemplative" },
+    ],
+  },
+  stars_delight: {
+    id: "stars_delight",
+    title: "Sun, Moon, and Stars",
+    text: "Sweetness lingers on your lips.\nAbove you, the first stars ignite.",
+    choices: [
+      { text: "Reach toward the brightest one", nextScene: "countless_stars", tag: "awed" },
+      { text: "Lie down and let the sky fill", nextScene: "moonrise", tag: "restful" },
+    ],
+  },
+  stars_vision: {
+    id: "stars_vision",
+    title: "Sun, Moon, and Stars",
+    text: "From the mountain, the stars feel close.\nYou could almost touch them.",
+    choices: [
+      { text: "Stretch your hand toward them", nextScene: "countless_stars", tag: "longing" },
+      { text: "Let the moonlight guide you down", nextScene: "sea_creatures", tag: "trusting" },
     ],
   },
   countless_stars: {
@@ -158,44 +212,62 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Uncountable",
     text: "You try to count them.\nYou cannot. They are a promise.",
     choices: [
-      { text: "Turn toward the sea", nextScene: "sea_creatures", tag: "moved" },
-      { text: "Wait for morning", nextScene: "sea_creatures", tag: "patient" },
+      { text: "Carry the promise and turn toward the sea", nextScene: "sea_creatures", tag: "moved" },
+      { text: "Fall asleep beneath them", nextScene: "sea_dawn", tag: "peaceful" },
     ],
   },
   moonrise: {
     id: "moonrise",
     title: "The Lesser Light",
-    text: "Silver light over still waters.\nThe moon guards the night.",
+    text: "Silver light spills over still waters.\nThe moon guards the night.",
     choices: [
-      { text: "Hear something in the ocean", nextScene: "sea_creatures", tag: "alert" },
-      { text: "Sleep until dawn", nextScene: "sea_creatures", tag: "restful" },
+      { text: "Follow a sound from the ocean", nextScene: "sea_creatures", tag: "alert" },
+      { text: "Rest until dawn", nextScene: "sea_dawn", tag: "restful" },
+    ],
+  },
+  sea_dawn: {
+    id: "sea_dawn",
+    title: "Dawn Over the Deep",
+    text: "You wake to the sound of waves.\nThe water is alive — teeming, singing.",
+    choices: [
+      { text: "Run to the shore", nextScene: "sea_creatures", tag: "eager" },
+      { text: "Sit and let the sound wash over you", nextScene: "bird_flight", tag: "savoring" },
     ],
   },
   sea_creatures: {
     id: "sea_creatures",
     title: "The Waters Teem",
-    text: "Whales breach. Fish swarm.\nBirds burst from nothing — filling the sky with song.",
+    text: "Whales breach. Fish swarm the deep.\nBirds burst from nothing — filling the sky with song.",
     choices: [
-      { text: "Watch the land creatures appear", nextScene: "land_creatures", tag: "eager" },
-      { text: "Follow a bird in flight", nextScene: "bird_flight", tag: "free" },
+      { text: "Feel the ground tremble with new life", nextScene: "land_creatures", tag: "eager" },
+      { text: "Chase a bird into the wind", nextScene: "bird_flight", tag: "free" },
     ],
   },
   bird_flight: {
     id: "bird_flight",
     title: "First Flight",
-    text: "Wings catch the wind.\nThe bird does not know fear — only sky.",
+    text: "Wings catch the wind.\nThe bird knows no fear — only sky.",
     choices: [
-      { text: "Return to the earth", nextScene: "land_creatures", tag: "grounded" },
-      { text: "Watch from above", nextScene: "land_creatures", tag: "observing" },
+      { text: "Return to the solid earth", nextScene: "land_creatures", tag: "grounded" },
+      { text: "Spread your arms and feel the wind", nextScene: "land_creatures_wind", tag: "free" },
     ],
   },
   land_creatures: {
     id: "land_creatures",
     title: "Every Living Thing",
-    text: "Lions, deer, insects, serpents.\nThe earth breathes with life.",
+    text: "Lions, deer, serpents, insects.\nThe earth breathes with life all around you.",
     choices: [
-      { text: "Sense something greater coming", nextScene: "before_man", tag: "anticipating" },
-      { text: "Walk among them", nextScene: "among_animals", tag: "connected" },
+      { text: "Sense something greater approaching", nextScene: "before_man", tag: "anticipating" },
+      { text: "Walk among them, unafraid", nextScene: "among_animals", tag: "connected" },
+    ],
+  },
+  land_creatures_wind: {
+    id: "land_creatures_wind",
+    title: "Every Living Thing",
+    text: "You land among creatures — wild, warm, alive.\nThey do not run from you.",
+    choices: [
+      { text: "Kneel beside them", nextScene: "among_animals", tag: "gentle" },
+      { text: "Feel a longing rise inside you", nextScene: "before_man", tag: "lonely" },
     ],
   },
   among_animals: {
@@ -203,17 +275,26 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Among the Creatures",
     text: "They do not fear you.\nBut none of them is like you.",
     choices: [
-      { text: "Feel the emptiness", nextScene: "before_man", tag: "lonely" },
-      { text: "Wait for what comes next", nextScene: "before_man", tag: "trusting" },
+      { text: "Feel the emptiness in your chest", nextScene: "before_man_lonely", tag: "lonely" },
+      { text: "Trust that something more is coming", nextScene: "before_man", tag: "trusting" },
     ],
   },
   before_man: {
     id: "before_man",
     title: "The Sixth Day",
-    text: "God kneels in the dust.\nHis hands shape something new — something different.",
+    text: "God kneels in the dust.\nHis hands begin to shape something new.",
     choices: [
-      { text: "Watch Him breathe life", nextScene: "breath_of_life", tag: "witness" },
-      { text: "\"In our image...\"", nextScene: "breath_of_life", tag: "sacred" },
+      { text: "Hold your breath and lean closer", nextScene: "breath_of_life", tag: "witness" },
+      { text: "Whisper: \"In our image…\"", nextScene: "breath_of_life_sacred", tag: "sacred" },
+    ],
+  },
+  before_man_lonely: {
+    id: "before_man_lonely",
+    title: "The Sixth Day",
+    text: "The ache inside you grows.\nThen — God kneels beside you in the dust.",
+    choices: [
+      { text: "Place your hand on the clay", nextScene: "breath_of_life_sacred", tag: "participant" },
+      { text: "Step back and let Him work", nextScene: "breath_of_life", tag: "reverent" },
     ],
   },
   breath_of_life: {
@@ -221,8 +302,17 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "The Breath of Life",
     text: "Dust becomes flesh. Eyes open.\nYou are alive. You are the first.",
     choices: [
-      { text: "Stand in the garden", nextScene: "first_garden", tag: "born" },
-      { text: "Look at your hands", nextScene: "first_garden", tag: "awakened" },
+      { text: "Stand and face the garden", nextScene: "first_garden", tag: "born" },
+      { text: "Look at your own hands", nextScene: "first_garden_wonder", tag: "awakened" },
+    ],
+  },
+  breath_of_life_sacred: {
+    id: "breath_of_life_sacred",
+    title: "The Breath of Life",
+    text: "His breath enters the clay.\nYour chest rises. Your heart beats — once, twice, forever.",
+    choices: [
+      { text: "Open your eyes", nextScene: "first_garden_wonder", tag: "newborn" },
+      { text: "Take your first step", nextScene: "first_garden", tag: "alive" },
     ],
   },
   first_garden: {
@@ -230,8 +320,17 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Eden",
     text: "Paradise stretches before you.\nGod looks at all He has made.",
     choices: [
-      { text: "Hear the final words", nextScene: "very_good", tag: "complete" },
-      { text: "Rest beside the Creator", nextScene: "rest", tag: "peaceful" },
+      { text: "Listen to His final words", nextScene: "very_good", tag: "complete" },
+      { text: "Sit beside the Creator", nextScene: "rest", tag: "peaceful" },
+    ],
+  },
+  first_garden_wonder: {
+    id: "first_garden_wonder",
+    title: "Eden",
+    text: "Your fingers tremble. Your eyes brim with tears.\nEverything — all of it — was for this moment.",
+    choices: [
+      { text: "Hear Him speak", nextScene: "very_good", tag: "grateful" },
+      { text: "Rest in His presence", nextScene: "rest_blessed", tag: "beloved" },
     ],
   },
   very_good: {
@@ -249,5 +348,11 @@ export const creationScenes: Record<string, StoryScene> = {
     choices: [],
     isFinal: true,
   },
+  rest_blessed: {
+    id: "rest_blessed",
+    title: "The Seventh Day",
+    text: "You rest beside the One who made you.\nPeace fills every corner of the world.",
+    choices: [],
+    isFinal: true,
+  },
 };
-
