@@ -32,12 +32,12 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
       transition={{ duration: 0.7, delay: 0.15 }}
       className="text-center"
     >
-      <div className={compact ? "mb-2" : "mb-3"}>
+      <div className={compact ? "mb-1" : "mb-3"}>
         {textLines.map((line, i) => (
           <p
             key={i}
-            className={`font-body italic text-primary-foreground/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)] leading-relaxed ${
-              compact ? "text-xl" : "text-lg md:text-2xl"
+            className={`font-body italic text-primary-foreground/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)] leading-snug ${
+              compact ? "text-base" : "text-lg md:text-2xl"
             }`}
           >
             {line}
@@ -54,7 +54,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
       transition={{ duration: 0.5, delay: 0.35 }}
     >
       {!isFinal ? (
-        <div className={`flex flex-col ${compact ? "gap-2" : "gap-2.5"}`}>
+        <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
           {choices.map((choice, i) => (
             <motion.button
               key={i}
@@ -63,13 +63,13 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
               transition={{ delay: 0.4 + i * 0.1 }}
               onClick={() => handleChoice(choice)}
               whileTap={{ scale: 0.97 }}
-               className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
-                compact ? "px-5 py-3" : "px-5 py-3"
+              className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
+                compact ? "px-4 py-2" : "px-5 py-3"
               }`}
             >
               <span
-               className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
-                  compact ? "text-base" : "text-base md:text-lg"
+                className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                  compact ? "text-sm" : "text-base md:text-lg"
                 }`}
               >
                 {choice.text}
@@ -82,7 +82,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className={`flex flex-col items-center ${compact ? "gap-3" : "gap-4"}`}
+          className={`flex flex-col items-center ${compact ? "gap-2" : "gap-4"}`}
         >
           <div className="flex items-center justify-center gap-3">
             <div className="h-px w-10 bg-gold/40" />
@@ -92,7 +92,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           <button
             onClick={handleComplete}
             className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 cursor-pointer ${
-              compact ? "px-6 py-2" : "px-8 py-3"
+              compact ? "px-5 py-2" : "px-8 py-3"
             }`}
           >
             Continue Journey
@@ -129,25 +129,25 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 35% */}
-          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: '35vh' }}>
+          {/* Zone 1: Text + Buttons — 30% */}
+          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: '30vh' }}>
             <div
-              className="absolute left-1/2 w-full max-w-xs px-5 text-center"
-              style={{ top: '30%', transform: 'translateX(-50%)' }}
+              className="absolute left-1/2 w-full max-w-xs px-4 text-center"
+              style={{ top: '12%', transform: 'translateX(-50%)' }}
             >
               {renderTextBlock(true)}
-              <div style={{ marginTop: '0.75rem' }}>
+              <div style={{ marginTop: '0.4rem' }}>
                 {renderChoices(true)}
               </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 65% */}
-          <div className="absolute inset-x-0 bottom-0 overflow-hidden" style={{ height: '65vh' }}>
+          {/* Zone 2: Sprite — 70% */}
+          <div className="absolute inset-x-0 bottom-0 overflow-hidden" style={{ height: '70vh' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-mobile-center-${text}`}
                 className="absolute pointer-events-none"
-                style={{ bottom: '2vh', left: '50%', transform: 'translateX(-50%)' }}
+                style={{ bottom: '1vh', left: '50%', transform: 'translateX(-50%)' }}
                 {...spriteMotion}
               >
                 <img
@@ -163,26 +163,26 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <motion.div
                   key={`sprite-mobile-left-${text}`}
                   className="absolute pointer-events-none"
-                  style={{ bottom: '2vh', left: '5%' }}
+                  style={{ bottom: '1vh', left: '3%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    style={{ height: '60vh', width: 'auto', transform: 'scaleX(1)' }}
+                    style={{ height: '65vh', width: 'auto' }}
                     className="object-contain object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-mobile-right-${text}`}
                   className="absolute pointer-events-none"
-                  style={{ bottom: '2vh', right: '5%' }}
+                  style={{ bottom: '1vh', right: '3%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    style={{ height: '60vh', width: 'auto', transform: 'scaleX(-1)' }}
+                    style={{ height: '65vh', width: 'auto', transform: 'scaleX(-1)' }}
                     className="object-contain object-bottom"
                   />
                 </motion.div>
@@ -193,11 +193,11 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== TABLET ==================== */}
         <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 35% */}
-          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: '35vh' }}>
+          {/* Zone 1: Text + Buttons — 40% */}
+          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: '40vh' }}>
             <div
               className="absolute left-1/2 w-full max-w-md px-6 text-center"
-              style={{ top: '25%', transform: 'translateX(-50%)' }}
+              style={{ top: '15%', transform: 'translateX(-50%)' }}
             >
               {renderTextBlock(true)}
               <div style={{ marginTop: '0.75rem' }}>
@@ -205,13 +205,13 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
               </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 65% */}
-          <div className="absolute inset-x-0 bottom-0 overflow-hidden" style={{ height: '65vh' }}>
+          {/* Zone 2: Sprite — 60% */}
+          <div className="absolute inset-x-0 bottom-0 overflow-hidden" style={{ height: '60vh' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-tablet-center-${text}`}
                 className="absolute pointer-events-none"
-                style={{ bottom: '2vh', left: '50%', transform: 'translateX(-50%)' }}
+                style={{ bottom: '1vh', left: '50%', transform: 'translateX(-50%)' }}
                 {...spriteMotion}
               >
                 <img
@@ -227,20 +227,20 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <motion.div
                   key={`sprite-tablet-left-${text}`}
                   className="absolute pointer-events-none"
-                  style={{ bottom: '2vh', left: '8%' }}
+                  style={{ bottom: '1vh', left: '6%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    style={{ height: '50vh', width: 'auto', transform: 'scaleX(1)' }}
+                    style={{ height: '50vh', width: 'auto' }}
                     className="object-contain object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-tablet-right-${text}`}
                   className="absolute pointer-events-none"
-                  style={{ bottom: '2vh', right: '8%' }}
+                  style={{ bottom: '1vh', right: '6%' }}
                   {...spriteMotion}
                 >
                   <img
