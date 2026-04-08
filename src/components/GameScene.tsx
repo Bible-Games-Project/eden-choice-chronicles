@@ -37,7 +37,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           <p
             key={i}
             className={`font-body italic text-primary-foreground/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)] leading-snug ${
-              compact ? "text-base" : "text-lg md:text-2xl"
+              compact ? "text-lg" : "text-lg md:text-2xl"
             }`}
           >
             {line}
@@ -129,20 +129,17 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 22vh */}
-          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: '22vh' }}>
-            <div
-              className="absolute left-1/2 w-full max-w-xs px-4 text-center"
-              style={{ top: '8%', transform: 'translateX(-50%)' }}
-            >
+          {/* Zone 1: Text + Buttons — 25vh */}
+          <div className="absolute inset-x-0 top-0 flex items-start justify-center" style={{ height: '25vh', paddingTop: '4vh' }}>
+            <div className="w-full max-w-xs px-4 text-center">
               {renderTextBlock(true)}
-              <div style={{ marginTop: '0.3rem' }}>
+              <div style={{ marginTop: '0.5rem' }}>
                 {renderChoices(true)}
               </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 78vh, full width */}
-          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '78vh' }}>
+          {/* Zone 2: Sprite — 75vh, full width */}
+          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '75vh' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-mobile-center-${text}`}
@@ -190,20 +187,17 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== TABLET ==================== */}
         <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 25vh */}
-          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: '25vh' }}>
-            <div
-              className="absolute left-1/2 w-full max-w-md px-6 text-center"
-              style={{ top: '10%', transform: 'translateX(-50%)' }}
-            >
+          {/* Zone 1: Text + Buttons — 30vh */}
+          <div className="absolute inset-x-0 top-0 flex items-start justify-center" style={{ height: '30vh', paddingTop: '5vh' }}>
+            <div className="w-full max-w-md px-6 text-center">
               {renderTextBlock(true)}
               <div style={{ marginTop: '0.5rem' }}>
                 {renderChoices(true)}
               </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 75vh, full width */}
-          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '75vh' }}>
+          {/* Zone 2: Sprite — 70vh, full width */}
+          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '70vh' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-tablet-center-${text}`}
