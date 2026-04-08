@@ -127,10 +127,10 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         )}
         <div className="absolute inset-0 bg-foreground/55" />
 
-        {/* ==================== MOBILE & TABLET ==================== */}
-        <div className="relative z-20 h-full lg:hidden overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 px-5 pt-4 pb-1 z-10" style={{ maxHeight: "32vh" }}>
-            <div className="w-full max-w-sm mx-auto text-center">
+        {/* ==================== MOBILE (phones only) ==================== */}
+        <div className="relative z-20 h-full md:hidden overflow-hidden">
+          <div className="absolute left-0 right-0 px-5 pt-[8vh] pb-1 z-10">
+            <div className="w-full max-w-xs mx-auto text-center">
               {renderTextBlock(true)}
               {renderChoices(true)}
             </div>
@@ -146,7 +146,33 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
               <img
                 src={sprites.left}
                 alt="Character"
-                style={{ height: "75vh", width: "auto" }}
+                style={{ height: "78vh", width: "auto" }}
+                className="object-contain object-bottom"
+              />
+            </motion.div>
+          )}
+        </div>
+
+        {/* ==================== TABLET ==================== */}
+        <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
+          <div className="absolute left-0 right-0 px-6 pt-4 pb-1 z-10">
+            <div className="w-full max-w-md mx-auto text-center">
+              {renderTextBlock(true)}
+              {renderChoices(true)}
+            </div>
+          </div>
+
+          {sprites?.left && (
+            <motion.div
+              key={`sprite-tablet-${text}`}
+              className="absolute pointer-events-none"
+              style={{ bottom: 0, left: "50%", transform: "translateX(-50%)" }}
+              {...spriteMotion}
+            >
+              <img
+                src={sprites.left}
+                alt="Character"
+                style={{ height: "58vh", width: "auto" }}
                 className="object-contain object-bottom"
               />
             </motion.div>
