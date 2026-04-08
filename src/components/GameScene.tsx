@@ -37,7 +37,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           <p
             key={i}
             className={`font-body italic text-primary-foreground/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)] leading-relaxed ${
-              compact ? "text-base" : "text-lg md:text-2xl"
+              compact ? "text-xl" : "text-lg md:text-2xl"
             }`}
           >
             {line}
@@ -54,7 +54,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
       transition={{ duration: 0.5, delay: 0.35 }}
     >
       {!isFinal ? (
-        <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
+        <div className={`flex flex-col ${compact ? "gap-2" : "gap-2.5"}`}>
           {choices.map((choice, i) => (
             <motion.button
               key={i}
@@ -63,13 +63,13 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
               transition={{ delay: 0.4 + i * 0.1 }}
               onClick={() => handleChoice(choice)}
               whileTap={{ scale: 0.97 }}
-              className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
-                compact ? "px-4 py-2" : "px-5 py-3"
+               className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
+                compact ? "px-5 py-3" : "px-5 py-3"
               }`}
             >
               <span
-                className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
-                  compact ? "text-sm" : "text-base md:text-lg"
+               className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                  compact ? "text-base" : "text-base md:text-lg"
                 }`}
               >
                 {choice.text}
@@ -153,7 +153,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <img
                   src={sprites.left}
                   alt="Character"
-                  style={{ height: '55vh', width: 'auto' }}
+                  style={{ height: '60vh', width: 'auto' }}
                   className="object-contain object-bottom"
                 />
               </motion.div>
