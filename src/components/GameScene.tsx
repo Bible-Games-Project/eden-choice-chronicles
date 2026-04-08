@@ -143,9 +143,9 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           </div>
           {/* Zone 2: Sprite — 65% */}
           <div className="absolute inset-x-0 bottom-0 overflow-hidden" style={{ height: '65vh' }}>
-            {sprites?.left && (
+            {sprites?.left && !sprites?.right && (
               <motion.div
-                key={`sprite-mobile-${text}`}
+                key={`sprite-mobile-center-${text}`}
                 className="absolute pointer-events-none"
                 style={{ bottom: '2vh', left: '50%', transform: 'translateX(-50%)' }}
                 {...spriteMotion}
@@ -153,39 +153,104 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <img
                   src={sprites.left}
                   alt="Character"
-                  style={{ height: '60vh', width: 'auto' }}
+                  style={{ height: '75vh', width: 'auto' }}
                   className="object-contain object-bottom"
                 />
               </motion.div>
+            )}
+            {sprites?.left && sprites?.right && (
+              <>
+                <motion.div
+                  key={`sprite-mobile-left-${text}`}
+                  className="absolute pointer-events-none"
+                  style={{ bottom: '2vh', left: '5%' }}
+                  {...spriteMotion}
+                >
+                  <img
+                    src={sprites.left}
+                    alt="Character Left"
+                    style={{ height: '60vh', width: 'auto', transform: 'scaleX(1)' }}
+                    className="object-contain object-bottom"
+                  />
+                </motion.div>
+                <motion.div
+                  key={`sprite-mobile-right-${text}`}
+                  className="absolute pointer-events-none"
+                  style={{ bottom: '2vh', right: '5%' }}
+                  {...spriteMotion}
+                >
+                  <img
+                    src={sprites.right}
+                    alt="Character Right"
+                    style={{ height: '60vh', width: 'auto', transform: 'scaleX(-1)' }}
+                    className="object-contain object-bottom"
+                  />
+                </motion.div>
+              </>
             )}
           </div>
         </div>
 
         {/* ==================== TABLET ==================== */}
-        <div className="relative z-20 h-full hidden md:flex lg:hidden flex-col overflow-hidden">
-          {/* Zone 1: Text + Buttons — 33% */}
-          <div className="flex-none flex items-center justify-center px-6" style={{ height: '33vh' }}>
-            <div className="w-full max-w-md mx-auto text-center">
+        <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
+          {/* Zone 1: Text + Buttons — 35% */}
+          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: '35vh' }}>
+            <div
+              className="absolute left-1/2 w-full max-w-md px-6 text-center"
+              style={{ top: '25%', transform: 'translateX(-50%)' }}
+            >
               {renderTextBlock(true)}
-              {renderChoices(true)}
+              <div style={{ marginTop: '0.75rem' }}>
+                {renderChoices(true)}
+              </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 67% */}
-          <div className="relative flex-none overflow-hidden" style={{ height: '67vh' }}>
-            {sprites?.left && (
+          {/* Zone 2: Sprite — 65% */}
+          <div className="absolute inset-x-0 bottom-0 overflow-hidden" style={{ height: '65vh' }}>
+            {sprites?.left && !sprites?.right && (
               <motion.div
-                key={`sprite-tablet-${text}`}
+                key={`sprite-tablet-center-${text}`}
                 className="absolute pointer-events-none"
-                style={{ bottom: 0, left: '50%', transform: 'translateX(-50%)' }}
+                style={{ bottom: '2vh', left: '50%', transform: 'translateX(-50%)' }}
                 {...spriteMotion}
               >
                 <img
                   src={sprites.left}
                   alt="Character"
-                  style={{ height: '58vh', width: 'auto' }}
+                  style={{ height: '55vh', width: 'auto' }}
                   className="object-contain object-bottom"
                 />
               </motion.div>
+            )}
+            {sprites?.left && sprites?.right && (
+              <>
+                <motion.div
+                  key={`sprite-tablet-left-${text}`}
+                  className="absolute pointer-events-none"
+                  style={{ bottom: '2vh', left: '8%' }}
+                  {...spriteMotion}
+                >
+                  <img
+                    src={sprites.left}
+                    alt="Character Left"
+                    style={{ height: '50vh', width: 'auto', transform: 'scaleX(1)' }}
+                    className="object-contain object-bottom"
+                  />
+                </motion.div>
+                <motion.div
+                  key={`sprite-tablet-right-${text}`}
+                  className="absolute pointer-events-none"
+                  style={{ bottom: '2vh', right: '8%' }}
+                  {...spriteMotion}
+                >
+                  <img
+                    src={sprites.right}
+                    alt="Character Right"
+                    style={{ height: '50vh', width: 'auto', transform: 'scaleX(-1)' }}
+                    className="object-contain object-bottom"
+                  />
+                </motion.div>
+              </>
             )}
           </div>
         </div>
