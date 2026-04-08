@@ -129,8 +129,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 45vh */}
-          <div className="absolute inset-x-0 top-0 flex items-start justify-center overflow-hidden" style={{ height: '45vh', paddingTop: '3vh' }}>
+          {/* Zone 1: Text + Buttons — 50vh */}
+          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '50vh' }}>
             <div className="w-full max-w-xs px-4 text-center flex flex-col items-center">
               {renderTextBlock(true)}
               <div style={{ marginTop: '0.75rem' }}>
