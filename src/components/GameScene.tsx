@@ -144,13 +144,13 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
               <motion.div
                 key={`sprite-mobile-center-${text}`}
                 className="absolute bottom-0 inset-x-0 pointer-events-none"
-                style={{ height: '80%' }}
+                style={{ height: '100%' }}
                 {...spriteMotion}
               >
                 <img
                   src={sprites.left}
                   alt="Character"
-                  className="w-full h-full object-cover object-bottom"
+                  className="w-full h-full object-contain object-bottom"
                 />
               </motion.div>
             )}
@@ -159,25 +159,25 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <motion.div
                   key={`sprite-mobile-left-${text}`}
                   className="absolute bottom-0 left-0 pointer-events-none"
-                  style={{ width: '50%', height: '80%' }}
+                  style={{ width: '50%', height: '100%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="w-full h-full object-cover object-bottom"
+                    className="w-full h-full object-contain object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-mobile-right-${text}`}
                   className="absolute bottom-0 right-0 pointer-events-none"
-                  style={{ width: '50%', height: '80%' }}
+                  style={{ width: '50%', height: '100%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="w-full h-full object-cover object-bottom"
+                    className="w-full h-full object-contain object-bottom"
                     style={{ transform: 'scaleX(-1)' }}
                   />
                 </motion.div>
@@ -203,13 +203,13 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
               <motion.div
                 key={`sprite-tablet-center-${text}`}
                 className="absolute bottom-0 inset-x-0 pointer-events-none"
-                style={{ height: '60%' }}
+                style={{ height: '100%' }}
                 {...spriteMotion}
               >
                 <img
                   src={sprites.left}
                   alt="Character"
-                  className="w-full h-full object-cover object-bottom"
+                  className="w-full h-full object-contain object-bottom"
                 />
               </motion.div>
             )}
@@ -218,25 +218,25 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <motion.div
                   key={`sprite-tablet-left-${text}`}
                   className="absolute bottom-0 left-0 pointer-events-none"
-                  style={{ width: '50%', height: '60%' }}
+                  style={{ width: '50%', height: '100%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="w-full h-full object-cover object-bottom"
+                    className="w-full h-full object-contain object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-tablet-right-${text}`}
                   className="absolute bottom-0 right-0 pointer-events-none"
-                  style={{ width: '50%', height: '60%' }}
+                  style={{ width: '50%', height: '100%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="w-full h-full object-cover object-bottom"
+                    className="w-full h-full object-contain object-bottom"
                     style={{ transform: 'scaleX(-1)' }}
                   />
                 </motion.div>
