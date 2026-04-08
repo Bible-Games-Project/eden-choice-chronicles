@@ -129,27 +129,28 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 25vh */}
-          <div className="absolute inset-x-0 top-0 flex items-start justify-center" style={{ height: '25vh', paddingTop: '4vh' }}>
-            <div className="w-full max-w-xs px-4 text-center">
+          {/* Zone 1: Text + Buttons — 45vh */}
+          <div className="absolute inset-x-0 top-0 flex items-start justify-center overflow-hidden" style={{ height: '45vh', paddingTop: '3vh' }}>
+            <div className="w-full max-w-xs px-4 text-center flex flex-col items-center">
               {renderTextBlock(true)}
-              <div style={{ marginTop: '0.5rem' }}>
+              <div style={{ marginTop: '0.75rem' }}>
                 {renderChoices(true)}
               </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 75vh, full width */}
-          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '75vh' }}>
+          {/* Zone 2: Sprite — 55vh, full width */}
+          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '55vh' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-mobile-center-${text}`}
-                className="absolute bottom-0 left-0 w-full h-full pointer-events-none flex items-end justify-center"
+                className="absolute bottom-0 left-1/2 pointer-events-none flex items-end justify-center"
+                style={{ height: '80%', width: 'auto', transform: 'translateX(-50%)' }}
                 {...spriteMotion}
               >
                 <img
                   src={sprites.left}
                   alt="Character"
-                  className="w-full h-full object-contain object-bottom"
+                  className="h-full w-auto object-contain object-bottom"
                 />
               </motion.div>
             )}
@@ -158,25 +159,25 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <motion.div
                   key={`sprite-mobile-left-${text}`}
                   className="absolute bottom-0 left-0 pointer-events-none flex items-end justify-center"
-                  style={{ width: '50%', height: '100%' }}
+                  style={{ width: '50%', height: '80%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="w-full h-full object-contain object-bottom"
+                    className="h-full w-auto object-contain object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-mobile-right-${text}`}
                   className="absolute bottom-0 right-0 pointer-events-none flex items-end justify-center"
-                  style={{ width: '50%', height: '100%' }}
+                  style={{ width: '50%', height: '80%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="w-full h-full object-contain object-bottom"
+                    className="h-full w-auto object-contain object-bottom"
                     style={{ transform: 'scaleX(-1)' }}
                   />
                 </motion.div>
@@ -187,27 +188,28 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== TABLET ==================== */}
         <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 30vh */}
-          <div className="absolute inset-x-0 top-0 flex items-start justify-center" style={{ height: '30vh', paddingTop: '5vh' }}>
-            <div className="w-full max-w-md px-6 text-center">
+          {/* Zone 1: Text + Buttons — 45vh */}
+          <div className="absolute inset-x-0 top-0 flex items-start justify-center overflow-hidden" style={{ height: '45vh', paddingTop: '4vh' }}>
+            <div className="w-full max-w-md px-6 text-center flex flex-col items-center">
               {renderTextBlock(true)}
-              <div style={{ marginTop: '0.5rem' }}>
+              <div style={{ marginTop: '0.75rem' }}>
                 {renderChoices(true)}
               </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 70vh, full width */}
-          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '70vh' }}>
+          {/* Zone 2: Sprite — 55vh, full width */}
+          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '55vh' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-tablet-center-${text}`}
-                className="absolute bottom-0 left-0 w-full h-full pointer-events-none flex items-end justify-center"
+                className="absolute bottom-0 left-1/2 pointer-events-none flex items-end justify-center"
+                style={{ height: '60%', width: 'auto', transform: 'translateX(-50%)' }}
                 {...spriteMotion}
               >
                 <img
                   src={sprites.left}
                   alt="Character"
-                  className="w-full h-full object-contain object-bottom"
+                  className="h-full w-auto object-contain object-bottom"
                 />
               </motion.div>
             )}
@@ -216,25 +218,25 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <motion.div
                   key={`sprite-tablet-left-${text}`}
                   className="absolute bottom-0 left-0 pointer-events-none flex items-end justify-center"
-                  style={{ width: '50%', height: '100%' }}
+                  style={{ width: '50%', height: '60%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="w-full h-full object-contain object-bottom"
+                    className="h-full w-auto object-contain object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-tablet-right-${text}`}
                   className="absolute bottom-0 right-0 pointer-events-none flex items-end justify-center"
-                  style={{ width: '50%', height: '100%' }}
+                  style={{ width: '50%', height: '60%' }}
                   {...spriteMotion}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="w-full h-full object-contain object-bottom"
+                    className="h-full w-auto object-contain object-bottom"
                     style={{ transform: 'scaleX(-1)' }}
                   />
                 </motion.div>
