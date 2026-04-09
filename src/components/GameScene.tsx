@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { StoryChoice } from "@/data/stories/creation";
-import { useCallback, useState, useEffect, useMemo } from "react";
+import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
+import { useCallback, useState, useEffect, useMemo, useRef } from "react";
 
 interface GameSceneProps {
   title: string;
@@ -14,11 +14,26 @@ interface GameSceneProps {
   sprites?: { left?: string; right?: string };
 }
 
+const SENTIMENT_COLORS: Record<ChoiceSentiment, string> = {
+  positive: "rgba(74, 222, 128, 0.35)",
+  neutral: "rgba(250, 204, 21, 0.30)",
+  negative: "rgba(248, 113, 113, 0.30)",
+};
+
+const SENTIMENT_BORDER: Record<ChoiceSentiment, string> = {
+  positive: "rgba(74, 222, 128, 0.7)",
+  neutral: "rgba(250, 204, 21, 0.6)",
+  negative: "rgba(248, 113, 113, 0.6)",
+};
+
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites }: GameSceneProps) => {
   const textLines = text.split("\n");
   const [showChoices, setShowChoices] = useState(false);
   const [feedbackText, setFeedbackText] = useState<string | null>(null);
   const [pendingChoice, setPendingChoice] = useState<StoryChoice | null>(null);
+  const [clickedIndex, setClickedIndex] = useState<number | null>(null);
+  const [clickedSentiment, setClickedSentiment] = useState<ChoiceSentiment | null>(null);
+  const [atmosphereShift, setAtmosphereShift] = useState(0); // -1 to 1 range, cumulative
 
   // Randomized micro-pause delay (0.8–1.2s)
   const choiceDelay = useMemo(() => 800 + Math.random() * 400, [text]);
@@ -27,23 +42,39 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     setShowChoices(false);
     setFeedbackText(null);
     setPendingChoice(null);
+    setClickedIndex(null);
+    setClickedSentiment(null);
     const timer = setTimeout(() => setShowChoices(true), choiceDelay);
     return () => clearTimeout(timer);
   }, [text, choiceDelay]);
 
-  const handleChoice = useCallback((choice: StoryChoice) => {
-    if (choice.feedback) {
-      setFeedbackText(choice.feedback);
-      setPendingChoice(choice);
-      setShowChoices(false);
-      setTimeout(() => {
-        setFeedbackText(null);
-        setPendingChoice(null);
+  const handleChoice = useCallback((choice: StoryChoice, index: number) => {
+    const sentiment = choice.sentiment || "neutral";
+    setClickedIndex(index);
+    setClickedSentiment(sentiment);
+
+    // Update cumulative atmosphere
+    const shift = sentiment === "positive" ? 0.12 : sentiment === "negative" ? -0.15 : 0;
+    setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
+
+    // Button flash duration, then feedback or transition
+    const flashDuration = 700;
+    setTimeout(() => {
+      setClickedIndex(null);
+      setClickedSentiment(null);
+      if (choice.feedback) {
+        setFeedbackText(choice.feedback);
+        setPendingChoice(choice);
+        setShowChoices(false);
+        setTimeout(() => {
+          setFeedbackText(null);
+          setPendingChoice(null);
+          onChoice(choice);
+        }, 1500);
+      } else {
         onChoice(choice);
-      }, 1500);
-    } else {
-      onChoice(choice);
-    }
+      }
+    }, flashDuration);
   }, [onChoice]);
 
   const handleComplete = useCallback(() => {
@@ -105,27 +136,37 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         >
           {!isFinal ? (
             <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
-              {choices.map((choice, i) => (
-                <motion.button
-                  key={i}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: i * 0.1 }}
-                  onClick={() => handleChoice(choice)}
-                  whileTap={{ scale: 0.97 }}
-                  className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
-                    compact ? "px-4 py-2" : "px-5 py-3"
-                  }`}
-                >
-                  <span
-                    className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
-                      compact ? "text-sm" : "text-base md:text-lg"
-                    }`}
+              {choices.map((choice, i) => {
+                const isClicked = clickedIndex === i;
+                const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
+                const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
+                return (
+                  <motion.button
+                    key={i}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: i * 0.1 }}
+                    onClick={() => handleChoice(choice, i)}
+                    disabled={clickedIndex !== null}
+                    whileTap={{ scale: 0.97 }}
+                    className={`group w-full text-center rounded-lg border backdrop-blur-md transition-all duration-300 cursor-pointer ${
+                      compact ? "px-4 py-2" : "px-5 py-3"
+                    } ${clickedIndex !== null && !isClicked ? "opacity-40" : ""}`}
+                    style={{
+                      backgroundColor: flashBg || undefined,
+                      borderColor: flashBorder || undefined,
+                    }}
                   >
-                    {choice.text}
-                  </span>
-                </motion.button>
-              ))}
+                    <span
+                      className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                        compact ? "text-sm" : "text-base md:text-lg"
+                      }`}
+                    >
+                      {choice.text}
+                    </span>
+                  </motion.button>
+                );
+              })}
             </div>
           ) : (
             <motion.div
@@ -178,6 +219,40 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           />
         )}
         <div className="absolute inset-0 bg-foreground/55" />
+
+        {/* Atmosphere overlay — cumulative sentiment shift */}
+        <motion.div
+          className="absolute inset-0 pointer-events-none z-10"
+          animate={{
+            backgroundColor: atmosphereShift > 0
+              ? `rgba(255, 220, 120, ${Math.min(atmosphereShift * 0.15, 0.15)})`
+              : atmosphereShift < 0
+              ? `rgba(30, 20, 50, ${Math.min(Math.abs(atmosphereShift) * 0.2, 0.2)})`
+              : "rgba(0,0,0,0)",
+          }}
+          transition={{ duration: 1.2, ease: "easeInOut" }}
+        />
+
+        {/* Flash overlay on choice */}
+        <AnimatePresence>
+          {clickedSentiment && (
+            <motion.div
+              key="flash"
+              className="absolute inset-0 pointer-events-none z-10"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.4 }}
+              style={{
+                backgroundColor: clickedSentiment === "positive"
+                  ? "rgba(180, 255, 180, 0.08)"
+                  : clickedSentiment === "negative"
+                  ? "rgba(80, 20, 20, 0.1)"
+                  : "rgba(255, 240, 180, 0.06)",
+              }}
+            />
+          )}
+        </AnimatePresence>
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
