@@ -2,6 +2,7 @@ export interface StoryChoice {
   text: string;
   nextScene: string;
   tag?: string;
+  feedback?: string;
 }
 
 export interface StoryScene {
@@ -18,9 +19,9 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Before All Things",
     text: "Nothing exists yet.\nOnly you — and the deep, endless dark.",
     choices: [
-      { text: "Hold still — feel the emptiness", nextScene: "silence", tag: "contemplative" },
-      { text: "Reach into the darkness", nextScene: "void", tag: "aware" },
-      { text: "Speak — break the silence", nextScene: "voice", tag: "faithful" },
+      { text: "Hold still — feel the emptiness", nextScene: "silence", tag: "contemplative", feedback: "You wait. The darkness presses closer — patient, heavy." },
+      { text: "Reach into the darkness", nextScene: "void", tag: "aware", feedback: "Your hand stretches forward. Something stirs beneath the surface." },
+      { text: "Speak — break the silence", nextScene: "voice", tag: "faithful", feedback: "A sound rises from deep within you — the first sound ever made." },
     ],
   },
   silence: {
@@ -28,8 +29,8 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "The Great Silence",
     text: "You wait in the stillness.\nThe emptiness aches — it needs something more.",
     choices: [
-      { text: "Let the first word form", nextScene: "light", tag: "drawn" },
-      { text: "Breathe over the waters", nextScene: "light_awe", tag: "awestruck" },
+      { text: "Let the first word form", nextScene: "light", tag: "drawn", feedback: "The word gathers inside you — heavy with purpose." },
+      { text: "Breathe over the waters", nextScene: "light_awe", tag: "awestruck", feedback: "Your breath ripples across the deep. Something awakens." },
     ],
   },
   voice: {
@@ -37,8 +38,8 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "The Word",
     text: "Your voice tears through the nothing.\nIt carries the weight of forever.",
     choices: [
-      { text: "Command — let there be light", nextScene: "light_obey", tag: "obedient" },
-      { text: "Whisper it gently into being", nextScene: "light_awe", tag: "reverent" },
+      { text: "Command — let there be light", nextScene: "light_obey", tag: "obedient", feedback: "The command explodes from you. There is no turning back." },
+      { text: "Whisper it gently into being", nextScene: "light_awe", tag: "reverent", feedback: "The whisper leaves your lips — soft, yet unstoppable." },
     ],
   },
   void: {
@@ -46,8 +47,8 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "The Formless Deep",
     text: "Endless waters stretch beneath you.\nYou hover above the deep.",
     choices: [
-      { text: "Descend toward the waters", nextScene: "light", tag: "witness" },
-      { text: "Stir the surface with your breath", nextScene: "light_awe", tag: "prophetic" },
+      { text: "Descend toward the waters", nextScene: "light", tag: "witness", feedback: "You lower yourself. The water trembles at your presence." },
+      { text: "Stir the surface with your breath", nextScene: "light_awe", tag: "prophetic", feedback: "Your breath moves across the face of the deep." },
     ],
   },
   light: {
@@ -55,9 +56,9 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Let There Be Light",
     text: "Light bursts from you — blinding, infinite.\nWarmth floods the emptiness for the first time.",
     choices: [
-      { text: "Let the light expand everywhere", nextScene: "sky", tag: "wonder" },
-      { text: "Shape the light — give it edges", nextScene: "warmth", tag: "grateful" },
-      { text: "Separate it from the darkness", nextScene: "day_night", tag: "understanding" },
+      { text: "Let the light expand everywhere", nextScene: "sky", tag: "wonder", feedback: "The light races outward — filling every void." },
+      { text: "Shape the light — give it edges", nextScene: "warmth", tag: "grateful", feedback: "You cup the light in your hands. It pulses, alive." },
+      { text: "Separate it from the darkness", nextScene: "day_night", tag: "understanding", feedback: "You draw a line between light and dark. Order begins." },
     ],
   },
   light_obey: {
@@ -65,8 +66,8 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Let There Be Light",
     text: "Your command shakes the void.\nLight explodes — infinite, blinding, alive.",
     choices: [
-      { text: "Hold the light close", nextScene: "warmth", tag: "grateful" },
-      { text: "Push it outward — fill everything", nextScene: "sky", tag: "wonder" },
+      { text: "Hold the light close", nextScene: "warmth", tag: "grateful", feedback: "Warmth gathers around you — golden, tender." },
+      { text: "Push it outward — fill everything", nextScene: "sky", tag: "wonder", feedback: "The light obeys. It floods the emptiness without end." },
     ],
   },
   light_awe: {
@@ -74,8 +75,8 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Let There Be Light",
     text: "Light rises gently from your breath.\nSoft at first — then blazing, unstoppable.",
     choices: [
-      { text: "Shape it into something greater", nextScene: "sky", tag: "brave" },
-      { text: "Divide the light from the dark", nextScene: "day_night", tag: "moved" },
+      { text: "Shape it into something greater", nextScene: "sky", tag: "brave", feedback: "You press the light upward — it stretches into sky." },
+      { text: "Divide the light from the dark", nextScene: "day_night", tag: "moved", feedback: "Shadow and radiance separate at your touch." },
     ],
   },
   warmth: {
@@ -83,8 +84,8 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "First Warmth",
     text: "The light settles into warmth.\nYou feel creation responding to your touch.",
     choices: [
-      { text: "Stretch the sky open above", nextScene: "sky", tag: "curious" },
-      { text: "Spread your hands — expand it all", nextScene: "sky_vast", tag: "amazed" },
+      { text: "Stretch the sky open above", nextScene: "sky", tag: "curious", feedback: "You reach upward. The sky begins to unfold." },
+      { text: "Spread your hands — expand it all", nextScene: "sky_vast", tag: "amazed", feedback: "Everything stretches — wider, higher, limitless." },
     ],
   },
   day_night: {
@@ -92,8 +93,8 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "Evening and Morning",
     text: "You name the light Day and the darkness Night.\nThe first sunset. The first dawn.",
     choices: [
-      { text: "Begin the second day", nextScene: "sky", tag: "patient" },
-      { text: "Pause — take in what you've made", nextScene: "sky_vast", tag: "joyful" },
+      { text: "Begin the second day", nextScene: "sky", tag: "patient", feedback: "You move forward. There is more to create." },
+      { text: "Pause — take in what you've made", nextScene: "sky_vast", tag: "joyful", feedback: "You stop. The colors are yours — and they are beautiful." },
     ],
   },
   sky: {
