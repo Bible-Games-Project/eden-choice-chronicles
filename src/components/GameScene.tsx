@@ -93,67 +93,113 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
   );
 
 
-  const renderChoices = (compact = false) => (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: showChoices ? 1 : 0 }}
-      transition={{ duration: 0.6 }}
-      style={{ pointerEvents: showChoices ? 'auto' : 'none' }}
-    >
-      {!isFinal ? (
-        <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
-          {choices.map((choice, i) => {
-            const isClicked = clickedIndex === i;
-            const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
-            const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
-            return (
-              <button
-                key={i}
-                onClick={() => handleChoice(choice, i)}
-                disabled={clickedIndex !== null || !showChoices}
-                className={`group w-full text-center rounded-lg border border-white/20 backdrop-blur-md bg-black/40 transition-all duration-300 cursor-pointer ${
-                  compact ? "px-4 py-2" : "px-5 py-3"
-                } ${clickedIndex !== null && !isClicked ? "opacity-40" : ""}`}
-                style={{
-                  backgroundColor: flashBg || undefined,
-                  borderColor: flashBorder || undefined,
-                }}
-              >
-                <span
-                  className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
-                    compact ? "text-sm" : "text-base md:text-lg"
+  const renderChoices = (compact = false, staggered = false) => {
+    if (!isFinal) {
+      if (staggered) {
+        // Mobile/tablet: per-button staggered fade-in, no blur
+        return (
+          <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
+            {choices.map((choice, i) => {
+              const isClicked = clickedIndex === i;
+              const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
+              const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
+              const staggerDelay = 2.5 + i * 0.5; // 2.5s, 3s, 3.5s
+              return (
+                <motion.button
+                  key={i}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : 1 }}
+                  transition={{ duration: 1, delay: staggerDelay }}
+                  onClick={() => handleChoice(choice, i)}
+                  disabled={clickedIndex !== null}
+                  className={`group w-full text-center rounded-lg border border-white/20 bg-black/40 transition-colors duration-300 cursor-pointer ${
+                    compact ? "px-4 py-2" : "px-5 py-3"
                   }`}
+                  style={{
+                    backgroundColor: flashBg || undefined,
+                    borderColor: flashBorder || undefined,
+                    pointerEvents: showChoices ? 'auto' : 'none',
+                  }}
                 >
-                  {choice.text}
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      ) : (
+                  <span
+                    className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                      compact ? "text-sm" : "text-base md:text-lg"
+                    }`}
+                  >
+                    {choice.text}
+                  </span>
+                </motion.button>
+              );
+            })}
+          </div>
+        );
+      }
+
+      // Desktop: container-level fade, with blur
+      return (
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className={`flex flex-col items-center ${compact ? "gap-2" : "gap-4"}`}
+          animate={{ opacity: showChoices ? 1 : 0 }}
+          transition={{ duration: 0.6 }}
+          style={{ pointerEvents: showChoices ? 'auto' : 'none' }}
         >
-          <div className="flex items-center justify-center gap-3">
-            <div className="h-px w-10 bg-gold/40" />
-            <div className="w-1.5 h-1.5 rotate-45 bg-gold/60" />
-            <div className="h-px w-10 bg-gold/40" />
+          <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
+            {choices.map((choice, i) => {
+              const isClicked = clickedIndex === i;
+              const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
+              const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
+              return (
+                <button
+                  key={i}
+                  onClick={() => handleChoice(choice, i)}
+                  disabled={clickedIndex !== null || !showChoices}
+                  className={`group w-full text-center rounded-lg border border-white/20 backdrop-blur-md bg-black/40 transition-all duration-300 cursor-pointer ${
+                    compact ? "px-4 py-2" : "px-5 py-3"
+                  } ${clickedIndex !== null && !isClicked ? "opacity-40" : ""}`}
+                  style={{
+                    backgroundColor: flashBg || undefined,
+                    borderColor: flashBorder || undefined,
+                  }}
+                >
+                  <span
+                    className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                      compact ? "text-sm" : "text-base md:text-lg"
+                    }`}
+                  >
+                    {choice.text}
+                  </span>
+                </button>
+              );
+            })}
           </div>
-          <button
-            onClick={handleComplete}
-            className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 cursor-pointer ${
-              compact ? "px-5 py-2" : "px-8 py-3"
-            }`}
-          >
-            Continue Journey
-          </button>
         </motion.div>
-      )}
-    </motion.div>
-  );
+      );
+    }
+
+    // Final scene button
+    return (
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: staggered ? 1 : (showChoices ? 1 : 0) }}
+        transition={{ delay: staggered ? 2.5 : 0.5, duration: 1 }}
+        className={`flex flex-col items-center ${compact ? "gap-2" : "gap-4"}`}
+      >
+        <div className="flex items-center justify-center gap-3">
+          <div className="h-px w-10 bg-gold/40" />
+          <div className="w-1.5 h-1.5 rotate-45 bg-gold/60" />
+          <div className="h-px w-10 bg-gold/40" />
+        </div>
+        <button
+          onClick={handleComplete}
+          className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 cursor-pointer ${
+            compact ? "px-5 py-2" : "px-8 py-3"
+          }`}
+        >
+          Continue Journey
+        </button>
+      </motion.div>
+    );
+  };
 
   const spriteMotion = {
     initial: { opacity: 0 },
@@ -217,11 +263,11 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
           {/* Zone 1: Text + Buttons — 50vh */}
-          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '50vh' }}>
+          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '45vh' }}>
             <div className="w-full max-w-xs px-4 text-center flex flex-col items-center">
               {renderTextBlock(true)}
               <div style={{ marginTop: '0.75rem' }}>
-                {renderChoices(true)}
+                {renderChoices(true, true)}
               </div>
             </div>
           </div>
@@ -276,11 +322,11 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         {/* ==================== TABLET ==================== */}
         <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
           {/* Zone 1: Text + Buttons — 50vh */}
-          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '50vh' }}>
+          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '45vh' }}>
             <div className="w-full max-w-md px-6 text-center flex flex-col items-center">
               {renderTextBlock(true)}
               <div style={{ marginTop: '0.75rem' }}>
-                {renderChoices(true)}
+                {renderChoices(true, true)}
               </div>
             </div>
           </div>
