@@ -72,59 +72,86 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     </motion.div>
   );
 
-  const renderChoices = (compact = false) => (
-    <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.35 }}
-    >
-      {!isFinal ? (
-        <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
-          {choices.map((choice, i) => (
-            <motion.button
-              key={i}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.4 + i * 0.1 }}
-              onClick={() => handleChoice(choice)}
-              whileTap={{ scale: 0.97 }}
-              className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
-                compact ? "px-4 py-2" : "px-5 py-3"
-              }`}
-            >
-              <span
-                className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
-                  compact ? "text-sm" : "text-base md:text-lg"
-                }`}
-              >
-                {choice.text}
-              </span>
-            </motion.button>
-          ))}
-        </div>
-      ) : (
+  const renderFeedback = (compact = false) => (
+    <AnimatePresence>
+      {feedbackText && (
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className={`flex flex-col items-center ${compact ? "gap-2" : "gap-4"}`}
+          initial={{ opacity: 0, y: 5 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
         >
-          <div className="flex items-center justify-center gap-3">
-            <div className="h-px w-10 bg-gold/40" />
-            <div className="w-1.5 h-1.5 rotate-45 bg-gold/60" />
-            <div className="h-px w-10 bg-gold/40" />
-          </div>
-          <button
-            onClick={handleComplete}
-            className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 cursor-pointer ${
-              compact ? "px-5 py-2" : "px-8 py-3"
+          <p
+            className={`font-body italic text-gold/90 drop-shadow-[0_3px_8px_rgba(0,0,0,0.85)] leading-snug ${
+              compact ? "text-lg" : "text-base md:text-xl"
             }`}
           >
-            Continue Journey
-          </button>
+            {feedbackText}
+          </p>
         </motion.div>
       )}
-    </motion.div>
+    </AnimatePresence>
+  );
+
+  const renderChoices = (compact = false) => (
+    <>
+      {renderFeedback(compact)}
+      {showChoices && !feedbackText && (
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          {!isFinal ? (
+            <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
+              {choices.map((choice, i) => (
+                <motion.button
+                  key={i}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: i * 0.1 }}
+                  onClick={() => handleChoice(choice)}
+                  whileTap={{ scale: 0.97 }}
+                  className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
+                    compact ? "px-4 py-2" : "px-5 py-3"
+                  }`}
+                >
+                  <span
+                    className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                      compact ? "text-sm" : "text-base md:text-lg"
+                    }`}
+                  >
+                    {choice.text}
+                  </span>
+                </motion.button>
+              ))}
+            </div>
+          ) : (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+              className={`flex flex-col items-center ${compact ? "gap-2" : "gap-4"}`}
+            >
+              <div className="flex items-center justify-center gap-3">
+                <div className="h-px w-10 bg-gold/40" />
+                <div className="w-1.5 h-1.5 rotate-45 bg-gold/60" />
+                <div className="h-px w-10 bg-gold/40" />
+              </div>
+              <button
+                onClick={handleComplete}
+                className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 cursor-pointer ${
+                  compact ? "px-5 py-2" : "px-8 py-3"
+                }`}
+              >
+                Continue Journey
+              </button>
+            </motion.div>
+          )}
+        </motion.div>
+      )}
+    </>
   );
 
   const spriteMotion = {
