@@ -35,8 +35,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
   const [clickedSentiment, setClickedSentiment] = useState<ChoiceSentiment | null>(null);
   const [atmosphereShift, setAtmosphereShift] = useState(0); // -1 to 1 range, cumulative
 
-  // Randomized micro-pause delay (0.8–1.2s)
-  const choiceDelay = useMemo(() => 800 + Math.random() * 400, [text]);
+  // Fixed 1.5s delay before buttons appear
+  const choiceDelay = 1500;
 
   useEffect(() => {
     setShowChoices(false);
@@ -57,23 +57,12 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     const shift = sentiment === "positive" ? 0.12 : sentiment === "negative" ? -0.15 : 0;
     setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
 
-    // Button flash duration, then feedback or transition
+    // Button flash duration, then transition directly
     const flashDuration = 700;
     setTimeout(() => {
       setClickedIndex(null);
       setClickedSentiment(null);
-      if (choice.feedback) {
-        setFeedbackText(choice.feedback);
-        setPendingChoice(choice);
-        setShowChoices(false);
-        setTimeout(() => {
-          setFeedbackText(null);
-          setPendingChoice(null);
-          onChoice(choice);
-        }, 1500);
-      } else {
-        onChoice(choice);
-      }
+      onChoice(choice);
     }, flashDuration);
   }, [onChoice]);
 
@@ -103,32 +92,10 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     </motion.div>
   );
 
-  const renderFeedback = (compact = false) => (
-    <AnimatePresence>
-      {feedbackText && (
-        <motion.div
-          initial={{ opacity: 0, y: 5 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-center"
-        >
-          <p
-            className={`font-body italic text-gold/90 drop-shadow-[0_3px_8px_rgba(0,0,0,0.85)] leading-snug ${
-              compact ? "text-lg" : "text-base md:text-xl"
-            }`}
-          >
-            {feedbackText}
-          </p>
-        </motion.div>
-      )}
-    </AnimatePresence>
-  );
 
   const renderChoices = (compact = false) => (
     <>
-      {renderFeedback(compact)}
-      {showChoices && !feedbackText && (
+      {showChoices && (
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -149,7 +116,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                     onClick={() => handleChoice(choice, i)}
                     disabled={clickedIndex !== null}
                     whileTap={{ scale: 0.97 }}
-                    className={`group w-full text-center rounded-lg border backdrop-blur-md transition-all duration-300 cursor-pointer ${
+                    className={`group w-full text-center rounded-lg border border-white/20 backdrop-blur-md bg-black/40 transition-all duration-300 cursor-pointer ${
                       compact ? "px-4 py-2" : "px-5 py-3"
                     } ${clickedIndex !== null && !isClicked ? "opacity-40" : ""}`}
                     style={{
