@@ -220,6 +220,40 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         )}
         <div className="absolute inset-0 bg-foreground/55" />
 
+        {/* Atmosphere overlay — cumulative sentiment shift */}
+        <motion.div
+          className="absolute inset-0 pointer-events-none z-10"
+          animate={{
+            backgroundColor: atmosphereShift > 0
+              ? `rgba(255, 220, 120, ${Math.min(atmosphereShift * 0.15, 0.15)})`
+              : atmosphereShift < 0
+              ? `rgba(30, 20, 50, ${Math.min(Math.abs(atmosphereShift) * 0.2, 0.2)})`
+              : "rgba(0,0,0,0)",
+          }}
+          transition={{ duration: 1.2, ease: "easeInOut" }}
+        />
+
+        {/* Flash overlay on choice */}
+        <AnimatePresence>
+          {clickedSentiment && (
+            <motion.div
+              key="flash"
+              className="absolute inset-0 pointer-events-none z-10"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.4 }}
+              style={{
+                backgroundColor: clickedSentiment === "positive"
+                  ? "rgba(180, 255, 180, 0.08)"
+                  : clickedSentiment === "negative"
+                  ? "rgba(80, 20, 20, 0.1)"
+                  : "rgba(255, 240, 180, 0.06)",
+              }}
+            />
+          )}
+        </AnimatePresence>
+
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
           {/* Zone 1: Text + Buttons — 50vh */}
