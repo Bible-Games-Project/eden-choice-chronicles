@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { StoryChoice } from "@/data/stories/creation";
-import { useCallback, useState, useEffect, useMemo } from "react";
+import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
+import { useCallback, useState, useEffect, useMemo, useRef } from "react";
 
 interface GameSceneProps {
   title: string;
@@ -14,11 +14,26 @@ interface GameSceneProps {
   sprites?: { left?: string; right?: string };
 }
 
+const SENTIMENT_COLORS: Record<ChoiceSentiment, string> = {
+  positive: "rgba(74, 222, 128, 0.35)",
+  neutral: "rgba(250, 204, 21, 0.30)",
+  negative: "rgba(248, 113, 113, 0.30)",
+};
+
+const SENTIMENT_BORDER: Record<ChoiceSentiment, string> = {
+  positive: "rgba(74, 222, 128, 0.7)",
+  neutral: "rgba(250, 204, 21, 0.6)",
+  negative: "rgba(248, 113, 113, 0.6)",
+};
+
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites }: GameSceneProps) => {
   const textLines = text.split("\n");
   const [showChoices, setShowChoices] = useState(false);
   const [feedbackText, setFeedbackText] = useState<string | null>(null);
   const [pendingChoice, setPendingChoice] = useState<StoryChoice | null>(null);
+  const [clickedIndex, setClickedIndex] = useState<number | null>(null);
+  const [clickedSentiment, setClickedSentiment] = useState<ChoiceSentiment | null>(null);
+  const [atmosphereShift, setAtmosphereShift] = useState(0); // -1 to 1 range, cumulative
 
   // Randomized micro-pause delay (0.8–1.2s)
   const choiceDelay = useMemo(() => 800 + Math.random() * 400, [text]);
@@ -27,23 +42,39 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     setShowChoices(false);
     setFeedbackText(null);
     setPendingChoice(null);
+    setClickedIndex(null);
+    setClickedSentiment(null);
     const timer = setTimeout(() => setShowChoices(true), choiceDelay);
     return () => clearTimeout(timer);
   }, [text, choiceDelay]);
 
-  const handleChoice = useCallback((choice: StoryChoice) => {
-    if (choice.feedback) {
-      setFeedbackText(choice.feedback);
-      setPendingChoice(choice);
-      setShowChoices(false);
-      setTimeout(() => {
-        setFeedbackText(null);
-        setPendingChoice(null);
+  const handleChoice = useCallback((choice: StoryChoice, index: number) => {
+    const sentiment = choice.sentiment || "neutral";
+    setClickedIndex(index);
+    setClickedSentiment(sentiment);
+
+    // Update cumulative atmosphere
+    const shift = sentiment === "positive" ? 0.12 : sentiment === "negative" ? -0.15 : 0;
+    setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
+
+    // Button flash duration, then feedback or transition
+    const flashDuration = 700;
+    setTimeout(() => {
+      setClickedIndex(null);
+      setClickedSentiment(null);
+      if (choice.feedback) {
+        setFeedbackText(choice.feedback);
+        setPendingChoice(choice);
+        setShowChoices(false);
+        setTimeout(() => {
+          setFeedbackText(null);
+          setPendingChoice(null);
+          onChoice(choice);
+        }, 1500);
+      } else {
         onChoice(choice);
-      }, 1500);
-    } else {
-      onChoice(choice);
-    }
+      }
+    }, flashDuration);
   }, [onChoice]);
 
   const handleComplete = useCallback(() => {
