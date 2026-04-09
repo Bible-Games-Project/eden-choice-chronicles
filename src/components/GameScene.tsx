@@ -136,27 +136,37 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         >
           {!isFinal ? (
             <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
-              {choices.map((choice, i) => (
-                <motion.button
-                  key={i}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: i * 0.1 }}
-                  onClick={() => handleChoice(choice)}
-                  whileTap={{ scale: 0.97 }}
-                  className={`group w-full text-center rounded-lg border border-gold/25 bg-foreground/60 backdrop-blur-md hover:bg-gold/15 hover:border-gold/50 transition-all duration-300 cursor-pointer ${
-                    compact ? "px-4 py-2" : "px-5 py-3"
-                  }`}
-                >
-                  <span
-                    className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
-                      compact ? "text-sm" : "text-base md:text-lg"
-                    }`}
+              {choices.map((choice, i) => {
+                const isClicked = clickedIndex === i;
+                const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
+                const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
+                return (
+                  <motion.button
+                    key={i}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: i * 0.1 }}
+                    onClick={() => handleChoice(choice, i)}
+                    disabled={clickedIndex !== null}
+                    whileTap={{ scale: 0.97 }}
+                    className={`group w-full text-center rounded-lg border backdrop-blur-md transition-all duration-300 cursor-pointer ${
+                      compact ? "px-4 py-2" : "px-5 py-3"
+                    } ${clickedIndex !== null && !isClicked ? "opacity-40" : ""}`}
+                    style={{
+                      backgroundColor: flashBg || undefined,
+                      borderColor: flashBorder || undefined,
+                    }}
                   >
-                    {choice.text}
-                  </span>
-                </motion.button>
-              ))}
+                    <span
+                      className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                        compact ? "text-sm" : "text-base md:text-lg"
+                      }`}
+                    >
+                      {choice.text}
+                    </span>
+                  </motion.button>
+                );
+              })}
             </div>
           ) : (
             <motion.div
