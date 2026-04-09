@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
-import { useCallback, useState, useEffect, useMemo, useRef } from "react";
+import { useCallback, useState, useEffect } from "react";
 
 interface GameSceneProps {
   title: string;
@@ -26,16 +26,22 @@ const SENTIMENT_BORDER: Record<ChoiceSentiment, string> = {
   negative: "rgba(248, 113, 113, 0.6)",
 };
 
+// Stagger delays per button index (seconds)
+const STAGGER_DELAYS = [2.5, 3.0, 3.5];
+// Each button fades over 1s, so it's fully visible at delay + 1
+const STAGGER_FADE_DURATION = 1;
+
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites }: GameSceneProps) => {
-  const textLines = text.split("\n");
   const [showChoices, setShowChoices] = useState(false);
   const [feedbackText, setFeedbackText] = useState<string | null>(null);
   const [pendingChoice, setPendingChoice] = useState<StoryChoice | null>(null);
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedSentiment, setClickedSentiment] = useState<ChoiceSentiment | null>(null);
-  const [atmosphereShift, setAtmosphereShift] = useState(0); // -1 to 1 range, cumulative
+  const [atmosphereShift, setAtmosphereShift] = useState(0);
+  // Track per-button fade completion for staggered mode
+  const [buttonsReady, setButtonsReady] = useState<boolean[]>([]);
 
-  // Fixed 1.5s delay before buttons appear
+  // Desktop: 1.5s delay
   const choiceDelay = 1500;
 
   useEffect(() => {
@@ -44,33 +50,51 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     setPendingChoice(null);
     setClickedIndex(null);
     setClickedSentiment(null);
+    setButtonsReady(choices.map(() => false));
+
     const timer = setTimeout(() => setShowChoices(true), choiceDelay);
-    return () => clearTimeout(timer);
-  }, [text, choiceDelay]);
+
+    // Set up per-button ready timers for staggered mode
+    const buttonTimers = choices.map((_, i) => {
+      const readyAt = (STAGGER_DELAYS[i] ?? STAGGER_DELAYS[STAGGER_DELAYS.length - 1]) + STAGGER_FADE_DURATION;
+      return setTimeout(() => {
+        setButtonsReady(prev => {
+          const next = [...prev];
+          next[i] = true;
+          return next;
+        });
+      }, readyAt * 1000);
+    });
+
+    return () => {
+      clearTimeout(timer);
+      buttonTimers.forEach(t => clearTimeout(t));
+    };
+  }, [text, choices.length]);
 
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     const sentiment = choice.sentiment || "neutral";
     setClickedIndex(index);
     setClickedSentiment(sentiment);
 
-    // Update cumulative atmosphere
     const shift = sentiment === "positive" ? 0.12 : sentiment === "negative" ? -0.15 : 0;
     setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
 
-    // Button flash duration, then transition directly
-    const flashDuration = 700;
     setTimeout(() => {
       setClickedIndex(null);
       setClickedSentiment(null);
       onChoice(choice);
-    }, flashDuration);
+    }, 700);
   }, [onChoice]);
 
   const handleComplete = useCallback(() => {
     onComplete();
   }, [onComplete]);
 
-  const renderTextBlock = (compact = false) => (
+  // Join text with ". " for mobile/tablet (single flowing paragraph)
+  const mobileText = text.replace(/\n/g, " ");
+
+  const renderTextBlock = (compact = false, joinLines = false) => (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -78,47 +102,59 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
       className="text-center"
     >
       <div className={compact ? "mb-1" : "mb-3"}>
-        {textLines.map((line, i) => (
+        {joinLines ? (
           <p
-            key={i}
-            className={`font-body italic text-primary-foreground/90 drop-shadow-[0_3px_8px_rgba(0,0,0,0.85)] leading-snug ${
-              compact ? "text-2xl" : "text-xl md:text-3xl"
+            className={`font-body italic text-primary-foreground/90 leading-snug ${
+              compact
+                ? "text-[1.35rem] drop-shadow-[0_3px_10px_rgba(0,0,0,0.95)]"
+                : "text-xl md:text-3xl drop-shadow-[0_3px_8px_rgba(0,0,0,0.85)]"
             }`}
           >
-            {line}
+            {mobileText}
           </p>
-        ))}
+        ) : (
+          text.split("\n").map((line, i) => (
+            <p
+              key={i}
+              className={`font-body italic text-primary-foreground/90 drop-shadow-[0_3px_8px_rgba(0,0,0,0.85)] leading-snug ${
+                compact ? "text-2xl" : "text-xl md:text-3xl"
+              }`}
+            >
+              {line}
+            </p>
+          ))
+        )}
       </div>
     </motion.div>
   );
 
-
   const renderChoices = (compact = false, staggered = false) => {
     if (!isFinal) {
       if (staggered) {
-        // Mobile/tablet: per-button staggered fade-in, no blur
+        // Mobile/tablet: per-button staggered fade-in, no blur, disabled until fade complete
         return (
           <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
             {choices.map((choice, i) => {
               const isClicked = clickedIndex === i;
               const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
               const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
-              const staggerDelay = 2.5 + i * 0.5; // 2.5s, 3s, 3.5s
+              const delay = STAGGER_DELAYS[i] ?? STAGGER_DELAYS[STAGGER_DELAYS.length - 1];
+              const isReady = buttonsReady[i] ?? false;
               return (
                 <motion.button
                   key={i}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : 1 }}
-                  transition={{ duration: 1, delay: staggerDelay }}
+                  transition={{ duration: STAGGER_FADE_DURATION, delay }}
                   onClick={() => handleChoice(choice, i)}
-                  disabled={clickedIndex !== null}
+                  disabled={clickedIndex !== null || !isReady}
                   className={`group w-full text-center rounded-lg border border-white/20 bg-black/40 transition-colors duration-300 cursor-pointer ${
                     compact ? "px-4 py-2" : "px-5 py-3"
                   }`}
                   style={{
                     backgroundColor: flashBg || undefined,
                     borderColor: flashBorder || undefined,
-                    pointerEvents: showChoices ? 'auto' : 'none',
+                    pointerEvents: isReady ? 'auto' : 'none',
                   }}
                 >
                   <span
@@ -201,7 +237,27 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     );
   };
 
-  const spriteMotion = {
+  // Sprite breathing/sway animation for mobile/tablet
+  const spriteMotionMobile = {
+    initial: { opacity: 0, y: 20 },
+    animate: {
+      opacity: 1,
+      y: [0, -3, 0, -2, 0],
+    },
+    transition: {
+      opacity: { duration: 0.5, ease: "easeOut" as const },
+      y: {
+        duration: 4,
+        ease: "easeInOut" as const,
+        repeat: Infinity,
+        repeatType: "loop" as const,
+        delay: 0.5,
+      },
+    },
+  };
+
+  // Desktop sprite: simple fade
+  const spriteMotionDesktop = {
     initial: { opacity: 0 },
     animate: { opacity: 1 },
     transition: { duration: 0.8, ease: "easeOut" as const },
@@ -226,7 +282,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         )}
         <div className="absolute inset-0 bg-foreground/55" />
 
-        {/* Atmosphere overlay — cumulative sentiment shift */}
+        {/* Atmosphere overlay */}
         <motion.div
           className="absolute inset-0 pointer-events-none z-10"
           animate={{
@@ -262,23 +318,23 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 50vh */}
+          {/* Zone 1: Text + Buttons — 45vh */}
           <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '45vh' }}>
             <div className="w-full max-w-xs px-4 text-center flex flex-col items-center">
-              {renderTextBlock(true)}
+              {renderTextBlock(true, true)}
               <div style={{ marginTop: '0.75rem' }}>
                 {renderChoices(true, true)}
               </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 50vh, full width */}
-          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '50vh' }}>
+          {/* Zone 2: Sprite — 55vh anchored to bottom, overflow hidden */}
+          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '55vh' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-mobile-center-${text}`}
                 className="absolute bottom-0 inset-x-0 pointer-events-none"
                 style={{ height: '100%' }}
-                {...spriteMotion}
+                {...spriteMotionMobile}
               >
                 <img
                   src={sprites.left}
@@ -293,7 +349,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                   key={`sprite-mobile-left-${text}`}
                   className="absolute bottom-0 left-0 pointer-events-none"
                   style={{ width: '50%', height: '100%' }}
-                  {...spriteMotion}
+                  {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.left}
@@ -305,7 +361,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                   key={`sprite-mobile-right-${text}`}
                   className="absolute bottom-0 right-0 pointer-events-none"
                   style={{ width: '50%', height: '100%' }}
-                  {...spriteMotion}
+                  {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.right}
@@ -321,23 +377,23 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* ==================== TABLET ==================== */}
         <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
-          {/* Zone 1: Text + Buttons — 50vh */}
+          {/* Zone 1: Text + Buttons — 45vh */}
           <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '45vh' }}>
             <div className="w-full max-w-md px-6 text-center flex flex-col items-center">
-              {renderTextBlock(true)}
+              {renderTextBlock(true, true)}
               <div style={{ marginTop: '0.75rem' }}>
                 {renderChoices(true, true)}
               </div>
             </div>
           </div>
-          {/* Zone 2: Sprite — 50vh, full width */}
-          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '50vh' }}>
+          {/* Zone 2: Sprite — 55vh anchored to bottom */}
+          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '55vh' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-tablet-center-${text}`}
                 className="absolute bottom-0 inset-x-0 pointer-events-none"
                 style={{ height: '100%' }}
-                {...spriteMotion}
+                {...spriteMotionMobile}
               >
                 <img
                   src={sprites.left}
@@ -352,7 +408,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                   key={`sprite-tablet-left-${text}`}
                   className="absolute bottom-0 left-0 pointer-events-none"
                   style={{ width: '50%', height: '100%' }}
-                  {...spriteMotion}
+                  {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.left}
@@ -364,7 +420,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                   key={`sprite-tablet-right-${text}`}
                   className="absolute bottom-0 right-0 pointer-events-none"
                   style={{ width: '50%', height: '100%' }}
-                  {...spriteMotion}
+                  {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.right}
@@ -387,7 +443,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 key={`sprite-desktop-${text}`}
                 className="absolute pointer-events-none"
                 style={{ bottom: 0, left: '10%' }}
-                {...spriteMotion}
+                {...spriteMotionDesktop}
               >
                 <img
                   src={sprites.left}
@@ -416,7 +472,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 key={`sprite-right-desktop-${text}`}
                 className="absolute pointer-events-none"
                 style={{ bottom: 0, right: '10%' }}
-                {...spriteMotion}
+                {...spriteMotionDesktop}
               >
                 <img
                   src={sprites.right}
