@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { StoryChoice } from "@/data/stories/creation";
-import { useCallback } from "react";
+import { useCallback, useState, useEffect, useMemo } from "react";
 
 interface GameSceneProps {
   title: string;
@@ -16,9 +16,34 @@ interface GameSceneProps {
 
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites }: GameSceneProps) => {
   const textLines = text.split("\n");
+  const [showChoices, setShowChoices] = useState(false);
+  const [feedbackText, setFeedbackText] = useState<string | null>(null);
+  const [pendingChoice, setPendingChoice] = useState<StoryChoice | null>(null);
+
+  // Randomized micro-pause delay (0.8–1.2s)
+  const choiceDelay = useMemo(() => 800 + Math.random() * 400, [text]);
+
+  useEffect(() => {
+    setShowChoices(false);
+    setFeedbackText(null);
+    setPendingChoice(null);
+    const timer = setTimeout(() => setShowChoices(true), choiceDelay);
+    return () => clearTimeout(timer);
+  }, [text, choiceDelay]);
 
   const handleChoice = useCallback((choice: StoryChoice) => {
-    onChoice(choice);
+    if (choice.feedback) {
+      setFeedbackText(choice.feedback);
+      setPendingChoice(choice);
+      setShowChoices(false);
+      setTimeout(() => {
+        setFeedbackText(null);
+        setPendingChoice(null);
+        onChoice(choice);
+      }, 1500);
+    } else {
+      onChoice(choice);
+    }
   }, [onChoice]);
 
   const handleComplete = useCallback(() => {
