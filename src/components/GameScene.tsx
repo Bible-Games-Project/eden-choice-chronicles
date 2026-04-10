@@ -159,19 +159,19 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
             return (
               <motion.button
                 key={`${stepCount}-${i}-${choice.text}`}
-                initial={false}
+                initial={{ opacity: 0 }}
                 animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : isVisible ? 1 : 0 }}
-                transition={{ duration: STAGGER_FADE_DURATION, ease: "easeInOut" }}
+                transition={{ duration: clickedIndex !== null ? 0.3 : STAGGER_FADE_DURATION, ease: "easeInOut" }}
                 onClick={() => handleChoice(choice, i)}
                 disabled={clickedIndex !== null || !isReady || isTransitioning}
-                className={`group w-full text-center rounded-lg border border-white/20 bg-black/40 transition-all duration-300 ${
+                className={`group w-full text-center rounded-lg border transition-all duration-300 ${
                   staggered ? "" : "backdrop-blur-md"
                 } ${isReady && !isTransitioning ? "cursor-pointer" : "cursor-default"} ${
                   compact ? "px-4 py-2" : "px-5 py-3"
                 }`}
                 style={{
-                  backgroundColor: flashBg || undefined,
-                  borderColor: flashBorder || undefined,
+                  backgroundColor: flashBg || "rgba(0,0,0,0.4)",
+                  borderColor: flashBorder || "rgba(255,255,255,0.2)",
                   pointerEvents: isReady && !isTransitioning ? "auto" : "none",
                 }}
               >
@@ -192,7 +192,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     // Final scene button
     return (
       <motion.div
-        initial={false}
+        initial={{ opacity: 0 }}
         animate={{ opacity: finalButtonVisible ? 1 : 0 }}
         transition={{ duration: STAGGER_FADE_DURATION, ease: "easeInOut" }}
         className={`flex flex-col items-center ${compact ? "gap-2" : "gap-4"}`}
