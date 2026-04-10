@@ -30,7 +30,7 @@ const SENTIMENT_BORDER: Record<ChoiceSentiment, string> = {
 };
 
 // Stagger delays per button index (seconds)
-const STAGGER_DELAYS = [2.5, 3.0, 3.5];
+const STAGGER_DELAYS = [2.0, 2.5, 3.0];
 // Each button fades over 1s, so it's fully visible at delay + 1
 const STAGGER_FADE_DURATION = 1;
 const FINAL_BUTTON_DELAY = STAGGER_DELAYS[0] ?? 2.5;
