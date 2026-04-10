@@ -2,20 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
 import { useCallback, useState, useEffect, useRef } from "react";
-
-function preloadImages(urls: string[]): Promise<void[]> {
-  return Promise.all(
-    urls.map(
-      (url) =>
-        new Promise<void>((resolve) => {
-          const img = new Image();
-          img.onload = () => resolve();
-          img.onerror = () => resolve();
-          img.src = url;
-        })
-    )
-  );
-}
+import { preloadImages } from "@/lib/preloadImages";
 
 interface GameSceneProps {
   title: string;
@@ -28,6 +15,7 @@ interface GameSceneProps {
   backgroundImage?: string;
   sprites?: { left?: string; right?: string };
   sceneEffect?: SceneEffect;
+  isTransitioning?: boolean;
 }
 
 const SENTIMENT_COLORS: Record<ChoiceSentiment, string> = {
@@ -47,7 +35,7 @@ const STAGGER_DELAYS = [2.5, 3.0, 3.5];
 // Each button fades over 1s, so it's fully visible at delay + 1
 const STAGGER_FADE_DURATION = 1;
 
-const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites, sceneEffect }: GameSceneProps) => {
+const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites, sceneEffect, isTransitioning = false }: GameSceneProps) => {
   const [showChoices, setShowChoices] = useState(false);
   const [feedbackText, setFeedbackText] = useState<string | null>(null);
   const [pendingChoice, setPendingChoice] = useState<StoryChoice | null>(null);
@@ -80,16 +68,25 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     if (sprites?.left) urls.push(sprites.left);
     if (sprites?.right) urls.push(sprites.right);
 
+    let cancelled = false;
+
     const load = async () => {
       await preloadImages(urls);
       // Hold black for at least 250ms
       await new Promise((r) => setTimeout(r, 250));
+      if (cancelled) return;
       setSceneReady(true);
       // Small delay then hide black overlay (fade begins)
-      transitionTimer.current = setTimeout(() => setShowBlack(false), 50);
+      transitionTimer.current = setTimeout(() => {
+        if (!cancelled) {
+          setShowBlack(false);
+        }
+      }, 50);
     };
     load().then(() => {
-      choiceTimer = setTimeout(() => setShowChoices(true), choiceDelay);
+      if (!cancelled) {
+        choiceTimer = setTimeout(() => setShowChoices(true), choiceDelay);
+      }
     });
 
     let choiceTimer: ReturnType<typeof setTimeout>;
@@ -107,13 +104,16 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     });
 
     return () => {
+      cancelled = true;
       clearTimeout(choiceTimer);
       clearTimeout(transitionTimer.current);
       buttonTimers.forEach(t => clearTimeout(t));
     };
-  }, [text, choices.length]);
+  }, [backgroundImage, choices.length, sprites?.left, sprites?.right, text]);
 
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
+    if (clickedIndex !== null || isTransitioning) return;
+
     const sentiment = choice.sentiment || "neutral";
     setClickedIndex(index);
     setClickedSentiment(sentiment);
@@ -121,12 +121,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     const shift = sentiment === "positive" ? 0.12 : sentiment === "negative" ? -0.15 : 0;
     setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
 
-    setTimeout(() => {
-      setClickedIndex(null);
-      setClickedSentiment(null);
-      onChoice(choice);
-    }, 700);
-  }, [onChoice]);
+    onChoice(choice);
+  }, [clickedIndex, isTransitioning, onChoice]);
 
   const handleComplete = useCallback(() => {
     onComplete();
@@ -188,14 +184,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                   animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : 1 }}
                   transition={{ duration: STAGGER_FADE_DURATION, delay }}
                   onClick={() => handleChoice(choice, i)}
-                  disabled={clickedIndex !== null || !isReady}
+                   disabled={clickedIndex !== null || !isReady || isTransitioning}
                   className={`group w-full text-center rounded-lg border border-white/20 bg-black/40 transition-colors duration-300 cursor-pointer ${
                     compact ? "px-4 py-2" : "px-5 py-3"
                   }`}
                   style={{
                     backgroundColor: flashBg || undefined,
                     borderColor: flashBorder || undefined,
-                    pointerEvents: isReady ? 'auto' : 'none',
+                     pointerEvents: isReady && !isTransitioning ? 'auto' : 'none',
                   }}
                 >
                   <span
@@ -229,7 +225,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
                 <button
                   key={i}
                   onClick={() => handleChoice(choice, i)}
-                  disabled={clickedIndex !== null || !showChoices}
+                   disabled={clickedIndex !== null || !showChoices || isTransitioning}
                   className={`group w-full text-center rounded-lg border border-white/20 backdrop-blur-md bg-black/40 transition-all duration-300 cursor-pointer ${
                     compact ? "px-4 py-2" : "px-5 py-3"
                   } ${clickedIndex !== null && !isClicked ? "opacity-40" : ""}`}
@@ -268,7 +264,10 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         </div>
         <button
           onClick={handleComplete}
-          className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 cursor-pointer ${
+          disabled={isTransitioning}
+          className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 ${
+            isTransitioning ? "cursor-default opacity-60" : "cursor-pointer"
+          } ${
             compact ? "px-5 py-2" : "px-8 py-3"
           }`}
         >
@@ -305,14 +304,9 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
   };
 
   return (
-    <AnimatePresence mode="wait">
-      <motion.div
-        key={text}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
+      <div
         className="fixed inset-0 overflow-hidden"
+        style={{ backgroundColor: "hsl(var(--scene-base))" }}
       >
         {/* Background */}
         {backgroundImage && (
@@ -531,13 +525,13 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
 
         {/* Black overlay for scene transitions */}
         <motion.div
-          className="absolute inset-0 bg-black z-50 pointer-events-none"
+          className="absolute inset-0 z-50 pointer-events-none"
           initial={{ opacity: 1 }}
           animate={{ opacity: showBlack ? 1 : 0 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
+          style={{ backgroundColor: "hsl(var(--scene-base))" }}
         />
-      </motion.div>
-    </AnimatePresence>
+      </div>
   );
 };
 
