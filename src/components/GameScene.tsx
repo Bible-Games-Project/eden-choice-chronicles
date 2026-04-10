@@ -336,26 +336,27 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
                 <motion.div
                   key={`sprite-mobile-left-${text}`}
                   className="absolute bottom-0 left-0 pointer-events-none"
-                  style={{ width: '50%', height: '100%' }}
+                  style={{ height: '100%', width: '65%' }}
                   {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="w-full h-full object-contain object-bottom"
+                    className="h-full w-auto object-bottom"
+                    style={{ maxWidth: 'none' }}
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-mobile-right-${text}`}
-                  className="absolute bottom-0 right-0 pointer-events-none"
-                  style={{ width: '50%', height: '100%' }}
+                  className="absolute bottom-0 right-0 pointer-events-none flex justify-end"
+                  style={{ height: '100%', width: '65%' }}
                   {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="w-full h-full object-contain object-bottom"
-                    style={{ transform: 'scaleX(-1)' }}
+                    className="h-full w-auto object-bottom"
+                    style={{ transform: 'scaleX(-1)', maxWidth: 'none' }}
                   />
                 </motion.div>
               </>
