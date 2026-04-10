@@ -81,7 +81,11 @@ const Index = () => {
 
     transitionLock.current = true;
     setIsSceneTransitioning(true);
-    setTransitionOverlayOpacity(1);
+
+    void (async () => {
+      // Short delay so the player can see the feedback color
+      await wait(SCENE_FEEDBACK_DELAY_MS);
+      setTransitionOverlayOpacity(1);
 
     void (async () => {
       await wait(SCENE_TRANSITION_FADE_MS);
