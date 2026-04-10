@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
+import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
 import { useCallback, useState, useEffect } from "react";
 
 interface GameSceneProps {
@@ -11,7 +12,7 @@ interface GameSceneProps {
   onComplete: () => void;
   stepCount: number;
   backgroundImage?: string;
-  sprites?: { left?: string; right?: string };
+  sceneEffect?: SceneEffect;
 }
 
 const SENTIMENT_COLORS: Record<ChoiceSentiment, string> = {
