@@ -55,13 +55,15 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
               const playable = unlocked && story.hasContent;
 
               return (
-                <motion.button
+                <motion.div
                   key={story.id}
+                  role={playable ? "button" : undefined}
+                  tabIndex={playable ? 0 : undefined}
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.03, duration: 0.4 }}
                   onClick={() => playable && onSelectStory(story)}
-                  disabled={!playable}
+                  onKeyDown={(e) => { if (playable && (e.key === "Enter" || e.key === " ")) onSelectStory(story); }}
                   className={`w-full flex items-center gap-4 px-5 py-4 rounded-xl border transition-all duration-300 text-left ${
                     completed
                       ? "border-eden/40 bg-eden/15 cursor-default"
@@ -110,7 +112,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                       </span>
                     )}
                   </div>
-                </motion.button>
+                </motion.div>
               );
             })}
           </div>

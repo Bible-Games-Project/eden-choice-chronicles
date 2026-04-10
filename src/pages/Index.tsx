@@ -7,6 +7,7 @@ import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories
 import { creationScenes, StoryChoice } from "@/data/stories/creation";
 import { creationImages } from "@/data/stories/creationImages";
 import { creationSprites, SpriteConfig } from "@/data/creationSprites";
+import { creationEffects } from "@/data/creationEffects";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
 
@@ -18,6 +19,9 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
+};
+const storyEffectRegistry: Record<string, Record<string, string>> = {
+  creation: creationEffects,
 };
 
 const Index = () => {
@@ -92,6 +96,7 @@ const Index = () => {
 
   const images = storyImageRegistry[currentStory.id];
   const sprites = storySpriteRegistry[currentStory.id]?.[currentSceneId];
+  const sceneEffect = storyEffectRegistry[currentStory.id]?.[currentSceneId] as any;
 
   return (
     <GameScene
@@ -104,6 +109,7 @@ const Index = () => {
       stepCount={stepCount}
       backgroundImage={images?.[currentSceneId]}
       sprites={sprites}
+      sceneEffect={sceneEffect}
     />
   );
 };

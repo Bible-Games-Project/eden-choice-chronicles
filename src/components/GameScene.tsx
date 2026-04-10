@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
+import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
 import { useCallback, useState, useEffect } from "react";
 
 interface GameSceneProps {
@@ -12,6 +13,7 @@ interface GameSceneProps {
   stepCount: number;
   backgroundImage?: string;
   sprites?: { left?: string; right?: string };
+  sceneEffect?: SceneEffect;
 }
 
 const SENTIMENT_COLORS: Record<ChoiceSentiment, string> = {
@@ -31,7 +33,7 @@ const STAGGER_DELAYS = [2.5, 3.0, 3.5];
 // Each button fades over 1s, so it's fully visible at delay + 1
 const STAGGER_FADE_DURATION = 1;
 
-const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites }: GameSceneProps) => {
+const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites, sceneEffect }: GameSceneProps) => {
   const [showChoices, setShowChoices] = useState(false);
   const [feedbackText, setFeedbackText] = useState<string | null>(null);
   const [pendingChoice, setPendingChoice] = useState<StoryChoice | null>(null);
@@ -281,6 +283,9 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           />
         )}
         <div className="absolute inset-0 bg-foreground/55" />
+
+        {/* Environmental effects */}
+        {sceneEffect && <SceneEffects effect={sceneEffect} />}
 
         {/* Atmosphere overlay */}
         <motion.div
