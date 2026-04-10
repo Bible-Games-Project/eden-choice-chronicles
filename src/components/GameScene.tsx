@@ -1,8 +1,7 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
-import { useCallback, useState, useEffect, useRef } from "react";
-import { preloadImages } from "@/lib/preloadImages";
+import { useCallback, useEffect, useState } from "react";
 
 interface GameSceneProps {
   title: string;
@@ -34,82 +33,68 @@ const SENTIMENT_BORDER: Record<ChoiceSentiment, string> = {
 const STAGGER_DELAYS = [2.5, 3.0, 3.5];
 // Each button fades over 1s, so it's fully visible at delay + 1
 const STAGGER_FADE_DURATION = 1;
+const FINAL_BUTTON_DELAY = STAGGER_DELAYS[0] ?? 2.5;
 
-const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundImage, sprites, sceneEffect, isTransitioning = false }: GameSceneProps) => {
-  const [showChoices, setShowChoices] = useState(false);
-  const [feedbackText, setFeedbackText] = useState<string | null>(null);
-  const [pendingChoice, setPendingChoice] = useState<StoryChoice | null>(null);
+const getStaggerDelay = (index: number) =>
+  STAGGER_DELAYS[index] ?? STAGGER_DELAYS[STAGGER_DELAYS.length - 1];
+
+const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false }: GameSceneProps) => {
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedSentiment, setClickedSentiment] = useState<ChoiceSentiment | null>(null);
   const [atmosphereShift, setAtmosphereShift] = useState(0);
-  // Track per-button fade completion for staggered mode
+  const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
   const [buttonsReady, setButtonsReady] = useState<boolean[]>([]);
+  const [finalButtonVisible, setFinalButtonVisible] = useState(false);
+  const [finalButtonReady, setFinalButtonReady] = useState(false);
 
-  // Desktop: 1.5s delay
-  const choiceDelay = 1500;
-
-  const [sceneReady, setSceneReady] = useState(false);
-  const [showBlack, setShowBlack] = useState(true);
-  const transitionTimer = useRef<ReturnType<typeof setTimeout>>();
-
-  // Preload assets then reveal scene
   useEffect(() => {
-    setSceneReady(false);
-    setShowBlack(true);
-    setShowChoices(false);
-    setFeedbackText(null);
-    setPendingChoice(null);
     setClickedIndex(null);
     setClickedSentiment(null);
+    setButtonsVisible(choices.map(() => false));
     setButtonsReady(choices.map(() => false));
+    setFinalButtonVisible(false);
+    setFinalButtonReady(false);
+  }, [choices, stepCount, text]);
 
-    const urls: string[] = [];
-    if (backgroundImage) urls.push(backgroundImage);
-    if (sprites?.left) urls.push(sprites.left);
-    if (sprites?.right) urls.push(sprites.right);
+  useEffect(() => {
+    if (isTransitioning) return;
 
-    let cancelled = false;
+    const timers: ReturnType<typeof setTimeout>[] = [];
 
-    const load = async () => {
-      await preloadImages(urls);
-      // Hold black for at least 250ms
-      await new Promise((r) => setTimeout(r, 250));
-      if (cancelled) return;
-      setSceneReady(true);
-      // Small delay then hide black overlay (fade begins)
-      transitionTimer.current = setTimeout(() => {
-        if (!cancelled) {
-          setShowBlack(false);
-        }
-      }, 50);
-    };
-    load().then(() => {
-      if (!cancelled) {
-        choiceTimer = setTimeout(() => setShowChoices(true), choiceDelay);
-      }
-    });
+    setButtonsVisible(choices.map(() => false));
+    setButtonsReady(choices.map(() => false));
+    setFinalButtonVisible(false);
+    setFinalButtonReady(false);
 
-    let choiceTimer: ReturnType<typeof setTimeout>;
+    choices.forEach((_, i) => {
+      const delay = getStaggerDelay(i);
 
-    // Set up per-button ready timers for staggered mode
-    const buttonTimers = choices.map((_, i) => {
-      const readyAt = (STAGGER_DELAYS[i] ?? STAGGER_DELAYS[STAGGER_DELAYS.length - 1]) + STAGGER_FADE_DURATION;
-      return setTimeout(() => {
+      timers.push(setTimeout(() => {
+        setButtonsVisible((prev) => {
+          const next = [...prev];
+          next[i] = true;
+          return next;
+        });
+      }, delay * 1000));
+
+      timers.push(setTimeout(() => {
         setButtonsReady(prev => {
           const next = [...prev];
           next[i] = true;
           return next;
         });
-      }, readyAt * 1000);
+      }, (delay + STAGGER_FADE_DURATION) * 1000));
     });
 
+    if (isFinal) {
+      timers.push(setTimeout(() => setFinalButtonVisible(true), FINAL_BUTTON_DELAY * 1000));
+      timers.push(setTimeout(() => setFinalButtonReady(true), (FINAL_BUTTON_DELAY + STAGGER_FADE_DURATION) * 1000));
+    }
+
     return () => {
-      cancelled = true;
-      clearTimeout(choiceTimer);
-      clearTimeout(transitionTimer.current);
-      buttonTimers.forEach(t => clearTimeout(t));
+      timers.forEach((timer) => clearTimeout(timer));
     };
-  }, [backgroundImage, choices.length, sprites?.left, sprites?.right, text]);
+  }, [choices, isFinal, isTransitioning, stepCount, text]);
 
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
@@ -132,12 +117,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
   const mobileText = text.replace(/\n/g, " ");
 
   const renderTextBlock = (compact = false, joinLines = false) => (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.7, delay: 0.15 }}
-      className="text-center"
-    >
+    <div className="text-center">
       <div className={compact ? "mb-1" : "mb-3"}>
         {joinLines ? (
           <p
@@ -162,100 +142,61 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           ))
         )}
       </div>
-    </motion.div>
+    </div>
   );
 
   const renderChoices = (compact = false, staggered = false) => {
     if (!isFinal) {
-      if (staggered) {
-        // Mobile/tablet: per-button staggered fade-in, no blur, disabled until fade complete
-        return (
-          <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
-            {choices.map((choice, i) => {
-              const isClicked = clickedIndex === i;
-              const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
-              const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
-              const delay = STAGGER_DELAYS[i] ?? STAGGER_DELAYS[STAGGER_DELAYS.length - 1];
-              const isReady = buttonsReady[i] ?? false;
-              return (
-                <motion.button
-                  key={i}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : 1 }}
-                  transition={{ duration: STAGGER_FADE_DURATION, delay }}
-                  onClick={() => handleChoice(choice, i)}
-                   disabled={clickedIndex !== null || !isReady || isTransitioning}
-                  className={`group w-full text-center rounded-lg border border-white/20 bg-black/40 transition-colors duration-300 cursor-pointer ${
-                    compact ? "px-4 py-2" : "px-5 py-3"
-                  }`}
-                  style={{
-                    backgroundColor: flashBg || undefined,
-                    borderColor: flashBorder || undefined,
-                     pointerEvents: isReady && !isTransitioning ? 'auto' : 'none',
-                  }}
-                >
-                  <span
-                    className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
-                      compact ? "text-sm" : "text-base md:text-lg"
-                    }`}
-                  >
-                    {choice.text}
-                  </span>
-                </motion.button>
-              );
-            })}
-          </div>
-        );
-      }
-
-      // Desktop: container-level fade, with blur
       return (
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: showChoices ? 1 : 0 }}
-          transition={{ duration: 0.6 }}
-          style={{ pointerEvents: showChoices ? 'auto' : 'none' }}
-        >
-          <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
-            {choices.map((choice, i) => {
-              const isClicked = clickedIndex === i;
-              const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
-              const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
-              return (
-                <button
-                  key={i}
-                  onClick={() => handleChoice(choice, i)}
-                   disabled={clickedIndex !== null || !showChoices || isTransitioning}
-                  className={`group w-full text-center rounded-lg border border-white/20 backdrop-blur-md bg-black/40 transition-all duration-300 cursor-pointer ${
-                    compact ? "px-4 py-2" : "px-5 py-3"
-                  } ${clickedIndex !== null && !isClicked ? "opacity-40" : ""}`}
-                  style={{
-                    backgroundColor: flashBg || undefined,
-                    borderColor: flashBorder || undefined,
-                  }}
+        <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
+          {choices.map((choice, i) => {
+            const isClicked = clickedIndex === i;
+            const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
+            const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
+            const isVisible = buttonsVisible[i] ?? false;
+            const isReady = buttonsReady[i] ?? false;
+
+            return (
+              <motion.button
+                key={`${stepCount}-${i}-${choice.text}`}
+                initial={false}
+                animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : isVisible ? 1 : 0 }}
+                transition={{ duration: STAGGER_FADE_DURATION, ease: "easeInOut" }}
+                onClick={() => handleChoice(choice, i)}
+                disabled={clickedIndex !== null || !isReady || isTransitioning}
+                className={`group w-full text-center rounded-lg border border-white/20 bg-black/40 transition-all duration-300 ${
+                  staggered ? "" : "backdrop-blur-md"
+                } ${isReady && !isTransitioning ? "cursor-pointer" : "cursor-default"} ${
+                  compact ? "px-4 py-2" : "px-5 py-3"
+                }`}
+                style={{
+                  backgroundColor: flashBg || undefined,
+                  borderColor: flashBorder || undefined,
+                  pointerEvents: isReady && !isTransitioning ? "auto" : "none",
+                }}
+              >
+                <span
+                  className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
+                    compact ? "text-sm" : "text-base md:text-lg"
+                  }`}
                 >
-                  <span
-                    className={`font-body text-primary-foreground/90 group-hover:text-primary-foreground transition-colors ${
-                      compact ? "text-sm" : "text-base md:text-lg"
-                    }`}
-                  >
-                    {choice.text}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </motion.div>
+                  {choice.text}
+                </span>
+              </motion.button>
+            );
+          })}
+        </div>
       );
     }
 
     // Final scene button
     return (
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: staggered ? 1 : (showChoices ? 1 : 0) }}
-        transition={{ delay: staggered ? 2.5 : 0.5, duration: 1 }}
+        initial={false}
+        animate={{ opacity: finalButtonVisible ? 1 : 0 }}
+        transition={{ duration: STAGGER_FADE_DURATION, ease: "easeInOut" }}
         className={`flex flex-col items-center ${compact ? "gap-2" : "gap-4"}`}
+        style={{ pointerEvents: finalButtonReady && !isTransitioning ? "auto" : "none" }}
       >
         <div className="flex items-center justify-center gap-3">
           <div className="h-px w-10 bg-gold/40" />
@@ -264,9 +205,9 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         </div>
         <button
           onClick={handleComplete}
-          disabled={isTransitioning}
+          disabled={isTransitioning || !finalButtonReady}
           className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 ${
-            isTransitioning ? "cursor-default opacity-60" : "cursor-pointer"
+            finalButtonReady && !isTransitioning ? "cursor-pointer" : "cursor-default opacity-60"
           } ${
             compact ? "px-5 py-2" : "px-8 py-3"
           }`}
@@ -334,25 +275,22 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         />
 
         {/* Flash overlay on choice */}
-        <AnimatePresence>
-          {clickedSentiment && (
-            <motion.div
-              key="flash"
-              className="absolute inset-0 pointer-events-none z-10"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.4 }}
-              style={{
-                backgroundColor: clickedSentiment === "positive"
-                  ? "rgba(180, 255, 180, 0.08)"
-                  : clickedSentiment === "negative"
-                  ? "rgba(80, 20, 20, 0.1)"
-                  : "rgba(255, 240, 180, 0.06)",
-              }}
-            />
-          )}
-        </AnimatePresence>
+        {clickedSentiment && (
+          <motion.div
+            key="flash"
+            className="absolute inset-0 pointer-events-none z-10"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.4 }}
+            style={{
+              backgroundColor: clickedSentiment === "positive"
+                ? "rgba(180, 255, 180, 0.08)"
+                : clickedSentiment === "negative"
+                ? "rgba(80, 20, 20, 0.1)"
+                : "rgba(255, 240, 180, 0.06)",
+            }}
+          />
+        )}
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
@@ -523,14 +461,6 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
           </div>
         </div>
 
-        {/* Black overlay for scene transitions */}
-        <motion.div
-          className="absolute inset-0 z-50 pointer-events-none"
-          initial={{ opacity: 1 }}
-          animate={{ opacity: showBlack ? 1 : 0 }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
-          style={{ backgroundColor: "hsl(var(--scene-base))" }}
-        />
       </div>
   );
 };
