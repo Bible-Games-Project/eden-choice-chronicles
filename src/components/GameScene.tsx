@@ -1,7 +1,21 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
-import { useCallback, useState, useEffect } from "react";
+import { useCallback, useState, useEffect, useRef } from "react";
+
+function preloadImages(urls: string[]): Promise<void[]> {
+  return Promise.all(
+    urls.map(
+      (url) =>
+        new Promise<void>((resolve) => {
+          const img = new Image();
+          img.onload = () => resolve();
+          img.onerror = () => resolve();
+          img.src = url;
+        })
+    )
+  );
+}
 
 interface GameSceneProps {
   title: string;
