@@ -1,7 +1,21 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
-import { useCallback, useState, useEffect } from "react";
+import { useCallback, useState, useEffect, useRef } from "react";
+
+function preloadImages(urls: string[]): Promise<void[]> {
+  return Promise.all(
+    urls.map(
+      (url) =>
+        new Promise<void>((resolve) => {
+          const img = new Image();
+          img.onload = () => resolve();
+          img.onerror = () => resolve();
+          img.src = url;
+        })
+    )
+  );
+}
 
 interface GameSceneProps {
   title: string;
@@ -46,7 +60,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
   // Desktop: 1.5s delay
   const choiceDelay = 1500;
 
+  const [sceneReady, setSceneReady] = useState(false);
+  const [showBlack, setShowBlack] = useState(true);
+  const transitionTimer = useRef<ReturnType<typeof setTimeout>>();
+
+  // Preload assets then reveal scene
   useEffect(() => {
+    setSceneReady(false);
+    setShowBlack(true);
     setShowChoices(false);
     setFeedbackText(null);
     setPendingChoice(null);
@@ -54,7 +75,24 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     setClickedSentiment(null);
     setButtonsReady(choices.map(() => false));
 
-    const timer = setTimeout(() => setShowChoices(true), choiceDelay);
+    const urls: string[] = [];
+    if (backgroundImage) urls.push(backgroundImage);
+    if (sprites?.left) urls.push(sprites.left);
+    if (sprites?.right) urls.push(sprites.right);
+
+    const load = async () => {
+      await preloadImages(urls);
+      // Hold black for at least 250ms
+      await new Promise((r) => setTimeout(r, 250));
+      setSceneReady(true);
+      // Small delay then hide black overlay (fade begins)
+      transitionTimer.current = setTimeout(() => setShowBlack(false), 50);
+    };
+    load().then(() => {
+      choiceTimer = setTimeout(() => setShowChoices(true), choiceDelay);
+    });
+
+    let choiceTimer: ReturnType<typeof setTimeout>;
 
     // Set up per-button ready timers for staggered mode
     const buttonTimers = choices.map((_, i) => {
@@ -69,7 +107,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     });
 
     return () => {
-      clearTimeout(timer);
+      clearTimeout(choiceTimer);
+      clearTimeout(transitionTimer.current);
       buttonTimers.forEach(t => clearTimeout(t));
     };
   }, [text, choices.length]);
@@ -489,6 +528,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
             )}
           </div>
         </div>
+
+        {/* Black overlay for scene transitions */}
+        <motion.div
+          className="absolute inset-0 bg-black z-50 pointer-events-none"
+          initial={{ opacity: 1 }}
+          animate={{ opacity: showBlack ? 1 : 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+        />
       </motion.div>
     </AnimatePresence>
   );
