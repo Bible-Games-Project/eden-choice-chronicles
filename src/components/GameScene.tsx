@@ -528,6 +528,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
             )}
           </div>
         </div>
+
+        {/* Black overlay for scene transitions */}
+        <motion.div
+          className="absolute inset-0 bg-black z-50 pointer-events-none"
+          initial={{ opacity: 1 }}
+          animate={{ opacity: showBlack ? 1 : 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+        />
       </motion.div>
     </AnimatePresence>
   );
