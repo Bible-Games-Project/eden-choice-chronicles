@@ -284,6 +284,9 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
         )}
         <div className="absolute inset-0 bg-foreground/55" />
 
+        {/* Environmental effects */}
+        {sceneEffect && <SceneEffects effect={sceneEffect} />}
+
         {/* Atmosphere overlay */}
         <motion.div
           className="absolute inset-0 pointer-events-none z-10"
