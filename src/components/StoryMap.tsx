@@ -64,14 +64,15 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                   transition={{ delay: i * 0.03, duration: 0.4 }}
                   onClick={() => playable && onSelectStory(story)}
                   onKeyDown={(e) => { if (playable && (e.key === "Enter" || e.key === " ")) onSelectStory(story); }}
-                  className={`w-full flex items-center gap-4 px-5 py-4 rounded-xl border transition-all duration-300 text-left ${
+                  style={{ cursor: playable ? 'pointer' : completed ? 'default' : 'not-allowed' }}
+                  className={`w-full flex items-center gap-4 px-5 py-4 rounded-xl border transition-all duration-300 text-left select-none ${
                     completed
-                      ? "border-eden/40 bg-eden/15 cursor-default"
+                      ? "border-eden/40 bg-eden/15"
                       : playable
-                      ? "border-gold/30 bg-gold/10 cursor-pointer hover:border-gold/50 hover:bg-gold/20 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.15)]"
+                      ? "border-gold/30 bg-gold/10 hover:border-gold/50 hover:bg-gold/20 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.15)]"
                       : unlocked && !story.hasContent
-                      ? "border-muted-foreground/20 bg-black/20 opacity-60 cursor-not-allowed"
-                      : "border-muted-foreground/15 bg-black/20 opacity-40 cursor-not-allowed"
+                      ? "border-muted-foreground/20 bg-black/20 opacity-60"
+                      : "border-muted-foreground/15 bg-black/20 opacity-40"
                   }`}
                 >
                   {/* Status icon */}
