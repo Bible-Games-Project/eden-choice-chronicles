@@ -60,7 +60,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
   // Desktop: 1.5s delay
   const choiceDelay = 1500;
 
+  const [sceneReady, setSceneReady] = useState(false);
+  const [showBlack, setShowBlack] = useState(true);
+  const transitionTimer = useRef<ReturnType<typeof setTimeout>>();
+
+  // Preload assets then reveal scene
   useEffect(() => {
+    setSceneReady(false);
+    setShowBlack(true);
     setShowChoices(false);
     setFeedbackText(null);
     setPendingChoice(null);
@@ -68,7 +75,20 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     setClickedSentiment(null);
     setButtonsReady(choices.map(() => false));
 
-    const timer = setTimeout(() => setShowChoices(true), choiceDelay);
+    const urls: string[] = [];
+    if (backgroundImage) urls.push(backgroundImage);
+    if (sprites?.left) urls.push(sprites.left);
+    if (sprites?.right) urls.push(sprites.right);
+
+    const load = async () => {
+      await preloadImages(urls);
+      // Hold black for at least 250ms
+      await new Promise((r) => setTimeout(r, 250));
+      setSceneReady(true);
+      // Small delay then hide black overlay (fade begins)
+      transitionTimer.current = setTimeout(() => setShowBlack(false), 50);
+    };
+    load();
 
     // Set up per-button ready timers for staggered mode
     const buttonTimers = choices.map((_, i) => {
