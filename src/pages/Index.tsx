@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect, useRef } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import MainMenu from "@/components/MainMenu";
 import StoryMap from "@/components/StoryMap";
 import GameScene from "@/components/GameScene";
