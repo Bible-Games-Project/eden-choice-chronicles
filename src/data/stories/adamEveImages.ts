@@ -22,6 +22,7 @@ export const adamEveImages: Record<string, string> = {
   deep_garden: deepGardenImg,
   garland: flowersImg,
   sky_gaze: edenImg,
+  approach_tree: deepGardenImg,
   tree_of_life: deepGardenImg,
   fig_rest: deepGardenImg,
   sleep: sleepImg,

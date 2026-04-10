@@ -115,6 +115,16 @@ export const adamEveScenes: Record<string, StoryScene> = {
       { text: "Walk toward an ancient path", nextScene: "approach_tree", tag: "night_walker", feedback: "Moonlight shows the way — silver and certain.", sentiment: "neutral" },
     ],
   },
+  approach_tree: {
+    id: "approach_tree",
+    title: "The Ancient Path",
+    text: "The trees grow older here, taller.\nSomething sacred — or dangerous — waits ahead.",
+    choices: [
+      { text: "Continue toward the center", nextScene: "deep_garden", tag: "determined", feedback: "The path narrows. Your heart quickens.", sentiment: "neutral" },
+      { text: "Turn back to the meadow", nextScene: "flowers", tag: "cautious", feedback: "You pause. The flowers call you back — safe, familiar.", sentiment: "neutral" },
+      { text: "Rest beneath a fig tree", nextScene: "fig_rest", tag: "resting", feedback: "You sit in the shade. The silence deepens.", sentiment: "neutral" },
+    ],
+  },
   tree_of_life: {
     id: "tree_of_life",
     title: "The Tree of Life",

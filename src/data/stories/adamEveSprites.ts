@@ -35,6 +35,7 @@ export const adamEveSprites: Record<string, SpriteConfig> = {
   deep_garden: { left: adamTree },
   garland: { left: adamFlowers },
   sky_gaze: { left: adamSkygaze },
+  approach_tree: { left: adamTree },
   tree_of_life: { left: adamTree },
   fig_rest: { left: adamTree, right: serpent },
   sleep: { left: adamSleep },
