@@ -12,6 +12,7 @@ interface GameSceneProps {
   onComplete: () => void;
   stepCount: number;
   backgroundImage?: string;
+  sprites?: { left?: string; right?: string };
   sceneEffect?: SceneEffect;
 }
 
