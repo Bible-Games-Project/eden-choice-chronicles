@@ -87,7 +87,6 @@ const Index = () => {
       await wait(SCENE_FEEDBACK_DELAY_MS);
       setTransitionOverlayOpacity(1);
 
-    void (async () => {
       await wait(SCENE_TRANSITION_FADE_MS);
       await preloadImages(getSceneAssetUrls(currentStory.id, choice.nextScene));
 
