@@ -8,6 +8,7 @@ export const adamEveEffects: Record<string, SceneEffect> = {
   flowers: "leaves",
   garland: "leaves",
   sky_gaze: "sparkles",
+  approach_tree: "fireflies",
   tree_of_life: "sparks",
   deep_garden: "fireflies",
   sleep: "sparkles",
