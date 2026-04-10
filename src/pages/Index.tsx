@@ -119,82 +119,101 @@ const Index = () => {
     setCurrentStory(null);
   }, [currentStory, progress]);
 
-  if (screen === "menu") {
+  const fadeTransition = {
+    initial: { opacity: 0 },
+    animate: { opacity: 1 },
+    exit: { opacity: 0 },
+    transition: { duration: 0.3, ease: "easeInOut" as const },
+  };
+
+  const renderScreen = () => {
+    if (screen === "menu") {
+      return (
+        <motion.div key="menu" className="fixed inset-0" {...fadeTransition}>
+          <MainMenu
+            onSelectTestament={(t) => setScreen(t === "old" ? "map_ot" : "map_nt")}
+            isNTUnlocked={progress.isNTUnlocked()}
+            otProgress={progress.otProgress}
+            ntProgress={progress.ntProgress}
+          />
+        </motion.div>
+      );
+    }
+
+    if (screen === "map_ot") {
+      return (
+        <motion.div key="map_ot" className="fixed inset-0" {...fadeTransition}>
+          <StoryMap
+            title="Old Testament"
+            stories={OLD_TESTAMENT_STORIES}
+            isStoryCompleted={progress.isStoryCompleted}
+            isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
+            onSelectStory={handleSelectStory}
+            onBack={() => setScreen("menu")}
+          />
+        </motion.div>
+      );
+    }
+
+    if (screen === "map_nt") {
+      return (
+        <motion.div key="map_nt" className="fixed inset-0" {...fadeTransition}>
+          <StoryMap
+            title="New Testament"
+            stories={ALL_NT_STORIES}
+            isStoryCompleted={progress.isStoryCompleted}
+            isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
+            onSelectStory={handleSelectStory}
+            onBack={() => setScreen("menu")}
+          />
+        </motion.div>
+      );
+    }
+
+    if (!currentStory) return null;
+    const scenes = storySceneRegistry[currentStory.id];
+    if (!scenes) return null;
+    const scene = scenes[currentSceneId];
+    if (!scene) return null;
+
+    const images = storyImageRegistry[currentStory.id];
+    const sprites = storySpriteRegistry[currentStory.id]?.[currentSceneId];
+    const sceneEffect = storyEffectRegistry[currentStory.id]?.[currentSceneId] as any;
+
     return (
-      <MainMenu
-        onSelectTestament={(t) => setScreen(t === "old" ? "map_ot" : "map_nt")}
-        isNTUnlocked={progress.isNTUnlocked()}
-        otProgress={progress.otProgress}
-        ntProgress={progress.ntProgress}
-      />
+      <motion.div
+        key="playing"
+        className="fixed inset-0"
+        style={{ backgroundColor: "hsl(var(--scene-base))" }}
+        {...fadeTransition}
+      >
+        <GameScene
+          title={scene.title}
+          text={scene.text}
+          choices={scene.choices}
+          isFinal={scene.isFinal}
+          onChoice={handleChoice}
+          onComplete={handleComplete}
+          stepCount={stepCount}
+          backgroundImage={images?.[currentSceneId]}
+          sprites={sprites}
+          sceneEffect={sceneEffect}
+          isTransitioning={isSceneTransitioning}
+        />
+
+        <div
+          className={`absolute inset-0 z-[60] ${isSceneTransitioning || transitionOverlayOpacity > 0 ? "pointer-events-auto" : "pointer-events-none"}`}
+          style={{
+            opacity: transitionOverlayOpacity,
+            transition: `opacity ${SCENE_TRANSITION_FADE_MS}ms ease-in-out`,
+            backgroundColor: "hsl(var(--scene-base))",
+          }}
+        />
+      </motion.div>
     );
-  }
+  };
 
-  if (screen === "map_ot") {
-    return (
-      <StoryMap
-        title="Old Testament"
-        stories={OLD_TESTAMENT_STORIES}
-        isStoryCompleted={progress.isStoryCompleted}
-        isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
-        onSelectStory={handleSelectStory}
-        onBack={() => setScreen("menu")}
-      />
-    );
-  }
-
-  if (screen === "map_nt") {
-    return (
-      <StoryMap
-        title="New Testament"
-        stories={ALL_NT_STORIES}
-        isStoryCompleted={progress.isStoryCompleted}
-        isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
-        onSelectStory={handleSelectStory}
-        onBack={() => setScreen("menu")}
-      />
-    );
-  }
-
-  if (!currentStory) return null;
-  const scenes = storySceneRegistry[currentStory.id];
-  if (!scenes) return null;
-  const scene = scenes[currentSceneId];
-  if (!scene) return null;
-
-  const images = storyImageRegistry[currentStory.id];
-  const sprites = storySpriteRegistry[currentStory.id]?.[currentSceneId];
-  const sceneEffect = storyEffectRegistry[currentStory.id]?.[currentSceneId] as any;
-
-  return (
-    <div
-      className="fixed inset-0"
-      style={{ backgroundColor: "hsl(var(--scene-base))" }}
-    >
-      <GameScene
-        title={scene.title}
-        text={scene.text}
-        choices={scene.choices}
-        isFinal={scene.isFinal}
-        onChoice={handleChoice}
-        onComplete={handleComplete}
-        stepCount={stepCount}
-        backgroundImage={images?.[currentSceneId]}
-        sprites={sprites}
-        sceneEffect={sceneEffect}
-        isTransitioning={isSceneTransitioning}
-      />
-
-      <div
-        className={`absolute inset-0 z-[60] ${isSceneTransitioning || transitionOverlayOpacity > 0 ? "pointer-events-auto" : "pointer-events-none"}`}
-        style={{
-          opacity: transitionOverlayOpacity,
-          transition: `opacity ${SCENE_TRANSITION_FADE_MS}ms ease-in-out`,
-          backgroundColor: "hsl(var(--scene-base))",
-        }}
-      />
-    </div>
-  );
+  return <AnimatePresence mode="wait">{renderScreen()}</AnimatePresence>;
 };
 
 export default Index;
