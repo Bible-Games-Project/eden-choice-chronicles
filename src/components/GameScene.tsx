@@ -88,7 +88,11 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
       // Small delay then hide black overlay (fade begins)
       transitionTimer.current = setTimeout(() => setShowBlack(false), 50);
     };
-    load();
+    load().then(() => {
+      choiceTimer = setTimeout(() => setShowChoices(true), choiceDelay);
+    });
+
+    let choiceTimer: ReturnType<typeof setTimeout>;
 
     // Set up per-button ready timers for staggered mode
     const buttonTimers = choices.map((_, i) => {
@@ -103,7 +107,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, backgroundIma
     });
 
     return () => {
-      clearTimeout(timer);
+      clearTimeout(choiceTimer);
+      clearTimeout(transitionTimer.current);
       buttonTimers.forEach(t => clearTimeout(t));
     };
   }, [text, choices.length]);
