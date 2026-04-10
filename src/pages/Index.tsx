@@ -27,6 +27,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
 
 const SCENE_TRANSITION_FADE_MS = 500;
 const SCENE_TRANSITION_HOLD_MS = 100;
+const SCENE_FEEDBACK_DELAY_MS = 150;
 
 const Index = () => {
   const [screen, setScreen] = useState<Screen>("menu");
@@ -80,9 +81,12 @@ const Index = () => {
 
     transitionLock.current = true;
     setIsSceneTransitioning(true);
-    setTransitionOverlayOpacity(1);
 
     void (async () => {
+      // Short delay so the player can see the feedback color
+      await wait(SCENE_FEEDBACK_DELAY_MS);
+      setTransitionOverlayOpacity(1);
+
       await wait(SCENE_TRANSITION_FADE_MS);
       await preloadImages(getSceneAssetUrls(currentStory.id, choice.nextScene));
 
