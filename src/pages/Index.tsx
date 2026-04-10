@@ -25,8 +25,8 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
 };
 
-const SCENE_TRANSITION_FADE_MS = 200;
-const SCENE_TRANSITION_HOLD_MS = 200;
+const SCENE_TRANSITION_FADE_MS = 500;
+const SCENE_TRANSITION_HOLD_MS = 100;
 
 const Index = () => {
   const [screen, setScreen] = useState<Screen>("menu");
