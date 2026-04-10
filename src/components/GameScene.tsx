@@ -192,7 +192,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     // Final scene button
     return (
       <motion.div
-        initial={false}
+        initial={{ opacity: 0 }}
         animate={{ opacity: finalButtonVisible ? 1 : 0 }}
         transition={{ duration: STAGGER_FADE_DURATION, ease: "easeInOut" }}
         className={`flex flex-col items-center ${compact ? "gap-2" : "gap-4"}`}
