@@ -8,21 +8,29 @@ import { creationScenes, StoryChoice } from "@/data/stories/creation";
 import { creationImages } from "@/data/stories/creationImages";
 import { creationSprites, SpriteConfig } from "@/data/creationSprites";
 import { creationEffects } from "@/data/creationEffects";
+import { adamEveScenes } from "@/data/stories/adamEve";
+import { adamEveImages } from "@/data/stories/adamEveImages";
+import { adamEveSprites } from "@/data/stories/adamEveSprites";
+import { adamEveEffects } from "@/data/stories/adamEveEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
 
 const storySceneRegistry: Record<string, Record<string, any>> = {
   creation: creationScenes,
+  "adam-eve": adamEveScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
+  "adam-eve": adamEveImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
+  "adam-eve": adamEveSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
+  "adam-eve": adamEveEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;

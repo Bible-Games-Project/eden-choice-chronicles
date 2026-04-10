@@ -237,11 +237,23 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     },
   };
 
-  // Desktop sprite: simple fade
+  // Desktop sprite: fade + breathing sway
   const spriteMotionDesktop = {
     initial: { opacity: 0 },
-    animate: { opacity: 1 },
-    transition: { duration: 0.8, ease: "easeOut" as const },
+    animate: {
+      opacity: 1,
+      y: [0, -4, 0, -2, 0],
+    },
+    transition: {
+      opacity: { duration: 0.8, ease: "easeOut" as const },
+      y: {
+        duration: 5,
+        ease: "easeInOut" as const,
+        repeat: Infinity,
+        repeatType: "loop" as const,
+        delay: 0.8,
+      },
+    },
   };
 
   return (
