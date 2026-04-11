@@ -25,6 +25,10 @@ import { babelScenes } from "@/data/stories/babel";
 import { babelImages } from "@/data/stories/babelImages";
 import { babelSprites } from "@/data/stories/babelSprites";
 import { babelEffects } from "@/data/stories/babelEffects";
+import { abrahamScenes } from "@/data/stories/abraham";
+import { abrahamImages } from "@/data/stories/abrahamImages";
+import { abrahamSprites } from "@/data/stories/abrahamSprites";
+import { abrahamEffects } from "@/data/stories/abrahamEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
@@ -35,6 +39,7 @@ const storySceneRegistry: Record<string, Record<string, any>> = {
   "cain-abel": cainAbelScenes,
   "noah-flood": noahScenes,
   "tower-babel": babelScenes,
+  "call-abraham": abrahamScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -42,6 +47,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "cain-abel": cainAbelImages,
   "noah-flood": noahImages,
   "tower-babel": babelImages,
+  "call-abraham": abrahamImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -49,6 +55,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "cain-abel": cainAbelSprites,
   "noah-flood": noahSprites,
   "tower-babel": babelSprites,
+  "call-abraham": abrahamSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -56,6 +63,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "cain-abel": cainAbelEffects,
   "noah-flood": noahEffects,
   "tower-babel": babelEffects,
+  "call-abraham": abrahamEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
