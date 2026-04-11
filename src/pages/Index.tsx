@@ -13,6 +13,10 @@ import { adamEveScenes } from "@/data/stories/adamEve";
 import { adamEveImages } from "@/data/stories/adamEveImages";
 import { adamEveSprites } from "@/data/stories/adamEveSprites";
 import { adamEveEffects } from "@/data/stories/adamEveEffects";
+import { cainAbelScenes } from "@/data/stories/cainAbel";
+import { cainAbelImages } from "@/data/stories/cainAbelImages";
+import { cainAbelSprites } from "@/data/stories/cainAbelSprites";
+import { cainAbelEffects } from "@/data/stories/cainAbelEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
@@ -20,18 +24,22 @@ type Screen = "menu" | "map_ot" | "map_nt" | "playing";
 const storySceneRegistry: Record<string, Record<string, any>> = {
   creation: creationScenes,
   "adam-eve": adamEveScenes,
+  "cain-abel": cainAbelScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
   "adam-eve": adamEveImages,
+  "cain-abel": cainAbelImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
   "adam-eve": adamEveSprites,
+  "cain-abel": cainAbelSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
   "adam-eve": adamEveEffects,
+  "cain-abel": cainAbelEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
