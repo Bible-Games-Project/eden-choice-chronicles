@@ -332,34 +332,31 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
               </motion.div>
             )}
             {sprites?.left && sprites?.right && (
-              <>
+              <div className="absolute bottom-0 inset-x-0 h-full flex">
                 <motion.div
                   key={`sprite-mobile-left-${text}`}
-                  className="absolute bottom-0 left-0 pointer-events-none"
-                  style={{ height: '100%', width: '65%' }}
+                  className="relative w-1/2 h-full pointer-events-none flex items-end justify-center"
                   {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="h-full w-auto object-bottom"
-                    style={{ maxWidth: 'none' }}
+                    className="h-full w-auto object-contain object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-mobile-right-${text}`}
-                  className="absolute bottom-0 right-0 pointer-events-none flex justify-end"
-                  style={{ height: '100%', width: '65%' }}
+                  className="relative w-1/2 h-full pointer-events-none flex items-end justify-center"
                   {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="h-full w-auto object-bottom"
-                    style={{ transform: 'scaleX(-1)', maxWidth: 'none' }}
+                    className="h-full w-auto object-contain object-bottom"
+                    style={{ transform: 'scaleX(-1)' }}
                   />
                 </motion.div>
-              </>
+              </div>
             )}
           </div>
         </div>
@@ -392,34 +389,31 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
               </motion.div>
             )}
             {sprites?.left && sprites?.right && (
-              <>
+              <div className="absolute bottom-0 inset-x-0 h-full flex">
                 <motion.div
                   key={`sprite-tablet-left-${text}`}
-                  className="absolute bottom-0 left-0 pointer-events-none"
-                  style={{ height: '100%', width: '65%' }}
+                  className="relative w-1/2 h-full pointer-events-none flex items-end justify-center"
                   {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.left}
                     alt="Character Left"
-                    className="h-full w-auto object-bottom"
-                    style={{ maxWidth: 'none' }}
+                    className="h-full w-auto object-contain object-bottom"
                   />
                 </motion.div>
                 <motion.div
                   key={`sprite-tablet-right-${text}`}
-                  className="absolute bottom-0 right-0 pointer-events-none flex justify-end"
-                  style={{ height: '100%', width: '65%' }}
+                  className="relative w-1/2 h-full pointer-events-none flex items-end justify-center"
                   {...spriteMotionMobile}
                 >
                   <img
                     src={sprites.right}
                     alt="Character Right"
-                    className="h-full w-auto object-bottom"
-                    style={{ transform: 'scaleX(-1)', maxWidth: 'none' }}
+                    className="h-full w-auto object-contain object-bottom"
+                    style={{ transform: 'scaleX(-1)' }}
                   />
                 </motion.div>
-              </>
+              </div>
             )}
           </div>
         </div>
