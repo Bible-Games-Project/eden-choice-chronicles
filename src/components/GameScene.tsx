@@ -232,7 +232,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         ease: "easeInOut" as const,
         repeat: Infinity,
         repeatType: "loop" as const,
-        delay: 0.5,
+        delay: 0,
       },
     },
   };
@@ -251,7 +251,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         ease: "easeInOut" as const,
         repeat: Infinity,
         repeatType: "loop" as const,
-        delay: 0.8,
+        delay: 0,
       },
     },
   };
