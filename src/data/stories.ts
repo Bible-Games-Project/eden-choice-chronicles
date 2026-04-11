@@ -12,7 +12,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "creation", number: 1, title: "Creation of the World", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "adam-eve", number: 2, title: "Adam and Eve", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "cain-abel", number: 3, title: "Cain and Abel", section: "old_testament", category: "Genesis", hasContent: true },
-  { id: "noah-flood", number: 4, title: "Noah and the Flood", section: "old_testament", category: "Genesis", hasContent: false },
+  { id: "noah-flood", number: 4, title: "Noah and the Flood", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "tower-babel", number: 5, title: "Tower of Babel", section: "old_testament", category: "Genesis", hasContent: false },
   { id: "call-abraham", number: 6, title: "Call of Abraham", section: "old_testament", category: "Genesis", hasContent: false },
   { id: "abraham-egypt", number: 7, title: "Abraham in Egypt", section: "old_testament", category: "Genesis", hasContent: false },
