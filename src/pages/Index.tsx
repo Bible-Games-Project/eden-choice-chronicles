@@ -17,6 +17,10 @@ import { cainAbelScenes } from "@/data/stories/cainAbel";
 import { cainAbelImages } from "@/data/stories/cainAbelImages";
 import { cainAbelSprites } from "@/data/stories/cainAbelSprites";
 import { cainAbelEffects } from "@/data/stories/cainAbelEffects";
+import { noahScenes } from "@/data/stories/noah";
+import { noahImages } from "@/data/stories/noahImages";
+import { noahSprites } from "@/data/stories/noahSprites";
+import { noahEffects } from "@/data/stories/noahEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing";
@@ -25,21 +29,25 @@ const storySceneRegistry: Record<string, Record<string, any>> = {
   creation: creationScenes,
   "adam-eve": adamEveScenes,
   "cain-abel": cainAbelScenes,
+  "noah-flood": noahScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
   "adam-eve": adamEveImages,
   "cain-abel": cainAbelImages,
+  "noah-flood": noahImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
   "adam-eve": adamEveSprites,
   "cain-abel": cainAbelSprites,
+  "noah-flood": noahSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
   "adam-eve": adamEveEffects,
   "cain-abel": cainAbelEffects,
+  "noah-flood": noahEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
