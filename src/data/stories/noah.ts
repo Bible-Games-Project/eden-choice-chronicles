@@ -7,7 +7,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "The earth groans under violence.\nEvery face you pass is hollow — cruel.",
     choices: [
       { text: "Pray for the world", nextScene: "prayer", tag: "faithful", feedback: "You kneel. The silence above feels heavier than before.", sentiment: "positive" },
-      { text: "Turn away and tend your family", nextScene: "family", tag: "protective", feedback: "Your sons gather close. At least here — there is goodness.", sentiment: "neutral" },
+      { text: "Turn away and tend your family", nextScene: "family", tag: "protective", feedback: "Your sons gather close. At least here — there is goodness.", sentiment: "negative" },
       { text: "Confront the wicked", nextScene: "confront", tag: "bold", feedback: "They laugh. Their eyes are empty.", sentiment: "negative" },
     ],
   },
@@ -17,7 +17,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "You pray until your knees ache.\nThe sky seems to listen.",
     choices: [
       { text: "Wait for an answer", nextScene: "god_speaks", tag: "patient", feedback: "Hours pass. Then — a voice.", sentiment: "positive" },
-      { text: "Rise and walk home", nextScene: "family", tag: "weary", feedback: "You stand. The world hasn't changed. But something in you has.", sentiment: "neutral" },
+      { text: "Rise and walk home", nextScene: "family", tag: "weary", feedback: "You stand. The world hasn't changed. But something in you has.", sentiment: "negative" },
     ],
   },
   family: {
@@ -25,7 +25,7 @@ export const noahScenes: Record<string, StoryScene> = {
     title: "Your Household",
     text: "Shem, Ham, and Japheth sit by the fire.\nYour wife watches you — she knows something is coming.",
     choices: [
-      { text: "Tell them about the darkness", nextScene: "confront", tag: "honest", feedback: "Their faces harden. They see it too.", sentiment: "neutral" },
+      { text: "Tell them about the darkness", nextScene: "confront", tag: "honest", feedback: "Their faces harden. They see it too.", sentiment: "negative" },
       { text: "Sit with them in silence", nextScene: "god_speaks", tag: "quiet", feedback: "No words. Just presence. Then — a voice breaks the night.", sentiment: "positive" },
     ],
   },
@@ -35,7 +35,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "The people mock you.\n\"Old fool — talking to the sky.\"",
     choices: [
       { text: "Ignore them and walk on", nextScene: "god_speaks", tag: "steadfast", feedback: "Their laughter fades behind you. Ahead — only silence.", sentiment: "positive" },
-      { text: "Feel the sting of their words", nextScene: "god_speaks", tag: "wounded", feedback: "It hurts. But the voice that matters hasn't spoken yet.", sentiment: "neutral" },
+      { text: "Feel the sting of their words", nextScene: "god_speaks", tag: "wounded", feedback: "It hurts. But the voice that matters hasn't spoken yet.", sentiment: "negative" },
     ],
   },
   god_speaks: {
@@ -44,7 +44,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "\"Noah.\"\nThe word fills the air — heavier than thunder.",
     choices: [
       { text: "\"Here I am.\"", nextScene: "the_command", tag: "obedient", feedback: "Your voice trembles. But you answer.", sentiment: "positive" },
-      { text: "Fall silent — listen", nextScene: "the_command", tag: "reverent", feedback: "You dare not speak. The presence is overwhelming.", sentiment: "neutral" },
+      { text: "Fall silent — listen", nextScene: "the_command", tag: "reverent", feedback: "You dare not speak. The presence is overwhelming.", sentiment: "positive" },
       { text: "\"Why me?\"", nextScene: "the_command", tag: "doubting", feedback: "The question hangs. No answer — only the command.", sentiment: "negative" },
     ],
   },
@@ -64,7 +64,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "Wood splits under your axe.\nThe sound echoes — strange and holy.",
     choices: [
       { text: "Work through the night", nextScene: "building_progress", tag: "driven", feedback: "Stars wheel overhead. Your arms burn. But the frame grows.", sentiment: "positive" },
-      { text: "Pace yourself — this will take years", nextScene: "building_progress", tag: "patient", feedback: "Day by day. Plank by plank. Faith measured in splinters.", sentiment: "neutral" },
+      { text: "Pace yourself — this will take years", nextScene: "building_progress", tag: "patient", feedback: "Day by day. Plank by plank. Faith measured in splinters.", sentiment: "negative" },
     ],
   },
   sons_help: {
@@ -73,7 +73,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "Your sons lift the beams beside you.\nTheir faith is fragile — but present.",
     choices: [
       { text: "Encourage them", nextScene: "building_progress", tag: "fatherly", feedback: "\"God will show us. Keep building.\"", sentiment: "positive" },
-      { text: "Work in silence together", nextScene: "building_progress", tag: "united", feedback: "No speeches needed. The work speaks.", sentiment: "neutral" },
+      { text: "Work in silence together", nextScene: "building_progress", tag: "united", feedback: "No speeches needed. The work speaks.", sentiment: "negative" },
     ],
   },
   doubt: {
@@ -82,7 +82,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "Your neighbors stare.\n\"What are you building, old man?\"",
     choices: [
       { text: "\"What God commanded.\"", nextScene: "building_start", tag: "defiant", feedback: "They shake their heads. But you lift the axe.", sentiment: "positive" },
-      { text: "Say nothing — just build", nextScene: "building_start", tag: "resolute", feedback: "Words are wasted on the deaf. Let the wood speak.", sentiment: "neutral" },
+      { text: "Say nothing — just build", nextScene: "building_start", tag: "resolute", feedback: "Words are wasted on the deaf. Let the wood speak.", sentiment: "negative" },
     ],
   },
   building_progress: {
@@ -91,7 +91,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "The ark takes shape — massive, impossible.\nYears pass. The world grows darker.",
     choices: [
       { text: "Seal it with pitch", nextScene: "ark_complete", tag: "thorough", feedback: "Every crack filled. Every seam sealed. It must hold.", sentiment: "positive" },
-      { text: "Look at the sky — something is changing", nextScene: "gathering_animals", tag: "watchful", feedback: "The clouds gather differently now. Heavier.", sentiment: "neutral" },
+      { text: "Look at the sky — something is changing", nextScene: "gathering_animals", tag: "watchful", feedback: "The clouds gather differently now. Heavier.", sentiment: "negative" },
     ],
   },
   ark_complete: {
@@ -100,7 +100,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "The ark stands before you — towering, dark.\nA monument to faith or madness.",
     choices: [
       { text: "Walk inside", nextScene: "gathering_animals", tag: "ready", feedback: "The wood groans under your step. It is solid. It will hold.", sentiment: "positive" },
-      { text: "Look back at the world", nextScene: "last_warning", tag: "sorrowful", feedback: "Children play in the distance. They don't know.", sentiment: "neutral" },
+      { text: "Look back at the world", nextScene: "last_warning", tag: "sorrowful", feedback: "Children play in the distance. They don't know.", sentiment: "negative" },
     ],
   },
   last_warning: {
@@ -108,7 +108,7 @@ export const noahScenes: Record<string, StoryScene> = {
     title: "One Last Chance",
     text: "You call out to the people one final time.\nThey throw stones. They curse your name.",
     choices: [
-      { text: "Weep for them", nextScene: "gathering_animals", tag: "compassionate", feedback: "Tears fall. They will never know what you tried to give them.", sentiment: "neutral" },
+      { text: "Weep for them", nextScene: "gathering_animals", tag: "compassionate", feedback: "Tears fall. They will never know what you tried to give them.", sentiment: "negative" },
       { text: "Turn toward the ark", nextScene: "gathering_animals", tag: "resolved", feedback: "You've done all you can. The rest belongs to God.", sentiment: "positive" },
     ],
   },
@@ -119,7 +119,7 @@ export const noahScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Guide them gently inside", nextScene: "boarding", tag: "gentle", feedback: "Each creature finds its place. As if they always knew.", sentiment: "positive" },
       { text: "Marvel at the sight", nextScene: "boarding", tag: "awed", feedback: "You've never seen anything like this. Creation walks toward you.", sentiment: "positive" },
-      { text: "Count them — make sure none are missing", nextScene: "boarding", tag: "careful", feedback: "Two of each. Not one forgotten. God keeps His word.", sentiment: "neutral" },
+      { text: "Count them — make sure none are missing", nextScene: "boarding", tag: "careful", feedback: "Two of each. Not one forgotten. God keeps His word.", sentiment: "negative" },
     ],
   },
   boarding: {
@@ -127,7 +127,7 @@ export const noahScenes: Record<string, StoryScene> = {
     title: "The Door",
     text: "Your family enters. The animals settle.\nGod shuts the door behind you.",
     choices: [
-      { text: "Press your hand against the door", nextScene: "the_rain", tag: "grieving", feedback: "The world outside goes silent. Then — the first drop.", sentiment: "neutral" },
+      { text: "Press your hand against the door", nextScene: "the_rain", tag: "grieving", feedback: "The world outside goes silent. Then — the first drop.", sentiment: "negative" },
       { text: "Hold your wife's hand", nextScene: "the_rain", tag: "united", feedback: "She squeezes back. Whatever comes — together.", sentiment: "positive" },
     ],
   },
@@ -136,7 +136,7 @@ export const noahScenes: Record<string, StoryScene> = {
     title: "The Flood",
     text: "Rain falls like nothing you've ever seen.\nThe earth splits. Water rises from below.",
     choices: [
-      { text: "Pray for those outside", nextScene: "the_deep", tag: "merciful", feedback: "Your lips move but the thunder swallows every word.", sentiment: "neutral" },
+      { text: "Pray for those outside", nextScene: "the_deep", tag: "merciful", feedback: "Your lips move but the thunder swallows every word.", sentiment: "negative" },
       { text: "Trust that God is just", nextScene: "the_deep", tag: "trusting", feedback: "Justice and mercy — you cannot hold both. But God can.", sentiment: "positive" },
       { text: "Cover your ears from the screaming", nextScene: "the_deep", tag: "broken", feedback: "The sounds will haunt you forever.", sentiment: "negative" },
     ],
@@ -147,7 +147,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "The ark rocks on endless water.\nNo land. No horizon. Only gray.",
     choices: [
       { text: "Care for the animals", nextScene: "waiting", tag: "dutiful", feedback: "They depend on you. Purpose keeps the darkness at bay.", sentiment: "positive" },
-      { text: "Sit in the dark and wait", nextScene: "waiting", tag: "patient", feedback: "Time loses meaning. Faith is all that holds you.", sentiment: "neutral" },
+      { text: "Sit in the dark and wait", nextScene: "waiting", tag: "patient", feedback: "Time loses meaning. Faith is all that holds you.", sentiment: "negative" },
     ],
   },
   waiting: {
@@ -166,7 +166,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "You send out a raven.\nIt flies and flies — but does not return.",
     choices: [
       { text: "Send a dove", nextScene: "the_dove", tag: "patient", feedback: "The dove leaves your hand — fragile, white, full of purpose.", sentiment: "positive" },
-      { text: "Wait longer", nextScene: "the_dove", tag: "cautious", feedback: "Time stretches. Then you reach for the dove.", sentiment: "neutral" },
+      { text: "Wait longer", nextScene: "the_dove", tag: "cautious", feedback: "Time stretches. Then you reach for the dove.", sentiment: "negative" },
     ],
   },
   the_dove: {
@@ -184,7 +184,7 @@ export const noahScenes: Record<string, StoryScene> = {
     text: "The waters recede. Mountains appear.\nThe door opens — and sunlight floods in.",
     choices: [
       { text: "Step onto the earth", nextScene: "the_altar", tag: "first_step", feedback: "Your feet touch mud. Warm, alive. The world begins again.", sentiment: "positive" },
-      { text: "Let the animals go first", nextScene: "the_altar", tag: "humble", feedback: "They rush out — joyful, wild, free. Creation breathes again.", sentiment: "positive" },
+      { text: "Let the animals go first", nextScene: "the_altar", tag: "humble", feedback: "They rush out — joyful, wild, free. Creation breathes again.", sentiment: "negative" },
     ],
   },
   the_altar: {
@@ -192,7 +192,7 @@ export const noahScenes: Record<string, StoryScene> = {
     title: "The Sacrifice",
     text: "You build an altar — the first thing on the new earth.\nThe smoke rises. God breathes it in.",
     choices: [
-      { text: "\"Never again.\"", nextScene: "the_rainbow", tag: "pleading", feedback: "The words escape you — half prayer, half cry.", sentiment: "neutral" },
+      { text: "\"Never again.\"", nextScene: "the_rainbow", tag: "pleading", feedback: "The words escape you — half prayer, half cry.", sentiment: "negative" },
       { text: "Kneel in gratitude", nextScene: "the_rainbow", tag: "thankful", feedback: "You survived. Not by strength — by obedience.", sentiment: "positive" },
     ],
   },
