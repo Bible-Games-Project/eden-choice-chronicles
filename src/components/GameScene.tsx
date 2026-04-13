@@ -19,13 +19,11 @@ interface GameSceneProps {
 
 const SENTIMENT_COLORS: Record<ChoiceSentiment, string> = {
   positive: "rgba(74, 222, 128, 0.35)",
-  neutral: "rgba(250, 204, 21, 0.30)",
   negative: "rgba(248, 113, 113, 0.30)",
 };
 
 const SENTIMENT_BORDER: Record<ChoiceSentiment, string> = {
   positive: "rgba(74, 222, 128, 0.7)",
-  neutral: "rgba(250, 204, 21, 0.6)",
   negative: "rgba(248, 113, 113, 0.6)",
 };
 
@@ -99,7 +97,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
 
-    const sentiment = choice.sentiment || "neutral";
+    const sentiment = choice.sentiment || "negative";
     setClickedIndex(index);
     setClickedSentiment(sentiment);
 
