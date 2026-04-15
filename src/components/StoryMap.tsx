@@ -10,28 +10,19 @@ interface StoryMapProps {
   isStoryUnlocked: (story: StoryMeta, list: StoryMeta[]) => boolean;
   onSelectStory: (story: StoryMeta) => void;
   onBack: () => void;
+  devMode?: boolean;
 }
 
-const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectStory, onBack }: StoryMapProps) => {
+const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectStory, onBack, devMode = false }: StoryMapProps) => {
   return (
     <div className="fixed inset-0 overflow-hidden">
-      {/* Background */}
-      <img
-        src={storyListBg}
-        alt=""
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-      {/* Dark overlays */}
+      <img src={storyListBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-b from-[hsl(25,30%,6%)]/80 via-[hsl(25,30%,6%)]/40 to-[hsl(25,30%,6%)]/80" />
       <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at center, transparent 30%, hsl(25,30%,6%) 100%)' }} />
 
       <div className="relative z-10 h-full flex flex-col">
-        {/* Header */}
         <div className="flex items-center gap-3 px-5 pt-6 pb-4 flex-shrink-0">
-          <button
-            onClick={onBack}
-            className="p-2.5 rounded-xl text-gold hover:bg-gold/10 transition-colors cursor-pointer"
-          >
+          <button onClick={onBack} className="p-2.5 rounded-xl text-gold hover:bg-gold/10 transition-colors cursor-pointer">
             <ChevronLeft className="w-6 h-6" />
           </button>
           <div>
@@ -40,18 +31,19 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
             </h2>
             <div className="flex items-center gap-2 mt-1">
               <div className="h-px w-12 bg-gold/40" />
-              <span className="font-body text-xs text-gold/50 tracking-wider uppercase">Stories</span>
+              <span className="font-body text-xs text-gold/50 tracking-wider uppercase">
+                Stories{devMode ? " (Dev Mode)" : ""}
+              </span>
               <div className="h-px w-12 bg-gold/40" />
             </div>
           </div>
         </div>
 
-        {/* Scrollable story list */}
         <div className="flex-1 overflow-y-auto px-4 pb-8">
           <div className="max-w-md mx-auto flex flex-col gap-3 pt-2">
             {stories.map((story, i) => {
               const completed = isStoryCompleted(story.id);
-              const unlocked = isStoryUnlocked(story, stories);
+              const unlocked = devMode || isStoryUnlocked(story, stories);
               const playable = unlocked && story.hasContent;
 
               return (
@@ -75,7 +67,6 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                       : "border-muted-foreground/15 bg-black/20 opacity-40"
                   }`}
                 >
-                  {/* Status icon */}
                   <div
                     className={`w-10 h-10 rounded-full border flex-shrink-0 flex items-center justify-center ${
                       completed
@@ -94,7 +85,6 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                     )}
                   </div>
 
-                  {/* Text */}
                   <div className="flex-1 min-w-0">
                     <span
                       className={`font-display text-sm md:text-base tracking-wide block truncate ${
