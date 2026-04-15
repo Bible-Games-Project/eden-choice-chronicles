@@ -267,9 +267,6 @@ const Index = () => {
           sprites={sprites}
           sceneEffect={sceneEffect}
           isTransitioning={isSceneTransitioning}
-          devMode={devMode}
-          onRestart={handleRestart}
-          onOpenSceneSelector={() => setShowSceneSelector(true)}
         />
 
         {/* Dev mode HUD */}
