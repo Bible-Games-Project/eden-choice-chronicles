@@ -3,9 +3,12 @@ import { AnimatePresence, motion } from "framer-motion";
 import MainMenu from "@/components/MainMenu";
 import StoryMap from "@/components/StoryMap";
 import GameScene from "@/components/GameScene";
+import SceneSelector from "@/components/SceneSelector";
+import SpriteViewer from "@/components/SpriteViewer";
 import { useGameProgress } from "@/hooks/useGameProgress";
+import { useDevMode } from "@/hooks/useDevMode";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
-import { creationScenes, StoryChoice } from "@/data/stories/creation";
+import { creationScenes, StoryChoice, StoryScene } from "@/data/stories/creation";
 import { creationImages } from "@/data/stories/creationImages";
 import { creationSprites, SpriteConfig } from "@/data/creationSprites";
 import { creationEffects } from "@/data/creationEffects";
@@ -35,9 +38,9 @@ import { abrahamEgyptSprites } from "@/data/stories/abrahamEgyptSprites";
 import { abrahamEgyptEffects } from "@/data/stories/abrahamEgyptEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
-type Screen = "menu" | "map_ot" | "map_nt" | "playing";
+type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
 
-const storySceneRegistry: Record<string, Record<string, any>> = {
+const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   creation: creationScenes,
   "adam-eve": adamEveScenes,
   "cain-abel": cainAbelScenes,
@@ -85,7 +88,9 @@ const Index = () => {
   const [stepCount, setStepCount] = useState(1);
   const [isSceneTransitioning, setIsSceneTransitioning] = useState(false);
   const [transitionOverlayOpacity, setTransitionOverlayOpacity] = useState(0);
+  const [showSceneSelector, setShowSceneSelector] = useState(false);
   const progress = useGameProgress();
+  const { devMode, toggleDevMode } = useDevMode();
   const transitionLock = useRef(false);
   const transitionTimers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
@@ -99,10 +104,9 @@ const Index = () => {
   const wait = useCallback((ms: number) => {
     return new Promise<void>((resolve) => {
       const timer = setTimeout(() => {
-        transitionTimers.current = transitionTimers.current.filter((activeTimer) => activeTimer !== timer);
+        transitionTimers.current = transitionTimers.current.filter((t) => t !== timer);
         resolve();
       }, ms);
-
       transitionTimers.current.push(timer);
     });
   }, []);
@@ -110,7 +114,6 @@ const Index = () => {
   const getSceneAssetUrls = useCallback((storyId: string, sceneId: string) => {
     const storyImages = storyImageRegistry[storyId];
     const sceneSprites = storySpriteRegistry[storyId]?.[sceneId];
-
     return [storyImages?.[sceneId], sceneSprites?.left, sceneSprites?.right];
   }, []);
 
@@ -125,26 +128,40 @@ const Index = () => {
     setScreen("playing");
   }, [clearTransitionTimers]);
 
+  const handleRestart = useCallback(() => {
+    if (!currentStory) return;
+    clearTransitionTimers();
+    transitionLock.current = false;
+    setIsSceneTransitioning(false);
+    setTransitionOverlayOpacity(0);
+    setCurrentSceneId("start");
+    setStepCount(1);
+  }, [currentStory, clearTransitionTimers]);
+
+  const handleJumpToScene = useCallback((sceneId: string) => {
+    if (!currentStory || transitionLock.current) return;
+    clearTransitionTimers();
+    transitionLock.current = false;
+    setIsSceneTransitioning(false);
+    setTransitionOverlayOpacity(0);
+    setCurrentSceneId(sceneId);
+    setStepCount((s) => s + 1);
+  }, [currentStory, clearTransitionTimers]);
+
   const handleChoice = useCallback((choice: StoryChoice) => {
     if (!currentStory || transitionLock.current || choice.nextScene === currentSceneId) return;
-
     transitionLock.current = true;
     setIsSceneTransitioning(true);
 
     void (async () => {
-      // Short delay so the player can see the feedback color
       await wait(SCENE_FEEDBACK_DELAY_MS);
       setTransitionOverlayOpacity(1);
-
       await wait(SCENE_TRANSITION_FADE_MS);
       await preloadImages(getSceneAssetUrls(currentStory.id, choice.nextScene));
-
       setCurrentSceneId(choice.nextScene);
       setStepCount((s) => s + 1);
-
       await wait(SCENE_TRANSITION_HOLD_MS);
       setTransitionOverlayOpacity(0);
-
       await wait(SCENE_TRANSITION_FADE_MS);
       setIsSceneTransitioning(false);
       transitionLock.current = false;
@@ -152,9 +169,7 @@ const Index = () => {
   }, [currentSceneId, currentStory, getSceneAssetUrls, wait]);
 
   const handleComplete = useCallback(() => {
-    if (currentStory) {
-      progress.completeStory(currentStory.id);
-    }
+    if (currentStory) progress.completeStory(currentStory.id);
     setScreen(currentStory?.section === "old_testament" ? "map_ot" : "map_nt");
     setCurrentStory(null);
   }, [currentStory, progress]);
@@ -175,7 +190,18 @@ const Index = () => {
             isNTUnlocked={progress.isNTUnlocked()}
             otProgress={progress.otProgress}
             ntProgress={progress.ntProgress}
+            devMode={devMode}
+            onToggleDevMode={toggleDevMode}
+            onOpenSpriteViewer={() => setScreen("sprites")}
           />
+        </motion.div>
+      );
+    }
+
+    if (screen === "sprites") {
+      return (
+        <motion.div key="sprites" className="fixed inset-0" {...fadeTransition}>
+          <SpriteViewer onBack={() => setScreen("menu")} />
         </motion.div>
       );
     }
@@ -190,6 +216,7 @@ const Index = () => {
             isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
             onSelectStory={handleSelectStory}
             onBack={() => setScreen("menu")}
+            devMode={devMode}
           />
         </motion.div>
       );
@@ -205,6 +232,7 @@ const Index = () => {
             isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
             onSelectStory={handleSelectStory}
             onBack={() => setScreen("menu")}
+            devMode={devMode}
           />
         </motion.div>
       );
@@ -240,6 +268,34 @@ const Index = () => {
           sceneEffect={sceneEffect}
           isTransitioning={isSceneTransitioning}
         />
+
+        {/* Dev mode HUD */}
+        {devMode && (
+          <div className="absolute top-3 right-3 z-[65] flex gap-2">
+            <button
+              onClick={handleRestart}
+              className="px-3 py-1.5 rounded-lg bg-amber-500/20 border border-amber-500/40 text-amber-400 text-[10px] font-display tracking-wider uppercase cursor-pointer hover:bg-amber-500/30 transition-all"
+            >
+              Restart
+            </button>
+            <button
+              onClick={() => setShowSceneSelector(true)}
+              className="px-3 py-1.5 rounded-lg bg-amber-500/20 border border-amber-500/40 text-amber-400 text-[10px] font-display tracking-wider uppercase cursor-pointer hover:bg-amber-500/30 transition-all"
+            >
+              Scenes
+            </button>
+          </div>
+        )}
+
+        {/* Scene selector modal */}
+        {showSceneSelector && scenes && (
+          <SceneSelector
+            scenes={scenes}
+            currentSceneId={currentSceneId}
+            onSelectScene={handleJumpToScene}
+            onClose={() => setShowSceneSelector(false)}
+          />
+        )}
 
         <div
           className={`absolute inset-0 z-[60] ${isSceneTransitioning || transitionOverlayOpacity > 0 ? "pointer-events-auto" : "pointer-events-none"}`}
