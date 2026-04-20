@@ -294,7 +294,7 @@ const Index = () => {
           choices={scene.choices}
           isFinal={scene.isFinal}
           onChoice={handleChoice}
-          onComplete={handleComplete}
+          onComplete={handleReachEnd}
           stepCount={stepCount}
           backgroundImage={images?.[currentSceneId]}
           sprites={sprites}
@@ -302,6 +302,17 @@ const Index = () => {
           isTransitioning={isSceneTransitioning}
         />
 
+        {/* End of story screen overlay */}
+        {showEndScreen && (
+          <StoryEndScreen
+            stars={computedStars}
+            totalChoices={totalChoices}
+            wrongChoices={wrongChoices}
+            backgroundImage={images?.[currentSceneId]}
+            onReplay={handleRestart}
+            onContinue={handleContinueAfterEnd}
+          />
+        )}
         {/* Dev mode HUD */}
         {devMode && (
           <div className="absolute top-3 right-3 z-[65] flex gap-2">
