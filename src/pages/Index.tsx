@@ -247,6 +247,7 @@ const Index = () => {
             stories={OLD_TESTAMENT_STORIES}
             isStoryCompleted={progress.isStoryCompleted}
             isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
+            getBestStars={progress.getBestStars}
             onSelectStory={handleSelectStory}
             onBack={() => setScreen("menu")}
             devMode={devMode}
@@ -263,6 +264,7 @@ const Index = () => {
             stories={ALL_NT_STORIES}
             isStoryCompleted={progress.isStoryCompleted}
             isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
+            getBestStars={progress.getBestStars}
             onSelectStory={handleSelectStory}
             onBack={() => setScreen("menu")}
             devMode={devMode}
