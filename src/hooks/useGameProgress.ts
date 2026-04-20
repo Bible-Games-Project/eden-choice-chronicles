@@ -5,14 +5,21 @@ const STORAGE_KEY = "bible-journey-progress";
 
 interface GameProgress {
   completedStories: string[];
+  bestStars: Record<string, number>;
 }
 
 function loadProgress(): GameProgress {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      return {
+        completedStories: parsed.completedStories ?? [],
+        bestStars: parsed.bestStars ?? {},
+      };
+    }
   } catch {}
-  return { completedStories: [] };
+  return { completedStories: [], bestStars: {} };
 }
 
 function saveProgress(p: GameProgress) {
@@ -51,19 +58,31 @@ export function useGameProgress() {
     );
   }, [progress]);
 
-  const completeStory = useCallback((storyId: string) => {
+  const completeStory = useCallback((storyId: string, stars?: number) => {
     setProgress((prev) => {
-      if (prev.completedStories.includes(storyId)) return prev;
-      const next = {
-        completedStories: [...prev.completedStories, storyId],
+      const alreadyDone = prev.completedStories.includes(storyId);
+      const prevBest = prev.bestStars[storyId] ?? 0;
+      const newBest =
+        typeof stars === "number" ? Math.max(prevBest, Math.max(0, Math.min(5, stars))) : prevBest;
+      if (alreadyDone && newBest === prevBest) return prev;
+      const next: GameProgress = {
+        completedStories: alreadyDone
+          ? prev.completedStories
+          : [...prev.completedStories, storyId],
+        bestStars: { ...prev.bestStars, [storyId]: newBest },
       };
       saveProgress(next);
       return next;
     });
   }, []);
 
+  const getBestStars = useCallback(
+    (storyId: string) => progress.bestStars[storyId] ?? 0,
+    [progress]
+  );
+
   const resetProgress = useCallback(() => {
-    const empty: GameProgress = { completedStories: [] };
+    const empty: GameProgress = { completedStories: [], bestStars: {} };
     saveProgress(empty);
     setProgress(empty);
   }, []);
@@ -87,6 +106,7 @@ export function useGameProgress() {
     isStoryUnlocked,
     isNTUnlocked,
     completeStory,
+    getBestStars,
     resetProgress,
     otProgress,
     ntProgress,
