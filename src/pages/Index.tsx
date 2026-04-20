@@ -36,6 +36,10 @@ import { abrahamEgyptScenes } from "@/data/stories/abrahamEgypt";
 import { abrahamEgyptImages } from "@/data/stories/abrahamEgyptImages";
 import { abrahamEgyptSprites } from "@/data/stories/abrahamEgyptSprites";
 import { abrahamEgyptEffects } from "@/data/stories/abrahamEgyptEffects";
+import { abrahamLotScenes } from "@/data/stories/abrahamLot";
+import { abrahamLotImages } from "@/data/stories/abrahamLotImages";
+import { abrahamLotSprites } from "@/data/stories/abrahamLotSprites";
+import { abrahamLotEffects } from "@/data/stories/abrahamLotEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -48,6 +52,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "tower-babel": babelScenes,
   "call-abraham": abrahamScenes,
   "abraham-egypt": abrahamEgyptScenes,
+  "abraham-lot": abrahamLotScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -57,6 +62,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "tower-babel": babelImages,
   "call-abraham": abrahamImages,
   "abraham-egypt": abrahamEgyptImages,
+  "abraham-lot": abrahamLotImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -66,6 +72,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "tower-babel": babelSprites,
   "call-abraham": abrahamSprites,
   "abraham-egypt": abrahamEgyptSprites,
+  "abraham-lot": abrahamLotSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -75,6 +82,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "tower-babel": babelEffects,
   "call-abraham": abrahamEffects,
   "abraham-egypt": abrahamEgyptEffects,
+  "abraham-lot": abrahamLotEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
