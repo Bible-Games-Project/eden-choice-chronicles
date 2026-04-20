@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Lock, Check, ChevronLeft, Play } from "lucide-react";
+import { Lock, Check, ChevronLeft, Play, Star } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
 import storyListBg from "@/assets/map/story-list-bg.jpg";
 
@@ -8,12 +8,13 @@ interface StoryMapProps {
   stories: StoryMeta[];
   isStoryCompleted: (id: string) => boolean;
   isStoryUnlocked: (story: StoryMeta, list: StoryMeta[]) => boolean;
+  getBestStars: (id: string) => number;
   onSelectStory: (story: StoryMeta) => void;
   onBack: () => void;
   devMode?: boolean;
 }
 
-const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectStory, onBack, devMode = false }: StoryMapProps) => {
+const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestStars, onSelectStory, onBack, devMode = false }: StoryMapProps) => {
   return (
     <div className="fixed inset-0 overflow-hidden">
       <img src={storyListBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
@@ -97,6 +98,22 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, onSelectS
                     >
                       {story.number}. {story.title}
                     </span>
+                    {story.hasContent && (
+                      <div className="flex items-center gap-0.5 mt-1">
+                        {[1, 2, 3, 4, 5].map((n) => {
+                          const best = getBestStars(story.id);
+                          const earned = n <= best;
+                          return (
+                            <Star
+                              key={n}
+                              className={`w-3 h-3 ${earned ? "text-gold" : "text-primary-foreground/20"}`}
+                              fill={earned ? "currentColor" : "none"}
+                              strokeWidth={1.5}
+                            />
+                          );
+                        })}
+                      </div>
+                    )}
                     {unlocked && !story.hasContent && (
                       <span className="font-body text-xs text-primary-foreground/30 mt-0.5 block">
                         Coming soon

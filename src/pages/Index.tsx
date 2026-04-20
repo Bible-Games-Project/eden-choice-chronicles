@@ -1,8 +1,9 @@
-import { useState, useCallback, useEffect, useRef } from "react";
+import { useState, useCallback, useEffect, useRef, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import MainMenu from "@/components/MainMenu";
 import StoryMap from "@/components/StoryMap";
 import GameScene from "@/components/GameScene";
+import StoryEndScreen from "@/components/StoryEndScreen";
 import SceneSelector from "@/components/SceneSelector";
 import SpriteViewer from "@/components/SpriteViewer";
 import { useGameProgress } from "@/hooks/useGameProgress";
@@ -97,6 +98,9 @@ const Index = () => {
   const [isSceneTransitioning, setIsSceneTransitioning] = useState(false);
   const [transitionOverlayOpacity, setTransitionOverlayOpacity] = useState(0);
   const [showSceneSelector, setShowSceneSelector] = useState(false);
+  const [wrongChoices, setWrongChoices] = useState(0);
+  const [totalChoices, setTotalChoices] = useState(0);
+  const [showEndScreen, setShowEndScreen] = useState(false);
   const progress = useGameProgress();
   const { devMode, toggleDevMode } = useDevMode();
   const transitionLock = useRef(false);
@@ -133,6 +137,9 @@ const Index = () => {
     setCurrentStory(story);
     setCurrentSceneId("start");
     setStepCount(1);
+    setWrongChoices(0);
+    setTotalChoices(0);
+    setShowEndScreen(false);
     setScreen("playing");
   }, [clearTransitionTimers]);
 
@@ -144,6 +151,9 @@ const Index = () => {
     setTransitionOverlayOpacity(0);
     setCurrentSceneId("start");
     setStepCount(1);
+    setWrongChoices(0);
+    setTotalChoices(0);
+    setShowEndScreen(false);
   }, [currentStory, clearTransitionTimers]);
 
   const handleJumpToScene = useCallback((sceneId: string) => {
@@ -154,12 +164,17 @@ const Index = () => {
     setTransitionOverlayOpacity(0);
     setCurrentSceneId(sceneId);
     setStepCount((s) => s + 1);
+    setShowEndScreen(false);
   }, [currentStory, clearTransitionTimers]);
 
   const handleChoice = useCallback((choice: StoryChoice) => {
     if (!currentStory || transitionLock.current || choice.nextScene === currentSceneId) return;
     transitionLock.current = true;
     setIsSceneTransitioning(true);
+
+    // Track correctness — sentiment "negative" = non-biblical
+    setTotalChoices((c) => c + 1);
+    if (choice.sentiment === "negative") setWrongChoices((w) => w + 1);
 
     void (async () => {
       await wait(SCENE_FEEDBACK_DELAY_MS);
@@ -176,11 +191,21 @@ const Index = () => {
     })();
   }, [currentSceneId, currentStory, getSceneAssetUrls, wait]);
 
-  const handleComplete = useCallback(() => {
-    if (currentStory) progress.completeStory(currentStory.id);
+  const computedStars = useMemo(
+    () => Math.max(0, 5 - wrongChoices),
+    [wrongChoices]
+  );
+
+  const handleReachEnd = useCallback(() => {
+    setShowEndScreen(true);
+  }, []);
+
+  const handleContinueAfterEnd = useCallback(() => {
+    if (currentStory) progress.completeStory(currentStory.id, computedStars);
     setScreen(currentStory?.section === "old_testament" ? "map_ot" : "map_nt");
     setCurrentStory(null);
-  }, [currentStory, progress]);
+    setShowEndScreen(false);
+  }, [currentStory, progress, computedStars]);
 
   const fadeTransition = {
     initial: { opacity: 0 },
@@ -222,6 +247,7 @@ const Index = () => {
             stories={OLD_TESTAMENT_STORIES}
             isStoryCompleted={progress.isStoryCompleted}
             isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
+            getBestStars={progress.getBestStars}
             onSelectStory={handleSelectStory}
             onBack={() => setScreen("menu")}
             devMode={devMode}
@@ -238,6 +264,7 @@ const Index = () => {
             stories={ALL_NT_STORIES}
             isStoryCompleted={progress.isStoryCompleted}
             isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
+            getBestStars={progress.getBestStars}
             onSelectStory={handleSelectStory}
             onBack={() => setScreen("menu")}
             devMode={devMode}
@@ -269,7 +296,7 @@ const Index = () => {
           choices={scene.choices}
           isFinal={scene.isFinal}
           onChoice={handleChoice}
-          onComplete={handleComplete}
+          onComplete={handleReachEnd}
           stepCount={stepCount}
           backgroundImage={images?.[currentSceneId]}
           sprites={sprites}
@@ -277,6 +304,17 @@ const Index = () => {
           isTransitioning={isSceneTransitioning}
         />
 
+        {/* End of story screen overlay */}
+        {showEndScreen && (
+          <StoryEndScreen
+            stars={computedStars}
+            totalChoices={totalChoices}
+            wrongChoices={wrongChoices}
+            backgroundImage={images?.[currentSceneId]}
+            onReplay={handleRestart}
+            onContinue={handleContinueAfterEnd}
+          />
+        )}
         {/* Dev mode HUD */}
         {devMode && (
           <div className="absolute top-3 right-3 z-[65] flex gap-2">
