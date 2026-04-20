@@ -9,6 +9,7 @@ import { noahSprites } from "@/data/stories/noahSprites";
 import { babelSprites } from "@/data/stories/babelSprites";
 import { abrahamSprites } from "@/data/stories/abrahamSprites";
 import { abrahamEgyptSprites } from "@/data/stories/abrahamEgyptSprites";
+import { abrahamLotSprites } from "@/data/stories/abrahamLotSprites";
 
 interface SpriteEntry {
   story: string;
@@ -35,6 +36,7 @@ const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; righ
   "tower-babel": babelSprites,
   "call-abraham": abrahamSprites,
   "abraham-egypt": abrahamEgyptSprites,
+  "abraham-lot": abrahamLotSprites,
 };
 
 function buildSpriteList(): SpriteEntry[] {
