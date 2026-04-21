@@ -17,7 +17,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "call-abraham", number: 6, title: "Call of Abraham", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "abraham-egypt", number: 7, title: "Abraham in Egypt", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "abraham-lot", number: 8, title: "Abraham and Lot", section: "old_testament", category: "Genesis", hasContent: true },
-  { id: "sodom-gomorrah", number: 9, title: "Destruction of Sodom and Gomorrah", section: "old_testament", category: "Genesis", hasContent: false },
+  { id: "sodom-gomorrah", number: 9, title: "Destruction of Sodom and Gomorrah", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "sacrifice-isaac", number: 10, title: "Sacrifice of Isaac", section: "old_testament", category: "Genesis", hasContent: false },
   { id: "rebekah-servant", number: 11, title: "Rebekah and the Servant", section: "old_testament", category: "Genesis", hasContent: false },
   { id: "jacob-esau", number: 12, title: "Jacob and Esau", section: "old_testament", category: "Genesis", hasContent: false },
