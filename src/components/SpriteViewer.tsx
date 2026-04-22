@@ -30,6 +30,7 @@ const STORY_LABELS: Record<string, string> = {
   "abraham-egypt": "Abraham in Egypt",
   "abraham-lot": "Abraham & Lot",
   "sodom-gomorrah": "Sodom & Gomorrah",
+  "sacrifice-isaac": "Sacrifice of Isaac",
 };
 
 const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; right?: string }>> = {
@@ -42,6 +43,7 @@ const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; righ
   "abraham-egypt": abrahamEgyptSprites,
   "abraham-lot": abrahamLotSprites,
   "sodom-gomorrah": sodomSprites,
+  "sacrifice-isaac": sacrificeIsaacSprites,
 };
 
 function buildSpriteList(): SpriteEntry[] {
