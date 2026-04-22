@@ -117,8 +117,8 @@ const Index = () => {
   const [wrongChoices, setWrongChoices] = useState(0);
   const [totalChoices, setTotalChoices] = useState(0);
   const [showEndScreen, setShowEndScreen] = useState(false);
-  const progress = useGameProgress();
   const { devMode, toggleDevMode } = useDevMode();
+  const progress = useGameProgress(devMode);
   const transitionLock = useRef(false);
   const transitionTimers = useRef<ReturnType<typeof setTimeout>[]>([]);
 

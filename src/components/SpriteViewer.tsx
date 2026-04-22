@@ -11,6 +11,7 @@ import { abrahamSprites } from "@/data/stories/abrahamSprites";
 import { abrahamEgyptSprites } from "@/data/stories/abrahamEgyptSprites";
 import { abrahamLotSprites } from "@/data/stories/abrahamLotSprites";
 import { sodomSprites } from "@/data/stories/sodomSprites";
+import { sacrificeIsaacSprites } from "@/data/stories/sacrificeIsaacSprites";
 
 interface SpriteEntry {
   story: string;
@@ -29,6 +30,7 @@ const STORY_LABELS: Record<string, string> = {
   "abraham-egypt": "Abraham in Egypt",
   "abraham-lot": "Abraham & Lot",
   "sodom-gomorrah": "Sodom & Gomorrah",
+  "sacrifice-isaac": "Sacrifice of Isaac",
 };
 
 const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; right?: string }>> = {
@@ -41,6 +43,7 @@ const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; righ
   "abraham-egypt": abrahamEgyptSprites,
   "abraham-lot": abrahamLotSprites,
   "sodom-gomorrah": sodomSprites,
+  "sacrifice-isaac": sacrificeIsaacSprites,
 };
 
 function buildSpriteList(): SpriteEntry[] {
@@ -95,27 +98,41 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
           </div>
         </div>
 
-        {/* Story filter tabs */}
-        <div className="flex gap-2 px-5 pb-4 overflow-x-auto flex-shrink-0">
-          <button
-            onClick={() => setFilterStory(null)}
-            className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-display tracking-wider uppercase transition-all cursor-pointer ${
-              filterStory === null ? "bg-gold/30 text-gold border border-gold/50" : "bg-black/30 text-primary-foreground/50 border border-primary-foreground/10 hover:bg-gold/10"
-            }`}
+        {/* Story selector dropdown + filter tabs */}
+        <div className="px-5 pb-4 flex-shrink-0 space-y-3">
+          <select
+            value={filterStory ?? ""}
+            onChange={(e) => setFilterStory(e.target.value || null)}
+            className="w-full sm:w-auto bg-black/40 border border-gold/30 text-gold font-display tracking-wider uppercase text-xs px-3 py-2 rounded-lg cursor-pointer focus:outline-none focus:border-gold/60"
           >
-            All
-          </button>
-          {storyIds.map((id) => (
+            <option value="">All stories</option>
+            {storyIds.map((id) => (
+              <option key={id} value={id}>
+                {STORY_LABELS[id] || id}
+              </option>
+            ))}
+          </select>
+          <div className="flex gap-2 overflow-x-auto">
             <button
-              key={id}
-              onClick={() => setFilterStory(id)}
+              onClick={() => setFilterStory(null)}
               className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-display tracking-wider uppercase transition-all cursor-pointer ${
-                filterStory === id ? "bg-gold/30 text-gold border border-gold/50" : "bg-black/30 text-primary-foreground/50 border border-primary-foreground/10 hover:bg-gold/10"
+                filterStory === null ? "bg-gold/30 text-gold border border-gold/50" : "bg-black/30 text-primary-foreground/50 border border-primary-foreground/10 hover:bg-gold/10"
               }`}
             >
-              {STORY_LABELS[id] || id}
+              All
             </button>
-          ))}
+            {storyIds.map((id) => (
+              <button
+                key={id}
+                onClick={() => setFilterStory(id)}
+                className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-display tracking-wider uppercase transition-all cursor-pointer ${
+                  filterStory === id ? "bg-gold/30 text-gold border border-gold/50" : "bg-black/30 text-primary-foreground/50 border border-primary-foreground/10 hover:bg-gold/10"
+                }`}
+              >
+                {STORY_LABELS[id] || id}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Sprite grid */}

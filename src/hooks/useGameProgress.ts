@@ -26,7 +26,7 @@ function saveProgress(p: GameProgress) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
 }
 
-export function useGameProgress() {
+export function useGameProgress(devMode: boolean = false) {
   const [progress, setProgress] = useState<GameProgress>(loadProgress);
 
   const isStoryCompleted = useCallback(
@@ -36,6 +36,7 @@ export function useGameProgress() {
 
   const isStoryUnlocked = useCallback(
     (story: StoryMeta, list: StoryMeta[]) => {
+      if (devMode) return true;
       if (story.number === 1) {
         // First story in OT is always unlocked
         if (story.section === "old_testament") return true;
@@ -49,14 +50,15 @@ export function useGameProgress() {
       const prev = list.find((s) => s.number === story.number - 1);
       return prev ? progress.completedStories.includes(prev.id) : false;
     },
-    [progress]
+    [progress, devMode]
   );
 
   const isNTUnlocked = useCallback(() => {
+    if (devMode) return true;
     return OLD_TESTAMENT_STORIES.every((s) =>
       progress.completedStories.includes(s.id)
     );
-  }, [progress]);
+  }, [progress, devMode]);
 
   const completeStory = useCallback((storyId: string, stars?: number) => {
     setProgress((prev) => {
