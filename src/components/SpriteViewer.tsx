@@ -11,6 +11,7 @@ import { abrahamSprites } from "@/data/stories/abrahamSprites";
 import { abrahamEgyptSprites } from "@/data/stories/abrahamEgyptSprites";
 import { abrahamLotSprites } from "@/data/stories/abrahamLotSprites";
 import { sodomSprites } from "@/data/stories/sodomSprites";
+import { sacrificeIsaacSprites } from "@/data/stories/sacrificeIsaacSprites";
 
 interface SpriteEntry {
   story: string;
