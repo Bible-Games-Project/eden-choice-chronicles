@@ -45,6 +45,10 @@ import { sodomScenes } from "@/data/stories/sodom";
 import { sodomImages } from "@/data/stories/sodomImages";
 import { sodomSprites } from "@/data/stories/sodomSprites";
 import { sodomEffects } from "@/data/stories/sodomEffects";
+import { sacrificeIsaacScenes } from "@/data/stories/sacrificeIsaac";
+import { sacrificeIsaacImages } from "@/data/stories/sacrificeIsaacImages";
+import { sacrificeIsaacSprites } from "@/data/stories/sacrificeIsaacSprites";
+import { sacrificeIsaacEffects } from "@/data/stories/sacrificeIsaacEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -59,6 +63,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "abraham-egypt": abrahamEgyptScenes,
   "abraham-lot": abrahamLotScenes,
   "sodom-gomorrah": sodomScenes,
+  "sacrifice-isaac": sacrificeIsaacScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -70,6 +75,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "abraham-egypt": abrahamEgyptImages,
   "abraham-lot": abrahamLotImages,
   "sodom-gomorrah": sodomImages,
+  "sacrifice-isaac": sacrificeIsaacImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -81,6 +87,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "abraham-egypt": abrahamEgyptSprites,
   "abraham-lot": abrahamLotSprites,
   "sodom-gomorrah": sodomSprites,
+  "sacrifice-isaac": sacrificeIsaacSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -92,6 +99,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "abraham-egypt": abrahamEgyptEffects,
   "abraham-lot": abrahamLotEffects,
   "sodom-gomorrah": sodomEffects,
+  "sacrifice-isaac": sacrificeIsaacEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
