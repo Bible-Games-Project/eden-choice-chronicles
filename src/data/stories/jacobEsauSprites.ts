@@ -35,7 +35,7 @@ export const jacobEsauSprites: Record<string, SpriteConfig> = {
   flee_consequence: { left: jacobFleeing, right: rebekahUrgent },
   the_blessing: { left: jacobDisguised, right: isaacReaching },
   esau_returns: { left: jacobFleeing },
-  esau_wrath: { right: esauWrath },
+  esau_wrath: { left: esauWrath },
   confront_esau_consequence: { left: jacobFleeing, right: rebekahUrgent },
   rebekah_warning: { left: jacobFleeing, right: rebekahUrgent },
   refuse_flee_consequence: { left: jacobUncertain, right: rebekahUrgent },
