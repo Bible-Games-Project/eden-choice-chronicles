@@ -61,6 +61,10 @@ import { jacobsDreamScenes } from "@/data/stories/jacobsDream";
 import { jacobsDreamImages } from "@/data/stories/jacobsDreamImages";
 import { jacobsDreamSprites } from "@/data/stories/jacobsDreamSprites";
 import { jacobsDreamEffects } from "@/data/stories/jacobsDreamEffects";
+import { jacobWrestlesScenes } from "@/data/stories/jacobWrestles";
+import { jacobWrestlesImages } from "@/data/stories/jacobWrestlesImages";
+import { jacobWrestlesSprites } from "@/data/stories/jacobWrestlesSprites";
+import { jacobWrestlesEffects } from "@/data/stories/jacobWrestlesEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -79,6 +83,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "rebekah-servant": rebekahScenes,
   "jacob-esau": jacobEsauScenes,
   "jacobs-dream": jacobsDreamScenes,
+  "jacob-wrestles": jacobWrestlesScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -94,6 +99,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "rebekah-servant": rebekahImages,
   "jacob-esau": jacobEsauImages,
   "jacobs-dream": jacobsDreamImages,
+  "jacob-wrestles": jacobWrestlesImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -109,6 +115,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "rebekah-servant": rebekahSprites,
   "jacob-esau": jacobEsauSprites,
   "jacobs-dream": jacobsDreamSprites,
+  "jacob-wrestles": jacobWrestlesSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -124,6 +131,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "rebekah-servant": rebekahEffects,
   "jacob-esau": jacobEsauEffects,
   "jacobs-dream": jacobsDreamEffects,
+  "jacob-wrestles": jacobWrestlesEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
