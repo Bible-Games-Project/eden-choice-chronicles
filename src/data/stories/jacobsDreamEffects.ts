@@ -1,0 +1,28 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const jacobsDreamEffects: Record<string, SceneEffect> = {
+  start: "leaves",
+  turn_back_consequence: "leaves",
+  hide_consequence: "leaves",
+  wilderness: "leaves",
+  push_on_consequence: "fireflies",
+  the_place: "fireflies",
+  soft_consequence: "fireflies",
+  wander_consequence: "fireflies",
+  lay_down: "fireflies",
+  the_dream: "sparkles",
+  climb_consequence: "sparkles",
+  call_consequence: "sparkles",
+  the_voice: "sparkles",
+  bargain_consequence: "sparkles",
+  the_promise: "sparkles",
+  awakening: "sparkles",
+  flee_consequence: "sparkles",
+  secret_consequence: "sparkles",
+  set_pillar: "sparkles",
+  plain_consequence: "sparkles",
+  anoint: "sparkles",
+  withhold_consequence: "sparkles",
+  the_vow: "leaves",
+  journey_on: "leaves",
+};

@@ -21,7 +21,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "sacrifice-isaac", number: 10, title: "Sacrifice of Isaac", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "rebekah-servant", number: 11, title: "Rebekah and the Servant", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "jacob-esau", number: 12, title: "Jacob and Esau", section: "old_testament", category: "Genesis", hasContent: true },
-  { id: "jacobs-dream", number: 13, title: "Jacob's Dream", section: "old_testament", category: "Genesis", hasContent: false },
+  { id: "jacobs-dream", number: 13, title: "Jacob's Dream", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "jacob-wrestles", number: 14, title: "Jacob Wrestles with the Angel", section: "old_testament", category: "Genesis", hasContent: false },
   { id: "joseph-sold", number: 15, title: "Joseph Sold by His Brothers", section: "old_testament", category: "Genesis", hasContent: false },
   { id: "joseph-potiphar", number: 16, title: "Joseph in Potiphar's House", section: "old_testament", category: "Genesis", hasContent: false },

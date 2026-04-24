@@ -57,6 +57,10 @@ import { jacobEsauScenes } from "@/data/stories/jacobEsau";
 import { jacobEsauImages } from "@/data/stories/jacobEsauImages";
 import { jacobEsauSprites } from "@/data/stories/jacobEsauSprites";
 import { jacobEsauEffects } from "@/data/stories/jacobEsauEffects";
+import { jacobsDreamScenes } from "@/data/stories/jacobsDream";
+import { jacobsDreamImages } from "@/data/stories/jacobsDreamImages";
+import { jacobsDreamSprites } from "@/data/stories/jacobsDreamSprites";
+import { jacobsDreamEffects } from "@/data/stories/jacobsDreamEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -74,6 +78,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "sacrifice-isaac": sacrificeIsaacScenes,
   "rebekah-servant": rebekahScenes,
   "jacob-esau": jacobEsauScenes,
+  "jacobs-dream": jacobsDreamScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -88,6 +93,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "sacrifice-isaac": sacrificeIsaacImages,
   "rebekah-servant": rebekahImages,
   "jacob-esau": jacobEsauImages,
+  "jacobs-dream": jacobsDreamImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -102,6 +108,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "sacrifice-isaac": sacrificeIsaacSprites,
   "rebekah-servant": rebekahSprites,
   "jacob-esau": jacobEsauSprites,
+  "jacobs-dream": jacobsDreamSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -116,6 +123,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "sacrifice-isaac": sacrificeIsaacEffects,
   "rebekah-servant": rebekahEffects,
   "jacob-esau": jacobEsauEffects,
+  "jacobs-dream": jacobsDreamEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
