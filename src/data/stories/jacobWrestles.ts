@@ -235,7 +235,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "Peniel — The Face of God",
     text: "The sun rises over Peniel.\nYou rise too — and limp upon your hip.",
     choices: [
-      { text: "Cross the Jabbok to meet Esau", nextScene: "to_esau", tag: "obedient", feedback: "You walk forward, marked, blessed, no longer the same.", sentiment: "positive", isFinal: true },
+      { text: "Cross the Jabbok to meet Esau", nextScene: "to_esau", tag: "obedient", feedback: "You walk forward, marked, blessed, no longer the same.", sentiment: "positive" },
     ],
   },
   to_esau: {
