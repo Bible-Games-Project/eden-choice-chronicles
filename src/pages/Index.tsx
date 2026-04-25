@@ -65,6 +65,10 @@ import { jacobWrestlesScenes } from "@/data/stories/jacobWrestles";
 import { jacobWrestlesImages } from "@/data/stories/jacobWrestlesImages";
 import { jacobWrestlesSprites } from "@/data/stories/jacobWrestlesSprites";
 import { jacobWrestlesEffects } from "@/data/stories/jacobWrestlesEffects";
+import { josephSoldScenes } from "@/data/stories/josephSold";
+import { josephSoldImages } from "@/data/stories/josephSoldImages";
+import { josephSoldSprites } from "@/data/stories/josephSoldSprites";
+import { josephSoldEffects } from "@/data/stories/josephSoldEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -84,6 +88,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "jacob-esau": jacobEsauScenes,
   "jacobs-dream": jacobsDreamScenes,
   "jacob-wrestles": jacobWrestlesScenes,
+  "joseph-sold": josephSoldScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -100,6 +105,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "jacob-esau": jacobEsauImages,
   "jacobs-dream": jacobsDreamImages,
   "jacob-wrestles": jacobWrestlesImages,
+  "joseph-sold": josephSoldImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -116,6 +122,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "jacob-esau": jacobEsauSprites,
   "jacobs-dream": jacobsDreamSprites,
   "jacob-wrestles": jacobWrestlesSprites,
+  "joseph-sold": josephSoldSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -132,6 +139,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "jacob-esau": jacobEsauEffects,
   "jacobs-dream": jacobsDreamEffects,
   "jacob-wrestles": jacobWrestlesEffects,
+  "joseph-sold": josephSoldEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
