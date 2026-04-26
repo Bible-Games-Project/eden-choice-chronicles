@@ -69,6 +69,10 @@ import { josephSoldScenes } from "@/data/stories/josephSold";
 import { josephSoldImages } from "@/data/stories/josephSoldImages";
 import { josephSoldSprites } from "@/data/stories/josephSoldSprites";
 import { josephSoldEffects } from "@/data/stories/josephSoldEffects";
+import { josephPotipharScenes } from "@/data/stories/josephPotiphar";
+import { josephPotipharImages } from "@/data/stories/josephPotipharImages";
+import { josephPotipharSprites } from "@/data/stories/josephPotipharSprites";
+import { josephPotipharEffects } from "@/data/stories/josephPotipharEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -89,6 +93,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "jacobs-dream": jacobsDreamScenes,
   "jacob-wrestles": jacobWrestlesScenes,
   "joseph-sold": josephSoldScenes,
+  "joseph-potiphar": josephPotipharScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -106,6 +111,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "jacobs-dream": jacobsDreamImages,
   "jacob-wrestles": jacobWrestlesImages,
   "joseph-sold": josephSoldImages,
+  "joseph-potiphar": josephPotipharImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -123,6 +129,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "jacobs-dream": jacobsDreamSprites,
   "jacob-wrestles": jacobWrestlesSprites,
   "joseph-sold": josephSoldSprites,
+  "joseph-potiphar": josephPotipharSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -140,6 +147,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "jacobs-dream": jacobsDreamEffects,
   "jacob-wrestles": jacobWrestlesEffects,
   "joseph-sold": josephSoldEffects,
+  "joseph-potiphar": josephPotipharEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
