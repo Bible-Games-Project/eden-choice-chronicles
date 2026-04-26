@@ -25,7 +25,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "jacob-wrestles", number: 14, title: "Jacob Wrestles with the Angel", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "joseph-sold", number: 15, title: "Joseph Sold by His Brothers", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "joseph-potiphar", number: 16, title: "Joseph in Potiphar's House", section: "old_testament", category: "Genesis", hasContent: true },
-  { id: "joseph-prison", number: 17, title: "Joseph in Prison", section: "old_testament", category: "Genesis", hasContent: false },
+  { id: "joseph-prison", number: 17, title: "Joseph in Prison", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "joseph-dreams", number: 18, title: "Joseph Interprets Dreams", section: "old_testament", category: "Genesis", hasContent: false },
   { id: "joseph-brothers-egypt", number: 19, title: "Joseph and His Brothers in Egypt", section: "old_testament", category: "Genesis", hasContent: false },
   { id: "joseph-reconciles", number: 20, title: "Joseph Reconciles with His Brothers", section: "old_testament", category: "Genesis", hasContent: false },

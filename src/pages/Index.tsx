@@ -73,6 +73,10 @@ import { josephPotipharScenes } from "@/data/stories/josephPotiphar";
 import { josephPotipharImages } from "@/data/stories/josephPotipharImages";
 import { josephPotipharSprites } from "@/data/stories/josephPotipharSprites";
 import { josephPotipharEffects } from "@/data/stories/josephPotipharEffects";
+import { josephPrisonScenes } from "@/data/stories/josephPrison";
+import { josephPrisonImages } from "@/data/stories/josephPrisonImages";
+import { josephPrisonSprites } from "@/data/stories/josephPrisonSprites";
+import { josephPrisonEffects } from "@/data/stories/josephPrisonEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -94,6 +98,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "jacob-wrestles": jacobWrestlesScenes,
   "joseph-sold": josephSoldScenes,
   "joseph-potiphar": josephPotipharScenes,
+  "joseph-prison": josephPrisonScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -112,6 +117,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "jacob-wrestles": jacobWrestlesImages,
   "joseph-sold": josephSoldImages,
   "joseph-potiphar": josephPotipharImages,
+  "joseph-prison": josephPrisonImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -130,6 +136,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "jacob-wrestles": jacobWrestlesSprites,
   "joseph-sold": josephSoldSprites,
   "joseph-potiphar": josephPotipharSprites,
+  "joseph-prison": josephPrisonSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -148,6 +155,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "jacob-wrestles": jacobWrestlesEffects,
   "joseph-sold": josephSoldEffects,
   "joseph-potiphar": josephPotipharEffects,
+  "joseph-prison": josephPrisonEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
