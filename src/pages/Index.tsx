@@ -77,6 +77,10 @@ import { josephPrisonScenes } from "@/data/stories/josephPrison";
 import { josephPrisonImages } from "@/data/stories/josephPrisonImages";
 import { josephPrisonSprites } from "@/data/stories/josephPrisonSprites";
 import { josephPrisonEffects } from "@/data/stories/josephPrisonEffects";
+import { josephDreamsScenes } from "@/data/stories/josephDreams";
+import { josephDreamsImages } from "@/data/stories/josephDreamsImages";
+import { josephDreamsSprites } from "@/data/stories/josephDreamsSprites";
+import { josephDreamsEffects } from "@/data/stories/josephDreamsEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -99,6 +103,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "joseph-sold": josephSoldScenes,
   "joseph-potiphar": josephPotipharScenes,
   "joseph-prison": josephPrisonScenes,
+  "joseph-dreams": josephDreamsScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -118,6 +123,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "joseph-sold": josephSoldImages,
   "joseph-potiphar": josephPotipharImages,
   "joseph-prison": josephPrisonImages,
+  "joseph-dreams": josephDreamsImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -137,6 +143,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "joseph-sold": josephSoldSprites,
   "joseph-potiphar": josephPotipharSprites,
   "joseph-prison": josephPrisonSprites,
+  "joseph-dreams": josephDreamsSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -156,6 +163,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "joseph-sold": josephSoldEffects,
   "joseph-potiphar": josephPotipharEffects,
   "joseph-prison": josephPrisonEffects,
+  "joseph-dreams": josephDreamsEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
