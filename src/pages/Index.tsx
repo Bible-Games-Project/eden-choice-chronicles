@@ -81,6 +81,10 @@ import { josephDreamsScenes } from "@/data/stories/josephDreams";
 import { josephDreamsImages } from "@/data/stories/josephDreamsImages";
 import { josephDreamsSprites } from "@/data/stories/josephDreamsSprites";
 import { josephDreamsEffects } from "@/data/stories/josephDreamsEffects";
+import { josephBrothersEgyptScenes } from "@/data/stories/josephBrothersEgypt";
+import { josephBrothersEgyptImages } from "@/data/stories/josephBrothersEgyptImages";
+import { josephBrothersEgyptSprites } from "@/data/stories/josephBrothersEgyptSprites";
+import { josephBrothersEgyptEffects } from "@/data/stories/josephBrothersEgyptEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -104,6 +108,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "joseph-potiphar": josephPotipharScenes,
   "joseph-prison": josephPrisonScenes,
   "joseph-dreams": josephDreamsScenes,
+  "joseph-brothers-egypt": josephBrothersEgyptScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -124,6 +129,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "joseph-potiphar": josephPotipharImages,
   "joseph-prison": josephPrisonImages,
   "joseph-dreams": josephDreamsImages,
+  "joseph-brothers-egypt": josephBrothersEgyptImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -144,6 +150,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "joseph-potiphar": josephPotipharSprites,
   "joseph-prison": josephPrisonSprites,
   "joseph-dreams": josephDreamsSprites,
+  "joseph-brothers-egypt": josephBrothersEgyptSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
