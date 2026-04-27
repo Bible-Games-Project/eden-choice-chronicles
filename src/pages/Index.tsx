@@ -171,6 +171,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "joseph-potiphar": josephPotipharEffects,
   "joseph-prison": josephPrisonEffects,
   "joseph-dreams": josephDreamsEffects,
+  "joseph-brothers-egypt": josephBrothersEgyptEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
