@@ -27,7 +27,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "joseph-potiphar", number: 16, title: "Joseph in Potiphar's House", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "joseph-prison", number: 17, title: "Joseph in Prison", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "joseph-dreams", number: 18, title: "Joseph Interprets Dreams", section: "old_testament", category: "Genesis", hasContent: true },
-  { id: "joseph-brothers-egypt", number: 19, title: "Joseph and His Brothers in Egypt", section: "old_testament", category: "Genesis", hasContent: false },
+  { id: "joseph-brothers-egypt", number: 19, title: "Joseph and His Brothers in Egypt", section: "old_testament", category: "Genesis", hasContent: true },
   { id: "joseph-reconciles", number: 20, title: "Joseph Reconciles with His Brothers", section: "old_testament", category: "Genesis", hasContent: false },
   // Exodus
   { id: "birth-moses", number: 21, title: "Birth of Moses", section: "old_testament", category: "Exodus", hasContent: false },
