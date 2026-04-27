@@ -1,0 +1,61 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const josephBrothersEgyptEffects: Record<string, SceneEffect> = {
+  // Act I — palace tension
+  start: "leaves",
+  wave_consequence: "leaves",
+  demand_consequence: "leaves",
+  recognize: "sparkles",
+  reveal_consequence: "sparkles",
+  arrest_consequence: "leaves",
+  // Act II — accusation
+  hide_face: "sparkles",
+  skip_consequence: "sparkles",
+  spy_accusation: "sparkles",
+  smile_consequence: "sparkles",
+  they_protest: "sparkles",
+  pretend_consequence: "sparkles",
+  mock_consequence: "sparkles",
+  // Act III — holding chamber
+  demand_benjamin: "sparkles",
+  free_consequence: "sparkles",
+  three_days: "fireflies",
+  all_stay_consequence: "fireflies",
+  keep_one: "fireflies",
+  ignore_consequence: "fireflies",
+  overhear: "fireflies",
+  tears_open_consequence: "fireflies",
+  weep_alone: "fireflies",
+  reuben_consequence: "fireflies",
+  bind_simeon: "fireflies",
+  empty_consequence: "fireflies",
+  // Act IV — secret mercy
+  fill_sacks: "leaves",
+  silver_consequence: "leaves",
+  open_consequence: "leaves",
+  silver_hidden: "sparkles",
+  no_warning_consequence: "leaves",
+  // Act V — the road home
+  send_off: "leaves",
+  run_consequence: "leaves",
+  first_camp: "fireflies",
+  silver_found: "fireflies",
+  press_on: "leaves",
+  hide_consequence: "leaves",
+  // Act VI — Jacob's grief
+  tell_jacob: "leaves",
+  argue_consequence: "leaves",
+  walk_consequence: "leaves",
+  promise_jacob: "leaves",
+  force_consequence: "leaves",
+  // Act VII — preparing to return
+  wait_famine: "leaves",
+  boast_consequence: "leaves",
+  judah_speaks: "sparkles",
+  mock_judah_consequence: "leaves",
+  father_relents: "sparkles",
+  stingy_consequence: "leaves",
+  preparation: "sparkles",
+  no_pray_consequence: "leaves",
+  ending: "sparkles",
+};
