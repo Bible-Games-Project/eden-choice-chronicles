@@ -85,6 +85,10 @@ import { josephBrothersEgyptScenes } from "@/data/stories/josephBrothersEgypt";
 import { josephBrothersEgyptImages } from "@/data/stories/josephBrothersEgyptImages";
 import { josephBrothersEgyptSprites } from "@/data/stories/josephBrothersEgyptSprites";
 import { josephBrothersEgyptEffects } from "@/data/stories/josephBrothersEgyptEffects";
+import { josephReconcilesScenes } from "@/data/stories/josephReconciles";
+import { josephReconcilesImages } from "@/data/stories/josephReconcilesImages";
+import { josephReconcilesSprites } from "@/data/stories/josephReconcilesSprites";
+import { josephReconcilesEffects } from "@/data/stories/josephReconcilesEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -109,6 +113,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "joseph-prison": josephPrisonScenes,
   "joseph-dreams": josephDreamsScenes,
   "joseph-brothers-egypt": josephBrothersEgyptScenes,
+  "joseph-reconciles": josephReconcilesScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -130,6 +135,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "joseph-prison": josephPrisonImages,
   "joseph-dreams": josephDreamsImages,
   "joseph-brothers-egypt": josephBrothersEgyptImages,
+  "joseph-reconciles": josephReconcilesImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -151,6 +157,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "joseph-prison": josephPrisonSprites,
   "joseph-dreams": josephDreamsSprites,
   "joseph-brothers-egypt": josephBrothersEgyptSprites,
+  "joseph-reconciles": josephReconcilesSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -172,6 +179,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "joseph-prison": josephPrisonEffects,
   "joseph-dreams": josephDreamsEffects,
   "joseph-brothers-egypt": josephBrothersEgyptEffects,
+  "joseph-reconciles": josephReconcilesEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
