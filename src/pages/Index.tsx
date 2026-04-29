@@ -89,6 +89,10 @@ import { josephReconcilesScenes } from "@/data/stories/josephReconciles";
 import { josephReconcilesImages } from "@/data/stories/josephReconcilesImages";
 import { josephReconcilesSprites } from "@/data/stories/josephReconcilesSprites";
 import { josephReconcilesEffects } from "@/data/stories/josephReconcilesEffects";
+import { birthMosesScenes } from "@/data/stories/birthMoses";
+import { birthMosesImages } from "@/data/stories/birthMosesImages";
+import { birthMosesSprites } from "@/data/stories/birthMosesSprites";
+import { birthMosesEffects } from "@/data/stories/birthMosesEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -114,6 +118,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "joseph-dreams": josephDreamsScenes,
   "joseph-brothers-egypt": josephBrothersEgyptScenes,
   "joseph-reconciles": josephReconcilesScenes,
+  "birth-moses": birthMosesScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -136,6 +141,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "joseph-dreams": josephDreamsImages,
   "joseph-brothers-egypt": josephBrothersEgyptImages,
   "joseph-reconciles": josephReconcilesImages,
+  "birth-moses": birthMosesImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -158,6 +164,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "joseph-dreams": josephDreamsSprites,
   "joseph-brothers-egypt": josephBrothersEgyptSprites,
   "joseph-reconciles": josephReconcilesSprites,
+  "birth-moses": birthMosesSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -180,6 +187,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "joseph-dreams": josephDreamsEffects,
   "joseph-brothers-egypt": josephBrothersEgyptEffects,
   "joseph-reconciles": josephReconcilesEffects,
+  "birth-moses": birthMosesEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
