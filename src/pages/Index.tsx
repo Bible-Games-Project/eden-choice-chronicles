@@ -93,6 +93,10 @@ import { birthMosesScenes } from "@/data/stories/birthMoses";
 import { birthMosesImages } from "@/data/stories/birthMosesImages";
 import { birthMosesSprites } from "@/data/stories/birthMosesSprites";
 import { birthMosesEffects } from "@/data/stories/birthMosesEffects";
+import { mosesFleesScenes } from "@/data/stories/mosesFlees";
+import { mosesFleesImages } from "@/data/stories/mosesFleesImages";
+import { mosesFleesSprites } from "@/data/stories/mosesFleesSprites";
+import { mosesFleesEffects } from "@/data/stories/mosesFleesEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -119,6 +123,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "joseph-brothers-egypt": josephBrothersEgyptScenes,
   "joseph-reconciles": josephReconcilesScenes,
   "birth-moses": birthMosesScenes,
+  "moses-flees": mosesFleesScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -142,6 +147,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "joseph-brothers-egypt": josephBrothersEgyptImages,
   "joseph-reconciles": josephReconcilesImages,
   "birth-moses": birthMosesImages,
+  "moses-flees": mosesFleesImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -165,6 +171,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "joseph-brothers-egypt": josephBrothersEgyptSprites,
   "joseph-reconciles": josephReconcilesSprites,
   "birth-moses": birthMosesSprites,
+  "moses-flees": mosesFleesSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -188,6 +195,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "joseph-brothers-egypt": josephBrothersEgyptEffects,
   "joseph-reconciles": josephReconcilesEffects,
   "birth-moses": birthMosesEffects,
+  "moses-flees": mosesFleesEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;

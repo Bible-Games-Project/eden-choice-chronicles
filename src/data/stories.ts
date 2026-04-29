@@ -31,7 +31,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "joseph-reconciles", number: 20, title: "Joseph Reconciles with His Brothers", section: "old_testament", category: "Genesis", hasContent: true },
   // Exodus
   { id: "birth-moses", number: 21, title: "Birth of Moses", section: "old_testament", category: "Exodus", hasContent: true },
-  { id: "moses-flees", number: 22, title: "Moses Flees Egypt", section: "old_testament", category: "Exodus", hasContent: false },
+  { id: "moses-flees", number: 22, title: "Moses Flees Egypt", section: "old_testament", category: "Exodus", hasContent: true },
   { id: "burning-bush", number: 23, title: "The Burning Bush", section: "old_testament", category: "Exodus", hasContent: false },
   { id: "moses-pharaoh", number: 24, title: "Moses Before Pharaoh", section: "old_testament", category: "Exodus", hasContent: false },
   { id: "plagues-egypt", number: 25, title: "The Plagues of Egypt", section: "old_testament", category: "Exodus", hasContent: false },
