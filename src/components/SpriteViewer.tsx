@@ -22,6 +22,7 @@ import { josephPrisonSprites } from "@/data/stories/josephPrisonSprites";
 import { josephDreamsSprites } from "@/data/stories/josephDreamsSprites";
 import { josephBrothersEgyptSprites } from "@/data/stories/josephBrothersEgyptSprites";
 import { josephReconcilesSprites } from "@/data/stories/josephReconcilesSprites";
+import { birthMosesSprites } from "@/data/stories/birthMosesSprites";
 
 interface SpriteEntry {
   story: string;
@@ -51,6 +52,7 @@ const STORY_LABELS: Record<string, string> = {
   "joseph-dreams": "Joseph Interprets Dreams",
   "joseph-brothers-egypt": "Joseph & Brothers in Egypt",
   "joseph-reconciles": "Joseph Reconciles with His Brothers",
+  "birth-moses": "Birth of Moses",
 };
 
 const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; right?: string }>> = {
@@ -74,6 +76,7 @@ const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; righ
   "joseph-dreams": josephDreamsSprites,
   "joseph-brothers-egypt": josephBrothersEgyptSprites,
   "joseph-reconciles": josephReconcilesSprites,
+  "birth-moses": birthMosesSprites,
 };
 
 function buildSpriteList(): SpriteEntry[] {
