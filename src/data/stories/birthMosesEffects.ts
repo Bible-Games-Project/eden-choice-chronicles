@@ -1,0 +1,51 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const birthMosesEffects: Record<string, SceneEffect> = {
+  // Act I
+  start: "leaves",
+  hand_consequence: "leaves",
+  flee_consequence: "leaves",
+  hide_home: "fireflies",
+  show_consequence: "fireflies",
+  growing_baby: "fireflies",
+  bury_consequence: "leaves",
+  prayer: "sparkles",
+  ignore_consequence: "fireflies",
+  // Act II
+  weave_basket: "fireflies",
+  clay_consequence: "fireflies",
+  miriam_called: "sparkles",
+  anger_consequence: "leaves",
+  lie_consequence: "fireflies",
+  to_river: "sparkles",
+  throw_consequence: "leaves",
+  place_basket: "sparkles",
+  snatch_consequence: "leaves",
+  // Act III
+  miriam_watch: "sparkles",
+  swim_consequence: "leaves",
+  princess_arrives: "sparkles",
+  stone_consequence: "leaves",
+  she_sees: "sparkles",
+  shout_consequence: "leaves",
+  // Act IV
+  she_opens: "sparkles",
+  beg_consequence: "leaves",
+  compassion: "sparkles",
+  silent_consequence: "fireflies",
+  miriam_offers: "sparkles",
+  egyptian_consequence: "leaves",
+  // Act V
+  yes_go: "sparkles",
+  refuse_consequence: "leaves",
+  before_princess: "sparkles",
+  confess_consequence: "leaves",
+  wages: "sparkles",
+  pride_consequence: "leaves",
+  home_again: "fireflies",
+  hide_forever_consequence: "leaves",
+  return_palace: "sparkles",
+  runaway_consequence: "leaves",
+  named_moses: "sparkles",
+  ending: "sparkles",
+};
