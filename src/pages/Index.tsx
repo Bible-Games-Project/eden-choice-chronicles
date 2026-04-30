@@ -417,7 +417,7 @@ const Index = () => {
         <GameScene
           title={scene.title}
           text={scene.text}
-          choices={scene.choices}
+          choices={shuffledChoices}
           isFinal={scene.isFinal}
           onChoice={handleChoice}
           onComplete={handleReachEnd}
