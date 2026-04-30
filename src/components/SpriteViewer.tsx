@@ -24,6 +24,7 @@ import { josephBrothersEgyptSprites } from "@/data/stories/josephBrothersEgyptSp
 import { josephReconcilesSprites } from "@/data/stories/josephReconcilesSprites";
 import { birthMosesSprites } from "@/data/stories/birthMosesSprites";
 import { mosesFleesSprites } from "@/data/stories/mosesFleesSprites";
+import { burningBushSprites } from "@/data/stories/burningBushSprites";
 
 interface SpriteEntry {
   story: string;
@@ -55,6 +56,7 @@ const STORY_LABELS: Record<string, string> = {
   "joseph-reconciles": "Joseph Reconciles with His Brothers",
   "birth-moses": "Birth of Moses",
   "moses-flees": "Moses Flees Egypt",
+  "burning-bush": "The Burning Bush",
 };
 
 const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; right?: string }>> = {

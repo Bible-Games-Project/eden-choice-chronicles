@@ -97,6 +97,10 @@ import { mosesFleesScenes } from "@/data/stories/mosesFlees";
 import { mosesFleesImages } from "@/data/stories/mosesFleesImages";
 import { mosesFleesSprites } from "@/data/stories/mosesFleesSprites";
 import { mosesFleesEffects } from "@/data/stories/mosesFleesEffects";
+import { burningBushScenes } from "@/data/stories/burningBush";
+import { burningBushImages } from "@/data/stories/burningBushImages";
+import { burningBushSprites } from "@/data/stories/burningBushSprites";
+import { burningBushEffects } from "@/data/stories/burningBushEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -124,6 +128,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "joseph-reconciles": josephReconcilesScenes,
   "birth-moses": birthMosesScenes,
   "moses-flees": mosesFleesScenes,
+  "burning-bush": burningBushScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -148,6 +153,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "joseph-reconciles": josephReconcilesImages,
   "birth-moses": birthMosesImages,
   "moses-flees": mosesFleesImages,
+  "burning-bush": burningBushImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -172,6 +178,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "joseph-reconciles": josephReconcilesSprites,
   "birth-moses": birthMosesSprites,
   "moses-flees": mosesFleesSprites,
+  "burning-bush": burningBushSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -196,6 +203,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "joseph-reconciles": josephReconcilesEffects,
   "birth-moses": birthMosesEffects,
   "moses-flees": mosesFleesEffects,
+  "burning-bush": burningBushEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
