@@ -7,6 +7,7 @@ import StoryEndScreen from "@/components/StoryEndScreen";
 import SceneSelector from "@/components/SceneSelector";
 import SpriteViewer from "@/components/SpriteViewer";
 import { useGameProgress } from "@/hooks/useGameProgress";
+import { shuffleChoices } from "@/lib/shuffleChoices";
 import { useDevMode } from "@/hooks/useDevMode";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
 import { creationScenes, StoryChoice, StoryScene } from "@/data/stories/creation";
