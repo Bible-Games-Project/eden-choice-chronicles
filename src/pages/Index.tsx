@@ -7,6 +7,7 @@ import StoryEndScreen from "@/components/StoryEndScreen";
 import SceneSelector from "@/components/SceneSelector";
 import SpriteViewer from "@/components/SpriteViewer";
 import { useGameProgress } from "@/hooks/useGameProgress";
+import { shuffleChoices } from "@/lib/shuffleChoices";
 import { useDevMode } from "@/hooks/useDevMode";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
 import { creationScenes, StoryChoice, StoryScene } from "@/data/stories/creation";
@@ -402,6 +403,10 @@ const Index = () => {
     const images = storyImageRegistry[currentStory.id];
     const sprites = storySpriteRegistry[currentStory.id]?.[currentSceneId];
     const sceneEffect = storyEffectRegistry[currentStory.id]?.[currentSceneId] as any;
+    const shuffledChoices = shuffleChoices(
+      scene.choices,
+      `${currentStory.id}:${currentSceneId}:${stepCount}`,
+    );
 
     return (
       <motion.div
@@ -413,7 +418,7 @@ const Index = () => {
         <GameScene
           title={scene.title}
           text={scene.text}
-          choices={scene.choices}
+          choices={shuffledChoices}
           isFinal={scene.isFinal}
           onChoice={handleChoice}
           onComplete={handleReachEnd}
