@@ -402,6 +402,10 @@ const Index = () => {
     const images = storyImageRegistry[currentStory.id];
     const sprites = storySpriteRegistry[currentStory.id]?.[currentSceneId];
     const sceneEffect = storyEffectRegistry[currentStory.id]?.[currentSceneId] as any;
+    const shuffledChoices = shuffleChoices(
+      scene.choices,
+      `${currentStory.id}:${currentSceneId}:${stepCount}`,
+    );
 
     return (
       <motion.div
