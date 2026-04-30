@@ -82,6 +82,7 @@ const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; righ
   "joseph-reconciles": josephReconcilesSprites,
   "birth-moses": birthMosesSprites,
   "moses-flees": mosesFleesSprites,
+  "burning-bush": burningBushSprites,
 };
 
 function buildSpriteList(): SpriteEntry[] {
