@@ -40,8 +40,6 @@ const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false }: GameSceneProps) => {
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
-  const [clickedSentiment, setClickedSentiment] = useState<ChoiceSentiment | null>(null);
-  const [atmosphereShift, setAtmosphereShift] = useState(0);
   const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
   const [buttonsReady, setButtonsReady] = useState<boolean[]>([]);
   const [finalButtonVisible, setFinalButtonVisible] = useState(false);
@@ -49,7 +47,6 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
   useEffect(() => {
     setClickedIndex(null);
-    setClickedSentiment(null);
     setButtonsVisible(choices.map(() => false));
     setButtonsReady(choices.map(() => false));
     setFinalButtonVisible(false);
@@ -102,13 +99,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     // CORE RULE: color is determined ONLY by the clicked choice's explicit correctness.
     // isCorrect true => correct (GREEN), isCorrect false/absent => incorrect (RED).
     const isCorrect = isChoiceCorrect(choice);
-    const sentiment: ChoiceSentiment = isCorrect ? "positive" : "negative";
 
     setClickedIndex(index);
-    setClickedSentiment(sentiment);
-
-    const shift = isCorrect ? 0.12 : -0.15;
-    setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
 
     onChoice(choice);
   }, [clickedIndex, isTransitioning, onChoice]);
