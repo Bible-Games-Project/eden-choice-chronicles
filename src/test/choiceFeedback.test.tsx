@@ -108,12 +108,16 @@ describe("clicked answer feedback", () => {
     renderChoiceScene(choices);
     act(() => vi.advanceTimersByTime(4_000));
 
-    const clicked = screen.getByRole("button", { name: "Correct second" });
+    const clicked = screen.getAllByRole("button", { name: "Correct second" })[0];
     fireEvent.click(clicked);
 
     await waitFor(() => expect(clicked).toHaveStyle({ backgroundColor: GREEN_BG }));
-    expect(screen.getByRole("button", { name: "Wrong first" })).not.toHaveStyle({ backgroundColor: RED_BG });
-    expect(screen.getByRole("button", { name: "Wrong third" })).not.toHaveStyle({ backgroundColor: RED_BG });
+    screen.getAllByRole("button", { name: "Wrong first" }).forEach((button) => {
+      expect(button).not.toHaveStyle({ backgroundColor: RED_BG });
+    });
+    screen.getAllByRole("button", { name: "Wrong third" }).forEach((button) => {
+      expect(button).not.toHaveStyle({ backgroundColor: RED_BG });
+    });
   });
 
   it("turns the clicked incorrect button red regardless of position", async () => {
@@ -127,11 +131,15 @@ describe("clicked answer feedback", () => {
     renderChoiceScene(choices);
     act(() => vi.advanceTimersByTime(4_000));
 
-    const clicked = screen.getByRole("button", { name: "Wrong second" });
+    const clicked = screen.getAllByRole("button", { name: "Wrong second" })[0];
     fireEvent.click(clicked);
 
     await waitFor(() => expect(clicked).toHaveStyle({ backgroundColor: RED_BG }));
-    expect(screen.getByRole("button", { name: "Correct first" })).not.toHaveStyle({ backgroundColor: GREEN_BG });
-    expect(screen.getByRole("button", { name: "Correct third" })).not.toHaveStyle({ backgroundColor: GREEN_BG });
+    screen.getAllByRole("button", { name: "Correct first" }).forEach((button) => {
+      expect(button).not.toHaveStyle({ backgroundColor: GREEN_BG });
+    });
+    screen.getAllByRole("button", { name: "Correct third" }).forEach((button) => {
+      expect(button).not.toHaveStyle({ backgroundColor: GREEN_BG });
+    });
   });
 });
