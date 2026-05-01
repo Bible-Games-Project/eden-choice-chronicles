@@ -1,6 +1,5 @@
-import { render, screen, waitFor } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
-import { describe, expect, it } from "vitest";
+import { act, fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import GameScene from "@/components/GameScene";
 import { shuffleChoices } from "@/lib/shuffleChoices";
 import { StoryChoice } from "@/data/stories/creation";
@@ -81,6 +80,10 @@ describe("answer correctness flags", () => {
 });
 
 describe("clicked answer feedback", () => {
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
   const renderChoiceScene = (choices: StoryChoice[]) => {
     render(
       <GameScene
@@ -95,7 +98,6 @@ describe("clicked answer feedback", () => {
   };
 
   it("turns the clicked correct button green regardless of position", async () => {
-    const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime });
     const choices: StoryChoice[] = [
       { text: "Wrong first", nextScene: "x", isCorrect: false, sentiment: "negative" },
       { text: "Correct second", nextScene: "x", isCorrect: true, sentiment: "positive" },
@@ -104,19 +106,17 @@ describe("clicked answer feedback", () => {
 
     vi.useFakeTimers();
     renderChoiceScene(choices);
-    vi.advanceTimersByTime(4_000);
+    act(() => vi.advanceTimersByTime(4_000));
 
     const clicked = screen.getByRole("button", { name: "Correct second" });
-    await user.click(clicked);
+    fireEvent.click(clicked);
 
     await waitFor(() => expect(clicked).toHaveStyle({ backgroundColor: GREEN_BG }));
     expect(screen.getByRole("button", { name: "Wrong first" })).not.toHaveStyle({ backgroundColor: RED_BG });
     expect(screen.getByRole("button", { name: "Wrong third" })).not.toHaveStyle({ backgroundColor: RED_BG });
-    vi.useRealTimers();
   });
 
   it("turns the clicked incorrect button red regardless of position", async () => {
-    const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime });
     const choices: StoryChoice[] = [
       { text: "Correct first", nextScene: "x", isCorrect: true, sentiment: "positive" },
       { text: "Wrong second", nextScene: "x", isCorrect: false, sentiment: "negative" },
@@ -125,14 +125,13 @@ describe("clicked answer feedback", () => {
 
     vi.useFakeTimers();
     renderChoiceScene(choices);
-    vi.advanceTimersByTime(4_000);
+    act(() => vi.advanceTimersByTime(4_000));
 
     const clicked = screen.getByRole("button", { name: "Wrong second" });
-    await user.click(clicked);
+    fireEvent.click(clicked);
 
     await waitFor(() => expect(clicked).toHaveStyle({ backgroundColor: RED_BG }));
     expect(screen.getByRole("button", { name: "Correct first" })).not.toHaveStyle({ backgroundColor: GREEN_BG });
     expect(screen.getByRole("button", { name: "Correct third" })).not.toHaveStyle({ backgroundColor: GREEN_BG });
-    vi.useRealTimers();
   });
 });
