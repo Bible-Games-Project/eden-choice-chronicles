@@ -1,4 +1,4 @@
-import { act, fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { act, fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import GameScene from "@/components/GameScene";
 import { shuffleChoices } from "@/lib/shuffleChoices";
@@ -109,9 +109,9 @@ describe("clicked answer feedback", () => {
     act(() => vi.advanceTimersByTime(4_000));
 
     const clicked = screen.getAllByRole("button", { name: "Correct second" })[0];
-    fireEvent.click(clicked);
+    act(() => fireEvent.click(clicked));
 
-    await waitFor(() => expect(clicked).toHaveStyle({ backgroundColor: GREEN_BG }));
+    expect(clicked).toHaveStyle({ backgroundColor: GREEN_BG });
     screen.getAllByRole("button", { name: "Wrong first" }).forEach((button) => {
       expect(button).not.toHaveStyle({ backgroundColor: RED_BG });
     });
@@ -132,9 +132,9 @@ describe("clicked answer feedback", () => {
     act(() => vi.advanceTimersByTime(4_000));
 
     const clicked = screen.getAllByRole("button", { name: "Wrong second" })[0];
-    fireEvent.click(clicked);
+    act(() => fireEvent.click(clicked));
 
-    await waitFor(() => expect(clicked).toHaveStyle({ backgroundColor: RED_BG }));
+    expect(clicked).toHaveStyle({ backgroundColor: RED_BG });
     screen.getAllByRole("button", { name: "Correct first" }).forEach((button) => {
       expect(button).not.toHaveStyle({ backgroundColor: GREEN_BG });
     });
