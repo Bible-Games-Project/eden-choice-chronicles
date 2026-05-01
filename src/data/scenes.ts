@@ -2,6 +2,7 @@ export interface Choice {
   text: string;
   nextScene: string;
   tag?: string;
+  isCorrect: boolean;
 }
 
 export interface Scene {
@@ -18,9 +19,9 @@ export const scenes: Record<string, Scene> = {
     title: "The Garden of Eden",
     text: "You open your eyes.\nEverything is golden, warm, alive.",
     choices: [
-      { text: "Approach the animals", nextScene: "animals", tag: "curious" },
-      { text: "Follow the sound of water", nextScene: "river", tag: "explorer" },
-      { text: "Be still. Just breathe.", nextScene: "meditation", tag: "contemplative" },
+      { text: "Approach the animals", isCorrect: true, nextScene: "animals", tag: "curious" },
+      { text: "Follow the sound of water", isCorrect: false, nextScene: "river", tag: "explorer" },
+      { text: "Be still. Just breathe.", isCorrect: false, nextScene: "meditation", tag: "contemplative" },
     ],
   },
   animals: {
@@ -28,9 +29,9 @@ export const scenes: Record<string, Scene> = {
     title: "Among the Creatures",
     text: "A lion breathes warmth into your hand.\nIt does not fear you.",
     choices: [
-      { text: "Give them names", nextScene: "naming", tag: "steward" },
-      { text: "Play with them", nextScene: "play", tag: "joyful" },
-      { text: "Walk deeper into the garden", nextScene: "flowers", tag: "wanderer" },
+      { text: "Give them names", isCorrect: true, nextScene: "naming", tag: "steward" },
+      { text: "Play with them", isCorrect: true, nextScene: "play", tag: "joyful" },
+      { text: "Walk deeper into the garden", isCorrect: false, nextScene: "flowers", tag: "wanderer" },
     ],
   },
   river: {
@@ -38,9 +39,9 @@ export const scenes: Record<string, Scene> = {
     title: "The River of Life",
     text: "Crystal water splits into four streams.\nThe river hums beneath your feet.",
     choices: [
-      { text: "Swim toward the flowers", nextScene: "flowers", tag: "adventurous" },
-      { text: "Follow the river upstream", nextScene: "upstream", tag: "seeker" },
-      { text: "Rest and listen", nextScene: "meditation_river", tag: "peaceful" },
+      { text: "Swim toward the flowers", isCorrect: true, nextScene: "flowers", tag: "adventurous" },
+      { text: "Follow the river upstream", isCorrect: false, nextScene: "upstream", tag: "seeker" },
+      { text: "Rest and listen", isCorrect: false, nextScene: "meditation_river", tag: "peaceful" },
     ],
   },
   meditation: {
@@ -48,9 +49,9 @@ export const scenes: Record<string, Scene> = {
     title: "Stillness",
     text: "You close your eyes.\nA presence settles — vast and tender.",
     choices: [
-      { text: "Seek the animals", nextScene: "animals", tag: "connected" },
-      { text: "Wander toward the flowers", nextScene: "flowers", tag: "inspired" },
-      { text: "Go deeper into the garden", nextScene: "deep_garden", tag: "bold" },
+      { text: "Seek the animals", isCorrect: true, nextScene: "animals", tag: "connected" },
+      { text: "Wander toward the flowers", isCorrect: false, nextScene: "flowers", tag: "inspired" },
+      { text: "Go deeper into the garden", isCorrect: false, nextScene: "deep_garden", tag: "bold" },
     ],
   },
   naming: {
@@ -58,8 +59,8 @@ export const scenes: Record<string, Scene> = {
     title: "The Gift of Names",
     text: "Every creature comes in pairs.\nYou are the only one alone.",
     choices: [
-      { text: "Walk through the loneliness", nextScene: "deep_garden", tag: "lonely" },
-      { text: "Sit among the flowers", nextScene: "flowers", tag: "reflective" },
+      { text: "Walk through the loneliness", isCorrect: false, nextScene: "deep_garden", tag: "lonely" },
+      { text: "Sit among the flowers", isCorrect: true, nextScene: "flowers", tag: "reflective" },
     ],
   },
   play: {
@@ -67,8 +68,8 @@ export const scenes: Record<string, Scene> = {
     title: "Innocent Joy",
     text: "You laugh — the first laughter ever.\nIt rings through paradise like a bell.",
     choices: [
-      { text: "Chase a butterfly deeper", nextScene: "deep_garden", tag: "carefree" },
-      { text: "Follow the scent of flowers", nextScene: "flowers", tag: "drawn" },
+      { text: "Chase a butterfly deeper", isCorrect: false, nextScene: "deep_garden", tag: "carefree" },
+      { text: "Follow the scent of flowers", isCorrect: true, nextScene: "flowers", tag: "drawn" },
     ],
   },
   flowers: {
@@ -76,9 +77,9 @@ export const scenes: Record<string, Scene> = {
     title: "The Meadow of Colors",
     text: "Roses dark as night. Orchids that shift color.\nA faint path leads between ancient trees.",
     choices: [
-      { text: "Weave a garland", nextScene: "garland", tag: "tender" },
-      { text: "Follow the path", nextScene: "approach_tree", tag: "curious_path" },
-      { text: "Lie down and gaze at the sky", nextScene: "sky_gaze", tag: "dreamer" },
+      { text: "Weave a garland", isCorrect: false, nextScene: "garland", tag: "tender" },
+      { text: "Follow the path", isCorrect: false, nextScene: "approach_tree", tag: "curious_path" },
+      { text: "Lie down and gaze at the sky", isCorrect: true, nextScene: "sky_gaze", tag: "dreamer" },
     ],
   },
   upstream: {
@@ -86,8 +87,8 @@ export const scenes: Record<string, Scene> = {
     title: "The Source",
     text: "The river springs from living rock.\nTiny rainbows dance in the mist.",
     choices: [
-      { text: "Descend toward the center", nextScene: "approach_tree", tag: "drawn_center" },
-      { text: "Return to the flowers", nextScene: "flowers", tag: "returning" },
+      { text: "Descend toward the center", isCorrect: false, nextScene: "approach_tree", tag: "drawn_center" },
+      { text: "Return to the flowers", isCorrect: true, nextScene: "flowers", tag: "returning" },
     ],
   },
   meditation_river: {
@@ -95,8 +96,8 @@ export const scenes: Record<string, Scene> = {
     title: "Peace by the Water",
     text: "Time dissolves.\nSomething calls from the heart of the garden.",
     choices: [
-      { text: "Answer the call", nextScene: "deep_garden", tag: "called" },
-      { text: "Visit the animals", nextScene: "animals", tag: "caring" },
+      { text: "Answer the call", isCorrect: false, nextScene: "deep_garden", tag: "called" },
+      { text: "Visit the animals", isCorrect: true, nextScene: "animals", tag: "caring" },
     ],
   },
   deep_garden: {
@@ -104,9 +105,9 @@ export const scenes: Record<string, Scene> = {
     title: "The Heart of Eden",
     text: "Two trees stand apart from all others.\nOne blazes with life. The other is dark and beautiful.",
     choices: [
-      { text: "Approach the Tree of Life", nextScene: "tree_of_life", tag: "wise" },
-      { text: "Approach the dark tree", nextScene: "forbidden_tree", tag: "tempted" },
-      { text: "Rest beneath a fig tree", nextScene: "fig_rest", tag: "cautious" },
+      { text: "Approach the Tree of Life", isCorrect: true, nextScene: "tree_of_life", tag: "wise" },
+      { text: "Approach the dark tree", isCorrect: false, nextScene: "forbidden_tree", tag: "tempted" },
+      { text: "Rest beneath a fig tree", isCorrect: false, nextScene: "fig_rest", tag: "cautious" },
     ],
   },
   garland: {
@@ -114,8 +115,8 @@ export const scenes: Record<string, Scene> = {
     title: "A Crown of Flowers",
     text: "You weave roses and jasmine.\nWho would wear it? There is no one else.",
     choices: [
-      { text: "Walk toward the center", nextScene: "deep_garden", tag: "yearning" },
-      { text: "Keep exploring", nextScene: "upstream", tag: "restless" },
+      { text: "Walk toward the center", isCorrect: false, nextScene: "deep_garden", tag: "yearning" },
+      { text: "Keep exploring", isCorrect: true, nextScene: "upstream", tag: "restless" },
     ],
   },
   sky_gaze: {
@@ -123,8 +124,8 @@ export const scenes: Record<string, Scene> = {
     title: "The Heavens Above",
     text: "Stars open like eyes.\nYou feel impossibly small. Impossibly loved.",
     choices: [
-      { text: "Follow the pull toward the center", nextScene: "deep_garden", tag: "destined" },
-      { text: "Walk toward an ancient path", nextScene: "approach_tree", tag: "night_walker" },
+      { text: "Follow the pull toward the center", isCorrect: false, nextScene: "deep_garden", tag: "destined" },
+      { text: "Walk toward an ancient path", isCorrect: true, nextScene: "approach_tree", tag: "night_walker" },
     ],
   },
   tree_of_life: {
@@ -132,8 +133,8 @@ export const scenes: Record<string, Scene> = {
     title: "The Tree of Life",
     text: "Its fruit tastes like sunlight.\nBut your eyes drift to the other tree.",
     choices: [
-      { text: "Turn away", nextScene: "approach_tree", tag: "resistant" },
-      { text: "Step toward it", nextScene: "forbidden_tree", tag: "falling" },
+      { text: "Turn away", isCorrect: true, nextScene: "approach_tree", tag: "resistant" },
+      { text: "Step toward it", isCorrect: false, nextScene: "forbidden_tree", tag: "falling" },
     ],
   },
   fig_rest: {
@@ -141,8 +142,8 @@ export const scenes: Record<string, Scene> = {
     title: "Beneath the Fig Tree",
     text: "A serpent watches from the dark tree.\nIts ancient eyes seem to know you.",
     choices: [
-      { text: "Ignore it", nextScene: "approach_tree", tag: "wary" },
-      { text: "Approach the serpent's tree", nextScene: "forbidden_tree", tag: "curious_serpent" },
+      { text: "Ignore it", isCorrect: true, nextScene: "approach_tree", tag: "wary" },
+      { text: "Approach the serpent's tree", isCorrect: false, nextScene: "forbidden_tree", tag: "curious_serpent" },
     ],
   },
   approach_tree: {
@@ -150,8 +151,8 @@ export const scenes: Record<string, Scene> = {
     title: "The Path Narrows",
     text: "The air grows heavy. Too sweet.\nA whisper drifts from the shadows.",
     choices: [
-      { text: "Listen to the whisper", nextScene: "forbidden_tree", tag: "listening" },
-      { text: "Try to turn back", nextScene: "forbidden_tree", tag: "reluctant" },
+      { text: "Listen to the whisper", isCorrect: false, nextScene: "forbidden_tree", tag: "listening" },
+      { text: "Try to turn back", isCorrect: false, nextScene: "forbidden_tree", tag: "reluctant" },
     ],
   },
   forbidden_tree: {
@@ -159,8 +160,8 @@ export const scenes: Record<string, Scene> = {
     title: "The Forbidden Tree",
     text: "The fruit touches your lips.\nSweetness. Bitterness. You know.",
     choices: [
-      { text: "Offer it to Eve", nextScene: "share_eve", tag: "shared" },
-      { text: "Try to hide what you've done", nextScene: "hide", tag: "ashamed" },
+      { text: "Offer it to Eve", isCorrect: false, nextScene: "share_eve", tag: "shared" },
+      { text: "Try to hide what you've done", isCorrect: false, nextScene: "hide", tag: "ashamed" },
     ],
   },
   share_eve: {
@@ -168,7 +169,7 @@ export const scenes: Record<string, Scene> = {
     title: "The Sharing",
     text: "\"Taste it,\" you whisper. She does.\nThe light in her eyes dies.",
     choices: [
-      { text: "Continue...", nextScene: "expulsion", tag: "together" },
+      { text: "Continue...", isCorrect: false, nextScene: "expulsion", tag: "together" },
     ],
   },
   hide: {
@@ -176,7 +177,7 @@ export const scenes: Record<string, Scene> = {
     title: "Hiding from God",
     text: "You grab fig leaves. You hide.\nBut Eve finds you — and eats.",
     choices: [
-      { text: "Continue...", nextScene: "expulsion", tag: "hiding" },
+      { text: "Continue...", isCorrect: false, nextScene: "expulsion", tag: "hiding" },
     ],
   },
   expulsion: {
