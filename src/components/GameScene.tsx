@@ -36,10 +36,10 @@ const FINAL_BUTTON_DELAY = STAGGER_DELAYS[0] ?? 2.5;
 const getStaggerDelay = (index: number) =>
   STAGGER_DELAYS[index] ?? STAGGER_DELAYS[STAGGER_DELAYS.length - 1];
 
+const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
+
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false }: GameSceneProps) => {
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
-  const [clickedSentiment, setClickedSentiment] = useState<ChoiceSentiment | null>(null);
-  const [atmosphereShift, setAtmosphereShift] = useState(0);
   const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
   const [buttonsReady, setButtonsReady] = useState<boolean[]>([]);
   const [finalButtonVisible, setFinalButtonVisible] = useState(false);
@@ -47,7 +47,6 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
   useEffect(() => {
     setClickedIndex(null);
-    setClickedSentiment(null);
     setButtonsVisible(choices.map(() => false));
     setButtonsReady(choices.map(() => false));
     setFinalButtonVisible(false);
@@ -97,16 +96,9 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
 
-    // CORE RULE: color is determined ONLY by the clicked choice's own correctness.
-    // sentiment "positive" => correct (GREEN), anything else => incorrect (RED).
-    const isCorrect = choice.sentiment === "positive";
-    const sentiment: ChoiceSentiment = isCorrect ? "positive" : "negative";
-
+    // CORE RULE: color is determined ONLY by the clicked choice's explicit correctness.
+    // isCorrect true => correct (GREEN), isCorrect false/absent => incorrect (RED).
     setClickedIndex(index);
-    setClickedSentiment(sentiment);
-
-    const shift = isCorrect ? 0.12 : -0.15;
-    setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
 
     onChoice(choice);
   }, [clickedIndex, isTransitioning, onChoice]);
@@ -153,8 +145,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
           {choices.map((choice, i) => {
             const isClicked = clickedIndex === i;
-            // Derive color from the CLICKED choice's own correctness — never from index/position.
-            const clickedIsCorrect = isClicked && choice.sentiment === "positive";
+            // Derive color from the CLICKED choice's explicit correctness — never from index/position.
+            const clickedIsCorrect = isClicked && isChoiceCorrect(choice);
             const clickedSent: ChoiceSentiment | null = isClicked
               ? (clickedIsCorrect ? "positive" : "negative")
               : null;
@@ -279,37 +271,6 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
         {/* Environmental effects */}
         {sceneEffect && <SceneEffects effect={sceneEffect} />}
-
-        {/* Atmosphere overlay */}
-        <motion.div
-          className="absolute inset-0 pointer-events-none z-10"
-          animate={{
-            backgroundColor: atmosphereShift > 0
-              ? `rgba(255, 220, 120, ${Math.min(atmosphereShift * 0.15, 0.15)})`
-              : atmosphereShift < 0
-              ? `rgba(30, 20, 50, ${Math.min(Math.abs(atmosphereShift) * 0.2, 0.2)})`
-              : "rgba(0,0,0,0)",
-          }}
-          transition={{ duration: 1.2, ease: "easeInOut" }}
-        />
-
-        {/* Flash overlay on choice */}
-        {clickedSentiment && (
-          <motion.div
-            key="flash"
-            className="absolute inset-0 pointer-events-none z-10"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.4 }}
-            style={{
-              backgroundColor: clickedSentiment === "positive"
-                ? "rgba(180, 255, 180, 0.08)"
-                : clickedSentiment === "negative"
-                ? "rgba(80, 20, 20, 0.1)"
-                : "rgba(255, 240, 180, 0.06)",
-            }}
-          />
-        )}
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
