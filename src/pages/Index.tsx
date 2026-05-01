@@ -210,6 +210,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
 const SCENE_TRANSITION_FADE_MS = 500;
 const SCENE_TRANSITION_HOLD_MS = 100;
 const SCENE_FEEDBACK_DELAY_MS = 150;
+const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 
 const Index = () => {
   const [screen, setScreen] = useState<Screen>("menu");
@@ -293,9 +294,9 @@ const Index = () => {
     transitionLock.current = true;
     setIsSceneTransitioning(true);
 
-    // Track correctness — sentiment "negative" = non-biblical
+    // Track correctness from the explicit answer flag only.
     setTotalChoices((c) => c + 1);
-    if (choice.sentiment === "negative") setWrongChoices((w) => w + 1);
+    if (!isChoiceCorrect(choice)) setWrongChoices((w) => w + 1);
 
     void (async () => {
       await wait(SCENE_FEEDBACK_DELAY_MS);
