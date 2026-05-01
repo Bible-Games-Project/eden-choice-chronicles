@@ -6,9 +6,9 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "East of Eden",
     text: "The ground is hard beneath your hands.\nYou till the earth — it resists you.",
     choices: [
-      { text: "Dig harder", nextScene: "toil", tag: "determined", feedback: "Your hands bleed. The soil gives — barely.", sentiment: "positive" },
-      { text: "Look at Abel in the distance", nextScene: "watch_abel", tag: "observant", feedback: "He sits among the lambs, laughing. It comes so easily to him.", sentiment: "negative" },
-      { text: "Pause and wipe the sweat away", nextScene: "rest", tag: "weary", feedback: "Your muscles ache. The sun is merciless.", sentiment: "negative" },
+      { text: "Dig harder", nextScene: "toil", tag: "determined", feedback: "Your hands bleed. The soil gives — barely.", isCorrect: true, sentiment: "positive" },
+      { text: "Look at Abel in the distance", nextScene: "watch_abel", tag: "observant", feedback: "He sits among the lambs, laughing. It comes so easily to him.", isCorrect: false, sentiment: "negative" },
+      { text: "Pause and wipe the sweat away", nextScene: "rest", tag: "weary", feedback: "Your muscles ache. The sun is merciless.", isCorrect: false, sentiment: "negative" },
     ],
   },
   toil: {
@@ -16,8 +16,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "The Stubborn Earth",
     text: "You pull weeds until your fingers crack.\nThe harvest will come — it must.",
     choices: [
-      { text: "Gather your best crops", nextScene: "offering_proud", tag: "proud", feedback: "You select the tallest stalks. They should be enough.", sentiment: "positive" },
-      { text: "Grab whatever is nearest", nextScene: "offering_careless", tag: "careless", feedback: "It doesn't matter. An offering is an offering.", sentiment: "negative" },
+      { text: "Gather your best crops", nextScene: "offering_proud", tag: "proud", feedback: "You select the tallest stalks. They should be enough.", isCorrect: true, sentiment: "positive" },
+      { text: "Grab whatever is nearest", nextScene: "offering_careless", tag: "careless", feedback: "It doesn't matter. An offering is an offering.", isCorrect: false, sentiment: "negative" },
     ],
   },
   watch_abel: {
@@ -25,8 +25,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "Your Brother",
     text: "Abel kneels beside a newborn lamb.\nHis hands are gentle. His face — peaceful.",
     choices: [
-      { text: "Call out to him", nextScene: "brothers_talk", tag: "reaching", feedback: "He waves back, smiling. The distance feels wider than it looks.", sentiment: "positive" },
-      { text: "Turn back to your work", nextScene: "toil", tag: "resentful", feedback: "You grip the hoe tighter. You don't need his peace.", sentiment: "negative" },
+      { text: "Call out to him", nextScene: "brothers_talk", tag: "reaching", feedback: "He waves back, smiling. The distance feels wider than it looks.", isCorrect: true, sentiment: "positive" },
+      { text: "Turn back to your work", nextScene: "toil", tag: "resentful", feedback: "You grip the hoe tighter. You don't need his peace.", isCorrect: false, sentiment: "negative" },
     ],
   },
   rest: {
@@ -34,8 +34,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "A Moment's Rest",
     text: "You sit on a stone and stare at the horizon.\nEden's gate still glows — far away, unreachable.",
     choices: [
-      { text: "Think about the offering", nextScene: "offering_proud", tag: "dutiful", feedback: "God will see your effort. He must.", sentiment: "positive" },
-      { text: "Watch Abel tend his flock", nextScene: "watch_abel", tag: "lonely", feedback: "He hums a song you almost remember.", sentiment: "negative" },
+      { text: "Think about the offering", nextScene: "offering_proud", tag: "dutiful", feedback: "God will see your effort. He must.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch Abel tend his flock", nextScene: "watch_abel", tag: "lonely", feedback: "He hums a song you almost remember.", isCorrect: false, sentiment: "negative" },
     ],
   },
   brothers_talk: {
@@ -43,8 +43,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "Brothers",
     text: "Abel sits beside you. \"The lambs are growing strong.\"\nHis joy is honest. It stings.",
     choices: [
-      { text: "\"My crops are growing too.\"", nextScene: "offering_proud", tag: "competitive", feedback: "He nods. But you hear the doubt in your own voice.", sentiment: "positive" },
-      { text: "Stay silent", nextScene: "offering_careless", tag: "withdrawn", feedback: "Words stick in your throat. You say nothing.", sentiment: "negative" },
+      { text: "\"My crops are growing too.\"", nextScene: "offering_proud", tag: "competitive", feedback: "He nods. But you hear the doubt in your own voice.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay silent", nextScene: "offering_careless", tag: "withdrawn", feedback: "Words stick in your throat. You say nothing.", isCorrect: false, sentiment: "negative" },
     ],
   },
   offering_proud: {
@@ -52,8 +52,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "Your Offering",
     text: "You lay grain and fruit before the altar.\nYou step back and wait.",
     choices: [
-      { text: "Watch the smoke rise", nextScene: "god_responds", tag: "hopeful", feedback: "The smoke drifts sideways — thin, uncertain.", sentiment: "positive" },
-      { text: "Glance at Abel's offering", nextScene: "god_responds", tag: "comparing", feedback: "His lamb burns bright. The smoke climbs straight to heaven.", sentiment: "negative" },
+      { text: "Watch the smoke rise", nextScene: "god_responds", tag: "hopeful", feedback: "The smoke drifts sideways — thin, uncertain.", isCorrect: true, sentiment: "positive" },
+      { text: "Glance at Abel's offering", nextScene: "god_responds", tag: "comparing", feedback: "His lamb burns bright. The smoke climbs straight to heaven.", isCorrect: false, sentiment: "negative" },
     ],
   },
   offering_careless: {
@@ -61,7 +61,7 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "A Hasty Gift",
     text: "You toss your harvest onto the stone.\nIt sits there — ordinary, small.",
     choices: [
-      { text: "Step back and wait", nextScene: "god_responds", tag: "indifferent", feedback: "The flames barely catch. The wind scatters ash.", sentiment: "negative" },
+      { text: "Step back and wait", nextScene: "god_responds", tag: "indifferent", feedback: "The flames barely catch. The wind scatters ash.", isCorrect: false, sentiment: "negative" },
     ],
   },
   god_responds: {
@@ -69,8 +69,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "The Answer",
     text: "Abel's offering burns with golden fire.\nYours lies cold. Untouched.",
     choices: [
-      { text: "Feel the heat rise inside you", nextScene: "anger_rises", tag: "burning", feedback: "Something dark coils tight in your chest.", sentiment: "negative" },
-      { text: "Try to understand", nextScene: "god_speaks", tag: "searching", feedback: "Why? You gave what you had. Wasn't it enough?", sentiment: "positive" },
+      { text: "Feel the heat rise inside you", nextScene: "anger_rises", tag: "burning", feedback: "Something dark coils tight in your chest.", isCorrect: false, sentiment: "negative" },
+      { text: "Try to understand", nextScene: "god_speaks", tag: "searching", feedback: "Why? You gave what you had. Wasn't it enough?", isCorrect: true, sentiment: "positive" },
     ],
   },
   anger_rises: {
@@ -78,8 +78,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "The Fire Within",
     text: "Your jaw tightens. Your fists clench.\nAbel smiles — he doesn't even notice.",
     choices: [
-      { text: "Storm away", nextScene: "god_speaks", tag: "furious", feedback: "You kick the dust. Your shadow stretches long and dark.", sentiment: "negative" },
-      { text: "Stare at the ground", nextScene: "god_speaks", tag: "simmering", feedback: "You swallow the poison. It doesn't go down.", sentiment: "negative" },
+      { text: "Storm away", nextScene: "god_speaks", tag: "furious", feedback: "You kick the dust. Your shadow stretches long and dark.", isCorrect: false, sentiment: "negative" },
+      { text: "Stare at the ground", nextScene: "god_speaks", tag: "simmering", feedback: "You swallow the poison. It doesn't go down.", isCorrect: false, sentiment: "negative" },
     ],
   },
   god_speaks: {
@@ -87,9 +87,9 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "A Voice",
     text: "\"Why are you angry?\"\nThe voice is everywhere — inside you, above you.",
     choices: [
-      { text: "\"It's not fair.\"", nextScene: "warning", tag: "defiant", feedback: "The words crack in your mouth like dry earth.", sentiment: "negative" },
-      { text: "Listen carefully", nextScene: "warning", tag: "trembling", feedback: "Your heart pounds. You know the voice.", sentiment: "positive" },
-      { text: "Turn away", nextScene: "the_field", tag: "deaf", feedback: "You walk. The voice fades behind you.", sentiment: "negative" },
+      { text: "\"It's not fair.\"", nextScene: "warning", tag: "defiant", feedback: "The words crack in your mouth like dry earth.", isCorrect: false, sentiment: "negative" },
+      { text: "Listen carefully", nextScene: "warning", tag: "trembling", feedback: "Your heart pounds. You know the voice.", isCorrect: true, sentiment: "positive" },
+      { text: "Turn away", nextScene: "the_field", tag: "deaf", feedback: "You walk. The voice fades behind you.", isCorrect: false, sentiment: "negative" },
     ],
   },
   warning: {
@@ -97,8 +97,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "The Warning",
     text: "\"Sin crouches at your door.\"\nThe words settle like stones in your chest.",
     choices: [
-      { text: "\"I can master it.\"", nextScene: "the_field", tag: "proud", feedback: "Can you? Your hands are already shaking.", sentiment: "negative" },
-      { text: "Try to breathe", nextScene: "struggle", tag: "fighting", feedback: "You close your eyes. The anger is still there — waiting.", sentiment: "positive" },
+      { text: "\"I can master it.\"", nextScene: "the_field", tag: "proud", feedback: "Can you? Your hands are already shaking.", isCorrect: false, sentiment: "negative" },
+      { text: "Try to breathe", nextScene: "struggle", tag: "fighting", feedback: "You close your eyes. The anger is still there — waiting.", isCorrect: true, sentiment: "positive" },
     ],
   },
   struggle: {
@@ -106,8 +106,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "The Struggle",
     text: "You stand alone in the wind.\nTwo paths pull at you — mercy and rage.",
     choices: [
-      { text: "Seek Abel out", nextScene: "the_field", tag: "drawn", feedback: "Your feet carry you toward him. You don't know why.", sentiment: "negative" },
-      { text: "Walk away — far away", nextScene: "the_field", tag: "fleeing", feedback: "But his face is already in your mind. You can't escape it.", sentiment: "negative" },
+      { text: "Seek Abel out", nextScene: "the_field", tag: "drawn", feedback: "Your feet carry you toward him. You don't know why.", isCorrect: false, sentiment: "negative" },
+      { text: "Walk away — far away", nextScene: "the_field", tag: "fleeing", feedback: "But his face is already in your mind. You can't escape it.", isCorrect: false, sentiment: "negative" },
     ],
   },
   the_field: {
@@ -115,8 +115,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "The Field",
     text: "\"Come, let's walk together.\"\nAbel follows you into the open field.",
     choices: [
-      { text: "Raise your hand", nextScene: "the_act", tag: "fallen", feedback: "The shadow moves before you do.", sentiment: "negative" },
-      { text: "Try to speak", nextScene: "the_act", tag: "choking", feedback: "Words die in your throat. Something else takes over.", sentiment: "negative" },
+      { text: "Raise your hand", nextScene: "the_act", tag: "fallen", feedback: "The shadow moves before you do.", isCorrect: false, sentiment: "negative" },
+      { text: "Try to speak", nextScene: "the_act", tag: "choking", feedback: "Words die in your throat. Something else takes over.", isCorrect: false, sentiment: "negative" },
     ],
   },
   the_act: {
@@ -124,8 +124,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "Silence",
     text: "The field goes still.\nAbel lies before you. The sky darkens.",
     choices: [
-      { text: "Look at your hands", nextScene: "blood_cries", tag: "horror", feedback: "They are red. They won't stop shaking.", sentiment: "negative" },
-      { text: "Run", nextScene: "blood_cries", tag: "fleeing", feedback: "Where? There is nowhere far enough.", sentiment: "negative" },
+      { text: "Look at your hands", nextScene: "blood_cries", tag: "horror", feedback: "They are red. They won't stop shaking.", isCorrect: false, sentiment: "negative" },
+      { text: "Run", nextScene: "blood_cries", tag: "fleeing", feedback: "Where? There is nowhere far enough.", isCorrect: false, sentiment: "negative" },
     ],
   },
   blood_cries: {
@@ -133,8 +133,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "The Ground Speaks",
     text: "\"Where is your brother?\"\nThe earth itself screams beneath your feet.",
     choices: [
-      { text: "\"Am I my brother's keeper?\"", nextScene: "judgment", tag: "defiant", feedback: "The lie tastes like iron.", sentiment: "negative" },
-      { text: "Fall to your knees", nextScene: "judgment", tag: "broken", feedback: "Your legs give out. You cannot stand before this voice.", sentiment: "positive" },
+      { text: "\"Am I my brother's keeper?\"", nextScene: "judgment", tag: "defiant", feedback: "The lie tastes like iron.", isCorrect: false, sentiment: "negative" },
+      { text: "Fall to your knees", nextScene: "judgment", tag: "broken", feedback: "Your legs give out. You cannot stand before this voice.", isCorrect: true, sentiment: "positive" },
     ],
   },
   judgment: {
@@ -142,8 +142,8 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     title: "The Curse",
     text: "\"The ground will no longer yield for you.\"\nYou are marked. You are sent away.",
     choices: [
-      { text: "\"My punishment is too great.\"", nextScene: "wanderer", tag: "despairing", feedback: "The weight crushes you — but you still breathe.", sentiment: "negative" },
-      { text: "Accept it in silence", nextScene: "wanderer", tag: "resigned", feedback: "There are no words left. Only the road ahead.", sentiment: "positive" },
+      { text: "\"My punishment is too great.\"", nextScene: "wanderer", tag: "despairing", feedback: "The weight crushes you — but you still breathe.", isCorrect: false, sentiment: "negative" },
+      { text: "Accept it in silence", nextScene: "wanderer", tag: "resigned", feedback: "There are no words left. Only the road ahead.", isCorrect: true, sentiment: "positive" },
     ],
   },
   wanderer: {

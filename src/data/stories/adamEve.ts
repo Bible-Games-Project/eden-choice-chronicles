@@ -6,9 +6,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Garden of Eden",
     text: "You open your eyes.\nEverything is golden, warm, alive.",
     choices: [
-      { text: "Approach the animals", nextScene: "animals", tag: "curious", feedback: "They gather around you — trusting, unafraid.", sentiment: "positive" },
-      { text: "Follow the sound of water", nextScene: "river", tag: "explorer", feedback: "The current calls you forward — cool, inviting.", sentiment: "negative" },
-      { text: "Be still. Just breathe.", nextScene: "meditation", tag: "contemplative", feedback: "You inhale. The whole garden breathes with you.", sentiment: "negative" },
+      { text: "Approach the animals", nextScene: "animals", tag: "curious", feedback: "They gather around you — trusting, unafraid.", isCorrect: true, sentiment: "positive" },
+      { text: "Follow the sound of water", nextScene: "river", tag: "explorer", feedback: "The current calls you forward — cool, inviting.", isCorrect: false, sentiment: "negative" },
+      { text: "Be still. Just breathe.", nextScene: "meditation", tag: "contemplative", feedback: "You inhale. The whole garden breathes with you.", isCorrect: false, sentiment: "negative" },
     ],
   },
   animals: {
@@ -16,9 +16,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Among the Creatures",
     text: "A lion breathes warmth into your hand.\nIt does not fear you.",
     choices: [
-      { text: "Give them names", nextScene: "naming", tag: "steward", feedback: "Words form on your tongue — the first names ever spoken.", sentiment: "positive" },
-      { text: "Play with them", nextScene: "play", tag: "joyful", feedback: "You run, they follow — laughing without sound.", sentiment: "positive" },
-      { text: "Walk deeper into the garden", nextScene: "flowers", tag: "wanderer", feedback: "Something pulls you inward — past the trees, past the light.", sentiment: "negative" },
+      { text: "Give them names", nextScene: "naming", tag: "steward", feedback: "Words form on your tongue — the first names ever spoken.", isCorrect: true, sentiment: "positive" },
+      { text: "Play with them", nextScene: "play", tag: "joyful", feedback: "You run, they follow — laughing without sound.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk deeper into the garden", nextScene: "flowers", tag: "wanderer", feedback: "Something pulls you inward — past the trees, past the light.", isCorrect: false, sentiment: "negative" },
     ],
   },
   river: {
@@ -26,9 +26,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The River of Life",
     text: "Crystal water splits into four streams.\nThe river hums beneath your feet.",
     choices: [
-      { text: "Swim toward the flowers", nextScene: "flowers", tag: "adventurous", feedback: "You plunge in. The water holds you like a hymn.", sentiment: "positive" },
-      { text: "Follow the river upstream", nextScene: "upstream", tag: "seeker", feedback: "The current resists — but something glows ahead.", sentiment: "negative" },
-      { text: "Rest and listen", nextScene: "meditation_river", tag: "peaceful", feedback: "You sit. The river whispers secrets you almost understand.", sentiment: "negative" },
+      { text: "Swim toward the flowers", nextScene: "flowers", tag: "adventurous", feedback: "You plunge in. The water holds you like a hymn.", isCorrect: true, sentiment: "positive" },
+      { text: "Follow the river upstream", nextScene: "upstream", tag: "seeker", feedback: "The current resists — but something glows ahead.", isCorrect: false, sentiment: "negative" },
+      { text: "Rest and listen", nextScene: "meditation_river", tag: "peaceful", feedback: "You sit. The river whispers secrets you almost understand.", isCorrect: false, sentiment: "negative" },
     ],
   },
   meditation: {
@@ -36,9 +36,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Stillness",
     text: "You close your eyes.\nA presence settles — vast and tender.",
     choices: [
-      { text: "Seek the animals", nextScene: "animals", tag: "connected", feedback: "You hear them calling — soft, expectant.", sentiment: "positive" },
-      { text: "Wander toward the flowers", nextScene: "flowers", tag: "inspired", feedback: "Color catches your eye — impossible, beautiful.", sentiment: "negative" },
-      { text: "Go deeper into the garden", nextScene: "deep_garden", tag: "bold", feedback: "Your feet move on their own. The center pulls.", sentiment: "negative" },
+      { text: "Seek the animals", nextScene: "animals", tag: "connected", feedback: "You hear them calling — soft, expectant.", isCorrect: true, sentiment: "positive" },
+      { text: "Wander toward the flowers", nextScene: "flowers", tag: "inspired", feedback: "Color catches your eye — impossible, beautiful.", isCorrect: false, sentiment: "negative" },
+      { text: "Go deeper into the garden", nextScene: "deep_garden", tag: "bold", feedback: "Your feet move on their own. The center pulls.", isCorrect: false, sentiment: "negative" },
     ],
   },
   naming: {
@@ -46,8 +46,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Gift of Names",
     text: "Every creature comes in pairs.\nYou are the only one alone.",
     choices: [
-      { text: "Walk through the loneliness", nextScene: "deep_garden", tag: "lonely", feedback: "The ache sharpens. None of them can know you.", sentiment: "negative" },
-      { text: "Sit among the flowers", nextScene: "flowers", tag: "reflective", feedback: "You sit — surrounded by beauty, touched by sadness.", sentiment: "positive" },
+      { text: "Walk through the loneliness", nextScene: "deep_garden", tag: "lonely", feedback: "The ache sharpens. None of them can know you.", isCorrect: false, sentiment: "negative" },
+      { text: "Sit among the flowers", nextScene: "flowers", tag: "reflective", feedback: "You sit — surrounded by beauty, touched by sadness.", isCorrect: true, sentiment: "positive" },
     ],
   },
   play: {
@@ -55,8 +55,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Innocent Joy",
     text: "You laugh — the first laughter ever.\nIt rings through paradise like a bell.",
     choices: [
-      { text: "Chase a butterfly deeper", nextScene: "deep_garden", tag: "carefree", feedback: "Wings flash gold. You follow without thinking.", sentiment: "negative" },
-      { text: "Follow the scent of flowers", nextScene: "flowers", tag: "drawn", feedback: "Sweetness drifts toward you — heady, magnetic.", sentiment: "positive" },
+      { text: "Chase a butterfly deeper", nextScene: "deep_garden", tag: "carefree", feedback: "Wings flash gold. You follow without thinking.", isCorrect: false, sentiment: "negative" },
+      { text: "Follow the scent of flowers", nextScene: "flowers", tag: "drawn", feedback: "Sweetness drifts toward you — heady, magnetic.", isCorrect: true, sentiment: "positive" },
     ],
   },
   flowers: {
@@ -64,9 +64,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Meadow of Colors",
     text: "Roses dark as night. Orchids that shift color.\nA faint path leads between ancient trees.",
     choices: [
-      { text: "Weave a garland", nextScene: "garland", tag: "tender", feedback: "Your fingers work gently — who will wear it?", sentiment: "negative" },
-      { text: "Follow the path", nextScene: "approach_tree", tag: "curious_path", feedback: "The trees lean close. The air grows thick.", sentiment: "negative" },
-      { text: "Lie down and gaze at the sky", nextScene: "sky_gaze", tag: "dreamer", feedback: "Stars open above you — infinite, watching.", sentiment: "positive" },
+      { text: "Weave a garland", nextScene: "garland", tag: "tender", feedback: "Your fingers work gently — who will wear it?", isCorrect: false, sentiment: "negative" },
+      { text: "Follow the path", nextScene: "approach_tree", tag: "curious_path", feedback: "The trees lean close. The air grows thick.", isCorrect: false, sentiment: "negative" },
+      { text: "Lie down and gaze at the sky", nextScene: "sky_gaze", tag: "dreamer", feedback: "Stars open above you — infinite, watching.", isCorrect: true, sentiment: "positive" },
     ],
   },
   upstream: {
@@ -74,8 +74,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Source",
     text: "The river springs from living rock.\nTiny rainbows dance in the mist.",
     choices: [
-      { text: "Descend toward the center", nextScene: "approach_tree", tag: "drawn_center", feedback: "The garden's heart beats below. You feel it.", sentiment: "negative" },
-      { text: "Return to the flowers", nextScene: "flowers", tag: "returning", feedback: "You turn back. The flowers wait — patient, perfect.", sentiment: "positive" },
+      { text: "Descend toward the center", nextScene: "approach_tree", tag: "drawn_center", feedback: "The garden's heart beats below. You feel it.", isCorrect: false, sentiment: "negative" },
+      { text: "Return to the flowers", nextScene: "flowers", tag: "returning", feedback: "You turn back. The flowers wait — patient, perfect.", isCorrect: true, sentiment: "positive" },
     ],
   },
   meditation_river: {
@@ -83,8 +83,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Peace by the Water",
     text: "Time dissolves.\nSomething calls from the heart of the garden.",
     choices: [
-      { text: "Answer the call", nextScene: "deep_garden", tag: "called", feedback: "You stand. The pull is undeniable now.", sentiment: "negative" },
-      { text: "Visit the animals", nextScene: "animals", tag: "caring", feedback: "You rise — they need you. Or you need them.", sentiment: "positive" },
+      { text: "Answer the call", nextScene: "deep_garden", tag: "called", feedback: "You stand. The pull is undeniable now.", isCorrect: false, sentiment: "negative" },
+      { text: "Visit the animals", nextScene: "animals", tag: "caring", feedback: "You rise — they need you. Or you need them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   deep_garden: {
@@ -92,9 +92,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Heart of Eden",
     text: "Two trees stand apart from all others.\nOne blazes with life. The other is dark and beautiful.",
     choices: [
-      { text: "Approach the Tree of Life", nextScene: "tree_of_life", tag: "wise", feedback: "Golden light washes over you. Warmth deepens.", sentiment: "positive" },
-      { text: "Approach the dark tree", nextScene: "forbidden_tree", tag: "tempted", feedback: "The fruit hangs low. Something whispers your name.", sentiment: "negative" },
-      { text: "Rest beneath a fig tree", nextScene: "fig_rest", tag: "cautious", feedback: "You sit in the shade. Eyes watch from the branches.", sentiment: "negative" },
+      { text: "Approach the Tree of Life", nextScene: "tree_of_life", tag: "wise", feedback: "Golden light washes over you. Warmth deepens.", isCorrect: true, sentiment: "positive" },
+      { text: "Approach the dark tree", nextScene: "forbidden_tree", tag: "tempted", feedback: "The fruit hangs low. Something whispers your name.", isCorrect: false, sentiment: "negative" },
+      { text: "Rest beneath a fig tree", nextScene: "fig_rest", tag: "cautious", feedback: "You sit in the shade. Eyes watch from the branches.", isCorrect: false, sentiment: "negative" },
     ],
   },
   garland: {
@@ -102,8 +102,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "A Crown of Flowers",
     text: "You weave roses and jasmine.\nWho would wear it? There is no one else.",
     choices: [
-      { text: "Walk toward the center", nextScene: "deep_garden", tag: "yearning", feedback: "The ache rises — beautiful and unbearable.", sentiment: "negative" },
-      { text: "Keep exploring", nextScene: "upstream", tag: "restless", feedback: "Movement helps. You press onward.", sentiment: "positive" },
+      { text: "Walk toward the center", nextScene: "deep_garden", tag: "yearning", feedback: "The ache rises — beautiful and unbearable.", isCorrect: false, sentiment: "negative" },
+      { text: "Keep exploring", nextScene: "upstream", tag: "restless", feedback: "Movement helps. You press onward.", isCorrect: true, sentiment: "positive" },
     ],
   },
   sky_gaze: {
@@ -111,8 +111,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Heavens Above",
     text: "Stars open like eyes.\nYou feel impossibly small. Impossibly loved.",
     choices: [
-      { text: "Follow the pull toward the center", nextScene: "deep_garden", tag: "destined", feedback: "Something waits for you. It has always waited.", sentiment: "negative" },
-      { text: "Walk toward an ancient path", nextScene: "approach_tree", tag: "night_walker", feedback: "Moonlight shows the way — silver and certain.", sentiment: "positive" },
+      { text: "Follow the pull toward the center", nextScene: "deep_garden", tag: "destined", feedback: "Something waits for you. It has always waited.", isCorrect: false, sentiment: "negative" },
+      { text: "Walk toward an ancient path", nextScene: "approach_tree", tag: "night_walker", feedback: "Moonlight shows the way — silver and certain.", isCorrect: true, sentiment: "positive" },
     ],
   },
   approach_tree: {
@@ -120,9 +120,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Ancient Path",
     text: "The trees grow older here, taller.\nSomething sacred — or dangerous — waits ahead.",
     choices: [
-      { text: "Continue toward the center", nextScene: "deep_garden", tag: "determined", feedback: "The path narrows. Your heart quickens.", sentiment: "negative" },
-      { text: "Turn back to the meadow", nextScene: "flowers", tag: "cautious", feedback: "You pause. The flowers call you back — safe, familiar.", sentiment: "positive" },
-      { text: "Rest beneath a fig tree", nextScene: "fig_rest", tag: "resting", feedback: "You sit in the shade. The silence deepens.", sentiment: "negative" },
+      { text: "Continue toward the center", nextScene: "deep_garden", tag: "determined", feedback: "The path narrows. Your heart quickens.", isCorrect: false, sentiment: "negative" },
+      { text: "Turn back to the meadow", nextScene: "flowers", tag: "cautious", feedback: "You pause. The flowers call you back — safe, familiar.", isCorrect: true, sentiment: "positive" },
+      { text: "Rest beneath a fig tree", nextScene: "fig_rest", tag: "resting", feedback: "You sit in the shade. The silence deepens.", isCorrect: false, sentiment: "negative" },
     ],
   },
   tree_of_life: {
@@ -130,8 +130,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Tree of Life",
     text: "Its fruit tastes like sunlight.\nBut your eyes drift to the other tree.",
     choices: [
-      { text: "Turn away", nextScene: "sleep", tag: "resistant", feedback: "You force your gaze elsewhere. But the pull remains.", sentiment: "positive" },
-      { text: "Step toward it", nextScene: "forbidden_tree", tag: "falling", feedback: "One step. Then another. The dark tree waits.", sentiment: "negative" },
+      { text: "Turn away", nextScene: "sleep", tag: "resistant", feedback: "You force your gaze elsewhere. But the pull remains.", isCorrect: true, sentiment: "positive" },
+      { text: "Step toward it", nextScene: "forbidden_tree", tag: "falling", feedback: "One step. Then another. The dark tree waits.", isCorrect: false, sentiment: "negative" },
     ],
   },
   fig_rest: {
@@ -139,8 +139,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Beneath the Fig Tree",
     text: "A serpent watches from the dark tree.\nIts ancient eyes seem to know you.",
     choices: [
-      { text: "Ignore it", nextScene: "sleep", tag: "wary", feedback: "You close your eyes. But the gaze lingers.", sentiment: "positive" },
-      { text: "Approach the serpent's tree", nextScene: "forbidden_tree", tag: "curious_serpent", feedback: "Your feet carry you closer. The serpent smiles.", sentiment: "negative" },
+      { text: "Ignore it", nextScene: "sleep", tag: "wary", feedback: "You close your eyes. But the gaze lingers.", isCorrect: true, sentiment: "positive" },
+      { text: "Approach the serpent's tree", nextScene: "forbidden_tree", tag: "curious_serpent", feedback: "Your feet carry you closer. The serpent smiles.", isCorrect: false, sentiment: "negative" },
     ],
   },
   sleep: {
@@ -148,8 +148,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "A Deep Sleep",
     text: "God's hand touches your brow.\nYou fall into the deepest sleep — and dream of someone.",
     choices: [
-      { text: "Reach toward the dream", nextScene: "eve_appears", tag: "longing", feedback: "In the dream, a face — familiar, beautiful.", sentiment: "positive" },
-      { text: "Surrender to the dark", nextScene: "eve_appears_gentle", tag: "trusting", feedback: "You let go. Warmth fills the emptiness.", sentiment: "positive" },
+      { text: "Reach toward the dream", nextScene: "eve_appears", tag: "longing", feedback: "In the dream, a face — familiar, beautiful.", isCorrect: true, sentiment: "positive" },
+      { text: "Surrender to the dark", nextScene: "eve_appears_gentle", tag: "trusting", feedback: "You let go. Warmth fills the emptiness.", isCorrect: true, sentiment: "positive" },
     ],
   },
   eve_appears: {
@@ -157,8 +157,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Bone of My Bone",
     text: "You wake — and she is there.\n\"This one is flesh of my flesh.\"",
     choices: [
-      { text: "Take her hand", nextScene: "paradise_together", tag: "united", feedback: "Her hand is warm. You are no longer alone.", sentiment: "positive" },
-      { text: "Show her the garden", nextScene: "eden_walk", tag: "generous", feedback: "You reach out — everything you know is now hers too.", sentiment: "positive" },
+      { text: "Take her hand", nextScene: "paradise_together", tag: "united", feedback: "Her hand is warm. You are no longer alone.", isCorrect: true, sentiment: "positive" },
+      { text: "Show her the garden", nextScene: "eden_walk", tag: "generous", feedback: "You reach out — everything you know is now hers too.", isCorrect: true, sentiment: "positive" },
     ],
   },
   eve_appears_gentle: {
@@ -166,8 +166,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Bone of My Bone",
     text: "You open your eyes. She stands before you — perfect, alive.\nThe ache in your chest is gone.",
     choices: [
-      { text: "Speak to her", nextScene: "paradise_together", tag: "tender", feedback: "Words form — the first ever spoken to another.", sentiment: "positive" },
-      { text: "Walk together in silence", nextScene: "eden_walk", tag: "intimate", feedback: "No words needed. You walk side by side.", sentiment: "positive" },
+      { text: "Speak to her", nextScene: "paradise_together", tag: "tender", feedback: "Words form — the first ever spoken to another.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk together in silence", nextScene: "eden_walk", tag: "intimate", feedback: "No words needed. You walk side by side.", isCorrect: true, sentiment: "positive" },
     ],
   },
   paradise_together: {
@@ -175,8 +175,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Paradise",
     text: "You walk together — naked, unashamed.\nEvery fruit is yours. Every path open.",
     choices: [
-      { text: "Show her the Tree of Life", nextScene: "eden_walk", tag: "protective", feedback: "You lead her toward the golden tree — safe, good.", sentiment: "positive" },
-      { text: "Wander toward the center", nextScene: "approach_tree_together", tag: "curious_together", feedback: "You walk deeper. She follows, trusting.", sentiment: "negative" },
+      { text: "Show her the Tree of Life", nextScene: "eden_walk", tag: "protective", feedback: "You lead her toward the golden tree — safe, good.", isCorrect: true, sentiment: "positive" },
+      { text: "Wander toward the center", nextScene: "approach_tree_together", tag: "curious_together", feedback: "You walk deeper. She follows, trusting.", isCorrect: false, sentiment: "negative" },
     ],
   },
   eden_walk: {
@@ -184,8 +184,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Walking in Eden",
     text: "She names the flowers you missed.\nHer laugh fills the spaces your voice couldn't reach.",
     choices: [
-      { text: "Explore further together", nextScene: "approach_tree_together", tag: "bonded", feedback: "Hand in hand, you press deeper into the garden.", sentiment: "negative" },
-      { text: "Stay here — this is enough", nextScene: "approach_tree_together", tag: "content", feedback: "But the garden is vast. And curiosity is older than fear.", sentiment: "negative" },
+      { text: "Explore further together", nextScene: "approach_tree_together", tag: "bonded", feedback: "Hand in hand, you press deeper into the garden.", isCorrect: false, sentiment: "negative" },
+      { text: "Stay here — this is enough", nextScene: "approach_tree_together", tag: "content", feedback: "But the garden is vast. And curiosity is older than fear.", isCorrect: false, sentiment: "negative" },
     ],
   },
   approach_tree_together: {
@@ -193,8 +193,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Path Narrows",
     text: "The air grows heavy. Too sweet.\nA whisper drifts from the shadows.",
     choices: [
-      { text: "Listen to the whisper", nextScene: "serpent_speaks", tag: "listening", feedback: "The voice is smooth — like honey, like poison.", sentiment: "negative" },
-      { text: "Try to turn back", nextScene: "serpent_speaks", tag: "reluctant", feedback: "Your feet slow. But she has already stopped to listen.", sentiment: "negative" },
+      { text: "Listen to the whisper", nextScene: "serpent_speaks", tag: "listening", feedback: "The voice is smooth — like honey, like poison.", isCorrect: false, sentiment: "negative" },
+      { text: "Try to turn back", nextScene: "serpent_speaks", tag: "reluctant", feedback: "Your feet slow. But she has already stopped to listen.", isCorrect: false, sentiment: "negative" },
     ],
   },
   forbidden_tree: {
@@ -202,8 +202,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Forbidden Tree",
     text: "The fruit glows softly in the dusk.\nYou hear a voice — not God's.",
     choices: [
-      { text: "Listen to the serpent", nextScene: "serpent_speaks", tag: "curious", feedback: "The serpent coils closer. Its words are sweet.", sentiment: "negative" },
-      { text: "Step back — remember the warning", nextScene: "sleep", tag: "obedient", feedback: "You retreat. But the image stays behind your eyes.", sentiment: "positive" },
+      { text: "Listen to the serpent", nextScene: "serpent_speaks", tag: "curious", feedback: "The serpent coils closer. Its words are sweet.", isCorrect: false, sentiment: "negative" },
+      { text: "Step back — remember the warning", nextScene: "sleep", tag: "obedient", feedback: "You retreat. But the image stays behind your eyes.", isCorrect: true, sentiment: "positive" },
     ],
   },
   serpent_speaks: {
@@ -211,9 +211,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Serpent",
     text: "\"Did God really say you must not eat?\"\nThe question cuts deeper than you expected.",
     choices: [
-      { text: "Hesitate — consider the question", nextScene: "temptation", tag: "doubting", feedback: "Silence. The serpent waits — patient, knowing.", sentiment: "negative" },
-      { text: "Defend what God said", nextScene: "temptation", tag: "defending", feedback: "Your words sound right. But something in you wavers.", sentiment: "positive" },
-      { text: "Look at the fruit", nextScene: "temptation", tag: "drawn", feedback: "Your eyes drift to it. Beautiful. Desirable.", sentiment: "negative" },
+      { text: "Hesitate — consider the question", nextScene: "temptation", tag: "doubting", feedback: "Silence. The serpent waits — patient, knowing.", isCorrect: false, sentiment: "negative" },
+      { text: "Defend what God said", nextScene: "temptation", tag: "defending", feedback: "Your words sound right. But something in you wavers.", isCorrect: true, sentiment: "positive" },
+      { text: "Look at the fruit", nextScene: "temptation", tag: "drawn", feedback: "Your eyes drift to it. Beautiful. Desirable.", isCorrect: false, sentiment: "negative" },
     ],
   },
   temptation: {
@@ -221,8 +221,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Choice",
     text: "\"You will not die. Your eyes will be opened.\"\nThe fruit hangs within reach — and she reaches first.",
     choices: [
-      { text: "Watch her eat", nextScene: "the_fall", tag: "passive", feedback: "She bites. Her eyes change. She offers it to you.", sentiment: "negative" },
-      { text: "Take it from her hand", nextScene: "the_fall", tag: "willing", feedback: "You reach out. Your fingers close around the fruit.", sentiment: "negative" },
+      { text: "Watch her eat", nextScene: "the_fall", tag: "passive", feedback: "She bites. Her eyes change. She offers it to you.", isCorrect: false, sentiment: "negative" },
+      { text: "Take it from her hand", nextScene: "the_fall", tag: "willing", feedback: "You reach out. Your fingers close around the fruit.", isCorrect: false, sentiment: "negative" },
     ],
   },
   the_fall: {
@@ -230,8 +230,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Fall",
     text: "The fruit touches your lips.\nSweetness. Then bitterness. Then — you know.",
     choices: [
-      { text: "Look at each other", nextScene: "shame", tag: "aware", feedback: "Her eyes meet yours. Something has broken.", sentiment: "negative" },
-      { text: "Look down at yourself", nextScene: "shame", tag: "exposed", feedback: "You see yourself — truly — for the first time. And tremble.", sentiment: "negative" },
+      { text: "Look at each other", nextScene: "shame", tag: "aware", feedback: "Her eyes meet yours. Something has broken.", isCorrect: false, sentiment: "negative" },
+      { text: "Look down at yourself", nextScene: "shame", tag: "exposed", feedback: "You see yourself — truly — for the first time. And tremble.", isCorrect: false, sentiment: "negative" },
     ],
   },
   shame: {
@@ -239,8 +239,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Naked",
     text: "You are naked.\nFor the first time, you feel it — raw, burning shame.",
     choices: [
-      { text: "Grab fig leaves — cover yourself", nextScene: "hiding", tag: "ashamed", feedback: "Your hands shake. The leaves barely hold.", sentiment: "negative" },
-      { text: "Try to hide among the trees", nextScene: "hiding", tag: "fleeing", feedback: "You stumble backward — deeper into shadow.", sentiment: "negative" },
+      { text: "Grab fig leaves — cover yourself", nextScene: "hiding", tag: "ashamed", feedback: "Your hands shake. The leaves barely hold.", isCorrect: false, sentiment: "negative" },
+      { text: "Try to hide among the trees", nextScene: "hiding", tag: "fleeing", feedback: "You stumble backward — deeper into shadow.", isCorrect: false, sentiment: "negative" },
     ],
   },
   hiding: {
@@ -248,8 +248,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Hiding from God",
     text: "\"Where are you?\"\nHis voice fills the garden — and you cannot move.",
     choices: [
-      { text: "\"I was afraid… I was naked\"", nextScene: "judgment", tag: "confessing", feedback: "The words fall from you — broken, honest.", sentiment: "positive" },
-      { text: "Stay silent — press into the dark", nextScene: "judgment", tag: "hiding", feedback: "You hold your breath. But He already knows.", sentiment: "negative" },
+      { text: "\"I was afraid… I was naked\"", nextScene: "judgment", tag: "confessing", feedback: "The words fall from you — broken, honest.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay silent — press into the dark", nextScene: "judgment", tag: "hiding", feedback: "You hold your breath. But He already knows.", isCorrect: false, sentiment: "negative" },
     ],
   },
   judgment: {
@@ -257,8 +257,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Reckoning",
     text: "\"Who told you that you were naked?\"\nThe question splits you open.",
     choices: [
-      { text: "\"The woman gave it to me\"", nextScene: "expulsion", tag: "blaming", feedback: "You point. She looks away. The serpent coils tighter.", sentiment: "negative" },
-      { text: "Say nothing — bow your head", nextScene: "expulsion", tag: "silent", feedback: "Words fail. You lower your eyes.", sentiment: "positive" },
+      { text: "\"The woman gave it to me\"", nextScene: "expulsion", tag: "blaming", feedback: "You point. She looks away. The serpent coils tighter.", isCorrect: false, sentiment: "negative" },
+      { text: "Say nothing — bow your head", nextScene: "expulsion", tag: "silent", feedback: "Words fail. You lower your eyes.", isCorrect: true, sentiment: "positive" },
     ],
   },
   expulsion: {

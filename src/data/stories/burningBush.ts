@@ -12,9 +12,9 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Beyond the Wilderness",
     text: "You lead the flock past familiar hills.\nA strange light flickers ahead.",
     choices: [
-      { text: "Turn aside to look", nextScene: "approach_mountain", tag: "curious", feedback: "You step toward the light.", sentiment: "positive" },
-      { text: "Ignore it. Stay with sheep.", nextScene: "ignore_consequence", tag: "fearful", feedback: "The light keeps calling.", sentiment: "negative" },
-      { text: "Throw a stone at it", nextScene: "stone_consequence", tag: "rash", feedback: "Sacred things are not toys.", sentiment: "negative" },
+      { text: "Turn aside to look", nextScene: "approach_mountain", tag: "curious", feedback: "You step toward the light.", isCorrect: true, sentiment: "positive" },
+      { text: "Ignore it. Stay with sheep.", nextScene: "ignore_consequence", tag: "fearful", feedback: "The light keeps calling.", isCorrect: false, sentiment: "negative" },
+      { text: "Throw a stone at it", nextScene: "stone_consequence", tag: "rash", feedback: "Sacred things are not toys.", isCorrect: false, sentiment: "negative" },
     ],
   },
   ignore_consequence: {
@@ -22,7 +22,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "It Will Not Leave You",
     text: "The light flickers brighter still.\nYou cannot pretend you did not see.",
     choices: [
-      { text: "Turn aside to look", nextScene: "approach_mountain", tag: "curious", feedback: "You walk toward it.", sentiment: "positive" },
+      { text: "Turn aside to look", nextScene: "approach_mountain", tag: "curious", feedback: "You walk toward it.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stone_consequence: {
@@ -30,7 +30,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Not Like That",
     text: "Mockery suits a child, not a man.\nGo and see with humility.",
     choices: [
-      { text: "Turn aside to look", nextScene: "approach_mountain", tag: "curious", feedback: "You walk toward it.", sentiment: "positive" },
+      { text: "Turn aside to look", nextScene: "approach_mountain", tag: "curious", feedback: "You walk toward it.", isCorrect: true, sentiment: "positive" },
     ],
   },
   approach_mountain: {
@@ -38,9 +38,9 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Toward the Mountain",
     text: "Horeb rises before you in silence.\nThe glow is on its slope.",
     choices: [
-      { text: "Climb closer to see", nextScene: "see_bush", tag: "brave", feedback: "Each step is heavier.", sentiment: "positive" },
-      { text: "Run back to the camp", nextScene: "run_back_consequence", tag: "fearful", feedback: "You cannot outrun this.", sentiment: "negative" },
-      { text: "Call your father-in-law", nextScene: "call_jethro_consequence", tag: "evasive", feedback: "This sight is meant for you.", sentiment: "negative" },
+      { text: "Climb closer to see", nextScene: "see_bush", tag: "brave", feedback: "Each step is heavier.", isCorrect: true, sentiment: "positive" },
+      { text: "Run back to the camp", nextScene: "run_back_consequence", tag: "fearful", feedback: "You cannot outrun this.", isCorrect: false, sentiment: "negative" },
+      { text: "Call your father-in-law", nextScene: "call_jethro_consequence", tag: "evasive", feedback: "This sight is meant for you.", isCorrect: false, sentiment: "negative" },
     ],
   },
   run_back_consequence: {
@@ -48,7 +48,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "You Cannot Outrun It",
     text: "The glow burns in your memory.\nReturn and see the truth.",
     choices: [
-      { text: "Climb closer to see", nextScene: "see_bush", tag: "brave", feedback: "You turn back to the slope.", sentiment: "positive" },
+      { text: "Climb closer to see", nextScene: "see_bush", tag: "brave", feedback: "You turn back to the slope.", isCorrect: true, sentiment: "positive" },
     ],
   },
   call_jethro_consequence: {
@@ -56,7 +56,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "This Is for You",
     text: "No one else is meant to stand here.\nGo, and look.",
     choices: [
-      { text: "Climb closer to see", nextScene: "see_bush", tag: "brave", feedback: "You go alone.", sentiment: "positive" },
+      { text: "Climb closer to see", nextScene: "see_bush", tag: "brave", feedback: "You go alone.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -66,9 +66,9 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "It Burns and Is Not Consumed",
     text: "Flame wraps the bush. Yet it stands whole.\nNothing turns to ash.",
     choices: [
-      { text: "Step closer with wonder", nextScene: "voice_calls", tag: "wise", feedback: "You will see this great sight.", sentiment: "positive" },
-      { text: "Smother the flames", nextScene: "smother_consequence", tag: "rash", feedback: "This fire is not yours to stop.", sentiment: "negative" },
-      { text: "Hide behind a rock", nextScene: "hide_consequence", tag: "fearful", feedback: "Do not turn from holy ground.", sentiment: "negative" },
+      { text: "Step closer with wonder", nextScene: "voice_calls", tag: "wise", feedback: "You will see this great sight.", isCorrect: true, sentiment: "positive" },
+      { text: "Smother the flames", nextScene: "smother_consequence", tag: "rash", feedback: "This fire is not yours to stop.", isCorrect: false, sentiment: "negative" },
+      { text: "Hide behind a rock", nextScene: "hide_consequence", tag: "fearful", feedback: "Do not turn from holy ground.", isCorrect: false, sentiment: "negative" },
     ],
   },
   smother_consequence: {
@@ -76,7 +76,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Do Not Touch",
     text: "This fire is not of your world.\nApproach with awe, not hands.",
     choices: [
-      { text: "Step closer with wonder", nextScene: "voice_calls", tag: "wise", feedback: "You lower your hands.", sentiment: "positive" },
+      { text: "Step closer with wonder", nextScene: "voice_calls", tag: "wise", feedback: "You lower your hands.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -84,7 +84,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Do Not Hide",
     text: "What hides from you is also revealed.\nStep into the light.",
     choices: [
-      { text: "Step closer with wonder", nextScene: "voice_calls", tag: "wise", feedback: "You step out from the rock.", sentiment: "positive" },
+      { text: "Step closer with wonder", nextScene: "voice_calls", tag: "wise", feedback: "You step out from the rock.", isCorrect: true, sentiment: "positive" },
     ],
   },
   voice_calls: {
@@ -92,9 +92,9 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "\"Moses! Moses!\"",
     text: "A voice from the flame calls your name.\nIt knows you fully.",
     choices: [
-      { text: "Answer: \"Here I am.\"", nextScene: "remove_sandals", tag: "humble", feedback: "You bow your head.", sentiment: "positive" },
-      { text: "Demand who is speaking", nextScene: "demand_consequence", tag: "prideful", feedback: "Reverence comes before knowing.", sentiment: "negative" },
-      { text: "Stay silent and wait", nextScene: "silent_consequence", tag: "fearful", feedback: "He has called. Answer Him.", sentiment: "negative" },
+      { text: "Answer: \"Here I am.\"", nextScene: "remove_sandals", tag: "humble", feedback: "You bow your head.", isCorrect: true, sentiment: "positive" },
+      { text: "Demand who is speaking", nextScene: "demand_consequence", tag: "prideful", feedback: "Reverence comes before knowing.", isCorrect: false, sentiment: "negative" },
+      { text: "Stay silent and wait", nextScene: "silent_consequence", tag: "fearful", feedback: "He has called. Answer Him.", isCorrect: false, sentiment: "negative" },
     ],
   },
   demand_consequence: {
@@ -102,7 +102,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Bow First",
     text: "You stand before holiness, not a man.\nAnswer with humility.",
     choices: [
-      { text: "Answer: \"Here I am.\"", nextScene: "remove_sandals", tag: "humble", feedback: "You bow your head.", sentiment: "positive" },
+      { text: "Answer: \"Here I am.\"", nextScene: "remove_sandals", tag: "humble", feedback: "You bow your head.", isCorrect: true, sentiment: "positive" },
     ],
   },
   silent_consequence: {
@@ -110,7 +110,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Answer Him",
     text: "He called your name aloud.\nDo not leave Him with silence.",
     choices: [
-      { text: "Answer: \"Here I am.\"", nextScene: "remove_sandals", tag: "humble", feedback: "Your voice trembles.", sentiment: "positive" },
+      { text: "Answer: \"Here I am.\"", nextScene: "remove_sandals", tag: "humble", feedback: "Your voice trembles.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -120,9 +120,9 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Holy Ground",
     text: "\"Take off your sandals, Moses.\nThe place where you stand is holy.\"",
     choices: [
-      { text: "Take off your sandals", nextScene: "hide_face", tag: "obedient", feedback: "Your feet touch the dust.", sentiment: "positive" },
-      { text: "Refuse — stones will hurt", nextScene: "refuse_sandals_consequence", tag: "stubborn", feedback: "Obedience first, comfort after.", sentiment: "negative" },
-      { text: "Argue this is unnecessary", nextScene: "argue_sandals_consequence", tag: "prideful", feedback: "He decides what is holy.", sentiment: "negative" },
+      { text: "Take off your sandals", nextScene: "hide_face", tag: "obedient", feedback: "Your feet touch the dust.", isCorrect: true, sentiment: "positive" },
+      { text: "Refuse — stones will hurt", nextScene: "refuse_sandals_consequence", tag: "stubborn", feedback: "Obedience first, comfort after.", isCorrect: false, sentiment: "negative" },
+      { text: "Argue this is unnecessary", nextScene: "argue_sandals_consequence", tag: "prideful", feedback: "He decides what is holy.", isCorrect: false, sentiment: "negative" },
     ],
   },
   refuse_sandals_consequence: {
@@ -130,7 +130,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Obey First",
     text: "Comfort matters less than holiness.\nDo as He asks.",
     choices: [
-      { text: "Take off your sandals", nextScene: "hide_face", tag: "obedient", feedback: "You bend down slowly.", sentiment: "positive" },
+      { text: "Take off your sandals", nextScene: "hide_face", tag: "obedient", feedback: "You bend down slowly.", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_sandals_consequence: {
@@ -138,7 +138,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "He Decides",
     text: "He is the one who calls it holy.\nKneel and obey.",
     choices: [
-      { text: "Take off your sandals", nextScene: "hide_face", tag: "obedient", feedback: "You bend down slowly.", sentiment: "positive" },
+      { text: "Take off your sandals", nextScene: "hide_face", tag: "obedient", feedback: "You bend down slowly.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_face: {
@@ -146,8 +146,8 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "I Am the God of Your Fathers",
     text: "\"I am the God of Abraham, Isaac,\nand Jacob.\" You hide your face.",
     choices: [
-      { text: "Listen with reverence", nextScene: "see_affliction", tag: "humble", feedback: "You dare not look.", sentiment: "positive" },
-      { text: "Look up to see Him", nextScene: "look_up_consequence", tag: "prideful", feedback: "No man may see and live.", sentiment: "negative" },
+      { text: "Listen with reverence", nextScene: "see_affliction", tag: "humble", feedback: "You dare not look.", isCorrect: true, sentiment: "positive" },
+      { text: "Look up to see Him", nextScene: "look_up_consequence", tag: "prideful", feedback: "No man may see and live.", isCorrect: false, sentiment: "negative" },
     ],
   },
   look_up_consequence: {
@@ -155,7 +155,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Lower Your Eyes",
     text: "His glory is more than you can bear.\nListen, do not stare.",
     choices: [
-      { text: "Listen with reverence", nextScene: "see_affliction", tag: "humble", feedback: "You bow lower.", sentiment: "positive" },
+      { text: "Listen with reverence", nextScene: "see_affliction", tag: "humble", feedback: "You bow lower.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -165,9 +165,9 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "I Have Seen Their Misery",
     text: "\"I have heard My people cry in Egypt.\nI will deliver them by your hand.\"",
     choices: [
-      { text: "Ask: \"Who am I to go?\"", nextScene: "i_will_be_with_you", tag: "humble", feedback: "Honest weakness is no sin.", sentiment: "positive" },
-      { text: "Boast you can lead them", nextScene: "boast_consequence", tag: "prideful", feedback: "Pride is not strength.", sentiment: "negative" },
-      { text: "Refuse the mission outright", nextScene: "refuse_consequence", tag: "rebellious", feedback: "Do not flee what He calls.", sentiment: "negative" },
+      { text: "Ask: \"Who am I to go?\"", nextScene: "i_will_be_with_you", tag: "humble", feedback: "Honest weakness is no sin.", isCorrect: true, sentiment: "positive" },
+      { text: "Boast you can lead them", nextScene: "boast_consequence", tag: "prideful", feedback: "Pride is not strength.", isCorrect: false, sentiment: "negative" },
+      { text: "Refuse the mission outright", nextScene: "refuse_consequence", tag: "rebellious", feedback: "Do not flee what He calls.", isCorrect: false, sentiment: "negative" },
     ],
   },
   boast_consequence: {
@@ -175,7 +175,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Not by Your Might",
     text: "It is not your strength that frees them.\nSpeak honestly.",
     choices: [
-      { text: "Ask: \"Who am I to go?\"", nextScene: "i_will_be_with_you", tag: "humble", feedback: "You speak the truth.", sentiment: "positive" },
+      { text: "Ask: \"Who am I to go?\"", nextScene: "i_will_be_with_you", tag: "humble", feedback: "You speak the truth.", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_consequence: {
@@ -183,7 +183,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Do Not Flee",
     text: "You ran from Egypt once before.\nThis time, listen first.",
     choices: [
-      { text: "Ask: \"Who am I to go?\"", nextScene: "i_will_be_with_you", tag: "humble", feedback: "You bow again.", sentiment: "positive" },
+      { text: "Ask: \"Who am I to go?\"", nextScene: "i_will_be_with_you", tag: "humble", feedback: "You bow again.", isCorrect: true, sentiment: "positive" },
     ],
   },
   i_will_be_with_you: {
@@ -191,8 +191,8 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "I Will Be With You",
     text: "\"I will be with you,\" He says.\n\"This shall be the sign.\"",
     choices: [
-      { text: "Ask His name to tell them", nextScene: "i_am", tag: "wise", feedback: "A right question.", sentiment: "positive" },
-      { text: "Bargain for more proof", nextScene: "bargain_consequence", tag: "doubtful", feedback: "His word is enough.", sentiment: "negative" },
+      { text: "Ask His name to tell them", nextScene: "i_am", tag: "wise", feedback: "A right question.", isCorrect: true, sentiment: "positive" },
+      { text: "Bargain for more proof", nextScene: "bargain_consequence", tag: "doubtful", feedback: "His word is enough.", isCorrect: false, sentiment: "negative" },
     ],
   },
   bargain_consequence: {
@@ -200,7 +200,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "His Word Is Enough",
     text: "He has spoken. Trust the voice.\nAsk only what is needed.",
     choices: [
-      { text: "Ask His name to tell them", nextScene: "i_am", tag: "wise", feedback: "You ask plainly.", sentiment: "positive" },
+      { text: "Ask His name to tell them", nextScene: "i_am", tag: "wise", feedback: "You ask plainly.", isCorrect: true, sentiment: "positive" },
     ],
   },
   i_am: {
@@ -208,8 +208,8 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "I AM WHO I AM",
     text: "\"Tell them I AM has sent you.\"\nThe name fills the silence.",
     choices: [
-      { text: "Receive the name in awe", nextScene: "accept_mission", tag: "faithful", feedback: "You hold it in your heart.", sentiment: "positive" },
-      { text: "Question what it means", nextScene: "question_consequence", tag: "doubtful", feedback: "Some names you simply receive.", sentiment: "negative" },
+      { text: "Receive the name in awe", nextScene: "accept_mission", tag: "faithful", feedback: "You hold it in your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Question what it means", nextScene: "question_consequence", tag: "doubtful", feedback: "Some names you simply receive.", isCorrect: false, sentiment: "negative" },
     ],
   },
   question_consequence: {
@@ -217,7 +217,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Some Names Are Received",
     text: "You will not grasp it with the mind.\nReceive it with the heart.",
     choices: [
-      { text: "Receive the name in awe", nextScene: "accept_mission", tag: "faithful", feedback: "You hold it in silence.", sentiment: "positive" },
+      { text: "Receive the name in awe", nextScene: "accept_mission", tag: "faithful", feedback: "You hold it in silence.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -227,9 +227,9 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Go, Moses",
     text: "\"Go. Speak to Pharaoh.\nLead My people out of Egypt.\"",
     choices: [
-      { text: "Accept and bow your head", nextScene: "stand_resolved", tag: "obedient", feedback: "Your heart steadies.", sentiment: "positive" },
-      { text: "Plead you cannot speak well", nextScene: "plead_consequence", tag: "fearful", feedback: "He will give you the words.", sentiment: "negative" },
-      { text: "Ask Him to send another", nextScene: "another_consequence", tag: "rebellious", feedback: "He has chosen you.", sentiment: "negative" },
+      { text: "Accept and bow your head", nextScene: "stand_resolved", tag: "obedient", feedback: "Your heart steadies.", isCorrect: true, sentiment: "positive" },
+      { text: "Plead you cannot speak well", nextScene: "plead_consequence", tag: "fearful", feedback: "He will give you the words.", isCorrect: false, sentiment: "negative" },
+      { text: "Ask Him to send another", nextScene: "another_consequence", tag: "rebellious", feedback: "He has chosen you.", isCorrect: false, sentiment: "negative" },
     ],
   },
   plead_consequence: {
@@ -237,7 +237,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "He Will Give the Words",
     text: "Your tongue is not your strength.\nHis word will be on your lips.",
     choices: [
-      { text: "Accept and bow your head", nextScene: "stand_resolved", tag: "obedient", feedback: "You answer yes.", sentiment: "positive" },
+      { text: "Accept and bow your head", nextScene: "stand_resolved", tag: "obedient", feedback: "You answer yes.", isCorrect: true, sentiment: "positive" },
     ],
   },
   another_consequence: {
@@ -245,7 +245,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "He Has Chosen You",
     text: "It is your name He called by the bush.\nYou cannot pass it on.",
     choices: [
-      { text: "Accept and bow your head", nextScene: "stand_resolved", tag: "obedient", feedback: "You answer yes.", sentiment: "positive" },
+      { text: "Accept and bow your head", nextScene: "stand_resolved", tag: "obedient", feedback: "You answer yes.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stand_resolved: {
@@ -253,8 +253,8 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "You Rise",
     text: "The flame still burns. The bush still stands.\nYour heart is no longer the same.",
     choices: [
-      { text: "Set your face toward Egypt", nextScene: "ending", tag: "brave", feedback: "The road home is the road forward.", sentiment: "positive" },
-      { text: "Return to the sheep instead", nextScene: "return_sheep_consequence", tag: "fearful", feedback: "You are no longer a shepherd of sheep.", sentiment: "negative" },
+      { text: "Set your face toward Egypt", nextScene: "ending", tag: "brave", feedback: "The road home is the road forward.", isCorrect: true, sentiment: "positive" },
+      { text: "Return to the sheep instead", nextScene: "return_sheep_consequence", tag: "fearful", feedback: "You are no longer a shepherd of sheep.", isCorrect: false, sentiment: "negative" },
     ],
   },
   return_sheep_consequence: {
@@ -262,7 +262,7 @@ export const burningBushScenes: Record<string, StoryScene> = {
     title: "Not Sheep — A People",
     text: "Your flock now is the children of Israel.\nTurn toward Egypt.",
     choices: [
-      { text: "Set your face toward Egypt", nextScene: "ending", tag: "brave", feedback: "You take the first step.", sentiment: "positive" },
+      { text: "Set your face toward Egypt", nextScene: "ending", tag: "brave", feedback: "You take the first step.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ending: {

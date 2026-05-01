@@ -13,9 +13,9 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Two Years Later",
     text: "Dawn breaks on your prison cell.\nFootsteps approach the iron door.",
     choices: [
-      { text: "Curse the lost years", nextScene: "curse_consequence", tag: "bitter", feedback: "Bitterness has no place here.", sentiment: "negative" },
-      { text: "Rise and pray to the Lord", nextScene: "summons", tag: "faithful", feedback: "Peace fills your heart.", sentiment: "positive" },
-      { text: "Pretend to be sick", nextScene: "hide_consequence", tag: "fearful", feedback: "Fear cannot hide you.", sentiment: "negative" },
+      { text: "Curse the lost years", nextScene: "curse_consequence", tag: "bitter", feedback: "Bitterness has no place here.", isCorrect: false, sentiment: "negative" },
+      { text: "Rise and pray to the Lord", nextScene: "summons", tag: "faithful", feedback: "Peace fills your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Pretend to be sick", nextScene: "hide_consequence", tag: "fearful", feedback: "Fear cannot hide you.", isCorrect: false, sentiment: "negative" },
     ],
   },
   curse_consequence: {
@@ -23,7 +23,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Hollow Anger",
     text: "Anger only weighs you down.\nThe key still turns in the lock.",
     choices: [
-      { text: "Rise and pray to the Lord", nextScene: "summons", tag: "faithful", feedback: "You let it go.", sentiment: "positive" },
+      { text: "Rise and pray to the Lord", nextScene: "summons", tag: "faithful", feedback: "You let it go.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -31,7 +31,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "No Hiding",
     text: "The guard pulls back the blanket.\n\"Pharaoh has called for you.\"",
     choices: [
-      { text: "Rise and pray to the Lord", nextScene: "summons", tag: "faithful", feedback: "You stand up trembling but firm.", sentiment: "positive" },
+      { text: "Rise and pray to the Lord", nextScene: "summons", tag: "faithful", feedback: "You stand up trembling but firm.", isCorrect: true, sentiment: "positive" },
     ],
   },
   summons: {
@@ -39,9 +39,9 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Pharaoh Calls",
     text: "\"Pharaoh demands you. Quickly!\"\nThe magicians have all failed him.",
     choices: [
-      { text: "Boast you can solve it", nextScene: "boast_consequence", tag: "proud", feedback: "Pride goes before the fall.", sentiment: "negative" },
-      { text: "Shave and dress for the king", nextScene: "preparation", tag: "obedient", feedback: "You honor the king's house.", sentiment: "positive" },
-      { text: "Refuse out of fear", nextScene: "refuse_consequence", tag: "fearful", feedback: "There is no refusing Pharaoh.", sentiment: "negative" },
+      { text: "Boast you can solve it", nextScene: "boast_consequence", tag: "proud", feedback: "Pride goes before the fall.", isCorrect: false, sentiment: "negative" },
+      { text: "Shave and dress for the king", nextScene: "preparation", tag: "obedient", feedback: "You honor the king's house.", isCorrect: true, sentiment: "positive" },
+      { text: "Refuse out of fear", nextScene: "refuse_consequence", tag: "fearful", feedback: "There is no refusing Pharaoh.", isCorrect: false, sentiment: "negative" },
     ],
   },
   boast_consequence: {
@@ -49,7 +49,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Empty Words",
     text: "The guard frowns. \"Many boasted.\nNone could read the dream.\"",
     choices: [
-      { text: "Shave and dress for the king", nextScene: "preparation", tag: "humble", feedback: "You bow your head.", sentiment: "positive" },
+      { text: "Shave and dress for the king", nextScene: "preparation", tag: "humble", feedback: "You bow your head.", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_consequence: {
@@ -57,7 +57,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Dragged Forth",
     text: "The guard grips your arm hard.\n\"Pharaoh will not be denied.\"",
     choices: [
-      { text: "Shave and dress for the king", nextScene: "preparation", tag: "obedient", feedback: "You go willingly now.", sentiment: "positive" },
+      { text: "Shave and dress for the king", nextScene: "preparation", tag: "obedient", feedback: "You go willingly now.", isCorrect: true, sentiment: "positive" },
     ],
   },
   preparation: {
@@ -65,8 +65,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Made Ready",
     text: "Razor and clean linen await.\nYou must look fit for a king.",
     choices: [
-      { text: "Whisper a prayer to God", nextScene: "antechamber_arrive", tag: "faithful", feedback: "\"Lord, give me Your words.\"", sentiment: "positive" },
-      { text: "Rehearse clever guesses", nextScene: "rehearse_consequence", tag: "proud", feedback: "Cleverness will not save you.", sentiment: "negative" },
+      { text: "Whisper a prayer to God", nextScene: "antechamber_arrive", tag: "faithful", feedback: "\"Lord, give me Your words.\"", isCorrect: true, sentiment: "positive" },
+      { text: "Rehearse clever guesses", nextScene: "rehearse_consequence", tag: "proud", feedback: "Cleverness will not save you.", isCorrect: false, sentiment: "negative" },
     ],
   },
   rehearse_consequence: {
@@ -74,7 +74,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Empty Words",
     text: "Your guesses crumble in your mind.\nOnly God knows the dream.",
     choices: [
-      { text: "Whisper a prayer to God", nextScene: "antechamber_arrive", tag: "faithful", feedback: "You let go of yourself.", sentiment: "positive" },
+      { text: "Whisper a prayer to God", nextScene: "antechamber_arrive", tag: "faithful", feedback: "You let go of yourself.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -84,8 +84,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Palace Halls",
     text: "Cool stone, painted columns.\nAn official waits to lead you in.",
     choices: [
-      { text: "Demand pay before you speak", nextScene: "demand_consequence", tag: "greedy", feedback: "This is not a market.", sentiment: "negative" },
-      { text: "Bow and follow in silence", nextScene: "throne_enter", tag: "humble", feedback: "Silence shows respect.", sentiment: "positive" },
+      { text: "Demand pay before you speak", nextScene: "demand_consequence", tag: "greedy", feedback: "This is not a market.", isCorrect: false, sentiment: "negative" },
+      { text: "Bow and follow in silence", nextScene: "throne_enter", tag: "humble", feedback: "Silence shows respect.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -93,7 +93,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "A Hard Look",
     text: "The official stiffens. \"You stand\nbefore the king. Walk.\"",
     choices: [
-      { text: "Bow and follow in silence", nextScene: "throne_enter", tag: "humble", feedback: "You bow your head.", sentiment: "positive" },
+      { text: "Bow and follow in silence", nextScene: "throne_enter", tag: "humble", feedback: "You bow your head.", isCorrect: true, sentiment: "positive" },
     ],
   },
   throne_enter: {
@@ -101,8 +101,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "The Throne Hall",
     text: "Light pours through high windows.\nPharaoh sits, deeply troubled.",
     choices: [
-      { text: "Stare boldly at the king", nextScene: "stare_consequence", tag: "proud", feedback: "Such pride is foolish here.", sentiment: "negative" },
-      { text: "Bow low to the ground", nextScene: "pharaoh_speaks", tag: "humble", feedback: "Your forehead touches stone.", sentiment: "positive" },
+      { text: "Stare boldly at the king", nextScene: "stare_consequence", tag: "proud", feedback: "Such pride is foolish here.", isCorrect: false, sentiment: "negative" },
+      { text: "Bow low to the ground", nextScene: "pharaoh_speaks", tag: "humble", feedback: "Your forehead touches stone.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stare_consequence: {
@@ -110,7 +110,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Eyes Down",
     text: "Guards step forward. The official\nhisses, \"Bow before the king!\"",
     choices: [
-      { text: "Bow low to the ground", nextScene: "pharaoh_speaks", tag: "humble", feedback: "You drop to your knees.", sentiment: "positive" },
+      { text: "Bow low to the ground", nextScene: "pharaoh_speaks", tag: "humble", feedback: "You drop to your knees.", isCorrect: true, sentiment: "positive" },
     ],
   },
   pharaoh_speaks: {
@@ -118,9 +118,9 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "The King's Words",
     text: "\"I have dreamed. None can interpret.\nI hear you can. Is it so?\"",
     choices: [
-      { text: "\"Yes, the gift is mine alone\"", nextScene: "claim_consequence", tag: "proud", feedback: "You take credit that isn't yours.", sentiment: "negative" },
-      { text: "\"It is not in me; God will speak\"", nextScene: "humble_answer", tag: "faithful", feedback: "Truthful and humble.", sentiment: "positive" },
-      { text: "\"I will try my best, mighty king\"", nextScene: "try_consequence", tag: "proud", feedback: "Trying is not enough.", sentiment: "negative" },
+      { text: "\"Yes, the gift is mine alone\"", nextScene: "claim_consequence", tag: "proud", feedback: "You take credit that isn't yours.", isCorrect: false, sentiment: "negative" },
+      { text: "\"It is not in me; God will speak\"", nextScene: "humble_answer", tag: "faithful", feedback: "Truthful and humble.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I will try my best, mighty king\"", nextScene: "try_consequence", tag: "proud", feedback: "Trying is not enough.", isCorrect: false, sentiment: "negative" },
     ],
   },
   claim_consequence: {
@@ -128,7 +128,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Pride Cracks",
     text: "Pharaoh's eyes narrow. The room\ngrows quiet. You feel God's nudge.",
     choices: [
-      { text: "\"Forgive me. God will answer\"", nextScene: "humble_answer", tag: "humble", feedback: "You correct yourself in time.", sentiment: "positive" },
+      { text: "\"Forgive me. God will answer\"", nextScene: "humble_answer", tag: "humble", feedback: "You correct yourself in time.", isCorrect: true, sentiment: "positive" },
     ],
   },
   try_consequence: {
@@ -136,7 +136,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "A Shaken Heart",
     text: "Words feel hollow in your mouth.\nThis is not your wisdom to give.",
     choices: [
-      { text: "\"It is not in me; God will speak\"", nextScene: "humble_answer", tag: "humble", feedback: "You speak the truth at last.", sentiment: "positive" },
+      { text: "\"It is not in me; God will speak\"", nextScene: "humble_answer", tag: "humble", feedback: "You speak the truth at last.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -146,8 +146,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "God Will Answer",
     text: "Pharaoh leans forward, quieter now.\n\"Then hear my dream, Hebrew.\"",
     choices: [
-      { text: "Listen with full attention", nextScene: "cattle_dream", tag: "faithful", feedback: "You quiet your heart.", sentiment: "positive" },
-      { text: "Interrupt with questions", nextScene: "interrupt_consequence", tag: "proud", feedback: "Let the king speak first.", sentiment: "negative" },
+      { text: "Listen with full attention", nextScene: "cattle_dream", tag: "faithful", feedback: "You quiet your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Interrupt with questions", nextScene: "interrupt_consequence", tag: "proud", feedback: "Let the king speak first.", isCorrect: false, sentiment: "negative" },
     ],
   },
   interrupt_consequence: {
@@ -155,7 +155,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Be Silent",
     text: "Pharaoh raises his hand. \"Listen,\nthen speak. Not before.\"",
     choices: [
-      { text: "Listen with full attention", nextScene: "cattle_dream", tag: "humble", feedback: "You bow your head and wait.", sentiment: "positive" },
+      { text: "Listen with full attention", nextScene: "cattle_dream", tag: "humble", feedback: "You bow your head and wait.", isCorrect: true, sentiment: "positive" },
     ],
   },
   cattle_dream: {
@@ -163,8 +163,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Seven Cattle",
     text: "\"Seven fat cows came from the Nile.\nSeven gaunt cows ate them whole.\"",
     choices: [
-      { text: "Tell him what cows mean in Egypt", nextScene: "egypt_lore_consequence", tag: "proud", feedback: "This is no folk tale.", sentiment: "negative" },
-      { text: "Listen for the second dream", nextScene: "grain_dream", tag: "wise", feedback: "Two dreams, one message.", sentiment: "positive" },
+      { text: "Tell him what cows mean in Egypt", nextScene: "egypt_lore_consequence", tag: "proud", feedback: "This is no folk tale.", isCorrect: false, sentiment: "negative" },
+      { text: "Listen for the second dream", nextScene: "grain_dream", tag: "wise", feedback: "Two dreams, one message.", isCorrect: true, sentiment: "positive" },
     ],
   },
   egypt_lore_consequence: {
@@ -172,7 +172,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Not Yet",
     text: "Pharaoh frowns. \"There is more.\nHear the second before you speak.\"",
     choices: [
-      { text: "Listen for the second dream", nextScene: "grain_dream", tag: "wise", feedback: "You wait patiently.", sentiment: "positive" },
+      { text: "Listen for the second dream", nextScene: "grain_dream", tag: "wise", feedback: "You wait patiently.", isCorrect: true, sentiment: "positive" },
     ],
   },
   grain_dream: {
@@ -180,9 +180,9 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Seven Heads",
     text: "\"Seven full heads of grain rose.\nSeven thin ones swallowed them up.\"",
     choices: [
-      { text: "Praise Egypt's many gods", nextScene: "idols_consequence", tag: "unfaithful", feedback: "There is one true God.", sentiment: "negative" },
-      { text: "Speak God's interpretation", nextScene: "interpretation", tag: "faithful", feedback: "God puts words in your mouth.", sentiment: "positive" },
-      { text: "Ask for a sign first", nextScene: "sign_consequence", tag: "fearful", feedback: "God's word is the sign.", sentiment: "negative" },
+      { text: "Praise Egypt's many gods", nextScene: "idols_consequence", tag: "unfaithful", feedback: "There is one true God.", isCorrect: false, sentiment: "negative" },
+      { text: "Speak God's interpretation", nextScene: "interpretation", tag: "faithful", feedback: "God puts words in your mouth.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask for a sign first", nextScene: "sign_consequence", tag: "fearful", feedback: "God's word is the sign.", isCorrect: false, sentiment: "negative" },
     ],
   },
   idols_consequence: {
@@ -190,7 +190,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Holy Silence",
     text: "Your tongue stops mid-praise.\nGod alone gives the answer here.",
     choices: [
-      { text: "Speak God's interpretation", nextScene: "interpretation", tag: "faithful", feedback: "You return to truth.", sentiment: "positive" },
+      { text: "Speak God's interpretation", nextScene: "interpretation", tag: "faithful", feedback: "You return to truth.", isCorrect: true, sentiment: "positive" },
     ],
   },
   sign_consequence: {
@@ -198,7 +198,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "No Delay",
     text: "Pharaoh waits. The room is still.\nGod's word is already in you.",
     choices: [
-      { text: "Speak God's interpretation", nextScene: "interpretation", tag: "faithful", feedback: "You open your mouth in faith.", sentiment: "positive" },
+      { text: "Speak God's interpretation", nextScene: "interpretation", tag: "faithful", feedback: "You open your mouth in faith.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -208,8 +208,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "One Dream",
     text: "\"The dreams are one, O King.\nGod has shown what He will do.\"",
     choices: [
-      { text: "Soften the bad news", nextScene: "soften_consequence", tag: "fearful", feedback: "Truth must be spoken whole.", sentiment: "negative" },
-      { text: "Speak it plainly", nextScene: "plain_truth", tag: "faithful", feedback: "Pharaoh leans in to hear.", sentiment: "positive" },
+      { text: "Soften the bad news", nextScene: "soften_consequence", tag: "fearful", feedback: "Truth must be spoken whole.", isCorrect: false, sentiment: "negative" },
+      { text: "Speak it plainly", nextScene: "plain_truth", tag: "faithful", feedback: "Pharaoh leans in to hear.", isCorrect: true, sentiment: "positive" },
     ],
   },
   soften_consequence: {
@@ -217,7 +217,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Speak True",
     text: "Half-truth helps no one.\nA king must hear the full word.",
     choices: [
-      { text: "Speak it plainly", nextScene: "plain_truth", tag: "faithful", feedback: "You find your courage.", sentiment: "positive" },
+      { text: "Speak it plainly", nextScene: "plain_truth", tag: "faithful", feedback: "You find your courage.", isCorrect: true, sentiment: "positive" },
     ],
   },
   plain_truth: {
@@ -225,8 +225,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Seven and Seven",
     text: "\"Seven years of plenty will come.\nThen seven years of famine.\"",
     choices: [
-      { text: "Stop and wait for praise", nextScene: "stop_consequence", tag: "proud", feedback: "The word is not finished.", sentiment: "negative" },
-      { text: "Continue with God's counsel", nextScene: "give_counsel", tag: "wise", feedback: "Wisdom must follow warning.", sentiment: "positive" },
+      { text: "Stop and wait for praise", nextScene: "stop_consequence", tag: "proud", feedback: "The word is not finished.", isCorrect: false, sentiment: "negative" },
+      { text: "Continue with God's counsel", nextScene: "give_counsel", tag: "wise", feedback: "Wisdom must follow warning.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stop_consequence: {
@@ -234,7 +234,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Finish It",
     text: "Pharaoh waits. \"What then?\nWhat must I do, Hebrew?\"",
     choices: [
-      { text: "Continue with God's counsel", nextScene: "give_counsel", tag: "wise", feedback: "You give him the plan.", sentiment: "positive" },
+      { text: "Continue with God's counsel", nextScene: "give_counsel", tag: "wise", feedback: "You give him the plan.", isCorrect: true, sentiment: "positive" },
     ],
   },
   give_counsel: {
@@ -242,9 +242,9 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "A Wise Plan",
     text: "\"Find a wise man. Store one fifth\nof the grain in years of plenty.\"",
     choices: [
-      { text: "Name yourself for the role", nextScene: "self_consequence", tag: "proud", feedback: "Let the king choose.", sentiment: "negative" },
-      { text: "Leave the choice to Pharaoh", nextScene: "leave_choice", tag: "humble", feedback: "Humility honors God.", sentiment: "positive" },
-      { text: "Demand silver to share more", nextScene: "silver_consequence", tag: "greedy", feedback: "God gives freely.", sentiment: "negative" },
+      { text: "Name yourself for the role", nextScene: "self_consequence", tag: "proud", feedback: "Let the king choose.", isCorrect: false, sentiment: "negative" },
+      { text: "Leave the choice to Pharaoh", nextScene: "leave_choice", tag: "humble", feedback: "Humility honors God.", isCorrect: true, sentiment: "positive" },
+      { text: "Demand silver to share more", nextScene: "silver_consequence", tag: "greedy", feedback: "God gives freely.", isCorrect: false, sentiment: "negative" },
     ],
   },
   self_consequence: {
@@ -252,7 +252,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Quiet, Joseph",
     text: "Pharaoh tilts his head. Pride\nwould undo all you have said.",
     choices: [
-      { text: "Leave the choice to Pharaoh", nextScene: "leave_choice", tag: "humble", feedback: "You bow your head again.", sentiment: "positive" },
+      { text: "Leave the choice to Pharaoh", nextScene: "leave_choice", tag: "humble", feedback: "You bow your head again.", isCorrect: true, sentiment: "positive" },
     ],
   },
   silver_consequence: {
@@ -260,7 +260,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "No Price",
     text: "God's word is not for sale.\nYou feel shame for asking.",
     choices: [
-      { text: "Leave the choice to Pharaoh", nextScene: "leave_choice", tag: "humble", feedback: "You return to humility.", sentiment: "positive" },
+      { text: "Leave the choice to Pharaoh", nextScene: "leave_choice", tag: "humble", feedback: "You return to humility.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -270,8 +270,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "The King Decides",
     text: "Pharaoh stands. The court is silent.\n\"Can we find such a man?\"",
     choices: [
-      { text: "Wait quietly for his word", nextScene: "pharaoh_chooses", tag: "humble", feedback: "Calm trust on your face.", sentiment: "positive" },
-      { text: "Push your own name forward", nextScene: "push_consequence", tag: "proud", feedback: "Pride could ruin all.", sentiment: "negative" },
+      { text: "Wait quietly for his word", nextScene: "pharaoh_chooses", tag: "humble", feedback: "Calm trust on your face.", isCorrect: true, sentiment: "positive" },
+      { text: "Push your own name forward", nextScene: "push_consequence", tag: "proud", feedback: "Pride could ruin all.", isCorrect: false, sentiment: "negative" },
     ],
   },
   push_consequence: {
@@ -279,7 +279,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Hold Your Tongue",
     text: "The court murmurs. Pharaoh frowns.\nYou hold your peace at last.",
     choices: [
-      { text: "Wait quietly for his word", nextScene: "pharaoh_chooses", tag: "humble", feedback: "You yield to God's timing.", sentiment: "positive" },
+      { text: "Wait quietly for his word", nextScene: "pharaoh_chooses", tag: "humble", feedback: "You yield to God's timing.", isCorrect: true, sentiment: "positive" },
     ],
   },
   pharaoh_chooses: {
@@ -287,8 +287,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "God's Spirit",
     text: "\"Can we find one with God's Spirit\nlike this man? You shall rule.\"",
     choices: [
-      { text: "Refuse, you are unworthy", nextScene: "refuse2_consequence", tag: "fearful", feedback: "False humility is also pride.", sentiment: "negative" },
-      { text: "Bow and accept God's call", nextScene: "ring_given", tag: "faithful", feedback: "You receive what God gives.", sentiment: "positive" },
+      { text: "Refuse, you are unworthy", nextScene: "refuse2_consequence", tag: "fearful", feedback: "False humility is also pride.", isCorrect: false, sentiment: "negative" },
+      { text: "Bow and accept God's call", nextScene: "ring_given", tag: "faithful", feedback: "You receive what God gives.", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse2_consequence: {
@@ -296,7 +296,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "God's Hand",
     text: "Refusing the call is refusing God.\nThis door He has opened.",
     choices: [
-      { text: "Bow and accept God's call", nextScene: "ring_given", tag: "faithful", feedback: "You bow and rise as servant.", sentiment: "positive" },
+      { text: "Bow and accept God's call", nextScene: "ring_given", tag: "faithful", feedback: "You bow and rise as servant.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ring_given: {
@@ -304,8 +304,8 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "The Signet Ring",
     text: "Pharaoh slides his ring on you.\n\"None shall lift hand without you.\"",
     choices: [
-      { text: "Forget the God who lifted you", nextScene: "forget_consequence", tag: "unfaithful", feedback: "Never forget the Giver.", sentiment: "negative" },
-      { text: "Give thanks to God in your heart", nextScene: "ride_out", tag: "faithful", feedback: "All glory to the Lord.", sentiment: "positive" },
+      { text: "Forget the God who lifted you", nextScene: "forget_consequence", tag: "unfaithful", feedback: "Never forget the Giver.", isCorrect: false, sentiment: "negative" },
+      { text: "Give thanks to God in your heart", nextScene: "ride_out", tag: "faithful", feedback: "All glory to the Lord.", isCorrect: true, sentiment: "positive" },
     ],
   },
   forget_consequence: {
@@ -313,7 +313,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Remember Him",
     text: "The ring is heavy on your finger.\nThis honor is not your own.",
     choices: [
-      { text: "Give thanks to God in your heart", nextScene: "ride_out", tag: "faithful", feedback: "You bow inwardly to Him.", sentiment: "positive" },
+      { text: "Give thanks to God in your heart", nextScene: "ride_out", tag: "faithful", feedback: "You bow inwardly to Him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ride_out: {
@@ -321,9 +321,9 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Second Chariot",
     text: "You ride through Egypt's roads.\nMen bow as you pass.",
     choices: [
-      { text: "Plan revenge on your brothers", nextScene: "revenge_consequence", tag: "bitter", feedback: "Forgiveness will come.", sentiment: "negative" },
-      { text: "Plan to save God's people", nextScene: "ending", tag: "faithful", feedback: "You see God's larger purpose.", sentiment: "positive" },
-      { text: "Boast to all you meet", nextScene: "boast2_consequence", tag: "proud", feedback: "Stay humble in honor.", sentiment: "negative" },
+      { text: "Plan revenge on your brothers", nextScene: "revenge_consequence", tag: "bitter", feedback: "Forgiveness will come.", isCorrect: false, sentiment: "negative" },
+      { text: "Plan to save God's people", nextScene: "ending", tag: "faithful", feedback: "You see God's larger purpose.", isCorrect: true, sentiment: "positive" },
+      { text: "Boast to all you meet", nextScene: "boast2_consequence", tag: "proud", feedback: "Stay humble in honor.", isCorrect: false, sentiment: "negative" },
     ],
   },
   revenge_consequence: {
@@ -331,7 +331,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Not Yet",
     text: "That story is not yet told.\nGod has bigger plans here.",
     choices: [
-      { text: "Plan to save God's people", nextScene: "ending", tag: "faithful", feedback: "You set vengeance aside.", sentiment: "positive" },
+      { text: "Plan to save God's people", nextScene: "ending", tag: "faithful", feedback: "You set vengeance aside.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast2_consequence: {
@@ -339,7 +339,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "Stay Humble",
     text: "Pride could undo all of this.\nYou remember the prison floor.",
     choices: [
-      { text: "Plan to save God's people", nextScene: "ending", tag: "humble", feedback: "You ride on in quiet faith.", sentiment: "positive" },
+      { text: "Plan to save God's people", nextScene: "ending", tag: "humble", feedback: "You ride on in quiet faith.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ending: {

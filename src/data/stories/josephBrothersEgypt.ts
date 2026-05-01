@@ -15,9 +15,9 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Famine in the Land",
     text: "Foreigners come daily for grain.\nA new group bows before your dais.",
     choices: [
-      { text: "Wave them off, you are busy", nextScene: "wave_consequence", tag: "proud", feedback: "A vizier serves the people.", sentiment: "negative" },
-      { text: "Look closely at their faces", nextScene: "recognize", tag: "wise", feedback: "Your breath catches.", sentiment: "positive" },
-      { text: "Demand silver before listening", nextScene: "demand_consequence", tag: "greedy", feedback: "First hear them out.", sentiment: "negative" },
+      { text: "Wave them off, you are busy", nextScene: "wave_consequence", tag: "proud", feedback: "A vizier serves the people.", isCorrect: false, sentiment: "negative" },
+      { text: "Look closely at their faces", nextScene: "recognize", tag: "wise", feedback: "Your breath catches.", isCorrect: true, sentiment: "positive" },
+      { text: "Demand silver before listening", nextScene: "demand_consequence", tag: "greedy", feedback: "First hear them out.", isCorrect: false, sentiment: "negative" },
     ],
   },
   wave_consequence: {
@@ -25,7 +25,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Look Again",
     text: "Something pulls your eye back.\nThose beards, that posture…",
     choices: [
-      { text: "Look closely at their faces", nextScene: "recognize", tag: "wise", feedback: "You step down from the dais.", sentiment: "positive" },
+      { text: "Look closely at their faces", nextScene: "recognize", tag: "wise", feedback: "You step down from the dais.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -33,7 +33,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Steady Yourself",
     text: "Their voices reach you. Hebrew.\nYour heart begins to pound.",
     choices: [
-      { text: "Look closely at their faces", nextScene: "recognize", tag: "wise", feedback: "You finally see them.", sentiment: "positive" },
+      { text: "Look closely at their faces", nextScene: "recognize", tag: "wise", feedback: "You finally see them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   recognize: {
@@ -41,9 +41,9 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "It Is Them",
     text: "Reuben. Judah. Levi. All ten.\nThey do not know you.",
     choices: [
-      { text: "Reveal yourself in joy now", nextScene: "reveal_consequence", tag: "fearful", feedback: "Not yet — first their hearts.", sentiment: "negative" },
-      { text: "Hide your face and test them", nextScene: "hide_face", tag: "wise", feedback: "You must know if they have changed.", sentiment: "positive" },
-      { text: "Order their immediate arrest", nextScene: "arrest_consequence", tag: "bitter", feedback: "Vengeance is not your way.", sentiment: "negative" },
+      { text: "Reveal yourself in joy now", nextScene: "reveal_consequence", tag: "fearful", feedback: "Not yet — first their hearts.", isCorrect: false, sentiment: "negative" },
+      { text: "Hide your face and test them", nextScene: "hide_face", tag: "wise", feedback: "You must know if they have changed.", isCorrect: true, sentiment: "positive" },
+      { text: "Order their immediate arrest", nextScene: "arrest_consequence", tag: "bitter", feedback: "Vengeance is not your way.", isCorrect: false, sentiment: "negative" },
     ],
   },
   reveal_consequence: {
@@ -51,7 +51,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Too Soon",
     text: "Their hearts are not yet known.\nIs Benjamin safe? Is father alive?",
     choices: [
-      { text: "Hide your face and test them", nextScene: "hide_face", tag: "wise", feedback: "You compose yourself.", sentiment: "positive" },
+      { text: "Hide your face and test them", nextScene: "hide_face", tag: "wise", feedback: "You compose yourself.", isCorrect: true, sentiment: "positive" },
     ],
   },
   arrest_consequence: {
@@ -59,7 +59,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "A Cold Heart",
     text: "Anger burns — but God put you here\nfor more than revenge.",
     choices: [
-      { text: "Hide your face and test them", nextScene: "hide_face", tag: "wise", feedback: "You set vengeance aside.", sentiment: "positive" },
+      { text: "Hide your face and test them", nextScene: "hide_face", tag: "wise", feedback: "You set vengeance aside.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -69,8 +69,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "A Stranger's Voice",
     text: "Through an interpreter you speak harsh.\n\"Where do you come from?\"",
     choices: [
-      { text: "\"From Canaan, to buy food\"", nextScene: "spy_accusation", tag: "test", feedback: "They answer truly.", sentiment: "positive" },
-      { text: "Skip the test, give grain", nextScene: "skip_consequence", tag: "fearful", feedback: "First test their hearts.", sentiment: "negative" },
+      { text: "\"From Canaan, to buy food\"", nextScene: "spy_accusation", tag: "test", feedback: "They answer truly.", isCorrect: true, sentiment: "positive" },
+      { text: "Skip the test, give grain", nextScene: "skip_consequence", tag: "fearful", feedback: "First test their hearts.", isCorrect: false, sentiment: "negative" },
     ],
   },
   skip_consequence: {
@@ -78,7 +78,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Hold the Plan",
     text: "If you skip the test now,\nyou will never know their hearts.",
     choices: [
-      { text: "Continue the test in disguise", nextScene: "spy_accusation", tag: "wise", feedback: "You hold the line.", sentiment: "positive" },
+      { text: "Continue the test in disguise", nextScene: "spy_accusation", tag: "wise", feedback: "You hold the line.", isCorrect: true, sentiment: "positive" },
     ],
   },
   spy_accusation: {
@@ -86,8 +86,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "\"You Are Spies!\"",
     text: "You point and roar the word.\nThe brothers fall to their knees.",
     choices: [
-      { text: "Smile and admit the trick", nextScene: "smile_consequence", tag: "fearful", feedback: "Stay in character.", sentiment: "negative" },
-      { text: "Hold the accusation firmly", nextScene: "they_protest", tag: "test", feedback: "Pressure brings the truth.", sentiment: "positive" },
+      { text: "Smile and admit the trick", nextScene: "smile_consequence", tag: "fearful", feedback: "Stay in character.", isCorrect: false, sentiment: "negative" },
+      { text: "Hold the accusation firmly", nextScene: "they_protest", tag: "test", feedback: "Pressure brings the truth.", isCorrect: true, sentiment: "positive" },
     ],
   },
   smile_consequence: {
@@ -95,7 +95,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Mask On",
     text: "You must not soften yet.\nThe test is only beginning.",
     choices: [
-      { text: "Hold the accusation firmly", nextScene: "they_protest", tag: "test", feedback: "Your face hardens again.", sentiment: "positive" },
+      { text: "Hold the accusation firmly", nextScene: "they_protest", tag: "test", feedback: "Your face hardens again.", isCorrect: true, sentiment: "positive" },
     ],
   },
   they_protest: {
@@ -103,9 +103,9 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Their Defense",
     text: "\"We are twelve sons. One is no more.\nThe youngest is with our father.\"",
     choices: [
-      { text: "\"Bring the youngest to me\"", nextScene: "demand_benjamin", tag: "test", feedback: "The true test takes shape.", sentiment: "positive" },
-      { text: "Pretend to believe them", nextScene: "pretend_consequence", tag: "fearful", feedback: "The plan needs Benjamin.", sentiment: "negative" },
-      { text: "Mock their dead brother", nextScene: "mock_consequence", tag: "bitter", feedback: "That cruelty isn't you.", sentiment: "negative" },
+      { text: "\"Bring the youngest to me\"", nextScene: "demand_benjamin", tag: "test", feedback: "The true test takes shape.", isCorrect: true, sentiment: "positive" },
+      { text: "Pretend to believe them", nextScene: "pretend_consequence", tag: "fearful", feedback: "The plan needs Benjamin.", isCorrect: false, sentiment: "negative" },
+      { text: "Mock their dead brother", nextScene: "mock_consequence", tag: "bitter", feedback: "That cruelty isn't you.", isCorrect: false, sentiment: "negative" },
     ],
   },
   pretend_consequence: {
@@ -113,7 +113,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Steady",
     text: "Without Benjamin, the test fails.\nYou must press on.",
     choices: [
-      { text: "\"Bring the youngest to me\"", nextScene: "demand_benjamin", tag: "test", feedback: "You name the price.", sentiment: "positive" },
+      { text: "\"Bring the youngest to me\"", nextScene: "demand_benjamin", tag: "test", feedback: "You name the price.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -121,7 +121,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Bite Your Tongue",
     text: "Mocking the lost wounds father too.\nYou pull the words back.",
     choices: [
-      { text: "\"Bring the youngest to me\"", nextScene: "demand_benjamin", tag: "test", feedback: "You return to the plan.", sentiment: "positive" },
+      { text: "\"Bring the youngest to me\"", nextScene: "demand_benjamin", tag: "test", feedback: "You return to the plan.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -131,8 +131,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Three Days' Hold",
     text: "\"You will be held three days.\nThen one fetches the youngest.\"",
     choices: [
-      { text: "Lock them all in the chamber", nextScene: "three_days", tag: "test", feedback: "Time will speak.", sentiment: "positive" },
-      { text: "Free them with no condition", nextScene: "free_consequence", tag: "fearful", feedback: "The test must hold.", sentiment: "negative" },
+      { text: "Lock them all in the chamber", nextScene: "three_days", tag: "test", feedback: "Time will speak.", isCorrect: true, sentiment: "positive" },
+      { text: "Free them with no condition", nextScene: "free_consequence", tag: "fearful", feedback: "The test must hold.", isCorrect: false, sentiment: "negative" },
     ],
   },
   free_consequence: {
@@ -140,7 +140,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Hold the Line",
     text: "Without pressure, the truth hides.\nThree days will reveal much.",
     choices: [
-      { text: "Lock them all in the chamber", nextScene: "three_days", tag: "test", feedback: "You give the order.", sentiment: "positive" },
+      { text: "Lock them all in the chamber", nextScene: "three_days", tag: "test", feedback: "You give the order.", isCorrect: true, sentiment: "positive" },
     ],
   },
   three_days: {
@@ -148,8 +148,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Third Morning",
     text: "Three days have weighed on them.\nNow you offer a softer terms.",
     choices: [
-      { text: "Demand all stay, send one", nextScene: "all_stay_consequence", tag: "harsh", feedback: "Their families would starve.", sentiment: "negative" },
-      { text: "Keep one, send the rest with grain", nextScene: "keep_one", tag: "wise", feedback: "Mercy mixed with the test.", sentiment: "positive" },
+      { text: "Demand all stay, send one", nextScene: "all_stay_consequence", tag: "harsh", feedback: "Their families would starve.", isCorrect: false, sentiment: "negative" },
+      { text: "Keep one, send the rest with grain", nextScene: "keep_one", tag: "wise", feedback: "Mercy mixed with the test.", isCorrect: true, sentiment: "positive" },
     ],
   },
   all_stay_consequence: {
@@ -157,7 +157,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Be Just",
     text: "Their wives and children would die.\nGod would not honor that.",
     choices: [
-      { text: "Keep one, send the rest with grain", nextScene: "keep_one", tag: "wise", feedback: "You temper the test.", sentiment: "positive" },
+      { text: "Keep one, send the rest with grain", nextScene: "keep_one", tag: "wise", feedback: "You temper the test.", isCorrect: true, sentiment: "positive" },
     ],
   },
   keep_one: {
@@ -165,8 +165,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Their Confession",
     text: "They speak among themselves, not knowing\nyou understand every word.",
     choices: [
-      { text: "Plug your ears, ignore it", nextScene: "ignore_consequence", tag: "fearful", feedback: "These words matter.", sentiment: "negative" },
-      { text: "Listen quietly to their words", nextScene: "overhear", tag: "wise", feedback: "You strain to hear.", sentiment: "positive" },
+      { text: "Plug your ears, ignore it", nextScene: "ignore_consequence", tag: "fearful", feedback: "These words matter.", isCorrect: false, sentiment: "negative" },
+      { text: "Listen quietly to their words", nextScene: "overhear", tag: "wise", feedback: "You strain to hear.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ignore_consequence: {
@@ -174,7 +174,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Listen",
     text: "These are the words you waited\ntwenty years to hear.",
     choices: [
-      { text: "Listen quietly to their words", nextScene: "overhear", tag: "wise", feedback: "Your heart stops.", sentiment: "positive" },
+      { text: "Listen quietly to their words", nextScene: "overhear", tag: "wise", feedback: "Your heart stops.", isCorrect: true, sentiment: "positive" },
     ],
   },
   overhear: {
@@ -182,8 +182,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "\"This Is For Joseph\"",
     text: "\"We sinned against our brother.\nWe saw his anguish and would not hear.\"",
     choices: [
-      { text: "Show your tears in front of them", nextScene: "tears_open_consequence", tag: "fearful", feedback: "They must not see, yet.", sentiment: "negative" },
-      { text: "Turn aside and weep alone", nextScene: "weep_alone", tag: "faithful", feedback: "Tears in the shadow.", sentiment: "positive" },
+      { text: "Show your tears in front of them", nextScene: "tears_open_consequence", tag: "fearful", feedback: "They must not see, yet.", isCorrect: false, sentiment: "negative" },
+      { text: "Turn aside and weep alone", nextScene: "weep_alone", tag: "faithful", feedback: "Tears in the shadow.", isCorrect: true, sentiment: "positive" },
     ],
   },
   tears_open_consequence: {
@@ -191,7 +191,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Not Yet",
     text: "They would see and the test\nwould be undone too soon.",
     choices: [
-      { text: "Turn aside and weep alone", nextScene: "weep_alone", tag: "faithful", feedback: "You step into shadow.", sentiment: "positive" },
+      { text: "Turn aside and weep alone", nextScene: "weep_alone", tag: "faithful", feedback: "You step into shadow.", isCorrect: true, sentiment: "positive" },
     ],
   },
   weep_alone: {
@@ -199,8 +199,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Choose Simeon",
     text: "You return composed. Now choose\nwhich brother to hold.",
     choices: [
-      { text: "Bind Reuben, the eldest", nextScene: "reuben_consequence", tag: "harsh", feedback: "Reuben tried to save you.", sentiment: "negative" },
-      { text: "Bind Simeon before their eyes", nextScene: "bind_simeon", tag: "wise", feedback: "The fierce one — fitting.", sentiment: "positive" },
+      { text: "Bind Reuben, the eldest", nextScene: "reuben_consequence", tag: "harsh", feedback: "Reuben tried to save you.", isCorrect: false, sentiment: "negative" },
+      { text: "Bind Simeon before their eyes", nextScene: "bind_simeon", tag: "wise", feedback: "The fierce one — fitting.", isCorrect: true, sentiment: "positive" },
     ],
   },
   reuben_consequence: {
@@ -208,7 +208,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Not Reuben",
     text: "Reuben spoke for you long ago.\nLet justice fall on another.",
     choices: [
-      { text: "Bind Simeon before their eyes", nextScene: "bind_simeon", tag: "wise", feedback: "Simeon it is.", sentiment: "positive" },
+      { text: "Bind Simeon before their eyes", nextScene: "bind_simeon", tag: "wise", feedback: "Simeon it is.", isCorrect: true, sentiment: "positive" },
     ],
   },
   bind_simeon: {
@@ -216,8 +216,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Simeon Bound",
     text: "Ropes circle his wrists. He goes\nwithout protest. The brothers pale.",
     choices: [
-      { text: "Order their sacks filled with grain", nextScene: "fill_sacks", tag: "kind", feedback: "Mercy under the mask.", sentiment: "positive" },
-      { text: "Send them empty, to teach a lesson", nextScene: "empty_consequence", tag: "harsh", feedback: "Their families would starve.", sentiment: "negative" },
+      { text: "Order their sacks filled with grain", nextScene: "fill_sacks", tag: "kind", feedback: "Mercy under the mask.", isCorrect: true, sentiment: "positive" },
+      { text: "Send them empty, to teach a lesson", nextScene: "empty_consequence", tag: "harsh", feedback: "Their families would starve.", isCorrect: false, sentiment: "negative" },
     ],
   },
   empty_consequence: {
@@ -225,7 +225,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Mercy Returns",
     text: "Famine kills children too.\nGive them what they came for.",
     choices: [
-      { text: "Order their sacks filled with grain", nextScene: "fill_sacks", tag: "kind", feedback: "You restore the order.", sentiment: "positive" },
+      { text: "Order their sacks filled with grain", nextScene: "fill_sacks", tag: "kind", feedback: "You restore the order.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -235,9 +235,9 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Silver Returned",
     text: "You whisper to the steward:\n\"Put each man's silver back in his sack.\"",
     choices: [
-      { text: "Take the silver as fair pay", nextScene: "silver_consequence", tag: "greedy", feedback: "It must go back.", sentiment: "negative" },
-      { text: "Hide it deep within the grain", nextScene: "silver_hidden", tag: "kind", feedback: "A secret gift.", sentiment: "positive" },
-      { text: "Toss it openly into their cart", nextScene: "open_consequence", tag: "fearful", feedback: "It must be hidden.", sentiment: "negative" },
+      { text: "Take the silver as fair pay", nextScene: "silver_consequence", tag: "greedy", feedback: "It must go back.", isCorrect: false, sentiment: "negative" },
+      { text: "Hide it deep within the grain", nextScene: "silver_hidden", tag: "kind", feedback: "A secret gift.", isCorrect: true, sentiment: "positive" },
+      { text: "Toss it openly into their cart", nextScene: "open_consequence", tag: "fearful", feedback: "It must be hidden.", isCorrect: false, sentiment: "negative" },
     ],
   },
   silver_consequence: {
@@ -245,7 +245,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "No Profit",
     text: "You will not take from your father's house.\nReturn it in secret.",
     choices: [
-      { text: "Hide it deep within the grain", nextScene: "silver_hidden", tag: "kind", feedback: "You command it done.", sentiment: "positive" },
+      { text: "Hide it deep within the grain", nextScene: "silver_hidden", tag: "kind", feedback: "You command it done.", isCorrect: true, sentiment: "positive" },
     ],
   },
   open_consequence: {
@@ -253,7 +253,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Hidden, Not Open",
     text: "An open gift would frighten them.\nBetter discovered later.",
     choices: [
-      { text: "Hide it deep within the grain", nextScene: "silver_hidden", tag: "kind", feedback: "Secret it is.", sentiment: "positive" },
+      { text: "Hide it deep within the grain", nextScene: "silver_hidden", tag: "kind", feedback: "Secret it is.", isCorrect: true, sentiment: "positive" },
     ],
   },
   silver_hidden: {
@@ -261,8 +261,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Provision for the Road",
     text: "The steward also packs food\nfor the long journey home.",
     choices: [
-      { text: "Send them off with no warning", nextScene: "no_warning_consequence", tag: "harsh", feedback: "Repeat the terms once more.", sentiment: "negative" },
-      { text: "Repeat: bring the youngest back", nextScene: "send_off", tag: "test", feedback: "The condition is set.", sentiment: "positive" },
+      { text: "Send them off with no warning", nextScene: "no_warning_consequence", tag: "harsh", feedback: "Repeat the terms once more.", isCorrect: false, sentiment: "negative" },
+      { text: "Repeat: bring the youngest back", nextScene: "send_off", tag: "test", feedback: "The condition is set.", isCorrect: true, sentiment: "positive" },
     ],
   },
   no_warning_consequence: {
@@ -270,7 +270,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Make It Clear",
     text: "If they forget the terms,\nthe test cannot be completed.",
     choices: [
-      { text: "Repeat: bring the youngest back", nextScene: "send_off", tag: "test", feedback: "You speak it firmly.", sentiment: "positive" },
+      { text: "Repeat: bring the youngest back", nextScene: "send_off", tag: "test", feedback: "You speak it firmly.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -280,8 +280,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "They Depart",
     text: "Donkeys laden, the nine ride out.\nFrom your window, you watch.",
     choices: [
-      { text: "Run after them and confess all", nextScene: "run_consequence", tag: "fearful", feedback: "The test must finish.", sentiment: "negative" },
-      { text: "Pray for their safe return", nextScene: "first_camp", tag: "faithful", feedback: "May God bring them back.", sentiment: "positive" },
+      { text: "Run after them and confess all", nextScene: "run_consequence", tag: "fearful", feedback: "The test must finish.", isCorrect: false, sentiment: "negative" },
+      { text: "Pray for their safe return", nextScene: "first_camp", tag: "faithful", feedback: "May God bring them back.", isCorrect: true, sentiment: "positive" },
     ],
   },
   run_consequence: {
@@ -289,7 +289,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Hold the Plan",
     text: "Father's heart, Benjamin's safety —\nthe test must be finished.",
     choices: [
-      { text: "Pray for their safe return", nextScene: "first_camp", tag: "faithful", feedback: "You bow your head.", sentiment: "positive" },
+      { text: "Pray for their safe return", nextScene: "first_camp", tag: "faithful", feedback: "You bow your head.", isCorrect: true, sentiment: "positive" },
     ],
   },
   first_camp: {
@@ -297,7 +297,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Camp at Dusk",
     text: "Far away, the brothers stop.\nOne opens his sack for grain.",
     choices: [
-      { text: "Silver gleams atop the grain", nextScene: "silver_found", tag: "test", feedback: "Their faces drain white.", sentiment: "positive" },
+      { text: "Silver gleams atop the grain", nextScene: "silver_found", tag: "test", feedback: "Their faces drain white.", isCorrect: true, sentiment: "positive" },
     ],
   },
   silver_found: {
@@ -305,7 +305,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "\"What Has God Done?\"",
     text: "They tremble. \"What is this God\nhas done to us?\" they cry.",
     choices: [
-      { text: "They will turn back in panic", nextScene: "press_on", tag: "test", feedback: "Famine forces them home.", sentiment: "positive" },
+      { text: "They will turn back in panic", nextScene: "press_on", tag: "test", feedback: "Famine forces them home.", isCorrect: true, sentiment: "positive" },
     ],
   },
   press_on: {
@@ -313,8 +313,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Onward to Canaan",
     text: "Fear pushes them home.\nFather is waiting.",
     choices: [
-      { text: "Hide the truth from Jacob", nextScene: "hide_consequence", tag: "fearful", feedback: "Truth must be told.", sentiment: "negative" },
-      { text: "Tell Jacob everything plainly", nextScene: "tell_jacob", tag: "honest", feedback: "Honesty, even when hard.", sentiment: "positive" },
+      { text: "Hide the truth from Jacob", nextScene: "hide_consequence", tag: "fearful", feedback: "Truth must be told.", isCorrect: false, sentiment: "negative" },
+      { text: "Tell Jacob everything plainly", nextScene: "tell_jacob", tag: "honest", feedback: "Honesty, even when hard.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -322,7 +322,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Speak True",
     text: "Father will see the missing son.\nA lie will only deepen the pain.",
     choices: [
-      { text: "Tell Jacob everything plainly", nextScene: "tell_jacob", tag: "honest", feedback: "They steady themselves.", sentiment: "positive" },
+      { text: "Tell Jacob everything plainly", nextScene: "tell_jacob", tag: "honest", feedback: "They steady themselves.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -332,9 +332,9 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Father Hears",
     text: "Jacob's hand trembles at his chest.\n\"Joseph is gone. Simeon now too…\"",
     choices: [
-      { text: "Promise to bring Benjamin", nextScene: "promise_jacob", tag: "responsible", feedback: "Reuben pledges his sons.", sentiment: "positive" },
-      { text: "Argue and shout at father", nextScene: "argue_consequence", tag: "harsh", feedback: "Patience with the grieving.", sentiment: "negative" },
-      { text: "Walk away in frustration", nextScene: "walk_consequence", tag: "fearful", feedback: "Stay with him.", sentiment: "negative" },
+      { text: "Promise to bring Benjamin", nextScene: "promise_jacob", tag: "responsible", feedback: "Reuben pledges his sons.", isCorrect: true, sentiment: "positive" },
+      { text: "Argue and shout at father", nextScene: "argue_consequence", tag: "harsh", feedback: "Patience with the grieving.", isCorrect: false, sentiment: "negative" },
+      { text: "Walk away in frustration", nextScene: "walk_consequence", tag: "fearful", feedback: "Stay with him.", isCorrect: false, sentiment: "negative" },
     ],
   },
   argue_consequence: {
@@ -342,7 +342,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Be Gentle",
     text: "Shouting will not heal a father\nwho has buried a son in his heart.",
     choices: [
-      { text: "Promise to bring Benjamin", nextScene: "promise_jacob", tag: "responsible", feedback: "You soften your voice.", sentiment: "positive" },
+      { text: "Promise to bring Benjamin", nextScene: "promise_jacob", tag: "responsible", feedback: "You soften your voice.", isCorrect: true, sentiment: "positive" },
     ],
   },
   walk_consequence: {
@@ -350,7 +350,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Stay With Him",
     text: "Leaving solves nothing.\nFather needs a steady son now.",
     choices: [
-      { text: "Promise to bring Benjamin", nextScene: "promise_jacob", tag: "responsible", feedback: "You return to his side.", sentiment: "positive" },
+      { text: "Promise to bring Benjamin", nextScene: "promise_jacob", tag: "responsible", feedback: "You return to his side.", isCorrect: true, sentiment: "positive" },
     ],
   },
   promise_jacob: {
@@ -358,8 +358,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Jacob Refuses",
     text: "\"My son shall not go down with you.\"\nThe grain bag empties slowly.",
     choices: [
-      { text: "Force the journey now", nextScene: "force_consequence", tag: "harsh", feedback: "Wait for the famine to speak.", sentiment: "negative" },
-      { text: "Wait until the grain runs out", nextScene: "wait_famine", tag: "patient", feedback: "Hunger will move his hand.", sentiment: "positive" },
+      { text: "Force the journey now", nextScene: "force_consequence", tag: "harsh", feedback: "Wait for the famine to speak.", isCorrect: false, sentiment: "negative" },
+      { text: "Wait until the grain runs out", nextScene: "wait_famine", tag: "patient", feedback: "Hunger will move his hand.", isCorrect: true, sentiment: "positive" },
     ],
   },
   force_consequence: {
@@ -367,7 +367,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Patience",
     text: "Father will not be forced.\nGod's time will come.",
     choices: [
-      { text: "Wait until the grain runs out", nextScene: "wait_famine", tag: "patient", feedback: "You bow and wait.", sentiment: "positive" },
+      { text: "Wait until the grain runs out", nextScene: "wait_famine", tag: "patient", feedback: "You bow and wait.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -377,8 +377,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Sacks Run Empty",
     text: "Weeks pass. The last grain is gone.\nFather summons his sons.",
     choices: [
-      { text: "Stay silent and let Reuben speak", nextScene: "judah_speaks", tag: "wise", feedback: "Judah steps forward instead.", sentiment: "positive" },
-      { text: "Boast you can fix it alone", nextScene: "boast_consequence", tag: "proud", feedback: "Pride helps no one.", sentiment: "negative" },
+      { text: "Stay silent and let Reuben speak", nextScene: "judah_speaks", tag: "wise", feedback: "Judah steps forward instead.", isCorrect: true, sentiment: "positive" },
+      { text: "Boast you can fix it alone", nextScene: "boast_consequence", tag: "proud", feedback: "Pride helps no one.", isCorrect: false, sentiment: "negative" },
     ],
   },
   boast_consequence: {
@@ -386,7 +386,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Quiet, Brother",
     text: "Father needs a pledge, not a boast.\nLet Judah speak.",
     choices: [
-      { text: "Stay silent and let Judah speak", nextScene: "judah_speaks", tag: "wise", feedback: "You step back.", sentiment: "positive" },
+      { text: "Stay silent and let Judah speak", nextScene: "judah_speaks", tag: "wise", feedback: "You step back.", isCorrect: true, sentiment: "positive" },
     ],
   },
   judah_speaks: {
@@ -394,8 +394,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Judah's Pledge",
     text: "\"Send the boy with me. I will be\nsurety. On me alone the blame.\"",
     choices: [
-      { text: "Mock Judah's pledge", nextScene: "mock_judah_consequence", tag: "bitter", feedback: "His pledge is a true one.", sentiment: "negative" },
-      { text: "Father weighs it in silence", nextScene: "father_relents", tag: "patient", feedback: "Jacob's eyes close in pain.", sentiment: "positive" },
+      { text: "Mock Judah's pledge", nextScene: "mock_judah_consequence", tag: "bitter", feedback: "His pledge is a true one.", isCorrect: false, sentiment: "negative" },
+      { text: "Father weighs it in silence", nextScene: "father_relents", tag: "patient", feedback: "Jacob's eyes close in pain.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_judah_consequence: {
@@ -403,7 +403,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Hush",
     text: "This is the moment of pledge.\nDo not break it with mockery.",
     choices: [
-      { text: "Father weighs it in silence", nextScene: "father_relents", tag: "patient", feedback: "Quiet returns.", sentiment: "positive" },
+      { text: "Father weighs it in silence", nextScene: "father_relents", tag: "patient", feedback: "Quiet returns.", isCorrect: true, sentiment: "positive" },
     ],
   },
   father_relents: {
@@ -411,8 +411,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "\"If I Am Bereaved…\"",
     text: "\"Take double silver. Take a gift.\nAnd may God Almighty give you mercy.\"",
     choices: [
-      { text: "Pack only what is required", nextScene: "stingy_consequence", tag: "fearful", feedback: "Father said double — and a gift.", sentiment: "negative" },
-      { text: "Prepare double silver and a gift", nextScene: "preparation", tag: "obedient", feedback: "Honey, balm, almonds, spices.", sentiment: "positive" },
+      { text: "Pack only what is required", nextScene: "stingy_consequence", tag: "fearful", feedback: "Father said double — and a gift.", isCorrect: false, sentiment: "negative" },
+      { text: "Prepare double silver and a gift", nextScene: "preparation", tag: "obedient", feedback: "Honey, balm, almonds, spices.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stingy_consequence: {
@@ -420,7 +420,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Honor Father",
     text: "Father has spoken with care.\nObey him in full.",
     choices: [
-      { text: "Prepare double silver and a gift", nextScene: "preparation", tag: "obedient", feedback: "You honor his word.", sentiment: "positive" },
+      { text: "Prepare double silver and a gift", nextScene: "preparation", tag: "obedient", feedback: "You honor his word.", isCorrect: true, sentiment: "positive" },
     ],
   },
   preparation: {
@@ -428,8 +428,8 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Donkeys Loaded",
     text: "Benjamin tightens his sash.\nThe road south waits in the dust.",
     choices: [
-      { text: "Set out without praying", nextScene: "no_pray_consequence", tag: "unfaithful", feedback: "Begin in God's hand.", sentiment: "negative" },
-      { text: "Bow with father in prayer", nextScene: "ending", tag: "faithful", feedback: "\"God Almighty, give us mercy.\"", sentiment: "positive" },
+      { text: "Set out without praying", nextScene: "no_pray_consequence", tag: "unfaithful", feedback: "Begin in God's hand.", isCorrect: false, sentiment: "negative" },
+      { text: "Bow with father in prayer", nextScene: "ending", tag: "faithful", feedback: "\"God Almighty, give us mercy.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   no_pray_consequence: {
@@ -437,7 +437,7 @@ export const josephBrothersEgyptScenes: Record<string, StoryScene> = {
     title: "Pray First",
     text: "Egypt is far. The vizier is harsh.\nAsk God's mercy now.",
     choices: [
-      { text: "Bow with father in prayer", nextScene: "ending", tag: "faithful", feedback: "You kneel together.", sentiment: "positive" },
+      { text: "Bow with father in prayer", nextScene: "ending", tag: "faithful", feedback: "You kneel together.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ending: {
