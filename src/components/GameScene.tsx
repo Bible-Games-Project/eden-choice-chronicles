@@ -98,8 +98,6 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
     // CORE RULE: color is determined ONLY by the clicked choice's explicit correctness.
     // isCorrect true => correct (GREEN), isCorrect false/absent => incorrect (RED).
-    const isCorrect = isChoiceCorrect(choice);
-
     setClickedIndex(index);
 
     onChoice(choice);
