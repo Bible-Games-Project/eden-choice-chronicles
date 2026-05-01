@@ -36,6 +36,8 @@ const FINAL_BUTTON_DELAY = STAGGER_DELAYS[0] ?? 2.5;
 const getStaggerDelay = (index: number) =>
   STAGGER_DELAYS[index] ?? STAGGER_DELAYS[STAGGER_DELAYS.length - 1];
 
+const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
+
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false }: GameSceneProps) => {
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedSentiment, setClickedSentiment] = useState<ChoiceSentiment | null>(null);
@@ -97,9 +99,9 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
 
-    // CORE RULE: color is determined ONLY by the clicked choice's own correctness.
-    // sentiment "positive" => correct (GREEN), anything else => incorrect (RED).
-    const isCorrect = choice.sentiment === "positive";
+    // CORE RULE: color is determined ONLY by the clicked choice's explicit correctness.
+    // isCorrect true => correct (GREEN), isCorrect false/absent => incorrect (RED).
+    const isCorrect = isChoiceCorrect(choice);
     const sentiment: ChoiceSentiment = isCorrect ? "positive" : "negative";
 
     setClickedIndex(index);
@@ -153,8 +155,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
           {choices.map((choice, i) => {
             const isClicked = clickedIndex === i;
-            // Derive color from the CLICKED choice's own correctness — never from index/position.
-            const clickedIsCorrect = isClicked && choice.sentiment === "positive";
+            // Derive color from the CLICKED choice's explicit correctness — never from index/position.
+            const clickedIsCorrect = isClicked && isChoiceCorrect(choice);
             const clickedSent: ChoiceSentiment | null = isClicked
               ? (clickedIsCorrect ? "positive" : "negative")
               : null;
