@@ -97,11 +97,15 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
 
-    const sentiment = choice.sentiment || "negative";
+    // CORE RULE: color is determined ONLY by the clicked choice's own correctness.
+    // sentiment "positive" => correct (GREEN), anything else => incorrect (RED).
+    const isCorrect = choice.sentiment === "positive";
+    const sentiment: ChoiceSentiment = isCorrect ? "positive" : "negative";
+
     setClickedIndex(index);
     setClickedSentiment(sentiment);
 
-    const shift = sentiment === "positive" ? 0.12 : sentiment === "negative" ? -0.15 : 0;
+    const shift = isCorrect ? 0.12 : -0.15;
     setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
 
     onChoice(choice);
@@ -149,8 +153,13 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
           {choices.map((choice, i) => {
             const isClicked = clickedIndex === i;
-            const flashBg = isClicked && clickedSentiment ? SENTIMENT_COLORS[clickedSentiment] : undefined;
-            const flashBorder = isClicked && clickedSentiment ? SENTIMENT_BORDER[clickedSentiment] : undefined;
+            // Derive color from the CLICKED choice's own correctness — never from index/position.
+            const clickedIsCorrect = isClicked && choice.sentiment === "positive";
+            const clickedSent: ChoiceSentiment | null = isClicked
+              ? (clickedIsCorrect ? "positive" : "negative")
+              : null;
+            const flashBg = clickedSent ? SENTIMENT_COLORS[clickedSent] : undefined;
+            const flashBorder = clickedSent ? SENTIMENT_BORDER[clickedSent] : undefined;
             const isVisible = buttonsVisible[i] ?? false;
             const isReady = buttonsReady[i] ?? false;
 
