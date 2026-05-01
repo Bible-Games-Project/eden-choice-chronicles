@@ -97,11 +97,15 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
 
-    const sentiment = choice.sentiment || "negative";
+    // CORE RULE: color is determined ONLY by the clicked choice's own correctness.
+    // sentiment "positive" => correct (GREEN), anything else => incorrect (RED).
+    const isCorrect = choice.sentiment === "positive";
+    const sentiment: ChoiceSentiment = isCorrect ? "positive" : "negative";
+
     setClickedIndex(index);
     setClickedSentiment(sentiment);
 
-    const shift = sentiment === "positive" ? 0.12 : sentiment === "negative" ? -0.15 : 0;
+    const shift = isCorrect ? 0.12 : -0.15;
     setAtmosphereShift(prev => Math.max(-1, Math.min(1, prev + shift)));
 
     onChoice(choice);
