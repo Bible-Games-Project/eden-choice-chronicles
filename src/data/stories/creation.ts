@@ -5,7 +5,7 @@ export interface StoryChoice {
   nextScene: string;
   tag?: string;
   feedback?: string;
-  isCorrect?: boolean;
+  isCorrect: boolean;
   sentiment?: ChoiceSentiment;
 }
 
