@@ -17,10 +17,10 @@ interface GameSceneProps {
   isTransitioning?: boolean;
 }
 
-const CORRECT_BG = "rgba(74, 222, 128, 0.35)";
-const INCORRECT_BG = "rgba(248, 113, 113, 0.30)";
-const CORRECT_BORDER = "rgba(74, 222, 128, 0.7)";
-const INCORRECT_BORDER = "rgba(248, 113, 113, 0.6)";
+const CORRECT_BG = "rgba(34, 197, 94, 0.85)";
+const INCORRECT_BG = "rgba(239, 68, 68, 0.85)";
+const CORRECT_BORDER = "rgba(74, 222, 128, 1)";
+const INCORRECT_BORDER = "rgba(248, 113, 113, 1)";
 
 // Stagger delays per button index (seconds)
 const STAGGER_DELAYS = [2.0, 2.5, 3.0];
