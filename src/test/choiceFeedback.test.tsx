@@ -27,8 +27,8 @@ import { birthMosesScenes } from "@/data/stories/birthMoses";
 import { mosesFleesScenes } from "@/data/stories/mosesFlees";
 import { burningBushScenes } from "@/data/stories/burningBush";
 
-const GREEN_BG = "rgba(74, 222, 128, 0.35)";
-const RED_BG = "rgba(248, 113, 113, 0.30)";
+const GREEN_BG = "rgba(34, 197, 94, 0.85)";
+const RED_BG = "rgba(239, 68, 68, 0.85)";
 
 const allStories = {
   creation: creationScenes,
