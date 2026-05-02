@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { StoryChoice, ChoiceSentiment } from "@/data/stories/creation";
+import { StoryChoice } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
 import { useCallback, useEffect, useState } from "react";
 
@@ -17,15 +17,10 @@ interface GameSceneProps {
   isTransitioning?: boolean;
 }
 
-const SENTIMENT_COLORS: Record<ChoiceSentiment, string> = {
-  positive: "rgba(74, 222, 128, 0.35)",
-  negative: "rgba(248, 113, 113, 0.30)",
-};
-
-const SENTIMENT_BORDER: Record<ChoiceSentiment, string> = {
-  positive: "rgba(74, 222, 128, 0.7)",
-  negative: "rgba(248, 113, 113, 0.6)",
-};
+const CORRECT_BG = "rgba(74, 222, 128, 0.35)";
+const INCORRECT_BG = "rgba(248, 113, 113, 0.30)";
+const CORRECT_BORDER = "rgba(74, 222, 128, 0.7)";
+const INCORRECT_BORDER = "rgba(248, 113, 113, 0.6)";
 
 // Stagger delays per button index (seconds)
 const STAGGER_DELAYS = [2.0, 2.5, 3.0];
@@ -37,9 +32,11 @@ const getStaggerDelay = (index: number) =>
   STAGGER_DELAYS[index] ?? STAGGER_DELAYS[STAGGER_DELAYS.length - 1];
 
 const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
+const getFeedbackColor = (isCorrect: boolean) => isCorrect ? CORRECT_BG : INCORRECT_BG;
 
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false }: GameSceneProps) => {
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
+  const [clickedIsCorrect, setClickedIsCorrect] = useState<boolean | null>(null);
   const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
   const [buttonsReady, setButtonsReady] = useState<boolean[]>([]);
   const [finalButtonVisible, setFinalButtonVisible] = useState(false);
@@ -47,11 +44,12 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
   useEffect(() => {
     setClickedIndex(null);
+    setClickedIsCorrect(null);
     setButtonsVisible(choices.map(() => false));
     setButtonsReady(choices.map(() => false));
     setFinalButtonVisible(false);
     setFinalButtonReady(false);
-  }, [choices, stepCount, text]);
+  }, [stepCount, text]);
 
   useEffect(() => {
     if (isTransitioning) return;
@@ -96,9 +94,17 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
 
-    // CORE RULE: color is determined ONLY by the clicked choice's explicit correctness.
-    // isCorrect true => correct (GREEN), isCorrect false/absent => incorrect (RED).
+    const nextIsCorrect = isChoiceCorrect(choice);
+    const finalUIColor = getFeedbackColor(nextIsCorrect);
+
     setClickedIndex(index);
+    setClickedIsCorrect(nextIsCorrect);
+
+    console.log("[answer-feedback]", {
+      clickedAnswerText: choice.text,
+      isCorrect: nextIsCorrect,
+      finalUIColor,
+    });
 
     onChoice(choice);
   }, [clickedIndex, isTransitioning, onChoice]);
@@ -145,13 +151,12 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         <div className={`flex flex-col ${compact ? "gap-1.5" : "gap-2.5"}`}>
           {choices.map((choice, i) => {
             const isClicked = clickedIndex === i;
-            // Derive color from the CLICKED choice's explicit correctness — never from index/position.
-            const clickedIsCorrect = isClicked && isChoiceCorrect(choice);
-            const clickedSent: ChoiceSentiment | null = isClicked
-              ? (clickedIsCorrect ? "positive" : "negative")
-              : null;
-            const flashBg = clickedSent ? SENTIMENT_COLORS[clickedSent] : undefined;
-            const flashBorder = clickedSent ? SENTIMENT_BORDER[clickedSent] : undefined;
+            const flashBg = isClicked && clickedIsCorrect !== null
+              ? getFeedbackColor(clickedIsCorrect)
+              : undefined;
+            const flashBorder = isClicked && clickedIsCorrect !== null
+              ? (clickedIsCorrect ? CORRECT_BORDER : INCORRECT_BORDER)
+              : undefined;
             const isVisible = buttonsVisible[i] ?? false;
             const isReady = buttonsReady[i] ?? false;
 
