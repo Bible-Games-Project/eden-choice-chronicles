@@ -209,7 +209,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
 
 const SCENE_TRANSITION_FADE_MS = 500;
 const SCENE_TRANSITION_HOLD_MS = 100;
-const SCENE_FEEDBACK_DELAY_MS = 150;
+const SCENE_FEEDBACK_DELAY_MS = 900;
 const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 
 const Index = () => {
