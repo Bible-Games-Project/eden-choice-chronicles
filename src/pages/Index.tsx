@@ -102,6 +102,10 @@ import { burningBushScenes } from "@/data/stories/burningBush";
 import { burningBushImages } from "@/data/stories/burningBushImages";
 import { burningBushSprites } from "@/data/stories/burningBushSprites";
 import { burningBushEffects } from "@/data/stories/burningBushEffects";
+import { mosesPharaohScenes } from "@/data/stories/mosesPharaoh";
+import { mosesPharaohImages } from "@/data/stories/mosesPharaohImages";
+import { mosesPharaohSprites } from "@/data/stories/mosesPharaohSprites";
+import { mosesPharaohEffects } from "@/data/stories/mosesPharaohEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -130,6 +134,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "birth-moses": birthMosesScenes,
   "moses-flees": mosesFleesScenes,
   "burning-bush": burningBushScenes,
+  "moses-pharaoh": mosesPharaohScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -205,6 +210,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "birth-moses": birthMosesEffects,
   "moses-flees": mosesFleesEffects,
   "burning-bush": burningBushEffects,
+  "moses-pharaoh": mosesPharaohEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
