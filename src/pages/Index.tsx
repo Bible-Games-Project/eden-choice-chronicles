@@ -160,6 +160,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "birth-moses": birthMosesImages,
   "moses-flees": mosesFleesImages,
   "burning-bush": burningBushImages,
+  "moses-pharaoh": mosesPharaohImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -185,6 +186,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "birth-moses": birthMosesSprites,
   "moses-flees": mosesFleesSprites,
   "burning-bush": burningBushSprites,
+  "moses-pharaoh": mosesPharaohSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
