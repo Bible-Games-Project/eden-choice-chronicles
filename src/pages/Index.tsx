@@ -106,6 +106,10 @@ import { mosesPharaohScenes } from "@/data/stories/mosesPharaoh";
 import { mosesPharaohImages } from "@/data/stories/mosesPharaohImages";
 import { mosesPharaohSprites } from "@/data/stories/mosesPharaohSprites";
 import { mosesPharaohEffects } from "@/data/stories/mosesPharaohEffects";
+import { plaguesScenes } from "@/data/stories/plagues";
+import { plaguesImages } from "@/data/stories/plaguesImages";
+import { plaguesSprites } from "@/data/stories/plaguesSprites";
+import { plaguesEffects } from "@/data/stories/plaguesEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -135,6 +139,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "moses-flees": mosesFleesScenes,
   "burning-bush": burningBushScenes,
   "moses-pharaoh": mosesPharaohScenes,
+  "plagues-egypt": plaguesScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -161,6 +166,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "moses-flees": mosesFleesImages,
   "burning-bush": burningBushImages,
   "moses-pharaoh": mosesPharaohImages,
+  "plagues-egypt": plaguesImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -187,6 +193,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "moses-flees": mosesFleesSprites,
   "burning-bush": burningBushSprites,
   "moses-pharaoh": mosesPharaohSprites,
+  "plagues-egypt": plaguesSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -213,6 +220,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "moses-flees": mosesFleesEffects,
   "burning-bush": burningBushEffects,
   "moses-pharaoh": mosesPharaohEffects,
+  "plagues-egypt": plaguesEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
