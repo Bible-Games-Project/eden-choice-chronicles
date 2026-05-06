@@ -1,0 +1,26 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const passoverEffects: Record<string, SceneEffect> = {
+  start: "fireflies",
+  argue_consequence: "fireflies",
+  hide_consequence: "fireflies",
+  gather_elders: "fireflies",
+  any_animal_consequence: "fireflies",
+  lamb_chosen: "fireflies",
+  hide_blood_consequence: "fireflies",
+  ground_consequence: "fireflies",
+  doorposts_marked: "sparks",
+  boil_consequence: "fireflies",
+  meal_prepared: "fireflies",
+  ease_consequence: "fireflies",
+  wander_consequence: "fireflies",
+  stay_inside: "fireflies",
+  open_consequence: "fireflies",
+  boast_consequence: "fireflies",
+  morning_summons: "fireflies",
+  refuse_consequence: "fireflies",
+  before_broken_pharaoh: "sparks",
+  mock_consequence: "sparks",
+  half_consequence: "sparks",
+  ending: "sparkles",
+};
