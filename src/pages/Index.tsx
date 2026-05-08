@@ -178,6 +178,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "moses-pharaoh": mosesPharaohImages,
   "plagues-egypt": plaguesImages,
   passover: passoverImages,
+  "crossing-red-sea": redSeaImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -206,6 +207,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "moses-pharaoh": mosesPharaohSprites,
   "plagues-egypt": plaguesSprites,
   passover: passoverSprites,
+  "crossing-red-sea": redSeaSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
