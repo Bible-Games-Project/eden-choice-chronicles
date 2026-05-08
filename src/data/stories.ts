@@ -36,7 +36,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "moses-pharaoh", number: 24, title: "Moses Before Pharaoh", section: "old_testament", category: "Exodus", hasContent: true },
   { id: "plagues-egypt", number: 25, title: "The Plagues of Egypt", section: "old_testament", category: "Exodus", hasContent: true },
   { id: "passover", number: 26, title: "Passover", section: "old_testament", category: "Exodus", hasContent: true },
-  { id: "crossing-red-sea", number: 27, title: "Crossing the Red Sea", section: "old_testament", category: "Exodus", hasContent: false },
+  { id: "crossing-red-sea", number: 27, title: "Crossing the Red Sea", section: "old_testament", category: "Exodus", hasContent: true },
   { id: "manna-desert", number: 28, title: "Manna in the Desert", section: "old_testament", category: "Exodus", hasContent: false },
   { id: "water-rock", number: 29, title: "Water from the Rock", section: "old_testament", category: "Exodus", hasContent: false },
   { id: "ten-commandments", number: 30, title: "The Ten Commandments", section: "old_testament", category: "Exodus", hasContent: false },
