@@ -1,0 +1,28 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const redSeaEffects: Record<string, SceneEffect> = {
+  start: "leaves",
+  short_road_consequence: "leaves",
+  beg_consequence: "leaves",
+  pillar_follows: "sparks",
+  pharaoh_regrets: "sparks",
+  plead_consequence: "sparks",
+  hide_consequence: "sparks",
+  army_charges: "sparks",
+  run_consequence: "sparks",
+  people_panic: "leaves",
+  curse_consequence: "leaves",
+  surrender_consequence: "leaves",
+  moses_prays: "fireflies",
+  boats_consequence: "fireflies",
+  wait_consequence: "fireflies",
+  sea_parts: "sparkles",
+  watch_consequence: "sparkles",
+  crossing: "sparkles",
+  boast_consequence: "sparkles",
+  far_shore: "sparkles",
+  mock_consequence: "sparkles",
+  fight_consequence: "sparkles",
+  sea_closes: "sparks",
+  ending: "sparkles",
+};
