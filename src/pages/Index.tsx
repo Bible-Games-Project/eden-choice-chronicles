@@ -142,6 +142,10 @@ import { rebellionPeopleScenes } from "@/data/stories/rebellionPeople";
 import { rebellionPeopleImages } from "@/data/stories/rebellionPeopleImages";
 import { rebellionPeopleSprites } from "@/data/stories/rebellionPeopleSprites";
 import { rebellionPeopleEffects } from "@/data/stories/rebellionPeopleEffects";
+import { balaamScenes } from "@/data/stories/balaam";
+import { balaamImages } from "@/data/stories/balaamImages";
+import { balaamSprites } from "@/data/stories/balaamSprites";
+import { balaamEffects } from "@/data/stories/balaamEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
