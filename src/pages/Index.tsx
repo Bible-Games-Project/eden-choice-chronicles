@@ -150,6 +150,10 @@ import { deathMosesScenes } from "@/data/stories/deathMoses";
 import { deathMosesImages } from "@/data/stories/deathMosesImages";
 import { deathMosesSprites } from "@/data/stories/deathMosesSprites";
 import { deathMosesEffects } from "@/data/stories/deathMosesEffects";
+import { jerichoScenes } from "@/data/stories/jericho";
+import { jerichoImages } from "@/data/stories/jerichoImages";
+import { jerichoSprites } from "@/data/stories/jerichoSprites";
+import { jerichoEffects } from "@/data/stories/jerichoEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -190,6 +194,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "rebellion-people": rebellionPeopleScenes,
   "balaam-donkey": balaamScenes,
   "death-moses": deathMosesScenes,
+  "fall-jericho": jerichoScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -227,6 +232,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "rebellion-people": rebellionPeopleImages,
   "balaam-donkey": balaamImages,
   "death-moses": deathMosesImages,
+  "fall-jericho": jerichoImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -264,6 +270,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "rebellion-people": rebellionPeopleSprites,
   "balaam-donkey": balaamSprites,
   "death-moses": deathMosesSprites,
+  "fall-jericho": jerichoSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -301,6 +308,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "rebellion-people": rebellionPeopleEffects,
   "balaam-donkey": balaamEffects,
   "death-moses": deathMosesEffects,
+  "fall-jericho": jerichoEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
