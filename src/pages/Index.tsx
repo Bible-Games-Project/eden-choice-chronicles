@@ -118,6 +118,10 @@ import { redSeaScenes } from "@/data/stories/redSea";
 import { redSeaImages } from "@/data/stories/redSeaImages";
 import { redSeaSprites } from "@/data/stories/redSeaSprites";
 import { redSeaEffects } from "@/data/stories/redSeaEffects";
+import { mannaScenes } from "@/data/stories/manna";
+import { mannaImages } from "@/data/stories/mannaImages";
+import { mannaSprites } from "@/data/stories/mannaSprites";
+import { mannaEffects } from "@/data/stories/mannaEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -150,6 +154,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "plagues-egypt": plaguesScenes,
   passover: passoverScenes,
   "crossing-red-sea": redSeaScenes,
+  "manna-desert": mannaScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -179,6 +184,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "plagues-egypt": plaguesImages,
   passover: passoverImages,
   "crossing-red-sea": redSeaImages,
+  "manna-desert": mannaImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -208,6 +214,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "plagues-egypt": plaguesSprites,
   passover: passoverSprites,
   "crossing-red-sea": redSeaSprites,
+  "manna-desert": mannaSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -237,6 +244,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "plagues-egypt": plaguesEffects,
   passover: passoverEffects,
   "crossing-red-sea": redSeaEffects,
+  "manna-desert": mannaEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
