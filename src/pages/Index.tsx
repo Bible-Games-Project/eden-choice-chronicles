@@ -130,6 +130,10 @@ import { tenCommandmentsScenes } from "@/data/stories/tenCommandments";
 import { tenCommandmentsImages } from "@/data/stories/tenCommandmentsImages";
 import { tenCommandmentsSprites } from "@/data/stories/tenCommandmentsSprites";
 import { tenCommandmentsEffects } from "@/data/stories/tenCommandmentsEffects";
+import { goldenCalfScenes } from "@/data/stories/goldenCalf";
+import { goldenCalfImages } from "@/data/stories/goldenCalfImages";
+import { goldenCalfSprites } from "@/data/stories/goldenCalfSprites";
+import { goldenCalfEffects } from "@/data/stories/goldenCalfEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -165,6 +169,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "manna-desert": mannaScenes,
   "water-rock": waterRockScenes,
   "ten-commandments": tenCommandmentsScenes,
+  "golden-calf": goldenCalfScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -197,6 +202,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "manna-desert": mannaImages,
   "water-rock": waterRockImages,
   "ten-commandments": tenCommandmentsImages,
+  "golden-calf": goldenCalfImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -229,6 +235,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "manna-desert": mannaSprites,
   "water-rock": waterRockSprites,
   "ten-commandments": tenCommandmentsSprites,
+  "golden-calf": goldenCalfSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -261,6 +268,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "manna-desert": mannaEffects,
   "water-rock": waterRockEffects,
   "ten-commandments": tenCommandmentsEffects,
+  "golden-calf": goldenCalfEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
