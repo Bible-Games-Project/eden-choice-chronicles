@@ -38,7 +38,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "passover", number: 26, title: "Passover", section: "old_testament", category: "Exodus", hasContent: true },
   { id: "crossing-red-sea", number: 27, title: "Crossing the Red Sea", section: "old_testament", category: "Exodus", hasContent: true },
   { id: "manna-desert", number: 28, title: "Manna in the Desert", section: "old_testament", category: "Exodus", hasContent: true },
-  { id: "water-rock", number: 29, title: "Water from the Rock", section: "old_testament", category: "Exodus", hasContent: false },
+  { id: "water-rock", number: 29, title: "Water from the Rock", section: "old_testament", category: "Exodus", hasContent: true },
   { id: "ten-commandments", number: 30, title: "The Ten Commandments", section: "old_testament", category: "Exodus", hasContent: false },
   // Numbers / Deuteronomy
   { id: "golden-calf", number: 31, title: "The Golden Calf", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: false },
