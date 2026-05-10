@@ -122,6 +122,10 @@ import { mannaScenes } from "@/data/stories/manna";
 import { mannaImages } from "@/data/stories/mannaImages";
 import { mannaSprites } from "@/data/stories/mannaSprites";
 import { mannaEffects } from "@/data/stories/mannaEffects";
+import { waterRockScenes } from "@/data/stories/waterRock";
+import { waterRockImages } from "@/data/stories/waterRockImages";
+import { waterRockSprites } from "@/data/stories/waterRockSprites";
+import { waterRockEffects } from "@/data/stories/waterRockEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -155,6 +159,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   passover: passoverScenes,
   "crossing-red-sea": redSeaScenes,
   "manna-desert": mannaScenes,
+  "water-rock": waterRockScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -185,6 +190,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   passover: passoverImages,
   "crossing-red-sea": redSeaImages,
   "manna-desert": mannaImages,
+  "water-rock": waterRockImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -215,6 +221,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   passover: passoverSprites,
   "crossing-red-sea": redSeaSprites,
   "manna-desert": mannaSprites,
+  "water-rock": waterRockSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -245,6 +252,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   passover: passoverEffects,
   "crossing-red-sea": redSeaEffects,
   "manna-desert": mannaEffects,
+  "water-rock": waterRockEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
