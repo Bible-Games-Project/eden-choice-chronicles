@@ -150,6 +150,10 @@ import { deathMosesScenes } from "@/data/stories/deathMoses";
 import { deathMosesImages } from "@/data/stories/deathMosesImages";
 import { deathMosesSprites } from "@/data/stories/deathMosesSprites";
 import { deathMosesEffects } from "@/data/stories/deathMosesEffects";
+import { jerichoScenes } from "@/data/stories/jericho";
+import { jerichoImages } from "@/data/stories/jerichoImages";
+import { jerichoSprites } from "@/data/stories/jerichoSprites";
+import { jerichoEffects } from "@/data/stories/jerichoEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";

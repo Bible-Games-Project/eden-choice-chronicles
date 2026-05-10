@@ -47,7 +47,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "balaam-donkey", number: 34, title: "Balaam and the Donkey", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: true },
   { id: "death-moses", number: 35, title: "Death of Moses", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: true },
   // Joshua / Judges
-  { id: "fall-jericho", number: 36, title: "Fall of Jericho", section: "old_testament", category: "Joshua / Judges", hasContent: false },
+  { id: "fall-jericho", number: 36, title: "Fall of Jericho", section: "old_testament", category: "Joshua / Judges", hasContent: true },
   { id: "sin-achan", number: 37, title: "Sin of Achan", section: "old_testament", category: "Joshua / Judges", hasContent: false },
   { id: "deborah-barak", number: 38, title: "Deborah and Barak", section: "old_testament", category: "Joshua / Judges", hasContent: false },
   { id: "gideon", number: 39, title: "Gideon", section: "old_testament", category: "Joshua / Judges", hasContent: false },
