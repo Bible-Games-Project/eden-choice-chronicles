@@ -138,6 +138,10 @@ import { spiesCanaanScenes } from "@/data/stories/spiesCanaan";
 import { spiesCanaanImages } from "@/data/stories/spiesCanaanImages";
 import { spiesCanaanSprites } from "@/data/stories/spiesCanaanSprites";
 import { spiesCanaanEffects } from "@/data/stories/spiesCanaanEffects";
+import { rebellionPeopleScenes } from "@/data/stories/rebellionPeople";
+import { rebellionPeopleImages } from "@/data/stories/rebellionPeopleImages";
+import { rebellionPeopleSprites } from "@/data/stories/rebellionPeopleSprites";
+import { rebellionPeopleEffects } from "@/data/stories/rebellionPeopleEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -175,6 +179,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "ten-commandments": tenCommandmentsScenes,
   "golden-calf": goldenCalfScenes,
   "spies-canaan": spiesCanaanScenes,
+  "rebellion-people": rebellionPeopleScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -209,6 +214,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "ten-commandments": tenCommandmentsImages,
   "golden-calf": goldenCalfImages,
   "spies-canaan": spiesCanaanImages,
+  "rebellion-people": rebellionPeopleImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -243,6 +249,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "ten-commandments": tenCommandmentsSprites,
   "golden-calf": goldenCalfSprites,
   "spies-canaan": spiesCanaanSprites,
+  "rebellion-people": rebellionPeopleSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -277,6 +284,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "ten-commandments": tenCommandmentsEffects,
   "golden-calf": goldenCalfEffects,
   "spies-canaan": spiesCanaanEffects,
+  "rebellion-people": rebellionPeopleEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
