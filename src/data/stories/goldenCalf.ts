@@ -11,7 +11,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     title: "Forty Days on Sinai",
     text: "The cloud has held you for weeks.\nBelow, the camp grows restless.",
     choices: [
-      { text: "Stay and hear every word of God", nextScene: "god_warns", tag: "obedient", feedback: "His instruction is not yet finished.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay and hear every word of God", nextScene: "people_demand", tag: "obedient", feedback: "His instruction is not yet finished.", isCorrect: true, sentiment: "positive" },
       { text: "Hurry down before you are ready", nextScene: "haste_consequence", tag: "rash", feedback: "His work cannot be rushed.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -20,7 +20,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     title: "Wait on the Lord",
     text: "His covenant must be received in full.\nReturn to His voice.",
     choices: [
-      { text: "Stay and hear every word of God", nextScene: "god_warns", tag: "obedient", feedback: "You bow again before Him.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay and hear every word of God", nextScene: "people_demand", tag: "obedient", feedback: "You bow again before Him.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -31,7 +31,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     text: "The people press around Aaron.\n\"Make us gods to lead the way.\"",
     choices: [
       { text: "(Aaron) Give in to keep the peace", nextScene: "aaron_yields", tag: "weak", feedback: "Fear of men silenced fear of God.", isCorrect: false, sentiment: "negative" },
-      { text: "(Aaron) Refuse and call them to wait", nextScene: "god_warns", tag: "faithful", feedback: "But Aaron's courage fails him.", isCorrect: true, sentiment: "positive" },
+      { text: "(Aaron) Refuse and urge them to wait", nextScene: "aaron_yields", tag: "faithful", feedback: "But Aaron's courage fails him.", isCorrect: true, sentiment: "positive" },
       { text: "(Aaron) Blame Moses for the delay", nextScene: "aaron_yields", tag: "evasive", feedback: "Blame builds no altar to God.", isCorrect: false, sentiment: "negative" },
     ],
   },
