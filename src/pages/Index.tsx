@@ -126,6 +126,10 @@ import { waterRockScenes } from "@/data/stories/waterRock";
 import { waterRockImages } from "@/data/stories/waterRockImages";
 import { waterRockSprites } from "@/data/stories/waterRockSprites";
 import { waterRockEffects } from "@/data/stories/waterRockEffects";
+import { tenCommandmentsScenes } from "@/data/stories/tenCommandments";
+import { tenCommandmentsImages } from "@/data/stories/tenCommandmentsImages";
+import { tenCommandmentsSprites } from "@/data/stories/tenCommandmentsSprites";
+import { tenCommandmentsEffects } from "@/data/stories/tenCommandmentsEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -160,6 +164,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "crossing-red-sea": redSeaScenes,
   "manna-desert": mannaScenes,
   "water-rock": waterRockScenes,
+  "ten-commandments": tenCommandmentsScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -191,6 +196,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "crossing-red-sea": redSeaImages,
   "manna-desert": mannaImages,
   "water-rock": waterRockImages,
+  "ten-commandments": tenCommandmentsImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -222,6 +228,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "crossing-red-sea": redSeaSprites,
   "manna-desert": mannaSprites,
   "water-rock": waterRockSprites,
+  "ten-commandments": tenCommandmentsSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -253,6 +260,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "crossing-red-sea": redSeaEffects,
   "manna-desert": mannaEffects,
   "water-rock": waterRockEffects,
+  "ten-commandments": tenCommandmentsEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
