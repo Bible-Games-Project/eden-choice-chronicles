@@ -1,0 +1,26 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const spiesCanaanEffects: Record<string, SceneEffect> = {
+  start: "fireflies",
+  rash_consequence: "fireflies",
+  spies_depart: "fireflies",
+  threat_consequence: "fireflies",
+  bribe_consequence: "fireflies",
+  valley_seen: "leaves",
+  mistrust_consequence: "leaves",
+  city_seen: "sparks",
+  hide_consequence: "sparks",
+  fear_consequence: "sparks",
+  report_back: "sparks",
+  agree_consequence: "sparks",
+  silent_consequence: "sparks",
+  caleb_speaks: "sparkles",
+  silence_consequence: "sparkles",
+  people_weep: "fireflies",
+  mock_consequence: "fireflies",
+  leave_consequence: "fireflies",
+  rebellion: "sparks",
+  destroy_consequence: "sparks",
+  self_consequence: "fireflies",
+  ending: "sparkles",
+};

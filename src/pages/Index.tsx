@@ -134,6 +134,10 @@ import { goldenCalfScenes } from "@/data/stories/goldenCalf";
 import { goldenCalfImages } from "@/data/stories/goldenCalfImages";
 import { goldenCalfSprites } from "@/data/stories/goldenCalfSprites";
 import { goldenCalfEffects } from "@/data/stories/goldenCalfEffects";
+import { spiesCanaanScenes } from "@/data/stories/spiesCanaan";
+import { spiesCanaanImages } from "@/data/stories/spiesCanaanImages";
+import { spiesCanaanSprites } from "@/data/stories/spiesCanaanSprites";
+import { spiesCanaanEffects } from "@/data/stories/spiesCanaanEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
