@@ -45,7 +45,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "spies-canaan", number: 32, title: "The Spies in Canaan", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: true },
   { id: "rebellion-people", number: 33, title: "Rebellion of the People", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: true },
   { id: "balaam-donkey", number: 34, title: "Balaam and the Donkey", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: true },
-  { id: "death-moses", number: 35, title: "Death of Moses", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: false },
+  { id: "death-moses", number: 35, title: "Death of Moses", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: true },
   // Joshua / Judges
   { id: "fall-jericho", number: 36, title: "Fall of Jericho", section: "old_testament", category: "Joshua / Judges", hasContent: false },
   { id: "sin-achan", number: 37, title: "Sin of Achan", section: "old_testament", category: "Joshua / Judges", hasContent: false },
