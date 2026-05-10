@@ -42,7 +42,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "ten-commandments", number: 30, title: "The Ten Commandments", section: "old_testament", category: "Exodus", hasContent: true },
   // Numbers / Deuteronomy
   { id: "golden-calf", number: 31, title: "The Golden Calf", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: true },
-  { id: "spies-canaan", number: 32, title: "The Spies in Canaan", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: false },
+  { id: "spies-canaan", number: 32, title: "The Spies in Canaan", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: true },
   { id: "rebellion-people", number: 33, title: "Rebellion of the People", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: false },
   { id: "balaam-donkey", number: 34, title: "Balaam and the Donkey", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: false },
   { id: "death-moses", number: 35, title: "Death of Moses", section: "old_testament", category: "Numbers / Deuteronomy", hasContent: false },
