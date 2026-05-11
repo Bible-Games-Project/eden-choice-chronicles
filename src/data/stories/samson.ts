@@ -112,7 +112,7 @@ export const samsonScenes: Record<string, StoryScene> = {
     title: "Heart Worn Down",
     text: "Day after day she presses you.\nAt last your weary heart breaks.",
     choices: [
-      { text: "Tell her the secret in weariness", nextScene: "betrayed", tag: "weak", feedback: "The vow falls with your words.", isCorrect: true, sentiment: "neutral" },
+      { text: "Tell her the secret in weariness", nextScene: "betrayed", tag: "weak", feedback: "The vow falls with your words.", isCorrect: true, sentiment: "negative" },
     ],
   },
 
