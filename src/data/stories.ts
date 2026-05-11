@@ -58,7 +58,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "saul-king", number: 43, title: "Saul Becomes King", section: "old_testament", category: "Ruth / Samuel", hasContent: true },
   { id: "david-goliath", number: 44, title: "David and Goliath", section: "old_testament", category: "Ruth / Samuel", hasContent: true },
   { id: "david-saul", number: 45, title: "David and Saul", section: "old_testament", category: "Ruth / Samuel", hasContent: true },
-  { id: "david-bathsheba", number: 46, title: "David and Bathsheba", section: "old_testament", category: "Ruth / Samuel", hasContent: false },
+  { id: "david-bathsheba", number: 46, title: "David and Bathsheba", section: "old_testament", category: "Ruth / Samuel", hasContent: true },
   // Kings / Chronicles
   { id: "solomon-wisdom", number: 47, title: "Solomon Asks for Wisdom", section: "old_testament", category: "Kings / Chronicles", hasContent: false },
   { id: "elijah-baal", number: 48, title: "Elijah vs Prophets of Baal", section: "old_testament", category: "Kings / Chronicles", hasContent: false },

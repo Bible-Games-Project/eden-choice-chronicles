@@ -190,6 +190,10 @@ import { davidSaulScenes } from "@/data/stories/davidSaul";
 import { davidSaulImages } from "@/data/stories/davidSaulImages";
 import { davidSaulSprites } from "@/data/stories/davidSaulSprites";
 import { davidSaulEffects } from "@/data/stories/davidSaulEffects";
+import { davidBathshebaScenes } from "@/data/stories/davidBathsheba";
+import { davidBathshebaImages } from "@/data/stories/davidBathshebaImages";
+import { davidBathshebaSprites } from "@/data/stories/davidBathshebaSprites";
+import { davidBathshebaEffects } from "@/data/stories/davidBathshebaEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -240,6 +244,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "saul-king": saulKingScenes,
   "david-goliath": davidGoliathScenes,
   "david-saul": davidSaulScenes,
+  "david-bathsheba": davidBathshebaScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -287,6 +292,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "saul-king": saulKingImages,
   "david-goliath": davidGoliathImages,
   "david-saul": davidSaulImages,
+  "david-bathsheba": davidBathshebaImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -334,6 +340,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "saul-king": saulKingSprites,
   "david-goliath": davidGoliathSprites,
   "david-saul": davidSaulSprites,
+  "david-bathsheba": davidBathshebaSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -381,6 +388,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "saul-king": saulKingEffects,
   "david-goliath": davidGoliathEffects,
   "david-saul": davidSaulEffects,
+  "david-bathsheba": davidBathshebaEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
