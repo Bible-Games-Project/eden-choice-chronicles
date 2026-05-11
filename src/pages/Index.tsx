@@ -194,6 +194,10 @@ import { davidBathshebaScenes } from "@/data/stories/davidBathsheba";
 import { davidBathshebaImages } from "@/data/stories/davidBathshebaImages";
 import { davidBathshebaSprites } from "@/data/stories/davidBathshebaSprites";
 import { davidBathshebaEffects } from "@/data/stories/davidBathshebaEffects";
+import { solomonWisdomScenes } from "@/data/stories/solomonWisdom";
+import { solomonWisdomImages } from "@/data/stories/solomonWisdomImages";
+import { solomonWisdomSprites } from "@/data/stories/solomonWisdomSprites";
+import { solomonWisdomEffects } from "@/data/stories/solomonWisdomEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -245,6 +249,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "david-goliath": davidGoliathScenes,
   "david-saul": davidSaulScenes,
   "david-bathsheba": davidBathshebaScenes,
+  "solomon-wisdom": solomonWisdomScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -293,6 +298,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "david-goliath": davidGoliathImages,
   "david-saul": davidSaulImages,
   "david-bathsheba": davidBathshebaImages,
+  "solomon-wisdom": solomonWisdomImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -341,6 +347,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "david-goliath": davidGoliathSprites,
   "david-saul": davidSaulSprites,
   "david-bathsheba": davidBathshebaSprites,
+  "solomon-wisdom": solomonWisdomSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -389,6 +396,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "david-goliath": davidGoliathEffects,
   "david-saul": davidSaulEffects,
   "david-bathsheba": davidBathshebaEffects,
+  "solomon-wisdom": solomonWisdomEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
