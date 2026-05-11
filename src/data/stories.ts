@@ -68,7 +68,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
 
 export const NT_JESUS_STORIES: StoryMeta[] = [
   // Birth and Childhood
-  { id: "annunciation", number: 1, title: "Annunciation to Mary", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: false },
+  { id: "annunciation", number: 1, title: "Annunciation to Mary", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: true },
   { id: "birth-jesus", number: 2, title: "Birth of Jesus", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: false },
   { id: "shepherds", number: 3, title: "Shepherds", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: false },
   { id: "wise-men", number: 4, title: "Wise Men", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: false },
