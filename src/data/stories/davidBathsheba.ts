@@ -20,7 +20,7 @@ export const davidBathshebaScenes: Record<string, StoryScene> = {
     title: "Restless on the Roof",
     text: "Idle eyes will find a wound.\nYou should have gone to war.",
     choices: [
-      { text: "Continue to the rooftop view", nextScene: "seeing", tag: "idle", feedback: "Yet the evening unfolds...", isCorrect: true, sentiment: "neutral" },
+      { text: "Continue to the rooftop view", nextScene: "seeing", tag: "idle", feedback: "Yet the evening unfolds...", isCorrect: true, sentiment: "positive" },
     ],
   },
   wine_consequence: {
@@ -57,7 +57,7 @@ export const davidBathshebaScenes: Record<string, StoryScene> = {
     title: "The Door Closes",
     text: "She comes. The deed is done.\nWord arrives: she is with child.",
     choices: [
-      { text: "Continue", nextScene: "uriah", tag: "guilt", feedback: "The weight settles on your shoulders.", isCorrect: true, sentiment: "neutral" },
+      { text: "Continue", nextScene: "uriah", tag: "guilt", feedback: "The weight settles on your shoulders.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
@@ -86,7 +86,7 @@ export const davidBathshebaScenes: Record<string, StoryScene> = {
     title: "Blood on Your Hands",
     text: "Uriah falls by the wall.\nYou took his wife and his life.",
     choices: [
-      { text: "Continue", nextScene: "nathan", tag: "guilt", feedback: "The Lord sees what you have done.", isCorrect: true, sentiment: "neutral" },
+      { text: "Continue", nextScene: "nathan", tag: "guilt", feedback: "The Lord sees what you have done.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
