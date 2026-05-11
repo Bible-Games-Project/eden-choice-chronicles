@@ -198,6 +198,10 @@ import { solomonWisdomScenes } from "@/data/stories/solomonWisdom";
 import { solomonWisdomImages } from "@/data/stories/solomonWisdomImages";
 import { solomonWisdomSprites } from "@/data/stories/solomonWisdomSprites";
 import { solomonWisdomEffects } from "@/data/stories/solomonWisdomEffects";
+import { elijahBaalScenes } from "@/data/stories/elijahBaal";
+import { elijahBaalImages } from "@/data/stories/elijahBaalImages";
+import { elijahBaalSprites } from "@/data/stories/elijahBaalSprites";
+import { elijahBaalEffects } from "@/data/stories/elijahBaalEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -250,6 +254,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "david-saul": davidSaulScenes,
   "david-bathsheba": davidBathshebaScenes,
   "solomon-wisdom": solomonWisdomScenes,
+  "elijah-baal": elijahBaalScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -299,6 +304,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "david-saul": davidSaulImages,
   "david-bathsheba": davidBathshebaImages,
   "solomon-wisdom": solomonWisdomImages,
+  "elijah-baal": elijahBaalImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -348,6 +354,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "david-saul": davidSaulSprites,
   "david-bathsheba": davidBathshebaSprites,
   "solomon-wisdom": solomonWisdomSprites,
+  "elijah-baal": elijahBaalSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -397,6 +404,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "david-saul": davidSaulEffects,
   "david-bathsheba": davidBathshebaEffects,
   "solomon-wisdom": solomonWisdomEffects,
+  "elijah-baal": elijahBaalEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
