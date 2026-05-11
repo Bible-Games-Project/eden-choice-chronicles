@@ -186,6 +186,10 @@ import { davidGoliathScenes } from "@/data/stories/davidGoliath";
 import { davidGoliathImages } from "@/data/stories/davidGoliathImages";
 import { davidGoliathSprites } from "@/data/stories/davidGoliathSprites";
 import { davidGoliathEffects } from "@/data/stories/davidGoliathEffects";
+import { davidSaulScenes } from "@/data/stories/davidSaul";
+import { davidSaulImages } from "@/data/stories/davidSaulImages";
+import { davidSaulSprites } from "@/data/stories/davidSaulSprites";
+import { davidSaulEffects } from "@/data/stories/davidSaulEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -235,6 +239,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "samuel-called": samuelCalledScenes,
   "saul-king": saulKingScenes,
   "david-goliath": davidGoliathScenes,
+  "david-saul": davidSaulScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -281,6 +286,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "samuel-called": samuelCalledImages,
   "saul-king": saulKingImages,
   "david-goliath": davidGoliathImages,
+  "david-saul": davidSaulImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -327,6 +333,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "samuel-called": samuelCalledSprites,
   "saul-king": saulKingSprites,
   "david-goliath": davidGoliathSprites,
+  "david-saul": davidSaulSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -373,6 +380,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "samuel-called": samuelCalledEffects,
   "saul-king": saulKingEffects,
   "david-goliath": davidGoliathEffects,
+  "david-saul": davidSaulEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
