@@ -63,7 +63,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "solomon-wisdom", number: 47, title: "Solomon Asks for Wisdom", section: "old_testament", category: "Kings / Chronicles", hasContent: true },
   { id: "elijah-baal", number: 48, title: "Elijah vs Prophets of Baal", section: "old_testament", category: "Kings / Chronicles", hasContent: true },
   { id: "elisha-naaman", number: 49, title: "Elisha and Naaman", section: "old_testament", category: "Kings / Chronicles", hasContent: true },
-  { id: "fall-jerusalem", number: 50, title: "Fall of Jerusalem", section: "old_testament", category: "Kings / Chronicles", hasContent: false },
+  { id: "fall-jerusalem", number: 50, title: "Fall of Jerusalem", section: "old_testament", category: "Kings / Chronicles", hasContent: true },
 ];
 
 export const NT_JESUS_STORIES: StoryMeta[] = [

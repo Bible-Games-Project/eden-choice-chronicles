@@ -206,6 +206,10 @@ import { elishaNaamanScenes } from "@/data/stories/elishaNaaman";
 import { elishaNaamanImages } from "@/data/stories/elishaNaamanImages";
 import { elishaNaamanSprites } from "@/data/stories/elishaNaamanSprites";
 import { elishaNaamanEffects } from "@/data/stories/elishaNaamanEffects";
+import { fallJerusalemScenes } from "@/data/stories/fallJerusalem";
+import { fallJerusalemImages } from "@/data/stories/fallJerusalemImages";
+import { fallJerusalemSprites } from "@/data/stories/fallJerusalemSprites";
+import { fallJerusalemEffects } from "@/data/stories/fallJerusalemEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -260,6 +264,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "solomon-wisdom": solomonWisdomScenes,
   "elijah-baal": elijahBaalScenes,
   "elisha-naaman": elishaNaamanScenes,
+  "fall-jerusalem": fallJerusalemScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -311,6 +316,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "solomon-wisdom": solomonWisdomImages,
   "elijah-baal": elijahBaalImages,
   "elisha-naaman": elishaNaamanImages,
+  "fall-jerusalem": fallJerusalemImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -362,6 +368,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "solomon-wisdom": solomonWisdomSprites,
   "elijah-baal": elijahBaalSprites,
   "elisha-naaman": elishaNaamanSprites,
+  "fall-jerusalem": fallJerusalemSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -413,6 +420,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "solomon-wisdom": solomonWisdomEffects,
   "elijah-baal": elijahBaalEffects,
   "elisha-naaman": elishaNaamanEffects,
+  "fall-jerusalem": fallJerusalemEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
