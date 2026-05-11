@@ -162,6 +162,10 @@ import { deborahBarakScenes } from "@/data/stories/deborahBarak";
 import { deborahBarakImages } from "@/data/stories/deborahBarakImages";
 import { deborahBarakSprites } from "@/data/stories/deborahBarakSprites";
 import { deborahBarakEffects } from "@/data/stories/deborahBarakEffects";
+import { gideonScenes } from "@/data/stories/gideon";
+import { gideonImages } from "@/data/stories/gideonImages";
+import { gideonSprites } from "@/data/stories/gideonSprites";
+import { gideonEffects } from "@/data/stories/gideonEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -205,6 +209,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "fall-jericho": jerichoScenes,
   "sin-achan": sinAchanScenes,
   "deborah-barak": deborahBarakScenes,
+  gideon: gideonScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -245,6 +250,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "fall-jericho": jerichoImages,
   "sin-achan": sinAchanImages,
   "deborah-barak": deborahBarakImages,
+  gideon: gideonImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -285,6 +291,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "fall-jericho": jerichoSprites,
   "sin-achan": sinAchanSprites,
   "deborah-barak": deborahBarakSprites,
+  gideon: gideonSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -325,6 +332,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "fall-jericho": jerichoEffects,
   "sin-achan": sinAchanEffects,
   "deborah-barak": deborahBarakEffects,
+  gideon: gideonEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
