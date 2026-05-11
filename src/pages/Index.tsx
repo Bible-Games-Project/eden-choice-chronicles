@@ -202,6 +202,10 @@ import { elijahBaalScenes } from "@/data/stories/elijahBaal";
 import { elijahBaalImages } from "@/data/stories/elijahBaalImages";
 import { elijahBaalSprites } from "@/data/stories/elijahBaalSprites";
 import { elijahBaalEffects } from "@/data/stories/elijahBaalEffects";
+import { elishaNaamanScenes } from "@/data/stories/elishaNaaman";
+import { elishaNaamanImages } from "@/data/stories/elishaNaamanImages";
+import { elishaNaamanSprites } from "@/data/stories/elishaNaamanSprites";
+import { elishaNaamanEffects } from "@/data/stories/elishaNaamanEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -255,6 +259,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "david-bathsheba": davidBathshebaScenes,
   "solomon-wisdom": solomonWisdomScenes,
   "elijah-baal": elijahBaalScenes,
+  "elisha-naaman": elishaNaamanScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -305,6 +310,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "david-bathsheba": davidBathshebaImages,
   "solomon-wisdom": solomonWisdomImages,
   "elijah-baal": elijahBaalImages,
+  "elisha-naaman": elishaNaamanImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -355,6 +361,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "david-bathsheba": davidBathshebaSprites,
   "solomon-wisdom": solomonWisdomSprites,
   "elijah-baal": elijahBaalSprites,
+  "elisha-naaman": elishaNaamanSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -405,6 +412,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "david-bathsheba": davidBathshebaEffects,
   "solomon-wisdom": solomonWisdomEffects,
   "elijah-baal": elijahBaalEffects,
+  "elisha-naaman": elishaNaamanEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
