@@ -178,6 +178,10 @@ import { samuelCalledScenes } from "@/data/stories/samuelCalled";
 import { samuelCalledImages } from "@/data/stories/samuelCalledImages";
 import { samuelCalledSprites } from "@/data/stories/samuelCalledSprites";
 import { samuelCalledEffects } from "@/data/stories/samuelCalledEffects";
+import { saulKingScenes } from "@/data/stories/saulKing";
+import { saulKingImages } from "@/data/stories/saulKingImages";
+import { saulKingSprites } from "@/data/stories/saulKingSprites";
+import { saulKingEffects } from "@/data/stories/saulKingEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -225,6 +229,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   samson: samsonScenes,
   "ruth-naomi": ruthNaomiScenes,
   "samuel-called": samuelCalledScenes,
+  "saul-king": saulKingScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -269,6 +274,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   samson: samsonImages,
   "ruth-naomi": ruthNaomiImages,
   "samuel-called": samuelCalledImages,
+  "saul-king": saulKingImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -313,6 +319,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   samson: samsonSprites,
   "ruth-naomi": ruthNaomiSprites,
   "samuel-called": samuelCalledSprites,
+  "saul-king": saulKingSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -357,6 +364,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   samson: samsonEffects,
   "ruth-naomi": ruthNaomiEffects,
   "samuel-called": samuelCalledEffects,
+  "saul-king": saulKingEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
