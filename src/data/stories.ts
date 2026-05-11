@@ -53,7 +53,7 @@ export const OLD_TESTAMENT_STORIES: StoryMeta[] = [
   { id: "gideon", number: 39, title: "Gideon", section: "old_testament", category: "Joshua / Judges", hasContent: true },
   { id: "samson", number: 40, title: "Samson", section: "old_testament", category: "Joshua / Judges", hasContent: true },
   // Ruth / Samuel
-  { id: "ruth-naomi", number: 41, title: "Ruth and Naomi", section: "old_testament", category: "Ruth / Samuel", hasContent: false },
+  { id: "ruth-naomi", number: 41, title: "Ruth and Naomi", section: "old_testament", category: "Ruth / Samuel", hasContent: true },
   { id: "samuel-called", number: 42, title: "Samuel Called by God", section: "old_testament", category: "Ruth / Samuel", hasContent: false },
   { id: "saul-king", number: 43, title: "Saul Becomes King", section: "old_testament", category: "Ruth / Samuel", hasContent: false },
   { id: "david-goliath", number: 44, title: "David and Goliath", section: "old_testament", category: "Ruth / Samuel", hasContent: false },
