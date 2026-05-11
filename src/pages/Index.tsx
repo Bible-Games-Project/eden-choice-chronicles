@@ -166,6 +166,10 @@ import { gideonScenes } from "@/data/stories/gideon";
 import { gideonImages } from "@/data/stories/gideonImages";
 import { gideonSprites } from "@/data/stories/gideonSprites";
 import { gideonEffects } from "@/data/stories/gideonEffects";
+import { samsonScenes } from "@/data/stories/samson";
+import { samsonImages } from "@/data/stories/samsonImages";
+import { samsonSprites } from "@/data/stories/samsonSprites";
+import { samsonEffects } from "@/data/stories/samsonEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -210,6 +214,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "sin-achan": sinAchanScenes,
   "deborah-barak": deborahBarakScenes,
   gideon: gideonScenes,
+  samson: samsonScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -251,6 +256,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "sin-achan": sinAchanImages,
   "deborah-barak": deborahBarakImages,
   gideon: gideonImages,
+  samson: samsonImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -292,6 +298,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "sin-achan": sinAchanSprites,
   "deborah-barak": deborahBarakSprites,
   gideon: gideonSprites,
+  samson: samsonSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -333,6 +340,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "sin-achan": sinAchanEffects,
   "deborah-barak": deborahBarakEffects,
   gideon: gideonEffects,
+  samson: samsonEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
