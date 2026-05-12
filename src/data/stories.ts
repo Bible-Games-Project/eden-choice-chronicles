@@ -72,7 +72,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "birth-jesus", number: 2, title: "Birth of Jesus", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: true },
   { id: "shepherds", number: 3, title: "Shepherds", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: true },
   { id: "wise-men", number: 4, title: "Wise Men", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: true },
-  { id: "flight-egypt", number: 5, title: "Flight to Egypt", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: false },
+  { id: "flight-egypt", number: 5, title: "Flight to Egypt", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: true },
   { id: "jesus-temple", number: 6, title: "Jesus in the Temple", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: false },
   // Beginning of Ministry
   { id: "baptism-jesus", number: 7, title: "Baptism of Jesus", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: false },

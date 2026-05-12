@@ -226,6 +226,10 @@ import { wiseMenScenes } from "@/data/stories/wiseMen";
 import { wiseMenImages } from "@/data/stories/wiseMenImages";
 import { wiseMenSprites } from "@/data/stories/wiseMenSprites";
 import { wiseMenEffects } from "@/data/stories/wiseMenEffects";
+import { flightEgyptScenes } from "@/data/stories/flightEgypt";
+import { flightEgyptImages } from "@/data/stories/flightEgyptImages";
+import { flightEgyptSprites } from "@/data/stories/flightEgyptSprites";
+import { flightEgyptEffects } from "@/data/stories/flightEgyptEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -285,6 +289,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "birth-jesus": birthJesusScenes,
   shepherds: shepherdsScenes,
   "wise-men": wiseMenScenes,
+  "flight-egypt": flightEgyptScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -341,6 +346,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "birth-jesus": birthJesusImages,
   shepherds: shepherdsImages,
   "wise-men": wiseMenImages,
+  "flight-egypt": flightEgyptImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -397,6 +403,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "birth-jesus": birthJesusSprites,
   shepherds: shepherdsSprites,
   "wise-men": wiseMenSprites,
+  "flight-egypt": flightEgyptSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -453,6 +460,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "birth-jesus": birthJesusEffects,
   shepherds: shepherdsEffects,
   "wise-men": wiseMenEffects,
+  "flight-egypt": flightEgyptEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
