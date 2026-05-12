@@ -218,6 +218,10 @@ import { birthJesusScenes } from "@/data/stories/birthJesus";
 import { birthJesusImages } from "@/data/stories/birthJesusImages";
 import { birthJesusSprites } from "@/data/stories/birthJesusSprites";
 import { birthJesusEffects } from "@/data/stories/birthJesusEffects";
+import { shepherdsScenes } from "@/data/stories/shepherds";
+import { shepherdsImages } from "@/data/stories/shepherdsImages";
+import { shepherdsSprites } from "@/data/stories/shepherdsSprites";
+import { shepherdsEffects } from "@/data/stories/shepherdsEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -275,6 +279,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "fall-jerusalem": fallJerusalemScenes,
   annunciation: annunciationScenes,
   "birth-jesus": birthJesusScenes,
+  shepherds: shepherdsScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -329,6 +334,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "fall-jerusalem": fallJerusalemImages,
   annunciation: annunciationImages,
   "birth-jesus": birthJesusImages,
+  shepherds: shepherdsImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -383,6 +389,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "fall-jerusalem": fallJerusalemSprites,
   annunciation: annunciationSprites,
   "birth-jesus": birthJesusSprites,
+  shepherds: shepherdsSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -437,6 +444,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "fall-jerusalem": fallJerusalemEffects,
   annunciation: annunciationEffects,
   "birth-jesus": birthJesusEffects,
+  shepherds: shepherdsEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
