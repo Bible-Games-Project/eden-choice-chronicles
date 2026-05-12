@@ -40,7 +40,7 @@ export const wiseMenScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Turn back, the road is hard", nextScene: "turn_back_consequence", tag: "weak", feedback: "Do not lose heart.", isCorrect: false, sentiment: "negative" },
       { text: "Press on toward Jerusalem", nextScene: "herod", tag: "faithful", feedback: "Your camels will not falter.", isCorrect: true, sentiment: "positive" },
-      { text: "Seek a king's palace first", nextScene: "herod", tag: "logical", feedback: "A king must dwell with kings.", isCorrect: true, sentiment: "neutral" },
+      { text: "Seek a king's palace first", nextScene: "herod", tag: "logical", feedback: "A king must dwell with kings.", isCorrect: true, sentiment: "positive" },
     ],
   },
   turn_back_consequence: {
