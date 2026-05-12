@@ -214,6 +214,10 @@ import { annunciationScenes } from "@/data/stories/annunciation";
 import { annunciationImages } from "@/data/stories/annunciationImages";
 import { annunciationSprites } from "@/data/stories/annunciationSprites";
 import { annunciationEffects } from "@/data/stories/annunciationEffects";
+import { birthJesusScenes } from "@/data/stories/birthJesus";
+import { birthJesusImages } from "@/data/stories/birthJesusImages";
+import { birthJesusSprites } from "@/data/stories/birthJesusSprites";
+import { birthJesusEffects } from "@/data/stories/birthJesusEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -270,6 +274,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "elisha-naaman": elishaNaamanScenes,
   "fall-jerusalem": fallJerusalemScenes,
   annunciation: annunciationScenes,
+  "birth-jesus": birthJesusScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -323,6 +328,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "elisha-naaman": elishaNaamanImages,
   "fall-jerusalem": fallJerusalemImages,
   annunciation: annunciationImages,
+  "birth-jesus": birthJesusImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -376,6 +382,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "elisha-naaman": elishaNaamanSprites,
   "fall-jerusalem": fallJerusalemSprites,
   annunciation: annunciationSprites,
+  "birth-jesus": birthJesusSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -429,6 +436,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "elisha-naaman": elishaNaamanEffects,
   "fall-jerusalem": fallJerusalemEffects,
   annunciation: annunciationEffects,
+  "birth-jesus": birthJesusEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
