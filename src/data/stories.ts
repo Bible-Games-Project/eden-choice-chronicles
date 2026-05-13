@@ -75,7 +75,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "flight-egypt", number: 5, title: "Flight to Egypt", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: true },
   { id: "jesus-temple", number: 6, title: "Jesus in the Temple", section: "new_testament_jesus", category: "Birth and Childhood", hasContent: true },
   // Beginning of Ministry
-  { id: "baptism-jesus", number: 7, title: "Baptism of Jesus", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: false },
+  { id: "baptism-jesus", number: 7, title: "Baptism of Jesus", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: true },
   { id: "temptation-desert", number: 8, title: "Temptation in the Desert", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: false },
   { id: "calling-disciples", number: 9, title: "Calling of the Disciples", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: false },
   { id: "wedding-cana", number: 10, title: "Wedding at Cana", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: false },

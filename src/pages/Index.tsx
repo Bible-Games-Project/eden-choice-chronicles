@@ -234,6 +234,10 @@ import { jesusTempleScenes } from "@/data/stories/jesusTemple";
 import { jesusTempleImages } from "@/data/stories/jesusTempleImages";
 import { jesusTempleSprites } from "@/data/stories/jesusTempleSprites";
 import { jesusTempleEffects } from "@/data/stories/jesusTempleEffects";
+import { baptismJesusScenes } from "@/data/stories/baptismJesus";
+import { baptismJesusImages } from "@/data/stories/baptismJesusImages";
+import { baptismJesusSprites } from "@/data/stories/baptismJesusSprites";
+import { baptismJesusEffects } from "@/data/stories/baptismJesusEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -295,6 +299,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "wise-men": wiseMenScenes,
   "flight-egypt": flightEgyptScenes,
   "jesus-temple": jesusTempleScenes,
+  "baptism-jesus": baptismJesusScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -353,6 +358,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "wise-men": wiseMenImages,
   "flight-egypt": flightEgyptImages,
   "jesus-temple": jesusTempleImages,
+  "baptism-jesus": baptismJesusImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -411,6 +417,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "wise-men": wiseMenSprites,
   "flight-egypt": flightEgyptSprites,
   "jesus-temple": jesusTempleSprites,
+  "baptism-jesus": baptismJesusSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
