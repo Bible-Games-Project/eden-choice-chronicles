@@ -476,6 +476,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "wise-men": wiseMenEffects,
   "flight-egypt": flightEgyptEffects,
   "jesus-temple": jesusTempleEffects,
+  "baptism-jesus": baptismJesusEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
