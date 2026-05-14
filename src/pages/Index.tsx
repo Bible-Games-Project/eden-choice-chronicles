@@ -238,6 +238,10 @@ import { baptismJesusScenes } from "@/data/stories/baptismJesus";
 import { baptismJesusImages } from "@/data/stories/baptismJesusImages";
 import { baptismJesusSprites } from "@/data/stories/baptismJesusSprites";
 import { baptismJesusEffects } from "@/data/stories/baptismJesusEffects";
+import { temptationDesertScenes } from "@/data/stories/temptationDesert";
+import { temptationDesertImages } from "@/data/stories/temptationDesertImages";
+import { temptationDesertSprites } from "@/data/stories/temptationDesertSprites";
+import { temptationDesertEffects } from "@/data/stories/temptationDesertEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -300,6 +304,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "flight-egypt": flightEgyptScenes,
   "jesus-temple": jesusTempleScenes,
   "baptism-jesus": baptismJesusScenes,
+  "temptation-desert": temptationDesertScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -359,6 +364,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "flight-egypt": flightEgyptImages,
   "jesus-temple": jesusTempleImages,
   "baptism-jesus": baptismJesusImages,
+  "temptation-desert": temptationDesertImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -418,6 +424,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "flight-egypt": flightEgyptSprites,
   "jesus-temple": jesusTempleSprites,
   "baptism-jesus": baptismJesusSprites,
+  "temptation-desert": temptationDesertSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -477,6 +484,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "flight-egypt": flightEgyptEffects,
   "jesus-temple": jesusTempleEffects,
   "baptism-jesus": baptismJesusEffects,
+  "temptation-desert": temptationDesertEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
