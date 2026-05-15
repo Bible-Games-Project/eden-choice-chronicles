@@ -242,6 +242,10 @@ import { temptationDesertScenes } from "@/data/stories/temptationDesert";
 import { temptationDesertImages } from "@/data/stories/temptationDesertImages";
 import { temptationDesertSprites } from "@/data/stories/temptationDesertSprites";
 import { temptationDesertEffects } from "@/data/stories/temptationDesertEffects";
+import { callingDisciplesScenes } from "@/data/stories/callingDisciples";
+import { callingDisciplesImages } from "@/data/stories/callingDisciplesImages";
+import { callingDisciplesSprites } from "@/data/stories/callingDisciplesSprites";
+import { callingDisciplesEffects } from "@/data/stories/callingDisciplesEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -305,6 +309,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "jesus-temple": jesusTempleScenes,
   "baptism-jesus": baptismJesusScenes,
   "temptation-desert": temptationDesertScenes,
+  "calling-disciples": callingDisciplesScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -365,6 +370,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "jesus-temple": jesusTempleImages,
   "baptism-jesus": baptismJesusImages,
   "temptation-desert": temptationDesertImages,
+  "calling-disciples": callingDisciplesImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -425,6 +431,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "jesus-temple": jesusTempleSprites,
   "baptism-jesus": baptismJesusSprites,
   "temptation-desert": temptationDesertSprites,
+  "calling-disciples": callingDisciplesSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -485,6 +492,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "jesus-temple": jesusTempleEffects,
   "baptism-jesus": baptismJesusEffects,
   "temptation-desert": temptationDesertEffects,
+  "calling-disciples": callingDisciplesEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
