@@ -77,7 +77,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   // Beginning of Ministry
   { id: "baptism-jesus", number: 7, title: "Baptism of Jesus", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: true },
   { id: "temptation-desert", number: 8, title: "Temptation in the Desert", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: true },
-  { id: "calling-disciples", number: 9, title: "Calling of the Disciples", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: false },
+  { id: "calling-disciples", number: 9, title: "Calling of the Disciples", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: true },
   { id: "wedding-cana", number: 10, title: "Wedding at Cana", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: false },
   // Miracles
   { id: "healing-leper", number: 11, title: "Healing of the Leper", section: "new_testament_jesus", category: "Miracles", hasContent: false },
