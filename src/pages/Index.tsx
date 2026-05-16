@@ -246,6 +246,10 @@ import { callingDisciplesScenes } from "@/data/stories/callingDisciples";
 import { callingDisciplesImages } from "@/data/stories/callingDisciplesImages";
 import { callingDisciplesSprites } from "@/data/stories/callingDisciplesSprites";
 import { callingDisciplesEffects } from "@/data/stories/callingDisciplesEffects";
+import { weddingCanaScenes } from "@/data/stories/weddingCana";
+import { weddingCanaImages } from "@/data/stories/weddingCanaImages";
+import { weddingCanaSprites } from "@/data/stories/weddingCanaSprites";
+import { weddingCanaEffects } from "@/data/stories/weddingCanaEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -310,6 +314,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "baptism-jesus": baptismJesusScenes,
   "temptation-desert": temptationDesertScenes,
   "calling-disciples": callingDisciplesScenes,
+  "wedding-cana": weddingCanaScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -371,6 +376,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "baptism-jesus": baptismJesusImages,
   "temptation-desert": temptationDesertImages,
   "calling-disciples": callingDisciplesImages,
+  "wedding-cana": weddingCanaImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -432,6 +438,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "baptism-jesus": baptismJesusSprites,
   "temptation-desert": temptationDesertSprites,
   "calling-disciples": callingDisciplesSprites,
+  "wedding-cana": weddingCanaSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -493,6 +500,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "baptism-jesus": baptismJesusEffects,
   "temptation-desert": temptationDesertEffects,
   "calling-disciples": callingDisciplesEffects,
+  "wedding-cana": weddingCanaEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
