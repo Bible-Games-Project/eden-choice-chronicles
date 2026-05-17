@@ -250,6 +250,10 @@ import { weddingCanaScenes } from "@/data/stories/weddingCana";
 import { weddingCanaImages } from "@/data/stories/weddingCanaImages";
 import { weddingCanaSprites } from "@/data/stories/weddingCanaSprites";
 import { weddingCanaEffects } from "@/data/stories/weddingCanaEffects";
+import { healingLeperScenes } from "@/data/stories/healingLeper";
+import { healingLeperImages } from "@/data/stories/healingLeperImages";
+import { healingLeperSprites } from "@/data/stories/healingLeperSprites";
+import { healingLeperEffects } from "@/data/stories/healingLeperEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -315,6 +319,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "temptation-desert": temptationDesertScenes,
   "calling-disciples": callingDisciplesScenes,
   "wedding-cana": weddingCanaScenes,
+  "healing-leper": healingLeperScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -377,6 +382,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "temptation-desert": temptationDesertImages,
   "calling-disciples": callingDisciplesImages,
   "wedding-cana": weddingCanaImages,
+  "healing-leper": healingLeperImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -439,6 +445,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "temptation-desert": temptationDesertSprites,
   "calling-disciples": callingDisciplesSprites,
   "wedding-cana": weddingCanaSprites,
+  "healing-leper": healingLeperSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -501,6 +508,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "temptation-desert": temptationDesertEffects,
   "calling-disciples": callingDisciplesEffects,
   "wedding-cana": weddingCanaEffects,
+  "healing-leper": healingLeperEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
