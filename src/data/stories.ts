@@ -81,7 +81,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "wedding-cana", number: 10, title: "Wedding at Cana", section: "new_testament_jesus", category: "Beginning of Ministry", hasContent: true },
   // Miracles
   { id: "healing-leper", number: 11, title: "Healing of the Leper", section: "new_testament_jesus", category: "Miracles", hasContent: true },
-  { id: "centurion-servant", number: 12, title: "Centurion's Servant", section: "new_testament_jesus", category: "Miracles", hasContent: false },
+  { id: "centurion-servant", number: 12, title: "Centurion's Servant", section: "new_testament_jesus", category: "Miracles", hasContent: true },
   { id: "calming-storm", number: 13, title: "Calming the Storm", section: "new_testament_jesus", category: "Miracles", hasContent: false },
   { id: "demon-possessed", number: 14, title: "Demon Possessed Man", section: "new_testament_jesus", category: "Miracles", hasContent: false },
   { id: "woman-blood", number: 15, title: "Woman with Blood Issue", section: "new_testament_jesus", category: "Miracles", hasContent: false },
