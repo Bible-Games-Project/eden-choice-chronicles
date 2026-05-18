@@ -254,6 +254,10 @@ import { healingLeperScenes } from "@/data/stories/healingLeper";
 import { healingLeperImages } from "@/data/stories/healingLeperImages";
 import { healingLeperSprites } from "@/data/stories/healingLeperSprites";
 import { healingLeperEffects } from "@/data/stories/healingLeperEffects";
+import { centurionServantScenes } from "@/data/stories/centurionServant";
+import { centurionServantImages } from "@/data/stories/centurionServantImages";
+import { centurionServantSprites } from "@/data/stories/centurionServantSprites";
+import { centurionServantEffects } from "@/data/stories/centurionServantEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -320,6 +324,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "calling-disciples": callingDisciplesScenes,
   "wedding-cana": weddingCanaScenes,
   "healing-leper": healingLeperScenes,
+  "centurion-servant": centurionServantScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -383,6 +388,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "calling-disciples": callingDisciplesImages,
   "wedding-cana": weddingCanaImages,
   "healing-leper": healingLeperImages,
+  "centurion-servant": centurionServantImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -446,6 +452,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "calling-disciples": callingDisciplesSprites,
   "wedding-cana": weddingCanaSprites,
   "healing-leper": healingLeperSprites,
+  "centurion-servant": centurionServantSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -509,6 +516,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "calling-disciples": callingDisciplesEffects,
   "wedding-cana": weddingCanaEffects,
   "healing-leper": healingLeperEffects,
+  "centurion-servant": centurionServantEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
