@@ -258,6 +258,10 @@ import { centurionServantScenes } from "@/data/stories/centurionServant";
 import { centurionServantImages } from "@/data/stories/centurionServantImages";
 import { centurionServantSprites } from "@/data/stories/centurionServantSprites";
 import { centurionServantEffects } from "@/data/stories/centurionServantEffects";
+import { calmingStormScenes } from "@/data/stories/calmingStorm";
+import { calmingStormImages } from "@/data/stories/calmingStormImages";
+import { calmingStormSprites } from "@/data/stories/calmingStormSprites";
+import { calmingStormEffects } from "@/data/stories/calmingStormEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -325,6 +329,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "wedding-cana": weddingCanaScenes,
   "healing-leper": healingLeperScenes,
   "centurion-servant": centurionServantScenes,
+  "calming-storm": calmingStormScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -389,6 +394,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "wedding-cana": weddingCanaImages,
   "healing-leper": healingLeperImages,
   "centurion-servant": centurionServantImages,
+  "calming-storm": calmingStormImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -453,6 +459,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "wedding-cana": weddingCanaSprites,
   "healing-leper": healingLeperSprites,
   "centurion-servant": centurionServantSprites,
+  "calming-storm": calmingStormSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -517,6 +524,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "wedding-cana": weddingCanaEffects,
   "healing-leper": healingLeperEffects,
   "centurion-servant": centurionServantEffects,
+  "calming-storm": calmingStormEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
