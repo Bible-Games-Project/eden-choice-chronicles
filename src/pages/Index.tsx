@@ -262,6 +262,10 @@ import { calmingStormScenes } from "@/data/stories/calmingStorm";
 import { calmingStormImages } from "@/data/stories/calmingStormImages";
 import { calmingStormSprites } from "@/data/stories/calmingStormSprites";
 import { calmingStormEffects } from "@/data/stories/calmingStormEffects";
+import { demonPossessedScenes } from "@/data/stories/demonPossessed";
+import { demonPossessedImages } from "@/data/stories/demonPossessedImages";
+import { demonPossessedSprites } from "@/data/stories/demonPossessedSprites";
+import { demonPossessedEffects } from "@/data/stories/demonPossessedEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -330,6 +334,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "healing-leper": healingLeperScenes,
   "centurion-servant": centurionServantScenes,
   "calming-storm": calmingStormScenes,
+  "demon-possessed": demonPossessedScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -395,6 +400,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "healing-leper": healingLeperImages,
   "centurion-servant": centurionServantImages,
   "calming-storm": calmingStormImages,
+  "demon-possessed": demonPossessedImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -460,6 +466,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "healing-leper": healingLeperSprites,
   "centurion-servant": centurionServantSprites,
   "calming-storm": calmingStormSprites,
+  "demon-possessed": demonPossessedSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -525,6 +532,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "healing-leper": healingLeperEffects,
   "centurion-servant": centurionServantEffects,
   "calming-storm": calmingStormEffects,
+  "demon-possessed": demonPossessedEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
