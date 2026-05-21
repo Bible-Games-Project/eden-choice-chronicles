@@ -266,6 +266,10 @@ import { demonPossessedScenes } from "@/data/stories/demonPossessed";
 import { demonPossessedImages } from "@/data/stories/demonPossessedImages";
 import { demonPossessedSprites } from "@/data/stories/demonPossessedSprites";
 import { demonPossessedEffects } from "@/data/stories/demonPossessedEffects";
+import { womanBloodScenes } from "@/data/stories/womanBlood";
+import { womanBloodImages } from "@/data/stories/womanBloodImages";
+import { womanBloodSprites } from "@/data/stories/womanBloodSprites";
+import { womanBloodEffects } from "@/data/stories/womanBloodEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -335,6 +339,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "centurion-servant": centurionServantScenes,
   "calming-storm": calmingStormScenes,
   "demon-possessed": demonPossessedScenes,
+  "woman-blood": womanBloodScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -401,6 +406,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "centurion-servant": centurionServantImages,
   "calming-storm": calmingStormImages,
   "demon-possessed": demonPossessedImages,
+  "woman-blood": womanBloodImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -467,6 +473,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "centurion-servant": centurionServantSprites,
   "calming-storm": calmingStormSprites,
   "demon-possessed": demonPossessedSprites,
+  "woman-blood": womanBloodSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -533,6 +540,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "centurion-servant": centurionServantEffects,
   "calming-storm": calmingStormEffects,
   "demon-possessed": demonPossessedEffects,
+  "woman-blood": womanBloodEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
