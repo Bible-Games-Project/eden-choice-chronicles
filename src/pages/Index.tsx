@@ -270,6 +270,10 @@ import { womanBloodScenes } from "@/data/stories/womanBlood";
 import { womanBloodImages } from "@/data/stories/womanBloodImages";
 import { womanBloodSprites } from "@/data/stories/womanBloodSprites";
 import { womanBloodEffects } from "@/data/stories/womanBloodEffects";
+import { jairusDaughterScenes } from "@/data/stories/jairusDaughter";
+import { jairusDaughterImages } from "@/data/stories/jairusDaughterImages";
+import { jairusDaughterSprites } from "@/data/stories/jairusDaughterSprites";
+import { jairusDaughterEffects } from "@/data/stories/jairusDaughterEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -340,6 +344,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "calming-storm": calmingStormScenes,
   "demon-possessed": demonPossessedScenes,
   "woman-blood": womanBloodScenes,
+  "jairus-daughter": jairusDaughterScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -407,6 +412,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "calming-storm": calmingStormImages,
   "demon-possessed": demonPossessedImages,
   "woman-blood": womanBloodImages,
+  "jairus-daughter": jairusDaughterImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -474,6 +480,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "calming-storm": calmingStormSprites,
   "demon-possessed": demonPossessedSprites,
   "woman-blood": womanBloodSprites,
+  "jairus-daughter": jairusDaughterSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -541,6 +548,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "calming-storm": calmingStormEffects,
   "demon-possessed": demonPossessedEffects,
   "woman-blood": womanBloodEffects,
+  "jairus-daughter": jairusDaughterEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
