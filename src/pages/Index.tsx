@@ -274,6 +274,10 @@ import { jairusDaughterScenes } from "@/data/stories/jairusDaughter";
 import { jairusDaughterImages } from "@/data/stories/jairusDaughterImages";
 import { jairusDaughterSprites } from "@/data/stories/jairusDaughterSprites";
 import { jairusDaughterEffects } from "@/data/stories/jairusDaughterEffects";
+import { feeding5000Scenes } from "@/data/stories/feeding5000";
+import { feeding5000Images } from "@/data/stories/feeding5000Images";
+import { feeding5000Sprites } from "@/data/stories/feeding5000Sprites";
+import { feeding5000Effects } from "@/data/stories/feeding5000Effects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -345,6 +349,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "demon-possessed": demonPossessedScenes,
   "woman-blood": womanBloodScenes,
   "jairus-daughter": jairusDaughterScenes,
+  "feeding-5000": feeding5000Scenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -413,6 +418,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "demon-possessed": demonPossessedImages,
   "woman-blood": womanBloodImages,
   "jairus-daughter": jairusDaughterImages,
+  "feeding-5000": feeding5000Images,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -481,6 +487,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "demon-possessed": demonPossessedSprites,
   "woman-blood": womanBloodSprites,
   "jairus-daughter": jairusDaughterSprites,
+  "feeding-5000": feeding5000Sprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -549,6 +556,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "demon-possessed": demonPossessedEffects,
   "woman-blood": womanBloodEffects,
   "jairus-daughter": jairusDaughterEffects,
+  "feeding-5000": feeding5000Effects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
