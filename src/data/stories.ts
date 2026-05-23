@@ -86,7 +86,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "demon-possessed", number: 14, title: "Demon Possessed Man", section: "new_testament_jesus", category: "Miracles", hasContent: true },
   { id: "woman-blood", number: 15, title: "Woman with Blood Issue", section: "new_testament_jesus", category: "Miracles", hasContent: true },
   { id: "jairus-daughter", number: 16, title: "Jairus' Daughter", section: "new_testament_jesus", category: "Miracles", hasContent: true },
-  { id: "feeding-5000", number: 17, title: "Feeding the 5000", section: "new_testament_jesus", category: "Miracles", hasContent: false },
+  { id: "feeding-5000", number: 17, title: "Feeding the 5000", section: "new_testament_jesus", category: "Miracles", hasContent: true },
   { id: "walking-water", number: 18, title: "Walking on Water", section: "new_testament_jesus", category: "Miracles", hasContent: false },
   { id: "blind-man", number: 19, title: "Blind Man Born Blind", section: "new_testament_jesus", category: "Miracles", hasContent: false },
   { id: "raising-lazarus", number: 20, title: "Raising Lazarus", section: "new_testament_jesus", category: "Miracles", hasContent: false },
