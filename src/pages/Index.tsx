@@ -278,6 +278,10 @@ import { feeding5000Scenes } from "@/data/stories/feeding5000";
 import { feeding5000Images } from "@/data/stories/feeding5000Images";
 import { feeding5000Sprites } from "@/data/stories/feeding5000Sprites";
 import { feeding5000Effects } from "@/data/stories/feeding5000Effects";
+import { walkingWaterScenes } from "@/data/stories/walkingWater";
+import { walkingWaterImages } from "@/data/stories/walkingWaterImages";
+import { walkingWaterSprites } from "@/data/stories/walkingWaterSprites";
+import { walkingWaterEffects } from "@/data/stories/walkingWaterEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -350,6 +354,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "woman-blood": womanBloodScenes,
   "jairus-daughter": jairusDaughterScenes,
   "feeding-5000": feeding5000Scenes,
+  "walking-water": walkingWaterScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -419,6 +424,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "woman-blood": womanBloodImages,
   "jairus-daughter": jairusDaughterImages,
   "feeding-5000": feeding5000Images,
+  "walking-water": walkingWaterImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -488,6 +494,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "woman-blood": womanBloodSprites,
   "jairus-daughter": jairusDaughterSprites,
   "feeding-5000": feeding5000Sprites,
+  "walking-water": walkingWaterSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -557,6 +564,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "woman-blood": womanBloodEffects,
   "jairus-daughter": jairusDaughterEffects,
   "feeding-5000": feeding5000Effects,
+  "walking-water": walkingWaterEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
