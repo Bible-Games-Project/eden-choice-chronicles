@@ -282,6 +282,10 @@ import { walkingWaterScenes } from "@/data/stories/walkingWater";
 import { walkingWaterImages } from "@/data/stories/walkingWaterImages";
 import { walkingWaterSprites } from "@/data/stories/walkingWaterSprites";
 import { walkingWaterEffects } from "@/data/stories/walkingWaterEffects";
+import { blindManScenes } from "@/data/stories/blindMan";
+import { blindManImages } from "@/data/stories/blindManImages";
+import { blindManSprites } from "@/data/stories/blindManSprites";
+import { blindManEffects } from "@/data/stories/blindManEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -355,6 +359,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "jairus-daughter": jairusDaughterScenes,
   "feeding-5000": feeding5000Scenes,
   "walking-water": walkingWaterScenes,
+  "blind-man": blindManScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -425,6 +430,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "jairus-daughter": jairusDaughterImages,
   "feeding-5000": feeding5000Images,
   "walking-water": walkingWaterImages,
+  "blind-man": blindManImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -495,6 +501,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "jairus-daughter": jairusDaughterSprites,
   "feeding-5000": feeding5000Sprites,
   "walking-water": walkingWaterSprites,
+  "blind-man": blindManSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -565,6 +572,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "jairus-daughter": jairusDaughterEffects,
   "feeding-5000": feeding5000Effects,
   "walking-water": walkingWaterEffects,
+  "blind-man": blindManEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
