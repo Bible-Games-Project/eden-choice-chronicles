@@ -290,6 +290,10 @@ import { lazarusScenes } from "@/data/stories/lazarus";
 import { lazarusImages } from "@/data/stories/lazarusImages";
 import { lazarusSprites } from "@/data/stories/lazarusSprites";
 import { lazarusEffects } from "@/data/stories/lazarusEffects";
+import { sermonMountScenes } from "@/data/stories/sermonMount";
+import { sermonMountImages } from "@/data/stories/sermonMountImages";
+import { sermonMountSprites } from "@/data/stories/sermonMountSprites";
+import { sermonMountEffects } from "@/data/stories/sermonMountEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -365,6 +369,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "walking-water": walkingWaterScenes,
   "blind-man": blindManScenes,
   "raising-lazarus": lazarusScenes,
+  "sermon-mount": sermonMountScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -437,6 +442,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "walking-water": walkingWaterImages,
   "blind-man": blindManImages,
   "raising-lazarus": lazarusImages,
+  "sermon-mount": sermonMountImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -509,6 +515,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "walking-water": walkingWaterSprites,
   "blind-man": blindManSprites,
   "raising-lazarus": lazarusSprites,
+  "sermon-mount": sermonMountSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -581,6 +588,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "walking-water": walkingWaterEffects,
   "blind-man": blindManEffects,
   "raising-lazarus": lazarusEffects,
+  "sermon-mount": sermonMountEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
