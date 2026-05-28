@@ -9,7 +9,6 @@ on:
         default: 'main'
   push:
     branches:
-      - main
       - deploy-app
 
 jobs:

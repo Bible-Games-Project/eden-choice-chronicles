@@ -19,7 +19,6 @@ on:
           - production
   push:
     branches:
-      - main
       - deploy-app
 
 jobs:
