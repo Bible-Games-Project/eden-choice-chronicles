@@ -306,6 +306,10 @@ import { prodigalSonScenes } from "@/data/stories/prodigalSon";
 import { prodigalSonImages } from "@/data/stories/prodigalSonImages";
 import { prodigalSonSprites } from "@/data/stories/prodigalSonSprites";
 import { prodigalSonEffects } from "@/data/stories/prodigalSonEffects";
+import { richLazarusScenes } from "@/data/stories/richLazarus";
+import { richLazarusImages } from "@/data/stories/richLazarusImages";
+import { richLazarusSprites } from "@/data/stories/richLazarusSprites";
+import { richLazarusEffects } from "@/data/stories/richLazarusEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";

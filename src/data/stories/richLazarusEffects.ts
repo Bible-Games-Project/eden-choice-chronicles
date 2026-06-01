@@ -1,0 +1,26 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const richLazarusEffects: Record<string, SceneEffect> = {
+  start: "leaves",
+  turn_consequence: "leaves",
+  luxury: "fireflies",
+  envy_consequence: "fireflies",
+  gate: "leaves",
+  step_consequence: "leaves",
+  blame_consequence: "leaves",
+  dogs: "leaves",
+  disgust_consequence: "leaves",
+  indifference: "leaves",
+  excuse_consequence: "leaves",
+  death_lazarus: "sparkles",
+  doubt_consequence: "sparkles",
+  death_rich: "fireflies",
+  mock_consequence: "fireflies",
+  pity_consequence: "fireflies",
+  plea: "fireflies",
+  demand_consequence: "fireflies",
+  warning: "sparkles",
+  sign_consequence: "sparkles",
+  blame_god_consequence: "sparkles",
+  ending: "sparkles",
+};
