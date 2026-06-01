@@ -294,6 +294,30 @@ import { sermonMountScenes } from "@/data/stories/sermonMount";
 import { sermonMountImages } from "@/data/stories/sermonMountImages";
 import { sermonMountSprites } from "@/data/stories/sermonMountSprites";
 import { sermonMountEffects } from "@/data/stories/sermonMountEffects";
+import { lordsPrayerScenes } from "@/data/stories/lordsPrayer";
+import { lordsPrayerImages } from "@/data/stories/lordsPrayerImages";
+import { lordsPrayerSprites } from "@/data/stories/lordsPrayerSprites";
+import { lordsPrayerEffects } from "@/data/stories/lordsPrayerEffects";
+import { goodSamaritanScenes } from "@/data/stories/goodSamaritan";
+import { goodSamaritanImages } from "@/data/stories/goodSamaritanImages";
+import { goodSamaritanSprites } from "@/data/stories/goodSamaritanSprites";
+import { goodSamaritanEffects } from "@/data/stories/goodSamaritanEffects";
+import { prodigalSonScenes } from "@/data/stories/prodigalSon";
+import { prodigalSonImages } from "@/data/stories/prodigalSonImages";
+import { prodigalSonSprites } from "@/data/stories/prodigalSonSprites";
+import { prodigalSonEffects } from "@/data/stories/prodigalSonEffects";
+import { richLazarusScenes } from "@/data/stories/richLazarus";
+import { richLazarusImages } from "@/data/stories/richLazarusImages";
+import { richLazarusSprites } from "@/data/stories/richLazarusSprites";
+import { richLazarusEffects } from "@/data/stories/richLazarusEffects";
+import { parableSowerScenes } from "@/data/stories/parableSower";
+import { parableSowerImages } from "@/data/stories/parableSowerImages";
+import { parableSowerSprites } from "@/data/stories/parableSowerSprites";
+import { parableSowerEffects } from "@/data/stories/parableSowerEffects";
+import { parableTalentsScenes } from "@/data/stories/parableTalents";
+import { parableTalentsImages } from "@/data/stories/parableTalentsImages";
+import { parableTalentsSprites } from "@/data/stories/parableTalentsSprites";
+import { parableTalentsEffects } from "@/data/stories/parableTalentsEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -370,6 +394,12 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "blind-man": blindManScenes,
   "raising-lazarus": lazarusScenes,
   "sermon-mount": sermonMountScenes,
+  "lords-prayer": lordsPrayerScenes,
+  "good-samaritan": goodSamaritanScenes,
+  "prodigal-son": prodigalSonScenes,
+  "rich-man-lazarus": richLazarusScenes,
+  "parable-sower": parableSowerScenes,
+  "parable-talents": parableTalentsScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -443,6 +473,12 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "blind-man": blindManImages,
   "raising-lazarus": lazarusImages,
   "sermon-mount": sermonMountImages,
+  "lords-prayer": lordsPrayerImages,
+  "good-samaritan": goodSamaritanImages,
+  "prodigal-son": prodigalSonImages,
+  "rich-man-lazarus": richLazarusImages,
+  "parable-sower": parableSowerImages,
+  "parable-talents": parableTalentsImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -516,6 +552,12 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "blind-man": blindManSprites,
   "raising-lazarus": lazarusSprites,
   "sermon-mount": sermonMountSprites,
+  "lords-prayer": lordsPrayerSprites,
+  "good-samaritan": goodSamaritanSprites,
+  "prodigal-son": prodigalSonSprites,
+  "rich-man-lazarus": richLazarusSprites,
+  "parable-sower": parableSowerSprites,
+  "parable-talents": parableTalentsSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -589,6 +631,12 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "blind-man": blindManEffects,
   "raising-lazarus": lazarusEffects,
   "sermon-mount": sermonMountEffects,
+  "lords-prayer": lordsPrayerEffects,
+  "good-samaritan": goodSamaritanEffects,
+  "prodigal-son": prodigalSonEffects,
+  "rich-man-lazarus": richLazarusEffects,
+  "parable-sower": parableSowerEffects,
+  "parable-talents": parableTalentsEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
