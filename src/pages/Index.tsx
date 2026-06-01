@@ -342,6 +342,10 @@ import { womanAdulteryScenes } from "@/data/stories/womanAdultery";
 import { womanAdulteryImages } from "@/data/stories/womanAdulteryImages";
 import { womanAdulterySprites } from "@/data/stories/womanAdulterySprites";
 import { womanAdulteryEffects } from "@/data/stories/womanAdulteryEffects";
+import { zacchaeusScenes } from "@/data/stories/zacchaeus";
+import { zacchaeusImages } from "@/data/stories/zacchaeusImages";
+import { zacchaeusSprites } from "@/data/stories/zacchaeusSprites";
+import { zacchaeusEffects } from "@/data/stories/zacchaeusEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -430,6 +434,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   nicodemus: nicodemusScenes,
   "samaritan-woman": samaritanWomanScenes,
   "woman-adultery": womanAdulteryScenes,
+  zacchaeus: zacchaeusScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
