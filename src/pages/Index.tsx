@@ -334,6 +334,10 @@ import { nicodemusScenes } from "@/data/stories/nicodemus";
 import { nicodemusImages } from "@/data/stories/nicodemusImages";
 import { nicodemusSprites } from "@/data/stories/nicodemusSprites";
 import { nicodemusEffects } from "@/data/stories/nicodemusEffects";
+import { samaritanWomanScenes } from "@/data/stories/samaritanWoman";
+import { samaritanWomanImages } from "@/data/stories/samaritanWomanImages";
+import { samaritanWomanSprites } from "@/data/stories/samaritanWomanSprites";
+import { samaritanWomanEffects } from "@/data/stories/samaritanWomanEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -420,6 +424,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "pharisee-tax": phariseeTaxScenes,
   "ten-virgins": tenVirginsScenes,
   nicodemus: nicodemusScenes,
+  "samaritan-woman": samaritanWomanScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -503,6 +508,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "pharisee-tax": phariseeTaxImages,
   "ten-virgins": tenVirginsImages,
   nicodemus: nicodemusImages,
+  "samaritan-woman": samaritanWomanImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -586,6 +592,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "pharisee-tax": phariseeTaxSprites,
   "ten-virgins": tenVirginsSprites,
   nicodemus: nicodemusSprites,
+  "samaritan-woman": samaritanWomanSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -669,6 +676,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "pharisee-tax": phariseeTaxEffects,
   "ten-virgins": tenVirginsEffects,
   nicodemus: nicodemusEffects,
+  "samaritan-woman": samaritanWomanEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
