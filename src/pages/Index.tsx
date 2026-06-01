@@ -346,6 +346,10 @@ import { zacchaeusScenes } from "@/data/stories/zacchaeus";
 import { zacchaeusImages } from "@/data/stories/zacchaeusImages";
 import { zacchaeusSprites } from "@/data/stories/zacchaeusSprites";
 import { zacchaeusEffects } from "@/data/stories/zacchaeusEffects";
+import { richYoungManScenes } from "@/data/stories/richYoungMan";
+import { richYoungManImages } from "@/data/stories/richYoungManImages";
+import { richYoungManSprites } from "@/data/stories/richYoungManSprites";
+import { richYoungManEffects } from "@/data/stories/richYoungManEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -435,6 +439,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "samaritan-woman": samaritanWomanScenes,
   "woman-adultery": womanAdulteryScenes,
   zacchaeus: zacchaeusScenes,
+  "rich-young-man": richYoungManScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,

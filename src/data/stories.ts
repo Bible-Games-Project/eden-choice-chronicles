@@ -106,7 +106,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "samaritan-woman", number: 32, title: "Samaritan Woman", section: "new_testament_jesus", category: "Encounters", hasContent: true },
   { id: "woman-adultery", number: 33, title: "Woman Caught in Adultery", section: "new_testament_jesus", category: "Encounters", hasContent: true },
   { id: "zacchaeus", number: 34, title: "Zacchaeus", section: "new_testament_jesus", category: "Encounters", hasContent: true },
-  { id: "rich-young-man", number: 35, title: "Rich Young Man", section: "new_testament_jesus", category: "Encounters", hasContent: false },
+  { id: "rich-young-man", number: 35, title: "Rich Young Man", section: "new_testament_jesus", category: "Encounters", hasContent: true },
   // Conflicts
   { id: "debates-pharisees", number: 36, title: "Debates with Pharisees", section: "new_testament_jesus", category: "Conflicts", hasContent: false },
   { id: "cleansing-temple", number: 37, title: "Cleansing of the Temple", section: "new_testament_jesus", category: "Conflicts", hasContent: false },
