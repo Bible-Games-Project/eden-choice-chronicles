@@ -326,6 +326,10 @@ import { phariseeTaxScenes } from "@/data/stories/phariseeTax";
 import { phariseeTaxImages } from "@/data/stories/phariseeTaxImages";
 import { phariseeTaxSprites } from "@/data/stories/phariseeTaxSprites";
 import { phariseeTaxEffects } from "@/data/stories/phariseeTaxEffects";
+import { tenVirginsScenes } from "@/data/stories/tenVirgins";
+import { tenVirginsImages } from "@/data/stories/tenVirginsImages";
+import { tenVirginsSprites } from "@/data/stories/tenVirginsSprites";
+import { tenVirginsEffects } from "@/data/stories/tenVirginsEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -410,6 +414,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "parable-talents": parableTalentsScenes,
   "lost-sheep": lostSheepScenes,
   "pharisee-tax": phariseeTaxScenes,
+  "ten-virgins": tenVirginsScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
