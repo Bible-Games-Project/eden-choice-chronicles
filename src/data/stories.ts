@@ -93,7 +93,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   // Teachings and Parables
   { id: "sermon-mount", number: 21, title: "Sermon on the Mount", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "lords-prayer", number: 22, title: "The Lord's Prayer", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
-  { id: "good-samaritan", number: 23, title: "Good Samaritan", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
+  { id: "good-samaritan", number: 23, title: "Good Samaritan", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "prodigal-son", number: 24, title: "Prodigal Son", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
   { id: "rich-man-lazarus", number: 25, title: "Rich Man and Lazarus", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
   { id: "parable-sower", number: 26, title: "Parable of the Sower", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },

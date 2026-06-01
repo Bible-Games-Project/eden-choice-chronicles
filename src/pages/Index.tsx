@@ -298,6 +298,10 @@ import { lordsPrayerScenes } from "@/data/stories/lordsPrayer";
 import { lordsPrayerImages } from "@/data/stories/lordsPrayerImages";
 import { lordsPrayerSprites } from "@/data/stories/lordsPrayerSprites";
 import { lordsPrayerEffects } from "@/data/stories/lordsPrayerEffects";
+import { goodSamaritanScenes } from "@/data/stories/goodSamaritan";
+import { goodSamaritanImages } from "@/data/stories/goodSamaritanImages";
+import { goodSamaritanSprites } from "@/data/stories/goodSamaritanSprites";
+import { goodSamaritanEffects } from "@/data/stories/goodSamaritanEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -375,6 +379,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "raising-lazarus": lazarusScenes,
   "sermon-mount": sermonMountScenes,
   "lords-prayer": lordsPrayerScenes,
+  "good-samaritan": goodSamaritanScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -449,6 +454,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "raising-lazarus": lazarusImages,
   "sermon-mount": sermonMountImages,
   "lords-prayer": lordsPrayerImages,
+  "good-samaritan": goodSamaritanImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -523,6 +529,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "raising-lazarus": lazarusSprites,
   "sermon-mount": sermonMountSprites,
   "lords-prayer": lordsPrayerSprites,
+  "good-samaritan": goodSamaritanSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -597,6 +604,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "raising-lazarus": lazarusEffects,
   "sermon-mount": sermonMountEffects,
   "lords-prayer": lordsPrayerEffects,
+  "good-samaritan": goodSamaritanEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
