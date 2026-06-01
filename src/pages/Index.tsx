@@ -338,6 +338,10 @@ import { samaritanWomanScenes } from "@/data/stories/samaritanWoman";
 import { samaritanWomanImages } from "@/data/stories/samaritanWomanImages";
 import { samaritanWomanSprites } from "@/data/stories/samaritanWomanSprites";
 import { samaritanWomanEffects } from "@/data/stories/samaritanWomanEffects";
+import { womanAdulteryScenes } from "@/data/stories/womanAdultery";
+import { womanAdulteryImages } from "@/data/stories/womanAdulteryImages";
+import { womanAdulterySprites } from "@/data/stories/womanAdulterySprites";
+import { womanAdulteryEffects } from "@/data/stories/womanAdulteryEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -425,6 +429,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "ten-virgins": tenVirginsScenes,
   nicodemus: nicodemusScenes,
   "samaritan-woman": samaritanWomanScenes,
+  "woman-adultery": womanAdulteryScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -509,6 +514,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "ten-virgins": tenVirginsImages,
   nicodemus: nicodemusImages,
   "samaritan-woman": samaritanWomanImages,
+  "woman-adultery": womanAdulteryImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -593,6 +599,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "ten-virgins": tenVirginsSprites,
   nicodemus: nicodemusSprites,
   "samaritan-woman": samaritanWomanSprites,
+  "woman-adultery": womanAdulterySprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -677,6 +684,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "ten-virgins": tenVirginsEffects,
   nicodemus: nicodemusEffects,
   "samaritan-woman": samaritanWomanEffects,
+  "woman-adultery": womanAdulteryEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
