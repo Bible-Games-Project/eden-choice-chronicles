@@ -389,6 +389,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "lords-prayer": lordsPrayerScenes,
   "good-samaritan": goodSamaritanScenes,
   "prodigal-son": prodigalSonScenes,
+  "rich-man-lazarus": richLazarusScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -465,6 +466,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "lords-prayer": lordsPrayerImages,
   "good-samaritan": goodSamaritanImages,
   "prodigal-son": prodigalSonImages,
+  "rich-man-lazarus": richLazarusImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -541,6 +543,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "lords-prayer": lordsPrayerSprites,
   "good-samaritan": goodSamaritanSprites,
   "prodigal-son": prodigalSonSprites,
+  "rich-man-lazarus": richLazarusSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -617,6 +620,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "lords-prayer": lordsPrayerEffects,
   "good-samaritan": goodSamaritanEffects,
   "prodigal-son": prodigalSonEffects,
+  "rich-man-lazarus": richLazarusEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
