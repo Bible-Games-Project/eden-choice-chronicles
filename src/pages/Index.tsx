@@ -314,6 +314,10 @@ import { parableSowerScenes } from "@/data/stories/parableSower";
 import { parableSowerImages } from "@/data/stories/parableSowerImages";
 import { parableSowerSprites } from "@/data/stories/parableSowerSprites";
 import { parableSowerEffects } from "@/data/stories/parableSowerEffects";
+import { parableTalentsScenes } from "@/data/stories/parableTalents";
+import { parableTalentsImages } from "@/data/stories/parableTalentsImages";
+import { parableTalentsSprites } from "@/data/stories/parableTalentsSprites";
+import { parableTalentsEffects } from "@/data/stories/parableTalentsEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -395,6 +399,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "prodigal-son": prodigalSonScenes,
   "rich-man-lazarus": richLazarusScenes,
   "parable-sower": parableSowerScenes,
+  "parable-talents": parableTalentsScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -473,6 +478,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "prodigal-son": prodigalSonImages,
   "rich-man-lazarus": richLazarusImages,
   "parable-sower": parableSowerImages,
+  "parable-talents": parableTalentsImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -551,6 +557,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "prodigal-son": prodigalSonSprites,
   "rich-man-lazarus": richLazarusSprites,
   "parable-sower": parableSowerSprites,
+  "parable-talents": parableTalentsSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -629,6 +636,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "prodigal-son": prodigalSonEffects,
   "rich-man-lazarus": richLazarusEffects,
   "parable-sower": parableSowerEffects,
+  "parable-talents": parableTalentsEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
