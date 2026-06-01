@@ -110,7 +110,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   // Conflicts
   { id: "debates-pharisees", number: 36, title: "Debates with Pharisees", section: "new_testament_jesus", category: "Conflicts", hasContent: true },
   { id: "cleansing-temple", number: 37, title: "Cleansing of the Temple", section: "new_testament_jesus", category: "Conflicts", hasContent: true },
-  { id: "rejection-nazareth", number: 38, title: "Rejection in Nazareth", section: "new_testament_jesus", category: "Conflicts", hasContent: false },
+  { id: "rejection-nazareth", number: 38, title: "Rejection in Nazareth", section: "new_testament_jesus", category: "Conflicts", hasContent: true },
   // Passion
   { id: "triumphal-entry", number: 39, title: "Triumphal Entry", section: "new_testament_jesus", category: "Passion", hasContent: false },
   { id: "last-supper", number: 40, title: "Last Supper", section: "new_testament_jesus", category: "Passion", hasContent: false },
