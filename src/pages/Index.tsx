@@ -520,6 +520,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   nicodemus: nicodemusImages,
   "samaritan-woman": samaritanWomanImages,
   "woman-adultery": womanAdulteryImages,
+  zacchaeus: zacchaeusImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -605,6 +606,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   nicodemus: nicodemusSprites,
   "samaritan-woman": samaritanWomanSprites,
   "woman-adultery": womanAdulterySprites,
+  zacchaeus: zacchaeusSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -690,6 +692,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   nicodemus: nicodemusEffects,
   "samaritan-woman": samaritanWomanEffects,
   "woman-adultery": womanAdulteryEffects,
+  zacchaeus: zacchaeusEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
