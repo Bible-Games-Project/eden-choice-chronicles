@@ -464,6 +464,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "cleansing-temple": cleansingTempleScenes,
   "rejection-nazareth": rejectionNazarethScenes,
   "triumphal-entry": triumphalEntryScenes,
+  "last-supper": lastSupperScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -555,6 +556,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "cleansing-temple": cleansingTempleImages,
   "rejection-nazareth": rejectionNazarethImages,
   "triumphal-entry": triumphalEntryImages,
+  "last-supper": lastSupperImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -646,6 +648,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "cleansing-temple": cleansingTempleSprites,
   "rejection-nazareth": rejectionNazarethSprites,
   "triumphal-entry": triumphalEntrySprites,
+  "last-supper": lastSupperSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -737,6 +740,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "cleansing-temple": cleansingTempleEffects,
   "rejection-nazareth": rejectionNazarethEffects,
   "triumphal-entry": triumphalEntryEffects,
+  "last-supper": lastSupperEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
