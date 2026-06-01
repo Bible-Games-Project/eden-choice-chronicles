@@ -109,7 +109,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "rich-young-man", number: 35, title: "Rich Young Man", section: "new_testament_jesus", category: "Encounters", hasContent: true },
   // Conflicts
   { id: "debates-pharisees", number: 36, title: "Debates with Pharisees", section: "new_testament_jesus", category: "Conflicts", hasContent: true },
-  { id: "cleansing-temple", number: 37, title: "Cleansing of the Temple", section: "new_testament_jesus", category: "Conflicts", hasContent: false },
+  { id: "cleansing-temple", number: 37, title: "Cleansing of the Temple", section: "new_testament_jesus", category: "Conflicts", hasContent: true },
   { id: "rejection-nazareth", number: 38, title: "Rejection in Nazareth", section: "new_testament_jesus", category: "Conflicts", hasContent: false },
   // Passion
   { id: "triumphal-entry", number: 39, title: "Triumphal Entry", section: "new_testament_jesus", category: "Passion", hasContent: false },
