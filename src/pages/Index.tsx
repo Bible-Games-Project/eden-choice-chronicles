@@ -350,6 +350,10 @@ import { richYoungManScenes } from "@/data/stories/richYoungMan";
 import { richYoungManImages } from "@/data/stories/richYoungManImages";
 import { richYoungManSprites } from "@/data/stories/richYoungManSprites";
 import { richYoungManEffects } from "@/data/stories/richYoungManEffects";
+import { debatesPhariseesScenes } from "@/data/stories/debatesPharisees";
+import { debatesPhariseesImages } from "@/data/stories/debatesPhariseesImages";
+import { debatesPhariseesSprites } from "@/data/stories/debatesPhariseesSprites";
+import { debatesPhariseesEffects } from "@/data/stories/debatesPhariseesEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";

@@ -108,7 +108,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "zacchaeus", number: 34, title: "Zacchaeus", section: "new_testament_jesus", category: "Encounters", hasContent: true },
   { id: "rich-young-man", number: 35, title: "Rich Young Man", section: "new_testament_jesus", category: "Encounters", hasContent: true },
   // Conflicts
-  { id: "debates-pharisees", number: 36, title: "Debates with Pharisees", section: "new_testament_jesus", category: "Conflicts", hasContent: false },
+  { id: "debates-pharisees", number: 36, title: "Debates with Pharisees", section: "new_testament_jesus", category: "Conflicts", hasContent: true },
   { id: "cleansing-temple", number: 37, title: "Cleansing of the Temple", section: "new_testament_jesus", category: "Conflicts", hasContent: false },
   { id: "rejection-nazareth", number: 38, title: "Rejection in Nazareth", section: "new_testament_jesus", category: "Conflicts", hasContent: false },
   // Passion
