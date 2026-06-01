@@ -454,6 +454,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "rich-young-man": richYoungManScenes,
   "debates-pharisees": debatesPhariseesScenes,
   "cleansing-temple": cleansingTempleScenes,
+  "rejection-nazareth": rejectionNazarethScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -543,6 +544,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "rich-young-man": richYoungManImages,
   "debates-pharisees": debatesPhariseesImages,
   "cleansing-temple": cleansingTempleImages,
+  "rejection-nazareth": rejectionNazarethImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -632,6 +634,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "rich-young-man": richYoungManSprites,
   "debates-pharisees": debatesPhariseesSprites,
   "cleansing-temple": cleansingTempleSprites,
+  "rejection-nazareth": rejectionNazarethSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -721,6 +724,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "rich-young-man": richYoungManEffects,
   "debates-pharisees": debatesPhariseesEffects,
   "cleansing-temple": cleansingTempleEffects,
+  "rejection-nazareth": rejectionNazarethEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
