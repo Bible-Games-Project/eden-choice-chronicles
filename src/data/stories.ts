@@ -98,7 +98,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "rich-man-lazarus", number: 25, title: "Rich Man and Lazarus", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "parable-sower", number: 26, title: "Parable of the Sower", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "parable-talents", number: 27, title: "Parable of the Talents", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
-  { id: "lost-sheep", number: 28, title: "Lost Sheep", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
+  { id: "lost-sheep", number: 28, title: "Lost Sheep", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "pharisee-tax", number: 29, title: "Pharisee and Tax Collector", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
   { id: "ten-virgins", number: 30, title: "Ten Virgins", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
   // Encounters
