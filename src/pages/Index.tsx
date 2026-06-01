@@ -354,6 +354,10 @@ import { debatesPhariseesScenes } from "@/data/stories/debatesPharisees";
 import { debatesPhariseesImages } from "@/data/stories/debatesPhariseesImages";
 import { debatesPhariseesSprites } from "@/data/stories/debatesPhariseesSprites";
 import { debatesPhariseesEffects } from "@/data/stories/debatesPhariseesEffects";
+import { cleansingTempleScenes } from "@/data/stories/cleansingTemple";
+import { cleansingTempleImages } from "@/data/stories/cleansingTempleImages";
+import { cleansingTempleSprites } from "@/data/stories/cleansingTempleSprites";
+import { cleansingTempleEffects } from "@/data/stories/cleansingTempleEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -445,6 +449,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   zacchaeus: zacchaeusScenes,
   "rich-young-man": richYoungManScenes,
   "debates-pharisees": debatesPhariseesScenes,
+  "cleansing-temple": cleansingTempleScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -533,6 +538,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   zacchaeus: zacchaeusImages,
   "rich-young-man": richYoungManImages,
   "debates-pharisees": debatesPhariseesImages,
+  "cleansing-temple": cleansingTempleImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -621,6 +627,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   zacchaeus: zacchaeusSprites,
   "rich-young-man": richYoungManSprites,
   "debates-pharisees": debatesPhariseesSprites,
+  "cleansing-temple": cleansingTempleSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -709,6 +716,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   zacchaeus: zacchaeusEffects,
   "rich-young-man": richYoungManEffects,
   "debates-pharisees": debatesPhariseesEffects,
+  "cleansing-temple": cleansingTempleEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
