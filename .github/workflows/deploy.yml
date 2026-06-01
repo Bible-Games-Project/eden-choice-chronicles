@@ -29,7 +29,7 @@ jobs:
     if: |
       github.ref == 'refs/heads/deploy-app' ||
       (github.event_name == 'pull_request' && github.event.pull_request.merged == true) ||
-      (github.event_name == 'workflow_dispatch' && inputs.deploy_ios == true)
+      (github.event_name == 'workflow_dispatch' && (inputs.deploy_ios == true || inputs.deploy_ios == 'true'))
     uses: Bible-Games-Project/bgp-admin/.github/workflows/deploy-ios.yml@main
     with:
       xcode-version: "16.2"
@@ -51,7 +51,7 @@ jobs:
     if: |
       github.ref == 'refs/heads/deploy-app' ||
       (github.event_name == 'pull_request' && github.event.pull_request.merged == true) ||
-      (github.event_name == 'workflow_dispatch' && inputs.deploy_android == true)
+      (github.event_name == 'workflow_dispatch' && (inputs.deploy_android == true || inputs.deploy_android == 'true'))
     uses: Bible-Games-Project/bgp-admin/.github/workflows/deploy-android.yml@main
     with:
       package-name: com.biblegames.eden
