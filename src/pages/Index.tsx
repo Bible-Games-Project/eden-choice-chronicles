@@ -318,6 +318,10 @@ import { parableTalentsScenes } from "@/data/stories/parableTalents";
 import { parableTalentsImages } from "@/data/stories/parableTalentsImages";
 import { parableTalentsSprites } from "@/data/stories/parableTalentsSprites";
 import { parableTalentsEffects } from "@/data/stories/parableTalentsEffects";
+import { lostSheepScenes } from "@/data/stories/lostSheep";
+import { lostSheepImages } from "@/data/stories/lostSheepImages";
+import { lostSheepSprites } from "@/data/stories/lostSheepSprites";
+import { lostSheepEffects } from "@/data/stories/lostSheepEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -400,6 +404,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "rich-man-lazarus": richLazarusScenes,
   "parable-sower": parableSowerScenes,
   "parable-talents": parableTalentsScenes,
+  "lost-sheep": lostSheepScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -479,6 +484,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "rich-man-lazarus": richLazarusImages,
   "parable-sower": parableSowerImages,
   "parable-talents": parableTalentsImages,
+  "lost-sheep": lostSheepImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -558,6 +564,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "rich-man-lazarus": richLazarusSprites,
   "parable-sower": parableSowerSprites,
   "parable-talents": parableTalentsSprites,
+  "lost-sheep": lostSheepSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -637,6 +644,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "rich-man-lazarus": richLazarusEffects,
   "parable-sower": parableSowerEffects,
   "parable-talents": parableTalentsEffects,
+  "lost-sheep": lostSheepEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
