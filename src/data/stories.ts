@@ -103,7 +103,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "ten-virgins", number: 30, title: "Ten Virgins", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   // Encounters
   { id: "nicodemus", number: 31, title: "Nicodemus", section: "new_testament_jesus", category: "Encounters", hasContent: true },
-  { id: "samaritan-woman", number: 32, title: "Samaritan Woman", section: "new_testament_jesus", category: "Encounters", hasContent: false },
+  { id: "samaritan-woman", number: 32, title: "Samaritan Woman", section: "new_testament_jesus", category: "Encounters", hasContent: true },
   { id: "woman-adultery", number: 33, title: "Woman Caught in Adultery", section: "new_testament_jesus", category: "Encounters", hasContent: false },
   { id: "zacchaeus", number: 34, title: "Zacchaeus", section: "new_testament_jesus", category: "Encounters", hasContent: false },
   { id: "rich-young-man", number: 35, title: "Rich Young Man", section: "new_testament_jesus", category: "Encounters", hasContent: false },
