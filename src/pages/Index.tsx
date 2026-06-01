@@ -322,6 +322,10 @@ import { lostSheepScenes } from "@/data/stories/lostSheep";
 import { lostSheepImages } from "@/data/stories/lostSheepImages";
 import { lostSheepSprites } from "@/data/stories/lostSheepSprites";
 import { lostSheepEffects } from "@/data/stories/lostSheepEffects";
+import { phariseeTaxScenes } from "@/data/stories/phariseeTax";
+import { phariseeTaxImages } from "@/data/stories/phariseeTaxImages";
+import { phariseeTaxSprites } from "@/data/stories/phariseeTaxSprites";
+import { phariseeTaxEffects } from "@/data/stories/phariseeTaxEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
