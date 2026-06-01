@@ -100,7 +100,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "parable-talents", number: 27, title: "Parable of the Talents", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "lost-sheep", number: 28, title: "Lost Sheep", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "pharisee-tax", number: 29, title: "Pharisee and Tax Collector", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
-  { id: "ten-virgins", number: 30, title: "Ten Virgins", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
+  { id: "ten-virgins", number: 30, title: "Ten Virgins", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   // Encounters
   { id: "nicodemus", number: 31, title: "Nicodemus", section: "new_testament_jesus", category: "Encounters", hasContent: false },
   { id: "samaritan-woman", number: 32, title: "Samaritan Woman", section: "new_testament_jesus", category: "Encounters", hasContent: false },

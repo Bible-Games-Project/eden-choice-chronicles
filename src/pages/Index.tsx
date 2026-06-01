@@ -326,6 +326,10 @@ import { phariseeTaxScenes } from "@/data/stories/phariseeTax";
 import { phariseeTaxImages } from "@/data/stories/phariseeTaxImages";
 import { phariseeTaxSprites } from "@/data/stories/phariseeTaxSprites";
 import { phariseeTaxEffects } from "@/data/stories/phariseeTaxEffects";
+import { tenVirginsScenes } from "@/data/stories/tenVirgins";
+import { tenVirginsImages } from "@/data/stories/tenVirginsImages";
+import { tenVirginsSprites } from "@/data/stories/tenVirginsSprites";
+import { tenVirginsEffects } from "@/data/stories/tenVirginsEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -410,6 +414,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "parable-talents": parableTalentsScenes,
   "lost-sheep": lostSheepScenes,
   "pharisee-tax": phariseeTaxScenes,
+  "ten-virgins": tenVirginsScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -491,6 +496,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "parable-talents": parableTalentsImages,
   "lost-sheep": lostSheepImages,
   "pharisee-tax": phariseeTaxImages,
+  "ten-virgins": tenVirginsImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -572,6 +578,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "parable-talents": parableTalentsSprites,
   "lost-sheep": lostSheepSprites,
   "pharisee-tax": phariseeTaxSprites,
+  "ten-virgins": tenVirginsSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -653,6 +660,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "parable-talents": parableTalentsEffects,
   "lost-sheep": lostSheepEffects,
   "pharisee-tax": phariseeTaxEffects,
+  "ten-virgins": tenVirginsEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
