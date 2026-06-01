@@ -444,6 +444,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "woman-adultery": womanAdulteryScenes,
   zacchaeus: zacchaeusScenes,
   "rich-young-man": richYoungManScenes,
+  "debates-pharisees": debatesPhariseesScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -531,6 +532,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "woman-adultery": womanAdulteryImages,
   zacchaeus: zacchaeusImages,
   "rich-young-man": richYoungManImages,
+  "debates-pharisees": debatesPhariseesImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -618,6 +620,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "woman-adultery": womanAdulterySprites,
   zacchaeus: zacchaeusSprites,
   "rich-young-man": richYoungManSprites,
+  "debates-pharisees": debatesPhariseesSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -705,6 +708,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "woman-adultery": womanAdulteryEffects,
   zacchaeus: zacchaeusEffects,
   "rich-young-man": richYoungManEffects,
+  "debates-pharisees": debatesPhariseesEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
