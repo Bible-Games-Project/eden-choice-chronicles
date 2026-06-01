@@ -113,7 +113,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "rejection-nazareth", number: 38, title: "Rejection in Nazareth", section: "new_testament_jesus", category: "Conflicts", hasContent: true },
   // Passion
   { id: "triumphal-entry", number: 39, title: "Triumphal Entry", section: "new_testament_jesus", category: "Passion", hasContent: true },
-  { id: "last-supper", number: 40, title: "Last Supper", section: "new_testament_jesus", category: "Passion", hasContent: false },
+  { id: "last-supper", number: 40, title: "Last Supper", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "gethsemane", number: 41, title: "Gethsemane", section: "new_testament_jesus", category: "Passion", hasContent: false },
   { id: "arrest-jesus", number: 42, title: "Arrest of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: false },
   { id: "trial", number: 43, title: "Trial", section: "new_testament_jesus", category: "Passion", hasContent: false },
