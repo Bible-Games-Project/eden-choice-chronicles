@@ -322,6 +322,10 @@ import { lostSheepScenes } from "@/data/stories/lostSheep";
 import { lostSheepImages } from "@/data/stories/lostSheepImages";
 import { lostSheepSprites } from "@/data/stories/lostSheepSprites";
 import { lostSheepEffects } from "@/data/stories/lostSheepEffects";
+import { phariseeTaxScenes } from "@/data/stories/phariseeTax";
+import { phariseeTaxImages } from "@/data/stories/phariseeTaxImages";
+import { phariseeTaxSprites } from "@/data/stories/phariseeTaxSprites";
+import { phariseeTaxEffects } from "@/data/stories/phariseeTaxEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -405,6 +409,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "parable-sower": parableSowerScenes,
   "parable-talents": parableTalentsScenes,
   "lost-sheep": lostSheepScenes,
+  "pharisee-tax": phariseeTaxScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -485,6 +490,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "parable-sower": parableSowerImages,
   "parable-talents": parableTalentsImages,
   "lost-sheep": lostSheepImages,
+  "pharisee-tax": phariseeTaxImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -565,6 +571,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "parable-sower": parableSowerSprites,
   "parable-talents": parableTalentsSprites,
   "lost-sheep": lostSheepSprites,
+  "pharisee-tax": phariseeTaxSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -645,6 +652,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "parable-sower": parableSowerEffects,
   "parable-talents": parableTalentsEffects,
   "lost-sheep": lostSheepEffects,
+  "pharisee-tax": phariseeTaxEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
