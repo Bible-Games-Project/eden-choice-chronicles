@@ -358,6 +358,10 @@ import { cleansingTempleScenes } from "@/data/stories/cleansingTemple";
 import { cleansingTempleImages } from "@/data/stories/cleansingTempleImages";
 import { cleansingTempleSprites } from "@/data/stories/cleansingTempleSprites";
 import { cleansingTempleEffects } from "@/data/stories/cleansingTempleEffects";
+import { rejectionNazarethScenes } from "@/data/stories/rejectionNazareth";
+import { rejectionNazarethImages } from "@/data/stories/rejectionNazarethImages";
+import { rejectionNazarethSprites } from "@/data/stories/rejectionNazarethSprites";
+import { rejectionNazarethEffects } from "@/data/stories/rejectionNazarethEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
