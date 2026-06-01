@@ -1,0 +1,25 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const triumphalEntryEffects: Record<string, SceneEffect> = {
+  start: "sparkles",
+  push_consequence: "sparkles",
+  hang_consequence: "sparkles",
+  donkey: "sparkles",
+  horse_consequence: "sparkles",
+  ride: "leaves",
+  mock_consequence: "leaves",
+  worry_consequence: "leaves",
+  cloaks: "leaves",
+  keep_consequence: "leaves",
+  palms: "leaves",
+  sell_consequence: "leaves",
+  stiff_consequence: "leaves",
+  hosanna: "sparkles",
+  political_consequence: "sparkles",
+  pharisees: "sparkles",
+  hush_consequence: "sparkles",
+  argue_consequence: "sparkles",
+  enter: "sparkles",
+  slip_consequence: "sparkles",
+  ending: "sparkles",
+};
