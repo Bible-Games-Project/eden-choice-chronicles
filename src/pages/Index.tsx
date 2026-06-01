@@ -294,6 +294,10 @@ import { sermonMountScenes } from "@/data/stories/sermonMount";
 import { sermonMountImages } from "@/data/stories/sermonMountImages";
 import { sermonMountSprites } from "@/data/stories/sermonMountSprites";
 import { sermonMountEffects } from "@/data/stories/sermonMountEffects";
+import { lordsPrayerScenes } from "@/data/stories/lordsPrayer";
+import { lordsPrayerImages } from "@/data/stories/lordsPrayerImages";
+import { lordsPrayerSprites } from "@/data/stories/lordsPrayerSprites";
+import { lordsPrayerEffects } from "@/data/stories/lordsPrayerEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -370,6 +374,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "blind-man": blindManScenes,
   "raising-lazarus": lazarusScenes,
   "sermon-mount": sermonMountScenes,
+  "lords-prayer": lordsPrayerScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -443,6 +448,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "blind-man": blindManImages,
   "raising-lazarus": lazarusImages,
   "sermon-mount": sermonMountImages,
+  "lords-prayer": lordsPrayerImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -516,6 +522,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "blind-man": blindManSprites,
   "raising-lazarus": lazarusSprites,
   "sermon-mount": sermonMountSprites,
+  "lords-prayer": lordsPrayerSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -589,6 +596,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "blind-man": blindManEffects,
   "raising-lazarus": lazarusEffects,
   "sermon-mount": sermonMountEffects,
+  "lords-prayer": lordsPrayerEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
