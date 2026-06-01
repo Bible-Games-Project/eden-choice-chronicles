@@ -310,6 +310,10 @@ import { richLazarusScenes } from "@/data/stories/richLazarus";
 import { richLazarusImages } from "@/data/stories/richLazarusImages";
 import { richLazarusSprites } from "@/data/stories/richLazarusSprites";
 import { richLazarusEffects } from "@/data/stories/richLazarusEffects";
+import { parableSowerScenes } from "@/data/stories/parableSower";
+import { parableSowerImages } from "@/data/stories/parableSowerImages";
+import { parableSowerSprites } from "@/data/stories/parableSowerSprites";
+import { parableSowerEffects } from "@/data/stories/parableSowerEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -390,6 +394,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "good-samaritan": goodSamaritanScenes,
   "prodigal-son": prodigalSonScenes,
   "rich-man-lazarus": richLazarusScenes,
+  "parable-sower": parableSowerScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -467,6 +472,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "good-samaritan": goodSamaritanImages,
   "prodigal-son": prodigalSonImages,
   "rich-man-lazarus": richLazarusImages,
+  "parable-sower": parableSowerImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -544,6 +550,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "good-samaritan": goodSamaritanSprites,
   "prodigal-son": prodigalSonSprites,
   "rich-man-lazarus": richLazarusSprites,
+  "parable-sower": parableSowerSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -621,6 +628,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "good-samaritan": goodSamaritanEffects,
   "prodigal-son": prodigalSonEffects,
   "rich-man-lazarus": richLazarusEffects,
+  "parable-sower": parableSowerEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
