@@ -366,6 +366,10 @@ import { triumphalEntryScenes } from "@/data/stories/triumphalEntry";
 import { triumphalEntryImages } from "@/data/stories/triumphalEntryImages";
 import { triumphalEntrySprites } from "@/data/stories/triumphalEntrySprites";
 import { triumphalEntryEffects } from "@/data/stories/triumphalEntryEffects";
+import { lastSupperScenes } from "@/data/stories/lastSupper";
+import { lastSupperImages } from "@/data/stories/lastSupperImages";
+import { lastSupperSprites } from "@/data/stories/lastSupperSprites";
+import { lastSupperEffects } from "@/data/stories/lastSupperEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
