@@ -92,7 +92,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "raising-lazarus", number: 20, title: "Raising Lazarus", section: "new_testament_jesus", category: "Miracles", hasContent: true },
   // Teachings and Parables
   { id: "sermon-mount", number: 21, title: "Sermon on the Mount", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
-  { id: "lords-prayer", number: 22, title: "The Lord's Prayer", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
+  { id: "lords-prayer", number: 22, title: "The Lord's Prayer", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "good-samaritan", number: 23, title: "Good Samaritan", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
   { id: "prodigal-son", number: 24, title: "Prodigal Son", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
   { id: "rich-man-lazarus", number: 25, title: "Rich Man and Lazarus", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: false },
