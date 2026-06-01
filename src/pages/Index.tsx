@@ -330,6 +330,10 @@ import { tenVirginsScenes } from "@/data/stories/tenVirgins";
 import { tenVirginsImages } from "@/data/stories/tenVirginsImages";
 import { tenVirginsSprites } from "@/data/stories/tenVirginsSprites";
 import { tenVirginsEffects } from "@/data/stories/tenVirginsEffects";
+import { nicodemusScenes } from "@/data/stories/nicodemus";
+import { nicodemusImages } from "@/data/stories/nicodemusImages";
+import { nicodemusSprites } from "@/data/stories/nicodemusSprites";
+import { nicodemusEffects } from "@/data/stories/nicodemusEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -415,6 +419,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "lost-sheep": lostSheepScenes,
   "pharisee-tax": phariseeTaxScenes,
   "ten-virgins": tenVirginsScenes,
+  nicodemus: nicodemusScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -497,6 +502,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "lost-sheep": lostSheepImages,
   "pharisee-tax": phariseeTaxImages,
   "ten-virgins": tenVirginsImages,
+  nicodemus: nicodemusImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -579,6 +585,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "lost-sheep": lostSheepSprites,
   "pharisee-tax": phariseeTaxSprites,
   "ten-virgins": tenVirginsSprites,
+  nicodemus: nicodemusSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -661,6 +668,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "lost-sheep": lostSheepEffects,
   "pharisee-tax": phariseeTaxEffects,
   "ten-virgins": tenVirginsEffects,
+  nicodemus: nicodemusEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;

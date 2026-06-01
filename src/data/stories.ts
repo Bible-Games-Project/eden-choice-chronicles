@@ -102,7 +102,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "pharisee-tax", number: 29, title: "Pharisee and Tax Collector", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   { id: "ten-virgins", number: 30, title: "Ten Virgins", section: "new_testament_jesus", category: "Teachings and Parables", hasContent: true },
   // Encounters
-  { id: "nicodemus", number: 31, title: "Nicodemus", section: "new_testament_jesus", category: "Encounters", hasContent: false },
+  { id: "nicodemus", number: 31, title: "Nicodemus", section: "new_testament_jesus", category: "Encounters", hasContent: true },
   { id: "samaritan-woman", number: 32, title: "Samaritan Woman", section: "new_testament_jesus", category: "Encounters", hasContent: false },
   { id: "woman-adultery", number: 33, title: "Woman Caught in Adultery", section: "new_testament_jesus", category: "Encounters", hasContent: false },
   { id: "zacchaeus", number: 34, title: "Zacchaeus", section: "new_testament_jesus", category: "Encounters", hasContent: false },
