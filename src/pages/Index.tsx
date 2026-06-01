@@ -362,6 +362,10 @@ import { rejectionNazarethScenes } from "@/data/stories/rejectionNazareth";
 import { rejectionNazarethImages } from "@/data/stories/rejectionNazarethImages";
 import { rejectionNazarethSprites } from "@/data/stories/rejectionNazarethSprites";
 import { rejectionNazarethEffects } from "@/data/stories/rejectionNazarethEffects";
+import { triumphalEntryScenes } from "@/data/stories/triumphalEntry";
+import { triumphalEntryImages } from "@/data/stories/triumphalEntryImages";
+import { triumphalEntrySprites } from "@/data/stories/triumphalEntrySprites";
+import { triumphalEntryEffects } from "@/data/stories/triumphalEntryEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -455,6 +459,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "debates-pharisees": debatesPhariseesScenes,
   "cleansing-temple": cleansingTempleScenes,
   "rejection-nazareth": rejectionNazarethScenes,
+  "triumphal-entry": triumphalEntryScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -545,6 +550,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "debates-pharisees": debatesPhariseesImages,
   "cleansing-temple": cleansingTempleImages,
   "rejection-nazareth": rejectionNazarethImages,
+  "triumphal-entry": triumphalEntryImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -635,6 +641,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "debates-pharisees": debatesPhariseesSprites,
   "cleansing-temple": cleansingTempleSprites,
   "rejection-nazareth": rejectionNazarethSprites,
+  "triumphal-entry": triumphalEntrySprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -725,6 +732,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "debates-pharisees": debatesPhariseesEffects,
   "cleansing-temple": cleansingTempleEffects,
   "rejection-nazareth": rejectionNazarethEffects,
+  "triumphal-entry": triumphalEntryEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
