@@ -334,6 +334,10 @@ import { nicodemusScenes } from "@/data/stories/nicodemus";
 import { nicodemusImages } from "@/data/stories/nicodemusImages";
 import { nicodemusSprites } from "@/data/stories/nicodemusSprites";
 import { nicodemusEffects } from "@/data/stories/nicodemusEffects";
+import { samaritanWomanScenes } from "@/data/stories/samaritanWoman";
+import { samaritanWomanImages } from "@/data/stories/samaritanWomanImages";
+import { samaritanWomanSprites } from "@/data/stories/samaritanWomanSprites";
+import { samaritanWomanEffects } from "@/data/stories/samaritanWomanEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
