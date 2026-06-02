@@ -398,6 +398,10 @@ import { appearanceMaryScenes } from "@/data/stories/appearanceMary";
 import { appearanceMaryImages } from "@/data/stories/appearanceMaryImages";
 import { appearanceMarySprites } from "@/data/stories/appearanceMarySprites";
 import { appearanceMaryEffects } from "@/data/stories/appearanceMaryEffects";
+import { emmausScenes } from "@/data/stories/emmaus";
+import { emmausImages } from "@/data/stories/emmausImages";
+import { emmausSprites } from "@/data/stories/emmausSprites";
+import { emmausEffects } from "@/data/stories/emmausEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -500,6 +504,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "death-jesus": deathJesusScenes,
   "empty-tomb": emptyTombScenes,
   "appearance-mary": appearanceMaryScenes,
+  "road-emmaus": emmausScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -599,6 +604,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "death-jesus": deathJesusImages,
   "empty-tomb": emptyTombImages,
   "appearance-mary": appearanceMaryImages,
+  "road-emmaus": emmausImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -698,6 +704,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "death-jesus": deathJesusSprites,
   "empty-tomb": emptyTombSprites,
   "appearance-mary": appearanceMarySprites,
+  "road-emmaus": emmausSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -797,6 +804,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "death-jesus": deathJesusEffects,
   "empty-tomb": emptyTombEffects,
   "appearance-mary": appearanceMaryEffects,
+  "road-emmaus": emmausEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
