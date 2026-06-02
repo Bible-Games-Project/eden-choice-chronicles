@@ -39,6 +39,10 @@ jobs:
   #   Optimize Images
   # =========================
   optimize-images:
+    if: |
+      github.ref == 'refs/heads/deploy-app' ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true) ||
+      github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
