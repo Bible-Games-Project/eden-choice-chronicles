@@ -1,4 +1,4 @@
-.PHONY: sync-ios sync-android build
+.PHONY: sync-ios sync-android build optimize-images
 
 build:
 	npm run build
@@ -8,3 +8,7 @@ sync-ios: build
 
 sync-android: build
 	npx cap sync android
+
+optimize-images:
+	@echo "🖼️  Optimizing images to WebP format..."
+	@./optimize-images.sh
