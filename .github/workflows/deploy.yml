@@ -36,9 +36,54 @@ on:
 
 jobs:
   # =========================
+  #   Optimize Images
+  # =========================
+  optimize-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Install WebP tools
+        run: sudo apt-get update && sudo apt-get install -y webp
+
+      - name: Run image optimization
+        run: |
+          chmod +x ./optimize-images.sh
+          ./optimize-images.sh
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "✅ No image optimization needed"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📸 Images optimized, committing changes..."
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -m "chore: auto-optimize images to WebP format [skip ci]
+
+          - Converted PNG to WebP where needed
+          - Updated code references automatically
+          - Optimized by CI pipeline before deployment"
+          git push
+
+  # =========================
   #   iOS
   # =========================
   ios:
+    needs: optimize-images
     if: |
       github.ref == 'refs/heads/deploy-app' ||
       (github.event_name == 'pull_request' && github.event.pull_request.merged == true) ||
@@ -62,6 +107,7 @@ jobs:
   #   Android
   # =========================
   android:
+    needs: optimize-images
     if: |
       github.ref == 'refs/heads/deploy-app' ||
       (github.event_name == 'pull_request' && github.event.pull_request.merged == true) ||
