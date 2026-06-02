@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -eo pipefail
 
 # Script to optimize PNG images to WebP format
 # Run this periodically when you add new assets to the project
@@ -94,7 +94,7 @@ echo ""
 # Update code references if enabled
 if [ "$UPDATE_CODE_REFS" = true ]; then
     # Check if there are any .png references in the code
-    png_refs_count=$(grep -r '\.png"' "$CODE_DIRS" --include="*.ts" --include="*.tsx" 2>/dev/null | wc -l | tr -d ' ')
+    png_refs_count=$(grep -r '\.png"' "$CODE_DIRS" --include="*.ts" --include="*.tsx" 2>/dev/null | wc -l | tr -d ' ') || png_refs_count=0
     
     if [ "$png_refs_count" -gt 0 ]; then
         echo "🔧 Updating code references from .png to .webp..."
@@ -105,13 +105,16 @@ if [ "$UPDATE_CODE_REFS" = true ]; then
         while IFS= read -r -d '' code_file; do
             # Check if file contains .png" references
             if grep -q '\.png"' "$code_file" 2>/dev/null; then
-                # Update the file
-                if sed -i '' 's/\.png"/\.webp"/g' "$code_file"; then
-                    echo -e "   ${GREEN}✅${NC} Updated $(basename "$code_file")"
-                    ((code_files_updated++))
+                # Update the file (compatible with both macOS and Linux)
+                if [[ "$OSTYPE" == "darwin"* ]]; then
+                    sed -i '' 's/\.png"/\.webp"/g' "$code_file"
+                else
+                    sed -i 's/\.png"/\.webp"/g' "$code_file"
                 fi
+                echo -e "   ${GREEN}✅${NC} Updated $(basename "$code_file")"
+                ((code_files_updated++))
             fi
-        done < <(find "$CODE_DIRS" -type f \( -name "*.ts" -o -name "*.tsx" \) -print0)
+        done < <(find "$CODE_DIRS" -type f \( -name "*.ts" -o -name "*.tsx" \) -print0 2>/dev/null || true)
         
         echo ""
         echo -e "${GREEN}✅ Updated $code_files_updated code files${NC}"
