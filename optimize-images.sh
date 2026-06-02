@@ -70,17 +70,22 @@ while IFS= read -r -d '' png_file; do
     # Generate WebP filename
     webp_file="${png_file%.png}.webp"
     
-    # Skip if WebP already exists and is newer
-    if [ -f "$webp_file" ] && [ "$webp_file" -nt "$png_file" ]; then
-        echo -e "${YELLOW}⏭️  Skipping${NC} $(basename "$png_file") (WebP already exists and is newer)"
-        skipped_files=$((skipped_files + 1))
+    # Skip if WebP already exists and has valid size
+    # (Don't use file timestamps - they're unreliable in CI/Git)
+    if [ -f "$webp_file" ]; then
         if [[ "$OSTYPE" == "darwin"* ]]; then
             webp_size=$(stat -f%z "$webp_file" 2>/dev/null || echo "0")
         else
             webp_size=$(stat -c%s "$webp_file" 2>/dev/null || echo "0")
         fi
-        new_size=$((new_size + webp_size))
-        continue
+        
+        # Skip if WebP exists and has reasonable size (not corrupted)
+        if [ "$webp_size" -gt 100 ]; then
+            echo -e "${YELLOW}⏭️  Skipping${NC} $(basename "$png_file") (WebP already exists: $(human_size $webp_size))"
+            skipped_files=$((skipped_files + 1))
+            new_size=$((new_size + webp_size))
+            continue
+        fi
     fi
     
     # Convert to WebP
