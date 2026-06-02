@@ -390,6 +390,10 @@ import { deathJesusScenes } from "@/data/stories/deathJesus";
 import { deathJesusImages } from "@/data/stories/deathJesusImages";
 import { deathJesusSprites } from "@/data/stories/deathJesusSprites";
 import { deathJesusEffects } from "@/data/stories/deathJesusEffects";
+import { emptyTombScenes } from "@/data/stories/emptyTomb";
+import { emptyTombImages } from "@/data/stories/emptyTombImages";
+import { emptyTombSprites } from "@/data/stories/emptyTombSprites";
+import { emptyTombEffects } from "@/data/stories/emptyTombEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -490,6 +494,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   trial: trialScenes,
   "peter-denies": peterDeniesScenes,
   "death-jesus": deathJesusScenes,
+  "empty-tomb": emptyTombScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -587,6 +592,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   trial: trialImages,
   "peter-denies": peterDeniesImages,
   "death-jesus": deathJesusImages,
+  "empty-tomb": emptyTombImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -684,6 +690,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   trial: trialSprites,
   "peter-denies": peterDeniesSprites,
   "death-jesus": deathJesusSprites,
+  "empty-tomb": emptyTombSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -781,6 +788,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   trial: trialEffects,
   "peter-denies": peterDeniesEffects,
   "death-jesus": deathJesusEffects,
+  "empty-tomb": emptyTombEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
