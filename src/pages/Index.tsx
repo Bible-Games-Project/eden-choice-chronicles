@@ -402,6 +402,10 @@ import { emmausScenes } from "@/data/stories/emmaus";
 import { emmausImages } from "@/data/stories/emmausImages";
 import { emmausSprites } from "@/data/stories/emmausSprites";
 import { emmausEffects } from "@/data/stories/emmausEffects";
+import { greatCommissionScenes } from "@/data/stories/greatCommission";
+import { greatCommissionImages } from "@/data/stories/greatCommissionImages";
+import { greatCommissionSprites } from "@/data/stories/greatCommissionSprites";
+import { greatCommissionEffects } from "@/data/stories/greatCommissionEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -505,6 +509,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "empty-tomb": emptyTombScenes,
   "appearance-mary": appearanceMaryScenes,
   "road-emmaus": emmausScenes,
+  "great-commission": greatCommissionScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -605,6 +610,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "empty-tomb": emptyTombImages,
   "appearance-mary": appearanceMaryImages,
   "road-emmaus": emmausImages,
+  "great-commission": greatCommissionImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -705,6 +711,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "empty-tomb": emptyTombSprites,
   "appearance-mary": appearanceMarySprites,
   "road-emmaus": emmausSprites,
+  "great-commission": greatCommissionSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -805,6 +812,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "empty-tomb": emptyTombEffects,
   "appearance-mary": appearanceMaryEffects,
   "road-emmaus": emmausEffects,
+  "great-commission": greatCommissionEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
