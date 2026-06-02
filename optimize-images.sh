@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eo pipefail
+set -o pipefail
 
 # Script to optimize PNG images to WebP format
 # Run this periodically when you add new assets to the project
@@ -57,10 +57,14 @@ echo ""
 
 # Find all PNGs and convert to WebP
 while IFS= read -r -d '' png_file; do
-    ((total_files++))
+    total_files=$((total_files + 1))
     
     # Get file size before conversion
-    file_size=$(stat -f%z "$png_file" 2>/dev/null || stat -c%s "$png_file" 2>/dev/null)
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        file_size=$(stat -f%z "$png_file" 2>/dev/null || echo "0")
+    else
+        file_size=$(stat -c%s "$png_file" 2>/dev/null || echo "0")
+    fi
     original_size=$((original_size + file_size))
     
     # Generate WebP filename
@@ -69,8 +73,12 @@ while IFS= read -r -d '' png_file; do
     # Skip if WebP already exists and is newer
     if [ -f "$webp_file" ] && [ "$webp_file" -nt "$png_file" ]; then
         echo -e "${YELLOW}⏭️  Skipping${NC} $(basename "$png_file") (WebP already exists and is newer)"
-        ((skipped_files++))
-        webp_size=$(stat -f%z "$webp_file" 2>/dev/null || stat -c%s "$webp_file" 2>/dev/null)
+        skipped_files=$((skipped_files + 1))
+        if [[ "$OSTYPE" == "darwin"* ]]; then
+            webp_size=$(stat -f%z "$webp_file" 2>/dev/null || echo "0")
+        else
+            webp_size=$(stat -c%s "$webp_file" 2>/dev/null || echo "0")
+        fi
         new_size=$((new_size + webp_size))
         continue
     fi
@@ -78,16 +86,24 @@ while IFS= read -r -d '' png_file; do
     # Convert to WebP
     echo -e "${GREEN}🔄 Converting${NC} $(basename "$png_file")..."
     if cwebp -q $QUALITY "$png_file" -o "$webp_file" > /dev/null 2>&1; then
-        webp_size=$(stat -f%z "$webp_file" 2>/dev/null || stat -c%s "$webp_file" 2>/dev/null)
+        if [[ "$OSTYPE" == "darwin"* ]]; then
+            webp_size=$(stat -f%z "$webp_file" 2>/dev/null || echo "0")
+        else
+            webp_size=$(stat -c%s "$webp_file" 2>/dev/null || echo "0")
+        fi
         new_size=$((new_size + webp_size))
-        reduction=$((100 - (webp_size * 100 / file_size)))
+        if [ "$file_size" -gt 0 ]; then
+            reduction=$((100 - (webp_size * 100 / file_size)))
+        else
+            reduction=0
+        fi
         echo -e "   ${GREEN}✅${NC} $(human_size $file_size) → $(human_size $webp_size) (${reduction}% smaller)"
-        ((converted_files++))
+        converted_files=$((converted_files + 1))
     else
         echo -e "   ${RED}❌ Failed${NC}"
     fi
     
-done < <(find "$SOURCE_DIR" -type f -name "*.png" -print0)
+done < <(find "$SOURCE_DIR" -type f -name "*.png" -print0 2>/dev/null || true)
 
 echo ""
 
@@ -112,7 +128,7 @@ if [ "$UPDATE_CODE_REFS" = true ]; then
                     sed -i 's/\.png"/\.webp"/g' "$code_file"
                 fi
                 echo -e "   ${GREEN}✅${NC} Updated $(basename "$code_file")"
-                ((code_files_updated++))
+                code_files_updated=$((code_files_updated + 1))
             fi
         done < <(find "$CODE_DIRS" -type f \( -name "*.ts" -o -name "*.tsx" \) -print0 2>/dev/null || true)
         
