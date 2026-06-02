@@ -378,6 +378,10 @@ import { arrestJesusScenes } from "@/data/stories/arrestJesus";
 import { arrestJesusImages } from "@/data/stories/arrestJesusImages";
 import { arrestJesusSprites } from "@/data/stories/arrestJesusSprites";
 import { arrestJesusEffects } from "@/data/stories/arrestJesusEffects";
+import { trialScenes } from "@/data/stories/trial";
+import { trialImages } from "@/data/stories/trialImages";
+import { trialSprites } from "@/data/stories/trialSprites";
+import { trialEffects } from "@/data/stories/trialEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -475,6 +479,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "last-supper": lastSupperScenes,
   gethsemane: gethsemaneScenes,
   "arrest-jesus": arrestJesusScenes,
+  trial: trialScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -569,6 +574,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "last-supper": lastSupperImages,
   gethsemane: gethsemaneImages,
   "arrest-jesus": arrestJesusImages,
+  trial: trialImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -663,6 +669,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "last-supper": lastSupperSprites,
   gethsemane: gethsemaneSprites,
   "arrest-jesus": arrestJesusSprites,
+  trial: trialSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -757,6 +764,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "last-supper": lastSupperEffects,
   gethsemane: gethsemaneEffects,
   "arrest-jesus": arrestJesusEffects,
+  trial: trialEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;

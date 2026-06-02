@@ -116,7 +116,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "last-supper", number: 40, title: "Last Supper", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "gethsemane", number: 41, title: "Gethsemane", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "arrest-jesus", number: 42, title: "Arrest of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: true },
-  { id: "trial", number: 43, title: "Trial", section: "new_testament_jesus", category: "Passion", hasContent: false },
+  { id: "trial", number: 43, title: "Trial", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "peter-denies", number: 44, title: "Peter Denies Jesus", section: "new_testament_jesus", category: "Passion", hasContent: false },
   { id: "crucifixion", number: 45, title: "Crucifixion", section: "new_testament_jesus", category: "Passion", hasContent: false },
   { id: "death-jesus", number: 46, title: "Death of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: false },
