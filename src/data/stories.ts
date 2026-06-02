@@ -118,8 +118,8 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "arrest-jesus", number: 42, title: "Arrest of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "trial", number: 43, title: "Trial", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "peter-denies", number: 44, title: "Peter Denies Jesus", section: "new_testament_jesus", category: "Passion", hasContent: true },
-  { id: "crucifixion", number: 45, title: "Crucifixion", section: "new_testament_jesus", category: "Passion", hasContent: true },
-  { id: "death-jesus", number: 46, title: "Death of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: false },
+  { id: "crucifixion", number: 45, title: "Crucifixion", section: "new_testament_jesus", category: "Passion", hasContent: false },
+  { id: "death-jesus", number: 46, title: "Death of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: true },
   // Resurrection
   { id: "empty-tomb", number: 47, title: "Empty Tomb", section: "new_testament_jesus", category: "Resurrection", hasContent: false },
   { id: "appearance-mary", number: 48, title: "Appearance to Mary Magdalene", section: "new_testament_jesus", category: "Resurrection", hasContent: false },

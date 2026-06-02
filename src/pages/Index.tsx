@@ -386,10 +386,10 @@ import { peterDeniesScenes } from "@/data/stories/peterDenies";
 import { peterDeniesImages } from "@/data/stories/peterDeniesImages";
 import { peterDeniesSprites } from "@/data/stories/peterDeniesSprites";
 import { peterDeniesEffects } from "@/data/stories/peterDeniesEffects";
-import { crucifixionScenes } from "@/data/stories/crucifixion";
-import { crucifixionImages } from "@/data/stories/crucifixionImages";
-import { crucifixionSprites } from "@/data/stories/crucifixionSprites";
-import { crucifixionEffects } from "@/data/stories/crucifixionEffects";
+import { deathJesusScenes } from "@/data/stories/deathJesus";
+import { deathJesusImages } from "@/data/stories/deathJesusImages";
+import { deathJesusSprites } from "@/data/stories/deathJesusSprites";
+import { deathJesusEffects } from "@/data/stories/deathJesusEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -489,7 +489,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "arrest-jesus": arrestJesusScenes,
   trial: trialScenes,
   "peter-denies": peterDeniesScenes,
-  crucifixion: crucifixionScenes,
+  "death-jesus": deathJesusScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -586,7 +586,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "arrest-jesus": arrestJesusImages,
   trial: trialImages,
   "peter-denies": peterDeniesImages,
-  crucifixion: crucifixionImages,
+  "death-jesus": deathJesusImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -683,7 +683,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "arrest-jesus": arrestJesusSprites,
   trial: trialSprites,
   "peter-denies": peterDeniesSprites,
-  crucifixion: crucifixionSprites,
+  "death-jesus": deathJesusSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -780,7 +780,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "arrest-jesus": arrestJesusEffects,
   trial: trialEffects,
   "peter-denies": peterDeniesEffects,
-  crucifixion: crucifixionEffects,
+  "death-jesus": deathJesusEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
