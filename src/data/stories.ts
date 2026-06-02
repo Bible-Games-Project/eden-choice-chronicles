@@ -122,7 +122,7 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "death-jesus", number: 46, title: "Death of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: true },
   // Resurrection
   { id: "empty-tomb", number: 47, title: "Empty Tomb", section: "new_testament_jesus", category: "Resurrection", hasContent: true },
-  { id: "appearance-mary", number: 48, title: "Appearance to Mary Magdalene", section: "new_testament_jesus", category: "Resurrection", hasContent: false },
+  { id: "appearance-mary", number: 48, title: "Appearance to Mary Magdalene", section: "new_testament_jesus", category: "Resurrection", hasContent: true },
   { id: "road-emmaus", number: 49, title: "Road to Emmaus", section: "new_testament_jesus", category: "Resurrection", hasContent: false },
   { id: "great-commission", number: 50, title: "Great Commission", section: "new_testament_jesus", category: "Resurrection", hasContent: false },
 ];
