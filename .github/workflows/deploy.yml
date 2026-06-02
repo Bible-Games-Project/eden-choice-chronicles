@@ -20,6 +20,11 @@ on:
         required: false
         type: boolean
         default: false
+      skip_android_upload:
+        description: "Skip Android Google Play upload (only generate AAB)"
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   # =========================
@@ -56,6 +61,7 @@ jobs:
     with:
       package-name: com.biblegames.eden
       play-track: internal
+      skip-upload: ${{ inputs.skip_android_upload }}
     secrets:
       ANDROID_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE }}
       KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
