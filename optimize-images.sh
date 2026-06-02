@@ -26,8 +26,8 @@ if ! command -v cwebp &> /dev/null; then
 fi
 
 # Configuration
-SOURCE_DIR="public"  # Adjust if your images are elsewhere
-QUALITY=85          # WebP quality (0-100, 85 is good balance)
+SOURCE_DIR="src/assets"  # Source images directory
+QUALITY=85               # WebP quality (0-100, 85 is good balance)
 BACKUP_ORIGINALS=true
 
 # Stats
