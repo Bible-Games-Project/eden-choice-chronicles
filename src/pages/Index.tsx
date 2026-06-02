@@ -378,6 +378,10 @@ import { arrestJesusScenes } from "@/data/stories/arrestJesus";
 import { arrestJesusImages } from "@/data/stories/arrestJesusImages";
 import { arrestJesusSprites } from "@/data/stories/arrestJesusSprites";
 import { arrestJesusEffects } from "@/data/stories/arrestJesusEffects";
+import { trialScenes } from "@/data/stories/trial";
+import { trialImages } from "@/data/stories/trialImages";
+import { trialSprites } from "@/data/stories/trialSprites";
+import { trialEffects } from "@/data/stories/trialEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
