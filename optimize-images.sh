@@ -14,6 +14,18 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
+# Human readable file size function (macOS compatible)
+human_size() {
+    local bytes=$1
+    if [ $bytes -lt 1024 ]; then
+        echo "${bytes}B"
+    elif [ $bytes -lt 1048576 ]; then
+        echo "$(( bytes / 1024 ))KB"
+    else
+        echo "$(( bytes / 1048576 ))MB"
+    fi
+}
+
 # Check if cwebp is installed
 if ! command -v cwebp &> /dev/null; then
     echo -e "${RED}❌ cwebp not found${NC}"
@@ -66,7 +78,7 @@ while IFS= read -r -d '' png_file; do
         webp_size=$(stat -f%z "$webp_file" 2>/dev/null || stat -c%s "$webp_file" 2>/dev/null)
         new_size=$((new_size + webp_size))
         reduction=$((100 - (webp_size * 100 / file_size)))
-        echo -e "   ${GREEN}✅${NC} $(numfmt --to=iec $file_size) → $(numfmt --to=iec $webp_size) (${reduction}% smaller)"
+        echo -e "   ${GREEN}✅${NC} $(human_size $file_size) → $(human_size $webp_size) (${reduction}% smaller)"
         ((converted_files++))
         
         # Optionally backup or remove original
@@ -93,13 +105,13 @@ echo "Total PNG files found:    $total_files"
 echo "Converted:                $converted_files"
 echo "Skipped (already fresh):  $skipped_files"
 echo ""
-echo "Original size:            $(numfmt --to=iec $original_size)"
-echo "Optimized size:           $(numfmt --to=iec $new_size)"
+echo "Original size:            $(human_size $original_size)"
+echo "Optimized size:           $(human_size $new_size)"
 
 if [ $original_size -gt 0 ]; then
     reduction=$((100 - (new_size * 100 / original_size)))
     saved=$((original_size - new_size))
-    echo "Space saved:              $(numfmt --to=iec $saved) (${reduction}%)"
+    echo "Space saved:              $(human_size $saved) (${reduction}%)"
 fi
 
 echo ""
