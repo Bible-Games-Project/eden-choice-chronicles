@@ -386,6 +386,10 @@ import { peterDeniesScenes } from "@/data/stories/peterDenies";
 import { peterDeniesImages } from "@/data/stories/peterDeniesImages";
 import { peterDeniesSprites } from "@/data/stories/peterDeniesSprites";
 import { peterDeniesEffects } from "@/data/stories/peterDeniesEffects";
+import { crucifixionScenes } from "@/data/stories/crucifixion";
+import { crucifixionImages } from "@/data/stories/crucifixionImages";
+import { crucifixionSprites } from "@/data/stories/crucifixionSprites";
+import { crucifixionEffects } from "@/data/stories/crucifixionEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
