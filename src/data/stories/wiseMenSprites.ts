@@ -1,9 +1,9 @@
-import magiWatching from "@/assets/sprites/wise-men/magi-watching.png";
-import magiJourney from "@/assets/sprites/wise-men/magi-journey.png";
-import herodThrone from "@/assets/sprites/wise-men/herod-throne.png";
-import magiWorship from "@/assets/sprites/wise-men/magi-worship.png";
-import holyFamily from "@/assets/sprites/wise-men/holy-family.png";
-import magiDream from "@/assets/sprites/wise-men/magi-dream.png";
+import magiWatching from "@/assets/sprites/wise-men/magi-watching.webp";
+import magiJourney from "@/assets/sprites/wise-men/magi-journey.webp";
+import herodThrone from "@/assets/sprites/wise-men/herod-throne.webp";
+import magiWorship from "@/assets/sprites/wise-men/magi-worship.webp";
+import holyFamily from "@/assets/sprites/wise-men/holy-family.webp";
+import magiDream from "@/assets/sprites/wise-men/magi-dream.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

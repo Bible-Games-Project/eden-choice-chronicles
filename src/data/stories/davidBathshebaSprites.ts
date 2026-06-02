@@ -1,9 +1,9 @@
-import davidKing from "@/assets/sprites/david-bathsheba/david-king.png";
-import bathsheba from "@/assets/sprites/david-bathsheba/bathsheba.png";
-import uriah from "@/assets/sprites/david-bathsheba/uriah.png";
-import royalMessenger from "@/assets/sprites/david-bathsheba/royal-messenger.png";
-import nathanProphet from "@/assets/sprites/david-bathsheba/nathan-prophet.png";
-import davidRepenting from "@/assets/sprites/david-bathsheba/david-repenting.png";
+import davidKing from "@/assets/sprites/david-bathsheba/david-king.webp";
+import bathsheba from "@/assets/sprites/david-bathsheba/bathsheba.webp";
+import uriah from "@/assets/sprites/david-bathsheba/uriah.webp";
+import royalMessenger from "@/assets/sprites/david-bathsheba/royal-messenger.webp";
+import nathanProphet from "@/assets/sprites/david-bathsheba/nathan-prophet.webp";
+import davidRepenting from "@/assets/sprites/david-bathsheba/david-repenting.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

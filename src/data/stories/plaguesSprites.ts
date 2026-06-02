@@ -1,10 +1,10 @@
-import mosesStaff from "@/assets/sprites/plagues/moses-staff-raised.png";
-import mosesWarning from "@/assets/sprites/plagues/moses-warning.png";
-import mosesWeary from "@/assets/sprites/plagues/moses-weary.png";
-import aaronStaff from "@/assets/sprites/plagues/aaron-staff.png";
-import pharaohDefiant from "@/assets/sprites/plagues/pharaoh-defiant.png";
-import pharaohBroken from "@/assets/sprites/plagues/pharaoh-broken.png";
-import egyptianMagician from "@/assets/sprites/plagues/egyptian-magician.png";
+import mosesStaff from "@/assets/sprites/plagues/moses-staff-raised.webp";
+import mosesWarning from "@/assets/sprites/plagues/moses-warning.webp";
+import mosesWeary from "@/assets/sprites/plagues/moses-weary.webp";
+import aaronStaff from "@/assets/sprites/plagues/aaron-staff.webp";
+import pharaohDefiant from "@/assets/sprites/plagues/pharaoh-defiant.webp";
+import pharaohBroken from "@/assets/sprites/plagues/pharaoh-broken.webp";
+import egyptianMagician from "@/assets/sprites/plagues/egyptian-magician.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

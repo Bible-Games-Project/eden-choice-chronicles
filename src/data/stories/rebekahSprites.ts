@@ -1,11 +1,11 @@
-import rebekahCalm from "@/assets/sprites/rebekah/rebekah-calm.png";
-import rebekahJar from "@/assets/sprites/rebekah/rebekah-jar.png";
-import rebekahResolved from "@/assets/sprites/rebekah/rebekah-resolved.png";
-import rebekahVeiled from "@/assets/sprites/rebekah/rebekah-veiled.png";
-import servantCalm from "@/assets/sprites/rebekah/servant-calm.png";
-import servantPraying from "@/assets/sprites/rebekah/servant-praying.png";
-import servantGrateful from "@/assets/sprites/rebekah/servant-grateful.png";
-import isaacMeeting from "@/assets/sprites/rebekah/isaac-meeting.png";
+import rebekahCalm from "@/assets/sprites/rebekah/rebekah-calm.webp";
+import rebekahJar from "@/assets/sprites/rebekah/rebekah-jar.webp";
+import rebekahResolved from "@/assets/sprites/rebekah/rebekah-resolved.webp";
+import rebekahVeiled from "@/assets/sprites/rebekah/rebekah-veiled.webp";
+import servantCalm from "@/assets/sprites/rebekah/servant-calm.webp";
+import servantPraying from "@/assets/sprites/rebekah/servant-praying.webp";
+import servantGrateful from "@/assets/sprites/rebekah/servant-grateful.webp";
+import isaacMeeting from "@/assets/sprites/rebekah/isaac-meeting.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

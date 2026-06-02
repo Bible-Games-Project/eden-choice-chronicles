@@ -1,13 +1,13 @@
-import jacobTraveling from "@/assets/sprites/jacobs-dream/jacob-traveling.png";
-import jacobSearching from "@/assets/sprites/jacobs-dream/jacob-searching.png";
-import jacobStones from "@/assets/sprites/jacobs-dream/jacob-stones.png";
-import jacobSleeping from "@/assets/sprites/jacobs-dream/jacob-sleeping.png";
-import jacobAwestruck from "@/assets/sprites/jacobs-dream/jacob-awestruck.png";
-import jacobKneeling from "@/assets/sprites/jacobs-dream/jacob-kneeling.png";
-import jacobAnointing from "@/assets/sprites/jacobs-dream/jacob-anointing.png";
-import jacobResolved from "@/assets/sprites/jacobs-dream/jacob-resolved.png";
-import angelAscending from "@/assets/sprites/jacobs-dream/angel-ascending.png";
-import angelDescending from "@/assets/sprites/jacobs-dream/angel-descending.png";
+import jacobTraveling from "@/assets/sprites/jacobs-dream/jacob-traveling.webp";
+import jacobSearching from "@/assets/sprites/jacobs-dream/jacob-searching.webp";
+import jacobStones from "@/assets/sprites/jacobs-dream/jacob-stones.webp";
+import jacobSleeping from "@/assets/sprites/jacobs-dream/jacob-sleeping.webp";
+import jacobAwestruck from "@/assets/sprites/jacobs-dream/jacob-awestruck.webp";
+import jacobKneeling from "@/assets/sprites/jacobs-dream/jacob-kneeling.webp";
+import jacobAnointing from "@/assets/sprites/jacobs-dream/jacob-anointing.webp";
+import jacobResolved from "@/assets/sprites/jacobs-dream/jacob-resolved.webp";
+import angelAscending from "@/assets/sprites/jacobs-dream/angel-ascending.webp";
+import angelDescending from "@/assets/sprites/jacobs-dream/angel-descending.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,18 +1,18 @@
-import josephStern from "@/assets/sprites/joseph-brothers-egypt/joseph-stern.png";
-import josephRecognizing from "@/assets/sprites/joseph-brothers-egypt/joseph-recognizing.png";
-import josephAccusing from "@/assets/sprites/joseph-brothers-egypt/joseph-accusing.png";
-import josephHidingTears from "@/assets/sprites/joseph-brothers-egypt/joseph-hiding-tears.png";
-import josephCommanding from "@/assets/sprites/joseph-brothers-egypt/joseph-commanding.png";
-import josephObserving from "@/assets/sprites/joseph-brothers-egypt/joseph-observing.png";
-import brothersBowing from "@/assets/sprites/joseph-brothers-egypt/brothers-bowing.png";
-import brothersAfraid from "@/assets/sprites/joseph-brothers-egypt/brothers-afraid.png";
-import brothersPleading from "@/assets/sprites/joseph-brothers-egypt/brothers-pleading.png";
-import brothersRemorseful from "@/assets/sprites/joseph-brothers-egypt/brothers-remorseful.png";
-import reubenSpeaking from "@/assets/sprites/joseph-brothers-egypt/reuben-speaking.png";
-import judahResolved from "@/assets/sprites/joseph-brothers-egypt/judah-resolved.png";
-import simeonBound from "@/assets/sprites/joseph-brothers-egypt/simeon-bound.png";
-import guard from "@/assets/sprites/joseph-brothers-egypt/guard-attention.png";
-import jacobGrieving from "@/assets/sprites/joseph-brothers-egypt/jacob-grieving.png";
+import josephStern from "@/assets/sprites/joseph-brothers-egypt/joseph-stern.webp";
+import josephRecognizing from "@/assets/sprites/joseph-brothers-egypt/joseph-recognizing.webp";
+import josephAccusing from "@/assets/sprites/joseph-brothers-egypt/joseph-accusing.webp";
+import josephHidingTears from "@/assets/sprites/joseph-brothers-egypt/joseph-hiding-tears.webp";
+import josephCommanding from "@/assets/sprites/joseph-brothers-egypt/joseph-commanding.webp";
+import josephObserving from "@/assets/sprites/joseph-brothers-egypt/joseph-observing.webp";
+import brothersBowing from "@/assets/sprites/joseph-brothers-egypt/brothers-bowing.webp";
+import brothersAfraid from "@/assets/sprites/joseph-brothers-egypt/brothers-afraid.webp";
+import brothersPleading from "@/assets/sprites/joseph-brothers-egypt/brothers-pleading.webp";
+import brothersRemorseful from "@/assets/sprites/joseph-brothers-egypt/brothers-remorseful.webp";
+import reubenSpeaking from "@/assets/sprites/joseph-brothers-egypt/reuben-speaking.webp";
+import judahResolved from "@/assets/sprites/joseph-brothers-egypt/judah-resolved.webp";
+import simeonBound from "@/assets/sprites/joseph-brothers-egypt/simeon-bound.webp";
+import guard from "@/assets/sprites/joseph-brothers-egypt/guard-attention.webp";
+import jacobGrieving from "@/assets/sprites/joseph-brothers-egypt/jacob-grieving.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

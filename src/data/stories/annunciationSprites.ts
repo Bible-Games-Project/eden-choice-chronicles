@@ -1,9 +1,9 @@
-import maryHumble from "@/assets/sprites/annunciation/mary-humble.png";
-import maryStartled from "@/assets/sprites/annunciation/mary-startled.png";
-import maryPondering from "@/assets/sprites/annunciation/mary-pondering.png";
-import maryAccepting from "@/assets/sprites/annunciation/mary-accepting.png";
-import gabrielAppearing from "@/assets/sprites/annunciation/gabriel-appearing.png";
-import gabrielAnnouncing from "@/assets/sprites/annunciation/gabriel-announcing.png";
+import maryHumble from "@/assets/sprites/annunciation/mary-humble.webp";
+import maryStartled from "@/assets/sprites/annunciation/mary-startled.webp";
+import maryPondering from "@/assets/sprites/annunciation/mary-pondering.webp";
+import maryAccepting from "@/assets/sprites/annunciation/mary-accepting.webp";
+import gabrielAppearing from "@/assets/sprites/annunciation/gabriel-appearing.webp";
+import gabrielAnnouncing from "@/assets/sprites/annunciation/gabriel-announcing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

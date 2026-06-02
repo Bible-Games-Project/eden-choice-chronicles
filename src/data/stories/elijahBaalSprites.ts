@@ -1,10 +1,10 @@
-import elijahBold from "@/assets/sprites/elijah-baal/elijah-bold.png";
-import ahabKing from "@/assets/sprites/elijah-baal/ahab-king.png";
-import baalProphets from "@/assets/sprites/elijah-baal/baal-prophets.png";
-import elijahAltar from "@/assets/sprites/elijah-baal/elijah-altar.png";
-import elijahPraying from "@/assets/sprites/elijah-baal/elijah-praying.png";
-import elijahVictorious from "@/assets/sprites/elijah-baal/elijah-victorious.png";
-import crowdBowing from "@/assets/sprites/elijah-baal/crowd-bowing.png";
+import elijahBold from "@/assets/sprites/elijah-baal/elijah-bold.webp";
+import ahabKing from "@/assets/sprites/elijah-baal/ahab-king.webp";
+import baalProphets from "@/assets/sprites/elijah-baal/baal-prophets.webp";
+import elijahAltar from "@/assets/sprites/elijah-baal/elijah-altar.webp";
+import elijahPraying from "@/assets/sprites/elijah-baal/elijah-praying.webp";
+import elijahVictorious from "@/assets/sprites/elijah-baal/elijah-victorious.webp";
+import crowdBowing from "@/assets/sprites/elijah-baal/crowd-bowing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

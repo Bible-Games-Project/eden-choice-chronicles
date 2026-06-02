@@ -1,10 +1,10 @@
-import israeliteSoldiersFear from "@/assets/sprites/david-goliath/israelite-soldiers-fear.png";
-import goliathTaunting from "@/assets/sprites/david-goliath/goliath-taunting.png";
-import davidShepherd from "@/assets/sprites/david-goliath/david-shepherd.png";
-import saulArmor from "@/assets/sprites/david-goliath/saul-armor.png";
-import davidStones from "@/assets/sprites/david-goliath/david-stones.png";
-import davidSling from "@/assets/sprites/david-goliath/david-sling.png";
-import davidVictorious from "@/assets/sprites/david-goliath/david-victorious.png";
+import israeliteSoldiersFear from "@/assets/sprites/david-goliath/israelite-soldiers-fear.webp";
+import goliathTaunting from "@/assets/sprites/david-goliath/goliath-taunting.webp";
+import davidShepherd from "@/assets/sprites/david-goliath/david-shepherd.webp";
+import saulArmor from "@/assets/sprites/david-goliath/saul-armor.webp";
+import davidStones from "@/assets/sprites/david-goliath/david-stones.webp";
+import davidSling from "@/assets/sprites/david-goliath/david-sling.webp";
+import davidVictorious from "@/assets/sprites/david-goliath/david-victorious.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

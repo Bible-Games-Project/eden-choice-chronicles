@@ -1,10 +1,10 @@
-import mosesLeading from "@/assets/sprites/red-sea/moses-leading.png";
-import mosesStaffRaised from "@/assets/sprites/red-sea/moses-staff-raised.png";
-import mosesFaithful from "@/assets/sprites/red-sea/moses-faithful.png";
-import pharaohEnraged from "@/assets/sprites/red-sea/pharaoh-enraged.png";
-import israelitesFearful from "@/assets/sprites/red-sea/israelites-fearful.png";
-import israelitesRejoicing from "@/assets/sprites/red-sea/israelites-rejoicing.png";
-import egyptianSoldier from "@/assets/sprites/red-sea/egyptian-soldier.png";
+import mosesLeading from "@/assets/sprites/red-sea/moses-leading.webp";
+import mosesStaffRaised from "@/assets/sprites/red-sea/moses-staff-raised.webp";
+import mosesFaithful from "@/assets/sprites/red-sea/moses-faithful.webp";
+import pharaohEnraged from "@/assets/sprites/red-sea/pharaoh-enraged.webp";
+import israelitesFearful from "@/assets/sprites/red-sea/israelites-fearful.webp";
+import israelitesRejoicing from "@/assets/sprites/red-sea/israelites-rejoicing.webp";
+import egyptianSoldier from "@/assets/sprites/red-sea/egyptian-soldier.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

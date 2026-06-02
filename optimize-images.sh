@@ -38,9 +38,11 @@ if ! command -v cwebp &> /dev/null; then
 fi
 
 # Configuration
-SOURCE_DIR="src/assets"  # Source images directory
-QUALITY=85               # WebP quality (0-100, 85 is good balance)
-BACKUP_ORIGINALS=true
+SOURCE_DIR="src/assets"        # Source images directory
+QUALITY=85                     # WebP quality (0-100, 85 is good balance)
+UPDATE_CODE_REFS=true          # Automatically update .ts/.tsx imports
+DELETE_ORIGINALS=false         # Delete PNG files after successful conversion
+CODE_DIRS="src"                # Directories to search for code references
 
 # Stats
 total_files=0
@@ -48,6 +50,7 @@ converted_files=0
 skipped_files=0
 original_size=0
 new_size=0
+code_files_updated=0
 
 echo "📂 Scanning for PNG files in ${SOURCE_DIR}..."
 echo ""
@@ -80,21 +83,50 @@ while IFS= read -r -d '' png_file; do
         reduction=$((100 - (webp_size * 100 / file_size)))
         echo -e "   ${GREEN}✅${NC} $(human_size $file_size) → $(human_size $webp_size) (${reduction}% smaller)"
         ((converted_files++))
-        
-        # Optionally backup or remove original
-        if [ "$BACKUP_ORIGINALS" = true ]; then
-            # Keep original PNG for now
-            :
-        else
-            # Uncomment to remove original PNGs after conversion
-            # rm "$png_file"
-            :
-        fi
     else
         echo -e "   ${RED}❌ Failed${NC}"
     fi
     
 done < <(find "$SOURCE_DIR" -type f -name "*.png" -print0)
+
+echo ""
+
+# Update code references if enabled
+if [ "$UPDATE_CODE_REFS" = true ]; then
+    # Check if there are any .png references in the code
+    png_refs_count=$(grep -r '\.png"' "$CODE_DIRS" --include="*.ts" --include="*.tsx" 2>/dev/null | wc -l | tr -d ' ')
+    
+    if [ "$png_refs_count" -gt 0 ]; then
+        echo "🔧 Updating code references from .png to .webp..."
+        echo "   Found $png_refs_count .png references in code"
+        echo ""
+        
+        # Find and update all .ts and .tsx files
+        while IFS= read -r -d '' code_file; do
+            # Check if file contains .png" references
+            if grep -q '\.png"' "$code_file" 2>/dev/null; then
+                # Update the file
+                if sed -i '' 's/\.png"/\.webp"/g' "$code_file"; then
+                    echo -e "   ${GREEN}✅${NC} Updated $(basename "$code_file")"
+                    ((code_files_updated++))
+                fi
+            fi
+        done < <(find "$CODE_DIRS" -type f \( -name "*.ts" -o -name "*.tsx" \) -print0)
+        
+        echo ""
+        echo -e "${GREEN}✅ Updated $code_files_updated code files${NC}"
+        echo ""
+    fi
+fi
+
+# Delete original PNGs if enabled and conversion was successful
+if [ "$DELETE_ORIGINALS" = true ] && [ $converted_files -gt 0 ]; then
+    echo "🗑️  Deleting original PNG files..."
+    echo ""
+    find "$SOURCE_DIR" -type f -name "*.png" -delete
+    echo -e "${GREEN}✅ Deleted $total_files original PNG files${NC}"
+    echo ""
+fi
 
 echo ""
 echo "============================================"
@@ -104,6 +136,9 @@ echo ""
 echo "Total PNG files found:    $total_files"
 echo "Converted:                $converted_files"
 echo "Skipped (already fresh):  $skipped_files"
+if [ "$UPDATE_CODE_REFS" = true ]; then
+    echo "Code files updated:       $code_files_updated"
+fi
 echo ""
 echo "Original size:            $(human_size $original_size)"
 echo "Optimized size:           $(human_size $new_size)"
@@ -117,8 +152,22 @@ fi
 echo ""
 echo -e "${GREEN}✅ Optimization complete!${NC}"
 echo ""
-echo "💡 Next steps:"
-echo "   1. Update your code to use .webp instead of .png"
-echo "   2. Test in the app to ensure images display correctly"
-echo "   3. If everything works, you can remove original PNGs"
+
+if [ $converted_files -gt 0 ]; then
+    echo "💡 Next steps:"
+    if [ "$UPDATE_CODE_REFS" = true ]; then
+        echo "   1. ✅ Code references updated automatically"
+        echo "   2. Run: bun run build"
+        echo "   3. Test the app to ensure images display correctly"
+        if [ "$DELETE_ORIGINALS" = false ]; then
+            echo "   4. If everything works, set DELETE_ORIGINALS=true and re-run"
+        fi
+    else
+        echo "   1. Update your code to use .webp instead of .png"
+        echo "   2. Run: bun run build"
+        echo "   3. Test in the app to ensure images display correctly"
+    fi
+else
+    echo "ℹ️  All images are already optimized!"
+fi
 echo ""

@@ -1,10 +1,10 @@
-import disciples from "@/assets/sprites/lords-prayer/disciples-asking.png";
-import ourFather from "@/assets/sprites/lords-prayer/jesus-our-father.png";
-import bread from "@/assets/sprites/lords-prayer/jesus-bread.png";
-import forgive from "@/assets/sprites/lords-prayer/jesus-forgive.png";
-import forgiveOthers from "@/assets/sprites/lords-prayer/jesus-forgive-others.png";
-import deliver from "@/assets/sprites/lords-prayer/jesus-deliver.png";
-import privatePrayer from "@/assets/sprites/lords-prayer/jesus-private-prayer.png";
+import disciples from "@/assets/sprites/lords-prayer/disciples-asking.webp";
+import ourFather from "@/assets/sprites/lords-prayer/jesus-our-father.webp";
+import bread from "@/assets/sprites/lords-prayer/jesus-bread.webp";
+import forgive from "@/assets/sprites/lords-prayer/jesus-forgive.webp";
+import forgiveOthers from "@/assets/sprites/lords-prayer/jesus-forgive-others.webp";
+import deliver from "@/assets/sprites/lords-prayer/jesus-deliver.webp";
+import privatePrayer from "@/assets/sprites/lords-prayer/jesus-private-prayer.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

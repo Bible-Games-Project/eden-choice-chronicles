@@ -1,10 +1,10 @@
-import mosesShepherd from "@/assets/sprites/burning-bush/moses-shepherd.png";
-import mosesCurious from "@/assets/sprites/burning-bush/moses-curious.png";
-import mosesAwed from "@/assets/sprites/burning-bush/moses-awed.png";
-import mosesReverent from "@/assets/sprites/burning-bush/moses-reverent.png";
-import mosesHesitant from "@/assets/sprites/burning-bush/moses-hesitant.png";
-import mosesResolved from "@/assets/sprites/burning-bush/moses-resolved.png";
-import burningBushPresence from "@/assets/sprites/burning-bush/burning-bush-presence.png";
+import mosesShepherd from "@/assets/sprites/burning-bush/moses-shepherd.webp";
+import mosesCurious from "@/assets/sprites/burning-bush/moses-curious.webp";
+import mosesAwed from "@/assets/sprites/burning-bush/moses-awed.webp";
+import mosesReverent from "@/assets/sprites/burning-bush/moses-reverent.webp";
+import mosesHesitant from "@/assets/sprites/burning-bush/moses-hesitant.webp";
+import mosesResolved from "@/assets/sprites/burning-bush/moses-resolved.webp";
+import burningBushPresence from "@/assets/sprites/burning-bush/burning-bush-presence.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,9 +1,9 @@
-import familyTraveling from "@/assets/sprites/jesus-temple/family-traveling.png";
-import jesusListening from "@/assets/sprites/jesus-temple/jesus-listening.png";
-import maryJosephAnxious from "@/assets/sprites/jesus-temple/mary-joseph-anxious.png";
-import jesusTeaching from "@/assets/sprites/jesus-temple/jesus-teaching.png";
-import jesusMaryReunion from "@/assets/sprites/jesus-temple/jesus-mary-reunion.png";
-import familyReturning from "@/assets/sprites/jesus-temple/family-returning.png";
+import familyTraveling from "@/assets/sprites/jesus-temple/family-traveling.webp";
+import jesusListening from "@/assets/sprites/jesus-temple/jesus-listening.webp";
+import maryJosephAnxious from "@/assets/sprites/jesus-temple/mary-joseph-anxious.webp";
+import jesusTeaching from "@/assets/sprites/jesus-temple/jesus-teaching.webp";
+import jesusMaryReunion from "@/assets/sprites/jesus-temple/jesus-mary-reunion.webp";
+import familyReturning from "@/assets/sprites/jesus-temple/family-returning.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

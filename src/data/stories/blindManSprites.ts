@@ -1,10 +1,10 @@
-import blindBegging from "@/assets/sprites/blind-man/blind-begging.png";
-import jesusMakingMud from "@/assets/sprites/blind-man/jesus-making-mud.png";
-import jesusAnointing from "@/assets/sprites/blind-man/jesus-anointing.png";
-import manWashing from "@/assets/sprites/blind-man/man-washing.png";
-import manSeeing from "@/assets/sprites/blind-man/man-seeing.png";
-import phariseesQuestioning from "@/assets/sprites/blind-man/pharisees-questioning.png";
-import manTestifying from "@/assets/sprites/blind-man/man-testifying.png";
+import blindBegging from "@/assets/sprites/blind-man/blind-begging.webp";
+import jesusMakingMud from "@/assets/sprites/blind-man/jesus-making-mud.webp";
+import jesusAnointing from "@/assets/sprites/blind-man/jesus-anointing.webp";
+import manWashing from "@/assets/sprites/blind-man/man-washing.webp";
+import manSeeing from "@/assets/sprites/blind-man/man-seeing.webp";
+import phariseesQuestioning from "@/assets/sprites/blind-man/pharisees-questioning.webp";
+import manTestifying from "@/assets/sprites/blind-man/man-testifying.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,9 +1,9 @@
-import jesusFasting from "@/assets/sprites/temptation/jesus-fasting.png";
-import devilStone from "@/assets/sprites/temptation/devil-stone.png";
-import jesusRefusing from "@/assets/sprites/temptation/jesus-refusing.png";
-import devilPointing from "@/assets/sprites/temptation/devil-pointing.png";
-import jesusCommanding from "@/assets/sprites/temptation/jesus-commanding.png";
-import jesusVictorious from "@/assets/sprites/temptation/jesus-victorious.png";
+import jesusFasting from "@/assets/sprites/temptation/jesus-fasting.webp";
+import devilStone from "@/assets/sprites/temptation/devil-stone.webp";
+import jesusRefusing from "@/assets/sprites/temptation/jesus-refusing.webp";
+import devilPointing from "@/assets/sprites/temptation/devil-pointing.webp";
+import jesusCommanding from "@/assets/sprites/temptation/jesus-commanding.webp";
+import jesusVictorious from "@/assets/sprites/temptation/jesus-victorious.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

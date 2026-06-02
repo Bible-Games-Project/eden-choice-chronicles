@@ -1,9 +1,9 @@
-import mosesResolved from "@/assets/sprites/ten-commandments/moses-resolved.png";
-import mosesBowed from "@/assets/sprites/ten-commandments/moses-bowed.png";
-import mosesTablets from "@/assets/sprites/ten-commandments/moses-tablets.png";
-import israelitesFearful from "@/assets/sprites/ten-commandments/israelites-fearful.png";
-import israelitesCovenant from "@/assets/sprites/ten-commandments/israelites-covenant.png";
-import aaronWatching from "@/assets/sprites/ten-commandments/aaron-watching.png";
+import mosesResolved from "@/assets/sprites/ten-commandments/moses-resolved.webp";
+import mosesBowed from "@/assets/sprites/ten-commandments/moses-bowed.webp";
+import mosesTablets from "@/assets/sprites/ten-commandments/moses-tablets.webp";
+import israelitesFearful from "@/assets/sprites/ten-commandments/israelites-fearful.webp";
+import israelitesCovenant from "@/assets/sprites/ten-commandments/israelites-covenant.webp";
+import aaronWatching from "@/assets/sprites/ten-commandments/aaron-watching.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

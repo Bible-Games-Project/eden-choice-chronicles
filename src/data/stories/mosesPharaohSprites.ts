@@ -1,11 +1,11 @@
-import mosesResolved from "@/assets/sprites/moses-pharaoh/moses-resolved.png";
-import mosesSorrow from "@/assets/sprites/moses-pharaoh/moses-sorrow.png";
-import aaronGreeting from "@/assets/sprites/moses-pharaoh/aaron-greeting.png";
-import mosesAaron from "@/assets/sprites/moses-pharaoh/moses-aaron-together.png";
-import hebrewElders from "@/assets/sprites/moses-pharaoh/hebrew-elders.png";
-import courtOfficial from "@/assets/sprites/moses-pharaoh/court-official.png";
-import pharaohCold from "@/assets/sprites/moses-pharaoh/pharaoh-cold.png";
-import pharaohEnraged from "@/assets/sprites/moses-pharaoh/pharaoh-enraged.png";
+import mosesResolved from "@/assets/sprites/moses-pharaoh/moses-resolved.webp";
+import mosesSorrow from "@/assets/sprites/moses-pharaoh/moses-sorrow.webp";
+import aaronGreeting from "@/assets/sprites/moses-pharaoh/aaron-greeting.webp";
+import mosesAaron from "@/assets/sprites/moses-pharaoh/moses-aaron-together.webp";
+import hebrewElders from "@/assets/sprites/moses-pharaoh/hebrew-elders.webp";
+import courtOfficial from "@/assets/sprites/moses-pharaoh/court-official.webp";
+import pharaohCold from "@/assets/sprites/moses-pharaoh/pharaoh-cold.webp";
+import pharaohEnraged from "@/assets/sprites/moses-pharaoh/pharaoh-enraged.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

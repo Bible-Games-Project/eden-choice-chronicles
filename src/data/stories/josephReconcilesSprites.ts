@@ -1,18 +1,18 @@
-import josephCalm from "@/assets/sprites/joseph-reconciles/joseph-vizier-calm.png";
-import josephMoved from "@/assets/sprites/joseph-reconciles/joseph-moved.png";
-import josephWeepingHidden from "@/assets/sprites/joseph-reconciles/joseph-weeping-hidden.png";
-import josephStern from "@/assets/sprites/joseph-reconciles/joseph-stern.png";
-import josephRevealing from "@/assets/sprites/joseph-reconciles/joseph-revealing.png";
-import josephEmbracing from "@/assets/sprites/joseph-reconciles/joseph-embracing.png";
-import josephForgiving from "@/assets/sprites/joseph-reconciles/joseph-forgiving.png";
-import brothersBowing from "@/assets/sprites/joseph-reconciles/brothers-bowing.png";
-import brothersShocked from "@/assets/sprites/joseph-reconciles/brothers-shocked.png";
-import brothersWeeping from "@/assets/sprites/joseph-reconciles/brothers-weeping.png";
-import brothersRejoicing from "@/assets/sprites/joseph-reconciles/brothers-rejoicing.png";
-import judahPleading from "@/assets/sprites/joseph-reconciles/judah-pleading.png";
-import benjaminYoung from "@/assets/sprites/joseph-reconciles/benjamin-young.png";
-import jacobOverjoyed from "@/assets/sprites/joseph-reconciles/jacob-overjoyed.png";
-import steward from "@/assets/sprites/joseph-reconciles/steward.png";
+import josephCalm from "@/assets/sprites/joseph-reconciles/joseph-vizier-calm.webp";
+import josephMoved from "@/assets/sprites/joseph-reconciles/joseph-moved.webp";
+import josephWeepingHidden from "@/assets/sprites/joseph-reconciles/joseph-weeping-hidden.webp";
+import josephStern from "@/assets/sprites/joseph-reconciles/joseph-stern.webp";
+import josephRevealing from "@/assets/sprites/joseph-reconciles/joseph-revealing.webp";
+import josephEmbracing from "@/assets/sprites/joseph-reconciles/joseph-embracing.webp";
+import josephForgiving from "@/assets/sprites/joseph-reconciles/joseph-forgiving.webp";
+import brothersBowing from "@/assets/sprites/joseph-reconciles/brothers-bowing.webp";
+import brothersShocked from "@/assets/sprites/joseph-reconciles/brothers-shocked.webp";
+import brothersWeeping from "@/assets/sprites/joseph-reconciles/brothers-weeping.webp";
+import brothersRejoicing from "@/assets/sprites/joseph-reconciles/brothers-rejoicing.webp";
+import judahPleading from "@/assets/sprites/joseph-reconciles/judah-pleading.webp";
+import benjaminYoung from "@/assets/sprites/joseph-reconciles/benjamin-young.webp";
+import jacobOverjoyed from "@/assets/sprites/joseph-reconciles/jacob-overjoyed.webp";
+import steward from "@/assets/sprites/joseph-reconciles/steward.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

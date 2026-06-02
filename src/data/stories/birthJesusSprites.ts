@@ -1,10 +1,10 @@
-import josephJourney from "@/assets/sprites/birth-jesus/joseph-journey.png";
-import maryDonkey from "@/assets/sprites/birth-jesus/mary-donkey.png";
-import josephAsking from "@/assets/sprites/birth-jesus/joseph-asking.png";
-import innkeeper from "@/assets/sprites/birth-jesus/innkeeper.png";
-import maryResting from "@/assets/sprites/birth-jesus/mary-resting.png";
-import josephKneeling from "@/assets/sprites/birth-jesus/joseph-kneeling.png";
-import maryChild from "@/assets/sprites/birth-jesus/mary-child.png";
+import josephJourney from "@/assets/sprites/birth-jesus/joseph-journey.webp";
+import maryDonkey from "@/assets/sprites/birth-jesus/mary-donkey.webp";
+import josephAsking from "@/assets/sprites/birth-jesus/joseph-asking.webp";
+import innkeeper from "@/assets/sprites/birth-jesus/innkeeper.webp";
+import maryResting from "@/assets/sprites/birth-jesus/mary-resting.webp";
+import josephKneeling from "@/assets/sprites/birth-jesus/joseph-kneeling.webp";
+import maryChild from "@/assets/sprites/birth-jesus/mary-child.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

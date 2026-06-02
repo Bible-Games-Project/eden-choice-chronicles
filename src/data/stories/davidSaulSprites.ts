@@ -1,11 +1,11 @@
-import davidHarp from "@/assets/sprites/david-saul/david-harp.png";
-import saulJealous from "@/assets/sprites/david-saul/saul-jealous.png";
-import saulSpear from "@/assets/sprites/david-saul/saul-spear.png";
-import jonathanWarning from "@/assets/sprites/david-saul/jonathan-warning.png";
-import davidFleeing from "@/assets/sprites/david-saul/david-fleeing.png";
-import davidRestraint from "@/assets/sprites/david-saul/david-restraint.png";
-import davidCloakCall from "@/assets/sprites/david-saul/david-cloak-call.png";
-import israeliteSoldiers from "@/assets/sprites/david-saul/israelite-soldiers.png";
+import davidHarp from "@/assets/sprites/david-saul/david-harp.webp";
+import saulJealous from "@/assets/sprites/david-saul/saul-jealous.webp";
+import saulSpear from "@/assets/sprites/david-saul/saul-spear.webp";
+import jonathanWarning from "@/assets/sprites/david-saul/jonathan-warning.webp";
+import davidFleeing from "@/assets/sprites/david-saul/david-fleeing.webp";
+import davidRestraint from "@/assets/sprites/david-saul/david-restraint.webp";
+import davidCloakCall from "@/assets/sprites/david-saul/david-cloak-call.webp";
+import israeliteSoldiers from "@/assets/sprites/david-saul/israelite-soldiers.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

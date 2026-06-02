@@ -1,17 +1,17 @@
-import josephArriving from "@/assets/sprites/joseph-prison/joseph-arriving.png";
-import josephPraying from "@/assets/sprites/joseph-prison/joseph-praying.png";
-import josephWorking from "@/assets/sprites/joseph-prison/joseph-working.png";
-import josephListening from "@/assets/sprites/joseph-prison/joseph-listening.png";
-import josephInterpreting from "@/assets/sprites/joseph-prison/joseph-interpreting.png";
-import josephHumble from "@/assets/sprites/joseph-prison/joseph-humble.png";
-import josephPleading from "@/assets/sprites/joseph-prison/joseph-pleading.png";
-import josephWaiting from "@/assets/sprites/joseph-prison/joseph-waiting.png";
-import guardStern from "@/assets/sprites/joseph-prison/guard-stern.png";
-import guardTrusting from "@/assets/sprites/joseph-prison/guard-trusting.png";
-import cupbearerTroubled from "@/assets/sprites/joseph-prison/cupbearer-troubled.png";
-import cupbearerJoyful from "@/assets/sprites/joseph-prison/cupbearer-joyful.png";
-import bakerWorried from "@/assets/sprites/joseph-prison/baker-worried.png";
-import bakerSorrowful from "@/assets/sprites/joseph-prison/baker-sorrowful.png";
+import josephArriving from "@/assets/sprites/joseph-prison/joseph-arriving.webp";
+import josephPraying from "@/assets/sprites/joseph-prison/joseph-praying.webp";
+import josephWorking from "@/assets/sprites/joseph-prison/joseph-working.webp";
+import josephListening from "@/assets/sprites/joseph-prison/joseph-listening.webp";
+import josephInterpreting from "@/assets/sprites/joseph-prison/joseph-interpreting.webp";
+import josephHumble from "@/assets/sprites/joseph-prison/joseph-humble.webp";
+import josephPleading from "@/assets/sprites/joseph-prison/joseph-pleading.webp";
+import josephWaiting from "@/assets/sprites/joseph-prison/joseph-waiting.webp";
+import guardStern from "@/assets/sprites/joseph-prison/guard-stern.webp";
+import guardTrusting from "@/assets/sprites/joseph-prison/guard-trusting.webp";
+import cupbearerTroubled from "@/assets/sprites/joseph-prison/cupbearer-troubled.webp";
+import cupbearerJoyful from "@/assets/sprites/joseph-prison/cupbearer-joyful.webp";
+import bakerWorried from "@/assets/sprites/joseph-prison/baker-worried.webp";
+import bakerSorrowful from "@/assets/sprites/joseph-prison/baker-sorrowful.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

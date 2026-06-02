@@ -1,11 +1,11 @@
-import womanBrought from "@/assets/sprites/woman-adultery/woman-brought.png";
-import phariseesAccusing from "@/assets/sprites/woman-adultery/pharisees-accusing.png";
-import phariseesTrap from "@/assets/sprites/woman-adultery/pharisees-trap.png";
-import jesusWriting from "@/assets/sprites/woman-adultery/jesus-writing.png";
-import jesusSpeaking from "@/assets/sprites/woman-adultery/jesus-speaking.png";
-import accusersLeaving from "@/assets/sprites/woman-adultery/accusers-leaving.png";
-import jesusMercy from "@/assets/sprites/woman-adultery/jesus-mercy.png";
-import womanFree from "@/assets/sprites/woman-adultery/woman-free.png";
+import womanBrought from "@/assets/sprites/woman-adultery/woman-brought.webp";
+import phariseesAccusing from "@/assets/sprites/woman-adultery/pharisees-accusing.webp";
+import phariseesTrap from "@/assets/sprites/woman-adultery/pharisees-trap.webp";
+import jesusWriting from "@/assets/sprites/woman-adultery/jesus-writing.webp";
+import jesusSpeaking from "@/assets/sprites/woman-adultery/jesus-speaking.webp";
+import accusersLeaving from "@/assets/sprites/woman-adultery/accusers-leaving.webp";
+import jesusMercy from "@/assets/sprites/woman-adultery/jesus-mercy.webp";
+import womanFree from "@/assets/sprites/woman-adultery/woman-free.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,9 +1,9 @@
-import jesusCompassion from "@/assets/sprites/feeding-5000/jesus-compassion.png";
-import disciplesWorried from "@/assets/sprites/feeding-5000/disciples-worried.png";
-import boyOffering from "@/assets/sprites/feeding-5000/boy-offering.png";
-import jesusBlessing from "@/assets/sprites/feeding-5000/jesus-blessing.png";
-import disciplesDistributing from "@/assets/sprites/feeding-5000/disciples-distributing.png";
-import boyAmazed from "@/assets/sprites/feeding-5000/boy-amazed.png";
+import jesusCompassion from "@/assets/sprites/feeding-5000/jesus-compassion.webp";
+import disciplesWorried from "@/assets/sprites/feeding-5000/disciples-worried.webp";
+import boyOffering from "@/assets/sprites/feeding-5000/boy-offering.webp";
+import jesusBlessing from "@/assets/sprites/feeding-5000/jesus-blessing.webp";
+import disciplesDistributing from "@/assets/sprites/feeding-5000/disciples-distributing.webp";
+import boyAmazed from "@/assets/sprites/feeding-5000/boy-amazed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

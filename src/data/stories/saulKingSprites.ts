@@ -1,9 +1,9 @@
-import saulSearching from "@/assets/sprites/saul-king/saul-searching.png";
-import samuelWarning from "@/assets/sprites/saul-king/samuel-warning.png";
-import samuelAnointing from "@/assets/sprites/saul-king/samuel-anointing-saul.png";
-import saulHesitant from "@/assets/sprites/saul-king/saul-hesitant.png";
-import tribalElders from "@/assets/sprites/saul-king/tribal-elders.png";
-import saulKing from "@/assets/sprites/saul-king/saul-king.png";
+import saulSearching from "@/assets/sprites/saul-king/saul-searching.webp";
+import samuelWarning from "@/assets/sprites/saul-king/samuel-warning.webp";
+import samuelAnointing from "@/assets/sprites/saul-king/samuel-anointing-saul.webp";
+import saulHesitant from "@/assets/sprites/saul-king/saul-hesitant.webp";
+import tribalElders from "@/assets/sprites/saul-king/tribal-elders.webp";
+import saulKing from "@/assets/sprites/saul-king/saul-king.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

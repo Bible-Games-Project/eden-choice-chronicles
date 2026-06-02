@@ -1,9 +1,9 @@
-import mosesLeading from "@/assets/sprites/manna/moses-leading.png";
-import mosesPraying from "@/assets/sprites/manna/moses-praying.png";
-import israelitesHungry from "@/assets/sprites/manna/israelites-hungry.png";
-import israeliteGathering from "@/assets/sprites/manna/israelite-gathering.png";
-import aaronElder from "@/assets/sprites/manna/aaron-elder.png";
-import greedyGatherer from "@/assets/sprites/manna/greedy-gatherer.png";
+import mosesLeading from "@/assets/sprites/manna/moses-leading.webp";
+import mosesPraying from "@/assets/sprites/manna/moses-praying.webp";
+import israelitesHungry from "@/assets/sprites/manna/israelites-hungry.webp";
+import israeliteGathering from "@/assets/sprites/manna/israelite-gathering.webp";
+import aaronElder from "@/assets/sprites/manna/aaron-elder.webp";
+import greedyGatherer from "@/assets/sprites/manna/greedy-gatherer.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

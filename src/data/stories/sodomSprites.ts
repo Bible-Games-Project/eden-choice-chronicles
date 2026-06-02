@@ -1,11 +1,11 @@
-import lotCalm from "@/assets/sprites/sodom/lot-calm.png";
-import lotTroubled from "@/assets/sprites/sodom/lot-troubled.png";
-import lotFleeing from "@/assets/sprites/sodom/lot-fleeing.png";
-import lotGrieving from "@/assets/sprites/sodom/lot-grieving.png";
-import angels from "@/assets/sprites/sodom/angels.png";
-import angelsWarning from "@/assets/sprites/sodom/angels-warning.png";
-import wifeCalm from "@/assets/sprites/sodom/wife-calm.png";
-import wifeSalt from "@/assets/sprites/sodom/wife-salt.png";
+import lotCalm from "@/assets/sprites/sodom/lot-calm.webp";
+import lotTroubled from "@/assets/sprites/sodom/lot-troubled.webp";
+import lotFleeing from "@/assets/sprites/sodom/lot-fleeing.webp";
+import lotGrieving from "@/assets/sprites/sodom/lot-grieving.webp";
+import angels from "@/assets/sprites/sodom/angels.webp";
+import angelsWarning from "@/assets/sprites/sodom/angels-warning.webp";
+import wifeCalm from "@/assets/sprites/sodom/wife-calm.webp";
+import wifeSalt from "@/assets/sprites/sodom/wife-salt.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

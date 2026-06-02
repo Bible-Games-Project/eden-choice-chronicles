@@ -1,9 +1,9 @@
-import mosesBurdened from "@/assets/sprites/rebellion-people/moses-burdened.png";
-import mosesPraying from "@/assets/sprites/rebellion-people/moses-praying.png";
-import aaronConcerned from "@/assets/sprites/rebellion-people/aaron-concerned.png";
-import joshuaFaithful from "@/assets/sprites/rebellion-people/joshua-faithful.png";
-import israelitesComplaining from "@/assets/sprites/rebellion-people/israelites-complaining.png";
-import israelitesDespair from "@/assets/sprites/rebellion-people/israelites-despair.png";
+import mosesBurdened from "@/assets/sprites/rebellion-people/moses-burdened.webp";
+import mosesPraying from "@/assets/sprites/rebellion-people/moses-praying.webp";
+import aaronConcerned from "@/assets/sprites/rebellion-people/aaron-concerned.webp";
+import joshuaFaithful from "@/assets/sprites/rebellion-people/joshua-faithful.webp";
+import israelitesComplaining from "@/assets/sprites/rebellion-people/israelites-complaining.webp";
+import israelitesDespair from "@/assets/sprites/rebellion-people/israelites-despair.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,10 +1,10 @@
-import mosesSending from "@/assets/sprites/spies-canaan/moses-sending.png";
-import mosesGrieved from "@/assets/sprites/spies-canaan/moses-grieved.png";
-import joshuaCalebGrapes from "@/assets/sprites/spies-canaan/joshua-caleb-grapes.png";
-import joshuaCalebFaithful from "@/assets/sprites/spies-canaan/joshua-caleb-faithful.png";
-import spiesFearful from "@/assets/sprites/spies-canaan/spies-fearful.png";
-import israelitesWeeping from "@/assets/sprites/spies-canaan/israelites-weeping.png";
-import israelitesRebellious from "@/assets/sprites/spies-canaan/israelites-rebellious.png";
+import mosesSending from "@/assets/sprites/spies-canaan/moses-sending.webp";
+import mosesGrieved from "@/assets/sprites/spies-canaan/moses-grieved.webp";
+import joshuaCalebGrapes from "@/assets/sprites/spies-canaan/joshua-caleb-grapes.webp";
+import joshuaCalebFaithful from "@/assets/sprites/spies-canaan/joshua-caleb-faithful.webp";
+import spiesFearful from "@/assets/sprites/spies-canaan/spies-fearful.webp";
+import israelitesWeeping from "@/assets/sprites/spies-canaan/israelites-weeping.webp";
+import israelitesRebellious from "@/assets/sprites/spies-canaan/israelites-rebellious.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

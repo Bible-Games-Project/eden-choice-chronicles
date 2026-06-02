@@ -1,13 +1,13 @@
-import jesusParable from "@/assets/sprites/rich-lazarus/jesus-parable.png";
-import richFeasting from "@/assets/sprites/rich-lazarus/rich-feasting.png";
-import lazarusSuffering from "@/assets/sprites/rich-lazarus/lazarus-suffering.png";
-import lazarusDogs from "@/assets/sprites/rich-lazarus/lazarus-dogs.png";
-import richIndifferent from "@/assets/sprites/rich-lazarus/rich-indifferent.png";
-import lazarusComforted from "@/assets/sprites/rich-lazarus/lazarus-comforted.png";
-import richTorment from "@/assets/sprites/rich-lazarus/rich-torment.png";
-import richPleading from "@/assets/sprites/rich-lazarus/rich-pleading.png";
-import abrahamFirm from "@/assets/sprites/rich-lazarus/abraham-firm.png";
-import jesusSolemn from "@/assets/sprites/rich-lazarus/jesus-solemn.png";
+import jesusParable from "@/assets/sprites/rich-lazarus/jesus-parable.webp";
+import richFeasting from "@/assets/sprites/rich-lazarus/rich-feasting.webp";
+import lazarusSuffering from "@/assets/sprites/rich-lazarus/lazarus-suffering.webp";
+import lazarusDogs from "@/assets/sprites/rich-lazarus/lazarus-dogs.webp";
+import richIndifferent from "@/assets/sprites/rich-lazarus/rich-indifferent.webp";
+import lazarusComforted from "@/assets/sprites/rich-lazarus/lazarus-comforted.webp";
+import richTorment from "@/assets/sprites/rich-lazarus/rich-torment.webp";
+import richPleading from "@/assets/sprites/rich-lazarus/rich-pleading.webp";
+import abrahamFirm from "@/assets/sprites/rich-lazarus/abraham-firm.webp";
+import jesusSolemn from "@/assets/sprites/rich-lazarus/jesus-solemn.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

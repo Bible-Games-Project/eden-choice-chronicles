@@ -1,9 +1,9 @@
-import weddingGuests from "@/assets/sprites/cana/wedding-guests.png";
-import maryConcerned from "@/assets/sprites/cana/mary-concerned.png";
-import jesusInstructing from "@/assets/sprites/cana/jesus-instructing.png";
-import servantsFilling from "@/assets/sprites/cana/servants-filling.png";
-import masterTasting from "@/assets/sprites/cana/master-tasting.png";
-import disciplesWondering from "@/assets/sprites/cana/disciples-wondering.png";
+import weddingGuests from "@/assets/sprites/cana/wedding-guests.webp";
+import maryConcerned from "@/assets/sprites/cana/mary-concerned.webp";
+import jesusInstructing from "@/assets/sprites/cana/jesus-instructing.webp";
+import servantsFilling from "@/assets/sprites/cana/servants-filling.webp";
+import masterTasting from "@/assets/sprites/cana/master-tasting.webp";
+import disciplesWondering from "@/assets/sprites/cana/disciples-wondering.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

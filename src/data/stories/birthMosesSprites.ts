@@ -1,12 +1,12 @@
-import jochebedWorried from "@/assets/sprites/birth-moses/jochebed-worried.png";
-import jochebedCradling from "@/assets/sprites/birth-moses/jochebed-cradling.png";
-import jochebedWithBasket from "@/assets/sprites/birth-moses/jochebed-with-basket.png";
-import miriamWatching from "@/assets/sprites/birth-moses/miriam-watching.png";
-import miriamSpeaking from "@/assets/sprites/birth-moses/miriam-speaking.png";
-import princessCompassion from "@/assets/sprites/birth-moses/princess-compassion.png";
-import princessHolding from "@/assets/sprites/birth-moses/princess-holding.png";
-import guardStern from "@/assets/sprites/birth-moses/guard-stern.png";
-import servantAttending from "@/assets/sprites/birth-moses/servant-attending.png";
+import jochebedWorried from "@/assets/sprites/birth-moses/jochebed-worried.webp";
+import jochebedCradling from "@/assets/sprites/birth-moses/jochebed-cradling.webp";
+import jochebedWithBasket from "@/assets/sprites/birth-moses/jochebed-with-basket.webp";
+import miriamWatching from "@/assets/sprites/birth-moses/miriam-watching.webp";
+import miriamSpeaking from "@/assets/sprites/birth-moses/miriam-speaking.webp";
+import princessCompassion from "@/assets/sprites/birth-moses/princess-compassion.webp";
+import princessHolding from "@/assets/sprites/birth-moses/princess-holding.webp";
+import guardStern from "@/assets/sprites/birth-moses/guard-stern.webp";
+import servantAttending from "@/assets/sprites/birth-moses/servant-attending.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

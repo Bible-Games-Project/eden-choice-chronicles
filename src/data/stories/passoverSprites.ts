@@ -1,9 +1,9 @@
-import mosesInstructed from "@/assets/sprites/passover/moses-instructed.png";
-import mosesTeaching from "@/assets/sprites/passover/moses-teaching.png";
-import aaronElder from "@/assets/sprites/passover/aaron-elder.png";
-import hebrewFather from "@/assets/sprites/passover/hebrew-father.png";
-import hebrewFamily from "@/assets/sprites/passover/hebrew-family.png";
-import pharaohGrieving from "@/assets/sprites/passover/pharaoh-grieving.png";
+import mosesInstructed from "@/assets/sprites/passover/moses-instructed.webp";
+import mosesTeaching from "@/assets/sprites/passover/moses-teaching.webp";
+import aaronElder from "@/assets/sprites/passover/aaron-elder.webp";
+import hebrewFather from "@/assets/sprites/passover/hebrew-father.webp";
+import hebrewFamily from "@/assets/sprites/passover/hebrew-family.webp";
+import pharaohGrieving from "@/assets/sprites/passover/pharaoh-grieving.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

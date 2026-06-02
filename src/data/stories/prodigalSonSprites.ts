@@ -1,14 +1,14 @@
-import jesusParable from "@/assets/sprites/prodigal-son/jesus-parable.png";
-import sonAsking from "@/assets/sprites/prodigal-son/son-asking.png";
-import sonLeaving from "@/assets/sprites/prodigal-son/son-leaving.png";
-import sonRevelry from "@/assets/sprites/prodigal-son/son-revelry.png";
-import sonPigs from "@/assets/sprites/prodigal-son/son-pigs.png";
-import sonRepenting from "@/assets/sprites/prodigal-son/son-repenting.png";
-import fatherEmbrace from "@/assets/sprites/prodigal-son/father-embrace.png";
-import fatherCelebration from "@/assets/sprites/prodigal-son/father-celebration.png";
-import brotherAngry from "@/assets/sprites/prodigal-son/brother-angry.png";
-import fatherPleading from "@/assets/sprites/prodigal-son/father-pleading.png";
-import jesusGrace from "@/assets/sprites/prodigal-son/jesus-grace.png";
+import jesusParable from "@/assets/sprites/prodigal-son/jesus-parable.webp";
+import sonAsking from "@/assets/sprites/prodigal-son/son-asking.webp";
+import sonLeaving from "@/assets/sprites/prodigal-son/son-leaving.webp";
+import sonRevelry from "@/assets/sprites/prodigal-son/son-revelry.webp";
+import sonPigs from "@/assets/sprites/prodigal-son/son-pigs.webp";
+import sonRepenting from "@/assets/sprites/prodigal-son/son-repenting.webp";
+import fatherEmbrace from "@/assets/sprites/prodigal-son/father-embrace.webp";
+import fatherCelebration from "@/assets/sprites/prodigal-son/father-celebration.webp";
+import brotherAngry from "@/assets/sprites/prodigal-son/brother-angry.webp";
+import fatherPleading from "@/assets/sprites/prodigal-son/father-pleading.webp";
+import jesusGrace from "@/assets/sprites/prodigal-son/jesus-grace.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

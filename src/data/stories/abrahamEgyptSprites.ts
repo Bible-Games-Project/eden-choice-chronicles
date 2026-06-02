@@ -1,13 +1,13 @@
-import abrahamWorried from "@/assets/sprites/abraham-egypt/abraham-worried.png";
-import abrahamPraying from "@/assets/sprites/abraham-egypt/abraham-praying.png";
-import abrahamWalking from "@/assets/sprites/abraham-egypt/abraham-walking.png";
-import abrahamFearful from "@/assets/sprites/abraham-egypt/abraham-fearful.png";
-import abrahamAshamed from "@/assets/sprites/abraham-egypt/abraham-ashamed.png";
-import abrahamKneeling from "@/assets/sprites/abraham-egypt/abraham-kneeling.png";
-import abrahamGuilty from "@/assets/sprites/abraham-egypt/abraham-guilty.png";
-import abrahamRepentant from "@/assets/sprites/abraham-egypt/abraham-repentant.png";
-import sarah from "@/assets/sprites/abraham-egypt/sarah.png";
-import pharaoh from "@/assets/sprites/abraham-egypt/pharaoh.png";
+import abrahamWorried from "@/assets/sprites/abraham-egypt/abraham-worried.webp";
+import abrahamPraying from "@/assets/sprites/abraham-egypt/abraham-praying.webp";
+import abrahamWalking from "@/assets/sprites/abraham-egypt/abraham-walking.webp";
+import abrahamFearful from "@/assets/sprites/abraham-egypt/abraham-fearful.webp";
+import abrahamAshamed from "@/assets/sprites/abraham-egypt/abraham-ashamed.webp";
+import abrahamKneeling from "@/assets/sprites/abraham-egypt/abraham-kneeling.webp";
+import abrahamGuilty from "@/assets/sprites/abraham-egypt/abraham-guilty.webp";
+import abrahamRepentant from "@/assets/sprites/abraham-egypt/abraham-repentant.webp";
+import sarah from "@/assets/sprites/abraham-egypt/sarah.webp";
+import pharaoh from "@/assets/sprites/abraham-egypt/pharaoh.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

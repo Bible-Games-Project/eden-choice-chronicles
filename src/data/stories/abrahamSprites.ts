@@ -1,14 +1,14 @@
-import abrahamStart from "@/assets/sprites/abraham/abraham-start.png";
-import abrahamRestless from "@/assets/sprites/abraham/abraham-restless.png";
-import abrahamKneeling from "@/assets/sprites/abraham/abraham-kneeling.png";
-import abrahamAwe from "@/assets/sprites/abraham/abraham-awe.png";
-import abrahamBurdened from "@/assets/sprites/abraham/abraham-burdened.png";
-import abrahamSpeaking from "@/assets/sprites/abraham/abraham-speaking.png";
-import abrahamResolved from "@/assets/sprites/abraham/abraham-resolved.png";
-import abrahamWalking from "@/assets/sprites/abraham/abraham-walking.png";
-import abrahamStargazing from "@/assets/sprites/abraham/abraham-stargazing.png";
-import abrahamArrival from "@/assets/sprites/abraham/abraham-arrival.png";
-import sarai from "@/assets/sprites/abraham/sarai.png";
+import abrahamStart from "@/assets/sprites/abraham/abraham-start.webp";
+import abrahamRestless from "@/assets/sprites/abraham/abraham-restless.webp";
+import abrahamKneeling from "@/assets/sprites/abraham/abraham-kneeling.webp";
+import abrahamAwe from "@/assets/sprites/abraham/abraham-awe.webp";
+import abrahamBurdened from "@/assets/sprites/abraham/abraham-burdened.webp";
+import abrahamSpeaking from "@/assets/sprites/abraham/abraham-speaking.webp";
+import abrahamResolved from "@/assets/sprites/abraham/abraham-resolved.webp";
+import abrahamWalking from "@/assets/sprites/abraham/abraham-walking.webp";
+import abrahamStargazing from "@/assets/sprites/abraham/abraham-stargazing.webp";
+import abrahamArrival from "@/assets/sprites/abraham/abraham-arrival.webp";
+import sarai from "@/assets/sprites/abraham/sarai.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,14 +1,14 @@
-import builderStart from "@/assets/sprites/babel/builder-start.png";
-import builderAmbition from "@/assets/sprites/babel/builder-ambition.png";
-import builderWorking from "@/assets/sprites/babel/builder-working.png";
-import builderProud from "@/assets/sprites/babel/builder-proud.png";
-import builderAfraid from "@/assets/sprites/babel/builder-afraid.png";
-import builderConfused from "@/assets/sprites/babel/builder-confused.png";
-import builderPanic from "@/assets/sprites/babel/builder-panic.png";
-import builderWalking from "@/assets/sprites/babel/builder-walking.png";
-import builderHumble from "@/assets/sprites/babel/builder-humble.png";
-import builderReflection from "@/assets/sprites/babel/builder-reflection.png";
-import elderWarning from "@/assets/sprites/babel/elder-warning.png";
+import builderStart from "@/assets/sprites/babel/builder-start.webp";
+import builderAmbition from "@/assets/sprites/babel/builder-ambition.webp";
+import builderWorking from "@/assets/sprites/babel/builder-working.webp";
+import builderProud from "@/assets/sprites/babel/builder-proud.webp";
+import builderAfraid from "@/assets/sprites/babel/builder-afraid.webp";
+import builderConfused from "@/assets/sprites/babel/builder-confused.webp";
+import builderPanic from "@/assets/sprites/babel/builder-panic.webp";
+import builderWalking from "@/assets/sprites/babel/builder-walking.webp";
+import builderHumble from "@/assets/sprites/babel/builder-humble.webp";
+import builderReflection from "@/assets/sprites/babel/builder-reflection.webp";
+import elderWarning from "@/assets/sprites/babel/elder-warning.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

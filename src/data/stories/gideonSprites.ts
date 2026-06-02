@@ -1,9 +1,9 @@
-import gideonHiding from "@/assets/sprites/gideon/gideon-hiding.png";
-import angelOfLord from "@/assets/sprites/gideon/angel-of-lord.png";
-import gideonFleece from "@/assets/sprites/gideon/gideon-fleece.png";
-import gideonLeader from "@/assets/sprites/gideon/gideon-leader.png";
-import gideonTorch from "@/assets/sprites/gideon/gideon-torch.png";
-import midianitesFleeing from "@/assets/sprites/gideon/midianites-fleeing.png";
+import gideonHiding from "@/assets/sprites/gideon/gideon-hiding.webp";
+import angelOfLord from "@/assets/sprites/gideon/angel-of-lord.webp";
+import gideonFleece from "@/assets/sprites/gideon/gideon-fleece.webp";
+import gideonLeader from "@/assets/sprites/gideon/gideon-leader.webp";
+import gideonTorch from "@/assets/sprites/gideon/gideon-torch.webp";
+import midianitesFleeing from "@/assets/sprites/gideon/midianites-fleeing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

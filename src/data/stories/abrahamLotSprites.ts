@@ -1,11 +1,11 @@
-import abrahamCalm from "@/assets/sprites/abraham-lot/abraham-calm.png";
-import abrahamTroubled from "@/assets/sprites/abraham-lot/abraham-troubled.png";
-import abrahamOffering from "@/assets/sprites/abraham-lot/abraham-offering.png";
-import abrahamPraying from "@/assets/sprites/abraham-lot/abraham-praying.png";
-import abrahamWatching from "@/assets/sprites/abraham-lot/abraham-watching.png";
-import lotCalm from "@/assets/sprites/abraham-lot/lot-calm.png";
-import lotChoosing from "@/assets/sprites/abraham-lot/lot-choosing.png";
-import herdsman from "@/assets/sprites/abraham-lot/herdsman.png";
+import abrahamCalm from "@/assets/sprites/abraham-lot/abraham-calm.webp";
+import abrahamTroubled from "@/assets/sprites/abraham-lot/abraham-troubled.webp";
+import abrahamOffering from "@/assets/sprites/abraham-lot/abraham-offering.webp";
+import abrahamPraying from "@/assets/sprites/abraham-lot/abraham-praying.webp";
+import abrahamWatching from "@/assets/sprites/abraham-lot/abraham-watching.webp";
+import lotCalm from "@/assets/sprites/abraham-lot/lot-calm.webp";
+import lotChoosing from "@/assets/sprites/abraham-lot/lot-choosing.webp";
+import herdsman from "@/assets/sprites/abraham-lot/herdsman.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,9 +1,9 @@
-import disciplesRowing from "@/assets/sprites/walking-water/disciples-rowing-night.png";
-import disciplesFearful from "@/assets/sprites/walking-water/disciples-fearful.png";
-import jesusWalking from "@/assets/sprites/walking-water/jesus-walking-water.png";
-import peterStepping from "@/assets/sprites/walking-water/peter-stepping.png";
-import peterSinking from "@/assets/sprites/walking-water/peter-sinking.png";
-import jesusRescuing from "@/assets/sprites/walking-water/jesus-rescuing.png";
+import disciplesRowing from "@/assets/sprites/walking-water/disciples-rowing-night.webp";
+import disciplesFearful from "@/assets/sprites/walking-water/disciples-fearful.webp";
+import jesusWalking from "@/assets/sprites/walking-water/jesus-walking-water.webp";
+import peterStepping from "@/assets/sprites/walking-water/peter-stepping.webp";
+import peterSinking from "@/assets/sprites/walking-water/peter-sinking.webp";
+import jesusRescuing from "@/assets/sprites/walking-water/jesus-rescuing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

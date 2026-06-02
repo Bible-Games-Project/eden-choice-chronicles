@@ -1,9 +1,9 @@
-import josephDream from "@/assets/sprites/flight-egypt/joseph-dream.png";
-import josephWaking from "@/assets/sprites/flight-egypt/joseph-waking.png";
-import familyFleeing from "@/assets/sprites/flight-egypt/family-fleeing.png";
-import maryProtecting from "@/assets/sprites/flight-egypt/mary-protecting.png";
-import familyTraveling from "@/assets/sprites/flight-egypt/family-traveling.png";
-import familySafe from "@/assets/sprites/flight-egypt/family-safe.png";
+import josephDream from "@/assets/sprites/flight-egypt/joseph-dream.webp";
+import josephWaking from "@/assets/sprites/flight-egypt/joseph-waking.webp";
+import familyFleeing from "@/assets/sprites/flight-egypt/family-fleeing.webp";
+import maryProtecting from "@/assets/sprites/flight-egypt/mary-protecting.webp";
+import familyTraveling from "@/assets/sprites/flight-egypt/family-traveling.webp";
+import familySafe from "@/assets/sprites/flight-egypt/family-safe.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

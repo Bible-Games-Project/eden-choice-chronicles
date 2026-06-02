@@ -1,9 +1,9 @@
-import joshuaResolute from "@/assets/sprites/jericho/joshua-resolute.png";
-import joshuaKneeling from "@/assets/sprites/jericho/joshua-kneeling.png";
-import priestsTrumpets from "@/assets/sprites/jericho/priests-trumpets.png";
-import israelitesMarching from "@/assets/sprites/jericho/israelites-marching.png";
-import israelitesShouting from "@/assets/sprites/jericho/israelites-shouting.png";
-import jerichoPeople from "@/assets/sprites/jericho/jericho-people.png";
+import joshuaResolute from "@/assets/sprites/jericho/joshua-resolute.webp";
+import joshuaKneeling from "@/assets/sprites/jericho/joshua-kneeling.webp";
+import priestsTrumpets from "@/assets/sprites/jericho/priests-trumpets.webp";
+import israelitesMarching from "@/assets/sprites/jericho/israelites-marching.webp";
+import israelitesShouting from "@/assets/sprites/jericho/israelites-shouting.webp";
+import jerichoPeople from "@/assets/sprites/jericho/jericho-people.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

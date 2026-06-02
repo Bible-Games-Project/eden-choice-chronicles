@@ -1,9 +1,9 @@
-import shepherdWatching from "@/assets/sprites/shepherds/shepherd-watching.png";
-import shepherdFearful from "@/assets/sprites/shepherds/shepherd-fearful.png";
-import angelAnnouncing from "@/assets/sprites/shepherds/angel-announcing.png";
-import shepherdTraveling from "@/assets/sprites/shepherds/shepherd-traveling.png";
-import shepherdWorship from "@/assets/sprites/shepherds/shepherd-worship.png";
-import shepherdPraising from "@/assets/sprites/shepherds/shepherd-praising.png";
+import shepherdWatching from "@/assets/sprites/shepherds/shepherd-watching.webp";
+import shepherdFearful from "@/assets/sprites/shepherds/shepherd-fearful.webp";
+import angelAnnouncing from "@/assets/sprites/shepherds/angel-announcing.webp";
+import shepherdTraveling from "@/assets/sprites/shepherds/shepherd-traveling.webp";
+import shepherdWorship from "@/assets/sprites/shepherds/shepherd-worship.webp";
+import shepherdPraising from "@/assets/sprites/shepherds/shepherd-praising.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

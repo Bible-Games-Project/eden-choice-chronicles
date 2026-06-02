@@ -1,10 +1,10 @@
-import mosesCalm from "@/assets/sprites/golden-calf/moses-calm.png";
-import mosesFurious from "@/assets/sprites/golden-calf/moses-furious.png";
-import aaronHesitant from "@/assets/sprites/golden-calf/aaron-hesitant.png";
-import aaronAshamed from "@/assets/sprites/golden-calf/aaron-ashamed.png";
-import israelitesImpatient from "@/assets/sprites/golden-calf/israelites-impatient.png";
-import israelitesWorship from "@/assets/sprites/golden-calf/israelites-worship.png";
-import israelitesRepentant from "@/assets/sprites/golden-calf/israelites-repentant.png";
+import mosesCalm from "@/assets/sprites/golden-calf/moses-calm.webp";
+import mosesFurious from "@/assets/sprites/golden-calf/moses-furious.webp";
+import aaronHesitant from "@/assets/sprites/golden-calf/aaron-hesitant.webp";
+import aaronAshamed from "@/assets/sprites/golden-calf/aaron-ashamed.webp";
+import israelitesImpatient from "@/assets/sprites/golden-calf/israelites-impatient.webp";
+import israelitesWorship from "@/assets/sprites/golden-calf/israelites-worship.webp";
+import israelitesRepentant from "@/assets/sprites/golden-calf/israelites-repentant.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

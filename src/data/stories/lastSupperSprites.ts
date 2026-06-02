@@ -1,12 +1,12 @@
-import jesusWelcoming from "@/assets/sprites/last-supper/jesus-welcoming.png";
-import jesusServing from "@/assets/sprites/last-supper/jesus-serving.png";
-import jesusBread from "@/assets/sprites/last-supper/jesus-bread.png";
-import jesusCup from "@/assets/sprites/last-supper/jesus-cup.png";
-import jesusSorrowful from "@/assets/sprites/last-supper/jesus-sorrowful.png";
-import disciplesQuestioning from "@/assets/sprites/last-supper/disciples-questioning.png";
-import peterEarnest from "@/assets/sprites/last-supper/peter-earnest.png";
-import judasTroubled from "@/assets/sprites/last-supper/judas-troubled.png";
-import jesusBlessing from "@/assets/sprites/last-supper/jesus-blessing.png";
+import jesusWelcoming from "@/assets/sprites/last-supper/jesus-welcoming.webp";
+import jesusServing from "@/assets/sprites/last-supper/jesus-serving.webp";
+import jesusBread from "@/assets/sprites/last-supper/jesus-bread.webp";
+import jesusCup from "@/assets/sprites/last-supper/jesus-cup.webp";
+import jesusSorrowful from "@/assets/sprites/last-supper/jesus-sorrowful.webp";
+import disciplesQuestioning from "@/assets/sprites/last-supper/disciples-questioning.webp";
+import peterEarnest from "@/assets/sprites/last-supper/peter-earnest.webp";
+import judasTroubled from "@/assets/sprites/last-supper/judas-troubled.webp";
+import jesusBlessing from "@/assets/sprites/last-supper/jesus-blessing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

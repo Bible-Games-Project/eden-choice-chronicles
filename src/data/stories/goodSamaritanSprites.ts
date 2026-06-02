@@ -1,11 +1,11 @@
-import jesusParable from "@/assets/sprites/good-samaritan/jesus-parable.png";
-import traveler from "@/assets/sprites/good-samaritan/traveler-wounded.png";
-import priest from "@/assets/sprites/good-samaritan/priest-passing.png";
-import levite from "@/assets/sprites/good-samaritan/levite-passing.png";
-import samStops from "@/assets/sprites/good-samaritan/samaritan-stops.png";
-import samTending from "@/assets/sprites/good-samaritan/samaritan-tending.png";
-import samInnkeeper from "@/assets/sprites/good-samaritan/samaritan-innkeeper.png";
-import jesusLikewise from "@/assets/sprites/good-samaritan/jesus-likewise.png";
+import jesusParable from "@/assets/sprites/good-samaritan/jesus-parable.webp";
+import traveler from "@/assets/sprites/good-samaritan/traveler-wounded.webp";
+import priest from "@/assets/sprites/good-samaritan/priest-passing.webp";
+import levite from "@/assets/sprites/good-samaritan/levite-passing.webp";
+import samStops from "@/assets/sprites/good-samaritan/samaritan-stops.webp";
+import samTending from "@/assets/sprites/good-samaritan/samaritan-tending.webp";
+import samInnkeeper from "@/assets/sprites/good-samaritan/samaritan-innkeeper.webp";
+import jesusLikewise from "@/assets/sprites/good-samaritan/jesus-likewise.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

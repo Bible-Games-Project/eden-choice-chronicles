@@ -1,12 +1,12 @@
-import jesusParable from "@/assets/sprites/pharisee-tax/jesus-parable.png";
-import disciplesListening from "@/assets/sprites/pharisee-tax/disciples-listening.png";
-import phariseePraying from "@/assets/sprites/pharisee-tax/pharisee-praying.png";
-import phariseeBoasting from "@/assets/sprites/pharisee-tax/pharisee-boasting.png";
-import taxFar from "@/assets/sprites/pharisee-tax/tax-far.png";
-import taxMercy from "@/assets/sprites/pharisee-tax/tax-mercy.png";
-import taxForgiven from "@/assets/sprites/pharisee-tax/tax-forgiven.png";
-import jesusExplaining from "@/assets/sprites/pharisee-tax/jesus-explaining.png";
-import jesusRadiant from "@/assets/sprites/pharisee-tax/jesus-radiant.png";
+import jesusParable from "@/assets/sprites/pharisee-tax/jesus-parable.webp";
+import disciplesListening from "@/assets/sprites/pharisee-tax/disciples-listening.webp";
+import phariseePraying from "@/assets/sprites/pharisee-tax/pharisee-praying.webp";
+import phariseeBoasting from "@/assets/sprites/pharisee-tax/pharisee-boasting.webp";
+import taxFar from "@/assets/sprites/pharisee-tax/tax-far.webp";
+import taxMercy from "@/assets/sprites/pharisee-tax/tax-mercy.webp";
+import taxForgiven from "@/assets/sprites/pharisee-tax/tax-forgiven.webp";
+import jesusExplaining from "@/assets/sprites/pharisee-tax/jesus-explaining.webp";
+import jesusRadiant from "@/assets/sprites/pharisee-tax/jesus-radiant.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

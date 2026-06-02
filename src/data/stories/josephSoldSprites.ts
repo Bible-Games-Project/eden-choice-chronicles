@@ -1,15 +1,15 @@
-import josephDreamer from "@/assets/sprites/joseph-sold/joseph-dreamer.png";
-import josephTelling from "@/assets/sprites/joseph-sold/joseph-telling.png";
-import josephSearching from "@/assets/sprites/joseph-sold/joseph-searching.png";
-import josephAfraid from "@/assets/sprites/joseph-sold/joseph-afraid.png";
-import josephPleading from "@/assets/sprites/joseph-sold/joseph-pleading.png";
-import josephBound from "@/assets/sprites/joseph-sold/joseph-bound.png";
-import reubenTroubled from "@/assets/sprites/joseph-sold/reuben-troubled.png";
-import judahScheming from "@/assets/sprites/joseph-sold/judah-scheming.png";
-import brothersAngry from "@/assets/sprites/joseph-sold/brothers-angry.png";
-import brothersEating from "@/assets/sprites/joseph-sold/brothers-eating.png";
-import ishmaeliteTrader from "@/assets/sprites/joseph-sold/ishmaelite-trader.png";
-import jacobMourning from "@/assets/sprites/joseph-sold/jacob-mourning.png";
+import josephDreamer from "@/assets/sprites/joseph-sold/joseph-dreamer.webp";
+import josephTelling from "@/assets/sprites/joseph-sold/joseph-telling.webp";
+import josephSearching from "@/assets/sprites/joseph-sold/joseph-searching.webp";
+import josephAfraid from "@/assets/sprites/joseph-sold/joseph-afraid.webp";
+import josephPleading from "@/assets/sprites/joseph-sold/joseph-pleading.webp";
+import josephBound from "@/assets/sprites/joseph-sold/joseph-bound.webp";
+import reubenTroubled from "@/assets/sprites/joseph-sold/reuben-troubled.webp";
+import judahScheming from "@/assets/sprites/joseph-sold/judah-scheming.webp";
+import brothersAngry from "@/assets/sprites/joseph-sold/brothers-angry.webp";
+import brothersEating from "@/assets/sprites/joseph-sold/brothers-eating.webp";
+import ishmaeliteTrader from "@/assets/sprites/joseph-sold/ishmaelite-trader.webp";
+import jacobMourning from "@/assets/sprites/joseph-sold/jacob-mourning.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

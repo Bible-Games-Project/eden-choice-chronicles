@@ -1,15 +1,15 @@
-import jacobThoughtful from "@/assets/sprites/jacob-esau/jacob-thoughtful.png";
-import jacobShrewd from "@/assets/sprites/jacob-esau/jacob-shrewd.png";
-import jacobUncertain from "@/assets/sprites/jacob-esau/jacob-uncertain.png";
-import jacobDisguised from "@/assets/sprites/jacob-esau/jacob-disguised.png";
-import jacobFleeing from "@/assets/sprites/jacob-esau/jacob-fleeing.png";
-import jacobDeparting from "@/assets/sprites/jacob-esau/jacob-departing.png";
-import esauFaint from "@/assets/sprites/jacob-esau/esau-faint.png";
-import esauWrath from "@/assets/sprites/jacob-esau/esau-wrath.png";
-import isaacOld from "@/assets/sprites/jacob-esau/isaac-old.png";
-import isaacReaching from "@/assets/sprites/jacob-esau/isaac-reaching.png";
-import rebekahCalm from "@/assets/sprites/jacob-esau/rebekah-calm.png";
-import rebekahUrgent from "@/assets/sprites/jacob-esau/rebekah-urgent.png";
+import jacobThoughtful from "@/assets/sprites/jacob-esau/jacob-thoughtful.webp";
+import jacobShrewd from "@/assets/sprites/jacob-esau/jacob-shrewd.webp";
+import jacobUncertain from "@/assets/sprites/jacob-esau/jacob-uncertain.webp";
+import jacobDisguised from "@/assets/sprites/jacob-esau/jacob-disguised.webp";
+import jacobFleeing from "@/assets/sprites/jacob-esau/jacob-fleeing.webp";
+import jacobDeparting from "@/assets/sprites/jacob-esau/jacob-departing.webp";
+import esauFaint from "@/assets/sprites/jacob-esau/esau-faint.webp";
+import esauWrath from "@/assets/sprites/jacob-esau/esau-wrath.webp";
+import isaacOld from "@/assets/sprites/jacob-esau/isaac-old.webp";
+import isaacReaching from "@/assets/sprites/jacob-esau/isaac-reaching.webp";
+import rebekahCalm from "@/assets/sprites/jacob-esau/rebekah-calm.webp";
+import rebekahUrgent from "@/assets/sprites/jacob-esau/rebekah-urgent.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

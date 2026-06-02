@@ -1,9 +1,9 @@
-import peterTired from "@/assets/sprites/calling-disciples/peter-tired.png";
-import jesusTeaching from "@/assets/sprites/calling-disciples/jesus-teaching.png";
-import fishermenCasting from "@/assets/sprites/calling-disciples/fishermen-casting.png";
-import peterKneeling from "@/assets/sprites/calling-disciples/peter-kneeling.png";
-import jesusCalling from "@/assets/sprites/calling-disciples/jesus-calling.png";
-import disciplesFollowing from "@/assets/sprites/calling-disciples/disciples-following.png";
+import peterTired from "@/assets/sprites/calling-disciples/peter-tired.webp";
+import jesusTeaching from "@/assets/sprites/calling-disciples/jesus-teaching.webp";
+import fishermenCasting from "@/assets/sprites/calling-disciples/fishermen-casting.webp";
+import peterKneeling from "@/assets/sprites/calling-disciples/peter-kneeling.webp";
+import jesusCalling from "@/assets/sprites/calling-disciples/jesus-calling.webp";
+import disciplesFollowing from "@/assets/sprites/calling-disciples/disciples-following.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,10 +1,10 @@
-import naamanLeper from "@/assets/sprites/elisha-naaman/naaman-leper.png";
-import naamanChariot from "@/assets/sprites/elisha-naaman/naaman-chariot.png";
-import naamanProud from "@/assets/sprites/elisha-naaman/naaman-proud.png";
-import elishaMessenger from "@/assets/sprites/elisha-naaman/elisha-messenger.png";
-import naamanServants from "@/assets/sprites/elisha-naaman/naaman-servants.png";
-import naamanJordan from "@/assets/sprites/elisha-naaman/naaman-jordan.png";
-import naamanHealed from "@/assets/sprites/elisha-naaman/naaman-healed.png";
+import naamanLeper from "@/assets/sprites/elisha-naaman/naaman-leper.webp";
+import naamanChariot from "@/assets/sprites/elisha-naaman/naaman-chariot.webp";
+import naamanProud from "@/assets/sprites/elisha-naaman/naaman-proud.webp";
+import elishaMessenger from "@/assets/sprites/elisha-naaman/elisha-messenger.webp";
+import naamanServants from "@/assets/sprites/elisha-naaman/naaman-servants.webp";
+import naamanJordan from "@/assets/sprites/elisha-naaman/naaman-jordan.webp";
+import naamanHealed from "@/assets/sprites/elisha-naaman/naaman-healed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

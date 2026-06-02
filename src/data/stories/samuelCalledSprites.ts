@@ -1,9 +1,9 @@
-import samuelServing from "@/assets/sprites/samuel-called/samuel-serving.png";
-import samuelListening from "@/assets/sprites/samuel-called/samuel-listening.png";
-import eliResting from "@/assets/sprites/samuel-called/eli-resting.png";
-import eliRealizes from "@/assets/sprites/samuel-called/eli-realizes.png";
-import samuelPraying from "@/assets/sprites/samuel-called/samuel-praying.png";
-import samuelProphet from "@/assets/sprites/samuel-called/samuel-prophet.png";
+import samuelServing from "@/assets/sprites/samuel-called/samuel-serving.webp";
+import samuelListening from "@/assets/sprites/samuel-called/samuel-listening.webp";
+import eliResting from "@/assets/sprites/samuel-called/eli-resting.webp";
+import eliRealizes from "@/assets/sprites/samuel-called/eli-realizes.webp";
+import samuelPraying from "@/assets/sprites/samuel-called/samuel-praying.webp";
+import samuelProphet from "@/assets/sprites/samuel-called/samuel-prophet.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

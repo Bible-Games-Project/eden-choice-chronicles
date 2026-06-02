@@ -1,11 +1,11 @@
-import jesusWalking from "@/assets/sprites/zacchaeus/jesus-walking.png";
-import zacchaeusCrowd from "@/assets/sprites/zacchaeus/zacchaeus-crowd.png";
-import zacchaeusClimbing from "@/assets/sprites/zacchaeus/zacchaeus-climbing.png";
-import jesusLookingUp from "@/assets/sprites/zacchaeus/jesus-looking-up.png";
-import zacchaeusJoyful from "@/assets/sprites/zacchaeus/zacchaeus-joyful.png";
-import crowdMurmuring from "@/assets/sprites/zacchaeus/crowd-murmuring.png";
-import zacchaeusRepenting from "@/assets/sprites/zacchaeus/zacchaeus-repenting.png";
-import jesusBlessing from "@/assets/sprites/zacchaeus/jesus-blessing.png";
+import jesusWalking from "@/assets/sprites/zacchaeus/jesus-walking.webp";
+import zacchaeusCrowd from "@/assets/sprites/zacchaeus/zacchaeus-crowd.webp";
+import zacchaeusClimbing from "@/assets/sprites/zacchaeus/zacchaeus-climbing.webp";
+import jesusLookingUp from "@/assets/sprites/zacchaeus/jesus-looking-up.webp";
+import zacchaeusJoyful from "@/assets/sprites/zacchaeus/zacchaeus-joyful.webp";
+import crowdMurmuring from "@/assets/sprites/zacchaeus/crowd-murmuring.webp";
+import zacchaeusRepenting from "@/assets/sprites/zacchaeus/zacchaeus-repenting.webp";
+import jesusBlessing from "@/assets/sprites/zacchaeus/jesus-blessing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

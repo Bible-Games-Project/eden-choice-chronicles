@@ -1,9 +1,9 @@
-import jesusArriving from "@/assets/sprites/demon-possessed/jesus-arriving.png";
-import manTormented from "@/assets/sprites/demon-possessed/man-tormented.png";
-import villagersFearful from "@/assets/sprites/demon-possessed/villagers-fearful.png";
-import manKneeling from "@/assets/sprites/demon-possessed/man-kneeling.png";
-import jesusCommanding from "@/assets/sprites/demon-possessed/jesus-commanding.png";
-import manRestored from "@/assets/sprites/demon-possessed/man-restored.png";
+import jesusArriving from "@/assets/sprites/demon-possessed/jesus-arriving.webp";
+import manTormented from "@/assets/sprites/demon-possessed/man-tormented.webp";
+import villagersFearful from "@/assets/sprites/demon-possessed/villagers-fearful.webp";
+import manKneeling from "@/assets/sprites/demon-possessed/man-kneeling.webp";
+import jesusCommanding from "@/assets/sprites/demon-possessed/jesus-commanding.webp";
+import manRestored from "@/assets/sprites/demon-possessed/man-restored.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

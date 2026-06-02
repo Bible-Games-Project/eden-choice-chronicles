@@ -1,9 +1,9 @@
-import mosesElder from "@/assets/sprites/death-moses/moses-elder.png";
-import mosesGazing from "@/assets/sprites/death-moses/moses-gazing.png";
-import mosesJoshua from "@/assets/sprites/death-moses/moses-joshua.png";
-import joshuaResolute from "@/assets/sprites/death-moses/joshua-resolute.png";
-import israelitesListening from "@/assets/sprites/death-moses/israelites-listening.png";
-import mosesPeaceful from "@/assets/sprites/death-moses/moses-peaceful.png";
+import mosesElder from "@/assets/sprites/death-moses/moses-elder.webp";
+import mosesGazing from "@/assets/sprites/death-moses/moses-gazing.webp";
+import mosesJoshua from "@/assets/sprites/death-moses/moses-joshua.webp";
+import joshuaResolute from "@/assets/sprites/death-moses/joshua-resolute.webp";
+import israelitesListening from "@/assets/sprites/death-moses/israelites-listening.webp";
+import mosesPeaceful from "@/assets/sprites/death-moses/moses-peaceful.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

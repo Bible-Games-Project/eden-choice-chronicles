@@ -27,64 +27,40 @@ sudo apt-get install webp
 ```
 
 This will:
-- ✅ Find all PNG files in `public/`
+- ✅ Find all PNG files in `src/assets/`
 - ✅ Convert them to WebP format
-- ✅ Keep originals (for now)
+- ✅ **Automatically update all code references** (.ts/.tsx files)
+- ✅ Keep original PNGs (for safety)
 - ✅ Show you the size savings
 
 Expected result: **532MB → ~100-150MB**
 
----
+### 3. Configuration (optional)
 
-## 📝 After Running the Script
+Edit `optimize-images.sh` to customize:
 
-### Option A: Update imports to use .webp (recommended)
-
-If your code imports images like:
-```typescript
-import aaronImage from './assets/aaron-ashamed.png'
-```
-
-Change to:
-```typescript
-import aaronImage from './assets/aaron-ashamed.webp'
-```
-
-Or better yet, use a function:
-```typescript
-// utils/assets.ts
-export function getAsset(name: string) {
-  return `/assets/${name}.webp`
-}
-```
-
-### Option B: Fallback with both formats
-
-Keep both formats and let the browser choose:
-```html
-<picture>
-  <source srcset="aaron-ashamed.webp" type="image/webp">
-  <img src="aaron-ashamed.png" alt="Aaron">
-</picture>
+```bash
+UPDATE_CODE_REFS=true    # Auto-update imports (recommended)
+DELETE_ORIGINALS=false   # Delete PNGs after conversion (set to true when confident)
+QUALITY=85               # WebP quality (0-100)
 ```
 
 ---
 
-## 🔄 When to Run This Script
+## 📝 What the Script Does
 
-Run `./optimize-images.sh` whenever:
-- ✅ You add new PNG character images
-- ✅ You add new background images
-- ✅ Before creating a release build
-- ✅ Monthly (if actively developing)
+The script is **fully automated** and handles everything:
 
-The script is smart:
-- ⚡ Skips files that are already converted and up-to-date
-- ⚡ Only converts new or modified PNGs
+1. **Converts PNG → WebP** with optimal quality settings
+2. **Updates your code automatically** - replaces `.png"` with `.webp"` in all .ts/.tsx files
+3. **Smart detection** - skips files already converted
+4. **Safe by default** - keeps original PNGs until you're confident
 
 ---
 
-## 🧪 Testing After Optimization
+## 🧪 After Running the Script
+
+### Test everything works:
 
 1. **Build the app:**
    ```bash
@@ -98,6 +74,69 @@ The script is smart:
    ```
 
 3. **Test in the app:**
+   - Launch the app and verify images load correctly
+   - Check different scenes and characters
+   - If everything works, set `DELETE_ORIGINALS=true` and re-run
+
+4. **Sync to native platforms:**
+   ```bash
+   make sync-android
+   make sync-ios
+   ```
+
+5. **Build release:**
+   ```bash
+   make build-android-release
+   ```
+   The AAB should now be ~100-150MB instead of 532MB! 🎉
+
+---
+
+## 🔄 When to Run This Script
+
+Run `./optimize-images.sh` whenever:
+- ✅ You add new PNG character images
+- ✅ You add new background images  
+- ✅ Before creating a release build
+- ✅ Monthly (if actively developing)
+
+The script is intelligent:
+- ⚡ Skips files already converted
+- ⚡ Only updates code if new conversions happened
+- ⚡ Won't break anything - original PNGs are kept by default
+
+---
+
+## ⚙️ Advanced Configuration
+
+### Manual Code Update (if UPDATE_CODE_REFS=false)
+
+If you prefer to update imports manually:
+
+```bash
+# Find all .png references
+grep -r "\.png\"" src/
+
+# Replace all at once (macOS)
+find src -type f \( -name "*.ts" -o -name "*.tsx" \) -exec sed -i '' 's/\.png"/\.webp"/g' {} \;
+```
+
+### Cleanup Original PNGs
+
+Once you've tested and everything works:
+
+```bash
+# Set in script
+DELETE_ORIGINALS=true
+
+# Or manually
+find src/assets -type f -name "*.png" -delete
+```
+
+---
+
+## 🐛 Troubleshooting
+   - If everything works, set `DELETE_ORIGINALS=true` and re-run
    - Run locally: `bun run dev`
    - Verify images display correctly
    - Check transparency works (WebP supports it)

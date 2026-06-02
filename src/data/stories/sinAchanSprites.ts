@@ -1,9 +1,9 @@
-import joshuaResolute from "@/assets/sprites/sin-achan/joshua-resolute.png";
-import joshuaGrieving from "@/assets/sprites/sin-achan/joshua-grieving.png";
-import achanGuilty from "@/assets/sprites/sin-achan/achan-guilty.png";
-import achanRevealed from "@/assets/sprites/sin-achan/achan-revealed.png";
-import soldiersDefeated from "@/assets/sprites/sin-achan/soldiers-defeated.png";
-import tribesAssembled from "@/assets/sprites/sin-achan/tribes-assembled.png";
+import joshuaResolute from "@/assets/sprites/sin-achan/joshua-resolute.webp";
+import joshuaGrieving from "@/assets/sprites/sin-achan/joshua-grieving.webp";
+import achanGuilty from "@/assets/sprites/sin-achan/achan-guilty.webp";
+import achanRevealed from "@/assets/sprites/sin-achan/achan-revealed.webp";
+import soldiersDefeated from "@/assets/sprites/sin-achan/soldiers-defeated.webp";
+import tribesAssembled from "@/assets/sprites/sin-achan/tribes-assembled.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

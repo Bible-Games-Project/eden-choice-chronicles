@@ -1,17 +1,17 @@
-import josephSummoned from "@/assets/sprites/joseph-dreams/joseph-summoned.png";
-import josephSpeaking from "@/assets/sprites/joseph-dreams/joseph-speaking.png";
-import josephListening from "@/assets/sprites/joseph-dreams/joseph-listening.png";
-import josephInterpreting from "@/assets/sprites/joseph-dreams/joseph-interpreting.png";
-import josephPraying from "@/assets/sprites/joseph-dreams/joseph-praying.png";
-import josephVizier from "@/assets/sprites/joseph-dreams/joseph-vizier.png";
-import josephThoughtful from "@/assets/sprites/joseph-dreams/joseph-thoughtful.png";
-import pharaohTroubled from "@/assets/sprites/joseph-dreams/pharaoh-troubled.png";
-import pharaohListening from "@/assets/sprites/joseph-dreams/pharaoh-listening.png";
-import pharaohPleased from "@/assets/sprites/joseph-dreams/pharaoh-pleased.png";
-import pharaohDecreeing from "@/assets/sprites/joseph-dreams/pharaoh-decreeing.png";
-import cupbearer from "@/assets/sprites/joseph-dreams/cupbearer-remembering.png";
-import magician from "@/assets/sprites/joseph-dreams/magician-baffled.png";
-import official from "@/assets/sprites/joseph-dreams/official-bowing.png";
+import josephSummoned from "@/assets/sprites/joseph-dreams/joseph-summoned.webp";
+import josephSpeaking from "@/assets/sprites/joseph-dreams/joseph-speaking.webp";
+import josephListening from "@/assets/sprites/joseph-dreams/joseph-listening.webp";
+import josephInterpreting from "@/assets/sprites/joseph-dreams/joseph-interpreting.webp";
+import josephPraying from "@/assets/sprites/joseph-dreams/joseph-praying.webp";
+import josephVizier from "@/assets/sprites/joseph-dreams/joseph-vizier.webp";
+import josephThoughtful from "@/assets/sprites/joseph-dreams/joseph-thoughtful.webp";
+import pharaohTroubled from "@/assets/sprites/joseph-dreams/pharaoh-troubled.webp";
+import pharaohListening from "@/assets/sprites/joseph-dreams/pharaoh-listening.webp";
+import pharaohPleased from "@/assets/sprites/joseph-dreams/pharaoh-pleased.webp";
+import pharaohDecreeing from "@/assets/sprites/joseph-dreams/pharaoh-decreeing.webp";
+import cupbearer from "@/assets/sprites/joseph-dreams/cupbearer-remembering.webp";
+import magician from "@/assets/sprites/joseph-dreams/magician-baffled.webp";
+import official from "@/assets/sprites/joseph-dreams/official-bowing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,9 +1,9 @@
-import samsonYoung from "@/assets/sprites/samson/samson-young.png";
-import samsonStrong from "@/assets/sprites/samson/samson-strong.png";
-import philistines from "@/assets/sprites/samson/philistines.png";
-import delilah from "@/assets/sprites/samson/delilah.png";
-import samsonShaved from "@/assets/sprites/samson/samson-shaved.png";
-import samsonPillars from "@/assets/sprites/samson/samson-pillars.png";
+import samsonYoung from "@/assets/sprites/samson/samson-young.webp";
+import samsonStrong from "@/assets/sprites/samson/samson-strong.webp";
+import philistines from "@/assets/sprites/samson/philistines.webp";
+import delilah from "@/assets/sprites/samson/delilah.webp";
+import samsonShaved from "@/assets/sprites/samson/samson-shaved.webp";
+import samsonPillars from "@/assets/sprites/samson/samson-pillars.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

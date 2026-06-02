@@ -1,12 +1,12 @@
-import jesusParable from "@/assets/sprites/lost-sheep/jesus-parable.png";
-import shepherdFlock from "@/assets/sprites/lost-sheep/shepherd-flock.png";
-import sheepWandering from "@/assets/sprites/lost-sheep/sheep-wandering.png";
-import shepherdLeaving from "@/assets/sprites/lost-sheep/shepherd-leaving.png";
-import shepherdSearching from "@/assets/sprites/lost-sheep/shepherd-searching.png";
-import shepherdFinding from "@/assets/sprites/lost-sheep/shepherd-finding.png";
-import shepherdCarrying from "@/assets/sprites/lost-sheep/shepherd-carrying.png";
-import friendsCelebrating from "@/assets/sprites/lost-sheep/friends-celebrating.png";
-import jesusRadiant from "@/assets/sprites/lost-sheep/jesus-radiant.png";
+import jesusParable from "@/assets/sprites/lost-sheep/jesus-parable.webp";
+import shepherdFlock from "@/assets/sprites/lost-sheep/shepherd-flock.webp";
+import sheepWandering from "@/assets/sprites/lost-sheep/sheep-wandering.webp";
+import shepherdLeaving from "@/assets/sprites/lost-sheep/shepherd-leaving.webp";
+import shepherdSearching from "@/assets/sprites/lost-sheep/shepherd-searching.webp";
+import shepherdFinding from "@/assets/sprites/lost-sheep/shepherd-finding.webp";
+import shepherdCarrying from "@/assets/sprites/lost-sheep/shepherd-carrying.webp";
+import friendsCelebrating from "@/assets/sprites/lost-sheep/friends-celebrating.webp";
+import jesusRadiant from "@/assets/sprites/lost-sheep/jesus-radiant.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,9 +1,9 @@
-import balaamCalm from "@/assets/sprites/balaam/balaam-calm.png";
-import balaamAngry from "@/assets/sprites/balaam/balaam-angry.png";
-import balaamHumbled from "@/assets/sprites/balaam/balaam-humbled.png";
-import donkey from "@/assets/sprites/balaam/donkey.png";
-import angelSword from "@/assets/sprites/balaam/angel-sword.png";
-import moabMessengers from "@/assets/sprites/balaam/moab-messengers.png";
+import balaamCalm from "@/assets/sprites/balaam/balaam-calm.webp";
+import balaamAngry from "@/assets/sprites/balaam/balaam-angry.webp";
+import balaamHumbled from "@/assets/sprites/balaam/balaam-humbled.webp";
+import donkey from "@/assets/sprites/balaam/donkey.webp";
+import angelSword from "@/assets/sprites/balaam/angel-sword.webp";
+import moabMessengers from "@/assets/sprites/balaam/moab-messengers.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

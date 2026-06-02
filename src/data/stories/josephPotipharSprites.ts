@@ -1,16 +1,16 @@
-import josephArrival from "@/assets/sprites/joseph-potiphar/joseph-arrival.png";
-import josephSteward from "@/assets/sprites/joseph-potiphar/joseph-steward.png";
-import josephPraying from "@/assets/sprites/joseph-potiphar/joseph-praying.png";
-import josephRefusing from "@/assets/sprites/joseph-potiphar/joseph-refusing.png";
-import josephFleeing from "@/assets/sprites/joseph-potiphar/joseph-fleeing.png";
-import josephAccused from "@/assets/sprites/joseph-potiphar/joseph-accused.png";
-import josephBound from "@/assets/sprites/joseph-potiphar/joseph-bound.png";
-import potipharWelcoming from "@/assets/sprites/joseph-potiphar/potiphar-welcoming.png";
-import potipharTrusting from "@/assets/sprites/joseph-potiphar/potiphar-trusting.png";
-import potipharWrath from "@/assets/sprites/joseph-potiphar/potiphar-wrath.png";
-import wifeTempting from "@/assets/sprites/joseph-potiphar/wife-tempting.png";
-import wifeGrasping from "@/assets/sprites/joseph-potiphar/wife-grasping.png";
-import wifeAccusing from "@/assets/sprites/joseph-potiphar/wife-accusing.png";
+import josephArrival from "@/assets/sprites/joseph-potiphar/joseph-arrival.webp";
+import josephSteward from "@/assets/sprites/joseph-potiphar/joseph-steward.webp";
+import josephPraying from "@/assets/sprites/joseph-potiphar/joseph-praying.webp";
+import josephRefusing from "@/assets/sprites/joseph-potiphar/joseph-refusing.webp";
+import josephFleeing from "@/assets/sprites/joseph-potiphar/joseph-fleeing.webp";
+import josephAccused from "@/assets/sprites/joseph-potiphar/joseph-accused.webp";
+import josephBound from "@/assets/sprites/joseph-potiphar/joseph-bound.webp";
+import potipharWelcoming from "@/assets/sprites/joseph-potiphar/potiphar-welcoming.webp";
+import potipharTrusting from "@/assets/sprites/joseph-potiphar/potiphar-trusting.webp";
+import potipharWrath from "@/assets/sprites/joseph-potiphar/potiphar-wrath.webp";
+import wifeTempting from "@/assets/sprites/joseph-potiphar/wife-tempting.webp";
+import wifeGrasping from "@/assets/sprites/joseph-potiphar/wife-grasping.webp";
+import wifeAccusing from "@/assets/sprites/joseph-potiphar/wife-accusing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

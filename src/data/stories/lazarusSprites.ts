@@ -1,10 +1,10 @@
-import messengerNews from "@/assets/sprites/lazarus/messenger-news.png";
-import jesusWaiting from "@/assets/sprites/lazarus/jesus-waiting.png";
-import marthaGrieving from "@/assets/sprites/lazarus/martha-grieving.png";
-import maryWeeping from "@/assets/sprites/lazarus/mary-weeping.png";
-import jesusWeeping from "@/assets/sprites/lazarus/jesus-weeping.png";
-import jesusCalling from "@/assets/sprites/lazarus/jesus-calling.png";
-import lazarusEmerging from "@/assets/sprites/lazarus/lazarus-emerging.png";
+import messengerNews from "@/assets/sprites/lazarus/messenger-news.webp";
+import jesusWaiting from "@/assets/sprites/lazarus/jesus-waiting.webp";
+import marthaGrieving from "@/assets/sprites/lazarus/martha-grieving.webp";
+import maryWeeping from "@/assets/sprites/lazarus/mary-weeping.webp";
+import jesusWeeping from "@/assets/sprites/lazarus/jesus-weeping.webp";
+import jesusCalling from "@/assets/sprites/lazarus/jesus-calling.webp";
+import lazarusEmerging from "@/assets/sprites/lazarus/lazarus-emerging.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

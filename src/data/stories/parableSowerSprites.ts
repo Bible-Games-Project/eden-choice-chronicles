@@ -1,11 +1,11 @@
-import jesusTeaching from "@/assets/sprites/sower/jesus-teaching.png";
-import sowerScattering from "@/assets/sprites/sower/sower-scattering.png";
-import sowerPath from "@/assets/sprites/sower/sower-path.png";
-import sowerRocky from "@/assets/sprites/sower/sower-rocky.png";
-import sowerThorns from "@/assets/sprites/sower/sower-thorns.png";
-import sowerHarvest from "@/assets/sprites/sower/sower-harvest.png";
-import disciplesAsking from "@/assets/sprites/sower/disciples-asking.png";
-import jesusExplaining from "@/assets/sprites/sower/jesus-explaining.png";
+import jesusTeaching from "@/assets/sprites/sower/jesus-teaching.webp";
+import sowerScattering from "@/assets/sprites/sower/sower-scattering.webp";
+import sowerPath from "@/assets/sprites/sower/sower-path.webp";
+import sowerRocky from "@/assets/sprites/sower/sower-rocky.webp";
+import sowerThorns from "@/assets/sprites/sower/sower-thorns.webp";
+import sowerHarvest from "@/assets/sprites/sower/sower-harvest.webp";
+import disciplesAsking from "@/assets/sprites/sower/disciples-asking.webp";
+import jesusExplaining from "@/assets/sprites/sower/jesus-explaining.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

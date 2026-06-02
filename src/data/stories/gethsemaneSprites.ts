@@ -1,11 +1,11 @@
-import jesusEntering from "@/assets/sprites/gethsemane/jesus-entering.png";
-import threeDisciples from "@/assets/sprites/gethsemane/three-disciples.png";
-import jesusKneeling from "@/assets/sprites/gethsemane/jesus-kneeling.png";
-import jesusAnguish from "@/assets/sprites/gethsemane/jesus-anguish.png";
-import jesusSurrender from "@/assets/sprites/gethsemane/jesus-surrender.png";
-import disciplesSleeping from "@/assets/sprites/gethsemane/disciples-sleeping.png";
-import jesusWaking from "@/assets/sprites/gethsemane/jesus-waking.png";
-import jesusResolute from "@/assets/sprites/gethsemane/jesus-resolute.png";
+import jesusEntering from "@/assets/sprites/gethsemane/jesus-entering.webp";
+import threeDisciples from "@/assets/sprites/gethsemane/three-disciples.webp";
+import jesusKneeling from "@/assets/sprites/gethsemane/jesus-kneeling.webp";
+import jesusAnguish from "@/assets/sprites/gethsemane/jesus-anguish.webp";
+import jesusSurrender from "@/assets/sprites/gethsemane/jesus-surrender.webp";
+import disciplesSleeping from "@/assets/sprites/gethsemane/disciples-sleeping.webp";
+import jesusWaking from "@/assets/sprites/gethsemane/jesus-waking.webp";
+import jesusResolute from "@/assets/sprites/gethsemane/jesus-resolute.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,9 +1,9 @@
-import deborahJudging from "@/assets/sprites/deborah-barak/deborah-judging.png";
-import deborahCalling from "@/assets/sprites/deborah-barak/deborah-calling.png";
-import barakHesitant from "@/assets/sprites/deborah-barak/barak-hesitant.png";
-import deborahBarakTogether from "@/assets/sprites/deborah-barak/deborah-barak-together.png";
-import israeliteSoldiers from "@/assets/sprites/deborah-barak/israelite-soldiers.png";
-import sisera from "@/assets/sprites/deborah-barak/sisera.png";
+import deborahJudging from "@/assets/sprites/deborah-barak/deborah-judging.webp";
+import deborahCalling from "@/assets/sprites/deborah-barak/deborah-calling.webp";
+import barakHesitant from "@/assets/sprites/deborah-barak/barak-hesitant.webp";
+import deborahBarakTogether from "@/assets/sprites/deborah-barak/deborah-barak-together.webp";
+import israeliteSoldiers from "@/assets/sprites/deborah-barak/israelite-soldiers.webp";
+import sisera from "@/assets/sprites/deborah-barak/sisera.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

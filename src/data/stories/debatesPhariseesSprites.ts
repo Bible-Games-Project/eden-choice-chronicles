@@ -1,11 +1,11 @@
-import phariseesApproaching from "@/assets/sprites/debates-pharisees/pharisees-approaching.png";
-import phariseesQuestioning from "@/assets/sprites/debates-pharisees/pharisees-questioning.png";
-import jesusCoin from "@/assets/sprites/debates-pharisees/jesus-coin.png";
-import jesusAuthority from "@/assets/sprites/debates-pharisees/jesus-authority.png";
-import jesusCommandment from "@/assets/sprites/debates-pharisees/jesus-commandment.png";
-import jesusRebuking from "@/assets/sprites/debates-pharisees/jesus-rebuking.png";
-import crowdAmazed from "@/assets/sprites/debates-pharisees/crowd-amazed.png";
-import jesusTruth from "@/assets/sprites/debates-pharisees/jesus-truth.png";
+import phariseesApproaching from "@/assets/sprites/debates-pharisees/pharisees-approaching.webp";
+import phariseesQuestioning from "@/assets/sprites/debates-pharisees/pharisees-questioning.webp";
+import jesusCoin from "@/assets/sprites/debates-pharisees/jesus-coin.webp";
+import jesusAuthority from "@/assets/sprites/debates-pharisees/jesus-authority.webp";
+import jesusCommandment from "@/assets/sprites/debates-pharisees/jesus-commandment.webp";
+import jesusRebuking from "@/assets/sprites/debates-pharisees/jesus-rebuking.webp";
+import crowdAmazed from "@/assets/sprites/debates-pharisees/crowd-amazed.webp";
+import jesusTruth from "@/assets/sprites/debates-pharisees/jesus-truth.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

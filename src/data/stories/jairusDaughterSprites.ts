@@ -1,10 +1,10 @@
-import jairusBegging from "@/assets/sprites/jairus/jairus-begging.png";
-import jesusWalking from "@/assets/sprites/jairus/jesus-walking.png";
-import messengerGrieving from "@/assets/sprites/jairus/messenger-grieving.png";
-import jesusEncouraging from "@/assets/sprites/jairus/jesus-encouraging.png";
-import jesusRaising from "@/assets/sprites/jairus/jesus-raising.png";
-import girlRising from "@/assets/sprites/jairus/girl-rising.png";
-import jairusAmazed from "@/assets/sprites/jairus/jairus-amazed.png";
+import jairusBegging from "@/assets/sprites/jairus/jairus-begging.webp";
+import jesusWalking from "@/assets/sprites/jairus/jesus-walking.webp";
+import messengerGrieving from "@/assets/sprites/jairus/messenger-grieving.webp";
+import jesusEncouraging from "@/assets/sprites/jairus/jesus-encouraging.webp";
+import jesusRaising from "@/assets/sprites/jairus/jesus-raising.webp";
+import girlRising from "@/assets/sprites/jairus/girl-rising.webp";
+import jairusAmazed from "@/assets/sprites/jairus/jairus-amazed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

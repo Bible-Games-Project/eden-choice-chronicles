@@ -1,15 +1,15 @@
-import jacobAnxious from "@/assets/sprites/jacob-wrestles/jacob-anxious.png";
-import jacobWorried from "@/assets/sprites/jacob-wrestles/jacob-worried.png";
-import jacobPraying from "@/assets/sprites/jacob-wrestles/jacob-praying.png";
-import jacobDetermined from "@/assets/sprites/jacob-wrestles/jacob-determined.png";
-import jacobWrestling from "@/assets/sprites/jacob-wrestles/jacob-wrestling.png";
-import jacobWeary from "@/assets/sprites/jacob-wrestles/jacob-weary.png";
-import jacobClinging from "@/assets/sprites/jacob-wrestles/jacob-clinging.png";
-import jacobBlessed from "@/assets/sprites/jacob-wrestles/jacob-blessed.png";
-import jacobIsrael from "@/assets/sprites/jacob-wrestles/jacob-israel.png";
-import angelStill from "@/assets/sprites/jacob-wrestles/angel-still.png";
-import angelWrestling from "@/assets/sprites/jacob-wrestles/angel-wrestling.png";
-import angelBlessing from "@/assets/sprites/jacob-wrestles/angel-blessing.png";
+import jacobAnxious from "@/assets/sprites/jacob-wrestles/jacob-anxious.webp";
+import jacobWorried from "@/assets/sprites/jacob-wrestles/jacob-worried.webp";
+import jacobPraying from "@/assets/sprites/jacob-wrestles/jacob-praying.webp";
+import jacobDetermined from "@/assets/sprites/jacob-wrestles/jacob-determined.webp";
+import jacobWrestling from "@/assets/sprites/jacob-wrestles/jacob-wrestling.webp";
+import jacobWeary from "@/assets/sprites/jacob-wrestles/jacob-weary.webp";
+import jacobClinging from "@/assets/sprites/jacob-wrestles/jacob-clinging.webp";
+import jacobBlessed from "@/assets/sprites/jacob-wrestles/jacob-blessed.webp";
+import jacobIsrael from "@/assets/sprites/jacob-wrestles/jacob-israel.webp";
+import angelStill from "@/assets/sprites/jacob-wrestles/angel-still.webp";
+import angelWrestling from "@/assets/sprites/jacob-wrestles/angel-wrestling.webp";
+import angelBlessing from "@/assets/sprites/jacob-wrestles/angel-blessing.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

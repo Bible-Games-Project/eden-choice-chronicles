@@ -1,9 +1,9 @@
-import solomonYoungKing from "@/assets/sprites/solomon-wisdom/solomon-young-king.png";
-import elderPriest from "@/assets/sprites/solomon-wisdom/elder-priest.png";
-import solomonKneeling from "@/assets/sprites/solomon-wisdom/solomon-kneeling.png";
-import solomonThinking from "@/assets/sprites/solomon-wisdom/solomon-thinking.png";
-import solomonJudging from "@/assets/sprites/solomon-wisdom/solomon-judging.png";
-import solomonBlessed from "@/assets/sprites/solomon-wisdom/solomon-blessed.png";
+import solomonYoungKing from "@/assets/sprites/solomon-wisdom/solomon-young-king.webp";
+import elderPriest from "@/assets/sprites/solomon-wisdom/elder-priest.webp";
+import solomonKneeling from "@/assets/sprites/solomon-wisdom/solomon-kneeling.webp";
+import solomonThinking from "@/assets/sprites/solomon-wisdom/solomon-thinking.webp";
+import solomonJudging from "@/assets/sprites/solomon-wisdom/solomon-judging.webp";
+import solomonBlessed from "@/assets/sprites/solomon-wisdom/solomon-blessed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

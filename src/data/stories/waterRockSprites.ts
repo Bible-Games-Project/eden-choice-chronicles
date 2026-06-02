@@ -1,9 +1,9 @@
-import mosesWeary from "@/assets/sprites/water-rock/moses-weary.png";
-import mosesPraying from "@/assets/sprites/water-rock/moses-praying.png";
-import mosesStaffRaised from "@/assets/sprites/water-rock/moses-staff-raised.png";
-import israelitesThirsty from "@/assets/sprites/water-rock/israelites-thirsty.png";
-import israelitesDrinking from "@/assets/sprites/water-rock/israelites-drinking.png";
-import aaronElder from "@/assets/sprites/water-rock/aaron-elder.png";
+import mosesWeary from "@/assets/sprites/water-rock/moses-weary.webp";
+import mosesPraying from "@/assets/sprites/water-rock/moses-praying.webp";
+import mosesStaffRaised from "@/assets/sprites/water-rock/moses-staff-raised.webp";
+import israelitesThirsty from "@/assets/sprites/water-rock/israelites-thirsty.webp";
+import israelitesDrinking from "@/assets/sprites/water-rock/israelites-drinking.webp";
+import aaronElder from "@/assets/sprites/water-rock/aaron-elder.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

@@ -1,9 +1,9 @@
-import johnPreaching from "@/assets/sprites/baptism/john-preaching.png";
-import jesusApproaching from "@/assets/sprites/baptism/jesus-approaching.png";
-import johnHesitating from "@/assets/sprites/baptism/john-hesitating.png";
-import jesusBaptism from "@/assets/sprites/baptism/jesus-baptism.png";
-import spiritDove from "@/assets/sprites/baptism/spirit-dove.png";
-import jesusAffirmed from "@/assets/sprites/baptism/jesus-affirmed.png";
+import johnPreaching from "@/assets/sprites/baptism/john-preaching.webp";
+import jesusApproaching from "@/assets/sprites/baptism/jesus-approaching.webp";
+import johnHesitating from "@/assets/sprites/baptism/john-hesitating.webp";
+import jesusBaptism from "@/assets/sprites/baptism/jesus-baptism.webp";
+import spiritDove from "@/assets/sprites/baptism/spirit-dove.webp";
+import jesusAffirmed from "@/assets/sprites/baptism/jesus-affirmed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

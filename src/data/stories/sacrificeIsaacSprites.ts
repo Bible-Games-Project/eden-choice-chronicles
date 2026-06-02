@@ -1,13 +1,13 @@
-import abrahamCalm from "@/assets/sprites/isaac/abraham-calm.png";
-import abrahamBurdened from "@/assets/sprites/isaac/abraham-burdened.png";
-import abrahamResolved from "@/assets/sprites/isaac/abraham-resolved.png";
-import abrahamKnife from "@/assets/sprites/isaac/abraham-knife.png";
-import abrahamRelieved from "@/assets/sprites/isaac/abraham-relieved.png";
-import isaacCalm from "@/assets/sprites/isaac/isaac-calm.png";
-import isaacWood from "@/assets/sprites/isaac/isaac-wood.png";
-import isaacBound from "@/assets/sprites/isaac/isaac-bound.png";
-import angel from "@/assets/sprites/isaac/angel.png";
-import ram from "@/assets/sprites/isaac/ram.png";
+import abrahamCalm from "@/assets/sprites/isaac/abraham-calm.webp";
+import abrahamBurdened from "@/assets/sprites/isaac/abraham-burdened.webp";
+import abrahamResolved from "@/assets/sprites/isaac/abraham-resolved.webp";
+import abrahamKnife from "@/assets/sprites/isaac/abraham-knife.webp";
+import abrahamRelieved from "@/assets/sprites/isaac/abraham-relieved.webp";
+import isaacCalm from "@/assets/sprites/isaac/isaac-calm.webp";
+import isaacWood from "@/assets/sprites/isaac/isaac-wood.webp";
+import isaacBound from "@/assets/sprites/isaac/isaac-bound.webp";
+import angel from "@/assets/sprites/isaac/angel.webp";
+import ram from "@/assets/sprites/isaac/ram.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

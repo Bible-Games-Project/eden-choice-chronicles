@@ -1,13 +1,13 @@
-import jesusParable from "@/assets/sprites/talents/jesus-parable.png";
-import masterGiving from "@/assets/sprites/talents/master-giving.png";
-import servantFiveInvesting from "@/assets/sprites/talents/servant-five-investing.png";
-import servantTwoInvesting from "@/assets/sprites/talents/servant-two-investing.png";
-import servantOneHiding from "@/assets/sprites/talents/servant-one-hiding.png";
-import masterReturning from "@/assets/sprites/talents/master-returning.png";
-import servantFivePraised from "@/assets/sprites/talents/servant-five-praised.png";
-import servantTwoPraised from "@/assets/sprites/talents/servant-two-praised.png";
-import servantOneJudged from "@/assets/sprites/talents/servant-one-judged.png";
-import jesusCharge from "@/assets/sprites/talents/jesus-charge.png";
+import jesusParable from "@/assets/sprites/talents/jesus-parable.webp";
+import masterGiving from "@/assets/sprites/talents/master-giving.webp";
+import servantFiveInvesting from "@/assets/sprites/talents/servant-five-investing.webp";
+import servantTwoInvesting from "@/assets/sprites/talents/servant-two-investing.webp";
+import servantOneHiding from "@/assets/sprites/talents/servant-one-hiding.webp";
+import masterReturning from "@/assets/sprites/talents/master-returning.webp";
+import servantFivePraised from "@/assets/sprites/talents/servant-five-praised.webp";
+import servantTwoPraised from "@/assets/sprites/talents/servant-two-praised.webp";
+import servantOneJudged from "@/assets/sprites/talents/servant-one-judged.webp";
+import jesusCharge from "@/assets/sprites/talents/jesus-charge.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

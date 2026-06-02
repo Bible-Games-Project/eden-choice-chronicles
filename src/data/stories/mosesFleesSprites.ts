@@ -1,16 +1,16 @@
-import mosesObserving from "@/assets/sprites/moses-flees/moses-observing.png";
-import mosesAngered from "@/assets/sprites/moses-flees/moses-angered.png";
-import mosesGuilty from "@/assets/sprites/moses-flees/moses-guilty.png";
-import mosesFearful from "@/assets/sprites/moses-flees/moses-fearful.png";
-import mosesFleeing from "@/assets/sprites/moses-flees/moses-fleeing.png";
-import mosesWeary from "@/assets/sprites/moses-flees/moses-weary.png";
-import mosesArriving from "@/assets/sprites/moses-flees/moses-arriving.png";
-import taskmasterCruel from "@/assets/sprites/moses-flees/taskmaster-cruel.png";
-import hebrewSlave from "@/assets/sprites/moses-flees/hebrew-slave.png";
-import hebrewsQuarreling from "@/assets/sprites/moses-flees/hebrews-quarreling.png";
-import pharaohFurious from "@/assets/sprites/moses-flees/pharaoh-furious.png";
-import guardSearching from "@/assets/sprites/moses-flees/guard-searching.png";
-import midianiteWoman from "@/assets/sprites/moses-flees/midianite-woman.png";
+import mosesObserving from "@/assets/sprites/moses-flees/moses-observing.webp";
+import mosesAngered from "@/assets/sprites/moses-flees/moses-angered.webp";
+import mosesGuilty from "@/assets/sprites/moses-flees/moses-guilty.webp";
+import mosesFearful from "@/assets/sprites/moses-flees/moses-fearful.webp";
+import mosesFleeing from "@/assets/sprites/moses-flees/moses-fleeing.webp";
+import mosesWeary from "@/assets/sprites/moses-flees/moses-weary.webp";
+import mosesArriving from "@/assets/sprites/moses-flees/moses-arriving.webp";
+import taskmasterCruel from "@/assets/sprites/moses-flees/taskmaster-cruel.webp";
+import hebrewSlave from "@/assets/sprites/moses-flees/hebrew-slave.webp";
+import hebrewsQuarreling from "@/assets/sprites/moses-flees/hebrews-quarreling.webp";
+import pharaohFurious from "@/assets/sprites/moses-flees/pharaoh-furious.webp";
+import guardSearching from "@/assets/sprites/moses-flees/guard-searching.webp";
+import midianiteWoman from "@/assets/sprites/moses-flees/midianite-woman.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

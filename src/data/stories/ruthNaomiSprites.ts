@@ -1,9 +1,9 @@
-import naomiGrieving from "@/assets/sprites/ruth-naomi/naomi-grieving.png";
-import ruthNaomiClasp from "@/assets/sprites/ruth-naomi/ruth-naomi-clasp.png";
-import naomiReturn from "@/assets/sprites/ruth-naomi/naomi-return.png";
-import ruthGleaning from "@/assets/sprites/ruth-naomi/ruth-gleaning.png";
-import boazKind from "@/assets/sprites/ruth-naomi/boaz-kind.png";
-import boazRuthChild from "@/assets/sprites/ruth-naomi/boaz-ruth-child.png";
+import naomiGrieving from "@/assets/sprites/ruth-naomi/naomi-grieving.webp";
+import ruthNaomiClasp from "@/assets/sprites/ruth-naomi/ruth-naomi-clasp.webp";
+import naomiReturn from "@/assets/sprites/ruth-naomi/naomi-return.webp";
+import ruthGleaning from "@/assets/sprites/ruth-naomi/ruth-gleaning.webp";
+import boazKind from "@/assets/sprites/ruth-naomi/boaz-kind.webp";
+import boazRuthChild from "@/assets/sprites/ruth-naomi/boaz-ruth-child.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

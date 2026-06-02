@@ -1,11 +1,11 @@
-import jesusReturning from "@/assets/sprites/rejection-nazareth/jesus-returning.png";
-import jesusScroll from "@/assets/sprites/rejection-nazareth/jesus-scroll.png";
-import townspeopleAmazed from "@/assets/sprites/rejection-nazareth/townspeople-amazed.png";
-import townspeopleDoubting from "@/assets/sprites/rejection-nazareth/townspeople-doubting.png";
-import elderQuestioning from "@/assets/sprites/rejection-nazareth/elder-questioning.png";
-import townspeopleRejecting from "@/assets/sprites/rejection-nazareth/townspeople-rejecting.png";
-import jesusExplaining from "@/assets/sprites/rejection-nazareth/jesus-explaining.png";
-import jesusLeaving from "@/assets/sprites/rejection-nazareth/jesus-leaving.png";
+import jesusReturning from "@/assets/sprites/rejection-nazareth/jesus-returning.webp";
+import jesusScroll from "@/assets/sprites/rejection-nazareth/jesus-scroll.webp";
+import townspeopleAmazed from "@/assets/sprites/rejection-nazareth/townspeople-amazed.webp";
+import townspeopleDoubting from "@/assets/sprites/rejection-nazareth/townspeople-doubting.webp";
+import elderQuestioning from "@/assets/sprites/rejection-nazareth/elder-questioning.webp";
+import townspeopleRejecting from "@/assets/sprites/rejection-nazareth/townspeople-rejecting.webp";
+import jesusExplaining from "@/assets/sprites/rejection-nazareth/jesus-explaining.webp";
+import jesusLeaving from "@/assets/sprites/rejection-nazareth/jesus-leaving.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
