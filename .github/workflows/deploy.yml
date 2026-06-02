@@ -82,7 +82,7 @@ jobs:
     with:
       xcode-version: "16.2"
       runner: macos-15
-      team-id: ${{ secrets.IOS_TEAM_ID }}
+      team-id: "N65TK8GHAL"
       marketing-version: ${{ inputs.marketing_version }}
     secrets:
       IOS_BUILD_CERTIFICATE_BASE64: ${{ secrets.IOS_BUILD_CERTIFICATE_BASE64 }}
