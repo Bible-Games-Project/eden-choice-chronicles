@@ -479,6 +479,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "last-supper": lastSupperScenes,
   gethsemane: gethsemaneScenes,
   "arrest-jesus": arrestJesusScenes,
+  trial: trialScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -573,6 +574,7 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "last-supper": lastSupperImages,
   gethsemane: gethsemaneImages,
   "arrest-jesus": arrestJesusImages,
+  trial: trialImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -667,6 +669,7 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "last-supper": lastSupperSprites,
   gethsemane: gethsemaneSprites,
   "arrest-jesus": arrestJesusSprites,
+  trial: trialSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -761,6 +764,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "last-supper": lastSupperEffects,
   gethsemane: gethsemaneEffects,
   "arrest-jesus": arrestJesusEffects,
+  trial: trialEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
