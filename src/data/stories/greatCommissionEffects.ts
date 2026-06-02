@@ -1,0 +1,26 @@
+import { SceneEffect } from "@/components/SceneEffects";
+
+export const greatCommissionEffects: Record<string, SceneEffect> = {
+  start: "leaves",
+  linger_consequence: "leaves",
+  empty_consequence: "leaves",
+  worship: "sparkles",
+  doubt_consequence: "sparkles",
+  reward_consequence: "sparkles",
+  authority: "sparks",
+  argue_consequence: "sparks",
+  demand_consequence: "sparks",
+  go_nations: "sparkles",
+  israel_consequence: "sparkles",
+  hide_consequence: "sparkles",
+  baptize: "sparkles",
+  worthy_consequence: "sparkles",
+  price_consequence: "sparkles",
+  teach: "leaves",
+  easy_consequence: "leaves",
+  add_consequence: "leaves",
+  presence: "fireflies",
+  fear_consequence: "fireflies",
+  wait_consequence: "fireflies",
+  ending: "sparkles",
+};
