@@ -1,12 +1,12 @@
-import twoDisciplesSad from "@/assets/sprites/emmaus/two-disciples-sad.png";
-import jesusStranger from "@/assets/sprites/emmaus/jesus-stranger.png";
-import discipleExplaining from "@/assets/sprites/emmaus/disciple-explaining.png";
-import jesusTeaching from "@/assets/sprites/emmaus/jesus-teaching.png";
-import twoDisciplesListening from "@/assets/sprites/emmaus/two-disciples-listening.png";
-import discipleInviting from "@/assets/sprites/emmaus/disciple-inviting.png";
-import jesusBreakingBread from "@/assets/sprites/emmaus/jesus-breaking-bread.png";
-import twoDisciplesAmazed from "@/assets/sprites/emmaus/two-disciples-amazed.png";
-import twoDisciplesRunning from "@/assets/sprites/emmaus/two-disciples-running.png";
+import twoDisciplesSad from "@/assets/sprites/emmaus/two-disciples-sad.webp";
+import jesusStranger from "@/assets/sprites/emmaus/jesus-stranger.webp";
+import discipleExplaining from "@/assets/sprites/emmaus/disciple-explaining.webp";
+import jesusTeaching from "@/assets/sprites/emmaus/jesus-teaching.webp";
+import twoDisciplesListening from "@/assets/sprites/emmaus/two-disciples-listening.webp";
+import discipleInviting from "@/assets/sprites/emmaus/disciple-inviting.webp";
+import jesusBreakingBread from "@/assets/sprites/emmaus/jesus-breaking-bread.webp";
+import twoDisciplesAmazed from "@/assets/sprites/emmaus/two-disciples-amazed.webp";
+import twoDisciplesRunning from "@/assets/sprites/emmaus/two-disciples-running.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

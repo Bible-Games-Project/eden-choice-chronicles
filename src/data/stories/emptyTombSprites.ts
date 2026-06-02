@@ -1,12 +1,12 @@
-import marySpices from "@/assets/sprites/empty-tomb/mary-spices.png";
-import marySurprised from "@/assets/sprites/empty-tomb/mary-surprised.png";
-import maryPeering from "@/assets/sprites/empty-tomb/mary-peering.png";
-import twoAngels from "@/assets/sprites/empty-tomb/two-angels.png";
-import maryAwe from "@/assets/sprites/empty-tomb/mary-awe.png";
-import threeWomen from "@/assets/sprites/empty-tomb/three-women.png";
-import maryRunning from "@/assets/sprites/empty-tomb/mary-running.png";
-import peterJohn from "@/assets/sprites/empty-tomb/peter-john.png";
-import maryJoy from "@/assets/sprites/empty-tomb/mary-joy.png";
+import marySpices from "@/assets/sprites/empty-tomb/mary-spices.webp";
+import marySurprised from "@/assets/sprites/empty-tomb/mary-surprised.webp";
+import maryPeering from "@/assets/sprites/empty-tomb/mary-peering.webp";
+import twoAngels from "@/assets/sprites/empty-tomb/two-angels.webp";
+import maryAwe from "@/assets/sprites/empty-tomb/mary-awe.webp";
+import threeWomen from "@/assets/sprites/empty-tomb/three-women.webp";
+import maryRunning from "@/assets/sprites/empty-tomb/mary-running.webp";
+import peterJohn from "@/assets/sprites/empty-tomb/peter-john.webp";
+import maryJoy from "@/assets/sprites/empty-tomb/mary-joy.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
