@@ -1,5 +1,8 @@
 name: Deploy App
 
+permissions:
+  contents: write  # Required for tag creation
+
 on:
   push:
     branches:
