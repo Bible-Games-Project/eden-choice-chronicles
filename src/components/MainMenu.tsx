@@ -200,7 +200,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
             </p>
           )}
         </motion.div>
-      </motion.div>
+      </div>
+
     </div>
   );
 };
