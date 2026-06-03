@@ -2,25 +2,56 @@
 
 Este documento explica cómo exportar textos pendientes, traducirlos con IA, e importarlos de vuelta.
 
+## 🎯 **Estrategia Recomendada**
+
+Para **6,329 strings** por idioma, la mejor estrategia es traducir en fases:
+
+### **Fase 1: UI (crítico)** 
+- Solo **9 strings** (paywall)
+- Impacto inmediato en UX
+- Comando: `make export-translations-ui`
+- Tiempo: 5-10 minutos con IA
+
+### **Fase 2: Historias en batches**
+- **~6,320 strings** divididos en batches de 200
+- **22 batches** aprox. por idioma
+- Comando: `node scripts/export-missing-translations.mjs --lang=es --batch-size=200`
+- Tiempo: 1-2 horas por idioma procesando batch por batch con IA
+
+### **¿Por qué batches de 200?**
+- ChatGPT/Claude tienen límites de tokens (~4,000-8,000 tokens por petición)
+- 200 strings ≈ 2,000-3,000 tokens (seguro y rápido)
+- Permite revisar progreso incremental
+- Puedes pausar y continuar cuando quieras
+
+---
+
 ## 📤 **Paso 1: Exportar textos pendientes**
 
 Exporta todos los textos que necesitan traducción (los que tienen `[TODO:lang]`):
 
 ```bash
-# Exportar TODOS los idiomas
-node scripts/export-missing-translations.mjs
+# ⚡ Recomendado: Exportar en batches de 200 strings
+make export-translations-batch
+# o con idioma específico:
+node scripts/export-missing-translations.mjs --lang=es --batch-size=200
 
-# Exportar solo español
-node scripts/export-missing-translations.mjs --lang=es
+# 🎯 Solo UI (9 strings - perfecto para empezar)
+make export-translations-ui
+# o:
+node scripts/export-missing-translations.mjs --lang=es --ui-only
 
-# Exportar en formato CSV (para Excel/Google Sheets)
-node scripts/export-missing-translations.mjs --format=csv
+# 📚 Exportar TODO (miles de strings - no recomendado)
+make export-translations
 
-# Exportar en formato Markdown (para lectura fácil)
+# 📊 Formato CSV (para Excel/Google Sheets)
+make export-translations-csv
+
+# 📖 Formato Markdown (para lectura fácil)
 node scripts/export-missing-translations.mjs --format=markdown
 ```
 
-Esto genera un archivo `translations-to-do.json` (o `.csv` / `.md`) con todos los textos pendientes.
+**💡 Tip:** Empieza con `--ui-only` para traducir primero la interfaz (solo 9 strings), luego continúa con batches.
 
 ## 🤖 **Paso 2: Traducir con IA**
 
@@ -87,6 +118,25 @@ node scripts/import-translations.mjs translations-completed.json --dry-run
 
 # Aplicar las traducciones
 node scripts/import-translations.mjs translations-completed.json
+```
+
+**💡 Trabajando con batches:**
+
+Si exportaste con `--batch-size`, tendrás múltiples archivos. Tradúcelos uno por uno e impórtalos:
+
+```bash
+# Batch 1
+node scripts/import-translations.mjs translations-to-do-es-batch1-of-22.json
+
+# Batch 2
+node scripts/import-translations.mjs translations-to-do-es-batch2-of-22.json
+
+# ... y así sucesivamente
+
+# O todos a la vez:
+for file in translations-to-do-es-batch*.json; do
+  node scripts/import-translations.mjs "$file"
+done
 ```
 
 ## ✅ **Paso 4: Validar**

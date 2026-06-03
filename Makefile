@@ -25,6 +25,14 @@ export-translations-csv:
 	@echo "📤 Exporting missing translations to CSV..."
 	@node scripts/export-missing-translations.mjs --format=csv
 
+export-translations-ui:
+	@echo "📤 Exporting UI translations only (common.json)..."
+	@node scripts/export-missing-translations.mjs --ui-only
+
+export-translations-batch:
+	@echo "📤 Exporting translations in batches of 200..."
+	@node scripts/export-missing-translations.mjs --batch-size=200
+
 import-translations:
 	@echo "📥 Importing translations..."
 	@if [ ! -f "translations-completed.json" ]; then \

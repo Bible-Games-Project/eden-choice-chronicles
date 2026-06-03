@@ -2,13 +2,16 @@
 /**
  * Export all [TODO:lang] placeholders to a format ready for translation.
  * 
- * Output: translations-to-do.json
+ * Output: translations-to-do.json (or multiple files if --batch-size is used)
  * Structure: { "es": [{ "file": "common.json", "key": "settings", "english": "Settings" }] }
  * 
  * Usage:
  *   node scripts/export-missing-translations.mjs
- *   node scripts/export-missing-translations.mjs --lang es  (only Spanish)
+ *   node scripts/export-missing-translations.mjs --lang es
  *   node scripts/export-missing-translations.mjs --format csv
+ *   node scripts/export-missing-translations.mjs --batch-size 200
+ *   node scripts/export-missing-translations.mjs --ui-only
+ *   node scripts/export-missing-translations.mjs --stories-only
  */
 
 import { readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
@@ -22,6 +25,9 @@ const SOURCE_LANG = "en";
 const args = process.argv.slice(2);
 const targetLang = args.find(a => a.startsWith("--lang="))?.split("=")[1];
 const format = args.find(a => a.startsWith("--format="))?.split("=")[1] || "json";
+const batchSize = parseInt(args.find(a => a.startsWith("--batch-size="))?.split("=")[1] || "0");
+const uiOnly = args.includes("--ui-only");
+const storiesOnly = args.includes("--stories-only");
 
 function listLangs() {
   return readdirSync(LOCALES_DIR).filter((entry) => {
@@ -76,6 +82,10 @@ for (const lang of targetLangs) {
   const langDir = join(LOCALES_DIR, lang);
 
   for (const rel of sourceFiles) {
+    // Apply filters
+    if (uiOnly && !rel.startsWith("common.json")) continue;
+    if (storiesOnly && rel.startsWith("common.json")) continue;
+    
     const sourceData = flatten(loadJson(join(sourceDir, rel)));
     const targetData = flatten(loadJson(join(langDir, rel)));
 
@@ -102,7 +112,24 @@ for (const lang of targetLangs) {
 }
 
 // Output based on format
-if (format === "csv") {
+if (batchSize > 0 && format === "json") {
+  // Split into batches
+  let batchNum = 1;
+  for (const [lang, items] of Object.entries(result)) {
+    const totalBatches = Math.ceil(items.length / batchSize);
+    
+    for (let i = 0; i < items.length; i += batchSize) {
+      const batch = items.slice(i, i + batchSize);
+      const batchResult = { [lang]: batch };
+      const outPath = join(ROOT, `translations-to-do-${lang}-batch${batchNum}-of-${totalBatches}.json`);
+      writeFileSync(outPath, JSON.stringify(batchResult, null, 2));
+      console.log(`✅ Batch ${batchNum}/${totalBatches}: ${batch.length} strings → ${outPath}`);
+      batchNum++;
+    }
+  }
+  console.log(`\n📦 Total: ${totalMissing.toLocaleString()} strings split into ${batchNum - 1} batch(es)`);
+  
+} else if (format === "csv") {
   let csv = "Language,File,Key,English,Current\n";
   for (const [lang, items] of Object.entries(result)) {
     for (const item of items) {
