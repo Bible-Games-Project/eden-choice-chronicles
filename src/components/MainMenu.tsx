@@ -38,12 +38,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
         }}
       />
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, ease: "easeOut" }}
-        className="relative z-10 text-center max-w-md w-full px-8"
-      >
+      <div className="relative z-10 text-center max-w-md w-full px-8">
+
         <motion.h1
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -80,12 +76,10 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
         <div className="flex flex-col gap-5">
           {/* Old Testament */}
           <motion.button
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.8 }}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => onSelectTestament("old")}
+
             className="group w-full p-6 rounded-2xl border border-gold/20 bg-gradient-to-br from-gold/10 via-gold/5 to-transparent backdrop-blur-sm text-left cursor-pointer transition-all duration-500 hover:border-gold/40 hover:shadow-[0_0_30px_hsl(43,75%,55%,0.1)]"
           >
             <div className="flex items-center gap-3 mb-3">
@@ -113,12 +107,10 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
 
           {/* New Testament */}
           <motion.button
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 1 }}
             whileHover={effectiveNTUnlocked ? { scale: 1.02 } : {}}
             whileTap={effectiveNTUnlocked ? { scale: 0.98 } : {}}
             onClick={() => effectiveNTUnlocked && onSelectTestament("new")}
+
             className={`group w-full p-6 rounded-2xl border text-left transition-all duration-500 ${
               effectiveNTUnlocked
                 ? "border-gold/20 bg-gradient-to-br from-gold/10 via-gold/5 to-transparent backdrop-blur-sm cursor-pointer hover:border-gold/40 hover:shadow-[0_0_30px_hsl(43,75%,55%,0.1)]"
@@ -208,7 +200,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
             </p>
           )}
         </motion.div>
-      </motion.div>
+      </div>
+
     </div>
   );
 };
