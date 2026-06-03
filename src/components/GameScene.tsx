@@ -15,6 +15,7 @@ interface GameSceneProps {
   sprites?: { left?: string; right?: string };
   sceneEffect?: SceneEffect;
   isTransitioning?: boolean;
+  storyId?: string;
 }
 
 const CORRECT_BG = "rgba(34, 197, 94, 0.85)";
