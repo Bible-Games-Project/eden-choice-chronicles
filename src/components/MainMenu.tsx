@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
-import { BookOpen, Lock, Wrench, Eye } from "lucide-react";
+import { BookOpen, Lock, Wrench, Eye, Settings as SettingsIcon } from "lucide-react";
+import { useState } from "react";
+import SettingsPanel from "@/components/SettingsPanel";
+import { useSettings } from "@/hooks/useSettings";
 
 interface MainMenuProps {
   onSelectTestament: (testament: "old" | "new") => void;
@@ -13,9 +16,21 @@ interface MainMenuProps {
 
 const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, devMode, onToggleDevMode, onOpenSpriteViewer }: MainMenuProps) => {
   const effectiveNTUnlocked = devMode || isNTUnlocked;
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const { t } = useSettings();
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center overflow-hidden">
+      {/* Settings (gear) button — top right */}
+      <button
+        type="button"
+        onClick={() => setSettingsOpen(true)}
+        aria-label={t("settings")}
+        className="absolute top-4 right-4 z-20 w-11 h-11 rounded-full border border-gold/30 bg-black/30 text-gold flex items-center justify-center hover:bg-gold/15 hover:border-gold/60 transition cursor-pointer"
+      >
+        <SettingsIcon className="w-5 h-5" />
+      </button>
+
       {/* Layered atmospheric background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[hsl(25,25%,8%)] via-[hsl(30,30%,14%)] to-[hsl(25,20%,6%)]" />
       <div
