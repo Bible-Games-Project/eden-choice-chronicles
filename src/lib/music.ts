@@ -26,9 +26,6 @@ const TRACKS: string[] = Object.entries(trackModules)
   })
   .filter((u): u is string => typeof u === "string" && u.length > 0);
 
-const TRACKS: string[] = Object.entries(trackModules)
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([, url]) => url);
 
 let audio: HTMLAudioElement | null = null;
 let playlist: string[] = [];
