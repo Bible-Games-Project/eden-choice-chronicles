@@ -53,7 +53,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
             textShadow: "0 0 40px hsl(43,75%,55%,0.3), 0 2px 8px rgba(0,0,0,0.8)",
           }}
         >
-          Bible Journey
+          Sacred Quest
         </motion.h1>
 
         <motion.div
