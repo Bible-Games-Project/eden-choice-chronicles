@@ -1036,6 +1036,7 @@ const Index = () => {
           sprites={sprites}
           sceneEffect={sceneEffect}
           isTransitioning={isSceneTransitioning}
+          storyId={currentStory.id}
         />
 
         {/* End of story screen overlay */}

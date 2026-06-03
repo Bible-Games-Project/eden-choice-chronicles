@@ -15,6 +15,7 @@ interface GameSceneProps {
   sprites?: { left?: string; right?: string };
   sceneEffect?: SceneEffect;
   isTransitioning?: boolean;
+  storyId?: string;
 }
 
 const CORRECT_BG = "rgba(34, 197, 94, 0.85)";
@@ -34,7 +35,8 @@ const getStaggerDelay = (index: number) =>
 const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 const getFeedbackColor = (isCorrect: boolean) => isCorrect ? CORRECT_BG : INCORRECT_BG;
 
-const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false }: GameSceneProps) => {
+const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false, storyId }: GameSceneProps) => {
+  const isSolidButtonStyle = storyId === "great-commission";
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedIsCorrect, setClickedIsCorrect] = useState<boolean | null>(null);
   const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
@@ -169,12 +171,12 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
                 onClick={() => handleChoice(choice, i)}
                 disabled={clickedIndex !== null || !isReady || isTransitioning}
                 className={`group w-full text-center rounded-lg border transition-all duration-300 ${
-                  staggered ? "" : "backdrop-blur-md"
+                  staggered || isSolidButtonStyle ? "" : "backdrop-blur-md"
                 } ${isReady && !isTransitioning ? "cursor-pointer" : "cursor-default"} ${
                   compact ? "px-4 py-2" : "px-5 py-3"
                 }`}
                 style={{
-                  backgroundColor: flashBg || "rgba(0,0,0,0.4)",
+                  backgroundColor: flashBg || (isSolidButtonStyle ? "rgba(0,0,0,0.75)" : "rgba(0,0,0,0.4)"),
                   borderColor: flashBorder || "rgba(255,255,255,0.2)",
                   pointerEvents: isReady && !isTransitioning ? "auto" : "none",
                 }}
