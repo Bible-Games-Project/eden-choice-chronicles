@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { StoryChoice } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { useSettings } from "@/hooks/useSettings";
+import { useTranslated, useTranslatedList } from "@/hooks/useTranslated";
 
 interface GameSceneProps {
   title: string;
@@ -37,6 +39,11 @@ const getFeedbackColor = (isCorrect: boolean) => isCorrect ? CORRECT_BG : INCORR
 
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false, storyId }: GameSceneProps) => {
   void storyId;
+  const { t } = useSettings();
+  const translatedText = useTranslated(text);
+  const choiceTexts = useMemo(() => choices.map((c) => c.text), [choices]);
+  const translatedChoiceTexts = useTranslatedList(choiceTexts);
+  const continueLabel = t("continueJourney");
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedIsCorrect, setClickedIsCorrect] = useState<boolean | null>(null);
   const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
