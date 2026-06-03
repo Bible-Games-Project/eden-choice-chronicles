@@ -1,7 +1,7 @@
 {
   "start": {
-    "title": "[TODO:es] A Voice in Sleep",
-    "text": "[TODO:es] An angel speaks in your dream:\n\"Rise. Herod seeks the child.\"",
+    "title": "Una Voz en el Sueño",
+    "text": "Un ángel habla en tu sueño:\n\"Levántate. Herodes busca al niño.\"",
     "choices": [
       {
         "text": "[TODO:es] Sleep on, it is only a dream",
@@ -18,8 +18,8 @@
     ]
   },
   "ignore_consequence": {
-    "title": "[TODO:es] Rise Now",
-    "text": "[TODO:es] The danger is real and near.\nDo not delay.",
+    "title": "Levántate Ahora",
+    "text": "El peligro es real y cercano.\nNo te demores.",
     "choices": [
       {
         "text": "[TODO:es] Wake at once and obey",
@@ -28,8 +28,8 @@
     ]
   },
   "wait_consequence": {
-    "title": "[TODO:es] Trust the Word",
-    "text": "[TODO:es] Heaven has already spoken.\nMove now.",
+    "title": "Confía en la Palabra",
+    "text": "El cielo ya ha hablado.\nActúa ahora.",
     "choices": [
       {
         "text": "[TODO:es] Wake at once and obey",
@@ -38,8 +38,8 @@
     ]
   },
   "wake": {
-    "title": "[TODO:es] Wake the Mother",
-    "text": "[TODO:es] Mary sleeps with the child near.\nThere is no time to lose.",
+    "title": "Despierta a la Madre",
+    "text": "María duerme con el niño cerca.\nNo hay tiempo que perder.",
     "choices": [
       {
         "text": "[TODO:es] Wake Mary and prepare to flee",
@@ -52,8 +52,8 @@
     ]
   },
   "hide_consequence": {
-    "title": "[TODO:es] Flee, Do Not Hide",
-    "text": "[TODO:es] The angel said to leave the land.\nObey the word.",
+    "title": "Huye, No Te Escondas",
+    "text": "El ángel dijo que abandonaras la tierra.\nObedece la palabra.",
     "choices": [
       {
         "text": "[TODO:es] Wake Mary and prepare to flee",
@@ -62,8 +62,8 @@
     ]
   },
   "flee": {
-    "title": "[TODO:es] Out of Bethlehem",
-    "text": "[TODO:es] Moonlight falls on empty streets.\nThe child sleeps in Mary's arms.",
+    "title": "Fuera de Belén",
+    "text": "La luz de la luna cae sobre calles vacías.\nEl niño duerme en los brazos de María.",
     "choices": [
       {
         "text": "[TODO:es] Knock and warn the neighbors",
@@ -80,8 +80,8 @@
     ]
   },
   "warn_consequence": {
-    "title": "[TODO:es] Go Quietly",
-    "text": "[TODO:es] Your task is to save the child.\nLeave at once.",
+    "title": "Ve en Silencio",
+    "text": "Tu tarea es salvar al niño.\nPartid de inmediato.",
     "choices": [
       {
         "text": "[TODO:es] Slip into the night silently",
@@ -90,8 +90,8 @@
     ]
   },
   "main_road_consequence": {
-    "title": "[TODO:es] Hidden Paths",
-    "text": "[TODO:es] Soldiers patrol the open ways.\nKeep to the shadows.",
+    "title": "Senderos ocultos",
+    "text": "Los soldados patrullan los caminos abiertos.\nMantente en las sombras.",
     "choices": [
       {
         "text": "[TODO:es] Slip into the night silently",
@@ -100,8 +100,8 @@
     ]
   },
   "road": {
-    "title": "[TODO:es] Toward the South",
-    "text": "[TODO:es] The desert stretches before you.\nEgypt lies far beyond.",
+    "title": "Hacia el sur",
+    "text": "El desierto se extiende ante ti.\nEgipto yace mucho más allá.",
     "choices": [
       {
         "text": "[TODO:es] Turn back, the road is too far",
@@ -114,8 +114,8 @@
     ]
   },
   "turn_back_consequence": {
-    "title": "[TODO:es] Forward Only",
-    "text": "[TODO:es] Behind you is danger.\nAhead is safety.",
+    "title": "Solo hacia adelante",
+    "text": "Detrás de ti está el peligro.\nDelante está la seguridad.",
     "choices": [
       {
         "text": "[TODO:es] Press on through the night",
@@ -124,8 +124,8 @@
     ]
   },
   "rest": {
-    "title": "[TODO:es] By the Oasis",
-    "text": "[TODO:es] Water glints under the rising sun.\nThe child must drink.",
+    "title": "Junto al oasis",
+    "text": "El agua brilla bajo el sol naciente.\nEl niño debe beber.",
     "choices": [
       {
         "text": "[TODO:es] Linger here for many days",
@@ -142,8 +142,8 @@
     ]
   },
   "linger_consequence": {
-    "title": "[TODO:es] Move On",
-    "text": "[TODO:es] The border is still far away.\nKeep going.",
+    "title": "Sigue adelante",
+    "text": "La frontera aún está lejos.\nSigue caminando.",
     "choices": [
       {
         "text": "[TODO:es] Pray, then keep moving",
@@ -152,8 +152,8 @@
     ]
   },
   "send_back_consequence": {
-    "title": "[TODO:es] Stay Together",
-    "text": "[TODO:es] She and the child are your charge.\nNever leave them.",
+    "title": "Permaneced juntos",
+    "text": "Ella y el niño son tu responsabilidad.\nNunca los abandones.",
     "choices": [
       {
         "text": "[TODO:es] Pray, then keep moving",
@@ -162,8 +162,8 @@
     ]
   },
   "egypt": {
-    "title": "[TODO:es] The Land of Egypt",
-    "text": "[TODO:es] Pyramids rise in the rose dawn.\nYou have crossed the border.",
+    "title": "La tierra de Egipto",
+    "text": "Las pirámides se alzan en el amanecer rosado.\nHas cruzado la frontera.",
     "choices": [
       {
         "text": "[TODO:es] Find a humble home and stay",
@@ -176,8 +176,8 @@
     ]
   },
   "court_consequence": {
-    "title": "[TODO:es] Stay Hidden",
-    "text": "[TODO:es] The child must grow in quiet.\nFind a humble place.",
+    "title": "Permanece oculto",
+    "text": "El niño debe crecer en silencio.\nEncuentra un lugar humilde.",
     "choices": [
       {
         "text": "[TODO:es] Find a humble home and stay",
@@ -186,8 +186,8 @@
     ]
   },
   "safe": {
-    "title": "[TODO:es] Safe in Egypt",
-    "text": "[TODO:es] The child sleeps under a warm lamp.\nHe is alive. He is safe.",
+    "title": "A salvo en Egipto",
+    "text": "El niño duerme bajo una lámpara cálida.\nEstá vivo. Está a salvo.",
     "choices": []
   }
 }
