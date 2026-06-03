@@ -1,155 +1,111 @@
-import { StoryChoice, StoryScene, ChoiceSentiment } from "@/data/stories/creation";
+import { StoryScene } from "@/data/stories/creation";
 
+// Story 3 — Cain and Abel. Clean rebuild.
+// First-person: the player IS Cain.
+// Each scene: 1 biblically correct choice + 1–2 incorrect choices.
+// Order is randomized at runtime by shuffleChoices.
 export const cainAbelScenes: Record<string, StoryScene> = {
   start: {
     id: "start",
-    title: "East of Eden",
-    text: "The ground is hard beneath your hands.\nYou till the earth — it resists you.",
+    title: "Sons of the Soil",
+    text: "You are Cain, firstborn of Adam.\nYour brother Abel walks beside you in the dawn.",
     choices: [
-      { text: "Dig harder", nextScene: "toil", tag: "determined", feedback: "Your hands bleed. The soil gives — barely.", isCorrect: true, sentiment: "positive" },
-      { text: "Look at Abel in the distance", nextScene: "watch_abel", tag: "observant", feedback: "He sits among the lambs, laughing. It comes so easily to him.", isCorrect: false, sentiment: "negative" },
-      { text: "Pause and wipe the sweat away", nextScene: "rest", tag: "weary", feedback: "Your muscles ache. The sun is merciless.", isCorrect: false, sentiment: "negative" },
+      { text: "Greet him with brotherly love", nextScene: "fields", tag: "warm", feedback: "He smiles. The morning feels lighter.", isCorrect: true, sentiment: "positive" },
+      { text: "Compare yourself to him in silence", nextScene: "fields", tag: "comparing", feedback: "A quiet bitterness takes root.", isCorrect: false, sentiment: "negative" },
+      { text: "Walk ahead without him", nextScene: "fields", tag: "distant", feedback: "He calls your name. You do not turn.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  toil: {
-    id: "toil",
-    title: "The Stubborn Earth",
-    text: "You pull weeds until your fingers crack.\nThe harvest will come — it must.",
+  fields: {
+    id: "fields",
+    title: "The Tiller of Soil",
+    text: "The earth resists your hoe.\nSweat. Stones. The long hours of work.",
     choices: [
-      { text: "Gather your best crops", nextScene: "offering_proud", tag: "proud", feedback: "You select the tallest stalks. They should be enough.", isCorrect: true, sentiment: "positive" },
-      { text: "Grab whatever is nearest", nextScene: "offering_careless", tag: "careless", feedback: "It doesn't matter. An offering is an offering.", isCorrect: false, sentiment: "negative" },
+      { text: "Work with patience and care", nextScene: "abel_pasture", tag: "diligent", feedback: "The labor settles your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Curse the ground as you dig", nextScene: "abel_pasture", tag: "bitter", feedback: "Each strike grows angrier than the last.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  watch_abel: {
-    id: "watch_abel",
-    title: "Your Brother",
-    text: "Abel kneels beside a newborn lamb.\nHis hands are gentle. His face — peaceful.",
+  abel_pasture: {
+    id: "abel_pasture",
+    title: "Your Brother's Flock",
+    text: "Abel rests among his sheep, content.\nA newborn lamb sleeps on his chest.",
     choices: [
-      { text: "Call out to him", nextScene: "brothers_talk", tag: "reaching", feedback: "He waves back, smiling. The distance feels wider than it looks.", isCorrect: true, sentiment: "positive" },
-      { text: "Turn back to your work", nextScene: "toil", tag: "resentful", feedback: "You grip the hoe tighter. You don't need his peace.", isCorrect: false, sentiment: "negative" },
+      { text: "Be glad for his gentle work", nextScene: "offerings", tag: "gracious", feedback: "Warmth rises where envy could have grown.", isCorrect: true, sentiment: "positive" },
+      { text: "Resent that his work seems easy", nextScene: "offerings", tag: "envious", feedback: "Your jaw tightens. Comparison poisons the day.", isCorrect: false, sentiment: "negative" },
+      { text: "Mock him under your breath", nextScene: "offerings", tag: "scornful", feedback: "Your words stay quiet, but they sting your own soul.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  rest: {
-    id: "rest",
-    title: "A Moment's Rest",
-    text: "You sit on a stone and stare at the horizon.\nEden's gate still glows — far away, unreachable.",
+  offerings: {
+    id: "offerings",
+    title: "Before the Altar",
+    text: "It is time to bring an offering to the Lord.\nWhat will you give?",
     choices: [
-      { text: "Think about the offering", nextScene: "offering_proud", tag: "dutiful", feedback: "God will see your effort. He must.", isCorrect: true, sentiment: "positive" },
-      { text: "Watch Abel tend his flock", nextScene: "watch_abel", tag: "lonely", feedback: "He hums a song you almost remember.", isCorrect: false, sentiment: "negative" },
+      { text: "Bring your very best firstfruits", nextScene: "accepted", tag: "honoring", feedback: "You choose the finest grain. Your heart is open.", isCorrect: true, sentiment: "positive" },
+      { text: "Bring whatever was left over", nextScene: "accepted", tag: "careless", feedback: "Wilted stalks. Half a thought toward heaven.", isCorrect: false, sentiment: "negative" },
+      { text: "Bring nothing — you earned it", nextScene: "accepted", tag: "proud", feedback: "Empty hands. A harder, prouder heart.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  brothers_talk: {
-    id: "brothers_talk",
-    title: "Brothers",
-    text: "Abel sits beside you. \"The lambs are growing strong.\"\nHis joy is honest. It stings.",
+  accepted: {
+    id: "accepted",
+    title: "The Lord's Favor",
+    text: "The Lord receives Abel's lamb with joy.\nYour offering — He does not regard.",
     choices: [
-      { text: "\"My crops are growing too.\"", nextScene: "offering_proud", tag: "competitive", feedback: "He nods. But you hear the doubt in your own voice.", isCorrect: true, sentiment: "positive" },
-      { text: "Stay silent", nextScene: "offering_careless", tag: "withdrawn", feedback: "Words stick in your throat. You say nothing.", isCorrect: false, sentiment: "negative" },
+      { text: "Search yourself before God", nextScene: "anger", tag: "humble", feedback: "You ask why. The answer is already in you.", isCorrect: true, sentiment: "positive" },
+      { text: "Burn with rage against Abel", nextScene: "anger", tag: "raging", feedback: "Heat floods your chest. He becomes your enemy.", isCorrect: false, sentiment: "negative" },
+      { text: "Accuse God of unfairness", nextScene: "anger", tag: "accusing", feedback: "Your fist rises. The sky does not answer.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  offering_proud: {
-    id: "offering_proud",
-    title: "Your Offering",
-    text: "You lay grain and fruit before the altar.\nYou step back and wait.",
+  anger: {
+    id: "anger",
+    title: "Why Are You Angry?",
+    text: "Your face falls. Your hands shake.\nThe Lord asks: \"Why are you angry?\"",
     choices: [
-      { text: "Watch the smoke rise", nextScene: "god_responds", tag: "hopeful", feedback: "The smoke drifts sideways — thin, uncertain.", isCorrect: true, sentiment: "positive" },
-      { text: "Glance at Abel's offering", nextScene: "god_responds", tag: "comparing", feedback: "His lamb burns bright. The smoke climbs straight to heaven.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  offering_careless: {
-    id: "offering_careless",
-    title: "A Hasty Gift",
-    text: "You toss your harvest onto the stone.\nIt sits there — ordinary, small.",
-    choices: [
-      { text: "Step back and wait", nextScene: "god_responds", tag: "indifferent", feedback: "The flames barely catch. The wind scatters ash.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  god_responds: {
-    id: "god_responds",
-    title: "The Answer",
-    text: "Abel's offering burns with golden fire.\nYours lies cold. Untouched.",
-    choices: [
-      { text: "Feel the heat rise inside you", nextScene: "anger_rises", tag: "burning", feedback: "Something dark coils tight in your chest.", isCorrect: false, sentiment: "negative" },
-      { text: "Try to understand", nextScene: "god_speaks", tag: "searching", feedback: "Why? You gave what you had. Wasn't it enough?", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-  anger_rises: {
-    id: "anger_rises",
-    title: "The Fire Within",
-    text: "Your jaw tightens. Your fists clench.\nAbel smiles — he doesn't even notice.",
-    choices: [
-      { text: "Storm away", nextScene: "god_speaks", tag: "furious", feedback: "You kick the dust. Your shadow stretches long and dark.", isCorrect: false, sentiment: "negative" },
-      { text: "Stare at the ground", nextScene: "god_speaks", tag: "simmering", feedback: "You swallow the poison. It doesn't go down.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  god_speaks: {
-    id: "god_speaks",
-    title: "A Voice",
-    text: "\"Why are you angry?\"\nThe voice is everywhere — inside you, above you.",
-    choices: [
-      { text: "\"It's not fair.\"", nextScene: "warning", tag: "defiant", feedback: "The words crack in your mouth like dry earth.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen carefully", nextScene: "warning", tag: "trembling", feedback: "Your heart pounds. You know the voice.", isCorrect: true, sentiment: "positive" },
-      { text: "Turn away", nextScene: "the_field", tag: "deaf", feedback: "You walk. The voice fades behind you.", isCorrect: false, sentiment: "negative" },
+      { text: "Lay your anger down before Him", nextScene: "warning", tag: "yielded", feedback: "The fire begins to cool. Honesty opens a path.", isCorrect: true, sentiment: "positive" },
+      { text: "Refuse to answer — turn away", nextScene: "warning", tag: "stubborn", feedback: "You hide your face. He still sees.", isCorrect: false, sentiment: "negative" },
     ],
   },
   warning: {
     id: "warning",
-    title: "The Warning",
-    text: "\"Sin crouches at your door.\"\nThe words settle like stones in your chest.",
+    title: "Sin Crouches at the Door",
+    text: "\"Sin is crouching at your door.\nIts desire is for you — but you must master it.\"",
     choices: [
-      { text: "\"I can master it.\"", nextScene: "the_field", tag: "proud", feedback: "Can you? Your hands are already shaking.", isCorrect: false, sentiment: "negative" },
-      { text: "Try to breathe", nextScene: "struggle", tag: "fighting", feedback: "You close your eyes. The anger is still there — waiting.", isCorrect: true, sentiment: "positive" },
+      { text: "Commit to master your anger", nextScene: "invitation", tag: "resolved", feedback: "You exhale. You will choose differently.", isCorrect: true, sentiment: "positive" },
+      { text: "Let the rage take you", nextScene: "invitation", tag: "surrendering", feedback: "You open the door wide. Sin walks in.", isCorrect: false, sentiment: "negative" },
+      { text: "Pretend you did not hear", nextScene: "invitation", tag: "denying", feedback: "The warning fades. The hatred remains.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  struggle: {
-    id: "struggle",
-    title: "The Struggle",
-    text: "You stand alone in the wind.\nTwo paths pull at you — mercy and rage.",
+  invitation: {
+    id: "invitation",
+    title: "Come With Me to the Field",
+    text: "Abel walks toward you, trusting.\nHis face is open. Yours is not.",
     choices: [
-      { text: "Seek Abel out", nextScene: "the_field", tag: "drawn", feedback: "Your feet carry you toward him. You don't know why.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk away — far away", nextScene: "the_field", tag: "fleeing", feedback: "But his face is already in your mind. You can't escape it.", isCorrect: false, sentiment: "negative" },
+      { text: "Tell him the truth of your heart", nextScene: "field", tag: "honest", feedback: "Words are hard. But honesty is mercy.", isCorrect: true, sentiment: "positive" },
+      { text: "Lure him alone into the field", nextScene: "field", tag: "plotting", feedback: "Your voice is calm. Your intent is not.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  the_field: {
-    id: "the_field",
-    title: "The Field",
-    text: "\"Come, let's walk together.\"\nAbel follows you into the open field.",
+  field: {
+    id: "field",
+    title: "In the Field",
+    text: "The field is empty. No one will see.\nAnger surges. A stone is in your hand.",
     choices: [
-      { text: "Raise your hand", nextScene: "the_act", tag: "fallen", feedback: "The shadow moves before you do.", isCorrect: false, sentiment: "negative" },
-      { text: "Try to speak", nextScene: "the_act", tag: "choking", feedback: "Words die in your throat. Something else takes over.", isCorrect: false, sentiment: "negative" },
+      { text: "Drop the stone — walk away", nextScene: "confrontation", tag: "restraining", feedback: "It falls heavy at your feet. You breathe again.", isCorrect: true, sentiment: "positive" },
+      { text: "Strike him in your fury", nextScene: "confrontation", tag: "killing", feedback: "One blow. Then silence. Then horror.", isCorrect: false, sentiment: "negative" },
+      { text: "Threaten him, then strike", nextScene: "confrontation", tag: "violent", feedback: "Your hand obeys the rage. The field receives him.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  the_act: {
-    id: "the_act",
-    title: "Silence",
-    text: "The field goes still.\nAbel lies before you. The sky darkens.",
+  confrontation: {
+    id: "confrontation",
+    title: "\"Where Is Your Brother?\"",
+    text: "The voice of the Lord finds you.\n\"Where is your brother Abel?\"",
     choices: [
-      { text: "Look at your hands", nextScene: "blood_cries", tag: "horror", feedback: "They are red. They won't stop shaking.", isCorrect: false, sentiment: "negative" },
-      { text: "Run", nextScene: "blood_cries", tag: "fleeing", feedback: "Where? There is nowhere far enough.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  blood_cries: {
-    id: "blood_cries",
-    title: "The Ground Speaks",
-    text: "\"Where is your brother?\"\nThe earth itself screams beneath your feet.",
-    choices: [
-      { text: "\"Am I my brother's keeper?\"", nextScene: "judgment", tag: "defiant", feedback: "The lie tastes like iron.", isCorrect: false, sentiment: "negative" },
-      { text: "Fall to your knees", nextScene: "judgment", tag: "broken", feedback: "Your legs give out. You cannot stand before this voice.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-  judgment: {
-    id: "judgment",
-    title: "The Curse",
-    text: "\"The ground will no longer yield for you.\"\nYou are marked. You are sent away.",
-    choices: [
-      { text: "\"My punishment is too great.\"", nextScene: "wanderer", tag: "despairing", feedback: "The weight crushes you — but you still breathe.", isCorrect: false, sentiment: "negative" },
-      { text: "Accept it in silence", nextScene: "wanderer", tag: "resigned", feedback: "There are no words left. Only the road ahead.", isCorrect: true, sentiment: "positive" },
+      { text: "Confess what your hands have done", nextScene: "wanderer", tag: "confessing", feedback: "The truth crushes you. And begins to free you.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Am I my brother's keeper?\"", nextScene: "wanderer", tag: "denying", feedback: "The lie tastes like ash in your mouth.", isCorrect: false, sentiment: "negative" },
+      { text: "Stay silent and hide your eyes", nextScene: "wanderer", tag: "hiding", feedback: "His blood cries out from the ground.", isCorrect: false, sentiment: "negative" },
     ],
   },
   wanderer: {
     id: "wanderer",
-    title: "East of Everything",
-    text: "You walk into the land of Nod.\nBehind you, the earth remembers what you did.",
+    title: "East of Eden, Marked",
+    text: "The Lord places a mark to protect you.\nYou must wander far from home.",
     choices: [],
     isFinal: true,
   },
