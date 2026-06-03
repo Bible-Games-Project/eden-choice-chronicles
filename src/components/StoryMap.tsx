@@ -2,6 +2,21 @@ import { motion } from "framer-motion";
 import { Lock, Check, ChevronLeft, Play, Star } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
 import storyListBg from "@/assets/map/story-list-bg.jpg";
+import { useSettings } from "@/hooks/useSettings";
+import { useTranslated } from "@/hooks/useTranslated";
+
+const StoryRowTitle = ({
+  number,
+  englishTitle,
+  className,
+}: {
+  number: number;
+  englishTitle: string;
+  className: string;
+}) => {
+  const translated = useTranslated(englishTitle);
+  return <span className={className}>{number}. {translated}</span>;
+};
 
 interface StoryMapProps {
   title: string;
@@ -15,6 +30,8 @@ interface StoryMapProps {
 }
 
 const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestStars, onSelectStory, onBack, devMode = false }: StoryMapProps) => {
+  const { t } = useSettings();
+  const translatedTitle = useTranslated(title);
   return (
     <div className="fixed inset-0 overflow-hidden">
       <img src={storyListBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
@@ -28,12 +45,12 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
           </button>
           <div>
             <h2 className="font-display text-2xl md:text-3xl tracking-widest uppercase text-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
-              {title}
+              {translatedTitle}
             </h2>
             <div className="flex items-center gap-2 mt-1">
               <div className="h-px w-12 bg-gold/40" />
               <span className="font-body text-xs text-gold/50 tracking-wider uppercase">
-                Stories{devMode ? " (Dev Mode)" : ""}
+                {t("storiesLabel")}{devMode ? t("devModeSuffix") : ""}
               </span>
               <div className="h-px w-12 bg-gold/40" />
             </div>
@@ -84,7 +101,9 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
                   </div>
 
                   <div className="flex-1 min-w-0">
-                    <span
+                    <StoryRowTitle
+                      number={story.number}
+                      englishTitle={story.title}
                       className={`font-display text-sm md:text-base tracking-wide block truncate ${
                         completed
                           ? "text-eden-light"
@@ -92,9 +111,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
                           ? "text-gold"
                           : "text-primary-foreground/40"
                       } drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)]`}
-                    >
-                      {story.number}. {story.title}
-                    </span>
+                    />
                     {story.hasContent && (
                       <div className="flex items-center gap-0.5 mt-1">
                         {[1, 2, 3, 4, 5].map((n) => {
@@ -113,7 +130,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
                     )}
                     {unlocked && !story.hasContent && (
                       <span className="font-body text-xs text-primary-foreground/30 mt-0.5 block">
-                        Coming soon
+                        {t("comingSoon")}
                       </span>
                     )}
                   </div>
