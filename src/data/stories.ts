@@ -2,7 +2,7 @@ export interface StoryMeta {
   id: string;
   number: number;
   title: string;
-  section: "old_testament" | "new_testament_jesus" | "new_testament_acts";
+  section: "old_testament" | "new_testament_jesus";
   category: string;
   hasContent: boolean; // true if scenes exist
 }
@@ -118,26 +118,13 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "arrest-jesus", number: 42, title: "Arrest of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "trial", number: 43, title: "Trial", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "peter-denies", number: 44, title: "Peter Denies Jesus", section: "new_testament_jesus", category: "Passion", hasContent: true },
-  { id: "crucifixion", number: 45, title: "Crucifixion", section: "new_testament_jesus", category: "Passion", hasContent: false },
+  { id: "crucifixion", number: 45, title: "Crucifixion", section: "new_testament_jesus", category: "Passion", hasContent: true },
   { id: "death-jesus", number: 46, title: "Death of Jesus", section: "new_testament_jesus", category: "Passion", hasContent: true },
   // Resurrection
   { id: "empty-tomb", number: 47, title: "Empty Tomb", section: "new_testament_jesus", category: "Resurrection", hasContent: true },
   { id: "appearance-mary", number: 48, title: "Appearance to Mary Magdalene", section: "new_testament_jesus", category: "Resurrection", hasContent: true },
   { id: "road-emmaus", number: 49, title: "Road to Emmaus", section: "new_testament_jesus", category: "Resurrection", hasContent: true },
-  { id: "great-commission", number: 50, title: "Great Commission", section: "new_testament_jesus", category: "Resurrection", hasContent: false },
+  { id: "great-commission", number: 50, title: "Great Commission", section: "new_testament_jesus", category: "Resurrection", hasContent: true },
 ];
 
-export const NT_ACTS_STORIES: StoryMeta[] = [
-  { id: "pentecost", number: 1, title: "Pentecost", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "peter-heals-lame", number: 2, title: "Peter Heals the Lame Man", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "ananias-sapphira", number: 3, title: "Ananias and Sapphira", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "stephen", number: 4, title: "Stephen", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "conversion-paul", number: 5, title: "Conversion of Paul", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "paul-silas-prison", number: 6, title: "Paul and Silas in Prison", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "cornelius", number: 7, title: "Cornelius", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "paul-journeys", number: 8, title: "Paul's Missionary Journeys", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "shipwreck-paul", number: 9, title: "Shipwreck of Paul", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "paul-rome", number: 10, title: "Paul in Rome", section: "new_testament_acts", category: "Acts", hasContent: false },
-];
-
-export const ALL_NT_STORIES = [...NT_JESUS_STORIES, ...NT_ACTS_STORIES];
+export const ALL_NT_STORIES = NT_JESUS_STORIES;

@@ -1,31 +1,30 @@
-import abrahamWorried from "@/assets/sprites/abraham-egypt/abraham-worried.webp";
-import abrahamPraying from "@/assets/sprites/abraham-egypt/abraham-praying.webp";
-import abrahamWalking from "@/assets/sprites/abraham-egypt/abraham-walking.webp";
-import abrahamFearful from "@/assets/sprites/abraham-egypt/abraham-fearful.webp";
-import abrahamAshamed from "@/assets/sprites/abraham-egypt/abraham-ashamed.webp";
-import abrahamKneeling from "@/assets/sprites/abraham-egypt/abraham-kneeling.webp";
-import abrahamGuilty from "@/assets/sprites/abraham-egypt/abraham-guilty.webp";
-import abrahamRepentant from "@/assets/sprites/abraham-egypt/abraham-repentant.webp";
-import sarah from "@/assets/sprites/abraham-egypt/sarah.webp";
-import pharaoh from "@/assets/sprites/abraham-egypt/pharaoh.webp";
+import abrahamFamine from "@/assets/sprites/abraham-egypt/abraham-famine.png";
+import abrahamSarahRoad from "@/assets/sprites/abraham-egypt/abraham-sarah-road.png";
+import abrahamFearful from "@/assets/sprites/abraham-egypt/abraham-fearful.png";
+import abrahamSarahWhisper from "@/assets/sprites/abraham-egypt/abraham-sarah-whisper.png";
+import abrahamSarahEntering from "@/assets/sprites/abraham-egypt/abraham-sarah-entering.png";
+import abrahamOfficial from "@/assets/sprites/abraham-egypt/abraham-official.png";
+import abrahamGrief from "@/assets/sprites/abraham-egypt/abraham-grief.png";
+import abrahamGifts from "@/assets/sprites/abraham-egypt/abraham-gifts.png";
+import pharaohStricken from "@/assets/sprites/abraham-egypt/pharaoh-stricken.png";
+import abrahamPharaoh from "@/assets/sprites/abraham-egypt/abraham-pharaoh.png";
+import abrahamSarahLeaving from "@/assets/sprites/abraham-egypt/abraham-sarah-leaving.png";
+import abrahamAltar from "@/assets/sprites/abraham-egypt/abraham-altar.png";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
+// Exactly ONE sprite per scene. Transparent PNG. No reuse.
 export const abrahamEgyptSprites: Record<string, SpriteConfig> = {
-  start: { left: abrahamWorried },
-  prayer: { left: abrahamPraying },
-  egypt_temptation: { left: abrahamWorried },
-  the_road_south: { left: abrahamWalking, right: sarah },
-  approaching_egypt: { left: abrahamFearful },
-  the_fear: { left: abrahamFearful, right: sarah },
-  entering_egypt: { left: abrahamWalking, right: sarah },
-  the_lie: { left: abrahamAshamed, right: sarah },
-  pharaoh_hears: { left: abrahamFearful },
-  sarah_taken: { left: abrahamGuilty },
-  consequences_wealth: { left: abrahamGuilty },
-  gods_intervention: { left: abrahamPraying },
-  pharaoh_confronts: { left: abrahamAshamed, right: pharaoh },
-  sent_away: { left: abrahamAshamed, right: sarah },
-  the_return: { left: abrahamWalking, right: sarah },
-  the_altar: { left: abrahamRepentant },
+  start: { left: abrahamFamine },
+  road_south: { left: abrahamSarahRoad },
+  fear_rises: { left: abrahamFearful },
+  the_lie: { left: abrahamSarahWhisper },
+  entering_egypt: { left: abrahamSarahEntering },
+  officials_come: { left: abrahamOfficial },
+  sarah_taken: { left: abrahamGrief },
+  gifts_arrive: { left: abrahamGifts },
+  plagues: { left: pharaohStricken },
+  confronted: { left: abrahamPharaoh },
+  expelled: { left: abrahamSarahLeaving },
+  altar: { left: abrahamAltar },
 };

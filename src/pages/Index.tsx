@@ -388,6 +388,10 @@ import { peterDeniesScenes } from "@/data/stories/peterDenies";
 import { peterDeniesImages } from "@/data/stories/peterDeniesImages";
 import { peterDeniesSprites } from "@/data/stories/peterDeniesSprites";
 import { peterDeniesEffects } from "@/data/stories/peterDeniesEffects";
+import { crucifixionScenes } from "@/data/stories/crucifixion";
+import { crucifixionImages } from "@/data/stories/crucifixionImages";
+import { crucifixionSprites } from "@/data/stories/crucifixionSprites";
+import { crucifixionEffects } from "@/data/stories/crucifixionEffects";
 import { deathJesusScenes } from "@/data/stories/deathJesus";
 import { deathJesusImages } from "@/data/stories/deathJesusImages";
 import { deathJesusSprites } from "@/data/stories/deathJesusSprites";
@@ -404,6 +408,10 @@ import { emmausScenes } from "@/data/stories/emmaus";
 import { emmausImages } from "@/data/stories/emmausImages";
 import { emmausSprites } from "@/data/stories/emmausSprites";
 import { emmausEffects } from "@/data/stories/emmausEffects";
+import { greatCommissionScenes } from "@/data/stories/greatCommission";
+import { greatCommissionImages } from "@/data/stories/greatCommissionImages";
+import { greatCommissionSprites } from "@/data/stories/greatCommissionSprites";
+import { greatCommissionEffects } from "@/data/stories/greatCommissionEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
@@ -503,10 +511,12 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "arrest-jesus": arrestJesusScenes,
   trial: trialScenes,
   "peter-denies": peterDeniesScenes,
+  crucifixion: crucifixionScenes,
   "death-jesus": deathJesusScenes,
   "empty-tomb": emptyTombScenes,
   "appearance-mary": appearanceMaryScenes,
   "road-emmaus": emmausScenes,
+  "great-commission": greatCommissionScenes,
 };
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
@@ -603,10 +613,12 @@ const storyImageRegistry: Record<string, Record<string, string>> = {
   "arrest-jesus": arrestJesusImages,
   trial: trialImages,
   "peter-denies": peterDeniesImages,
+  crucifixion: crucifixionImages,
   "death-jesus": deathJesusImages,
   "empty-tomb": emptyTombImages,
   "appearance-mary": appearanceMaryImages,
   "road-emmaus": emmausImages,
+  "great-commission": greatCommissionImages,
 };
 const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   creation: creationSprites,
@@ -703,10 +715,12 @@ const storySpriteRegistry: Record<string, Record<string, SpriteConfig>> = {
   "arrest-jesus": arrestJesusSprites,
   trial: trialSprites,
   "peter-denies": peterDeniesSprites,
+  crucifixion: crucifixionSprites,
   "death-jesus": deathJesusSprites,
   "empty-tomb": emptyTombSprites,
   "appearance-mary": appearanceMarySprites,
   "road-emmaus": emmausSprites,
+  "great-commission": greatCommissionSprites,
 };
 const storyEffectRegistry: Record<string, Record<string, string>> = {
   creation: creationEffects,
@@ -803,10 +817,12 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
   "arrest-jesus": arrestJesusEffects,
   trial: trialEffects,
   "peter-denies": peterDeniesEffects,
+  crucifixion: crucifixionEffects,
   "death-jesus": deathJesusEffects,
   "empty-tomb": emptyTombEffects,
   "appearance-mary": appearanceMaryEffects,
   "road-emmaus": emmausEffects,
+  "great-commission": greatCommissionEffects,
 };
 
 const SCENE_TRANSITION_FADE_MS = 500;
@@ -1056,6 +1072,7 @@ const Index = () => {
           sprites={sprites}
           sceneEffect={sceneEffect}
           isTransitioning={isSceneTransitioning}
+          storyId={currentStory.id}
         />
 
         {/* End of story screen overlay */}

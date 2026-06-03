@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
-import { BookOpen, Lock, Wrench, Eye } from "lucide-react";
+import { BookOpen, Lock, Wrench, Eye, Settings as SettingsIcon } from "lucide-react";
+import { useState } from "react";
+import SettingsPanel from "@/components/SettingsPanel";
+import { useSettings } from "@/hooks/useSettings";
 
 interface MainMenuProps {
   onSelectTestament: (testament: "old" | "new") => void;
@@ -13,9 +16,21 @@ interface MainMenuProps {
 
 const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, devMode, onToggleDevMode, onOpenSpriteViewer }: MainMenuProps) => {
   const effectiveNTUnlocked = devMode || isNTUnlocked;
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const { t } = useSettings();
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center overflow-hidden">
+      {/* Settings (gear) button — top right */}
+      <button
+        type="button"
+        onClick={() => setSettingsOpen(true)}
+        aria-label={t("settings")}
+        className="absolute top-4 right-4 z-20 w-11 h-11 rounded-full border border-gold/30 bg-black/30 text-gold flex items-center justify-center hover:bg-gold/15 hover:border-gold/60 transition cursor-pointer"
+      >
+        <SettingsIcon className="w-5 h-5" />
+      </button>
+
       {/* Layered atmospheric background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[hsl(25,25%,8%)] via-[hsl(30,30%,14%)] to-[hsl(25,20%,6%)]" />
       <div
@@ -38,12 +53,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
         }}
       />
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, ease: "easeOut" }}
-        className="relative z-10 text-center max-w-md w-full px-8"
-      >
+      <div className="relative z-10 text-center max-w-md w-full px-8">
+
         <motion.h1
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -53,7 +64,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
             textShadow: "0 0 40px hsl(43,75%,55%,0.3), 0 2px 8px rgba(0,0,0,0.8)",
           }}
         >
-          Bible Journey
+          {t("title")}
         </motion.h1>
 
         <motion.div
@@ -73,19 +84,17 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
           transition={{ duration: 1, delay: 0.6 }}
           className="font-body italic text-lg md:text-xl text-primary-foreground/50 mb-12"
         >
-          Walk through the greatest stories ever told.
+          {t("tagline")}
         </motion.p>
 
         {/* Testament cards */}
         <div className="flex flex-col gap-5">
           {/* Old Testament */}
           <motion.button
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.8 }}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => onSelectTestament("old")}
+
             className="group w-full p-6 rounded-2xl border border-gold/20 bg-gradient-to-br from-gold/10 via-gold/5 to-transparent backdrop-blur-sm text-left cursor-pointer transition-all duration-500 hover:border-gold/40 hover:shadow-[0_0_30px_hsl(43,75%,55%,0.1)]"
           >
             <div className="flex items-center gap-3 mb-3">
@@ -93,11 +102,11 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
                 <BookOpen className="w-4 h-4 text-gold" />
               </div>
               <span className="font-display text-base tracking-[0.15em] uppercase text-gold">
-                Old Testament
+                {t("oldTestament")}
               </span>
             </div>
             <p className="font-body text-base text-primary-foreground/50 mb-4 pl-[52px]">
-              {otProgress.completed} of {otProgress.total} stories completed
+              {otProgress.completed} / {otProgress.total} {t("storiesCompleted")}
             </p>
             <div className="ml-[52px] h-1 w-[calc(100%-52px)] rounded-full bg-foreground/40 overflow-hidden">
               <motion.div
@@ -113,12 +122,10 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
 
           {/* New Testament */}
           <motion.button
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 1 }}
             whileHover={effectiveNTUnlocked ? { scale: 1.02 } : {}}
             whileTap={effectiveNTUnlocked ? { scale: 0.98 } : {}}
             onClick={() => effectiveNTUnlocked && onSelectTestament("new")}
+
             className={`group w-full p-6 rounded-2xl border text-left transition-all duration-500 ${
               effectiveNTUnlocked
                 ? "border-gold/20 bg-gradient-to-br from-gold/10 via-gold/5 to-transparent backdrop-blur-sm cursor-pointer hover:border-gold/40 hover:shadow-[0_0_30px_hsl(43,75%,55%,0.1)]"
@@ -144,7 +151,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
                   effectiveNTUnlocked ? "text-gold" : "text-primary-foreground/30"
                 }`}
               >
-                New Testament
+                {t("newTestament")}
               </span>
             </div>
             <p
@@ -155,8 +162,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
               }`}
             >
               {effectiveNTUnlocked
-                ? `${ntProgress.completed} of ${ntProgress.total} stories completed`
-                : "Complete all Old Testament stories to unlock"}
+                ? `${ntProgress.completed} / ${ntProgress.total} ${t("storiesCompleted")}`
+                : t("lockedHint")}
             </p>
             {effectiveNTUnlocked && (
               <div className="mt-4 ml-[52px] h-1 w-[calc(100%-52px)] rounded-full bg-foreground/40 overflow-hidden">
@@ -190,7 +197,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
               }`}
             >
               <Wrench className="w-3.5 h-3.5" />
-              Dev Mode: {devMode ? "ON" : "OFF"}
+              {t("devModeLabel")}: {devMode ? t("devModeOn") : t("devModeOff")}
             </button>
 
             <button
@@ -198,17 +205,19 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
               className="flex items-center gap-2 px-4 py-2 rounded-lg border border-primary-foreground/15 bg-black/20 text-primary-foreground/40 hover:bg-primary-foreground/5 text-xs font-display tracking-wider uppercase transition-all cursor-pointer"
             >
               <Eye className="w-3.5 h-3.5" />
-              Sprite Viewer
+              {t("spriteViewer")}
             </button>
           </div>
 
           {devMode && (
             <p className="text-[10px] text-amber-400/60 font-body text-center">
-              All stories unlocked • Scene selector available
+              {t("allStoriesUnlocked")}
             </p>
           )}
         </motion.div>
-      </motion.div>
+      </div>
+
+      <SettingsPanel open={settingsOpen} onClose={() => setSettingsOpen(false)} />
     </div>
   );
 };

@@ -1,7 +1,21 @@
-import { motion } from "framer-motion";
 import { Lock, Check, ChevronLeft, Play, Star, Gem } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
 import storyListBg from "@/assets/map/story-list-bg.jpg";
+import { useSettings } from "@/hooks/useSettings";
+import { useTranslated } from "@/hooks/useTranslated";
+
+const StoryRowTitle = ({
+  number,
+  englishTitle,
+  className,
+}: {
+  number: number;
+  englishTitle: string;
+  className: string;
+}) => {
+  const translated = useTranslated(englishTitle);
+  return <span className={className}>{number}. {translated}</span>;
+};
 
 /** Stories up to and including this number are free to play (set via VITE_FREE_STORY_LIMIT) */
 export const FREE_STORY_LIMIT = Number(import.meta.env.VITE_FREE_STORY_LIMIT ?? 3);
@@ -33,6 +47,8 @@ const StoryMap = ({
   hasPremium = false,
   onPaywallRequest,
 }: StoryMapProps) => {
+  const { t } = useSettings();
+  const translatedTitle = useTranslated(title);
   return (
     <div className="fixed inset-0 overflow-hidden">
       <img src={storyListBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
@@ -46,12 +62,12 @@ const StoryMap = ({
           </button>
           <div>
             <h2 className="font-display text-2xl md:text-3xl tracking-widest uppercase text-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
-              {title}
+              {translatedTitle}
             </h2>
             <div className="flex items-center gap-2 mt-1">
               <div className="h-px w-12 bg-gold/40" />
               <span className="font-body text-xs text-gold/50 tracking-wider uppercase">
-                Stories{devMode ? " (Dev Mode)" : ""}
+                {t("storiesLabel")}{devMode ? t("devModeSuffix") : ""}
               </span>
               <div className="h-px w-12 bg-gold/40" />
             </div>
@@ -78,13 +94,10 @@ const StoryMap = ({
               const isInteractive = playable || isPremiumLocked;
 
               return (
-                <motion.div
+                <div
                   key={story.id}
                   role={isInteractive ? "button" : undefined}
                   tabIndex={isInteractive ? 0 : undefined}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.03, duration: 0.4 }}
                   onClick={handleClick}
                   onKeyDown={(e) => { if (isInteractive && (e.key === "Enter" || e.key === " ")) handleClick(); }}
                   style={{ cursor: isInteractive ? 'pointer' : completed ? 'default' : 'not-allowed' }}
@@ -123,7 +136,9 @@ const StoryMap = ({
                   </div>
 
                   <div className="flex-1 min-w-0">
-                    <span
+                    <StoryRowTitle
+                      number={story.number}
+                      englishTitle={story.title}
                       className={`font-display text-sm md:text-base tracking-wide block truncate ${
                         completed
                           ? "text-eden-light"
@@ -133,9 +148,7 @@ const StoryMap = ({
                           ? "text-gold"
                           : "text-primary-foreground/40"
                       } drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)]`}
-                    >
-                      {story.number}. {story.title}
-                    </span>
+                    />
                     {story.hasContent && (
                       <div className="flex items-center gap-0.5 mt-1">
                         {[1, 2, 3, 4, 5].map((n) => {
@@ -154,11 +167,11 @@ const StoryMap = ({
                     )}
                     {unlocked && !story.hasContent && (
                       <span className="font-body text-xs text-primary-foreground/30 mt-0.5 block">
-                        Coming soon
+                        {t("comingSoon")}
                       </span>
                     )}
                   </div>
-                </motion.div>
+                </div>
               );
             })}
           </div>
