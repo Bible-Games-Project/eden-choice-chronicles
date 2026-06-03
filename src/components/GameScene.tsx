@@ -3,6 +3,7 @@ import { StoryChoice } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useSettings } from "@/hooks/useSettings";
+import { playCorrect, playIncorrect } from "@/lib/sfx";
 
 interface GameSceneProps {
   title: string;
@@ -107,6 +108,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
     setClickedIndex(index);
     setClickedIsCorrect(nextIsCorrect);
+    if (nextIsCorrect) playCorrect(); else playIncorrect();
 
     console.log("[answer-feedback]", {
       clickedAnswerText: choice.text,
@@ -171,6 +173,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
             return (
               <motion.button
                 key={`${stepCount}-${i}-${choice.text}`}
+                data-sfx-skip="true"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : isVisible ? 1 : 0 }}
                 transition={{ duration: clickedIndex !== null ? 0.3 : STAGGER_FADE_DURATION, ease: "easeInOut" }}
