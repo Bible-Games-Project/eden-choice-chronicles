@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import { SettingsProvider } from "@/hooks/useSettings";
+import SfxBridge from "@/components/SfxBridge";
 
 const queryClient = new QueryClient();
 
@@ -13,6 +14,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <SettingsProvider>
       <TooltipProvider>
+        <SfxBridge />
         <Toaster />
         <Sonner />
         <BrowserRouter>
