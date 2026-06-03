@@ -2,7 +2,7 @@ export interface StoryMeta {
   id: string;
   number: number;
   title: string;
-  section: "old_testament" | "new_testament_jesus" | "new_testament_acts";
+  section: "old_testament" | "new_testament_jesus";
   category: string;
   hasContent: boolean; // true if scenes exist
 }
