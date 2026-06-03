@@ -1,11 +1,24 @@
 # Background Music
 
-Drop any `.mp3` file in this folder and it will be automatically picked up by
-the music system (Vite glob import). No code changes required.
+Tracks live on the Lovable Assets CDN. This folder only stores
+`*.mp3.asset.json` pointer files — the actual binaries are NOT committed to
+the repo.
 
-- Files are shuffled per session (Fisher-Yates).
-- No track repeats back-to-back; full reshuffle when the playlist ends.
-- Volume tied to the global Settings Volume slider (0 = mute).
-- Single audio instance, persists across all scenes.
+## How to add a new track
 
-Recommended: keep filenames lowercase, no spaces (e.g. `track-01.mp3`).
+From the sandbox:
+
+```bash
+lovable-assets create --file /path/to/my-track.mp3 --filename my-track.mp3 \
+  > src/assets/music/my-track.mp3.asset.json
+```
+
+That's it. The music engine globs `*.mp3.asset.json` files and the new
+track joins the shuffle pool automatically — no code changes required.
+
+## Behavior
+
+- Fisher-Yates shuffle per session
+- No back-to-back repetition across cycles
+- Volume tied to the global Settings Volume slider (0 = mute)
+- Single `<audio>` instance, persists across all scenes
