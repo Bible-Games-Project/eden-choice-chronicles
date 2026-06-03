@@ -509,6 +509,7 @@ const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
   "arrest-jesus": arrestJesusScenes,
   trial: trialScenes,
   "peter-denies": peterDeniesScenes,
+  crucifixion: crucifixionScenes,
   "death-jesus": deathJesusScenes,
   "empty-tomb": emptyTombScenes,
   "appearance-mary": appearanceMaryScenes,
