@@ -1,0 +1,231 @@
+{
+  "start": {
+    "title": "[TODO:ko] Wilderness of Rephidim",
+    "text": "[TODO:ko] The wells are dry. Lips crack with dust.\nThe people gather, eyes hot.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Scold them for weakness",
+        "feedback": "[TODO:ko] Their thirst is real."
+      },
+      {
+        "text": "[TODO:ko] Hear their thirst with patience",
+        "feedback": "[TODO:ko] You listen before you speak."
+      },
+      {
+        "text": "[TODO:ko] Pretend you do not see them",
+        "feedback": "[TODO:ko] A leader cannot turn away."
+      }
+    ]
+  },
+  "scold_consequence": {
+    "title": "[TODO:ko] Mercy First",
+    "text": "[TODO:ko] Anger will not fill empty jars.\nTurn your ear to their cry.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Hear their thirst with patience",
+        "feedback": "[TODO:ko] Your face softens."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:ko] See Their Faces",
+    "text": "[TODO:ko] A shepherd does not hide from sheep.\nLook upon their suffering.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Hear their thirst with patience",
+        "feedback": "[TODO:ko] You step into their midst."
+      }
+    ]
+  },
+  "people_complain": {
+    "title": "[TODO:ko] \"Why Bring Us Here?\"",
+    "text": "[TODO:ko] \"Did you lead us out to die of thirst?\"\nStones rest in trembling hands.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Strike back in anger",
+        "feedback": "[TODO:ko] Wrath only deepens the wound."
+      },
+      {
+        "text": "[TODO:ko] Cry out to the Lord",
+        "feedback": "[TODO:ko] You lift the matter higher."
+      }
+    ]
+  },
+  "strike_consequence": {
+    "title": "[TODO:ko] Not With Your Hand",
+    "text": "[TODO:ko] Their cry belongs before the Lord.\nLay it at His feet, not yours.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Cry out to the Lord",
+        "feedback": "[TODO:ko] You step apart to pray."
+      }
+    ]
+  },
+  "moses_prays": {
+    "title": "[TODO:ko] Alone on the Hill",
+    "text": "[TODO:ko] Wind moves over the silent slope.\nYou wait for His answer.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Demand water as your right",
+        "feedback": "[TODO:ko] Mercy is His to give."
+      },
+      {
+        "text": "[TODO:ko] Lay their thirst before Him",
+        "feedback": "[TODO:ko] He hears every cry."
+      },
+      {
+        "text": "[TODO:ko] Despair and turn back silent",
+        "feedback": "[TODO:ko] He has not abandoned you."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ko] Ask, Do Not Demand",
+    "text": "[TODO:ko] Water falls only from open hands.\nKneel and bring their need.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Lay their thirst before Him",
+        "feedback": "[TODO:ko] You bow your head low."
+      }
+    ]
+  },
+  "despair_consequence": {
+    "title": "[TODO:ko] He Still Hears",
+    "text": "[TODO:ko] Your weakness is not the end.\nSpeak the people's pain to Him.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Lay their thirst before Him",
+        "feedback": "[TODO:ko] Words rise from your heart."
+      }
+    ]
+  },
+  "god_speaks": {
+    "title": "[TODO:ko] \"Go to the Rock\"",
+    "text": "[TODO:ko] His voice is steady as the dawn:\n\"Strike the rock. Water will come.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Doubt the word and search for wells",
+        "feedback": "[TODO:ko] His promise needs no other path."
+      },
+      {
+        "text": "[TODO:ko] Take your staff and obey",
+        "feedback": "[TODO:ko] You grip the wood firmly."
+      },
+      {
+        "text": "[TODO:ko] Ask the elders to act for you",
+        "feedback": "[TODO:ko] He spoke the word to you."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:ko] Trust the Word",
+    "text": "[TODO:ko] The Lord does not speak in vain.\nGo where He has sent you.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Take your staff and obey",
+        "feedback": "[TODO:ko] Doubt falls from your hand."
+      }
+    ]
+  },
+  "shift_consequence": {
+    "title": "[TODO:ko] He Sent You",
+    "text": "[TODO:ko] Obedience cannot be passed on.\nThe staff is in your hand.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Take your staff and obey",
+        "feedback": "[TODO:ko] You step toward the rock."
+      }
+    ]
+  },
+  "approach_rock": {
+    "title": "[TODO:ko] Before the Stone",
+    "text": "[TODO:ko] The great rock stands silent and bare.\nThe camp watches from afar.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Boast you will draw the water",
+        "feedback": "[TODO:ko] It is the Lord, not you."
+      },
+      {
+        "text": "[TODO:ko] Strike in His name as commanded",
+        "feedback": "[TODO:ko] The staff falls true."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ko] His Glory, Not Yours",
+    "text": "[TODO:ko] The water will flow from heaven.\nLift His name above your own.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Strike in His name as commanded",
+        "feedback": "[TODO:ko] Your heart bows first."
+      }
+    ]
+  },
+  "water_flows": {
+    "title": "[TODO:ko] Living Water",
+    "text": "[TODO:ko] Stone splits. A clear stream rushes out.\nThe dry ground drinks first.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Hold the water back from the people",
+        "feedback": "[TODO:ko] It was given for them."
+      },
+      {
+        "text": "[TODO:ko] Call the people to come and drink",
+        "feedback": "[TODO:ko] You wave them forward."
+      }
+    ]
+  },
+  "withhold_consequence": {
+    "title": "[TODO:ko] Open the Stream",
+    "text": "[TODO:ko] Mercy is for thirsty mouths.\nLet every soul come and drink.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Call the people to come and drink",
+        "feedback": "[TODO:ko] Your voice carries far."
+      }
+    ]
+  },
+  "people_drink": {
+    "title": "[TODO:ko] The Camp at the Spring",
+    "text": "[TODO:ko] Children laugh. Old hands tremble.\nClay jars fill to the brim.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Take the credit before them all",
+        "feedback": "[TODO:ko] Glory belongs to Him alone."
+      },
+      {
+        "text": "[TODO:ko] Lift their eyes to the Lord",
+        "feedback": "[TODO:ko] \"This is His mercy,\" you say."
+      },
+      {
+        "text": "[TODO:ko] Walk away in silence",
+        "feedback": "[TODO:ko] They must know who provided."
+      }
+    ]
+  },
+  "credit_consequence": {
+    "title": "[TODO:ko] Name the True Source",
+    "text": "[TODO:ko] The stream is not from your hand.\nLet His name fill their mouths.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Lift their eyes to the Lord",
+        "feedback": "[TODO:ko] You point to the heavens."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:ko] Tell of Him",
+    "text": "[TODO:ko] Mercy unspoken can be forgotten.\nName the One who gave the water.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Lift their eyes to the Lord",
+        "feedback": "[TODO:ko] The camp grows still to listen."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ko] Massah and Meribah",
+    "text": "[TODO:ko] Where they doubted, He provided.\nThe rock still pours its mercy.",
+    "choices": []
+  }
+}

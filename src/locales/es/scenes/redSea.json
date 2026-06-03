@@ -1,0 +1,289 @@
+{
+  "start": {
+    "title": "[TODO:es] Out of Egypt",
+    "text": "[TODO:es] Israel walks free at first light.\nWhich way will you lead them?",
+    "choices": [
+      {
+        "text": "[TODO:es] Take the short road by the sea",
+        "feedback": "[TODO:es] War waits on that road."
+      },
+      {
+        "text": "[TODO:es] Follow the Lord's pillar of cloud",
+        "feedback": "[TODO:es] He goes before you."
+      },
+      {
+        "text": "[TODO:es] Hurry back to beg Pharaoh's blessing",
+        "feedback": "[TODO:es] Do not look back."
+      }
+    ]
+  },
+  "short_road_consequence": {
+    "title": "[TODO:es] Not That Way",
+    "text": "[TODO:es] The Philistines guard that path.\nThe Lord leads another way.",
+    "choices": [
+      {
+        "text": "[TODO:es] Follow the Lord's pillar of cloud",
+        "feedback": "[TODO:es] You turn toward the wilderness."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:es] Do Not Turn Back",
+    "text": "[TODO:es] Egypt is behind you forever.\nLook only ahead.",
+    "choices": [
+      {
+        "text": "[TODO:es] Follow the Lord's pillar of cloud",
+        "feedback": "[TODO:es] You set your face to the desert."
+      }
+    ]
+  },
+  "pillar_follows": {
+    "title": "[TODO:es] Pillar of Cloud",
+    "text": "[TODO:es] By day a cloud, by night a fire.\nThe Lord goes before His people.",
+    "choices": [
+      {
+        "text": "[TODO:es] Press on as He leads you",
+        "feedback": "[TODO:es] You walk toward the sea."
+      }
+    ]
+  },
+  "pharaoh_regrets": {
+    "title": "[TODO:es] Pharaoh's Regret",
+    "text": "[TODO:es] In Egypt the king curses his weakness.\n\"Bring back our slaves!\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Speed back to plead with him",
+        "feedback": "[TODO:es] He has chosen war."
+      },
+      {
+        "text": "[TODO:es] Trust the Lord and keep moving",
+        "feedback": "[TODO:es] Your steps stay steady."
+      },
+      {
+        "text": "[TODO:es] Hide the people in the dunes",
+        "feedback": "[TODO:es] There is no hiding from this."
+      }
+    ]
+  },
+  "plead_consequence": {
+    "title": "[TODO:es] No More Pleading",
+    "text": "[TODO:es] His chariots are already rolling.\nThe time for words is gone.",
+    "choices": [
+      {
+        "text": "[TODO:es] Trust the Lord and keep moving",
+        "feedback": "[TODO:es] You hold the line."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:es] Sand Cannot Hide You",
+    "text": "[TODO:es] Six hundred chariots can find you.\nOnly the Lord can save you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Trust the Lord and keep moving",
+        "feedback": "[TODO:es] You walk on."
+      }
+    ]
+  },
+  "army_charges": {
+    "title": "[TODO:es] Dust on the Horizon",
+    "text": "[TODO:es] A red cloud rises behind you.\nChariots. Hundreds of them.",
+    "choices": [
+      {
+        "text": "[TODO:es] Tell the people: do not fear",
+        "feedback": "[TODO:es] Your voice rings out."
+      },
+      {
+        "text": "[TODO:es] Run with them toward the cliffs",
+        "feedback": "[TODO:es] Stand and see His salvation."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:es] Stand Firm",
+    "text": "[TODO:es] There is nowhere left to run.\nThe Lord will fight for you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Tell the people: do not fear",
+        "feedback": "[TODO:es] You turn to face them."
+      }
+    ]
+  },
+  "people_panic": {
+    "title": "[TODO:es] \"Why Bring Us Here to Die?\"",
+    "text": "[TODO:es] The people cry out, trembling.\n\"Were there no graves in Egypt?\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Curse them for their unbelief",
+        "feedback": "[TODO:es] Their fear is real."
+      },
+      {
+        "text": "[TODO:es] Surrender the people to Pharaoh",
+        "feedback": "[TODO:es] Never. The Lord saves."
+      },
+      {
+        "text": "[TODO:es] Speak peace: stand and see Him",
+        "feedback": "[TODO:es] \"The Lord will fight for you.\""
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:es] Speak Hope, Not Wrath",
+    "text": "[TODO:es] They are afraid. So were you once.\nLead them with His promise.",
+    "choices": [
+      {
+        "text": "[TODO:es] Speak peace: stand and see Him",
+        "feedback": "[TODO:es] Your voice softens."
+      }
+    ]
+  },
+  "surrender_consequence": {
+    "title": "[TODO:es] Never Back to Chains",
+    "text": "[TODO:es] He did not free you to bind you.\nStand and trust His hand.",
+    "choices": [
+      {
+        "text": "[TODO:es] Speak peace: stand and see Him",
+        "feedback": "[TODO:es] You face the sea."
+      }
+    ]
+  },
+  "moses_prays": {
+    "title": "[TODO:es] A Cry to Heaven",
+    "text": "[TODO:es] You stand at the water's edge.\nOnly the Lord can open this.",
+    "choices": [
+      {
+        "text": "[TODO:es] Demand the people build boats",
+        "feedback": "[TODO:es] There is no time."
+      },
+      {
+        "text": "[TODO:es] Lift your staff over the sea",
+        "feedback": "[TODO:es] His word fills your hand."
+      },
+      {
+        "text": "[TODO:es] Wait silently for some other sign",
+        "feedback": "[TODO:es] He has already spoken."
+      }
+    ]
+  },
+  "boats_consequence": {
+    "title": "[TODO:es] No Boats Tonight",
+    "text": "[TODO:es] He needs no wood, no sails.\nHis breath is enough.",
+    "choices": [
+      {
+        "text": "[TODO:es] Lift your staff over the sea",
+        "feedback": "[TODO:es] You raise the staff high."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:es] He Has Spoken",
+    "text": "[TODO:es] \"Why do you cry to me? Go forward.\"\nThe sign is in your hand.",
+    "choices": [
+      {
+        "text": "[TODO:es] Lift your staff over the sea",
+        "feedback": "[TODO:es] Your arm rises."
+      }
+    ]
+  },
+  "sea_parts": {
+    "title": "[TODO:es] The Waters Divide",
+    "text": "[TODO:es] A great wind splits the sea in two.\nA dry road opens through it.",
+    "choices": [
+      {
+        "text": "[TODO:es] Send the people across at once",
+        "feedback": "[TODO:es] You wave them forward."
+      },
+      {
+        "text": "[TODO:es] Stand back and only watch",
+        "feedback": "[TODO:es] It opened so you could go."
+      }
+    ]
+  },
+  "watch_consequence": {
+    "title": "[TODO:es] Walk Through It",
+    "text": "[TODO:es] His miracle is for crossing.\nLead them between the walls.",
+    "choices": [
+      {
+        "text": "[TODO:es] Send the people across at once",
+        "feedback": "[TODO:es] You step onto the dry seabed."
+      }
+    ]
+  },
+  "crossing": {
+    "title": "[TODO:es] Between the Walls",
+    "text": "[TODO:es] Walls of water rise on each side.\nIsrael walks the dry path.",
+    "choices": [
+      {
+        "text": "[TODO:es] Boast of your power before them",
+        "feedback": "[TODO:es] It is His arm, not yours."
+      },
+      {
+        "text": "[TODO:es] Lead them toward the far shore",
+        "feedback": "[TODO:es] Your sandals find solid ground."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:es] His Hand, Not Yours",
+    "text": "[TODO:es] Give Him glory, not yourself.\nLead with a humble heart.",
+    "choices": [
+      {
+        "text": "[TODO:es] Lead them toward the far shore",
+        "feedback": "[TODO:es] You bow your head and walk."
+      }
+    ]
+  },
+  "far_shore": {
+    "title": "[TODO:es] On the Far Shore",
+    "text": "[TODO:es] Israel stands safe. Behind you,\nchariots crash into the corridor.",
+    "choices": [
+      {
+        "text": "[TODO:es] Mock the drowning soldiers",
+        "feedback": "[TODO:es] Do not laugh at His judgment."
+      },
+      {
+        "text": "[TODO:es] Run back to fight them yourself",
+        "feedback": "[TODO:es] The Lord fights for you."
+      },
+      {
+        "text": "[TODO:es] Stretch your hand back over the sea",
+        "feedback": "[TODO:es] The wind shifts at your hand."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:es] Solemn, Not Proud",
+    "text": "[TODO:es] His judgment is heavy and just.\nReceive it with awe.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stretch your hand back over the sea",
+        "feedback": "[TODO:es] You raise your arm."
+      }
+    ]
+  },
+  "fight_consequence": {
+    "title": "[TODO:es] He Fights for You",
+    "text": "[TODO:es] Do not lift a sword tonight.\nLift only your hand at His word.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stretch your hand back over the sea",
+        "feedback": "[TODO:es] You stretch out your arm."
+      }
+    ]
+  },
+  "sea_closes": {
+    "title": "[TODO:es] The Sea Returns",
+    "text": "[TODO:es] The walls fall as one great wave.\nNot one chariot rises again.",
+    "choices": [
+      {
+        "text": "[TODO:es] Sing to the Lord with the people",
+        "feedback": "[TODO:es] Miriam lifts her timbrel."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:es] Saved by His Hand",
+    "text": "[TODO:es] Israel stands free on the shore.\nThe Lord alone has saved them.",
+    "choices": []
+  }
+}

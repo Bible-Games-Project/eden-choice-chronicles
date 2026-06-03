@@ -1,0 +1,217 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] Who Sinned?",
+    "text": "[TODO:pt-BR] You sit in the dust, begging.\nDisciples ask, \"Who sinned?\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Curse them silently",
+        "feedback": "[TODO:pt-BR] Listen instead."
+      },
+      {
+        "text": "[TODO:pt-BR] Wait and listen",
+        "feedback": "[TODO:pt-BR] You hold still."
+      },
+      {
+        "text": "[TODO:pt-BR] Beg them louder",
+        "feedback": "[TODO:pt-BR] Be still and hear."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:pt-BR] Be Still",
+    "text": "[TODO:pt-BR] Anger will not heal you.\nListen.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait and listen",
+        "feedback": "[TODO:pt-BR] You quiet your heart."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:pt-BR] Quiet Now",
+    "text": "[TODO:pt-BR] A voice answers them.\nListen.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait and listen",
+        "feedback": "[TODO:pt-BR] You bow your head."
+      }
+    ]
+  },
+  "reveal": {
+    "title": "[TODO:pt-BR] God's Works Revealed",
+    "text": "[TODO:pt-BR] \"Neither this man nor his parents.\"\n\"God's works shall be seen.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Doubt his words",
+        "feedback": "[TODO:pt-BR] Hold on to hope."
+      },
+      {
+        "text": "[TODO:pt-BR] Hope quietly",
+        "feedback": "[TODO:pt-BR] Something stirs."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:pt-BR] Hold On",
+    "text": "[TODO:pt-BR] His voice is kind.\nHope a little.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hope quietly",
+        "feedback": "[TODO:pt-BR] You breathe in."
+      }
+    ]
+  },
+  "mud": {
+    "title": "[TODO:pt-BR] Mud on Your Eyes",
+    "text": "[TODO:pt-BR] He spits on the ground, makes clay.\nHis hand finds your face.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Pull away in fear",
+        "feedback": "[TODO:pt-BR] Let him touch you."
+      },
+      {
+        "text": "[TODO:pt-BR] Wipe it off at once",
+        "feedback": "[TODO:pt-BR] Trust him."
+      },
+      {
+        "text": "[TODO:pt-BR] Hold still under his hand",
+        "feedback": "[TODO:pt-BR] Cool clay rests there."
+      }
+    ]
+  },
+  "pull_consequence": {
+    "title": "[TODO:pt-BR] Be Still",
+    "text": "[TODO:pt-BR] His touch is gentle.\nLet him work.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hold still under his hand",
+        "feedback": "[TODO:pt-BR] You wait."
+      }
+    ]
+  },
+  "wipe_consequence": {
+    "title": "[TODO:pt-BR] Trust His Hand",
+    "text": "[TODO:pt-BR] Do not undo his work.\nWait.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hold still under his hand",
+        "feedback": "[TODO:pt-BR] The clay stays."
+      }
+    ]
+  },
+  "send": {
+    "title": "[TODO:pt-BR] Go to Siloam",
+    "text": "[TODO:pt-BR] \"Go, wash in the pool of Siloam.\"\nThe way is long.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay where it is safe",
+        "feedback": "[TODO:pt-BR] Obey him."
+      },
+      {
+        "text": "[TODO:pt-BR] Walk to the pool",
+        "feedback": "[TODO:pt-BR] You feel the wall, and go."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:pt-BR] Obey",
+    "text": "[TODO:pt-BR] The pool is waiting.\nWalk.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk to the pool",
+        "feedback": "[TODO:pt-BR] You step into the street."
+      }
+    ]
+  },
+  "wash": {
+    "title": "[TODO:pt-BR] The Pool of Siloam",
+    "text": "[TODO:pt-BR] Water in your hands.\nYou bring it to your eyes.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wash and lift your eyes",
+        "feedback": "[TODO:pt-BR] Light pours in."
+      },
+      {
+        "text": "[TODO:pt-BR] Wash and keep them shut",
+        "feedback": "[TODO:pt-BR] Open them."
+      }
+    ]
+  },
+  "shut_consequence": {
+    "title": "[TODO:pt-BR] Open Your Eyes",
+    "text": "[TODO:pt-BR] He sent you to see.\nLift them.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wash and lift your eyes",
+        "feedback": "[TODO:pt-BR] Light pours in."
+      }
+    ]
+  },
+  "see": {
+    "title": "[TODO:pt-BR] You Can See",
+    "text": "[TODO:pt-BR] Sky. Stone. Your own hands.\nYou weep, laughing.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hide it from the crowd",
+        "feedback": "[TODO:pt-BR] Tell them."
+      },
+      {
+        "text": "[TODO:pt-BR] Tell everyone you meet",
+        "feedback": "[TODO:pt-BR] Your voice rises."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pt-BR] Speak Out",
+    "text": "[TODO:pt-BR] Do not hide his work.\nTell them.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Tell everyone you meet",
+        "feedback": "[TODO:pt-BR] You run to the street."
+      }
+    ]
+  },
+  "pharisees": {
+    "title": "[TODO:pt-BR] Pharisees Question You",
+    "text": "[TODO:pt-BR] They glare. \"Who opened your eyes?\"\nThe room is cold.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Lie to keep the peace",
+        "feedback": "[TODO:pt-BR] Tell the truth."
+      },
+      {
+        "text": "[TODO:pt-BR] \"A man called Jesus\"",
+        "feedback": "[TODO:pt-BR] Your voice is steady."
+      },
+      {
+        "text": "[TODO:pt-BR] Stay silent in fear",
+        "feedback": "[TODO:pt-BR] Speak."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:pt-BR] Speak Truth",
+    "text": "[TODO:pt-BR] Truth set you free.\nName him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"A man called Jesus\"",
+        "feedback": "[TODO:pt-BR] You stand straight."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:pt-BR] Find Your Voice",
+    "text": "[TODO:pt-BR] He gave you sight.\nGive him your words.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"A man called Jesus\"",
+        "feedback": "[TODO:pt-BR] You speak clearly."
+      }
+    ]
+  },
+  "testify": {
+    "title": "[TODO:pt-BR] One Thing I Know",
+    "text": "[TODO:pt-BR] \"I was blind. Now I see.\"\nThe light stays with you.",
+    "choices": []
+  }
+}

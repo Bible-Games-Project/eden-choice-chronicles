@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "The Wilderness of Sin",
+    "text": "Weeks since the sea. Bread is gone.\nThe people murmur behind you.",
+    "choices": [
+      {
+        "text": "Silence them with anger",
+        "feedback": "Their hunger is real."
+      },
+      {
+        "text": "Listen to their cry, then seek God",
+        "feedback": "You turn your ear, then your heart."
+      },
+      {
+        "text": "Promise them food you do not have",
+        "feedback": "Only the Lord can promise that."
+      }
+    ]
+  },
+  "anger_consequence": {
+    "title": "Hear Them First",
+    "text": "A leader hears before he speaks.\nTheir hunger is not rebellion alone.",
+    "choices": [
+      {
+        "text": "Listen to their cry, then seek God",
+        "feedback": "Your face softens."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "Speak Only Truth",
+    "text": "Empty promises will break them.\nGo to the One who fills hands.",
+    "choices": [
+      {
+        "text": "Listen to their cry, then seek God",
+        "feedback": "You take their words to heaven."
+      }
+    ]
+  },
+  "people_complain": {
+    "title": "\"Better in Egypt\"",
+    "text": "\"We had pots of meat there!\"\nTheir eyes look back, not forward.",
+    "choices": [
+      {
+        "text": "Agree and turn back to Egypt",
+        "feedback": "He did not free you for chains."
+      },
+      {
+        "text": "Carry their cry to the Lord",
+        "feedback": "You climb apart to pray."
+      }
+    ]
+  },
+  "turnback_consequence": {
+    "title": "Never Backward",
+    "text": "The Lord leads forward, always.\nBring their hunger to Him.",
+    "choices": [
+      {
+        "text": "Carry their cry to the Lord",
+        "feedback": "You lift your eyes upward."
+      }
+    ]
+  },
+  "moses_seeks_god": {
+    "title": "Alone Before Him",
+    "text": "Twilight falls on the silent hill.\nYou wait for His voice.",
+    "choices": [
+      {
+        "text": "Demand bread as your right",
+        "feedback": "Bread is His gift, not your wage."
+      },
+      {
+        "text": "Blame yourself and lose hope",
+        "feedback": "He has not forgotten you."
+      },
+      {
+        "text": "Lay their hunger before Him",
+        "feedback": "He hears every cry."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "He Gives, You Receive",
+    "text": "Bread falls only from open hands.\nKneel and ask, do not demand.",
+    "choices": [
+      {
+        "text": "Lay their hunger before Him",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "despair_consequence": {
+    "title": "He Hears You",
+    "text": "Your weakness is not the end.\nHis mercy is just beginning.",
+    "choices": [
+      {
+        "text": "Lay their hunger before Him",
+        "feedback": "You speak the people's pain."
+      }
+    ]
+  },
+  "god_speaks": {
+    "title": "\"I Will Rain Bread\"",
+    "text": "His voice fills the still desert:\n\"Bread from heaven, day by day.\"",
+    "choices": [
+      {
+        "text": "Hide the promise from the people",
+        "feedback": "His word is for them too."
+      },
+      {
+        "text": "Tell Aaron and the people at once",
+        "feedback": "You hurry down the hill."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Speak the Promise",
+    "text": "Hope shared is hope doubled.\nGo, tell what you have heard.",
+    "choices": [
+      {
+        "text": "Tell Aaron and the people at once",
+        "feedback": "You run to the camp."
+      }
+    ]
+  },
+  "tell_people": {
+    "title": "Word to the Camp",
+    "text": "Aaron stands ready beside you.\nThe weary lift their faces.",
+    "choices": [
+      {
+        "text": "Boast you brought the answer",
+        "feedback": "It is the Lord, not you."
+      },
+      {
+        "text": "Give the Lord all the glory",
+        "feedback": "\"At evening, you shall know.\""
+      },
+      {
+        "text": "Tell only the elders, not the rest",
+        "feedback": "His promise is for all Israel."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "His Glory, Not Yours",
+    "text": "The bread is from heaven, not you.\nLet His name be lifted high.",
+    "choices": [
+      {
+        "text": "Give the Lord all the glory",
+        "feedback": "Heads bow with yours."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "All Must Hear",
+    "text": "Every tent must know His mercy.\nSpeak openly to the camp.",
+    "choices": [
+      {
+        "text": "Give the Lord all the glory",
+        "feedback": "The whole camp listens."
+      }
+    ]
+  },
+  "manna_falls": {
+    "title": "Bread from Heaven",
+    "text": "At dawn, white flakes lie like dew.\nThe ground is covered in mercy.",
+    "choices": [
+      {
+        "text": "Forbid the people to gather",
+        "feedback": "It is given to be eaten."
+      },
+      {
+        "text": "Tell each to gather one omer a day",
+        "feedback": "\"Enough for the day,\" you say."
+      }
+    ]
+  },
+  "forbid_consequence": {
+    "title": "Receive His Gift",
+    "text": "He sent it for their hands.\nLet them gather and live.",
+    "choices": [
+      {
+        "text": "Tell each to gather one omer a day",
+        "feedback": "You wave them forward."
+      }
+    ]
+  },
+  "gather_daily": {
+    "title": "An Omer a Day",
+    "text": "Some hands tremble with fear:\n\"What of tomorrow's hunger?\"",
+    "choices": [
+      {
+        "text": "Let them store extra in jars",
+        "feedback": "He provides each new day."
+      },
+      {
+        "text": "Teach them: trust Him each morning",
+        "feedback": "\"His mercy is new at dawn.\""
+      },
+      {
+        "text": "Take a double share for yourself",
+        "feedback": "A leader takes only his omer."
+      }
+    ]
+  },
+  "hoarding_consequence": {
+    "title": "Worms by Morning",
+    "text": "Stored manna stinks at sunrise.\nFear cannot keep His gift fresh.",
+    "choices": [
+      {
+        "text": "Teach them: trust Him each morning",
+        "feedback": "You lift the lesson before all."
+      }
+    ]
+  },
+  "selfish_consequence": {
+    "title": "One Omer for All",
+    "text": "A shepherd does not feast alone.\nShare what He gives, in measure.",
+    "choices": [
+      {
+        "text": "Teach them: trust Him each morning",
+        "feedback": "You set down the extra."
+      }
+    ]
+  },
+  "next_morning": {
+    "title": "Mercy at Dawn",
+    "text": "Again the white flakes lie waiting.\nAgain Israel eats and lives.",
+    "choices": [
+      {
+        "text": "Lead the people in quiet thanks",
+        "feedback": "Aaron lifts his hands with yours."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Daily Bread",
+    "text": "Day by day He fed them all.\nEach morning, mercy from heaven.",
+    "choices": []
+  }
+}

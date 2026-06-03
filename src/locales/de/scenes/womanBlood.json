@@ -1,0 +1,179 @@
+{
+  "start": {
+    "title": "[TODO:de] He Is Passing By",
+    "text": "[TODO:de] The Teacher walks through the press.\nTwelve years of pain ache in you.",
+    "choices": [
+      {
+        "text": "[TODO:de] Stay home, ashamed",
+        "feedback": "[TODO:de] Hope calls you forward."
+      },
+      {
+        "text": "[TODO:de] Slip into the crowd",
+        "feedback": "[TODO:de] Quiet courage rises."
+      },
+      {
+        "text": "[TODO:de] Cry out for coins",
+        "feedback": "[TODO:de] He is your only hope."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:de] Rise and Go",
+    "text": "[TODO:de] Healing waits where he walks.\nDo not be left behind.",
+    "choices": [
+      {
+        "text": "[TODO:de] Slip into the crowd",
+        "feedback": "[TODO:de] You step out."
+      }
+    ]
+  },
+  "coins_consequence": {
+    "title": "[TODO:de] Seek the Healer",
+    "text": "[TODO:de] Silver cannot mend what bleeds.\nOnly he can.",
+    "choices": [
+      {
+        "text": "[TODO:de] Slip into the crowd",
+        "feedback": "[TODO:de] You press in."
+      }
+    ]
+  },
+  "approach": {
+    "title": "[TODO:de] Closer, Closer",
+    "text": "[TODO:de] Shoulders press, eyes do not see you.\nHis robe is near.",
+    "choices": [
+      {
+        "text": "[TODO:de] Call his name aloud",
+        "feedback": "[TODO:de] Faith may move in silence."
+      },
+      {
+        "text": "[TODO:de] Reach in quiet faith",
+        "feedback": "[TODO:de] If only I touch his cloak."
+      }
+    ]
+  },
+  "call_consequence": {
+    "title": "[TODO:de] Believe in Silence",
+    "text": "[TODO:de] Your heart already speaks.\nReach.",
+    "choices": [
+      {
+        "text": "[TODO:de] Reach in quiet faith",
+        "feedback": "[TODO:de] You stretch your hand."
+      }
+    ]
+  },
+  "touch": {
+    "title": "[TODO:de] The Hem",
+    "text": "[TODO:de] Your fingers brush the edge.\nA stillness floods your bones.",
+    "choices": [
+      {
+        "text": "[TODO:de] Pull back in fear",
+        "feedback": "[TODO:de] Something has happened."
+      },
+      {
+        "text": "[TODO:de] Believe you are healed",
+        "feedback": "[TODO:de] Warmth fills your body."
+      },
+      {
+        "text": "[TODO:de] Doubt what you feel",
+        "feedback": "[TODO:de] Trust the touch."
+      }
+    ]
+  },
+  "pull_consequence": {
+    "title": "[TODO:de] It Is Done",
+    "text": "[TODO:de] The bleeding has stopped.\nReceive what he has given.",
+    "choices": [
+      {
+        "text": "[TODO:de] Believe you are healed",
+        "feedback": "[TODO:de] You breathe deep."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:de] Feel the Peace",
+    "text": "[TODO:de] Twelve years of pain are gone.\nThis is grace.",
+    "choices": [
+      {
+        "text": "[TODO:de] Believe you are healed",
+        "feedback": "[TODO:de] Tears fill your eyes."
+      }
+    ]
+  },
+  "healed": {
+    "title": "[TODO:de] Made Whole",
+    "text": "[TODO:de] Strength returns. Light fills you.\nThen he stops walking.",
+    "choices": [
+      {
+        "text": "[TODO:de] Slip away in silence",
+        "feedback": "[TODO:de] He is calling for you."
+      },
+      {
+        "text": "[TODO:de] Stay and listen",
+        "feedback": "[TODO:de] You stand still."
+      }
+    ]
+  },
+  "slip_consequence": {
+    "title": "[TODO:de] Do Not Hide",
+    "text": "[TODO:de] His gaze searches the crowd.\nHe wants to see you.",
+    "choices": [
+      {
+        "text": "[TODO:de] Stay and listen",
+        "feedback": "[TODO:de] You turn back."
+      }
+    ]
+  },
+  "who_touched": {
+    "title": "[TODO:de] Who Touched Me?",
+    "text": "[TODO:de] \"Who touched my garment?\"\nThe disciples shake their heads.",
+    "choices": [
+      {
+        "text": "[TODO:de] Hide behind another",
+        "feedback": "[TODO:de] Step into the light."
+      },
+      {
+        "text": "[TODO:de] Kneel and confess",
+        "feedback": "[TODO:de] You fall at his feet."
+      },
+      {
+        "text": "[TODO:de] Deny it was you",
+        "feedback": "[TODO:de] Truth honours his work."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:de] He Is Gentle",
+    "text": "[TODO:de] There is no anger in him.\nCome forward.",
+    "choices": [
+      {
+        "text": "[TODO:de] Kneel and confess",
+        "feedback": "[TODO:de] You step out."
+      }
+    ]
+  },
+  "deny_consequence": {
+    "title": "[TODO:de] Speak the Truth",
+    "text": "[TODO:de] His mercy welcomes your story.\nDo not be afraid.",
+    "choices": [
+      {
+        "text": "[TODO:de] Kneel and confess",
+        "feedback": "[TODO:de] You bow low."
+      }
+    ]
+  },
+  "confess": {
+    "title": "[TODO:de] Trembling at His Feet",
+    "text": "[TODO:de] You tell him everything.\nThe whole street goes quiet.",
+    "choices": [
+      {
+        "text": "[TODO:de] Wait for his word",
+        "feedback": "[TODO:de] He smiles upon you."
+      }
+    ]
+  },
+  "peace": {
+    "title": "[TODO:de] Daughter, Go in Peace",
+    "text": "[TODO:de] \"Daughter, your faith has healed you.\nGo in peace.\"",
+    "choices": []
+  }
+}

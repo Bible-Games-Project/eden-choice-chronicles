@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "They Come With Questions",
+    "text": "Pharisees draw near in the temple.\nTheir eyes are sharp.",
+    "choices": [
+      {
+        "text": "Stand calmly beside Jesus",
+        "feedback": "Truth has no need to flinch."
+      },
+      {
+        "text": "Run and hide from them",
+        "feedback": "Do not flee from honest light."
+      },
+      {
+        "text": "Shout insults to scare them",
+        "feedback": "Anger is not the answer."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Do Not Hide",
+    "text": "Truth does not run.\nStand and listen.",
+    "choices": [
+      {
+        "text": "Stand calmly beside Jesus",
+        "feedback": "You take your place."
+      }
+    ]
+  },
+  "insult_consequence": {
+    "title": "Lower Your Voice",
+    "text": "Wisdom answers without shouting.\nBe still.",
+    "choices": [
+      {
+        "text": "Stand calmly beside Jesus",
+        "feedback": "You quiet down."
+      }
+    ]
+  },
+  "trap_question": {
+    "title": "Is It Lawful?",
+    "text": "\"Is it lawful to pay tax\nto Caesar, or not?\"",
+    "choices": [
+      {
+        "text": "Shout that taxes are evil",
+        "feedback": "The trap closes on quick answers."
+      },
+      {
+        "text": "Watch Jesus answer in wisdom",
+        "feedback": "He is never trapped."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Wait and Watch",
+    "text": "Loud words feed the trap.\nLet wisdom speak.",
+    "choices": [
+      {
+        "text": "Watch Jesus answer in wisdom",
+        "feedback": "You hold your peace."
+      }
+    ]
+  },
+  "coin": {
+    "title": "Whose Image?",
+    "text": "He lifts a coin. \"Whose face\nand name are on this?\"",
+    "choices": [
+      {
+        "text": "Refuse to even look at it",
+        "feedback": "Look closely, hear closely."
+      },
+      {
+        "text": "Lie that the coin is yours",
+        "feedback": "Truth is the only path."
+      },
+      {
+        "text": "Answer honest: \"Caesar's.\"",
+        "feedback": "He nods, eyes calm."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "See and Hear",
+    "text": "You cannot answer with closed eyes.\nLook again.",
+    "choices": [
+      {
+        "text": "Answer honest: \"Caesar's.\"",
+        "feedback": "You speak truth."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "Speak True",
+    "text": "Lies will not silence them.\nOnly truth will.",
+    "choices": [
+      {
+        "text": "Answer honest: \"Caesar's.\"",
+        "feedback": "Honesty steadies you."
+      }
+    ]
+  },
+  "authority": {
+    "title": "Render to God",
+    "text": "\"Give Caesar what is his,\nand God what is God's.\"",
+    "choices": [
+      {
+        "text": "Mock the wisdom as too clever",
+        "feedback": "Wisdom is not for mocking."
+      },
+      {
+        "text": "Marvel at the clean answer",
+        "feedback": "The trap falls apart."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Honor the Truth",
+    "text": "What you mock you cannot learn.\nReceive it.",
+    "choices": [
+      {
+        "text": "Marvel at the clean answer",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "greatest_commandment": {
+    "title": "Which Is Greatest?",
+    "text": "\"Teacher, which commandment\nin the law is greatest?\"",
+    "choices": [
+      {
+        "text": "Guess the food and feast laws",
+        "feedback": "Those are not the heart."
+      },
+      {
+        "text": "Listen for love of God and man",
+        "feedback": "The whole law in one breath."
+      },
+      {
+        "text": "Refuse to listen at all",
+        "feedback": "Open your ears."
+      }
+    ]
+  },
+  "guess_consequence": {
+    "title": "Listen Deeper",
+    "text": "The greatest is not a small rule.\nIt is love.",
+    "choices": [
+      {
+        "text": "Listen for love of God and man",
+        "feedback": "You hear it now."
+      }
+    ]
+  },
+  "deaf_consequence": {
+    "title": "Hear Him",
+    "text": "Truth knocks gently.\nLet it in.",
+    "choices": [
+      {
+        "text": "Listen for love of God and man",
+        "feedback": "Your ears open."
+      }
+    ]
+  },
+  "hypocrisy": {
+    "title": "Outside Clean",
+    "text": "\"You wash the cup outside,\nbut inside you are full of pride.\"",
+    "choices": [
+      {
+        "text": "Defend the proud men's honor",
+        "feedback": "Do not shield false hearts."
+      },
+      {
+        "text": "Search your own heart honestly",
+        "feedback": "His words search you too."
+      }
+    ]
+  },
+  "defend_consequence": {
+    "title": "Look Within",
+    "text": "He speaks to your heart, too.\nReceive the mirror.",
+    "choices": [
+      {
+        "text": "Search your own heart honestly",
+        "feedback": "You look inside."
+      }
+    ]
+  },
+  "crowd_amazed": {
+    "title": "They Marvel",
+    "text": "The crowd stands still in wonder.\nNo one can trap him.",
+    "choices": [
+      {
+        "text": "Stay silent in awe with them",
+        "feedback": "Wonder is the start of wisdom."
+      },
+      {
+        "text": "Boast that you knew all along",
+        "feedback": "Wonder, not pride, is the path."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Be Humble",
+    "text": "Boasting closes the wonder.\nStand quietly.",
+    "choices": [
+      {
+        "text": "Stay silent in awe with them",
+        "feedback": "You grow still."
+      }
+    ]
+  },
+  "truth_remains": {
+    "title": "Truth Stands",
+    "text": "The Pharisees turn and leave.\nHis words remain in the air.",
+    "choices": [
+      {
+        "text": "Carry his truth in your heart",
+        "feedback": "Truth makes a home in you."
+      },
+      {
+        "text": "Forget it before you go home",
+        "feedback": "Do not let truth slip away."
+      }
+    ]
+  },
+  "forget_consequence": {
+    "title": "Remember",
+    "text": "Truth is a lamp.\nDo not blow it out.",
+    "choices": [
+      {
+        "text": "Carry his truth in your heart",
+        "feedback": "You hold the flame."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Wisdom That Cannot Be Trapped",
+    "text": "Where manipulation is loud,\ntruth remains, quiet and bright.",
+    "choices": []
+  }
+}

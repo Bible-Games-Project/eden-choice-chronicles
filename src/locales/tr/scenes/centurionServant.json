@@ -1,0 +1,155 @@
+{
+  "start": {
+    "title": "[TODO:tr] Your Servant",
+    "text": "[TODO:tr] Your servant lies dying.\nYou hear a teacher is near.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Send for a Roman doctor",
+        "feedback": "[TODO:tr] There is another way."
+      },
+      {
+        "text": "[TODO:tr] Go to find Jesus",
+        "feedback": "[TODO:tr] Hope rises in you."
+      },
+      {
+        "text": "[TODO:tr] Wait and do nothing",
+        "feedback": "[TODO:tr] Time is short."
+      }
+    ]
+  },
+  "doctor_consequence": {
+    "title": "[TODO:tr] Seek the Healer",
+    "text": "[TODO:tr] No skill of Rome can save him.\nOnly Jesus can.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Go to find Jesus",
+        "feedback": "[TODO:tr] You set out."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:tr] Do Not Delay",
+    "text": "[TODO:tr] Mercy passes through your town.\nReach him now.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Go to find Jesus",
+        "feedback": "[TODO:tr] You hurry forward."
+      }
+    ]
+  },
+  "seek": {
+    "title": "[TODO:tr] Before the Teacher",
+    "text": "[TODO:tr] You stand before him.\nA Roman among his people.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Lord, my servant suffers.\"",
+        "feedback": "[TODO:tr] He listens."
+      },
+      {
+        "text": "[TODO:tr] Command him by Rome",
+        "feedback": "[TODO:tr] Not by force."
+      }
+    ]
+  },
+  "command_consequence": {
+    "title": "[TODO:tr] Lay Down Pride",
+    "text": "[TODO:tr] Authority bends here.\nAsk humbly.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Lord, my servant suffers.\"",
+        "feedback": "[TODO:tr] He turns to you."
+      }
+    ]
+  },
+  "agree": {
+    "title": "[TODO:tr] \"I Will Come\"",
+    "text": "[TODO:tr] \"I will come and heal him.\"\nHe steps toward your home.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lead him proudly home",
+        "feedback": "[TODO:tr] Pause and reflect."
+      },
+      {
+        "text": "[TODO:tr] Stop. You are unworthy",
+        "feedback": "[TODO:tr] True humility."
+      }
+    ]
+  },
+  "proud_consequence": {
+    "title": "[TODO:tr] Look Within",
+    "text": "[TODO:tr] Who are you that he should come?\nSpeak the truth.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Stop. You are unworthy",
+        "feedback": "[TODO:tr] You bow your head."
+      }
+    ]
+  },
+  "faith": {
+    "title": "[TODO:tr] Only Say the Word",
+    "text": "[TODO:tr] \"I am not worthy.\"\nWhat will you ask?",
+    "choices": [
+      {
+        "text": "[TODO:tr] Beg him to hurry",
+        "feedback": "[TODO:tr] Trust deeper."
+      },
+      {
+        "text": "[TODO:tr] \"Only say the word.\"",
+        "feedback": "[TODO:tr] Faith without sight."
+      },
+      {
+        "text": "[TODO:tr] Demand a sign first",
+        "feedback": "[TODO:tr] Faith asks no proof."
+      }
+    ]
+  },
+  "hurry_consequence": {
+    "title": "[TODO:tr] Trust His Word",
+    "text": "[TODO:tr] His word alone is enough.\nSpeak it.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Only say the word.\"",
+        "feedback": "[TODO:tr] You believe."
+      }
+    ]
+  },
+  "sign_consequence": {
+    "title": "[TODO:tr] No Proof Needed",
+    "text": "[TODO:tr] Faith does not bargain.\nSpeak from belief.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Only say the word.\"",
+        "feedback": "[TODO:tr] Quiet trust."
+      }
+    ]
+  },
+  "praise": {
+    "title": "[TODO:tr] Such Great Faith",
+    "text": "[TODO:tr] He turns to the crowd amazed.\n\"I have not seen such faith.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Boast before the people",
+        "feedback": "[TODO:tr] Stay humble."
+      },
+      {
+        "text": "[TODO:tr] Bow in silent gratitude",
+        "feedback": "[TODO:tr] Your heart trembles."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:tr] Stay Humble",
+    "text": "[TODO:tr] The glory is not yours.\nBow quietly.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Bow in silent gratitude",
+        "feedback": "[TODO:tr] Peace fills you."
+      }
+    ]
+  },
+  "heal": {
+    "title": "[TODO:tr] Healed From Afar",
+    "text": "[TODO:tr] You return home.\nYour servant breathes deep, well.",
+    "choices": []
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "start": {
+    "title": "[TODO:ar] Return to the Throne",
+    "text": "[TODO:ar] Pharaoh sits cold upon his throne.\nAaron stands at your side.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hide the Lord's command",
+        "feedback": "[TODO:ar] Do not hide His word."
+      },
+      {
+        "text": "[TODO:ar] Cast down the staff before him",
+        "feedback": "[TODO:ar] It twists into a serpent."
+      },
+      {
+        "text": "[TODO:ar] Storm out in anger",
+        "feedback": "[TODO:ar] Stand. Speak the sign."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ar] Speak the Sign",
+    "text": "[TODO:ar] He sent you to show His power.\nDo not silence the Lord here.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Cast down the staff before him",
+        "feedback": "[TODO:ar] Wood becomes living thing."
+      }
+    ]
+  },
+  "storm_consequence": {
+    "title": "[TODO:ar] Do Not Walk Away",
+    "text": "[TODO:ar] Pride will not free your people.\nReturn and obey.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Cast down the staff before him",
+        "feedback": "[TODO:ar] The court gasps."
+      }
+    ]
+  },
+  "serpent_sign": {
+    "title": "[TODO:ar] Magicians Match the Sign",
+    "text": "[TODO:ar] Their staffs become serpents too.\nYet yours devours theirs whole.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Boast over the magicians",
+        "feedback": "[TODO:ar] Glory is His, not yours."
+      },
+      {
+        "text": "[TODO:ar] Demand again: let them go",
+        "feedback": "[TODO:ar] Pharaoh's heart hardens."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ar] Not Your Glory",
+    "text": "[TODO:ar] He alone undid their craft.\nSpeak only what He gave.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Demand again: let them go",
+        "feedback": "[TODO:ar] You bow your head."
+      }
+    ]
+  },
+  "to_the_nile": {
+    "title": "[TODO:ar] Beside the River",
+    "text": "[TODO:ar] Pharaoh comes down to the Nile.\nThe Lord says: strike the water.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Wait for him to ask first",
+        "feedback": "[TODO:ar] Obey now, not later."
+      },
+      {
+        "text": "[TODO:ar] Beg pity from the king",
+        "feedback": "[TODO:ar] It is a sign, not a plea."
+      },
+      {
+        "text": "[TODO:ar] Strike the water with the staff",
+        "feedback": "[TODO:ar] The river runs red."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:ar] Now Is the Hour",
+    "text": "[TODO:ar] His word does not wait on kings.\nLift the staff and strike.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Strike the water with the staff",
+        "feedback": "[TODO:ar] The Nile turns to blood."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:ar] Not a Plea, a Sign",
+    "text": "[TODO:ar] He sent judgment, not a prayer.\nDo what He commanded.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Strike the water with the staff",
+        "feedback": "[TODO:ar] Blood spreads downstream."
+      }
+    ]
+  },
+  "nile_blood": {
+    "title": "[TODO:ar] Seven Days of Blood",
+    "text": "[TODO:ar] Fish die. Egypt cannot drink.\nPharaoh's heart will not bend.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Threaten frogs upon the land",
+        "feedback": "[TODO:ar] He laughs. Then he hears."
+      },
+      {
+        "text": "[TODO:ar] Mock his powerless gods",
+        "feedback": "[TODO:ar] Speak the Lord's word, not yours."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ar] His Word, Not Mockery",
+    "text": "[TODO:ar] Pride does not break a king.\nDeliver the warning given you.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Threaten frogs upon the land",
+        "feedback": "[TODO:ar] You speak it plainly."
+      }
+    ]
+  },
+  "frogs_plague": {
+    "title": "[TODO:ar] Frogs Cover the Land",
+    "text": "[TODO:ar] They fill the houses, ovens, beds.\nPharaoh begs you: \"Pray for me.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Pray as the Lord commanded",
+        "feedback": "[TODO:ar] Tomorrow, he says. Tomorrow."
+      },
+      {
+        "text": "[TODO:ar] Refuse until they go free",
+        "feedback": "[TODO:ar] Mercy is not yours to barter."
+      },
+      {
+        "text": "[TODO:ar] Demand silver for the prayer",
+        "feedback": "[TODO:ar] His mercy is never sold."
+      }
+    ]
+  },
+  "refuse_pray_consequence": {
+    "title": "[TODO:ar] Mercy Is His to Give",
+    "text": "[TODO:ar] When a king begs, you carry it.\nPray as you were told.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Pray as the Lord commanded",
+        "feedback": "[TODO:ar] You lift your hands."
+      }
+    ]
+  },
+  "silver_consequence": {
+    "title": "[TODO:ar] His Mercy Is Free",
+    "text": "[TODO:ar] The Lord asks no payment from you.\nDo not stain His name with greed.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Pray as the Lord commanded",
+        "feedback": "[TODO:ar] You kneel and pray."
+      }
+    ]
+  },
+  "pharaoh_lies": {
+    "title": "[TODO:ar] The First Lie",
+    "text": "[TODO:ar] Frogs die. The land stinks of them.\nPharaoh's heart hardens again.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Despair and turn back",
+        "feedback": "[TODO:ar] He is not finished here."
+      },
+      {
+        "text": "[TODO:ar] Strike the dust: gnats arise",
+        "feedback": "[TODO:ar] Dust becomes biting clouds."
+      }
+    ]
+  },
+  "despair_consequence": {
+    "title": "[TODO:ar] He Is Not Done",
+    "text": "[TODO:ar] His power has only begun to speak.\nLift the staff again.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Strike the dust: gnats arise",
+        "feedback": "[TODO:ar] The dust comes alive."
+      }
+    ]
+  },
+  "swarms": {
+    "title": "[TODO:ar] \"This Is the Finger of God\"",
+    "text": "[TODO:ar] The magicians bow at last.\nBut Pharaoh will not yield.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Boast over the broken sorcerers",
+        "feedback": "[TODO:ar] He humbled them, not you."
+      },
+      {
+        "text": "[TODO:ar] Take pity and stop the signs",
+        "feedback": "[TODO:ar] Mercy is not yours to grant."
+      },
+      {
+        "text": "[TODO:ar] Warn of flies, then livestock",
+        "feedback": "[TODO:ar] Goshen alone is spared."
+      }
+    ]
+  },
+  "boast_again_consequence": {
+    "title": "[TODO:ar] His Finger, Not Yours",
+    "text": "[TODO:ar] It is the Lord they confess.\nDo not steal what is His.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Warn of flies, then livestock",
+        "feedback": "[TODO:ar] You speak the warning given."
+      }
+    ]
+  },
+  "pity_consequence": {
+    "title": "[TODO:ar] Not Yours to Stop",
+    "text": "[TODO:ar] Pharaoh's pride must be broken.\nDeliver each word, in order.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Warn of flies, then livestock",
+        "feedback": "[TODO:ar] You stand firm and speak."
+      }
+    ]
+  },
+  "livestock_die": {
+    "title": "[TODO:ar] Cattle Fall in the Field",
+    "text": "[TODO:ar] All Egypt's herds lie dead in dust.\nIsrael's flocks graze unharmed.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Throw soot toward the sky",
+        "feedback": "[TODO:ar] Boils break out on every man."
+      },
+      {
+        "text": "[TODO:ar] Hide from Pharaoh's wrath",
+        "feedback": "[TODO:ar] He sent you back. Stand."
+      }
+    ]
+  },
+  "hide_wrath_consequence": {
+    "title": "[TODO:ar] Do Not Hide",
+    "text": "[TODO:ar] He goes before you into the court.\nTake the soot and obey.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Throw soot toward the sky",
+        "feedback": "[TODO:ar] The wind carries it far."
+      }
+    ]
+  },
+  "boils_plague": {
+    "title": "[TODO:ar] Boils on Every Man",
+    "text": "[TODO:ar] Even the magicians cannot stand.\nStill Pharaoh's heart is iron.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Curse the king to his face",
+        "feedback": "[TODO:ar] Speak the warning, not curses."
+      },
+      {
+        "text": "[TODO:ar] Warn of hail and fire from sky",
+        "feedback": "[TODO:ar] Some servants believe and hide."
+      },
+      {
+        "text": "[TODO:ar] Give up. Return to Midian.",
+        "feedback": "[TODO:ar] There is no road back now."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ar] His Word, Not Yours",
+    "text": "[TODO:ar] Judgment belongs to the Lord.\nDeliver the next warning given.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Warn of hail and fire from sky",
+        "feedback": "[TODO:ar] You speak the word."
+      }
+    ]
+  },
+  "give_up_consequence": {
+    "title": "[TODO:ar] There Is No Going Back",
+    "text": "[TODO:ar] He has set you on this road.\nWalk it to the end.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Warn of hail and fire from sky",
+        "feedback": "[TODO:ar] You straighten and speak."
+      }
+    ]
+  },
+  "hail_fire": {
+    "title": "[TODO:ar] Fire Walks With the Hail",
+    "text": "[TODO:ar] Crops, beasts, and trees are shattered.\nPharaoh cries: \"I have sinned.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Trust the king's confession",
+        "feedback": "[TODO:ar] He will lie again. Be ready."
+      },
+      {
+        "text": "[TODO:ar] Pray, knowing he will turn",
+        "feedback": "[TODO:ar] The storm stops. So does he."
+      }
+    ]
+  },
+  "trust_consequence": {
+    "title": "[TODO:ar] Pray, but Know His Heart",
+    "text": "[TODO:ar] Mercy still answers, even here.\nPray, and watch what he does.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Pray, knowing he will turn",
+        "feedback": "[TODO:ar] You lift your hands."
+      }
+    ]
+  },
+  "locusts_warning": {
+    "title": "[TODO:ar] Locusts Strip the Land",
+    "text": "[TODO:ar] What hail left, the locusts eat.\nPharaoh's own court pleads with him.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Side with his frightened servants",
+        "feedback": "[TODO:ar] Speak only to Pharaoh, plainly."
+      },
+      {
+        "text": "[TODO:ar] Refuse Pharaoh's half-measures",
+        "feedback": "[TODO:ar] All Israel must go, with all."
+      },
+      {
+        "text": "[TODO:ar] Accept his offer to free some",
+        "feedback": "[TODO:ar] Not one hoof stays behind."
+      }
+    ]
+  },
+  "side_servants_consequence": {
+    "title": "[TODO:ar] To the King Alone",
+    "text": "[TODO:ar] Speak the Lord's word to Pharaoh.\nLet his servants hear it through him.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Refuse Pharaoh's half-measures",
+        "feedback": "[TODO:ar] You hold the line."
+      }
+    ]
+  },
+  "accept_consequence": {
+    "title": "[TODO:ar] Not One Will Stay",
+    "text": "[TODO:ar] All the people. All their flocks.\nThat was the Lord's word.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Refuse Pharaoh's half-measures",
+        "feedback": "[TODO:ar] You hold the line."
+      }
+    ]
+  },
+  "darkness": {
+    "title": "[TODO:ar] Three Days of Darkness",
+    "text": "[TODO:ar] No man rises. No fire is seen.\nIn Goshen, lamps still burn warm.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Steal from Egypt in the dark",
+        "feedback": "[TODO:ar] He will give them favor in time."
+      },
+      {
+        "text": "[TODO:ar] Wait quietly with your people",
+        "feedback": "[TODO:ar] Israel rests in Goshen's light."
+      }
+    ]
+  },
+  "steal_consequence": {
+    "title": "[TODO:ar] He Will Provide",
+    "text": "[TODO:ar] What is given is better than stolen.\nWait for His hand to act.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Wait quietly with your people",
+        "feedback": "[TODO:ar] You sit by the fire."
+      }
+    ]
+  },
+  "final_threat": {
+    "title": "[TODO:ar] \"Never See My Face Again\"",
+    "text": "[TODO:ar] Pharaoh banishes you in fury.\nOne plague remains, the worst of all.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Beg him to reconsider",
+        "feedback": "[TODO:ar] His heart is set in stone."
+      },
+      {
+        "text": "[TODO:ar] Boast of victory now",
+        "feedback": "[TODO:ar] It is not yet finished."
+      },
+      {
+        "text": "[TODO:ar] Warn of the firstborn at midnight",
+        "feedback": "[TODO:ar] You leave the hall in flame."
+      }
+    ]
+  },
+  "beg_again_consequence": {
+    "title": "[TODO:ar] Speak the Last Word",
+    "text": "[TODO:ar] He will not hear pleas now.\nDeliver the final warning.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Warn of the firstborn at midnight",
+        "feedback": "[TODO:ar] Your voice shakes the hall."
+      }
+    ]
+  },
+  "victory_consequence": {
+    "title": "[TODO:ar] Not Yet",
+    "text": "[TODO:ar] The deepest hour is still to come.\nDeliver the warning given.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Warn of the firstborn at midnight",
+        "feedback": "[TODO:ar] You speak it plainly."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ar] Toward the Night",
+    "text": "[TODO:ar] Egypt is broken. Israel waits.\nThe last and longest night draws near.",
+    "choices": []
+  }
+}

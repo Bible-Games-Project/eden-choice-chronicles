@@ -1,0 +1,161 @@
+{
+  "start": {
+    "title": "By the Shore",
+    "text": "The Teacher steps from the boat.\nYour daughter is dying at home.",
+    "choices": [
+      {
+        "text": "Send a servant instead",
+        "feedback": "Go to him yourself."
+      },
+      {
+        "text": "Hide your need from him",
+        "feedback": "He came for the broken."
+      },
+      {
+        "text": "Fall at his feet, beg",
+        "feedback": "Humble faith opens heaven."
+      }
+    ]
+  },
+  "servant_consequence": {
+    "title": "Go Yourself",
+    "text": "No one else can carry your hope.\nKneel before him.",
+    "choices": [
+      {
+        "text": "Fall at his feet, beg",
+        "feedback": "You bow low."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Open Your Heart",
+    "text": "He already sees your sorrow.\nSpeak it aloud.",
+    "choices": [
+      {
+        "text": "Fall at his feet, beg",
+        "feedback": "Tears fall."
+      }
+    ]
+  },
+  "plea": {
+    "title": "Come, Lay Your Hand",
+    "text": "\"My little daughter is dying.\nCome, and she will live.\"",
+    "choices": [
+      {
+        "text": "Walk with him through town",
+        "feedback": "He comes with you."
+      }
+    ]
+  },
+  "journey": {
+    "title": "Through the Crowd",
+    "text": "Streets press tight. He stops walking.\nMinutes feel like years.",
+    "choices": [
+      {
+        "text": "Push him to hurry",
+        "feedback": "Trust his timing."
+      },
+      {
+        "text": "Wait beside him quietly",
+        "feedback": "You breathe slow."
+      }
+    ]
+  },
+  "push_consequence": {
+    "title": "He Knows the Hour",
+    "text": "His pace is mercy, not delay.\nStand close.",
+    "choices": [
+      {
+        "text": "Wait beside him quietly",
+        "feedback": "Peace settles."
+      }
+    ]
+  },
+  "news": {
+    "title": "She Is Dead",
+    "text": "A servant arrives, eyes wet.\n\"Trouble the Teacher no more.\"",
+    "choices": [
+      {
+        "text": "Turn away in despair",
+        "feedback": "Do not be afraid."
+      },
+      {
+        "text": "Believe, even now",
+        "feedback": "Only believe."
+      },
+      {
+        "text": "Blame him for delay",
+        "feedback": "He is not finished."
+      }
+    ]
+  },
+  "despair_consequence": {
+    "title": "Only Believe",
+    "text": "His voice steadies your knees.\n\"Do not fear. Only believe.\"",
+    "choices": [
+      {
+        "text": "Believe, even now",
+        "feedback": "Faith rises."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "He Hears You",
+    "text": "His eyes hold no offense.\nOnly invitation.",
+    "choices": [
+      {
+        "text": "Believe, even now",
+        "feedback": "You nod."
+      }
+    ]
+  },
+  "encourage": {
+    "title": "Do Not Fear",
+    "text": "\"Do not be afraid. Only believe.\"\nHis hand rests on your shoulder.",
+    "choices": [
+      {
+        "text": "Lead him to the house",
+        "feedback": "Each step is faith."
+      }
+    ]
+  },
+  "room": {
+    "title": "The Quiet Room",
+    "text": "Mourners wail. He sends them out.\n\"She is only sleeping.\"",
+    "choices": [
+      {
+        "text": "Argue with his words",
+        "feedback": "Watch and see."
+      },
+      {
+        "text": "Stay close and trust",
+        "feedback": "You stand by him."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Be Still",
+    "text": "His calm answers your doubt.\nWatch him.",
+    "choices": [
+      {
+        "text": "Stay close and trust",
+        "feedback": "You step nearer."
+      }
+    ]
+  },
+  "raise": {
+    "title": "Talitha Koum",
+    "text": "He takes her small hand.\n\"Little girl, I say, arise.\"",
+    "choices": [
+      {
+        "text": "Watch in silent awe",
+        "feedback": "Her eyes open."
+      }
+    ]
+  },
+  "joy": {
+    "title": "She Rises",
+    "text": "She sits up, breathing, smiling.\nHe says, \"Give her something to eat.\"",
+    "choices": []
+  }
+}

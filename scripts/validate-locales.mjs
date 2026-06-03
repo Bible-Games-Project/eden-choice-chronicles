@@ -69,6 +69,14 @@ const sourceFiles = walkJson(sourceDir);
 
 let errors = 0;
 const report = [];
+let totalKeys = 0;
+let totalPlaceholders = 0;
+
+// First pass: count total keys in source
+for (const rel of sourceFiles) {
+  const srcKeys = Object.keys(flatten(loadJson(join(sourceDir, rel))));
+  totalKeys += srcKeys.length;
+}
 
 for (const lang of langs) {
   if (lang === SOURCE_LANG) continue;
@@ -84,7 +92,8 @@ for (const lang of langs) {
       continue;
     }
 
-    const tgtKeys = new Set(Object.keys(flatten(loadJson(join(langDir, rel)))));
+    const tgtFlat = flatten(loadJson(join(langDir, rel)));
+    const tgtKeys = new Set(Object.keys(tgtFlat));
     const missing = srcKeys.filter((k) => !tgtKeys.has(k));
     const extra = [...tgtKeys].filter((k) => !srcKeys.includes(k));
 
@@ -98,6 +107,38 @@ for (const lang of langs) {
       extra.forEach((k) => report.push(`    + ${k}`));
       errors += extra.length;
     }
+
+    // Check for empty values and TODO placeholders
+    const issues = Object.entries(tgtFlat)
+      .filter(([_, value]) => {
+        if (typeof value !== "string") return false;
+        const val = value.trim();
+        // Empty or contains [TODO (case-insensitive)
+        return val === "" || /\[todo/i.test(val);
+      })
+      .map(([key, value]) => {
+        const val = value.trim();
+        if (val === "") return { key, issue: "empty" };
+        return { key, issue: "untranslated" };
+      });
+
+    if (issues.length > 0) {
+      const empty = issues.filter(i => i.issue === "empty");
+      const untranslated = issues.filter(i => i.issue === "untranslated");
+      
+      if (empty.length > 0) {
+        report.push(`[${lang}] ${rel} — ${empty.length} empty value(s):`);
+        empty.forEach(({ key }) => report.push(`    ✗ ${key} (empty string)`));
+        errors += empty.length;
+      }
+      
+      if (untranslated.length > 0) {
+        totalPlaceholders += untranslated.length;
+        report.push(`[${lang}] ${rel} — ${untranslated.length} untranslated placeholder(s):`);
+        untranslated.forEach(({ key }) => report.push(`    ⚠ ${key}`));
+        errors += untranslated.length;
+      }
+    }
   }
 
   // Extra files in target not in source
@@ -110,10 +151,10 @@ for (const lang of langs) {
 }
 
 if (errors === 0) {
-  console.log(`✓ All ${langs.length - 1} locales match "${SOURCE_LANG}" (${sourceFiles.length} file(s)).`);
+  console.log(`✓ All ${langs.length - 1} locales match "${SOURCE_LANG}" (${sourceFiles.length} file(s), ${totalKeys.toLocaleString()} strings).`);
   process.exit(0);
 } else {
   console.error(report.join("\n"));
-  console.error(`\n✖ ${errors} discrepancy/discrepancies found across locales.`);
+  console.error(`\n✖ ${errors} issue(s) found across locales (${totalPlaceholders} untranslated placeholders).`);
   process.exit(1);
 }

@@ -1,0 +1,155 @@
+{
+  "start": {
+    "title": "The Long Road",
+    "text": "Mary rests against the donkey at dusk.\nThe road to Bethlehem stretches on.",
+    "choices": [
+      {
+        "text": "Push on through the night",
+        "feedback": "She needs gentleness, not haste."
+      },
+      {
+        "text": "Walk beside her in care",
+        "feedback": "Your hand steadies her."
+      },
+      {
+        "text": "Turn back to Nazareth",
+        "feedback": "The decree must be obeyed."
+      }
+    ]
+  },
+  "push_consequence": {
+    "title": "Slow Your Step",
+    "text": "She winces with the child within.\nMatch her pace, not your own.",
+    "choices": [
+      {
+        "text": "Walk beside her in care",
+        "feedback": "You slow your stride."
+      }
+    ]
+  },
+  "turnback_consequence": {
+    "title": "The Path Forward",
+    "text": "Heaven has chosen this road.\nKeep walking with her.",
+    "choices": [
+      {
+        "text": "Walk beside her in care",
+        "feedback": "You face the road ahead."
+      }
+    ]
+  },
+  "bethlehem": {
+    "title": "Lamps of Bethlehem",
+    "text": "The town is full for the census.\nHer time draws near.",
+    "choices": [
+      {
+        "text": "Demand a room with force",
+        "feedback": "Force will open no door tonight."
+      },
+      {
+        "text": "Ask the innkeeper humbly",
+        "feedback": "Humility opens what pride cannot."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Soften Your Voice",
+    "text": "Anger turns the doors away.\nApproach the keeper in peace.",
+    "choices": [
+      {
+        "text": "Ask the innkeeper humbly",
+        "feedback": "You bow your head and ask."
+      }
+    ]
+  },
+  "inn": {
+    "title": "No Room for You",
+    "text": "\"There is no room here, traveler.\nOnly the stable behind remains.\"",
+    "choices": [
+      {
+        "text": "Sleep in the cold street",
+        "feedback": "The night will be too harsh."
+      },
+      {
+        "text": "Accept the humble stable",
+        "feedback": "Heaven prepared this place."
+      },
+      {
+        "text": "Argue and shout in anger",
+        "feedback": "Quiet your spirit."
+      }
+    ]
+  },
+  "street_consequence": {
+    "title": "Shelter Is Offered",
+    "text": "The wind is cold and bitter.\nA stable waits behind the inn.",
+    "choices": [
+      {
+        "text": "Accept the humble stable",
+        "feedback": "You guide her behind the inn."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Receive the Gift",
+    "text": "Even a stable is a kindness tonight.\nReceive what is given.",
+    "choices": [
+      {
+        "text": "Accept the humble stable",
+        "feedback": "You nod in quiet thanks."
+      }
+    ]
+  },
+  "stable": {
+    "title": "A Quiet Stable",
+    "text": "Hay, lamplight, and gentle breath.\nMary settles against the wall.",
+    "choices": [
+      {
+        "text": "Complain of the place",
+        "feedback": "Heaven kneels in low places."
+      },
+      {
+        "text": "Prepare a place with hay",
+        "feedback": "Your hands make ready."
+      }
+    ]
+  },
+  "complain_consequence": {
+    "title": "See the Beauty",
+    "text": "This humble shelter is enough.\nReady the place with care.",
+    "choices": [
+      {
+        "text": "Prepare a place with hay",
+        "feedback": "You gather the hay."
+      }
+    ]
+  },
+  "birth": {
+    "title": "Her Time Has Come",
+    "text": "A soft cry rises through the night.\nThe child is born.",
+    "choices": [
+      {
+        "text": "Run for help to strangers",
+        "feedback": "She needs you here."
+      },
+      {
+        "text": "Stand silent in awe",
+        "feedback": "Heaven has come near."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "Stay With Them",
+    "text": "This moment is yours to hold.\nReturn to her side.",
+    "choices": [
+      {
+        "text": "Stand silent in awe",
+        "feedback": "You kneel beside them."
+      }
+    ]
+  },
+  "manger": {
+    "title": "Wrapped in Quiet",
+    "text": "She lays him in the manger.\nThe world is still — and all is well.",
+    "choices": []
+  }
+}

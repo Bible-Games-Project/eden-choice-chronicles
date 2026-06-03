@@ -1,0 +1,213 @@
+{
+  "start": {
+    "title": "Jacob's Well",
+    "text": "Jesus rests by Jacob's well at noon,\nweary from the long road.",
+    "choices": [
+      {
+        "text": "Walk past, avoiding the stranger",
+        "feedback": "Truth waits for the open heart."
+      },
+      {
+        "text": "Draw near with your water jar",
+        "feedback": "You step into the sunlight."
+      }
+    ]
+  },
+  "avoid_consequence": {
+    "title": "Come Near",
+    "text": "He is not a stranger to be feared.\nDraw near in peace.",
+    "choices": [
+      {
+        "text": "Draw near with your water jar",
+        "feedback": "You turn back toward him."
+      }
+    ]
+  },
+  "drink_request": {
+    "title": "Give Me a Drink",
+    "text": "\"Give me a drink,\" he says softly.\nA Jew speaks kindly to a Samaritan.",
+    "choices": [
+      {
+        "text": "Offer water with quiet grace",
+        "feedback": "Kindness opens the way."
+      },
+      {
+        "text": "Refuse, citing old divisions",
+        "feedback": "Love crosses old walls."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Bridge the Wall",
+    "text": "He asks not as enemy but as friend.\nLet kindness answer.",
+    "choices": [
+      {
+        "text": "Offer water with quiet grace",
+        "feedback": "You let the wall fall."
+      }
+    ]
+  },
+  "living_water": {
+    "title": "Living Water",
+    "text": "\"If you knew the gift of God,\nyou would ask, and he would give living water.\"",
+    "choices": [
+      {
+        "text": "Laugh at strange-sounding words",
+        "feedback": "Listen before you laugh."
+      },
+      {
+        "text": "Ask gently what he means",
+        "feedback": "A humble question opens truth."
+      },
+      {
+        "text": "Demand he prove it now",
+        "feedback": "Trust comes before sight."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Be Humble",
+    "text": "His words run deeper than they seem.\nAsk and learn.",
+    "choices": [
+      {
+        "text": "Ask gently what he means",
+        "feedback": "You set pride aside."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Listen First",
+    "text": "He gives to those who simply ask.\nSpeak softly.",
+    "choices": [
+      {
+        "text": "Ask gently what he means",
+        "feedback": "Your voice quiets."
+      }
+    ]
+  },
+  "thirst": {
+    "title": "A Deeper Thirst",
+    "text": "\"This water leaves you thirsty again.\nMine becomes a spring of life.\"",
+    "choices": [
+      {
+        "text": "Want only the well's water",
+        "feedback": "Reach for the deeper gift."
+      },
+      {
+        "text": "Ask him for this living water",
+        "feedback": "Your soul leans toward life."
+      }
+    ]
+  },
+  "well_consequence": {
+    "title": "Reach Higher",
+    "text": "Stone wells run dry in time.\nAsk for the spring that never fails.",
+    "choices": [
+      {
+        "text": "Ask him for this living water",
+        "feedback": "You ask quietly."
+      }
+    ]
+  },
+  "husband": {
+    "title": "He Knows You",
+    "text": "He speaks of your life as if he saw it.\nNothing is hidden from him.",
+    "choices": [
+      {
+        "text": "Run from his honest gaze",
+        "feedback": "He sees you and stays."
+      },
+      {
+        "text": "Stand and answer truthfully",
+        "feedback": "Truth meets truth."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "Stay With Him",
+    "text": "His knowing is gentle, not shaming.\nStay and be seen.",
+    "choices": [
+      {
+        "text": "Stand and answer truthfully",
+        "feedback": "You stay where you are."
+      }
+    ]
+  },
+  "worship": {
+    "title": "Spirit and Truth",
+    "text": "\"True worshippers will worship the Father\nin spirit and in truth.\"",
+    "choices": [
+      {
+        "text": "Argue over the right mountain",
+        "feedback": "Place is not the point."
+      },
+      {
+        "text": "Open your heart to worship",
+        "feedback": "Worship rises within you."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Lift Your Heart",
+    "text": "Spirit and truth need no temple wall.\nWorship from within.",
+    "choices": [
+      {
+        "text": "Open your heart to worship",
+        "feedback": "Your heart lifts."
+      }
+    ]
+  },
+  "messiah": {
+    "title": "I Am He",
+    "text": "\"I who speak to you,\" he says, \"am he.\"\nThe Messiah stands before you.",
+    "choices": [
+      {
+        "text": "Doubt and turn away",
+        "feedback": "Trust what your heart knows."
+      },
+      {
+        "text": "Believe him with quiet awe",
+        "feedback": "Light fills your chest."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "Trust the Light",
+    "text": "His words match the deepest hope.\nBelieve him.",
+    "choices": [
+      {
+        "text": "Believe him with quiet awe",
+        "feedback": "Awe steadies you."
+      }
+    ]
+  },
+  "village": {
+    "title": "Tell the Village",
+    "text": "You leave the jar behind and run home.\nThis news cannot wait.",
+    "choices": [
+      {
+        "text": "Keep the secret to yourself",
+        "feedback": "Joy is meant to be shared."
+      },
+      {
+        "text": "Call your neighbors to come",
+        "feedback": "Your voice rings out."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Share the Gift",
+    "text": "Living water overflows to others.\nLet your village come.",
+    "choices": [
+      {
+        "text": "Call your neighbors to come",
+        "feedback": "You call them gladly."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Come and See",
+    "text": "Villagers walk toward Jesus together.\n\"Come and see,\" you say.",
+    "choices": []
+  }
+}

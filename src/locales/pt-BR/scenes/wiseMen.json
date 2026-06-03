@@ -1,0 +1,197 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] A New Star",
+    "text": "[TODO:pt-BR] A bright star rises in the east.\nIt shines unlike any other.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Ignore it as nothing",
+        "feedback": "[TODO:pt-BR] Heaven speaks through this sign."
+      },
+      {
+        "text": "[TODO:pt-BR] Search the ancient prophecies",
+        "feedback": "[TODO:pt-BR] A king is born in Judea."
+      },
+      {
+        "text": "[TODO:pt-BR] Fear it as an omen",
+        "feedback": "[TODO:pt-BR] It is a sign of joy, not dread."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:pt-BR] Look Again",
+    "text": "[TODO:pt-BR] The star will not be hidden.\nIt calls you onward.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Search the ancient prophecies",
+        "feedback": "[TODO:pt-BR] The scrolls reveal a king."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "[TODO:pt-BR] Take Heart",
+    "text": "[TODO:pt-BR] This light brings hope.\nFollow where it leads.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Search the ancient prophecies",
+        "feedback": "[TODO:pt-BR] Your heart settles."
+      }
+    ]
+  },
+  "journey": {
+    "title": "[TODO:pt-BR] The Long Road",
+    "text": "[TODO:pt-BR] You ride west across endless dunes.\nThe star moves before you.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Turn back, the road is hard",
+        "feedback": "[TODO:pt-BR] Do not lose heart."
+      },
+      {
+        "text": "[TODO:pt-BR] Press on toward Jerusalem",
+        "feedback": "[TODO:pt-BR] Your camels will not falter."
+      },
+      {
+        "text": "[TODO:pt-BR] Seek a king's palace first",
+        "feedback": "[TODO:pt-BR] A king must dwell with kings."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:pt-BR] Forward Still",
+    "text": "[TODO:pt-BR] The promise lies ahead.\nDo not turn from it now.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Press on toward Jerusalem",
+        "feedback": "[TODO:pt-BR] You spur your camel on."
+      }
+    ]
+  },
+  "herod": {
+    "title": "[TODO:pt-BR] Before Herod",
+    "text": "[TODO:pt-BR] \"Where is the newborn King of the Jews?\"\nHerod's eyes grow cold.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Swear loyalty to Herod alone",
+        "feedback": "[TODO:pt-BR] Only one King is worthy."
+      },
+      {
+        "text": "[TODO:pt-BR] Listen to the priests' answer",
+        "feedback": "[TODO:pt-BR] Bethlehem, the prophets say."
+      }
+    ]
+  },
+  "loyalty_consequence": {
+    "title": "[TODO:pt-BR] One True King",
+    "text": "[TODO:pt-BR] Herod is not the One you seek.\nKeep your eyes on the star.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Listen to the priests' answer",
+        "feedback": "[TODO:pt-BR] Bethlehem awaits."
+      }
+    ]
+  },
+  "bethlehem": {
+    "title": "[TODO:pt-BR] The Star Stops",
+    "text": "[TODO:pt-BR] The star halts above a humble house.\nHere, the King is found.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Doubt — this cannot be the place",
+        "feedback": "[TODO:pt-BR] Heaven points here."
+      },
+      {
+        "text": "[TODO:pt-BR] Knock and enter with reverence",
+        "feedback": "[TODO:pt-BR] Your hand trembles at the door."
+      },
+      {
+        "text": "[TODO:pt-BR] Wait outside until morning",
+        "feedback": "[TODO:pt-BR] The King receives you now."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:pt-BR] Trust the Sign",
+    "text": "[TODO:pt-BR] The star itself has led you here.\nBelieve and enter.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Knock and enter with reverence",
+        "feedback": "[TODO:pt-BR] You step inside the warm light."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:pt-BR] Enter Now",
+    "text": "[TODO:pt-BR] Do not delay before the King.\nHe waits within.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Knock and enter with reverence",
+        "feedback": "[TODO:pt-BR] You cross the threshold."
+      }
+    ]
+  },
+  "worship": {
+    "title": "[TODO:pt-BR] Gold, Frankincense, Myrrh",
+    "text": "[TODO:pt-BR] The child meets your eyes.\nYou kneel and open your treasures.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Keep the finest gifts for yourself",
+        "feedback": "[TODO:pt-BR] He is worthy of all."
+      },
+      {
+        "text": "[TODO:pt-BR] Offer all three gifts to the child",
+        "feedback": "[TODO:pt-BR] Your heart bows with the gifts."
+      }
+    ]
+  },
+  "greed_consequence": {
+    "title": "[TODO:pt-BR] Give All",
+    "text": "[TODO:pt-BR] He is the King of kings.\nHold nothing back.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Offer all three gifts to the child",
+        "feedback": "[TODO:pt-BR] You place each gift before him."
+      }
+    ]
+  },
+  "dream": {
+    "title": "[TODO:pt-BR] A Warning in Sleep",
+    "text": "[TODO:pt-BR] In a dream you are warned:\n\"Do not return to Herod.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Return to Herod as promised",
+        "feedback": "[TODO:pt-BR] Heaven has spoken."
+      },
+      {
+        "text": "[TODO:pt-BR] Take another road home",
+        "feedback": "[TODO:pt-BR] You obey the holy warning."
+      },
+      {
+        "text": "[TODO:pt-BR] Stay hidden in Bethlehem",
+        "feedback": "[TODO:pt-BR] Your road lies east again."
+      }
+    ]
+  },
+  "betray_consequence": {
+    "title": "[TODO:pt-BR] Obey the Dream",
+    "text": "[TODO:pt-BR] Herod plots against the child.\nDo not lead him to the King.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Take another road home",
+        "feedback": "[TODO:pt-BR] You turn from Herod's road."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:pt-BR] Go Home",
+    "text": "[TODO:pt-BR] Your task here is fulfilled.\nReturn by another way.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Take another road home",
+        "feedback": "[TODO:pt-BR] You set out at first light."
+      }
+    ]
+  },
+  "return": {
+    "title": "[TODO:pt-BR] Another Road",
+    "text": "[TODO:pt-BR] You ride east as dawn breaks.\nYou have seen the King.",
+    "choices": []
+  }
+}

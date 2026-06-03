@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "[TODO:it] Walking Away",
+    "text": "[TODO:it] You and your friend leave the city.\nHope has died on a Roman cross.",
+    "choices": [
+      {
+        "text": "[TODO:it] Argue God has abandoned you",
+        "feedback": "[TODO:it] Despair is not the last word."
+      },
+      {
+        "text": "[TODO:it] Walk in silent shared grief",
+        "feedback": "[TODO:it] Each step weighs heavy."
+      },
+      {
+        "text": "[TODO:it] Boast you saw it coming",
+        "feedback": "[TODO:it] Pride blinds the heart."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:it] Not Abandoned",
+    "text": "[TODO:it] Sorrow speaks loudly, but listen.\nWalk on. The road is not done.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk in silent shared grief",
+        "feedback": "[TODO:it] You quiet your voice."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:it] Not Pride",
+    "text": "[TODO:it] No one foresaw this morning.\nWalk simply. Carry the grief.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk in silent shared grief",
+        "feedback": "[TODO:it] Your shoulders soften."
+      }
+    ]
+  },
+  "stranger_joins": {
+    "title": "[TODO:it] A Quiet Traveler",
+    "text": "[TODO:it] A stranger falls in step beside you.\n\"What are you discussing?\" he asks.",
+    "choices": [
+      {
+        "text": "[TODO:it] Refuse to speak to him",
+        "feedback": "[TODO:it] Welcome the stranger."
+      },
+      {
+        "text": "[TODO:it] Mock his ignorance of events",
+        "feedback": "[TODO:it] Speak gently, not sharply."
+      },
+      {
+        "text": "[TODO:it] Stop and share your sorrow",
+        "feedback": "[TODO:it] You turn to face him."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:it] Welcome Him",
+    "text": "[TODO:it] A road shared is grief halved.\nSpeak. The stranger listens.",
+    "choices": [
+      {
+        "text": "[TODO:it] Stop and share your sorrow",
+        "feedback": "[TODO:it] You open your hands."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:it] Not Mockery",
+    "text": "[TODO:it] He has asked in kindness.\nAnswer him in kind.",
+    "choices": [
+      {
+        "text": "[TODO:it] Stop and share your sorrow",
+        "feedback": "[TODO:it] Your tone softens."
+      }
+    ]
+  },
+  "share_grief": {
+    "title": "[TODO:it] Concerning Jesus",
+    "text": "[TODO:it] \"He was a prophet, mighty in word.\nThey crucified Him. We had hoped...\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Speak with honest heartbreak",
+        "feedback": "[TODO:it] Truth pours from your lips."
+      },
+      {
+        "text": "[TODO:it] Blame the women for the rumor",
+        "feedback": "[TODO:it] They told what they saw."
+      },
+      {
+        "text": "[TODO:it] Cut the story short in shame",
+        "feedback": "[TODO:it] Tell it whole. He is listening."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:it] Do Not Blame",
+    "text": "[TODO:it] The women carried only what they saw.\nTell the story whole.",
+    "choices": [
+      {
+        "text": "[TODO:it] Speak with honest heartbreak",
+        "feedback": "[TODO:it] You finish the telling."
+      }
+    ]
+  },
+  "short_consequence": {
+    "title": "[TODO:it] Tell It All",
+    "text": "[TODO:it] Hide nothing from this stranger.\nHe is more present than you know.",
+    "choices": [
+      {
+        "text": "[TODO:it] Speak with honest heartbreak",
+        "feedback": "[TODO:it] You let the words come."
+      }
+    ]
+  },
+  "scripture": {
+    "title": "[TODO:it] Foolish and Slow",
+    "text": "[TODO:it] \"Did the Christ not have to suffer\nand so enter into His glory?\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Take offense at his words",
+        "feedback": "[TODO:it] He speaks for your sake."
+      },
+      {
+        "text": "[TODO:it] Interrupt to correct him",
+        "feedback": "[TODO:it] Listen. He knows more."
+      },
+      {
+        "text": "[TODO:it] Lean in and listen closely",
+        "feedback": "[TODO:it] Moses, the prophets, all unfold."
+      }
+    ]
+  },
+  "offense_consequence": {
+    "title": "[TODO:it] Not Offense",
+    "text": "[TODO:it] His sharpness is the surgeon's blade.\nReceive it. It is healing you.",
+    "choices": [
+      {
+        "text": "[TODO:it] Lean in and listen closely",
+        "feedback": "[TODO:it] You quiet your pride."
+      }
+    ]
+  },
+  "interrupt_consequence": {
+    "title": "[TODO:it] Be Still",
+    "text": "[TODO:it] You do not yet see what he sees.\nLet him finish. Then you will know.",
+    "choices": [
+      {
+        "text": "[TODO:it] Lean in and listen closely",
+        "feedback": "[TODO:it] You hold your tongue."
+      }
+    ]
+  },
+  "burning_hearts": {
+    "title": "[TODO:it] Hearts Aflame",
+    "text": "[TODO:it] Something kindles inside your chest.\nYou cannot name it, but it burns.",
+    "choices": [
+      {
+        "text": "[TODO:it] Distrust the feeling and stop",
+        "feedback": "[TODO:it] Let the fire keep burning."
+      },
+      {
+        "text": "[TODO:it] Listen with your whole heart",
+        "feedback": "[TODO:it] The road becomes holy ground."
+      },
+      {
+        "text": "[TODO:it] Demand he explain himself",
+        "feedback": "[TODO:it] Receive first. Question later."
+      }
+    ]
+  },
+  "distrust_consequence": {
+    "title": "[TODO:it] Trust the Fire",
+    "text": "[TODO:it] Your heart knows before your mind.\nLet it lead you forward.",
+    "choices": [
+      {
+        "text": "[TODO:it] Listen with your whole heart",
+        "feedback": "[TODO:it] Warmth fills your chest."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:it] Not Demand",
+    "text": "[TODO:it] Heaven does not yield to demand.\nReceive softly. Be carried.",
+    "choices": [
+      {
+        "text": "[TODO:it] Listen with your whole heart",
+        "feedback": "[TODO:it] You lower your guard."
+      }
+    ]
+  },
+  "invite_stay": {
+    "title": "[TODO:it] Emmaus Village",
+    "text": "[TODO:it] The village nears. He acts as if to go on.\nThe sun sinks low.",
+    "choices": [
+      {
+        "text": "[TODO:it] Let him walk on alone",
+        "feedback": "[TODO:it] Do not lose this stranger."
+      },
+      {
+        "text": "[TODO:it] Urge him, \"Stay with us.\"",
+        "feedback": "[TODO:it] He turns and follows you in."
+      },
+      {
+        "text": "[TODO:it] Charge him for your company",
+        "feedback": "[TODO:it] Hospitality is free."
+      }
+    ]
+  },
+  "letgo_consequence": {
+    "title": "[TODO:it] Do Not Lose Him",
+    "text": "[TODO:it] Some moments must be held.\nCall him back. Beg him to stay.",
+    "choices": [
+      {
+        "text": "[TODO:it] Urge him, \"Stay with us.\"",
+        "feedback": "[TODO:it] He smiles and turns back."
+      }
+    ]
+  },
+  "charge_consequence": {
+    "title": "[TODO:it] Not for Price",
+    "text": "[TODO:it] A guest is welcomed, not sold to.\nOpen your door freely.",
+    "choices": [
+      {
+        "text": "[TODO:it] Urge him, \"Stay with us.\"",
+        "feedback": "[TODO:it] You set the table for three."
+      }
+    ]
+  },
+  "breaking_bread": {
+    "title": "[TODO:it] He Took the Bread",
+    "text": "[TODO:it] He takes the bread. Blesses it.\nBreaks it. Hands it to you.",
+    "choices": [
+      {
+        "text": "[TODO:it] Eat without truly looking up",
+        "feedback": "[TODO:it] Lift your eyes. See Him."
+      },
+      {
+        "text": "[TODO:it] Look at His hands. See Him.",
+        "feedback": "[TODO:it] Your eyes finally open."
+      },
+      {
+        "text": "[TODO:it] Boast of your fine hospitality",
+        "feedback": "[TODO:it] This is no time for pride."
+      }
+    ]
+  },
+  "look_consequence": {
+    "title": "[TODO:it] Lift Your Eyes",
+    "text": "[TODO:it] Do not miss this for hunger.\nThe Guest is the Lord.",
+    "choices": [
+      {
+        "text": "[TODO:it] Look at His hands. See Him.",
+        "feedback": "[TODO:it] Recognition floods your chest."
+      }
+    ]
+  },
+  "host_consequence": {
+    "title": "[TODO:it] Not Pride",
+    "text": "[TODO:it] Your bread became His blessing.\nLook. Receive. Be still.",
+    "choices": [
+      {
+        "text": "[TODO:it] Look at His hands. See Him.",
+        "feedback": "[TODO:it] Your hands begin to tremble."
+      }
+    ]
+  },
+  "recognition": {
+    "title": "[TODO:it] He Vanishes",
+    "text": "[TODO:it] It is the Lord! Your eyes are opened.\nAnd then He is gone.",
+    "choices": [
+      {
+        "text": "[TODO:it] Sit stunned and stay the night",
+        "feedback": "[TODO:it] This news cannot wait."
+      },
+      {
+        "text": "[TODO:it] Whisper. Tell no one tonight",
+        "feedback": "[TODO:it] The brothers must hear."
+      },
+      {
+        "text": "[TODO:it] Rise at once. Run to Jerusalem",
+        "feedback": "[TODO:it] Hearts still burning, you run."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:it] Do Not Wait",
+    "text": "[TODO:it] The night is no obstacle now.\nGo. The eleven must hear.",
+    "choices": [
+      {
+        "text": "[TODO:it] Rise at once. Run to Jerusalem",
+        "feedback": "[TODO:it] You leap from the table."
+      }
+    ]
+  },
+  "whisper_consequence": {
+    "title": "[TODO:it] Tell Them All",
+    "text": "[TODO:it] This is not a secret to keep.\nLet the city hear, \"He lives!\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Rise at once. Run to Jerusalem",
+        "feedback": "[TODO:it] You set out into the dusk."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:it] He Is Risen Indeed",
+    "text": "[TODO:it] You burst in: \"The Lord is risen!\nHe broke bread with us tonight.\"",
+    "choices": []
+  }
+}

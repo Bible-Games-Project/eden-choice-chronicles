@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "A Hidden Wound",
+    "text": "Beneath your armor, the leprosy spreads.\nA young Israelite servant whispers of a prophet.",
+    "choices": [
+      {
+        "text": "Curse her foreign god",
+        "feedback": "Pride keeps your wound hidden."
+      },
+      {
+        "text": "Hide the disease forever",
+        "feedback": "Silence will not heal you."
+      },
+      {
+        "text": "Listen to the servant girl",
+        "feedback": "Wisdom can come from the small."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Soften Your Heart",
+    "text": "Her words are not a threat.\nThey may be the only door open to you.",
+    "choices": [
+      {
+        "text": "Listen to the servant girl",
+        "feedback": "You set down your pride and listen."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "No More Hiding",
+    "text": "The mark grows beneath your armor.\nOnly truth can lead to healing.",
+    "choices": [
+      {
+        "text": "Listen to the servant girl",
+        "feedback": "You turn to her quiet voice."
+      }
+    ]
+  },
+  "journey": {
+    "title": "Letters and Gold",
+    "text": "The king sends silver, gold, and a letter.\nThe road to Israel waits.",
+    "choices": [
+      {
+        "text": "Demand healing from a king",
+        "feedback": "No king holds this gift."
+      },
+      {
+        "text": "Seek out the prophet Elisha",
+        "feedback": "The Lord works through His servant."
+      }
+    ]
+  },
+  "king_consequence": {
+    "title": "Not by Royal Hand",
+    "text": "Israel's king tears his robe in fear.\nThe prophet sends word: come to him.",
+    "choices": [
+      {
+        "text": "Seek out the prophet Elisha",
+        "feedback": "You turn the chariot toward Elisha."
+      }
+    ]
+  },
+  "arrival": {
+    "title": "A Closed Door",
+    "text": "Your chariot waits at the prophet's house.\nElisha does not come out.",
+    "choices": [
+      {
+        "text": "Wait quietly for his word",
+        "feedback": "Stillness opens the heart."
+      },
+      {
+        "text": "Force the door open",
+        "feedback": "Healing is not seized."
+      },
+      {
+        "text": "Throw gold at the threshold",
+        "feedback": "Grace is not bought."
+      }
+    ]
+  },
+  "force_consequence": {
+    "title": "Lower Your Sword",
+    "text": "Strength will not heal your skin.\nWait, and listen.",
+    "choices": [
+      {
+        "text": "Wait quietly for his word",
+        "feedback": "You step back from the door."
+      }
+    ]
+  },
+  "gold_consequence": {
+    "title": "Treasures Will Not Cleanse",
+    "text": "Your silver cannot reach the wound.\nThe prophet asks no payment.",
+    "choices": [
+      {
+        "text": "Wait quietly for his word",
+        "feedback": "You gather the coins back in."
+      }
+    ]
+  },
+  "instruction": {
+    "title": "Wash Seven Times",
+    "text": "The messenger speaks for the prophet.\n\"Wash in the Jordan and be clean.\"",
+    "choices": [
+      {
+        "text": "Refuse — the rivers at home are better",
+        "feedback": "Pride blinds you to mercy."
+      },
+      {
+        "text": "Demand a grand ceremony",
+        "feedback": "God does not need a stage."
+      },
+      {
+        "text": "Listen to your servants",
+        "feedback": "Humble counsel softens stone."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "If It Were a Great Thing",
+    "text": "Your servants whisper at your side.\n\"If he had asked something hard, would you not do it?\"",
+    "choices": [
+      {
+        "text": "Listen to your servants",
+        "feedback": "Their words land deep."
+      }
+    ]
+  },
+  "ceremony_consequence": {
+    "title": "Lay Down the Show",
+    "text": "There is no parade, no fire, no chant.\nOnly muddy water and obedience.",
+    "choices": [
+      {
+        "text": "Listen to your servants",
+        "feedback": "You let go of the spectacle."
+      }
+    ]
+  },
+  "jordan": {
+    "title": "Into the Brown Water",
+    "text": "The Jordan flows slow and muddy.\nYou step in, armor laid aside.",
+    "choices": [
+      {
+        "text": "Wash once and turn away",
+        "feedback": "Half-faith leaves you unchanged."
+      },
+      {
+        "text": "Bow and dip seven times",
+        "feedback": "Each dip drowns a piece of pride."
+      }
+    ]
+  },
+  "once_consequence": {
+    "title": "Finish What He Said",
+    "text": "His word was seven, not one.\nReturn into the water.",
+    "choices": [
+      {
+        "text": "Bow and dip seven times",
+        "feedback": "You sink beneath the current again."
+      }
+    ]
+  },
+  "healed": {
+    "title": "Skin Like a Child",
+    "text": "You rise from the water clean.\n\"Now I know the God of Israel is true.\"",
+    "choices": []
+  }
+}

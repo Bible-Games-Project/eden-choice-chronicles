@@ -1,0 +1,452 @@
+{
+  "start": {
+    "title": "[TODO:es] The Master's Charge",
+    "text": "[TODO:es] Abraham is old. He places your hand under his thigh.\n\"Swear by the Lord — do not take a wife for Isaac from the Canaanites.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Swear and accept the journey to his homeland",
+        "feedback": "[TODO:es] You give your word. The journey begins in your heart."
+      },
+      {
+        "text": "[TODO:es] Refuse — the road is too long for an old servant",
+        "feedback": "[TODO:es] Abraham's eyes do not waver. The promise is heavier than the road."
+      },
+      {
+        "text": "[TODO:es] Suggest a Canaanite girl from a wealthy house",
+        "feedback": "[TODO:es] \"No,\" he says. \"Not from this land. The Lord swore to my fathers.\""
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:es] Faith Over Fear",
+    "text": "[TODO:es] Abraham only smiles. \"The Lord who took me from my father's house\nwill send His angel before you.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Yield, and swear the oath",
+        "feedback": "[TODO:es] You bow low. \"I will go.\""
+      }
+    ]
+  },
+  "canaan_consequence": {
+    "title": "[TODO:es] Not From This Land",
+    "text": "[TODO:es] \"My son must not return there. But you are free of the oath\nif the woman will not follow.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Accept and swear properly",
+        "feedback": "[TODO:es] You place your hand again, and swear by the Lord."
+      }
+    ]
+  },
+  "the_oath": {
+    "title": "[TODO:es] Ten Camels Loaded",
+    "text": "[TODO:es] You take ten camels and the best of your master's goods.\nThe road to Mesopotamia is long. Aram-Naharaim waits.",
+    "choices": [
+      {
+        "text": "[TODO:es] Set out at once with quiet trust",
+        "feedback": "[TODO:es] You turn the caravan north. The desert opens before you."
+      },
+      {
+        "text": "[TODO:es] Delay — gather more men and weapons first",
+        "feedback": "[TODO:es] You linger over preparations. But faith does not wait on iron."
+      }
+    ]
+  },
+  "delay_consequence": {
+    "title": "[TODO:es] The Lord Is Your Guard",
+    "text": "[TODO:es] Abraham's words return to you: \"His angel will go before you.\"\nNo blade you carry will weigh more than that promise.",
+    "choices": [
+      {
+        "text": "[TODO:es] Set out in faith, with what you have",
+        "feedback": "[TODO:es] You leave at first light. The camels' bells ring across the dunes."
+      }
+    ]
+  },
+  "the_well": {
+    "title": "[TODO:es] The Well of Nahor",
+    "text": "[TODO:es] Evening. You arrive at a stone well outside the city of Nahor.\nThe time when the women come out to draw water.",
+    "choices": [
+      {
+        "text": "[TODO:es] Make the camels kneel and pray for a sign",
+        "feedback": "[TODO:es] You bow your head beside the kneeling beasts. \"O Lord, God of my master Abraham…\""
+      },
+      {
+        "text": "[TODO:es] Walk into the city and ask for Nahor's house",
+        "feedback": "[TODO:es] Strangers are wary. No one knows you. You return to the well, weary."
+      },
+      {
+        "text": "[TODO:es] Pick the most beautiful girl you see",
+        "feedback": "[TODO:es] Beauty is not the sign. Your master sent you for kindness, not a face."
+      }
+    ]
+  },
+  "city_consequence": {
+    "title": "[TODO:es] Back to the Well",
+    "text": "[TODO:es] The city is closed to a stranger. The well is where God answers.\nYou kneel beside the camels.",
+    "choices": [
+      {
+        "text": "[TODO:es] Pray for a sign instead",
+        "feedback": "[TODO:es] \"Lord, give me success today,\" you whisper."
+      }
+    ]
+  },
+  "beauty_consequence": {
+    "title": "[TODO:es] Not What You See",
+    "text": "[TODO:es] Your master did not send you for the eyes of men.\nHe sent you for the heart God will choose.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bow your head and ask for the true sign",
+        "feedback": "[TODO:es] You forget the faces and pray instead."
+      }
+    ]
+  },
+  "the_prayer": {
+    "title": "[TODO:es] The Sign You Ask",
+    "text": "[TODO:es] What sign will you set before the Lord?",
+    "choices": [
+      {
+        "text": "[TODO:es] \"She who offers to water my camels — let her be the one\"",
+        "feedback": "[TODO:es] The words are barely out of your mouth when a girl appears with a jar on her shoulder."
+      },
+      {
+        "text": "[TODO:es] \"Send me a sign of fire from heaven\"",
+        "feedback": "[TODO:es] The sky stays still. God answers in kindness, not in flame."
+      },
+      {
+        "text": "[TODO:es] \"The first one to greet me — let her be the one\"",
+        "feedback": "[TODO:es] A greeting costs nothing. Your master needs a heart that gives."
+      }
+    ]
+  },
+  "fire_consequence": {
+    "title": "[TODO:es] Quiet Heaven",
+    "text": "[TODO:es] The heavens do not roar. They wait.\nThe sign of God's choice will be a small kindness, not a wonder.",
+    "choices": [
+      {
+        "text": "[TODO:es] Ask instead for the one who waters the camels",
+        "feedback": "[TODO:es] You change your prayer — and a girl steps from the city gate."
+      }
+    ]
+  },
+  "greeting_consequence": {
+    "title": "[TODO:es] More Than Words",
+    "text": "[TODO:es] Words are easy. Service is the heart God reads.\nAsk for the sign that costs something.",
+    "choices": [
+      {
+        "text": "[TODO:es] Pray for the one who will water the camels",
+        "feedback": "[TODO:es] You change the prayer — and look up."
+      }
+    ]
+  },
+  "rebekah_arrives": {
+    "title": "[TODO:es] A Girl at the Well",
+    "text": "[TODO:es] She is young, careful, lovely.\nShe fills her jar and turns to leave.",
+    "choices": [
+      {
+        "text": "[TODO:es] Run to her: \"Please give me a little water from your jar\"",
+        "feedback": "[TODO:es] Your voice is humble. She stops and turns."
+      },
+      {
+        "text": "[TODO:es] Order her to water your camels at once",
+        "feedback": "[TODO:es] Her face hardens. She walks away without a word."
+      }
+    ]
+  },
+  "command_consequence": {
+    "title": "[TODO:es] Pride Drives Her Away",
+    "text": "[TODO:es] She is gone. The camels are still thirsty.\nYou must wait — and ask the next one with humility.",
+    "choices": [
+      {
+        "text": "[TODO:es] Wait, and ask the next girl gently",
+        "feedback": "[TODO:es] She returns again, having forgotten her sandal. You speak softly this time."
+      }
+    ]
+  },
+  "rebekah_pov_request": {
+    "title": "[TODO:es] A Stranger's Voice",
+    "text": "[TODO:es] You are Rebekah, daughter of Bethuel.\nA dusty old man at the well asks for a sip of water.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"Drink, my lord\" — and offer to draw for his camels too",
+        "feedback": "[TODO:es] You lower the jar to his hands. \"I will draw for your camels also, until they have done.\""
+      },
+      {
+        "text": "[TODO:es] Give him only a sip and hurry home",
+        "feedback": "[TODO:es] Your jar is heavy. But the camels watch you with tired, dust-rimmed eyes."
+      },
+      {
+        "text": "[TODO:es] Refuse — your father warned you about strangers",
+        "feedback": "[TODO:es] He has not asked for much. A sip of water is no danger."
+      }
+    ]
+  },
+  "stingy_consequence": {
+    "title": "[TODO:es] The Camels' Eyes",
+    "text": "[TODO:es] Ten camels. Days in the desert. Their thirst is enormous.\nYour mother taught you better than this.",
+    "choices": [
+      {
+        "text": "[TODO:es] Turn back and offer to water them all",
+        "feedback": "[TODO:es] You return to the trough. \"I will draw for your camels also.\""
+      }
+    ]
+  },
+  "refuse_water_consequence": {
+    "title": "[TODO:es] A Sip Is No Sin",
+    "text": "[TODO:es] He is old and bent and dusty. The well is the gathering place.\nHospitality is the law of your people.",
+    "choices": [
+      {
+        "text": "[TODO:es] Offer him drink — and the camels too",
+        "feedback": "[TODO:es] You lift the jar. \"Drink, my lord.\""
+      }
+    ]
+  },
+  "watering_camels": {
+    "title": "[TODO:es] Until They Have Done",
+    "text": "[TODO:es] You run between well and trough until your arms ache.\nTen camels drink their fill. The old man watches you in silence.",
+    "choices": [
+      {
+        "text": "[TODO:es] Finish the work fully, then ask if he needs more",
+        "feedback": "[TODO:es] You set the empty jar down. He has not moved his eyes from you."
+      },
+      {
+        "text": "[TODO:es] Stop halfway — surely that is enough",
+        "feedback": "[TODO:es] The camels still murmur with thirst. The work is not done."
+      }
+    ]
+  },
+  "halfway_consequence": {
+    "title": "[TODO:es] Until the Last One Drinks",
+    "text": "[TODO:es] The Lord watches the work that is finished, not begun.\nThe camels are still pressing close to the trough.",
+    "choices": [
+      {
+        "text": "[TODO:es] Return to the well and finish",
+        "feedback": "[TODO:es] You draw and pour until every beast turns away satisfied."
+      }
+    ]
+  },
+  "the_gifts": {
+    "title": "[TODO:es] Gold in His Hand",
+    "text": "[TODO:es] The old servant takes a heavy gold ring and two bracelets.\n\"Tell me — whose daughter are you? Is there room in your father's house?\"",
+    "choices": [
+      {
+        "text": "[TODO:es] \"I am Bethuel's daughter — son of Milcah and Nahor\"",
+        "feedback": "[TODO:es] His face changes. He bows his head to the ground at once."
+      },
+      {
+        "text": "[TODO:es] Hide your name — he might be a thief",
+        "feedback": "[TODO:es] His kind eyes do not look like a thief's. The truth would have cost you nothing."
+      },
+      {
+        "text": "[TODO:es] Take the gold and run home without answering",
+        "feedback": "[TODO:es] You clutch the gold to your chest. But the man's voice follows you, gentle, unhurried."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:es] The Lord's Hand Is Plain",
+    "text": "[TODO:es] The man's tears say what no thief could fake.\n\"Blessed be the Lord, the God of my master Abraham,\" he murmurs.",
+    "choices": [
+      {
+        "text": "[TODO:es] Tell him your true name",
+        "feedback": "[TODO:es] \"I am Rebekah, daughter of Bethuel, son of Milcah.\""
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:es] He Has Not Wronged You",
+    "text": "[TODO:es] He is old, alone, and weeping with joy beside the well.\nThis is no robber. The Lord is in this meeting.",
+    "choices": [
+      {
+        "text": "[TODO:es] Return and tell him your name",
+        "feedback": "[TODO:es] You walk back. \"I am Rebekah, daughter of Bethuel.\""
+      }
+    ]
+  },
+  "the_blessing_well": {
+    "title": "[TODO:es] Blessed Be the Lord",
+    "text": "[TODO:es] He bows his head to the ground, weeping.\n\"Blessed be the Lord, who has led me to the house of my master's brothers.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Run home and tell your mother's house everything",
+        "feedback": "[TODO:es] You run, the gold catching the last sun. The house must hear of this."
+      },
+      {
+        "text": "[TODO:es] Say nothing — keep the gold for yourself",
+        "feedback": "[TODO:es] The Lord's hand cannot be hidden in a pocket. Your mother sees the gold at once."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "[TODO:es] The Gold Speaks for You",
+    "text": "[TODO:es] The bracelets shine on your wrist. Your mother gasps.\nShe asks for the whole story.",
+    "choices": [
+      {
+        "text": "[TODO:es] Tell her everything truthfully",
+        "feedback": "[TODO:es] Your brother Laban listens with widening eyes — and runs out toward the well."
+      }
+    ]
+  },
+  "laban_meets": {
+    "title": "[TODO:es] Laban Brings Him In",
+    "text": "[TODO:es] Your brother Laban runs to the well and brings the man home.\nThe camels are unloaded. Water is brought for his feet.",
+    "choices": [
+      {
+        "text": "[TODO:es] Set bread and wine before him at once",
+        "feedback": "[TODO:es] Food is laid on the low table. He raises his hand: \"I will not eat until I have told my errand.\""
+      },
+      {
+        "text": "[TODO:es] Demand to know his business first",
+        "feedback": "[TODO:es] His face stiffens. A guest is honored before he is questioned."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:es] First the Welcome",
+    "text": "[TODO:es] Your father Bethuel shakes his head gently.\n\"Bread first. Then his words.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Set the table and listen properly",
+        "feedback": "[TODO:es] You bring the bread. The lamp is lit. He begins to speak."
+      }
+    ]
+  },
+  "the_errand_told": {
+    "title": "[TODO:es] I Am Abraham's Servant",
+    "text": "[TODO:es] He tells everything — the oath, the journey, the prayer at the well,\nyour kindness, the sign of the Lord. The room is silent.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bethuel and Laban speak: \"This thing is from the Lord\"",
+        "feedback": "[TODO:es] \"We cannot speak to you bad or good. Take her, and let her be your master's son's wife.\""
+      },
+      {
+        "text": "[TODO:es] Refuse — the journey is too far, and he is a stranger",
+        "feedback": "[TODO:es] The servant lifts his hands. \"Hinder me not — the Lord has prospered my way.\""
+      }
+    ]
+  },
+  "stranger_consequence": {
+    "title": "[TODO:es] The Lord Has Prospered His Way",
+    "text": "[TODO:es] Every word he has spoken bears the mark of God's hand.\nWho can stand against what the Lord has chosen?",
+    "choices": [
+      {
+        "text": "[TODO:es] Bow to the will of the Lord",
+        "feedback": "[TODO:es] Your father lifts his eyes. \"Let it be as the Lord has said.\""
+      }
+    ]
+  },
+  "rebekahs_choice": {
+    "title": "[TODO:es] Will You Go With This Man?",
+    "text": "[TODO:es] In the morning the servant says: \"Send me away to my master.\"\nYour family asks: \"Let her stay with us a few days — at least ten.\"\nThen they turn to you. \"Will you go with this man?\"",
+    "choices": [
+      {
+        "text": "[TODO:es] \"I will go.\"",
+        "feedback": "[TODO:es] Two words. Quiet, certain. The whole house falls still."
+      },
+      {
+        "text": "[TODO:es] \"Let me wait ten days at least\"",
+        "feedback": "[TODO:es] The servant's face is pleading. The Lord's hand has been on this from the first hour."
+      },
+      {
+        "text": "[TODO:es] \"I will not leave my mother's house\"",
+        "feedback": "[TODO:es] Your mother lowers her eyes. The God who called Abraham is calling you now."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:es] The Lord Has Already Spoken",
+    "text": "[TODO:es] The sign was given. The gold was given. The way is opened.\nWhat is ten days against the call of God?",
+    "choices": [
+      {
+        "text": "[TODO:es] Change your answer — \"I will go.\"",
+        "feedback": "[TODO:es] You straighten. \"I will go.\" Your nurse begins quietly to pack."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:es] A Larger House Waits",
+    "text": "[TODO:es] Your mother takes your hand. \"Daughter, the Lord has chosen.\nGo where He sends. Our blessing goes with you.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Answer at last: \"I will go.\"",
+        "feedback": "[TODO:es] You let her hand go. \"I will go.\""
+      }
+    ]
+  },
+  "the_blessing_send": {
+    "title": "[TODO:es] Mother of Thousands",
+    "text": "[TODO:es] Your family blesses you at the door:\n\"Be the mother of thousands of millions.\nMay your offspring possess the gates of those who hate them.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Mount the camel and ride out with the servant",
+        "feedback": "[TODO:es] Your nurse Deborah climbs up beside you. The caravan turns south toward Canaan."
+      }
+    ]
+  },
+  "the_road_home": {
+    "title": "[TODO:es] South Toward Canaan",
+    "text": "[TODO:es] The desert stretches for many days. The servant rides ahead, watchful and quiet.\nYou feel the Lord's hand on every mile.",
+    "choices": [
+      {
+        "text": "[TODO:es] Trust the journey and pray as you ride",
+        "feedback": "[TODO:es] The wind moves the veil at your face. The sky deepens to evening."
+      },
+      {
+        "text": "[TODO:es] Beg the servant to turn the caravan back",
+        "feedback": "[TODO:es] He shakes his head, kindly. \"The Lord goes before us, my lady.\""
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:es] Forward Is the Way",
+    "text": "[TODO:es] The Lord has not led you this far to send you back.\nThe land of promise lies ahead, just over the hills.",
+    "choices": [
+      {
+        "text": "[TODO:es] Settle into the saddle and ride on",
+        "feedback": "[TODO:es] You pull the veil closer. The caravan keeps moving."
+      }
+    ]
+  },
+  "isaac_in_field": {
+    "title": "[TODO:es] A Man in the Field",
+    "text": "[TODO:es] At evening you see the hills of the Negev.\nA man is walking alone in the field, in the time of meditation.",
+    "choices": [
+      {
+        "text": "[TODO:es] Ask the servant: \"Who is this man?\"",
+        "feedback": "[TODO:es] \"It is my master,\" he says. You take your veil and cover your face."
+      },
+      {
+        "text": "[TODO:es] Ride past — he is none of your business",
+        "feedback": "[TODO:es] The servant gently raises his hand: \"My lady — that is the man.\""
+      }
+    ]
+  },
+  "ride_past_consequence": {
+    "title": "[TODO:es] That Is the Man",
+    "text": "[TODO:es] Your heart catches in your chest.\nYou slip down from the camel and take the veil to your face.",
+    "choices": [
+      {
+        "text": "[TODO:es] Walk forward to meet him",
+        "feedback": "[TODO:es] Across the field, Isaac stops. He has been waiting longer than you know."
+      }
+    ]
+  },
+  "the_meeting": {
+    "title": "[TODO:es] Isaac and Rebekah",
+    "text": "[TODO:es] The servant tells Isaac everything that has happened.\nIsaac brings you into his mother Sarah's tent.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stand with him beneath the open sky",
+        "feedback": "[TODO:es] He takes your hand. The wind is soft over the field of evening."
+      }
+    ]
+  },
+  "the_comfort": {
+    "title": "[TODO:es] And He Loved Her",
+    "text": "[TODO:es] Isaac took Rebekah, and she became his wife.\nAnd he loved her — and was comforted after his mother's death.\nThe promise to Abraham walks on, into another generation.",
+    "choices": [
+      {
+        "text": "[TODO:es] Step into the story God has written",
+        "feedback": "[TODO:es] The lamp glows in Sarah's tent. The covenant continues."
+      }
+    ]
+  }
+}

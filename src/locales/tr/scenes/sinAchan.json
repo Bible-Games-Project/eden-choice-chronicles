@@ -1,0 +1,207 @@
+{
+  "start": {
+    "title": "[TODO:tr] After the Walls Fell",
+    "text": "[TODO:tr] Jericho lies in dust at your feet.\nThe Lord forbade all spoils.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Take some gold for the camp",
+        "feedback": "[TODO:tr] His command was absolute."
+      },
+      {
+        "text": "[TODO:tr] Devote everything to the Lord",
+        "feedback": "[TODO:tr] You honor the ban He set."
+      },
+      {
+        "text": "[TODO:tr] Let each man keep a token",
+        "feedback": "[TODO:tr] One stolen thread defiles all."
+      }
+    ]
+  },
+  "take_consequence": {
+    "title": "[TODO:tr] Nothing Is Yours",
+    "text": "[TODO:tr] What is devoted belongs to Him.\nNot one shekel for your hand.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Devote everything to the Lord",
+        "feedback": "[TODO:tr] You drop the gold from your fingers."
+      }
+    ]
+  },
+  "token_consequence": {
+    "title": "[TODO:tr] No Exceptions",
+    "text": "[TODO:tr] A small theft poisons the whole.\nThe ban allows no token.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Devote everything to the Lord",
+        "feedback": "[TODO:tr] You command the ranks to leave it."
+      }
+    ]
+  },
+  "warn_camp": {
+    "title": "[TODO:tr] A Whisper in the Camp",
+    "text": "[TODO:tr] Yet one man bends in his tent.\nA cloak. Silver. Buried gold.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Ignore the rumor of theft",
+        "feedback": "[TODO:tr] Hidden sin will not stay hidden."
+      },
+      {
+        "text": "[TODO:tr] Send scouts ahead to small Ai",
+        "feedback": "[TODO:tr] You move without seeking Him."
+      },
+      {
+        "text": "[TODO:tr] Seek the Lord before the next step",
+        "feedback": "[TODO:tr] You bow first, march later."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:tr] Sin Cannot Hide",
+    "text": "[TODO:tr] What is buried still defiles.\nThe camp is not as it seems.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Seek the Lord before the next step",
+        "feedback": "[TODO:tr] You turn toward the tent of meeting."
+      }
+    ]
+  },
+  "ai_battle": {
+    "title": "[TODO:tr] The Hill of Ai",
+    "text": "[TODO:tr] Three thousand men climb proud.\nThirty-six fall. The rest flee.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Blame the soldiers' weakness",
+        "feedback": "[TODO:tr] The fault is deeper than swords."
+      },
+      {
+        "text": "[TODO:tr] Tear your robe before the ark",
+        "feedback": "[TODO:tr] You fall on your face till evening."
+      },
+      {
+        "text": "[TODO:tr] Order an immediate counter-attack",
+        "feedback": "[TODO:tr] He has withdrawn His hand. Wait."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:tr] Look Higher",
+    "text": "[TODO:tr] Their arms did not fail today.\nSomething among you has.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Tear your robe before the ark",
+        "feedback": "[TODO:tr] You sink to the dust in mourning."
+      }
+    ]
+  },
+  "counter_consequence": {
+    "title": "[TODO:tr] Not Without Him",
+    "text": "[TODO:tr] You charge again, but no breath of victory comes.\nTurn back.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Tear your robe before the ark",
+        "feedback": "[TODO:tr] You lay down arms and cry out."
+      }
+    ]
+  },
+  "seek_lord": {
+    "title": "[TODO:tr] Before the Battle",
+    "text": "[TODO:tr] He answers: \"Israel has sinned.\"\nDefeat already waits at Ai.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Tear your robe before the ark",
+        "feedback": "[TODO:tr] You fall on your face in grief."
+      }
+    ]
+  },
+  "joshua_grief": {
+    "title": "[TODO:tr] Why, O Lord?",
+    "text": "[TODO:tr] He answers: rise, sin is in the camp.\nIt must be brought to light.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Hush the matter to keep peace",
+        "feedback": "[TODO:tr] Silence will cost more lives."
+      },
+      {
+        "text": "[TODO:tr] Gather the tribes for inquiry",
+        "feedback": "[TODO:tr] You call every banner forward."
+      }
+    ]
+  },
+  "hush_consequence": {
+    "title": "[TODO:tr] Truth Must Stand",
+    "text": "[TODO:tr] He will not march beside hidden sin.\nBring it into the day.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Gather the tribes for inquiry",
+        "feedback": "[TODO:tr] You summon the elders at dawn."
+      }
+    ]
+  },
+  "investigation": {
+    "title": "[TODO:tr] Tribe by Tribe",
+    "text": "[TODO:tr] Lots are cast. Judah is taken.\nThen the clan. Then the man.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Stop before the name is spoken",
+        "feedback": "[TODO:tr] His justice cannot be halted now."
+      },
+      {
+        "text": "[TODO:tr] Press on until truth is named",
+        "feedback": "[TODO:tr] The lot falls on Achan."
+      }
+    ]
+  },
+  "stop_consequence": {
+    "title": "[TODO:tr] Justice Will Out",
+    "text": "[TODO:tr] What He has begun, He finishes.\nLet truth speak its full word.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Press on until truth is named",
+        "feedback": "[TODO:tr] You nod to the priests to continue."
+      }
+    ]
+  },
+  "achan_revealed": {
+    "title": "[TODO:tr] \"My Son, Confess\"",
+    "text": "[TODO:tr] Achan speaks: a cloak, silver, gold.\nBuried beneath his tent floor.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Excuse him, the loss was small",
+        "feedback": "[TODO:tr] Sin is never small to a holy God."
+      },
+      {
+        "text": "[TODO:tr] Carry out the Lord's judgment",
+        "feedback": "[TODO:tr] Israel walks to the Valley of Achor."
+      },
+      {
+        "text": "[TODO:tr] Hide the items and move on",
+        "feedback": "[TODO:tr] Concealment will only spread the rot."
+      }
+    ]
+  },
+  "excuse_consequence": {
+    "title": "[TODO:tr] The Whole Camp Bears It",
+    "text": "[TODO:tr] Mercy without justice keeps the curse.\nThe Lord's word must stand.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Carry out the Lord's judgment",
+        "feedback": "[TODO:tr] You give the solemn order."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:tr] No More Hiding",
+    "text": "[TODO:tr] Hidden sin already cost lives.\nIt cannot be buried again.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Carry out the Lord's judgment",
+        "feedback": "[TODO:tr] You step into the light of obedience."
+      }
+    ]
+  },
+  "ending_obedient": {
+    "title": "[TODO:tr] The Valley of Achor",
+    "text": "[TODO:tr] The camp is cleansed. Stones rise as a witness.\nThe Lord turns from His anger.",
+    "choices": []
+  }
+}

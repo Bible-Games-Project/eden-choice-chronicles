@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] A Voice in Sleep",
+    "text": "[TODO:pt-BR] An angel speaks in your dream:\n\"Rise. Herod seeks the child.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Sleep on, it is only a dream",
+        "feedback": "[TODO:pt-BR] Heaven does not lie."
+      },
+      {
+        "text": "[TODO:pt-BR] Wake at once and obey",
+        "feedback": "[TODO:pt-BR] Your eyes open in the dark."
+      },
+      {
+        "text": "[TODO:pt-BR] Wait for another sign",
+        "feedback": "[TODO:pt-BR] There is no time to wait."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:pt-BR] Rise Now",
+    "text": "[TODO:pt-BR] The danger is real and near.\nDo not delay.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wake at once and obey",
+        "feedback": "[TODO:pt-BR] You sit up suddenly."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:pt-BR] Trust the Word",
+    "text": "[TODO:pt-BR] Heaven has already spoken.\nMove now.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wake at once and obey",
+        "feedback": "[TODO:pt-BR] You throw off the blanket."
+      }
+    ]
+  },
+  "wake": {
+    "title": "[TODO:pt-BR] Wake the Mother",
+    "text": "[TODO:pt-BR] Mary sleeps with the child near.\nThere is no time to lose.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wake Mary and prepare to flee",
+        "feedback": "[TODO:pt-BR] She rises without a question."
+      },
+      {
+        "text": "[TODO:pt-BR] Hide the child in the house",
+        "feedback": "[TODO:pt-BR] No wall will stop Herod."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pt-BR] Flee, Do Not Hide",
+    "text": "[TODO:pt-BR] The angel said to leave the land.\nObey the word.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wake Mary and prepare to flee",
+        "feedback": "[TODO:pt-BR] You shake her gently awake."
+      }
+    ]
+  },
+  "flee": {
+    "title": "[TODO:pt-BR] Out of Bethlehem",
+    "text": "[TODO:pt-BR] Moonlight falls on empty streets.\nThe child sleeps in Mary's arms.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Knock and warn the neighbors",
+        "feedback": "[TODO:pt-BR] Soldiers may already be near."
+      },
+      {
+        "text": "[TODO:pt-BR] Slip into the night silently",
+        "feedback": "[TODO:pt-BR] Your steps make no sound."
+      },
+      {
+        "text": "[TODO:pt-BR] Take the main road south",
+        "feedback": "[TODO:pt-BR] Stay off the open road."
+      }
+    ]
+  },
+  "warn_consequence": {
+    "title": "[TODO:pt-BR] Go Quietly",
+    "text": "[TODO:pt-BR] Your task is to save the child.\nLeave at once.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Slip into the night silently",
+        "feedback": "[TODO:pt-BR] You vanish into the dark."
+      }
+    ]
+  },
+  "main_road_consequence": {
+    "title": "[TODO:pt-BR] Hidden Paths",
+    "text": "[TODO:pt-BR] Soldiers patrol the open ways.\nKeep to the shadows.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Slip into the night silently",
+        "feedback": "[TODO:pt-BR] You take the small back paths."
+      }
+    ]
+  },
+  "road": {
+    "title": "[TODO:pt-BR] Toward the South",
+    "text": "[TODO:pt-BR] The desert stretches before you.\nEgypt lies far beyond.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Turn back, the road is too far",
+        "feedback": "[TODO:pt-BR] Do not turn back now."
+      },
+      {
+        "text": "[TODO:pt-BR] Press on through the night",
+        "feedback": "[TODO:pt-BR] Your feet do not stop."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:pt-BR] Forward Only",
+    "text": "[TODO:pt-BR] Behind you is danger.\nAhead is safety.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Press on through the night",
+        "feedback": "[TODO:pt-BR] You walk on with Mary."
+      }
+    ]
+  },
+  "rest": {
+    "title": "[TODO:pt-BR] By the Oasis",
+    "text": "[TODO:pt-BR] Water glints under the rising sun.\nThe child must drink.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Linger here for many days",
+        "feedback": "[TODO:pt-BR] Do not stay too long."
+      },
+      {
+        "text": "[TODO:pt-BR] Pray, then keep moving",
+        "feedback": "[TODO:pt-BR] You rise refreshed."
+      },
+      {
+        "text": "[TODO:pt-BR] Send Mary back home alone",
+        "feedback": "[TODO:pt-BR] You go together or not at all."
+      }
+    ]
+  },
+  "linger_consequence": {
+    "title": "[TODO:pt-BR] Move On",
+    "text": "[TODO:pt-BR] The border is still far away.\nKeep going.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Pray, then keep moving",
+        "feedback": "[TODO:pt-BR] You fill your skins and rise."
+      }
+    ]
+  },
+  "send_back_consequence": {
+    "title": "[TODO:pt-BR] Stay Together",
+    "text": "[TODO:pt-BR] She and the child are your charge.\nNever leave them.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Pray, then keep moving",
+        "feedback": "[TODO:pt-BR] You take her hand and walk on."
+      }
+    ]
+  },
+  "egypt": {
+    "title": "[TODO:pt-BR] The Land of Egypt",
+    "text": "[TODO:pt-BR] Pyramids rise in the rose dawn.\nYou have crossed the border.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Find a humble home and stay",
+        "feedback": "[TODO:pt-BR] A small door opens to you."
+      },
+      {
+        "text": "[TODO:pt-BR] Demand a place at court",
+        "feedback": "[TODO:pt-BR] Hide, do not boast."
+      }
+    ]
+  },
+  "court_consequence": {
+    "title": "[TODO:pt-BR] Stay Hidden",
+    "text": "[TODO:pt-BR] The child must grow in quiet.\nFind a humble place.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Find a humble home and stay",
+        "feedback": "[TODO:pt-BR] You knock at a small house."
+      }
+    ]
+  },
+  "safe": {
+    "title": "[TODO:pt-BR] Safe in Egypt",
+    "text": "[TODO:pt-BR] The child sleeps under a warm lamp.\nHe is alive. He is safe.",
+    "choices": []
+  }
+}

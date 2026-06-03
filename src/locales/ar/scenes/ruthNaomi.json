@@ -1,0 +1,197 @@
+{
+  "start": {
+    "title": "[TODO:ar] Three Graves in Moab",
+    "text": "[TODO:ar] Naomi has lost her husband and sons.\nGrief settles like dusk.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Sit in silence beside her grief",
+        "feedback": "[TODO:ar] Your hand finds hers."
+      },
+      {
+        "text": "[TODO:ar] Leave her to mourn alone",
+        "feedback": "[TODO:ar] Sorrow needs company."
+      },
+      {
+        "text": "[TODO:ar] Tell her to forget the dead",
+        "feedback": "[TODO:ar] Love does not rush grief."
+      }
+    ]
+  },
+  "alone_consequence": {
+    "title": "[TODO:ar] Return to Her",
+    "text": "[TODO:ar] She is your mother by love.\nGo back and sit with her.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Sit in silence beside her grief",
+        "feedback": "[TODO:ar] She leans her head to yours."
+      }
+    ]
+  },
+  "forget_consequence": {
+    "title": "[TODO:ar] Honor Her Loss",
+    "text": "[TODO:ar] Grief is not a stain to wipe.\nLet her weep beside you.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Sit in silence beside her grief",
+        "feedback": "[TODO:ar] You bow your head with hers."
+      }
+    ]
+  },
+  "road_decision": {
+    "title": "[TODO:ar] She Tells You to Go Home",
+    "text": "[TODO:ar] \"Return to your people,\" she pleads.\nThe road forks before you.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Turn back to Moab and your gods",
+        "feedback": "[TODO:ar] Your heart is with her."
+      },
+      {
+        "text": "[TODO:ar] Wait for another to decide for you",
+        "feedback": "[TODO:ar] Loyalty is your own choice."
+      },
+      {
+        "text": "[TODO:ar] \"Where you go, I will go.\"",
+        "feedback": "[TODO:ar] Your vow is unshakable."
+      }
+    ]
+  },
+  "turnback_consequence": {
+    "title": "[TODO:ar] Loyalty Calls You",
+    "text": "[TODO:ar] Comfort lies behind, but love walks ahead.\nGo with Naomi.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Where you go, I will go.\"",
+        "feedback": "[TODO:ar] You take her hand again."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:ar] Choose for Yourself",
+    "text": "[TODO:ar] No one can carry your vow but you.\nSpeak it now.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Where you go, I will go.\"",
+        "feedback": "[TODO:ar] The words rise from your heart."
+      }
+    ]
+  },
+  "bethlehem_arrival": {
+    "title": "[TODO:ar] Bethlehem at Dawn",
+    "text": "[TODO:ar] Naomi returns home empty-handed.\nThe village whispers around you.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hide your Moabite roots in shame",
+        "feedback": "[TODO:ar] Stand with her openly."
+      },
+      {
+        "text": "[TODO:ar] Beg in the street for bread",
+        "feedback": "[TODO:ar] Work is the gentler way."
+      },
+      {
+        "text": "[TODO:ar] Offer to glean grain to feed her",
+        "feedback": "[TODO:ar] Naomi blesses your courage."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ar] Walk Without Shame",
+    "text": "[TODO:ar] Your love for Naomi is not a stain.\nLift your head and serve.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Offer to glean grain to feed her",
+        "feedback": "[TODO:ar] You wrap your shawl tighter."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:ar] Take Up the Sickle",
+    "text": "[TODO:ar] Your hands can gather what falls.\nThe fields are open to the poor.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Offer to glean grain to feed her",
+        "feedback": "[TODO:ar] You step toward the harvest."
+      }
+    ]
+  },
+  "barley_field": {
+    "title": "[TODO:ar] Among the Reapers",
+    "text": "[TODO:ar] Boaz, kind and strong, sees you working.\n\"Stay in my fields,\" he says.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Refuse his kindness in pride",
+        "feedback": "[TODO:ar] Grace is meant to be received."
+      },
+      {
+        "text": "[TODO:ar] Bow and thank him with humility",
+        "feedback": "[TODO:ar] He answers with quiet warmth."
+      },
+      {
+        "text": "[TODO:ar] Demand more than he offers",
+        "feedback": "[TODO:ar] Kindness is not a debt."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:ar] Receive His Kindness",
+    "text": "[TODO:ar] Pride leaves you with empty hands.\nAccept the gift before you.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Bow and thank him with humility",
+        "feedback": "[TODO:ar] You bend low in gratitude."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ar] A Quiet Heart",
+    "text": "[TODO:ar] His mercy is not yours to seize.\nReceive it gently.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Bow and thank him with humility",
+        "feedback": "[TODO:ar] He smiles at your meekness."
+      }
+    ]
+  },
+  "threshing_floor": {
+    "title": "[TODO:ar] Naomi's Counsel",
+    "text": "[TODO:ar] \"Go to the threshing floor,\" she says.\n\"Ask Boaz to be your redeemer.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Trust Naomi and go in faith",
+        "feedback": "[TODO:ar] Stars watch over your steps."
+      },
+      {
+        "text": "[TODO:ar] Ignore her wisdom and stay home",
+        "feedback": "[TODO:ar] Faith asks one quiet step."
+      },
+      {
+        "text": "[TODO:ar] Seek a wealthier man instead",
+        "feedback": "[TODO:ar] Boaz is the kinsman God gave."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:ar] Walk in Faith",
+    "text": "[TODO:ar] Naomi's counsel is your map.\nFollow it through the dark.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Trust Naomi and go in faith",
+        "feedback": "[TODO:ar] You rise with the lantern."
+      }
+    ]
+  },
+  "seek_consequence": {
+    "title": "[TODO:ar] Honor the Redeemer",
+    "text": "[TODO:ar] Wealth without kindness is barren.\nBoaz is the heart God chose.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Trust Naomi and go in faith",
+        "feedback": "[TODO:ar] You turn back to Boaz."
+      }
+    ]
+  },
+  "redemption_home": {
+    "title": "[TODO:ar] A New Family Line",
+    "text": "[TODO:ar] Boaz redeems you. A son is born.\nNaomi smiles again at last.",
+    "choices": []
+  }
+}

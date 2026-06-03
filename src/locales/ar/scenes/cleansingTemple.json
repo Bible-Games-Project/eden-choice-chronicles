@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "[TODO:ar] Into the Temple",
+    "text": "[TODO:ar] You enter the temple courts with Jesus.\nHis eyes are steady.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Wait outside, away from trouble",
+        "feedback": "[TODO:ar] Do not turn away from the holy."
+      },
+      {
+        "text": "[TODO:ar] Walk in beside him with reverence",
+        "feedback": "[TODO:ar] You step into sacred ground."
+      },
+      {
+        "text": "[TODO:ar] Run ahead to shout warnings",
+        "feedback": "[TODO:ar] Wait. Watch. Learn."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:ar] Come Inside",
+    "text": "[TODO:ar] The holy place is not for hiding from.\nFollow him.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Walk in beside him with reverence",
+        "feedback": "[TODO:ar] You take your place."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:ar] Quiet First",
+    "text": "[TODO:ar] Loud words come before listening.\nBe still.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Walk in beside him with reverence",
+        "feedback": "[TODO:ar] You quiet down."
+      }
+    ]
+  },
+  "see_market": {
+    "title": "[TODO:ar] A House of Trade",
+    "text": "[TODO:ar] Tables of coin. Cages of doves.\nThe holy court has become a market.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Shrug — \"This is how it is.\"",
+        "feedback": "[TODO:ar] Do not bless what is broken."
+      },
+      {
+        "text": "[TODO:ar] Buy a dove to fit in",
+        "feedback": "[TODO:ar] You cannot purchase holiness."
+      },
+      {
+        "text": "[TODO:ar] Feel the wrongness with him",
+        "feedback": "[TODO:ar] Your heart aches with his."
+      }
+    ]
+  },
+  "shrug_consequence": {
+    "title": "[TODO:ar] It Is Not Right",
+    "text": "[TODO:ar] What is wrong is not made right by time.\nLook again.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Feel the wrongness with him",
+        "feedback": "[TODO:ar] You see clearly."
+      }
+    ]
+  },
+  "buy_consequence": {
+    "title": "[TODO:ar] Not for Sale",
+    "text": "[TODO:ar] Worship is not bought.\nSet the coin down.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Feel the wrongness with him",
+        "feedback": "[TODO:ar] You step away from the table."
+      }
+    ]
+  },
+  "cord": {
+    "title": "[TODO:ar] He Lifts the Cord",
+    "text": "[TODO:ar] He weaves a cord of small ropes.\nHis purpose is clear.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Stop him — \"Do not cause trouble.\"",
+        "feedback": "[TODO:ar] Righteous action is not trouble."
+      },
+      {
+        "text": "[TODO:ar] Stand near him, ready to follow",
+        "feedback": "[TODO:ar] You are with him."
+      }
+    ]
+  },
+  "stop_consequence": {
+    "title": "[TODO:ar] Let Him Act",
+    "text": "[TODO:ar] What looks like trouble is justice waking.\nStand with him.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Stand near him, ready to follow",
+        "feedback": "[TODO:ar] You take your place."
+      }
+    ]
+  },
+  "tables": {
+    "title": "[TODO:ar] Tables Overturned",
+    "text": "[TODO:ar] Tables tip. Coins ring on stone.\nThe air shakes with holy fire.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Grab coins for yourself in the chaos",
+        "feedback": "[TODO:ar] Greed has no place here."
+      },
+      {
+        "text": "[TODO:ar] Help clear the path for him",
+        "feedback": "[TODO:ar] You move with him."
+      },
+      {
+        "text": "[TODO:ar] Cover your ears and look away",
+        "feedback": "[TODO:ar] Bear witness. Do not hide."
+      }
+    ]
+  },
+  "grab_consequence": {
+    "title": "[TODO:ar] Drop the Coin",
+    "text": "[TODO:ar] You become what is being driven out.\nLet it fall.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Help clear the path for him",
+        "feedback": "[TODO:ar] Your hands open."
+      }
+    ]
+  },
+  "cover_consequence": {
+    "title": "[TODO:ar] Open Your Eyes",
+    "text": "[TODO:ar] Witness what holiness costs.\nDo not look away.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Help clear the path for him",
+        "feedback": "[TODO:ar] You stand and watch."
+      }
+    ]
+  },
+  "drive_out": {
+    "title": "[TODO:ar] Out You Go",
+    "text": "[TODO:ar] Merchants hurry away with their cages.\nDoves rise into open air.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Mock them as they retreat",
+        "feedback": "[TODO:ar] Justice is not cruelty."
+      },
+      {
+        "text": "[TODO:ar] Open the cages, set doves free",
+        "feedback": "[TODO:ar] What was sold flies free."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ar] Without Scorn",
+    "text": "[TODO:ar] Cleansing is not contempt.\nDo good instead.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Open the cages, set doves free",
+        "feedback": "[TODO:ar] Wings lift."
+      }
+    ]
+  },
+  "proclaim": {
+    "title": "[TODO:ar] A House of Prayer",
+    "text": "[TODO:ar] \"My house shall be called\na house of prayer.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Argue that trade pays for repairs",
+        "feedback": "[TODO:ar] Holiness is not a budget."
+      },
+      {
+        "text": "[TODO:ar] Receive his words into your heart",
+        "feedback": "[TODO:ar] The court is for God."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:ar] Holiness First",
+    "text": "[TODO:ar] What is sacred cannot be sold for upkeep.\nListen again.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Receive his words into your heart",
+        "feedback": "[TODO:ar] You bow your head."
+      }
+    ]
+  },
+  "disciples": {
+    "title": "[TODO:ar] They Remember",
+    "text": "[TODO:ar] The disciples watch and remember:\n\"Zeal for your house consumes him.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Boast that you saw it first",
+        "feedback": "[TODO:ar] Witness without pride."
+      },
+      {
+        "text": "[TODO:ar] Stand quietly, take it in",
+        "feedback": "[TODO:ar] His authority is plain."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ar] Be Humble",
+    "text": "[TODO:ar] Awe is louder than boasting.\nBe still.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Stand quietly, take it in",
+        "feedback": "[TODO:ar] You grow still."
+      }
+    ]
+  },
+  "restored": {
+    "title": "[TODO:ar] Sacred Space",
+    "text": "[TODO:ar] Dust settles. Light returns.\nThe court breathes again.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Refill the tables when he leaves",
+        "feedback": "[TODO:ar] Do not rebuild what he tore down."
+      },
+      {
+        "text": "[TODO:ar] Pray here as it was meant",
+        "feedback": "[TODO:ar] The house is for prayer."
+      }
+    ]
+  },
+  "refill_consequence": {
+    "title": "[TODO:ar] Keep It Clean",
+    "text": "[TODO:ar] What was cleansed must stay clean.\nLet it be holy.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Pray here as it was meant",
+        "feedback": "[TODO:ar] You bow in the quiet."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ar] Holy Ground",
+    "text": "[TODO:ar] Where corruption was loud,\nprayer rises, quiet and bright.",
+    "choices": []
+  }
+}

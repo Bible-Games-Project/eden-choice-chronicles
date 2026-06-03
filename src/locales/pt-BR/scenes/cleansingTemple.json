@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] Into the Temple",
+    "text": "[TODO:pt-BR] You enter the temple courts with Jesus.\nHis eyes are steady.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait outside, away from trouble",
+        "feedback": "[TODO:pt-BR] Do not turn away from the holy."
+      },
+      {
+        "text": "[TODO:pt-BR] Walk in beside him with reverence",
+        "feedback": "[TODO:pt-BR] You step into sacred ground."
+      },
+      {
+        "text": "[TODO:pt-BR] Run ahead to shout warnings",
+        "feedback": "[TODO:pt-BR] Wait. Watch. Learn."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:pt-BR] Come Inside",
+    "text": "[TODO:pt-BR] The holy place is not for hiding from.\nFollow him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk in beside him with reverence",
+        "feedback": "[TODO:pt-BR] You take your place."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:pt-BR] Quiet First",
+    "text": "[TODO:pt-BR] Loud words come before listening.\nBe still.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk in beside him with reverence",
+        "feedback": "[TODO:pt-BR] You quiet down."
+      }
+    ]
+  },
+  "see_market": {
+    "title": "[TODO:pt-BR] A House of Trade",
+    "text": "[TODO:pt-BR] Tables of coin. Cages of doves.\nThe holy court has become a market.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Shrug — \"This is how it is.\"",
+        "feedback": "[TODO:pt-BR] Do not bless what is broken."
+      },
+      {
+        "text": "[TODO:pt-BR] Buy a dove to fit in",
+        "feedback": "[TODO:pt-BR] You cannot purchase holiness."
+      },
+      {
+        "text": "[TODO:pt-BR] Feel the wrongness with him",
+        "feedback": "[TODO:pt-BR] Your heart aches with his."
+      }
+    ]
+  },
+  "shrug_consequence": {
+    "title": "[TODO:pt-BR] It Is Not Right",
+    "text": "[TODO:pt-BR] What is wrong is not made right by time.\nLook again.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Feel the wrongness with him",
+        "feedback": "[TODO:pt-BR] You see clearly."
+      }
+    ]
+  },
+  "buy_consequence": {
+    "title": "[TODO:pt-BR] Not for Sale",
+    "text": "[TODO:pt-BR] Worship is not bought.\nSet the coin down.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Feel the wrongness with him",
+        "feedback": "[TODO:pt-BR] You step away from the table."
+      }
+    ]
+  },
+  "cord": {
+    "title": "[TODO:pt-BR] He Lifts the Cord",
+    "text": "[TODO:pt-BR] He weaves a cord of small ropes.\nHis purpose is clear.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stop him — \"Do not cause trouble.\"",
+        "feedback": "[TODO:pt-BR] Righteous action is not trouble."
+      },
+      {
+        "text": "[TODO:pt-BR] Stand near him, ready to follow",
+        "feedback": "[TODO:pt-BR] You are with him."
+      }
+    ]
+  },
+  "stop_consequence": {
+    "title": "[TODO:pt-BR] Let Him Act",
+    "text": "[TODO:pt-BR] What looks like trouble is justice waking.\nStand with him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand near him, ready to follow",
+        "feedback": "[TODO:pt-BR] You take your place."
+      }
+    ]
+  },
+  "tables": {
+    "title": "[TODO:pt-BR] Tables Overturned",
+    "text": "[TODO:pt-BR] Tables tip. Coins ring on stone.\nThe air shakes with holy fire.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Grab coins for yourself in the chaos",
+        "feedback": "[TODO:pt-BR] Greed has no place here."
+      },
+      {
+        "text": "[TODO:pt-BR] Help clear the path for him",
+        "feedback": "[TODO:pt-BR] You move with him."
+      },
+      {
+        "text": "[TODO:pt-BR] Cover your ears and look away",
+        "feedback": "[TODO:pt-BR] Bear witness. Do not hide."
+      }
+    ]
+  },
+  "grab_consequence": {
+    "title": "[TODO:pt-BR] Drop the Coin",
+    "text": "[TODO:pt-BR] You become what is being driven out.\nLet it fall.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Help clear the path for him",
+        "feedback": "[TODO:pt-BR] Your hands open."
+      }
+    ]
+  },
+  "cover_consequence": {
+    "title": "[TODO:pt-BR] Open Your Eyes",
+    "text": "[TODO:pt-BR] Witness what holiness costs.\nDo not look away.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Help clear the path for him",
+        "feedback": "[TODO:pt-BR] You stand and watch."
+      }
+    ]
+  },
+  "drive_out": {
+    "title": "[TODO:pt-BR] Out You Go",
+    "text": "[TODO:pt-BR] Merchants hurry away with their cages.\nDoves rise into open air.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Mock them as they retreat",
+        "feedback": "[TODO:pt-BR] Justice is not cruelty."
+      },
+      {
+        "text": "[TODO:pt-BR] Open the cages, set doves free",
+        "feedback": "[TODO:pt-BR] What was sold flies free."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pt-BR] Without Scorn",
+    "text": "[TODO:pt-BR] Cleansing is not contempt.\nDo good instead.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Open the cages, set doves free",
+        "feedback": "[TODO:pt-BR] Wings lift."
+      }
+    ]
+  },
+  "proclaim": {
+    "title": "[TODO:pt-BR] A House of Prayer",
+    "text": "[TODO:pt-BR] \"My house shall be called\na house of prayer.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Argue that trade pays for repairs",
+        "feedback": "[TODO:pt-BR] Holiness is not a budget."
+      },
+      {
+        "text": "[TODO:pt-BR] Receive his words into your heart",
+        "feedback": "[TODO:pt-BR] The court is for God."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:pt-BR] Holiness First",
+    "text": "[TODO:pt-BR] What is sacred cannot be sold for upkeep.\nListen again.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Receive his words into your heart",
+        "feedback": "[TODO:pt-BR] You bow your head."
+      }
+    ]
+  },
+  "disciples": {
+    "title": "[TODO:pt-BR] They Remember",
+    "text": "[TODO:pt-BR] The disciples watch and remember:\n\"Zeal for your house consumes him.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Boast that you saw it first",
+        "feedback": "[TODO:pt-BR] Witness without pride."
+      },
+      {
+        "text": "[TODO:pt-BR] Stand quietly, take it in",
+        "feedback": "[TODO:pt-BR] His authority is plain."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:pt-BR] Be Humble",
+    "text": "[TODO:pt-BR] Awe is louder than boasting.\nBe still.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand quietly, take it in",
+        "feedback": "[TODO:pt-BR] You grow still."
+      }
+    ]
+  },
+  "restored": {
+    "title": "[TODO:pt-BR] Sacred Space",
+    "text": "[TODO:pt-BR] Dust settles. Light returns.\nThe court breathes again.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Refill the tables when he leaves",
+        "feedback": "[TODO:pt-BR] Do not rebuild what he tore down."
+      },
+      {
+        "text": "[TODO:pt-BR] Pray here as it was meant",
+        "feedback": "[TODO:pt-BR] The house is for prayer."
+      }
+    ]
+  },
+  "refill_consequence": {
+    "title": "[TODO:pt-BR] Keep It Clean",
+    "text": "[TODO:pt-BR] What was cleansed must stay clean.\nLet it be holy.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Pray here as it was meant",
+        "feedback": "[TODO:pt-BR] You bow in the quiet."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pt-BR] Holy Ground",
+    "text": "[TODO:pt-BR] Where corruption was loud,\nprayer rises, quiet and bright.",
+    "choices": []
+  }
+}

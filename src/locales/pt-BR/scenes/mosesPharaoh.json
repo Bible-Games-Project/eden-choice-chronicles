@@ -1,0 +1,493 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] The Road Back",
+    "text": "[TODO:pt-BR] Egypt rises beyond the dust.\nThe land of your fear, and your call.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hide your face and turn back",
+        "feedback": "[TODO:pt-BR] He did not send you to flee."
+      },
+      {
+        "text": "[TODO:pt-BR] Walk on toward the city",
+        "feedback": "[TODO:pt-BR] Each step is a vow kept."
+      },
+      {
+        "text": "[TODO:pt-BR] Wait for a sign first",
+        "feedback": "[TODO:pt-BR] The sign was the bush."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:pt-BR] There Is No Going Back",
+    "text": "[TODO:pt-BR] Midian holds nothing for you now.\nThe call is in front, not behind.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk on toward the city",
+        "feedback": "[TODO:pt-BR] You set your face forward."
+      }
+    ]
+  },
+  "wait_sign_consequence": {
+    "title": "[TODO:pt-BR] He Has Already Spoken",
+    "text": "[TODO:pt-BR] The fire on Horeb was enough.\nObey before you ask again.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk on toward the city",
+        "feedback": "[TODO:pt-BR] You step forward."
+      }
+    ]
+  },
+  "meet_aaron": {
+    "title": "[TODO:pt-BR] Aaron Comes to Meet You",
+    "text": "[TODO:pt-BR] Your brother runs across the sand.\n\"The Lord sent me to find you.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Embrace him as brother",
+        "feedback": "[TODO:pt-BR] Joy returns to your bones."
+      },
+      {
+        "text": "[TODO:pt-BR] Test him with hard words",
+        "feedback": "[TODO:pt-BR] He is a gift, not a rival."
+      }
+    ]
+  },
+  "test_aaron_consequence": {
+    "title": "[TODO:pt-BR] He Is Your Voice",
+    "text": "[TODO:pt-BR] God Himself sent him to your side.\nReceive him with open arms.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Embrace him as brother",
+        "feedback": "[TODO:pt-BR] You hold him close."
+      }
+    ]
+  },
+  "tell_elders": {
+    "title": "[TODO:pt-BR] Before the Elders of Israel",
+    "text": "[TODO:pt-BR] Hebrew elders sit in the shadow.\nThey wait to hear from God.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Speak the words God gave",
+        "feedback": "[TODO:pt-BR] Aaron speaks beside you."
+      },
+      {
+        "text": "[TODO:pt-BR] Soften the message for them",
+        "feedback": "[TODO:pt-BR] His word is not yours to edit."
+      },
+      {
+        "text": "[TODO:pt-BR] Boast of your own calling",
+        "feedback": "[TODO:pt-BR] You are messenger, not master."
+      }
+    ]
+  },
+  "soften_consequence": {
+    "title": "[TODO:pt-BR] Speak It Whole",
+    "text": "[TODO:pt-BR] What He gave you, give to them.\nDo not trim His word.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Speak the words God gave",
+        "feedback": "[TODO:pt-BR] You begin again."
+      }
+    ]
+  },
+  "boast_elders_consequence": {
+    "title": "[TODO:pt-BR] Not Your Glory",
+    "text": "[TODO:pt-BR] It is His name that frees them.\nLower your eyes and speak.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Speak the words God gave",
+        "feedback": "[TODO:pt-BR] You bow your head."
+      }
+    ]
+  },
+  "elders_believe": {
+    "title": "[TODO:pt-BR] And They Believed",
+    "text": "[TODO:pt-BR] The signs are shown. The elders bow.\n\"The Lord has seen us at last.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Set out for the palace",
+        "feedback": "[TODO:pt-BR] Your heart steadies."
+      }
+    ]
+  },
+  "palace_gates": {
+    "title": "[TODO:pt-BR] Gates of Pharaoh",
+    "text": "[TODO:pt-BR] Stone giants flank the entrance.\nGuards watch you with cold eyes.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Ask audience with the king",
+        "feedback": "[TODO:pt-BR] You speak with steady voice."
+      },
+      {
+        "text": "[TODO:pt-BR] Force your way past guards",
+        "feedback": "[TODO:pt-BR] Iron will not open this door."
+      },
+      {
+        "text": "[TODO:pt-BR] Bribe the gatekeeper",
+        "feedback": "[TODO:pt-BR] God's word does not need silver."
+      }
+    ]
+  },
+  "force_consequence": {
+    "title": "[TODO:pt-BR] Not by Strength",
+    "text": "[TODO:pt-BR] Spears bar your way at once.\nAsk, do not seize.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Ask audience with the king",
+        "feedback": "[TODO:pt-BR] You step back, then forward."
+      }
+    ]
+  },
+  "bribe_consequence": {
+    "title": "[TODO:pt-BR] His Word, Not Coin",
+    "text": "[TODO:pt-BR] You carry the name of the Lord.\nThat is gate enough.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Ask audience with the king",
+        "feedback": "[TODO:pt-BR] You hide the silver away."
+      }
+    ]
+  },
+  "court_official": {
+    "title": "[TODO:pt-BR] The King's Servant",
+    "text": "[TODO:pt-BR] A bald scribe blocks the way.\n\"State your name and your god.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"The God of the Hebrews sent us\"",
+        "feedback": "[TODO:pt-BR] He stiffens at the words."
+      },
+      {
+        "text": "[TODO:pt-BR] Hide who sent you",
+        "feedback": "[TODO:pt-BR] Hide His name and lose it."
+      }
+    ]
+  },
+  "hide_sender_consequence": {
+    "title": "[TODO:pt-BR] Do Not Hide Him",
+    "text": "[TODO:pt-BR] He sent you in His name.\nSpeak it, even here.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"The God of the Hebrews sent us\"",
+        "feedback": "[TODO:pt-BR] Your voice grows firm."
+      }
+    ]
+  },
+  "enter_throne_hall": {
+    "title": "[TODO:pt-BR] Into the Light",
+    "text": "[TODO:pt-BR] A shaft of sun falls on the throne.\nPharaoh waits, still as stone.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Approach with reverence to God",
+        "feedback": "[TODO:pt-BR] You bow only to Heaven."
+      },
+      {
+        "text": "[TODO:pt-BR] Kneel and worship Pharaoh",
+        "feedback": "[TODO:pt-BR] He is not your god."
+      },
+      {
+        "text": "[TODO:pt-BR] Run from the hall",
+        "feedback": "[TODO:pt-BR] Stand. He is with you."
+      }
+    ]
+  },
+  "worship_consequence": {
+    "title": "[TODO:pt-BR] Bow Only to Him",
+    "text": "[TODO:pt-BR] No man wears the crown of God.\nStand and speak the truth.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Approach with reverence to God",
+        "feedback": "[TODO:pt-BR] You rise from your knees."
+      }
+    ]
+  },
+  "run_hall_consequence": {
+    "title": "[TODO:pt-BR] Do Not Flee Now",
+    "text": "[TODO:pt-BR] He has gone before you here.\nSet your feet and speak.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Approach with reverence to God",
+        "feedback": "[TODO:pt-BR] You walk forward."
+      }
+    ]
+  },
+  "before_pharaoh": {
+    "title": "[TODO:pt-BR] The First Word",
+    "text": "[TODO:pt-BR] Pharaoh's eyes weigh you in silence.\nThe court holds its breath.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"Let my people go.\"",
+        "feedback": "[TODO:pt-BR] The words ring across the hall."
+      },
+      {
+        "text": "[TODO:pt-BR] Beg favors for the Hebrews",
+        "feedback": "[TODO:pt-BR] It is a command, not a plea."
+      },
+      {
+        "text": "[TODO:pt-BR] Threaten him with armies",
+        "feedback": "[TODO:pt-BR] Your strength is His name."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:pt-BR] Speak the Lord's Word",
+    "text": "[TODO:pt-BR] Pity is not the message.\nDeliverance is.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"Let my people go.\"",
+        "feedback": "[TODO:pt-BR] You straighten and speak."
+      }
+    ]
+  },
+  "threaten_consequence": {
+    "title": "[TODO:pt-BR] His Word Is Enough",
+    "text": "[TODO:pt-BR] You have no army at your back.\nYou have His name on your lips.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"Let my people go.\"",
+        "feedback": "[TODO:pt-BR] You speak it again, plainly."
+      }
+    ]
+  },
+  "pharaoh_mocks": {
+    "title": "[TODO:pt-BR] \"Who Is the Lord?\"",
+    "text": "[TODO:pt-BR] \"I do not know your God,\nand I will not let Israel go.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hold the word of the Lord",
+        "feedback": "[TODO:pt-BR] Your voice does not shake."
+      },
+      {
+        "text": "[TODO:pt-BR] Curse Pharaoh in anger",
+        "feedback": "[TODO:pt-BR] Speak God's word, not yours."
+      },
+      {
+        "text": "[TODO:pt-BR] Apologize and withdraw",
+        "feedback": "[TODO:pt-BR] Do not unsay His command."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:pt-BR] Not Your Wrath",
+    "text": "[TODO:pt-BR] Judgment belongs to the Lord.\nSpeak only what He gave.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hold the word of the Lord",
+        "feedback": "[TODO:pt-BR] You quiet your tongue."
+      }
+    ]
+  },
+  "apologize_consequence": {
+    "title": "[TODO:pt-BR] Do Not Take It Back",
+    "text": "[TODO:pt-BR] His command stands, even here.\nRepeat it, do not retract it.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hold the word of the Lord",
+        "feedback": "[TODO:pt-BR] You hold the line."
+      }
+    ]
+  },
+  "demand_again": {
+    "title": "[TODO:pt-BR] A Three Days' Journey",
+    "text": "[TODO:pt-BR] \"Let us go to sacrifice in the desert,\nlest plague or sword find us.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Speak the request as given",
+        "feedback": "[TODO:pt-BR] You deliver it whole."
+      },
+      {
+        "text": "[TODO:pt-BR] Lie about your true purpose",
+        "feedback": "[TODO:pt-BR] Truth is your only ground."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:pt-BR] Do Not Lie for God",
+    "text": "[TODO:pt-BR] His work needs no deceit.\nSpeak only what He told you.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Speak the request as given",
+        "feedback": "[TODO:pt-BR] You speak the truth."
+      }
+    ]
+  },
+  "pharaoh_refuses": {
+    "title": "[TODO:pt-BR] Pharaoh's Wrath",
+    "text": "[TODO:pt-BR] \"You make the people idle!\nReturn to your burdens — now.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand silent before his rage",
+        "feedback": "[TODO:pt-BR] You will not bow to him."
+      },
+      {
+        "text": "[TODO:pt-BR] Argue louder with the king",
+        "feedback": "[TODO:pt-BR] His heart only hardens more."
+      },
+      {
+        "text": "[TODO:pt-BR] Flee the throne hall",
+        "feedback": "[TODO:pt-BR] Walk out, do not run."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:pt-BR] His Heart Is Stone",
+    "text": "[TODO:pt-BR] Words alone will not move him.\nLet the Lord answer.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand silent before his rage",
+        "feedback": "[TODO:pt-BR] You hold your peace."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:pt-BR] Do Not Run",
+    "text": "[TODO:pt-BR] You came as a messenger of God.\nLeave standing, not fleeing.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand silent before his rage",
+        "feedback": "[TODO:pt-BR] You straighten your shoulders."
+      }
+    ]
+  },
+  "harsher_labor": {
+    "title": "[TODO:pt-BR] No More Straw",
+    "text": "[TODO:pt-BR] \"Let them gather their own straw.\nThe quota will not be lessened.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Carry the news to the people",
+        "feedback": "[TODO:pt-BR] Hard truth, faithfully borne."
+      },
+      {
+        "text": "[TODO:pt-BR] Hide the new decree from them",
+        "feedback": "[TODO:pt-BR] They will know either way."
+      }
+    ]
+  },
+  "hide_decree_consequence": {
+    "title": "[TODO:pt-BR] They Must Know",
+    "text": "[TODO:pt-BR] Silence will not soften the blow.\nGo and speak the truth.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Carry the news to the people",
+        "feedback": "[TODO:pt-BR] You walk back to Goshen."
+      }
+    ]
+  },
+  "foremen_beaten": {
+    "title": "[TODO:pt-BR] The Foremen Bleed",
+    "text": "[TODO:pt-BR] Hebrew foremen are struck for failing.\nBricks lie scattered in the dust.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay among the suffering",
+        "feedback": "[TODO:pt-BR] You do not turn away."
+      },
+      {
+        "text": "[TODO:pt-BR] Hide your face from them",
+        "feedback": "[TODO:pt-BR] They are still your people."
+      },
+      {
+        "text": "[TODO:pt-BR] Strike a guard in vengeance",
+        "feedback": "[TODO:pt-BR] That sin already cost you years."
+      }
+    ]
+  },
+  "hide_face_consequence": {
+    "title": "[TODO:pt-BR] Do Not Look Away",
+    "text": "[TODO:pt-BR] Their wounds are part of the call.\nStand with them.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay among the suffering",
+        "feedback": "[TODO:pt-BR] You step into the dust."
+      }
+    ]
+  },
+  "strike_guard_consequence": {
+    "title": "[TODO:pt-BR] Not Again",
+    "text": "[TODO:pt-BR] Once before you struck in rage.\nThis time, trust the Lord.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay among the suffering",
+        "feedback": "[TODO:pt-BR] You lower your hand."
+      }
+    ]
+  },
+  "israelites_blame": {
+    "title": "[TODO:pt-BR] \"You Have Made Us Hated\"",
+    "text": "[TODO:pt-BR] The foremen turn on you in grief.\n\"Pharaoh's sword is at our throats.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Take the blame in silence",
+        "feedback": "[TODO:pt-BR] You bear the weight."
+      },
+      {
+        "text": "[TODO:pt-BR] Defend yourself proudly",
+        "feedback": "[TODO:pt-BR] Their pain is real. Listen."
+      },
+      {
+        "text": "[TODO:pt-BR] Curse them for their unbelief",
+        "feedback": "[TODO:pt-BR] They are crushed, not faithless."
+      }
+    ]
+  },
+  "defend_consequence": {
+    "title": "[TODO:pt-BR] Hear Their Pain",
+    "text": "[TODO:pt-BR] Their backs bleed for your words.\nLet them speak it out.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Take the blame in silence",
+        "feedback": "[TODO:pt-BR] You lower your eyes."
+      }
+    ]
+  },
+  "curse_people_consequence": {
+    "title": "[TODO:pt-BR] They Are Yours",
+    "text": "[TODO:pt-BR] These are the flock you were given.\nDo not curse what He blesses.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Take the blame in silence",
+        "feedback": "[TODO:pt-BR] You hold your tongue."
+      }
+    ]
+  },
+  "moses_cries_out": {
+    "title": "[TODO:pt-BR] Alone Before God",
+    "text": "[TODO:pt-BR] Night falls on the brick fields.\nYou kneel beneath the cold stars.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Cry out: \"Why send me, Lord?\"",
+        "feedback": "[TODO:pt-BR] Honest grief is still prayer."
+      },
+      {
+        "text": "[TODO:pt-BR] Resign and go back to Midian",
+        "feedback": "[TODO:pt-BR] You cannot return now."
+      },
+      {
+        "text": "[TODO:pt-BR] Blame Aaron for the failure",
+        "feedback": "[TODO:pt-BR] The burden is yours, not his."
+      }
+    ]
+  },
+  "resign_consequence": {
+    "title": "[TODO:pt-BR] He Is Not Done",
+    "text": "[TODO:pt-BR] The work has barely begun.\nLift your eyes to Him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Cry out: \"Why send me, Lord?\"",
+        "feedback": "[TODO:pt-BR] You raise your face."
+      }
+    ]
+  },
+  "blame_aaron_consequence": {
+    "title": "[TODO:pt-BR] He Is Your Helper",
+    "text": "[TODO:pt-BR] Aaron was given to your weakness.\nDo not turn on him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Cry out: \"Why send me, Lord?\"",
+        "feedback": "[TODO:pt-BR] You bring it to God instead."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pt-BR] The Lord Will Answer",
+    "text": "[TODO:pt-BR] Wind moves over the dark sand.\nHis hand is not yet revealed.",
+    "choices": []
+  }
+}

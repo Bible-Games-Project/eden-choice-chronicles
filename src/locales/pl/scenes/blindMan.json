@@ -1,0 +1,217 @@
+{
+  "start": {
+    "title": "[TODO:pl] Who Sinned?",
+    "text": "[TODO:pl] You sit in the dust, begging.\nDisciples ask, \"Who sinned?\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Curse them silently",
+        "feedback": "[TODO:pl] Listen instead."
+      },
+      {
+        "text": "[TODO:pl] Wait and listen",
+        "feedback": "[TODO:pl] You hold still."
+      },
+      {
+        "text": "[TODO:pl] Beg them louder",
+        "feedback": "[TODO:pl] Be still and hear."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:pl] Be Still",
+    "text": "[TODO:pl] Anger will not heal you.\nListen.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wait and listen",
+        "feedback": "[TODO:pl] You quiet your heart."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:pl] Quiet Now",
+    "text": "[TODO:pl] A voice answers them.\nListen.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wait and listen",
+        "feedback": "[TODO:pl] You bow your head."
+      }
+    ]
+  },
+  "reveal": {
+    "title": "[TODO:pl] God's Works Revealed",
+    "text": "[TODO:pl] \"Neither this man nor his parents.\"\n\"God's works shall be seen.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Doubt his words",
+        "feedback": "[TODO:pl] Hold on to hope."
+      },
+      {
+        "text": "[TODO:pl] Hope quietly",
+        "feedback": "[TODO:pl] Something stirs."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:pl] Hold On",
+    "text": "[TODO:pl] His voice is kind.\nHope a little.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hope quietly",
+        "feedback": "[TODO:pl] You breathe in."
+      }
+    ]
+  },
+  "mud": {
+    "title": "[TODO:pl] Mud on Your Eyes",
+    "text": "[TODO:pl] He spits on the ground, makes clay.\nHis hand finds your face.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Pull away in fear",
+        "feedback": "[TODO:pl] Let him touch you."
+      },
+      {
+        "text": "[TODO:pl] Wipe it off at once",
+        "feedback": "[TODO:pl] Trust him."
+      },
+      {
+        "text": "[TODO:pl] Hold still under his hand",
+        "feedback": "[TODO:pl] Cool clay rests there."
+      }
+    ]
+  },
+  "pull_consequence": {
+    "title": "[TODO:pl] Be Still",
+    "text": "[TODO:pl] His touch is gentle.\nLet him work.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hold still under his hand",
+        "feedback": "[TODO:pl] You wait."
+      }
+    ]
+  },
+  "wipe_consequence": {
+    "title": "[TODO:pl] Trust His Hand",
+    "text": "[TODO:pl] Do not undo his work.\nWait.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hold still under his hand",
+        "feedback": "[TODO:pl] The clay stays."
+      }
+    ]
+  },
+  "send": {
+    "title": "[TODO:pl] Go to Siloam",
+    "text": "[TODO:pl] \"Go, wash in the pool of Siloam.\"\nThe way is long.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay where it is safe",
+        "feedback": "[TODO:pl] Obey him."
+      },
+      {
+        "text": "[TODO:pl] Walk to the pool",
+        "feedback": "[TODO:pl] You feel the wall, and go."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:pl] Obey",
+    "text": "[TODO:pl] The pool is waiting.\nWalk.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk to the pool",
+        "feedback": "[TODO:pl] You step into the street."
+      }
+    ]
+  },
+  "wash": {
+    "title": "[TODO:pl] The Pool of Siloam",
+    "text": "[TODO:pl] Water in your hands.\nYou bring it to your eyes.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wash and lift your eyes",
+        "feedback": "[TODO:pl] Light pours in."
+      },
+      {
+        "text": "[TODO:pl] Wash and keep them shut",
+        "feedback": "[TODO:pl] Open them."
+      }
+    ]
+  },
+  "shut_consequence": {
+    "title": "[TODO:pl] Open Your Eyes",
+    "text": "[TODO:pl] He sent you to see.\nLift them.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wash and lift your eyes",
+        "feedback": "[TODO:pl] Light pours in."
+      }
+    ]
+  },
+  "see": {
+    "title": "[TODO:pl] You Can See",
+    "text": "[TODO:pl] Sky. Stone. Your own hands.\nYou weep, laughing.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hide it from the crowd",
+        "feedback": "[TODO:pl] Tell them."
+      },
+      {
+        "text": "[TODO:pl] Tell everyone you meet",
+        "feedback": "[TODO:pl] Your voice rises."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pl] Speak Out",
+    "text": "[TODO:pl] Do not hide his work.\nTell them.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Tell everyone you meet",
+        "feedback": "[TODO:pl] You run to the street."
+      }
+    ]
+  },
+  "pharisees": {
+    "title": "[TODO:pl] Pharisees Question You",
+    "text": "[TODO:pl] They glare. \"Who opened your eyes?\"\nThe room is cold.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Lie to keep the peace",
+        "feedback": "[TODO:pl] Tell the truth."
+      },
+      {
+        "text": "[TODO:pl] \"A man called Jesus\"",
+        "feedback": "[TODO:pl] Your voice is steady."
+      },
+      {
+        "text": "[TODO:pl] Stay silent in fear",
+        "feedback": "[TODO:pl] Speak."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:pl] Speak Truth",
+    "text": "[TODO:pl] Truth set you free.\nName him.",
+    "choices": [
+      {
+        "text": "[TODO:pl] \"A man called Jesus\"",
+        "feedback": "[TODO:pl] You stand straight."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:pl] Find Your Voice",
+    "text": "[TODO:pl] He gave you sight.\nGive him your words.",
+    "choices": [
+      {
+        "text": "[TODO:pl] \"A man called Jesus\"",
+        "feedback": "[TODO:pl] You speak clearly."
+      }
+    ]
+  },
+  "testify": {
+    "title": "[TODO:pl] One Thing I Know",
+    "text": "[TODO:pl] \"I was blind. Now I see.\"\nThe light stays with you.",
+    "choices": []
+  }
+}

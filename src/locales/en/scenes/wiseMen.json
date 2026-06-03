@@ -1,0 +1,197 @@
+{
+  "start": {
+    "title": "A New Star",
+    "text": "A bright star rises in the east.\nIt shines unlike any other.",
+    "choices": [
+      {
+        "text": "Ignore it as nothing",
+        "feedback": "Heaven speaks through this sign."
+      },
+      {
+        "text": "Search the ancient prophecies",
+        "feedback": "A king is born in Judea."
+      },
+      {
+        "text": "Fear it as an omen",
+        "feedback": "It is a sign of joy, not dread."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "Look Again",
+    "text": "The star will not be hidden.\nIt calls you onward.",
+    "choices": [
+      {
+        "text": "Search the ancient prophecies",
+        "feedback": "The scrolls reveal a king."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "Take Heart",
+    "text": "This light brings hope.\nFollow where it leads.",
+    "choices": [
+      {
+        "text": "Search the ancient prophecies",
+        "feedback": "Your heart settles."
+      }
+    ]
+  },
+  "journey": {
+    "title": "The Long Road",
+    "text": "You ride west across endless dunes.\nThe star moves before you.",
+    "choices": [
+      {
+        "text": "Turn back, the road is hard",
+        "feedback": "Do not lose heart."
+      },
+      {
+        "text": "Press on toward Jerusalem",
+        "feedback": "Your camels will not falter."
+      },
+      {
+        "text": "Seek a king's palace first",
+        "feedback": "A king must dwell with kings."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "Forward Still",
+    "text": "The promise lies ahead.\nDo not turn from it now.",
+    "choices": [
+      {
+        "text": "Press on toward Jerusalem",
+        "feedback": "You spur your camel on."
+      }
+    ]
+  },
+  "herod": {
+    "title": "Before Herod",
+    "text": "\"Where is the newborn King of the Jews?\"\nHerod's eyes grow cold.",
+    "choices": [
+      {
+        "text": "Swear loyalty to Herod alone",
+        "feedback": "Only one King is worthy."
+      },
+      {
+        "text": "Listen to the priests' answer",
+        "feedback": "Bethlehem, the prophets say."
+      }
+    ]
+  },
+  "loyalty_consequence": {
+    "title": "One True King",
+    "text": "Herod is not the One you seek.\nKeep your eyes on the star.",
+    "choices": [
+      {
+        "text": "Listen to the priests' answer",
+        "feedback": "Bethlehem awaits."
+      }
+    ]
+  },
+  "bethlehem": {
+    "title": "The Star Stops",
+    "text": "The star halts above a humble house.\nHere, the King is found.",
+    "choices": [
+      {
+        "text": "Doubt — this cannot be the place",
+        "feedback": "Heaven points here."
+      },
+      {
+        "text": "Knock and enter with reverence",
+        "feedback": "Your hand trembles at the door."
+      },
+      {
+        "text": "Wait outside until morning",
+        "feedback": "The King receives you now."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "Trust the Sign",
+    "text": "The star itself has led you here.\nBelieve and enter.",
+    "choices": [
+      {
+        "text": "Knock and enter with reverence",
+        "feedback": "You step inside the warm light."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "Enter Now",
+    "text": "Do not delay before the King.\nHe waits within.",
+    "choices": [
+      {
+        "text": "Knock and enter with reverence",
+        "feedback": "You cross the threshold."
+      }
+    ]
+  },
+  "worship": {
+    "title": "Gold, Frankincense, Myrrh",
+    "text": "The child meets your eyes.\nYou kneel and open your treasures.",
+    "choices": [
+      {
+        "text": "Keep the finest gifts for yourself",
+        "feedback": "He is worthy of all."
+      },
+      {
+        "text": "Offer all three gifts to the child",
+        "feedback": "Your heart bows with the gifts."
+      }
+    ]
+  },
+  "greed_consequence": {
+    "title": "Give All",
+    "text": "He is the King of kings.\nHold nothing back.",
+    "choices": [
+      {
+        "text": "Offer all three gifts to the child",
+        "feedback": "You place each gift before him."
+      }
+    ]
+  },
+  "dream": {
+    "title": "A Warning in Sleep",
+    "text": "In a dream you are warned:\n\"Do not return to Herod.\"",
+    "choices": [
+      {
+        "text": "Return to Herod as promised",
+        "feedback": "Heaven has spoken."
+      },
+      {
+        "text": "Take another road home",
+        "feedback": "You obey the holy warning."
+      },
+      {
+        "text": "Stay hidden in Bethlehem",
+        "feedback": "Your road lies east again."
+      }
+    ]
+  },
+  "betray_consequence": {
+    "title": "Obey the Dream",
+    "text": "Herod plots against the child.\nDo not lead him to the King.",
+    "choices": [
+      {
+        "text": "Take another road home",
+        "feedback": "You turn from Herod's road."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "Go Home",
+    "text": "Your task here is fulfilled.\nReturn by another way.",
+    "choices": [
+      {
+        "text": "Take another road home",
+        "feedback": "You set out at first light."
+      }
+    ]
+  },
+  "return": {
+    "title": "Another Road",
+    "text": "You ride east as dawn breaks.\nYou have seen the King.",
+    "choices": []
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "start": {
+    "title": "[TODO:es] A New House",
+    "text": "[TODO:es] You stand in a stranger's courtyard.\nPotiphar, captain of Pharaoh, watches you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Run from this house",
+        "feedback": "[TODO:es] You would be hunted as a runaway."
+      },
+      {
+        "text": "[TODO:es] Bow and serve with all your heart",
+        "feedback": "[TODO:es] You bow low. The Lord is with you."
+      },
+      {
+        "text": "[TODO:es] Demand to be sent home",
+        "feedback": "[TODO:es] Potiphar laughs coldly. You are a slave."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:es] Nowhere to Go",
+    "text": "[TODO:es] The gate is guarded. The desert is wide.\nYou turn back inside.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bow and serve faithfully",
+        "feedback": "[TODO:es] You will trust God where He has placed you."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:es] Silence the Pride",
+    "text": "[TODO:es] A guard's hand falls hard on your shoulder.\nPride will not free you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Kneel and offer your service",
+        "feedback": "[TODO:es] Your knee touches the cool stone."
+      }
+    ]
+  },
+  "serve_well": {
+    "title": "[TODO:es] The Lord Is With You",
+    "text": "[TODO:es] Each task you touch prospers.\nPotiphar begins to notice.",
+    "choices": [
+      {
+        "text": "[TODO:es] Steal grain to keep for yourself",
+        "feedback": "[TODO:es] A slave's hand must be clean."
+      },
+      {
+        "text": "[TODO:es] Give God the glory in silence",
+        "feedback": "[TODO:es] You whisper thanks. Heaven hears."
+      },
+      {
+        "text": "[TODO:es] Boast of your skill to others",
+        "feedback": "[TODO:es] Boasting will draw envy, not favor."
+      }
+    ]
+  },
+  "steal_consequence": {
+    "title": "[TODO:es] Your Hand Stops",
+    "text": "[TODO:es] The grain is heavy in your palm.\nYou cannot betray such trust.",
+    "choices": [
+      {
+        "text": "[TODO:es] Return it and thank God",
+        "feedback": "[TODO:es] You set it back. Peace returns."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:es] Cold Glances",
+    "text": "[TODO:es] The other servants turn from you.\nYour words have made enemies.",
+    "choices": [
+      {
+        "text": "[TODO:es] Kneel and give God the glory",
+        "feedback": "[TODO:es] Humility softens what pride broke."
+      }
+    ]
+  },
+  "trusted": {
+    "title": "[TODO:es] Set Over All",
+    "text": "[TODO:es] \"All I have is in your hand,\" Potiphar says.\nHe makes you steward of his house.",
+    "choices": [
+      {
+        "text": "[TODO:es] Use the wealth for your comfort",
+        "feedback": "[TODO:es] His trust is not yours to spend."
+      },
+      {
+        "text": "[TODO:es] Manage every gift with honor",
+        "feedback": "[TODO:es] You take up the scrolls with care."
+      }
+    ]
+  },
+  "wealth_consequence": {
+    "title": "[TODO:es] A Quiet Warning",
+    "text": "[TODO:es] You feel the weight of his eyes.\nGreed will undo you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Manage everything with honor",
+        "feedback": "[TODO:es] You return to your duties."
+      }
+    ]
+  },
+  "diligent": {
+    "title": "[TODO:es] Blessing in the House",
+    "text": "[TODO:es] The fields, the storehouse, the table — all flourish.\nThe Lord blesses for your sake.",
+    "choices": [
+      {
+        "text": "[TODO:es] Pray and thank God each day",
+        "feedback": "[TODO:es] Your prayers rise like incense."
+      },
+      {
+        "text": "[TODO:es] Take credit before the household",
+        "feedback": "[TODO:es] The blessing is not yours to claim."
+      }
+    ]
+  },
+  "credit_consequence": {
+    "title": "[TODO:es] A Hollow Praise",
+    "text": "[TODO:es] Their praise tastes like dust.\nGod alone deserves the glory.",
+    "choices": [
+      {
+        "text": "[TODO:es] Pray and give thanks to God",
+        "feedback": "[TODO:es] You bow your head in private."
+      }
+    ]
+  },
+  "noticed": {
+    "title": "[TODO:es] Her Eyes Linger",
+    "text": "[TODO:es] Potiphar's wife watches you each day.\nHer smile is warm, too warm.",
+    "choices": [
+      {
+        "text": "[TODO:es] Smile back to please her",
+        "feedback": "[TODO:es] A small flame can burn a house."
+      },
+      {
+        "text": "[TODO:es] Keep your eyes lowered, work on",
+        "feedback": "[TODO:es] You bow your head and pass."
+      }
+    ]
+  },
+  "smile_consequence": {
+    "title": "[TODO:es] She Steps Closer",
+    "text": "[TODO:es] Your kindness has been read as want.\nThis is not the path.",
+    "choices": [
+      {
+        "text": "[TODO:es] Withdraw and keep your eyes low",
+        "feedback": "[TODO:es] You step back from the fire."
+      }
+    ]
+  },
+  "first_advance": {
+    "title": "[TODO:es] \"Lie With Me\"",
+    "text": "[TODO:es] She whispers it openly. Her hand finds yours.\nThe room grows still.",
+    "choices": [
+      {
+        "text": "[TODO:es] Refuse — \"How can I sin against God?\"",
+        "feedback": "[TODO:es] Your voice is firm and quiet."
+      },
+      {
+        "text": "[TODO:es] Stay and weigh her offer",
+        "feedback": "[TODO:es] To weigh sin is to invite it."
+      },
+      {
+        "text": "[TODO:es] Yield — no one will know",
+        "feedback": "[TODO:es] God sees what no man sees."
+      }
+    ]
+  },
+  "weigh_consequence": {
+    "title": "[TODO:es] Her Grip Tightens",
+    "text": "[TODO:es] Hesitation is half a yes.\nYou must speak the truth now.",
+    "choices": [
+      {
+        "text": "[TODO:es] Refuse her — sin against God",
+        "feedback": "[TODO:es] You pull your hand away."
+      }
+    ]
+  },
+  "yield_consequence": {
+    "title": "[TODO:es] A Voice Inside",
+    "text": "[TODO:es] Before her lips meet yours, conscience cries out.\nYou pull back.",
+    "choices": [
+      {
+        "text": "[TODO:es] Refuse and name the sin",
+        "feedback": "[TODO:es] \"I cannot sin against God.\""
+      }
+    ]
+  },
+  "she_persists": {
+    "title": "[TODO:es] Day After Day",
+    "text": "[TODO:es] She speaks to you each morning.\nEach evening she waits in the hall.",
+    "choices": [
+      {
+        "text": "[TODO:es] Avoid being alone with her",
+        "feedback": "[TODO:es] Wisdom keeps the door shut."
+      },
+      {
+        "text": "[TODO:es] Confront her with harsh words",
+        "feedback": "[TODO:es] Anger may shame her into hatred."
+      },
+      {
+        "text": "[TODO:es] Tell Potiphar about her",
+        "feedback": "[TODO:es] Who would believe a slave?"
+      }
+    ]
+  },
+  "confront_consequence": {
+    "title": "[TODO:es] Her Face Hardens",
+    "text": "[TODO:es] Pride wounded turns to spite.\nYou must walk softly now.",
+    "choices": [
+      {
+        "text": "[TODO:es] Avoid being alone with her",
+        "feedback": "[TODO:es] You change your paths in the house."
+      }
+    ]
+  },
+  "tell_consequence": {
+    "title": "[TODO:es] He Cannot Hear It",
+    "text": "[TODO:es] Potiphar waves you away, troubled.\nA slave's word is small.",
+    "choices": [
+      {
+        "text": "[TODO:es] Avoid her presence from now on",
+        "feedback": "[TODO:es] You will simply not be near her."
+      }
+    ]
+  },
+  "the_empty_house": {
+    "title": "[TODO:es] No One Within",
+    "text": "[TODO:es] The servants are gone for the feast.\nYou enter the hall to do your work.",
+    "choices": [
+      {
+        "text": "[TODO:es] Finish quickly and leave",
+        "feedback": "[TODO:es] Be swift. The house is too quiet."
+      },
+      {
+        "text": "[TODO:es] Linger — enjoy the silence",
+        "feedback": "[TODO:es] Quiet houses are not always safe."
+      }
+    ]
+  },
+  "linger_consequence": {
+    "title": "[TODO:es] A Door Opens",
+    "text": "[TODO:es] Soft footsteps in the corridor.\nYou should have gone.",
+    "choices": [
+      {
+        "text": "[TODO:es] Move to leave at once",
+        "feedback": "[TODO:es] You turn for the door."
+      }
+    ]
+  },
+  "she_grabs": {
+    "title": "[TODO:es] She Catches Your Garment",
+    "text": "[TODO:es] Her hand closes on your cloak.\n\"Lie with me!\" she demands.",
+    "choices": [
+      {
+        "text": "[TODO:es] Leave the garment and flee",
+        "feedback": "[TODO:es] You slip out of the cloth and run."
+      },
+      {
+        "text": "[TODO:es] Wrestle the cloak back",
+        "feedback": "[TODO:es] She will tear it and call it proof."
+      },
+      {
+        "text": "[TODO:es] Yield this once to keep peace",
+        "feedback": "[TODO:es] There is no peace in such a sin."
+      }
+    ]
+  },
+  "wrestle_consequence": {
+    "title": "[TODO:es] The Cloth Tears",
+    "text": "[TODO:es] She holds the torn piece, eyes bright.\nDo not stay to argue.",
+    "choices": [
+      {
+        "text": "[TODO:es] Leave the garment and flee",
+        "feedback": "[TODO:es] You let go and run for the door."
+      }
+    ]
+  },
+  "yield2_consequence": {
+    "title": "[TODO:es] God Sees",
+    "text": "[TODO:es] His eyes are upon you in this room.\nYou cannot do this thing.",
+    "choices": [
+      {
+        "text": "[TODO:es] Leave the garment and flee",
+        "feedback": "[TODO:es] You break free and run."
+      }
+    ]
+  },
+  "fled": {
+    "title": "[TODO:es] Out Into the Sun",
+    "text": "[TODO:es] You stand outside, breathing hard.\nYour cloak is in her hand.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hide and wait for the truth",
+        "feedback": "[TODO:es] Hiding only looks like guilt."
+      },
+      {
+        "text": "[TODO:es] Return to your duties in faith",
+        "feedback": "[TODO:es] God knows. You will trust Him."
+      }
+    ]
+  },
+  "hide2_consequence": {
+    "title": "[TODO:es] They Will Find You",
+    "text": "[TODO:es] A slave cannot hide for long.\nBetter to walk in the open.",
+    "choices": [
+      {
+        "text": "[TODO:es] Return to your duties in faith",
+        "feedback": "[TODO:es] You square your shoulders and go."
+      }
+    ]
+  },
+  "her_cry": {
+    "title": "[TODO:es] She Cries Out",
+    "text": "[TODO:es] She calls the servants, holding your cloak.\n\"The Hebrew tried to shame me!\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Stand silent before God",
+        "feedback": "[TODO:es] Your peace will be your defense."
+      },
+      {
+        "text": "[TODO:es] Shout her lie before all",
+        "feedback": "[TODO:es] Anger will only feed her story."
+      },
+      {
+        "text": "[TODO:es] Run away from the house",
+        "feedback": "[TODO:es] Flight is a confession."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:es] Their Faces Turn",
+    "text": "[TODO:es] Loud denial seems like guilt.\nBe still. Trust God.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stand silent before God",
+        "feedback": "[TODO:es] You close your mouth in peace."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:es] Soldiers at the Gate",
+    "text": "[TODO:es] You will not outrun Potiphar's guard.\nFace this with faith.",
+    "choices": [
+      {
+        "text": "[TODO:es] Return and stand silent",
+        "feedback": "[TODO:es] You walk back, head bowed."
+      }
+    ]
+  },
+  "before_potiphar": {
+    "title": "[TODO:es] His Wrath Burns",
+    "text": "[TODO:es] Potiphar holds the torn cloak.\nHis eyes are dark with anger.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bow and accept his judgment",
+        "feedback": "[TODO:es] You kneel without a word."
+      },
+      {
+        "text": "[TODO:es] Beg loudly for your life",
+        "feedback": "[TODO:es] His mind is set. Words will not turn it."
+      },
+      {
+        "text": "[TODO:es] Curse his wife in fury",
+        "feedback": "[TODO:es] Such words could cost your head."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:es] He Will Not Hear",
+    "text": "[TODO:es] Your pleading falls on stone.\nOnly silence will keep your life.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bow and accept his judgment",
+        "feedback": "[TODO:es] You lower yourself to the floor."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:es] The Guards Step Forward",
+    "text": "[TODO:es] Steel rings half from the sheath.\nClose your mouth before it costs all.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bow and accept his judgment",
+        "feedback": "[TODO:es] You drop to your knees in silence."
+      }
+    ]
+  },
+  "to_prison": {
+    "title": "[TODO:es] Bound for the Prison",
+    "text": "[TODO:es] Ropes bind your wrists.\nThey lead you toward the king's prison.",
+    "choices": [
+      {
+        "text": "[TODO:es] Walk in faith — God is with you",
+        "feedback": "[TODO:es] You lift your eyes to heaven."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:es] The Lord Was With Him",
+    "text": "[TODO:es] The gates close behind you.\nYet even here, the Lord shows you mercy.",
+    "choices": []
+  }
+}

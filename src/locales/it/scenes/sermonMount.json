@@ -1,0 +1,217 @@
+{
+  "start": {
+    "title": "[TODO:it] Crowds Climb the Hill",
+    "text": "[TODO:it] Word spreads through the valley.\nThe teacher sits upon the hill.",
+    "choices": [
+      {
+        "text": "[TODO:it] Hurry past, too busy",
+        "feedback": "[TODO:it] Stay and listen."
+      },
+      {
+        "text": "[TODO:it] Climb up to listen",
+        "feedback": "[TODO:it] Your steps slow with awe."
+      },
+      {
+        "text": "[TODO:it] Mock the gathering",
+        "feedback": "[TODO:it] Quiet your pride."
+      }
+    ]
+  },
+  "hurry_consequence": {
+    "title": "[TODO:it] Pause",
+    "text": "[TODO:it] Some words are worth stopping for.\nClimb.",
+    "choices": [
+      {
+        "text": "[TODO:it] Climb up to listen",
+        "feedback": "[TODO:it] You turn back."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:it] Soften",
+    "text": "[TODO:it] Pride deafens the heart.\nListen first.",
+    "choices": [
+      {
+        "text": "[TODO:it] Climb up to listen",
+        "feedback": "[TODO:it] You sit on the grass."
+      }
+    ]
+  },
+  "beatitudes": {
+    "title": "[TODO:it] Blessed Are",
+    "text": "[TODO:it] \"Blessed are the poor in spirit.\nTheirs is the kingdom of heaven.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Boast of your own strength",
+        "feedback": "[TODO:it] Lowliness is the door."
+      },
+      {
+        "text": "[TODO:it] Bow your head humbly",
+        "feedback": "[TODO:it] Peace settles on you."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:it] Lay It Down",
+    "text": "[TODO:it] He blesses the meek, not the proud.\nReceive his word.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bow your head humbly",
+        "feedback": "[TODO:it] Your heart softens."
+      }
+    ]
+  },
+  "mercy": {
+    "title": "[TODO:it] Blessed Are the Merciful",
+    "text": "[TODO:it] \"Show mercy, and you will receive it.\nPure hearts will see God.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Hold a grudge tightly",
+        "feedback": "[TODO:it] Open your hand."
+      },
+      {
+        "text": "[TODO:it] Forgive someone today",
+        "feedback": "[TODO:it] Mercy flows out of you."
+      },
+      {
+        "text": "[TODO:it] Judge the crowd around you",
+        "feedback": "[TODO:it] First examine yourself."
+      }
+    ]
+  },
+  "grudge_consequence": {
+    "title": "[TODO:it] Release",
+    "text": "[TODO:it] Mercy untangles the heart.\nLet it go.",
+    "choices": [
+      {
+        "text": "[TODO:it] Forgive someone today",
+        "feedback": "[TODO:it] You exhale slowly."
+      }
+    ]
+  },
+  "judge_consequence": {
+    "title": "[TODO:it] Look Inward",
+    "text": "[TODO:it] Remove the beam from your eye.\nThen you will see.",
+    "choices": [
+      {
+        "text": "[TODO:it] Forgive someone today",
+        "feedback": "[TODO:it] Your gaze softens."
+      }
+    ]
+  },
+  "salt_light": {
+    "title": "[TODO:it] Salt and Light",
+    "text": "[TODO:it] \"You are the light of the world.\nLet your light shine before others.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Hide your gift away",
+        "feedback": "[TODO:it] A lamp belongs on a stand."
+      },
+      {
+        "text": "[TODO:it] Let your good shine out",
+        "feedback": "[TODO:it] Warmth spreads from you."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:it] Shine",
+    "text": "[TODO:it] Salt forgotten loses its taste.\nGive what you carry.",
+    "choices": [
+      {
+        "text": "[TODO:it] Let your good shine out",
+        "feedback": "[TODO:it] You step into the light."
+      }
+    ]
+  },
+  "enemies": {
+    "title": "[TODO:it] Love Your Enemies",
+    "text": "[TODO:it] \"Love your enemies.\nPray for those who hurt you.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Curse those who wronged you",
+        "feedback": "[TODO:it] Bless instead."
+      },
+      {
+        "text": "[TODO:it] Repay evil with evil",
+        "feedback": "[TODO:it] That path only deepens it."
+      },
+      {
+        "text": "[TODO:it] Pray for your enemy",
+        "feedback": "[TODO:it] Your heart unclenches."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:it] Bless Instead",
+    "text": "[TODO:it] Cursing keeps the wound open.\nPray for them.",
+    "choices": [
+      {
+        "text": "[TODO:it] Pray for your enemy",
+        "feedback": "[TODO:it] You whisper their name."
+      }
+    ]
+  },
+  "repay_consequence": {
+    "title": "[TODO:it] Break the Cycle",
+    "text": "[TODO:it] Evil cannot drive out evil.\nOnly love can.",
+    "choices": [
+      {
+        "text": "[TODO:it] Pray for your enemy",
+        "feedback": "[TODO:it] Your hands open."
+      }
+    ]
+  },
+  "worry": {
+    "title": "[TODO:it] Do Not Worry",
+    "text": "[TODO:it] \"Look at the birds, the lilies.\nYour Father knows your need.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Worry about tomorrow",
+        "feedback": "[TODO:it] Each day has enough."
+      },
+      {
+        "text": "[TODO:it] Trust your Father's care",
+        "feedback": "[TODO:it] Peace fills your chest."
+      }
+    ]
+  },
+  "worry_consequence": {
+    "title": "[TODO:it] Today",
+    "text": "[TODO:it] Tomorrow will care for itself.\nTrust him now.",
+    "choices": [
+      {
+        "text": "[TODO:it] Trust your Father's care",
+        "feedback": "[TODO:it] Your breath slows."
+      }
+    ]
+  },
+  "foundation": {
+    "title": "[TODO:it] Build on the Rock",
+    "text": "[TODO:it] \"Hear my words and live them.\nBuild your house upon the rock.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Build your life on sand",
+        "feedback": "[TODO:it] It will not stand."
+      },
+      {
+        "text": "[TODO:it] Build your life on his word",
+        "feedback": "[TODO:it] Your heart stands firm."
+      }
+    ]
+  },
+  "sand_consequence": {
+    "title": "[TODO:it] Choose Rock",
+    "text": "[TODO:it] Sand gives way in the storm.\nChoose the firm ground.",
+    "choices": [
+      {
+        "text": "[TODO:it] Build your life on his word",
+        "feedback": "[TODO:it] You feel rooted."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:it] The Crowd Was Amazed",
+    "text": "[TODO:it] You walk down the mountain changed.\nHis words have become your house.",
+    "choices": []
+  }
+}

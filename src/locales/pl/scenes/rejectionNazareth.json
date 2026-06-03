@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "[TODO:pl] Home Again",
+    "text": "[TODO:pl] Nazareth rises in the dawn.\nJesus walks the road of his youth.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Boast to the village he is here",
+        "feedback": "[TODO:pl] His coming needs no herald."
+      },
+      {
+        "text": "[TODO:pl] Walk beside him in quiet honor",
+        "feedback": "[TODO:pl] You enter with reverence."
+      },
+      {
+        "text": "[TODO:pl] Hurry past, ashamed of the place",
+        "feedback": "[TODO:pl] Do not despise the small place."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:pl] Be Still",
+    "text": "[TODO:pl] His glory is not a parade.\nLet him be seen as he is.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk beside him in quiet honor",
+        "feedback": "[TODO:pl] You quiet your steps."
+      }
+    ]
+  },
+  "ashamed_consequence": {
+    "title": "[TODO:pl] Do Not Hide",
+    "text": "[TODO:pl] Even small towns hold holy ground.\nLift your eyes.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk beside him in quiet honor",
+        "feedback": "[TODO:pl] You walk with him."
+      }
+    ]
+  },
+  "synagogue": {
+    "title": "[TODO:pl] Sabbath in Nazareth",
+    "text": "[TODO:pl] The synagogue is quiet and warm.\nHe stands to read.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Listen with an open heart",
+        "feedback": "[TODO:pl] You lean in."
+      },
+      {
+        "text": "[TODO:pl] Whisper about his family",
+        "feedback": "[TODO:pl] Hear him first."
+      }
+    ]
+  },
+  "whisper_consequence": {
+    "title": "[TODO:pl] Listen First",
+    "text": "[TODO:pl] Gossip drowns out the word.\nLet it be silent.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Listen with an open heart",
+        "feedback": "[TODO:pl] You go still."
+      }
+    ]
+  },
+  "scroll": {
+    "title": "[TODO:pl] The Scroll Unrolled",
+    "text": "[TODO:pl] \"The Spirit of the Lord is on me…\"\nHis voice fills the room.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Test him — \"Prove it now.\"",
+        "feedback": "[TODO:pl] Faith does not bargain."
+      },
+      {
+        "text": "[TODO:pl] Marvel at his gracious words",
+        "feedback": "[TODO:pl] Your heart stirs."
+      },
+      {
+        "text": "[TODO:pl] Walk out before he finishes",
+        "feedback": "[TODO:pl] Do not leave the light."
+      }
+    ]
+  },
+  "test_consequence": {
+    "title": "[TODO:pl] Do Not Test",
+    "text": "[TODO:pl] Demands silence the word in you.\nReceive instead.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Marvel at his gracious words",
+        "feedback": "[TODO:pl] You open your hands."
+      }
+    ]
+  },
+  "walkout_consequence": {
+    "title": "[TODO:pl] Stay and Hear",
+    "text": "[TODO:pl] What you flee, you cannot learn.\nReturn and listen.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Marvel at his gracious words",
+        "feedback": "[TODO:pl] You sit back down."
+      }
+    ]
+  },
+  "doubt": {
+    "title": "[TODO:pl] A Cold Shadow",
+    "text": "[TODO:pl] Wonder cools. Eyes narrow.\n\"Where did this man learn this?\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Join the doubting murmur",
+        "feedback": "[TODO:pl] Do not breathe doubt's air."
+      },
+      {
+        "text": "[TODO:pl] Hold steady in what you heard",
+        "feedback": "[TODO:pl] Your heart keeps the word."
+      }
+    ]
+  },
+  "join_consequence": {
+    "title": "[TODO:pl] Hold On",
+    "text": "[TODO:pl] What stirred you was true.\nDo not let it go.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hold steady in what you heard",
+        "feedback": "[TODO:pl] You stand firm."
+      }
+    ]
+  },
+  "carpenter": {
+    "title": "[TODO:pl] Joseph's Son",
+    "text": "[TODO:pl] \"Is this not the carpenter's son?\nWe know his brothers.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Agree — \"He is only one of us.\"",
+        "feedback": "[TODO:pl] Familiarity is not the truth of him."
+      },
+      {
+        "text": "[TODO:pl] Remember the words, not the name",
+        "feedback": "[TODO:pl] You see past what you knew."
+      },
+      {
+        "text": "[TODO:pl] Mock him for his old trade",
+        "feedback": "[TODO:pl] Honor is not given by mocking."
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "[TODO:pl] Look Again",
+    "text": "[TODO:pl] He is more than the boy you knew.\nLook with new eyes.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Remember the words, not the name",
+        "feedback": "[TODO:pl] You see him truly."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pl] Do Not Mock",
+    "text": "[TODO:pl] What you mock, you cannot receive.\nBe quiet.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Remember the words, not the name",
+        "feedback": "[TODO:pl] You bow your head."
+      }
+    ]
+  },
+  "rejection": {
+    "title": "[TODO:pl] They Turn Away",
+    "text": "[TODO:pl] The room grows cold.\nFaces close like shutters.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay near him as they reject",
+        "feedback": "[TODO:pl] You do not leave his side."
+      },
+      {
+        "text": "[TODO:pl] Slip into the crowd, unseen",
+        "feedback": "[TODO:pl] Do not hide from love."
+      }
+    ]
+  },
+  "slip_consequence": {
+    "title": "[TODO:pl] Stand With Him",
+    "text": "[TODO:pl] Loyalty is louder than the crowd.\nReturn to his side.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay near him as they reject",
+        "feedback": "[TODO:pl] You step back beside him."
+      }
+    ]
+  },
+  "explain": {
+    "title": "[TODO:pl] A Prophet at Home",
+    "text": "[TODO:pl] \"No prophet is welcomed\nin his own hometown.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Argue that they will change",
+        "feedback": "[TODO:pl] Unbelief is a closed door."
+      },
+      {
+        "text": "[TODO:pl] Receive his quiet sorrow",
+        "feedback": "[TODO:pl] You feel what he feels."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:pl] Hear the Sorrow",
+    "text": "[TODO:pl] What he says is true and aching.\nLet it land.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Receive his quiet sorrow",
+        "feedback": "[TODO:pl] Your heart softens."
+      }
+    ]
+  },
+  "leaving": {
+    "title": "[TODO:pl] The Road Out",
+    "text": "[TODO:pl] He turns toward the open road.\nHis steps are slow but sure.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay behind with the doubters",
+        "feedback": "[TODO:pl] Do not stay where faith died."
+      },
+      {
+        "text": "[TODO:pl] Walk out with him in faith",
+        "feedback": "[TODO:pl] You go where he goes."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:pl] Follow Him",
+    "text": "[TODO:pl] Faith walks forward.\nDo not stay behind.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk out with him in faith",
+        "feedback": "[TODO:pl] You follow him out."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pl] Familiar Eyes, Closed",
+    "text": "[TODO:pl] Where familiarity blocks the heart,\nfaith finds a quieter road.",
+    "choices": []
+  }
+}

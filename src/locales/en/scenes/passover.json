@@ -1,0 +1,269 @@
+{
+  "start": {
+    "title": "One Last Word",
+    "text": "The Lord speaks at dusk in Goshen.\nA final sign will free His people.",
+    "choices": [
+      {
+        "text": "Argue: surely it is enough",
+        "feedback": "His word is not yours to weigh."
+      },
+      {
+        "text": "Listen and obey His word",
+        "feedback": "You bow your head and listen."
+      },
+      {
+        "text": "Hide His word from the people",
+        "feedback": "It must be told to all."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Do Not Argue",
+    "text": "He has set the hour Himself.\nReceive what He commands.",
+    "choices": [
+      {
+        "text": "Listen and obey His word",
+        "feedback": "You kneel in silence."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Speak It to All",
+    "text": "His word is for every household.\nDo not keep it to yourself.",
+    "choices": [
+      {
+        "text": "Listen and obey His word",
+        "feedback": "You go to the elders."
+      }
+    ]
+  },
+  "gather_elders": {
+    "title": "Aaron at Your Side",
+    "text": "Aaron waits, the elders behind him.\nWhat must each household do?",
+    "choices": [
+      {
+        "text": "Take a lamb without blemish",
+        "feedback": "One for each household."
+      },
+      {
+        "text": "Buy any animal in haste",
+        "feedback": "Without blemish, He said."
+      }
+    ]
+  },
+  "any_animal_consequence": {
+    "title": "Without Blemish",
+    "text": "Not any beast. The Lord chose this.\nObey His word exactly.",
+    "choices": [
+      {
+        "text": "Take a lamb without blemish",
+        "feedback": "The elders nod."
+      }
+    ]
+  },
+  "lamb_chosen": {
+    "title": "On the Fourteenth Day",
+    "text": "The lamb is kept until twilight.\nThen all Israel slays it together.",
+    "choices": [
+      {
+        "text": "Hide the lamb's blood away",
+        "feedback": "The blood must be shown."
+      },
+      {
+        "text": "Mark the doorposts with blood",
+        "feedback": "Hyssop dipped in red."
+      },
+      {
+        "text": "Pour the blood on the ground",
+        "feedback": "On the doorframe, He said."
+      }
+    ]
+  },
+  "hide_blood_consequence": {
+    "title": "Show the Sign",
+    "text": "It is the sign He looks for.\nDo not hide what He commanded.",
+    "choices": [
+      {
+        "text": "Mark the doorposts with blood",
+        "feedback": "You take the hyssop."
+      }
+    ]
+  },
+  "ground_consequence": {
+    "title": "On the Doorframe",
+    "text": "Lintel and side posts, He said.\nThat is where the sign must rest.",
+    "choices": [
+      {
+        "text": "Mark the doorposts with blood",
+        "feedback": "Each home is marked."
+      }
+    ]
+  },
+  "doorposts_marked": {
+    "title": "The Sign on Every Door",
+    "text": "Red marks the wood of every home.\nNow the meal must be prepared.",
+    "choices": [
+      {
+        "text": "Roast the lamb with bitter herbs",
+        "feedback": "Unleavened bread is broken."
+      },
+      {
+        "text": "Boil it with leavened bread",
+        "feedback": "Roasted, with no leaven."
+      }
+    ]
+  },
+  "boil_consequence": {
+    "title": "As He Commanded",
+    "text": "Roasted by fire. No leaven tonight.\nDo it the way He spoke.",
+    "choices": [
+      {
+        "text": "Roast the lamb with bitter herbs",
+        "feedback": "The fire is lit."
+      }
+    ]
+  },
+  "meal_prepared": {
+    "title": "Eat in Haste",
+    "text": "Loins girded. Sandals on. Staff in hand.\nReady to leave at His word.",
+    "choices": [
+      {
+        "text": "Sit at ease, take your time",
+        "feedback": "In haste, He said."
+      },
+      {
+        "text": "Wander out into the street",
+        "feedback": "Not one foot outside tonight."
+      },
+      {
+        "text": "Stay inside until morning",
+        "feedback": "The door is shut behind you."
+      }
+    ]
+  },
+  "ease_consequence": {
+    "title": "Be Ready",
+    "text": "Tonight you eat as travelers.\nReady to rise and go.",
+    "choices": [
+      {
+        "text": "Stay inside until morning",
+        "feedback": "You gird your robe."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "Stay Within",
+    "text": "The blood guards only those inside.\nDo not step beyond the door.",
+    "choices": [
+      {
+        "text": "Stay inside until morning",
+        "feedback": "You bolt the door."
+      }
+    ]
+  },
+  "stay_inside": {
+    "title": "Midnight",
+    "text": "A great cry rises from Egypt.\nIn Goshen, only silence.",
+    "choices": [
+      {
+        "text": "Open the door to look out",
+        "feedback": "Not yet. Wait on Him."
+      },
+      {
+        "text": "Boast that you are spared",
+        "feedback": "It is His mercy, not yours."
+      },
+      {
+        "text": "Wait quietly with your family",
+        "feedback": "The lamps burn low and warm."
+      }
+    ]
+  },
+  "open_consequence": {
+    "title": "Wait on Him",
+    "text": "The Lord passes over tonight.\nDo not break the watch.",
+    "choices": [
+      {
+        "text": "Wait quietly with your family",
+        "feedback": "You sit beside the fire."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "His Mercy, Not Yours",
+    "text": "It is the blood that spares you.\nNot your hand, not your name.",
+    "choices": [
+      {
+        "text": "Wait quietly with your family",
+        "feedback": "You bow your head low."
+      }
+    ]
+  },
+  "morning_summons": {
+    "title": "Pharaoh's Messengers",
+    "text": "Before dawn they pound your door.\nThe king himself summons you now.",
+    "choices": [
+      {
+        "text": "Refuse and stay in Goshen",
+        "feedback": "Go. The hour has come."
+      },
+      {
+        "text": "Go to Pharaoh with Aaron",
+        "feedback": "You walk into the still city."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "The Hour Has Come",
+    "text": "He calls. Do not turn aside.\nThis is the moment promised.",
+    "choices": [
+      {
+        "text": "Go to Pharaoh with Aaron",
+        "feedback": "You take the road to the palace."
+      }
+    ]
+  },
+  "before_broken_pharaoh": {
+    "title": "\"Go. Serve the Lord.\"",
+    "text": "Pharaoh stands hollow with grief.\n\"Take your flocks. Leave my land.\"",
+    "choices": [
+      {
+        "text": "Mock him in his sorrow",
+        "feedback": "Do not strike a broken man."
+      },
+      {
+        "text": "Demand half stay behind",
+        "feedback": "All Israel goes, with all."
+      },
+      {
+        "text": "Accept and call the people forth",
+        "feedback": "You turn toward Goshen."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Not Mockery",
+    "text": "Judgment was His to give.\nReceive his word and go.",
+    "choices": [
+      {
+        "text": "Accept and call the people forth",
+        "feedback": "You bow and turn away."
+      }
+    ]
+  },
+  "half_consequence": {
+    "title": "All, With All",
+    "text": "Not one child. Not one beast.\nAll the people go free.",
+    "choices": [
+      {
+        "text": "Accept and call the people forth",
+        "feedback": "You hold the line."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Toward the Sunrise",
+    "text": "Israel rises from Goshen at dawn.\nThe long night is finished.",
+    "choices": []
+  }
+}

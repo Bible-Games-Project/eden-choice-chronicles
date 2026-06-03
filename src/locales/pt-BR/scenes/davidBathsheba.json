@@ -1,0 +1,167 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] When Kings Go to War",
+    "text": "[TODO:pt-BR] Spring has come. Joab leads your army.\nYou linger alone in the palace.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay idle on the rooftop",
+        "feedback": "[TODO:pt-BR] Idleness opens the door to sin."
+      },
+      {
+        "text": "[TODO:pt-BR] Ride out and lead your men",
+        "feedback": "[TODO:pt-BR] A king belongs with his people."
+      },
+      {
+        "text": "[TODO:pt-BR] Demand new wine and music",
+        "feedback": "[TODO:pt-BR] Comfort dulls the heart."
+      }
+    ]
+  },
+  "rooftop_consequence": {
+    "title": "[TODO:pt-BR] Restless on the Roof",
+    "text": "[TODO:pt-BR] Idle eyes will find a wound.\nYou should have gone to war.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Continue to the rooftop view",
+        "feedback": "[TODO:pt-BR] Yet the evening unfolds..."
+      }
+    ]
+  },
+  "wine_consequence": {
+    "title": "[TODO:pt-BR] Set the Cup Down",
+    "text": "[TODO:pt-BR] A king is not led by appetite.\nReturn to your duty.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk out onto the rooftop",
+        "feedback": "[TODO:pt-BR] You step into the cool air."
+      }
+    ]
+  },
+  "seeing": {
+    "title": "[TODO:pt-BR] A Woman Bathing",
+    "text": "[TODO:pt-BR] Below, a woman bathes in the courtyard.\nYour eyes will not turn away.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Send for her at once",
+        "feedback": "[TODO:pt-BR] Power must not take what is not yours."
+      },
+      {
+        "text": "[TODO:pt-BR] Look away and pray",
+        "feedback": "[TODO:pt-BR] Turn your eyes from temptation."
+      },
+      {
+        "text": "[TODO:pt-BR] Ask who her husband is",
+        "feedback": "[TODO:pt-BR] Curiosity here is the first step to ruin."
+      }
+    ]
+  },
+  "ask_consequence": {
+    "title": "[TODO:pt-BR] She Is Another's Wife",
+    "text": "[TODO:pt-BR] She is Bathsheba, wife of Uriah.\nThe knowledge will not save you now.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Send for her anyway",
+        "feedback": "[TODO:pt-BR] You step further into shadow."
+      },
+      {
+        "text": "[TODO:pt-BR] Repent and walk away",
+        "feedback": "[TODO:pt-BR] You close your eyes and breathe."
+      }
+    ]
+  },
+  "summon_consequence": {
+    "title": "[TODO:pt-BR] The Door Closes",
+    "text": "[TODO:pt-BR] She comes. The deed is done.\nWord arrives: she is with child.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Continue",
+        "feedback": "[TODO:pt-BR] The weight settles on your shoulders."
+      }
+    ]
+  },
+  "uriah": {
+    "title": "[TODO:pt-BR] Uriah Stands Before You",
+    "text": "[TODO:pt-BR] Uriah refuses comfort while his men sleep in fields.\n\"Shall I lie with my wife?\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Order Uriah to the front to die",
+        "feedback": "[TODO:pt-BR] Murder will not hide your sin."
+      },
+      {
+        "text": "[TODO:pt-BR] Get him drunk to send him home",
+        "feedback": "[TODO:pt-BR] Deceit breeds deeper deceit."
+      },
+      {
+        "text": "[TODO:pt-BR] Confess your sin to him",
+        "feedback": "[TODO:pt-BR] Truth is the only door out."
+      }
+    ]
+  },
+  "drunk_consequence": {
+    "title": "[TODO:pt-BR] Still He Will Not Go",
+    "text": "[TODO:pt-BR] Even drunk, Uriah sleeps at your gate.\nHis loyalty shames you.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Send him to die in battle",
+        "feedback": "[TODO:pt-BR] You sink deeper still."
+      },
+      {
+        "text": "[TODO:pt-BR] Confess everything to him",
+        "feedback": "[TODO:pt-BR] Light is harder than the lie."
+      }
+    ]
+  },
+  "front_consequence": {
+    "title": "[TODO:pt-BR] Blood on Your Hands",
+    "text": "[TODO:pt-BR] Uriah falls by the wall.\nYou took his wife and his life.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Continue",
+        "feedback": "[TODO:pt-BR] The Lord sees what you have done."
+      }
+    ]
+  },
+  "nathan": {
+    "title": "[TODO:pt-BR] The Prophet Comes",
+    "text": "[TODO:pt-BR] Nathan tells of a rich man who stole a poor man's lamb.\n\"You are the man.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Threaten the prophet's life",
+        "feedback": "[TODO:pt-BR] Do not silence the voice of God."
+      },
+      {
+        "text": "[TODO:pt-BR] Deny the accusation",
+        "feedback": "[TODO:pt-BR] Hiding cannot heal you."
+      },
+      {
+        "text": "[TODO:pt-BR] Say: I have sinned against the Lord",
+        "feedback": "[TODO:pt-BR] Confession opens the way."
+      }
+    ]
+  },
+  "threaten_consequence": {
+    "title": "[TODO:pt-BR] Hear the Word",
+    "text": "[TODO:pt-BR] Nathan does not flinch.\nGod's voice will not be silenced.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Bow and confess your sin",
+        "feedback": "[TODO:pt-BR] Your knees give way."
+      }
+    ]
+  },
+  "deny_consequence": {
+    "title": "[TODO:pt-BR] The Truth Cannot Hide",
+    "text": "[TODO:pt-BR] Your silence does not fool the Lord.\nA broken spirit He will not despise.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Say: I have sinned against the Lord",
+        "feedback": "[TODO:pt-BR] The words break from your chest."
+      }
+    ]
+  },
+  "repentance": {
+    "title": "[TODO:pt-BR] A Broken Heart",
+    "text": "[TODO:pt-BR] You fall in sackcloth, weeping.\n\"Create in me a clean heart, O God.\"",
+    "choices": []
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "Torches in the Trees",
+    "text": "Torchlight floods the olive grove.\nJudas leads armed men toward you.",
+    "choices": [
+      {
+        "text": "Hide among the olive trunks",
+        "feedback": "The hour will not be hidden from."
+      },
+      {
+        "text": "Stand and face them openly",
+        "feedback": "You step into the torchlight."
+      },
+      {
+        "text": "Call angels to scatter them",
+        "feedback": "Not by power, but by surrender."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Not Hidden",
+    "text": "The Father's will must be met openly.\nWalk into the light.",
+    "choices": [
+      {
+        "text": "Stand and face them openly",
+        "feedback": "You rise to meet them."
+      }
+    ]
+  },
+  "angels_consequence": {
+    "title": "Twelve Legions Wait",
+    "text": "Heaven could rescue you in a breath.\nBut Scripture must be fulfilled.",
+    "choices": [
+      {
+        "text": "Stand and face them openly",
+        "feedback": "You set your face like flint."
+      }
+    ]
+  },
+  "judas_arrives": {
+    "title": "Friend, Why Have You Come?",
+    "text": "Judas walks ahead of the crowd.\nHis lantern trembles in his hand.",
+    "choices": [
+      {
+        "text": "Shout and shame his betrayal",
+        "feedback": "Meet betrayal with grace."
+      },
+      {
+        "text": "Run before he reaches you",
+        "feedback": "Stay. The cup is here."
+      },
+      {
+        "text": "Call him 'friend' and wait",
+        "feedback": "Your voice is soft, unbroken."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "Grace, Not Wrath",
+    "text": "Even now, love is your answer.\nLet him hear it once more.",
+    "choices": [
+      {
+        "text": "Call him 'friend' and wait",
+        "feedback": "His eyes break under your gaze."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "The Cup Is Here",
+    "text": "You did not pray all night to flee.\nMeet him where you stand.",
+    "choices": [
+      {
+        "text": "Call him 'friend' and wait",
+        "feedback": "You hold your ground in peace."
+      }
+    ]
+  },
+  "kiss": {
+    "title": "A Sign of a Kiss",
+    "text": "Judas leans close. \"Rabbi.\"\nHis lips brush your cheek in betrayal.",
+    "choices": [
+      {
+        "text": "Strike him for his treachery",
+        "feedback": "No violence answers this kiss."
+      },
+      {
+        "text": "Receive it without resistance",
+        "feedback": "\"Do what you came to do.\""
+      },
+      {
+        "text": "Pretend you do not know him",
+        "feedback": "Truth, even now. Especially now."
+      }
+    ]
+  },
+  "strike_consequence": {
+    "title": "Not by the Sword",
+    "text": "Even Judas is loved to the end.\nLet the kiss become his witness.",
+    "choices": [
+      {
+        "text": "Receive it without resistance",
+        "feedback": "Your stillness is louder than wrath."
+      }
+    ]
+  },
+  "pretend_consequence": {
+    "title": "Truth, Even Now",
+    "text": "Denial is not your way.\nMeet him face to face.",
+    "choices": [
+      {
+        "text": "Receive it without resistance",
+        "feedback": "You stand fully revealed."
+      }
+    ]
+  },
+  "step_forward": {
+    "title": "Whom Do You Seek?",
+    "text": "The guards halt at the edge of the light.\nTheir eyes search the disciples.",
+    "choices": [
+      {
+        "text": "Let the disciples be taken too",
+        "feedback": "Shield them. The hour is yours alone."
+      },
+      {
+        "text": "Stand silent and let them guess",
+        "feedback": "Speak. Name yourself."
+      },
+      {
+        "text": "\"I am he. Let these men go.\"",
+        "feedback": "Your words fall like a quiet thunder."
+      }
+    ]
+  },
+  "let_taken_consequence": {
+    "title": "Shield Them",
+    "text": "Not one of them must be lost tonight.\nYou drink this cup alone.",
+    "choices": [
+      {
+        "text": "\"I am he. Let these men go.\"",
+        "feedback": "The guards step back at your voice."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "Name Yourself",
+    "text": "Truth must be spoken in the dark.\nDeclare who you are.",
+    "choices": [
+      {
+        "text": "\"I am he. Let these men go.\"",
+        "feedback": "The crowd staggers and falls back."
+      }
+    ]
+  },
+  "peter_sword": {
+    "title": "Peter Draws Steel",
+    "text": "Peter lifts a sword above his head.\nIt flashes toward the high priest's servant.",
+    "choices": [
+      {
+        "text": "Cheer Peter on to fight",
+        "feedback": "This is not the kingdom's way."
+      },
+      {
+        "text": "\"Put your sword away, Peter.\"",
+        "feedback": "Peter freezes, sword still raised."
+      },
+      {
+        "text": "Take the sword and fight beside him",
+        "feedback": "The kingdom is not won by blades."
+      }
+    ]
+  },
+  "cheer_consequence": {
+    "title": "Not by Blades",
+    "text": "Those who live by the sword die by it.\nSpeak the harder word.",
+    "choices": [
+      {
+        "text": "\"Put your sword away, Peter.\"",
+        "feedback": "Peter lowers the blade trembling."
+      }
+    ]
+  },
+  "fight_consequence": {
+    "title": "The Cup, Not the Sword",
+    "text": "The Father's plan needs no defenders.\nIt needs a willing Son.",
+    "choices": [
+      {
+        "text": "\"Put your sword away, Peter.\"",
+        "feedback": "Your calm halts the night."
+      }
+    ]
+  },
+  "heal_ear": {
+    "title": "No More of This",
+    "text": "The servant clutches his bleeding ear.\nFear and pain shake his whole frame.",
+    "choices": [
+      {
+        "text": "Walk past him to be arrested",
+        "feedback": "Even now, mercy. Heal him."
+      },
+      {
+        "text": "Touch his ear and heal him",
+        "feedback": "Warmth flows. The wound closes."
+      },
+      {
+        "text": "Curse the men who came for you",
+        "feedback": "Bless, do not curse, tonight."
+      }
+    ]
+  },
+  "walk_past_consequence": {
+    "title": "Mercy, Always",
+    "text": "The last miracle before the cross\nbelongs to your enemy.",
+    "choices": [
+      {
+        "text": "Touch his ear and heal him",
+        "feedback": "He looks up at you, stunned."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Bless, Not Curse",
+    "text": "Love your enemies, you taught.\nLive it now, in the torchlight.",
+    "choices": [
+      {
+        "text": "Touch his ear and heal him",
+        "feedback": "The grove falls silent in awe."
+      }
+    ]
+  },
+  "disciples_flee": {
+    "title": "They All Forsook Him",
+    "text": "Your friends turn and run.\nCloaks drop. Footsteps fade into the dark.",
+    "choices": [
+      {
+        "text": "Call them back in anger",
+        "feedback": "Let mercy cover their fear."
+      },
+      {
+        "text": "Let them go without a word",
+        "feedback": "You watch them with quiet love."
+      },
+      {
+        "text": "Curse them for abandoning you",
+        "feedback": "They will return. Forgive them now."
+      }
+    ]
+  },
+  "call_back_consequence": {
+    "title": "Let Them Go",
+    "text": "The Shepherd is struck. Sheep scatter.\nIt was written. It is right.",
+    "choices": [
+      {
+        "text": "Let them go without a word",
+        "feedback": "Their footsteps fade into the night."
+      }
+    ]
+  },
+  "curse_friends_consequence": {
+    "title": "Forgive Them",
+    "text": "They will weep and return.\nLeave the door of love open.",
+    "choices": [
+      {
+        "text": "Let them go without a word",
+        "feedback": "Forgiveness goes ahead of them."
+      }
+    ]
+  },
+  "taken_away": {
+    "title": "Bound and Led",
+    "text": "Rope tightens around your wrists.\nThe road to Jerusalem opens ahead.",
+    "choices": [
+      {
+        "text": "Struggle against the cords",
+        "feedback": "Walk with peace into the dawn."
+      },
+      {
+        "text": "Beg to be released one last time",
+        "feedback": "The yes is already spoken."
+      },
+      {
+        "text": "Walk forward in steady silence",
+        "feedback": "Your steps are sure and slow."
+      }
+    ]
+  },
+  "struggle_consequence": {
+    "title": "Peace in the Cords",
+    "text": "These ropes you have chosen freely.\nWear them like a king.",
+    "choices": [
+      {
+        "text": "Walk forward in steady silence",
+        "feedback": "Your head lifts toward the dawn."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "Already Yes",
+    "text": "In the garden you said your yes.\nLet the body follow the heart.",
+    "choices": [
+      {
+        "text": "Walk forward in steady silence",
+        "feedback": "The path is yours to walk."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Led Toward the Dawn",
+    "text": "Torches line the road to the city.\nYou walk in peace toward what comes.",
+    "choices": []
+  }
+}

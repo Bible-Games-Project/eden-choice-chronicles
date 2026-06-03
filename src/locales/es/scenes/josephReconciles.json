@@ -1,0 +1,639 @@
+{
+  "start": {
+    "title": "[TODO:es] They Return",
+    "text": "[TODO:es] Eleven brothers stand below.\nBenjamin is among them. Your heart burns.",
+    "choices": [
+      {
+        "text": "[TODO:es] Order the steward to greet them",
+        "feedback": "[TODO:es] You move with control."
+      },
+      {
+        "text": "[TODO:es] Strike them down for old wrongs",
+        "feedback": "[TODO:es] Vengeance is not God's path."
+      },
+      {
+        "text": "[TODO:es] Hide and let them leave",
+        "feedback": "[TODO:es] Father waits for word."
+      }
+    ]
+  },
+  "strike_consequence": {
+    "title": "[TODO:es] Hold Your Hand",
+    "text": "[TODO:es] God did not raise you to crush them.\nThere is a higher purpose.",
+    "choices": [
+      {
+        "text": "[TODO:es] Order the steward to greet them",
+        "feedback": "[TODO:es] You breathe deeply."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:es] No Hiding Now",
+    "text": "[TODO:es] Father needs his sons home with grain.\nYou must act with care.",
+    "choices": [
+      {
+        "text": "[TODO:es] Order the steward to greet them",
+        "feedback": "[TODO:es] You step into the hall."
+      }
+    ]
+  },
+  "greet": {
+    "title": "[TODO:es] Bring Them In",
+    "text": "[TODO:es] \"Bring these men into my house.\nPrepare a feast at noon.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Have them led to your home",
+        "feedback": "[TODO:es] The steward bows and obeys."
+      },
+      {
+        "text": "[TODO:es] Demand the silver first",
+        "feedback": "[TODO:es] First show them mercy."
+      }
+    ]
+  },
+  "demand_silver_consequence": {
+    "title": "[TODO:es] Mercy First",
+    "text": "[TODO:es] They are afraid of the returned silver.\nReassure them gently.",
+    "choices": [
+      {
+        "text": "[TODO:es] Have them led to your home",
+        "feedback": "[TODO:es] The steward leads them in."
+      }
+    ]
+  },
+  "summon_meal": {
+    "title": "[TODO:es] At Your Door",
+    "text": "[TODO:es] They tremble at your threshold.\n\"It is about the silver,\" they whisper.",
+    "choices": [
+      {
+        "text": "[TODO:es] Speak peace through the steward",
+        "feedback": "[TODO:es] \"Peace be with you. Fear not.\""
+      },
+      {
+        "text": "[TODO:es] Let them sweat in fear",
+        "feedback": "[TODO:es] Mercy serves God's plan."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "[TODO:es] Calm Their Hearts",
+    "text": "[TODO:es] Fear closes hearts. You need them open.\nSpeak peace through the steward.",
+    "choices": [
+      {
+        "text": "[TODO:es] Speak peace through them",
+        "feedback": "[TODO:es] Their shoulders ease."
+      }
+    ]
+  },
+  "weep1": {
+    "title": "[TODO:es] First Sight of Benjamin",
+    "text": "[TODO:es] You see your mother's son.\nA flood rises in your chest.",
+    "choices": [
+      {
+        "text": "[TODO:es] Excuse yourself to weep alone",
+        "feedback": "[TODO:es] You hide your tears in your chamber."
+      },
+      {
+        "text": "[TODO:es] Embrace him in front of all",
+        "feedback": "[TODO:es] Not yet. The test is not done."
+      }
+    ]
+  },
+  "embrace_too_soon_consequence": {
+    "title": "[TODO:es] Too Soon",
+    "text": "[TODO:es] Their hearts are not yet proven.\nWithdraw and weep alone.",
+    "choices": [
+      {
+        "text": "[TODO:es] Excuse yourself to weep alone",
+        "feedback": "[TODO:es] You step away just in time."
+      }
+    ]
+  },
+  "recover": {
+    "title": "[TODO:es] Wash Your Face",
+    "text": "[TODO:es] You return composed.\nThe meal is set, brothers seated by age.",
+    "choices": [
+      {
+        "text": "[TODO:es] Sit with them and break bread",
+        "feedback": "[TODO:es] Benjamin's portion is five times more."
+      },
+      {
+        "text": "[TODO:es] Eat apart, stay aloof",
+        "feedback": "[TODO:es] Honor them this hour."
+      }
+    ]
+  },
+  "aloof_consequence": {
+    "title": "[TODO:es] Honor the Table",
+    "text": "[TODO:es] A shared meal opens hearts.\nSit, and bless their bread.",
+    "choices": [
+      {
+        "text": "[TODO:es] Sit with them and break bread",
+        "feedback": "[TODO:es] They eat and marvel."
+      }
+    ]
+  },
+  "dine": {
+    "title": "[TODO:es] A Strange Wonder",
+    "text": "[TODO:es] They marvel they sit by birth order.\nBenjamin's plate is heaped highest.",
+    "choices": [
+      {
+        "text": "[TODO:es] Plan one final test tonight",
+        "feedback": "[TODO:es] You must know their hearts toward Benjamin."
+      },
+      {
+        "text": "[TODO:es] Send them home content",
+        "feedback": "[TODO:es] First test their love for Benjamin."
+      }
+    ]
+  },
+  "send_home_consequence": {
+    "title": "[TODO:es] One Test Remains",
+    "text": "[TODO:es] Will they abandon Benjamin as they\nabandoned you? You must know.",
+    "choices": [
+      {
+        "text": "[TODO:es] Plan one final test tonight",
+        "feedback": "[TODO:es] You call the steward in secret."
+      }
+    ]
+  },
+  "cup_plan": {
+    "title": "[TODO:es] The Silver Cup",
+    "text": "[TODO:es] \"Hide my cup in Benjamin's sack.\nReturn their silver too.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Place the cup in his sack",
+        "feedback": "[TODO:es] The steward obeys in silence."
+      },
+      {
+        "text": "[TODO:es] Cancel — too cruel a test",
+        "feedback": "[TODO:es] Their hearts must be revealed."
+      },
+      {
+        "text": "[TODO:es] Hide it in Reuben's sack",
+        "feedback": "[TODO:es] Only Benjamin tests their love."
+      }
+    ]
+  },
+  "cancel_consequence": {
+    "title": "[TODO:es] See It Through",
+    "text": "[TODO:es] Without this test you will never know.\nGod has prepared the moment.",
+    "choices": [
+      {
+        "text": "[TODO:es] Place the cup in his sack",
+        "feedback": "[TODO:es] The steward bows and obeys."
+      }
+    ]
+  },
+  "wrong_sack_consequence": {
+    "title": "[TODO:es] Benjamin Alone",
+    "text": "[TODO:es] Only Benjamin's danger reveals\nwhether they have changed.",
+    "choices": [
+      {
+        "text": "[TODO:es] Place the cup in Benjamin's sack",
+        "feedback": "[TODO:es] The steward changes course."
+      }
+    ]
+  },
+  "send_off2": {
+    "title": "[TODO:es] Dawn Departure",
+    "text": "[TODO:es] Donkeys laden, they ride out at dawn,\nlight in their step.",
+    "choices": [
+      {
+        "text": "[TODO:es] Send the steward to overtake them",
+        "feedback": "[TODO:es] Hooves thunder after them."
+      },
+      {
+        "text": "[TODO:es] Let them ride home in peace",
+        "feedback": "[TODO:es] The test must finish."
+      }
+    ]
+  },
+  "let_go_consequence": {
+    "title": "[TODO:es] Finish the Test",
+    "text": "[TODO:es] If they leave now, you learn nothing.\nSend the steward at once.",
+    "choices": [
+      {
+        "text": "[TODO:es] Send the steward to overtake them",
+        "feedback": "[TODO:es] He rides hard and catches them."
+      }
+    ]
+  },
+  "overtake": {
+    "title": "[TODO:es] Halted on the Road",
+    "text": "[TODO:es] \"Why have you repaid good with evil?\nWhere is my master's silver cup?\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Have him search every sack",
+        "feedback": "[TODO:es] They unload, certain of innocence."
+      },
+      {
+        "text": "[TODO:es] Have him accuse Reuben outright",
+        "feedback": "[TODO:es] Search them all, fairly."
+      }
+    ]
+  },
+  "accuse_one_consequence": {
+    "title": "[TODO:es] Search All Fairly",
+    "text": "[TODO:es] An unjust accusation breaks the test.\nLet the cup speak for itself.",
+    "choices": [
+      {
+        "text": "[TODO:es] Have him search every sack",
+        "feedback": "[TODO:es] Sacks open one by one."
+      }
+    ]
+  },
+  "search_sacks": {
+    "title": "[TODO:es] Eldest to Youngest",
+    "text": "[TODO:es] Sack after sack — clean, clean, clean.\nBenjamin's is opened last.",
+    "choices": [
+      {
+        "text": "[TODO:es] Watch the truth come out",
+        "feedback": "[TODO:es] The cup gleams in the grain."
+      },
+      {
+        "text": "[TODO:es] Stop the search now",
+        "feedback": "[TODO:es] The truth must surface."
+      }
+    ]
+  },
+  "stop_consequence": {
+    "title": "[TODO:es] Let It Surface",
+    "text": "[TODO:es] Stopping now buries the truth.\nGod is at work in this moment.",
+    "choices": [
+      {
+        "text": "[TODO:es] Watch the truth come out",
+        "feedback": "[TODO:es] Benjamin's sack is opened."
+      }
+    ]
+  },
+  "found_in_benjamin": {
+    "title": "[TODO:es] The Cup Found",
+    "text": "[TODO:es] Silver glints in Benjamin's sack.\nThe brothers tear their robes.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring all eleven back to you",
+        "feedback": "[TODO:es] They turn their donkeys around."
+      },
+      {
+        "text": "[TODO:es] Take only Benjamin captive",
+        "feedback": "[TODO:es] Will they all stand for him?"
+      }
+    ]
+  },
+  "take_one_consequence": {
+    "title": "[TODO:es] Bring Them All",
+    "text": "[TODO:es] You must see if they stand by Benjamin.\nLet them all return.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring all eleven back to you",
+        "feedback": "[TODO:es] They all turn back together."
+      }
+    ]
+  },
+  "return_to_palace": {
+    "title": "[TODO:es] Back Before You",
+    "text": "[TODO:es] Eleven men fall to the ground.\nDust on their faces, hearts broken.",
+    "choices": [
+      {
+        "text": "[TODO:es] Speak harsh: \"What have you done?\"",
+        "feedback": "[TODO:es] The room goes silent."
+      },
+      {
+        "text": "[TODO:es] Forgive instantly with no test",
+        "feedback": "[TODO:es] Hear Judah first."
+      }
+    ]
+  },
+  "no_test_consequence": {
+    "title": "[TODO:es] Wait for Judah",
+    "text": "[TODO:es] Their words now will reveal everything.\nLet them speak.",
+    "choices": [
+      {
+        "text": "[TODO:es] Speak harsh: \"What have you done?\"",
+        "feedback": "[TODO:es] You square your shoulders."
+      }
+    ]
+  },
+  "fall_down": {
+    "title": "[TODO:es] On Their Knees",
+    "text": "[TODO:es] \"God has uncovered our guilt,\" they cry.\n\"We are all your servants.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] \"Only the guilty stays. Go free.\"",
+        "feedback": "[TODO:es] You watch their faces closely."
+      },
+      {
+        "text": "[TODO:es] \"All of you to prison now.\"",
+        "feedback": "[TODO:es] Test only Benjamin."
+      },
+      {
+        "text": "[TODO:es] Send Benjamin to die",
+        "feedback": "[TODO:es] You would never harm him."
+      }
+    ]
+  },
+  "all_prison_consequence": {
+    "title": "[TODO:es] Only Benjamin",
+    "text": "[TODO:es] The test must isolate Benjamin alone.\nWill the others abandon him?",
+    "choices": [
+      {
+        "text": "[TODO:es] \"Only the guilty stays. Go free.\"",
+        "feedback": "[TODO:es] You retract the order."
+      }
+    ]
+  },
+  "death_consequence": {
+    "title": "[TODO:es] Never",
+    "text": "[TODO:es] Benjamin is your blood. The test is\nfor the brothers, not for him.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"Only the guilty stays. Go free.\"",
+        "feedback": "[TODO:es] You hold steady."
+      }
+    ]
+  },
+  "judah_steps": {
+    "title": "[TODO:es] Judah Steps Forward",
+    "text": "[TODO:es] Judah lifts his head from the dust.\n\"My lord, hear your servant speak.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Allow Judah to speak fully",
+        "feedback": "[TODO:es] You wait in silence."
+      },
+      {
+        "text": "[TODO:es] Silence him immediately",
+        "feedback": "[TODO:es] Hear his heart."
+      }
+    ]
+  },
+  "silence_consequence": {
+    "title": "[TODO:es] Hear Him",
+    "text": "[TODO:es] Judah's words are the test's true answer.\nLet him speak.",
+    "choices": [
+      {
+        "text": "[TODO:es] Allow Judah to speak fully",
+        "feedback": "[TODO:es] You nod once."
+      }
+    ]
+  },
+  "plea": {
+    "title": "[TODO:es] \"Take Me Instead\"",
+    "text": "[TODO:es] \"My father's life is bound to the boy.\nLet me stay. Let Benjamin go home.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Send all attendants out at once",
+        "feedback": "[TODO:es] You can hold back no longer."
+      },
+      {
+        "text": "[TODO:es] Mock his offer coldly",
+        "feedback": "[TODO:es] His pledge is the test's answer."
+      },
+      {
+        "text": "[TODO:es] Accept Judah, send Benjamin off",
+        "feedback": "[TODO:es] The time has come to reveal."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:es] He Has Changed",
+    "text": "[TODO:es] Judah, who once sold you, now offers\nhimself for his brother. Reveal yourself.",
+    "choices": [
+      {
+        "text": "[TODO:es] Send all attendants out at once",
+        "feedback": "[TODO:es] Tears blur your eyes."
+      }
+    ]
+  },
+  "accept_consequence": {
+    "title": "[TODO:es] No More Hiding",
+    "text": "[TODO:es] The test is finished. Their hearts\nare proven. It is time.",
+    "choices": [
+      {
+        "text": "[TODO:es] Send all attendants out at once",
+        "feedback": "[TODO:es] Your voice trembles."
+      }
+    ]
+  },
+  "send_attendants_out": {
+    "title": "[TODO:es] \"Go Out from Me!\"",
+    "text": "[TODO:es] The hall empties of Egyptians.\nOnly eleven brothers remain.",
+    "choices": [
+      {
+        "text": "[TODO:es] Weep aloud and tell them",
+        "feedback": "[TODO:es] Sobs shake your whole body."
+      },
+      {
+        "text": "[TODO:es] Frighten them once more",
+        "feedback": "[TODO:es] The waiting is over."
+      }
+    ]
+  },
+  "frighten_consequence": {
+    "title": "[TODO:es] Enough",
+    "text": "[TODO:es] The waiting is finished. Speak.\nLet love break the silence.",
+    "choices": [
+      {
+        "text": "[TODO:es] Weep aloud and tell them",
+        "feedback": "[TODO:es] You cannot hold it in."
+      }
+    ]
+  },
+  "reveal": {
+    "title": "[TODO:es] \"I Am Joseph\"",
+    "text": "[TODO:es] \"I am Joseph your brother.\nIs my father still alive?\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Wait as they stand stunned",
+        "feedback": "[TODO:es] Not one of them can answer."
+      },
+      {
+        "text": "[TODO:es] Roar in triumph at them",
+        "feedback": "[TODO:es] Be gentle now."
+      }
+    ]
+  },
+  "roar_consequence": {
+    "title": "[TODO:es] Gentleness",
+    "text": "[TODO:es] They are terrified. This is not\nthe moment for triumph.",
+    "choices": [
+      {
+        "text": "[TODO:es] Wait as they stand stunned",
+        "feedback": "[TODO:es] You soften your voice."
+      }
+    ]
+  },
+  "brothers_silent": {
+    "title": "[TODO:es] Stunned to Silence",
+    "text": "[TODO:es] They cannot speak. They cannot move.\nTerror and shame fill their eyes.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"Come near to me, I beg you.\"",
+        "feedback": "[TODO:es] Your arms open wide."
+      },
+      {
+        "text": "[TODO:es] Demand they confess all",
+        "feedback": "[TODO:es] Comfort them first."
+      }
+    ]
+  },
+  "demand_confess_consequence": {
+    "title": "[TODO:es] Comfort First",
+    "text": "[TODO:es] Forgiveness is given before it is asked.\nDraw them close.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"Come near to me, I beg you.\"",
+        "feedback": "[TODO:es] They take one trembling step."
+      }
+    ]
+  },
+  "comfort": {
+    "title": "[TODO:es] \"Do Not Be Grieved\"",
+    "text": "[TODO:es] \"I am Joseph, whom you sold.\nDo not be angry with yourselves.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] \"God sent me here before you\"",
+        "feedback": "[TODO:es] Their tears begin to fall."
+      },
+      {
+        "text": "[TODO:es] \"You will pay for what you did\"",
+        "feedback": "[TODO:es] God has turned it to good."
+      }
+    ]
+  },
+  "condemn_consequence": {
+    "title": "[TODO:es] God's Hand",
+    "text": "[TODO:es] It was God's plan, not their cruelty,\nthat brought you here. Tell them.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"God sent me here before you\"",
+        "feedback": "[TODO:es] You speak the truth gently."
+      }
+    ]
+  },
+  "it_was_god": {
+    "title": "[TODO:es] To Save Many Lives",
+    "text": "[TODO:es] \"To preserve a remnant for you,\nto save many lives — God did this.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Embrace Benjamin first",
+        "feedback": "[TODO:es] You fall on his neck weeping."
+      },
+      {
+        "text": "[TODO:es] Send them away in shame",
+        "feedback": "[TODO:es] Embrace your brother."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "[TODO:es] Embrace",
+    "text": "[TODO:es] Forgiveness without embrace is empty.\nGo to Benjamin first.",
+    "choices": [
+      {
+        "text": "[TODO:es] Embrace Benjamin first",
+        "feedback": "[TODO:es] You hold him tight."
+      }
+    ]
+  },
+  "kiss_benjamin": {
+    "title": "[TODO:es] Brother on Brother",
+    "text": "[TODO:es] Benjamin weeps on your neck.\nThen you kiss every brother and weep.",
+    "choices": [
+      {
+        "text": "[TODO:es] Tell them to bring Father here",
+        "feedback": "[TODO:es] \"Hurry — bring my father down.\""
+      },
+      {
+        "text": "[TODO:es] Hide all this from Father",
+        "feedback": "[TODO:es] Father must know. Quickly."
+      }
+    ]
+  },
+  "hide_jacob_consequence": {
+    "title": "[TODO:es] Tell Father",
+    "text": "[TODO:es] Jacob has mourned you for years.\nDo not steal one more day from him.",
+    "choices": [
+      {
+        "text": "[TODO:es] Tell them to bring Father here",
+        "feedback": "[TODO:es] You give them wagons and gifts."
+      }
+    ]
+  },
+  "send_for_jacob": {
+    "title": "[TODO:es] Wagons for the Journey",
+    "text": "[TODO:es] Pharaoh hears and rejoices.\n\"Give them the best of all Egypt.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Send them off with peace",
+        "feedback": "[TODO:es] \"Do not quarrel on the road.\""
+      },
+      {
+        "text": "[TODO:es] Send guards to watch them",
+        "feedback": "[TODO:es] Trust them now."
+      }
+    ]
+  },
+  "guards_consequence": {
+    "title": "[TODO:es] Trust Restored",
+    "text": "[TODO:es] Mistrust now wounds the new bond.\nLet them go in peace.",
+    "choices": [
+      {
+        "text": "[TODO:es] Send them off with peace",
+        "feedback": "[TODO:es] They ride away rejoicing."
+      }
+    ]
+  },
+  "jacob_hears": {
+    "title": "[TODO:es] In Canaan",
+    "text": "[TODO:es] \"Joseph is alive — and ruler of Egypt!\"\nJacob's heart faints — then revives.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring Father down to Egypt",
+        "feedback": "[TODO:es] \"I will go and see him before I die.\""
+      },
+      {
+        "text": "[TODO:es] Leave Father in Canaan alone",
+        "feedback": "[TODO:es] Bring him to Egypt."
+      }
+    ]
+  },
+  "abandon_consequence": {
+    "title": "[TODO:es] Together Again",
+    "text": "[TODO:es] Father must see his son.\nTake him with you to Egypt.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring Father down to Egypt",
+        "feedback": "[TODO:es] He rises with new strength."
+      }
+    ]
+  },
+  "journey_egypt": {
+    "title": "[TODO:es] Toward Goshen",
+    "text": "[TODO:es] Wagons cross the desert.\nFather is coming. The family is whole.",
+    "choices": [
+      {
+        "text": "[TODO:es] Ride out to meet him in Goshen",
+        "feedback": "[TODO:es] You fall on his neck a long time."
+      },
+      {
+        "text": "[TODO:es] Let servants greet him first",
+        "feedback": "[TODO:es] Go yourself."
+      }
+    ]
+  },
+  "servants_consequence": {
+    "title": "[TODO:es] Go Yourself",
+    "text": "[TODO:es] After all these years — go to him\nwith your own arms open.",
+    "choices": [
+      {
+        "text": "[TODO:es] Ride out to meet him in Goshen",
+        "feedback": "[TODO:es] You spur the chariot fast."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:es] Father and Son",
+    "text": "[TODO:es] Jacob holds you. \"Now I can die,\nfor I have seen your face again.\"",
+    "choices": []
+  }
+}

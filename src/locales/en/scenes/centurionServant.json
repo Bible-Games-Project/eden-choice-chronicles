@@ -1,0 +1,155 @@
+{
+  "start": {
+    "title": "Your Servant",
+    "text": "Your servant lies dying.\nYou hear a teacher is near.",
+    "choices": [
+      {
+        "text": "Send for a Roman doctor",
+        "feedback": "There is another way."
+      },
+      {
+        "text": "Go to find Jesus",
+        "feedback": "Hope rises in you."
+      },
+      {
+        "text": "Wait and do nothing",
+        "feedback": "Time is short."
+      }
+    ]
+  },
+  "doctor_consequence": {
+    "title": "Seek the Healer",
+    "text": "No skill of Rome can save him.\nOnly Jesus can.",
+    "choices": [
+      {
+        "text": "Go to find Jesus",
+        "feedback": "You set out."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "Do Not Delay",
+    "text": "Mercy passes through your town.\nReach him now.",
+    "choices": [
+      {
+        "text": "Go to find Jesus",
+        "feedback": "You hurry forward."
+      }
+    ]
+  },
+  "seek": {
+    "title": "Before the Teacher",
+    "text": "You stand before him.\nA Roman among his people.",
+    "choices": [
+      {
+        "text": "\"Lord, my servant suffers.\"",
+        "feedback": "He listens."
+      },
+      {
+        "text": "Command him by Rome",
+        "feedback": "Not by force."
+      }
+    ]
+  },
+  "command_consequence": {
+    "title": "Lay Down Pride",
+    "text": "Authority bends here.\nAsk humbly.",
+    "choices": [
+      {
+        "text": "\"Lord, my servant suffers.\"",
+        "feedback": "He turns to you."
+      }
+    ]
+  },
+  "agree": {
+    "title": "\"I Will Come\"",
+    "text": "\"I will come and heal him.\"\nHe steps toward your home.",
+    "choices": [
+      {
+        "text": "Lead him proudly home",
+        "feedback": "Pause and reflect."
+      },
+      {
+        "text": "Stop. You are unworthy",
+        "feedback": "True humility."
+      }
+    ]
+  },
+  "proud_consequence": {
+    "title": "Look Within",
+    "text": "Who are you that he should come?\nSpeak the truth.",
+    "choices": [
+      {
+        "text": "Stop. You are unworthy",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "faith": {
+    "title": "Only Say the Word",
+    "text": "\"I am not worthy.\"\nWhat will you ask?",
+    "choices": [
+      {
+        "text": "Beg him to hurry",
+        "feedback": "Trust deeper."
+      },
+      {
+        "text": "\"Only say the word.\"",
+        "feedback": "Faith without sight."
+      },
+      {
+        "text": "Demand a sign first",
+        "feedback": "Faith asks no proof."
+      }
+    ]
+  },
+  "hurry_consequence": {
+    "title": "Trust His Word",
+    "text": "His word alone is enough.\nSpeak it.",
+    "choices": [
+      {
+        "text": "\"Only say the word.\"",
+        "feedback": "You believe."
+      }
+    ]
+  },
+  "sign_consequence": {
+    "title": "No Proof Needed",
+    "text": "Faith does not bargain.\nSpeak from belief.",
+    "choices": [
+      {
+        "text": "\"Only say the word.\"",
+        "feedback": "Quiet trust."
+      }
+    ]
+  },
+  "praise": {
+    "title": "Such Great Faith",
+    "text": "He turns to the crowd amazed.\n\"I have not seen such faith.\"",
+    "choices": [
+      {
+        "text": "Boast before the people",
+        "feedback": "Stay humble."
+      },
+      {
+        "text": "Bow in silent gratitude",
+        "feedback": "Your heart trembles."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Stay Humble",
+    "text": "The glory is not yours.\nBow quietly.",
+    "choices": [
+      {
+        "text": "Bow in silent gratitude",
+        "feedback": "Peace fills you."
+      }
+    ]
+  },
+  "heal": {
+    "title": "Healed From Afar",
+    "text": "You return home.\nYour servant breathes deep, well.",
+    "choices": []
+  }
+}

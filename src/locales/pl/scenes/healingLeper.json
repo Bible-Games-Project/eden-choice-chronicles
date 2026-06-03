@@ -1,0 +1,179 @@
+{
+  "start": {
+    "title": "[TODO:pl] From the Edge",
+    "text": "[TODO:pl] You stand outside the village.\nA teacher passes by.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay hidden in shame",
+        "feedback": "[TODO:pl] Do not turn away."
+      },
+      {
+        "text": "[TODO:pl] Step toward him",
+        "feedback": "[TODO:pl] Hope stirs in you."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pl] Rise",
+    "text": "[TODO:pl] Mercy walks past only once.\nGo to him.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Step toward him",
+        "feedback": "[TODO:pl] Your feet move."
+      }
+    ]
+  },
+  "approach": {
+    "title": "[TODO:pl] Through the Crowd",
+    "text": "[TODO:pl] Faces recoil. Voices hush.\nThe path narrows.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Shout in anger at them",
+        "feedback": "[TODO:pl] Not now."
+      },
+      {
+        "text": "[TODO:pl] Keep your eyes on Jesus",
+        "feedback": "[TODO:pl] He is your hope."
+      },
+      {
+        "text": "[TODO:pl] Turn back ashamed",
+        "feedback": "[TODO:pl] Do not retreat."
+      }
+    ]
+  },
+  "anger_consequence": {
+    "title": "[TODO:pl] Let It Go",
+    "text": "[TODO:pl] Their fear is not your battle.\nLook ahead.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Keep your eyes on Jesus",
+        "feedback": "[TODO:pl] Peace returns."
+      }
+    ]
+  },
+  "turn_consequence": {
+    "title": "[TODO:pl] Don't Retreat",
+    "text": "[TODO:pl] He is near. Reach him.\nFaith calls you forward.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Keep your eyes on Jesus",
+        "feedback": "[TODO:pl] You walk on."
+      }
+    ]
+  },
+  "kneel": {
+    "title": "[TODO:pl] On Your Knees",
+    "text": "[TODO:pl] You fall before him, trembling.\nHis eyes meet yours.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Demand to be healed",
+        "feedback": "[TODO:pl] Ask, do not demand."
+      },
+      {
+        "text": "[TODO:pl] \"Lord, if you are willing...\"",
+        "feedback": "[TODO:pl] Faith and humility."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:pl] Speak with Faith",
+    "text": "[TODO:pl] Healing is mercy, not a debt.\nAsk gently.",
+    "choices": [
+      {
+        "text": "[TODO:pl] \"Lord, if you are willing...\"",
+        "feedback": "[TODO:pl] He hears you."
+      }
+    ]
+  },
+  "plea": {
+    "title": "[TODO:pl] If You Are Willing",
+    "text": "[TODO:pl] \"You can make me clean.\"\nHe looks at you with love.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Doubt and lower your head",
+        "feedback": "[TODO:pl] Hold the hope."
+      },
+      {
+        "text": "[TODO:pl] Wait in quiet trust",
+        "feedback": "[TODO:pl] He moves toward you."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:pl] Lift Your Eyes",
+    "text": "[TODO:pl] He has not turned away.\nTrust him.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wait in quiet trust",
+        "feedback": "[TODO:pl] His hand stirs."
+      }
+    ]
+  },
+  "touch": {
+    "title": "[TODO:pl] He Reaches Out",
+    "text": "[TODO:pl] No one has touched you in years.\nHis hand draws near.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Pull away — you are unclean",
+        "feedback": "[TODO:pl] Receive him."
+      },
+      {
+        "text": "[TODO:pl] Warn him to stay back",
+        "feedback": "[TODO:pl] He chooses you."
+      },
+      {
+        "text": "[TODO:pl] Let him touch you",
+        "feedback": "[TODO:pl] Mercy meets skin."
+      }
+    ]
+  },
+  "pull_consequence": {
+    "title": "[TODO:pl] Receive Mercy",
+    "text": "[TODO:pl] He knows. He came anyway.\nLet him.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Let him touch you",
+        "feedback": "[TODO:pl] Warmth spreads."
+      }
+    ]
+  },
+  "warn_consequence": {
+    "title": "[TODO:pl] He Is Not Afraid",
+    "text": "[TODO:pl] His love is greater than fear.\nLet him near.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Let him touch you",
+        "feedback": "[TODO:pl] Stillness, then light."
+      }
+    ]
+  },
+  "heal": {
+    "title": "[TODO:pl] \"I Am Willing\"",
+    "text": "[TODO:pl] \"Be clean.\"\nYour skin becomes new.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Run through the crowd boasting",
+        "feedback": "[TODO:pl] Honor him first."
+      },
+      {
+        "text": "[TODO:pl] Bow and give thanks",
+        "feedback": "[TODO:pl] Tears of joy."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:pl] Give Thanks",
+    "text": "[TODO:pl] The gift is his.\nReturn praise.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Bow and give thanks",
+        "feedback": "[TODO:pl] Your heart bows."
+      }
+    ]
+  },
+  "send": {
+    "title": "[TODO:pl] Go and Live",
+    "text": "[TODO:pl] \"Show yourself to the priest.\"\nYou step into the light.",
+    "choices": []
+  }
+}

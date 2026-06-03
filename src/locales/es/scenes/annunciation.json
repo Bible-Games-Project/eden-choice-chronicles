@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "[TODO:es] Morning in Nazareth",
+    "text": "[TODO:es] Dawn settles over your small home.\nYou begin the quiet work of the day.",
+    "choices": [
+      {
+        "text": "[TODO:es] Boast to the village",
+        "feedback": "[TODO:es] Your heart was made for stillness."
+      },
+      {
+        "text": "[TODO:es] Pray in silence",
+        "feedback": "[TODO:es] Your prayer rises like incense."
+      },
+      {
+        "text": "[TODO:es] Wander to the market",
+        "feedback": "[TODO:es] Something deeper waits for you."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:es] Return to Stillness",
+    "text": "[TODO:es] The village holds no answer for you.\nGo home and quiet your heart.",
+    "choices": [
+      {
+        "text": "[TODO:es] Pray in silence",
+        "feedback": "[TODO:es] You sit and listen."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "[TODO:es] A Pull Within",
+    "text": "[TODO:es] Even among the crowd, your heart feels called.\nReturn to your room.",
+    "choices": [
+      {
+        "text": "[TODO:es] Pray in silence",
+        "feedback": "[TODO:es] You walk back in peace."
+      }
+    ]
+  },
+  "gabriel": {
+    "title": "[TODO:es] A Light at the Door",
+    "text": "[TODO:es] A radiant figure stands before you.\n\"Hail, favored one. The Lord is with you.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Flee in terror",
+        "feedback": "[TODO:es] His light still finds you."
+      },
+      {
+        "text": "[TODO:es] Demand a sign of power",
+        "feedback": "[TODO:es] He is the sign."
+      },
+      {
+        "text": "[TODO:es] Stay and listen quietly",
+        "feedback": "[TODO:es] Awe holds you in place."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:es] Do Not Be Afraid",
+    "text": "[TODO:es] His voice is gentle as morning.\n\"Do not be afraid, Mary.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Stay and listen quietly",
+        "feedback": "[TODO:es] Your breath steadies."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:es] Lay Down Your Pride",
+    "text": "[TODO:es] Heaven owes you nothing, yet offers everything.\nReceive in humility.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stay and listen quietly",
+        "feedback": "[TODO:es] You bow your gaze."
+      }
+    ]
+  },
+  "ponder": {
+    "title": "[TODO:es] What Greeting Is This?",
+    "text": "[TODO:es] His words trouble your young heart.\nWhat could such favor mean?",
+    "choices": [
+      {
+        "text": "[TODO:es] Wait for him to speak",
+        "feedback": "[TODO:es] Patience opens the door."
+      },
+      {
+        "text": "[TODO:es] Send him away",
+        "feedback": "[TODO:es] Heaven is not so easily turned."
+      }
+    ]
+  },
+  "sendaway_consequence": {
+    "title": "[TODO:es] He Remains",
+    "text": "[TODO:es] The angel does not move.\nHis message is not yours to refuse.",
+    "choices": [
+      {
+        "text": "[TODO:es] Wait for him to speak",
+        "feedback": "[TODO:es] You fold your hands and wait."
+      }
+    ]
+  },
+  "announce": {
+    "title": "[TODO:es] You Will Bear a Son",
+    "text": "[TODO:es] \"You will conceive and bear a son.\nCall his name Jesus. He will be great.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Doubt — how can this be?",
+        "feedback": "[TODO:es] An honest question is welcomed."
+      },
+      {
+        "text": "[TODO:es] Refuse the calling",
+        "feedback": "[TODO:es] Fear closes what grace opens."
+      },
+      {
+        "text": "[TODO:es] Demand wealth in return",
+        "feedback": "[TODO:es] This gift is not for sale."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:es] Listen Once More",
+    "text": "[TODO:es] His eyes are gentle, not forceful.\nLet your honest heart speak.",
+    "choices": [
+      {
+        "text": "[TODO:es] Doubt — how can this be?",
+        "feedback": "[TODO:es] You find your voice."
+      }
+    ]
+  },
+  "wealth_consequence": {
+    "title": "[TODO:es] Treasures Above",
+    "text": "[TODO:es] No coin can hold this promise.\nAsk what truly burdens you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Doubt — how can this be?",
+        "feedback": "[TODO:es] Your true question rises."
+      }
+    ]
+  },
+  "question": {
+    "title": "[TODO:es] How Can This Be?",
+    "text": "[TODO:es] \"The Holy Spirit will come upon you.\nNothing is impossible with God.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Hide the news from all",
+        "feedback": "[TODO:es] Some things cannot stay hidden."
+      },
+      {
+        "text": "[TODO:es] Say: let it be unto me",
+        "feedback": "[TODO:es] Your yes shakes the heavens."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:es] Open Your Heart",
+    "text": "[TODO:es] Silence cannot carry this child.\nGive your full answer now.",
+    "choices": [
+      {
+        "text": "[TODO:es] Say: let it be unto me",
+        "feedback": "[TODO:es] You open your hands."
+      }
+    ]
+  },
+  "accept": {
+    "title": "[TODO:es] Let It Be",
+    "text": "[TODO:es] \"Behold, I am the servant of the Lord.\nLet it be unto me as you have said.\"",
+    "choices": []
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "start": {
+    "title": "[TODO:pl] The Crowd Follows",
+    "text": "[TODO:pl] Thousands have climbed the hill.\nThey hunger for his every word.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Send them away hungry",
+        "feedback": "[TODO:pl] He has compassion on them."
+      },
+      {
+        "text": "[TODO:pl] Watch him with compassion",
+        "feedback": "[TODO:pl] His heart sees their need."
+      },
+      {
+        "text": "[TODO:pl] Tell him to rest first",
+        "feedback": "[TODO:pl] He chooses mercy now."
+      }
+    ]
+  },
+  "send_away": {
+    "title": "[TODO:pl] He Will Not Turn Them Away",
+    "text": "[TODO:pl] His eyes hold the whole crowd.\nNone will leave empty.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Watch him with compassion",
+        "feedback": "[TODO:pl] You feel his heart."
+      }
+    ]
+  },
+  "rest_consequence": {
+    "title": "[TODO:pl] Mercy First",
+    "text": "[TODO:pl] Their hunger is his concern.\nStand ready beside him.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Watch him with compassion",
+        "feedback": "[TODO:pl] You step closer."
+      }
+    ]
+  },
+  "compassion": {
+    "title": "[TODO:pl] Evening Falls",
+    "text": "[TODO:pl] \"They have nothing to eat.\"\nThe disciples murmur in fear.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Count the coins we lack",
+        "feedback": "[TODO:pl] Money is not the answer."
+      },
+      {
+        "text": "[TODO:pl] Search the crowd for food",
+        "feedback": "[TODO:pl] Even little can become much."
+      }
+    ]
+  },
+  "count_consequence": {
+    "title": "[TODO:pl] Not by Silver",
+    "text": "[TODO:pl] Two hundred coins would not be enough.\nLook with new eyes.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Search the crowd for food",
+        "feedback": "[TODO:pl] Hope rises."
+      }
+    ]
+  },
+  "boy": {
+    "title": "[TODO:pl] A Small Offering",
+    "text": "[TODO:pl] A boy lifts a humble basket.\nFive loaves. Two small fish.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Dismiss it as too little",
+        "feedback": "[TODO:pl] Bring it to him."
+      },
+      {
+        "text": "[TODO:pl] Mock the small gift",
+        "feedback": "[TODO:pl] Heaven honors small hands."
+      },
+      {
+        "text": "[TODO:pl] Bring it to Jesus",
+        "feedback": "[TODO:pl] Faith places it in his hands."
+      }
+    ]
+  },
+  "dismiss_consequence": {
+    "title": "[TODO:pl] Little Is Much",
+    "text": "[TODO:pl] In his hands, little is plenty.\nReceive the boy's gift.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Bring it to Jesus",
+        "feedback": "[TODO:pl] You smile at the boy."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pl] Honor the Gift",
+    "text": "[TODO:pl] His brave little heart deserves more.\nCarry his basket gently.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Bring it to Jesus",
+        "feedback": "[TODO:pl] You kneel and accept."
+      }
+    ]
+  },
+  "bless": {
+    "title": "[TODO:pl] He Lifts His Eyes",
+    "text": "[TODO:pl] He raises the bread to heaven.\nA hush falls on the hillside.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk away in unbelief",
+        "feedback": "[TODO:pl] Stay. Watch. Believe."
+      },
+      {
+        "text": "[TODO:pl] Bow your head and trust",
+        "feedback": "[TODO:pl] Heaven answers."
+      }
+    ]
+  },
+  "unbelief_consequence": {
+    "title": "[TODO:pl] Stay and See",
+    "text": "[TODO:pl] The miracle begins in his hands.\nDo not miss it.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Bow your head and trust",
+        "feedback": "[TODO:pl] You linger."
+      }
+    ]
+  },
+  "distribute": {
+    "title": "[TODO:pl] Pass It On",
+    "text": "[TODO:pl] He breaks. He gives. He breaks again.\nThe baskets do not empty.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hide some bread for yourself",
+        "feedback": "[TODO:pl] Share freely. There is enough."
+      },
+      {
+        "text": "[TODO:pl] Serve the crowd row by row",
+        "feedback": "[TODO:pl] Abundance flows through you."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pl] Trust the Giver",
+    "text": "[TODO:pl] There is plenty for every mouth.\nKeep no portion back.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Serve the crowd row by row",
+        "feedback": "[TODO:pl] Your hands open wide."
+      }
+    ]
+  },
+  "feast": {
+    "title": "[TODO:pl] All Are Filled",
+    "text": "[TODO:pl] Families eat together on green grass.\nNo one rises hungry.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Leave the scraps to rot",
+        "feedback": "[TODO:pl] Nothing he gives is wasted."
+      },
+      {
+        "text": "[TODO:pl] Gather the leftovers",
+        "feedback": "[TODO:pl] Twelve baskets remain."
+      }
+    ]
+  },
+  "waste_consequence": {
+    "title": "[TODO:pl] Gather It All",
+    "text": "[TODO:pl] Every fragment is mercy made bread.\nLet nothing be lost.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Gather the leftovers",
+        "feedback": "[TODO:pl] You bend low."
+      }
+    ]
+  },
+  "baskets": {
+    "title": "[TODO:pl] Twelve Baskets Full",
+    "text": "[TODO:pl] From a boy's gift, abundance overflows.\nWith little, he gives much.",
+    "choices": []
+  }
+}

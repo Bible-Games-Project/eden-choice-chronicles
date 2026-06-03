@@ -11,404 +11,307 @@ import { useIAP } from "@/hooks/useIAP";
 import { Paywall } from "@/components/Paywall";
 import { shuffleChoices } from "@/lib/shuffleChoices";
 import { useDevMode } from "@/hooks/useDevMode";
+import { useStoryScenes } from "@/hooks/useStoryScenes";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
-import { creationScenes, StoryChoice, StoryScene } from "@/data/stories/creation";
+import { StoryChoice, StoryScene } from "@/data/stories/creation";
+import type { SceneEffect } from "@/components/SceneEffects";
 import { creationImages } from "@/data/stories/creationImages";
 import { creationSprites, SpriteConfig } from "@/data/creationSprites";
 import { creationEffects } from "@/data/creationEffects";
-import { adamEveScenes } from "@/data/stories/adamEve";
 import { adamEveImages } from "@/data/stories/adamEveImages";
 import { adamEveSprites } from "@/data/stories/adamEveSprites";
 import { adamEveEffects } from "@/data/stories/adamEveEffects";
-import { cainAbelScenes } from "@/data/stories/cainAbel";
 import { cainAbelImages } from "@/data/stories/cainAbelImages";
 import { cainAbelSprites } from "@/data/stories/cainAbelSprites";
 import { cainAbelEffects } from "@/data/stories/cainAbelEffects";
-import { noahScenes } from "@/data/stories/noah";
 import { noahImages } from "@/data/stories/noahImages";
 import { noahSprites } from "@/data/stories/noahSprites";
 import { noahEffects } from "@/data/stories/noahEffects";
-import { babelScenes } from "@/data/stories/babel";
 import { babelImages } from "@/data/stories/babelImages";
 import { babelSprites } from "@/data/stories/babelSprites";
 import { babelEffects } from "@/data/stories/babelEffects";
-import { abrahamScenes } from "@/data/stories/abraham";
 import { abrahamImages } from "@/data/stories/abrahamImages";
 import { abrahamSprites } from "@/data/stories/abrahamSprites";
 import { abrahamEffects } from "@/data/stories/abrahamEffects";
-import { abrahamEgyptScenes } from "@/data/stories/abrahamEgypt";
 import { abrahamEgyptImages } from "@/data/stories/abrahamEgyptImages";
 import { abrahamEgyptSprites } from "@/data/stories/abrahamEgyptSprites";
 import { abrahamEgyptEffects } from "@/data/stories/abrahamEgyptEffects";
-import { abrahamLotScenes } from "@/data/stories/abrahamLot";
 import { abrahamLotImages } from "@/data/stories/abrahamLotImages";
 import { abrahamLotSprites } from "@/data/stories/abrahamLotSprites";
 import { abrahamLotEffects } from "@/data/stories/abrahamLotEffects";
-import { sodomScenes } from "@/data/stories/sodom";
 import { sodomImages } from "@/data/stories/sodomImages";
 import { sodomSprites } from "@/data/stories/sodomSprites";
 import { sodomEffects } from "@/data/stories/sodomEffects";
-import { sacrificeIsaacScenes } from "@/data/stories/sacrificeIsaac";
 import { sacrificeIsaacImages } from "@/data/stories/sacrificeIsaacImages";
 import { sacrificeIsaacSprites } from "@/data/stories/sacrificeIsaacSprites";
 import { sacrificeIsaacEffects } from "@/data/stories/sacrificeIsaacEffects";
-import { rebekahScenes } from "@/data/stories/rebekah";
 import { rebekahImages } from "@/data/stories/rebekahImages";
 import { rebekahSprites } from "@/data/stories/rebekahSprites";
 import { rebekahEffects } from "@/data/stories/rebekahEffects";
-import { jacobEsauScenes } from "@/data/stories/jacobEsau";
 import { jacobEsauImages } from "@/data/stories/jacobEsauImages";
 import { jacobEsauSprites } from "@/data/stories/jacobEsauSprites";
 import { jacobEsauEffects } from "@/data/stories/jacobEsauEffects";
-import { jacobsDreamScenes } from "@/data/stories/jacobsDream";
 import { jacobsDreamImages } from "@/data/stories/jacobsDreamImages";
 import { jacobsDreamSprites } from "@/data/stories/jacobsDreamSprites";
 import { jacobsDreamEffects } from "@/data/stories/jacobsDreamEffects";
-import { jacobWrestlesScenes } from "@/data/stories/jacobWrestles";
 import { jacobWrestlesImages } from "@/data/stories/jacobWrestlesImages";
 import { jacobWrestlesSprites } from "@/data/stories/jacobWrestlesSprites";
 import { jacobWrestlesEffects } from "@/data/stories/jacobWrestlesEffects";
-import { josephSoldScenes } from "@/data/stories/josephSold";
 import { josephSoldImages } from "@/data/stories/josephSoldImages";
 import { josephSoldSprites } from "@/data/stories/josephSoldSprites";
 import { josephSoldEffects } from "@/data/stories/josephSoldEffects";
-import { josephPotipharScenes } from "@/data/stories/josephPotiphar";
 import { josephPotipharImages } from "@/data/stories/josephPotipharImages";
 import { josephPotipharSprites } from "@/data/stories/josephPotipharSprites";
 import { josephPotipharEffects } from "@/data/stories/josephPotipharEffects";
-import { josephPrisonScenes } from "@/data/stories/josephPrison";
 import { josephPrisonImages } from "@/data/stories/josephPrisonImages";
 import { josephPrisonSprites } from "@/data/stories/josephPrisonSprites";
 import { josephPrisonEffects } from "@/data/stories/josephPrisonEffects";
-import { josephDreamsScenes } from "@/data/stories/josephDreams";
 import { josephDreamsImages } from "@/data/stories/josephDreamsImages";
 import { josephDreamsSprites } from "@/data/stories/josephDreamsSprites";
 import { josephDreamsEffects } from "@/data/stories/josephDreamsEffects";
-import { josephBrothersEgyptScenes } from "@/data/stories/josephBrothersEgypt";
 import { josephBrothersEgyptImages } from "@/data/stories/josephBrothersEgyptImages";
 import { josephBrothersEgyptSprites } from "@/data/stories/josephBrothersEgyptSprites";
 import { josephBrothersEgyptEffects } from "@/data/stories/josephBrothersEgyptEffects";
-import { josephReconcilesScenes } from "@/data/stories/josephReconciles";
 import { josephReconcilesImages } from "@/data/stories/josephReconcilesImages";
 import { josephReconcilesSprites } from "@/data/stories/josephReconcilesSprites";
 import { josephReconcilesEffects } from "@/data/stories/josephReconcilesEffects";
-import { birthMosesScenes } from "@/data/stories/birthMoses";
 import { birthMosesImages } from "@/data/stories/birthMosesImages";
 import { birthMosesSprites } from "@/data/stories/birthMosesSprites";
 import { birthMosesEffects } from "@/data/stories/birthMosesEffects";
-import { mosesFleesScenes } from "@/data/stories/mosesFlees";
 import { mosesFleesImages } from "@/data/stories/mosesFleesImages";
 import { mosesFleesSprites } from "@/data/stories/mosesFleesSprites";
 import { mosesFleesEffects } from "@/data/stories/mosesFleesEffects";
-import { burningBushScenes } from "@/data/stories/burningBush";
 import { burningBushImages } from "@/data/stories/burningBushImages";
 import { burningBushSprites } from "@/data/stories/burningBushSprites";
 import { burningBushEffects } from "@/data/stories/burningBushEffects";
-import { mosesPharaohScenes } from "@/data/stories/mosesPharaoh";
 import { mosesPharaohImages } from "@/data/stories/mosesPharaohImages";
 import { mosesPharaohSprites } from "@/data/stories/mosesPharaohSprites";
 import { mosesPharaohEffects } from "@/data/stories/mosesPharaohEffects";
-import { plaguesScenes } from "@/data/stories/plagues";
 import { plaguesImages } from "@/data/stories/plaguesImages";
 import { plaguesSprites } from "@/data/stories/plaguesSprites";
 import { plaguesEffects } from "@/data/stories/plaguesEffects";
-import { passoverScenes } from "@/data/stories/passover";
 import { passoverImages } from "@/data/stories/passoverImages";
 import { passoverSprites } from "@/data/stories/passoverSprites";
 import { passoverEffects } from "@/data/stories/passoverEffects";
-import { redSeaScenes } from "@/data/stories/redSea";
 import { redSeaImages } from "@/data/stories/redSeaImages";
 import { redSeaSprites } from "@/data/stories/redSeaSprites";
 import { redSeaEffects } from "@/data/stories/redSeaEffects";
-import { mannaScenes } from "@/data/stories/manna";
 import { mannaImages } from "@/data/stories/mannaImages";
 import { mannaSprites } from "@/data/stories/mannaSprites";
 import { mannaEffects } from "@/data/stories/mannaEffects";
-import { waterRockScenes } from "@/data/stories/waterRock";
 import { waterRockImages } from "@/data/stories/waterRockImages";
 import { waterRockSprites } from "@/data/stories/waterRockSprites";
 import { waterRockEffects } from "@/data/stories/waterRockEffects";
-import { tenCommandmentsScenes } from "@/data/stories/tenCommandments";
 import { tenCommandmentsImages } from "@/data/stories/tenCommandmentsImages";
 import { tenCommandmentsSprites } from "@/data/stories/tenCommandmentsSprites";
 import { tenCommandmentsEffects } from "@/data/stories/tenCommandmentsEffects";
-import { goldenCalfScenes } from "@/data/stories/goldenCalf";
 import { goldenCalfImages } from "@/data/stories/goldenCalfImages";
 import { goldenCalfSprites } from "@/data/stories/goldenCalfSprites";
 import { goldenCalfEffects } from "@/data/stories/goldenCalfEffects";
-import { spiesCanaanScenes } from "@/data/stories/spiesCanaan";
 import { spiesCanaanImages } from "@/data/stories/spiesCanaanImages";
 import { spiesCanaanSprites } from "@/data/stories/spiesCanaanSprites";
 import { spiesCanaanEffects } from "@/data/stories/spiesCanaanEffects";
-import { rebellionPeopleScenes } from "@/data/stories/rebellionPeople";
 import { rebellionPeopleImages } from "@/data/stories/rebellionPeopleImages";
 import { rebellionPeopleSprites } from "@/data/stories/rebellionPeopleSprites";
 import { rebellionPeopleEffects } from "@/data/stories/rebellionPeopleEffects";
-import { balaamScenes } from "@/data/stories/balaam";
 import { balaamImages } from "@/data/stories/balaamImages";
 import { balaamSprites } from "@/data/stories/balaamSprites";
 import { balaamEffects } from "@/data/stories/balaamEffects";
-import { deathMosesScenes } from "@/data/stories/deathMoses";
 import { deathMosesImages } from "@/data/stories/deathMosesImages";
 import { deathMosesSprites } from "@/data/stories/deathMosesSprites";
 import { deathMosesEffects } from "@/data/stories/deathMosesEffects";
-import { jerichoScenes } from "@/data/stories/jericho";
 import { jerichoImages } from "@/data/stories/jerichoImages";
 import { jerichoSprites } from "@/data/stories/jerichoSprites";
 import { jerichoEffects } from "@/data/stories/jerichoEffects";
-import { sinAchanScenes } from "@/data/stories/sinAchan";
 import { sinAchanImages } from "@/data/stories/sinAchanImages";
 import { sinAchanSprites } from "@/data/stories/sinAchanSprites";
 import { sinAchanEffects } from "@/data/stories/sinAchanEffects";
-import { deborahBarakScenes } from "@/data/stories/deborahBarak";
 import { deborahBarakImages } from "@/data/stories/deborahBarakImages";
 import { deborahBarakSprites } from "@/data/stories/deborahBarakSprites";
 import { deborahBarakEffects } from "@/data/stories/deborahBarakEffects";
-import { gideonScenes } from "@/data/stories/gideon";
 import { gideonImages } from "@/data/stories/gideonImages";
 import { gideonSprites } from "@/data/stories/gideonSprites";
 import { gideonEffects } from "@/data/stories/gideonEffects";
-import { samsonScenes } from "@/data/stories/samson";
 import { samsonImages } from "@/data/stories/samsonImages";
 import { samsonSprites } from "@/data/stories/samsonSprites";
 import { samsonEffects } from "@/data/stories/samsonEffects";
-import { ruthNaomiScenes } from "@/data/stories/ruthNaomi";
 import { ruthNaomiImages } from "@/data/stories/ruthNaomiImages";
 import { ruthNaomiSprites } from "@/data/stories/ruthNaomiSprites";
 import { ruthNaomiEffects } from "@/data/stories/ruthNaomiEffects";
-import { samuelCalledScenes } from "@/data/stories/samuelCalled";
 import { samuelCalledImages } from "@/data/stories/samuelCalledImages";
 import { samuelCalledSprites } from "@/data/stories/samuelCalledSprites";
 import { samuelCalledEffects } from "@/data/stories/samuelCalledEffects";
-import { saulKingScenes } from "@/data/stories/saulKing";
 import { saulKingImages } from "@/data/stories/saulKingImages";
 import { saulKingSprites } from "@/data/stories/saulKingSprites";
 import { saulKingEffects } from "@/data/stories/saulKingEffects";
-import { davidGoliathScenes } from "@/data/stories/davidGoliath";
 import { davidGoliathImages } from "@/data/stories/davidGoliathImages";
 import { davidGoliathSprites } from "@/data/stories/davidGoliathSprites";
 import { davidGoliathEffects } from "@/data/stories/davidGoliathEffects";
-import { davidSaulScenes } from "@/data/stories/davidSaul";
 import { davidSaulImages } from "@/data/stories/davidSaulImages";
 import { davidSaulSprites } from "@/data/stories/davidSaulSprites";
 import { davidSaulEffects } from "@/data/stories/davidSaulEffects";
-import { davidBathshebaScenes } from "@/data/stories/davidBathsheba";
 import { davidBathshebaImages } from "@/data/stories/davidBathshebaImages";
 import { davidBathshebaSprites } from "@/data/stories/davidBathshebaSprites";
 import { davidBathshebaEffects } from "@/data/stories/davidBathshebaEffects";
-import { solomonWisdomScenes } from "@/data/stories/solomonWisdom";
 import { solomonWisdomImages } from "@/data/stories/solomonWisdomImages";
 import { solomonWisdomSprites } from "@/data/stories/solomonWisdomSprites";
 import { solomonWisdomEffects } from "@/data/stories/solomonWisdomEffects";
-import { elijahBaalScenes } from "@/data/stories/elijahBaal";
 import { elijahBaalImages } from "@/data/stories/elijahBaalImages";
 import { elijahBaalSprites } from "@/data/stories/elijahBaalSprites";
 import { elijahBaalEffects } from "@/data/stories/elijahBaalEffects";
-import { elishaNaamanScenes } from "@/data/stories/elishaNaaman";
 import { elishaNaamanImages } from "@/data/stories/elishaNaamanImages";
 import { elishaNaamanSprites } from "@/data/stories/elishaNaamanSprites";
 import { elishaNaamanEffects } from "@/data/stories/elishaNaamanEffects";
-import { fallJerusalemScenes } from "@/data/stories/fallJerusalem";
 import { fallJerusalemImages } from "@/data/stories/fallJerusalemImages";
 import { fallJerusalemSprites } from "@/data/stories/fallJerusalemSprites";
 import { fallJerusalemEffects } from "@/data/stories/fallJerusalemEffects";
-import { annunciationScenes } from "@/data/stories/annunciation";
 import { annunciationImages } from "@/data/stories/annunciationImages";
 import { annunciationSprites } from "@/data/stories/annunciationSprites";
 import { annunciationEffects } from "@/data/stories/annunciationEffects";
-import { birthJesusScenes } from "@/data/stories/birthJesus";
 import { birthJesusImages } from "@/data/stories/birthJesusImages";
 import { birthJesusSprites } from "@/data/stories/birthJesusSprites";
 import { birthJesusEffects } from "@/data/stories/birthJesusEffects";
-import { shepherdsScenes } from "@/data/stories/shepherds";
 import { shepherdsImages } from "@/data/stories/shepherdsImages";
 import { shepherdsSprites } from "@/data/stories/shepherdsSprites";
 import { shepherdsEffects } from "@/data/stories/shepherdsEffects";
-import { wiseMenScenes } from "@/data/stories/wiseMen";
 import { wiseMenImages } from "@/data/stories/wiseMenImages";
 import { wiseMenSprites } from "@/data/stories/wiseMenSprites";
 import { wiseMenEffects } from "@/data/stories/wiseMenEffects";
-import { flightEgyptScenes } from "@/data/stories/flightEgypt";
 import { flightEgyptImages } from "@/data/stories/flightEgyptImages";
 import { flightEgyptSprites } from "@/data/stories/flightEgyptSprites";
 import { flightEgyptEffects } from "@/data/stories/flightEgyptEffects";
-import { jesusTempleScenes } from "@/data/stories/jesusTemple";
 import { jesusTempleImages } from "@/data/stories/jesusTempleImages";
 import { jesusTempleSprites } from "@/data/stories/jesusTempleSprites";
 import { jesusTempleEffects } from "@/data/stories/jesusTempleEffects";
-import { baptismJesusScenes } from "@/data/stories/baptismJesus";
 import { baptismJesusImages } from "@/data/stories/baptismJesusImages";
 import { baptismJesusSprites } from "@/data/stories/baptismJesusSprites";
 import { baptismJesusEffects } from "@/data/stories/baptismJesusEffects";
-import { temptationDesertScenes } from "@/data/stories/temptationDesert";
 import { temptationDesertImages } from "@/data/stories/temptationDesertImages";
 import { temptationDesertSprites } from "@/data/stories/temptationDesertSprites";
 import { temptationDesertEffects } from "@/data/stories/temptationDesertEffects";
-import { callingDisciplesScenes } from "@/data/stories/callingDisciples";
 import { callingDisciplesImages } from "@/data/stories/callingDisciplesImages";
 import { callingDisciplesSprites } from "@/data/stories/callingDisciplesSprites";
 import { callingDisciplesEffects } from "@/data/stories/callingDisciplesEffects";
-import { weddingCanaScenes } from "@/data/stories/weddingCana";
 import { weddingCanaImages } from "@/data/stories/weddingCanaImages";
 import { weddingCanaSprites } from "@/data/stories/weddingCanaSprites";
 import { weddingCanaEffects } from "@/data/stories/weddingCanaEffects";
-import { healingLeperScenes } from "@/data/stories/healingLeper";
 import { healingLeperImages } from "@/data/stories/healingLeperImages";
 import { healingLeperSprites } from "@/data/stories/healingLeperSprites";
 import { healingLeperEffects } from "@/data/stories/healingLeperEffects";
-import { centurionServantScenes } from "@/data/stories/centurionServant";
 import { centurionServantImages } from "@/data/stories/centurionServantImages";
 import { centurionServantSprites } from "@/data/stories/centurionServantSprites";
 import { centurionServantEffects } from "@/data/stories/centurionServantEffects";
-import { calmingStormScenes } from "@/data/stories/calmingStorm";
 import { calmingStormImages } from "@/data/stories/calmingStormImages";
 import { calmingStormSprites } from "@/data/stories/calmingStormSprites";
 import { calmingStormEffects } from "@/data/stories/calmingStormEffects";
-import { demonPossessedScenes } from "@/data/stories/demonPossessed";
 import { demonPossessedImages } from "@/data/stories/demonPossessedImages";
 import { demonPossessedSprites } from "@/data/stories/demonPossessedSprites";
 import { demonPossessedEffects } from "@/data/stories/demonPossessedEffects";
-import { womanBloodScenes } from "@/data/stories/womanBlood";
 import { womanBloodImages } from "@/data/stories/womanBloodImages";
 import { womanBloodSprites } from "@/data/stories/womanBloodSprites";
 import { womanBloodEffects } from "@/data/stories/womanBloodEffects";
-import { jairusDaughterScenes } from "@/data/stories/jairusDaughter";
 import { jairusDaughterImages } from "@/data/stories/jairusDaughterImages";
 import { jairusDaughterSprites } from "@/data/stories/jairusDaughterSprites";
 import { jairusDaughterEffects } from "@/data/stories/jairusDaughterEffects";
-import { feeding5000Scenes } from "@/data/stories/feeding5000";
 import { feeding5000Images } from "@/data/stories/feeding5000Images";
 import { feeding5000Sprites } from "@/data/stories/feeding5000Sprites";
 import { feeding5000Effects } from "@/data/stories/feeding5000Effects";
-import { walkingWaterScenes } from "@/data/stories/walkingWater";
 import { walkingWaterImages } from "@/data/stories/walkingWaterImages";
 import { walkingWaterSprites } from "@/data/stories/walkingWaterSprites";
 import { walkingWaterEffects } from "@/data/stories/walkingWaterEffects";
-import { blindManScenes } from "@/data/stories/blindMan";
 import { blindManImages } from "@/data/stories/blindManImages";
 import { blindManSprites } from "@/data/stories/blindManSprites";
 import { blindManEffects } from "@/data/stories/blindManEffects";
-import { lazarusScenes } from "@/data/stories/lazarus";
 import { lazarusImages } from "@/data/stories/lazarusImages";
 import { lazarusSprites } from "@/data/stories/lazarusSprites";
 import { lazarusEffects } from "@/data/stories/lazarusEffects";
-import { sermonMountScenes } from "@/data/stories/sermonMount";
 import { sermonMountImages } from "@/data/stories/sermonMountImages";
 import { sermonMountSprites } from "@/data/stories/sermonMountSprites";
 import { sermonMountEffects } from "@/data/stories/sermonMountEffects";
-import { lordsPrayerScenes } from "@/data/stories/lordsPrayer";
 import { lordsPrayerImages } from "@/data/stories/lordsPrayerImages";
 import { lordsPrayerSprites } from "@/data/stories/lordsPrayerSprites";
 import { lordsPrayerEffects } from "@/data/stories/lordsPrayerEffects";
-import { goodSamaritanScenes } from "@/data/stories/goodSamaritan";
 import { goodSamaritanImages } from "@/data/stories/goodSamaritanImages";
 import { goodSamaritanSprites } from "@/data/stories/goodSamaritanSprites";
 import { goodSamaritanEffects } from "@/data/stories/goodSamaritanEffects";
-import { prodigalSonScenes } from "@/data/stories/prodigalSon";
 import { prodigalSonImages } from "@/data/stories/prodigalSonImages";
 import { prodigalSonSprites } from "@/data/stories/prodigalSonSprites";
 import { prodigalSonEffects } from "@/data/stories/prodigalSonEffects";
-import { richLazarusScenes } from "@/data/stories/richLazarus";
 import { richLazarusImages } from "@/data/stories/richLazarusImages";
 import { richLazarusSprites } from "@/data/stories/richLazarusSprites";
 import { richLazarusEffects } from "@/data/stories/richLazarusEffects";
-import { parableSowerScenes } from "@/data/stories/parableSower";
 import { parableSowerImages } from "@/data/stories/parableSowerImages";
 import { parableSowerSprites } from "@/data/stories/parableSowerSprites";
 import { parableSowerEffects } from "@/data/stories/parableSowerEffects";
-import { parableTalentsScenes } from "@/data/stories/parableTalents";
 import { parableTalentsImages } from "@/data/stories/parableTalentsImages";
 import { parableTalentsSprites } from "@/data/stories/parableTalentsSprites";
 import { parableTalentsEffects } from "@/data/stories/parableTalentsEffects";
-import { lostSheepScenes } from "@/data/stories/lostSheep";
 import { lostSheepImages } from "@/data/stories/lostSheepImages";
 import { lostSheepSprites } from "@/data/stories/lostSheepSprites";
 import { lostSheepEffects } from "@/data/stories/lostSheepEffects";
-import { phariseeTaxScenes } from "@/data/stories/phariseeTax";
 import { phariseeTaxImages } from "@/data/stories/phariseeTaxImages";
 import { phariseeTaxSprites } from "@/data/stories/phariseeTaxSprites";
 import { phariseeTaxEffects } from "@/data/stories/phariseeTaxEffects";
-import { tenVirginsScenes } from "@/data/stories/tenVirgins";
 import { tenVirginsImages } from "@/data/stories/tenVirginsImages";
 import { tenVirginsSprites } from "@/data/stories/tenVirginsSprites";
 import { tenVirginsEffects } from "@/data/stories/tenVirginsEffects";
-import { nicodemusScenes } from "@/data/stories/nicodemus";
 import { nicodemusImages } from "@/data/stories/nicodemusImages";
 import { nicodemusSprites } from "@/data/stories/nicodemusSprites";
 import { nicodemusEffects } from "@/data/stories/nicodemusEffects";
-import { samaritanWomanScenes } from "@/data/stories/samaritanWoman";
 import { samaritanWomanImages } from "@/data/stories/samaritanWomanImages";
 import { samaritanWomanSprites } from "@/data/stories/samaritanWomanSprites";
 import { samaritanWomanEffects } from "@/data/stories/samaritanWomanEffects";
-import { womanAdulteryScenes } from "@/data/stories/womanAdultery";
 import { womanAdulteryImages } from "@/data/stories/womanAdulteryImages";
 import { womanAdulterySprites } from "@/data/stories/womanAdulterySprites";
 import { womanAdulteryEffects } from "@/data/stories/womanAdulteryEffects";
-import { zacchaeusScenes } from "@/data/stories/zacchaeus";
 import { zacchaeusImages } from "@/data/stories/zacchaeusImages";
 import { zacchaeusSprites } from "@/data/stories/zacchaeusSprites";
 import { zacchaeusEffects } from "@/data/stories/zacchaeusEffects";
-import { richYoungManScenes } from "@/data/stories/richYoungMan";
 import { richYoungManImages } from "@/data/stories/richYoungManImages";
 import { richYoungManSprites } from "@/data/stories/richYoungManSprites";
 import { richYoungManEffects } from "@/data/stories/richYoungManEffects";
-import { debatesPhariseesScenes } from "@/data/stories/debatesPharisees";
 import { debatesPhariseesImages } from "@/data/stories/debatesPhariseesImages";
 import { debatesPhariseesSprites } from "@/data/stories/debatesPhariseesSprites";
 import { debatesPhariseesEffects } from "@/data/stories/debatesPhariseesEffects";
-import { cleansingTempleScenes } from "@/data/stories/cleansingTemple";
 import { cleansingTempleImages } from "@/data/stories/cleansingTempleImages";
 import { cleansingTempleSprites } from "@/data/stories/cleansingTempleSprites";
 import { cleansingTempleEffects } from "@/data/stories/cleansingTempleEffects";
-import { rejectionNazarethScenes } from "@/data/stories/rejectionNazareth";
 import { rejectionNazarethImages } from "@/data/stories/rejectionNazarethImages";
 import { rejectionNazarethSprites } from "@/data/stories/rejectionNazarethSprites";
 import { rejectionNazarethEffects } from "@/data/stories/rejectionNazarethEffects";
-import { triumphalEntryScenes } from "@/data/stories/triumphalEntry";
 import { triumphalEntryImages } from "@/data/stories/triumphalEntryImages";
 import { triumphalEntrySprites } from "@/data/stories/triumphalEntrySprites";
 import { triumphalEntryEffects } from "@/data/stories/triumphalEntryEffects";
-import { lastSupperScenes } from "@/data/stories/lastSupper";
 import { lastSupperImages } from "@/data/stories/lastSupperImages";
 import { lastSupperSprites } from "@/data/stories/lastSupperSprites";
 import { lastSupperEffects } from "@/data/stories/lastSupperEffects";
-import { gethsemaneScenes } from "@/data/stories/gethsemane";
 import { gethsemaneImages } from "@/data/stories/gethsemaneImages";
 import { gethsemaneSprites } from "@/data/stories/gethsemaneSprites";
 import { gethsemaneEffects } from "@/data/stories/gethsemaneEffects";
-import { arrestJesusScenes } from "@/data/stories/arrestJesus";
 import { arrestJesusImages } from "@/data/stories/arrestJesusImages";
 import { arrestJesusSprites } from "@/data/stories/arrestJesusSprites";
 import { arrestJesusEffects } from "@/data/stories/arrestJesusEffects";
-import { trialScenes } from "@/data/stories/trial";
 import { trialImages } from "@/data/stories/trialImages";
 import { trialSprites } from "@/data/stories/trialSprites";
 import { trialEffects } from "@/data/stories/trialEffects";
-import { peterDeniesScenes } from "@/data/stories/peterDenies";
 import { peterDeniesImages } from "@/data/stories/peterDeniesImages";
 import { peterDeniesSprites } from "@/data/stories/peterDeniesSprites";
 import { peterDeniesEffects } from "@/data/stories/peterDeniesEffects";
-import { crucifixionScenes } from "@/data/stories/crucifixion";
 import { crucifixionImages } from "@/data/stories/crucifixionImages";
 import { crucifixionSprites } from "@/data/stories/crucifixionSprites";
 import { crucifixionEffects } from "@/data/stories/crucifixionEffects";
-import { deathJesusScenes } from "@/data/stories/deathJesus";
 import { deathJesusImages } from "@/data/stories/deathJesusImages";
 import { deathJesusSprites } from "@/data/stories/deathJesusSprites";
 import { deathJesusEffects } from "@/data/stories/deathJesusEffects";
-import { emptyTombScenes } from "@/data/stories/emptyTomb";
 import { emptyTombImages } from "@/data/stories/emptyTombImages";
 import { emptyTombSprites } from "@/data/stories/emptyTombSprites";
 import { emptyTombEffects } from "@/data/stories/emptyTombEffects";
-import { appearanceMaryScenes } from "@/data/stories/appearanceMary";
 import { appearanceMaryImages } from "@/data/stories/appearanceMaryImages";
 import { appearanceMarySprites } from "@/data/stories/appearanceMarySprites";
 import { appearanceMaryEffects } from "@/data/stories/appearanceMaryEffects";
-import { emmausScenes } from "@/data/stories/emmaus";
 import { emmausImages } from "@/data/stories/emmausImages";
 import { emmausSprites } from "@/data/stories/emmausSprites";
 import { emmausEffects } from "@/data/stories/emmausEffects";
-import { greatCommissionScenes } from "@/data/stories/greatCommission";
 import { greatCommissionImages } from "@/data/stories/greatCommissionImages";
 import { greatCommissionSprites } from "@/data/stories/greatCommissionSprites";
 import { greatCommissionEffects } from "@/data/stories/greatCommissionEffects";
@@ -416,108 +319,7 @@ import { preloadImages } from "@/lib/preloadImages";
 
 type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
 
-const storySceneRegistry: Record<string, Record<string, StoryScene>> = {
-  creation: creationScenes,
-  "adam-eve": adamEveScenes,
-  "cain-abel": cainAbelScenes,
-  "noah-flood": noahScenes,
-  "tower-babel": babelScenes,
-  "call-abraham": abrahamScenes,
-  "abraham-egypt": abrahamEgyptScenes,
-  "abraham-lot": abrahamLotScenes,
-  "sodom-gomorrah": sodomScenes,
-  "sacrifice-isaac": sacrificeIsaacScenes,
-  "rebekah-servant": rebekahScenes,
-  "jacob-esau": jacobEsauScenes,
-  "jacobs-dream": jacobsDreamScenes,
-  "jacob-wrestles": jacobWrestlesScenes,
-  "joseph-sold": josephSoldScenes,
-  "joseph-potiphar": josephPotipharScenes,
-  "joseph-prison": josephPrisonScenes,
-  "joseph-dreams": josephDreamsScenes,
-  "joseph-brothers-egypt": josephBrothersEgyptScenes,
-  "joseph-reconciles": josephReconcilesScenes,
-  "birth-moses": birthMosesScenes,
-  "moses-flees": mosesFleesScenes,
-  "burning-bush": burningBushScenes,
-  "moses-pharaoh": mosesPharaohScenes,
-  "plagues-egypt": plaguesScenes,
-  passover: passoverScenes,
-  "crossing-red-sea": redSeaScenes,
-  "manna-desert": mannaScenes,
-  "water-rock": waterRockScenes,
-  "ten-commandments": tenCommandmentsScenes,
-  "golden-calf": goldenCalfScenes,
-  "spies-canaan": spiesCanaanScenes,
-  "rebellion-people": rebellionPeopleScenes,
-  "balaam-donkey": balaamScenes,
-  "death-moses": deathMosesScenes,
-  "fall-jericho": jerichoScenes,
-  "sin-achan": sinAchanScenes,
-  "deborah-barak": deborahBarakScenes,
-  gideon: gideonScenes,
-  samson: samsonScenes,
-  "ruth-naomi": ruthNaomiScenes,
-  "samuel-called": samuelCalledScenes,
-  "saul-king": saulKingScenes,
-  "david-goliath": davidGoliathScenes,
-  "david-saul": davidSaulScenes,
-  "david-bathsheba": davidBathshebaScenes,
-  "solomon-wisdom": solomonWisdomScenes,
-  "elijah-baal": elijahBaalScenes,
-  "elisha-naaman": elishaNaamanScenes,
-  "fall-jerusalem": fallJerusalemScenes,
-  annunciation: annunciationScenes,
-  "birth-jesus": birthJesusScenes,
-  shepherds: shepherdsScenes,
-  "wise-men": wiseMenScenes,
-  "flight-egypt": flightEgyptScenes,
-  "jesus-temple": jesusTempleScenes,
-  "baptism-jesus": baptismJesusScenes,
-  "temptation-desert": temptationDesertScenes,
-  "calling-disciples": callingDisciplesScenes,
-  "wedding-cana": weddingCanaScenes,
-  "healing-leper": healingLeperScenes,
-  "centurion-servant": centurionServantScenes,
-  "calming-storm": calmingStormScenes,
-  "demon-possessed": demonPossessedScenes,
-  "woman-blood": womanBloodScenes,
-  "jairus-daughter": jairusDaughterScenes,
-  "feeding-5000": feeding5000Scenes,
-  "walking-water": walkingWaterScenes,
-  "blind-man": blindManScenes,
-  "raising-lazarus": lazarusScenes,
-  "sermon-mount": sermonMountScenes,
-  "lords-prayer": lordsPrayerScenes,
-  "good-samaritan": goodSamaritanScenes,
-  "prodigal-son": prodigalSonScenes,
-  "rich-man-lazarus": richLazarusScenes,
-  "parable-sower": parableSowerScenes,
-  "parable-talents": parableTalentsScenes,
-  "lost-sheep": lostSheepScenes,
-  "pharisee-tax": phariseeTaxScenes,
-  "ten-virgins": tenVirginsScenes,
-  nicodemus: nicodemusScenes,
-  "samaritan-woman": samaritanWomanScenes,
-  "woman-adultery": womanAdulteryScenes,
-  zacchaeus: zacchaeusScenes,
-  "rich-young-man": richYoungManScenes,
-  "debates-pharisees": debatesPhariseesScenes,
-  "cleansing-temple": cleansingTempleScenes,
-  "rejection-nazareth": rejectionNazarethScenes,
-  "triumphal-entry": triumphalEntryScenes,
-  "last-supper": lastSupperScenes,
-  gethsemane: gethsemaneScenes,
-  "arrest-jesus": arrestJesusScenes,
-  trial: trialScenes,
-  "peter-denies": peterDeniesScenes,
-  crucifixion: crucifixionScenes,
-  "death-jesus": deathJesusScenes,
-  "empty-tomb": emptyTombScenes,
-  "appearance-mary": appearanceMaryScenes,
-  "road-emmaus": emmausScenes,
-  "great-commission": greatCommissionScenes,
-};
+
 const storyImageRegistry: Record<string, Record<string, string>> = {
   creation: creationImages,
   "adam-eve": adamEveImages,
@@ -848,6 +650,11 @@ const Index = () => {
   const transitionLock = useRef(false);
   const transitionTimers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
+  // Load scenes with i18n support
+  const { scenes, loading: scenesLoading, error: scenesError } = useStoryScenes(
+    currentStory?.id ?? ""
+  );
+
   const clearTransitionTimers = useCallback(() => {
     transitionTimers.current.forEach((timer) => clearTimeout(timer));
     transitionTimers.current = [];
@@ -1040,14 +847,44 @@ const Index = () => {
     }
 
     if (!currentStory) return null;
-    const scenes = storySceneRegistry[currentStory.id];
-    if (!scenes) return null;
+    
+    // Show loading state while scenes are being loaded
+    if (scenesLoading) {
+      return (
+        <motion.div
+          key="loading"
+          className="fixed inset-0 flex items-center justify-center"
+          style={{ backgroundColor: "hsl(var(--scene-base))" }}
+          {...fadeTransition}
+        >
+          <div className="text-amber-400 text-xl font-display">Loading...</div>
+        </motion.div>
+      );
+    }
+
+    // Show error if scenes failed to load
+    if (scenesError || !scenes) {
+      console.error("Failed to load scenes:", scenesError);
+      return (
+        <motion.div
+          key="error"
+          className="fixed inset-0 flex items-center justify-center"
+          style={{ backgroundColor: "hsl(var(--scene-base))" }}
+          {...fadeTransition}
+        >
+          <div className="text-red-400 text-xl font-display">
+            Failed to load story
+          </div>
+        </motion.div>
+      );
+    }
+
     const scene = scenes[currentSceneId];
     if (!scene) return null;
 
     const images = storyImageRegistry[currentStory.id];
     const sprites = storySpriteRegistry[currentStory.id]?.[currentSceneId];
-    const sceneEffect = storyEffectRegistry[currentStory.id]?.[currentSceneId] as any;
+    const sceneEffect = storyEffectRegistry[currentStory.id]?.[currentSceneId] as SceneEffect | undefined;
     const shuffledChoices = shuffleChoices(
       scene.choices,
       `${currentStory.id}:${currentSceneId}:${stepCount}`,

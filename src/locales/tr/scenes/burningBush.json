@@ -1,0 +1,369 @@
+{
+  "start": {
+    "title": "[TODO:tr] Beyond the Wilderness",
+    "text": "[TODO:tr] You lead the flock past familiar hills.\nA strange light flickers ahead.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Turn aside to look",
+        "feedback": "[TODO:tr] You step toward the light."
+      },
+      {
+        "text": "[TODO:tr] Ignore it. Stay with sheep.",
+        "feedback": "[TODO:tr] The light keeps calling."
+      },
+      {
+        "text": "[TODO:tr] Throw a stone at it",
+        "feedback": "[TODO:tr] Sacred things are not toys."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:tr] It Will Not Leave You",
+    "text": "[TODO:tr] The light flickers brighter still.\nYou cannot pretend you did not see.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Turn aside to look",
+        "feedback": "[TODO:tr] You walk toward it."
+      }
+    ]
+  },
+  "stone_consequence": {
+    "title": "[TODO:tr] Not Like That",
+    "text": "[TODO:tr] Mockery suits a child, not a man.\nGo and see with humility.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Turn aside to look",
+        "feedback": "[TODO:tr] You walk toward it."
+      }
+    ]
+  },
+  "approach_mountain": {
+    "title": "[TODO:tr] Toward the Mountain",
+    "text": "[TODO:tr] Horeb rises before you in silence.\nThe glow is on its slope.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Climb closer to see",
+        "feedback": "[TODO:tr] Each step is heavier."
+      },
+      {
+        "text": "[TODO:tr] Run back to the camp",
+        "feedback": "[TODO:tr] You cannot outrun this."
+      },
+      {
+        "text": "[TODO:tr] Call your father-in-law",
+        "feedback": "[TODO:tr] This sight is meant for you."
+      }
+    ]
+  },
+  "run_back_consequence": {
+    "title": "[TODO:tr] You Cannot Outrun It",
+    "text": "[TODO:tr] The glow burns in your memory.\nReturn and see the truth.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Climb closer to see",
+        "feedback": "[TODO:tr] You turn back to the slope."
+      }
+    ]
+  },
+  "call_jethro_consequence": {
+    "title": "[TODO:tr] This Is for You",
+    "text": "[TODO:tr] No one else is meant to stand here.\nGo, and look.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Climb closer to see",
+        "feedback": "[TODO:tr] You go alone."
+      }
+    ]
+  },
+  "see_bush": {
+    "title": "[TODO:tr] It Burns and Is Not Consumed",
+    "text": "[TODO:tr] Flame wraps the bush. Yet it stands whole.\nNothing turns to ash.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Step closer with wonder",
+        "feedback": "[TODO:tr] You will see this great sight."
+      },
+      {
+        "text": "[TODO:tr] Smother the flames",
+        "feedback": "[TODO:tr] This fire is not yours to stop."
+      },
+      {
+        "text": "[TODO:tr] Hide behind a rock",
+        "feedback": "[TODO:tr] Do not turn from holy ground."
+      }
+    ]
+  },
+  "smother_consequence": {
+    "title": "[TODO:tr] Do Not Touch",
+    "text": "[TODO:tr] This fire is not of your world.\nApproach with awe, not hands.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Step closer with wonder",
+        "feedback": "[TODO:tr] You lower your hands."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:tr] Do Not Hide",
+    "text": "[TODO:tr] What hides from you is also revealed.\nStep into the light.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Step closer with wonder",
+        "feedback": "[TODO:tr] You step out from the rock."
+      }
+    ]
+  },
+  "voice_calls": {
+    "title": "[TODO:tr] \"Moses! Moses!\"",
+    "text": "[TODO:tr] A voice from the flame calls your name.\nIt knows you fully.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Answer: \"Here I am.\"",
+        "feedback": "[TODO:tr] You bow your head."
+      },
+      {
+        "text": "[TODO:tr] Demand who is speaking",
+        "feedback": "[TODO:tr] Reverence comes before knowing."
+      },
+      {
+        "text": "[TODO:tr] Stay silent and wait",
+        "feedback": "[TODO:tr] He has called. Answer Him."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:tr] Bow First",
+    "text": "[TODO:tr] You stand before holiness, not a man.\nAnswer with humility.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Answer: \"Here I am.\"",
+        "feedback": "[TODO:tr] You bow your head."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:tr] Answer Him",
+    "text": "[TODO:tr] He called your name aloud.\nDo not leave Him with silence.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Answer: \"Here I am.\"",
+        "feedback": "[TODO:tr] Your voice trembles."
+      }
+    ]
+  },
+  "remove_sandals": {
+    "title": "[TODO:tr] Holy Ground",
+    "text": "[TODO:tr] \"Take off your sandals, Moses.\nThe place where you stand is holy.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Take off your sandals",
+        "feedback": "[TODO:tr] Your feet touch the dust."
+      },
+      {
+        "text": "[TODO:tr] Refuse — stones will hurt",
+        "feedback": "[TODO:tr] Obedience first, comfort after."
+      },
+      {
+        "text": "[TODO:tr] Argue this is unnecessary",
+        "feedback": "[TODO:tr] He decides what is holy."
+      }
+    ]
+  },
+  "refuse_sandals_consequence": {
+    "title": "[TODO:tr] Obey First",
+    "text": "[TODO:tr] Comfort matters less than holiness.\nDo as He asks.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Take off your sandals",
+        "feedback": "[TODO:tr] You bend down slowly."
+      }
+    ]
+  },
+  "argue_sandals_consequence": {
+    "title": "[TODO:tr] He Decides",
+    "text": "[TODO:tr] He is the one who calls it holy.\nKneel and obey.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Take off your sandals",
+        "feedback": "[TODO:tr] You bend down slowly."
+      }
+    ]
+  },
+  "hide_face": {
+    "title": "[TODO:tr] I Am the God of Your Fathers",
+    "text": "[TODO:tr] \"I am the God of Abraham, Isaac,\nand Jacob.\" You hide your face.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Listen with reverence",
+        "feedback": "[TODO:tr] You dare not look."
+      },
+      {
+        "text": "[TODO:tr] Look up to see Him",
+        "feedback": "[TODO:tr] No man may see and live."
+      }
+    ]
+  },
+  "look_up_consequence": {
+    "title": "[TODO:tr] Lower Your Eyes",
+    "text": "[TODO:tr] His glory is more than you can bear.\nListen, do not stare.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Listen with reverence",
+        "feedback": "[TODO:tr] You bow lower."
+      }
+    ]
+  },
+  "see_affliction": {
+    "title": "[TODO:tr] I Have Seen Their Misery",
+    "text": "[TODO:tr] \"I have heard My people cry in Egypt.\nI will deliver them by your hand.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Ask: \"Who am I to go?\"",
+        "feedback": "[TODO:tr] Honest weakness is no sin."
+      },
+      {
+        "text": "[TODO:tr] Boast you can lead them",
+        "feedback": "[TODO:tr] Pride is not strength."
+      },
+      {
+        "text": "[TODO:tr] Refuse the mission outright",
+        "feedback": "[TODO:tr] Do not flee what He calls."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:tr] Not by Your Might",
+    "text": "[TODO:tr] It is not your strength that frees them.\nSpeak honestly.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Ask: \"Who am I to go?\"",
+        "feedback": "[TODO:tr] You speak the truth."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:tr] Do Not Flee",
+    "text": "[TODO:tr] You ran from Egypt once before.\nThis time, listen first.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Ask: \"Who am I to go?\"",
+        "feedback": "[TODO:tr] You bow again."
+      }
+    ]
+  },
+  "i_will_be_with_you": {
+    "title": "[TODO:tr] I Will Be With You",
+    "text": "[TODO:tr] \"I will be with you,\" He says.\n\"This shall be the sign.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Ask His name to tell them",
+        "feedback": "[TODO:tr] A right question."
+      },
+      {
+        "text": "[TODO:tr] Bargain for more proof",
+        "feedback": "[TODO:tr] His word is enough."
+      }
+    ]
+  },
+  "bargain_consequence": {
+    "title": "[TODO:tr] His Word Is Enough",
+    "text": "[TODO:tr] He has spoken. Trust the voice.\nAsk only what is needed.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Ask His name to tell them",
+        "feedback": "[TODO:tr] You ask plainly."
+      }
+    ]
+  },
+  "i_am": {
+    "title": "[TODO:tr] I AM WHO I AM",
+    "text": "[TODO:tr] \"Tell them I AM has sent you.\"\nThe name fills the silence.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive the name in awe",
+        "feedback": "[TODO:tr] You hold it in your heart."
+      },
+      {
+        "text": "[TODO:tr] Question what it means",
+        "feedback": "[TODO:tr] Some names you simply receive."
+      }
+    ]
+  },
+  "question_consequence": {
+    "title": "[TODO:tr] Some Names Are Received",
+    "text": "[TODO:tr] You will not grasp it with the mind.\nReceive it with the heart.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive the name in awe",
+        "feedback": "[TODO:tr] You hold it in silence."
+      }
+    ]
+  },
+  "accept_mission": {
+    "title": "[TODO:tr] Go, Moses",
+    "text": "[TODO:tr] \"Go. Speak to Pharaoh.\nLead My people out of Egypt.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Accept and bow your head",
+        "feedback": "[TODO:tr] Your heart steadies."
+      },
+      {
+        "text": "[TODO:tr] Plead you cannot speak well",
+        "feedback": "[TODO:tr] He will give you the words."
+      },
+      {
+        "text": "[TODO:tr] Ask Him to send another",
+        "feedback": "[TODO:tr] He has chosen you."
+      }
+    ]
+  },
+  "plead_consequence": {
+    "title": "[TODO:tr] He Will Give the Words",
+    "text": "[TODO:tr] Your tongue is not your strength.\nHis word will be on your lips.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Accept and bow your head",
+        "feedback": "[TODO:tr] You answer yes."
+      }
+    ]
+  },
+  "another_consequence": {
+    "title": "[TODO:tr] He Has Chosen You",
+    "text": "[TODO:tr] It is your name He called by the bush.\nYou cannot pass it on.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Accept and bow your head",
+        "feedback": "[TODO:tr] You answer yes."
+      }
+    ]
+  },
+  "stand_resolved": {
+    "title": "[TODO:tr] You Rise",
+    "text": "[TODO:tr] The flame still burns. The bush still stands.\nYour heart is no longer the same.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Set your face toward Egypt",
+        "feedback": "[TODO:tr] The road home is the road forward."
+      },
+      {
+        "text": "[TODO:tr] Return to the sheep instead",
+        "feedback": "[TODO:tr] You are no longer a shepherd of sheep."
+      }
+    ]
+  },
+  "return_sheep_consequence": {
+    "title": "[TODO:tr] Not Sheep — A People",
+    "text": "[TODO:tr] Your flock now is the children of Israel.\nTurn toward Egypt.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Set your face toward Egypt",
+        "feedback": "[TODO:tr] You take the first step."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:tr] Toward Egypt",
+    "text": "[TODO:tr] The desert opens before you.\nGod walks unseen at your side.",
+    "choices": []
+  }
+}

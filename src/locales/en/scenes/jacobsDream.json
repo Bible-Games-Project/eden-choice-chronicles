@@ -1,0 +1,285 @@
+{
+  "start": {
+    "title": "The Road from Beersheba",
+    "text": "You are Jacob, fleeing Esau's wrath.\nThe sun lowers. Haran is far. Night is near.",
+    "choices": [
+      {
+        "text": "Keep walking — find a place to rest",
+        "feedback": "You walk on. The wind cools. The hills stretch wide."
+      },
+      {
+        "text": "Turn back — beg Esau's mercy",
+        "feedback": "Fear pulls you home. But the path back is closed."
+      },
+      {
+        "text": "Hide in the rocks until dark",
+        "feedback": "Hiding is not your road. Father said: go."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "No Way Back",
+    "text": "Esau's anger still burns. Your mother's voice returns:\n\"Flee to Haran. Stay until his fury cools.\"",
+    "choices": [
+      {
+        "text": "Turn east again — keep walking",
+        "feedback": "You set your face toward Haran once more."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "The Rocks Are Cold",
+    "text": "Hidden, you wait. But hiding is not the calling.\nThe stars rise. The road still waits.",
+    "choices": [
+      {
+        "text": "Step out and walk on",
+        "feedback": "You leave the shadows. The journey is yours."
+      }
+    ]
+  },
+  "wilderness": {
+    "title": "Open Wilderness",
+    "text": "Hills stretch in every direction. Light is failing.\nYou must stop somewhere — soon.",
+    "choices": [
+      {
+        "text": "Rest at this stony place",
+        "feedback": "Something quiet here. You step off the path."
+      },
+      {
+        "text": "Push on through the night",
+        "feedback": "Darkness swallows the road. You stumble blind."
+      }
+    ]
+  },
+  "push_on_consequence": {
+    "title": "Lost in the Dark",
+    "text": "The path vanishes under your feet.\nYou turn back to the stones you passed.",
+    "choices": [
+      {
+        "text": "Stop and rest at the stony place",
+        "feedback": "The Lord's place was waiting all along."
+      }
+    ]
+  },
+  "the_place": {
+    "title": "A Certain Place",
+    "text": "Bare ground. Scattered stones. The sun is gone.\nYou have nothing for a pillow.",
+    "choices": [
+      {
+        "text": "Take a stone for a pillow",
+        "feedback": "You choose a smooth stone. It is enough."
+      },
+      {
+        "text": "Use your cloak — stones are too hard",
+        "feedback": "You shiver. The wind cuts through. Sleep won't come."
+      },
+      {
+        "text": "Walk on — find a softer spot",
+        "feedback": "Each spot is the same. The night is not for searching."
+      }
+    ]
+  },
+  "soft_consequence": {
+    "title": "The Wind Won't Let You",
+    "text": "The cold is sharper without a pillow.\nA stone lies near your hand.",
+    "choices": [
+      {
+        "text": "Place a stone beneath your head",
+        "feedback": "Hardness becomes rest. You close your eyes."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "All Ground Is the Same",
+    "text": "You return to the first stones. Every place is\nthe same in the dark. This place will do.",
+    "choices": [
+      {
+        "text": "Take a stone for a pillow",
+        "feedback": "You set a stone for your head and lie down."
+      }
+    ]
+  },
+  "lay_down": {
+    "title": "Sleep Comes",
+    "text": "The stone is cold beneath your cheek.\nThe sky deepens. Your breathing slows.",
+    "choices": [
+      {
+        "text": "Close your eyes and sleep",
+        "feedback": "Sleep takes you. And then — light."
+      }
+    ]
+  },
+  "the_dream": {
+    "title": "A Stairway",
+    "text": "A great stairway rises from earth to heaven.\nAngels of God ascend and descend on it.",
+    "choices": [
+      {
+        "text": "Watch in silent awe",
+        "feedback": "You do not move. The light pours down."
+      },
+      {
+        "text": "Try to climb the stairway",
+        "feedback": "Your foot will not lift. This is not for climbing — for seeing."
+      },
+      {
+        "text": "Call out to the angels",
+        "feedback": "Your voice is small. They pass without turning."
+      }
+    ]
+  },
+  "climb_consequence": {
+    "title": "Not by Climbing",
+    "text": "The stair is not yours to ascend.\nA voice stirs above. You must only listen.",
+    "choices": [
+      {
+        "text": "Stand still and watch",
+        "feedback": "You bow your head. Light fills your eyes."
+      }
+    ]
+  },
+  "call_consequence": {
+    "title": "They Do Not Answer",
+    "text": "The angels pass on their errand.\nA greater Voice waits at the top of the stair.",
+    "choices": [
+      {
+        "text": "Be silent and listen",
+        "feedback": "You fall quiet. Then He speaks."
+      }
+    ]
+  },
+  "the_voice": {
+    "title": "The Voice Above",
+    "text": "\"I am the LORD, God of Abraham and Isaac.\nThe land where you lie I will give to you.\"",
+    "choices": [
+      {
+        "text": "Receive the promise in silence",
+        "feedback": "You let the words enter you. Earth and heaven hold still."
+      },
+      {
+        "text": "Bargain — ask for proof first",
+        "feedback": "The promise is freely given. It needs no haggling."
+      }
+    ]
+  },
+  "bargain_consequence": {
+    "title": "No Need to Bargain",
+    "text": "His word is sure. The Voice speaks again,\ngentle: \"I am with you. I will keep you.\"",
+    "choices": [
+      {
+        "text": "Receive the promise",
+        "feedback": "Your heart bows. The promise rests upon you."
+      }
+    ]
+  },
+  "the_promise": {
+    "title": "\"I Am With You\"",
+    "text": "\"I am with you. I will keep you wherever you go,\nand bring you back to this land.\"",
+    "choices": [
+      {
+        "text": "Treasure His words in your heart",
+        "feedback": "The vision fades. The stars return. Dawn is near."
+      }
+    ]
+  },
+  "awakening": {
+    "title": "Surely the LORD Is Here",
+    "text": "You wake trembling. \"Surely the LORD is in this place,\nand I did not know it.\"",
+    "choices": [
+      {
+        "text": "Call this place the house of God",
+        "feedback": "\"This is none other than Bethel — the gate of heaven.\""
+      },
+      {
+        "text": "Hurry away before the vision returns",
+        "feedback": "Fear is not faith. The place asks something of you."
+      },
+      {
+        "text": "Tell no one — keep it secret",
+        "feedback": "Some things are sealed by remembrance, not silence."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "The Place Holds You",
+    "text": "You take a few steps — and stop.\nThe stone where you slept must not be left bare.",
+    "choices": [
+      {
+        "text": "Return and set up the stone",
+        "feedback": "You walk back. The stone is waiting."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "A Mark Must Be Made",
+    "text": "Silence is not enough. Generations must know\nwhat the LORD did at this place.",
+    "choices": [
+      {
+        "text": "Set up the stone as a pillar",
+        "feedback": "You lift the stone. It will stand as witness."
+      }
+    ]
+  },
+  "set_pillar": {
+    "title": "The Stone Pillar",
+    "text": "You take the stone from beneath your head\nand set it upright. Dawn breaks soft and pink.",
+    "choices": [
+      {
+        "text": "Pour oil on it as an offering",
+        "feedback": "Oil runs down the stone. It glistens in the morning light."
+      },
+      {
+        "text": "Leave it plain — it is enough",
+        "feedback": "Something more is owed. The Lord met you here."
+      }
+    ]
+  },
+  "plain_consequence": {
+    "title": "Honor It Fully",
+    "text": "A bare stone is not yet an altar.\nYou have a small flask of oil at your side.",
+    "choices": [
+      {
+        "text": "Anoint the stone with oil",
+        "feedback": "You pour the oil. It is the Lord's portion."
+      }
+    ]
+  },
+  "anoint": {
+    "title": "Bethel — House of God",
+    "text": "\"This place shall be called Bethel.\nThe LORD shall be my God.\"",
+    "choices": [
+      {
+        "text": "Vow a tenth of all He gives you",
+        "feedback": "\"Of all You give me, I will surely give a tenth to You.\""
+      },
+      {
+        "text": "Promise nothing — just receive",
+        "feedback": "Grace welcomes a vow in return. Words become a covenant."
+      }
+    ]
+  },
+  "withhold_consequence": {
+    "title": "Make a Vow",
+    "text": "Your heart is full. A pledge rises in you —\na portion returned for a promise received.",
+    "choices": [
+      {
+        "text": "Vow a tenth of all to the LORD",
+        "feedback": "\"Of all You give me, I will give a tenth to You.\""
+      }
+    ]
+  },
+  "the_vow": {
+    "title": "The Road East",
+    "text": "You take up your staff. The morning is wide.\nHaran lies far ahead — but you are not alone.",
+    "choices": [
+      {
+        "text": "Walk on with the LORD",
+        "feedback": "Each step is lighter than the last. The promise walks with you."
+      }
+    ]
+  },
+  "journey_on": {
+    "title": "The Promise Goes With You",
+    "text": "Bethel falls behind. The east opens before you.\nYou are kept. You are sent. You are seen.",
+    "choices": []
+  }
+}

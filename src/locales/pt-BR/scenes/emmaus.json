@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] Walking Away",
+    "text": "[TODO:pt-BR] You and your friend leave the city.\nHope has died on a Roman cross.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Argue God has abandoned you",
+        "feedback": "[TODO:pt-BR] Despair is not the last word."
+      },
+      {
+        "text": "[TODO:pt-BR] Walk in silent shared grief",
+        "feedback": "[TODO:pt-BR] Each step weighs heavy."
+      },
+      {
+        "text": "[TODO:pt-BR] Boast you saw it coming",
+        "feedback": "[TODO:pt-BR] Pride blinds the heart."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:pt-BR] Not Abandoned",
+    "text": "[TODO:pt-BR] Sorrow speaks loudly, but listen.\nWalk on. The road is not done.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk in silent shared grief",
+        "feedback": "[TODO:pt-BR] You quiet your voice."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:pt-BR] Not Pride",
+    "text": "[TODO:pt-BR] No one foresaw this morning.\nWalk simply. Carry the grief.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk in silent shared grief",
+        "feedback": "[TODO:pt-BR] Your shoulders soften."
+      }
+    ]
+  },
+  "stranger_joins": {
+    "title": "[TODO:pt-BR] A Quiet Traveler",
+    "text": "[TODO:pt-BR] A stranger falls in step beside you.\n\"What are you discussing?\" he asks.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Refuse to speak to him",
+        "feedback": "[TODO:pt-BR] Welcome the stranger."
+      },
+      {
+        "text": "[TODO:pt-BR] Mock his ignorance of events",
+        "feedback": "[TODO:pt-BR] Speak gently, not sharply."
+      },
+      {
+        "text": "[TODO:pt-BR] Stop and share your sorrow",
+        "feedback": "[TODO:pt-BR] You turn to face him."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:pt-BR] Welcome Him",
+    "text": "[TODO:pt-BR] A road shared is grief halved.\nSpeak. The stranger listens.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stop and share your sorrow",
+        "feedback": "[TODO:pt-BR] You open your hands."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pt-BR] Not Mockery",
+    "text": "[TODO:pt-BR] He has asked in kindness.\nAnswer him in kind.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stop and share your sorrow",
+        "feedback": "[TODO:pt-BR] Your tone softens."
+      }
+    ]
+  },
+  "share_grief": {
+    "title": "[TODO:pt-BR] Concerning Jesus",
+    "text": "[TODO:pt-BR] \"He was a prophet, mighty in word.\nThey crucified Him. We had hoped...\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Speak with honest heartbreak",
+        "feedback": "[TODO:pt-BR] Truth pours from your lips."
+      },
+      {
+        "text": "[TODO:pt-BR] Blame the women for the rumor",
+        "feedback": "[TODO:pt-BR] They told what they saw."
+      },
+      {
+        "text": "[TODO:pt-BR] Cut the story short in shame",
+        "feedback": "[TODO:pt-BR] Tell it whole. He is listening."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:pt-BR] Do Not Blame",
+    "text": "[TODO:pt-BR] The women carried only what they saw.\nTell the story whole.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Speak with honest heartbreak",
+        "feedback": "[TODO:pt-BR] You finish the telling."
+      }
+    ]
+  },
+  "short_consequence": {
+    "title": "[TODO:pt-BR] Tell It All",
+    "text": "[TODO:pt-BR] Hide nothing from this stranger.\nHe is more present than you know.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Speak with honest heartbreak",
+        "feedback": "[TODO:pt-BR] You let the words come."
+      }
+    ]
+  },
+  "scripture": {
+    "title": "[TODO:pt-BR] Foolish and Slow",
+    "text": "[TODO:pt-BR] \"Did the Christ not have to suffer\nand so enter into His glory?\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Take offense at his words",
+        "feedback": "[TODO:pt-BR] He speaks for your sake."
+      },
+      {
+        "text": "[TODO:pt-BR] Interrupt to correct him",
+        "feedback": "[TODO:pt-BR] Listen. He knows more."
+      },
+      {
+        "text": "[TODO:pt-BR] Lean in and listen closely",
+        "feedback": "[TODO:pt-BR] Moses, the prophets, all unfold."
+      }
+    ]
+  },
+  "offense_consequence": {
+    "title": "[TODO:pt-BR] Not Offense",
+    "text": "[TODO:pt-BR] His sharpness is the surgeon's blade.\nReceive it. It is healing you.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Lean in and listen closely",
+        "feedback": "[TODO:pt-BR] You quiet your pride."
+      }
+    ]
+  },
+  "interrupt_consequence": {
+    "title": "[TODO:pt-BR] Be Still",
+    "text": "[TODO:pt-BR] You do not yet see what he sees.\nLet him finish. Then you will know.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Lean in and listen closely",
+        "feedback": "[TODO:pt-BR] You hold your tongue."
+      }
+    ]
+  },
+  "burning_hearts": {
+    "title": "[TODO:pt-BR] Hearts Aflame",
+    "text": "[TODO:pt-BR] Something kindles inside your chest.\nYou cannot name it, but it burns.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Distrust the feeling and stop",
+        "feedback": "[TODO:pt-BR] Let the fire keep burning."
+      },
+      {
+        "text": "[TODO:pt-BR] Listen with your whole heart",
+        "feedback": "[TODO:pt-BR] The road becomes holy ground."
+      },
+      {
+        "text": "[TODO:pt-BR] Demand he explain himself",
+        "feedback": "[TODO:pt-BR] Receive first. Question later."
+      }
+    ]
+  },
+  "distrust_consequence": {
+    "title": "[TODO:pt-BR] Trust the Fire",
+    "text": "[TODO:pt-BR] Your heart knows before your mind.\nLet it lead you forward.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Listen with your whole heart",
+        "feedback": "[TODO:pt-BR] Warmth fills your chest."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:pt-BR] Not Demand",
+    "text": "[TODO:pt-BR] Heaven does not yield to demand.\nReceive softly. Be carried.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Listen with your whole heart",
+        "feedback": "[TODO:pt-BR] You lower your guard."
+      }
+    ]
+  },
+  "invite_stay": {
+    "title": "[TODO:pt-BR] Emmaus Village",
+    "text": "[TODO:pt-BR] The village nears. He acts as if to go on.\nThe sun sinks low.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Let him walk on alone",
+        "feedback": "[TODO:pt-BR] Do not lose this stranger."
+      },
+      {
+        "text": "[TODO:pt-BR] Urge him, \"Stay with us.\"",
+        "feedback": "[TODO:pt-BR] He turns and follows you in."
+      },
+      {
+        "text": "[TODO:pt-BR] Charge him for your company",
+        "feedback": "[TODO:pt-BR] Hospitality is free."
+      }
+    ]
+  },
+  "letgo_consequence": {
+    "title": "[TODO:pt-BR] Do Not Lose Him",
+    "text": "[TODO:pt-BR] Some moments must be held.\nCall him back. Beg him to stay.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Urge him, \"Stay with us.\"",
+        "feedback": "[TODO:pt-BR] He smiles and turns back."
+      }
+    ]
+  },
+  "charge_consequence": {
+    "title": "[TODO:pt-BR] Not for Price",
+    "text": "[TODO:pt-BR] A guest is welcomed, not sold to.\nOpen your door freely.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Urge him, \"Stay with us.\"",
+        "feedback": "[TODO:pt-BR] You set the table for three."
+      }
+    ]
+  },
+  "breaking_bread": {
+    "title": "[TODO:pt-BR] He Took the Bread",
+    "text": "[TODO:pt-BR] He takes the bread. Blesses it.\nBreaks it. Hands it to you.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Eat without truly looking up",
+        "feedback": "[TODO:pt-BR] Lift your eyes. See Him."
+      },
+      {
+        "text": "[TODO:pt-BR] Look at His hands. See Him.",
+        "feedback": "[TODO:pt-BR] Your eyes finally open."
+      },
+      {
+        "text": "[TODO:pt-BR] Boast of your fine hospitality",
+        "feedback": "[TODO:pt-BR] This is no time for pride."
+      }
+    ]
+  },
+  "look_consequence": {
+    "title": "[TODO:pt-BR] Lift Your Eyes",
+    "text": "[TODO:pt-BR] Do not miss this for hunger.\nThe Guest is the Lord.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Look at His hands. See Him.",
+        "feedback": "[TODO:pt-BR] Recognition floods your chest."
+      }
+    ]
+  },
+  "host_consequence": {
+    "title": "[TODO:pt-BR] Not Pride",
+    "text": "[TODO:pt-BR] Your bread became His blessing.\nLook. Receive. Be still.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Look at His hands. See Him.",
+        "feedback": "[TODO:pt-BR] Your hands begin to tremble."
+      }
+    ]
+  },
+  "recognition": {
+    "title": "[TODO:pt-BR] He Vanishes",
+    "text": "[TODO:pt-BR] It is the Lord! Your eyes are opened.\nAnd then He is gone.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Sit stunned and stay the night",
+        "feedback": "[TODO:pt-BR] This news cannot wait."
+      },
+      {
+        "text": "[TODO:pt-BR] Whisper. Tell no one tonight",
+        "feedback": "[TODO:pt-BR] The brothers must hear."
+      },
+      {
+        "text": "[TODO:pt-BR] Rise at once. Run to Jerusalem",
+        "feedback": "[TODO:pt-BR] Hearts still burning, you run."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:pt-BR] Do Not Wait",
+    "text": "[TODO:pt-BR] The night is no obstacle now.\nGo. The eleven must hear.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Rise at once. Run to Jerusalem",
+        "feedback": "[TODO:pt-BR] You leap from the table."
+      }
+    ]
+  },
+  "whisper_consequence": {
+    "title": "[TODO:pt-BR] Tell Them All",
+    "text": "[TODO:pt-BR] This is not a secret to keep.\nLet the city hear, \"He lives!\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Rise at once. Run to Jerusalem",
+        "feedback": "[TODO:pt-BR] You set out into the dusk."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pt-BR] He Is Risen Indeed",
+    "text": "[TODO:pt-BR] You burst in: \"The Lord is risen!\nHe broke bread with us tonight.\"",
+    "choices": []
+  }
+}

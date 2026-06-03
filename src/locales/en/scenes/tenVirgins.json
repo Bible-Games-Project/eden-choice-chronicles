@@ -1,0 +1,189 @@
+{
+  "start": {
+    "title": "Be Watchful",
+    "text": "Jesus says softly,\n\"The kingdom is like ten waiting for a bridegroom.\"",
+    "choices": [
+      {
+        "text": "Lean in and listen close",
+        "feedback": "His words settle in you."
+      },
+      {
+        "text": "Decide it does not matter",
+        "feedback": "Every word of his matters."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "Stay Awake",
+    "text": "What he teaches now will guard your heart later.\nListen well.",
+    "choices": [
+      {
+        "text": "Lean in and listen close",
+        "feedback": "You turn back to him."
+      }
+    ]
+  },
+  "wait": {
+    "title": "Ten at the Gate",
+    "text": "Ten bridesmaids stand in the dusk,\nlamps in hand, eyes on the road.",
+    "choices": [
+      {
+        "text": "Stand with them and wait",
+        "feedback": "You join the watch."
+      },
+      {
+        "text": "Wander off until it starts",
+        "feedback": "Waiting is part of love."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "Hold Your Place",
+    "text": "Those who wait well are the ones ready.\nStay with the lamps.",
+    "choices": [
+      {
+        "text": "Stand with them and wait",
+        "feedback": "You take your place."
+      }
+    ]
+  },
+  "oil": {
+    "title": "Extra Oil",
+    "text": "Some carry a small flask of extra oil.\nOthers carry only a lamp.",
+    "choices": [
+      {
+        "text": "Trust your lamp is enough",
+        "feedback": "The night may be long."
+      },
+      {
+        "text": "Fill a flask with extra oil",
+        "feedback": "Wisdom prepares."
+      },
+      {
+        "text": "Borrow oil later if needed",
+        "feedback": "Some things cannot be borrowed."
+      }
+    ]
+  },
+  "skip_consequence": {
+    "title": "Be Prepared",
+    "text": "A wise heart plans for the long wait.\nFill the flask now.",
+    "choices": [
+      {
+        "text": "Fill a flask with extra oil",
+        "feedback": "You prepare quietly."
+      }
+    ]
+  },
+  "borrow_consequence": {
+    "title": "Your Own Flame",
+    "text": "Faith cannot be borrowed in the dark.\nCarry your own oil.",
+    "choices": [
+      {
+        "text": "Fill a flask with extra oil",
+        "feedback": "You learn the lesson."
+      }
+    ]
+  },
+  "delay": {
+    "title": "The Long Wait",
+    "text": "Stars wheel overhead, the bridegroom delays.\nLamps flicker low.",
+    "choices": [
+      {
+        "text": "Curse the slow hours",
+        "feedback": "Trust the timing."
+      },
+      {
+        "text": "Keep watch through the night",
+        "feedback": "Patience holds you steady."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "His Timing",
+    "text": "He comes in his own hour, not ours.\nKeep the watch.",
+    "choices": [
+      {
+        "text": "Keep watch through the night",
+        "feedback": "You wait in peace."
+      }
+    ]
+  },
+  "midnight": {
+    "title": "Midnight Cry",
+    "text": "A voice rings out at the dark hour,\n\"The bridegroom! Come out to meet him!\"",
+    "choices": [
+      {
+        "text": "Trim your lamp and rise",
+        "feedback": "Your flame steadies."
+      },
+      {
+        "text": "Sleep through the cry",
+        "feedback": "Now is the moment."
+      }
+    ]
+  },
+  "sleep_consequence": {
+    "title": "Rise Now",
+    "text": "The call has come. Do not miss it.\nLift your lamp.",
+    "choices": [
+      {
+        "text": "Trim your lamp and rise",
+        "feedback": "You stand and wake."
+      }
+    ]
+  },
+  "run": {
+    "title": "No Oil Left",
+    "text": "Five lamps sputter and die in the dark.\nThey run to find oil in time.",
+    "choices": [
+      {
+        "text": "Mock those without oil",
+        "feedback": "Let your heart be humble."
+      },
+      {
+        "text": "Walk on with the wise five",
+        "feedback": "You move toward the light."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Be Humble",
+    "text": "Their loss is no joy to anyone.\nWalk on with care.",
+    "choices": [
+      {
+        "text": "Walk on with the wise five",
+        "feedback": "Pride softens to sorrow."
+      }
+    ]
+  },
+  "door": {
+    "title": "The Door Shuts",
+    "text": "The bridegroom enters the feast.\nThe door swings closed behind him.",
+    "choices": [
+      {
+        "text": "Pound and demand to enter",
+        "feedback": "Readiness cannot be demanded."
+      },
+      {
+        "text": "Stand in the warm light within",
+        "feedback": "You are home in time."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Be Ready First",
+    "text": "The hour to prepare was before.\nReadiness opens the door.",
+    "choices": [
+      {
+        "text": "Stand in the warm light within",
+        "feedback": "You enter at the right time."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Keep Watch",
+    "text": "Jesus turns to you in the soft dawn.\n\"Watch, for you know not the hour.\"",
+    "choices": []
+  }
+}

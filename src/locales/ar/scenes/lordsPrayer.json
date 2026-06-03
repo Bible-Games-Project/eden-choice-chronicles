@@ -1,0 +1,217 @@
+{
+  "start": {
+    "title": "[TODO:ar] Teach Us to Pray",
+    "text": "[TODO:ar] The disciples approach quietly.\n\"Lord, teach us how to pray.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Pray loud in the street",
+        "feedback": "[TODO:ar] Prayer is not a show."
+      },
+      {
+        "text": "[TODO:ar] Ask Jesus humbly",
+        "feedback": "[TODO:ar] He smiles warmly."
+      },
+      {
+        "text": "[TODO:ar] Repeat empty phrases",
+        "feedback": "[TODO:ar] Words alone are not faith."
+      }
+    ]
+  },
+  "loud_consequence": {
+    "title": "[TODO:ar] Not for Show",
+    "text": "[TODO:ar] Prayer is not for the crowd.\nIt is for the Father.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Ask Jesus humbly",
+        "feedback": "[TODO:ar] You lower your voice."
+      }
+    ]
+  },
+  "empty_consequence": {
+    "title": "[TODO:ar] Speak from the Heart",
+    "text": "[TODO:ar] The Father hears the heart, not noise.\nSpeak simply.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Ask Jesus humbly",
+        "feedback": "[TODO:ar] You breathe and listen."
+      }
+    ]
+  },
+  "our_father": {
+    "title": "[TODO:ar] Our Father",
+    "text": "[TODO:ar] \"Our Father in heaven,\nhallowed be your name.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Call God a stranger",
+        "feedback": "[TODO:ar] He is your Father."
+      },
+      {
+        "text": "[TODO:ar] Honor God as Father",
+        "feedback": "[TODO:ar] A quiet awe fills you."
+      }
+    ]
+  },
+  "stranger_consequence": {
+    "title": "[TODO:ar] He Knows You",
+    "text": "[TODO:ar] He is near, not distant.\nCall him Father.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Honor God as Father",
+        "feedback": "[TODO:ar] Your heart softens."
+      }
+    ]
+  },
+  "bread": {
+    "title": "[TODO:ar] Daily Bread",
+    "text": "[TODO:ar] \"Give us this day\nour daily bread.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hoard for tomorrow",
+        "feedback": "[TODO:ar] Trust him today."
+      },
+      {
+        "text": "[TODO:ar] Demand more than enough",
+        "feedback": "[TODO:ar] Ask only for today."
+      },
+      {
+        "text": "[TODO:ar] Ask only for today",
+        "feedback": "[TODO:ar] Your hands open."
+      }
+    ]
+  },
+  "hoard_consequence": {
+    "title": "[TODO:ar] Trust Today",
+    "text": "[TODO:ar] Tomorrow is in his hands.\nAsk only for now.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Ask only for today",
+        "feedback": "[TODO:ar] You exhale slowly."
+      }
+    ]
+  },
+  "greed_consequence": {
+    "title": "[TODO:ar] Enough Is Enough",
+    "text": "[TODO:ar] He gives what you need.\nThat is enough.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Ask only for today",
+        "feedback": "[TODO:ar] Peace settles in."
+      }
+    ]
+  },
+  "forgive": {
+    "title": "[TODO:ar] Forgive Us",
+    "text": "[TODO:ar] \"Forgive us our debts,\nour failings, our sins.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hide your sins from him",
+        "feedback": "[TODO:ar] Bring them into light."
+      },
+      {
+        "text": "[TODO:ar] Confess and ask mercy",
+        "feedback": "[TODO:ar] A weight lifts."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ar] Come Into Light",
+    "text": "[TODO:ar] He already knows your heart.\nSpeak honestly.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Confess and ask mercy",
+        "feedback": "[TODO:ar] You feel lighter."
+      }
+    ]
+  },
+  "forgive_others": {
+    "title": "[TODO:ar] As We Forgive",
+    "text": "[TODO:ar] \"As we also forgive\nthose who sin against us.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hold the wound tightly",
+        "feedback": "[TODO:ar] Release them too."
+      },
+      {
+        "text": "[TODO:ar] Demand they pay first",
+        "feedback": "[TODO:ar] Mercy goes first."
+      },
+      {
+        "text": "[TODO:ar] Release those who hurt you",
+        "feedback": "[TODO:ar] Your hand opens."
+      }
+    ]
+  },
+  "wound_consequence": {
+    "title": "[TODO:ar] Let Go",
+    "text": "[TODO:ar] Mercy received must be given.\nOpen your hand.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Release those who hurt you",
+        "feedback": "[TODO:ar] Bitterness drains away."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ar] Mercy First",
+    "text": "[TODO:ar] You were forgiven freely.\nForgive freely too.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Release those who hurt you",
+        "feedback": "[TODO:ar] Peace returns."
+      }
+    ]
+  },
+  "deliver": {
+    "title": "[TODO:ar] Deliver Us",
+    "text": "[TODO:ar] \"Lead us not into temptation,\nbut deliver us from evil.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Trust only your own strength",
+        "feedback": "[TODO:ar] Lean on him."
+      },
+      {
+        "text": "[TODO:ar] Ask the Father to guard you",
+        "feedback": "[TODO:ar] A quiet courage rises."
+      }
+    ]
+  },
+  "self_consequence": {
+    "title": "[TODO:ar] Lean on Him",
+    "text": "[TODO:ar] You are not alone in the storm.\nAsk for his help.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Ask the Father to guard you",
+        "feedback": "[TODO:ar] You feel held."
+      }
+    ]
+  },
+  "private": {
+    "title": "[TODO:ar] Go Into Your Room",
+    "text": "[TODO:ar] \"When you pray, go to your room.\nShut the door. Pray in secret.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Boast of your devotion",
+        "feedback": "[TODO:ar] He sees in secret."
+      },
+      {
+        "text": "[TODO:ar] Pray quietly, alone",
+        "feedback": "[TODO:ar] The room grows warm."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ar] In Secret",
+    "text": "[TODO:ar] Your Father who sees in secret\nwill reward you.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Pray quietly, alone",
+        "feedback": "[TODO:ar] You shut the door."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ar] He Hears You",
+    "text": "[TODO:ar] A small lamp burns beside you.\nYou are not alone here.",
+    "choices": []
+  }
+}

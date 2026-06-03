@@ -1,0 +1,349 @@
+{
+  "start": {
+    "title": "[TODO:ja] The Upper Room",
+    "text": "[TODO:ja] The hour has come. Twelve faces wait by lamplight.\nYou step inside the prepared room.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Send them home for safety",
+        "feedback": "[TODO:ja] This hour was always meant."
+      },
+      {
+        "text": "[TODO:ja] Welcome them to the table",
+        "feedback": "[TODO:ja] Their eyes meet yours."
+      },
+      {
+        "text": "[TODO:ja] Speak of glory and crowns",
+        "feedback": "[TODO:ja] Not glory. Service."
+      }
+    ]
+  },
+  "send_consequence": {
+    "title": "[TODO:ja] Stay With Me",
+    "text": "[TODO:ja] This night is for them too.\nThey must see what love does.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Welcome them to the table",
+        "feedback": "[TODO:ja] You open your arms wide."
+      }
+    ]
+  },
+  "glory_consequence": {
+    "title": "[TODO:ja] Not Tonight",
+    "text": "[TODO:ja] Tonight is bread, and cup, and love.\nGlory waits beyond the cross.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Welcome them to the table",
+        "feedback": "[TODO:ja] You sit down among them."
+      }
+    ]
+  },
+  "gathered": {
+    "title": "[TODO:ja] A Basin of Water",
+    "text": "[TODO:ja] Dust covers their feet. No servant has come.\nA folded towel waits by the door.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Order Peter to wash the feet",
+        "feedback": "[TODO:ja] Not order. Show them."
+      },
+      {
+        "text": "[TODO:ja] Rise and tie the towel on",
+        "feedback": "[TODO:ja] You kneel beside them."
+      },
+      {
+        "text": "[TODO:ja] Leave the dust unclean",
+        "feedback": "[TODO:ja] Love does not ignore."
+      }
+    ]
+  },
+  "order_consequence": {
+    "title": "[TODO:ja] Show, Not Tell",
+    "text": "[TODO:ja] If you wish them to serve, serve first.\nThe master kneels tonight.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Rise and tie the towel on",
+        "feedback": "[TODO:ja] You take the basin in hand."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "[TODO:ja] Love Stoops Low",
+    "text": "[TODO:ja] You came to wash more than feet.\nBegin with what is small.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Rise and tie the towel on",
+        "feedback": "[TODO:ja] You bend down to begin."
+      }
+    ]
+  },
+  "washing": {
+    "title": "[TODO:ja] Peter Resists",
+    "text": "[TODO:ja] \"Lord, you shall never wash my feet!\"\nHis voice cracks with shame.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Agree and stand back up",
+        "feedback": "[TODO:ja] Then he has no part in you."
+      },
+      {
+        "text": "[TODO:ja] Rebuke him for his pride",
+        "feedback": "[TODO:ja] Teach him gently, not harshly."
+      },
+      {
+        "text": "[TODO:ja] Tell him he must be washed",
+        "feedback": "[TODO:ja] Peter offers his head and hands."
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "[TODO:ja] He Must Be Washed",
+    "text": "[TODO:ja] Unless he lets you serve him,\nhe cannot walk the road ahead.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Tell him he must be washed",
+        "feedback": "[TODO:ja] He yields with tears."
+      }
+    ]
+  },
+  "rebuke_consequence": {
+    "title": "[TODO:ja] Gently",
+    "text": "[TODO:ja] His pride hides a frightened heart.\nMeet him with truth, not fire.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Tell him he must be washed",
+        "feedback": "[TODO:ja] His shoulders soften."
+      }
+    ]
+  },
+  "bread_table": {
+    "title": "[TODO:ja] The Loaf in Your Hands",
+    "text": "[TODO:ja] The unleavened bread rests on the cloth.\nThe room falls quiet around it.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Hide the loaf and say nothing",
+        "feedback": "[TODO:ja] They must see and remember."
+      },
+      {
+        "text": "[TODO:ja] Give thanks, break, and share",
+        "feedback": "[TODO:ja] \"This is my body, given for you.\""
+      },
+      {
+        "text": "[TODO:ja] Eat it alone in silence",
+        "feedback": "[TODO:ja] This bread is for all of them."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ja] Let Them See",
+    "text": "[TODO:ja] Memory is built from this moment.\nGive what cannot be hidden.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Give thanks, break, and share",
+        "feedback": "[TODO:ja] You lift the loaf high."
+      }
+    ]
+  },
+  "alone_consequence": {
+    "title": "[TODO:ja] For All of Them",
+    "text": "[TODO:ja] The bread is broken to be shared.\nNone eat it alone tonight.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Give thanks, break, and share",
+        "feedback": "[TODO:ja] Twelve hands receive a piece."
+      }
+    ]
+  },
+  "cup_lifted": {
+    "title": "[TODO:ja] The Cup of Wine",
+    "text": "[TODO:ja] Dark wine glows in the clay cup.\nYou lift it slowly above the table.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Drink it quietly to yourself",
+        "feedback": "[TODO:ja] Pass it around, all of you."
+      },
+      {
+        "text": "[TODO:ja] Pour it out upon the floor",
+        "feedback": "[TODO:ja] This is the cup of covenant."
+      },
+      {
+        "text": "[TODO:ja] Pass it and speak of covenant",
+        "feedback": "[TODO:ja] \"My blood, poured out for many.\""
+      }
+    ]
+  },
+  "quiet_consequence": {
+    "title": "[TODO:ja] Share the Cup",
+    "text": "[TODO:ja] The new covenant is given to them.\nNot kept hidden in your hand.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Pass it and speak of covenant",
+        "feedback": "[TODO:ja] They drink, one by one."
+      }
+    ]
+  },
+  "pour_consequence": {
+    "title": "[TODO:ja] Not the Floor",
+    "text": "[TODO:ja] This cup is to be drunk, not spilled.\nLet them taste the promise.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Pass it and speak of covenant",
+        "feedback": "[TODO:ja] The cup moves down the table."
+      }
+    ]
+  },
+  "remembrance": {
+    "title": "[TODO:ja] Do This in Memory",
+    "text": "[TODO:ja] Their eyes follow your every word.\nHow will they keep this night?",
+    "choices": [
+      {
+        "text": "[TODO:ja] Tell them to forget the meal",
+        "feedback": "[TODO:ja] No. Remember, always."
+      },
+      {
+        "text": "[TODO:ja] \"Do this in memory of me\"",
+        "feedback": "[TODO:ja] The words settle deep in them."
+      },
+      {
+        "text": "[TODO:ja] Demand a feast in your name",
+        "feedback": "[TODO:ja] Memory, not spectacle."
+      }
+    ]
+  },
+  "forget_consequence": {
+    "title": "[TODO:ja] Always Remember",
+    "text": "[TODO:ja] This bread, this cup, this love.\nThese they must never forget.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"Do this in memory of me\"",
+        "feedback": "[TODO:ja] They nod in solemn silence."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ja] Memory, Not Spectacle",
+    "text": "[TODO:ja] A quiet meal, broken and shared.\nThat is enough for love.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"Do this in memory of me\"",
+        "feedback": "[TODO:ja] Their hearts grow still."
+      }
+    ]
+  },
+  "betrayal_words": {
+    "title": "[TODO:ja] One of You",
+    "text": "[TODO:ja] Your voice grows low and sorrowful.\n\"One who eats with me will betray me.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Accuse Judas openly by name",
+        "feedback": "[TODO:ja] His choice belongs to him."
+      },
+      {
+        "text": "[TODO:ja] Take back the hard saying",
+        "feedback": "[TODO:ja] Truth must stand tonight."
+      },
+      {
+        "text": "[TODO:ja] Let the words fall and wait",
+        "feedback": "[TODO:ja] Silence wraps the table."
+      }
+    ]
+  },
+  "accuse_consequence": {
+    "title": "[TODO:ja] Not by Force",
+    "text": "[TODO:ja] He must come to his own choice.\nLove does not shame him publicly.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Let the words fall and wait",
+        "feedback": "[TODO:ja] You lower your eyes."
+      }
+    ]
+  },
+  "take_back_consequence": {
+    "title": "[TODO:ja] Truth Stands",
+    "text": "[TODO:ja] What is true must be spoken,\neven when it wounds your heart.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Let the words fall and wait",
+        "feedback": "[TODO:ja] The lamplight flickers low."
+      }
+    ]
+  },
+  "disciples_ask": {
+    "title": "[TODO:ja] \"Is It I, Lord?\"",
+    "text": "[TODO:ja] One by one they look up troubled.\n\"Surely not I, Lord? Surely not I?\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Point your finger at each one",
+        "feedback": "[TODO:ja] Their hearts must speak first."
+      },
+      {
+        "text": "[TODO:ja] Answer with grief, not blame",
+        "feedback": "[TODO:ja] \"The hand is here with mine.\""
+      },
+      {
+        "text": "[TODO:ja] Laugh and dismiss their fear",
+        "feedback": "[TODO:ja] This is no jest tonight."
+      }
+    ]
+  },
+  "point_consequence": {
+    "title": "[TODO:ja] Let Hearts Speak",
+    "text": "[TODO:ja] Each soul must look within tonight.\nDo not crush them with judgment.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Answer with grief, not blame",
+        "feedback": "[TODO:ja] Your sorrow softens them."
+      }
+    ]
+  },
+  "laugh_consequence": {
+    "title": "[TODO:ja] Not a Jest",
+    "text": "[TODO:ja] Their fear is honest and tender.\nMeet it with honest love.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Answer with grief, not blame",
+        "feedback": "[TODO:ja] You speak softly to them."
+      }
+    ]
+  },
+  "farewell": {
+    "title": "[TODO:ja] Love One Another",
+    "text": "[TODO:ja] The hour grows late. Lamps burn low.\nWhat last word will you give?",
+    "choices": [
+      {
+        "text": "[TODO:ja] Leave without a final word",
+        "feedback": "[TODO:ja] They need this word most."
+      },
+      {
+        "text": "[TODO:ja] \"Love one another, as I have loved\"",
+        "feedback": "[TODO:ja] Their eyes shine with tears."
+      },
+      {
+        "text": "[TODO:ja] Warn them of every danger",
+        "feedback": "[TODO:ja] Speak love, not only fear."
+      }
+    ]
+  },
+  "leave_silent_consequence": {
+    "title": "[TODO:ja] One Last Word",
+    "text": "[TODO:ja] They will need it in the dark hours.\nLet love be the lamp you leave.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"Love one another, as I have loved\"",
+        "feedback": "[TODO:ja] You bless them with your gaze."
+      }
+    ]
+  },
+  "warn_consequence": {
+    "title": "[TODO:ja] Love First",
+    "text": "[TODO:ja] Fear cannot carry them through.\nOnly love will hold them.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"Love one another, as I have loved\"",
+        "feedback": "[TODO:ja] Your voice is gentle and clear."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ja] Into the Night",
+    "text": "[TODO:ja] You rise from the table together.\nThe night waits beyond the door.",
+    "choices": []
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "start": {
+    "title": "[TODO:ar] The Road from Beersheba",
+    "text": "[TODO:ar] You are Jacob, fleeing Esau's wrath.\nThe sun lowers. Haran is far. Night is near.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Keep walking — find a place to rest",
+        "feedback": "[TODO:ar] You walk on. The wind cools. The hills stretch wide."
+      },
+      {
+        "text": "[TODO:ar] Turn back — beg Esau's mercy",
+        "feedback": "[TODO:ar] Fear pulls you home. But the path back is closed."
+      },
+      {
+        "text": "[TODO:ar] Hide in the rocks until dark",
+        "feedback": "[TODO:ar] Hiding is not your road. Father said: go."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:ar] No Way Back",
+    "text": "[TODO:ar] Esau's anger still burns. Your mother's voice returns:\n\"Flee to Haran. Stay until his fury cools.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Turn east again — keep walking",
+        "feedback": "[TODO:ar] You set your face toward Haran once more."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ar] The Rocks Are Cold",
+    "text": "[TODO:ar] Hidden, you wait. But hiding is not the calling.\nThe stars rise. The road still waits.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Step out and walk on",
+        "feedback": "[TODO:ar] You leave the shadows. The journey is yours."
+      }
+    ]
+  },
+  "wilderness": {
+    "title": "[TODO:ar] Open Wilderness",
+    "text": "[TODO:ar] Hills stretch in every direction. Light is failing.\nYou must stop somewhere — soon.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Rest at this stony place",
+        "feedback": "[TODO:ar] Something quiet here. You step off the path."
+      },
+      {
+        "text": "[TODO:ar] Push on through the night",
+        "feedback": "[TODO:ar] Darkness swallows the road. You stumble blind."
+      }
+    ]
+  },
+  "push_on_consequence": {
+    "title": "[TODO:ar] Lost in the Dark",
+    "text": "[TODO:ar] The path vanishes under your feet.\nYou turn back to the stones you passed.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Stop and rest at the stony place",
+        "feedback": "[TODO:ar] The Lord's place was waiting all along."
+      }
+    ]
+  },
+  "the_place": {
+    "title": "[TODO:ar] A Certain Place",
+    "text": "[TODO:ar] Bare ground. Scattered stones. The sun is gone.\nYou have nothing for a pillow.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Take a stone for a pillow",
+        "feedback": "[TODO:ar] You choose a smooth stone. It is enough."
+      },
+      {
+        "text": "[TODO:ar] Use your cloak — stones are too hard",
+        "feedback": "[TODO:ar] You shiver. The wind cuts through. Sleep won't come."
+      },
+      {
+        "text": "[TODO:ar] Walk on — find a softer spot",
+        "feedback": "[TODO:ar] Each spot is the same. The night is not for searching."
+      }
+    ]
+  },
+  "soft_consequence": {
+    "title": "[TODO:ar] The Wind Won't Let You",
+    "text": "[TODO:ar] The cold is sharper without a pillow.\nA stone lies near your hand.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Place a stone beneath your head",
+        "feedback": "[TODO:ar] Hardness becomes rest. You close your eyes."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "[TODO:ar] All Ground Is the Same",
+    "text": "[TODO:ar] You return to the first stones. Every place is\nthe same in the dark. This place will do.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Take a stone for a pillow",
+        "feedback": "[TODO:ar] You set a stone for your head and lie down."
+      }
+    ]
+  },
+  "lay_down": {
+    "title": "[TODO:ar] Sleep Comes",
+    "text": "[TODO:ar] The stone is cold beneath your cheek.\nThe sky deepens. Your breathing slows.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Close your eyes and sleep",
+        "feedback": "[TODO:ar] Sleep takes you. And then — light."
+      }
+    ]
+  },
+  "the_dream": {
+    "title": "[TODO:ar] A Stairway",
+    "text": "[TODO:ar] A great stairway rises from earth to heaven.\nAngels of God ascend and descend on it.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Watch in silent awe",
+        "feedback": "[TODO:ar] You do not move. The light pours down."
+      },
+      {
+        "text": "[TODO:ar] Try to climb the stairway",
+        "feedback": "[TODO:ar] Your foot will not lift. This is not for climbing — for seeing."
+      },
+      {
+        "text": "[TODO:ar] Call out to the angels",
+        "feedback": "[TODO:ar] Your voice is small. They pass without turning."
+      }
+    ]
+  },
+  "climb_consequence": {
+    "title": "[TODO:ar] Not by Climbing",
+    "text": "[TODO:ar] The stair is not yours to ascend.\nA voice stirs above. You must only listen.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Stand still and watch",
+        "feedback": "[TODO:ar] You bow your head. Light fills your eyes."
+      }
+    ]
+  },
+  "call_consequence": {
+    "title": "[TODO:ar] They Do Not Answer",
+    "text": "[TODO:ar] The angels pass on their errand.\nA greater Voice waits at the top of the stair.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Be silent and listen",
+        "feedback": "[TODO:ar] You fall quiet. Then He speaks."
+      }
+    ]
+  },
+  "the_voice": {
+    "title": "[TODO:ar] The Voice Above",
+    "text": "[TODO:ar] \"I am the LORD, God of Abraham and Isaac.\nThe land where you lie I will give to you.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Receive the promise in silence",
+        "feedback": "[TODO:ar] You let the words enter you. Earth and heaven hold still."
+      },
+      {
+        "text": "[TODO:ar] Bargain — ask for proof first",
+        "feedback": "[TODO:ar] The promise is freely given. It needs no haggling."
+      }
+    ]
+  },
+  "bargain_consequence": {
+    "title": "[TODO:ar] No Need to Bargain",
+    "text": "[TODO:ar] His word is sure. The Voice speaks again,\ngentle: \"I am with you. I will keep you.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Receive the promise",
+        "feedback": "[TODO:ar] Your heart bows. The promise rests upon you."
+      }
+    ]
+  },
+  "the_promise": {
+    "title": "[TODO:ar] \"I Am With You\"",
+    "text": "[TODO:ar] \"I am with you. I will keep you wherever you go,\nand bring you back to this land.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Treasure His words in your heart",
+        "feedback": "[TODO:ar] The vision fades. The stars return. Dawn is near."
+      }
+    ]
+  },
+  "awakening": {
+    "title": "[TODO:ar] Surely the LORD Is Here",
+    "text": "[TODO:ar] You wake trembling. \"Surely the LORD is in this place,\nand I did not know it.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Call this place the house of God",
+        "feedback": "[TODO:ar] \"This is none other than Bethel — the gate of heaven.\""
+      },
+      {
+        "text": "[TODO:ar] Hurry away before the vision returns",
+        "feedback": "[TODO:ar] Fear is not faith. The place asks something of you."
+      },
+      {
+        "text": "[TODO:ar] Tell no one — keep it secret",
+        "feedback": "[TODO:ar] Some things are sealed by remembrance, not silence."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:ar] The Place Holds You",
+    "text": "[TODO:ar] You take a few steps — and stop.\nThe stone where you slept must not be left bare.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Return and set up the stone",
+        "feedback": "[TODO:ar] You walk back. The stone is waiting."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "[TODO:ar] A Mark Must Be Made",
+    "text": "[TODO:ar] Silence is not enough. Generations must know\nwhat the LORD did at this place.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Set up the stone as a pillar",
+        "feedback": "[TODO:ar] You lift the stone. It will stand as witness."
+      }
+    ]
+  },
+  "set_pillar": {
+    "title": "[TODO:ar] The Stone Pillar",
+    "text": "[TODO:ar] You take the stone from beneath your head\nand set it upright. Dawn breaks soft and pink.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Pour oil on it as an offering",
+        "feedback": "[TODO:ar] Oil runs down the stone. It glistens in the morning light."
+      },
+      {
+        "text": "[TODO:ar] Leave it plain — it is enough",
+        "feedback": "[TODO:ar] Something more is owed. The Lord met you here."
+      }
+    ]
+  },
+  "plain_consequence": {
+    "title": "[TODO:ar] Honor It Fully",
+    "text": "[TODO:ar] A bare stone is not yet an altar.\nYou have a small flask of oil at your side.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Anoint the stone with oil",
+        "feedback": "[TODO:ar] You pour the oil. It is the Lord's portion."
+      }
+    ]
+  },
+  "anoint": {
+    "title": "[TODO:ar] Bethel — House of God",
+    "text": "[TODO:ar] \"This place shall be called Bethel.\nThe LORD shall be my God.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Vow a tenth of all He gives you",
+        "feedback": "[TODO:ar] \"Of all You give me, I will surely give a tenth to You.\""
+      },
+      {
+        "text": "[TODO:ar] Promise nothing — just receive",
+        "feedback": "[TODO:ar] Grace welcomes a vow in return. Words become a covenant."
+      }
+    ]
+  },
+  "withhold_consequence": {
+    "title": "[TODO:ar] Make a Vow",
+    "text": "[TODO:ar] Your heart is full. A pledge rises in you —\na portion returned for a promise received.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Vow a tenth of all to the LORD",
+        "feedback": "[TODO:ar] \"Of all You give me, I will give a tenth to You.\""
+      }
+    ]
+  },
+  "the_vow": {
+    "title": "[TODO:ar] The Road East",
+    "text": "[TODO:ar] You take up your staff. The morning is wide.\nHaran lies far ahead — but you are not alone.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Walk on with the LORD",
+        "feedback": "[TODO:ar] Each step is lighter than the last. The promise walks with you."
+      }
+    ]
+  },
+  "journey_on": {
+    "title": "[TODO:ar] The Promise Goes With You",
+    "text": "[TODO:ar] Bethel falls behind. The east opens before you.\nYou are kept. You are sent. You are seen.",
+    "choices": []
+  }
+}

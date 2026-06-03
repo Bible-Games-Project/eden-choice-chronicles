@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "Who Is My Neighbor?",
+    "text": "Jesus sits on the hillside.\n\"Let me tell you a story.\"",
+    "choices": [
+      {
+        "text": "Walk away, uninterested",
+        "feedback": "Stay and listen."
+      },
+      {
+        "text": "Lean in and listen",
+        "feedback": "His voice draws you near."
+      },
+      {
+        "text": "Demand a clear rule",
+        "feedback": "He answers with a story."
+      }
+    ]
+  },
+  "walk_consequence": {
+    "title": "Turn Back",
+    "text": "Some stories find you anyway.\nReturn and listen.",
+    "choices": [
+      {
+        "text": "Lean in and listen",
+        "feedback": "You sit down again."
+      }
+    ]
+  },
+  "rule_consequence": {
+    "title": "Listen First",
+    "text": "Love is not a rule to memorize.\nIt is a road to walk.",
+    "choices": [
+      {
+        "text": "Lean in and listen",
+        "feedback": "Your shoulders soften."
+      }
+    ]
+  },
+  "attack": {
+    "title": "Down to Jericho",
+    "text": "A man walked the lonely road.\nRobbers left him beaten, alone.",
+    "choices": [
+      {
+        "text": "Pity him quietly",
+        "feedback": "Pity is not enough."
+      },
+      {
+        "text": "Look closely at his pain",
+        "feedback": "Your heart aches with his."
+      }
+    ]
+  },
+  "pity_consequence": {
+    "title": "See Him",
+    "text": "Compassion must open its eyes.\nLook at him fully.",
+    "choices": [
+      {
+        "text": "Look closely at his pain",
+        "feedback": "You truly see him now."
+      }
+    ]
+  },
+  "priest": {
+    "title": "A Priest Passes By",
+    "text": "A priest walked the same road.\nHe saw the man, then crossed over.",
+    "choices": [
+      {
+        "text": "Cheer the priest's caution",
+        "feedback": "Caution is not love."
+      },
+      {
+        "text": "Excuse him: he is busy",
+        "feedback": "No errand outweighs mercy."
+      },
+      {
+        "text": "Grieve his cold heart",
+        "feedback": "Your chest tightens."
+      }
+    ]
+  },
+  "cheer_consequence": {
+    "title": "Not Yet",
+    "text": "Holy clothes did not soften him.\nMercy is the holier robe.",
+    "choices": [
+      {
+        "text": "Grieve his cold heart",
+        "feedback": "Sorrow finds you."
+      }
+    ]
+  },
+  "excuse_consequence": {
+    "title": "No Excuse",
+    "text": "Love makes time it does not have.\nFeel the wound.",
+    "choices": [
+      {
+        "text": "Grieve his cold heart",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "levite": {
+    "title": "A Levite Passes By",
+    "text": "Then a Levite came near.\nHe looked, then walked away too.",
+    "choices": [
+      {
+        "text": "Hope someone else helps",
+        "feedback": "Someone else may not come."
+      },
+      {
+        "text": "Long for a true neighbor",
+        "feedback": "You whisper a prayer."
+      }
+    ]
+  },
+  "hope_consequence": {
+    "title": "Be the Neighbor",
+    "text": "The world waits for someone.\nLet that someone be you.",
+    "choices": [
+      {
+        "text": "Long for a true neighbor",
+        "feedback": "You hold the wish close."
+      }
+    ]
+  },
+  "samaritan": {
+    "title": "A Samaritan Stops",
+    "text": "A Samaritan saw the broken man.\nHe knelt down beside him.",
+    "choices": [
+      {
+        "text": "Doubt him: he is foreign",
+        "feedback": "Mercy has no borders."
+      },
+      {
+        "text": "Bless the stranger's kindness",
+        "feedback": "Your eyes fill with tears."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "No Borders",
+    "text": "He is the neighbor you did not expect.\nReceive his goodness.",
+    "choices": [
+      {
+        "text": "Bless the stranger's kindness",
+        "feedback": "Your pride softens."
+      }
+    ]
+  },
+  "tend": {
+    "title": "Oil and Wine",
+    "text": "He cleansed the wounds with care.\nHe bound them with his own cloth.",
+    "choices": [
+      {
+        "text": "Rush him: it takes too long",
+        "feedback": "Mercy takes its time."
+      },
+      {
+        "text": "Watch the slow tenderness",
+        "feedback": "You learn what love looks like."
+      },
+      {
+        "text": "Look away from the wound",
+        "feedback": "Stay with the broken."
+      }
+    ]
+  },
+  "rush_consequence": {
+    "title": "Be Patient",
+    "text": "Healing cannot be hurried.\nStay near him.",
+    "choices": [
+      {
+        "text": "Watch the slow tenderness",
+        "feedback": "You breathe slowly with him."
+      }
+    ]
+  },
+  "lookaway_consequence": {
+    "title": "Stay With Him",
+    "text": "Mercy does not turn away.\nIt stays through the hard part.",
+    "choices": [
+      {
+        "text": "Watch the slow tenderness",
+        "feedback": "Your gaze steadies."
+      }
+    ]
+  },
+  "inn": {
+    "title": "Bring Him to Shelter",
+    "text": "He lifted the man onto his donkey.\nHe carried him to a quiet inn.",
+    "choices": [
+      {
+        "text": "Leave him at the door",
+        "feedback": "Stay with him longer."
+      },
+      {
+        "text": "Settle him into safety",
+        "feedback": "The lamp warms the room."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "Finish the Mercy",
+    "text": "Half-finished kindness still wounds.\nSee him fully settled.",
+    "choices": [
+      {
+        "text": "Settle him into safety",
+        "feedback": "You stay until he rests."
+      }
+    ]
+  },
+  "pay": {
+    "title": "Two Silver Coins",
+    "text": "\"Care for him. I will return\nand repay whatever it costs.\"",
+    "choices": [
+      {
+        "text": "Pay only what is required",
+        "feedback": "Love gives more."
+      },
+      {
+        "text": "Promise to cover any cost",
+        "feedback": "Mercy spends freely."
+      }
+    ]
+  },
+  "minimum_consequence": {
+    "title": "Go Further",
+    "text": "Love does not count its coins.\nIt covers what is needed.",
+    "choices": [
+      {
+        "text": "Promise to cover any cost",
+        "feedback": "Your hand opens."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Go and Do Likewise",
+    "text": "Jesus looks straight at you.\n\"Go now. Do the same.\"",
+    "choices": []
+  }
+}

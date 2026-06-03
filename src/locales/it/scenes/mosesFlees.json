@@ -1,0 +1,493 @@
+{
+  "start": {
+    "title": "[TODO:it] Among His People",
+    "text": "[TODO:it] You walk where Hebrews labor.\nA taskmaster strikes a slave hard.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk away and say nothing",
+        "feedback": "[TODO:it] Their cry weighs on you."
+      },
+      {
+        "text": "[TODO:it] Move closer to see clearly",
+        "feedback": "[TODO:it] You must see the truth."
+      },
+      {
+        "text": "[TODO:it] Call the palace guards",
+        "feedback": "[TODO:it] They serve Pharaoh, not justice."
+      }
+    ]
+  },
+  "walk_away_consequence": {
+    "title": "[TODO:it] The Cry Follows You",
+    "text": "[TODO:it] The whip echoes in your ears.\nYou cannot pretend you did not see.",
+    "choices": [
+      {
+        "text": "[TODO:it] Turn back and look closer",
+        "feedback": "[TODO:it] You return to the field."
+      }
+    ]
+  },
+  "call_guards_consequence": {
+    "title": "[TODO:it] They Will Not Help",
+    "text": "[TODO:it] The guards serve the same masters.\nThis cry needs another answer.",
+    "choices": [
+      {
+        "text": "[TODO:it] Go closer to the slave yourself",
+        "feedback": "[TODO:it] You step into the dust."
+      }
+    ]
+  },
+  "watch_closer": {
+    "title": "[TODO:it] He Is My Brother",
+    "text": "[TODO:it] The Hebrew is bleeding, half-broken.\nThe taskmaster lifts the whip again.",
+    "choices": [
+      {
+        "text": "[TODO:it] Look around. No one watches.",
+        "feedback": "[TODO:it] The field is empty."
+      },
+      {
+        "text": "[TODO:it] Shout at the taskmaster",
+        "feedback": "[TODO:it] You give yourself away."
+      },
+      {
+        "text": "[TODO:it] Bribe him with gold",
+        "feedback": "[TODO:it] Cruelty cannot be bought off."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:it] Too Loud",
+    "text": "[TODO:it] Your voice carries far.\nWitnesses will remember every word.",
+    "choices": [
+      {
+        "text": "[TODO:it] Quiet. Look around again.",
+        "feedback": "[TODO:it] You lower your voice."
+      }
+    ]
+  },
+  "bribe_consequence": {
+    "title": "[TODO:it] He Laughs at the Gold",
+    "text": "[TODO:it] He pockets it and strikes again.\nGold cannot save your brother.",
+    "choices": [
+      {
+        "text": "[TODO:it] Step back. Check who sees.",
+        "feedback": "[TODO:it] You scan the field."
+      }
+    ]
+  },
+  "no_one_sees": {
+    "title": "[TODO:it] No One Is Near",
+    "text": "[TODO:it] The field is empty. The whip falls.\nYour hands clench. Anger rises.",
+    "choices": [
+      {
+        "text": "[TODO:it] Strike down the Egyptian",
+        "feedback": "[TODO:it] Justice — but at what cost?"
+      },
+      {
+        "text": "[TODO:it] Run for help to the palace",
+        "feedback": "[TODO:it] By then he will be dead."
+      }
+    ]
+  },
+  "run_palace_consequence": {
+    "title": "[TODO:it] Too Late",
+    "text": "[TODO:it] The palace is far. He will die\nbefore any help arrives. Act now.",
+    "choices": [
+      {
+        "text": "[TODO:it] Strike down the Egyptian",
+        "feedback": "[TODO:it] You move at last."
+      }
+    ]
+  },
+  "strike_egyptian": {
+    "title": "[TODO:it] It Is Done",
+    "text": "[TODO:it] One blow. He falls and breathes no more.\nThe Hebrew flees in silence.",
+    "choices": [
+      {
+        "text": "[TODO:it] Hide his body in the sand",
+        "feedback": "[TODO:it] You bury what you have done."
+      },
+      {
+        "text": "[TODO:it] Leave him where he lies",
+        "feedback": "[TODO:it] Anyone passing will see."
+      },
+      {
+        "text": "[TODO:it] Boast of it in the city",
+        "feedback": "[TODO:it] Your tongue is your downfall."
+      }
+    ]
+  },
+  "leave_body_consequence": {
+    "title": "[TODO:it] He Will Be Found",
+    "text": "[TODO:it] A body in open sand will speak.\nCover what you have done.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bury him in the sand",
+        "feedback": "[TODO:it] You drag him aside."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:it] Words Travel",
+    "text": "[TODO:it] Pride could undo everything.\nFirst — hide what you have done.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bury him in the sand",
+        "feedback": "[TODO:it] You return to the field."
+      }
+    ]
+  },
+  "bury_body": {
+    "title": "[TODO:it] Buried in the Sand",
+    "text": "[TODO:it] You cover him quickly. No one saw.\nYou hope no one ever knows.",
+    "choices": [
+      {
+        "text": "[TODO:it] Return quietly to the palace",
+        "feedback": "[TODO:it] Act as though nothing happened."
+      },
+      {
+        "text": "[TODO:it] Tell the Hebrew elders",
+        "feedback": "[TODO:it] Word will spread too fast."
+      }
+    ]
+  },
+  "tell_elders_consequence": {
+    "title": "[TODO:it] Whispers Travel",
+    "text": "[TODO:it] The elders gasp. Word will spread\nfaster than you can follow.",
+    "choices": [
+      {
+        "text": "[TODO:it] Return quietly to the palace",
+        "feedback": "[TODO:it] You walk back in silence."
+      }
+    ]
+  },
+  "return_palace": {
+    "title": "[TODO:it] A Long Night",
+    "text": "[TODO:it] The palace lamps burn low.\nYou sleep little. Tomorrow you must look.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk among the Hebrews again",
+        "feedback": "[TODO:it] You cannot stay away."
+      },
+      {
+        "text": "[TODO:it] Stay hidden in your chamber",
+        "feedback": "[TODO:it] Hiding will not undo it."
+      }
+    ]
+  },
+  "hide_chamber_consequence": {
+    "title": "[TODO:it] Silence Is No Shield",
+    "text": "[TODO:it] Hiding cannot undo what is done.\nGo see your people.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk among the Hebrews again",
+        "feedback": "[TODO:it] You leave the chamber."
+      }
+    ]
+  },
+  "second_day": {
+    "title": "[TODO:it] The Next Day",
+    "text": "[TODO:it] Two Hebrews quarrel and shove.\nOne strikes the other in the dust.",
+    "choices": [
+      {
+        "text": "[TODO:it] Step between and rebuke them",
+        "feedback": "[TODO:it] \"Why strike your brother?\""
+      },
+      {
+        "text": "[TODO:it] Take a side and strike one",
+        "feedback": "[TODO:it] More blood is not the answer."
+      },
+      {
+        "text": "[TODO:it] Walk past in silence",
+        "feedback": "[TODO:it] You cannot keep walking past."
+      }
+    ]
+  },
+  "take_side_consequence": {
+    "title": "[TODO:it] Not With Your Hand",
+    "text": "[TODO:it] Yesterday's blow already haunts you.\nUse words today, not fists.",
+    "choices": [
+      {
+        "text": "[TODO:it] Step between and rebuke them",
+        "feedback": "[TODO:it] You raise your voice."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:it] Brothers Wound Brothers",
+    "text": "[TODO:it] If you say nothing, who will?\nSpeak to them.",
+    "choices": [
+      {
+        "text": "[TODO:it] Step between and rebuke them",
+        "feedback": "[TODO:it] You step into the quarrel."
+      }
+    ]
+  },
+  "rebuke_them": {
+    "title": "[TODO:it] \"Why Strike Your Brother?\"",
+    "text": "[TODO:it] The man sneers, eyes narrow.\n\"Will you kill me as you killed him?\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Realize you are exposed",
+        "feedback": "[TODO:it] Surely the thing is known."
+      },
+      {
+        "text": "[TODO:it] Deny everything loudly",
+        "feedback": "[TODO:it] Denial only confirms it."
+      },
+      {
+        "text": "[TODO:it] Threaten him to stay silent",
+        "feedback": "[TODO:it] Fear breeds witnesses."
+      }
+    ]
+  },
+  "deny_consequence": {
+    "title": "[TODO:it] Lies Will Not Save You",
+    "text": "[TODO:it] His eyes already know the truth.\nYour secret has slipped away.",
+    "choices": [
+      {
+        "text": "[TODO:it] Accept that you are exposed",
+        "feedback": "[TODO:it] The thing is known."
+      }
+    ]
+  },
+  "threaten_consequence": {
+    "title": "[TODO:it] Threats Make Witnesses",
+    "text": "[TODO:it] He will tell others, afraid or angry.\nYour secret is undone.",
+    "choices": [
+      {
+        "text": "[TODO:it] Accept that you are exposed",
+        "feedback": "[TODO:it] The thing is known."
+      }
+    ]
+  },
+  "exposed": {
+    "title": "[TODO:it] The Thing Is Known",
+    "text": "[TODO:it] If a Hebrew knows, Pharaoh will know.\nGuards will come for you.",
+    "choices": [
+      {
+        "text": "[TODO:it] Prepare to flee from Egypt",
+        "feedback": "[TODO:it] Survival demands flight."
+      },
+      {
+        "text": "[TODO:it] Beg Pharaoh for mercy",
+        "feedback": "[TODO:it] Pharaoh seeks your life."
+      },
+      {
+        "text": "[TODO:it] Hide in the Hebrew quarter",
+        "feedback": "[TODO:it] They will not shelter you."
+      }
+    ]
+  },
+  "beg_pharaoh_consequence": {
+    "title": "[TODO:it] He Will Not Forgive",
+    "text": "[TODO:it] An Egyptian was killed by your hand.\nMercy will not save you. Flee.",
+    "choices": [
+      {
+        "text": "[TODO:it] Prepare to flee from Egypt",
+        "feedback": "[TODO:it] You gather your cloak."
+      }
+    ]
+  },
+  "hide_hebrews_consequence": {
+    "title": "[TODO:it] No Shelter Here",
+    "text": "[TODO:it] They fear Pharaoh more than they trust you.\nFlight is the only way.",
+    "choices": [
+      {
+        "text": "[TODO:it] Prepare to flee from Egypt",
+        "feedback": "[TODO:it] You slip out at dusk."
+      }
+    ]
+  },
+  "pharaoh_hears": {
+    "title": "[TODO:it] Pharaoh Hears",
+    "text": "[TODO:it] His voice fills the throne hall.\n\"Find Moses. Bring me his life.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Slip out the eastern gate",
+        "feedback": "[TODO:it] The desert lies beyond."
+      },
+      {
+        "text": "[TODO:it] Flee by the river boats",
+        "feedback": "[TODO:it] Boats are watched first."
+      },
+      {
+        "text": "[TODO:it] Raise the Hebrews in revolt",
+        "feedback": "[TODO:it] It is not your hour."
+      }
+    ]
+  },
+  "river_consequence": {
+    "title": "[TODO:it] The River Is Watched",
+    "text": "[TODO:it] Every boat is searched at dawn.\nThe desert is the only road.",
+    "choices": [
+      {
+        "text": "[TODO:it] Slip out the eastern gate",
+        "feedback": "[TODO:it] You turn east."
+      }
+    ]
+  },
+  "revolt_consequence": {
+    "title": "[TODO:it] Not Your Hour",
+    "text": "[TODO:it] The people are not ready.\nFlight, not war, is your road today.",
+    "choices": [
+      {
+        "text": "[TODO:it] Slip out the eastern gate",
+        "feedback": "[TODO:it] You move toward the gate."
+      }
+    ]
+  },
+  "leave_egypt": {
+    "title": "[TODO:it] Out of Egypt",
+    "text": "[TODO:it] The gate closes behind you.\nDust and silence open ahead.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk east, into the desert",
+        "feedback": "[TODO:it] Each step is freedom and exile."
+      },
+      {
+        "text": "[TODO:it] Wait near the gate till dark",
+        "feedback": "[TODO:it] Patrols will pass at dusk."
+      }
+    ]
+  },
+  "wait_gate_consequence": {
+    "title": "[TODO:it] Patrols Are Coming",
+    "text": "[TODO:it] Lingering here is your death.\nTake the desert road now.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk east, into the desert",
+        "feedback": "[TODO:it] You start walking."
+      }
+    ]
+  },
+  "desert_walk": {
+    "title": "[TODO:it] Endless Sand",
+    "text": "[TODO:it] Days pass. Sun and wind.\nYou are alone with your thoughts.",
+    "choices": [
+      {
+        "text": "[TODO:it] Press on toward Midian",
+        "feedback": "[TODO:it] You trust the road."
+      },
+      {
+        "text": "[TODO:it] Turn back. Surrender.",
+        "feedback": "[TODO:it] Death waits behind you."
+      },
+      {
+        "text": "[TODO:it] Curse God for your exile",
+        "feedback": "[TODO:it] Bitterness will not feed you."
+      }
+    ]
+  },
+  "surrender_consequence": {
+    "title": "[TODO:it] There Is No Going Back",
+    "text": "[TODO:it] Pharaoh's blade waits in Egypt.\nKeep walking east.",
+    "choices": [
+      {
+        "text": "[TODO:it] Press on toward Midian",
+        "feedback": "[TODO:it] You face forward again."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:it] Quiet Your Heart",
+    "text": "[TODO:it] Anger will not give you water.\nWalk. Trust. Breathe.",
+    "choices": [
+      {
+        "text": "[TODO:it] Press on toward Midian",
+        "feedback": "[TODO:it] You walk on in silence."
+      }
+    ]
+  },
+  "canyon_pause": {
+    "title": "[TODO:it] A Quiet Canyon",
+    "text": "[TODO:it] You rest in cool shadow.\nFar from palace and chains.",
+    "choices": [
+      {
+        "text": "[TODO:it] Pray and keep walking",
+        "feedback": "[TODO:it] Strength returns to you."
+      },
+      {
+        "text": "[TODO:it] Lie down and give up",
+        "feedback": "[TODO:it] You must rise once more."
+      }
+    ]
+  },
+  "give_up_consequence": {
+    "title": "[TODO:it] Rise, Moses",
+    "text": "[TODO:it] Sleep here is sleep forever.\nStand. Walk. Live.",
+    "choices": [
+      {
+        "text": "[TODO:it] Pray and keep walking",
+        "feedback": "[TODO:it] You rise again."
+      }
+    ]
+  },
+  "see_well": {
+    "title": "[TODO:it] A Well in the Sand",
+    "text": "[TODO:it] Palms rise above the dust.\nYou have come to the land of Midian.",
+    "choices": [
+      {
+        "text": "[TODO:it] Sit and rest by the well",
+        "feedback": "[TODO:it] A stranger in a strange land."
+      },
+      {
+        "text": "[TODO:it] Hide and watch from afar",
+        "feedback": "[TODO:it] You need water, not shadows."
+      }
+    ]
+  },
+  "hide_well_consequence": {
+    "title": "[TODO:it] You Need Water",
+    "text": "[TODO:it] Hiding will not slake your thirst.\nGo. Sit. Drink.",
+    "choices": [
+      {
+        "text": "[TODO:it] Sit and rest by the well",
+        "feedback": "[TODO:it] You step into the light."
+      }
+    ]
+  },
+  "meet_midianite": {
+    "title": "[TODO:it] A Kind Voice",
+    "text": "[TODO:it] A young woman offers you water.\n\"You are welcome here, stranger.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Receive the water with thanks",
+        "feedback": "[TODO:it] A new life begins."
+      },
+      {
+        "text": "[TODO:it] Refuse and walk on alone",
+        "feedback": "[TODO:it] Pride is not your friend now."
+      },
+      {
+        "text": "[TODO:it] Lie about who you are",
+        "feedback": "[TODO:it] Begin in truth, not lies."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:it] Receive the Gift",
+    "text": "[TODO:it] Kindness is given to be received.\nDrink and stay.",
+    "choices": [
+      {
+        "text": "[TODO:it] Receive the water with thanks",
+        "feedback": "[TODO:it] You drink deeply."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:it] Begin in Truth",
+    "text": "[TODO:it] A new life cannot rest on lies.\nReceive the water in honesty.",
+    "choices": [
+      {
+        "text": "[TODO:it] Receive the water with thanks",
+        "feedback": "[TODO:it] You speak plainly."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:it] A Stranger in Midian",
+    "text": "[TODO:it] Egypt is behind you. The wilderness holds you.\nGod is not yet done with Moses.",
+    "choices": []
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "start": {
+    "title": "The Walls of Jericho",
+    "text": "The city stands shut and silent.\nIts walls swallow the horizon.",
+    "choices": [
+      {
+        "text": "Charge the gates with full force",
+        "feedback": "These walls will not yield to swords."
+      },
+      {
+        "text": "Lay siege and starve them out",
+        "feedback": "The Lord has another way."
+      },
+      {
+        "text": "Wait for the Lord's instruction",
+        "feedback": "You bow before His silence."
+      }
+    ]
+  },
+  "charge_consequence": {
+    "title": "Not by Might",
+    "text": "These stones laugh at sword and spear.\nSeek His word first.",
+    "choices": [
+      {
+        "text": "Wait for the Lord's instruction",
+        "feedback": "You lower your blade."
+      }
+    ]
+  },
+  "siege_consequence": {
+    "title": "His Plan, Not Yours",
+    "text": "Hunger is no weapon of faith.\nKneel and ask Him.",
+    "choices": [
+      {
+        "text": "Wait for the Lord's instruction",
+        "feedback": "You step away from the war camp."
+      }
+    ]
+  },
+  "divine_word": {
+    "title": "\"I Have Given It Into Your Hand\"",
+    "text": "March around the city six days.\nOn the seventh, march seven times.",
+    "choices": [
+      {
+        "text": "Argue this is foolish strategy",
+        "feedback": "His ways are not your ways."
+      },
+      {
+        "text": "Receive the strange command",
+        "feedback": "You bow your face to the earth."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Faith, Not Reason",
+    "text": "His command may seem strange.\nObedience is your part.",
+    "choices": [
+      {
+        "text": "Receive the strange command",
+        "feedback": "Your heart settles in trust."
+      }
+    ]
+  },
+  "instruct_priests": {
+    "title": "Take Up the Trumpets",
+    "text": "Seven priests, seven horns of ram.\nThe ark goes before the people.",
+    "choices": [
+      {
+        "text": "Hide the ark behind the warriors",
+        "feedback": "His presence must lead, not follow."
+      },
+      {
+        "text": "Send priests in the rear for safety",
+        "feedback": "Faith walks in front, not behind."
+      },
+      {
+        "text": "Place the priests at the front",
+        "feedback": "The horns rise toward the sky."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Let Him Lead",
+    "text": "His presence is your only banner.\nLift it high before all eyes.",
+    "choices": [
+      {
+        "text": "Place the priests at the front",
+        "feedback": "The procession forms behind the ark."
+      }
+    ]
+  },
+  "rear_consequence": {
+    "title": "Faith Walks First",
+    "text": "If He goes before, who can stand?\nLet the trumpets lead.",
+    "choices": [
+      {
+        "text": "Place the priests at the front",
+        "feedback": "The horns lift in trembling hands."
+      }
+    ]
+  },
+  "first_march": {
+    "title": "The First Circle",
+    "text": "Only trumpets break the silence.\nJericho mocks from the walls.",
+    "choices": [
+      {
+        "text": "Shout back at their mockery",
+        "feedback": "Not yet. Hold your voice."
+      },
+      {
+        "text": "Walk in disciplined silence",
+        "feedback": "Dust rises beneath quiet feet."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Wait for His Signal",
+    "text": "Your voice must wait six more days.\nLet the horns alone speak.",
+    "choices": [
+      {
+        "text": "Walk in disciplined silence",
+        "feedback": "You close your lips and march."
+      }
+    ]
+  },
+  "sixth_day": {
+    "title": "Six Days Have Passed",
+    "text": "The people grow weary, doubting.\nTomorrow is the seventh.",
+    "choices": [
+      {
+        "text": "Quit, the plan has failed",
+        "feedback": "His promise stands. Hold the line."
+      },
+      {
+        "text": "Encourage them to trust one more day",
+        "feedback": "You speak peace through the camp."
+      }
+    ]
+  },
+  "quit_consequence": {
+    "title": "His Word Does Not Fail",
+    "text": "Six days obeyed are not wasted.\nFinish what He began.",
+    "choices": [
+      {
+        "text": "Encourage them to trust one more day",
+        "feedback": "Hope returns to weary faces."
+      }
+    ]
+  },
+  "seventh_day": {
+    "title": "Seven Times Around",
+    "text": "The horns blow. The dust rises.\nThe seventh circle is complete.",
+    "choices": [
+      {
+        "text": "Wait still longer in silence",
+        "feedback": "The moment He named has come."
+      },
+      {
+        "text": "Command Israel to shout!",
+        "feedback": "Your voice splits the silence open."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "Now Is the Hour",
+    "text": "He has set this very moment.\nLift your voice without fear.",
+    "choices": [
+      {
+        "text": "Command Israel to shout!",
+        "feedback": "The cry rises from every throat."
+      }
+    ]
+  },
+  "walls_fall": {
+    "title": "The Walls Tremble",
+    "text": "Stones crack. Towers lean.\nJericho falls into its own dust.",
+    "choices": [
+      {
+        "text": "Boast in your military genius",
+        "feedback": "Not your hand. His."
+      },
+      {
+        "text": "Give all glory to the Lord",
+        "feedback": "You kneel where the walls once stood."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "His Victory, Not Yours",
+    "text": "No sword struck these walls.\nLift your eyes, not your name.",
+    "choices": [
+      {
+        "text": "Give all glory to the Lord",
+        "feedback": "You bow your head in the dust."
+      }
+    ]
+  },
+  "ending_obedient": {
+    "title": "Into the City",
+    "text": "The Lord has given Jericho.\nFaith walked where strength could not.",
+    "choices": []
+  }
+}

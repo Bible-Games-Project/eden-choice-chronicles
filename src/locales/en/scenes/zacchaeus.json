@@ -1,0 +1,217 @@
+{
+  "start": {
+    "title": "Jesus Passes By",
+    "text": "Jesus walks the road to Jericho.\nThe whole town comes to see.",
+    "choices": [
+      {
+        "text": "Stay safe in your tax booth",
+        "feedback": "He may pass and never return."
+      },
+      {
+        "text": "Hurry out to find him",
+        "feedback": "Your heart pulls you forward."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Do Not Hide",
+    "text": "This moment will not come again.\nGo and see.",
+    "choices": [
+      {
+        "text": "Hurry out to find him",
+        "feedback": "You step into the street."
+      }
+    ]
+  },
+  "crowd": {
+    "title": "Too Short to See",
+    "text": "The crowd is tall and tight.\nYou cannot see him at all.",
+    "choices": [
+      {
+        "text": "Push roughly to the front",
+        "feedback": "Force will not open the way."
+      },
+      {
+        "text": "Give up and walk away",
+        "feedback": "Do not turn back so soon."
+      },
+      {
+        "text": "Look for another way to see",
+        "feedback": "Hope finds new paths."
+      }
+    ]
+  },
+  "push_consequence": {
+    "title": "Not by Force",
+    "text": "The crowd will not part for you.\nFind another way.",
+    "choices": [
+      {
+        "text": "Look for another way to see",
+        "feedback": "You step back and think."
+      }
+    ]
+  },
+  "quit_consequence": {
+    "title": "Do Not Give Up",
+    "text": "He is close. Just a little courage.\nKeep going.",
+    "choices": [
+      {
+        "text": "Look for another way to see",
+        "feedback": "You lift your eyes."
+      }
+    ]
+  },
+  "tree": {
+    "title": "The Sycamore",
+    "text": "An old sycamore leans over the road.\nIts branches reach low.",
+    "choices": [
+      {
+        "text": "Worry what others might think",
+        "feedback": "Let dignity wait for grace."
+      },
+      {
+        "text": "Climb up to see him",
+        "feedback": "You climb with joy."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "Climb Anyway",
+    "text": "Pride keeps you from seeing him.\nLet it go.",
+    "choices": [
+      {
+        "text": "Climb up to see him",
+        "feedback": "You set pride aside."
+      }
+    ]
+  },
+  "seen": {
+    "title": "He Looks Up",
+    "text": "Jesus stops and looks straight at you.\n\"Zacchaeus, come down.\"",
+    "choices": [
+      {
+        "text": "Hide higher in the branches",
+        "feedback": "He has already seen you."
+      },
+      {
+        "text": "Climb down at once with joy",
+        "feedback": "Joy floods your chest."
+      }
+    ]
+  },
+  "hide_tree_consequence": {
+    "title": "Come Down",
+    "text": "He is calling you by name.\nDo not be afraid.",
+    "choices": [
+      {
+        "text": "Climb down at once with joy",
+        "feedback": "You drop to the ground."
+      }
+    ]
+  },
+  "invite": {
+    "title": "I Must Stay With You",
+    "text": "\"Today I must stay at your house.\"\nThe words shake your heart.",
+    "choices": [
+      {
+        "text": "Refuse, ashamed of your home",
+        "feedback": "He chooses your house gladly."
+      },
+      {
+        "text": "Welcome him with full joy",
+        "feedback": "Light fills your face."
+      },
+      {
+        "text": "Bargain for a different day",
+        "feedback": "Today is the day of grace."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Welcome Him",
+    "text": "He is not ashamed of you.\nOpen your door.",
+    "choices": [
+      {
+        "text": "Welcome him with full joy",
+        "feedback": "You smile at last."
+      }
+    ]
+  },
+  "bargain_consequence": {
+    "title": "Today",
+    "text": "Grace comes today, not tomorrow.\nReceive him now.",
+    "choices": [
+      {
+        "text": "Welcome him with full joy",
+        "feedback": "Now feels right."
+      }
+    ]
+  },
+  "grumble": {
+    "title": "A Sinner's House",
+    "text": "The crowd mutters in disbelief.\n\"He goes in to a sinner's house.\"",
+    "choices": [
+      {
+        "text": "Hide from their angry stares",
+        "feedback": "Their voices cannot define you now."
+      },
+      {
+        "text": "Stand and let mercy speak",
+        "feedback": "You stand in the light."
+      }
+    ]
+  },
+  "stare_consequence": {
+    "title": "Stand Tall",
+    "text": "Their judgment is not the last word.\nGrace is.",
+    "choices": [
+      {
+        "text": "Stand and let mercy speak",
+        "feedback": "You lift your head."
+      }
+    ]
+  },
+  "repent": {
+    "title": "I Will Make It Right",
+    "text": "Something new rises in you.\nWealth no longer holds your heart.",
+    "choices": [
+      {
+        "text": "Keep your gold and stay quiet",
+        "feedback": "A changed heart cannot stay silent."
+      },
+      {
+        "text": "Give half to the poor today",
+        "feedback": "Freedom rushes through you."
+      },
+      {
+        "text": "Promise nothing, just feast",
+        "feedback": "True welcome bears fruit."
+      }
+    ]
+  },
+  "keep_consequence": {
+    "title": "Let It Go",
+    "text": "Closed hands cannot hold grace.\nOpen them.",
+    "choices": [
+      {
+        "text": "Give half to the poor today",
+        "feedback": "You let it all go."
+      }
+    ]
+  },
+  "feast_consequence": {
+    "title": "Bear Fruit",
+    "text": "Real change shows in your hands.\nGive freely.",
+    "choices": [
+      {
+        "text": "Give half to the poor today",
+        "feedback": "You make it right."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Salvation Has Come",
+    "text": "\"Today salvation has come to this house.\"\nYou are seen, you are restored.",
+    "choices": []
+  }
+}

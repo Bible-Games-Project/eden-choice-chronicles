@@ -1,0 +1,349 @@
+{
+  "start": {
+    "title": "[TODO:ar] The Garden Gate",
+    "text": "[TODO:ar] Olive trees breathe in the moonlight.\nThe hour you knew was coming has come.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Turn back from the garden",
+        "feedback": "[TODO:ar] The Father waits inside."
+      },
+      {
+        "text": "[TODO:ar] Enter quietly with the eleven",
+        "feedback": "[TODO:ar] You step beneath the boughs."
+      },
+      {
+        "text": "[TODO:ar] Send them all back to the city",
+        "feedback": "[TODO:ar] Take at least the three with you."
+      }
+    ]
+  },
+  "back_consequence": {
+    "title": "[TODO:ar] Not Away",
+    "text": "[TODO:ar] This cup will not pass by retreat.\nWalk into the garden, not away.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Enter quietly with the eleven",
+        "feedback": "[TODO:ar] You set your face toward prayer."
+      }
+    ]
+  },
+  "send_consequence": {
+    "title": "[TODO:ar] Keep the Three",
+    "text": "[TODO:ar] Peter, James, and John must witness.\nThis night will shape their hearts.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Enter quietly with the eleven",
+        "feedback": "[TODO:ar] You beckon them forward."
+      }
+    ]
+  },
+  "inner_circle": {
+    "title": "[TODO:ar] Stay and Watch",
+    "text": "[TODO:ar] Peter, James, John look up at you.\n\"My soul is sorrowful unto death.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hide your sorrow from them",
+        "feedback": "[TODO:ar] Let them see the weight you bear."
+      },
+      {
+        "text": "[TODO:ar] \"Stay here. Watch and pray.\"",
+        "feedback": "[TODO:ar] They nod, eyes wide and afraid."
+      },
+      {
+        "text": "[TODO:ar] Demand they fight off any threat",
+        "feedback": "[TODO:ar] Prayer, not swords, tonight."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ar] Let Them See",
+    "text": "[TODO:ar] Your honesty becomes their training.\nLove does not hide its tears.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Stay here. Watch and pray.\"",
+        "feedback": "[TODO:ar] They sit beneath an olive tree."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ar] Not by Force",
+    "text": "[TODO:ar] The Father's will is not won by swords.\nThis hour calls for prayer.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Stay here. Watch and pray.\"",
+        "feedback": "[TODO:ar] You lower your voice gently."
+      }
+    ]
+  },
+  "stone_alone": {
+    "title": "[TODO:ar] A Stone's Throw",
+    "text": "[TODO:ar] A pale moon-lit rock waits ahead.\nYou step away from your friends.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Stand and shout at the sky",
+        "feedback": "[TODO:ar] Kneel. Speak as a son."
+      },
+      {
+        "text": "[TODO:ar] Fall to your knees in prayer",
+        "feedback": "[TODO:ar] Your knees press the cold earth."
+      },
+      {
+        "text": "[TODO:ar] Demand the Father change His plan",
+        "feedback": "[TODO:ar] Ask, do not demand."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:ar] As a Son",
+    "text": "[TODO:ar] Heaven hears the quiet word too.\nKneel as the beloved Son.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Fall to your knees in prayer",
+        "feedback": "[TODO:ar] You bow low to the ground."
+      }
+    ]
+  },
+  "demand_father_consequence": {
+    "title": "[TODO:ar] Ask, Don't Demand",
+    "text": "[TODO:ar] Trust does not force the Father's hand.\nIt opens its own.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Fall to your knees in prayer",
+        "feedback": "[TODO:ar] You sink down in surrender."
+      }
+    ]
+  },
+  "anguish": {
+    "title": "[TODO:ar] The Cup Before You",
+    "text": "[TODO:ar] Your breath shakes. A tear falls.\nThe cup of suffering is so heavy.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Refuse the cup outright",
+        "feedback": "[TODO:ar] Speak truth, then surrender."
+      },
+      {
+        "text": "[TODO:ar] Pretend the fear is not real",
+        "feedback": "[TODO:ar] Honesty opens the way to peace."
+      },
+      {
+        "text": "[TODO:ar] \"Father, if possible, take this cup\"",
+        "feedback": "[TODO:ar] Your words rise into the night."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:ar] Speak, Then Yield",
+    "text": "[TODO:ar] Name the fear. Then offer it.\nNot refusal, but trust.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Father, if possible, take this cup\"",
+        "feedback": "[TODO:ar] Your voice breaks softly."
+      }
+    ]
+  },
+  "pretend_consequence": {
+    "title": "[TODO:ar] Be Honest",
+    "text": "[TODO:ar] The Father knows your every fear.\nBring it openly to Him.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Father, if possible, take this cup\"",
+        "feedback": "[TODO:ar] The words come from deep within."
+      }
+    ]
+  },
+  "submission": {
+    "title": "[TODO:ar] Your Will Be Done",
+    "text": "[TODO:ar] Silence answers from heaven.\nWhat shall you say next?",
+    "choices": [
+      {
+        "text": "[TODO:ar] Curse the silence above",
+        "feedback": "[TODO:ar] Even silence is the Father near."
+      },
+      {
+        "text": "[TODO:ar] \"Yet not my will, but yours\"",
+        "feedback": "[TODO:ar] A deep peace settles in your bones."
+      },
+      {
+        "text": "[TODO:ar] Stand and walk away from prayer",
+        "feedback": "[TODO:ar] Stay until the surrender is full."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ar] The Father Is Near",
+    "text": "[TODO:ar] He does not abandon the obedient.\nSpeak the harder, truer word.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Yet not my will, but yours\"",
+        "feedback": "[TODO:ar] Peace returns like a quiet tide."
+      }
+    ]
+  },
+  "walk_away_consequence": {
+    "title": "[TODO:ar] Stay in Surrender",
+    "text": "[TODO:ar] The hour requires more than presence.\nIt asks for yes.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Yet not my will, but yours\"",
+        "feedback": "[TODO:ar] The words become a covenant."
+      }
+    ]
+  },
+  "find_sleeping_1": {
+    "title": "[TODO:ar] Could You Not Watch?",
+    "text": "[TODO:ar] You return. Peter, James, John sleep.\nTheir lamps lie low beside them.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Shake them awake in anger",
+        "feedback": "[TODO:ar] Compassion, not anger, here."
+      },
+      {
+        "text": "[TODO:ar] Wake them and call them to pray",
+        "feedback": "[TODO:ar] \"The spirit is willing, the flesh weak.\""
+      },
+      {
+        "text": "[TODO:ar] Leave them and never come back",
+        "feedback": "[TODO:ar] You must return to the Father."
+      }
+    ]
+  },
+  "anger_consequence": {
+    "title": "[TODO:ar] Compassion First",
+    "text": "[TODO:ar] Their weakness is not your enemy.\nMeet it with gentleness.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Wake them and call them to pray",
+        "feedback": "[TODO:ar] Peter opens heavy eyes."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "[TODO:ar] Return to the Father",
+    "text": "[TODO:ar] Surrender is not finished yet.\nGo back, and pray again.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Wake them and call them to pray",
+        "feedback": "[TODO:ar] You speak softly to each one."
+      }
+    ]
+  },
+  "pray_again": {
+    "title": "[TODO:ar] A Second Time",
+    "text": "[TODO:ar] You walk back to the stone alone.\nWhat will you offer the Father now?",
+    "choices": [
+      {
+        "text": "[TODO:ar] Beg only for an easier path",
+        "feedback": "[TODO:ar] Trust, not bargain."
+      },
+      {
+        "text": "[TODO:ar] \"Your will be done, Father\"",
+        "feedback": "[TODO:ar] The same yes, deeper this time."
+      },
+      {
+        "text": "[TODO:ar] Stand silent and refuse to pray",
+        "feedback": "[TODO:ar] Prayer is the strength of this hour."
+      }
+    ]
+  },
+  "easier_consequence": {
+    "title": "[TODO:ar] Trust the Plan",
+    "text": "[TODO:ar] The Father's path leads through, not around.\nWalk the road of yes.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Your will be done, Father\"",
+        "feedback": "[TODO:ar] Strength rises from the surrender."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:ar] Pray Through It",
+    "text": "[TODO:ar] The hour gains power through prayer.\nDo not face it mute.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Your will be done, Father\"",
+        "feedback": "[TODO:ar] Heaven steadies your heart."
+      }
+    ]
+  },
+  "find_sleeping_2": {
+    "title": "[TODO:ar] Asleep Again",
+    "text": "[TODO:ar] They could not keep their eyes open.\nTheir heads rest against each other.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Mock them for their weakness",
+        "feedback": "[TODO:ar] Their hearts are with you still."
+      },
+      {
+        "text": "[TODO:ar] Let them rest, return to pray",
+        "feedback": "[TODO:ar] You walk back without a word."
+      },
+      {
+        "text": "[TODO:ar] Wake them and flee the garden",
+        "feedback": "[TODO:ar] The hour is not for fleeing."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ar] They Are With You",
+    "text": "[TODO:ar] Their bodies fail; their love does not.\nLet mercy cover their sleep.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Let them rest, return to pray",
+        "feedback": "[TODO:ar] You touch a shoulder gently."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:ar] Stand Your Ground",
+    "text": "[TODO:ar] Obedience does not run tonight.\nIt rises and walks forward.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Let them rest, return to pray",
+        "feedback": "[TODO:ar] You move quietly back to the rock."
+      }
+    ]
+  },
+  "final_resolve": {
+    "title": "[TODO:ar] The Hour Has Come",
+    "text": "[TODO:ar] Dawn light bleeds across the hills.\nFootsteps echo on the far path.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hide among the olive trees",
+        "feedback": "[TODO:ar] Rise. The hour will not be hidden from."
+      },
+      {
+        "text": "[TODO:ar] Rise and wake the disciples",
+        "feedback": "[TODO:ar] \"Rise. Let us go.\""
+      },
+      {
+        "text": "[TODO:ar] Pray a fourth time in panic",
+        "feedback": "[TODO:ar] The surrender is complete now."
+      }
+    ]
+  },
+  "hide_trees_consequence": {
+    "title": "[TODO:ar] Not Hidden",
+    "text": "[TODO:ar] The Father's will is to be met.\nWalk into the morning openly.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Rise and wake the disciples",
+        "feedback": "[TODO:ar] You stand to your full height."
+      }
+    ]
+  },
+  "fourth_consequence": {
+    "title": "[TODO:ar] It Is Finished Here",
+    "text": "[TODO:ar] The cup is taken in your hands.\nGo now to drink it for love.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Rise and wake the disciples",
+        "feedback": "[TODO:ar] Your peace is unshaken."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ar] Rise, Let Us Go",
+    "text": "[TODO:ar] Your three friends stand beside you.\nDawn breaks. The path leads onward.",
+    "choices": []
+  }
+}

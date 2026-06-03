@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "[TODO:it] The First Light",
+    "text": "[TODO:it] Spices in hand, you walk before sunrise.\nWho will roll the great stone away?",
+    "choices": [
+      {
+        "text": "[TODO:it] Turn back. It is too heavy",
+        "feedback": "[TODO:it] Hope must keep walking."
+      },
+      {
+        "text": "[TODO:it] Walk on in quiet faith",
+        "feedback": "[TODO:it] Your footsteps press through dew."
+      },
+      {
+        "text": "[TODO:it] Wait until the disciples wake",
+        "feedback": "[TODO:it] Love does not wait at dawn."
+      }
+    ]
+  },
+  "turn_consequence": {
+    "title": "[TODO:it] Do Not Turn",
+    "text": "[TODO:it] Grief calls you to honor His body.\nThe path is shorter than the fear.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk on in quiet faith",
+        "feedback": "[TODO:it] Your feet find the path again."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:it] Go Now",
+    "text": "[TODO:it] Some hopes cannot wait for morning.\nThe spices are in your hands.",
+    "choices": [
+      {
+        "text": "[TODO:it] Walk on in quiet faith",
+        "feedback": "[TODO:it] You press on toward the tomb."
+      }
+    ]
+  },
+  "stone": {
+    "title": "[TODO:it] The Stone Is Moved",
+    "text": "[TODO:it] The great stone lies rolled aside.\nThe tomb gapes open in the dawn.",
+    "choices": [
+      {
+        "text": "[TODO:it] Run away in fear",
+        "feedback": "[TODO:it] Fear cannot guard a miracle."
+      },
+      {
+        "text": "[TODO:it] Accuse soldiers of theft",
+        "feedback": "[TODO:it] No human hand did this."
+      },
+      {
+        "text": "[TODO:it] Step closer and look inside",
+        "feedback": "[TODO:it] Trembling, you draw near."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:it] Do Not Flee Yet",
+    "text": "[TODO:it] Truth waits inside the open door.\nGo near. See what God has done.",
+    "choices": [
+      {
+        "text": "[TODO:it] Step closer and look inside",
+        "feedback": "[TODO:it] You move toward the threshold."
+      }
+    ]
+  },
+  "accuse_consequence": {
+    "title": "[TODO:it] Not Theft",
+    "text": "[TODO:it] No grave robber leaves linen folded.\nThis is something far greater.",
+    "choices": [
+      {
+        "text": "[TODO:it] Step closer and look inside",
+        "feedback": "[TODO:it] You step softly into the light."
+      }
+    ]
+  },
+  "enter": {
+    "title": "[TODO:it] Linen Cloths Lying",
+    "text": "[TODO:it] The slab is bare. Folded cloths remain.\nHis body is not here.",
+    "choices": [
+      {
+        "text": "[TODO:it] Weep without lifting your eyes",
+        "feedback": "[TODO:it] Lift your eyes. Heaven is speaking."
+      },
+      {
+        "text": "[TODO:it] Look around in quiet wonder",
+        "feedback": "[TODO:it] A light begins to fill the cave."
+      },
+      {
+        "text": "[TODO:it] Touch the folded cloths in anger",
+        "feedback": "[TODO:it] Anger blinds the eye to glory."
+      }
+    ]
+  },
+  "weep_consequence": {
+    "title": "[TODO:it] Lift Your Eyes",
+    "text": "[TODO:it] Tears are right, but look up now.\nYou are not alone in this place.",
+    "choices": [
+      {
+        "text": "[TODO:it] Look around in quiet wonder",
+        "feedback": "[TODO:it] Light pours across the stone."
+      }
+    ]
+  },
+  "anger_consequence": {
+    "title": "[TODO:it] Not Anger",
+    "text": "[TODO:it] Linen folded with care is no theft.\nLook up. See who waits with you.",
+    "choices": [
+      {
+        "text": "[TODO:it] Look around in quiet wonder",
+        "feedback": "[TODO:it] Your hands fall open in awe."
+      }
+    ]
+  },
+  "angels": {
+    "title": "[TODO:it] Two Shining Ones",
+    "text": "[TODO:it] Two figures in white ask softly,\n\"Why seek the living among the dead?\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Argue: \"They have taken Him.\"",
+        "feedback": "[TODO:it] Listen first. Hope is speaking."
+      },
+      {
+        "text": "[TODO:it] Demand the body be returned",
+        "feedback": "[TODO:it] He is not lost. He is risen."
+      },
+      {
+        "text": "[TODO:it] Bow and listen in silence",
+        "feedback": "[TODO:it] Their words fall like gentle rain."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:it] Be Still and Hear",
+    "text": "[TODO:it] Your grief is heard, but listen now.\nThis is a message you must carry.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bow and listen in silence",
+        "feedback": "[TODO:it] You bow your head in reverence."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:it] He Is Not Held",
+    "text": "[TODO:it] No tomb can keep what God has raised.\nBe still and hear the truth.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bow and listen in silence",
+        "feedback": "[TODO:it] Stillness opens your heart."
+      }
+    ]
+  },
+  "message": {
+    "title": "[TODO:it] He Is Risen",
+    "text": "[TODO:it] \"He is not here. He is risen,\nas He told you in Galilee.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Doubt: this cannot be true",
+        "feedback": "[TODO:it] Remember what He promised."
+      },
+      {
+        "text": "[TODO:it] Remember His own words",
+        "feedback": "[TODO:it] His voice rises in your heart."
+      },
+      {
+        "text": "[TODO:it] Boast that you knew all along",
+        "feedback": "[TODO:it] Humility carries this news."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:it] Trust His Word",
+    "text": "[TODO:it] He said on the third day He would rise.\nLet His promise meet your heart.",
+    "choices": [
+      {
+        "text": "[TODO:it] Remember His own words",
+        "feedback": "[TODO:it] Memory becomes light within you."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:it] Not Pride",
+    "text": "[TODO:it] This news is not yours to wear.\nIt is yours to carry, gently.",
+    "choices": [
+      {
+        "text": "[TODO:it] Remember His own words",
+        "feedback": "[TODO:it] You lower your head in awe."
+      }
+    ]
+  },
+  "remember": {
+    "title": "[TODO:it] Run with the News",
+    "text": "[TODO:it] The other women wait, pale with fear.\nWhat will you do with this hope?",
+    "choices": [
+      {
+        "text": "[TODO:it] Keep silent. Stay safe",
+        "feedback": "[TODO:it] Hope must be spoken aloud."
+      },
+      {
+        "text": "[TODO:it] Tell them. Go to the disciples",
+        "feedback": "[TODO:it] You take their hands and run."
+      },
+      {
+        "text": "[TODO:it] Test them first with riddles",
+        "feedback": "[TODO:it] Good news has no riddles."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:it] Speak It Out",
+    "text": "[TODO:it] A locked heart cannot carry light.\nLet the joy run from your lips.",
+    "choices": [
+      {
+        "text": "[TODO:it] Tell them. Go to the disciples",
+        "feedback": "[TODO:it] Your voice trembles with joy."
+      }
+    ]
+  },
+  "test_consequence": {
+    "title": "[TODO:it] Plain Words",
+    "text": "[TODO:it] Tell them clearly. The tomb is empty.\nHe is risen, as He said.",
+    "choices": [
+      {
+        "text": "[TODO:it] Tell them. Go to the disciples",
+        "feedback": "[TODO:it] Plain truth opens every ear."
+      }
+    ]
+  },
+  "disciples": {
+    "title": "[TODO:it] Peter and John",
+    "text": "[TODO:it] Peter stares. John leans in.\n\"The Lord is risen,\" you say.",
+    "choices": [
+      {
+        "text": "[TODO:it] Blame them for hiding away",
+        "feedback": "[TODO:it] Blame poisons holy news."
+      },
+      {
+        "text": "[TODO:it] Speak with steady, hopeful joy",
+        "feedback": "[TODO:it] Peter rises and begins to run."
+      },
+      {
+        "text": "[TODO:it] Beg them to come prove it",
+        "feedback": "[TODO:it] They already believe enough to run."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:it] Not Blame, Joy",
+    "text": "[TODO:it] Their hiding will turn to running soon.\nGive them only the good news.",
+    "choices": [
+      {
+        "text": "[TODO:it] Speak with steady, hopeful joy",
+        "feedback": "[TODO:it] John's eyes fill with light."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:it] Steady, Not Begging",
+    "text": "[TODO:it] Truth needs no pleading to be true.\nStand and tell them plainly.",
+    "choices": [
+      {
+        "text": "[TODO:it] Speak with steady, hopeful joy",
+        "feedback": "[TODO:it] They rise and follow you."
+      }
+    ]
+  },
+  "sunrise": {
+    "title": "[TODO:it] The Promise Fulfilled",
+    "text": "[TODO:it] The sun crests the hills. Death is undone.\nWhat fills your heart now?",
+    "choices": [
+      {
+        "text": "[TODO:it] Fear of what comes next",
+        "feedback": "[TODO:it] Hope, not fear, has the last word."
+      },
+      {
+        "text": "[TODO:it] Awe and quiet, rising joy",
+        "feedback": "[TODO:it] You lift your face into the light."
+      },
+      {
+        "text": "[TODO:it] Pride that you were first",
+        "feedback": "[TODO:it] Joy belongs to everyone now."
+      }
+    ]
+  },
+  "fear_end_consequence": {
+    "title": "[TODO:it] Hope Wins",
+    "text": "[TODO:it] Death itself has been undone today.\nNo fear can outlast that light.",
+    "choices": [
+      {
+        "text": "[TODO:it] Awe and quiet, rising joy",
+        "feedback": "[TODO:it] Peace settles over your heart."
+      }
+    ]
+  },
+  "pride_end_consequence": {
+    "title": "[TODO:it] Joy for All",
+    "text": "[TODO:it] This morning is not a prize won.\nIt is a gift to share with everyone.",
+    "choices": [
+      {
+        "text": "[TODO:it] Awe and quiet, rising joy",
+        "feedback": "[TODO:it] You open your hands to the sky."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:it] He Is Risen Indeed",
+    "text": "[TODO:it] The grave is empty. The promise stands.\nDeath has lost. Hope has won.",
+    "choices": []
+  }
+}

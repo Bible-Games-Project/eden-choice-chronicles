@@ -1,0 +1,197 @@
+{
+  "start": {
+    "title": "A Boy in the Tabernacle",
+    "text": "The lamps must be tended before night.\nEli rests in the next chamber.",
+    "choices": [
+      {
+        "text": "Sneak away from the duties",
+        "feedback": "Service is your gift to give."
+      },
+      {
+        "text": "Tend the lamp with care",
+        "feedback": "The flame steadies in your hand."
+      },
+      {
+        "text": "Demand a higher task",
+        "feedback": "Quiet duty is sacred too."
+      }
+    ]
+  },
+  "sneak_consequence": {
+    "title": "Return to Your Post",
+    "text": "The sanctuary needs a faithful hand.\nGo back and tend the lamp.",
+    "choices": [
+      {
+        "text": "Tend the lamp with care",
+        "feedback": "You bow your head and serve."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Greatness in Smallness",
+    "text": "Even small duties shape a prophet.\nDo what is set before you.",
+    "choices": [
+      {
+        "text": "Tend the lamp with care",
+        "feedback": "Light glows on your face."
+      }
+    ]
+  },
+  "night_falls": {
+    "title": "A Voice in the Dark",
+    "text": "You lie down. Then a voice: \"Samuel.\"\nIt must be Eli calling you.",
+    "choices": [
+      {
+        "text": "Run to Eli to answer him",
+        "feedback": "You hurry through the dim hall."
+      },
+      {
+        "text": "Pretend you did not hear",
+        "feedback": "A call answered is a heart awake."
+      },
+      {
+        "text": "Shout back from your mat",
+        "feedback": "Honor the elder with your steps."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "Do Not Hide",
+    "text": "A voice that calls deserves an answer.\nRise and go to Eli.",
+    "choices": [
+      {
+        "text": "Run to Eli to answer him",
+        "feedback": "You step into the corridor."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Honor the Elder",
+    "text": "Do not shout in the holy house.\nGo to him on quiet feet.",
+    "choices": [
+      {
+        "text": "Run to Eli to answer him",
+        "feedback": "You walk softly to his door."
+      }
+    ]
+  },
+  "second_call": {
+    "title": "Eli Did Not Call",
+    "text": "\"I did not call you, my son.\"\nYou return. The voice comes again.",
+    "choices": [
+      {
+        "text": "Doubt your own ears and sleep",
+        "feedback": "A whisper this clear is real."
+      },
+      {
+        "text": "Curse the voice as a trick",
+        "feedback": "Do not slander what you don't know."
+      },
+      {
+        "text": "Go to Eli once more",
+        "feedback": "Faithful steps in the dark."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "Trust What You Heard",
+    "text": "The voice was not a dream.\nGo to Eli and tell him again.",
+    "choices": [
+      {
+        "text": "Go to Eli once more",
+        "feedback": "You rise once more."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Guard Your Tongue",
+    "text": "You do not yet know the speaker.\nGo seek Eli's wisdom.",
+    "choices": [
+      {
+        "text": "Go to Eli once more",
+        "feedback": "You bow your head and go."
+      }
+    ]
+  },
+  "third_call": {
+    "title": "Eli Understands",
+    "text": "Eli's old eyes soften with knowing.\n\"It is the Lord who calls you.\"",
+    "choices": [
+      {
+        "text": "Refuse to listen any further",
+        "feedback": "Do not flee the voice of God."
+      },
+      {
+        "text": "Go back and wait to listen",
+        "feedback": "Eli's hand rests on your shoulder."
+      },
+      {
+        "text": "Boast of being chosen",
+        "feedback": "Holy ground asks for silence."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Do Not Run",
+    "text": "The Lord chose this quiet hour.\nGo back and listen.",
+    "choices": [
+      {
+        "text": "Go back and wait to listen",
+        "feedback": "You return to the dark room."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "A Listening Heart",
+    "text": "Pride dulls the ear of the soul.\nGo and listen in silence.",
+    "choices": [
+      {
+        "text": "Go back and wait to listen",
+        "feedback": "You bow your head low."
+      }
+    ]
+  },
+  "respond_god": {
+    "title": "The Voice Returns",
+    "text": "\"Samuel, Samuel.\"\nYour heart trembles in the stillness.",
+    "choices": [
+      {
+        "text": "Hide your face in fear",
+        "feedback": "Answer Him as Eli taught."
+      },
+      {
+        "text": "Ask for a sign first",
+        "feedback": "Trust the voice that calls you."
+      },
+      {
+        "text": "\"Speak, Lord. I am listening.\"",
+        "feedback": "The room fills with quiet light."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Lift Your Head",
+    "text": "He calls you by your name.\nAnswer Him with open heart.",
+    "choices": [
+      {
+        "text": "\"Speak, Lord. I am listening.\"",
+        "feedback": "Your voice steadies as you speak."
+      }
+    ]
+  },
+  "sign_consequence": {
+    "title": "Faith Before Sight",
+    "text": "His call is the sign itself.\nSpeak the words Eli gave you.",
+    "choices": [
+      {
+        "text": "\"Speak, Lord. I am listening.\"",
+        "feedback": "You whisper into the dark."
+      }
+    ]
+  },
+  "prophet_calling": {
+    "title": "A Prophet to Israel",
+    "text": "Dawn finds you a chosen voice.\nAll Israel will know the Lord speaks.",
+    "choices": []
+  }
+}

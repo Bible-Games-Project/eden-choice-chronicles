@@ -1,0 +1,493 @@
+{
+  "start": {
+    "title": "[TODO:ko] The Road Back",
+    "text": "[TODO:ko] Egypt rises beyond the dust.\nThe land of your fear, and your call.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Hide your face and turn back",
+        "feedback": "[TODO:ko] He did not send you to flee."
+      },
+      {
+        "text": "[TODO:ko] Walk on toward the city",
+        "feedback": "[TODO:ko] Each step is a vow kept."
+      },
+      {
+        "text": "[TODO:ko] Wait for a sign first",
+        "feedback": "[TODO:ko] The sign was the bush."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:ko] There Is No Going Back",
+    "text": "[TODO:ko] Midian holds nothing for you now.\nThe call is in front, not behind.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Walk on toward the city",
+        "feedback": "[TODO:ko] You set your face forward."
+      }
+    ]
+  },
+  "wait_sign_consequence": {
+    "title": "[TODO:ko] He Has Already Spoken",
+    "text": "[TODO:ko] The fire on Horeb was enough.\nObey before you ask again.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Walk on toward the city",
+        "feedback": "[TODO:ko] You step forward."
+      }
+    ]
+  },
+  "meet_aaron": {
+    "title": "[TODO:ko] Aaron Comes to Meet You",
+    "text": "[TODO:ko] Your brother runs across the sand.\n\"The Lord sent me to find you.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Embrace him as brother",
+        "feedback": "[TODO:ko] Joy returns to your bones."
+      },
+      {
+        "text": "[TODO:ko] Test him with hard words",
+        "feedback": "[TODO:ko] He is a gift, not a rival."
+      }
+    ]
+  },
+  "test_aaron_consequence": {
+    "title": "[TODO:ko] He Is Your Voice",
+    "text": "[TODO:ko] God Himself sent him to your side.\nReceive him with open arms.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Embrace him as brother",
+        "feedback": "[TODO:ko] You hold him close."
+      }
+    ]
+  },
+  "tell_elders": {
+    "title": "[TODO:ko] Before the Elders of Israel",
+    "text": "[TODO:ko] Hebrew elders sit in the shadow.\nThey wait to hear from God.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Speak the words God gave",
+        "feedback": "[TODO:ko] Aaron speaks beside you."
+      },
+      {
+        "text": "[TODO:ko] Soften the message for them",
+        "feedback": "[TODO:ko] His word is not yours to edit."
+      },
+      {
+        "text": "[TODO:ko] Boast of your own calling",
+        "feedback": "[TODO:ko] You are messenger, not master."
+      }
+    ]
+  },
+  "soften_consequence": {
+    "title": "[TODO:ko] Speak It Whole",
+    "text": "[TODO:ko] What He gave you, give to them.\nDo not trim His word.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Speak the words God gave",
+        "feedback": "[TODO:ko] You begin again."
+      }
+    ]
+  },
+  "boast_elders_consequence": {
+    "title": "[TODO:ko] Not Your Glory",
+    "text": "[TODO:ko] It is His name that frees them.\nLower your eyes and speak.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Speak the words God gave",
+        "feedback": "[TODO:ko] You bow your head."
+      }
+    ]
+  },
+  "elders_believe": {
+    "title": "[TODO:ko] And They Believed",
+    "text": "[TODO:ko] The signs are shown. The elders bow.\n\"The Lord has seen us at last.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Set out for the palace",
+        "feedback": "[TODO:ko] Your heart steadies."
+      }
+    ]
+  },
+  "palace_gates": {
+    "title": "[TODO:ko] Gates of Pharaoh",
+    "text": "[TODO:ko] Stone giants flank the entrance.\nGuards watch you with cold eyes.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Ask audience with the king",
+        "feedback": "[TODO:ko] You speak with steady voice."
+      },
+      {
+        "text": "[TODO:ko] Force your way past guards",
+        "feedback": "[TODO:ko] Iron will not open this door."
+      },
+      {
+        "text": "[TODO:ko] Bribe the gatekeeper",
+        "feedback": "[TODO:ko] God's word does not need silver."
+      }
+    ]
+  },
+  "force_consequence": {
+    "title": "[TODO:ko] Not by Strength",
+    "text": "[TODO:ko] Spears bar your way at once.\nAsk, do not seize.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Ask audience with the king",
+        "feedback": "[TODO:ko] You step back, then forward."
+      }
+    ]
+  },
+  "bribe_consequence": {
+    "title": "[TODO:ko] His Word, Not Coin",
+    "text": "[TODO:ko] You carry the name of the Lord.\nThat is gate enough.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Ask audience with the king",
+        "feedback": "[TODO:ko] You hide the silver away."
+      }
+    ]
+  },
+  "court_official": {
+    "title": "[TODO:ko] The King's Servant",
+    "text": "[TODO:ko] A bald scribe blocks the way.\n\"State your name and your god.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] \"The God of the Hebrews sent us\"",
+        "feedback": "[TODO:ko] He stiffens at the words."
+      },
+      {
+        "text": "[TODO:ko] Hide who sent you",
+        "feedback": "[TODO:ko] Hide His name and lose it."
+      }
+    ]
+  },
+  "hide_sender_consequence": {
+    "title": "[TODO:ko] Do Not Hide Him",
+    "text": "[TODO:ko] He sent you in His name.\nSpeak it, even here.",
+    "choices": [
+      {
+        "text": "[TODO:ko] \"The God of the Hebrews sent us\"",
+        "feedback": "[TODO:ko] Your voice grows firm."
+      }
+    ]
+  },
+  "enter_throne_hall": {
+    "title": "[TODO:ko] Into the Light",
+    "text": "[TODO:ko] A shaft of sun falls on the throne.\nPharaoh waits, still as stone.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Approach with reverence to God",
+        "feedback": "[TODO:ko] You bow only to Heaven."
+      },
+      {
+        "text": "[TODO:ko] Kneel and worship Pharaoh",
+        "feedback": "[TODO:ko] He is not your god."
+      },
+      {
+        "text": "[TODO:ko] Run from the hall",
+        "feedback": "[TODO:ko] Stand. He is with you."
+      }
+    ]
+  },
+  "worship_consequence": {
+    "title": "[TODO:ko] Bow Only to Him",
+    "text": "[TODO:ko] No man wears the crown of God.\nStand and speak the truth.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Approach with reverence to God",
+        "feedback": "[TODO:ko] You rise from your knees."
+      }
+    ]
+  },
+  "run_hall_consequence": {
+    "title": "[TODO:ko] Do Not Flee Now",
+    "text": "[TODO:ko] He has gone before you here.\nSet your feet and speak.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Approach with reverence to God",
+        "feedback": "[TODO:ko] You walk forward."
+      }
+    ]
+  },
+  "before_pharaoh": {
+    "title": "[TODO:ko] The First Word",
+    "text": "[TODO:ko] Pharaoh's eyes weigh you in silence.\nThe court holds its breath.",
+    "choices": [
+      {
+        "text": "[TODO:ko] \"Let my people go.\"",
+        "feedback": "[TODO:ko] The words ring across the hall."
+      },
+      {
+        "text": "[TODO:ko] Beg favors for the Hebrews",
+        "feedback": "[TODO:ko] It is a command, not a plea."
+      },
+      {
+        "text": "[TODO:ko] Threaten him with armies",
+        "feedback": "[TODO:ko] Your strength is His name."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:ko] Speak the Lord's Word",
+    "text": "[TODO:ko] Pity is not the message.\nDeliverance is.",
+    "choices": [
+      {
+        "text": "[TODO:ko] \"Let my people go.\"",
+        "feedback": "[TODO:ko] You straighten and speak."
+      }
+    ]
+  },
+  "threaten_consequence": {
+    "title": "[TODO:ko] His Word Is Enough",
+    "text": "[TODO:ko] You have no army at your back.\nYou have His name on your lips.",
+    "choices": [
+      {
+        "text": "[TODO:ko] \"Let my people go.\"",
+        "feedback": "[TODO:ko] You speak it again, plainly."
+      }
+    ]
+  },
+  "pharaoh_mocks": {
+    "title": "[TODO:ko] \"Who Is the Lord?\"",
+    "text": "[TODO:ko] \"I do not know your God,\nand I will not let Israel go.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Hold the word of the Lord",
+        "feedback": "[TODO:ko] Your voice does not shake."
+      },
+      {
+        "text": "[TODO:ko] Curse Pharaoh in anger",
+        "feedback": "[TODO:ko] Speak God's word, not yours."
+      },
+      {
+        "text": "[TODO:ko] Apologize and withdraw",
+        "feedback": "[TODO:ko] Do not unsay His command."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ko] Not Your Wrath",
+    "text": "[TODO:ko] Judgment belongs to the Lord.\nSpeak only what He gave.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Hold the word of the Lord",
+        "feedback": "[TODO:ko] You quiet your tongue."
+      }
+    ]
+  },
+  "apologize_consequence": {
+    "title": "[TODO:ko] Do Not Take It Back",
+    "text": "[TODO:ko] His command stands, even here.\nRepeat it, do not retract it.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Hold the word of the Lord",
+        "feedback": "[TODO:ko] You hold the line."
+      }
+    ]
+  },
+  "demand_again": {
+    "title": "[TODO:ko] A Three Days' Journey",
+    "text": "[TODO:ko] \"Let us go to sacrifice in the desert,\nlest plague or sword find us.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Speak the request as given",
+        "feedback": "[TODO:ko] You deliver it whole."
+      },
+      {
+        "text": "[TODO:ko] Lie about your true purpose",
+        "feedback": "[TODO:ko] Truth is your only ground."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:ko] Do Not Lie for God",
+    "text": "[TODO:ko] His work needs no deceit.\nSpeak only what He told you.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Speak the request as given",
+        "feedback": "[TODO:ko] You speak the truth."
+      }
+    ]
+  },
+  "pharaoh_refuses": {
+    "title": "[TODO:ko] Pharaoh's Wrath",
+    "text": "[TODO:ko] \"You make the people idle!\nReturn to your burdens — now.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stand silent before his rage",
+        "feedback": "[TODO:ko] You will not bow to him."
+      },
+      {
+        "text": "[TODO:ko] Argue louder with the king",
+        "feedback": "[TODO:ko] His heart only hardens more."
+      },
+      {
+        "text": "[TODO:ko] Flee the throne hall",
+        "feedback": "[TODO:ko] Walk out, do not run."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:ko] His Heart Is Stone",
+    "text": "[TODO:ko] Words alone will not move him.\nLet the Lord answer.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stand silent before his rage",
+        "feedback": "[TODO:ko] You hold your peace."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:ko] Do Not Run",
+    "text": "[TODO:ko] You came as a messenger of God.\nLeave standing, not fleeing.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stand silent before his rage",
+        "feedback": "[TODO:ko] You straighten your shoulders."
+      }
+    ]
+  },
+  "harsher_labor": {
+    "title": "[TODO:ko] No More Straw",
+    "text": "[TODO:ko] \"Let them gather their own straw.\nThe quota will not be lessened.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Carry the news to the people",
+        "feedback": "[TODO:ko] Hard truth, faithfully borne."
+      },
+      {
+        "text": "[TODO:ko] Hide the new decree from them",
+        "feedback": "[TODO:ko] They will know either way."
+      }
+    ]
+  },
+  "hide_decree_consequence": {
+    "title": "[TODO:ko] They Must Know",
+    "text": "[TODO:ko] Silence will not soften the blow.\nGo and speak the truth.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Carry the news to the people",
+        "feedback": "[TODO:ko] You walk back to Goshen."
+      }
+    ]
+  },
+  "foremen_beaten": {
+    "title": "[TODO:ko] The Foremen Bleed",
+    "text": "[TODO:ko] Hebrew foremen are struck for failing.\nBricks lie scattered in the dust.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stay among the suffering",
+        "feedback": "[TODO:ko] You do not turn away."
+      },
+      {
+        "text": "[TODO:ko] Hide your face from them",
+        "feedback": "[TODO:ko] They are still your people."
+      },
+      {
+        "text": "[TODO:ko] Strike a guard in vengeance",
+        "feedback": "[TODO:ko] That sin already cost you years."
+      }
+    ]
+  },
+  "hide_face_consequence": {
+    "title": "[TODO:ko] Do Not Look Away",
+    "text": "[TODO:ko] Their wounds are part of the call.\nStand with them.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stay among the suffering",
+        "feedback": "[TODO:ko] You step into the dust."
+      }
+    ]
+  },
+  "strike_guard_consequence": {
+    "title": "[TODO:ko] Not Again",
+    "text": "[TODO:ko] Once before you struck in rage.\nThis time, trust the Lord.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stay among the suffering",
+        "feedback": "[TODO:ko] You lower your hand."
+      }
+    ]
+  },
+  "israelites_blame": {
+    "title": "[TODO:ko] \"You Have Made Us Hated\"",
+    "text": "[TODO:ko] The foremen turn on you in grief.\n\"Pharaoh's sword is at our throats.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Take the blame in silence",
+        "feedback": "[TODO:ko] You bear the weight."
+      },
+      {
+        "text": "[TODO:ko] Defend yourself proudly",
+        "feedback": "[TODO:ko] Their pain is real. Listen."
+      },
+      {
+        "text": "[TODO:ko] Curse them for their unbelief",
+        "feedback": "[TODO:ko] They are crushed, not faithless."
+      }
+    ]
+  },
+  "defend_consequence": {
+    "title": "[TODO:ko] Hear Their Pain",
+    "text": "[TODO:ko] Their backs bleed for your words.\nLet them speak it out.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Take the blame in silence",
+        "feedback": "[TODO:ko] You lower your eyes."
+      }
+    ]
+  },
+  "curse_people_consequence": {
+    "title": "[TODO:ko] They Are Yours",
+    "text": "[TODO:ko] These are the flock you were given.\nDo not curse what He blesses.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Take the blame in silence",
+        "feedback": "[TODO:ko] You hold your tongue."
+      }
+    ]
+  },
+  "moses_cries_out": {
+    "title": "[TODO:ko] Alone Before God",
+    "text": "[TODO:ko] Night falls on the brick fields.\nYou kneel beneath the cold stars.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Cry out: \"Why send me, Lord?\"",
+        "feedback": "[TODO:ko] Honest grief is still prayer."
+      },
+      {
+        "text": "[TODO:ko] Resign and go back to Midian",
+        "feedback": "[TODO:ko] You cannot return now."
+      },
+      {
+        "text": "[TODO:ko] Blame Aaron for the failure",
+        "feedback": "[TODO:ko] The burden is yours, not his."
+      }
+    ]
+  },
+  "resign_consequence": {
+    "title": "[TODO:ko] He Is Not Done",
+    "text": "[TODO:ko] The work has barely begun.\nLift your eyes to Him.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Cry out: \"Why send me, Lord?\"",
+        "feedback": "[TODO:ko] You raise your face."
+      }
+    ]
+  },
+  "blame_aaron_consequence": {
+    "title": "[TODO:ko] He Is Your Helper",
+    "text": "[TODO:ko] Aaron was given to your weakness.\nDo not turn on him.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Cry out: \"Why send me, Lord?\"",
+        "feedback": "[TODO:ko] You bring it to God instead."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ko] The Lord Will Answer",
+    "text": "[TODO:ko] Wind moves over the dark sand.\nHis hand is not yet revealed.",
+    "choices": []
+  }
+}

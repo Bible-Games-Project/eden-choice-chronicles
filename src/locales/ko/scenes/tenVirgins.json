@@ -1,0 +1,189 @@
+{
+  "start": {
+    "title": "[TODO:ko] Be Watchful",
+    "text": "[TODO:ko] Jesus says softly,\n\"The kingdom is like ten waiting for a bridegroom.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Lean in and listen close",
+        "feedback": "[TODO:ko] His words settle in you."
+      },
+      {
+        "text": "[TODO:ko] Decide it does not matter",
+        "feedback": "[TODO:ko] Every word of his matters."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:ko] Stay Awake",
+    "text": "[TODO:ko] What he teaches now will guard your heart later.\nListen well.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Lean in and listen close",
+        "feedback": "[TODO:ko] You turn back to him."
+      }
+    ]
+  },
+  "wait": {
+    "title": "[TODO:ko] Ten at the Gate",
+    "text": "[TODO:ko] Ten bridesmaids stand in the dusk,\nlamps in hand, eyes on the road.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stand with them and wait",
+        "feedback": "[TODO:ko] You join the watch."
+      },
+      {
+        "text": "[TODO:ko] Wander off until it starts",
+        "feedback": "[TODO:ko] Waiting is part of love."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "[TODO:ko] Hold Your Place",
+    "text": "[TODO:ko] Those who wait well are the ones ready.\nStay with the lamps.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stand with them and wait",
+        "feedback": "[TODO:ko] You take your place."
+      }
+    ]
+  },
+  "oil": {
+    "title": "[TODO:ko] Extra Oil",
+    "text": "[TODO:ko] Some carry a small flask of extra oil.\nOthers carry only a lamp.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Trust your lamp is enough",
+        "feedback": "[TODO:ko] The night may be long."
+      },
+      {
+        "text": "[TODO:ko] Fill a flask with extra oil",
+        "feedback": "[TODO:ko] Wisdom prepares."
+      },
+      {
+        "text": "[TODO:ko] Borrow oil later if needed",
+        "feedback": "[TODO:ko] Some things cannot be borrowed."
+      }
+    ]
+  },
+  "skip_consequence": {
+    "title": "[TODO:ko] Be Prepared",
+    "text": "[TODO:ko] A wise heart plans for the long wait.\nFill the flask now.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Fill a flask with extra oil",
+        "feedback": "[TODO:ko] You prepare quietly."
+      }
+    ]
+  },
+  "borrow_consequence": {
+    "title": "[TODO:ko] Your Own Flame",
+    "text": "[TODO:ko] Faith cannot be borrowed in the dark.\nCarry your own oil.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Fill a flask with extra oil",
+        "feedback": "[TODO:ko] You learn the lesson."
+      }
+    ]
+  },
+  "delay": {
+    "title": "[TODO:ko] The Long Wait",
+    "text": "[TODO:ko] Stars wheel overhead, the bridegroom delays.\nLamps flicker low.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Curse the slow hours",
+        "feedback": "[TODO:ko] Trust the timing."
+      },
+      {
+        "text": "[TODO:ko] Keep watch through the night",
+        "feedback": "[TODO:ko] Patience holds you steady."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ko] His Timing",
+    "text": "[TODO:ko] He comes in his own hour, not ours.\nKeep the watch.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Keep watch through the night",
+        "feedback": "[TODO:ko] You wait in peace."
+      }
+    ]
+  },
+  "midnight": {
+    "title": "[TODO:ko] Midnight Cry",
+    "text": "[TODO:ko] A voice rings out at the dark hour,\n\"The bridegroom! Come out to meet him!\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Trim your lamp and rise",
+        "feedback": "[TODO:ko] Your flame steadies."
+      },
+      {
+        "text": "[TODO:ko] Sleep through the cry",
+        "feedback": "[TODO:ko] Now is the moment."
+      }
+    ]
+  },
+  "sleep_consequence": {
+    "title": "[TODO:ko] Rise Now",
+    "text": "[TODO:ko] The call has come. Do not miss it.\nLift your lamp.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Trim your lamp and rise",
+        "feedback": "[TODO:ko] You stand and wake."
+      }
+    ]
+  },
+  "run": {
+    "title": "[TODO:ko] No Oil Left",
+    "text": "[TODO:ko] Five lamps sputter and die in the dark.\nThey run to find oil in time.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Mock those without oil",
+        "feedback": "[TODO:ko] Let your heart be humble."
+      },
+      {
+        "text": "[TODO:ko] Walk on with the wise five",
+        "feedback": "[TODO:ko] You move toward the light."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ko] Be Humble",
+    "text": "[TODO:ko] Their loss is no joy to anyone.\nWalk on with care.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Walk on with the wise five",
+        "feedback": "[TODO:ko] Pride softens to sorrow."
+      }
+    ]
+  },
+  "door": {
+    "title": "[TODO:ko] The Door Shuts",
+    "text": "[TODO:ko] The bridegroom enters the feast.\nThe door swings closed behind him.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Pound and demand to enter",
+        "feedback": "[TODO:ko] Readiness cannot be demanded."
+      },
+      {
+        "text": "[TODO:ko] Stand in the warm light within",
+        "feedback": "[TODO:ko] You are home in time."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ko] Be Ready First",
+    "text": "[TODO:ko] The hour to prepare was before.\nReadiness opens the door.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Stand in the warm light within",
+        "feedback": "[TODO:ko] You enter at the right time."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ko] Keep Watch",
+    "text": "[TODO:ko] Jesus turns to you in the soft dawn.\n\"Watch, for you know not the hour.\"",
+    "choices": []
+  }
+}

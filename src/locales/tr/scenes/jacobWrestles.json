@@ -1,0 +1,323 @@
+{
+  "start": {
+    "title": "[TODO:tr] Returning Home",
+    "text": "[TODO:tr] You are Jacob. Esau marches with four hundred men.\nYour camp waits at the Jabbok ford.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Send gifts ahead to Esau",
+        "feedback": "[TODO:tr] You prepare droves of livestock to soften his heart."
+      },
+      {
+        "text": "[TODO:tr] Attack first — strike before he does",
+        "feedback": "[TODO:tr] Bloodshed is not the path. Your hands tremble."
+      },
+      {
+        "text": "[TODO:tr] Flee back the way you came",
+        "feedback": "[TODO:tr] Behind you is Laban. Ahead is the promise."
+      }
+    ]
+  },
+  "attack_consequence": {
+    "title": "[TODO:tr] No Sword for This",
+    "text": "[TODO:tr] Your sons are few. Esau's men are many.\nThis is not a battle to win.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Send gifts ahead instead",
+        "feedback": "[TODO:tr] Wisdom replaces fury. You call your servants."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:tr] Nowhere to Run",
+    "text": "[TODO:tr] The road behind is closed. The Lord said: return.\nYou must face what comes.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Turn and prepare gifts for Esau",
+        "feedback": "[TODO:tr] You set your face toward your brother again."
+      }
+    ]
+  },
+  "send_gifts": {
+    "title": "[TODO:tr] Droves of Peace",
+    "text": "[TODO:tr] Goats, sheep, camels — sent in waves before you.\n\"A present for my lord Esau.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Pray to the God of your fathers",
+        "feedback": "[TODO:tr] You bow your head. \"I am unworthy of all your kindness.\""
+      },
+      {
+        "text": "[TODO:tr] Boast — God owes you protection",
+        "feedback": "[TODO:tr] Pride is a thin shield. Your heart knows it."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:tr] The Hollow Boast",
+    "text": "[TODO:tr] Your words ring empty in the dusk.\nYou kneel instead, ashamed.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Pray humbly for deliverance",
+        "feedback": "[TODO:tr] \"Deliver me, I pray, from the hand of my brother.\""
+      }
+    ]
+  },
+  "pray": {
+    "title": "[TODO:tr] A Prayer at Dusk",
+    "text": "[TODO:tr] \"O God of Abraham, of Isaac — save me.\"\nThe Jabbok runs cold beside the camp.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Send your family across the ford",
+        "feedback": "[TODO:tr] Wives, sons, all possessions — across the dark water."
+      },
+      {
+        "text": "[TODO:tr] Stay together — safer in numbers",
+        "feedback": "[TODO:tr] Your soul needs the night alone. You know it."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:tr] Crowded Hearts",
+    "text": "[TODO:tr] Voices, children, bleating animals.\nThis night calls for silence.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Send them across — remain alone",
+        "feedback": "[TODO:tr] You wave them on. The water swallows their footsteps."
+      }
+    ]
+  },
+  "send_family": {
+    "title": "[TODO:tr] All Across the Jabbok",
+    "text": "[TODO:tr] The last torch fades on the far bank.\nYou stand alone. The river hushes.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Stay on this side — face the night",
+        "feedback": "[TODO:tr] You sit on the cold stone. Stars burn above."
+      },
+      {
+        "text": "[TODO:tr] Cross over to your family now",
+        "feedback": "[TODO:tr] Something holds you back. The night is not finished."
+      }
+    ]
+  },
+  "cross_consequence": {
+    "title": "[TODO:tr] Drawn Back",
+    "text": "[TODO:tr] You step into the water and stop.\nA presence waits behind you.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Return to the bank — stay alone",
+        "feedback": "[TODO:tr] You climb back. The river quiets again."
+      }
+    ]
+  },
+  "alone": {
+    "title": "[TODO:tr] Jacob Was Left Alone",
+    "text": "[TODO:tr] Footsteps. A figure in the dark.\nA man stands before you — silent, strong.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Stand your ground",
+        "feedback": "[TODO:tr] He moves first. You meet him."
+      },
+      {
+        "text": "[TODO:tr] Run from him into the night",
+        "feedback": "[TODO:tr] He is faster. You cannot escape this."
+      },
+      {
+        "text": "[TODO:tr] Beg him to leave you in peace",
+        "feedback": "[TODO:tr] He does not answer. He waits for you."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:tr] He Is Always There",
+    "text": "[TODO:tr] However far you turn, he is before you.\nThis fight cannot be avoided.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Turn and face him",
+        "feedback": "[TODO:tr] You raise your arms. The night begins."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:tr] Silence in Reply",
+    "text": "[TODO:tr] He will not let you pass without struggle.\nThis is your night to wrestle.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Stand and grapple with him",
+        "feedback": "[TODO:tr] Your hands close on his robe. The wrestling starts."
+      }
+    ]
+  },
+  "the_struggle": {
+    "title": "[TODO:tr] All Through the Night",
+    "text": "[TODO:tr] You wrestle. Hours pass. Neither yields.\nYour breath burns. He does not tire.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Hold on — do not let go",
+        "feedback": "[TODO:tr] Sweat and silence. Only the river hears."
+      },
+      {
+        "text": "[TODO:tr] Give up — he is too strong",
+        "feedback": "[TODO:tr] Something deeper in you refuses. You grip again."
+      }
+    ]
+  },
+  "give_up_consequence": {
+    "title": "[TODO:tr] Not Yet",
+    "text": "[TODO:tr] Your knees buckle, but your hands will not open.\nThis night must be finished.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Hold on through the dark",
+        "feedback": "[TODO:tr] You rise once more, and the struggle goes on."
+      }
+    ]
+  },
+  "the_touch": {
+    "title": "[TODO:tr] A Touch at the Hip",
+    "text": "[TODO:tr] He reaches out — your hip turns out of joint.\nPain blooms. Yet you do not release him.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Cling tighter — demand a blessing",
+        "feedback": "[TODO:tr] \"I will not let you go unless you bless me.\""
+      },
+      {
+        "text": "[TODO:tr] Collapse and curse the pain",
+        "feedback": "[TODO:tr] Bitterness will not bless you. Reach again."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:tr] Words That Wound You",
+    "text": "[TODO:tr] Your curses fall like stones in the river.\nBut his hand is still within reach.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Cling to him — ask for blessing",
+        "feedback": "[TODO:tr] You grasp his robe. \"Bless me — I will not let go.\""
+      }
+    ]
+  },
+  "demand_blessing": {
+    "title": "[TODO:tr] The Question",
+    "text": "[TODO:tr] He says: \"What is your name?\"\nThe river holds its breath.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Speak truly — \"Jacob\"",
+        "feedback": "[TODO:tr] Your old name. Heel-grabber. Supplanter. You confess it."
+      },
+      {
+        "text": "[TODO:tr] Hide your name from him",
+        "feedback": "[TODO:tr] Deceit will not free you here. Speak truth."
+      },
+      {
+        "text": "[TODO:tr] Boast a noble title",
+        "feedback": "[TODO:tr] He sees through you. The name must come."
+      }
+    ]
+  },
+  "hide_name_consequence": {
+    "title": "[TODO:tr] He Knows Already",
+    "text": "[TODO:tr] His gaze does not leave you.\nYou cannot lie to such eyes.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Whisper the truth — \"Jacob\"",
+        "feedback": "[TODO:tr] The word breaks loose like a stone from your chest."
+      }
+    ]
+  },
+  "boast_name_consequence": {
+    "title": "[TODO:tr] No Crown Will Do",
+    "text": "[TODO:tr] Titles fall away in this place.\nOnly your true name remains.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Speak it — \"I am Jacob\"",
+        "feedback": "[TODO:tr] You bow your head. The name is laid down."
+      }
+    ]
+  },
+  "new_name": {
+    "title": "[TODO:tr] Israel",
+    "text": "[TODO:tr] \"No longer Jacob — but Israel.\nFor you have struggled with God and prevailed.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive the name in awe",
+        "feedback": "[TODO:tr] Israel. The name settles over you like dawn."
+      },
+      {
+        "text": "[TODO:tr] Refuse — you do not deserve it",
+        "feedback": "[TODO:tr] He gives. You do not earn. Receive."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:tr] It Is Given",
+    "text": "[TODO:tr] The name is not yours to refuse.\nIt is His gift, freely given.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Bow your head — accept it",
+        "feedback": "[TODO:tr] You whisper: \"Israel.\" The river answers softly."
+      }
+    ]
+  },
+  "name_him": {
+    "title": "[TODO:tr] Tell Me Your Name",
+    "text": "[TODO:tr] You ask: \"Tell me your name.\"\nHe answers only: \"Why do you ask?\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive his blessing in silence",
+        "feedback": "[TODO:tr] He blesses you there. No more words are needed."
+      },
+      {
+        "text": "[TODO:tr] Demand his name again",
+        "feedback": "[TODO:tr] Some names are not for men. Be still."
+      }
+    ]
+  },
+  "demand_name_consequence": {
+    "title": "[TODO:tr] Holy Silence",
+    "text": "[TODO:tr] He will not speak it.\nThe blessing is what he gives.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive his blessing quietly",
+        "feedback": "[TODO:tr] You bow. His hand rests upon your head."
+      }
+    ]
+  },
+  "blessing": {
+    "title": "[TODO:tr] He Blessed Him There",
+    "text": "[TODO:tr] The first light touches the eastern hills.\nHis blessing flows through you.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Name this place Peniel",
+        "feedback": "[TODO:tr] \"For I have seen God face to face — and lived.\""
+      },
+      {
+        "text": "[TODO:tr] Tell no one what happened",
+        "feedback": "[TODO:tr] Such mercy must be remembered, not buried."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "[TODO:tr] It Must Be Marked",
+    "text": "[TODO:tr] Hidden grace fades from memory.\nThis place must bear the witness.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Name it Peniel — God's face",
+        "feedback": "[TODO:tr] You set the name upon the ground. Peniel."
+      }
+    ]
+  },
+  "peniel": {
+    "title": "[TODO:tr] Peniel — The Face of God",
+    "text": "[TODO:tr] The sun rises over Peniel.\nYou rise too — and limp upon your hip.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Cross the Jabbok to meet Esau",
+        "feedback": "[TODO:tr] You walk forward, marked, blessed, no longer the same."
+      }
+    ]
+  },
+  "to_esau": {
+    "title": "[TODO:tr] Israel Goes Forward",
+    "text": "[TODO:tr] The river is behind you. Esau waits ahead.\nYou are Israel. The journey continues.",
+    "choices": []
+  }
+}

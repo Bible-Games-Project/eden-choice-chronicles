@@ -1,0 +1,475 @@
+{
+  "start": {
+    "title": "[TODO:ja] Two Years Later",
+    "text": "[TODO:ja] Dawn breaks on your prison cell.\nFootsteps approach the iron door.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Curse the lost years",
+        "feedback": "[TODO:ja] Bitterness has no place here."
+      },
+      {
+        "text": "[TODO:ja] Rise and pray to the Lord",
+        "feedback": "[TODO:ja] Peace fills your heart."
+      },
+      {
+        "text": "[TODO:ja] Pretend to be sick",
+        "feedback": "[TODO:ja] Fear cannot hide you."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ja] Hollow Anger",
+    "text": "[TODO:ja] Anger only weighs you down.\nThe key still turns in the lock.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Rise and pray to the Lord",
+        "feedback": "[TODO:ja] You let it go."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ja] No Hiding",
+    "text": "[TODO:ja] The guard pulls back the blanket.\n\"Pharaoh has called for you.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Rise and pray to the Lord",
+        "feedback": "[TODO:ja] You stand up trembling but firm."
+      }
+    ]
+  },
+  "summons": {
+    "title": "[TODO:ja] Pharaoh Calls",
+    "text": "[TODO:ja] \"Pharaoh demands you. Quickly!\"\nThe magicians have all failed him.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Boast you can solve it",
+        "feedback": "[TODO:ja] Pride goes before the fall."
+      },
+      {
+        "text": "[TODO:ja] Shave and dress for the king",
+        "feedback": "[TODO:ja] You honor the king's house."
+      },
+      {
+        "text": "[TODO:ja] Refuse out of fear",
+        "feedback": "[TODO:ja] There is no refusing Pharaoh."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ja] Empty Words",
+    "text": "[TODO:ja] The guard frowns. \"Many boasted.\nNone could read the dream.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Shave and dress for the king",
+        "feedback": "[TODO:ja] You bow your head."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:ja] Dragged Forth",
+    "text": "[TODO:ja] The guard grips your arm hard.\n\"Pharaoh will not be denied.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Shave and dress for the king",
+        "feedback": "[TODO:ja] You go willingly now."
+      }
+    ]
+  },
+  "preparation": {
+    "title": "[TODO:ja] Made Ready",
+    "text": "[TODO:ja] Razor and clean linen await.\nYou must look fit for a king.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Whisper a prayer to God",
+        "feedback": "[TODO:ja] \"Lord, give me Your words.\""
+      },
+      {
+        "text": "[TODO:ja] Rehearse clever guesses",
+        "feedback": "[TODO:ja] Cleverness will not save you."
+      }
+    ]
+  },
+  "rehearse_consequence": {
+    "title": "[TODO:ja] Empty Words",
+    "text": "[TODO:ja] Your guesses crumble in your mind.\nOnly God knows the dream.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Whisper a prayer to God",
+        "feedback": "[TODO:ja] You let go of yourself."
+      }
+    ]
+  },
+  "antechamber_arrive": {
+    "title": "[TODO:ja] Palace Halls",
+    "text": "[TODO:ja] Cool stone, painted columns.\nAn official waits to lead you in.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Demand pay before you speak",
+        "feedback": "[TODO:ja] This is not a market."
+      },
+      {
+        "text": "[TODO:ja] Bow and follow in silence",
+        "feedback": "[TODO:ja] Silence shows respect."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ja] A Hard Look",
+    "text": "[TODO:ja] The official stiffens. \"You stand\nbefore the king. Walk.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Bow and follow in silence",
+        "feedback": "[TODO:ja] You bow your head."
+      }
+    ]
+  },
+  "throne_enter": {
+    "title": "[TODO:ja] The Throne Hall",
+    "text": "[TODO:ja] Light pours through high windows.\nPharaoh sits, deeply troubled.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Stare boldly at the king",
+        "feedback": "[TODO:ja] Such pride is foolish here."
+      },
+      {
+        "text": "[TODO:ja] Bow low to the ground",
+        "feedback": "[TODO:ja] Your forehead touches stone."
+      }
+    ]
+  },
+  "stare_consequence": {
+    "title": "[TODO:ja] Eyes Down",
+    "text": "[TODO:ja] Guards step forward. The official\nhisses, \"Bow before the king!\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Bow low to the ground",
+        "feedback": "[TODO:ja] You drop to your knees."
+      }
+    ]
+  },
+  "pharaoh_speaks": {
+    "title": "[TODO:ja] The King's Words",
+    "text": "[TODO:ja] \"I have dreamed. None can interpret.\nI hear you can. Is it so?\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"Yes, the gift is mine alone\"",
+        "feedback": "[TODO:ja] You take credit that isn't yours."
+      },
+      {
+        "text": "[TODO:ja] \"It is not in me; God will speak\"",
+        "feedback": "[TODO:ja] Truthful and humble."
+      },
+      {
+        "text": "[TODO:ja] \"I will try my best, mighty king\"",
+        "feedback": "[TODO:ja] Trying is not enough."
+      }
+    ]
+  },
+  "claim_consequence": {
+    "title": "[TODO:ja] Pride Cracks",
+    "text": "[TODO:ja] Pharaoh's eyes narrow. The room\ngrows quiet. You feel God's nudge.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"Forgive me. God will answer\"",
+        "feedback": "[TODO:ja] You correct yourself in time."
+      }
+    ]
+  },
+  "try_consequence": {
+    "title": "[TODO:ja] A Shaken Heart",
+    "text": "[TODO:ja] Words feel hollow in your mouth.\nThis is not your wisdom to give.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"It is not in me; God will speak\"",
+        "feedback": "[TODO:ja] You speak the truth at last."
+      }
+    ]
+  },
+  "humble_answer": {
+    "title": "[TODO:ja] God Will Answer",
+    "text": "[TODO:ja] Pharaoh leans forward, quieter now.\n\"Then hear my dream, Hebrew.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Listen with full attention",
+        "feedback": "[TODO:ja] You quiet your heart."
+      },
+      {
+        "text": "[TODO:ja] Interrupt with questions",
+        "feedback": "[TODO:ja] Let the king speak first."
+      }
+    ]
+  },
+  "interrupt_consequence": {
+    "title": "[TODO:ja] Be Silent",
+    "text": "[TODO:ja] Pharaoh raises his hand. \"Listen,\nthen speak. Not before.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Listen with full attention",
+        "feedback": "[TODO:ja] You bow your head and wait."
+      }
+    ]
+  },
+  "cattle_dream": {
+    "title": "[TODO:ja] Seven Cattle",
+    "text": "[TODO:ja] \"Seven fat cows came from the Nile.\nSeven gaunt cows ate them whole.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Tell him what cows mean in Egypt",
+        "feedback": "[TODO:ja] This is no folk tale."
+      },
+      {
+        "text": "[TODO:ja] Listen for the second dream",
+        "feedback": "[TODO:ja] Two dreams, one message."
+      }
+    ]
+  },
+  "egypt_lore_consequence": {
+    "title": "[TODO:ja] Not Yet",
+    "text": "[TODO:ja] Pharaoh frowns. \"There is more.\nHear the second before you speak.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Listen for the second dream",
+        "feedback": "[TODO:ja] You wait patiently."
+      }
+    ]
+  },
+  "grain_dream": {
+    "title": "[TODO:ja] Seven Heads",
+    "text": "[TODO:ja] \"Seven full heads of grain rose.\nSeven thin ones swallowed them up.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Praise Egypt's many gods",
+        "feedback": "[TODO:ja] There is one true God."
+      },
+      {
+        "text": "[TODO:ja] Speak God's interpretation",
+        "feedback": "[TODO:ja] God puts words in your mouth."
+      },
+      {
+        "text": "[TODO:ja] Ask for a sign first",
+        "feedback": "[TODO:ja] God's word is the sign."
+      }
+    ]
+  },
+  "idols_consequence": {
+    "title": "[TODO:ja] Holy Silence",
+    "text": "[TODO:ja] Your tongue stops mid-praise.\nGod alone gives the answer here.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Speak God's interpretation",
+        "feedback": "[TODO:ja] You return to truth."
+      }
+    ]
+  },
+  "sign_consequence": {
+    "title": "[TODO:ja] No Delay",
+    "text": "[TODO:ja] Pharaoh waits. The room is still.\nGod's word is already in you.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Speak God's interpretation",
+        "feedback": "[TODO:ja] You open your mouth in faith."
+      }
+    ]
+  },
+  "interpretation": {
+    "title": "[TODO:ja] One Dream",
+    "text": "[TODO:ja] \"The dreams are one, O King.\nGod has shown what He will do.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Soften the bad news",
+        "feedback": "[TODO:ja] Truth must be spoken whole."
+      },
+      {
+        "text": "[TODO:ja] Speak it plainly",
+        "feedback": "[TODO:ja] Pharaoh leans in to hear."
+      }
+    ]
+  },
+  "soften_consequence": {
+    "title": "[TODO:ja] Speak True",
+    "text": "[TODO:ja] Half-truth helps no one.\nA king must hear the full word.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Speak it plainly",
+        "feedback": "[TODO:ja] You find your courage."
+      }
+    ]
+  },
+  "plain_truth": {
+    "title": "[TODO:ja] Seven and Seven",
+    "text": "[TODO:ja] \"Seven years of plenty will come.\nThen seven years of famine.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Stop and wait for praise",
+        "feedback": "[TODO:ja] The word is not finished."
+      },
+      {
+        "text": "[TODO:ja] Continue with God's counsel",
+        "feedback": "[TODO:ja] Wisdom must follow warning."
+      }
+    ]
+  },
+  "stop_consequence": {
+    "title": "[TODO:ja] Finish It",
+    "text": "[TODO:ja] Pharaoh waits. \"What then?\nWhat must I do, Hebrew?\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Continue with God's counsel",
+        "feedback": "[TODO:ja] You give him the plan."
+      }
+    ]
+  },
+  "give_counsel": {
+    "title": "[TODO:ja] A Wise Plan",
+    "text": "[TODO:ja] \"Find a wise man. Store one fifth\nof the grain in years of plenty.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Name yourself for the role",
+        "feedback": "[TODO:ja] Let the king choose."
+      },
+      {
+        "text": "[TODO:ja] Leave the choice to Pharaoh",
+        "feedback": "[TODO:ja] Humility honors God."
+      },
+      {
+        "text": "[TODO:ja] Demand silver to share more",
+        "feedback": "[TODO:ja] God gives freely."
+      }
+    ]
+  },
+  "self_consequence": {
+    "title": "[TODO:ja] Quiet, Joseph",
+    "text": "[TODO:ja] Pharaoh tilts his head. Pride\nwould undo all you have said.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Leave the choice to Pharaoh",
+        "feedback": "[TODO:ja] You bow your head again."
+      }
+    ]
+  },
+  "silver_consequence": {
+    "title": "[TODO:ja] No Price",
+    "text": "[TODO:ja] God's word is not for sale.\nYou feel shame for asking.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Leave the choice to Pharaoh",
+        "feedback": "[TODO:ja] You return to humility."
+      }
+    ]
+  },
+  "leave_choice": {
+    "title": "[TODO:ja] The King Decides",
+    "text": "[TODO:ja] Pharaoh stands. The court is silent.\n\"Can we find such a man?\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Wait quietly for his word",
+        "feedback": "[TODO:ja] Calm trust on your face."
+      },
+      {
+        "text": "[TODO:ja] Push your own name forward",
+        "feedback": "[TODO:ja] Pride could ruin all."
+      }
+    ]
+  },
+  "push_consequence": {
+    "title": "[TODO:ja] Hold Your Tongue",
+    "text": "[TODO:ja] The court murmurs. Pharaoh frowns.\nYou hold your peace at last.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Wait quietly for his word",
+        "feedback": "[TODO:ja] You yield to God's timing."
+      }
+    ]
+  },
+  "pharaoh_chooses": {
+    "title": "[TODO:ja] God's Spirit",
+    "text": "[TODO:ja] \"Can we find one with God's Spirit\nlike this man? You shall rule.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Refuse, you are unworthy",
+        "feedback": "[TODO:ja] False humility is also pride."
+      },
+      {
+        "text": "[TODO:ja] Bow and accept God's call",
+        "feedback": "[TODO:ja] You receive what God gives."
+      }
+    ]
+  },
+  "refuse2_consequence": {
+    "title": "[TODO:ja] God's Hand",
+    "text": "[TODO:ja] Refusing the call is refusing God.\nThis door He has opened.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Bow and accept God's call",
+        "feedback": "[TODO:ja] You bow and rise as servant."
+      }
+    ]
+  },
+  "ring_given": {
+    "title": "[TODO:ja] The Signet Ring",
+    "text": "[TODO:ja] Pharaoh slides his ring on you.\n\"None shall lift hand without you.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Forget the God who lifted you",
+        "feedback": "[TODO:ja] Never forget the Giver."
+      },
+      {
+        "text": "[TODO:ja] Give thanks to God in your heart",
+        "feedback": "[TODO:ja] All glory to the Lord."
+      }
+    ]
+  },
+  "forget_consequence": {
+    "title": "[TODO:ja] Remember Him",
+    "text": "[TODO:ja] The ring is heavy on your finger.\nThis honor is not your own.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Give thanks to God in your heart",
+        "feedback": "[TODO:ja] You bow inwardly to Him."
+      }
+    ]
+  },
+  "ride_out": {
+    "title": "[TODO:ja] Second Chariot",
+    "text": "[TODO:ja] You ride through Egypt's roads.\nMen bow as you pass.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Plan revenge on your brothers",
+        "feedback": "[TODO:ja] Forgiveness will come."
+      },
+      {
+        "text": "[TODO:ja] Plan to save God's people",
+        "feedback": "[TODO:ja] You see God's larger purpose."
+      },
+      {
+        "text": "[TODO:ja] Boast to all you meet",
+        "feedback": "[TODO:ja] Stay humble in honor."
+      }
+    ]
+  },
+  "revenge_consequence": {
+    "title": "[TODO:ja] Not Yet",
+    "text": "[TODO:ja] That story is not yet told.\nGod has bigger plans here.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Plan to save God's people",
+        "feedback": "[TODO:ja] You set vengeance aside."
+      }
+    ]
+  },
+  "boast2_consequence": {
+    "title": "[TODO:ja] Stay Humble",
+    "text": "[TODO:ja] Pride could undo all of this.\nYou remember the prison floor.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Plan to save God's people",
+        "feedback": "[TODO:ja] You ride on in quiet faith."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ja] From Pit to Palace",
+    "text": "[TODO:ja] God remembered you in the dark.\nNow nations will be saved.",
+    "choices": []
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "[TODO:tr] Lazarus Is Sick",
+    "text": "[TODO:tr] A messenger gasps, breathless.\n\"Lord, the one you love is ill.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Urge Jesus to hurry",
+        "feedback": "[TODO:tr] Trust his timing."
+      },
+      {
+        "text": "[TODO:tr] Wait for his word",
+        "feedback": "[TODO:tr] Jesus listens quietly."
+      },
+      {
+        "text": "[TODO:tr] Dismiss the news",
+        "feedback": "[TODO:tr] Hear him out."
+      }
+    ]
+  },
+  "urge_consequence": {
+    "title": "[TODO:tr] His Own Time",
+    "text": "[TODO:tr] He will not be rushed.\nWait.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Wait for his word",
+        "feedback": "[TODO:tr] You bow your head."
+      }
+    ]
+  },
+  "dismiss_consequence": {
+    "title": "[TODO:tr] Hear Him",
+    "text": "[TODO:tr] This sickness has a purpose.\nListen.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Wait for his word",
+        "feedback": "[TODO:tr] You quiet your heart."
+      }
+    ]
+  },
+  "delay": {
+    "title": "[TODO:tr] Two Days More",
+    "text": "[TODO:tr] He stays where he is, two days.\n\"It is for God's glory.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Question his delay",
+        "feedback": "[TODO:tr] He sees what you cannot."
+      },
+      {
+        "text": "[TODO:tr] Trust his purpose",
+        "feedback": "[TODO:tr] Peace settles on you."
+      }
+    ]
+  },
+  "question_consequence": {
+    "title": "[TODO:tr] He Sees Further",
+    "text": "[TODO:tr] His delay is not absence.\nTrust him.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Trust his purpose",
+        "feedback": "[TODO:tr] You breathe in."
+      }
+    ]
+  },
+  "travel": {
+    "title": "[TODO:tr] Let Us Go",
+    "text": "[TODO:tr] \"Our friend Lazarus sleeps.\"\n\"I go to wake him.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Stay back in fear",
+        "feedback": "[TODO:tr] Go with him."
+      },
+      {
+        "text": "[TODO:tr] Walk with him to Bethany",
+        "feedback": "[TODO:tr] You step onto the road."
+      }
+    ]
+  },
+  "stayback_consequence": {
+    "title": "[TODO:tr] Follow Him",
+    "text": "[TODO:tr] Do not be left behind.\nGo.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Walk with him to Bethany",
+        "feedback": "[TODO:tr] You catch up."
+      }
+    ]
+  },
+  "martha": {
+    "title": "[TODO:tr] Martha Meets You",
+    "text": "[TODO:tr] \"If you had been here, Lord,\nmy brother would not have died.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Tell her to give up hope",
+        "feedback": "[TODO:tr] Hope is not dead."
+      },
+      {
+        "text": "[TODO:tr] \"He is the Resurrection\"",
+        "feedback": "[TODO:tr] Her eyes lift."
+      },
+      {
+        "text": "[TODO:tr] Stay silent and turn away",
+        "feedback": "[TODO:tr] Speak hope to her."
+      }
+    ]
+  },
+  "giveup_consequence": {
+    "title": "[TODO:tr] Hope Remains",
+    "text": "[TODO:tr] Death is not the end here.\nSpeak life.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"He is the Resurrection\"",
+        "feedback": "[TODO:tr] Her tears slow."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:tr] Find Words",
+    "text": "[TODO:tr] She needs hope.\nGive her his name.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"He is the Resurrection\"",
+        "feedback": "[TODO:tr] Your voice steadies."
+      }
+    ]
+  },
+  "mary": {
+    "title": "[TODO:tr] Mary Falls Weeping",
+    "text": "[TODO:tr] Mary kneels at his feet, weeping.\nThe crowd around her grieves.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Scold their tears",
+        "feedback": "[TODO:tr] Weep with them."
+      },
+      {
+        "text": "[TODO:tr] Weep with them",
+        "feedback": "[TODO:tr] Your eyes blur."
+      }
+    ]
+  },
+  "scold_consequence": {
+    "title": "[TODO:tr] Share the Sorrow",
+    "text": "[TODO:tr] Even Jesus weeps.\nGrieve with them.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Weep with them",
+        "feedback": "[TODO:tr] Tears come freely."
+      }
+    ]
+  },
+  "weeps": {
+    "title": "[TODO:tr] Jesus Wept",
+    "text": "[TODO:tr] He stands still, tears falling.\n\"See how he loved him.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lead him to the tomb",
+        "feedback": "[TODO:tr] He follows you."
+      },
+      {
+        "text": "[TODO:tr] Pull him from the crowd",
+        "feedback": "[TODO:tr] He came for this."
+      }
+    ]
+  },
+  "pull_consequence": {
+    "title": "[TODO:tr] Let Him Stay",
+    "text": "[TODO:tr] He came to this place on purpose.\nLead him on.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lead him to the tomb",
+        "feedback": "[TODO:tr] He walks beside you."
+      }
+    ]
+  },
+  "tomb": {
+    "title": "[TODO:tr] Take Away the Stone",
+    "text": "[TODO:tr] \"Take away the stone,\" he says.\nMartha trembles. \"Lord, it stinks.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Leave the stone in place",
+        "feedback": "[TODO:tr] Obey his word."
+      },
+      {
+        "text": "[TODO:tr] Roll the stone away",
+        "feedback": "[TODO:tr] Hands push together."
+      },
+      {
+        "text": "[TODO:tr] Argue with Jesus",
+        "feedback": "[TODO:tr] Believe and see."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "[TODO:tr] Obey Him",
+    "text": "[TODO:tr] Faith moves the stone.\nRoll it.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Roll the stone away",
+        "feedback": "[TODO:tr] The stone groans aside."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:tr] Believe",
+    "text": "[TODO:tr] \"Did I not say, believe?\"\nDo as he says.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Roll the stone away",
+        "feedback": "[TODO:tr] You lean your weight."
+      }
+    ]
+  },
+  "call": {
+    "title": "[TODO:tr] Lazarus, Come Out",
+    "text": "[TODO:tr] He lifts his hands and his voice.\n\"Lazarus, come out!\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Cover your ears in fear",
+        "feedback": "[TODO:tr] Watch and see."
+      },
+      {
+        "text": "[TODO:tr] Watch the dark doorway",
+        "feedback": "[TODO:tr] You hold your breath."
+      }
+    ]
+  },
+  "cover_consequence": {
+    "title": "[TODO:tr] Look",
+    "text": "[TODO:tr] Do not miss this.\nWatch.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Watch the dark doorway",
+        "feedback": "[TODO:tr] Your heart pounds."
+      }
+    ]
+  },
+  "emerge": {
+    "title": "[TODO:tr] Unbind Him",
+    "text": "[TODO:tr] He steps from the tomb, alive.\n\"Unbind him. Let him go.\"",
+    "choices": []
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "start": {
+    "title": "[TODO:de] By the Sea",
+    "text": "[TODO:de] Jesus sits by the lake.\n\"Listen. A sower went out to sow.\"",
+    "choices": [
+      {
+        "text": "[TODO:de] Drift off in your thoughts",
+        "feedback": "[TODO:de] Stay. The seed is for you."
+      },
+      {
+        "text": "[TODO:de] Lean in and listen closely",
+        "feedback": "[TODO:de] His voice softens."
+      }
+    ]
+  },
+  "drift_consequence": {
+    "title": "[TODO:de] Return to Him",
+    "text": "[TODO:de] A wandering heart hears nothing.\nCome back to the words.",
+    "choices": [
+      {
+        "text": "[TODO:de] Lean in and listen closely",
+        "feedback": "[TODO:de] Your attention returns."
+      }
+    ]
+  },
+  "sower": {
+    "title": "[TODO:de] The Sower",
+    "text": "[TODO:de] A farmer walks the field,\nscattering seed with open hand.",
+    "choices": [
+      {
+        "text": "[TODO:de] Watch where each seed lands",
+        "feedback": "[TODO:de] Your eyes follow the seed."
+      },
+      {
+        "text": "[TODO:de] Decide the parable is dull",
+        "feedback": "[TODO:de] Small things hide great truth."
+      }
+    ]
+  },
+  "dull_consequence": {
+    "title": "[TODO:de] Look Again",
+    "text": "[TODO:de] Heaven hides in small things.\nWatch the seed once more.",
+    "choices": [
+      {
+        "text": "[TODO:de] Watch where each seed lands",
+        "feedback": "[TODO:de] You look again."
+      }
+    ]
+  },
+  "path": {
+    "title": "[TODO:de] On the Path",
+    "text": "[TODO:de] Some seed falls on the hard path.\nBirds swoop down and take it away.",
+    "choices": [
+      {
+        "text": "[TODO:de] Blame the careless sower",
+        "feedback": "[TODO:de] The sower scatters freely."
+      },
+      {
+        "text": "[TODO:de] Ask why your heart is hard",
+        "feedback": "[TODO:de] A quiet ache rises."
+      },
+      {
+        "text": "[TODO:de] Shrug, it is only a seed",
+        "feedback": "[TODO:de] Each seed is a whole word."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:de] Not His Fault",
+    "text": "[TODO:de] He gives the same seed to all.\nThe ground decides.",
+    "choices": [
+      {
+        "text": "[TODO:de] Ask why your heart is hard",
+        "feedback": "[TODO:de] You look inward."
+      }
+    ]
+  },
+  "shrug_consequence": {
+    "title": "[TODO:de] Each Word Matters",
+    "text": "[TODO:de] One word can change a life.\nDo not let it be stolen.",
+    "choices": [
+      {
+        "text": "[TODO:de] Ask why your heart is hard",
+        "feedback": "[TODO:de] Your shrug fades."
+      }
+    ]
+  },
+  "rocky": {
+    "title": "[TODO:de] On the Rocks",
+    "text": "[TODO:de] Some seed springs up quickly,\nbut the sun burns its shallow roots.",
+    "choices": [
+      {
+        "text": "[TODO:de] Trust only when life is easy",
+        "feedback": "[TODO:de] Roots grow in hard seasons."
+      },
+      {
+        "text": "[TODO:de] Pray for roots that go deep",
+        "feedback": "[TODO:de] You ask for hidden strength."
+      }
+    ]
+  },
+  "easy_consequence": {
+    "title": "[TODO:de] Roots Grow Down",
+    "text": "[TODO:de] Joy that fears the sun is shallow.\nAsk for what lasts.",
+    "choices": [
+      {
+        "text": "[TODO:de] Pray for roots that go deep",
+        "feedback": "[TODO:de] Your prayer steadies."
+      }
+    ]
+  },
+  "thorns": {
+    "title": "[TODO:de] Among Thorns",
+    "text": "[TODO:de] Other seed grows beside thorns.\nWorry and riches choke it out.",
+    "choices": [
+      {
+        "text": "[TODO:de] Hold tighter to your worries",
+        "feedback": "[TODO:de] Worry strangles the seed."
+      },
+      {
+        "text": "[TODO:de] Cling harder to your wealth",
+        "feedback": "[TODO:de] Riches steal the light."
+      },
+      {
+        "text": "[TODO:de] Let the thorns go from your heart",
+        "feedback": "[TODO:de] Your hands unclench."
+      }
+    ]
+  },
+  "worry_consequence": {
+    "title": "[TODO:de] Lay It Down",
+    "text": "[TODO:de] Worry is a weed in the soul.\nGive it to the One who sows.",
+    "choices": [
+      {
+        "text": "[TODO:de] Let the thorns go from your heart",
+        "feedback": "[TODO:de] A weight lifts."
+      }
+    ]
+  },
+  "wealth_consequence": {
+    "title": "[TODO:de] Open Your Hand",
+    "text": "[TODO:de] A closed fist holds no seed.\nLet the soil breathe.",
+    "choices": [
+      {
+        "text": "[TODO:de] Let the thorns go from your heart",
+        "feedback": "[TODO:de] Your grip eases."
+      }
+    ]
+  },
+  "good_soil": {
+    "title": "[TODO:de] On Good Soil",
+    "text": "[TODO:de] Other seed falls on willing ground\nand bears thirty, sixty, a hundredfold.",
+    "choices": [
+      {
+        "text": "[TODO:de] Take the harvest for yourself",
+        "feedback": "[TODO:de] The harvest is to share."
+      },
+      {
+        "text": "[TODO:de] Receive the word and grow with it",
+        "feedback": "[TODO:de] Your heart opens wide."
+      }
+    ]
+  },
+  "selfish_consequence": {
+    "title": "[TODO:de] Share the Grain",
+    "text": "[TODO:de] Good soil never keeps its bread.\nIt feeds the hungry world.",
+    "choices": [
+      {
+        "text": "[TODO:de] Receive the word and grow with it",
+        "feedback": "[TODO:de] You loosen your hold."
+      }
+    ]
+  },
+  "disciples": {
+    "title": "[TODO:de] What Does It Mean?",
+    "text": "[TODO:de] The disciples come close and ask,\n\"Teacher, tell us the meaning.\"",
+    "choices": [
+      {
+        "text": "[TODO:de] Walk away, sure you know",
+        "feedback": "[TODO:de] Stay. You do not know yet."
+      },
+      {
+        "text": "[TODO:de] Sit with them and wait",
+        "feedback": "[TODO:de] You sit at his feet."
+      }
+    ]
+  },
+  "sure_consequence": {
+    "title": "[TODO:de] Stay and Learn",
+    "text": "[TODO:de] Pride is the hardest path.\nKneel with the rest.",
+    "choices": [
+      {
+        "text": "[TODO:de] Sit with them and wait",
+        "feedback": "[TODO:de] Your pride softens."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:de] What Soil Are You?",
+    "text": "[TODO:de] Jesus looks at you and smiles.\n\"The seed is the word. You are the ground.\"",
+    "choices": []
+  }
+}

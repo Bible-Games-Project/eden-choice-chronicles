@@ -1,0 +1,167 @@
+{
+  "start": {
+    "title": "[TODO:ru] When Kings Go to War",
+    "text": "[TODO:ru] Spring has come. Joab leads your army.\nYou linger alone in the palace.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Stay idle on the rooftop",
+        "feedback": "[TODO:ru] Idleness opens the door to sin."
+      },
+      {
+        "text": "[TODO:ru] Ride out and lead your men",
+        "feedback": "[TODO:ru] A king belongs with his people."
+      },
+      {
+        "text": "[TODO:ru] Demand new wine and music",
+        "feedback": "[TODO:ru] Comfort dulls the heart."
+      }
+    ]
+  },
+  "rooftop_consequence": {
+    "title": "[TODO:ru] Restless on the Roof",
+    "text": "[TODO:ru] Idle eyes will find a wound.\nYou should have gone to war.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Continue to the rooftop view",
+        "feedback": "[TODO:ru] Yet the evening unfolds..."
+      }
+    ]
+  },
+  "wine_consequence": {
+    "title": "[TODO:ru] Set the Cup Down",
+    "text": "[TODO:ru] A king is not led by appetite.\nReturn to your duty.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Walk out onto the rooftop",
+        "feedback": "[TODO:ru] You step into the cool air."
+      }
+    ]
+  },
+  "seeing": {
+    "title": "[TODO:ru] A Woman Bathing",
+    "text": "[TODO:ru] Below, a woman bathes in the courtyard.\nYour eyes will not turn away.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Send for her at once",
+        "feedback": "[TODO:ru] Power must not take what is not yours."
+      },
+      {
+        "text": "[TODO:ru] Look away and pray",
+        "feedback": "[TODO:ru] Turn your eyes from temptation."
+      },
+      {
+        "text": "[TODO:ru] Ask who her husband is",
+        "feedback": "[TODO:ru] Curiosity here is the first step to ruin."
+      }
+    ]
+  },
+  "ask_consequence": {
+    "title": "[TODO:ru] She Is Another's Wife",
+    "text": "[TODO:ru] She is Bathsheba, wife of Uriah.\nThe knowledge will not save you now.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Send for her anyway",
+        "feedback": "[TODO:ru] You step further into shadow."
+      },
+      {
+        "text": "[TODO:ru] Repent and walk away",
+        "feedback": "[TODO:ru] You close your eyes and breathe."
+      }
+    ]
+  },
+  "summon_consequence": {
+    "title": "[TODO:ru] The Door Closes",
+    "text": "[TODO:ru] She comes. The deed is done.\nWord arrives: she is with child.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Continue",
+        "feedback": "[TODO:ru] The weight settles on your shoulders."
+      }
+    ]
+  },
+  "uriah": {
+    "title": "[TODO:ru] Uriah Stands Before You",
+    "text": "[TODO:ru] Uriah refuses comfort while his men sleep in fields.\n\"Shall I lie with my wife?\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Order Uriah to the front to die",
+        "feedback": "[TODO:ru] Murder will not hide your sin."
+      },
+      {
+        "text": "[TODO:ru] Get him drunk to send him home",
+        "feedback": "[TODO:ru] Deceit breeds deeper deceit."
+      },
+      {
+        "text": "[TODO:ru] Confess your sin to him",
+        "feedback": "[TODO:ru] Truth is the only door out."
+      }
+    ]
+  },
+  "drunk_consequence": {
+    "title": "[TODO:ru] Still He Will Not Go",
+    "text": "[TODO:ru] Even drunk, Uriah sleeps at your gate.\nHis loyalty shames you.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Send him to die in battle",
+        "feedback": "[TODO:ru] You sink deeper still."
+      },
+      {
+        "text": "[TODO:ru] Confess everything to him",
+        "feedback": "[TODO:ru] Light is harder than the lie."
+      }
+    ]
+  },
+  "front_consequence": {
+    "title": "[TODO:ru] Blood on Your Hands",
+    "text": "[TODO:ru] Uriah falls by the wall.\nYou took his wife and his life.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Continue",
+        "feedback": "[TODO:ru] The Lord sees what you have done."
+      }
+    ]
+  },
+  "nathan": {
+    "title": "[TODO:ru] The Prophet Comes",
+    "text": "[TODO:ru] Nathan tells of a rich man who stole a poor man's lamb.\n\"You are the man.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Threaten the prophet's life",
+        "feedback": "[TODO:ru] Do not silence the voice of God."
+      },
+      {
+        "text": "[TODO:ru] Deny the accusation",
+        "feedback": "[TODO:ru] Hiding cannot heal you."
+      },
+      {
+        "text": "[TODO:ru] Say: I have sinned against the Lord",
+        "feedback": "[TODO:ru] Confession opens the way."
+      }
+    ]
+  },
+  "threaten_consequence": {
+    "title": "[TODO:ru] Hear the Word",
+    "text": "[TODO:ru] Nathan does not flinch.\nGod's voice will not be silenced.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Bow and confess your sin",
+        "feedback": "[TODO:ru] Your knees give way."
+      }
+    ]
+  },
+  "deny_consequence": {
+    "title": "[TODO:ru] The Truth Cannot Hide",
+    "text": "[TODO:ru] Your silence does not fool the Lord.\nA broken spirit He will not despise.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Say: I have sinned against the Lord",
+        "feedback": "[TODO:ru] The words break from your chest."
+      }
+    ]
+  },
+  "repentance": {
+    "title": "[TODO:ru] A Broken Heart",
+    "text": "[TODO:ru] You fall in sackcloth, weeping.\n\"Create in me a clean heart, O God.\"",
+    "choices": []
+  }
+}

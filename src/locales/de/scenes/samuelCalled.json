@@ -1,0 +1,197 @@
+{
+  "start": {
+    "title": "[TODO:de] A Boy in the Tabernacle",
+    "text": "[TODO:de] The lamps must be tended before night.\nEli rests in the next chamber.",
+    "choices": [
+      {
+        "text": "[TODO:de] Sneak away from the duties",
+        "feedback": "[TODO:de] Service is your gift to give."
+      },
+      {
+        "text": "[TODO:de] Tend the lamp with care",
+        "feedback": "[TODO:de] The flame steadies in your hand."
+      },
+      {
+        "text": "[TODO:de] Demand a higher task",
+        "feedback": "[TODO:de] Quiet duty is sacred too."
+      }
+    ]
+  },
+  "sneak_consequence": {
+    "title": "[TODO:de] Return to Your Post",
+    "text": "[TODO:de] The sanctuary needs a faithful hand.\nGo back and tend the lamp.",
+    "choices": [
+      {
+        "text": "[TODO:de] Tend the lamp with care",
+        "feedback": "[TODO:de] You bow your head and serve."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:de] Greatness in Smallness",
+    "text": "[TODO:de] Even small duties shape a prophet.\nDo what is set before you.",
+    "choices": [
+      {
+        "text": "[TODO:de] Tend the lamp with care",
+        "feedback": "[TODO:de] Light glows on your face."
+      }
+    ]
+  },
+  "night_falls": {
+    "title": "[TODO:de] A Voice in the Dark",
+    "text": "[TODO:de] You lie down. Then a voice: \"Samuel.\"\nIt must be Eli calling you.",
+    "choices": [
+      {
+        "text": "[TODO:de] Run to Eli to answer him",
+        "feedback": "[TODO:de] You hurry through the dim hall."
+      },
+      {
+        "text": "[TODO:de] Pretend you did not hear",
+        "feedback": "[TODO:de] A call answered is a heart awake."
+      },
+      {
+        "text": "[TODO:de] Shout back from your mat",
+        "feedback": "[TODO:de] Honor the elder with your steps."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:de] Do Not Hide",
+    "text": "[TODO:de] A voice that calls deserves an answer.\nRise and go to Eli.",
+    "choices": [
+      {
+        "text": "[TODO:de] Run to Eli to answer him",
+        "feedback": "[TODO:de] You step into the corridor."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:de] Honor the Elder",
+    "text": "[TODO:de] Do not shout in the holy house.\nGo to him on quiet feet.",
+    "choices": [
+      {
+        "text": "[TODO:de] Run to Eli to answer him",
+        "feedback": "[TODO:de] You walk softly to his door."
+      }
+    ]
+  },
+  "second_call": {
+    "title": "[TODO:de] Eli Did Not Call",
+    "text": "[TODO:de] \"I did not call you, my son.\"\nYou return. The voice comes again.",
+    "choices": [
+      {
+        "text": "[TODO:de] Doubt your own ears and sleep",
+        "feedback": "[TODO:de] A whisper this clear is real."
+      },
+      {
+        "text": "[TODO:de] Curse the voice as a trick",
+        "feedback": "[TODO:de] Do not slander what you don't know."
+      },
+      {
+        "text": "[TODO:de] Go to Eli once more",
+        "feedback": "[TODO:de] Faithful steps in the dark."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:de] Trust What You Heard",
+    "text": "[TODO:de] The voice was not a dream.\nGo to Eli and tell him again.",
+    "choices": [
+      {
+        "text": "[TODO:de] Go to Eli once more",
+        "feedback": "[TODO:de] You rise once more."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:de] Guard Your Tongue",
+    "text": "[TODO:de] You do not yet know the speaker.\nGo seek Eli's wisdom.",
+    "choices": [
+      {
+        "text": "[TODO:de] Go to Eli once more",
+        "feedback": "[TODO:de] You bow your head and go."
+      }
+    ]
+  },
+  "third_call": {
+    "title": "[TODO:de] Eli Understands",
+    "text": "[TODO:de] Eli's old eyes soften with knowing.\n\"It is the Lord who calls you.\"",
+    "choices": [
+      {
+        "text": "[TODO:de] Refuse to listen any further",
+        "feedback": "[TODO:de] Do not flee the voice of God."
+      },
+      {
+        "text": "[TODO:de] Go back and wait to listen",
+        "feedback": "[TODO:de] Eli's hand rests on your shoulder."
+      },
+      {
+        "text": "[TODO:de] Boast of being chosen",
+        "feedback": "[TODO:de] Holy ground asks for silence."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:de] Do Not Run",
+    "text": "[TODO:de] The Lord chose this quiet hour.\nGo back and listen.",
+    "choices": [
+      {
+        "text": "[TODO:de] Go back and wait to listen",
+        "feedback": "[TODO:de] You return to the dark room."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:de] A Listening Heart",
+    "text": "[TODO:de] Pride dulls the ear of the soul.\nGo and listen in silence.",
+    "choices": [
+      {
+        "text": "[TODO:de] Go back and wait to listen",
+        "feedback": "[TODO:de] You bow your head low."
+      }
+    ]
+  },
+  "respond_god": {
+    "title": "[TODO:de] The Voice Returns",
+    "text": "[TODO:de] \"Samuel, Samuel.\"\nYour heart trembles in the stillness.",
+    "choices": [
+      {
+        "text": "[TODO:de] Hide your face in fear",
+        "feedback": "[TODO:de] Answer Him as Eli taught."
+      },
+      {
+        "text": "[TODO:de] Ask for a sign first",
+        "feedback": "[TODO:de] Trust the voice that calls you."
+      },
+      {
+        "text": "[TODO:de] \"Speak, Lord. I am listening.\"",
+        "feedback": "[TODO:de] The room fills with quiet light."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:de] Lift Your Head",
+    "text": "[TODO:de] He calls you by your name.\nAnswer Him with open heart.",
+    "choices": [
+      {
+        "text": "[TODO:de] \"Speak, Lord. I am listening.\"",
+        "feedback": "[TODO:de] Your voice steadies as you speak."
+      }
+    ]
+  },
+  "sign_consequence": {
+    "title": "[TODO:de] Faith Before Sight",
+    "text": "[TODO:de] His call is the sign itself.\nSpeak the words Eli gave you.",
+    "choices": [
+      {
+        "text": "[TODO:de] \"Speak, Lord. I am listening.\"",
+        "feedback": "[TODO:de] You whisper into the dark."
+      }
+    ]
+  },
+  "prophet_calling": {
+    "title": "[TODO:de] A Prophet to Israel",
+    "text": "[TODO:de] Dawn finds you a chosen voice.\nAll Israel will know the Lord speaks.",
+    "choices": []
+  }
+}

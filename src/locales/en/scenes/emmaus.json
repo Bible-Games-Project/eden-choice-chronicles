@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "Walking Away",
+    "text": "You and your friend leave the city.\nHope has died on a Roman cross.",
+    "choices": [
+      {
+        "text": "Argue God has abandoned you",
+        "feedback": "Despair is not the last word."
+      },
+      {
+        "text": "Walk in silent shared grief",
+        "feedback": "Each step weighs heavy."
+      },
+      {
+        "text": "Boast you saw it coming",
+        "feedback": "Pride blinds the heart."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Not Abandoned",
+    "text": "Sorrow speaks loudly, but listen.\nWalk on. The road is not done.",
+    "choices": [
+      {
+        "text": "Walk in silent shared grief",
+        "feedback": "You quiet your voice."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Not Pride",
+    "text": "No one foresaw this morning.\nWalk simply. Carry the grief.",
+    "choices": [
+      {
+        "text": "Walk in silent shared grief",
+        "feedback": "Your shoulders soften."
+      }
+    ]
+  },
+  "stranger_joins": {
+    "title": "A Quiet Traveler",
+    "text": "A stranger falls in step beside you.\n\"What are you discussing?\" he asks.",
+    "choices": [
+      {
+        "text": "Refuse to speak to him",
+        "feedback": "Welcome the stranger."
+      },
+      {
+        "text": "Mock his ignorance of events",
+        "feedback": "Speak gently, not sharply."
+      },
+      {
+        "text": "Stop and share your sorrow",
+        "feedback": "You turn to face him."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Welcome Him",
+    "text": "A road shared is grief halved.\nSpeak. The stranger listens.",
+    "choices": [
+      {
+        "text": "Stop and share your sorrow",
+        "feedback": "You open your hands."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Not Mockery",
+    "text": "He has asked in kindness.\nAnswer him in kind.",
+    "choices": [
+      {
+        "text": "Stop and share your sorrow",
+        "feedback": "Your tone softens."
+      }
+    ]
+  },
+  "share_grief": {
+    "title": "Concerning Jesus",
+    "text": "\"He was a prophet, mighty in word.\nThey crucified Him. We had hoped...\"",
+    "choices": [
+      {
+        "text": "Speak with honest heartbreak",
+        "feedback": "Truth pours from your lips."
+      },
+      {
+        "text": "Blame the women for the rumor",
+        "feedback": "They told what they saw."
+      },
+      {
+        "text": "Cut the story short in shame",
+        "feedback": "Tell it whole. He is listening."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "Do Not Blame",
+    "text": "The women carried only what they saw.\nTell the story whole.",
+    "choices": [
+      {
+        "text": "Speak with honest heartbreak",
+        "feedback": "You finish the telling."
+      }
+    ]
+  },
+  "short_consequence": {
+    "title": "Tell It All",
+    "text": "Hide nothing from this stranger.\nHe is more present than you know.",
+    "choices": [
+      {
+        "text": "Speak with honest heartbreak",
+        "feedback": "You let the words come."
+      }
+    ]
+  },
+  "scripture": {
+    "title": "Foolish and Slow",
+    "text": "\"Did the Christ not have to suffer\nand so enter into His glory?\"",
+    "choices": [
+      {
+        "text": "Take offense at his words",
+        "feedback": "He speaks for your sake."
+      },
+      {
+        "text": "Interrupt to correct him",
+        "feedback": "Listen. He knows more."
+      },
+      {
+        "text": "Lean in and listen closely",
+        "feedback": "Moses, the prophets, all unfold."
+      }
+    ]
+  },
+  "offense_consequence": {
+    "title": "Not Offense",
+    "text": "His sharpness is the surgeon's blade.\nReceive it. It is healing you.",
+    "choices": [
+      {
+        "text": "Lean in and listen closely",
+        "feedback": "You quiet your pride."
+      }
+    ]
+  },
+  "interrupt_consequence": {
+    "title": "Be Still",
+    "text": "You do not yet see what he sees.\nLet him finish. Then you will know.",
+    "choices": [
+      {
+        "text": "Lean in and listen closely",
+        "feedback": "You hold your tongue."
+      }
+    ]
+  },
+  "burning_hearts": {
+    "title": "Hearts Aflame",
+    "text": "Something kindles inside your chest.\nYou cannot name it, but it burns.",
+    "choices": [
+      {
+        "text": "Distrust the feeling and stop",
+        "feedback": "Let the fire keep burning."
+      },
+      {
+        "text": "Listen with your whole heart",
+        "feedback": "The road becomes holy ground."
+      },
+      {
+        "text": "Demand he explain himself",
+        "feedback": "Receive first. Question later."
+      }
+    ]
+  },
+  "distrust_consequence": {
+    "title": "Trust the Fire",
+    "text": "Your heart knows before your mind.\nLet it lead you forward.",
+    "choices": [
+      {
+        "text": "Listen with your whole heart",
+        "feedback": "Warmth fills your chest."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Not Demand",
+    "text": "Heaven does not yield to demand.\nReceive softly. Be carried.",
+    "choices": [
+      {
+        "text": "Listen with your whole heart",
+        "feedback": "You lower your guard."
+      }
+    ]
+  },
+  "invite_stay": {
+    "title": "Emmaus Village",
+    "text": "The village nears. He acts as if to go on.\nThe sun sinks low.",
+    "choices": [
+      {
+        "text": "Let him walk on alone",
+        "feedback": "Do not lose this stranger."
+      },
+      {
+        "text": "Urge him, \"Stay with us.\"",
+        "feedback": "He turns and follows you in."
+      },
+      {
+        "text": "Charge him for your company",
+        "feedback": "Hospitality is free."
+      }
+    ]
+  },
+  "letgo_consequence": {
+    "title": "Do Not Lose Him",
+    "text": "Some moments must be held.\nCall him back. Beg him to stay.",
+    "choices": [
+      {
+        "text": "Urge him, \"Stay with us.\"",
+        "feedback": "He smiles and turns back."
+      }
+    ]
+  },
+  "charge_consequence": {
+    "title": "Not for Price",
+    "text": "A guest is welcomed, not sold to.\nOpen your door freely.",
+    "choices": [
+      {
+        "text": "Urge him, \"Stay with us.\"",
+        "feedback": "You set the table for three."
+      }
+    ]
+  },
+  "breaking_bread": {
+    "title": "He Took the Bread",
+    "text": "He takes the bread. Blesses it.\nBreaks it. Hands it to you.",
+    "choices": [
+      {
+        "text": "Eat without truly looking up",
+        "feedback": "Lift your eyes. See Him."
+      },
+      {
+        "text": "Look at His hands. See Him.",
+        "feedback": "Your eyes finally open."
+      },
+      {
+        "text": "Boast of your fine hospitality",
+        "feedback": "This is no time for pride."
+      }
+    ]
+  },
+  "look_consequence": {
+    "title": "Lift Your Eyes",
+    "text": "Do not miss this for hunger.\nThe Guest is the Lord.",
+    "choices": [
+      {
+        "text": "Look at His hands. See Him.",
+        "feedback": "Recognition floods your chest."
+      }
+    ]
+  },
+  "host_consequence": {
+    "title": "Not Pride",
+    "text": "Your bread became His blessing.\nLook. Receive. Be still.",
+    "choices": [
+      {
+        "text": "Look at His hands. See Him.",
+        "feedback": "Your hands begin to tremble."
+      }
+    ]
+  },
+  "recognition": {
+    "title": "He Vanishes",
+    "text": "It is the Lord! Your eyes are opened.\nAnd then He is gone.",
+    "choices": [
+      {
+        "text": "Sit stunned and stay the night",
+        "feedback": "This news cannot wait."
+      },
+      {
+        "text": "Whisper. Tell no one tonight",
+        "feedback": "The brothers must hear."
+      },
+      {
+        "text": "Rise at once. Run to Jerusalem",
+        "feedback": "Hearts still burning, you run."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "Do Not Wait",
+    "text": "The night is no obstacle now.\nGo. The eleven must hear.",
+    "choices": [
+      {
+        "text": "Rise at once. Run to Jerusalem",
+        "feedback": "You leap from the table."
+      }
+    ]
+  },
+  "whisper_consequence": {
+    "title": "Tell Them All",
+    "text": "This is not a secret to keep.\nLet the city hear, \"He lives!\"",
+    "choices": [
+      {
+        "text": "Rise at once. Run to Jerusalem",
+        "feedback": "You set out into the dusk."
+      }
+    ]
+  },
+  "ending": {
+    "title": "He Is Risen Indeed",
+    "text": "You burst in: \"The Lord is risen!\nHe broke bread with us tonight.\"",
+    "choices": []
+  }
+}

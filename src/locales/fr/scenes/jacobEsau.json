@@ -1,0 +1,315 @@
+{
+  "start": {
+    "title": "[TODO:fr] Two Nations in the Womb",
+    "text": "[TODO:fr] You are Jacob. From birth you grasped Esau's heel.\nHe runs the wild fields. You stay among the tents.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Cook lentil stew at the tent",
+        "feedback": "[TODO:fr] The pot bubbles. Red. Fragrant. The day is quiet."
+      },
+      {
+        "text": "[TODO:fr] Run after Esau into the open hills",
+        "feedback": "[TODO:fr] The thorns tear your robe. The hunt is not yours."
+      }
+    ]
+  },
+  "hunt_consequence": {
+    "title": "[TODO:fr] Not Your Field",
+    "text": "[TODO:fr] Esau laughs from a ridge. \"Go home, brother.\nThe wild is mine.\" You walk back, empty.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Return to the tents and cook",
+        "feedback": "[TODO:fr] Mother smiles. \"The Lord's word is on the quiet ones.\""
+      }
+    ]
+  },
+  "the_stew": {
+    "title": "[TODO:fr] Esau Returns Famished",
+    "text": "[TODO:fr] Esau staggers in from the field, faint with hunger.\n\"Quick — let me gulp some of that red stuff!\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Ask for the birthright in exchange",
+        "feedback": "[TODO:fr] Your voice is steady. \"First sell me your birthright.\""
+      },
+      {
+        "text": "[TODO:fr] Just give him the stew freely",
+        "feedback": "[TODO:fr] He eats and leaves. The promise of Abraham passes you by."
+      },
+      {
+        "text": "[TODO:fr] Send him away — let him hunt his own",
+        "feedback": "[TODO:fr] He curses and storms off. Mercy was the smaller test."
+      }
+    ]
+  },
+  "free_consequence": {
+    "title": "[TODO:fr] A Door Reopens",
+    "text": "[TODO:fr] Days later, hunger drives him back. The Lord's choosing\nstill waits on a word — yours.",
+    "choices": [
+      {
+        "text": "[TODO:fr] This time, ask for the birthright",
+        "feedback": "[TODO:fr] He nods, weary. \"Take it. What good is it to me?\""
+      }
+    ]
+  },
+  "send_consequence": {
+    "title": "[TODO:fr] He Comes Back",
+    "text": "[TODO:fr] He returns at dusk, softer, hungrier.\nA second chance walks through the tent flap.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Offer the stew for the birthright",
+        "feedback": "[TODO:fr] \"Swear to me first.\" The pot steams between you."
+      }
+    ]
+  },
+  "the_oath": {
+    "title": "[TODO:fr] \"Swear to Me First\"",
+    "text": "[TODO:fr] \"Look — I'm about to die. What good is a birthright to me?\"\nHis hand reaches for the bowl.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Make him swear before you give it",
+        "feedback": "[TODO:fr] He swears. The birthright is yours. He eats. He leaves. He despises it."
+      },
+      {
+        "text": "[TODO:fr] Trust his word — hand him the bowl",
+        "feedback": "[TODO:fr] He eats, laughs, walks out. Nothing was sealed but bread."
+      }
+    ]
+  },
+  "trust_consequence": {
+    "title": "[TODO:fr] Words Are Wind",
+    "text": "[TODO:fr] Mother takes you aside. \"A promise unsealed is no promise.\nWhen he comes again — bind him with an oath.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Wait, and bind him with an oath next time",
+        "feedback": "[TODO:fr] Esau returns. This time, he swears. The birthright is yours."
+      }
+    ]
+  },
+  "stew_eaten": {
+    "title": "[TODO:fr] Bread, Stew, and a Birthright",
+    "text": "[TODO:fr] Esau eats and drinks, rises and walks away.\nSo he despised his birthright. The years go on.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Keep the secret and live quietly",
+        "feedback": "[TODO:fr] Years pass. Isaac grows old, his eyes dim with age."
+      }
+    ]
+  },
+  "isaac_old": {
+    "title": "[TODO:fr] Isaac Calls for Esau",
+    "text": "[TODO:fr] Father is old. His eyes see only shadows. He calls Esau:\n\"Hunt me venison. I will bless you before I die.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Wait quietly — go to your mother Rebekah",
+        "feedback": "[TODO:fr] She has heard everything. Her eyes are bright with purpose."
+      },
+      {
+        "text": "[TODO:fr] Confront Esau — demand the blessing now",
+        "feedback": "[TODO:fr] He laughs. \"You have my birthright. The blessing is mine.\""
+      },
+      {
+        "text": "[TODO:fr] Walk away — the blessing is not for you",
+        "feedback": "[TODO:fr] Mother stops you at the door. \"The Lord told me — the older shall serve the younger.\""
+      }
+    ]
+  },
+  "confront_consequence": {
+    "title": "[TODO:fr] Mother Calls You Aside",
+    "text": "[TODO:fr] Rebekah pulls you into the inner tent.\n\"Do nothing yet. Listen — and obey my voice.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Listen to your mother's plan",
+        "feedback": "[TODO:fr] You sit. Her voice is low and certain."
+      }
+    ]
+  },
+  "walkaway_consequence": {
+    "title": "[TODO:fr] The Word at Your Birth",
+    "text": "[TODO:fr] \"Two nations are in your womb,\" the Lord told her.\n\"The older shall serve the younger.\" She remembers.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Listen to her plan",
+        "feedback": "[TODO:fr] You bow your head. \"Tell me what to do.\""
+      }
+    ]
+  },
+  "rebekah_plan": {
+    "title": "[TODO:fr] \"Obey My Voice\"",
+    "text": "[TODO:fr] \"Bring me two young goats. I will make a dish your father loves.\nYou will go to him and receive the blessing.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] \"But Esau is hairy, and I am smooth…\"",
+        "feedback": "[TODO:fr] She covers your arms with the kid-skins. \"My son, let the curse fall on me.\""
+      },
+      {
+        "text": "[TODO:fr] Refuse — the deception is too great",
+        "feedback": "[TODO:fr] She holds your face. \"The Lord has spoken. Do not turn back now.\""
+      }
+    ]
+  },
+  "refuse_blessing": {
+    "title": "[TODO:fr] The Word Stands",
+    "text": "[TODO:fr] \"The promise is on you. The Lord said it before you were born.\nObey my voice, my son. Only obey.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Accept — let her dress you",
+        "feedback": "[TODO:fr] The kid-skins are warm against your arms. Your heart pounds."
+      }
+    ]
+  },
+  "the_disguise": {
+    "title": "[TODO:fr] Esau's Garments",
+    "text": "[TODO:fr] She brings Esau's best robes — they smell of the open field.\nThe kid-skins cover your hands and the smooth of your neck.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Take the dish and go to your father",
+        "feedback": "[TODO:fr] The savory smell rises around you. You step toward the inner tent."
+      }
+    ]
+  },
+  "father_tent": {
+    "title": "[TODO:fr] \"Who Are You, My Son?\"",
+    "text": "[TODO:fr] Isaac lifts his blind face. \"Who is it?\"\nYour throat is dry. The moment hangs.",
+    "choices": [
+      {
+        "text": "[TODO:fr] \"I am Esau your firstborn.\"",
+        "feedback": "[TODO:fr] The words leave your lips. The tent holds its breath."
+      },
+      {
+        "text": "[TODO:fr] \"It is I, Jacob — forgive me.\"",
+        "feedback": "[TODO:fr] He recoils. \"Then leave me — go!\" The blessing slips away."
+      },
+      {
+        "text": "[TODO:fr] Stay silent and offer the dish",
+        "feedback": "[TODO:fr] \"Speak, my son. Who are you?\" There is no path forward without words."
+      }
+    ]
+  },
+  "confess_consequence": {
+    "title": "[TODO:fr] Mother at the Door",
+    "text": "[TODO:fr] Rebekah pulls you back. \"The hour is now. Esau returns soon.\nGo back. Speak the words I gave you.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Return and say, \"I am Esau your firstborn.\"",
+        "feedback": "[TODO:fr] You step back into the tent. Your father turns his head."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:fr] He Asks Again",
+    "text": "[TODO:fr] \"My son — speak. Who is it?\"\nThe silence cannot hold.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Answer, \"I am Esau your firstborn.\"",
+        "feedback": "[TODO:fr] The words come. \"I have done as you asked. Sit and eat.\""
+      }
+    ]
+  },
+  "the_test": {
+    "title": "[TODO:fr] \"Come Near That I May Feel You\"",
+    "text": "[TODO:fr] Isaac reaches out trembling hands.\n\"The voice is Jacob's, but the hands are Esau's.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Hold still and let him feel the kid-skins",
+        "feedback": "[TODO:fr] His fingers pass over the rough hair. \"Are you truly my son Esau?\""
+      },
+      {
+        "text": "[TODO:fr] Pull back — flee the tent",
+        "feedback": "[TODO:fr] Rebekah catches you outside. \"Go back. The Lord's hand is on this hour.\""
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:fr] No Time Left",
+    "text": "[TODO:fr] Esau is already on the hills. The window closes.\n\"Go back, my son. Now.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Return and stand still",
+        "feedback": "[TODO:fr] You enter again. He reaches out. You let him feel."
+      }
+    ]
+  },
+  "the_blessing": {
+    "title": "[TODO:fr] The Words of Blessing",
+    "text": "[TODO:fr] \"May God give you the dew of heaven and the fatness of the earth.\nLet peoples serve you. Cursed be those who curse you.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Receive the blessing and slip away",
+        "feedback": "[TODO:fr] You bow. You leave. The tent flap falls behind you like a closing door."
+      }
+    ]
+  },
+  "esau_returns": {
+    "title": "[TODO:fr] Esau Returns from the Hunt",
+    "text": "[TODO:fr] From outside the tent you hear his voice — then a great cry.\n\"Bless me, even me also, O my father!\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Listen, hidden behind the tent",
+        "feedback": "[TODO:fr] Isaac trembles. \"Your brother came in deceit and took your blessing.\""
+      }
+    ]
+  },
+  "esau_wrath": {
+    "title": "[TODO:fr] \"I Will Kill My Brother\"",
+    "text": "[TODO:fr] Esau's voice rises like fire. \"The days of mourning my father\nare near. Then I will slay Jacob.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Run to your mother",
+        "feedback": "[TODO:fr] She is already waiting, her face pale. \"Flee at once to my brother Laban.\""
+      },
+      {
+        "text": "[TODO:fr] Confront Esau — beg his forgiveness",
+        "feedback": "[TODO:fr] His knife is half-drawn. Mother pulls you back through the tent flap."
+      }
+    ]
+  },
+  "confront_esau_consequence": {
+    "title": "[TODO:fr] Not Yet — Not Now",
+    "text": "[TODO:fr] Rebekah holds your face. \"He will not hear you tonight.\nGo to Haran. To my brother. Until his fury turns away.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Go to your mother's plan",
+        "feedback": "[TODO:fr] You bow. The night is wide. The road to Haran is far."
+      }
+    ]
+  },
+  "rebekah_warning": {
+    "title": "[TODO:fr] \"Flee to Haran\"",
+    "text": "[TODO:fr] \"Stay with Laban a few days, until your brother's anger turns.\nI will send for you. Why should I lose you both in one day?\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Pack lightly and slip out at dusk",
+        "feedback": "[TODO:fr] She kisses your forehead. \"The Lord be with you, my son.\""
+      },
+      {
+        "text": "[TODO:fr] Refuse — you will not run",
+        "feedback": "[TODO:fr] \"Then you will die,\" she whispers. \"And the promise dies with you.\""
+      }
+    ]
+  },
+  "refuse_flee_consequence": {
+    "title": "[TODO:fr] The Promise Must Live",
+    "text": "[TODO:fr] Her grip is iron. \"The Lord chose you before your birth.\nFlee tonight. Live. Return when it is time.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Yield and prepare to leave",
+        "feedback": "[TODO:fr] You gather a staff and a cloak. Nothing more."
+      }
+    ]
+  },
+  "isaac_sends": {
+    "title": "[TODO:fr] A Father's Last Word",
+    "text": "[TODO:fr] Isaac calls you in. He lays his hand on your head once more.\n\"Take a wife from Laban's daughters. May God Almighty bless you.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Bow, and set out alone toward Haran",
+        "feedback": "[TODO:fr] The blessing is sealed. You step into the dusk with a staff in your hand."
+      }
+    ]
+  },
+  "the_road": {
+    "title": "[TODO:fr] The Long Road East",
+    "text": "[TODO:fr] Behind you — the tents of your father.\nAhead — Haran, and a stone for a pillow under a wide sky.",
+    "choices": []
+  }
+}

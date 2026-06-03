@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "[TODO:ru] Torches in the Trees",
+    "text": "[TODO:ru] Torchlight floods the olive grove.\nJudas leads armed men toward you.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Hide among the olive trunks",
+        "feedback": "[TODO:ru] The hour will not be hidden from."
+      },
+      {
+        "text": "[TODO:ru] Stand and face them openly",
+        "feedback": "[TODO:ru] You step into the torchlight."
+      },
+      {
+        "text": "[TODO:ru] Call angels to scatter them",
+        "feedback": "[TODO:ru] Not by power, but by surrender."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ru] Not Hidden",
+    "text": "[TODO:ru] The Father's will must be met openly.\nWalk into the light.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Stand and face them openly",
+        "feedback": "[TODO:ru] You rise to meet them."
+      }
+    ]
+  },
+  "angels_consequence": {
+    "title": "[TODO:ru] Twelve Legions Wait",
+    "text": "[TODO:ru] Heaven could rescue you in a breath.\nBut Scripture must be fulfilled.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Stand and face them openly",
+        "feedback": "[TODO:ru] You set your face like flint."
+      }
+    ]
+  },
+  "judas_arrives": {
+    "title": "[TODO:ru] Friend, Why Have You Come?",
+    "text": "[TODO:ru] Judas walks ahead of the crowd.\nHis lantern trembles in his hand.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Shout and shame his betrayal",
+        "feedback": "[TODO:ru] Meet betrayal with grace."
+      },
+      {
+        "text": "[TODO:ru] Run before he reaches you",
+        "feedback": "[TODO:ru] Stay. The cup is here."
+      },
+      {
+        "text": "[TODO:ru] Call him 'friend' and wait",
+        "feedback": "[TODO:ru] Your voice is soft, unbroken."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "[TODO:ru] Grace, Not Wrath",
+    "text": "[TODO:ru] Even now, love is your answer.\nLet him hear it once more.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Call him 'friend' and wait",
+        "feedback": "[TODO:ru] His eyes break under your gaze."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:ru] The Cup Is Here",
+    "text": "[TODO:ru] You did not pray all night to flee.\nMeet him where you stand.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Call him 'friend' and wait",
+        "feedback": "[TODO:ru] You hold your ground in peace."
+      }
+    ]
+  },
+  "kiss": {
+    "title": "[TODO:ru] A Sign of a Kiss",
+    "text": "[TODO:ru] Judas leans close. \"Rabbi.\"\nHis lips brush your cheek in betrayal.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Strike him for his treachery",
+        "feedback": "[TODO:ru] No violence answers this kiss."
+      },
+      {
+        "text": "[TODO:ru] Receive it without resistance",
+        "feedback": "[TODO:ru] \"Do what you came to do.\""
+      },
+      {
+        "text": "[TODO:ru] Pretend you do not know him",
+        "feedback": "[TODO:ru] Truth, even now. Especially now."
+      }
+    ]
+  },
+  "strike_consequence": {
+    "title": "[TODO:ru] Not by the Sword",
+    "text": "[TODO:ru] Even Judas is loved to the end.\nLet the kiss become his witness.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Receive it without resistance",
+        "feedback": "[TODO:ru] Your stillness is louder than wrath."
+      }
+    ]
+  },
+  "pretend_consequence": {
+    "title": "[TODO:ru] Truth, Even Now",
+    "text": "[TODO:ru] Denial is not your way.\nMeet him face to face.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Receive it without resistance",
+        "feedback": "[TODO:ru] You stand fully revealed."
+      }
+    ]
+  },
+  "step_forward": {
+    "title": "[TODO:ru] Whom Do You Seek?",
+    "text": "[TODO:ru] The guards halt at the edge of the light.\nTheir eyes search the disciples.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Let the disciples be taken too",
+        "feedback": "[TODO:ru] Shield them. The hour is yours alone."
+      },
+      {
+        "text": "[TODO:ru] Stand silent and let them guess",
+        "feedback": "[TODO:ru] Speak. Name yourself."
+      },
+      {
+        "text": "[TODO:ru] \"I am he. Let these men go.\"",
+        "feedback": "[TODO:ru] Your words fall like a quiet thunder."
+      }
+    ]
+  },
+  "let_taken_consequence": {
+    "title": "[TODO:ru] Shield Them",
+    "text": "[TODO:ru] Not one of them must be lost tonight.\nYou drink this cup alone.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"I am he. Let these men go.\"",
+        "feedback": "[TODO:ru] The guards step back at your voice."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:ru] Name Yourself",
+    "text": "[TODO:ru] Truth must be spoken in the dark.\nDeclare who you are.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"I am he. Let these men go.\"",
+        "feedback": "[TODO:ru] The crowd staggers and falls back."
+      }
+    ]
+  },
+  "peter_sword": {
+    "title": "[TODO:ru] Peter Draws Steel",
+    "text": "[TODO:ru] Peter lifts a sword above his head.\nIt flashes toward the high priest's servant.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Cheer Peter on to fight",
+        "feedback": "[TODO:ru] This is not the kingdom's way."
+      },
+      {
+        "text": "[TODO:ru] \"Put your sword away, Peter.\"",
+        "feedback": "[TODO:ru] Peter freezes, sword still raised."
+      },
+      {
+        "text": "[TODO:ru] Take the sword and fight beside him",
+        "feedback": "[TODO:ru] The kingdom is not won by blades."
+      }
+    ]
+  },
+  "cheer_consequence": {
+    "title": "[TODO:ru] Not by Blades",
+    "text": "[TODO:ru] Those who live by the sword die by it.\nSpeak the harder word.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"Put your sword away, Peter.\"",
+        "feedback": "[TODO:ru] Peter lowers the blade trembling."
+      }
+    ]
+  },
+  "fight_consequence": {
+    "title": "[TODO:ru] The Cup, Not the Sword",
+    "text": "[TODO:ru] The Father's plan needs no defenders.\nIt needs a willing Son.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"Put your sword away, Peter.\"",
+        "feedback": "[TODO:ru] Your calm halts the night."
+      }
+    ]
+  },
+  "heal_ear": {
+    "title": "[TODO:ru] No More of This",
+    "text": "[TODO:ru] The servant clutches his bleeding ear.\nFear and pain shake his whole frame.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Walk past him to be arrested",
+        "feedback": "[TODO:ru] Even now, mercy. Heal him."
+      },
+      {
+        "text": "[TODO:ru] Touch his ear and heal him",
+        "feedback": "[TODO:ru] Warmth flows. The wound closes."
+      },
+      {
+        "text": "[TODO:ru] Curse the men who came for you",
+        "feedback": "[TODO:ru] Bless, do not curse, tonight."
+      }
+    ]
+  },
+  "walk_past_consequence": {
+    "title": "[TODO:ru] Mercy, Always",
+    "text": "[TODO:ru] The last miracle before the cross\nbelongs to your enemy.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Touch his ear and heal him",
+        "feedback": "[TODO:ru] He looks up at you, stunned."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ru] Bless, Not Curse",
+    "text": "[TODO:ru] Love your enemies, you taught.\nLive it now, in the torchlight.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Touch his ear and heal him",
+        "feedback": "[TODO:ru] The grove falls silent in awe."
+      }
+    ]
+  },
+  "disciples_flee": {
+    "title": "[TODO:ru] They All Forsook Him",
+    "text": "[TODO:ru] Your friends turn and run.\nCloaks drop. Footsteps fade into the dark.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Call them back in anger",
+        "feedback": "[TODO:ru] Let mercy cover their fear."
+      },
+      {
+        "text": "[TODO:ru] Let them go without a word",
+        "feedback": "[TODO:ru] You watch them with quiet love."
+      },
+      {
+        "text": "[TODO:ru] Curse them for abandoning you",
+        "feedback": "[TODO:ru] They will return. Forgive them now."
+      }
+    ]
+  },
+  "call_back_consequence": {
+    "title": "[TODO:ru] Let Them Go",
+    "text": "[TODO:ru] The Shepherd is struck. Sheep scatter.\nIt was written. It is right.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Let them go without a word",
+        "feedback": "[TODO:ru] Their footsteps fade into the night."
+      }
+    ]
+  },
+  "curse_friends_consequence": {
+    "title": "[TODO:ru] Forgive Them",
+    "text": "[TODO:ru] They will weep and return.\nLeave the door of love open.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Let them go without a word",
+        "feedback": "[TODO:ru] Forgiveness goes ahead of them."
+      }
+    ]
+  },
+  "taken_away": {
+    "title": "[TODO:ru] Bound and Led",
+    "text": "[TODO:ru] Rope tightens around your wrists.\nThe road to Jerusalem opens ahead.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Struggle against the cords",
+        "feedback": "[TODO:ru] Walk with peace into the dawn."
+      },
+      {
+        "text": "[TODO:ru] Beg to be released one last time",
+        "feedback": "[TODO:ru] The yes is already spoken."
+      },
+      {
+        "text": "[TODO:ru] Walk forward in steady silence",
+        "feedback": "[TODO:ru] Your steps are sure and slow."
+      }
+    ]
+  },
+  "struggle_consequence": {
+    "title": "[TODO:ru] Peace in the Cords",
+    "text": "[TODO:ru] These ropes you have chosen freely.\nWear them like a king.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Walk forward in steady silence",
+        "feedback": "[TODO:ru] Your head lifts toward the dawn."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:ru] Already Yes",
+    "text": "[TODO:ru] In the garden you said your yes.\nLet the body follow the heart.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Walk forward in steady silence",
+        "feedback": "[TODO:ru] The path is yours to walk."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ru] Led Toward the Dawn",
+    "text": "[TODO:ru] Torches line the road to the city.\nYou walk in peace toward what comes.",
+    "choices": []
+  }
+}

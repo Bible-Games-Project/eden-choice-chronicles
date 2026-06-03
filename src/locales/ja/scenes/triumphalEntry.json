@@ -1,0 +1,255 @@
+{
+  "start": {
+    "title": "[TODO:ja] The Holy City",
+    "text": "[TODO:ja] Jerusalem shines in golden light.\nJesus walks toward her gates.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Push ahead to claim a place",
+        "feedback": "[TODO:ja] Walk beside him, not ahead."
+      },
+      {
+        "text": "[TODO:ja] Walk quietly beside him",
+        "feedback": "[TODO:ja] You match his peace."
+      },
+      {
+        "text": "[TODO:ja] Hang back, afraid to be seen",
+        "feedback": "[TODO:ja] Do not hide from joy."
+      }
+    ]
+  },
+  "push_consequence": {
+    "title": "[TODO:ja] Be Still",
+    "text": "[TODO:ja] His coming needs no rushing.\nFall back into his step.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Walk quietly beside him",
+        "feedback": "[TODO:ja] You slow your pace."
+      }
+    ]
+  },
+  "hang_consequence": {
+    "title": "[TODO:ja] Come Closer",
+    "text": "[TODO:ja] Today is for being near him.\nDraw close.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Walk quietly beside him",
+        "feedback": "[TODO:ja] You walk at his side."
+      }
+    ]
+  },
+  "donkey": {
+    "title": "[TODO:ja] Bring the Colt",
+    "text": "[TODO:ja] Two disciples return with a young donkey.\n\"The Lord has need of it.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Offer a fine horse instead",
+        "feedback": "[TODO:ja] Kings of peace ride humbly."
+      },
+      {
+        "text": "[TODO:ja] Lay your cloak on its back",
+        "feedback": "[TODO:ja] You give what is yours."
+      }
+    ]
+  },
+  "horse_consequence": {
+    "title": "[TODO:ja] Not a War King",
+    "text": "[TODO:ja] He chose the colt to fulfill the word.\nHonor his choice.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Lay your cloak on its back",
+        "feedback": "[TODO:ja] You bow and place it down."
+      }
+    ]
+  },
+  "ride": {
+    "title": "[TODO:ja] The Prophecy",
+    "text": "[TODO:ja] He rides as Zechariah foretold.\n\"Your king comes, humble and gentle.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Mock the small donkey",
+        "feedback": "[TODO:ja] What is humble is what is holy."
+      },
+      {
+        "text": "[TODO:ja] Recognize the word fulfilled",
+        "feedback": "[TODO:ja] Your heart leaps."
+      },
+      {
+        "text": "[TODO:ja] Worry about Roman soldiers",
+        "feedback": "[TODO:ja] Fear is not the road today."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ja] Do Not Mock",
+    "text": "[TODO:ja] Humility is the throne of God.\nReceive what you see.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Recognize the word fulfilled",
+        "feedback": "[TODO:ja] You lower your eyes."
+      }
+    ]
+  },
+  "worry_consequence": {
+    "title": "[TODO:ja] Be Not Afraid",
+    "text": "[TODO:ja] Today is for joy, not fear.\nLift your head.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Recognize the word fulfilled",
+        "feedback": "[TODO:ja] You breathe peace."
+      }
+    ]
+  },
+  "cloaks": {
+    "title": "[TODO:ja] A Royal Road",
+    "text": "[TODO:ja] Villagers spread their cloaks for him.\nThe ground becomes a carpet.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Keep your cloak for yourself",
+        "feedback": "[TODO:ja] Give what honors him."
+      },
+      {
+        "text": "[TODO:ja] Lay your cloak on the road",
+        "feedback": "[TODO:ja] You give it gladly."
+      }
+    ]
+  },
+  "keep_consequence": {
+    "title": "[TODO:ja] Give Freely",
+    "text": "[TODO:ja] What you keep cannot honor him.\nOpen your hands.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Lay your cloak on the road",
+        "feedback": "[TODO:ja] You let it fall."
+      }
+    ]
+  },
+  "palms": {
+    "title": "[TODO:ja] Branches Lifted",
+    "text": "[TODO:ja] Palm branches sway like green flames.\nThe air is bright with welcome.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Snap branches to sell later",
+        "feedback": "[TODO:ja] Worship is not a market."
+      },
+      {
+        "text": "[TODO:ja] Wave a branch with joy",
+        "feedback": "[TODO:ja] Your branch dances."
+      },
+      {
+        "text": "[TODO:ja] Stand stiff and unmoved",
+        "feedback": "[TODO:ja] Even stones would cry out."
+      }
+    ]
+  },
+  "sell_consequence": {
+    "title": "[TODO:ja] Not For Sale",
+    "text": "[TODO:ja] This is praise, not profit.\nLift the branch in love.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Wave a branch with joy",
+        "feedback": "[TODO:ja] You lift it high."
+      }
+    ]
+  },
+  "stiff_consequence": {
+    "title": "[TODO:ja] Let Joy Move You",
+    "text": "[TODO:ja] If you are silent, the stones will sing.\nJoin the song.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Wave a branch with joy",
+        "feedback": "[TODO:ja] Your hands rise."
+      }
+    ]
+  },
+  "hosanna": {
+    "title": "[TODO:ja] Hosanna in the Highest",
+    "text": "[TODO:ja] \"Blessed is he who comes\nin the name of the Lord!\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Shout for a political king",
+        "feedback": "[TODO:ja] He is a king of peace."
+      },
+      {
+        "text": "[TODO:ja] Sing Hosanna with the crowd",
+        "feedback": "[TODO:ja] Your voice joins theirs."
+      }
+    ]
+  },
+  "political_consequence": {
+    "title": "[TODO:ja] A Different Crown",
+    "text": "[TODO:ja] He brings a kingdom not of swords.\nSing of peace instead.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Sing Hosanna with the crowd",
+        "feedback": "[TODO:ja] You sing the holy name."
+      }
+    ]
+  },
+  "pharisees": {
+    "title": "[TODO:ja] Quiet Your Disciples",
+    "text": "[TODO:ja] Pharisees frown at the song.\n\"Teacher, silence your people.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Hush the singing in fear",
+        "feedback": "[TODO:ja] Do not quiet what God stirs."
+      },
+      {
+        "text": "[TODO:ja] Trust him — \"Even stones would cry.\"",
+        "feedback": "[TODO:ja] You stand firm in praise."
+      },
+      {
+        "text": "[TODO:ja] Argue loudly with the Pharisees",
+        "feedback": "[TODO:ja] Praise is louder than arguing."
+      }
+    ]
+  },
+  "hush_consequence": {
+    "title": "[TODO:ja] Do Not Silence Joy",
+    "text": "[TODO:ja] What God has opened, do not close.\nSing on.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Trust him — \"Even stones would cry.\"",
+        "feedback": "[TODO:ja] You sing again."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:ja] Praise, Not Quarrel",
+    "text": "[TODO:ja] Let his presence answer them.\nReturn to the song.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Trust him — \"Even stones would cry.\"",
+        "feedback": "[TODO:ja] You let praise speak."
+      }
+    ]
+  },
+  "enter": {
+    "title": "[TODO:ja] The King Enters",
+    "text": "[TODO:ja] He passes through the gate in peace.\nThe city receives her humble King.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Slip away into the crowd",
+        "feedback": "[TODO:ja] Stay where he goes."
+      },
+      {
+        "text": "[TODO:ja] Follow him into the city",
+        "feedback": "[TODO:ja] You walk with the King."
+      }
+    ]
+  },
+  "slip_consequence": {
+    "title": "[TODO:ja] Stay With Him",
+    "text": "[TODO:ja] Today is the day to follow.\nReturn to his side.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Follow him into the city",
+        "feedback": "[TODO:ja] You step in behind him."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ja] Blessed Is He",
+    "text": "[TODO:ja] A humble King has entered.\nProphecy walks through the gate.",
+    "choices": []
+  }
+}

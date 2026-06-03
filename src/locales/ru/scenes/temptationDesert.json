@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "[TODO:ru] Forty Days",
+    "text": "[TODO:ru] Forty days without bread.\nThe desert is silent.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Curse the wilderness",
+        "feedback": "[TODO:ru] The desert is sacred ground."
+      },
+      {
+        "text": "[TODO:ru] Pray and remain",
+        "feedback": "[TODO:ru] Stillness fills your soul."
+      },
+      {
+        "text": "[TODO:ru] Walk back home",
+        "feedback": "[TODO:ru] Your hour is here."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ru] Endure",
+    "text": "[TODO:ru] The Father has led you here.\nKneel in trust.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Pray and remain",
+        "feedback": "[TODO:ru] You bow your head."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "[TODO:ru] Stay",
+    "text": "[TODO:ru] This trial must be faced.\nReturn to prayer.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Pray and remain",
+        "feedback": "[TODO:ru] You sit in stillness."
+      }
+    ]
+  },
+  "bread": {
+    "title": "[TODO:ru] The First Voice",
+    "text": "[TODO:ru] A voice whispers:\n\"Turn these stones into bread.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Make the stones into bread",
+        "feedback": "[TODO:ru] Hunger is not your master."
+      },
+      {
+        "text": "[TODO:ru] \"Man lives by every word of God.\"",
+        "feedback": "[TODO:ru] Truth is your bread."
+      }
+    ]
+  },
+  "obey_bread_consequence": {
+    "title": "[TODO:ru] Resist Hunger",
+    "text": "[TODO:ru] Power is not for self.\nSpeak the truth.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"Man lives by every word of God.\"",
+        "feedback": "[TODO:ru] The voice falls silent."
+      }
+    ]
+  },
+  "pinnacle": {
+    "title": "[TODO:ru] On the Pinnacle",
+    "text": "[TODO:ru] He sets you on the temple.\n\"Throw yourself down. Angels will catch you.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Leap to prove your power",
+        "feedback": "[TODO:ru] Do not test the Father."
+      },
+      {
+        "text": "[TODO:ru] Boast of your trust",
+        "feedback": "[TODO:ru] Speak only the word."
+      },
+      {
+        "text": "[TODO:ru] \"Do not put God to the test.\"",
+        "feedback": "[TODO:ru] He frowns and turns."
+      }
+    ]
+  },
+  "leap_consequence": {
+    "title": "[TODO:ru] Stand Firm",
+    "text": "[TODO:ru] Faith is not a spectacle.\nAnswer with truth.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"Do not put God to the test.\"",
+        "feedback": "[TODO:ru] He steps back in silence."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ru] Be Humble",
+    "text": "[TODO:ru] Trust does not need proof.\nSpeak the word.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"Do not put God to the test.\"",
+        "feedback": "[TODO:ru] His face darkens."
+      }
+    ]
+  },
+  "kingdoms": {
+    "title": "[TODO:ru] All the Kingdoms",
+    "text": "[TODO:ru] He shows the world below.\n\"Bow to me and all is yours.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"Worship the Lord alone.\"",
+        "feedback": "[TODO:ru] Your voice shakes the air."
+      },
+      {
+        "text": "[TODO:ru] Bow for the kingdoms",
+        "feedback": "[TODO:ru] You serve only the Father."
+      },
+      {
+        "text": "[TODO:ru] Bargain for half",
+        "feedback": "[TODO:ru] Truth does not bargain."
+      }
+    ]
+  },
+  "bow_consequence": {
+    "title": "[TODO:ru] Serve God Alone",
+    "text": "[TODO:ru] No throne is worth your soul.\nSpeak the truth.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"Worship the Lord alone.\"",
+        "feedback": "[TODO:ru] The horizon trembles."
+      }
+    ]
+  },
+  "bargain_consequence": {
+    "title": "[TODO:ru] No Compromise",
+    "text": "[TODO:ru] Truth has no price.\nStand firm.",
+    "choices": [
+      {
+        "text": "[TODO:ru] \"Worship the Lord alone.\"",
+        "feedback": "[TODO:ru] Light returns to your face."
+      }
+    ]
+  },
+  "departs": {
+    "title": "[TODO:ru] He Departs",
+    "text": "[TODO:ru] The tempter fades into the dust.\nSilence returns.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Chase after him",
+        "feedback": "[TODO:ru] Let him go."
+      },
+      {
+        "text": "[TODO:ru] Stand in quiet thanks",
+        "feedback": "[TODO:ru] Peace fills the desert."
+      }
+    ]
+  },
+  "chase_consequence": {
+    "title": "[TODO:ru] Be Still",
+    "text": "[TODO:ru] The battle is finished.\nRest in the Father.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Stand in quiet thanks",
+        "feedback": "[TODO:ru] You breathe deeply."
+      }
+    ]
+  },
+  "rest": {
+    "title": "[TODO:ru] Angels Minister",
+    "text": "[TODO:ru] Dawn rises gently.\nThe truth has prevailed.",
+    "choices": []
+  }
+}

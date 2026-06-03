@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "The Shore",
+    "text": "The boat lands in strange country.\nA distant cry tears the silence.",
+    "choices": [
+      {
+        "text": "Turn back to the boat",
+        "feedback": "He calls you onward."
+      },
+      {
+        "text": "Follow Jesus inland",
+        "feedback": "You step ashore with him."
+      },
+      {
+        "text": "Hide behind the rocks",
+        "feedback": "Do not flee his side."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "Stay With Him",
+    "text": "He does not turn back.\nWalk where he walks.",
+    "choices": [
+      {
+        "text": "Follow Jesus inland",
+        "feedback": "You follow."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Come Out",
+    "text": "His presence is your shelter.\nWalk beside him.",
+    "choices": [
+      {
+        "text": "Follow Jesus inland",
+        "feedback": "You step into the light."
+      }
+    ]
+  },
+  "tombs": {
+    "title": "Among the Tombs",
+    "text": "Broken chains scatter the ground.\nA man lives among the dead.",
+    "choices": [
+      {
+        "text": "Mock his suffering",
+        "feedback": "See him as Christ does."
+      },
+      {
+        "text": "Look on him with pity",
+        "feedback": "Your heart breaks for him."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Have Compassion",
+    "text": "He is tormented, not despised.\nLook with mercy.",
+    "choices": [
+      {
+        "text": "Look on him with pity",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "villagers": {
+    "title": "The Villagers' Fear",
+    "text": "Villagers warn, \"No one can bind him.\"\nThey beg you to leave.",
+    "choices": [
+      {
+        "text": "Heed their fear and flee",
+        "feedback": "Stay with the Master."
+      },
+      {
+        "text": "Trust Jesus and remain",
+        "feedback": "You hold your ground."
+      },
+      {
+        "text": "Argue with the villagers",
+        "feedback": "Words will not help now."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "Do Not Flee",
+    "text": "Their fear is not your faith.\nStand with him.",
+    "choices": [
+      {
+        "text": "Trust Jesus and remain",
+        "feedback": "You stay."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Watch and Trust",
+    "text": "This hour is for witnessing.\nBe still and see.",
+    "choices": [
+      {
+        "text": "Trust Jesus and remain",
+        "feedback": "You fall quiet."
+      }
+    ]
+  },
+  "confront": {
+    "title": "He Runs to Jesus",
+    "text": "The man falls down before him.\n\"What do you want with me?\"",
+    "choices": [
+      {
+        "text": "Step between them in fear",
+        "feedback": "Trust the Master's word."
+      },
+      {
+        "text": "Watch Jesus speak",
+        "feedback": "Jesus is not afraid."
+      }
+    ]
+  },
+  "step_consequence": {
+    "title": "Let Him Act",
+    "text": "Your hands cannot heal here.\nOnly his voice can.",
+    "choices": [
+      {
+        "text": "Watch Jesus speak",
+        "feedback": "You step back."
+      }
+    ]
+  },
+  "command": {
+    "title": "Come Out of Him",
+    "text": "Jesus speaks, calm and clear.\n\"Come out of this man.\"",
+    "choices": [
+      {
+        "text": "Doubt his authority",
+        "feedback": "His word is power."
+      },
+      {
+        "text": "Believe his command",
+        "feedback": "The unclean spirits obey."
+      },
+      {
+        "text": "Cover your ears",
+        "feedback": "Listen and believe."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "See What Follows",
+    "text": "Open your eyes to his power.\nThe demons hear him.",
+    "choices": [
+      {
+        "text": "Believe his command",
+        "feedback": "You believe."
+      }
+    ]
+  },
+  "cover_consequence": {
+    "title": "Hear His Voice",
+    "text": "His word frees the captive.\nListen.",
+    "choices": [
+      {
+        "text": "Believe his command",
+        "feedback": "You listen."
+      }
+    ]
+  },
+  "pigs": {
+    "title": "Into the Herd",
+    "text": "The herd rushes down the cliff.\nThe man lies still and silent.",
+    "choices": [
+      {
+        "text": "Mourn the lost herd",
+        "feedback": "A soul outweighs them all."
+      },
+      {
+        "text": "Rejoice for the man",
+        "feedback": "He is set free."
+      }
+    ]
+  },
+  "mourn_consequence": {
+    "title": "A Soul Is Worth More",
+    "text": "He is worth more than many herds.\nRejoice.",
+    "choices": [
+      {
+        "text": "Rejoice for the man",
+        "feedback": "You smile."
+      }
+    ]
+  },
+  "restored": {
+    "title": "Go and Tell",
+    "text": "The man sits clothed, in his right mind.\n\"Tell what the Lord has done.\"",
+    "choices": []
+  }
+}

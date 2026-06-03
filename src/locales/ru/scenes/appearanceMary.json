@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "[TODO:ru] Tears at Dawn",
+    "text": "[TODO:ru] The tomb is open. He is gone.\nYour tears fall on the cold stone.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Run away in despair",
+        "feedback": "[TODO:ru] Stay. Hope is closer than you know."
+      },
+      {
+        "text": "[TODO:ru] Stay and weep at the door",
+        "feedback": "[TODO:ru] Your tears keep watch."
+      },
+      {
+        "text": "[TODO:ru] Curse those who took Him",
+        "feedback": "[TODO:ru] Anger blinds the eyes to wonder."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:ru] Do Not Flee",
+    "text": "[TODO:ru] Love does not run from an empty grave.\nLinger. Something holy waits here.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Stay and weep at the door",
+        "feedback": "[TODO:ru] You return, breath trembling."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ru] Not Anger",
+    "text": "[TODO:ru] No hand stole Him. Be still.\nLet your tears speak instead.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Stay and weep at the door",
+        "feedback": "[TODO:ru] You bow your head softly."
+      }
+    ]
+  },
+  "angels_ask": {
+    "title": "[TODO:ru] Two in White",
+    "text": "[TODO:ru] Two shining figures ask gently,\n\"Woman, why are you weeping?\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Boast you knew Him best",
+        "feedback": "[TODO:ru] Grief is not a crown."
+      },
+      {
+        "text": "[TODO:ru] Demand they return His body",
+        "feedback": "[TODO:ru] They did not take Him."
+      },
+      {
+        "text": "[TODO:ru] Answer them through your tears",
+        "feedback": "[TODO:ru] Your voice trembles, honest."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ru] Not Pride",
+    "text": "[TODO:ru] This sorrow is not yours alone.\nSpeak simply. Tell them your grief.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Answer them through your tears",
+        "feedback": "[TODO:ru] Honesty opens the moment."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ru] Not Demand",
+    "text": "[TODO:ru] Heaven does not answer demands.\nSpeak softly. Let love show.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Answer them through your tears",
+        "feedback": "[TODO:ru] Your voice softens."
+      }
+    ]
+  },
+  "stranger": {
+    "title": "[TODO:ru] Someone Behind You",
+    "text": "[TODO:ru] You turn. A figure stands in soft light.\nYou think He is the gardener.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Ignore Him and look away",
+        "feedback": "[TODO:ru] Listen. He is about to speak."
+      },
+      {
+        "text": "[TODO:ru] Speak to Him in plain hope",
+        "feedback": "[TODO:ru] Your hands open in pleading."
+      },
+      {
+        "text": "[TODO:ru] Accuse Him of moving the body",
+        "feedback": "[TODO:ru] Accusation closes the heart."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:ru] Do Not Turn Away",
+    "text": "[TODO:ru] He waits with patience for you.\nLift your eyes and speak.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Speak to Him in plain hope",
+        "feedback": "[TODO:ru] You face Him at last."
+      }
+    ]
+  },
+  "accuse_consequence": {
+    "title": "[TODO:ru] Not Accusation",
+    "text": "[TODO:ru] Do not wound the stranger.\nAsk simply, and you will be heard.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Speak to Him in plain hope",
+        "feedback": "[TODO:ru] Your words soften to a plea."
+      }
+    ]
+  },
+  "gardener_dialog": {
+    "title": "[TODO:ru] Tell Me Where",
+    "text": "[TODO:ru] \"Sir, if you took Him, tell me where,\nand I will carry Him away.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Beg with anger and tears",
+        "feedback": "[TODO:ru] Lower your voice. Listen."
+      },
+      {
+        "text": "[TODO:ru] Wait quietly for His answer",
+        "feedback": "[TODO:ru] The garden holds its breath."
+      },
+      {
+        "text": "[TODO:ru] Walk off to keep searching",
+        "feedback": "[TODO:ru] The answer is right here."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:ru] Be Still",
+    "text": "[TODO:ru] Anger drowns the voice you long for.\nQuiet your heart and listen.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Wait quietly for His answer",
+        "feedback": "[TODO:ru] Stillness opens your ears."
+      }
+    ]
+  },
+  "walk_consequence": {
+    "title": "[TODO:ru] Do Not Leave",
+    "text": "[TODO:ru] What you seek stands beside you.\nTurn back. Be present.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Wait quietly for His answer",
+        "feedback": "[TODO:ru] You stay, eyes lowered."
+      }
+    ]
+  },
+  "name_called": {
+    "title": "[TODO:ru] He Speaks Your Name",
+    "text": "[TODO:ru] One word. Soft. Familiar.\n\"Mary.\" The world stops.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Doubt your own ears",
+        "feedback": "[TODO:ru] Trust the voice you know."
+      },
+      {
+        "text": "[TODO:ru] Reason it must be someone else",
+        "feedback": "[TODO:ru] Only He speaks like this."
+      },
+      {
+        "text": "[TODO:ru] Turn fully toward His voice",
+        "feedback": "[TODO:ru] Your whole heart turns."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:ru] Trust the Voice",
+    "text": "[TODO:ru] No other voice has called you home.\nLet your name reach your heart.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Turn fully toward His voice",
+        "feedback": "[TODO:ru] You turn, trembling."
+      }
+    ]
+  },
+  "reason_consequence": {
+    "title": "[TODO:ru] Beyond Reason",
+    "text": "[TODO:ru] Some moments do not bend to logic.\nTurn. See with your own eyes.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Turn fully toward His voice",
+        "feedback": "[TODO:ru] You face Him at last."
+      }
+    ]
+  },
+  "recognition": {
+    "title": "[TODO:ru] Rabboni",
+    "text": "[TODO:ru] It is Him. Alive. Radiant.\n\"Rabboni!\" bursts from your lips.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Cling to Him with all your strength",
+        "feedback": "[TODO:ru] Joy does not need to grasp."
+      },
+      {
+        "text": "[TODO:ru] Fall and worship in awe",
+        "feedback": "[TODO:ru] Your knees bend in wonder."
+      },
+      {
+        "text": "[TODO:ru] Faint and look away in fear",
+        "feedback": "[TODO:ru] Lift your eyes. He is here."
+      }
+    ]
+  },
+  "cling_consequence": {
+    "title": "[TODO:ru] Do Not Hold On",
+    "text": "[TODO:ru] He says, \"Do not cling to me.\nI have not yet ascended.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Fall and worship in awe",
+        "feedback": "[TODO:ru] Your hands open, releasing."
+      }
+    ]
+  },
+  "faint_consequence": {
+    "title": "[TODO:ru] Rise and See",
+    "text": "[TODO:ru] He is not a ghost. He is risen.\nLift your eyes and meet Him.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Fall and worship in awe",
+        "feedback": "[TODO:ru] You rise on shaking knees."
+      }
+    ]
+  },
+  "do_not_cling": {
+    "title": "[TODO:ru] Go to My Brothers",
+    "text": "[TODO:ru] \"Go tell my brothers,\" He says.\n\"I ascend to my Father and yours.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Refuse. Stay here with Him",
+        "feedback": "[TODO:ru] Love sends. Love obeys."
+      },
+      {
+        "text": "[TODO:ru] Go at once with His message",
+        "feedback": "[TODO:ru] Your feet rise to run."
+      },
+      {
+        "text": "[TODO:ru] Argue they will not believe you",
+        "feedback": "[TODO:ru] Speak the truth anyway."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:ru] He Sends You",
+    "text": "[TODO:ru] This joy is meant to be carried.\nGo. The others wait in darkness.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Go at once with His message",
+        "feedback": "[TODO:ru] You turn toward the city."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:ru] Tell Them Anyway",
+    "text": "[TODO:ru] Belief is not yours to give.\nYour task is only to tell.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Go at once with His message",
+        "feedback": "[TODO:ru] You set out without delay."
+      }
+    ]
+  },
+  "tell_disciples": {
+    "title": "[TODO:ru] I Have Seen the Lord",
+    "text": "[TODO:ru] Hands trembling, you knock and speak:\n\"I have seen the Lord!\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Speak with quiet, steady joy",
+        "feedback": "[TODO:ru] Your voice fills the room."
+      },
+      {
+        "text": "[TODO:ru] Boast you were chosen first",
+        "feedback": "[TODO:ru] Joy belongs to everyone."
+      },
+      {
+        "text": "[TODO:ru] Whisper, afraid of their faces",
+        "feedback": "[TODO:ru] Speak boldly. He is risen."
+      }
+    ]
+  },
+  "pride_end_consequence": {
+    "title": "[TODO:ru] Joy for All",
+    "text": "[TODO:ru] This morning belongs to everyone.\nGive the news, not yourself.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Speak with quiet, steady joy",
+        "feedback": "[TODO:ru] You lower your voice in awe."
+      }
+    ]
+  },
+  "whisper_consequence": {
+    "title": "[TODO:ru] Speak Clearly",
+    "text": "[TODO:ru] Hope must be heard to be carried.\nLift your voice. Tell them all.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Speak with quiet, steady joy",
+        "feedback": "[TODO:ru] Your words ring out clearly."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ru] He Is Risen Indeed",
+    "text": "[TODO:ru] He called your name. You are changed.\nThe morning belongs to hope.",
+    "choices": []
+  }
+}

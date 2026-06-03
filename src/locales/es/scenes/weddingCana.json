@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "[TODO:es] A Joyful Feast",
+    "text": "[TODO:es] Lanterns sway. Laughter rises.\nThe bride and groom dance.",
+    "choices": [
+      {
+        "text": "[TODO:es] Join the dancing",
+        "feedback": "[TODO:es] Joy belongs to all."
+      },
+      {
+        "text": "[TODO:es] Slip away from the noise",
+        "feedback": "[TODO:es] Stay. Be present."
+      }
+    ]
+  },
+  "slip_consequence": {
+    "title": "[TODO:es] Return",
+    "text": "[TODO:es] The feast still calls you.\nGo back.",
+    "choices": [
+      {
+        "text": "[TODO:es] Join the dancing",
+        "feedback": "[TODO:es] Warmth meets you."
+      }
+    ]
+  },
+  "shortage": {
+    "title": "[TODO:es] The Last Cup",
+    "text": "[TODO:es] Whispers spread: the wine is gone.\nMary's eyes find her son.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hide the empty jars",
+        "feedback": "[TODO:es] Truth is better."
+      },
+      {
+        "text": "[TODO:es] Pretend nothing is wrong",
+        "feedback": "[TODO:es] Do not hide it."
+      },
+      {
+        "text": "[TODO:es] Bring word to Mary",
+        "feedback": "[TODO:es] She will know."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:es] Tell Her",
+    "text": "[TODO:es] Shame solves nothing.\nFind Mary.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring word to Mary",
+        "feedback": "[TODO:es] She listens gently."
+      }
+    ]
+  },
+  "pretend_consequence": {
+    "title": "[TODO:es] Speak",
+    "text": "[TODO:es] The guests will notice.\nDo not pretend.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring word to Mary",
+        "feedback": "[TODO:es] She turns to her son."
+      }
+    ]
+  },
+  "mother": {
+    "title": "[TODO:es] His Mother's Voice",
+    "text": "[TODO:es] \"They have no more wine,\" she says.\nThen turns to you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Wait for clear orders",
+        "feedback": "[TODO:es] Listen closely."
+      },
+      {
+        "text": "[TODO:es] \"Do whatever he tells you.\"",
+        "feedback": "[TODO:es] Her trust steadies you."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:es] Trust Her Words",
+    "text": "[TODO:es] She has already spoken.\nObey her son.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"Do whatever he tells you.\"",
+        "feedback": "[TODO:es] You bow your head."
+      }
+    ]
+  },
+  "instruct": {
+    "title": "[TODO:es] A Quiet Command",
+    "text": "[TODO:es] Jesus points to six stone jars.\n\"Fill them with water.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Ask why — it is only water",
+        "feedback": "[TODO:es] Obey first."
+      },
+      {
+        "text": "[TODO:es] Take only one jar",
+        "feedback": "[TODO:es] Fill them all."
+      },
+      {
+        "text": "[TODO:es] Fill every jar to the brim",
+        "feedback": "[TODO:es] Full obedience."
+      }
+    ]
+  },
+  "ask_consequence": {
+    "title": "[TODO:es] Just Do It",
+    "text": "[TODO:es] Questions can wait.\nLift the water.",
+    "choices": [
+      {
+        "text": "[TODO:es] Fill every jar to the brim",
+        "feedback": "[TODO:es] Your hands move."
+      }
+    ]
+  },
+  "half_consequence": {
+    "title": "[TODO:es] All of Them",
+    "text": "[TODO:es] He said every jar.\nDo not hold back.",
+    "choices": [
+      {
+        "text": "[TODO:es] Fill every jar to the brim",
+        "feedback": "[TODO:es] Water rises in each one."
+      }
+    ]
+  },
+  "fill": {
+    "title": "[TODO:es] To the Brim",
+    "text": "[TODO:es] Six jars, full of cool water.\n\"Now draw some out,\" he says.",
+    "choices": [
+      {
+        "text": "[TODO:es] Refuse — it is just water",
+        "feedback": "[TODO:es] Trust him."
+      },
+      {
+        "text": "[TODO:es] Carry it to the steward",
+        "feedback": "[TODO:es] You obey without seeing."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:es] Carry It",
+    "text": "[TODO:es] Faith walks before sight.\nGo.",
+    "choices": [
+      {
+        "text": "[TODO:es] Carry it to the steward",
+        "feedback": "[TODO:es] Your steps are sure."
+      }
+    ]
+  },
+  "taste": {
+    "title": "[TODO:es] The First Sip",
+    "text": "[TODO:es] The steward's eyes widen.\n\"You saved the best for last!\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Boast that you poured it",
+        "feedback": "[TODO:es] This is not yours."
+      },
+      {
+        "text": "[TODO:es] Stay quiet and give thanks",
+        "feedback": "[TODO:es] Silence honors him."
+      },
+      {
+        "text": "[TODO:es] Slip out unnoticed",
+        "feedback": "[TODO:es] Stay and witness."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:es] Be Still",
+    "text": "[TODO:es] The wonder is his alone.\nGive thanks.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stay quiet and give thanks",
+        "feedback": "[TODO:es] Your heart bows."
+      }
+    ]
+  },
+  "slip2_consequence": {
+    "title": "[TODO:es] Witness It",
+    "text": "[TODO:es] Stay. See what he has done.\nGive thanks.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stay quiet and give thanks",
+        "feedback": "[TODO:es] Joy fills the courtyard."
+      }
+    ]
+  },
+  "wonder": {
+    "title": "[TODO:es] The First Sign",
+    "text": "[TODO:es] The disciples look at Jesus.\nThey believe.",
+    "choices": []
+  }
+}

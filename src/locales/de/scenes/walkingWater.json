@@ -1,0 +1,207 @@
+{
+  "start": {
+    "title": "[TODO:de] Night Crossing",
+    "text": "[TODO:de] The boat drifts under the moon.\nThe wind begins to rise.",
+    "choices": [
+      {
+        "text": "[TODO:de] Sleep through the wind",
+        "feedback": "[TODO:de] Stay alert."
+      },
+      {
+        "text": "[TODO:de] Take up the oars",
+        "feedback": "[TODO:de] You pull hard."
+      },
+      {
+        "text": "[TODO:de] Turn back to shore",
+        "feedback": "[TODO:de] He sent you across."
+      }
+    ]
+  },
+  "sleep_consequence": {
+    "title": "[TODO:de] Stay Awake",
+    "text": "[TODO:de] The sea will not wait.\nGrip an oar.",
+    "choices": [
+      {
+        "text": "[TODO:de] Take up the oars",
+        "feedback": "[TODO:de] You row."
+      }
+    ]
+  },
+  "turnback_consequence": {
+    "title": "[TODO:de] Cross As He Said",
+    "text": "[TODO:de] He told you to cross.\nKeep going.",
+    "choices": [
+      {
+        "text": "[TODO:de] Take up the oars",
+        "feedback": "[TODO:de] You press on."
+      }
+    ]
+  },
+  "wind": {
+    "title": "[TODO:de] Wind Against You",
+    "text": "[TODO:de] Wind tears the sail.\nWaves slam the hull.",
+    "choices": [
+      {
+        "text": "[TODO:de] Curse the wind",
+        "feedback": "[TODO:de] Anger will not help."
+      },
+      {
+        "text": "[TODO:de] Row with the others",
+        "feedback": "[TODO:de] You strain together."
+      },
+      {
+        "text": "[TODO:de] Hide in the hull",
+        "feedback": "[TODO:de] Help your brothers."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:de] Hold Fast",
+    "text": "[TODO:de] Cursing stills no sea.\nRow with them.",
+    "choices": [
+      {
+        "text": "[TODO:de] Row with the others",
+        "feedback": "[TODO:de] You grip the oar."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:de] Stand With Them",
+    "text": "[TODO:de] Your brothers need your hands.\nRise.",
+    "choices": [
+      {
+        "text": "[TODO:de] Row with the others",
+        "feedback": "[TODO:de] You take your place."
+      }
+    ]
+  },
+  "ghost": {
+    "title": "[TODO:de] A Figure on the Sea",
+    "text": "[TODO:de] Someone walks on the water.\nThe disciples cry, \"A ghost!\"",
+    "choices": [
+      {
+        "text": "[TODO:de] Scream and hide your face",
+        "feedback": "[TODO:de] Look again."
+      },
+      {
+        "text": "[TODO:de] Look and listen",
+        "feedback": "[TODO:de] You squint into the dark."
+      }
+    ]
+  },
+  "scream_consequence": {
+    "title": "[TODO:de] Look Again",
+    "text": "[TODO:de] Fear will blind you.\nLift your eyes.",
+    "choices": [
+      {
+        "text": "[TODO:de] Look and listen",
+        "feedback": "[TODO:de] You watch closely."
+      }
+    ]
+  },
+  "reassure": {
+    "title": "[TODO:de] Take Courage",
+    "text": "[TODO:de] His voice carries on the wind.\n\"Take heart. It is I.\"",
+    "choices": [
+      {
+        "text": "[TODO:de] Doubt it is him",
+        "feedback": "[TODO:de] Test the voice."
+      },
+      {
+        "text": "[TODO:de] \"Lord, bid me come\"",
+        "feedback": "[TODO:de] He says, \"Come.\""
+      },
+      {
+        "text": "[TODO:de] Stay silent in the boat",
+        "feedback": "[TODO:de] Speak to him."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:de] Trust His Voice",
+    "text": "[TODO:de] It is the Lord.\nAsk him.",
+    "choices": [
+      {
+        "text": "[TODO:de] \"Lord, bid me come\"",
+        "feedback": "[TODO:de] He calls you."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:de] Speak To Him",
+    "text": "[TODO:de] Silence holds you back.\nCall to him.",
+    "choices": [
+      {
+        "text": "[TODO:de] \"Lord, bid me come\"",
+        "feedback": "[TODO:de] His word is yes."
+      }
+    ]
+  },
+  "peter_step": {
+    "title": "[TODO:de] Out of the Boat",
+    "text": "[TODO:de] Your foot hovers above the wave.\nWill you trust?",
+    "choices": [
+      {
+        "text": "[TODO:de] Stay safe in the boat",
+        "feedback": "[TODO:de] He called you out."
+      },
+      {
+        "text": "[TODO:de] Step onto the water",
+        "feedback": "[TODO:de] The wave holds you."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:de] Answer the Call",
+    "text": "[TODO:de] Faith is on the water.\nStep out.",
+    "choices": [
+      {
+        "text": "[TODO:de] Step onto the water",
+        "feedback": "[TODO:de] You walk."
+      }
+    ]
+  },
+  "peter_sink": {
+    "title": "[TODO:de] The Wind, the Waves",
+    "text": "[TODO:de] You see the wind.\nFear pulls you down.",
+    "choices": [
+      {
+        "text": "[TODO:de] Try to swim alone",
+        "feedback": "[TODO:de] You cannot save yourself."
+      },
+      {
+        "text": "[TODO:de] \"Lord, save me!\"",
+        "feedback": "[TODO:de] His hand catches yours."
+      },
+      {
+        "text": "[TODO:de] Curse your weakness",
+        "feedback": "[TODO:de] Cry to him."
+      }
+    ]
+  },
+  "swim_consequence": {
+    "title": "[TODO:de] Call To Him",
+    "text": "[TODO:de] Your strength fails.\nHe is reaching.",
+    "choices": [
+      {
+        "text": "[TODO:de] \"Lord, save me!\"",
+        "feedback": "[TODO:de] He pulls you up."
+      }
+    ]
+  },
+  "curse_self_consequence": {
+    "title": "[TODO:de] Look To Him",
+    "text": "[TODO:de] Shame will not lift you.\nReach.",
+    "choices": [
+      {
+        "text": "[TODO:de] \"Lord, save me!\"",
+        "feedback": "[TODO:de] He takes your hand."
+      }
+    ]
+  },
+  "calm": {
+    "title": "[TODO:de] Truly the Son of God",
+    "text": "[TODO:de] He steps into the boat.\nThe wind goes still.",
+    "choices": []
+  }
+}

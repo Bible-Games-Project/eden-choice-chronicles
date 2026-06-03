@@ -1,0 +1,443 @@
+{
+  "start": {
+    "title": "[TODO:ru] Iron Gate",
+    "text": "[TODO:ru] The gate slams shut behind you.\nFalsely accused. Stripped of all favor.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Curse the woman who lied",
+        "feedback": "[TODO:ru] Bitterness will rot you here."
+      },
+      {
+        "text": "[TODO:ru] Quietly trust the Lord",
+        "feedback": "[TODO:ru] You breathe deep. God is still here."
+      },
+      {
+        "text": "[TODO:ru] Plot a way to escape",
+        "feedback": "[TODO:ru] Walls are thick. Guards are many."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ru] Hollow Words",
+    "text": "[TODO:ru] Anger only echoes off the stone.\nHate cannot free you.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Quietly trust the Lord",
+        "feedback": "[TODO:ru] You let the bitterness fall."
+      }
+    ]
+  },
+  "escape_consequence": {
+    "title": "[TODO:ru] No Way Out",
+    "text": "[TODO:ru] Every corner is watched.\nYou sit back down on the cold floor.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Quietly trust the Lord",
+        "feedback": "[TODO:ru] Trust where you cannot run."
+      }
+    ]
+  },
+  "first_night": {
+    "title": "[TODO:ru] First Night",
+    "text": "[TODO:ru] Lamplight flickers low.\nYou kneel and whisper His name.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Sleep with hope in God",
+        "feedback": "[TODO:ru] Peace settles on your eyes."
+      },
+      {
+        "text": "[TODO:ru] Curse the day you were born",
+        "feedback": "[TODO:ru] Despair feeds nothing."
+      }
+    ]
+  },
+  "despair_consequence": {
+    "title": "[TODO:ru] Dawn Returns",
+    "text": "[TODO:ru] Even in darkness, morning comes.\nYou choose to rise again.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Get up and serve",
+        "feedback": "[TODO:ru] You stand. A new day waits."
+      }
+    ]
+  },
+  "morning_work": {
+    "title": "[TODO:ru] A Task to Do",
+    "text": "[TODO:ru] The keeper points to the buckets.\nWater. Floors. Bread to carry.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Refuse — you are no slave",
+        "feedback": "[TODO:ru] Pride will earn you the lash."
+      },
+      {
+        "text": "[TODO:ru] Work as if for the Lord",
+        "feedback": "[TODO:ru] You lift the bucket without a word."
+      },
+      {
+        "text": "[TODO:ru] Do little, hide from him",
+        "feedback": "[TODO:ru] He will see. He always sees."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:ru] A Hard Lesson",
+    "text": "[TODO:ru] The keeper's eyes narrow.\nYou take the bucket in silence.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Work as if for the Lord",
+        "feedback": "[TODO:ru] Better to serve than to suffer pride."
+      }
+    ]
+  },
+  "lazy_consequence": {
+    "title": "[TODO:ru] Caught",
+    "text": "[TODO:ru] The keeper finds you idle.\nHis voice is sharp and short.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Apologize and work hard",
+        "feedback": "[TODO:ru] You bow your head and lift the load."
+      }
+    ]
+  },
+  "faithful_work": {
+    "title": "[TODO:ru] The Lord Is With Joseph",
+    "text": "[TODO:ru] Whatever you touch, prospers.\nThe keeper begins to watch.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Quietly thank God in your heart",
+        "feedback": "[TODO:ru] Heaven hears the silent prayer."
+      },
+      {
+        "text": "[TODO:ru] Boast of your skill aloud",
+        "feedback": "[TODO:ru] Boasting ruins what humility built."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ru] Cold Looks",
+    "text": "[TODO:ru] Other prisoners turn away.\nYour words have cost you trust.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Humble yourself before God",
+        "feedback": "[TODO:ru] You bow. The Lord lifts the lowly."
+      }
+    ]
+  },
+  "trusted_steward": {
+    "title": "[TODO:ru] Keys in His Hand",
+    "text": "[TODO:ru] The keeper hands you the ring.\n\"All the prisoners — your charge.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Demand release in return",
+        "feedback": "[TODO:ru] He laughs. You are still a prisoner."
+      },
+      {
+        "text": "[TODO:ru] Bow and serve faithfully",
+        "feedback": "[TODO:ru] You bow. The keys are heavy and warm."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ru] Still a Prisoner",
+    "text": "[TODO:ru] His face hardens.\nThe keys remain — but only just.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Bow and serve with thanks",
+        "feedback": "[TODO:ru] You take the keys in silence."
+      }
+    ]
+  },
+  "two_arrivals": {
+    "title": "[TODO:ru] Pharaoh's Servants",
+    "text": "[TODO:ru] Two new prisoners arrive.\nCupbearer and chief baker. Pale, afraid.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Ignore them — not your problem",
+        "feedback": "[TODO:ru] A shepherd does not turn away."
+      },
+      {
+        "text": "[TODO:ru] Welcome and care for them",
+        "feedback": "[TODO:ru] You pour them water. They breathe."
+      },
+      {
+        "text": "[TODO:ru] Mock the fallen nobles",
+        "feedback": "[TODO:ru] Cruelty is not in the Lord's house."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:ru] A Soft Voice",
+    "text": "[TODO:ru] Their faces stay heavy.\nYou cannot turn from them.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Go and care for them",
+        "feedback": "[TODO:ru] You kneel beside them."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ru] Their Eyes",
+    "text": "[TODO:ru] They look up, hurt.\nShame settles in your chest.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Apologize and serve them",
+        "feedback": "[TODO:ru] You ask their forgiveness."
+      }
+    ]
+  },
+  "morning_sad": {
+    "title": "[TODO:ru] Why So Downcast?",
+    "text": "[TODO:ru] At dawn their faces are dark.\nSomething troubles them deeply.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Tell me your dreams, please",
+        "feedback": "[TODO:ru] Both men look up at once."
+      },
+      {
+        "text": "[TODO:ru] Stay silent — none of your concern",
+        "feedback": "[TODO:ru] Silence helps no one here."
+      },
+      {
+        "text": "[TODO:ru] Charge them coins to listen",
+        "feedback": "[TODO:ru] God's gift is not for sale."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:ru] Their Burden",
+    "text": "[TODO:ru] They sit in silence.\nYou cannot leave them this way.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Ask them about their dreams",
+        "feedback": "[TODO:ru] Their eyes lift toward you."
+      }
+    ]
+  },
+  "greedy_consequence": {
+    "title": "[TODO:ru] A Gift, Not Goods",
+    "text": "[TODO:ru] Their faces fall further.\nThis is not how the Lord gives.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Ask freely — it is God's gift",
+        "feedback": "[TODO:ru] You smile. \"Speak. Tell me.\""
+      }
+    ]
+  },
+  "interpret_offer": {
+    "title": "[TODO:ru] To God Belong Answers",
+    "text": "[TODO:ru] \"Do not interpretations belong to God?\nTell me your dreams.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Listen carefully to both",
+        "feedback": "[TODO:ru] The cupbearer leans forward to speak."
+      }
+    ]
+  },
+  "cupbearer_dream": {
+    "title": "[TODO:ru] The Vine",
+    "text": "[TODO:ru] \"A vine — three branches budding.\nI pressed grapes into Pharaoh's cup.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Invent a flattering meaning",
+        "feedback": "[TODO:ru] The Lord does not speak through flattery."
+      },
+      {
+        "text": "[TODO:ru] Speak what God reveals",
+        "feedback": "[TODO:ru] Words rise clearly in your heart."
+      }
+    ]
+  },
+  "flatter_consequence": {
+    "title": "[TODO:ru] Truth Only",
+    "text": "[TODO:ru] Lies will not honor God.\nYou must speak what is true.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Speak what God reveals",
+        "feedback": "[TODO:ru] You bow your head and begin."
+      }
+    ]
+  },
+  "cupbearer_meaning": {
+    "title": "[TODO:ru] Three Days",
+    "text": "[TODO:ru] \"Three branches: three days.\nPharaoh will lift up your head.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Ask him to remember you",
+        "feedback": "[TODO:ru] His eyes shine with promise."
+      },
+      {
+        "text": "[TODO:ru] Demand half his future wages",
+        "feedback": "[TODO:ru] God's gift was never for sale."
+      }
+    ]
+  },
+  "demand_wages_consequence": {
+    "title": "[TODO:ru] Open Hands",
+    "text": "[TODO:ru] His face goes cold.\nYou must serve, not bargain.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Only ask him to remember you",
+        "feedback": "[TODO:ru] \"Only remember me,\" you whisper."
+      }
+    ]
+  },
+  "remember_request": {
+    "title": "[TODO:ru] Remember Me",
+    "text": "[TODO:ru] \"When all is well — remember me.\nI was stolen from my land.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Now hear the baker's dream",
+        "feedback": "[TODO:ru] The baker steps forward, hopeful."
+      }
+    ]
+  },
+  "baker_dream": {
+    "title": "[TODO:ru] Three Baskets",
+    "text": "[TODO:ru] \"Three baskets on my head — birds\nate the bread meant for Pharaoh.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Lie to spare him pain",
+        "feedback": "[TODO:ru] A lie helps no one in the end."
+      },
+      {
+        "text": "[TODO:ru] Tell the hard truth gently",
+        "feedback": "[TODO:ru] You take a slow breath. Truth."
+      },
+      {
+        "text": "[TODO:ru] Refuse to interpret it",
+        "feedback": "[TODO:ru] Refusing will not change the dream."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:ru] He Deserves Truth",
+    "text": "[TODO:ru] A kind lie still leaves him blind.\nHe must hear what is real.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Tell the hard truth gently",
+        "feedback": "[TODO:ru] You meet his eyes with sorrow."
+      }
+    ]
+  },
+  "refuse_interp_consequence": {
+    "title": "[TODO:ru] He Waits",
+    "text": "[TODO:ru] His pleading eyes hold yours.\nGod has given. You must speak.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Tell the hard truth gently",
+        "feedback": "[TODO:ru] You begin softly, with care."
+      }
+    ]
+  },
+  "baker_meaning": {
+    "title": "[TODO:ru] Hard Words",
+    "text": "[TODO:ru] \"Three baskets: three days.\nPharaoh will lift you on a tree.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Comfort and pray with him",
+        "feedback": "[TODO:ru] You sit with him until the lamp dims."
+      }
+    ]
+  },
+  "third_day": {
+    "title": "[TODO:ru] The Third Day",
+    "text": "[TODO:ru] Pharaoh's birthday dawns.\nGuards come for both men.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Bless them as they go",
+        "feedback": "[TODO:ru] You lay a hand on each shoulder."
+      },
+      {
+        "text": "[TODO:ru] Rage against the guards",
+        "feedback": "[TODO:ru] Anger will only earn you chains."
+      }
+    ]
+  },
+  "rage_consequence": {
+    "title": "[TODO:ru] Be Still",
+    "text": "[TODO:ru] A spear lowers toward your chest.\nYou fall back, breathing hard.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Bless them quietly",
+        "feedback": "[TODO:ru] You whisper a prayer instead."
+      }
+    ]
+  },
+  "wait_news": {
+    "title": "[TODO:ru] Word Returns",
+    "text": "[TODO:ru] It is as you said.\nThe cupbearer lives. The baker does not.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Wait quietly to be remembered",
+        "feedback": "[TODO:ru] You sit by the small window."
+      },
+      {
+        "text": "[TODO:ru] Curse the cupbearer's silence",
+        "feedback": "[TODO:ru] Bitterness blinds the watchful eye."
+      }
+    ]
+  },
+  "curse2_consequence": {
+    "title": "[TODO:ru] Let It Go",
+    "text": "[TODO:ru] Hate cannot reach Pharaoh's hall.\nOnly God can.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Wait quietly on the Lord",
+        "feedback": "[TODO:ru] You release the bitter knot inside."
+      }
+    ]
+  },
+  "forgotten": {
+    "title": "[TODO:ru] Forgotten",
+    "text": "[TODO:ru] Days. Months. Two long years.\nThe cupbearer remembers him not.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Lose all faith and despair",
+        "feedback": "[TODO:ru] Despair will steal the morning."
+      },
+      {
+        "text": "[TODO:ru] Keep trusting God's timing",
+        "feedback": "[TODO:ru] You whisper, \"He has not forgotten.\""
+      },
+      {
+        "text": "[TODO:ru] Try to bribe a guard",
+        "feedback": "[TODO:ru] The guard takes nothing. You lose more."
+      }
+    ]
+  },
+  "despair2_consequence": {
+    "title": "[TODO:ru] A Soft Light",
+    "text": "[TODO:ru] Through the window, a single ray.\nGod is still near.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Lift your eyes again",
+        "feedback": "[TODO:ru] You rise. Hope is not gone."
+      }
+    ]
+  },
+  "bribe_consequence": {
+    "title": "[TODO:ru] Empty Hands",
+    "text": "[TODO:ru] He laughs. Your bread is gone.\nNo one will buy your freedom.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Trust the Lord alone",
+        "feedback": "[TODO:ru] Only God can open this gate."
+      }
+    ]
+  },
+  "still_trust": {
+    "title": "[TODO:ru] The Lord Is With You",
+    "text": "[TODO:ru] Even forgotten by men,\nyou are not forgotten by Him.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Continue serving faithfully",
+        "feedback": "[TODO:ru] The keys jingle softly at your side."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ru] His Time Will Come",
+    "text": "[TODO:ru] The lamp burns. The Lord watches.\nPharaoh's dream is yet to come.",
+    "choices": []
+  }
+}

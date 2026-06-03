@@ -1,0 +1,155 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] The Long Road",
+    "text": "[TODO:pt-BR] Mary rests against the donkey at dusk.\nThe road to Bethlehem stretches on.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Push on through the night",
+        "feedback": "[TODO:pt-BR] She needs gentleness, not haste."
+      },
+      {
+        "text": "[TODO:pt-BR] Walk beside her in care",
+        "feedback": "[TODO:pt-BR] Your hand steadies her."
+      },
+      {
+        "text": "[TODO:pt-BR] Turn back to Nazareth",
+        "feedback": "[TODO:pt-BR] The decree must be obeyed."
+      }
+    ]
+  },
+  "push_consequence": {
+    "title": "[TODO:pt-BR] Slow Your Step",
+    "text": "[TODO:pt-BR] She winces with the child within.\nMatch her pace, not your own.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk beside her in care",
+        "feedback": "[TODO:pt-BR] You slow your stride."
+      }
+    ]
+  },
+  "turnback_consequence": {
+    "title": "[TODO:pt-BR] The Path Forward",
+    "text": "[TODO:pt-BR] Heaven has chosen this road.\nKeep walking with her.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk beside her in care",
+        "feedback": "[TODO:pt-BR] You face the road ahead."
+      }
+    ]
+  },
+  "bethlehem": {
+    "title": "[TODO:pt-BR] Lamps of Bethlehem",
+    "text": "[TODO:pt-BR] The town is full for the census.\nHer time draws near.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Demand a room with force",
+        "feedback": "[TODO:pt-BR] Force will open no door tonight."
+      },
+      {
+        "text": "[TODO:pt-BR] Ask the innkeeper humbly",
+        "feedback": "[TODO:pt-BR] Humility opens what pride cannot."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:pt-BR] Soften Your Voice",
+    "text": "[TODO:pt-BR] Anger turns the doors away.\nApproach the keeper in peace.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Ask the innkeeper humbly",
+        "feedback": "[TODO:pt-BR] You bow your head and ask."
+      }
+    ]
+  },
+  "inn": {
+    "title": "[TODO:pt-BR] No Room for You",
+    "text": "[TODO:pt-BR] \"There is no room here, traveler.\nOnly the stable behind remains.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Sleep in the cold street",
+        "feedback": "[TODO:pt-BR] The night will be too harsh."
+      },
+      {
+        "text": "[TODO:pt-BR] Accept the humble stable",
+        "feedback": "[TODO:pt-BR] Heaven prepared this place."
+      },
+      {
+        "text": "[TODO:pt-BR] Argue and shout in anger",
+        "feedback": "[TODO:pt-BR] Quiet your spirit."
+      }
+    ]
+  },
+  "street_consequence": {
+    "title": "[TODO:pt-BR] Shelter Is Offered",
+    "text": "[TODO:pt-BR] The wind is cold and bitter.\nA stable waits behind the inn.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Accept the humble stable",
+        "feedback": "[TODO:pt-BR] You guide her behind the inn."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:pt-BR] Receive the Gift",
+    "text": "[TODO:pt-BR] Even a stable is a kindness tonight.\nReceive what is given.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Accept the humble stable",
+        "feedback": "[TODO:pt-BR] You nod in quiet thanks."
+      }
+    ]
+  },
+  "stable": {
+    "title": "[TODO:pt-BR] A Quiet Stable",
+    "text": "[TODO:pt-BR] Hay, lamplight, and gentle breath.\nMary settles against the wall.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Complain of the place",
+        "feedback": "[TODO:pt-BR] Heaven kneels in low places."
+      },
+      {
+        "text": "[TODO:pt-BR] Prepare a place with hay",
+        "feedback": "[TODO:pt-BR] Your hands make ready."
+      }
+    ]
+  },
+  "complain_consequence": {
+    "title": "[TODO:pt-BR] See the Beauty",
+    "text": "[TODO:pt-BR] This humble shelter is enough.\nReady the place with care.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Prepare a place with hay",
+        "feedback": "[TODO:pt-BR] You gather the hay."
+      }
+    ]
+  },
+  "birth": {
+    "title": "[TODO:pt-BR] Her Time Has Come",
+    "text": "[TODO:pt-BR] A soft cry rises through the night.\nThe child is born.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Run for help to strangers",
+        "feedback": "[TODO:pt-BR] She needs you here."
+      },
+      {
+        "text": "[TODO:pt-BR] Stand silent in awe",
+        "feedback": "[TODO:pt-BR] Heaven has come near."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:pt-BR] Stay With Them",
+    "text": "[TODO:pt-BR] This moment is yours to hold.\nReturn to her side.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand silent in awe",
+        "feedback": "[TODO:pt-BR] You kneel beside them."
+      }
+    ]
+  },
+  "manger": {
+    "title": "[TODO:pt-BR] Wrapped in Quiet",
+    "text": "[TODO:pt-BR] She lays him in the manger.\nThe world is still — and all is well.",
+    "choices": []
+  }
+}

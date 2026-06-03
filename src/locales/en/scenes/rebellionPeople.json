@@ -1,0 +1,245 @@
+{
+  "start": {
+    "title": "Murmurs in the Dust",
+    "text": "The camp grows restless again.\nVoices rise against the long road.",
+    "choices": [
+      {
+        "text": "Walk among them and listen",
+        "feedback": "You hear their weariness."
+      },
+      {
+        "text": "Shout them into silence",
+        "feedback": "Anger only deepens the wound."
+      },
+      {
+        "text": "Pretend you do not hear",
+        "feedback": "A shepherd cannot turn away."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Lead with Patience",
+    "text": "Force will not silence fear.\nGo and listen instead.",
+    "choices": [
+      {
+        "text": "Walk among them and listen",
+        "feedback": "Their eyes find yours."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "A Shepherd Stays",
+    "text": "Silence will not heal them.\nGo where their cry is loudest.",
+    "choices": [
+      {
+        "text": "Walk among them and listen",
+        "feedback": "You step into the crowd."
+      }
+    ]
+  },
+  "complaints": {
+    "title": "\"Were There No Graves in Egypt?\"",
+    "text": "\"Why bring us out to die here?\"\nTheir hands clench in the dust.",
+    "choices": [
+      {
+        "text": "Agree the journey is hopeless",
+        "feedback": "Despair is no answer."
+      },
+      {
+        "text": "Promise quick comfort to please them",
+        "feedback": "Empty words bring no peace."
+      },
+      {
+        "text": "Remind them what God has done",
+        "feedback": "\"Remember the sea He parted.\""
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "Stand on His Word",
+    "text": "His promise has not failed.\nSpeak truth, not despair.",
+    "choices": [
+      {
+        "text": "Remind them what God has done",
+        "feedback": "Your voice steadies the camp."
+      }
+    ]
+  },
+  "promise_consequence": {
+    "title": "Do Not Flatter Them",
+    "text": "Soothing lies cannot save them.\nPoint to the One who can.",
+    "choices": [
+      {
+        "text": "Remind them what God has done",
+        "feedback": "You raise your staff in memory."
+      }
+    ]
+  },
+  "egypt_longing": {
+    "title": "\"Let Us Choose a New Leader\"",
+    "text": "\"Back to Egypt!\" some begin to cry.\n\"Choose a captain. Lead us home.\"",
+    "choices": [
+      {
+        "text": "Step aside; let them have their way",
+        "feedback": "Surrender is not faith."
+      },
+      {
+        "text": "Fall on your face before them all",
+        "feedback": "Aaron bows beside you."
+      },
+      {
+        "text": "Curse the rebels in your anger",
+        "feedback": "Mercy must come first."
+      }
+    ]
+  },
+  "step_aside_consequence": {
+    "title": "A Shepherd Does Not Flee",
+    "text": "He set you over them.\nDo not abandon what He gave.",
+    "choices": [
+      {
+        "text": "Fall on your face before them all",
+        "feedback": "Your knees meet the dust."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Stand in the Breach",
+    "text": "Wrath cannot save the lost.\nLift a humbler prayer.",
+    "choices": [
+      {
+        "text": "Fall on your face before them all",
+        "feedback": "Your forehead touches the ground."
+      }
+    ]
+  },
+  "intercede": {
+    "title": "On the Hill of Prayer",
+    "text": "You climb away from the noise.\nThe Lord's voice meets your silence.",
+    "choices": [
+      {
+        "text": "Ask Him to make a nation of you",
+        "feedback": "His promise is for Israel."
+      },
+      {
+        "text": "Demand He punish them at once",
+        "feedback": "Mercy is not yours to refuse."
+      },
+      {
+        "text": "Plead for His mercy on them",
+        "feedback": "\"Pardon them, O Lord.\""
+      }
+    ]
+  },
+  "self_consequence": {
+    "title": "Not for Your Name Alone",
+    "text": "Pray for the flock, not yourself.\nMercy is wider than one man.",
+    "choices": [
+      {
+        "text": "Plead for His mercy on them",
+        "feedback": "Your prayer rises like smoke."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Mercy Before Judgment",
+    "text": "He delights to forgive.\nLet your prayer match His heart.",
+    "choices": [
+      {
+        "text": "Plead for His mercy on them",
+        "feedback": "His anger relents at your words."
+      }
+    ]
+  },
+  "joshua_warns": {
+    "title": "Joshua Stands Beside You",
+    "text": "\"They must not return to Egypt.\"\nHis young face is set like flint.",
+    "choices": [
+      {
+        "text": "Send Joshua to gather the elders",
+        "feedback": "He goes without delay."
+      },
+      {
+        "text": "Hide Joshua's words from the camp",
+        "feedback": "Truth must not be silenced."
+      }
+    ]
+  },
+  "hide_consequence_2": {
+    "title": "Do Not Bury the Truth",
+    "text": "His warning came from the Lord.\nLet it be heard.",
+    "choices": [
+      {
+        "text": "Send Joshua to gather the elders",
+        "feedback": "His call goes through the camp."
+      }
+    ]
+  },
+  "consequences": {
+    "title": "Forty Years in the Wilderness",
+    "text": "\"None who doubted will see the land.\"\nThe sentence falls like rain.",
+    "choices": [
+      {
+        "text": "Hide the verdict from the people",
+        "feedback": "They must hear what is true."
+      },
+      {
+        "text": "Blame Aaron and Joshua before them",
+        "feedback": "A shepherd carries the weight."
+      },
+      {
+        "text": "Speak the Lord's word plainly",
+        "feedback": "Your voice does not waver."
+      }
+    ]
+  },
+  "hide_verdict_consequence": {
+    "title": "Do Not Soften His Word",
+    "text": "Half-truth is no kindness.\nLet them hear it whole.",
+    "choices": [
+      {
+        "text": "Speak the Lord's word plainly",
+        "feedback": "The camp falls silent."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "Carry the Burden Yourself",
+    "text": "You were sent to lead them.\nDo not lay the weight on others.",
+    "choices": [
+      {
+        "text": "Speak the Lord's word plainly",
+        "feedback": "You stand alone before them."
+      }
+    ]
+  },
+  "people_mourn": {
+    "title": "A Long Lament",
+    "text": "The camp weeps through the night.\nDoubt's harvest is bitter.",
+    "choices": [
+      {
+        "text": "Mock their late-coming sorrow",
+        "feedback": "Even broken hearts deserve grace."
+      },
+      {
+        "text": "Sit among them in silence",
+        "feedback": "You share their grief without words."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Sit With Their Sorrow",
+    "text": "Scorn cannot mend the camp.\nBe near them in their pain.",
+    "choices": [
+      {
+        "text": "Sit among them in silence",
+        "feedback": "You lower yourself beside them."
+      }
+    ]
+  },
+  "ending": {
+    "title": "The Long Road Ahead",
+    "text": "Dawn breaks on the wilderness path.\nFaith, not fear, will lead them home.",
+    "choices": []
+  }
+}

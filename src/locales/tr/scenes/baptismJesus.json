@@ -1,0 +1,207 @@
+{
+  "start": {
+    "title": "[TODO:tr] The Voice in the Wilderness",
+    "text": "[TODO:tr] John cries by the Jordan:\n\"Repent, the Kingdom is near.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Mock his strange clothing",
+        "feedback": "[TODO:tr] He speaks the word of God."
+      },
+      {
+        "text": "[TODO:tr] Listen with an open heart",
+        "feedback": "[TODO:tr] His words pierce the silence."
+      },
+      {
+        "text": "[TODO:tr] Turn back to the city",
+        "feedback": "[TODO:tr] The river is calling you."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:tr] Honor the Prophet",
+    "text": "[TODO:tr] He is the voice prepared by God.\nLisen humbly.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Listen with an open heart",
+        "feedback": "[TODO:tr] Your heart softens."
+      }
+    ]
+  },
+  "turn_consequence": {
+    "title": "[TODO:tr] Stay at the River",
+    "text": "[TODO:tr] Your hour begins here.\nThe Father has called you.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Listen with an open heart",
+        "feedback": "[TODO:tr] You step closer."
+      }
+    ]
+  },
+  "crowds": {
+    "title": "[TODO:tr] Among the People",
+    "text": "[TODO:tr] Crowds gather along the shore.\nThey come to be cleansed.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Stand apart in pride",
+        "feedback": "[TODO:tr] You came to be among them."
+      },
+      {
+        "text": "[TODO:tr] Walk among them as a brother",
+        "feedback": "[TODO:tr] You move quietly through the crowd."
+      }
+    ]
+  },
+  "apart_consequence": {
+    "title": "[TODO:tr] Walk With Them",
+    "text": "[TODO:tr] You came to share their humanity.\nWalk among them.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Walk among them as a brother",
+        "feedback": "[TODO:tr] You join the people."
+      }
+    ]
+  },
+  "approach": {
+    "title": "[TODO:tr] Toward John",
+    "text": "[TODO:tr] John stands in the river.\nHis eyes find yours.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Demand he recognize you",
+        "feedback": "[TODO:tr] Come in humility."
+      },
+      {
+        "text": "[TODO:tr] Wait silently in line",
+        "feedback": "[TODO:tr] The Father calls you forward."
+      },
+      {
+        "text": "[TODO:tr] Step forward to be baptized",
+        "feedback": "[TODO:tr] You walk into the water."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:tr] Be Humble",
+    "text": "[TODO:tr] You did not come to be honored.\nYou came to obey.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Step forward to be baptized",
+        "feedback": "[TODO:tr] You enter the river."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:tr] The Hour Has Come",
+    "text": "[TODO:tr] The Father waits for this moment.\nGo to John.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Step forward to be baptized",
+        "feedback": "[TODO:tr] You step into the current."
+      }
+    ]
+  },
+  "hesitate": {
+    "title": "[TODO:tr] John's Hesitation",
+    "text": "[TODO:tr] John whispers:\n\"I should be baptized by You.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Agree and turn away",
+        "feedback": "[TODO:tr] All righteousness must be fulfilled."
+      },
+      {
+        "text": "[TODO:tr] \"Let it be so to fulfill all.\"",
+        "feedback": "[TODO:tr] John bows and obeys."
+      },
+      {
+        "text": "[TODO:tr] Rebuke him sharply",
+        "feedback": "[TODO:tr] Speak to him with grace."
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "[TODO:tr] Fulfill the Way",
+    "text": "[TODO:tr] This must be done in obedience.\nSpeak the word.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Let it be so to fulfill all.\"",
+        "feedback": "[TODO:tr] John lifts his hands."
+      }
+    ]
+  },
+  "rebuke_consequence": {
+    "title": "[TODO:tr] Speak Gently",
+    "text": "[TODO:tr] He is your forerunner.\nAnswer him with peace.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Let it be so to fulfill all.\"",
+        "feedback": "[TODO:tr] John consents in awe."
+      }
+    ]
+  },
+  "baptism": {
+    "title": "[TODO:tr] Into the Water",
+    "text": "[TODO:tr] The cool river rises.\nYou bow your head.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Resist the waters",
+        "feedback": "[TODO:tr] Surrender to the Father."
+      },
+      {
+        "text": "[TODO:tr] Accept the waters in silence",
+        "feedback": "[TODO:tr] You are washed in obedience."
+      }
+    ]
+  },
+  "resist_consequence": {
+    "title": "[TODO:tr] Surrender",
+    "text": "[TODO:tr] This is the will of the Father.\nYield to the moment.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Accept the waters in silence",
+        "feedback": "[TODO:tr] You bow into the water."
+      }
+    ]
+  },
+  "dove": {
+    "title": "[TODO:tr] The Heavens Open",
+    "text": "[TODO:tr] The sky parts above you.\nA dove descends in silence.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Hide your face in shame",
+        "feedback": "[TODO:tr] The Father delights in you."
+      },
+      {
+        "text": "[TODO:tr] Boast aloud to the crowd",
+        "feedback": "[TODO:tr] Receive in stillness."
+      },
+      {
+        "text": "[TODO:tr] Lift your eyes to the Father",
+        "feedback": "[TODO:tr] Light fills your face."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:tr] Look Up",
+    "text": "[TODO:tr] You are the Beloved Son.\nReceive the gift.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lift your eyes to the Father",
+        "feedback": "[TODO:tr] You raise your face."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:tr] Receive in Silence",
+    "text": "[TODO:tr] This moment is sacred.\nLet the Spirit speak.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lift your eyes to the Father",
+        "feedback": "[TODO:tr] You stand in quiet awe."
+      }
+    ]
+  },
+  "voice": {
+    "title": "[TODO:tr] The Father's Voice",
+    "text": "[TODO:tr] \"This is My beloved Son,\nin whom I am well pleased.\"",
+    "choices": []
+  }
+}

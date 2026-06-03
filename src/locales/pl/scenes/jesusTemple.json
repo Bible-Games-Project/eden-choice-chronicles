@@ -1,0 +1,207 @@
+{
+  "start": {
+    "title": "[TODO:pl] On the Road",
+    "text": "[TODO:pl] The pilgrims walk toward Jerusalem.\nThe feast of Passover draws near.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Run ahead alone, far from them",
+        "feedback": "[TODO:pl] Stay near your family."
+      },
+      {
+        "text": "[TODO:pl] Walk beside Mary and Joseph",
+        "feedback": "[TODO:pl] You walk in quiet joy."
+      },
+      {
+        "text": "[TODO:pl] Refuse to go to the feast",
+        "feedback": "[TODO:pl] The feast is sacred."
+      }
+    ]
+  },
+  "stray_consequence": {
+    "title": "[TODO:pl] Walk Together",
+    "text": "[TODO:pl] The road is long and crowded.\nStay near your parents.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk beside Mary and Joseph",
+        "feedback": "[TODO:pl] You return to their side."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:pl] Honor the Feast",
+    "text": "[TODO:pl] Passover is the holy memory of God.\nYou must go.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk beside Mary and Joseph",
+        "feedback": "[TODO:pl] You step onto the road."
+      }
+    ]
+  },
+  "temple": {
+    "title": "[TODO:pl] The Temple Courts",
+    "text": "[TODO:pl] Sunlight falls on the great stones.\nVoices of teachers fill the air.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Buy bread in the market",
+        "feedback": "[TODO:pl] Something deeper calls you."
+      },
+      {
+        "text": "[TODO:pl] Enter and listen to the teachers",
+        "feedback": "[TODO:pl] You step inside, drawn to the words."
+      }
+    ]
+  },
+  "market_consequence": {
+    "title": "[TODO:pl] His Father's House",
+    "text": "[TODO:pl] The temple is your true place.\nGo where wisdom is spoken.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Enter and listen to the teachers",
+        "feedback": "[TODO:pl] You walk into the temple."
+      }
+    ]
+  },
+  "stay": {
+    "title": "[TODO:pl] When the Caravan Leaves",
+    "text": "[TODO:pl] The pilgrims begin to depart.\nThe teachers still speak of God.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay to hear the words of God",
+        "feedback": "[TODO:pl] You sit at their feet."
+      },
+      {
+        "text": "[TODO:pl] Run after the caravan now",
+        "feedback": "[TODO:pl] Your true place is here."
+      },
+      {
+        "text": "[TODO:pl] Hide in the streets to play",
+        "feedback": "[TODO:pl] Do not waste this hour."
+      }
+    ]
+  },
+  "follow_consequence": {
+    "title": "[TODO:pl] Stay and Learn",
+    "text": "[TODO:pl] The Father's house holds you.\nYou are meant to remain.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay to hear the words of God",
+        "feedback": "[TODO:pl] You sit again to listen."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pl] Sacred Time",
+    "text": "[TODO:pl] Wisdom does not wait for play.\nReturn to the temple.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay to hear the words of God",
+        "feedback": "[TODO:pl] You take your place again."
+      }
+    ]
+  },
+  "search": {
+    "title": "[TODO:pl] They Are Searching",
+    "text": "[TODO:pl] Three days pass in the temple.\nMary and Joseph walk Jerusalem in fear.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Slip away and hide from them",
+        "feedback": "[TODO:pl] Do not flee from love."
+      },
+      {
+        "text": "[TODO:pl] Remain where they will find you",
+        "feedback": "[TODO:pl] You sit in quiet trust."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:pl] Be Found",
+    "text": "[TODO:pl] They love you and seek you.\nWait where you belong.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Remain where they will find you",
+        "feedback": "[TODO:pl] You stay in the temple."
+      }
+    ]
+  },
+  "teachers": {
+    "title": "[TODO:pl] Among the Wise",
+    "text": "[TODO:pl] The elders ask many questions.\nThey wait for your answer.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay silent and say nothing",
+        "feedback": "[TODO:pl] Speak the truth in you."
+      },
+      {
+        "text": "[TODO:pl] Boast of your own greatness",
+        "feedback": "[TODO:pl] Wisdom is humble."
+      },
+      {
+        "text": "[TODO:pl] Answer with humble understanding",
+        "feedback": "[TODO:pl] They marvel at your words."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:pl] Speak Gently",
+    "text": "[TODO:pl] Truth lives within you.\nLet it be heard.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Answer with humble understanding",
+        "feedback": "[TODO:pl] Your soft voice fills the room."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:pl] Be Humble",
+    "text": "[TODO:pl] Wisdom is not for boasting.\nSpeak with quiet grace.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Answer with humble understanding",
+        "feedback": "[TODO:pl] You speak with calm light."
+      }
+    ]
+  },
+  "reunion": {
+    "title": "[TODO:pl] Mary Finds You",
+    "text": "[TODO:pl] She weeps:\n\"Why have you done this to us?\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Blame her for losing you",
+        "feedback": "[TODO:pl] Honor your mother."
+      },
+      {
+        "text": "[TODO:pl] \"I was in my Father's house.\"",
+        "feedback": "[TODO:pl] She holds the words in her heart."
+      },
+      {
+        "text": "[TODO:pl] Run from her in shame",
+        "feedback": "[TODO:pl] Do not run from her love."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:pl] Speak with Love",
+    "text": "[TODO:pl] She is your mother.\nAnswer her with grace.",
+    "choices": [
+      {
+        "text": "[TODO:pl] \"I was in my Father's house.\"",
+        "feedback": "[TODO:pl] Her tears soften."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "[TODO:pl] Stay With Her",
+    "text": "[TODO:pl] She has searched three days.\nGive her the truth.",
+    "choices": [
+      {
+        "text": "[TODO:pl] \"I was in my Father's house.\"",
+        "feedback": "[TODO:pl] She embraces you."
+      }
+    ]
+  },
+  "return": {
+    "title": "[TODO:pl] Home to Nazareth",
+    "text": "[TODO:pl] You walk with them under the dawn.\nYou grow in wisdom and grace.",
+    "choices": []
+  }
+}

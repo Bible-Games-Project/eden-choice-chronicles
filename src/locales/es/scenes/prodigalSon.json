@@ -1,0 +1,303 @@
+{
+  "start": {
+    "title": "[TODO:es] A Father Had Two Sons",
+    "text": "[TODO:es] Jesus sits on the hillside.\n\"A father had two sons. Listen.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Turn away from the story",
+        "feedback": "[TODO:es] Stay. This is for you."
+      },
+      {
+        "text": "[TODO:es] Open your heart and listen",
+        "feedback": "[TODO:es] His voice draws you near."
+      }
+    ]
+  },
+  "turn_consequence": {
+    "title": "[TODO:es] Stay Awhile",
+    "text": "[TODO:es] Some stories find you anyway.\nSit back down.",
+    "choices": [
+      {
+        "text": "[TODO:es] Open your heart and listen",
+        "feedback": "[TODO:es] You settle in."
+      }
+    ]
+  },
+  "inheritance": {
+    "title": "[TODO:es] Give Me My Share",
+    "text": "[TODO:es] \"Father, give me my inheritance now.\"\nThe father divides his wealth.",
+    "choices": [
+      {
+        "text": "[TODO:es] Praise the son's boldness",
+        "feedback": "[TODO:es] This is not bravery."
+      },
+      {
+        "text": "[TODO:es] Demand he stay home",
+        "feedback": "[TODO:es] Love does not cage."
+      },
+      {
+        "text": "[TODO:es] Grieve with the father",
+        "feedback": "[TODO:es] Your chest aches with his."
+      }
+    ]
+  },
+  "praise_consequence": {
+    "title": "[TODO:es] Look Closer",
+    "text": "[TODO:es] He treats the gift as a wage.\nFeel what the father feels.",
+    "choices": [
+      {
+        "text": "[TODO:es] Grieve with the father",
+        "feedback": "[TODO:es] Your eyes soften."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:es] Love Lets Go",
+    "text": "[TODO:es] The father will not force him.\nLove gives freedom, even painful.",
+    "choices": [
+      {
+        "text": "[TODO:es] Grieve with the father",
+        "feedback": "[TODO:es] You bow your head."
+      }
+    ]
+  },
+  "leaving": {
+    "title": "[TODO:es] Far From Home",
+    "text": "[TODO:es] The young son packs his bag.\nHe walks the road away from home.",
+    "choices": [
+      {
+        "text": "[TODO:es] Cheer him onward",
+        "feedback": "[TODO:es] He walks toward sorrow."
+      },
+      {
+        "text": "[TODO:es] Watch with a heavy heart",
+        "feedback": "[TODO:es] You sense the cost."
+      }
+    ]
+  },
+  "cheer_consequence": {
+    "title": "[TODO:es] Not Yet",
+    "text": "[TODO:es] Freedom without love grows cold.\nWatch carefully.",
+    "choices": [
+      {
+        "text": "[TODO:es] Watch with a heavy heart",
+        "feedback": "[TODO:es] Your smile fades."
+      }
+    ]
+  },
+  "revelry": {
+    "title": "[TODO:es] Wild Living",
+    "text": "[TODO:es] In a far country he spent it all\non feasts, friends, and folly.",
+    "choices": [
+      {
+        "text": "[TODO:es] Envy his free nights",
+        "feedback": "[TODO:es] The lights will dim soon."
+      },
+      {
+        "text": "[TODO:es] See the emptiness coming",
+        "feedback": "[TODO:es] Your stomach tightens."
+      },
+      {
+        "text": "[TODO:es] Look away from him",
+        "feedback": "[TODO:es] Stay with him."
+      }
+    ]
+  },
+  "envy_consequence": {
+    "title": "[TODO:es] It Will Fade",
+    "text": "[TODO:es] Pleasure without love is hollow.\nWait and watch.",
+    "choices": [
+      {
+        "text": "[TODO:es] See the emptiness coming",
+        "feedback": "[TODO:es] You sober quickly."
+      }
+    ]
+  },
+  "lookaway_consequence": {
+    "title": "[TODO:es] Stay With Him",
+    "text": "[TODO:es] Mercy does not turn away.\nKeep your gaze on him.",
+    "choices": [
+      {
+        "text": "[TODO:es] See the emptiness coming",
+        "feedback": "[TODO:es] Your eyes return."
+      }
+    ]
+  },
+  "famine": {
+    "title": "[TODO:es] Famine Falls",
+    "text": "[TODO:es] His money is gone. Famine comes.\nHis friends have all vanished.",
+    "choices": [
+      {
+        "text": "[TODO:es] Mock his foolishness",
+        "feedback": "[TODO:es] Mockery is not mercy."
+      },
+      {
+        "text": "[TODO:es] Ache for the lost son",
+        "feedback": "[TODO:es] Your heart hurts for him."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:es] Have Mercy",
+    "text": "[TODO:es] He is breaking. Do not laugh.\nFeel his hunger with him.",
+    "choices": [
+      {
+        "text": "[TODO:es] Ache for the lost son",
+        "feedback": "[TODO:es] Compassion finds you."
+      }
+    ]
+  },
+  "pigs": {
+    "title": "[TODO:es] Among the Pigs",
+    "text": "[TODO:es] He feeds pigs to survive.\nHe longs to eat their husks.",
+    "choices": [
+      {
+        "text": "[TODO:es] Pity but do nothing",
+        "feedback": "[TODO:es] Wait. Watch his heart."
+      },
+      {
+        "text": "[TODO:es] Hope he comes to himself",
+        "feedback": "[TODO:es] You whisper for him."
+      }
+    ]
+  },
+  "pity_consequence": {
+    "title": "[TODO:es] Look Deeper",
+    "text": "[TODO:es] His soul is starting to wake.\nWatch what happens inside.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hope he comes to himself",
+        "feedback": "[TODO:es] A hush falls in you."
+      }
+    ]
+  },
+  "repentance": {
+    "title": "[TODO:es] I Will Arise",
+    "text": "[TODO:es] \"I will go to my father.\nI have sinned. I am not worthy.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Tell him to stay hidden",
+        "feedback": "[TODO:es] Shame is not the answer."
+      },
+      {
+        "text": "[TODO:es] Doubt his father's mercy",
+        "feedback": "[TODO:es] You do not know that father."
+      },
+      {
+        "text": "[TODO:es] Walk the road home with him",
+        "feedback": "[TODO:es] Every step is a prayer."
+      }
+    ]
+  },
+  "hidden_consequence": {
+    "title": "[TODO:es] Come Home",
+    "text": "[TODO:es] Shame keeps you in the mud.\nRepentance rises and walks.",
+    "choices": [
+      {
+        "text": "[TODO:es] Walk the road home with him",
+        "feedback": "[TODO:es] You take the first step."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:es] Trust the Father",
+    "text": "[TODO:es] His love is greater than your fall.\nGo, and see.",
+    "choices": [
+      {
+        "text": "[TODO:es] Walk the road home with him",
+        "feedback": "[TODO:es] Hope flickers awake."
+      }
+    ]
+  },
+  "return": {
+    "title": "[TODO:es] While He Was Far Off",
+    "text": "[TODO:es] The father sees him from afar.\nHe runs, and falls on his neck.",
+    "choices": [
+      {
+        "text": "[TODO:es] Expect a stern punishment",
+        "feedback": "[TODO:es] Love runs to embrace."
+      },
+      {
+        "text": "[TODO:es] Weep with the embrace",
+        "feedback": "[TODO:es] Tears fill your eyes."
+      }
+    ]
+  },
+  "stern_consequence": {
+    "title": "[TODO:es] Behold the Father",
+    "text": "[TODO:es] He does not wait for the speech.\nHe runs. He kisses. He weeps.",
+    "choices": [
+      {
+        "text": "[TODO:es] Weep with the embrace",
+        "feedback": "[TODO:es] Your breath catches."
+      }
+    ]
+  },
+  "feast": {
+    "title": "[TODO:es] Bring the Best Robe",
+    "text": "[TODO:es] \"My son was lost and is found!\nBring the robe. Begin the feast!\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Demand he prove himself first",
+        "feedback": "[TODO:es] Grace asks no proof."
+      },
+      {
+        "text": "[TODO:es] Rejoice at the welcome home",
+        "feedback": "[TODO:es] Your soul lifts."
+      }
+    ]
+  },
+  "prove_consequence": {
+    "title": "[TODO:es] Grace, Not Wages",
+    "text": "[TODO:es] He was already a son.\nLove restores before it asks.",
+    "choices": [
+      {
+        "text": "[TODO:es] Rejoice at the welcome home",
+        "feedback": "[TODO:es] You join the song."
+      }
+    ]
+  },
+  "brother": {
+    "title": "[TODO:es] The Elder Brother",
+    "text": "[TODO:es] The older brother stands in the field.\n\"He gets a feast? I served you!\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Agree he was unfair",
+        "feedback": "[TODO:es] Mercy is never unfair."
+      },
+      {
+        "text": "[TODO:es] Hide your own resentments",
+        "feedback": "[TODO:es] Bring them to the father."
+      },
+      {
+        "text": "[TODO:es] Listen for the father's words",
+        "feedback": "[TODO:es] You lean in close."
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "[TODO:es] Wider Than That",
+    "text": "[TODO:es] What feels unfair to pride\nis pure joy to love.",
+    "choices": [
+      {
+        "text": "[TODO:es] Listen for the father's words",
+        "feedback": "[TODO:es] Your pride softens."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:es] Speak Honestly",
+    "text": "[TODO:es] The father comes out to you too.\nDo not hide your heart.",
+    "choices": [
+      {
+        "text": "[TODO:es] Listen for the father's words",
+        "feedback": "[TODO:es] You uncover your face."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:es] We Had to Celebrate",
+    "text": "[TODO:es] \"Son, all I have is yours.\nBut he was lost, and is found.\"",
+    "choices": []
+  }
+}

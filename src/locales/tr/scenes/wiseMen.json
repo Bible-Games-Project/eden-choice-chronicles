@@ -1,0 +1,197 @@
+{
+  "start": {
+    "title": "[TODO:tr] A New Star",
+    "text": "[TODO:tr] A bright star rises in the east.\nIt shines unlike any other.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Ignore it as nothing",
+        "feedback": "[TODO:tr] Heaven speaks through this sign."
+      },
+      {
+        "text": "[TODO:tr] Search the ancient prophecies",
+        "feedback": "[TODO:tr] A king is born in Judea."
+      },
+      {
+        "text": "[TODO:tr] Fear it as an omen",
+        "feedback": "[TODO:tr] It is a sign of joy, not dread."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:tr] Look Again",
+    "text": "[TODO:tr] The star will not be hidden.\nIt calls you onward.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Search the ancient prophecies",
+        "feedback": "[TODO:tr] The scrolls reveal a king."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "[TODO:tr] Take Heart",
+    "text": "[TODO:tr] This light brings hope.\nFollow where it leads.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Search the ancient prophecies",
+        "feedback": "[TODO:tr] Your heart settles."
+      }
+    ]
+  },
+  "journey": {
+    "title": "[TODO:tr] The Long Road",
+    "text": "[TODO:tr] You ride west across endless dunes.\nThe star moves before you.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Turn back, the road is hard",
+        "feedback": "[TODO:tr] Do not lose heart."
+      },
+      {
+        "text": "[TODO:tr] Press on toward Jerusalem",
+        "feedback": "[TODO:tr] Your camels will not falter."
+      },
+      {
+        "text": "[TODO:tr] Seek a king's palace first",
+        "feedback": "[TODO:tr] A king must dwell with kings."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:tr] Forward Still",
+    "text": "[TODO:tr] The promise lies ahead.\nDo not turn from it now.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Press on toward Jerusalem",
+        "feedback": "[TODO:tr] You spur your camel on."
+      }
+    ]
+  },
+  "herod": {
+    "title": "[TODO:tr] Before Herod",
+    "text": "[TODO:tr] \"Where is the newborn King of the Jews?\"\nHerod's eyes grow cold.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Swear loyalty to Herod alone",
+        "feedback": "[TODO:tr] Only one King is worthy."
+      },
+      {
+        "text": "[TODO:tr] Listen to the priests' answer",
+        "feedback": "[TODO:tr] Bethlehem, the prophets say."
+      }
+    ]
+  },
+  "loyalty_consequence": {
+    "title": "[TODO:tr] One True King",
+    "text": "[TODO:tr] Herod is not the One you seek.\nKeep your eyes on the star.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Listen to the priests' answer",
+        "feedback": "[TODO:tr] Bethlehem awaits."
+      }
+    ]
+  },
+  "bethlehem": {
+    "title": "[TODO:tr] The Star Stops",
+    "text": "[TODO:tr] The star halts above a humble house.\nHere, the King is found.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Doubt — this cannot be the place",
+        "feedback": "[TODO:tr] Heaven points here."
+      },
+      {
+        "text": "[TODO:tr] Knock and enter with reverence",
+        "feedback": "[TODO:tr] Your hand trembles at the door."
+      },
+      {
+        "text": "[TODO:tr] Wait outside until morning",
+        "feedback": "[TODO:tr] The King receives you now."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:tr] Trust the Sign",
+    "text": "[TODO:tr] The star itself has led you here.\nBelieve and enter.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Knock and enter with reverence",
+        "feedback": "[TODO:tr] You step inside the warm light."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:tr] Enter Now",
+    "text": "[TODO:tr] Do not delay before the King.\nHe waits within.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Knock and enter with reverence",
+        "feedback": "[TODO:tr] You cross the threshold."
+      }
+    ]
+  },
+  "worship": {
+    "title": "[TODO:tr] Gold, Frankincense, Myrrh",
+    "text": "[TODO:tr] The child meets your eyes.\nYou kneel and open your treasures.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Keep the finest gifts for yourself",
+        "feedback": "[TODO:tr] He is worthy of all."
+      },
+      {
+        "text": "[TODO:tr] Offer all three gifts to the child",
+        "feedback": "[TODO:tr] Your heart bows with the gifts."
+      }
+    ]
+  },
+  "greed_consequence": {
+    "title": "[TODO:tr] Give All",
+    "text": "[TODO:tr] He is the King of kings.\nHold nothing back.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Offer all three gifts to the child",
+        "feedback": "[TODO:tr] You place each gift before him."
+      }
+    ]
+  },
+  "dream": {
+    "title": "[TODO:tr] A Warning in Sleep",
+    "text": "[TODO:tr] In a dream you are warned:\n\"Do not return to Herod.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Return to Herod as promised",
+        "feedback": "[TODO:tr] Heaven has spoken."
+      },
+      {
+        "text": "[TODO:tr] Take another road home",
+        "feedback": "[TODO:tr] You obey the holy warning."
+      },
+      {
+        "text": "[TODO:tr] Stay hidden in Bethlehem",
+        "feedback": "[TODO:tr] Your road lies east again."
+      }
+    ]
+  },
+  "betray_consequence": {
+    "title": "[TODO:tr] Obey the Dream",
+    "text": "[TODO:tr] Herod plots against the child.\nDo not lead him to the King.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Take another road home",
+        "feedback": "[TODO:tr] You turn from Herod's road."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "[TODO:tr] Go Home",
+    "text": "[TODO:tr] Your task here is fulfilled.\nReturn by another way.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Take another road home",
+        "feedback": "[TODO:tr] You set out at first light."
+      }
+    ]
+  },
+  "return": {
+    "title": "[TODO:tr] Another Road",
+    "text": "[TODO:tr] You ride east as dawn breaks.\nYou have seen the King.",
+    "choices": []
+  }
+}

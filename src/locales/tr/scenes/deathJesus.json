@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "[TODO:tr] Lifted Up",
+    "text": "[TODO:tr] The cross rises beneath the noon sun.\nNails burn. Breath comes thin and slow.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Call down legions of angels",
+        "feedback": "[TODO:tr] This cup is yours to drink."
+      },
+      {
+        "text": "[TODO:tr] Pray for those who crucify you",
+        "feedback": "[TODO:tr] \"Father, forgive them.\""
+      },
+      {
+        "text": "[TODO:tr] Curse the soldiers below",
+        "feedback": "[TODO:tr] Love does not curse here."
+      }
+    ]
+  },
+  "legions_consequence": {
+    "title": "[TODO:tr] Not by Power",
+    "text": "[TODO:tr] Heaven waits, but love stays nailed.\nForgiveness is the only sword now.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Pray for those who crucify you",
+        "feedback": "[TODO:tr] \"They know not what they do.\""
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:tr] Not the Father's Way",
+    "text": "[TODO:tr] A curse here would unmake the gift.\nOnly mercy can complete it.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Pray for those who crucify you",
+        "feedback": "[TODO:tr] \"Father, forgive them.\""
+      }
+    ]
+  },
+  "mocking": {
+    "title": "[TODO:tr] The Crowd Mocks",
+    "text": "[TODO:tr] \"Save yourself! Come down from there!\"\nTheir shouts climb the wood like smoke.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Shout proof of your power",
+        "feedback": "[TODO:tr] Glory is not won by display."
+      },
+      {
+        "text": "[TODO:tr] Climb down to silence them",
+        "feedback": "[TODO:tr] Climbing down undoes salvation."
+      },
+      {
+        "text": "[TODO:tr] Receive their scorn in silence",
+        "feedback": "[TODO:tr] Silence carries the weight of love."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:tr] Not by Voice",
+    "text": "[TODO:tr] Shouting cannot heal their blindness.\nOnly your stillness can.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive their scorn in silence",
+        "feedback": "[TODO:tr] You bow your head silently."
+      }
+    ]
+  },
+  "climb_consequence": {
+    "title": "[TODO:tr] Stay for Love",
+    "text": "[TODO:tr] To step down is to abandon them.\nLove holds you to the wood.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive their scorn in silence",
+        "feedback": "[TODO:tr] You remain, and the world is held."
+      }
+    ]
+  },
+  "two_thieves": {
+    "title": "[TODO:tr] A Thief Turns",
+    "text": "[TODO:tr] One thief jeers. The other whispers,\n\"Remember me when you come as King.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Today you will be with me.\"",
+        "feedback": "[TODO:tr] Paradise opens for him."
+      },
+      {
+        "text": "[TODO:tr] Ignore him and look away",
+        "feedback": "[TODO:tr] No repentant heart is turned away."
+      },
+      {
+        "text": "[TODO:tr] Rebuke him for past sins",
+        "feedback": "[TODO:tr] Mercy never measures the past."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:tr] Mercy Speaks",
+    "text": "[TODO:tr] A turning heart must be answered.\nSpeak the promise of paradise.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Today you will be with me.\"",
+        "feedback": "[TODO:tr] His eyes fill with light."
+      }
+    ]
+  },
+  "rebuke_consequence": {
+    "title": "[TODO:tr] No Past Held",
+    "text": "[TODO:tr] You came to save, not to weigh sin.\nGrant him what he asks.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Today you will be with me.\"",
+        "feedback": "[TODO:tr] Paradise is promised."
+      }
+    ]
+  },
+  "mother_john": {
+    "title": "[TODO:tr] Behold Your Mother",
+    "text": "[TODO:tr] Mary stands below, John beside her.\nHer eyes meet yours through the dust.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Send her away to spare her pain",
+        "feedback": "[TODO:tr] Love does not flinch from sorrow."
+      },
+      {
+        "text": "[TODO:tr] Give her to John as his mother",
+        "feedback": "[TODO:tr] \"Woman, behold your son.\""
+      },
+      {
+        "text": "[TODO:tr] Cry out blame against the crowd",
+        "feedback": "[TODO:tr] Blame cannot carry this hour."
+      }
+    ]
+  },
+  "send_consequence": {
+    "title": "[TODO:tr] She Must Stay",
+    "text": "[TODO:tr] She bore you. She must witness this.\nEntrust her to your friend.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Give her to John as his mother",
+        "feedback": "[TODO:tr] \"Behold your son.\""
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:tr] Not Blame, but Love",
+    "text": "[TODO:tr] The crowd is not why you are here.\nLove is. Care for your mother.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Give her to John as his mother",
+        "feedback": "[TODO:tr] John bows and takes her hand."
+      }
+    ]
+  },
+  "darkness": {
+    "title": "[TODO:tr] Darkness Covers the Land",
+    "text": "[TODO:tr] At noon the sun is hidden.\nA cold shadow drinks the hill.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Demand the sun shine again",
+        "feedback": "[TODO:tr] The darkness has a purpose."
+      },
+      {
+        "text": "[TODO:tr] Bear the darkness in silence",
+        "feedback": "[TODO:tr] Sin's weight settles on you."
+      },
+      {
+        "text": "[TODO:tr] Flee the cross in your spirit",
+        "feedback": "[TODO:tr] You will not turn from this hour."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:tr] Let the Darkness Come",
+    "text": "[TODO:tr] The world's sin gathers in this hour.\nReceive it without resistance.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Bear the darkness in silence",
+        "feedback": "[TODO:tr] You take the weight upon yourself."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:tr] Stay Within Love",
+    "text": "[TODO:tr] Even now, do not turn away.\nStay, and the world is healed.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Bear the darkness in silence",
+        "feedback": "[TODO:tr] Your breath steadies in the dark."
+      }
+    ]
+  },
+  "my_god": {
+    "title": "[TODO:tr] A Cry to the Father",
+    "text": "[TODO:tr] The Father feels far. Your soul aches.\nWhat words rise from the dark?",
+    "choices": [
+      {
+        "text": "[TODO:tr] Accuse the Father of leaving",
+        "feedback": "[TODO:tr] Trust still binds you to Him."
+      },
+      {
+        "text": "[TODO:tr] \"My God, why have You left me?\"",
+        "feedback": "[TODO:tr] Even the cry is faithful."
+      },
+      {
+        "text": "[TODO:tr] Stay silent and clench your jaw",
+        "feedback": "[TODO:tr] Even psalms of sorrow are prayer."
+      }
+    ]
+  },
+  "accuse_consequence": {
+    "title": "[TODO:tr] Cry, Do Not Accuse",
+    "text": "[TODO:tr] The psalm of dereliction is yours.\nPray it as it was written.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"My God, why have You left me?\"",
+        "feedback": "[TODO:tr] The cry rises in faith."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:tr] Let the Cry Out",
+    "text": "[TODO:tr] Sorrow shared is sorrow offered.\nLet the Father hear your heart.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"My God, why have You left me?\"",
+        "feedback": "[TODO:tr] The cry breaks from your lips."
+      }
+    ]
+  },
+  "veil_torn": {
+    "title": "[TODO:tr] The Work Is Done",
+    "text": "[TODO:tr] Strength fades. Salvation stands fulfilled.\nThe temple veil waits to be torn.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"I thirst.\" Then \"It is finished.\"",
+        "feedback": "[TODO:tr] From top to bottom, the veil tears."
+      },
+      {
+        "text": "[TODO:tr] Beg for one more hour of life",
+        "feedback": "[TODO:tr] The hour has come and is enough."
+      },
+      {
+        "text": "[TODO:tr] Boast of victory over enemies",
+        "feedback": "[TODO:tr] Victory whispers; it does not boast."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:tr] It Is Time",
+    "text": "[TODO:tr] Every prophecy is now fulfilled.\nSpeak the word and let it be done.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"I thirst.\" Then \"It is finished.\"",
+        "feedback": "[TODO:tr] The veil splits from heaven down."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:tr] Quiet Triumph",
+    "text": "[TODO:tr] This victory wears a crown of thorns.\nLet the finishing word be gentle.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"I thirst.\" Then \"It is finished.\"",
+        "feedback": "[TODO:tr] Holy curtain torn in two."
+      }
+    ]
+  },
+  "final_breath": {
+    "title": "[TODO:tr] Into Your Hands",
+    "text": "[TODO:tr] The earth trembles. The light bends low.\nOne breath remains. What is it?",
+    "choices": [
+      {
+        "text": "[TODO:tr] Curse those who killed you",
+        "feedback": "[TODO:tr] Love is the only word now."
+      },
+      {
+        "text": "[TODO:tr] Cling to life with all your strength",
+        "feedback": "[TODO:tr] Trust opens the hand at last."
+      },
+      {
+        "text": "[TODO:tr] \"Father, into Your hands.\"",
+        "feedback": "[TODO:tr] You bow your head, and breathe out."
+      }
+    ]
+  },
+  "curse_end_consequence": {
+    "title": "[TODO:tr] End in Love",
+    "text": "[TODO:tr] A curse cannot seal this gift.\nGive your last breath to the Father.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Father, into Your hands.\"",
+        "feedback": "[TODO:tr] You surrender all you are."
+      }
+    ]
+  },
+  "cling_consequence": {
+    "title": "[TODO:tr] Open Your Hands",
+    "text": "[TODO:tr] To keep your life is to lose it.\nGive it back, and save the world.",
+    "choices": [
+      {
+        "text": "[TODO:tr] \"Father, into Your hands.\"",
+        "feedback": "[TODO:tr] Your spirit returns to the Father."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:tr] It Is Accomplished",
+    "text": "[TODO:tr] The centurion whispers, \"Truly,\nthis was the Son of God.\"",
+    "choices": []
+  }
+}

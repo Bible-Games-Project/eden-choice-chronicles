@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "Home Again",
+    "text": "Nazareth rises in the dawn.\nJesus walks the road of his youth.",
+    "choices": [
+      {
+        "text": "Boast to the village he is here",
+        "feedback": "His coming needs no herald."
+      },
+      {
+        "text": "Walk beside him in quiet honor",
+        "feedback": "You enter with reverence."
+      },
+      {
+        "text": "Hurry past, ashamed of the place",
+        "feedback": "Do not despise the small place."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Be Still",
+    "text": "His glory is not a parade.\nLet him be seen as he is.",
+    "choices": [
+      {
+        "text": "Walk beside him in quiet honor",
+        "feedback": "You quiet your steps."
+      }
+    ]
+  },
+  "ashamed_consequence": {
+    "title": "Do Not Hide",
+    "text": "Even small towns hold holy ground.\nLift your eyes.",
+    "choices": [
+      {
+        "text": "Walk beside him in quiet honor",
+        "feedback": "You walk with him."
+      }
+    ]
+  },
+  "synagogue": {
+    "title": "Sabbath in Nazareth",
+    "text": "The synagogue is quiet and warm.\nHe stands to read.",
+    "choices": [
+      {
+        "text": "Listen with an open heart",
+        "feedback": "You lean in."
+      },
+      {
+        "text": "Whisper about his family",
+        "feedback": "Hear him first."
+      }
+    ]
+  },
+  "whisper_consequence": {
+    "title": "Listen First",
+    "text": "Gossip drowns out the word.\nLet it be silent.",
+    "choices": [
+      {
+        "text": "Listen with an open heart",
+        "feedback": "You go still."
+      }
+    ]
+  },
+  "scroll": {
+    "title": "The Scroll Unrolled",
+    "text": "\"The Spirit of the Lord is on me…\"\nHis voice fills the room.",
+    "choices": [
+      {
+        "text": "Test him — \"Prove it now.\"",
+        "feedback": "Faith does not bargain."
+      },
+      {
+        "text": "Marvel at his gracious words",
+        "feedback": "Your heart stirs."
+      },
+      {
+        "text": "Walk out before he finishes",
+        "feedback": "Do not leave the light."
+      }
+    ]
+  },
+  "test_consequence": {
+    "title": "Do Not Test",
+    "text": "Demands silence the word in you.\nReceive instead.",
+    "choices": [
+      {
+        "text": "Marvel at his gracious words",
+        "feedback": "You open your hands."
+      }
+    ]
+  },
+  "walkout_consequence": {
+    "title": "Stay and Hear",
+    "text": "What you flee, you cannot learn.\nReturn and listen.",
+    "choices": [
+      {
+        "text": "Marvel at his gracious words",
+        "feedback": "You sit back down."
+      }
+    ]
+  },
+  "doubt": {
+    "title": "A Cold Shadow",
+    "text": "Wonder cools. Eyes narrow.\n\"Where did this man learn this?\"",
+    "choices": [
+      {
+        "text": "Join the doubting murmur",
+        "feedback": "Do not breathe doubt's air."
+      },
+      {
+        "text": "Hold steady in what you heard",
+        "feedback": "Your heart keeps the word."
+      }
+    ]
+  },
+  "join_consequence": {
+    "title": "Hold On",
+    "text": "What stirred you was true.\nDo not let it go.",
+    "choices": [
+      {
+        "text": "Hold steady in what you heard",
+        "feedback": "You stand firm."
+      }
+    ]
+  },
+  "carpenter": {
+    "title": "Joseph's Son",
+    "text": "\"Is this not the carpenter's son?\nWe know his brothers.\"",
+    "choices": [
+      {
+        "text": "Agree — \"He is only one of us.\"",
+        "feedback": "Familiarity is not the truth of him."
+      },
+      {
+        "text": "Remember the words, not the name",
+        "feedback": "You see past what you knew."
+      },
+      {
+        "text": "Mock him for his old trade",
+        "feedback": "Honor is not given by mocking."
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "Look Again",
+    "text": "He is more than the boy you knew.\nLook with new eyes.",
+    "choices": [
+      {
+        "text": "Remember the words, not the name",
+        "feedback": "You see him truly."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Do Not Mock",
+    "text": "What you mock, you cannot receive.\nBe quiet.",
+    "choices": [
+      {
+        "text": "Remember the words, not the name",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "rejection": {
+    "title": "They Turn Away",
+    "text": "The room grows cold.\nFaces close like shutters.",
+    "choices": [
+      {
+        "text": "Stay near him as they reject",
+        "feedback": "You do not leave his side."
+      },
+      {
+        "text": "Slip into the crowd, unseen",
+        "feedback": "Do not hide from love."
+      }
+    ]
+  },
+  "slip_consequence": {
+    "title": "Stand With Him",
+    "text": "Loyalty is louder than the crowd.\nReturn to his side.",
+    "choices": [
+      {
+        "text": "Stay near him as they reject",
+        "feedback": "You step back beside him."
+      }
+    ]
+  },
+  "explain": {
+    "title": "A Prophet at Home",
+    "text": "\"No prophet is welcomed\nin his own hometown.\"",
+    "choices": [
+      {
+        "text": "Argue that they will change",
+        "feedback": "Unbelief is a closed door."
+      },
+      {
+        "text": "Receive his quiet sorrow",
+        "feedback": "You feel what he feels."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Hear the Sorrow",
+    "text": "What he says is true and aching.\nLet it land.",
+    "choices": [
+      {
+        "text": "Receive his quiet sorrow",
+        "feedback": "Your heart softens."
+      }
+    ]
+  },
+  "leaving": {
+    "title": "The Road Out",
+    "text": "He turns toward the open road.\nHis steps are slow but sure.",
+    "choices": [
+      {
+        "text": "Stay behind with the doubters",
+        "feedback": "Do not stay where faith died."
+      },
+      {
+        "text": "Walk out with him in faith",
+        "feedback": "You go where he goes."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "Follow Him",
+    "text": "Faith walks forward.\nDo not stay behind.",
+    "choices": [
+      {
+        "text": "Walk out with him in faith",
+        "feedback": "You follow him out."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Familiar Eyes, Closed",
+    "text": "Where familiarity blocks the heart,\nfaith finds a quieter road.",
+    "choices": []
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "start": {
+    "title": "Valley of Elah",
+    "text": "Two armies face each other.\nDust drifts between silent hills.",
+    "choices": [
+      {
+        "text": "Flee back to your sheep",
+        "feedback": "The Lord called you here."
+      },
+      {
+        "text": "Bring bread to your brothers",
+        "feedback": "You climb the ridge with your load."
+      },
+      {
+        "text": "Boast to passing soldiers",
+        "feedback": "Words without faith are wind."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "Do Not Turn Back",
+    "text": "God has set your steps here.\nGo to your brothers.",
+    "choices": [
+      {
+        "text": "Bring bread to your brothers",
+        "feedback": "You shoulder the satchel."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Quiet Your Pride",
+    "text": "Save your strength for the Lord.\nDeliver what your father sent.",
+    "choices": [
+      {
+        "text": "Bring bread to your brothers",
+        "feedback": "You lower your voice."
+      }
+    ]
+  },
+  "challenge": {
+    "title": "The Giant Roars",
+    "text": "\"Send me a man!\" Goliath shouts.\nIsrael's army trembles in silence.",
+    "choices": [
+      {
+        "text": "Hide behind the soldiers",
+        "feedback": "Fear cannot silence God."
+      },
+      {
+        "text": "Curse the giant aloud",
+        "feedback": "Faith answers, not anger."
+      },
+      {
+        "text": "Ask, \"Who defies the living God?\"",
+        "feedback": "Your question rises like fire."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Stand in the Open",
+    "text": "The Lord is greater than the giant.\nLift your eyes.",
+    "choices": [
+      {
+        "text": "Ask, \"Who defies the living God?\"",
+        "feedback": "You step into the light."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Speak with Faith",
+    "text": "Anger is not your weapon.\nLet trust answer instead.",
+    "choices": [
+      {
+        "text": "Ask, \"Who defies the living God?\"",
+        "feedback": "You steady your breath."
+      }
+    ]
+  },
+  "saul_tent": {
+    "title": "Saul Offers His Armor",
+    "text": "Heavy bronze, polished and cold.\n\"Wear this, boy. You will need it.\"",
+    "choices": [
+      {
+        "text": "Wear the king's armor",
+        "feedback": "It was not made for you."
+      },
+      {
+        "text": "Set it aside, trust the Lord",
+        "feedback": "You step out lighter than air."
+      },
+      {
+        "text": "Refuse to fight at all",
+        "feedback": "God has given you this hour."
+      }
+    ]
+  },
+  "armor_consequence": {
+    "title": "Take It Off",
+    "text": "You cannot move beneath it.\nGod has another way.",
+    "choices": [
+      {
+        "text": "Set it aside, trust the Lord",
+        "feedback": "You let it fall to the ground."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Do Not Refuse",
+    "text": "The Lord delivered you from lion and bear.\nHe will deliver you now.",
+    "choices": [
+      {
+        "text": "Set it aside, trust the Lord",
+        "feedback": "Your hands grow steady."
+      }
+    ]
+  },
+  "brook": {
+    "title": "Five Smooth Stones",
+    "text": "Cool water runs over your feet.\nThe stones lie still and waiting.",
+    "choices": [
+      {
+        "text": "Grab the largest jagged rock",
+        "feedback": "Trust God's simple gifts."
+      },
+      {
+        "text": "Take a sword from a soldier",
+        "feedback": "Your sling is enough with God."
+      },
+      {
+        "text": "Choose five smooth stones",
+        "feedback": "You weigh them in your palm."
+      }
+    ]
+  },
+  "jagged_consequence": {
+    "title": "Choose Wisely",
+    "text": "The smooth stones fly true.\nLet the brook give what God provides.",
+    "choices": [
+      {
+        "text": "Choose five smooth stones",
+        "feedback": "You set the rough rock aside."
+      }
+    ]
+  },
+  "sword_consequence": {
+    "title": "Trust the Sling",
+    "text": "The Lord saves not with sword or spear.\nReturn to the brook.",
+    "choices": [
+      {
+        "text": "Choose five smooth stones",
+        "feedback": "You kneel by the water."
+      }
+    ]
+  },
+  "duel": {
+    "title": "Face to Face",
+    "text": "Goliath laughs at your size.\nYour sling rests against your hand.",
+    "choices": [
+      {
+        "text": "Run and pray quietly",
+        "feedback": "Speak boldly in His name."
+      },
+      {
+        "text": "Match his insults with your own",
+        "feedback": "Speak of the Lord, not yourself."
+      },
+      {
+        "text": "\"I come in the name of the Lord\"",
+        "feedback": "Your sling whirls into the wind."
+      }
+    ]
+  },
+  "pray_consequence": {
+    "title": "Stand and Speak",
+    "text": "Faith is not silent here.\nDeclare the name of the Lord.",
+    "choices": [
+      {
+        "text": "\"I come in the name of the Lord\"",
+        "feedback": "Your voice carries across the valley."
+      }
+    ]
+  },
+  "insult_consequence": {
+    "title": "Honor the Lord",
+    "text": "This battle belongs to God.\nLet His name go before you.",
+    "choices": [
+      {
+        "text": "\"I come in the name of the Lord\"",
+        "feedback": "You lift the sling high."
+      }
+    ]
+  },
+  "victory": {
+    "title": "The Giant Falls",
+    "text": "One stone, one breath, one God.\nIsrael's shout fills the hills.",
+    "choices": []
+  }
+}

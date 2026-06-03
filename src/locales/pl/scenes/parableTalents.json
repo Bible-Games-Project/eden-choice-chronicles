@@ -1,0 +1,237 @@
+{
+  "start": {
+    "title": "[TODO:pl] The Parable",
+    "text": "[TODO:pl] Jesus turns to you.\n\"A man entrusted his wealth to his servants.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk away, unconcerned",
+        "feedback": "[TODO:pl] Stay. This story is for you."
+      },
+      {
+        "text": "[TODO:pl] Listen with open heart",
+        "feedback": "[TODO:pl] His voice steadies you."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "[TODO:pl] Come Back",
+    "text": "[TODO:pl] Every gift in your hand waits.\nReturn and hear.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Listen with open heart",
+        "feedback": "[TODO:pl] You step closer."
+      }
+    ]
+  },
+  "giving": {
+    "title": "[TODO:pl] The Master Gives",
+    "text": "[TODO:pl] He hands out talents:\nfive, two, and one, each by ability.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Resent the smaller share",
+        "feedback": "[TODO:pl] Each gift is fully yours."
+      },
+      {
+        "text": "[TODO:pl] Receive what is given to you",
+        "feedback": "[TODO:pl] Your hands open."
+      }
+    ]
+  },
+  "resent_consequence": {
+    "title": "[TODO:pl] Yours Is Enough",
+    "text": "[TODO:pl] Envy buries every talent.\nReceive what is yours.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Receive what is given to you",
+        "feedback": "[TODO:pl] Resentment fades."
+      }
+    ]
+  },
+  "five": {
+    "title": "[TODO:pl] Five Talents",
+    "text": "[TODO:pl] The first servant lifts five bags.\n\"I will go and trade at once.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Mock his ambition",
+        "feedback": "[TODO:pl] Courage is not pride."
+      },
+      {
+        "text": "[TODO:pl] Honor his courage",
+        "feedback": "[TODO:pl] You nod with respect."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pl] He Walks in Faith",
+    "text": "[TODO:pl] He trusts what was placed in him.\nLearn from his step.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Honor his courage",
+        "feedback": "[TODO:pl] Your mockery softens."
+      }
+    ]
+  },
+  "two": {
+    "title": "[TODO:pl] Two Talents",
+    "text": "[TODO:pl] The second weighs two coins.\nHe sets out quietly to work.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Tell him to wait for more",
+        "feedback": "[TODO:pl] Begin with what you hold."
+      },
+      {
+        "text": "[TODO:pl] Bless his small beginning",
+        "feedback": "[TODO:pl] Small starts grow far."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:pl] Begin Today",
+    "text": "[TODO:pl] Tomorrow has its own seeds.\nUse what is in your hand.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Bless his small beginning",
+        "feedback": "[TODO:pl] You let him go."
+      }
+    ]
+  },
+  "one": {
+    "title": "[TODO:pl] One Talent",
+    "text": "[TODO:pl] The third digs a hole at dusk.\nHe buries his single coin in fear.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Tell him fear is wisdom",
+        "feedback": "[TODO:pl] Fear hides what should shine."
+      },
+      {
+        "text": "[TODO:pl] Hide your own gift as well",
+        "feedback": "[TODO:pl] Buried gifts feed no one."
+      },
+      {
+        "text": "[TODO:pl] Beg him to use it instead",
+        "feedback": "[TODO:pl] Your voice trembles for him."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "[TODO:pl] Fear Is Not Faith",
+    "text": "[TODO:pl] Caution that buries is not wise.\nIt is faithless.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Beg him to use it instead",
+        "feedback": "[TODO:pl] You change your mind."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pl] Lift It Out",
+    "text": "[TODO:pl] No gift was meant for the dark.\nDig it up again.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Beg him to use it instead",
+        "feedback": "[TODO:pl] You uncover yours too."
+      }
+    ]
+  },
+  "return": {
+    "title": "[TODO:pl] The Master Returns",
+    "text": "[TODO:pl] After a long time he comes back.\n\"Show me what you have done.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Make excuses for everyone",
+        "feedback": "[TODO:pl] Account for yourself."
+      },
+      {
+        "text": "[TODO:pl] Stand and give your account",
+        "feedback": "[TODO:pl] You step forward calmly."
+      }
+    ]
+  },
+  "excuse_consequence": {
+    "title": "[TODO:pl] Own Your Work",
+    "text": "[TODO:pl] Each life answers for itself.\nSpeak for what is yours.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stand and give your account",
+        "feedback": "[TODO:pl] Your voice steadies."
+      }
+    ]
+  },
+  "reward_five": {
+    "title": "[TODO:pl] Well Done",
+    "text": "[TODO:pl] The first brings ten talents.\n\"Well done, good and faithful servant.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Envy his great reward",
+        "feedback": "[TODO:pl] His joy can be yours too."
+      },
+      {
+        "text": "[TODO:pl] Rejoice with his master",
+        "feedback": "[TODO:pl] Joy fills the room."
+      }
+    ]
+  },
+  "envy_consequence": {
+    "title": "[TODO:pl] Run Your Race",
+    "text": "[TODO:pl] Faithfulness, not size, is praised.\nYou will be measured the same.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Rejoice with his master",
+        "feedback": "[TODO:pl] Envy melts away."
+      }
+    ]
+  },
+  "reward_two": {
+    "title": "[TODO:pl] Equal Praise",
+    "text": "[TODO:pl] The second brings four talents.\n\"Well done. Enter into joy.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Decide small gifts don't matter",
+        "feedback": "[TODO:pl] Heaven counts faithfulness."
+      },
+      {
+        "text": "[TODO:pl] See that faithfulness is praised",
+        "feedback": "[TODO:pl] A truth settles in you."
+      }
+    ]
+  },
+  "small_consequence": {
+    "title": "[TODO:pl] All of It Matters",
+    "text": "[TODO:pl] Two talents earned the same words.\nNothing given is too small.",
+    "choices": [
+      {
+        "text": "[TODO:pl] See that faithfulness is praised",
+        "feedback": "[TODO:pl] Your view shifts."
+      }
+    ]
+  },
+  "judgment_one": {
+    "title": "[TODO:pl] I Was Afraid",
+    "text": "[TODO:pl] The third holds out a dirty coin.\n\"I was afraid. I hid it away.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Defend his fear as humble",
+        "feedback": "[TODO:pl] Fear was never his master's wish."
+      },
+      {
+        "text": "[TODO:pl] Mourn what was never used",
+        "feedback": "[TODO:pl] Tears rise for the buried gift."
+      }
+    ]
+  },
+  "defend_consequence": {
+    "title": "[TODO:pl] Fear Is Not Humility",
+    "text": "[TODO:pl] True humility uses the gift.\nIt does not hide.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Mourn what was never used",
+        "feedback": "[TODO:pl] You sit with the truth."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pl] Use What You Hold",
+    "text": "[TODO:pl] Jesus looks at you and says,\n\"To everyone given much, much is asked.\"",
+    "choices": []
+  }
+}

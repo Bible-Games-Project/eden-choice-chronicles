@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "[TODO:ko] The Shore",
+    "text": "[TODO:ko] The boat lands in strange country.\nA distant cry tears the silence.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Turn back to the boat",
+        "feedback": "[TODO:ko] He calls you onward."
+      },
+      {
+        "text": "[TODO:ko] Follow Jesus inland",
+        "feedback": "[TODO:ko] You step ashore with him."
+      },
+      {
+        "text": "[TODO:ko] Hide behind the rocks",
+        "feedback": "[TODO:ko] Do not flee his side."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:ko] Stay With Him",
+    "text": "[TODO:ko] He does not turn back.\nWalk where he walks.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Follow Jesus inland",
+        "feedback": "[TODO:ko] You follow."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ko] Come Out",
+    "text": "[TODO:ko] His presence is your shelter.\nWalk beside him.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Follow Jesus inland",
+        "feedback": "[TODO:ko] You step into the light."
+      }
+    ]
+  },
+  "tombs": {
+    "title": "[TODO:ko] Among the Tombs",
+    "text": "[TODO:ko] Broken chains scatter the ground.\nA man lives among the dead.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Mock his suffering",
+        "feedback": "[TODO:ko] See him as Christ does."
+      },
+      {
+        "text": "[TODO:ko] Look on him with pity",
+        "feedback": "[TODO:ko] Your heart breaks for him."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ko] Have Compassion",
+    "text": "[TODO:ko] He is tormented, not despised.\nLook with mercy.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Look on him with pity",
+        "feedback": "[TODO:ko] You bow your head."
+      }
+    ]
+  },
+  "villagers": {
+    "title": "[TODO:ko] The Villagers' Fear",
+    "text": "[TODO:ko] Villagers warn, \"No one can bind him.\"\nThey beg you to leave.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Heed their fear and flee",
+        "feedback": "[TODO:ko] Stay with the Master."
+      },
+      {
+        "text": "[TODO:ko] Trust Jesus and remain",
+        "feedback": "[TODO:ko] You hold your ground."
+      },
+      {
+        "text": "[TODO:ko] Argue with the villagers",
+        "feedback": "[TODO:ko] Words will not help now."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:ko] Do Not Flee",
+    "text": "[TODO:ko] Their fear is not your faith.\nStand with him.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Trust Jesus and remain",
+        "feedback": "[TODO:ko] You stay."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:ko] Watch and Trust",
+    "text": "[TODO:ko] This hour is for witnessing.\nBe still and see.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Trust Jesus and remain",
+        "feedback": "[TODO:ko] You fall quiet."
+      }
+    ]
+  },
+  "confront": {
+    "title": "[TODO:ko] He Runs to Jesus",
+    "text": "[TODO:ko] The man falls down before him.\n\"What do you want with me?\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Step between them in fear",
+        "feedback": "[TODO:ko] Trust the Master's word."
+      },
+      {
+        "text": "[TODO:ko] Watch Jesus speak",
+        "feedback": "[TODO:ko] Jesus is not afraid."
+      }
+    ]
+  },
+  "step_consequence": {
+    "title": "[TODO:ko] Let Him Act",
+    "text": "[TODO:ko] Your hands cannot heal here.\nOnly his voice can.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Watch Jesus speak",
+        "feedback": "[TODO:ko] You step back."
+      }
+    ]
+  },
+  "command": {
+    "title": "[TODO:ko] Come Out of Him",
+    "text": "[TODO:ko] Jesus speaks, calm and clear.\n\"Come out of this man.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Doubt his authority",
+        "feedback": "[TODO:ko] His word is power."
+      },
+      {
+        "text": "[TODO:ko] Believe his command",
+        "feedback": "[TODO:ko] The unclean spirits obey."
+      },
+      {
+        "text": "[TODO:ko] Cover your ears",
+        "feedback": "[TODO:ko] Listen and believe."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:ko] See What Follows",
+    "text": "[TODO:ko] Open your eyes to his power.\nThe demons hear him.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Believe his command",
+        "feedback": "[TODO:ko] You believe."
+      }
+    ]
+  },
+  "cover_consequence": {
+    "title": "[TODO:ko] Hear His Voice",
+    "text": "[TODO:ko] His word frees the captive.\nListen.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Believe his command",
+        "feedback": "[TODO:ko] You listen."
+      }
+    ]
+  },
+  "pigs": {
+    "title": "[TODO:ko] Into the Herd",
+    "text": "[TODO:ko] The herd rushes down the cliff.\nThe man lies still and silent.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Mourn the lost herd",
+        "feedback": "[TODO:ko] A soul outweighs them all."
+      },
+      {
+        "text": "[TODO:ko] Rejoice for the man",
+        "feedback": "[TODO:ko] He is set free."
+      }
+    ]
+  },
+  "mourn_consequence": {
+    "title": "[TODO:ko] A Soul Is Worth More",
+    "text": "[TODO:ko] He is worth more than many herds.\nRejoice.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Rejoice for the man",
+        "feedback": "[TODO:ko] You smile."
+      }
+    ]
+  },
+  "restored": {
+    "title": "[TODO:ko] Go and Tell",
+    "text": "[TODO:ko] The man sits clothed, in his right mind.\n\"Tell what the Lord has done.\"",
+    "choices": []
+  }
+}

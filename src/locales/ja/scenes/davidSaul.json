@@ -1,0 +1,235 @@
+{
+  "start": {
+    "title": "[TODO:ja] The King's Harp",
+    "text": "[TODO:ja] Saul's eyes are dark and tired.\nThe harp waits in your hands.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Mock his troubled mind",
+        "feedback": "[TODO:ja] A servant does not scorn the king."
+      },
+      {
+        "text": "[TODO:ja] Play softly to soothe him",
+        "feedback": "[TODO:ja] The notes calm his heart."
+      },
+      {
+        "text": "[TODO:ja] Demand a higher seat",
+        "feedback": "[TODO:ja] Pride poisons your gift."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ja] Honor the King",
+    "text": "[TODO:ja] Even a jealous king is the Lord's anointed.\nServe with humility.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Play softly to soothe him",
+        "feedback": "[TODO:ja] You bow your head and play."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:ja] Lay Down Your Pride",
+    "text": "[TODO:ja] Greatness comes through service.\nReturn to your task.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Play softly to soothe him",
+        "feedback": "[TODO:ja] Your fingers find the strings."
+      }
+    ]
+  },
+  "jealousy": {
+    "title": "[TODO:ja] The Women Sing",
+    "text": "[TODO:ja] \"Saul slew thousands, David tens of thousands.\"\nSaul's face turns to stone.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Boast of your victories",
+        "feedback": "[TODO:ja] Words like these light a fire."
+      },
+      {
+        "text": "[TODO:ja] Stay quiet and serve faithfully",
+        "feedback": "[TODO:ja] You lower your eyes."
+      },
+      {
+        "text": "[TODO:ja] Shame the king openly",
+        "feedback": "[TODO:ja] Do not strike at the crown."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ja] Quiet Your Tongue",
+    "text": "[TODO:ja] Glory belongs to God alone.\nLet humility answer.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Stay quiet and serve faithfully",
+        "feedback": "[TODO:ja] You hold your peace."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "[TODO:ja] Honor Above Anger",
+    "text": "[TODO:ja] Saul is still the Lord's anointed.\nSpeak nothing against him.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Stay quiet and serve faithfully",
+        "feedback": "[TODO:ja] You bow and step aside."
+      }
+    ]
+  },
+  "spear": {
+    "title": "[TODO:ja] Spear in the Air",
+    "text": "[TODO:ja] Saul's spear flies past your head.\nIt buries deep in the wall.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Draw your sword on the king",
+        "feedback": "[TODO:ja] Never lift a hand against him."
+      },
+      {
+        "text": "[TODO:ja] Curse Saul and storm out",
+        "feedback": "[TODO:ja] Anger is not your weapon."
+      },
+      {
+        "text": "[TODO:ja] Slip away in silence",
+        "feedback": "[TODO:ja] You leave without a word."
+      }
+    ]
+  },
+  "sword_consequence": {
+    "title": "[TODO:ja] Stay Your Hand",
+    "text": "[TODO:ja] The Lord chose Saul.\nDo not take what God will give.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Slip away in silence",
+        "feedback": "[TODO:ja] You sheathe your blade."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ja] Hold Your Tongue",
+    "text": "[TODO:ja] Cursing him will not free you.\nLeave with quiet dignity.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Slip away in silence",
+        "feedback": "[TODO:ja] You step into the corridor."
+      }
+    ]
+  },
+  "jonathan_warns": {
+    "title": "[TODO:ja] A Friend in the Field",
+    "text": "[TODO:ja] Jonathan grips your arm.\n\"My father seeks your life. Run.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Trust Jonathan and flee",
+        "feedback": "[TODO:ja] True friendship is from God."
+      },
+      {
+        "text": "[TODO:ja] Return to confront Saul",
+        "feedback": "[TODO:ja] Do not walk into the spear."
+      },
+      {
+        "text": "[TODO:ja] Doubt Jonathan's loyalty",
+        "feedback": "[TODO:ja] He risks all to save you."
+      }
+    ]
+  },
+  "confront_consequence": {
+    "title": "[TODO:ja] Do Not Return",
+    "text": "[TODO:ja] Saul's heart is closed for now.\nThe Lord has another path.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Trust Jonathan and flee",
+        "feedback": "[TODO:ja] You take his counsel to heart."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:ja] Trust His Love",
+    "text": "[TODO:ja] Jonathan's covenant is your shield.\nReceive his warning.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Trust Jonathan and flee",
+        "feedback": "[TODO:ja] You clasp his hand and go."
+      }
+    ]
+  },
+  "flee": {
+    "title": "[TODO:ja] Into the Wilderness",
+    "text": "[TODO:ja] Saul's army hunts the red canyons.\nYour men whisper of vengeance.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Raise a war band against Saul",
+        "feedback": "[TODO:ja] Do not fight the Lord's anointed."
+      },
+      {
+        "text": "[TODO:ja] Hide in the hills and pray",
+        "feedback": "[TODO:ja] You wait on the Lord."
+      },
+      {
+        "text": "[TODO:ja] Flee to a foreign king",
+        "feedback": "[TODO:ja] Trust God, not strangers."
+      }
+    ]
+  },
+  "war_consequence": {
+    "title": "[TODO:ja] Lay Down the Sword",
+    "text": "[TODO:ja] Civil blood would stain your name.\nSeek the Lord instead.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Hide in the hills and pray",
+        "feedback": "[TODO:ja] You climb the rocky path."
+      }
+    ]
+  },
+  "foreign_consequence": {
+    "title": "[TODO:ja] Stay Near the Lord",
+    "text": "[TODO:ja] Foreign kings cannot keep you.\nGod alone is your refuge.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Hide in the hills and pray",
+        "feedback": "[TODO:ja] You turn back toward the wilderness."
+      }
+    ]
+  },
+  "cave": {
+    "title": "[TODO:ja] Saul Sleeps Within Reach",
+    "text": "[TODO:ja] Saul lies asleep in your cave.\nYour men whisper, \"God has given him.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Strike Saul down now",
+        "feedback": "[TODO:ja] Never harm the Lord's anointed."
+      },
+      {
+        "text": "[TODO:ja] Wake him with angry words",
+        "feedback": "[TODO:ja] Show mercy without malice."
+      },
+      {
+        "text": "[TODO:ja] Cut only the corner of his robe",
+        "feedback": "[TODO:ja] Restraint speaks louder than blood."
+      }
+    ]
+  },
+  "strike_consequence": {
+    "title": "[TODO:ja] Stay Your Blade",
+    "text": "[TODO:ja] Vengeance belongs to God.\nLet mercy be your witness.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Cut only the corner of his robe",
+        "feedback": "[TODO:ja] Your knife trembles, then turns."
+      }
+    ]
+  },
+  "wake_consequence": {
+    "title": "[TODO:ja] Speak with Honor",
+    "text": "[TODO:ja] Anger will twist a true witness.\nLet your deed speak first.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Cut only the corner of his robe",
+        "feedback": "[TODO:ja] You crouch silently beside him."
+      }
+    ]
+  },
+  "mercy_call": {
+    "title": "[TODO:ja] I Could Have Killed You",
+    "text": "[TODO:ja] From the cliff you raise the cloak.\nSaul weeps. \"You are more righteous than I.\"",
+    "choices": []
+  }
+}

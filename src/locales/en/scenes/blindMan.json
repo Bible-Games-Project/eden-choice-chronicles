@@ -1,0 +1,217 @@
+{
+  "start": {
+    "title": "Who Sinned?",
+    "text": "You sit in the dust, begging.\nDisciples ask, \"Who sinned?\"",
+    "choices": [
+      {
+        "text": "Curse them silently",
+        "feedback": "Listen instead."
+      },
+      {
+        "text": "Wait and listen",
+        "feedback": "You hold still."
+      },
+      {
+        "text": "Beg them louder",
+        "feedback": "Be still and hear."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Be Still",
+    "text": "Anger will not heal you.\nListen.",
+    "choices": [
+      {
+        "text": "Wait and listen",
+        "feedback": "You quiet your heart."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "Quiet Now",
+    "text": "A voice answers them.\nListen.",
+    "choices": [
+      {
+        "text": "Wait and listen",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "reveal": {
+    "title": "God's Works Revealed",
+    "text": "\"Neither this man nor his parents.\"\n\"God's works shall be seen.\"",
+    "choices": [
+      {
+        "text": "Doubt his words",
+        "feedback": "Hold on to hope."
+      },
+      {
+        "text": "Hope quietly",
+        "feedback": "Something stirs."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "Hold On",
+    "text": "His voice is kind.\nHope a little.",
+    "choices": [
+      {
+        "text": "Hope quietly",
+        "feedback": "You breathe in."
+      }
+    ]
+  },
+  "mud": {
+    "title": "Mud on Your Eyes",
+    "text": "He spits on the ground, makes clay.\nHis hand finds your face.",
+    "choices": [
+      {
+        "text": "Pull away in fear",
+        "feedback": "Let him touch you."
+      },
+      {
+        "text": "Wipe it off at once",
+        "feedback": "Trust him."
+      },
+      {
+        "text": "Hold still under his hand",
+        "feedback": "Cool clay rests there."
+      }
+    ]
+  },
+  "pull_consequence": {
+    "title": "Be Still",
+    "text": "His touch is gentle.\nLet him work.",
+    "choices": [
+      {
+        "text": "Hold still under his hand",
+        "feedback": "You wait."
+      }
+    ]
+  },
+  "wipe_consequence": {
+    "title": "Trust His Hand",
+    "text": "Do not undo his work.\nWait.",
+    "choices": [
+      {
+        "text": "Hold still under his hand",
+        "feedback": "The clay stays."
+      }
+    ]
+  },
+  "send": {
+    "title": "Go to Siloam",
+    "text": "\"Go, wash in the pool of Siloam.\"\nThe way is long.",
+    "choices": [
+      {
+        "text": "Stay where it is safe",
+        "feedback": "Obey him."
+      },
+      {
+        "text": "Walk to the pool",
+        "feedback": "You feel the wall, and go."
+      }
+    ]
+  },
+  "stay_consequence": {
+    "title": "Obey",
+    "text": "The pool is waiting.\nWalk.",
+    "choices": [
+      {
+        "text": "Walk to the pool",
+        "feedback": "You step into the street."
+      }
+    ]
+  },
+  "wash": {
+    "title": "The Pool of Siloam",
+    "text": "Water in your hands.\nYou bring it to your eyes.",
+    "choices": [
+      {
+        "text": "Wash and lift your eyes",
+        "feedback": "Light pours in."
+      },
+      {
+        "text": "Wash and keep them shut",
+        "feedback": "Open them."
+      }
+    ]
+  },
+  "shut_consequence": {
+    "title": "Open Your Eyes",
+    "text": "He sent you to see.\nLift them.",
+    "choices": [
+      {
+        "text": "Wash and lift your eyes",
+        "feedback": "Light pours in."
+      }
+    ]
+  },
+  "see": {
+    "title": "You Can See",
+    "text": "Sky. Stone. Your own hands.\nYou weep, laughing.",
+    "choices": [
+      {
+        "text": "Hide it from the crowd",
+        "feedback": "Tell them."
+      },
+      {
+        "text": "Tell everyone you meet",
+        "feedback": "Your voice rises."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Speak Out",
+    "text": "Do not hide his work.\nTell them.",
+    "choices": [
+      {
+        "text": "Tell everyone you meet",
+        "feedback": "You run to the street."
+      }
+    ]
+  },
+  "pharisees": {
+    "title": "Pharisees Question You",
+    "text": "They glare. \"Who opened your eyes?\"\nThe room is cold.",
+    "choices": [
+      {
+        "text": "Lie to keep the peace",
+        "feedback": "Tell the truth."
+      },
+      {
+        "text": "\"A man called Jesus\"",
+        "feedback": "Your voice is steady."
+      },
+      {
+        "text": "Stay silent in fear",
+        "feedback": "Speak."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "Speak Truth",
+    "text": "Truth set you free.\nName him.",
+    "choices": [
+      {
+        "text": "\"A man called Jesus\"",
+        "feedback": "You stand straight."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "Find Your Voice",
+    "text": "He gave you sight.\nGive him your words.",
+    "choices": [
+      {
+        "text": "\"A man called Jesus\"",
+        "feedback": "You speak clearly."
+      }
+    ]
+  },
+  "testify": {
+    "title": "One Thing I Know",
+    "text": "\"I was blind. Now I see.\"\nThe light stays with you.",
+    "choices": []
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "[TODO:ru] The Shore",
+    "text": "[TODO:ru] The boat lands in strange country.\nA distant cry tears the silence.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Turn back to the boat",
+        "feedback": "[TODO:ru] He calls you onward."
+      },
+      {
+        "text": "[TODO:ru] Follow Jesus inland",
+        "feedback": "[TODO:ru] You step ashore with him."
+      },
+      {
+        "text": "[TODO:ru] Hide behind the rocks",
+        "feedback": "[TODO:ru] Do not flee his side."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:ru] Stay With Him",
+    "text": "[TODO:ru] He does not turn back.\nWalk where he walks.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Follow Jesus inland",
+        "feedback": "[TODO:ru] You follow."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ru] Come Out",
+    "text": "[TODO:ru] His presence is your shelter.\nWalk beside him.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Follow Jesus inland",
+        "feedback": "[TODO:ru] You step into the light."
+      }
+    ]
+  },
+  "tombs": {
+    "title": "[TODO:ru] Among the Tombs",
+    "text": "[TODO:ru] Broken chains scatter the ground.\nA man lives among the dead.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Mock his suffering",
+        "feedback": "[TODO:ru] See him as Christ does."
+      },
+      {
+        "text": "[TODO:ru] Look on him with pity",
+        "feedback": "[TODO:ru] Your heart breaks for him."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ru] Have Compassion",
+    "text": "[TODO:ru] He is tormented, not despised.\nLook with mercy.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Look on him with pity",
+        "feedback": "[TODO:ru] You bow your head."
+      }
+    ]
+  },
+  "villagers": {
+    "title": "[TODO:ru] The Villagers' Fear",
+    "text": "[TODO:ru] Villagers warn, \"No one can bind him.\"\nThey beg you to leave.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Heed their fear and flee",
+        "feedback": "[TODO:ru] Stay with the Master."
+      },
+      {
+        "text": "[TODO:ru] Trust Jesus and remain",
+        "feedback": "[TODO:ru] You hold your ground."
+      },
+      {
+        "text": "[TODO:ru] Argue with the villagers",
+        "feedback": "[TODO:ru] Words will not help now."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:ru] Do Not Flee",
+    "text": "[TODO:ru] Their fear is not your faith.\nStand with him.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Trust Jesus and remain",
+        "feedback": "[TODO:ru] You stay."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:ru] Watch and Trust",
+    "text": "[TODO:ru] This hour is for witnessing.\nBe still and see.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Trust Jesus and remain",
+        "feedback": "[TODO:ru] You fall quiet."
+      }
+    ]
+  },
+  "confront": {
+    "title": "[TODO:ru] He Runs to Jesus",
+    "text": "[TODO:ru] The man falls down before him.\n\"What do you want with me?\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Step between them in fear",
+        "feedback": "[TODO:ru] Trust the Master's word."
+      },
+      {
+        "text": "[TODO:ru] Watch Jesus speak",
+        "feedback": "[TODO:ru] Jesus is not afraid."
+      }
+    ]
+  },
+  "step_consequence": {
+    "title": "[TODO:ru] Let Him Act",
+    "text": "[TODO:ru] Your hands cannot heal here.\nOnly his voice can.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Watch Jesus speak",
+        "feedback": "[TODO:ru] You step back."
+      }
+    ]
+  },
+  "command": {
+    "title": "[TODO:ru] Come Out of Him",
+    "text": "[TODO:ru] Jesus speaks, calm and clear.\n\"Come out of this man.\"",
+    "choices": [
+      {
+        "text": "[TODO:ru] Doubt his authority",
+        "feedback": "[TODO:ru] His word is power."
+      },
+      {
+        "text": "[TODO:ru] Believe his command",
+        "feedback": "[TODO:ru] The unclean spirits obey."
+      },
+      {
+        "text": "[TODO:ru] Cover your ears",
+        "feedback": "[TODO:ru] Listen and believe."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:ru] See What Follows",
+    "text": "[TODO:ru] Open your eyes to his power.\nThe demons hear him.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Believe his command",
+        "feedback": "[TODO:ru] You believe."
+      }
+    ]
+  },
+  "cover_consequence": {
+    "title": "[TODO:ru] Hear His Voice",
+    "text": "[TODO:ru] His word frees the captive.\nListen.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Believe his command",
+        "feedback": "[TODO:ru] You listen."
+      }
+    ]
+  },
+  "pigs": {
+    "title": "[TODO:ru] Into the Herd",
+    "text": "[TODO:ru] The herd rushes down the cliff.\nThe man lies still and silent.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Mourn the lost herd",
+        "feedback": "[TODO:ru] A soul outweighs them all."
+      },
+      {
+        "text": "[TODO:ru] Rejoice for the man",
+        "feedback": "[TODO:ru] He is set free."
+      }
+    ]
+  },
+  "mourn_consequence": {
+    "title": "[TODO:ru] A Soul Is Worth More",
+    "text": "[TODO:ru] He is worth more than many herds.\nRejoice.",
+    "choices": [
+      {
+        "text": "[TODO:ru] Rejoice for the man",
+        "feedback": "[TODO:ru] You smile."
+      }
+    ]
+  },
+  "restored": {
+    "title": "[TODO:ru] Go and Tell",
+    "text": "[TODO:ru] The man sits clothed, in his right mind.\n\"Tell what the Lord has done.\"",
+    "choices": []
+  }
+}

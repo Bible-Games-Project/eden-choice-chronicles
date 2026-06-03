@@ -1,0 +1,227 @@
+{
+  "start": {
+    "title": "[TODO:tr] A Question Burns",
+    "text": "[TODO:tr] You see Jesus on the road.\nA question burns inside you.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Run past, too proud to ask",
+        "feedback": "[TODO:tr] Pride silences the soul."
+      },
+      {
+        "text": "[TODO:tr] Hurry forward to meet him",
+        "feedback": "[TODO:tr] Your heart leads you on."
+      }
+    ]
+  },
+  "pride_consequence": {
+    "title": "[TODO:tr] Do Not Walk On",
+    "text": "[TODO:tr] The question will not leave you.\nGo and ask him.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Hurry forward to meet him",
+        "feedback": "[TODO:tr] You turn back at once."
+      }
+    ]
+  },
+  "eternal_life": {
+    "title": "[TODO:tr] Good Teacher",
+    "text": "[TODO:tr] You kneel. \"What must I do\nto inherit eternal life?\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Demand a quick answer now",
+        "feedback": "[TODO:tr] Truth is not bought with haste."
+      },
+      {
+        "text": "[TODO:tr] Wait humbly for his words",
+        "feedback": "[TODO:tr] He looks at you kindly."
+      },
+      {
+        "text": "[TODO:tr] Boast of your good deeds first",
+        "feedback": "[TODO:tr] Listen before you speak."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:tr] Be Still",
+    "text": "[TODO:tr] Eternal things ask quiet hearts.\nWait and listen.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Wait humbly for his words",
+        "feedback": "[TODO:tr] You grow still."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:tr] Listen First",
+    "text": "[TODO:tr] Boasting closes the ear.\nLet him speak.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Wait humbly for his words",
+        "feedback": "[TODO:tr] You lower your eyes."
+      }
+    ]
+  },
+  "commandments": {
+    "title": "[TODO:tr] You Know Them",
+    "text": "[TODO:tr] \"Do not kill, steal, or lie.\nHonor your father and mother.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive each word with care",
+        "feedback": "[TODO:tr] The old words feel new."
+      },
+      {
+        "text": "[TODO:tr] Brush them off as too easy",
+        "feedback": "[TODO:tr] Do not pass them by."
+      }
+    ]
+  },
+  "easy_consequence": {
+    "title": "[TODO:tr] Weigh Them",
+    "text": "[TODO:tr] The commandments are not small.\nReceive them again.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive each word with care",
+        "feedback": "[TODO:tr] You bow your head."
+      }
+    ]
+  },
+  "claim": {
+    "title": "[TODO:tr] All My Life",
+    "text": "[TODO:tr] \"All these I have kept\nsince I was a boy.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lie about your hidden sins",
+        "feedback": "[TODO:tr] Do not deceive yourself."
+      },
+      {
+        "text": "[TODO:tr] Speak honest, with open heart",
+        "feedback": "[TODO:tr] He looks at you and loves you."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:tr] Be Honest",
+    "text": "[TODO:tr] He sees the corners of your soul.\nSpeak the truth.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Speak honest, with open heart",
+        "feedback": "[TODO:tr] Honesty steadies you."
+      }
+    ]
+  },
+  "challenge": {
+    "title": "[TODO:tr] One Thing You Lack",
+    "text": "[TODO:tr] \"Sell what you own, give to\nthe poor, and follow me.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Argue that wealth is a gift",
+        "feedback": "[TODO:tr] Gifts are meant to be shared."
+      },
+      {
+        "text": "[TODO:tr] Promise just a small portion",
+        "feedback": "[TODO:tr] He asked for all of you."
+      },
+      {
+        "text": "[TODO:tr] Sit with the weight of his words",
+        "feedback": "[TODO:tr] The words sink deep."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:tr] Do Not Argue",
+    "text": "[TODO:tr] He is not asking to take.\nHe is offering freedom.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Sit with the weight of his words",
+        "feedback": "[TODO:tr] You grow quiet."
+      }
+    ]
+  },
+  "bargain_consequence": {
+    "title": "[TODO:tr] All, Not Some",
+    "text": "[TODO:tr] Half a heart cannot follow him.\nHe asks for all.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Sit with the weight of his words",
+        "feedback": "[TODO:tr] You stop bargaining."
+      }
+    ]
+  },
+  "conflict": {
+    "title": "[TODO:tr] The Heart Weighs",
+    "text": "[TODO:tr] Your gold feels heavy in your hand.\nYour soul feels heavier.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Open your hands to let go",
+        "feedback": "[TODO:tr] Surrender feels close."
+      },
+      {
+        "text": "[TODO:tr] Clutch your wealth even tighter",
+        "feedback": "[TODO:tr] Your hand will not open."
+      }
+    ]
+  },
+  "surrender_path": {
+    "title": "[TODO:tr] Almost",
+    "text": "[TODO:tr] You almost let go.\nBut the weight is too great.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Step toward him anyway",
+        "feedback": "[TODO:tr] Your feet betray your heart."
+      }
+    ]
+  },
+  "walk_away": {
+    "title": "[TODO:tr] Sorrowful",
+    "text": "[TODO:tr] You turn away, deeply sad.\nYour wealth holds you back.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Run back and follow him",
+        "feedback": "[TODO:tr] Even sorrow can teach."
+      },
+      {
+        "text": "[TODO:tr] Keep walking and forget him",
+        "feedback": "[TODO:tr] Do not bury this moment."
+      }
+    ]
+  },
+  "forget_consequence": {
+    "title": "[TODO:tr] Do Not Forget",
+    "text": "[TODO:tr] His eyes still find you.\nRemember what you felt.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Carry his words in your heart",
+        "feedback": "[TODO:tr] You pause on the road."
+      }
+    ]
+  },
+  "teaching": {
+    "title": "[TODO:tr] Hard for the Rich",
+    "text": "[TODO:tr] \"How hard for the rich\nto enter the kingdom of God.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Despair, for who can be saved?",
+        "feedback": "[TODO:tr] Hope is not lost."
+      },
+      {
+        "text": "[TODO:tr] Trust that all is possible with God",
+        "feedback": "[TODO:tr] Grace makes a way."
+      }
+    ]
+  },
+  "despair_consequence": {
+    "title": "[TODO:tr] With God",
+    "text": "[TODO:tr] What is impossible for us\nis possible with God.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Trust that all is possible with God",
+        "feedback": "[TODO:tr] Hope returns."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:tr] With God, All Things",
+    "text": "[TODO:tr] What riches could not buy,\ngrace freely gives.",
+    "choices": []
+  }
+}

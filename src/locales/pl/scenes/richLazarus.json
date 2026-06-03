@@ -1,0 +1,265 @@
+{
+  "start": {
+    "title": "[TODO:pl] Two Men",
+    "text": "[TODO:pl] Jesus speaks quietly to the crowd.\n\"There was a rich man, and a poor man.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Turn away from the warning",
+        "feedback": "[TODO:pl] Stay. This is for you."
+      },
+      {
+        "text": "[TODO:pl] Listen with a serious heart",
+        "feedback": "[TODO:pl] His voice grows quiet."
+      }
+    ]
+  },
+  "turn_consequence": {
+    "title": "[TODO:pl] Sit and Hear",
+    "text": "[TODO:pl] Some warnings save the soul.\nReturn to the words.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Listen with a serious heart",
+        "feedback": "[TODO:pl] You sit back down."
+      }
+    ]
+  },
+  "luxury": {
+    "title": "[TODO:pl] Purple and Fine Linen",
+    "text": "[TODO:pl] Inside, the rich man feasts each day,\nclothed in purple, glad and full.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Envy his soft, easy life",
+        "feedback": "[TODO:pl] Look at what he ignores."
+      },
+      {
+        "text": "[TODO:pl] Wonder who waits outside",
+        "feedback": "[TODO:pl] Your eyes drift past the door."
+      }
+    ]
+  },
+  "envy_consequence": {
+    "title": "[TODO:pl] Look Wider",
+    "text": "[TODO:pl] Wealth is not the whole story.\nThere is more beyond the door.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wonder who waits outside",
+        "feedback": "[TODO:pl] Your gaze turns outward."
+      }
+    ]
+  },
+  "gate": {
+    "title": "[TODO:pl] At the Gate",
+    "text": "[TODO:pl] Lazarus lies at the gate, covered in sores.\nHe longs for the crumbs.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Step over him quickly",
+        "feedback": "[TODO:pl] Do not pass him by."
+      },
+      {
+        "text": "[TODO:pl] Blame him for his fall",
+        "feedback": "[TODO:pl] Pain is not always guilt."
+      },
+      {
+        "text": "[TODO:pl] Kneel and see his face",
+        "feedback": "[TODO:pl] Your heart breaks open."
+      }
+    ]
+  },
+  "step_consequence": {
+    "title": "[TODO:pl] Do Not Pass",
+    "text": "[TODO:pl] Every face is a gate of heaven.\nReturn to him.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Kneel and see his face",
+        "feedback": "[TODO:pl] You bend down low."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:pl] No Judgment",
+    "text": "[TODO:pl] You are not the judge of him.\nYou are the neighbor.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Kneel and see his face",
+        "feedback": "[TODO:pl] Your pride softens."
+      }
+    ]
+  },
+  "dogs": {
+    "title": "[TODO:pl] Only the Dogs",
+    "text": "[TODO:pl] Even the stray dogs come near\nto lick his open wounds.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Look away in disgust",
+        "feedback": "[TODO:pl] Do not look away."
+      },
+      {
+        "text": "[TODO:pl] Stay with him in his pain",
+        "feedback": "[TODO:pl] Your tears fall quietly."
+      }
+    ]
+  },
+  "disgust_consequence": {
+    "title": "[TODO:pl] Do Not Turn",
+    "text": "[TODO:pl] Mercy looks at what hurts.\nStay near him.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay with him in his pain",
+        "feedback": "[TODO:pl] You lift your eyes again."
+      }
+    ]
+  },
+  "indifference": {
+    "title": "[TODO:pl] The Rich Man Passes",
+    "text": "[TODO:pl] The rich man crosses his gate each day.\nHe does not see Lazarus.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Excuse the busy rich man",
+        "feedback": "[TODO:pl] No errand outweighs mercy."
+      },
+      {
+        "text": "[TODO:pl] Grieve the cold, closed heart",
+        "feedback": "[TODO:pl] You ache for both men."
+      }
+    ]
+  },
+  "excuse_consequence": {
+    "title": "[TODO:pl] No Excuse",
+    "text": "[TODO:pl] He had eyes. He had gold.\nHe had no compassion.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Grieve the cold, closed heart",
+        "feedback": "[TODO:pl] Your head bows."
+      }
+    ]
+  },
+  "death_lazarus": {
+    "title": "[TODO:pl] Carried by Angels",
+    "text": "[TODO:pl] Lazarus dies. Angels lift him\ngently to Abraham's side.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Doubt this comfort is real",
+        "feedback": "[TODO:pl] God sees the forgotten."
+      },
+      {
+        "text": "[TODO:pl] Weep with quiet joy",
+        "feedback": "[TODO:pl] Your soul lifts with him."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:pl] He Is Seen",
+    "text": "[TODO:pl] The world forgot him.\nHeaven never did.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Weep with quiet joy",
+        "feedback": "[TODO:pl] Hope warms you."
+      }
+    ]
+  },
+  "death_rich": {
+    "title": "[TODO:pl] Buried in Torment",
+    "text": "[TODO:pl] The rich man also dies.\nHe wakes in fire, in agony.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Mock his sudden ruin",
+        "feedback": "[TODO:pl] This is not for mockery."
+      },
+      {
+        "text": "[TODO:pl] Tremble at the reversal",
+        "feedback": "[TODO:pl] A holy fear fills you."
+      },
+      {
+        "text": "[TODO:pl] Pity him without learning",
+        "feedback": "[TODO:pl] Let his end teach you."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pl] Be Sobered",
+    "text": "[TODO:pl] Tomorrow's gate may be your own.\nReceive the warning.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Tremble at the reversal",
+        "feedback": "[TODO:pl] Your laugh dies away."
+      }
+    ]
+  },
+  "pity_consequence": {
+    "title": "[TODO:pl] Let It Teach You",
+    "text": "[TODO:pl] Do not only feel sad.\nFeel what your life must become.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Tremble at the reversal",
+        "feedback": "[TODO:pl] Resolve hardens in you."
+      }
+    ]
+  },
+  "plea": {
+    "title": "[TODO:pl] Send Lazarus",
+    "text": "[TODO:pl] \"Father Abraham, have mercy.\nSend Lazarus, just one drop.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Demand God reverse it now",
+        "feedback": "[TODO:pl] The chasm is fixed."
+      },
+      {
+        "text": "[TODO:pl] Hear Abraham's sorrow",
+        "feedback": "[TODO:pl] You listen carefully."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:pl] Listen First",
+    "text": "[TODO:pl] The time to choose was before.\nHear what Abraham must say.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hear Abraham's sorrow",
+        "feedback": "[TODO:pl] Your silence opens."
+      }
+    ]
+  },
+  "warning": {
+    "title": "[TODO:pl] Warn My Brothers",
+    "text": "[TODO:pl] \"Send him to my five brothers.\nLet them not come to this place.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wait for a sign from the dead",
+        "feedback": "[TODO:pl] You already have the word."
+      },
+      {
+        "text": "[TODO:pl] Hear Moses and the prophets",
+        "feedback": "[TODO:pl] The truth is already given."
+      },
+      {
+        "text": "[TODO:pl] Blame God for the silence",
+        "feedback": "[TODO:pl] He has not been silent."
+      }
+    ]
+  },
+  "sign_consequence": {
+    "title": "[TODO:pl] You Have the Word",
+    "text": "[TODO:pl] If you ignore the Scriptures,\nno wonder will move you.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hear Moses and the prophets",
+        "feedback": "[TODO:pl] You bow to the truth."
+      }
+    ]
+  },
+  "blame_god_consequence": {
+    "title": "[TODO:pl] He Has Spoken",
+    "text": "[TODO:pl] The word has been given long ago.\nThe question is whether you obey.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hear Moses and the prophets",
+        "feedback": "[TODO:pl] Your excuse falls away."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pl] Open Your Gate",
+    "text": "[TODO:pl] Jesus looks straight at you.\n\"Today, who lies at your gate?\"",
+    "choices": []
+  }
+}

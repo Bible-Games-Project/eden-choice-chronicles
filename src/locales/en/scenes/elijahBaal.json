@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "The Land Is Dry",
+    "text": "King Ahab burns with anger.\n\"You troubler of Israel, where is your God?\"",
+    "choices": [
+      {
+        "text": "Bow to Baal in fear",
+        "feedback": "Fear must not silence truth."
+      },
+      {
+        "text": "Call Israel to Mount Carmel",
+        "feedback": "Let the Lord answer by fire."
+      },
+      {
+        "text": "Flee the king's court",
+        "feedback": "A prophet must stand and speak."
+      }
+    ]
+  },
+  "bow_consequence": {
+    "title": "Stand for the Lord",
+    "text": "Silence is not faith.\nThe people need to see whom to follow.",
+    "choices": [
+      {
+        "text": "Call Israel to Mount Carmel",
+        "feedback": "You raise your voice without trembling."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "Turn Back",
+    "text": "The Lord did not send you to hide.\nReturn and summon the nation.",
+    "choices": [
+      {
+        "text": "Call Israel to Mount Carmel",
+        "feedback": "You walk back into the storm."
+      }
+    ]
+  },
+  "carmel_call": {
+    "title": "How Long Will You Limp?",
+    "text": "Israel waits between two gods.\n\"Choose this day whom you serve.\"",
+    "choices": [
+      {
+        "text": "Let Baal's prophets go first",
+        "feedback": "Truth need not rush."
+      },
+      {
+        "text": "Light your altar in secret",
+        "feedback": "God needs no trickery."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "In the Open",
+    "text": "Hidden flames prove nothing.\nLet the Lord be seen by all.",
+    "choices": [
+      {
+        "text": "Let Baal's prophets go first",
+        "feedback": "You step back and let them call."
+      }
+    ]
+  },
+  "baal_pray": {
+    "title": "No Voice, No Answer",
+    "text": "From dawn to noon they cry.\nTheir altar stands cold and still.",
+    "choices": [
+      {
+        "text": "Mock their lifeless god",
+        "feedback": "Truth exposes empty ritual."
+      },
+      {
+        "text": "Pity them and end it",
+        "feedback": "Let the silence finish its work."
+      },
+      {
+        "text": "Walk away in disgust",
+        "feedback": "The contest is not yet won."
+      }
+    ]
+  },
+  "pity_consequence": {
+    "title": "Let It Be Seen",
+    "text": "Israel must hear the silence in full.\nThen the truth will burn brighter.",
+    "choices": [
+      {
+        "text": "Mock their lifeless god",
+        "feedback": "You raise your voice with fire."
+      }
+    ]
+  },
+  "walk_consequence": {
+    "title": "Stay Until the End",
+    "text": "The Lord's hour has not come.\nReturn to the altar.",
+    "choices": [
+      {
+        "text": "Mock their lifeless god",
+        "feedback": "You face the silent stones again."
+      }
+    ]
+  },
+  "elijah_altar": {
+    "title": "Twelve Stones",
+    "text": "You rebuild the altar of the Lord.\nThe people draw near in hush.",
+    "choices": [
+      {
+        "text": "Drench it with water three times",
+        "feedback": "Leave no room for doubt."
+      },
+      {
+        "text": "Hide oil beneath the wood",
+        "feedback": "The Lord needs no help."
+      },
+      {
+        "text": "Light it yourself quickly",
+        "feedback": "Wait for fire from heaven."
+      }
+    ]
+  },
+  "oil_consequence": {
+    "title": "Pure Witness",
+    "text": "Trickery would shame the truth.\nLet only water touch the wood.",
+    "choices": [
+      {
+        "text": "Drench it with water three times",
+        "feedback": "The jars pour and pour."
+      }
+    ]
+  },
+  "light_consequence": {
+    "title": "Hands Off the Flame",
+    "text": "Only the Lord may answer here.\nStep back from the wood.",
+    "choices": [
+      {
+        "text": "Drench it with water three times",
+        "feedback": "The trench fills to the brim."
+      }
+    ]
+  },
+  "elijah_pray": {
+    "title": "Answer Me, O Lord",
+    "text": "Evening light falls on the altar.\nYou lift your voice once, in peace.",
+    "choices": [
+      {
+        "text": "Shout louder than Baal's prophets",
+        "feedback": "God hears the quiet heart."
+      },
+      {
+        "text": "Pray that hearts may turn",
+        "feedback": "Prayer for souls moves heaven."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Not by Volume",
+    "text": "The Lord is not the storm of voices.\nSpeak as a son to a Father.",
+    "choices": [
+      {
+        "text": "Pray that hearts may turn",
+        "feedback": "Your voice softens and rises."
+      }
+    ]
+  },
+  "fire_falls": {
+    "title": "The Fire of God",
+    "text": "Flame tears down from the sky.\nWater, wood, and stones — all consumed.",
+    "choices": [
+      {
+        "text": "Take credit before the crowd",
+        "feedback": "Glory belongs to God alone."
+      },
+      {
+        "text": "Point them to the true God",
+        "feedback": "Let every face turn upward."
+      }
+    ]
+  },
+  "credit_consequence": {
+    "title": "Lift His Name",
+    "text": "You did not bring the fire.\nGive the people the One they need.",
+    "choices": [
+      {
+        "text": "Point them to the true God",
+        "feedback": "You raise your hands to heaven."
+      }
+    ]
+  },
+  "ending": {
+    "title": "The Lord, He Is God",
+    "text": "The crowd falls upon their faces.\n\"The Lord — He is God! He is God!\"",
+    "choices": []
+  }
+}

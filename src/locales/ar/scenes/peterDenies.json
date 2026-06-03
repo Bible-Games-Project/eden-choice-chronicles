@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "[TODO:ar] From a Distance",
+    "text": "[TODO:ar] Torches lead Jesus away in chains.\nYour heart pounds. Do you dare follow?",
+    "choices": [
+      {
+        "text": "[TODO:ar] Run home and hide your shame",
+        "feedback": "[TODO:ar] Love must follow, even trembling."
+      },
+      {
+        "text": "[TODO:ar] Follow at a distance, silently",
+        "feedback": "[TODO:ar] Your sandals whisper after them."
+      },
+      {
+        "text": "[TODO:ar] Charge ahead and free Him",
+        "feedback": "[TODO:ar] This hour is not for swords."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ar] Do Not Abandon",
+    "text": "[TODO:ar] He needs witness, not abandonment.\nReturn to His shadow.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Follow at a distance, silently",
+        "feedback": "[TODO:ar] You turn back into the night."
+      }
+    ]
+  },
+  "charge_consequence": {
+    "title": "[TODO:ar] Not by Force",
+    "text": "[TODO:ar] He told you to put the sword away.\nFollow softly, not in fury.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Follow at a distance, silently",
+        "feedback": "[TODO:ar] You slip into the shadows."
+      }
+    ]
+  },
+  "gate": {
+    "title": "[TODO:ar] The Outer Gate",
+    "text": "[TODO:ar] John speaks to the gatekeeper for you.\nThe door creaks open into firelight.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Boldly announce who you are",
+        "feedback": "[TODO:ar] Pride goes before falling."
+      },
+      {
+        "text": "[TODO:ar] Lie about your name at once",
+        "feedback": "[TODO:ar] Deception breeds deeper denial."
+      },
+      {
+        "text": "[TODO:ar] Slip in quietly, eyes lowered",
+        "feedback": "[TODO:ar] You step inside, unnoticed."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ar] Not Yet, Peter",
+    "text": "[TODO:ar] Boasting once cost you everything.\nEnter humbly tonight.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Slip in quietly, eyes lowered",
+        "feedback": "[TODO:ar] You step softly past the gate."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:ar] Silence Over Lies",
+    "text": "[TODO:ar] One lie always asks for another.\nGo in without a word.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Slip in quietly, eyes lowered",
+        "feedback": "[TODO:ar] You hold your tongue."
+      }
+    ]
+  },
+  "courtyard_fire": {
+    "title": "[TODO:ar] Among the Guards",
+    "text": "[TODO:ar] Cold bites your hands. A fire crackles.\nGuards and servants warm themselves.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Stand apart in the shadows",
+        "feedback": "[TODO:ar] Your face still catches the glow."
+      },
+      {
+        "text": "[TODO:ar] Quietly pray for courage",
+        "feedback": "[TODO:ar] Your lips move without sound."
+      },
+      {
+        "text": "[TODO:ar] Joke loudly with the soldiers",
+        "feedback": "[TODO:ar] Hiding in laughter never works."
+      }
+    ]
+  },
+  "joke_consequence": {
+    "title": "[TODO:ar] Not Like This",
+    "text": "[TODO:ar] Your loud voice will undo you.\nQuiet your heart instead.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Quietly pray for courage",
+        "feedback": "[TODO:ar] You bow your head silently."
+      }
+    ]
+  },
+  "pray_path": {
+    "title": "[TODO:ar] A Whispered Prayer",
+    "text": "[TODO:ar] You ask for strength you do not feel.\nA servant girl steps closer.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Meet her eyes calmly",
+        "feedback": "[TODO:ar] She studies your face."
+      }
+    ]
+  },
+  "first_recognized": {
+    "title": "[TODO:ar] You Were With Him",
+    "text": "[TODO:ar] A servant girl says, \"You were with\nthe Galilean. I know your face.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Woman, I do not know him.\"",
+        "feedback": "[TODO:ar] Your stomach turns at your words."
+      },
+      {
+        "text": "[TODO:ar] \"Yes. I am His disciple.\"",
+        "feedback": "[TODO:ar] Truth would have set you free."
+      },
+      {
+        "text": "[TODO:ar] Glare at her in furious silence",
+        "feedback": "[TODO:ar] Silence here is its own denial."
+      }
+    ]
+  },
+  "confess_consequence": {
+    "title": "[TODO:ar] If You Had Spoken",
+    "text": "[TODO:ar] The harder road would have held you.\nBut fear pulls another way.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Woman, I do not know him.\"",
+        "feedback": "[TODO:ar] The lie slips out before you stop it."
+      }
+    ]
+  },
+  "glare_consequence": {
+    "title": "[TODO:ar] Words Spill Out",
+    "text": "[TODO:ar] Your silence draws more eyes than words.\nFear loosens your tongue.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"Woman, I do not know him.\"",
+        "feedback": "[TODO:ar] The first denial leaves your lips."
+      }
+    ]
+  },
+  "second_recognized": {
+    "title": "[TODO:ar] Another Voice",
+    "text": "[TODO:ar] Another servant points: \"This one too\nwas with Jesus of Nazareth.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Walk back into the firelight",
+        "feedback": "[TODO:ar] Returning calls more attention."
+      },
+      {
+        "text": "[TODO:ar] \"I do not know the man!\"",
+        "feedback": "[TODO:ar] Your voice trembles with the lie."
+      },
+      {
+        "text": "[TODO:ar] Swallow fear, admit the truth",
+        "feedback": "[TODO:ar] Truth would still spare your soul."
+      }
+    ]
+  },
+  "walk_back_consequence": {
+    "title": "[TODO:ar] More Eyes Turn",
+    "text": "[TODO:ar] Returning only sharpens the questions.\nThe lie is already on your lips.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"I do not know the man!\"",
+        "feedback": "[TODO:ar] The second denial escapes you."
+      }
+    ]
+  },
+  "admit_consequence": {
+    "title": "[TODO:ar] Fear Wins Again",
+    "text": "[TODO:ar] Truth shines for a moment in your heart.\nThen fear smothers it.",
+    "choices": [
+      {
+        "text": "[TODO:ar] \"I do not know the man!\"",
+        "feedback": "[TODO:ar] The second denial bursts out."
+      }
+    ]
+  },
+  "third_accusation": {
+    "title": "[TODO:ar] Your Accent Betrays You",
+    "text": "[TODO:ar] A man insists: \"Surely you are one.\nYour Galilean speech gives you away.\"",
+    "choices": [
+      {
+        "text": "[TODO:ar] Curse and swear, \"I never knew him!\"",
+        "feedback": "[TODO:ar] Your own oath cuts the night."
+      },
+      {
+        "text": "[TODO:ar] \"I am His. Strike me if you must.\"",
+        "feedback": "[TODO:ar] The hour wanted this courage."
+      },
+      {
+        "text": "[TODO:ar] Flee through the gate at once",
+        "feedback": "[TODO:ar] You cannot outrun this moment."
+      }
+    ]
+  },
+  "courage_consequence": {
+    "title": "[TODO:ar] Fear Speaks Louder",
+    "text": "[TODO:ar] Courage flickers, then fades to ash.\nThe oath rises up instead.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Curse and swear, \"I never knew him!\"",
+        "feedback": "[TODO:ar] The third denial tears free."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:ar] The Door Is Closed",
+    "text": "[TODO:ar] Guards block the gate behind you.\nOnly your tongue can buy escape now.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Curse and swear, \"I never knew him!\"",
+        "feedback": "[TODO:ar] The third denial pours out."
+      }
+    ]
+  },
+  "rooster": {
+    "title": "[TODO:ar] A Rooster Crows",
+    "text": "[TODO:ar] Far off, a rooster splits the dark.\nAcross the court, His eyes find yours.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Look away and pretend not to see",
+        "feedback": "[TODO:ar] His gaze has already pierced you."
+      },
+      {
+        "text": "[TODO:ar] Hold His gaze and remember",
+        "feedback": "[TODO:ar] His words come rushing back."
+      },
+      {
+        "text": "[TODO:ar] Shout that it is not your fault",
+        "feedback": "[TODO:ar] Only honest grief can heal this."
+      }
+    ]
+  },
+  "lookaway_consequence": {
+    "title": "[TODO:ar] He Sees You Anyway",
+    "text": "[TODO:ar] No shadow can hide you from love.\nLet His look reach you.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hold His gaze and remember",
+        "feedback": "[TODO:ar] His eyes are sorrow, not scorn."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:ar] Stop the Shouting",
+    "text": "[TODO:ar] Excuses cannot hold the truth back.\nOnly tears can.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hold His gaze and remember",
+        "feedback": "[TODO:ar] Your shouting falls into silence."
+      }
+    ]
+  },
+  "weeping": {
+    "title": "[TODO:ar] Out Into the Night",
+    "text": "[TODO:ar] \"Before the rooster crows, you will\ndeny me three times.\" You remember.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Harden your heart and walk on",
+        "feedback": "[TODO:ar] A broken heart is the doorway."
+      },
+      {
+        "text": "[TODO:ar] Go out, weep bitterly, repent",
+        "feedback": "[TODO:ar] Tears are mercy beginning."
+      },
+      {
+        "text": "[TODO:ar] Blame the guards for the lie",
+        "feedback": "[TODO:ar] Only your own heart can answer."
+      }
+    ]
+  },
+  "harden_consequence": {
+    "title": "[TODO:ar] Let the Tears Come",
+    "text": "[TODO:ar] A hardened heart cannot be forgiven.\nA broken one already is.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Go out, weep bitterly, repent",
+        "feedback": "[TODO:ar] You stumble outside, weeping."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:ar] Own the Failing",
+    "text": "[TODO:ar] The fault is yours. Mercy waits for it.\nCarry it honestly into the night.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Go out, weep bitterly, repent",
+        "feedback": "[TODO:ar] You step into the cold and weep."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:ar] Bitter Tears",
+    "text": "[TODO:ar] Beyond the gate you fall to your knees.\nMercy will find you here, even now.",
+    "choices": []
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "start": {
+    "title": "[TODO:it] The Appointed Mountain",
+    "text": "[TODO:it] You climb to the place He named.\nGalilee opens wide beneath your feet.",
+    "choices": [
+      {
+        "text": "[TODO:it] Linger below in fear of meeting",
+        "feedback": "[TODO:it] He waits. Climb the path."
+      },
+      {
+        "text": "[TODO:it] Climb expecting empty silence",
+        "feedback": "[TODO:it] Climb in expectant hope."
+      },
+      {
+        "text": "[TODO:it] Climb with hope to meet Him",
+        "feedback": "[TODO:it] Your steps grow lighter."
+      }
+    ]
+  },
+  "linger_consequence": {
+    "title": "[TODO:it] Do Not Linger",
+    "text": "[TODO:it] Fear waits at the foot of mountains.\nHope waits at the top.",
+    "choices": [
+      {
+        "text": "[TODO:it] Climb with hope to meet Him",
+        "feedback": "[TODO:it] You set your face upward."
+      }
+    ]
+  },
+  "empty_consequence": {
+    "title": "[TODO:it] Not Empty",
+    "text": "[TODO:it] He keeps every promise He makes.\nClimb. He will be there.",
+    "choices": [
+      {
+        "text": "[TODO:it] Climb with hope to meet Him",
+        "feedback": "[TODO:it] Your heart lifts."
+      }
+    ]
+  },
+  "worship": {
+    "title": "[TODO:it] He Is There",
+    "text": "[TODO:it] He stands above you, radiant and calm.\nSome doubt. Most fall down.",
+    "choices": [
+      {
+        "text": "[TODO:it] Stand back, arms folded in doubt",
+        "feedback": "[TODO:it] Even doubters He receives."
+      },
+      {
+        "text": "[TODO:it] Bow low. Worship the Lord",
+        "feedback": "[TODO:it] Your knees touch the grass."
+      },
+      {
+        "text": "[TODO:it] Ask Him for personal reward",
+        "feedback": "[TODO:it] This is not the hour for that."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:it] Step Closer",
+    "text": "[TODO:it] Doubt cannot hold against His face.\nKneel. He is the Lord.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bow low. Worship the Lord",
+        "feedback": "[TODO:it] Your doubts loosen."
+      }
+    ]
+  },
+  "reward_consequence": {
+    "title": "[TODO:it] Not for Reward",
+    "text": "[TODO:it] He gives more than gold can name.\nWorship first. Receive after.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bow low. Worship the Lord",
+        "feedback": "[TODO:it] You lower your hands."
+      }
+    ]
+  },
+  "authority": {
+    "title": "[TODO:it] All Authority",
+    "text": "[TODO:it] \"All authority in heaven and on earth\nhas been given to Me,\" He says.",
+    "choices": [
+      {
+        "text": "[TODO:it] Argue Rome still holds the world",
+        "feedback": "[TODO:it] His reign is deeper than Rome."
+      },
+      {
+        "text": "[TODO:it] Demand He prove it with a sign",
+        "feedback": "[TODO:it] His word is the sign."
+      },
+      {
+        "text": "[TODO:it] Receive His word in awe",
+        "feedback": "[TODO:it] Heaven and earth are His."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:it] Higher Than Rome",
+    "text": "[TODO:it] Empires rise. Empires fall.\nHis kingdom outlasts them all.",
+    "choices": [
+      {
+        "text": "[TODO:it] Receive His word in awe",
+        "feedback": "[TODO:it] You bow in agreement."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:it] No Sign Needed",
+    "text": "[TODO:it] He stands risen before your eyes.\nWhat sign is greater?",
+    "choices": [
+      {
+        "text": "[TODO:it] Receive His word in awe",
+        "feedback": "[TODO:it] You lower your gaze."
+      }
+    ]
+  },
+  "go_nations": {
+    "title": "[TODO:it] Go and Make Disciples",
+    "text": "[TODO:it] \"Go therefore and make disciples\nof all the nations,\" He says.",
+    "choices": [
+      {
+        "text": "[TODO:it] Keep this gift only for Israel",
+        "feedback": "[TODO:it] All nations. Hold nothing back."
+      },
+      {
+        "text": "[TODO:it] Hide it among trusted friends",
+        "feedback": "[TODO:it] Hidden lamps light no one."
+      },
+      {
+        "text": "[TODO:it] Say yes. Go to every nation",
+        "feedback": "[TODO:it] Your heart widens to the world."
+      }
+    ]
+  },
+  "israel_consequence": {
+    "title": "[TODO:it] Not Only One People",
+    "text": "[TODO:it] His love crosses every border.\nGo to all the nations.",
+    "choices": [
+      {
+        "text": "[TODO:it] Say yes. Go to every nation",
+        "feedback": "[TODO:it] You see the horizons open."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:it] Do Not Hide",
+    "text": "[TODO:it] This light is for the whole earth.\nCarry it into the open.",
+    "choices": [
+      {
+        "text": "[TODO:it] Say yes. Go to every nation",
+        "feedback": "[TODO:it] You lift your eyes outward."
+      }
+    ]
+  },
+  "baptize": {
+    "title": "[TODO:it] Baptizing Them",
+    "text": "[TODO:it] \"Baptizing them in the name of\nthe Father, the Son, and the Spirit.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Baptize only the worthy few",
+        "feedback": "[TODO:it] Grace welcomes all who come."
+      },
+      {
+        "text": "[TODO:it] Baptize all who believe in Him",
+        "feedback": "[TODO:it] Water becomes the door."
+      },
+      {
+        "text": "[TODO:it] Charge a price for the rite",
+        "feedback": "[TODO:it] Grace cannot be sold."
+      }
+    ]
+  },
+  "worthy_consequence": {
+    "title": "[TODO:it] All Who Believe",
+    "text": "[TODO:it] No one is worthy on their own.\nAll are welcomed by His name.",
+    "choices": [
+      {
+        "text": "[TODO:it] Baptize all who believe in Him",
+        "feedback": "[TODO:it] You open the door wide."
+      }
+    ]
+  },
+  "price_consequence": {
+    "title": "[TODO:it] Freely Received",
+    "text": "[TODO:it] Freely you have received.\nFreely give. No price at all.",
+    "choices": [
+      {
+        "text": "[TODO:it] Baptize all who believe in Him",
+        "feedback": "[TODO:it] You let go of every coin."
+      }
+    ]
+  },
+  "teach": {
+    "title": "[TODO:it] Teaching Them",
+    "text": "[TODO:it] \"Teaching them to obey all I\nhave commanded you,\" He says.",
+    "choices": [
+      {
+        "text": "[TODO:it] Teach only what is easy to hear",
+        "feedback": "[TODO:it] Teach all He commanded. Not less."
+      },
+      {
+        "text": "[TODO:it] Add your own rules to His",
+        "feedback": "[TODO:it] Do not add. Do not subtract."
+      },
+      {
+        "text": "[TODO:it] Teach all He has commanded",
+        "feedback": "[TODO:it] His words become your road."
+      }
+    ]
+  },
+  "easy_consequence": {
+    "title": "[TODO:it] Teach It All",
+    "text": "[TODO:it] Soft truth is no truth at all.\nGive them the whole gospel.",
+    "choices": [
+      {
+        "text": "[TODO:it] Teach all He has commanded",
+        "feedback": "[TODO:it] You let no word fall."
+      }
+    ]
+  },
+  "add_consequence": {
+    "title": "[TODO:it] Add Nothing",
+    "text": "[TODO:it] His commands are enough.\nDo not burden what He made light.",
+    "choices": [
+      {
+        "text": "[TODO:it] Teach all He has commanded",
+        "feedback": "[TODO:it] You set your own rules aside."
+      }
+    ]
+  },
+  "presence": {
+    "title": "[TODO:it] I Am With You",
+    "text": "[TODO:it] \"And surely I am with you always,\nto the very end of the age.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Fear the road without His face",
+        "feedback": "[TODO:it] He never leaves your side."
+      },
+      {
+        "text": "[TODO:it] Trust His Spirit goes with you",
+        "feedback": "[TODO:it] Peace fills your chest."
+      },
+      {
+        "text": "[TODO:it] Wait on the mountain forever",
+        "feedback": "[TODO:it] The world is the field. Go."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "[TODO:it] Always With You",
+    "text": "[TODO:it] He has not left. He will not leave.\nWalk in His unseen presence.",
+    "choices": [
+      {
+        "text": "[TODO:it] Trust His Spirit goes with you",
+        "feedback": "[TODO:it] You breathe in deeply."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:it] Do Not Wait",
+    "text": "[TODO:it] The nations are waiting for you.\nDescend. Begin the work.",
+    "choices": [
+      {
+        "text": "[TODO:it] Trust His Spirit goes with you",
+        "feedback": "[TODO:it] You turn toward the valley."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:it] Sent Into the World",
+    "text": "[TODO:it] You descend the mountain together.\nThe world is wide. He goes with you.",
+    "choices": []
+  }
+}

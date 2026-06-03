@@ -1,0 +1,189 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] Be Watchful",
+    "text": "[TODO:pt-BR] Jesus says softly,\n\"The kingdom is like ten waiting for a bridegroom.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Lean in and listen close",
+        "feedback": "[TODO:pt-BR] His words settle in you."
+      },
+      {
+        "text": "[TODO:pt-BR] Decide it does not matter",
+        "feedback": "[TODO:pt-BR] Every word of his matters."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:pt-BR] Stay Awake",
+    "text": "[TODO:pt-BR] What he teaches now will guard your heart later.\nListen well.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Lean in and listen close",
+        "feedback": "[TODO:pt-BR] You turn back to him."
+      }
+    ]
+  },
+  "wait": {
+    "title": "[TODO:pt-BR] Ten at the Gate",
+    "text": "[TODO:pt-BR] Ten bridesmaids stand in the dusk,\nlamps in hand, eyes on the road.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand with them and wait",
+        "feedback": "[TODO:pt-BR] You join the watch."
+      },
+      {
+        "text": "[TODO:pt-BR] Wander off until it starts",
+        "feedback": "[TODO:pt-BR] Waiting is part of love."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "[TODO:pt-BR] Hold Your Place",
+    "text": "[TODO:pt-BR] Those who wait well are the ones ready.\nStay with the lamps.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand with them and wait",
+        "feedback": "[TODO:pt-BR] You take your place."
+      }
+    ]
+  },
+  "oil": {
+    "title": "[TODO:pt-BR] Extra Oil",
+    "text": "[TODO:pt-BR] Some carry a small flask of extra oil.\nOthers carry only a lamp.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Trust your lamp is enough",
+        "feedback": "[TODO:pt-BR] The night may be long."
+      },
+      {
+        "text": "[TODO:pt-BR] Fill a flask with extra oil",
+        "feedback": "[TODO:pt-BR] Wisdom prepares."
+      },
+      {
+        "text": "[TODO:pt-BR] Borrow oil later if needed",
+        "feedback": "[TODO:pt-BR] Some things cannot be borrowed."
+      }
+    ]
+  },
+  "skip_consequence": {
+    "title": "[TODO:pt-BR] Be Prepared",
+    "text": "[TODO:pt-BR] A wise heart plans for the long wait.\nFill the flask now.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Fill a flask with extra oil",
+        "feedback": "[TODO:pt-BR] You prepare quietly."
+      }
+    ]
+  },
+  "borrow_consequence": {
+    "title": "[TODO:pt-BR] Your Own Flame",
+    "text": "[TODO:pt-BR] Faith cannot be borrowed in the dark.\nCarry your own oil.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Fill a flask with extra oil",
+        "feedback": "[TODO:pt-BR] You learn the lesson."
+      }
+    ]
+  },
+  "delay": {
+    "title": "[TODO:pt-BR] The Long Wait",
+    "text": "[TODO:pt-BR] Stars wheel overhead, the bridegroom delays.\nLamps flicker low.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Curse the slow hours",
+        "feedback": "[TODO:pt-BR] Trust the timing."
+      },
+      {
+        "text": "[TODO:pt-BR] Keep watch through the night",
+        "feedback": "[TODO:pt-BR] Patience holds you steady."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:pt-BR] His Timing",
+    "text": "[TODO:pt-BR] He comes in his own hour, not ours.\nKeep the watch.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Keep watch through the night",
+        "feedback": "[TODO:pt-BR] You wait in peace."
+      }
+    ]
+  },
+  "midnight": {
+    "title": "[TODO:pt-BR] Midnight Cry",
+    "text": "[TODO:pt-BR] A voice rings out at the dark hour,\n\"The bridegroom! Come out to meet him!\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Trim your lamp and rise",
+        "feedback": "[TODO:pt-BR] Your flame steadies."
+      },
+      {
+        "text": "[TODO:pt-BR] Sleep through the cry",
+        "feedback": "[TODO:pt-BR] Now is the moment."
+      }
+    ]
+  },
+  "sleep_consequence": {
+    "title": "[TODO:pt-BR] Rise Now",
+    "text": "[TODO:pt-BR] The call has come. Do not miss it.\nLift your lamp.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Trim your lamp and rise",
+        "feedback": "[TODO:pt-BR] You stand and wake."
+      }
+    ]
+  },
+  "run": {
+    "title": "[TODO:pt-BR] No Oil Left",
+    "text": "[TODO:pt-BR] Five lamps sputter and die in the dark.\nThey run to find oil in time.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Mock those without oil",
+        "feedback": "[TODO:pt-BR] Let your heart be humble."
+      },
+      {
+        "text": "[TODO:pt-BR] Walk on with the wise five",
+        "feedback": "[TODO:pt-BR] You move toward the light."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pt-BR] Be Humble",
+    "text": "[TODO:pt-BR] Their loss is no joy to anyone.\nWalk on with care.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk on with the wise five",
+        "feedback": "[TODO:pt-BR] Pride softens to sorrow."
+      }
+    ]
+  },
+  "door": {
+    "title": "[TODO:pt-BR] The Door Shuts",
+    "text": "[TODO:pt-BR] The bridegroom enters the feast.\nThe door swings closed behind him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Pound and demand to enter",
+        "feedback": "[TODO:pt-BR] Readiness cannot be demanded."
+      },
+      {
+        "text": "[TODO:pt-BR] Stand in the warm light within",
+        "feedback": "[TODO:pt-BR] You are home in time."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:pt-BR] Be Ready First",
+    "text": "[TODO:pt-BR] The hour to prepare was before.\nReadiness opens the door.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand in the warm light within",
+        "feedback": "[TODO:pt-BR] You enter at the right time."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pt-BR] Keep Watch",
+    "text": "[TODO:pt-BR] Jesus turns to you in the soft dawn.\n\"Watch, for you know not the hour.\"",
+    "choices": []
+  }
+}

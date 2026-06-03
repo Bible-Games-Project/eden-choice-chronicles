@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "At the Foot of Sinai",
+    "text": "The mountain stands wrapped in cloud.\nThe people wait in silent awe.",
+    "choices": [
+      {
+        "text": "Climb at once without preparing",
+        "feedback": "His holiness asks reverence first."
+      },
+      {
+        "text": "Consecrate the people, then ascend",
+        "feedback": "You set His order in motion."
+      },
+      {
+        "text": "Send another in your place",
+        "feedback": "He has called your name."
+      }
+    ]
+  },
+  "haste_consequence": {
+    "title": "Holiness First",
+    "text": "One does not run before the Lord.\nPrepare the camp, then climb.",
+    "choices": [
+      {
+        "text": "Consecrate the people, then ascend",
+        "feedback": "You slow your steps in awe."
+      }
+    ]
+  },
+  "shift_consequence": {
+    "title": "He Called You",
+    "text": "The path belongs to your feet.\nObedience cannot be borrowed.",
+    "choices": [
+      {
+        "text": "Consecrate the people, then ascend",
+        "feedback": "You take up the staff."
+      }
+    ]
+  },
+  "people_tremble": {
+    "title": "Thunder on the Mountain",
+    "text": "Lightning splits the dark cloud.\nThe people draw back in fear.",
+    "choices": [
+      {
+        "text": "Mock their fear of the Lord",
+        "feedback": "Holy fear is no shame."
+      },
+      {
+        "text": "Calm them and set the boundary",
+        "feedback": "\"Stand here. Touch not the mount.\""
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Honor Their Awe",
+    "text": "Trembling before Him is wisdom.\nSpeak peace, not scorn.",
+    "choices": [
+      {
+        "text": "Calm them and set the boundary",
+        "feedback": "Your voice steadies them."
+      }
+    ]
+  },
+  "ascend_begin": {
+    "title": "Into the Cloud",
+    "text": "The path winds upward into mist.\nThe air grows still and warm.",
+    "choices": [
+      {
+        "text": "Turn back, afraid of the cloud",
+        "feedback": "He calls you forward."
+      },
+      {
+        "text": "Climb in trust toward His voice",
+        "feedback": "Each step is steady."
+      },
+      {
+        "text": "Rest halfway and wait for a sign",
+        "feedback": "His sign is the climb itself."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "Do Not Fear",
+    "text": "He summoned you to the summit.\nFear has no place on this path.",
+    "choices": [
+      {
+        "text": "Climb in trust toward His voice",
+        "feedback": "Your courage returns."
+      }
+    ]
+  },
+  "delay_consequence": {
+    "title": "Press On",
+    "text": "He waits above, not on the slope.\nKeep climbing into the light.",
+    "choices": [
+      {
+        "text": "Climb in trust toward His voice",
+        "feedback": "Mist parts before you."
+      }
+    ]
+  },
+  "summit": {
+    "title": "Before His Glory",
+    "text": "Light fills the cloud around you.\nA voice speaks like rolling thunder.",
+    "choices": [
+      {
+        "text": "Stand tall and meet His gaze",
+        "feedback": "No flesh stands in His glory."
+      },
+      {
+        "text": "Bow low in reverence and listen",
+        "feedback": "Your face touches the stone."
+      }
+    ]
+  },
+  "pride_consequence": {
+    "title": "Bow Before Him",
+    "text": "Even angels veil their eyes.\nLower your head and hear.",
+    "choices": [
+      {
+        "text": "Bow low in reverence and listen",
+        "feedback": "You sink to your knees."
+      }
+    ]
+  },
+  "god_speaks": {
+    "title": "\"I Am the Lord Your God\"",
+    "text": "Ten holy words fall like fire.\nLove for Him. Love for neighbor.",
+    "choices": [
+      {
+        "text": "Argue the words are too heavy",
+        "feedback": "His commands are life."
+      },
+      {
+        "text": "Receive every word in silence",
+        "feedback": "You write them on your heart."
+      },
+      {
+        "text": "Try to add words of your own",
+        "feedback": "His word stands complete."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "His Yoke Is Light",
+    "text": "What He commands, He empowers.\nReceive without dispute.",
+    "choices": [
+      {
+        "text": "Receive every word in silence",
+        "feedback": "You bow in agreement."
+      }
+    ]
+  },
+  "add_consequence": {
+    "title": "Add Nothing to His Word",
+    "text": "His ten are whole and perfect.\nLet them stand alone.",
+    "choices": [
+      {
+        "text": "Receive every word in silence",
+        "feedback": "Your lips fall still."
+      }
+    ]
+  },
+  "tablets_given": {
+    "title": "Stone Inscribed by God",
+    "text": "Two tablets glow with sacred fire.\nWritten by the finger of God.",
+    "choices": [
+      {
+        "text": "Hide them away for yourself",
+        "feedback": "They are for all Israel."
+      },
+      {
+        "text": "Carry them down to the people",
+        "feedback": "You hold them close to your chest."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Share His Covenant",
+    "text": "His law is light for every tent.\nBring it down to His people.",
+    "choices": [
+      {
+        "text": "Carry them down to the people",
+        "feedback": "You turn toward the slope."
+      }
+    ]
+  },
+  "descent": {
+    "title": "Down the Holy Path",
+    "text": "The valley opens beneath you.\nThe camp waits below in hush.",
+    "choices": [
+      {
+        "text": "Boast of seeing the Lord",
+        "feedback": "Glory is His alone."
+      },
+      {
+        "text": "Read the words to all Israel",
+        "feedback": "Your voice carries clearly."
+      },
+      {
+        "text": "Hide the tablets under your robe",
+        "feedback": "His covenant is for the open day."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Lift His Name",
+    "text": "The mountain showed His glory.\nLet His name fill their ears.",
+    "choices": [
+      {
+        "text": "Read the words to all Israel",
+        "feedback": "You unroll the holy words."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "Light Cannot Hide",
+    "text": "His law is meant to shine.\nLift the tablets in plain sight.",
+    "choices": [
+      {
+        "text": "Read the words to all Israel",
+        "feedback": "The camp falls still."
+      }
+    ]
+  },
+  "covenant_sealed": {
+    "title": "\"All He Has Said, We Will Do\"",
+    "text": "Hands lift toward the cloud above.\nOne voice answers: \"We will obey.\"",
+    "choices": [
+      {
+        "text": "Lead them in solemn worship",
+        "feedback": "Aaron stands quietly beside you."
+      }
+    ]
+  },
+  "ending": {
+    "title": "The Covenant",
+    "text": "Stone holds the words of heaven.\nIsrael belongs to her God.",
+    "choices": []
+  }
+}

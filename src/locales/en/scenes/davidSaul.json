@@ -1,0 +1,235 @@
+{
+  "start": {
+    "title": "The King's Harp",
+    "text": "Saul's eyes are dark and tired.\nThe harp waits in your hands.",
+    "choices": [
+      {
+        "text": "Mock his troubled mind",
+        "feedback": "A servant does not scorn the king."
+      },
+      {
+        "text": "Play softly to soothe him",
+        "feedback": "The notes calm his heart."
+      },
+      {
+        "text": "Demand a higher seat",
+        "feedback": "Pride poisons your gift."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Honor the King",
+    "text": "Even a jealous king is the Lord's anointed.\nServe with humility.",
+    "choices": [
+      {
+        "text": "Play softly to soothe him",
+        "feedback": "You bow your head and play."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Lay Down Your Pride",
+    "text": "Greatness comes through service.\nReturn to your task.",
+    "choices": [
+      {
+        "text": "Play softly to soothe him",
+        "feedback": "Your fingers find the strings."
+      }
+    ]
+  },
+  "jealousy": {
+    "title": "The Women Sing",
+    "text": "\"Saul slew thousands, David tens of thousands.\"\nSaul's face turns to stone.",
+    "choices": [
+      {
+        "text": "Boast of your victories",
+        "feedback": "Words like these light a fire."
+      },
+      {
+        "text": "Stay quiet and serve faithfully",
+        "feedback": "You lower your eyes."
+      },
+      {
+        "text": "Shame the king openly",
+        "feedback": "Do not strike at the crown."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Quiet Your Tongue",
+    "text": "Glory belongs to God alone.\nLet humility answer.",
+    "choices": [
+      {
+        "text": "Stay quiet and serve faithfully",
+        "feedback": "You hold your peace."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "Honor Above Anger",
+    "text": "Saul is still the Lord's anointed.\nSpeak nothing against him.",
+    "choices": [
+      {
+        "text": "Stay quiet and serve faithfully",
+        "feedback": "You bow and step aside."
+      }
+    ]
+  },
+  "spear": {
+    "title": "Spear in the Air",
+    "text": "Saul's spear flies past your head.\nIt buries deep in the wall.",
+    "choices": [
+      {
+        "text": "Draw your sword on the king",
+        "feedback": "Never lift a hand against him."
+      },
+      {
+        "text": "Curse Saul and storm out",
+        "feedback": "Anger is not your weapon."
+      },
+      {
+        "text": "Slip away in silence",
+        "feedback": "You leave without a word."
+      }
+    ]
+  },
+  "sword_consequence": {
+    "title": "Stay Your Hand",
+    "text": "The Lord chose Saul.\nDo not take what God will give.",
+    "choices": [
+      {
+        "text": "Slip away in silence",
+        "feedback": "You sheathe your blade."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Hold Your Tongue",
+    "text": "Cursing him will not free you.\nLeave with quiet dignity.",
+    "choices": [
+      {
+        "text": "Slip away in silence",
+        "feedback": "You step into the corridor."
+      }
+    ]
+  },
+  "jonathan_warns": {
+    "title": "A Friend in the Field",
+    "text": "Jonathan grips your arm.\n\"My father seeks your life. Run.\"",
+    "choices": [
+      {
+        "text": "Trust Jonathan and flee",
+        "feedback": "True friendship is from God."
+      },
+      {
+        "text": "Return to confront Saul",
+        "feedback": "Do not walk into the spear."
+      },
+      {
+        "text": "Doubt Jonathan's loyalty",
+        "feedback": "He risks all to save you."
+      }
+    ]
+  },
+  "confront_consequence": {
+    "title": "Do Not Return",
+    "text": "Saul's heart is closed for now.\nThe Lord has another path.",
+    "choices": [
+      {
+        "text": "Trust Jonathan and flee",
+        "feedback": "You take his counsel to heart."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "Trust His Love",
+    "text": "Jonathan's covenant is your shield.\nReceive his warning.",
+    "choices": [
+      {
+        "text": "Trust Jonathan and flee",
+        "feedback": "You clasp his hand and go."
+      }
+    ]
+  },
+  "flee": {
+    "title": "Into the Wilderness",
+    "text": "Saul's army hunts the red canyons.\nYour men whisper of vengeance.",
+    "choices": [
+      {
+        "text": "Raise a war band against Saul",
+        "feedback": "Do not fight the Lord's anointed."
+      },
+      {
+        "text": "Hide in the hills and pray",
+        "feedback": "You wait on the Lord."
+      },
+      {
+        "text": "Flee to a foreign king",
+        "feedback": "Trust God, not strangers."
+      }
+    ]
+  },
+  "war_consequence": {
+    "title": "Lay Down the Sword",
+    "text": "Civil blood would stain your name.\nSeek the Lord instead.",
+    "choices": [
+      {
+        "text": "Hide in the hills and pray",
+        "feedback": "You climb the rocky path."
+      }
+    ]
+  },
+  "foreign_consequence": {
+    "title": "Stay Near the Lord",
+    "text": "Foreign kings cannot keep you.\nGod alone is your refuge.",
+    "choices": [
+      {
+        "text": "Hide in the hills and pray",
+        "feedback": "You turn back toward the wilderness."
+      }
+    ]
+  },
+  "cave": {
+    "title": "Saul Sleeps Within Reach",
+    "text": "Saul lies asleep in your cave.\nYour men whisper, \"God has given him.\"",
+    "choices": [
+      {
+        "text": "Strike Saul down now",
+        "feedback": "Never harm the Lord's anointed."
+      },
+      {
+        "text": "Wake him with angry words",
+        "feedback": "Show mercy without malice."
+      },
+      {
+        "text": "Cut only the corner of his robe",
+        "feedback": "Restraint speaks louder than blood."
+      }
+    ]
+  },
+  "strike_consequence": {
+    "title": "Stay Your Blade",
+    "text": "Vengeance belongs to God.\nLet mercy be your witness.",
+    "choices": [
+      {
+        "text": "Cut only the corner of his robe",
+        "feedback": "Your knife trembles, then turns."
+      }
+    ]
+  },
+  "wake_consequence": {
+    "title": "Speak with Honor",
+    "text": "Anger will twist a true witness.\nLet your deed speak first.",
+    "choices": [
+      {
+        "text": "Cut only the corner of his robe",
+        "feedback": "You crouch silently beside him."
+      }
+    ]
+  },
+  "mercy_call": {
+    "title": "I Could Have Killed You",
+    "text": "From the cliff you raise the cloak.\nSaul weeps. \"You are more righteous than I.\"",
+    "choices": []
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "start": {
+    "title": "A Visit by Night",
+    "text": "Nicodemus comes quietly under the stars.\nHe seeks Jesus while the city sleeps.",
+    "choices": [
+      {
+        "text": "Hide from this strange teacher",
+        "feedback": "Truth is worth seeking."
+      },
+      {
+        "text": "Approach him with open heart",
+        "feedback": "You step into the lamplight."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Seek Truth",
+    "text": "Even by night, the honest seeker is welcome.\nDraw near in peace.",
+    "choices": [
+      {
+        "text": "Approach him with open heart",
+        "feedback": "You move toward the light."
+      }
+    ]
+  },
+  "greet": {
+    "title": "Rabbi from God",
+    "text": "\"Rabbi, we know you come from God,\"\nNicodemus says with quiet respect.",
+    "choices": [
+      {
+        "text": "Flatter him to gain favor",
+        "feedback": "Sincerity matters more."
+      },
+      {
+        "text": "Speak the truth in humility",
+        "feedback": "Your honesty opens the way."
+      }
+    ]
+  },
+  "flatter_consequence": {
+    "title": "Be Sincere",
+    "text": "He sees the heart, not smooth words.\nCome plainly to him.",
+    "choices": [
+      {
+        "text": "Speak the truth in humility",
+        "feedback": "You speak from the heart."
+      }
+    ]
+  },
+  "born_again": {
+    "title": "Born Again",
+    "text": "Jesus says softly,\n\"You must be born again to see the kingdom.\"",
+    "choices": [
+      {
+        "text": "Ask sincerely what he means",
+        "feedback": "A humble question opens truth."
+      },
+      {
+        "text": "Dismiss it as impossible",
+        "feedback": "Wait, and listen further."
+      },
+      {
+        "text": "Mock the strange teaching",
+        "feedback": "Mockery shuts the door."
+      }
+    ]
+  },
+  "dismiss_consequence": {
+    "title": "Stay Open",
+    "text": "What sounds impossible may be Spirit.\nAsk and you will learn.",
+    "choices": [
+      {
+        "text": "Ask sincerely what he means",
+        "feedback": "You lean in to listen."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Be Humble",
+    "text": "Wisdom hides from a scornful heart.\nSoften and try again.",
+    "choices": [
+      {
+        "text": "Ask sincerely what he means",
+        "feedback": "You set pride aside."
+      }
+    ]
+  },
+  "spirit": {
+    "title": "Like the Wind",
+    "text": "\"The Spirit is like the wind,\" Jesus breathes.\n\"You hear it, but cannot trace it.\"",
+    "choices": [
+      {
+        "text": "Demand to see it first",
+        "feedback": "Some truths are felt, not seen."
+      },
+      {
+        "text": "Trust what you cannot see",
+        "feedback": "Faith begins where sight ends."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Faith First",
+    "text": "The wind moves leaves you cannot grasp.\nTrust still moves the soul.",
+    "choices": [
+      {
+        "text": "Trust what you cannot see",
+        "feedback": "You breathe in quiet trust."
+      }
+    ]
+  },
+  "heavenly": {
+    "title": "Heavenly Things",
+    "text": "\"If earthly words confuse you,\nhow will heavenly ones be received?\"",
+    "choices": [
+      {
+        "text": "Listen with a quiet mind",
+        "feedback": "Stillness welcomes truth."
+      },
+      {
+        "text": "Argue from your own learning",
+        "feedback": "Pride blocks the door."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Be Still",
+    "text": "Even teachers must sit and learn.\nLet his words settle.",
+    "choices": [
+      {
+        "text": "Listen with a quiet mind",
+        "feedback": "You grow still inside."
+      }
+    ]
+  },
+  "love": {
+    "title": "So Loved the World",
+    "text": "\"God so loved the world he gave his Son,\nthat whoever believes may have life.\"",
+    "choices": [
+      {
+        "text": "Reject so wide a love",
+        "feedback": "His love is for all."
+      },
+      {
+        "text": "Receive his words in faith",
+        "feedback": "Love settles in your heart."
+      }
+    ]
+  },
+  "reject_consequence": {
+    "title": "Open Your Heart",
+    "text": "His love is offered freely to you.\nReceive it gently.",
+    "choices": [
+      {
+        "text": "Receive his words in faith",
+        "feedback": "You let love in."
+      }
+    ]
+  },
+  "light": {
+    "title": "Step into Light",
+    "text": "\"Whoever lives by truth comes to the light,\nso his deeds may shine.\"",
+    "choices": [
+      {
+        "text": "Stay hidden in the dark",
+        "feedback": "The light is kinder than fear."
+      },
+      {
+        "text": "Step softly into the light",
+        "feedback": "Warm light meets you."
+      }
+    ]
+  },
+  "hide2_consequence": {
+    "title": "Come Forward",
+    "text": "Hiding wears the heart down.\nLet the light find you.",
+    "choices": [
+      {
+        "text": "Step softly into the light",
+        "feedback": "You let the light reach you."
+      }
+    ]
+  },
+  "reflect": {
+    "title": "Walking Home",
+    "text": "Nicodemus walks home as dawn rises,\nthe words burning quietly inside.",
+    "choices": [
+      {
+        "text": "Forget what you heard tonight",
+        "feedback": "Truth asks to be kept."
+      },
+      {
+        "text": "Carry his words in your heart",
+        "feedback": "You hold them close."
+      }
+    ]
+  },
+  "forget_consequence": {
+    "title": "Keep Watch",
+    "text": "Some seeds grow slowly in the soul.\nDo not lose them.",
+    "choices": [
+      {
+        "text": "Carry his words in your heart",
+        "feedback": "You keep them safe."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Born of the Spirit",
+    "text": "Jesus stands in the morning light.\n\"Be born of the Spirit, and live.\"",
+    "choices": []
+  }
+}

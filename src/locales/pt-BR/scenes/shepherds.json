@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] Quiet Fields",
+    "text": "[TODO:pt-BR] The flock sleeps under cold stars.\nThe night is long and still.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Sleep and abandon the flock",
+        "feedback": "[TODO:pt-BR] Wolves wait in the dark."
+      },
+      {
+        "text": "[TODO:pt-BR] Keep faithful watch",
+        "feedback": "[TODO:pt-BR] Your eyes stay on the hills."
+      },
+      {
+        "text": "[TODO:pt-BR] Wander into town for warmth",
+        "feedback": "[TODO:pt-BR] The flock is your charge."
+      }
+    ]
+  },
+  "sleep_consequence": {
+    "title": "[TODO:pt-BR] Stay Awake",
+    "text": "[TODO:pt-BR] A faithful watch is a holy thing.\nKeep your post.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Keep faithful watch",
+        "feedback": "[TODO:pt-BR] You sit upright again."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "[TODO:pt-BR] Return to the Flock",
+    "text": "[TODO:pt-BR] The sheep need your care tonight.\nGo back to your post.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Keep faithful watch",
+        "feedback": "[TODO:pt-BR] You return to the field."
+      }
+    ]
+  },
+  "light": {
+    "title": "[TODO:pt-BR] A Sudden Light",
+    "text": "[TODO:pt-BR] The night cracks open with glory.\nAn angel stands before you.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Run away in terror",
+        "feedback": "[TODO:pt-BR] Heaven calls you to listen."
+      },
+      {
+        "text": "[TODO:pt-BR] Attack with your staff",
+        "feedback": "[TODO:pt-BR] This is no enemy."
+      },
+      {
+        "text": "[TODO:pt-BR] Bow and listen in awe",
+        "feedback": "[TODO:pt-BR] You kneel in trembling wonder."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:pt-BR] Do Not Be Afraid",
+    "text": "[TODO:pt-BR] The angel speaks gently to you.\nReturn and listen.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Bow and listen in awe",
+        "feedback": "[TODO:pt-BR] Your fear gives way to peace."
+      }
+    ]
+  },
+  "attack_consequence": {
+    "title": "[TODO:pt-BR] Lower Your Staff",
+    "text": "[TODO:pt-BR] This light brings news, not harm.\nReceive it with reverence.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Bow and listen in awe",
+        "feedback": "[TODO:pt-BR] Your staff falls to the grass."
+      }
+    ]
+  },
+  "message": {
+    "title": "[TODO:pt-BR] Good News",
+    "text": "[TODO:pt-BR] \"Today in Bethlehem a Savior is born.\nYou will find him in a manger.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Doubt the heavenly word",
+        "feedback": "[TODO:pt-BR] Heaven does not lie."
+      },
+      {
+        "text": "[TODO:pt-BR] Believe and rise to go",
+        "feedback": "[TODO:pt-BR] Your heart burns to see him."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:pt-BR] Trust the Sign",
+    "text": "[TODO:pt-BR] A child in a manger awaits.\nGo and see for yourself.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Believe and rise to go",
+        "feedback": "[TODO:pt-BR] You take up your staff."
+      }
+    ]
+  },
+  "travel": {
+    "title": "[TODO:pt-BR] Toward Bethlehem",
+    "text": "[TODO:pt-BR] The road is dark but your steps are sure.\nThe town glows ahead.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait until morning instead",
+        "feedback": "[TODO:pt-BR] Do not delay this gift."
+      },
+      {
+        "text": "[TODO:pt-BR] Hurry through the night",
+        "feedback": "[TODO:pt-BR] Your feet do not tire."
+      },
+      {
+        "text": "[TODO:pt-BR] Bring fine gifts to buy first",
+        "feedback": "[TODO:pt-BR] Bring only your heart."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:pt-BR] Go Now",
+    "text": "[TODO:pt-BR] The Savior waits in a manger tonight.\nDo not turn back.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hurry through the night",
+        "feedback": "[TODO:pt-BR] You quicken your pace."
+      }
+    ]
+  },
+  "gifts_consequence": {
+    "title": "[TODO:pt-BR] Empty Hands Are Enough",
+    "text": "[TODO:pt-BR] He receives the poor as the rich.\nGo as you are.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hurry through the night",
+        "feedback": "[TODO:pt-BR] You go with empty hands."
+      }
+    ]
+  },
+  "worship": {
+    "title": "[TODO:pt-BR] The Child",
+    "text": "[TODO:pt-BR] He lies in a manger, just as told.\nHis breath is soft, his face is light.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stand back in silence",
+        "feedback": "[TODO:pt-BR] Draw near to him."
+      },
+      {
+        "text": "[TODO:pt-BR] Kneel and worship the child",
+        "feedback": "[TODO:pt-BR] Your knees touch the straw."
+      }
+    ]
+  },
+  "silence_consequence": {
+    "title": "[TODO:pt-BR] Come Closer",
+    "text": "[TODO:pt-BR] He is the One the angel spoke of.\nWorship him with your whole heart.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Kneel and worship the child",
+        "feedback": "[TODO:pt-BR] You kneel beside the manger."
+      }
+    ]
+  },
+  "return": {
+    "title": "[TODO:pt-BR] Praising as You Go",
+    "text": "[TODO:pt-BR] You return to the fields rejoicing.\nHeaven has touched the earth tonight.",
+    "choices": []
+  }
+}

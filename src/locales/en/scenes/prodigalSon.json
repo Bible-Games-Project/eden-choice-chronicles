@@ -1,0 +1,303 @@
+{
+  "start": {
+    "title": "A Father Had Two Sons",
+    "text": "Jesus sits on the hillside.\n\"A father had two sons. Listen.\"",
+    "choices": [
+      {
+        "text": "Turn away from the story",
+        "feedback": "Stay. This is for you."
+      },
+      {
+        "text": "Open your heart and listen",
+        "feedback": "His voice draws you near."
+      }
+    ]
+  },
+  "turn_consequence": {
+    "title": "Stay Awhile",
+    "text": "Some stories find you anyway.\nSit back down.",
+    "choices": [
+      {
+        "text": "Open your heart and listen",
+        "feedback": "You settle in."
+      }
+    ]
+  },
+  "inheritance": {
+    "title": "Give Me My Share",
+    "text": "\"Father, give me my inheritance now.\"\nThe father divides his wealth.",
+    "choices": [
+      {
+        "text": "Praise the son's boldness",
+        "feedback": "This is not bravery."
+      },
+      {
+        "text": "Demand he stay home",
+        "feedback": "Love does not cage."
+      },
+      {
+        "text": "Grieve with the father",
+        "feedback": "Your chest aches with his."
+      }
+    ]
+  },
+  "praise_consequence": {
+    "title": "Look Closer",
+    "text": "He treats the gift as a wage.\nFeel what the father feels.",
+    "choices": [
+      {
+        "text": "Grieve with the father",
+        "feedback": "Your eyes soften."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Love Lets Go",
+    "text": "The father will not force him.\nLove gives freedom, even painful.",
+    "choices": [
+      {
+        "text": "Grieve with the father",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "leaving": {
+    "title": "Far From Home",
+    "text": "The young son packs his bag.\nHe walks the road away from home.",
+    "choices": [
+      {
+        "text": "Cheer him onward",
+        "feedback": "He walks toward sorrow."
+      },
+      {
+        "text": "Watch with a heavy heart",
+        "feedback": "You sense the cost."
+      }
+    ]
+  },
+  "cheer_consequence": {
+    "title": "Not Yet",
+    "text": "Freedom without love grows cold.\nWatch carefully.",
+    "choices": [
+      {
+        "text": "Watch with a heavy heart",
+        "feedback": "Your smile fades."
+      }
+    ]
+  },
+  "revelry": {
+    "title": "Wild Living",
+    "text": "In a far country he spent it all\non feasts, friends, and folly.",
+    "choices": [
+      {
+        "text": "Envy his free nights",
+        "feedback": "The lights will dim soon."
+      },
+      {
+        "text": "See the emptiness coming",
+        "feedback": "Your stomach tightens."
+      },
+      {
+        "text": "Look away from him",
+        "feedback": "Stay with him."
+      }
+    ]
+  },
+  "envy_consequence": {
+    "title": "It Will Fade",
+    "text": "Pleasure without love is hollow.\nWait and watch.",
+    "choices": [
+      {
+        "text": "See the emptiness coming",
+        "feedback": "You sober quickly."
+      }
+    ]
+  },
+  "lookaway_consequence": {
+    "title": "Stay With Him",
+    "text": "Mercy does not turn away.\nKeep your gaze on him.",
+    "choices": [
+      {
+        "text": "See the emptiness coming",
+        "feedback": "Your eyes return."
+      }
+    ]
+  },
+  "famine": {
+    "title": "Famine Falls",
+    "text": "His money is gone. Famine comes.\nHis friends have all vanished.",
+    "choices": [
+      {
+        "text": "Mock his foolishness",
+        "feedback": "Mockery is not mercy."
+      },
+      {
+        "text": "Ache for the lost son",
+        "feedback": "Your heart hurts for him."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Have Mercy",
+    "text": "He is breaking. Do not laugh.\nFeel his hunger with him.",
+    "choices": [
+      {
+        "text": "Ache for the lost son",
+        "feedback": "Compassion finds you."
+      }
+    ]
+  },
+  "pigs": {
+    "title": "Among the Pigs",
+    "text": "He feeds pigs to survive.\nHe longs to eat their husks.",
+    "choices": [
+      {
+        "text": "Pity but do nothing",
+        "feedback": "Wait. Watch his heart."
+      },
+      {
+        "text": "Hope he comes to himself",
+        "feedback": "You whisper for him."
+      }
+    ]
+  },
+  "pity_consequence": {
+    "title": "Look Deeper",
+    "text": "His soul is starting to wake.\nWatch what happens inside.",
+    "choices": [
+      {
+        "text": "Hope he comes to himself",
+        "feedback": "A hush falls in you."
+      }
+    ]
+  },
+  "repentance": {
+    "title": "I Will Arise",
+    "text": "\"I will go to my father.\nI have sinned. I am not worthy.\"",
+    "choices": [
+      {
+        "text": "Tell him to stay hidden",
+        "feedback": "Shame is not the answer."
+      },
+      {
+        "text": "Doubt his father's mercy",
+        "feedback": "You do not know that father."
+      },
+      {
+        "text": "Walk the road home with him",
+        "feedback": "Every step is a prayer."
+      }
+    ]
+  },
+  "hidden_consequence": {
+    "title": "Come Home",
+    "text": "Shame keeps you in the mud.\nRepentance rises and walks.",
+    "choices": [
+      {
+        "text": "Walk the road home with him",
+        "feedback": "You take the first step."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "Trust the Father",
+    "text": "His love is greater than your fall.\nGo, and see.",
+    "choices": [
+      {
+        "text": "Walk the road home with him",
+        "feedback": "Hope flickers awake."
+      }
+    ]
+  },
+  "return": {
+    "title": "While He Was Far Off",
+    "text": "The father sees him from afar.\nHe runs, and falls on his neck.",
+    "choices": [
+      {
+        "text": "Expect a stern punishment",
+        "feedback": "Love runs to embrace."
+      },
+      {
+        "text": "Weep with the embrace",
+        "feedback": "Tears fill your eyes."
+      }
+    ]
+  },
+  "stern_consequence": {
+    "title": "Behold the Father",
+    "text": "He does not wait for the speech.\nHe runs. He kisses. He weeps.",
+    "choices": [
+      {
+        "text": "Weep with the embrace",
+        "feedback": "Your breath catches."
+      }
+    ]
+  },
+  "feast": {
+    "title": "Bring the Best Robe",
+    "text": "\"My son was lost and is found!\nBring the robe. Begin the feast!\"",
+    "choices": [
+      {
+        "text": "Demand he prove himself first",
+        "feedback": "Grace asks no proof."
+      },
+      {
+        "text": "Rejoice at the welcome home",
+        "feedback": "Your soul lifts."
+      }
+    ]
+  },
+  "prove_consequence": {
+    "title": "Grace, Not Wages",
+    "text": "He was already a son.\nLove restores before it asks.",
+    "choices": [
+      {
+        "text": "Rejoice at the welcome home",
+        "feedback": "You join the song."
+      }
+    ]
+  },
+  "brother": {
+    "title": "The Elder Brother",
+    "text": "The older brother stands in the field.\n\"He gets a feast? I served you!\"",
+    "choices": [
+      {
+        "text": "Agree he was unfair",
+        "feedback": "Mercy is never unfair."
+      },
+      {
+        "text": "Hide your own resentments",
+        "feedback": "Bring them to the father."
+      },
+      {
+        "text": "Listen for the father's words",
+        "feedback": "You lean in close."
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "Wider Than That",
+    "text": "What feels unfair to pride\nis pure joy to love.",
+    "choices": [
+      {
+        "text": "Listen for the father's words",
+        "feedback": "Your pride softens."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Speak Honestly",
+    "text": "The father comes out to you too.\nDo not hide your heart.",
+    "choices": [
+      {
+        "text": "Listen for the father's words",
+        "feedback": "You uncover your face."
+      }
+    ]
+  },
+  "ending": {
+    "title": "We Had to Celebrate",
+    "text": "\"Son, all I have is yours.\nBut he was lost, and is found.\"",
+    "choices": []
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "start": {
+    "title": "After the Walls Fell",
+    "text": "Jericho lies in dust at your feet.\nThe Lord forbade all spoils.",
+    "choices": [
+      {
+        "text": "Take some gold for the camp",
+        "feedback": "His command was absolute."
+      },
+      {
+        "text": "Devote everything to the Lord",
+        "feedback": "You honor the ban He set."
+      },
+      {
+        "text": "Let each man keep a token",
+        "feedback": "One stolen thread defiles all."
+      }
+    ]
+  },
+  "take_consequence": {
+    "title": "Nothing Is Yours",
+    "text": "What is devoted belongs to Him.\nNot one shekel for your hand.",
+    "choices": [
+      {
+        "text": "Devote everything to the Lord",
+        "feedback": "You drop the gold from your fingers."
+      }
+    ]
+  },
+  "token_consequence": {
+    "title": "No Exceptions",
+    "text": "A small theft poisons the whole.\nThe ban allows no token.",
+    "choices": [
+      {
+        "text": "Devote everything to the Lord",
+        "feedback": "You command the ranks to leave it."
+      }
+    ]
+  },
+  "warn_camp": {
+    "title": "A Whisper in the Camp",
+    "text": "Yet one man bends in his tent.\nA cloak. Silver. Buried gold.",
+    "choices": [
+      {
+        "text": "Ignore the rumor of theft",
+        "feedback": "Hidden sin will not stay hidden."
+      },
+      {
+        "text": "Send scouts ahead to small Ai",
+        "feedback": "You move without seeking Him."
+      },
+      {
+        "text": "Seek the Lord before the next step",
+        "feedback": "You bow first, march later."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "Sin Cannot Hide",
+    "text": "What is buried still defiles.\nThe camp is not as it seems.",
+    "choices": [
+      {
+        "text": "Seek the Lord before the next step",
+        "feedback": "You turn toward the tent of meeting."
+      }
+    ]
+  },
+  "ai_battle": {
+    "title": "The Hill of Ai",
+    "text": "Three thousand men climb proud.\nThirty-six fall. The rest flee.",
+    "choices": [
+      {
+        "text": "Blame the soldiers' weakness",
+        "feedback": "The fault is deeper than swords."
+      },
+      {
+        "text": "Tear your robe before the ark",
+        "feedback": "You fall on your face till evening."
+      },
+      {
+        "text": "Order an immediate counter-attack",
+        "feedback": "He has withdrawn His hand. Wait."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "Look Higher",
+    "text": "Their arms did not fail today.\nSomething among you has.",
+    "choices": [
+      {
+        "text": "Tear your robe before the ark",
+        "feedback": "You sink to the dust in mourning."
+      }
+    ]
+  },
+  "counter_consequence": {
+    "title": "Not Without Him",
+    "text": "You charge again, but no breath of victory comes.\nTurn back.",
+    "choices": [
+      {
+        "text": "Tear your robe before the ark",
+        "feedback": "You lay down arms and cry out."
+      }
+    ]
+  },
+  "seek_lord": {
+    "title": "Before the Battle",
+    "text": "He answers: \"Israel has sinned.\"\nDefeat already waits at Ai.",
+    "choices": [
+      {
+        "text": "Tear your robe before the ark",
+        "feedback": "You fall on your face in grief."
+      }
+    ]
+  },
+  "joshua_grief": {
+    "title": "Why, O Lord?",
+    "text": "He answers: rise, sin is in the camp.\nIt must be brought to light.",
+    "choices": [
+      {
+        "text": "Hush the matter to keep peace",
+        "feedback": "Silence will cost more lives."
+      },
+      {
+        "text": "Gather the tribes for inquiry",
+        "feedback": "You call every banner forward."
+      }
+    ]
+  },
+  "hush_consequence": {
+    "title": "Truth Must Stand",
+    "text": "He will not march beside hidden sin.\nBring it into the day.",
+    "choices": [
+      {
+        "text": "Gather the tribes for inquiry",
+        "feedback": "You summon the elders at dawn."
+      }
+    ]
+  },
+  "investigation": {
+    "title": "Tribe by Tribe",
+    "text": "Lots are cast. Judah is taken.\nThen the clan. Then the man.",
+    "choices": [
+      {
+        "text": "Stop before the name is spoken",
+        "feedback": "His justice cannot be halted now."
+      },
+      {
+        "text": "Press on until truth is named",
+        "feedback": "The lot falls on Achan."
+      }
+    ]
+  },
+  "stop_consequence": {
+    "title": "Justice Will Out",
+    "text": "What He has begun, He finishes.\nLet truth speak its full word.",
+    "choices": [
+      {
+        "text": "Press on until truth is named",
+        "feedback": "You nod to the priests to continue."
+      }
+    ]
+  },
+  "achan_revealed": {
+    "title": "\"My Son, Confess\"",
+    "text": "Achan speaks: a cloak, silver, gold.\nBuried beneath his tent floor.",
+    "choices": [
+      {
+        "text": "Excuse him, the loss was small",
+        "feedback": "Sin is never small to a holy God."
+      },
+      {
+        "text": "Carry out the Lord's judgment",
+        "feedback": "Israel walks to the Valley of Achor."
+      },
+      {
+        "text": "Hide the items and move on",
+        "feedback": "Concealment will only spread the rot."
+      }
+    ]
+  },
+  "excuse_consequence": {
+    "title": "The Whole Camp Bears It",
+    "text": "Mercy without justice keeps the curse.\nThe Lord's word must stand.",
+    "choices": [
+      {
+        "text": "Carry out the Lord's judgment",
+        "feedback": "You give the solemn order."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "No More Hiding",
+    "text": "Hidden sin already cost lives.\nIt cannot be buried again.",
+    "choices": [
+      {
+        "text": "Carry out the Lord's judgment",
+        "feedback": "You step into the light of obedience."
+      }
+    ]
+  },
+  "ending_obedient": {
+    "title": "The Valley of Achor",
+    "text": "The camp is cleansed. Stones rise as a witness.\nThe Lord turns from His anger.",
+    "choices": []
+  }
+}

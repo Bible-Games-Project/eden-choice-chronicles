@@ -1,0 +1,403 @@
+{
+  "start": {
+    "title": "A New House",
+    "text": "You stand in a stranger's courtyard.\nPotiphar, captain of Pharaoh, watches you.",
+    "choices": [
+      {
+        "text": "Run from this house",
+        "feedback": "You would be hunted as a runaway."
+      },
+      {
+        "text": "Bow and serve with all your heart",
+        "feedback": "You bow low. The Lord is with you."
+      },
+      {
+        "text": "Demand to be sent home",
+        "feedback": "Potiphar laughs coldly. You are a slave."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "Nowhere to Go",
+    "text": "The gate is guarded. The desert is wide.\nYou turn back inside.",
+    "choices": [
+      {
+        "text": "Bow and serve faithfully",
+        "feedback": "You will trust God where He has placed you."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Silence the Pride",
+    "text": "A guard's hand falls hard on your shoulder.\nPride will not free you.",
+    "choices": [
+      {
+        "text": "Kneel and offer your service",
+        "feedback": "Your knee touches the cool stone."
+      }
+    ]
+  },
+  "serve_well": {
+    "title": "The Lord Is With You",
+    "text": "Each task you touch prospers.\nPotiphar begins to notice.",
+    "choices": [
+      {
+        "text": "Steal grain to keep for yourself",
+        "feedback": "A slave's hand must be clean."
+      },
+      {
+        "text": "Give God the glory in silence",
+        "feedback": "You whisper thanks. Heaven hears."
+      },
+      {
+        "text": "Boast of your skill to others",
+        "feedback": "Boasting will draw envy, not favor."
+      }
+    ]
+  },
+  "steal_consequence": {
+    "title": "Your Hand Stops",
+    "text": "The grain is heavy in your palm.\nYou cannot betray such trust.",
+    "choices": [
+      {
+        "text": "Return it and thank God",
+        "feedback": "You set it back. Peace returns."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Cold Glances",
+    "text": "The other servants turn from you.\nYour words have made enemies.",
+    "choices": [
+      {
+        "text": "Kneel and give God the glory",
+        "feedback": "Humility softens what pride broke."
+      }
+    ]
+  },
+  "trusted": {
+    "title": "Set Over All",
+    "text": "\"All I have is in your hand,\" Potiphar says.\nHe makes you steward of his house.",
+    "choices": [
+      {
+        "text": "Use the wealth for your comfort",
+        "feedback": "His trust is not yours to spend."
+      },
+      {
+        "text": "Manage every gift with honor",
+        "feedback": "You take up the scrolls with care."
+      }
+    ]
+  },
+  "wealth_consequence": {
+    "title": "A Quiet Warning",
+    "text": "You feel the weight of his eyes.\nGreed will undo you.",
+    "choices": [
+      {
+        "text": "Manage everything with honor",
+        "feedback": "You return to your duties."
+      }
+    ]
+  },
+  "diligent": {
+    "title": "Blessing in the House",
+    "text": "The fields, the storehouse, the table — all flourish.\nThe Lord blesses for your sake.",
+    "choices": [
+      {
+        "text": "Pray and thank God each day",
+        "feedback": "Your prayers rise like incense."
+      },
+      {
+        "text": "Take credit before the household",
+        "feedback": "The blessing is not yours to claim."
+      }
+    ]
+  },
+  "credit_consequence": {
+    "title": "A Hollow Praise",
+    "text": "Their praise tastes like dust.\nGod alone deserves the glory.",
+    "choices": [
+      {
+        "text": "Pray and give thanks to God",
+        "feedback": "You bow your head in private."
+      }
+    ]
+  },
+  "noticed": {
+    "title": "Her Eyes Linger",
+    "text": "Potiphar's wife watches you each day.\nHer smile is warm, too warm.",
+    "choices": [
+      {
+        "text": "Smile back to please her",
+        "feedback": "A small flame can burn a house."
+      },
+      {
+        "text": "Keep your eyes lowered, work on",
+        "feedback": "You bow your head and pass."
+      }
+    ]
+  },
+  "smile_consequence": {
+    "title": "She Steps Closer",
+    "text": "Your kindness has been read as want.\nThis is not the path.",
+    "choices": [
+      {
+        "text": "Withdraw and keep your eyes low",
+        "feedback": "You step back from the fire."
+      }
+    ]
+  },
+  "first_advance": {
+    "title": "\"Lie With Me\"",
+    "text": "She whispers it openly. Her hand finds yours.\nThe room grows still.",
+    "choices": [
+      {
+        "text": "Refuse — \"How can I sin against God?\"",
+        "feedback": "Your voice is firm and quiet."
+      },
+      {
+        "text": "Stay and weigh her offer",
+        "feedback": "To weigh sin is to invite it."
+      },
+      {
+        "text": "Yield — no one will know",
+        "feedback": "God sees what no man sees."
+      }
+    ]
+  },
+  "weigh_consequence": {
+    "title": "Her Grip Tightens",
+    "text": "Hesitation is half a yes.\nYou must speak the truth now.",
+    "choices": [
+      {
+        "text": "Refuse her — sin against God",
+        "feedback": "You pull your hand away."
+      }
+    ]
+  },
+  "yield_consequence": {
+    "title": "A Voice Inside",
+    "text": "Before her lips meet yours, conscience cries out.\nYou pull back.",
+    "choices": [
+      {
+        "text": "Refuse and name the sin",
+        "feedback": "\"I cannot sin against God.\""
+      }
+    ]
+  },
+  "she_persists": {
+    "title": "Day After Day",
+    "text": "She speaks to you each morning.\nEach evening she waits in the hall.",
+    "choices": [
+      {
+        "text": "Avoid being alone with her",
+        "feedback": "Wisdom keeps the door shut."
+      },
+      {
+        "text": "Confront her with harsh words",
+        "feedback": "Anger may shame her into hatred."
+      },
+      {
+        "text": "Tell Potiphar about her",
+        "feedback": "Who would believe a slave?"
+      }
+    ]
+  },
+  "confront_consequence": {
+    "title": "Her Face Hardens",
+    "text": "Pride wounded turns to spite.\nYou must walk softly now.",
+    "choices": [
+      {
+        "text": "Avoid being alone with her",
+        "feedback": "You change your paths in the house."
+      }
+    ]
+  },
+  "tell_consequence": {
+    "title": "He Cannot Hear It",
+    "text": "Potiphar waves you away, troubled.\nA slave's word is small.",
+    "choices": [
+      {
+        "text": "Avoid her presence from now on",
+        "feedback": "You will simply not be near her."
+      }
+    ]
+  },
+  "the_empty_house": {
+    "title": "No One Within",
+    "text": "The servants are gone for the feast.\nYou enter the hall to do your work.",
+    "choices": [
+      {
+        "text": "Finish quickly and leave",
+        "feedback": "Be swift. The house is too quiet."
+      },
+      {
+        "text": "Linger — enjoy the silence",
+        "feedback": "Quiet houses are not always safe."
+      }
+    ]
+  },
+  "linger_consequence": {
+    "title": "A Door Opens",
+    "text": "Soft footsteps in the corridor.\nYou should have gone.",
+    "choices": [
+      {
+        "text": "Move to leave at once",
+        "feedback": "You turn for the door."
+      }
+    ]
+  },
+  "she_grabs": {
+    "title": "She Catches Your Garment",
+    "text": "Her hand closes on your cloak.\n\"Lie with me!\" she demands.",
+    "choices": [
+      {
+        "text": "Leave the garment and flee",
+        "feedback": "You slip out of the cloth and run."
+      },
+      {
+        "text": "Wrestle the cloak back",
+        "feedback": "She will tear it and call it proof."
+      },
+      {
+        "text": "Yield this once to keep peace",
+        "feedback": "There is no peace in such a sin."
+      }
+    ]
+  },
+  "wrestle_consequence": {
+    "title": "The Cloth Tears",
+    "text": "She holds the torn piece, eyes bright.\nDo not stay to argue.",
+    "choices": [
+      {
+        "text": "Leave the garment and flee",
+        "feedback": "You let go and run for the door."
+      }
+    ]
+  },
+  "yield2_consequence": {
+    "title": "God Sees",
+    "text": "His eyes are upon you in this room.\nYou cannot do this thing.",
+    "choices": [
+      {
+        "text": "Leave the garment and flee",
+        "feedback": "You break free and run."
+      }
+    ]
+  },
+  "fled": {
+    "title": "Out Into the Sun",
+    "text": "You stand outside, breathing hard.\nYour cloak is in her hand.",
+    "choices": [
+      {
+        "text": "Hide and wait for the truth",
+        "feedback": "Hiding only looks like guilt."
+      },
+      {
+        "text": "Return to your duties in faith",
+        "feedback": "God knows. You will trust Him."
+      }
+    ]
+  },
+  "hide2_consequence": {
+    "title": "They Will Find You",
+    "text": "A slave cannot hide for long.\nBetter to walk in the open.",
+    "choices": [
+      {
+        "text": "Return to your duties in faith",
+        "feedback": "You square your shoulders and go."
+      }
+    ]
+  },
+  "her_cry": {
+    "title": "She Cries Out",
+    "text": "She calls the servants, holding your cloak.\n\"The Hebrew tried to shame me!\"",
+    "choices": [
+      {
+        "text": "Stand silent before God",
+        "feedback": "Your peace will be your defense."
+      },
+      {
+        "text": "Shout her lie before all",
+        "feedback": "Anger will only feed her story."
+      },
+      {
+        "text": "Run away from the house",
+        "feedback": "Flight is a confession."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Their Faces Turn",
+    "text": "Loud denial seems like guilt.\nBe still. Trust God.",
+    "choices": [
+      {
+        "text": "Stand silent before God",
+        "feedback": "You close your mouth in peace."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "Soldiers at the Gate",
+    "text": "You will not outrun Potiphar's guard.\nFace this with faith.",
+    "choices": [
+      {
+        "text": "Return and stand silent",
+        "feedback": "You walk back, head bowed."
+      }
+    ]
+  },
+  "before_potiphar": {
+    "title": "His Wrath Burns",
+    "text": "Potiphar holds the torn cloak.\nHis eyes are dark with anger.",
+    "choices": [
+      {
+        "text": "Bow and accept his judgment",
+        "feedback": "You kneel without a word."
+      },
+      {
+        "text": "Beg loudly for your life",
+        "feedback": "His mind is set. Words will not turn it."
+      },
+      {
+        "text": "Curse his wife in fury",
+        "feedback": "Such words could cost your head."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "He Will Not Hear",
+    "text": "Your pleading falls on stone.\nOnly silence will keep your life.",
+    "choices": [
+      {
+        "text": "Bow and accept his judgment",
+        "feedback": "You lower yourself to the floor."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "The Guards Step Forward",
+    "text": "Steel rings half from the sheath.\nClose your mouth before it costs all.",
+    "choices": [
+      {
+        "text": "Bow and accept his judgment",
+        "feedback": "You drop to your knees in silence."
+      }
+    ]
+  },
+  "to_prison": {
+    "title": "Bound for the Prison",
+    "text": "Ropes bind your wrists.\nThey lead you toward the king's prison.",
+    "choices": [
+      {
+        "text": "Walk in faith — God is with you",
+        "feedback": "You lift your eyes to heaven."
+      }
+    ]
+  },
+  "ending": {
+    "title": "The Lord Was With Him",
+    "text": "The gates close behind you.\nYet even here, the Lord shows you mercy.",
+    "choices": []
+  }
+}

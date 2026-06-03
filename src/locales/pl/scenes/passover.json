@@ -1,0 +1,269 @@
+{
+  "start": {
+    "title": "[TODO:pl] One Last Word",
+    "text": "[TODO:pl] The Lord speaks at dusk in Goshen.\nA final sign will free His people.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Argue: surely it is enough",
+        "feedback": "[TODO:pl] His word is not yours to weigh."
+      },
+      {
+        "text": "[TODO:pl] Listen and obey His word",
+        "feedback": "[TODO:pl] You bow your head and listen."
+      },
+      {
+        "text": "[TODO:pl] Hide His word from the people",
+        "feedback": "[TODO:pl] It must be told to all."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:pl] Do Not Argue",
+    "text": "[TODO:pl] He has set the hour Himself.\nReceive what He commands.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Listen and obey His word",
+        "feedback": "[TODO:pl] You kneel in silence."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pl] Speak It to All",
+    "text": "[TODO:pl] His word is for every household.\nDo not keep it to yourself.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Listen and obey His word",
+        "feedback": "[TODO:pl] You go to the elders."
+      }
+    ]
+  },
+  "gather_elders": {
+    "title": "[TODO:pl] Aaron at Your Side",
+    "text": "[TODO:pl] Aaron waits, the elders behind him.\nWhat must each household do?",
+    "choices": [
+      {
+        "text": "[TODO:pl] Take a lamb without blemish",
+        "feedback": "[TODO:pl] One for each household."
+      },
+      {
+        "text": "[TODO:pl] Buy any animal in haste",
+        "feedback": "[TODO:pl] Without blemish, He said."
+      }
+    ]
+  },
+  "any_animal_consequence": {
+    "title": "[TODO:pl] Without Blemish",
+    "text": "[TODO:pl] Not any beast. The Lord chose this.\nObey His word exactly.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Take a lamb without blemish",
+        "feedback": "[TODO:pl] The elders nod."
+      }
+    ]
+  },
+  "lamb_chosen": {
+    "title": "[TODO:pl] On the Fourteenth Day",
+    "text": "[TODO:pl] The lamb is kept until twilight.\nThen all Israel slays it together.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hide the lamb's blood away",
+        "feedback": "[TODO:pl] The blood must be shown."
+      },
+      {
+        "text": "[TODO:pl] Mark the doorposts with blood",
+        "feedback": "[TODO:pl] Hyssop dipped in red."
+      },
+      {
+        "text": "[TODO:pl] Pour the blood on the ground",
+        "feedback": "[TODO:pl] On the doorframe, He said."
+      }
+    ]
+  },
+  "hide_blood_consequence": {
+    "title": "[TODO:pl] Show the Sign",
+    "text": "[TODO:pl] It is the sign He looks for.\nDo not hide what He commanded.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Mark the doorposts with blood",
+        "feedback": "[TODO:pl] You take the hyssop."
+      }
+    ]
+  },
+  "ground_consequence": {
+    "title": "[TODO:pl] On the Doorframe",
+    "text": "[TODO:pl] Lintel and side posts, He said.\nThat is where the sign must rest.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Mark the doorposts with blood",
+        "feedback": "[TODO:pl] Each home is marked."
+      }
+    ]
+  },
+  "doorposts_marked": {
+    "title": "[TODO:pl] The Sign on Every Door",
+    "text": "[TODO:pl] Red marks the wood of every home.\nNow the meal must be prepared.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Roast the lamb with bitter herbs",
+        "feedback": "[TODO:pl] Unleavened bread is broken."
+      },
+      {
+        "text": "[TODO:pl] Boil it with leavened bread",
+        "feedback": "[TODO:pl] Roasted, with no leaven."
+      }
+    ]
+  },
+  "boil_consequence": {
+    "title": "[TODO:pl] As He Commanded",
+    "text": "[TODO:pl] Roasted by fire. No leaven tonight.\nDo it the way He spoke.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Roast the lamb with bitter herbs",
+        "feedback": "[TODO:pl] The fire is lit."
+      }
+    ]
+  },
+  "meal_prepared": {
+    "title": "[TODO:pl] Eat in Haste",
+    "text": "[TODO:pl] Loins girded. Sandals on. Staff in hand.\nReady to leave at His word.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Sit at ease, take your time",
+        "feedback": "[TODO:pl] In haste, He said."
+      },
+      {
+        "text": "[TODO:pl] Wander out into the street",
+        "feedback": "[TODO:pl] Not one foot outside tonight."
+      },
+      {
+        "text": "[TODO:pl] Stay inside until morning",
+        "feedback": "[TODO:pl] The door is shut behind you."
+      }
+    ]
+  },
+  "ease_consequence": {
+    "title": "[TODO:pl] Be Ready",
+    "text": "[TODO:pl] Tonight you eat as travelers.\nReady to rise and go.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay inside until morning",
+        "feedback": "[TODO:pl] You gird your robe."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "[TODO:pl] Stay Within",
+    "text": "[TODO:pl] The blood guards only those inside.\nDo not step beyond the door.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay inside until morning",
+        "feedback": "[TODO:pl] You bolt the door."
+      }
+    ]
+  },
+  "stay_inside": {
+    "title": "[TODO:pl] Midnight",
+    "text": "[TODO:pl] A great cry rises from Egypt.\nIn Goshen, only silence.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Open the door to look out",
+        "feedback": "[TODO:pl] Not yet. Wait on Him."
+      },
+      {
+        "text": "[TODO:pl] Boast that you are spared",
+        "feedback": "[TODO:pl] It is His mercy, not yours."
+      },
+      {
+        "text": "[TODO:pl] Wait quietly with your family",
+        "feedback": "[TODO:pl] The lamps burn low and warm."
+      }
+    ]
+  },
+  "open_consequence": {
+    "title": "[TODO:pl] Wait on Him",
+    "text": "[TODO:pl] The Lord passes over tonight.\nDo not break the watch.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wait quietly with your family",
+        "feedback": "[TODO:pl] You sit beside the fire."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:pl] His Mercy, Not Yours",
+    "text": "[TODO:pl] It is the blood that spares you.\nNot your hand, not your name.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wait quietly with your family",
+        "feedback": "[TODO:pl] You bow your head low."
+      }
+    ]
+  },
+  "morning_summons": {
+    "title": "[TODO:pl] Pharaoh's Messengers",
+    "text": "[TODO:pl] Before dawn they pound your door.\nThe king himself summons you now.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Refuse and stay in Goshen",
+        "feedback": "[TODO:pl] Go. The hour has come."
+      },
+      {
+        "text": "[TODO:pl] Go to Pharaoh with Aaron",
+        "feedback": "[TODO:pl] You walk into the still city."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:pl] The Hour Has Come",
+    "text": "[TODO:pl] He calls. Do not turn aside.\nThis is the moment promised.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Go to Pharaoh with Aaron",
+        "feedback": "[TODO:pl] You take the road to the palace."
+      }
+    ]
+  },
+  "before_broken_pharaoh": {
+    "title": "[TODO:pl] \"Go. Serve the Lord.\"",
+    "text": "[TODO:pl] Pharaoh stands hollow with grief.\n\"Take your flocks. Leave my land.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Mock him in his sorrow",
+        "feedback": "[TODO:pl] Do not strike a broken man."
+      },
+      {
+        "text": "[TODO:pl] Demand half stay behind",
+        "feedback": "[TODO:pl] All Israel goes, with all."
+      },
+      {
+        "text": "[TODO:pl] Accept and call the people forth",
+        "feedback": "[TODO:pl] You turn toward Goshen."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pl] Not Mockery",
+    "text": "[TODO:pl] Judgment was His to give.\nReceive his word and go.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Accept and call the people forth",
+        "feedback": "[TODO:pl] You bow and turn away."
+      }
+    ]
+  },
+  "half_consequence": {
+    "title": "[TODO:pl] All, With All",
+    "text": "[TODO:pl] Not one child. Not one beast.\nAll the people go free.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Accept and call the people forth",
+        "feedback": "[TODO:pl] You hold the line."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pl] Toward the Sunrise",
+    "text": "[TODO:pl] Israel rises from Goshen at dawn.\nThe long night is finished.",
+    "choices": []
+  }
+}

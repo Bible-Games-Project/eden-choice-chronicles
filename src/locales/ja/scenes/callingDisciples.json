@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "[TODO:ja] Empty Nets",
+    "text": "[TODO:ja] Dawn over the lake.\nAll night, and not one fish.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Curse the silent sea",
+        "feedback": "[TODO:ja] Bitterness catches no fish."
+      },
+      {
+        "text": "[TODO:ja] Wash the nets in silence",
+        "feedback": "[TODO:ja] Quiet hands, open heart."
+      },
+      {
+        "text": "[TODO:ja] Pack up and go home",
+        "feedback": "[TODO:ja] Wait. Something stirs."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:ja] Stay",
+    "text": "[TODO:ja] Anger will not feed you.\nBegin again.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Wash the nets in silence",
+        "feedback": "[TODO:ja] Peace returns."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "[TODO:ja] Linger",
+    "text": "[TODO:ja] Stay by the water.\nA voice is coming.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Wash the nets in silence",
+        "feedback": "[TODO:ja] You bend to the work."
+      }
+    ]
+  },
+  "teaching": {
+    "title": "[TODO:ja] A Stranger's Voice",
+    "text": "[TODO:ja] Crowds press near.\n\"May I teach from your boat?\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Push out into the water",
+        "feedback": "[TODO:ja] His words fill the air."
+      },
+      {
+        "text": "[TODO:ja] Tell him to find another",
+        "feedback": "[TODO:ja] Open the door wider."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:ja] Welcome Him",
+    "text": "[TODO:ja] His voice is gentle.\nGive what little you have.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Push out into the water",
+        "feedback": "[TODO:ja] He smiles and steps in."
+      }
+    ]
+  },
+  "catch": {
+    "title": "[TODO:ja] Cast the Nets",
+    "text": "[TODO:ja] \"Cast into the deep,\" he says.\nBut the night gave nothing.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Refuse, the nets are washed",
+        "feedback": "[TODO:ja] Trust the word."
+      },
+      {
+        "text": "[TODO:ja] Argue about the timing",
+        "feedback": "[TODO:ja] Set words aside."
+      },
+      {
+        "text": "[TODO:ja] \"At your word, I will.\"",
+        "feedback": "[TODO:ja] Obedience opens the deep."
+      }
+    ]
+  },
+  "refuse_cast_consequence": {
+    "title": "[TODO:ja] Trust",
+    "text": "[TODO:ja] His word is not like other words.\nLower the nets.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"At your word, I will.\"",
+        "feedback": "[TODO:ja] The boat sways forward."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:ja] Obey",
+    "text": "[TODO:ja] There is nothing to lose.\nDo as he asks.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"At your word, I will.\"",
+        "feedback": "[TODO:ja] You grip the rope."
+      }
+    ]
+  },
+  "miracle": {
+    "title": "[TODO:ja] Nets Overflowing",
+    "text": "[TODO:ja] Fish surge, the nets break.\nYou fall to your knees.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Boast of your catch",
+        "feedback": "[TODO:ja] This is not your doing."
+      },
+      {
+        "text": "[TODO:ja] \"Lord, depart from me.\"",
+        "feedback": "[TODO:ja] He sees your heart."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:ja] Humble Yourself",
+    "text": "[TODO:ja] The miracle is not yours.\nKneel before him.",
+    "choices": [
+      {
+        "text": "[TODO:ja] \"Lord, depart from me.\"",
+        "feedback": "[TODO:ja] He lifts you up."
+      }
+    ]
+  },
+  "call": {
+    "title": "[TODO:ja] Follow Me",
+    "text": "[TODO:ja] \"Do not be afraid.\nFrom now, you will fish for men.\"",
+    "choices": [
+      {
+        "text": "[TODO:ja] Hesitate, the boats are yours",
+        "feedback": "[TODO:ja] He calls you onward."
+      },
+      {
+        "text": "[TODO:ja] Leave everything and follow",
+        "feedback": "[TODO:ja] Your heart is light."
+      },
+      {
+        "text": "[TODO:ja] Bargain for tomorrow",
+        "feedback": "[TODO:ja] Now is the hour."
+      }
+    ]
+  },
+  "hesitate_consequence": {
+    "title": "[TODO:ja] Step Forward",
+    "text": "[TODO:ja] Boats and nets will pass.\nHis call will not.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Leave everything and follow",
+        "feedback": "[TODO:ja] You rise."
+      }
+    ]
+  },
+  "bargain_consequence": {
+    "title": "[TODO:ja] Today",
+    "text": "[TODO:ja] Tomorrow is not promised.\nFollow now.",
+    "choices": [
+      {
+        "text": "[TODO:ja] Leave everything and follow",
+        "feedback": "[TODO:ja] The shore opens."
+      }
+    ]
+  },
+  "follow": {
+    "title": "[TODO:ja] A New Road",
+    "text": "[TODO:ja] Nets fall to the sand.\nYou walk into a new life.",
+    "choices": []
+  }
+}

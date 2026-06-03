@@ -1,0 +1,197 @@
+{
+  "start": {
+    "title": "[TODO:es] Valley of Elah",
+    "text": "[TODO:es] Two armies face each other.\nDust drifts between silent hills.",
+    "choices": [
+      {
+        "text": "[TODO:es] Flee back to your sheep",
+        "feedback": "[TODO:es] The Lord called you here."
+      },
+      {
+        "text": "[TODO:es] Bring bread to your brothers",
+        "feedback": "[TODO:es] You climb the ridge with your load."
+      },
+      {
+        "text": "[TODO:es] Boast to passing soldiers",
+        "feedback": "[TODO:es] Words without faith are wind."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:es] Do Not Turn Back",
+    "text": "[TODO:es] God has set your steps here.\nGo to your brothers.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring bread to your brothers",
+        "feedback": "[TODO:es] You shoulder the satchel."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:es] Quiet Your Pride",
+    "text": "[TODO:es] Save your strength for the Lord.\nDeliver what your father sent.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring bread to your brothers",
+        "feedback": "[TODO:es] You lower your voice."
+      }
+    ]
+  },
+  "challenge": {
+    "title": "[TODO:es] The Giant Roars",
+    "text": "[TODO:es] \"Send me a man!\" Goliath shouts.\nIsrael's army trembles in silence.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hide behind the soldiers",
+        "feedback": "[TODO:es] Fear cannot silence God."
+      },
+      {
+        "text": "[TODO:es] Curse the giant aloud",
+        "feedback": "[TODO:es] Faith answers, not anger."
+      },
+      {
+        "text": "[TODO:es] Ask, \"Who defies the living God?\"",
+        "feedback": "[TODO:es] Your question rises like fire."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:es] Stand in the Open",
+    "text": "[TODO:es] The Lord is greater than the giant.\nLift your eyes.",
+    "choices": [
+      {
+        "text": "[TODO:es] Ask, \"Who defies the living God?\"",
+        "feedback": "[TODO:es] You step into the light."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:es] Speak with Faith",
+    "text": "[TODO:es] Anger is not your weapon.\nLet trust answer instead.",
+    "choices": [
+      {
+        "text": "[TODO:es] Ask, \"Who defies the living God?\"",
+        "feedback": "[TODO:es] You steady your breath."
+      }
+    ]
+  },
+  "saul_tent": {
+    "title": "[TODO:es] Saul Offers His Armor",
+    "text": "[TODO:es] Heavy bronze, polished and cold.\n\"Wear this, boy. You will need it.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Wear the king's armor",
+        "feedback": "[TODO:es] It was not made for you."
+      },
+      {
+        "text": "[TODO:es] Set it aside, trust the Lord",
+        "feedback": "[TODO:es] You step out lighter than air."
+      },
+      {
+        "text": "[TODO:es] Refuse to fight at all",
+        "feedback": "[TODO:es] God has given you this hour."
+      }
+    ]
+  },
+  "armor_consequence": {
+    "title": "[TODO:es] Take It Off",
+    "text": "[TODO:es] You cannot move beneath it.\nGod has another way.",
+    "choices": [
+      {
+        "text": "[TODO:es] Set it aside, trust the Lord",
+        "feedback": "[TODO:es] You let it fall to the ground."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:es] Do Not Refuse",
+    "text": "[TODO:es] The Lord delivered you from lion and bear.\nHe will deliver you now.",
+    "choices": [
+      {
+        "text": "[TODO:es] Set it aside, trust the Lord",
+        "feedback": "[TODO:es] Your hands grow steady."
+      }
+    ]
+  },
+  "brook": {
+    "title": "[TODO:es] Five Smooth Stones",
+    "text": "[TODO:es] Cool water runs over your feet.\nThe stones lie still and waiting.",
+    "choices": [
+      {
+        "text": "[TODO:es] Grab the largest jagged rock",
+        "feedback": "[TODO:es] Trust God's simple gifts."
+      },
+      {
+        "text": "[TODO:es] Take a sword from a soldier",
+        "feedback": "[TODO:es] Your sling is enough with God."
+      },
+      {
+        "text": "[TODO:es] Choose five smooth stones",
+        "feedback": "[TODO:es] You weigh them in your palm."
+      }
+    ]
+  },
+  "jagged_consequence": {
+    "title": "[TODO:es] Choose Wisely",
+    "text": "[TODO:es] The smooth stones fly true.\nLet the brook give what God provides.",
+    "choices": [
+      {
+        "text": "[TODO:es] Choose five smooth stones",
+        "feedback": "[TODO:es] You set the rough rock aside."
+      }
+    ]
+  },
+  "sword_consequence": {
+    "title": "[TODO:es] Trust the Sling",
+    "text": "[TODO:es] The Lord saves not with sword or spear.\nReturn to the brook.",
+    "choices": [
+      {
+        "text": "[TODO:es] Choose five smooth stones",
+        "feedback": "[TODO:es] You kneel by the water."
+      }
+    ]
+  },
+  "duel": {
+    "title": "[TODO:es] Face to Face",
+    "text": "[TODO:es] Goliath laughs at your size.\nYour sling rests against your hand.",
+    "choices": [
+      {
+        "text": "[TODO:es] Run and pray quietly",
+        "feedback": "[TODO:es] Speak boldly in His name."
+      },
+      {
+        "text": "[TODO:es] Match his insults with your own",
+        "feedback": "[TODO:es] Speak of the Lord, not yourself."
+      },
+      {
+        "text": "[TODO:es] \"I come in the name of the Lord\"",
+        "feedback": "[TODO:es] Your sling whirls into the wind."
+      }
+    ]
+  },
+  "pray_consequence": {
+    "title": "[TODO:es] Stand and Speak",
+    "text": "[TODO:es] Faith is not silent here.\nDeclare the name of the Lord.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"I come in the name of the Lord\"",
+        "feedback": "[TODO:es] Your voice carries across the valley."
+      }
+    ]
+  },
+  "insult_consequence": {
+    "title": "[TODO:es] Honor the Lord",
+    "text": "[TODO:es] This battle belongs to God.\nLet His name go before you.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"I come in the name of the Lord\"",
+        "feedback": "[TODO:es] You lift the sling high."
+      }
+    ]
+  },
+  "victory": {
+    "title": "[TODO:es] The Giant Falls",
+    "text": "[TODO:es] One stone, one breath, one God.\nIsrael's shout fills the hills.",
+    "choices": []
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "start": {
+    "title": "A Prophet at the Door",
+    "text": "Jeremiah stands before your throne.\nHe says Babylon is the Lord's rod.",
+    "choices": [
+      {
+        "text": "Throw him into the cistern",
+        "feedback": "You silence the voice, not the truth."
+      },
+      {
+        "text": "Listen to the Lord's word",
+        "feedback": "Hard words can save a kingdom."
+      },
+      {
+        "text": "Dismiss him as a traitor",
+        "feedback": "Pride closes the only open door."
+      }
+    ]
+  },
+  "imprison_consequence": {
+    "title": "Chains Cannot Bind Truth",
+    "text": "The cistern is deep, but his words remain.\nThe Lord still speaks through him.",
+    "choices": [
+      {
+        "text": "Listen to the Lord's word",
+        "feedback": "You call for him in secret."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "Silence Is Not Safety",
+    "text": "The throne grows colder when prophets are sent away.\nHis warning still rings in your ears.",
+    "choices": [
+      {
+        "text": "Listen to the Lord's word",
+        "feedback": "You bring him back to speak."
+      }
+    ]
+  },
+  "preach": {
+    "title": "The Streets of Jerusalem",
+    "text": "Jeremiah cries out in the square.\n\"Turn back, or this city will fall.\"",
+    "choices": [
+      {
+        "text": "Soften his message for the people",
+        "feedback": "A watered prophecy saves no one."
+      },
+      {
+        "text": "Pull him from the square",
+        "feedback": "Hiding the warning hides the way out."
+      },
+      {
+        "text": "Let him speak the full word",
+        "feedback": "You let the truth be heard."
+      }
+    ]
+  },
+  "soften_consequence": {
+    "title": "Half a Word",
+    "text": "A muffled prophecy is no prophecy.\nThe Lord asked for the whole truth.",
+    "choices": [
+      {
+        "text": "Let him speak the full word",
+        "feedback": "You step back and let him preach."
+      }
+    ]
+  },
+  "retreat_consequence": {
+    "title": "The Square Is Quiet",
+    "text": "Without his voice, the city hears nothing.\nOnly its own pride.",
+    "choices": [
+      {
+        "text": "Let him speak the full word",
+        "feedback": "You return him to the steps."
+      }
+    ]
+  },
+  "reject": {
+    "title": "Folded Arms, Closed Hearts",
+    "text": "The citizens mock the prophet.\n\"Peace, peace,\" they cry.",
+    "choices": [
+      {
+        "text": "Curse them with the prophet",
+        "feedback": "The Lord did not send you to curse."
+      },
+      {
+        "text": "Stand with Jeremiah's warning",
+        "feedback": "You refuse to join the laughter."
+      },
+      {
+        "text": "Join the people's mockery",
+        "feedback": "Mocking the prophet mocks the Lord."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Not Yours to Judge",
+    "text": "Anger is not the answer the Lord asks of you.\nOnly faithful witness.",
+    "choices": [
+      {
+        "text": "Stand with Jeremiah's warning",
+        "feedback": "You quiet your tongue."
+      }
+    ]
+  },
+  "giveup_consequence": {
+    "title": "Turn from the Crowd",
+    "text": "Their laughter will not save the walls.\nOnly the word will.",
+    "choices": [
+      {
+        "text": "Stand with Jeremiah's warning",
+        "feedback": "You leave the mocking circle."
+      }
+    ]
+  },
+  "siege": {
+    "title": "Babylon at the Gates",
+    "text": "Nebuchadnezzar's army surrounds the walls.\nThe prophet says: do not resist.",
+    "choices": [
+      {
+        "text": "Trust the idols on the high places",
+        "feedback": "Wood and stone cannot lift a siege."
+      },
+      {
+        "text": "Send for Egypt's chariots",
+        "feedback": "Egypt is a broken reed."
+      },
+      {
+        "text": "Submit to the Lord's word",
+        "feedback": "Submission to God outweighs strength."
+      }
+    ]
+  },
+  "idols_consequence": {
+    "title": "Silent Stones",
+    "text": "The idols cannot answer the rams at the gate.\nThe Lord alone speaks.",
+    "choices": [
+      {
+        "text": "Submit to the Lord's word",
+        "feedback": "You turn from the high places."
+      }
+    ]
+  },
+  "egypt_consequence": {
+    "title": "A Broken Reed",
+    "text": "Egypt's army falters and turns home.\nOnly the Lord's word remains.",
+    "choices": [
+      {
+        "text": "Submit to the Lord's word",
+        "feedback": "You set down the false hope."
+      }
+    ]
+  },
+  "famine": {
+    "title": "Bread Is Gone",
+    "text": "Inside the walls, the children grow thin.\nJeremiah weeps in the empty streets.",
+    "choices": [
+      {
+        "text": "Blame the prophet for the hunger",
+        "feedback": "Blame will not feed your people."
+      },
+      {
+        "text": "Flee the city in secret",
+        "feedback": "You cannot outrun the Lord's word."
+      },
+      {
+        "text": "Repent before the Lord",
+        "feedback": "Late repentance is still repentance."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "He Only Spoke",
+    "text": "The prophet did not bring the army.\nYour ears refused his words.",
+    "choices": [
+      {
+        "text": "Repent before the Lord",
+        "feedback": "You bow your head at last."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "No Hidden Path",
+    "text": "Every road is watched, every gate is closed.\nOnly the Lord can be sought now.",
+    "choices": [
+      {
+        "text": "Repent before the Lord",
+        "feedback": "You turn from the back gate."
+      }
+    ]
+  },
+  "fall": {
+    "title": "The Walls Are Breached",
+    "text": "Fire climbs the temple stones.\nSmoke covers the holy hill.",
+    "choices": [
+      {
+        "text": "Hide inside the burning temple",
+        "feedback": "The walls cannot shelter you now."
+      },
+      {
+        "text": "Try to escape the broken wall",
+        "feedback": "The plain of Jericho will catch you."
+      },
+      {
+        "text": "Accept the Lord's judgment",
+        "feedback": "You bow beneath the rod He warned of."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Stones Will Fall",
+    "text": "The temple will not be a fortress.\nIts hour has come.",
+    "choices": [
+      {
+        "text": "Accept the Lord's judgment",
+        "feedback": "You step into the open."
+      }
+    ]
+  },
+  "escape_consequence": {
+    "title": "Caught at Jericho",
+    "text": "The Babylonians ride faster than your fear.\nThere is nowhere left to run.",
+    "choices": [
+      {
+        "text": "Accept the Lord's judgment",
+        "feedback": "You let the chariots take you."
+      }
+    ]
+  },
+  "exile": {
+    "title": "The Long Road East",
+    "text": "Jerusalem falls behind in smoke.\nThe people walk the road to Babylon.",
+    "choices": []
+  }
+}

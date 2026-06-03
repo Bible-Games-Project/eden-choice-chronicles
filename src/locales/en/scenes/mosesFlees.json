@@ -1,0 +1,493 @@
+{
+  "start": {
+    "title": "Among His People",
+    "text": "You walk where Hebrews labor.\nA taskmaster strikes a slave hard.",
+    "choices": [
+      {
+        "text": "Walk away and say nothing",
+        "feedback": "Their cry weighs on you."
+      },
+      {
+        "text": "Move closer to see clearly",
+        "feedback": "You must see the truth."
+      },
+      {
+        "text": "Call the palace guards",
+        "feedback": "They serve Pharaoh, not justice."
+      }
+    ]
+  },
+  "walk_away_consequence": {
+    "title": "The Cry Follows You",
+    "text": "The whip echoes in your ears.\nYou cannot pretend you did not see.",
+    "choices": [
+      {
+        "text": "Turn back and look closer",
+        "feedback": "You return to the field."
+      }
+    ]
+  },
+  "call_guards_consequence": {
+    "title": "They Will Not Help",
+    "text": "The guards serve the same masters.\nThis cry needs another answer.",
+    "choices": [
+      {
+        "text": "Go closer to the slave yourself",
+        "feedback": "You step into the dust."
+      }
+    ]
+  },
+  "watch_closer": {
+    "title": "He Is My Brother",
+    "text": "The Hebrew is bleeding, half-broken.\nThe taskmaster lifts the whip again.",
+    "choices": [
+      {
+        "text": "Look around. No one watches.",
+        "feedback": "The field is empty."
+      },
+      {
+        "text": "Shout at the taskmaster",
+        "feedback": "You give yourself away."
+      },
+      {
+        "text": "Bribe him with gold",
+        "feedback": "Cruelty cannot be bought off."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Too Loud",
+    "text": "Your voice carries far.\nWitnesses will remember every word.",
+    "choices": [
+      {
+        "text": "Quiet. Look around again.",
+        "feedback": "You lower your voice."
+      }
+    ]
+  },
+  "bribe_consequence": {
+    "title": "He Laughs at the Gold",
+    "text": "He pockets it and strikes again.\nGold cannot save your brother.",
+    "choices": [
+      {
+        "text": "Step back. Check who sees.",
+        "feedback": "You scan the field."
+      }
+    ]
+  },
+  "no_one_sees": {
+    "title": "No One Is Near",
+    "text": "The field is empty. The whip falls.\nYour hands clench. Anger rises.",
+    "choices": [
+      {
+        "text": "Strike down the Egyptian",
+        "feedback": "Justice — but at what cost?"
+      },
+      {
+        "text": "Run for help to the palace",
+        "feedback": "By then he will be dead."
+      }
+    ]
+  },
+  "run_palace_consequence": {
+    "title": "Too Late",
+    "text": "The palace is far. He will die\nbefore any help arrives. Act now.",
+    "choices": [
+      {
+        "text": "Strike down the Egyptian",
+        "feedback": "You move at last."
+      }
+    ]
+  },
+  "strike_egyptian": {
+    "title": "It Is Done",
+    "text": "One blow. He falls and breathes no more.\nThe Hebrew flees in silence.",
+    "choices": [
+      {
+        "text": "Hide his body in the sand",
+        "feedback": "You bury what you have done."
+      },
+      {
+        "text": "Leave him where he lies",
+        "feedback": "Anyone passing will see."
+      },
+      {
+        "text": "Boast of it in the city",
+        "feedback": "Your tongue is your downfall."
+      }
+    ]
+  },
+  "leave_body_consequence": {
+    "title": "He Will Be Found",
+    "text": "A body in open sand will speak.\nCover what you have done.",
+    "choices": [
+      {
+        "text": "Bury him in the sand",
+        "feedback": "You drag him aside."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Words Travel",
+    "text": "Pride could undo everything.\nFirst — hide what you have done.",
+    "choices": [
+      {
+        "text": "Bury him in the sand",
+        "feedback": "You return to the field."
+      }
+    ]
+  },
+  "bury_body": {
+    "title": "Buried in the Sand",
+    "text": "You cover him quickly. No one saw.\nYou hope no one ever knows.",
+    "choices": [
+      {
+        "text": "Return quietly to the palace",
+        "feedback": "Act as though nothing happened."
+      },
+      {
+        "text": "Tell the Hebrew elders",
+        "feedback": "Word will spread too fast."
+      }
+    ]
+  },
+  "tell_elders_consequence": {
+    "title": "Whispers Travel",
+    "text": "The elders gasp. Word will spread\nfaster than you can follow.",
+    "choices": [
+      {
+        "text": "Return quietly to the palace",
+        "feedback": "You walk back in silence."
+      }
+    ]
+  },
+  "return_palace": {
+    "title": "A Long Night",
+    "text": "The palace lamps burn low.\nYou sleep little. Tomorrow you must look.",
+    "choices": [
+      {
+        "text": "Walk among the Hebrews again",
+        "feedback": "You cannot stay away."
+      },
+      {
+        "text": "Stay hidden in your chamber",
+        "feedback": "Hiding will not undo it."
+      }
+    ]
+  },
+  "hide_chamber_consequence": {
+    "title": "Silence Is No Shield",
+    "text": "Hiding cannot undo what is done.\nGo see your people.",
+    "choices": [
+      {
+        "text": "Walk among the Hebrews again",
+        "feedback": "You leave the chamber."
+      }
+    ]
+  },
+  "second_day": {
+    "title": "The Next Day",
+    "text": "Two Hebrews quarrel and shove.\nOne strikes the other in the dust.",
+    "choices": [
+      {
+        "text": "Step between and rebuke them",
+        "feedback": "\"Why strike your brother?\""
+      },
+      {
+        "text": "Take a side and strike one",
+        "feedback": "More blood is not the answer."
+      },
+      {
+        "text": "Walk past in silence",
+        "feedback": "You cannot keep walking past."
+      }
+    ]
+  },
+  "take_side_consequence": {
+    "title": "Not With Your Hand",
+    "text": "Yesterday's blow already haunts you.\nUse words today, not fists.",
+    "choices": [
+      {
+        "text": "Step between and rebuke them",
+        "feedback": "You raise your voice."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "Brothers Wound Brothers",
+    "text": "If you say nothing, who will?\nSpeak to them.",
+    "choices": [
+      {
+        "text": "Step between and rebuke them",
+        "feedback": "You step into the quarrel."
+      }
+    ]
+  },
+  "rebuke_them": {
+    "title": "\"Why Strike Your Brother?\"",
+    "text": "The man sneers, eyes narrow.\n\"Will you kill me as you killed him?\"",
+    "choices": [
+      {
+        "text": "Realize you are exposed",
+        "feedback": "Surely the thing is known."
+      },
+      {
+        "text": "Deny everything loudly",
+        "feedback": "Denial only confirms it."
+      },
+      {
+        "text": "Threaten him to stay silent",
+        "feedback": "Fear breeds witnesses."
+      }
+    ]
+  },
+  "deny_consequence": {
+    "title": "Lies Will Not Save You",
+    "text": "His eyes already know the truth.\nYour secret has slipped away.",
+    "choices": [
+      {
+        "text": "Accept that you are exposed",
+        "feedback": "The thing is known."
+      }
+    ]
+  },
+  "threaten_consequence": {
+    "title": "Threats Make Witnesses",
+    "text": "He will tell others, afraid or angry.\nYour secret is undone.",
+    "choices": [
+      {
+        "text": "Accept that you are exposed",
+        "feedback": "The thing is known."
+      }
+    ]
+  },
+  "exposed": {
+    "title": "The Thing Is Known",
+    "text": "If a Hebrew knows, Pharaoh will know.\nGuards will come for you.",
+    "choices": [
+      {
+        "text": "Prepare to flee from Egypt",
+        "feedback": "Survival demands flight."
+      },
+      {
+        "text": "Beg Pharaoh for mercy",
+        "feedback": "Pharaoh seeks your life."
+      },
+      {
+        "text": "Hide in the Hebrew quarter",
+        "feedback": "They will not shelter you."
+      }
+    ]
+  },
+  "beg_pharaoh_consequence": {
+    "title": "He Will Not Forgive",
+    "text": "An Egyptian was killed by your hand.\nMercy will not save you. Flee.",
+    "choices": [
+      {
+        "text": "Prepare to flee from Egypt",
+        "feedback": "You gather your cloak."
+      }
+    ]
+  },
+  "hide_hebrews_consequence": {
+    "title": "No Shelter Here",
+    "text": "They fear Pharaoh more than they trust you.\nFlight is the only way.",
+    "choices": [
+      {
+        "text": "Prepare to flee from Egypt",
+        "feedback": "You slip out at dusk."
+      }
+    ]
+  },
+  "pharaoh_hears": {
+    "title": "Pharaoh Hears",
+    "text": "His voice fills the throne hall.\n\"Find Moses. Bring me his life.\"",
+    "choices": [
+      {
+        "text": "Slip out the eastern gate",
+        "feedback": "The desert lies beyond."
+      },
+      {
+        "text": "Flee by the river boats",
+        "feedback": "Boats are watched first."
+      },
+      {
+        "text": "Raise the Hebrews in revolt",
+        "feedback": "It is not your hour."
+      }
+    ]
+  },
+  "river_consequence": {
+    "title": "The River Is Watched",
+    "text": "Every boat is searched at dawn.\nThe desert is the only road.",
+    "choices": [
+      {
+        "text": "Slip out the eastern gate",
+        "feedback": "You turn east."
+      }
+    ]
+  },
+  "revolt_consequence": {
+    "title": "Not Your Hour",
+    "text": "The people are not ready.\nFlight, not war, is your road today.",
+    "choices": [
+      {
+        "text": "Slip out the eastern gate",
+        "feedback": "You move toward the gate."
+      }
+    ]
+  },
+  "leave_egypt": {
+    "title": "Out of Egypt",
+    "text": "The gate closes behind you.\nDust and silence open ahead.",
+    "choices": [
+      {
+        "text": "Walk east, into the desert",
+        "feedback": "Each step is freedom and exile."
+      },
+      {
+        "text": "Wait near the gate till dark",
+        "feedback": "Patrols will pass at dusk."
+      }
+    ]
+  },
+  "wait_gate_consequence": {
+    "title": "Patrols Are Coming",
+    "text": "Lingering here is your death.\nTake the desert road now.",
+    "choices": [
+      {
+        "text": "Walk east, into the desert",
+        "feedback": "You start walking."
+      }
+    ]
+  },
+  "desert_walk": {
+    "title": "Endless Sand",
+    "text": "Days pass. Sun and wind.\nYou are alone with your thoughts.",
+    "choices": [
+      {
+        "text": "Press on toward Midian",
+        "feedback": "You trust the road."
+      },
+      {
+        "text": "Turn back. Surrender.",
+        "feedback": "Death waits behind you."
+      },
+      {
+        "text": "Curse God for your exile",
+        "feedback": "Bitterness will not feed you."
+      }
+    ]
+  },
+  "surrender_consequence": {
+    "title": "There Is No Going Back",
+    "text": "Pharaoh's blade waits in Egypt.\nKeep walking east.",
+    "choices": [
+      {
+        "text": "Press on toward Midian",
+        "feedback": "You face forward again."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Quiet Your Heart",
+    "text": "Anger will not give you water.\nWalk. Trust. Breathe.",
+    "choices": [
+      {
+        "text": "Press on toward Midian",
+        "feedback": "You walk on in silence."
+      }
+    ]
+  },
+  "canyon_pause": {
+    "title": "A Quiet Canyon",
+    "text": "You rest in cool shadow.\nFar from palace and chains.",
+    "choices": [
+      {
+        "text": "Pray and keep walking",
+        "feedback": "Strength returns to you."
+      },
+      {
+        "text": "Lie down and give up",
+        "feedback": "You must rise once more."
+      }
+    ]
+  },
+  "give_up_consequence": {
+    "title": "Rise, Moses",
+    "text": "Sleep here is sleep forever.\nStand. Walk. Live.",
+    "choices": [
+      {
+        "text": "Pray and keep walking",
+        "feedback": "You rise again."
+      }
+    ]
+  },
+  "see_well": {
+    "title": "A Well in the Sand",
+    "text": "Palms rise above the dust.\nYou have come to the land of Midian.",
+    "choices": [
+      {
+        "text": "Sit and rest by the well",
+        "feedback": "A stranger in a strange land."
+      },
+      {
+        "text": "Hide and watch from afar",
+        "feedback": "You need water, not shadows."
+      }
+    ]
+  },
+  "hide_well_consequence": {
+    "title": "You Need Water",
+    "text": "Hiding will not slake your thirst.\nGo. Sit. Drink.",
+    "choices": [
+      {
+        "text": "Sit and rest by the well",
+        "feedback": "You step into the light."
+      }
+    ]
+  },
+  "meet_midianite": {
+    "title": "A Kind Voice",
+    "text": "A young woman offers you water.\n\"You are welcome here, stranger.\"",
+    "choices": [
+      {
+        "text": "Receive the water with thanks",
+        "feedback": "A new life begins."
+      },
+      {
+        "text": "Refuse and walk on alone",
+        "feedback": "Pride is not your friend now."
+      },
+      {
+        "text": "Lie about who you are",
+        "feedback": "Begin in truth, not lies."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Receive the Gift",
+    "text": "Kindness is given to be received.\nDrink and stay.",
+    "choices": [
+      {
+        "text": "Receive the water with thanks",
+        "feedback": "You drink deeply."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "Begin in Truth",
+    "text": "A new life cannot rest on lies.\nReceive the water in honesty.",
+    "choices": [
+      {
+        "text": "Receive the water with thanks",
+        "feedback": "You speak plainly."
+      }
+    ]
+  },
+  "ending": {
+    "title": "A Stranger in Midian",
+    "text": "Egypt is behind you. The wilderness holds you.\nGod is not yet done with Moses.",
+    "choices": []
+  }
+}

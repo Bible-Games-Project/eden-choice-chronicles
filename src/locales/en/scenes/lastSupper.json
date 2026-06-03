@@ -1,0 +1,349 @@
+{
+  "start": {
+    "title": "The Upper Room",
+    "text": "The hour has come. Twelve faces wait by lamplight.\nYou step inside the prepared room.",
+    "choices": [
+      {
+        "text": "Send them home for safety",
+        "feedback": "This hour was always meant."
+      },
+      {
+        "text": "Welcome them to the table",
+        "feedback": "Their eyes meet yours."
+      },
+      {
+        "text": "Speak of glory and crowns",
+        "feedback": "Not glory. Service."
+      }
+    ]
+  },
+  "send_consequence": {
+    "title": "Stay With Me",
+    "text": "This night is for them too.\nThey must see what love does.",
+    "choices": [
+      {
+        "text": "Welcome them to the table",
+        "feedback": "You open your arms wide."
+      }
+    ]
+  },
+  "glory_consequence": {
+    "title": "Not Tonight",
+    "text": "Tonight is bread, and cup, and love.\nGlory waits beyond the cross.",
+    "choices": [
+      {
+        "text": "Welcome them to the table",
+        "feedback": "You sit down among them."
+      }
+    ]
+  },
+  "gathered": {
+    "title": "A Basin of Water",
+    "text": "Dust covers their feet. No servant has come.\nA folded towel waits by the door.",
+    "choices": [
+      {
+        "text": "Order Peter to wash the feet",
+        "feedback": "Not order. Show them."
+      },
+      {
+        "text": "Rise and tie the towel on",
+        "feedback": "You kneel beside them."
+      },
+      {
+        "text": "Leave the dust unclean",
+        "feedback": "Love does not ignore."
+      }
+    ]
+  },
+  "order_consequence": {
+    "title": "Show, Not Tell",
+    "text": "If you wish them to serve, serve first.\nThe master kneels tonight.",
+    "choices": [
+      {
+        "text": "Rise and tie the towel on",
+        "feedback": "You take the basin in hand."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "Love Stoops Low",
+    "text": "You came to wash more than feet.\nBegin with what is small.",
+    "choices": [
+      {
+        "text": "Rise and tie the towel on",
+        "feedback": "You bend down to begin."
+      }
+    ]
+  },
+  "washing": {
+    "title": "Peter Resists",
+    "text": "\"Lord, you shall never wash my feet!\"\nHis voice cracks with shame.",
+    "choices": [
+      {
+        "text": "Agree and stand back up",
+        "feedback": "Then he has no part in you."
+      },
+      {
+        "text": "Rebuke him for his pride",
+        "feedback": "Teach him gently, not harshly."
+      },
+      {
+        "text": "Tell him he must be washed",
+        "feedback": "Peter offers his head and hands."
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "He Must Be Washed",
+    "text": "Unless he lets you serve him,\nhe cannot walk the road ahead.",
+    "choices": [
+      {
+        "text": "Tell him he must be washed",
+        "feedback": "He yields with tears."
+      }
+    ]
+  },
+  "rebuke_consequence": {
+    "title": "Gently",
+    "text": "His pride hides a frightened heart.\nMeet him with truth, not fire.",
+    "choices": [
+      {
+        "text": "Tell him he must be washed",
+        "feedback": "His shoulders soften."
+      }
+    ]
+  },
+  "bread_table": {
+    "title": "The Loaf in Your Hands",
+    "text": "The unleavened bread rests on the cloth.\nThe room falls quiet around it.",
+    "choices": [
+      {
+        "text": "Hide the loaf and say nothing",
+        "feedback": "They must see and remember."
+      },
+      {
+        "text": "Give thanks, break, and share",
+        "feedback": "\"This is my body, given for you.\""
+      },
+      {
+        "text": "Eat it alone in silence",
+        "feedback": "This bread is for all of them."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Let Them See",
+    "text": "Memory is built from this moment.\nGive what cannot be hidden.",
+    "choices": [
+      {
+        "text": "Give thanks, break, and share",
+        "feedback": "You lift the loaf high."
+      }
+    ]
+  },
+  "alone_consequence": {
+    "title": "For All of Them",
+    "text": "The bread is broken to be shared.\nNone eat it alone tonight.",
+    "choices": [
+      {
+        "text": "Give thanks, break, and share",
+        "feedback": "Twelve hands receive a piece."
+      }
+    ]
+  },
+  "cup_lifted": {
+    "title": "The Cup of Wine",
+    "text": "Dark wine glows in the clay cup.\nYou lift it slowly above the table.",
+    "choices": [
+      {
+        "text": "Drink it quietly to yourself",
+        "feedback": "Pass it around, all of you."
+      },
+      {
+        "text": "Pour it out upon the floor",
+        "feedback": "This is the cup of covenant."
+      },
+      {
+        "text": "Pass it and speak of covenant",
+        "feedback": "\"My blood, poured out for many.\""
+      }
+    ]
+  },
+  "quiet_consequence": {
+    "title": "Share the Cup",
+    "text": "The new covenant is given to them.\nNot kept hidden in your hand.",
+    "choices": [
+      {
+        "text": "Pass it and speak of covenant",
+        "feedback": "They drink, one by one."
+      }
+    ]
+  },
+  "pour_consequence": {
+    "title": "Not the Floor",
+    "text": "This cup is to be drunk, not spilled.\nLet them taste the promise.",
+    "choices": [
+      {
+        "text": "Pass it and speak of covenant",
+        "feedback": "The cup moves down the table."
+      }
+    ]
+  },
+  "remembrance": {
+    "title": "Do This in Memory",
+    "text": "Their eyes follow your every word.\nHow will they keep this night?",
+    "choices": [
+      {
+        "text": "Tell them to forget the meal",
+        "feedback": "No. Remember, always."
+      },
+      {
+        "text": "\"Do this in memory of me\"",
+        "feedback": "The words settle deep in them."
+      },
+      {
+        "text": "Demand a feast in your name",
+        "feedback": "Memory, not spectacle."
+      }
+    ]
+  },
+  "forget_consequence": {
+    "title": "Always Remember",
+    "text": "This bread, this cup, this love.\nThese they must never forget.",
+    "choices": [
+      {
+        "text": "\"Do this in memory of me\"",
+        "feedback": "They nod in solemn silence."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Memory, Not Spectacle",
+    "text": "A quiet meal, broken and shared.\nThat is enough for love.",
+    "choices": [
+      {
+        "text": "\"Do this in memory of me\"",
+        "feedback": "Their hearts grow still."
+      }
+    ]
+  },
+  "betrayal_words": {
+    "title": "One of You",
+    "text": "Your voice grows low and sorrowful.\n\"One who eats with me will betray me.\"",
+    "choices": [
+      {
+        "text": "Accuse Judas openly by name",
+        "feedback": "His choice belongs to him."
+      },
+      {
+        "text": "Take back the hard saying",
+        "feedback": "Truth must stand tonight."
+      },
+      {
+        "text": "Let the words fall and wait",
+        "feedback": "Silence wraps the table."
+      }
+    ]
+  },
+  "accuse_consequence": {
+    "title": "Not by Force",
+    "text": "He must come to his own choice.\nLove does not shame him publicly.",
+    "choices": [
+      {
+        "text": "Let the words fall and wait",
+        "feedback": "You lower your eyes."
+      }
+    ]
+  },
+  "take_back_consequence": {
+    "title": "Truth Stands",
+    "text": "What is true must be spoken,\neven when it wounds your heart.",
+    "choices": [
+      {
+        "text": "Let the words fall and wait",
+        "feedback": "The lamplight flickers low."
+      }
+    ]
+  },
+  "disciples_ask": {
+    "title": "\"Is It I, Lord?\"",
+    "text": "One by one they look up troubled.\n\"Surely not I, Lord? Surely not I?\"",
+    "choices": [
+      {
+        "text": "Point your finger at each one",
+        "feedback": "Their hearts must speak first."
+      },
+      {
+        "text": "Answer with grief, not blame",
+        "feedback": "\"The hand is here with mine.\""
+      },
+      {
+        "text": "Laugh and dismiss their fear",
+        "feedback": "This is no jest tonight."
+      }
+    ]
+  },
+  "point_consequence": {
+    "title": "Let Hearts Speak",
+    "text": "Each soul must look within tonight.\nDo not crush them with judgment.",
+    "choices": [
+      {
+        "text": "Answer with grief, not blame",
+        "feedback": "Your sorrow softens them."
+      }
+    ]
+  },
+  "laugh_consequence": {
+    "title": "Not a Jest",
+    "text": "Their fear is honest and tender.\nMeet it with honest love.",
+    "choices": [
+      {
+        "text": "Answer with grief, not blame",
+        "feedback": "You speak softly to them."
+      }
+    ]
+  },
+  "farewell": {
+    "title": "Love One Another",
+    "text": "The hour grows late. Lamps burn low.\nWhat last word will you give?",
+    "choices": [
+      {
+        "text": "Leave without a final word",
+        "feedback": "They need this word most."
+      },
+      {
+        "text": "\"Love one another, as I have loved\"",
+        "feedback": "Their eyes shine with tears."
+      },
+      {
+        "text": "Warn them of every danger",
+        "feedback": "Speak love, not only fear."
+      }
+    ]
+  },
+  "leave_silent_consequence": {
+    "title": "One Last Word",
+    "text": "They will need it in the dark hours.\nLet love be the lamp you leave.",
+    "choices": [
+      {
+        "text": "\"Love one another, as I have loved\"",
+        "feedback": "You bless them with your gaze."
+      }
+    ]
+  },
+  "warn_consequence": {
+    "title": "Love First",
+    "text": "Fear cannot carry them through.\nOnly love will hold them.",
+    "choices": [
+      {
+        "text": "\"Love one another, as I have loved\"",
+        "feedback": "Your voice is gentle and clear."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Into the Night",
+    "text": "You rise from the table together.\nThe night waits beyond the door.",
+    "choices": []
+  }
+}

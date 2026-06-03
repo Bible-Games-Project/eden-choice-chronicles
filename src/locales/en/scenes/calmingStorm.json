@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "Setting Out",
+    "text": "Evening falls on the sea.\nJesus says, \"Let us cross over.\"",
+    "choices": [
+      {
+        "text": "Refuse, it grows dark",
+        "feedback": "Trust his word."
+      },
+      {
+        "text": "Push the boat to water",
+        "feedback": "You set sail with him."
+      },
+      {
+        "text": "Wait for morning",
+        "feedback": "He calls you now."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Follow His Word",
+    "text": "His call is for tonight.\nGo with him.",
+    "choices": [
+      {
+        "text": "Push the boat to water",
+        "feedback": "You obey."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "Trust Him Now",
+    "text": "He waits at the shore.\nDelay nothing.",
+    "choices": [
+      {
+        "text": "Push the boat to water",
+        "feedback": "You set sail."
+      }
+    ]
+  },
+  "storm": {
+    "title": "The Sea Rises",
+    "text": "Wind tears the sail.\nWaves crash into the boat.",
+    "choices": [
+      {
+        "text": "Curse the wind",
+        "feedback": "Anger will not save you."
+      },
+      {
+        "text": "Row with all your strength",
+        "feedback": "You strain at the oars."
+      },
+      {
+        "text": "Leap into the sea",
+        "feedback": "Stay in the boat."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Hold Steady",
+    "text": "Cursing will not still the storm.\nRow with the others.",
+    "choices": [
+      {
+        "text": "Row with all your strength",
+        "feedback": "You grip the oar."
+      }
+    ]
+  },
+  "leap_consequence": {
+    "title": "Stay With Him",
+    "text": "The sea would swallow you.\nReturn to the boat.",
+    "choices": [
+      {
+        "text": "Row with all your strength",
+        "feedback": "You hold fast."
+      }
+    ]
+  },
+  "sleep": {
+    "title": "He Sleeps",
+    "text": "Jesus sleeps in the stern.\nThe storm grows fiercer.",
+    "choices": [
+      {
+        "text": "Let him sleep, panic alone",
+        "feedback": "He is your help."
+      },
+      {
+        "text": "Wake him with a cry",
+        "feedback": "You go to him."
+      }
+    ]
+  },
+  "alone_consequence": {
+    "title": "Go To Him",
+    "text": "You cannot save the boat alone.\nWake your Lord.",
+    "choices": [
+      {
+        "text": "Wake him with a cry",
+        "feedback": "You shake him gently."
+      }
+    ]
+  },
+  "wake": {
+    "title": "Wake Him",
+    "text": "What will you say?\nThe water rises fast.",
+    "choices": [
+      {
+        "text": "Blame him for the storm",
+        "feedback": "Speak from need."
+      },
+      {
+        "text": "\"Lord, save us, we perish!\"",
+        "feedback": "He opens his eyes."
+      },
+      {
+        "text": "Stay silent in fear",
+        "feedback": "Cry out to him."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "Ask, Don't Blame",
+    "text": "He is not your enemy.\nAsk him to save you.",
+    "choices": [
+      {
+        "text": "\"Lord, save us, we perish!\"",
+        "feedback": "He rises calmly."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "Cry To Him",
+    "text": "Silence will not still the sea.\nSpeak.",
+    "choices": [
+      {
+        "text": "\"Lord, save us, we perish!\"",
+        "feedback": "He hears you."
+      }
+    ]
+  },
+  "calm": {
+    "title": "Peace, Be Still",
+    "text": "He stands and lifts his hand.\n\"Peace. Be still.\"",
+    "choices": [
+      {
+        "text": "Doubt what you saw",
+        "feedback": "Open your eyes."
+      },
+      {
+        "text": "Stand in trembling awe",
+        "feedback": "Wind and waves obey."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "See and Believe",
+    "text": "The sea is glass.\nLet awe fill you.",
+    "choices": [
+      {
+        "text": "Stand in trembling awe",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "amaze": {
+    "title": "Who Is This?",
+    "text": "The sea is still.\n\"Even the wind obeys him.\"",
+    "choices": []
+  }
+}

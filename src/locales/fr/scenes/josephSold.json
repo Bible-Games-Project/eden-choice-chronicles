@@ -1,0 +1,347 @@
+{
+  "start": {
+    "title": "[TODO:fr] Father's Favor",
+    "text": "[TODO:fr] You are Joseph. Father gave you a long coat of many colors.\nYour brothers stare in silence.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Mock them with the coat",
+        "feedback": "[TODO:fr] Their faces darken. Hatred grows."
+      },
+      {
+        "text": "[TODO:fr] Wear it humbly and thank Father",
+        "feedback": "[TODO:fr] You bow your head. \"Thank you, Father.\""
+      },
+      {
+        "text": "[TODO:fr] Hide the coat to keep peace",
+        "feedback": "[TODO:fr] Father's gift cannot be hidden forever."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:fr] Bitter Glances",
+    "text": "[TODO:fr] They turn away, muttering.\nThe coat feels heavier than before.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Wear it and thank Father",
+        "feedback": "[TODO:fr] You return to him with quiet gratitude."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:fr] Father Notices",
+    "text": "[TODO:fr] Jacob asks where the gift has gone.\nYou cannot lie to him.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Wear it openly and thank him",
+        "feedback": "[TODO:fr] He smiles. The coat is yours to bear."
+      }
+    ]
+  },
+  "thank_father": {
+    "title": "[TODO:fr] The Dream",
+    "text": "[TODO:fr] That night you dream: eleven sheaves bow to yours.\nYou wake with the vision burning.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Tell your brothers the dream",
+        "feedback": "[TODO:fr] Honesty is the path. You go to them."
+      },
+      {
+        "text": "[TODO:fr] Keep the dream a secret",
+        "feedback": "[TODO:fr] But God's words ask to be spoken."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "[TODO:fr] It Burns Inside",
+    "text": "[TODO:fr] The dream returns each night.\nYou cannot hold it alone.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Go and tell your brothers",
+        "feedback": "[TODO:fr] You walk to them at dawn."
+      }
+    ]
+  },
+  "tell_brothers": {
+    "title": "[TODO:fr] The Sheaves Bowed",
+    "text": "[TODO:fr] \"Your sheaves bowed to mine.\"\nTheir eyes flash. \"Will you reign over us?\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Take back the words",
+        "feedback": "[TODO:fr] The dream is from God. You cannot unsay it."
+      },
+      {
+        "text": "[TODO:fr] Stand firm — it is from God",
+        "feedback": "[TODO:fr] You hold your ground, calm and clear."
+      }
+    ]
+  },
+  "retract_consequence": {
+    "title": "[TODO:fr] The Dream Returns",
+    "text": "[TODO:fr] Sun, moon and stars now bow to you.\nGod will not let you forget.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Stand firm — it is from God",
+        "feedback": "[TODO:fr] You face them again, unshaken."
+      }
+    ]
+  },
+  "stand_firm": {
+    "title": "[TODO:fr] Father Sends You",
+    "text": "[TODO:fr] Jacob calls: \"Go see if your brothers are well at Shechem.\"\nThey are far in the north.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Refuse — you fear them",
+        "feedback": "[TODO:fr] A son obeys his father."
+      },
+      {
+        "text": "[TODO:fr] Obey and go find them",
+        "feedback": "[TODO:fr] \"Here am I,\" you answer."
+      },
+      {
+        "text": "[TODO:fr] Send a servant in your place",
+        "feedback": "[TODO:fr] Father asked you, not another."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:fr] Jacob's Quiet Look",
+    "text": "[TODO:fr] Your father waits. He says nothing.\nObedience cannot be refused.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Obey and go to your brothers",
+        "feedback": "[TODO:fr] You take up your sandals."
+      }
+    ]
+  },
+  "servant_consequence": {
+    "title": "[TODO:fr] He Asked for You",
+    "text": "[TODO:fr] The servant cannot bring back his sons.\nFather asked for you.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Set out yourself",
+        "feedback": "[TODO:fr] You shoulder the bundle and walk."
+      }
+    ]
+  },
+  "set_out": {
+    "title": "[TODO:fr] The Long Road",
+    "text": "[TODO:fr] The hills stretch on. Shechem is empty.\nA stranger says: \"They went to Dothan.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Turn back home",
+        "feedback": "[TODO:fr] You came to find them. Press on."
+      },
+      {
+        "text": "[TODO:fr] Press on toward Dothan",
+        "feedback": "[TODO:fr] You set your face north."
+      }
+    ]
+  },
+  "turnback_consequence": {
+    "title": "[TODO:fr] The Path Is Clear",
+    "text": "[TODO:fr] Father trusted you with this errand.\nYou cannot return empty-handed.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Press on toward Dothan",
+        "feedback": "[TODO:fr] You turn north again."
+      }
+    ]
+  },
+  "to_dothan": {
+    "title": "[TODO:fr] They See You",
+    "text": "[TODO:fr] Across the green fields, your brothers spot the colored coat.\nThey gather, pointing.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Run from them",
+        "feedback": "[TODO:fr] Where can you run? The fields are open."
+      },
+      {
+        "text": "[TODO:fr] Hide the coat first",
+        "feedback": "[TODO:fr] They have already seen it."
+      },
+      {
+        "text": "[TODO:fr] Approach in peace",
+        "feedback": "[TODO:fr] You raise your hand. \"Peace, my brothers.\""
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:fr] Caught in the Field",
+    "text": "[TODO:fr] Their long strides catch you.\nThe coat marks you from afar.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Stand and greet them in peace",
+        "feedback": "[TODO:fr] You stop running and face them."
+      }
+    ]
+  },
+  "hide2_consequence": {
+    "title": "[TODO:fr] Too Late",
+    "text": "[TODO:fr] They are already coming.\nThe coat lies crumpled at your feet.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Approach them in peace",
+        "feedback": "[TODO:fr] You walk forward, hands open."
+      }
+    ]
+  },
+  "approach": {
+    "title": "[TODO:fr] \"The Dreamer Comes\"",
+    "text": "[TODO:fr] \"Behold, this dreamer.\"\nThey seize you. The coat is torn from your shoulders.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Beg Reuben for mercy",
+        "feedback": "[TODO:fr] Reuben's face softens. He speaks for you."
+      },
+      {
+        "text": "[TODO:fr] Curse them in your fear",
+        "feedback": "[TODO:fr] Your words make their hands tighter."
+      },
+      {
+        "text": "[TODO:fr] Fight back with all your strength",
+        "feedback": "[TODO:fr] Ten against one. You fall to the dust."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:fr] Hands Like Iron",
+    "text": "[TODO:fr] Their grip will not loosen.\nOnly mercy can save you now.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Beg Reuben for mercy",
+        "feedback": "[TODO:fr] You turn to the eldest. \"Reuben—\""
+      }
+    ]
+  },
+  "fight_consequence": {
+    "title": "[TODO:fr] Pinned to the Earth",
+    "text": "[TODO:fr] Bruised and breathless, you cannot rise.\nOnly Reuben might still hear you.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Beg Reuben for mercy",
+        "feedback": "[TODO:fr] \"Reuben, my brother — please.\""
+      }
+    ]
+  },
+  "beg_reuben": {
+    "title": "[TODO:fr] Reuben Intervenes",
+    "text": "[TODO:fr] \"Shed no blood,\" Reuben says. \"Cast him into this pit.\"\nHe plans to rescue you later.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Cry out to Heaven from the pit",
+        "feedback": "[TODO:fr] From the dark stones, you call on God."
+      },
+      {
+        "text": "[TODO:fr] Threaten Father's wrath",
+        "feedback": "[TODO:fr] Threats from a pit fall back on the speaker."
+      }
+    ]
+  },
+  "threat_consequence": {
+    "title": "[TODO:fr] Stones Above",
+    "text": "[TODO:fr] Their laughter echoes down.\nOnly God can hear you here.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Cry out to Heaven",
+        "feedback": "[TODO:fr] You whisper, \"O God of my fathers...\""
+      }
+    ]
+  },
+  "cry_out": {
+    "title": "[TODO:fr] Voices Above",
+    "text": "[TODO:fr] Hooves and bells. Camels passing.\nA caravan of Ishmaelites comes near.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Stay silent and wait for Reuben",
+        "feedback": "[TODO:fr] Judah's voice rises before Reuben returns."
+      },
+      {
+        "text": "[TODO:fr] Trust God's hand in this",
+        "feedback": "[TODO:fr] You wait. Above, Judah begins to speak."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:fr] The Plan Unfolds",
+    "text": "[TODO:fr] You hear Judah's voice — calm, calculating.\nGod is at work even now.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Trust God's hand",
+        "feedback": "[TODO:fr] You lift your eyes to the slit of sky."
+      }
+    ]
+  },
+  "judah_speaks": {
+    "title": "[TODO:fr] Judah's Counsel",
+    "text": "[TODO:fr] \"What profit if we kill our brother? Let us sell him.\"\nThey haul you up by the rope.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Plead with the merchants",
+        "feedback": "[TODO:fr] Silver has already been counted."
+      },
+      {
+        "text": "[TODO:fr] Accept the path God allows",
+        "feedback": "[TODO:fr] You bow your head. The road is His."
+      },
+      {
+        "text": "[TODO:fr] Strike Judah in fury",
+        "feedback": "[TODO:fr] Bound hands cannot strike. Bound hearts can pray."
+      }
+    ]
+  },
+  "plead_consequence": {
+    "title": "[TODO:fr] Twenty Pieces of Silver",
+    "text": "[TODO:fr] Coins clink into Judah's hand.\nThe merchants nod and bind your wrists.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Accept the path God allows",
+        "feedback": "[TODO:fr] Your tears are silent. Your trust is not."
+      }
+    ]
+  },
+  "strike_consequence": {
+    "title": "[TODO:fr] Bound Wrists",
+    "text": "[TODO:fr] The rope tightens. There is no fight to be had.\nOnly faith remains.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Accept the path God allows",
+        "feedback": "[TODO:fr] You whisper a prayer for them all."
+      }
+    ]
+  },
+  "accept": {
+    "title": "[TODO:fr] Toward Egypt",
+    "text": "[TODO:fr] The caravan turns south, dust rising.\nBehind you, your brothers grow small.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Carry the dream in your heart",
+        "feedback": "[TODO:fr] The vision of sheaves remains, alive."
+      }
+    ]
+  },
+  "to_egypt": {
+    "title": "[TODO:fr] The Bloodied Coat",
+    "text": "[TODO:fr] Far behind, your brothers dip the coat in goat's blood.\nThey carry it home to Jacob.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Pray for your father",
+        "feedback": "[TODO:fr] \"Comfort him, O God of Israel.\""
+      }
+    ]
+  },
+  "father_grief": {
+    "title": "[TODO:fr] Jacob Mourns",
+    "text": "[TODO:fr] Jacob tears his clothes. \"A wild beast has devoured him.\"\nHe will not be comforted.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Trust that God's plan endures",
+        "feedback": "[TODO:fr] What man means for evil, God means for good."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:fr] The Road to Egypt",
+    "text": "[TODO:fr] The dunes rise gold ahead.\nA boy goes down to Egypt — but God goes with him.",
+    "choices": []
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] On the Road",
+    "text": "[TODO:pt-BR] The pilgrims walk toward Jerusalem.\nThe feast of Passover draws near.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Run ahead alone, far from them",
+        "feedback": "[TODO:pt-BR] Stay near your family."
+      },
+      {
+        "text": "[TODO:pt-BR] Walk beside Mary and Joseph",
+        "feedback": "[TODO:pt-BR] You walk in quiet joy."
+      },
+      {
+        "text": "[TODO:pt-BR] Refuse to go to the feast",
+        "feedback": "[TODO:pt-BR] The feast is sacred."
+      }
+    ]
+  },
+  "stray_consequence": {
+    "title": "[TODO:pt-BR] Walk Together",
+    "text": "[TODO:pt-BR] The road is long and crowded.\nStay near your parents.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk beside Mary and Joseph",
+        "feedback": "[TODO:pt-BR] You return to their side."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:pt-BR] Honor the Feast",
+    "text": "[TODO:pt-BR] Passover is the holy memory of God.\nYou must go.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk beside Mary and Joseph",
+        "feedback": "[TODO:pt-BR] You step onto the road."
+      }
+    ]
+  },
+  "temple": {
+    "title": "[TODO:pt-BR] The Temple Courts",
+    "text": "[TODO:pt-BR] Sunlight falls on the great stones.\nVoices of teachers fill the air.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Buy bread in the market",
+        "feedback": "[TODO:pt-BR] Something deeper calls you."
+      },
+      {
+        "text": "[TODO:pt-BR] Enter and listen to the teachers",
+        "feedback": "[TODO:pt-BR] You step inside, drawn to the words."
+      }
+    ]
+  },
+  "market_consequence": {
+    "title": "[TODO:pt-BR] His Father's House",
+    "text": "[TODO:pt-BR] The temple is your true place.\nGo where wisdom is spoken.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Enter and listen to the teachers",
+        "feedback": "[TODO:pt-BR] You walk into the temple."
+      }
+    ]
+  },
+  "stay": {
+    "title": "[TODO:pt-BR] When the Caravan Leaves",
+    "text": "[TODO:pt-BR] The pilgrims begin to depart.\nThe teachers still speak of God.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay to hear the words of God",
+        "feedback": "[TODO:pt-BR] You sit at their feet."
+      },
+      {
+        "text": "[TODO:pt-BR] Run after the caravan now",
+        "feedback": "[TODO:pt-BR] Your true place is here."
+      },
+      {
+        "text": "[TODO:pt-BR] Hide in the streets to play",
+        "feedback": "[TODO:pt-BR] Do not waste this hour."
+      }
+    ]
+  },
+  "follow_consequence": {
+    "title": "[TODO:pt-BR] Stay and Learn",
+    "text": "[TODO:pt-BR] The Father's house holds you.\nYou are meant to remain.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay to hear the words of God",
+        "feedback": "[TODO:pt-BR] You sit again to listen."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pt-BR] Sacred Time",
+    "text": "[TODO:pt-BR] Wisdom does not wait for play.\nReturn to the temple.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay to hear the words of God",
+        "feedback": "[TODO:pt-BR] You take your place again."
+      }
+    ]
+  },
+  "search": {
+    "title": "[TODO:pt-BR] They Are Searching",
+    "text": "[TODO:pt-BR] Three days pass in the temple.\nMary and Joseph walk Jerusalem in fear.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Slip away and hide from them",
+        "feedback": "[TODO:pt-BR] Do not flee from love."
+      },
+      {
+        "text": "[TODO:pt-BR] Remain where they will find you",
+        "feedback": "[TODO:pt-BR] You sit in quiet trust."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:pt-BR] Be Found",
+    "text": "[TODO:pt-BR] They love you and seek you.\nWait where you belong.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Remain where they will find you",
+        "feedback": "[TODO:pt-BR] You stay in the temple."
+      }
+    ]
+  },
+  "teachers": {
+    "title": "[TODO:pt-BR] Among the Wise",
+    "text": "[TODO:pt-BR] The elders ask many questions.\nThey wait for your answer.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay silent and say nothing",
+        "feedback": "[TODO:pt-BR] Speak the truth in you."
+      },
+      {
+        "text": "[TODO:pt-BR] Boast of your own greatness",
+        "feedback": "[TODO:pt-BR] Wisdom is humble."
+      },
+      {
+        "text": "[TODO:pt-BR] Answer with humble understanding",
+        "feedback": "[TODO:pt-BR] They marvel at your words."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:pt-BR] Speak Gently",
+    "text": "[TODO:pt-BR] Truth lives within you.\nLet it be heard.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Answer with humble understanding",
+        "feedback": "[TODO:pt-BR] Your soft voice fills the room."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:pt-BR] Be Humble",
+    "text": "[TODO:pt-BR] Wisdom is not for boasting.\nSpeak with quiet grace.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Answer with humble understanding",
+        "feedback": "[TODO:pt-BR] You speak with calm light."
+      }
+    ]
+  },
+  "reunion": {
+    "title": "[TODO:pt-BR] Mary Finds You",
+    "text": "[TODO:pt-BR] She weeps:\n\"Why have you done this to us?\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Blame her for losing you",
+        "feedback": "[TODO:pt-BR] Honor your mother."
+      },
+      {
+        "text": "[TODO:pt-BR] \"I was in my Father's house.\"",
+        "feedback": "[TODO:pt-BR] She holds the words in her heart."
+      },
+      {
+        "text": "[TODO:pt-BR] Run from her in shame",
+        "feedback": "[TODO:pt-BR] Do not run from her love."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:pt-BR] Speak with Love",
+    "text": "[TODO:pt-BR] She is your mother.\nAnswer her with grace.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"I was in my Father's house.\"",
+        "feedback": "[TODO:pt-BR] Her tears soften."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "[TODO:pt-BR] Stay With Her",
+    "text": "[TODO:pt-BR] She has searched three days.\nGive her the truth.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] \"I was in my Father's house.\"",
+        "feedback": "[TODO:pt-BR] She embraces you."
+      }
+    ]
+  },
+  "return": {
+    "title": "[TODO:pt-BR] Home to Nazareth",
+    "text": "[TODO:pt-BR] You walk with them under the dawn.\nYou grow in wisdom and grace.",
+    "choices": []
+  }
+}

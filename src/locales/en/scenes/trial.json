@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "Before Caiaphas",
+    "text": "The high priest's hall burns with torches.\nAll eyes turn to you, bound and silent.",
+    "choices": [
+      {
+        "text": "Curse the council for their malice",
+        "feedback": "Their judgment will judge them."
+      },
+      {
+        "text": "Stand quietly and meet their gaze",
+        "feedback": "Your silence fills the hall."
+      },
+      {
+        "text": "Beg them to release you",
+        "feedback": "The cup is in your hand."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Bless, Not Curse",
+    "text": "Even now, the answer is grace.\nMeet wrath with steady silence.",
+    "choices": [
+      {
+        "text": "Stand quietly and meet their gaze",
+        "feedback": "You straighten without a word."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "Not by Begging",
+    "text": "You came for this hour.\nLet your stillness be your answer.",
+    "choices": [
+      {
+        "text": "Stand quietly and meet their gaze",
+        "feedback": "Your eyes do not waver."
+      }
+    ]
+  },
+  "false_witnesses": {
+    "title": "False Words",
+    "text": "Two witnesses twist your every saying.\nTheir stories do not even agree.",
+    "choices": [
+      {
+        "text": "Argue against every false word",
+        "feedback": "Lies collapse beneath silence."
+      },
+      {
+        "text": "Mock the men for their lies",
+        "feedback": "Truth needs no mockery."
+      },
+      {
+        "text": "Answer them with silence",
+        "feedback": "You say nothing. They falter."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Silence Speaks",
+    "text": "Their lies cannot stand alone.\nLet the silence undo them.",
+    "choices": [
+      {
+        "text": "Answer them with silence",
+        "feedback": "Your stillness is louder than words."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Truth Stands Alone",
+    "text": "Mockery is not your way.\nLet truth bear its own weight.",
+    "choices": [
+      {
+        "text": "Answer them with silence",
+        "feedback": "The hall grows uneasy."
+      }
+    ]
+  },
+  "high_priest_demands": {
+    "title": "Are You the Christ?",
+    "text": "Caiaphas rises. \"Tell us under oath.\nAre you the Son of God?\"",
+    "choices": [
+      {
+        "text": "Deny it to save your life",
+        "feedback": "Truth, even unto death."
+      },
+      {
+        "text": "Refuse to answer at all",
+        "feedback": "The hour calls for the great Yes."
+      },
+      {
+        "text": "\"I am. You will see me coming.\"",
+        "feedback": "Caiaphas tears his robes in rage."
+      }
+    ]
+  },
+  "deny_consequence": {
+    "title": "Truth, Always",
+    "text": "You did not come to deny who you are.\nDeclare it before them all.",
+    "choices": [
+      {
+        "text": "\"I am. You will see me coming.\"",
+        "feedback": "The hall erupts in shouts."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Speak the Yes",
+    "text": "For this you came into the world:\nto bear witness to the truth.",
+    "choices": [
+      {
+        "text": "\"I am. You will see me coming.\"",
+        "feedback": "Your voice rings without fear."
+      }
+    ]
+  },
+  "to_pilate": {
+    "title": "To the Roman",
+    "text": "Dawn breaks over the city walls.\nGuards drag you toward the praetorium.",
+    "choices": [
+      {
+        "text": "Drag your feet to slow them",
+        "feedback": "Walk with steady peace."
+      },
+      {
+        "text": "Demand a fair Roman hearing",
+        "feedback": "Trust the Father, not Rome."
+      },
+      {
+        "text": "Walk in silent obedience",
+        "feedback": "Your steps match theirs."
+      }
+    ]
+  },
+  "drag_consequence": {
+    "title": "Steady Steps",
+    "text": "Fear slows the feet of the unwilling.\nYou are not unwilling.",
+    "choices": [
+      {
+        "text": "Walk in silent obedience",
+        "feedback": "You keep pace with quiet grace."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Not by Rights",
+    "text": "Justice will not be won here today.\nThe Father holds the verdict.",
+    "choices": [
+      {
+        "text": "Walk in silent obedience",
+        "feedback": "You enter the hall at peace."
+      }
+    ]
+  },
+  "pilate_questions": {
+    "title": "What Is Truth?",
+    "text": "Pilate studies you. \"Are you a king?\"\nHis voice is curious, half afraid.",
+    "choices": [
+      {
+        "text": "Mock his Roman power",
+        "feedback": "Speak truth, not insults."
+      },
+      {
+        "text": "\"My kingdom is not of this world.\"",
+        "feedback": "Pilate frowns, intrigued."
+      },
+      {
+        "text": "Stay silent to confuse him",
+        "feedback": "Here, truth must be spoken plainly."
+      }
+    ]
+  },
+  "mock_rome_consequence": {
+    "title": "Truth, Not Scorn",
+    "text": "Even Pilate must hear the kingdom.\nSpeak it gently and clearly.",
+    "choices": [
+      {
+        "text": "\"My kingdom is not of this world.\"",
+        "feedback": "Pilate steps closer to listen."
+      }
+    ]
+  },
+  "silent_pilate_consequence": {
+    "title": "Speak Plainly Here",
+    "text": "Pilate is searching for an exit.\nGive him the truth he asks for.",
+    "choices": [
+      {
+        "text": "\"My kingdom is not of this world.\"",
+        "feedback": "He weighs the words in silence."
+      }
+    ]
+  },
+  "crowd_demands": {
+    "title": "Crucify Him!",
+    "text": "Outside, the crowd swells and shouts.\n\"Crucify him! Crucify him!\"",
+    "choices": [
+      {
+        "text": "Call down judgment on the crowd",
+        "feedback": "Forgive them. They do not know."
+      },
+      {
+        "text": "Plead with them to stop",
+        "feedback": "The hour is set. Bear it in silence."
+      },
+      {
+        "text": "Bear their cries in silence",
+        "feedback": "Their shouts wash over you."
+      }
+    ]
+  },
+  "judgment_consequence": {
+    "title": "Forgive Them",
+    "text": "They do not know what they do.\nMercy is the harder word today.",
+    "choices": [
+      {
+        "text": "Bear their cries in silence",
+        "feedback": "You bow your head, praying."
+      }
+    ]
+  },
+  "plead_consequence": {
+    "title": "Silence Now",
+    "text": "The crowd cannot be turned by pleading.\nOnly the cross will turn them.",
+    "choices": [
+      {
+        "text": "Bear their cries in silence",
+        "feedback": "Your stillness is its own answer."
+      }
+    ]
+  },
+  "pilate_washes": {
+    "title": "I Am Innocent",
+    "text": "Pilate calls for water and washes his hands.\n\"I am innocent of this man's blood.\"",
+    "choices": [
+      {
+        "text": "Accuse Pilate of cowardice",
+        "feedback": "Let his own conscience speak."
+      },
+      {
+        "text": "Receive his words without protest",
+        "feedback": "Your peace unsettles him deeper."
+      },
+      {
+        "text": "Demand he free you outright",
+        "feedback": "The cup is in your hand still."
+      }
+    ]
+  },
+  "accuse_consequence": {
+    "title": "Let Conscience Speak",
+    "text": "His own heart will accuse him later.\nYou need not raise your voice.",
+    "choices": [
+      {
+        "text": "Receive his words without protest",
+        "feedback": "He turns away, troubled."
+      }
+    ]
+  },
+  "demand_free_consequence": {
+    "title": "The Cup Remains",
+    "text": "Freedom now would unmake the rescue.\nThe yes is still your yes.",
+    "choices": [
+      {
+        "text": "Receive his words without protest",
+        "feedback": "Your peace is unshaken."
+      }
+    ]
+  },
+  "condemned": {
+    "title": "The Sentence",
+    "text": "Pilate hands you over to the soldiers.\nThe verdict is sealed in silence.",
+    "choices": [
+      {
+        "text": "Cry out against the injustice",
+        "feedback": "Carry it with quiet love."
+      },
+      {
+        "text": "Walk forward with steady peace",
+        "feedback": "Each step is a willing yes."
+      },
+      {
+        "text": "Collapse and refuse to move",
+        "feedback": "Rise. The road is yours."
+      }
+    ]
+  },
+  "cry_out_consequence": {
+    "title": "Quiet Love",
+    "text": "The greatest love walks in silence here.\nLet it carry you onward.",
+    "choices": [
+      {
+        "text": "Walk forward with steady peace",
+        "feedback": "Your shoulders lift with grace."
+      }
+    ]
+  },
+  "collapse_consequence": {
+    "title": "Rise and Walk",
+    "text": "The road has been written for you.\nWalk it as the willing Lamb.",
+    "choices": [
+      {
+        "text": "Walk forward with steady peace",
+        "feedback": "You stand. The soldiers part."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Led Toward the Road",
+    "text": "Soldiers fall in around you.\nThe stone steps wait beneath the dawn.",
+    "choices": []
+  }
+}

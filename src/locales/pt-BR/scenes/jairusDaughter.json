@@ -1,0 +1,161 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] By the Shore",
+    "text": "[TODO:pt-BR] The Teacher steps from the boat.\nYour daughter is dying at home.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Send a servant instead",
+        "feedback": "[TODO:pt-BR] Go to him yourself."
+      },
+      {
+        "text": "[TODO:pt-BR] Hide your need from him",
+        "feedback": "[TODO:pt-BR] He came for the broken."
+      },
+      {
+        "text": "[TODO:pt-BR] Fall at his feet, beg",
+        "feedback": "[TODO:pt-BR] Humble faith opens heaven."
+      }
+    ]
+  },
+  "servant_consequence": {
+    "title": "[TODO:pt-BR] Go Yourself",
+    "text": "[TODO:pt-BR] No one else can carry your hope.\nKneel before him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Fall at his feet, beg",
+        "feedback": "[TODO:pt-BR] You bow low."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pt-BR] Open Your Heart",
+    "text": "[TODO:pt-BR] He already sees your sorrow.\nSpeak it aloud.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Fall at his feet, beg",
+        "feedback": "[TODO:pt-BR] Tears fall."
+      }
+    ]
+  },
+  "plea": {
+    "title": "[TODO:pt-BR] Come, Lay Your Hand",
+    "text": "[TODO:pt-BR] \"My little daughter is dying.\nCome, and she will live.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk with him through town",
+        "feedback": "[TODO:pt-BR] He comes with you."
+      }
+    ]
+  },
+  "journey": {
+    "title": "[TODO:pt-BR] Through the Crowd",
+    "text": "[TODO:pt-BR] Streets press tight. He stops walking.\nMinutes feel like years.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Push him to hurry",
+        "feedback": "[TODO:pt-BR] Trust his timing."
+      },
+      {
+        "text": "[TODO:pt-BR] Wait beside him quietly",
+        "feedback": "[TODO:pt-BR] You breathe slow."
+      }
+    ]
+  },
+  "push_consequence": {
+    "title": "[TODO:pt-BR] He Knows the Hour",
+    "text": "[TODO:pt-BR] His pace is mercy, not delay.\nStand close.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait beside him quietly",
+        "feedback": "[TODO:pt-BR] Peace settles."
+      }
+    ]
+  },
+  "news": {
+    "title": "[TODO:pt-BR] She Is Dead",
+    "text": "[TODO:pt-BR] A servant arrives, eyes wet.\n\"Trouble the Teacher no more.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Turn away in despair",
+        "feedback": "[TODO:pt-BR] Do not be afraid."
+      },
+      {
+        "text": "[TODO:pt-BR] Believe, even now",
+        "feedback": "[TODO:pt-BR] Only believe."
+      },
+      {
+        "text": "[TODO:pt-BR] Blame him for delay",
+        "feedback": "[TODO:pt-BR] He is not finished."
+      }
+    ]
+  },
+  "despair_consequence": {
+    "title": "[TODO:pt-BR] Only Believe",
+    "text": "[TODO:pt-BR] His voice steadies your knees.\n\"Do not fear. Only believe.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Believe, even now",
+        "feedback": "[TODO:pt-BR] Faith rises."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:pt-BR] He Hears You",
+    "text": "[TODO:pt-BR] His eyes hold no offense.\nOnly invitation.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Believe, even now",
+        "feedback": "[TODO:pt-BR] You nod."
+      }
+    ]
+  },
+  "encourage": {
+    "title": "[TODO:pt-BR] Do Not Fear",
+    "text": "[TODO:pt-BR] \"Do not be afraid. Only believe.\"\nHis hand rests on your shoulder.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Lead him to the house",
+        "feedback": "[TODO:pt-BR] Each step is faith."
+      }
+    ]
+  },
+  "room": {
+    "title": "[TODO:pt-BR] The Quiet Room",
+    "text": "[TODO:pt-BR] Mourners wail. He sends them out.\n\"She is only sleeping.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Argue with his words",
+        "feedback": "[TODO:pt-BR] Watch and see."
+      },
+      {
+        "text": "[TODO:pt-BR] Stay close and trust",
+        "feedback": "[TODO:pt-BR] You stand by him."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:pt-BR] Be Still",
+    "text": "[TODO:pt-BR] His calm answers your doubt.\nWatch him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay close and trust",
+        "feedback": "[TODO:pt-BR] You step nearer."
+      }
+    ]
+  },
+  "raise": {
+    "title": "[TODO:pt-BR] Talitha Koum",
+    "text": "[TODO:pt-BR] He takes her small hand.\n\"Little girl, I say, arise.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Watch in silent awe",
+        "feedback": "[TODO:pt-BR] Her eyes open."
+      }
+    ]
+  },
+  "joy": {
+    "title": "[TODO:pt-BR] She Rises",
+    "text": "[TODO:pt-BR] She sits up, breathing, smiling.\nHe says, \"Give her something to eat.\"",
+    "choices": []
+  }
+}

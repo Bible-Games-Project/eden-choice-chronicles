@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "Into the Temple",
+    "text": "You enter the temple courts with Jesus.\nHis eyes are steady.",
+    "choices": [
+      {
+        "text": "Wait outside, away from trouble",
+        "feedback": "Do not turn away from the holy."
+      },
+      {
+        "text": "Walk in beside him with reverence",
+        "feedback": "You step into sacred ground."
+      },
+      {
+        "text": "Run ahead to shout warnings",
+        "feedback": "Wait. Watch. Learn."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "Come Inside",
+    "text": "The holy place is not for hiding from.\nFollow him.",
+    "choices": [
+      {
+        "text": "Walk in beside him with reverence",
+        "feedback": "You take your place."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Quiet First",
+    "text": "Loud words come before listening.\nBe still.",
+    "choices": [
+      {
+        "text": "Walk in beside him with reverence",
+        "feedback": "You quiet down."
+      }
+    ]
+  },
+  "see_market": {
+    "title": "A House of Trade",
+    "text": "Tables of coin. Cages of doves.\nThe holy court has become a market.",
+    "choices": [
+      {
+        "text": "Shrug — \"This is how it is.\"",
+        "feedback": "Do not bless what is broken."
+      },
+      {
+        "text": "Buy a dove to fit in",
+        "feedback": "You cannot purchase holiness."
+      },
+      {
+        "text": "Feel the wrongness with him",
+        "feedback": "Your heart aches with his."
+      }
+    ]
+  },
+  "shrug_consequence": {
+    "title": "It Is Not Right",
+    "text": "What is wrong is not made right by time.\nLook again.",
+    "choices": [
+      {
+        "text": "Feel the wrongness with him",
+        "feedback": "You see clearly."
+      }
+    ]
+  },
+  "buy_consequence": {
+    "title": "Not for Sale",
+    "text": "Worship is not bought.\nSet the coin down.",
+    "choices": [
+      {
+        "text": "Feel the wrongness with him",
+        "feedback": "You step away from the table."
+      }
+    ]
+  },
+  "cord": {
+    "title": "He Lifts the Cord",
+    "text": "He weaves a cord of small ropes.\nHis purpose is clear.",
+    "choices": [
+      {
+        "text": "Stop him — \"Do not cause trouble.\"",
+        "feedback": "Righteous action is not trouble."
+      },
+      {
+        "text": "Stand near him, ready to follow",
+        "feedback": "You are with him."
+      }
+    ]
+  },
+  "stop_consequence": {
+    "title": "Let Him Act",
+    "text": "What looks like trouble is justice waking.\nStand with him.",
+    "choices": [
+      {
+        "text": "Stand near him, ready to follow",
+        "feedback": "You take your place."
+      }
+    ]
+  },
+  "tables": {
+    "title": "Tables Overturned",
+    "text": "Tables tip. Coins ring on stone.\nThe air shakes with holy fire.",
+    "choices": [
+      {
+        "text": "Grab coins for yourself in the chaos",
+        "feedback": "Greed has no place here."
+      },
+      {
+        "text": "Help clear the path for him",
+        "feedback": "You move with him."
+      },
+      {
+        "text": "Cover your ears and look away",
+        "feedback": "Bear witness. Do not hide."
+      }
+    ]
+  },
+  "grab_consequence": {
+    "title": "Drop the Coin",
+    "text": "You become what is being driven out.\nLet it fall.",
+    "choices": [
+      {
+        "text": "Help clear the path for him",
+        "feedback": "Your hands open."
+      }
+    ]
+  },
+  "cover_consequence": {
+    "title": "Open Your Eyes",
+    "text": "Witness what holiness costs.\nDo not look away.",
+    "choices": [
+      {
+        "text": "Help clear the path for him",
+        "feedback": "You stand and watch."
+      }
+    ]
+  },
+  "drive_out": {
+    "title": "Out You Go",
+    "text": "Merchants hurry away with their cages.\nDoves rise into open air.",
+    "choices": [
+      {
+        "text": "Mock them as they retreat",
+        "feedback": "Justice is not cruelty."
+      },
+      {
+        "text": "Open the cages, set doves free",
+        "feedback": "What was sold flies free."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Without Scorn",
+    "text": "Cleansing is not contempt.\nDo good instead.",
+    "choices": [
+      {
+        "text": "Open the cages, set doves free",
+        "feedback": "Wings lift."
+      }
+    ]
+  },
+  "proclaim": {
+    "title": "A House of Prayer",
+    "text": "\"My house shall be called\na house of prayer.\"",
+    "choices": [
+      {
+        "text": "Argue that trade pays for repairs",
+        "feedback": "Holiness is not a budget."
+      },
+      {
+        "text": "Receive his words into your heart",
+        "feedback": "The court is for God."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Holiness First",
+    "text": "What is sacred cannot be sold for upkeep.\nListen again.",
+    "choices": [
+      {
+        "text": "Receive his words into your heart",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "disciples": {
+    "title": "They Remember",
+    "text": "The disciples watch and remember:\n\"Zeal for your house consumes him.\"",
+    "choices": [
+      {
+        "text": "Boast that you saw it first",
+        "feedback": "Witness without pride."
+      },
+      {
+        "text": "Stand quietly, take it in",
+        "feedback": "His authority is plain."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Be Humble",
+    "text": "Awe is louder than boasting.\nBe still.",
+    "choices": [
+      {
+        "text": "Stand quietly, take it in",
+        "feedback": "You grow still."
+      }
+    ]
+  },
+  "restored": {
+    "title": "Sacred Space",
+    "text": "Dust settles. Light returns.\nThe court breathes again.",
+    "choices": [
+      {
+        "text": "Refill the tables when he leaves",
+        "feedback": "Do not rebuild what he tore down."
+      },
+      {
+        "text": "Pray here as it was meant",
+        "feedback": "The house is for prayer."
+      }
+    ]
+  },
+  "refill_consequence": {
+    "title": "Keep It Clean",
+    "text": "What was cleansed must stay clean.\nLet it be holy.",
+    "choices": [
+      {
+        "text": "Pray here as it was meant",
+        "feedback": "You bow in the quiet."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Holy Ground",
+    "text": "Where corruption was loud,\nprayer rises, quiet and bright.",
+    "choices": []
+  }
+}

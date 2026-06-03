@@ -1,0 +1,265 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] Two Men",
+    "text": "[TODO:pt-BR] Jesus speaks quietly to the crowd.\n\"There was a rich man, and a poor man.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Turn away from the warning",
+        "feedback": "[TODO:pt-BR] Stay. This is for you."
+      },
+      {
+        "text": "[TODO:pt-BR] Listen with a serious heart",
+        "feedback": "[TODO:pt-BR] His voice grows quiet."
+      }
+    ]
+  },
+  "turn_consequence": {
+    "title": "[TODO:pt-BR] Sit and Hear",
+    "text": "[TODO:pt-BR] Some warnings save the soul.\nReturn to the words.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Listen with a serious heart",
+        "feedback": "[TODO:pt-BR] You sit back down."
+      }
+    ]
+  },
+  "luxury": {
+    "title": "[TODO:pt-BR] Purple and Fine Linen",
+    "text": "[TODO:pt-BR] Inside, the rich man feasts each day,\nclothed in purple, glad and full.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Envy his soft, easy life",
+        "feedback": "[TODO:pt-BR] Look at what he ignores."
+      },
+      {
+        "text": "[TODO:pt-BR] Wonder who waits outside",
+        "feedback": "[TODO:pt-BR] Your eyes drift past the door."
+      }
+    ]
+  },
+  "envy_consequence": {
+    "title": "[TODO:pt-BR] Look Wider",
+    "text": "[TODO:pt-BR] Wealth is not the whole story.\nThere is more beyond the door.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wonder who waits outside",
+        "feedback": "[TODO:pt-BR] Your gaze turns outward."
+      }
+    ]
+  },
+  "gate": {
+    "title": "[TODO:pt-BR] At the Gate",
+    "text": "[TODO:pt-BR] Lazarus lies at the gate, covered in sores.\nHe longs for the crumbs.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Step over him quickly",
+        "feedback": "[TODO:pt-BR] Do not pass him by."
+      },
+      {
+        "text": "[TODO:pt-BR] Blame him for his fall",
+        "feedback": "[TODO:pt-BR] Pain is not always guilt."
+      },
+      {
+        "text": "[TODO:pt-BR] Kneel and see his face",
+        "feedback": "[TODO:pt-BR] Your heart breaks open."
+      }
+    ]
+  },
+  "step_consequence": {
+    "title": "[TODO:pt-BR] Do Not Pass",
+    "text": "[TODO:pt-BR] Every face is a gate of heaven.\nReturn to him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Kneel and see his face",
+        "feedback": "[TODO:pt-BR] You bend down low."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:pt-BR] No Judgment",
+    "text": "[TODO:pt-BR] You are not the judge of him.\nYou are the neighbor.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Kneel and see his face",
+        "feedback": "[TODO:pt-BR] Your pride softens."
+      }
+    ]
+  },
+  "dogs": {
+    "title": "[TODO:pt-BR] Only the Dogs",
+    "text": "[TODO:pt-BR] Even the stray dogs come near\nto lick his open wounds.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Look away in disgust",
+        "feedback": "[TODO:pt-BR] Do not look away."
+      },
+      {
+        "text": "[TODO:pt-BR] Stay with him in his pain",
+        "feedback": "[TODO:pt-BR] Your tears fall quietly."
+      }
+    ]
+  },
+  "disgust_consequence": {
+    "title": "[TODO:pt-BR] Do Not Turn",
+    "text": "[TODO:pt-BR] Mercy looks at what hurts.\nStay near him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Stay with him in his pain",
+        "feedback": "[TODO:pt-BR] You lift your eyes again."
+      }
+    ]
+  },
+  "indifference": {
+    "title": "[TODO:pt-BR] The Rich Man Passes",
+    "text": "[TODO:pt-BR] The rich man crosses his gate each day.\nHe does not see Lazarus.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Excuse the busy rich man",
+        "feedback": "[TODO:pt-BR] No errand outweighs mercy."
+      },
+      {
+        "text": "[TODO:pt-BR] Grieve the cold, closed heart",
+        "feedback": "[TODO:pt-BR] You ache for both men."
+      }
+    ]
+  },
+  "excuse_consequence": {
+    "title": "[TODO:pt-BR] No Excuse",
+    "text": "[TODO:pt-BR] He had eyes. He had gold.\nHe had no compassion.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Grieve the cold, closed heart",
+        "feedback": "[TODO:pt-BR] Your head bows."
+      }
+    ]
+  },
+  "death_lazarus": {
+    "title": "[TODO:pt-BR] Carried by Angels",
+    "text": "[TODO:pt-BR] Lazarus dies. Angels lift him\ngently to Abraham's side.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Doubt this comfort is real",
+        "feedback": "[TODO:pt-BR] God sees the forgotten."
+      },
+      {
+        "text": "[TODO:pt-BR] Weep with quiet joy",
+        "feedback": "[TODO:pt-BR] Your soul lifts with him."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:pt-BR] He Is Seen",
+    "text": "[TODO:pt-BR] The world forgot him.\nHeaven never did.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Weep with quiet joy",
+        "feedback": "[TODO:pt-BR] Hope warms you."
+      }
+    ]
+  },
+  "death_rich": {
+    "title": "[TODO:pt-BR] Buried in Torment",
+    "text": "[TODO:pt-BR] The rich man also dies.\nHe wakes in fire, in agony.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Mock his sudden ruin",
+        "feedback": "[TODO:pt-BR] This is not for mockery."
+      },
+      {
+        "text": "[TODO:pt-BR] Tremble at the reversal",
+        "feedback": "[TODO:pt-BR] A holy fear fills you."
+      },
+      {
+        "text": "[TODO:pt-BR] Pity him without learning",
+        "feedback": "[TODO:pt-BR] Let his end teach you."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:pt-BR] Be Sobered",
+    "text": "[TODO:pt-BR] Tomorrow's gate may be your own.\nReceive the warning.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Tremble at the reversal",
+        "feedback": "[TODO:pt-BR] Your laugh dies away."
+      }
+    ]
+  },
+  "pity_consequence": {
+    "title": "[TODO:pt-BR] Let It Teach You",
+    "text": "[TODO:pt-BR] Do not only feel sad.\nFeel what your life must become.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Tremble at the reversal",
+        "feedback": "[TODO:pt-BR] Resolve hardens in you."
+      }
+    ]
+  },
+  "plea": {
+    "title": "[TODO:pt-BR] Send Lazarus",
+    "text": "[TODO:pt-BR] \"Father Abraham, have mercy.\nSend Lazarus, just one drop.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Demand God reverse it now",
+        "feedback": "[TODO:pt-BR] The chasm is fixed."
+      },
+      {
+        "text": "[TODO:pt-BR] Hear Abraham's sorrow",
+        "feedback": "[TODO:pt-BR] You listen carefully."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:pt-BR] Listen First",
+    "text": "[TODO:pt-BR] The time to choose was before.\nHear what Abraham must say.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hear Abraham's sorrow",
+        "feedback": "[TODO:pt-BR] Your silence opens."
+      }
+    ]
+  },
+  "warning": {
+    "title": "[TODO:pt-BR] Warn My Brothers",
+    "text": "[TODO:pt-BR] \"Send him to my five brothers.\nLet them not come to this place.\"",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait for a sign from the dead",
+        "feedback": "[TODO:pt-BR] You already have the word."
+      },
+      {
+        "text": "[TODO:pt-BR] Hear Moses and the prophets",
+        "feedback": "[TODO:pt-BR] The truth is already given."
+      },
+      {
+        "text": "[TODO:pt-BR] Blame God for the silence",
+        "feedback": "[TODO:pt-BR] He has not been silent."
+      }
+    ]
+  },
+  "sign_consequence": {
+    "title": "[TODO:pt-BR] You Have the Word",
+    "text": "[TODO:pt-BR] If you ignore the Scriptures,\nno wonder will move you.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hear Moses and the prophets",
+        "feedback": "[TODO:pt-BR] You bow to the truth."
+      }
+    ]
+  },
+  "blame_god_consequence": {
+    "title": "[TODO:pt-BR] He Has Spoken",
+    "text": "[TODO:pt-BR] The word has been given long ago.\nThe question is whether you obey.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hear Moses and the prophets",
+        "feedback": "[TODO:pt-BR] Your excuse falls away."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pt-BR] Open Your Gate",
+    "text": "[TODO:pt-BR] Jesus looks straight at you.\n\"Today, who lies at your gate?\"",
+    "choices": []
+  }
+}

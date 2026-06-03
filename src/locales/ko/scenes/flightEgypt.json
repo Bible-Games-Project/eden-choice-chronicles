@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "[TODO:ko] A Voice in Sleep",
+    "text": "[TODO:ko] An angel speaks in your dream:\n\"Rise. Herod seeks the child.\"",
+    "choices": [
+      {
+        "text": "[TODO:ko] Sleep on, it is only a dream",
+        "feedback": "[TODO:ko] Heaven does not lie."
+      },
+      {
+        "text": "[TODO:ko] Wake at once and obey",
+        "feedback": "[TODO:ko] Your eyes open in the dark."
+      },
+      {
+        "text": "[TODO:ko] Wait for another sign",
+        "feedback": "[TODO:ko] There is no time to wait."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:ko] Rise Now",
+    "text": "[TODO:ko] The danger is real and near.\nDo not delay.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Wake at once and obey",
+        "feedback": "[TODO:ko] You sit up suddenly."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:ko] Trust the Word",
+    "text": "[TODO:ko] Heaven has already spoken.\nMove now.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Wake at once and obey",
+        "feedback": "[TODO:ko] You throw off the blanket."
+      }
+    ]
+  },
+  "wake": {
+    "title": "[TODO:ko] Wake the Mother",
+    "text": "[TODO:ko] Mary sleeps with the child near.\nThere is no time to lose.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Wake Mary and prepare to flee",
+        "feedback": "[TODO:ko] She rises without a question."
+      },
+      {
+        "text": "[TODO:ko] Hide the child in the house",
+        "feedback": "[TODO:ko] No wall will stop Herod."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:ko] Flee, Do Not Hide",
+    "text": "[TODO:ko] The angel said to leave the land.\nObey the word.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Wake Mary and prepare to flee",
+        "feedback": "[TODO:ko] You shake her gently awake."
+      }
+    ]
+  },
+  "flee": {
+    "title": "[TODO:ko] Out of Bethlehem",
+    "text": "[TODO:ko] Moonlight falls on empty streets.\nThe child sleeps in Mary's arms.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Knock and warn the neighbors",
+        "feedback": "[TODO:ko] Soldiers may already be near."
+      },
+      {
+        "text": "[TODO:ko] Slip into the night silently",
+        "feedback": "[TODO:ko] Your steps make no sound."
+      },
+      {
+        "text": "[TODO:ko] Take the main road south",
+        "feedback": "[TODO:ko] Stay off the open road."
+      }
+    ]
+  },
+  "warn_consequence": {
+    "title": "[TODO:ko] Go Quietly",
+    "text": "[TODO:ko] Your task is to save the child.\nLeave at once.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Slip into the night silently",
+        "feedback": "[TODO:ko] You vanish into the dark."
+      }
+    ]
+  },
+  "main_road_consequence": {
+    "title": "[TODO:ko] Hidden Paths",
+    "text": "[TODO:ko] Soldiers patrol the open ways.\nKeep to the shadows.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Slip into the night silently",
+        "feedback": "[TODO:ko] You take the small back paths."
+      }
+    ]
+  },
+  "road": {
+    "title": "[TODO:ko] Toward the South",
+    "text": "[TODO:ko] The desert stretches before you.\nEgypt lies far beyond.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Turn back, the road is too far",
+        "feedback": "[TODO:ko] Do not turn back now."
+      },
+      {
+        "text": "[TODO:ko] Press on through the night",
+        "feedback": "[TODO:ko] Your feet do not stop."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "[TODO:ko] Forward Only",
+    "text": "[TODO:ko] Behind you is danger.\nAhead is safety.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Press on through the night",
+        "feedback": "[TODO:ko] You walk on with Mary."
+      }
+    ]
+  },
+  "rest": {
+    "title": "[TODO:ko] By the Oasis",
+    "text": "[TODO:ko] Water glints under the rising sun.\nThe child must drink.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Linger here for many days",
+        "feedback": "[TODO:ko] Do not stay too long."
+      },
+      {
+        "text": "[TODO:ko] Pray, then keep moving",
+        "feedback": "[TODO:ko] You rise refreshed."
+      },
+      {
+        "text": "[TODO:ko] Send Mary back home alone",
+        "feedback": "[TODO:ko] You go together or not at all."
+      }
+    ]
+  },
+  "linger_consequence": {
+    "title": "[TODO:ko] Move On",
+    "text": "[TODO:ko] The border is still far away.\nKeep going.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Pray, then keep moving",
+        "feedback": "[TODO:ko] You fill your skins and rise."
+      }
+    ]
+  },
+  "send_back_consequence": {
+    "title": "[TODO:ko] Stay Together",
+    "text": "[TODO:ko] She and the child are your charge.\nNever leave them.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Pray, then keep moving",
+        "feedback": "[TODO:ko] You take her hand and walk on."
+      }
+    ]
+  },
+  "egypt": {
+    "title": "[TODO:ko] The Land of Egypt",
+    "text": "[TODO:ko] Pyramids rise in the rose dawn.\nYou have crossed the border.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Find a humble home and stay",
+        "feedback": "[TODO:ko] A small door opens to you."
+      },
+      {
+        "text": "[TODO:ko] Demand a place at court",
+        "feedback": "[TODO:ko] Hide, do not boast."
+      }
+    ]
+  },
+  "court_consequence": {
+    "title": "[TODO:ko] Stay Hidden",
+    "text": "[TODO:ko] The child must grow in quiet.\nFind a humble place.",
+    "choices": [
+      {
+        "text": "[TODO:ko] Find a humble home and stay",
+        "feedback": "[TODO:ko] You knock at a small house."
+      }
+    ]
+  },
+  "safe": {
+    "title": "[TODO:ko] Safe in Egypt",
+    "text": "[TODO:ko] The child sleeps under a warm lamp.\nHe is alive. He is safe.",
+    "choices": []
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "[TODO:it] At the Foot of Sinai",
+    "text": "[TODO:it] The mountain stands wrapped in cloud.\nThe people wait in silent awe.",
+    "choices": [
+      {
+        "text": "[TODO:it] Climb at once without preparing",
+        "feedback": "[TODO:it] His holiness asks reverence first."
+      },
+      {
+        "text": "[TODO:it] Consecrate the people, then ascend",
+        "feedback": "[TODO:it] You set His order in motion."
+      },
+      {
+        "text": "[TODO:it] Send another in your place",
+        "feedback": "[TODO:it] He has called your name."
+      }
+    ]
+  },
+  "haste_consequence": {
+    "title": "[TODO:it] Holiness First",
+    "text": "[TODO:it] One does not run before the Lord.\nPrepare the camp, then climb.",
+    "choices": [
+      {
+        "text": "[TODO:it] Consecrate the people, then ascend",
+        "feedback": "[TODO:it] You slow your steps in awe."
+      }
+    ]
+  },
+  "shift_consequence": {
+    "title": "[TODO:it] He Called You",
+    "text": "[TODO:it] The path belongs to your feet.\nObedience cannot be borrowed.",
+    "choices": [
+      {
+        "text": "[TODO:it] Consecrate the people, then ascend",
+        "feedback": "[TODO:it] You take up the staff."
+      }
+    ]
+  },
+  "people_tremble": {
+    "title": "[TODO:it] Thunder on the Mountain",
+    "text": "[TODO:it] Lightning splits the dark cloud.\nThe people draw back in fear.",
+    "choices": [
+      {
+        "text": "[TODO:it] Mock their fear of the Lord",
+        "feedback": "[TODO:it] Holy fear is no shame."
+      },
+      {
+        "text": "[TODO:it] Calm them and set the boundary",
+        "feedback": "[TODO:it] \"Stand here. Touch not the mount.\""
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:it] Honor Their Awe",
+    "text": "[TODO:it] Trembling before Him is wisdom.\nSpeak peace, not scorn.",
+    "choices": [
+      {
+        "text": "[TODO:it] Calm them and set the boundary",
+        "feedback": "[TODO:it] Your voice steadies them."
+      }
+    ]
+  },
+  "ascend_begin": {
+    "title": "[TODO:it] Into the Cloud",
+    "text": "[TODO:it] The path winds upward into mist.\nThe air grows still and warm.",
+    "choices": [
+      {
+        "text": "[TODO:it] Turn back, afraid of the cloud",
+        "feedback": "[TODO:it] He calls you forward."
+      },
+      {
+        "text": "[TODO:it] Climb in trust toward His voice",
+        "feedback": "[TODO:it] Each step is steady."
+      },
+      {
+        "text": "[TODO:it] Rest halfway and wait for a sign",
+        "feedback": "[TODO:it] His sign is the climb itself."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "[TODO:it] Do Not Fear",
+    "text": "[TODO:it] He summoned you to the summit.\nFear has no place on this path.",
+    "choices": [
+      {
+        "text": "[TODO:it] Climb in trust toward His voice",
+        "feedback": "[TODO:it] Your courage returns."
+      }
+    ]
+  },
+  "delay_consequence": {
+    "title": "[TODO:it] Press On",
+    "text": "[TODO:it] He waits above, not on the slope.\nKeep climbing into the light.",
+    "choices": [
+      {
+        "text": "[TODO:it] Climb in trust toward His voice",
+        "feedback": "[TODO:it] Mist parts before you."
+      }
+    ]
+  },
+  "summit": {
+    "title": "[TODO:it] Before His Glory",
+    "text": "[TODO:it] Light fills the cloud around you.\nA voice speaks like rolling thunder.",
+    "choices": [
+      {
+        "text": "[TODO:it] Stand tall and meet His gaze",
+        "feedback": "[TODO:it] No flesh stands in His glory."
+      },
+      {
+        "text": "[TODO:it] Bow low in reverence and listen",
+        "feedback": "[TODO:it] Your face touches the stone."
+      }
+    ]
+  },
+  "pride_consequence": {
+    "title": "[TODO:it] Bow Before Him",
+    "text": "[TODO:it] Even angels veil their eyes.\nLower your head and hear.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bow low in reverence and listen",
+        "feedback": "[TODO:it] You sink to your knees."
+      }
+    ]
+  },
+  "god_speaks": {
+    "title": "[TODO:it] \"I Am the Lord Your God\"",
+    "text": "[TODO:it] Ten holy words fall like fire.\nLove for Him. Love for neighbor.",
+    "choices": [
+      {
+        "text": "[TODO:it] Argue the words are too heavy",
+        "feedback": "[TODO:it] His commands are life."
+      },
+      {
+        "text": "[TODO:it] Receive every word in silence",
+        "feedback": "[TODO:it] You write them on your heart."
+      },
+      {
+        "text": "[TODO:it] Try to add words of your own",
+        "feedback": "[TODO:it] His word stands complete."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:it] His Yoke Is Light",
+    "text": "[TODO:it] What He commands, He empowers.\nReceive without dispute.",
+    "choices": [
+      {
+        "text": "[TODO:it] Receive every word in silence",
+        "feedback": "[TODO:it] You bow in agreement."
+      }
+    ]
+  },
+  "add_consequence": {
+    "title": "[TODO:it] Add Nothing to His Word",
+    "text": "[TODO:it] His ten are whole and perfect.\nLet them stand alone.",
+    "choices": [
+      {
+        "text": "[TODO:it] Receive every word in silence",
+        "feedback": "[TODO:it] Your lips fall still."
+      }
+    ]
+  },
+  "tablets_given": {
+    "title": "[TODO:it] Stone Inscribed by God",
+    "text": "[TODO:it] Two tablets glow with sacred fire.\nWritten by the finger of God.",
+    "choices": [
+      {
+        "text": "[TODO:it] Hide them away for yourself",
+        "feedback": "[TODO:it] They are for all Israel."
+      },
+      {
+        "text": "[TODO:it] Carry them down to the people",
+        "feedback": "[TODO:it] You hold them close to your chest."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:it] Share His Covenant",
+    "text": "[TODO:it] His law is light for every tent.\nBring it down to His people.",
+    "choices": [
+      {
+        "text": "[TODO:it] Carry them down to the people",
+        "feedback": "[TODO:it] You turn toward the slope."
+      }
+    ]
+  },
+  "descent": {
+    "title": "[TODO:it] Down the Holy Path",
+    "text": "[TODO:it] The valley opens beneath you.\nThe camp waits below in hush.",
+    "choices": [
+      {
+        "text": "[TODO:it] Boast of seeing the Lord",
+        "feedback": "[TODO:it] Glory is His alone."
+      },
+      {
+        "text": "[TODO:it] Read the words to all Israel",
+        "feedback": "[TODO:it] Your voice carries clearly."
+      },
+      {
+        "text": "[TODO:it] Hide the tablets under your robe",
+        "feedback": "[TODO:it] His covenant is for the open day."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:it] Lift His Name",
+    "text": "[TODO:it] The mountain showed His glory.\nLet His name fill their ears.",
+    "choices": [
+      {
+        "text": "[TODO:it] Read the words to all Israel",
+        "feedback": "[TODO:it] You unroll the holy words."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "[TODO:it] Light Cannot Hide",
+    "text": "[TODO:it] His law is meant to shine.\nLift the tablets in plain sight.",
+    "choices": [
+      {
+        "text": "[TODO:it] Read the words to all Israel",
+        "feedback": "[TODO:it] The camp falls still."
+      }
+    ]
+  },
+  "covenant_sealed": {
+    "title": "[TODO:it] \"All He Has Said, We Will Do\"",
+    "text": "[TODO:it] Hands lift toward the cloud above.\nOne voice answers: \"We will obey.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Lead them in solemn worship",
+        "feedback": "[TODO:it] Aaron stands quietly beside you."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:it] The Covenant",
+    "text": "[TODO:it] Stone holds the words of heaven.\nIsrael belongs to her God.",
+    "choices": []
+  }
+}

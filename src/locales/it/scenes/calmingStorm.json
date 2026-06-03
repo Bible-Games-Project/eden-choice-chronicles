@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "[TODO:it] Setting Out",
+    "text": "[TODO:it] Evening falls on the sea.\nJesus says, \"Let us cross over.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Refuse, it grows dark",
+        "feedback": "[TODO:it] Trust his word."
+      },
+      {
+        "text": "[TODO:it] Push the boat to water",
+        "feedback": "[TODO:it] You set sail with him."
+      },
+      {
+        "text": "[TODO:it] Wait for morning",
+        "feedback": "[TODO:it] He calls you now."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:it] Follow His Word",
+    "text": "[TODO:it] His call is for tonight.\nGo with him.",
+    "choices": [
+      {
+        "text": "[TODO:it] Push the boat to water",
+        "feedback": "[TODO:it] You obey."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:it] Trust Him Now",
+    "text": "[TODO:it] He waits at the shore.\nDelay nothing.",
+    "choices": [
+      {
+        "text": "[TODO:it] Push the boat to water",
+        "feedback": "[TODO:it] You set sail."
+      }
+    ]
+  },
+  "storm": {
+    "title": "[TODO:it] The Sea Rises",
+    "text": "[TODO:it] Wind tears the sail.\nWaves crash into the boat.",
+    "choices": [
+      {
+        "text": "[TODO:it] Curse the wind",
+        "feedback": "[TODO:it] Anger will not save you."
+      },
+      {
+        "text": "[TODO:it] Row with all your strength",
+        "feedback": "[TODO:it] You strain at the oars."
+      },
+      {
+        "text": "[TODO:it] Leap into the sea",
+        "feedback": "[TODO:it] Stay in the boat."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:it] Hold Steady",
+    "text": "[TODO:it] Cursing will not still the storm.\nRow with the others.",
+    "choices": [
+      {
+        "text": "[TODO:it] Row with all your strength",
+        "feedback": "[TODO:it] You grip the oar."
+      }
+    ]
+  },
+  "leap_consequence": {
+    "title": "[TODO:it] Stay With Him",
+    "text": "[TODO:it] The sea would swallow you.\nReturn to the boat.",
+    "choices": [
+      {
+        "text": "[TODO:it] Row with all your strength",
+        "feedback": "[TODO:it] You hold fast."
+      }
+    ]
+  },
+  "sleep": {
+    "title": "[TODO:it] He Sleeps",
+    "text": "[TODO:it] Jesus sleeps in the stern.\nThe storm grows fiercer.",
+    "choices": [
+      {
+        "text": "[TODO:it] Let him sleep, panic alone",
+        "feedback": "[TODO:it] He is your help."
+      },
+      {
+        "text": "[TODO:it] Wake him with a cry",
+        "feedback": "[TODO:it] You go to him."
+      }
+    ]
+  },
+  "alone_consequence": {
+    "title": "[TODO:it] Go To Him",
+    "text": "[TODO:it] You cannot save the boat alone.\nWake your Lord.",
+    "choices": [
+      {
+        "text": "[TODO:it] Wake him with a cry",
+        "feedback": "[TODO:it] You shake him gently."
+      }
+    ]
+  },
+  "wake": {
+    "title": "[TODO:it] Wake Him",
+    "text": "[TODO:it] What will you say?\nThe water rises fast.",
+    "choices": [
+      {
+        "text": "[TODO:it] Blame him for the storm",
+        "feedback": "[TODO:it] Speak from need."
+      },
+      {
+        "text": "[TODO:it] \"Lord, save us, we perish!\"",
+        "feedback": "[TODO:it] He opens his eyes."
+      },
+      {
+        "text": "[TODO:it] Stay silent in fear",
+        "feedback": "[TODO:it] Cry out to him."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "[TODO:it] Ask, Don't Blame",
+    "text": "[TODO:it] He is not your enemy.\nAsk him to save you.",
+    "choices": [
+      {
+        "text": "[TODO:it] \"Lord, save us, we perish!\"",
+        "feedback": "[TODO:it] He rises calmly."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:it] Cry To Him",
+    "text": "[TODO:it] Silence will not still the sea.\nSpeak.",
+    "choices": [
+      {
+        "text": "[TODO:it] \"Lord, save us, we perish!\"",
+        "feedback": "[TODO:it] He hears you."
+      }
+    ]
+  },
+  "calm": {
+    "title": "[TODO:it] Peace, Be Still",
+    "text": "[TODO:it] He stands and lifts his hand.\n\"Peace. Be still.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Doubt what you saw",
+        "feedback": "[TODO:it] Open your eyes."
+      },
+      {
+        "text": "[TODO:it] Stand in trembling awe",
+        "feedback": "[TODO:it] Wind and waves obey."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:it] See and Believe",
+    "text": "[TODO:it] The sea is glass.\nLet awe fill you.",
+    "choices": [
+      {
+        "text": "[TODO:it] Stand in trembling awe",
+        "feedback": "[TODO:it] You bow your head."
+      }
+    ]
+  },
+  "amaze": {
+    "title": "[TODO:it] Who Is This?",
+    "text": "[TODO:it] The sea is still.\n\"Even the wind obeys him.\"",
+    "choices": []
+  }
+}

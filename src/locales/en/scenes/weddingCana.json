@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "A Joyful Feast",
+    "text": "Lanterns sway. Laughter rises.\nThe bride and groom dance.",
+    "choices": [
+      {
+        "text": "Join the dancing",
+        "feedback": "Joy belongs to all."
+      },
+      {
+        "text": "Slip away from the noise",
+        "feedback": "Stay. Be present."
+      }
+    ]
+  },
+  "slip_consequence": {
+    "title": "Return",
+    "text": "The feast still calls you.\nGo back.",
+    "choices": [
+      {
+        "text": "Join the dancing",
+        "feedback": "Warmth meets you."
+      }
+    ]
+  },
+  "shortage": {
+    "title": "The Last Cup",
+    "text": "Whispers spread: the wine is gone.\nMary's eyes find her son.",
+    "choices": [
+      {
+        "text": "Hide the empty jars",
+        "feedback": "Truth is better."
+      },
+      {
+        "text": "Pretend nothing is wrong",
+        "feedback": "Do not hide it."
+      },
+      {
+        "text": "Bring word to Mary",
+        "feedback": "She will know."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Tell Her",
+    "text": "Shame solves nothing.\nFind Mary.",
+    "choices": [
+      {
+        "text": "Bring word to Mary",
+        "feedback": "She listens gently."
+      }
+    ]
+  },
+  "pretend_consequence": {
+    "title": "Speak",
+    "text": "The guests will notice.\nDo not pretend.",
+    "choices": [
+      {
+        "text": "Bring word to Mary",
+        "feedback": "She turns to her son."
+      }
+    ]
+  },
+  "mother": {
+    "title": "His Mother's Voice",
+    "text": "\"They have no more wine,\" she says.\nThen turns to you.",
+    "choices": [
+      {
+        "text": "Wait for clear orders",
+        "feedback": "Listen closely."
+      },
+      {
+        "text": "\"Do whatever he tells you.\"",
+        "feedback": "Her trust steadies you."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "Trust Her Words",
+    "text": "She has already spoken.\nObey her son.",
+    "choices": [
+      {
+        "text": "\"Do whatever he tells you.\"",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "instruct": {
+    "title": "A Quiet Command",
+    "text": "Jesus points to six stone jars.\n\"Fill them with water.\"",
+    "choices": [
+      {
+        "text": "Ask why — it is only water",
+        "feedback": "Obey first."
+      },
+      {
+        "text": "Take only one jar",
+        "feedback": "Fill them all."
+      },
+      {
+        "text": "Fill every jar to the brim",
+        "feedback": "Full obedience."
+      }
+    ]
+  },
+  "ask_consequence": {
+    "title": "Just Do It",
+    "text": "Questions can wait.\nLift the water.",
+    "choices": [
+      {
+        "text": "Fill every jar to the brim",
+        "feedback": "Your hands move."
+      }
+    ]
+  },
+  "half_consequence": {
+    "title": "All of Them",
+    "text": "He said every jar.\nDo not hold back.",
+    "choices": [
+      {
+        "text": "Fill every jar to the brim",
+        "feedback": "Water rises in each one."
+      }
+    ]
+  },
+  "fill": {
+    "title": "To the Brim",
+    "text": "Six jars, full of cool water.\n\"Now draw some out,\" he says.",
+    "choices": [
+      {
+        "text": "Refuse — it is just water",
+        "feedback": "Trust him."
+      },
+      {
+        "text": "Carry it to the steward",
+        "feedback": "You obey without seeing."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Carry It",
+    "text": "Faith walks before sight.\nGo.",
+    "choices": [
+      {
+        "text": "Carry it to the steward",
+        "feedback": "Your steps are sure."
+      }
+    ]
+  },
+  "taste": {
+    "title": "The First Sip",
+    "text": "The steward's eyes widen.\n\"You saved the best for last!\"",
+    "choices": [
+      {
+        "text": "Boast that you poured it",
+        "feedback": "This is not yours."
+      },
+      {
+        "text": "Stay quiet and give thanks",
+        "feedback": "Silence honors him."
+      },
+      {
+        "text": "Slip out unnoticed",
+        "feedback": "Stay and witness."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Be Still",
+    "text": "The wonder is his alone.\nGive thanks.",
+    "choices": [
+      {
+        "text": "Stay quiet and give thanks",
+        "feedback": "Your heart bows."
+      }
+    ]
+  },
+  "slip2_consequence": {
+    "title": "Witness It",
+    "text": "Stay. See what he has done.\nGive thanks.",
+    "choices": [
+      {
+        "text": "Stay quiet and give thanks",
+        "feedback": "Joy fills the courtyard."
+      }
+    ]
+  },
+  "wonder": {
+    "title": "The First Sign",
+    "text": "The disciples look at Jesus.\nThey believe.",
+    "choices": []
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "Quiet Fields",
+    "text": "The flock sleeps under cold stars.\nThe night is long and still.",
+    "choices": [
+      {
+        "text": "Sleep and abandon the flock",
+        "feedback": "Wolves wait in the dark."
+      },
+      {
+        "text": "Keep faithful watch",
+        "feedback": "Your eyes stay on the hills."
+      },
+      {
+        "text": "Wander into town for warmth",
+        "feedback": "The flock is your charge."
+      }
+    ]
+  },
+  "sleep_consequence": {
+    "title": "Stay Awake",
+    "text": "A faithful watch is a holy thing.\nKeep your post.",
+    "choices": [
+      {
+        "text": "Keep faithful watch",
+        "feedback": "You sit upright again."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "Return to the Flock",
+    "text": "The sheep need your care tonight.\nGo back to your post.",
+    "choices": [
+      {
+        "text": "Keep faithful watch",
+        "feedback": "You return to the field."
+      }
+    ]
+  },
+  "light": {
+    "title": "A Sudden Light",
+    "text": "The night cracks open with glory.\nAn angel stands before you.",
+    "choices": [
+      {
+        "text": "Run away in terror",
+        "feedback": "Heaven calls you to listen."
+      },
+      {
+        "text": "Attack with your staff",
+        "feedback": "This is no enemy."
+      },
+      {
+        "text": "Bow and listen in awe",
+        "feedback": "You kneel in trembling wonder."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "Do Not Be Afraid",
+    "text": "The angel speaks gently to you.\nReturn and listen.",
+    "choices": [
+      {
+        "text": "Bow and listen in awe",
+        "feedback": "Your fear gives way to peace."
+      }
+    ]
+  },
+  "attack_consequence": {
+    "title": "Lower Your Staff",
+    "text": "This light brings news, not harm.\nReceive it with reverence.",
+    "choices": [
+      {
+        "text": "Bow and listen in awe",
+        "feedback": "Your staff falls to the grass."
+      }
+    ]
+  },
+  "message": {
+    "title": "Good News",
+    "text": "\"Today in Bethlehem a Savior is born.\nYou will find him in a manger.\"",
+    "choices": [
+      {
+        "text": "Doubt the heavenly word",
+        "feedback": "Heaven does not lie."
+      },
+      {
+        "text": "Believe and rise to go",
+        "feedback": "Your heart burns to see him."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "Trust the Sign",
+    "text": "A child in a manger awaits.\nGo and see for yourself.",
+    "choices": [
+      {
+        "text": "Believe and rise to go",
+        "feedback": "You take up your staff."
+      }
+    ]
+  },
+  "travel": {
+    "title": "Toward Bethlehem",
+    "text": "The road is dark but your steps are sure.\nThe town glows ahead.",
+    "choices": [
+      {
+        "text": "Wait until morning instead",
+        "feedback": "Do not delay this gift."
+      },
+      {
+        "text": "Hurry through the night",
+        "feedback": "Your feet do not tire."
+      },
+      {
+        "text": "Bring fine gifts to buy first",
+        "feedback": "Bring only your heart."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "Go Now",
+    "text": "The Savior waits in a manger tonight.\nDo not turn back.",
+    "choices": [
+      {
+        "text": "Hurry through the night",
+        "feedback": "You quicken your pace."
+      }
+    ]
+  },
+  "gifts_consequence": {
+    "title": "Empty Hands Are Enough",
+    "text": "He receives the poor as the rich.\nGo as you are.",
+    "choices": [
+      {
+        "text": "Hurry through the night",
+        "feedback": "You go with empty hands."
+      }
+    ]
+  },
+  "worship": {
+    "title": "The Child",
+    "text": "He lies in a manger, just as told.\nHis breath is soft, his face is light.",
+    "choices": [
+      {
+        "text": "Stand back in silence",
+        "feedback": "Draw near to him."
+      },
+      {
+        "text": "Kneel and worship the child",
+        "feedback": "Your knees touch the straw."
+      }
+    ]
+  },
+  "silence_consequence": {
+    "title": "Come Closer",
+    "text": "He is the One the angel spoke of.\nWorship him with your whole heart.",
+    "choices": [
+      {
+        "text": "Kneel and worship the child",
+        "feedback": "You kneel beside the manger."
+      }
+    ]
+  },
+  "return": {
+    "title": "Praising as You Go",
+    "text": "You return to the fields rejoicing.\nHeaven has touched the earth tonight.",
+    "choices": []
+  }
+}

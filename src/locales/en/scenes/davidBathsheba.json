@@ -1,0 +1,167 @@
+{
+  "start": {
+    "title": "When Kings Go to War",
+    "text": "Spring has come. Joab leads your army.\nYou linger alone in the palace.",
+    "choices": [
+      {
+        "text": "Stay idle on the rooftop",
+        "feedback": "Idleness opens the door to sin."
+      },
+      {
+        "text": "Ride out and lead your men",
+        "feedback": "A king belongs with his people."
+      },
+      {
+        "text": "Demand new wine and music",
+        "feedback": "Comfort dulls the heart."
+      }
+    ]
+  },
+  "rooftop_consequence": {
+    "title": "Restless on the Roof",
+    "text": "Idle eyes will find a wound.\nYou should have gone to war.",
+    "choices": [
+      {
+        "text": "Continue to the rooftop view",
+        "feedback": "Yet the evening unfolds..."
+      }
+    ]
+  },
+  "wine_consequence": {
+    "title": "Set the Cup Down",
+    "text": "A king is not led by appetite.\nReturn to your duty.",
+    "choices": [
+      {
+        "text": "Walk out onto the rooftop",
+        "feedback": "You step into the cool air."
+      }
+    ]
+  },
+  "seeing": {
+    "title": "A Woman Bathing",
+    "text": "Below, a woman bathes in the courtyard.\nYour eyes will not turn away.",
+    "choices": [
+      {
+        "text": "Send for her at once",
+        "feedback": "Power must not take what is not yours."
+      },
+      {
+        "text": "Look away and pray",
+        "feedback": "Turn your eyes from temptation."
+      },
+      {
+        "text": "Ask who her husband is",
+        "feedback": "Curiosity here is the first step to ruin."
+      }
+    ]
+  },
+  "ask_consequence": {
+    "title": "She Is Another's Wife",
+    "text": "She is Bathsheba, wife of Uriah.\nThe knowledge will not save you now.",
+    "choices": [
+      {
+        "text": "Send for her anyway",
+        "feedback": "You step further into shadow."
+      },
+      {
+        "text": "Repent and walk away",
+        "feedback": "You close your eyes and breathe."
+      }
+    ]
+  },
+  "summon_consequence": {
+    "title": "The Door Closes",
+    "text": "She comes. The deed is done.\nWord arrives: she is with child.",
+    "choices": [
+      {
+        "text": "Continue",
+        "feedback": "The weight settles on your shoulders."
+      }
+    ]
+  },
+  "uriah": {
+    "title": "Uriah Stands Before You",
+    "text": "Uriah refuses comfort while his men sleep in fields.\n\"Shall I lie with my wife?\"",
+    "choices": [
+      {
+        "text": "Order Uriah to the front to die",
+        "feedback": "Murder will not hide your sin."
+      },
+      {
+        "text": "Get him drunk to send him home",
+        "feedback": "Deceit breeds deeper deceit."
+      },
+      {
+        "text": "Confess your sin to him",
+        "feedback": "Truth is the only door out."
+      }
+    ]
+  },
+  "drunk_consequence": {
+    "title": "Still He Will Not Go",
+    "text": "Even drunk, Uriah sleeps at your gate.\nHis loyalty shames you.",
+    "choices": [
+      {
+        "text": "Send him to die in battle",
+        "feedback": "You sink deeper still."
+      },
+      {
+        "text": "Confess everything to him",
+        "feedback": "Light is harder than the lie."
+      }
+    ]
+  },
+  "front_consequence": {
+    "title": "Blood on Your Hands",
+    "text": "Uriah falls by the wall.\nYou took his wife and his life.",
+    "choices": [
+      {
+        "text": "Continue",
+        "feedback": "The Lord sees what you have done."
+      }
+    ]
+  },
+  "nathan": {
+    "title": "The Prophet Comes",
+    "text": "Nathan tells of a rich man who stole a poor man's lamb.\n\"You are the man.\"",
+    "choices": [
+      {
+        "text": "Threaten the prophet's life",
+        "feedback": "Do not silence the voice of God."
+      },
+      {
+        "text": "Deny the accusation",
+        "feedback": "Hiding cannot heal you."
+      },
+      {
+        "text": "Say: I have sinned against the Lord",
+        "feedback": "Confession opens the way."
+      }
+    ]
+  },
+  "threaten_consequence": {
+    "title": "Hear the Word",
+    "text": "Nathan does not flinch.\nGod's voice will not be silenced.",
+    "choices": [
+      {
+        "text": "Bow and confess your sin",
+        "feedback": "Your knees give way."
+      }
+    ]
+  },
+  "deny_consequence": {
+    "title": "The Truth Cannot Hide",
+    "text": "Your silence does not fool the Lord.\nA broken spirit He will not despise.",
+    "choices": [
+      {
+        "text": "Say: I have sinned against the Lord",
+        "feedback": "The words break from your chest."
+      }
+    ]
+  },
+  "repentance": {
+    "title": "A Broken Heart",
+    "text": "You fall in sackcloth, weeping.\n\"Create in me a clean heart, O God.\"",
+    "choices": []
+  }
+}

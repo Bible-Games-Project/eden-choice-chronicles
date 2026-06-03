@@ -1,0 +1,193 @@
+{
+  "start": {
+    "title": "[TODO:ar] Under the Palm of Deborah",
+    "text": "[TODO:ar] Israel comes to you for judgment.\nThe Lord's word burns in your heart.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Send the people away unheard",
+        "feedback": "[TODO:ar] His people need a voice."
+      },
+      {
+        "text": "[TODO:ar] Listen and judge with His wisdom",
+        "feedback": "[TODO:ar] Your words bring peace."
+      },
+      {
+        "text": "[TODO:ar] Judge by your own opinion",
+        "feedback": "[TODO:ar] Lean not on your own mind."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:ar] They Still Come",
+    "text": "[TODO:ar] His call cannot be silenced.\nReturn to your seat of judgment.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Listen and judge with His wisdom",
+        "feedback": "[TODO:ar] You take your place again."
+      }
+    ]
+  },
+  "self_consequence": {
+    "title": "[TODO:ar] Not Your Wisdom",
+    "text": "[TODO:ar] His Spirit must speak through you.\nQuiet your heart and listen.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Listen and judge with His wisdom",
+        "feedback": "[TODO:ar] His voice fills your silence."
+      }
+    ]
+  },
+  "call_barak": {
+    "title": "[TODO:ar] The Lord's Command",
+    "text": "[TODO:ar] Sisera oppresses Israel with iron.\nThe Lord names Barak as captain.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Lead the army yourself instead",
+        "feedback": "[TODO:ar] His chosen must be called."
+      },
+      {
+        "text": "[TODO:ar] Summon Barak to receive the word",
+        "feedback": "[TODO:ar] You send word to Kedesh."
+      }
+    ]
+  },
+  "lead_consequence": {
+    "title": "[TODO:ar] His Order, Not Yours",
+    "text": "[TODO:ar] The Lord has chosen Barak.\nObey the calling He has given.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Summon Barak to receive the word",
+        "feedback": "[TODO:ar] Messengers ride at dawn."
+      }
+    ]
+  },
+  "barak_arrives": {
+    "title": "[TODO:ar] Barak Hesitates",
+    "text": "[TODO:ar] \"I will go only if you go.\"\nHis faith leans on your presence.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Refuse and shame his weakness",
+        "feedback": "[TODO:ar] Lift him; do not crush him."
+      },
+      {
+        "text": "[TODO:ar] Mock him before the elders",
+        "feedback": "[TODO:ar] Pride builds no army."
+      },
+      {
+        "text": "[TODO:ar] Agree to go with him",
+        "feedback": "[TODO:ar] You will stand beside him."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:ar] Strengthen His Hand",
+    "text": "[TODO:ar] Faith grows when leaders walk together.\nGo with him to the battle.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Agree to go with him",
+        "feedback": "[TODO:ar] You take up your staff."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:ar] Lead, Do Not Wound",
+    "text": "[TODO:ar] Your presence is His gift to him.\nWalk beside, not above.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Agree to go with him",
+        "feedback": "[TODO:ar] You step toward Tabor."
+      }
+    ]
+  },
+  "march_to_tabor": {
+    "title": "[TODO:ar] Ten Thousand on Tabor",
+    "text": "[TODO:ar] Sisera's chariots gather below.\nThe army watches you for a sign.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Wait for better odds and weapons",
+        "feedback": "[TODO:ar] His timing is your strength."
+      },
+      {
+        "text": "[TODO:ar] Declare the Lord goes before you",
+        "feedback": "[TODO:ar] Your voice rings clear."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:ar] Now Is the Hour",
+    "text": "[TODO:ar] He has delivered them already.\nLift the banner and descend.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Declare the Lord goes before you",
+        "feedback": "[TODO:ar] Hope kindles in every heart."
+      }
+    ]
+  },
+  "battle_kishon": {
+    "title": "[TODO:ar] Down Into the Plain",
+    "text": "[TODO:ar] Storm clouds darken the river.\nChariots sink in the rising mud.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Hold back, fearing the chariots",
+        "feedback": "[TODO:ar] He fights for you today."
+      },
+      {
+        "text": "[TODO:ar] Charge in the strength He gives",
+        "feedback": "[TODO:ar] Israel sweeps down the slope."
+      },
+      {
+        "text": "[TODO:ar] Negotiate peace with Sisera",
+        "feedback": "[TODO:ar] His enemy will not be reasoned with."
+      }
+    ]
+  },
+  "hold_consequence": {
+    "title": "[TODO:ar] Iron Cannot Stand Today",
+    "text": "[TODO:ar] The Lord has shaken their wheels.\nDo not waste His mercy.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Charge in the strength He gives",
+        "feedback": "[TODO:ar] You sound the advance."
+      }
+    ]
+  },
+  "negotiate_consequence": {
+    "title": "[TODO:ar] No Truce With Tyranny",
+    "text": "[TODO:ar] Sisera will not free His people.\nThe Lord has handed him over.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Charge in the strength He gives",
+        "feedback": "[TODO:ar] You raise your hand and call."
+      }
+    ]
+  },
+  "victory": {
+    "title": "[TODO:ar] Sisera's Army Falls",
+    "text": "[TODO:ar] Not one chariot remains standing.\nIsrael breathes free again.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Take credit for the victory",
+        "feedback": "[TODO:ar] His arm, not yours."
+      },
+      {
+        "text": "[TODO:ar] Sing praise to the Lord",
+        "feedback": "[TODO:ar] Your song rises with Barak's."
+      }
+    ]
+  },
+  "credit_consequence": {
+    "title": "[TODO:ar] His Glory Alone",
+    "text": "[TODO:ar] No sword of yours broke them.\nLift His name above your own.",
+    "choices": [
+      {
+        "text": "[TODO:ar] Sing praise to the Lord",
+        "feedback": "[TODO:ar] You bow your head in song."
+      }
+    ]
+  },
+  "ending_faithful": {
+    "title": "[TODO:ar] The Land Has Rest",
+    "text": "[TODO:ar] Forty years of peace will follow.\nFaith led where fear could not.",
+    "choices": []
+  }
+}

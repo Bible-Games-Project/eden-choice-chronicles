@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "[TODO:tr] Who Is My Neighbor?",
+    "text": "[TODO:tr] Jesus sits on the hillside.\n\"Let me tell you a story.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Walk away, uninterested",
+        "feedback": "[TODO:tr] Stay and listen."
+      },
+      {
+        "text": "[TODO:tr] Lean in and listen",
+        "feedback": "[TODO:tr] His voice draws you near."
+      },
+      {
+        "text": "[TODO:tr] Demand a clear rule",
+        "feedback": "[TODO:tr] He answers with a story."
+      }
+    ]
+  },
+  "walk_consequence": {
+    "title": "[TODO:tr] Turn Back",
+    "text": "[TODO:tr] Some stories find you anyway.\nReturn and listen.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lean in and listen",
+        "feedback": "[TODO:tr] You sit down again."
+      }
+    ]
+  },
+  "rule_consequence": {
+    "title": "[TODO:tr] Listen First",
+    "text": "[TODO:tr] Love is not a rule to memorize.\nIt is a road to walk.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lean in and listen",
+        "feedback": "[TODO:tr] Your shoulders soften."
+      }
+    ]
+  },
+  "attack": {
+    "title": "[TODO:tr] Down to Jericho",
+    "text": "[TODO:tr] A man walked the lonely road.\nRobbers left him beaten, alone.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Pity him quietly",
+        "feedback": "[TODO:tr] Pity is not enough."
+      },
+      {
+        "text": "[TODO:tr] Look closely at his pain",
+        "feedback": "[TODO:tr] Your heart aches with his."
+      }
+    ]
+  },
+  "pity_consequence": {
+    "title": "[TODO:tr] See Him",
+    "text": "[TODO:tr] Compassion must open its eyes.\nLook at him fully.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Look closely at his pain",
+        "feedback": "[TODO:tr] You truly see him now."
+      }
+    ]
+  },
+  "priest": {
+    "title": "[TODO:tr] A Priest Passes By",
+    "text": "[TODO:tr] A priest walked the same road.\nHe saw the man, then crossed over.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Cheer the priest's caution",
+        "feedback": "[TODO:tr] Caution is not love."
+      },
+      {
+        "text": "[TODO:tr] Excuse him: he is busy",
+        "feedback": "[TODO:tr] No errand outweighs mercy."
+      },
+      {
+        "text": "[TODO:tr] Grieve his cold heart",
+        "feedback": "[TODO:tr] Your chest tightens."
+      }
+    ]
+  },
+  "cheer_consequence": {
+    "title": "[TODO:tr] Not Yet",
+    "text": "[TODO:tr] Holy clothes did not soften him.\nMercy is the holier robe.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Grieve his cold heart",
+        "feedback": "[TODO:tr] Sorrow finds you."
+      }
+    ]
+  },
+  "excuse_consequence": {
+    "title": "[TODO:tr] No Excuse",
+    "text": "[TODO:tr] Love makes time it does not have.\nFeel the wound.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Grieve his cold heart",
+        "feedback": "[TODO:tr] You bow your head."
+      }
+    ]
+  },
+  "levite": {
+    "title": "[TODO:tr] A Levite Passes By",
+    "text": "[TODO:tr] Then a Levite came near.\nHe looked, then walked away too.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Hope someone else helps",
+        "feedback": "[TODO:tr] Someone else may not come."
+      },
+      {
+        "text": "[TODO:tr] Long for a true neighbor",
+        "feedback": "[TODO:tr] You whisper a prayer."
+      }
+    ]
+  },
+  "hope_consequence": {
+    "title": "[TODO:tr] Be the Neighbor",
+    "text": "[TODO:tr] The world waits for someone.\nLet that someone be you.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Long for a true neighbor",
+        "feedback": "[TODO:tr] You hold the wish close."
+      }
+    ]
+  },
+  "samaritan": {
+    "title": "[TODO:tr] A Samaritan Stops",
+    "text": "[TODO:tr] A Samaritan saw the broken man.\nHe knelt down beside him.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Doubt him: he is foreign",
+        "feedback": "[TODO:tr] Mercy has no borders."
+      },
+      {
+        "text": "[TODO:tr] Bless the stranger's kindness",
+        "feedback": "[TODO:tr] Your eyes fill with tears."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:tr] No Borders",
+    "text": "[TODO:tr] He is the neighbor you did not expect.\nReceive his goodness.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Bless the stranger's kindness",
+        "feedback": "[TODO:tr] Your pride softens."
+      }
+    ]
+  },
+  "tend": {
+    "title": "[TODO:tr] Oil and Wine",
+    "text": "[TODO:tr] He cleansed the wounds with care.\nHe bound them with his own cloth.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Rush him: it takes too long",
+        "feedback": "[TODO:tr] Mercy takes its time."
+      },
+      {
+        "text": "[TODO:tr] Watch the slow tenderness",
+        "feedback": "[TODO:tr] You learn what love looks like."
+      },
+      {
+        "text": "[TODO:tr] Look away from the wound",
+        "feedback": "[TODO:tr] Stay with the broken."
+      }
+    ]
+  },
+  "rush_consequence": {
+    "title": "[TODO:tr] Be Patient",
+    "text": "[TODO:tr] Healing cannot be hurried.\nStay near him.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Watch the slow tenderness",
+        "feedback": "[TODO:tr] You breathe slowly with him."
+      }
+    ]
+  },
+  "lookaway_consequence": {
+    "title": "[TODO:tr] Stay With Him",
+    "text": "[TODO:tr] Mercy does not turn away.\nIt stays through the hard part.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Watch the slow tenderness",
+        "feedback": "[TODO:tr] Your gaze steadies."
+      }
+    ]
+  },
+  "inn": {
+    "title": "[TODO:tr] Bring Him to Shelter",
+    "text": "[TODO:tr] He lifted the man onto his donkey.\nHe carried him to a quiet inn.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Leave him at the door",
+        "feedback": "[TODO:tr] Stay with him longer."
+      },
+      {
+        "text": "[TODO:tr] Settle him into safety",
+        "feedback": "[TODO:tr] The lamp warms the room."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "[TODO:tr] Finish the Mercy",
+    "text": "[TODO:tr] Half-finished kindness still wounds.\nSee him fully settled.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Settle him into safety",
+        "feedback": "[TODO:tr] You stay until he rests."
+      }
+    ]
+  },
+  "pay": {
+    "title": "[TODO:tr] Two Silver Coins",
+    "text": "[TODO:tr] \"Care for him. I will return\nand repay whatever it costs.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Pay only what is required",
+        "feedback": "[TODO:tr] Love gives more."
+      },
+      {
+        "text": "[TODO:tr] Promise to cover any cost",
+        "feedback": "[TODO:tr] Mercy spends freely."
+      }
+    ]
+  },
+  "minimum_consequence": {
+    "title": "[TODO:tr] Go Further",
+    "text": "[TODO:tr] Love does not count its coins.\nIt covers what is needed.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Promise to cover any cost",
+        "feedback": "[TODO:tr] Your hand opens."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:tr] Go and Do Likewise",
+    "text": "[TODO:tr] Jesus looks straight at you.\n\"Go now. Do the same.\"",
+    "choices": []
+  }
+}

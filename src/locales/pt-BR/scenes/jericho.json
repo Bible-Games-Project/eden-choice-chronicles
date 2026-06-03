@@ -1,0 +1,203 @@
+{
+  "start": {
+    "title": "[TODO:pt-BR] The Walls of Jericho",
+    "text": "[TODO:pt-BR] The city stands shut and silent.\nIts walls swallow the horizon.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Charge the gates with full force",
+        "feedback": "[TODO:pt-BR] These walls will not yield to swords."
+      },
+      {
+        "text": "[TODO:pt-BR] Lay siege and starve them out",
+        "feedback": "[TODO:pt-BR] The Lord has another way."
+      },
+      {
+        "text": "[TODO:pt-BR] Wait for the Lord's instruction",
+        "feedback": "[TODO:pt-BR] You bow before His silence."
+      }
+    ]
+  },
+  "charge_consequence": {
+    "title": "[TODO:pt-BR] Not by Might",
+    "text": "[TODO:pt-BR] These stones laugh at sword and spear.\nSeek His word first.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait for the Lord's instruction",
+        "feedback": "[TODO:pt-BR] You lower your blade."
+      }
+    ]
+  },
+  "siege_consequence": {
+    "title": "[TODO:pt-BR] His Plan, Not Yours",
+    "text": "[TODO:pt-BR] Hunger is no weapon of faith.\nKneel and ask Him.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait for the Lord's instruction",
+        "feedback": "[TODO:pt-BR] You step away from the war camp."
+      }
+    ]
+  },
+  "divine_word": {
+    "title": "[TODO:pt-BR] \"I Have Given It Into Your Hand\"",
+    "text": "[TODO:pt-BR] March around the city six days.\nOn the seventh, march seven times.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Argue this is foolish strategy",
+        "feedback": "[TODO:pt-BR] His ways are not your ways."
+      },
+      {
+        "text": "[TODO:pt-BR] Receive the strange command",
+        "feedback": "[TODO:pt-BR] You bow your face to the earth."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:pt-BR] Faith, Not Reason",
+    "text": "[TODO:pt-BR] His command may seem strange.\nObedience is your part.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Receive the strange command",
+        "feedback": "[TODO:pt-BR] Your heart settles in trust."
+      }
+    ]
+  },
+  "instruct_priests": {
+    "title": "[TODO:pt-BR] Take Up the Trumpets",
+    "text": "[TODO:pt-BR] Seven priests, seven horns of ram.\nThe ark goes before the people.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Hide the ark behind the warriors",
+        "feedback": "[TODO:pt-BR] His presence must lead, not follow."
+      },
+      {
+        "text": "[TODO:pt-BR] Send priests in the rear for safety",
+        "feedback": "[TODO:pt-BR] Faith walks in front, not behind."
+      },
+      {
+        "text": "[TODO:pt-BR] Place the priests at the front",
+        "feedback": "[TODO:pt-BR] The horns rise toward the sky."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:pt-BR] Let Him Lead",
+    "text": "[TODO:pt-BR] His presence is your only banner.\nLift it high before all eyes.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Place the priests at the front",
+        "feedback": "[TODO:pt-BR] The procession forms behind the ark."
+      }
+    ]
+  },
+  "rear_consequence": {
+    "title": "[TODO:pt-BR] Faith Walks First",
+    "text": "[TODO:pt-BR] If He goes before, who can stand?\nLet the trumpets lead.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Place the priests at the front",
+        "feedback": "[TODO:pt-BR] The horns lift in trembling hands."
+      }
+    ]
+  },
+  "first_march": {
+    "title": "[TODO:pt-BR] The First Circle",
+    "text": "[TODO:pt-BR] Only trumpets break the silence.\nJericho mocks from the walls.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Shout back at their mockery",
+        "feedback": "[TODO:pt-BR] Not yet. Hold your voice."
+      },
+      {
+        "text": "[TODO:pt-BR] Walk in disciplined silence",
+        "feedback": "[TODO:pt-BR] Dust rises beneath quiet feet."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:pt-BR] Wait for His Signal",
+    "text": "[TODO:pt-BR] Your voice must wait six more days.\nLet the horns alone speak.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Walk in disciplined silence",
+        "feedback": "[TODO:pt-BR] You close your lips and march."
+      }
+    ]
+  },
+  "sixth_day": {
+    "title": "[TODO:pt-BR] Six Days Have Passed",
+    "text": "[TODO:pt-BR] The people grow weary, doubting.\nTomorrow is the seventh.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Quit, the plan has failed",
+        "feedback": "[TODO:pt-BR] His promise stands. Hold the line."
+      },
+      {
+        "text": "[TODO:pt-BR] Encourage them to trust one more day",
+        "feedback": "[TODO:pt-BR] You speak peace through the camp."
+      }
+    ]
+  },
+  "quit_consequence": {
+    "title": "[TODO:pt-BR] His Word Does Not Fail",
+    "text": "[TODO:pt-BR] Six days obeyed are not wasted.\nFinish what He began.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Encourage them to trust one more day",
+        "feedback": "[TODO:pt-BR] Hope returns to weary faces."
+      }
+    ]
+  },
+  "seventh_day": {
+    "title": "[TODO:pt-BR] Seven Times Around",
+    "text": "[TODO:pt-BR] The horns blow. The dust rises.\nThe seventh circle is complete.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Wait still longer in silence",
+        "feedback": "[TODO:pt-BR] The moment He named has come."
+      },
+      {
+        "text": "[TODO:pt-BR] Command Israel to shout!",
+        "feedback": "[TODO:pt-BR] Your voice splits the silence open."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:pt-BR] Now Is the Hour",
+    "text": "[TODO:pt-BR] He has set this very moment.\nLift your voice without fear.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Command Israel to shout!",
+        "feedback": "[TODO:pt-BR] The cry rises from every throat."
+      }
+    ]
+  },
+  "walls_fall": {
+    "title": "[TODO:pt-BR] The Walls Tremble",
+    "text": "[TODO:pt-BR] Stones crack. Towers lean.\nJericho falls into its own dust.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Boast in your military genius",
+        "feedback": "[TODO:pt-BR] Not your hand. His."
+      },
+      {
+        "text": "[TODO:pt-BR] Give all glory to the Lord",
+        "feedback": "[TODO:pt-BR] You kneel where the walls once stood."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:pt-BR] His Victory, Not Yours",
+    "text": "[TODO:pt-BR] No sword struck these walls.\nLift your eyes, not your name.",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] Give all glory to the Lord",
+        "feedback": "[TODO:pt-BR] You bow your head in the dust."
+      }
+    ]
+  },
+  "ending_obedient": {
+    "title": "[TODO:pt-BR] Into the City",
+    "text": "[TODO:pt-BR] The Lord has given Jericho.\nFaith walked where strength could not.",
+    "choices": []
+  }
+}

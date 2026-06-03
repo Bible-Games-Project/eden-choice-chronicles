@@ -1,0 +1,601 @@
+{
+  "start": {
+    "title": "[TODO:fr] Famine in the Land",
+    "text": "[TODO:fr] Foreigners come daily for grain.\nA new group bows before your dais.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Wave them off, you are busy",
+        "feedback": "[TODO:fr] A vizier serves the people."
+      },
+      {
+        "text": "[TODO:fr] Look closely at their faces",
+        "feedback": "[TODO:fr] Your breath catches."
+      },
+      {
+        "text": "[TODO:fr] Demand silver before listening",
+        "feedback": "[TODO:fr] First hear them out."
+      }
+    ]
+  },
+  "wave_consequence": {
+    "title": "[TODO:fr] Look Again",
+    "text": "[TODO:fr] Something pulls your eye back.\nThose beards, that posture…",
+    "choices": [
+      {
+        "text": "[TODO:fr] Look closely at their faces",
+        "feedback": "[TODO:fr] You step down from the dais."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:fr] Steady Yourself",
+    "text": "[TODO:fr] Their voices reach you. Hebrew.\nYour heart begins to pound.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Look closely at their faces",
+        "feedback": "[TODO:fr] You finally see them."
+      }
+    ]
+  },
+  "recognize": {
+    "title": "[TODO:fr] It Is Them",
+    "text": "[TODO:fr] Reuben. Judah. Levi. All ten.\nThey do not know you.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Reveal yourself in joy now",
+        "feedback": "[TODO:fr] Not yet — first their hearts."
+      },
+      {
+        "text": "[TODO:fr] Hide your face and test them",
+        "feedback": "[TODO:fr] You must know if they have changed."
+      },
+      {
+        "text": "[TODO:fr] Order their immediate arrest",
+        "feedback": "[TODO:fr] Vengeance is not your way."
+      }
+    ]
+  },
+  "reveal_consequence": {
+    "title": "[TODO:fr] Too Soon",
+    "text": "[TODO:fr] Their hearts are not yet known.\nIs Benjamin safe? Is father alive?",
+    "choices": [
+      {
+        "text": "[TODO:fr] Hide your face and test them",
+        "feedback": "[TODO:fr] You compose yourself."
+      }
+    ]
+  },
+  "arrest_consequence": {
+    "title": "[TODO:fr] A Cold Heart",
+    "text": "[TODO:fr] Anger burns — but God put you here\nfor more than revenge.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Hide your face and test them",
+        "feedback": "[TODO:fr] You set vengeance aside."
+      }
+    ]
+  },
+  "hide_face": {
+    "title": "[TODO:fr] A Stranger's Voice",
+    "text": "[TODO:fr] Through an interpreter you speak harsh.\n\"Where do you come from?\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] \"From Canaan, to buy food\"",
+        "feedback": "[TODO:fr] They answer truly."
+      },
+      {
+        "text": "[TODO:fr] Skip the test, give grain",
+        "feedback": "[TODO:fr] First test their hearts."
+      }
+    ]
+  },
+  "skip_consequence": {
+    "title": "[TODO:fr] Hold the Plan",
+    "text": "[TODO:fr] If you skip the test now,\nyou will never know their hearts.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Continue the test in disguise",
+        "feedback": "[TODO:fr] You hold the line."
+      }
+    ]
+  },
+  "spy_accusation": {
+    "title": "[TODO:fr] \"You Are Spies!\"",
+    "text": "[TODO:fr] You point and roar the word.\nThe brothers fall to their knees.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Smile and admit the trick",
+        "feedback": "[TODO:fr] Stay in character."
+      },
+      {
+        "text": "[TODO:fr] Hold the accusation firmly",
+        "feedback": "[TODO:fr] Pressure brings the truth."
+      }
+    ]
+  },
+  "smile_consequence": {
+    "title": "[TODO:fr] Mask On",
+    "text": "[TODO:fr] You must not soften yet.\nThe test is only beginning.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Hold the accusation firmly",
+        "feedback": "[TODO:fr] Your face hardens again."
+      }
+    ]
+  },
+  "they_protest": {
+    "title": "[TODO:fr] Their Defense",
+    "text": "[TODO:fr] \"We are twelve sons. One is no more.\nThe youngest is with our father.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] \"Bring the youngest to me\"",
+        "feedback": "[TODO:fr] The true test takes shape."
+      },
+      {
+        "text": "[TODO:fr] Pretend to believe them",
+        "feedback": "[TODO:fr] The plan needs Benjamin."
+      },
+      {
+        "text": "[TODO:fr] Mock their dead brother",
+        "feedback": "[TODO:fr] That cruelty isn't you."
+      }
+    ]
+  },
+  "pretend_consequence": {
+    "title": "[TODO:fr] Steady",
+    "text": "[TODO:fr] Without Benjamin, the test fails.\nYou must press on.",
+    "choices": [
+      {
+        "text": "[TODO:fr] \"Bring the youngest to me\"",
+        "feedback": "[TODO:fr] You name the price."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:fr] Bite Your Tongue",
+    "text": "[TODO:fr] Mocking the lost wounds father too.\nYou pull the words back.",
+    "choices": [
+      {
+        "text": "[TODO:fr] \"Bring the youngest to me\"",
+        "feedback": "[TODO:fr] You return to the plan."
+      }
+    ]
+  },
+  "demand_benjamin": {
+    "title": "[TODO:fr] Three Days' Hold",
+    "text": "[TODO:fr] \"You will be held three days.\nThen one fetches the youngest.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Lock them all in the chamber",
+        "feedback": "[TODO:fr] Time will speak."
+      },
+      {
+        "text": "[TODO:fr] Free them with no condition",
+        "feedback": "[TODO:fr] The test must hold."
+      }
+    ]
+  },
+  "free_consequence": {
+    "title": "[TODO:fr] Hold the Line",
+    "text": "[TODO:fr] Without pressure, the truth hides.\nThree days will reveal much.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Lock them all in the chamber",
+        "feedback": "[TODO:fr] You give the order."
+      }
+    ]
+  },
+  "three_days": {
+    "title": "[TODO:fr] Third Morning",
+    "text": "[TODO:fr] Three days have weighed on them.\nNow you offer a softer terms.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Demand all stay, send one",
+        "feedback": "[TODO:fr] Their families would starve."
+      },
+      {
+        "text": "[TODO:fr] Keep one, send the rest with grain",
+        "feedback": "[TODO:fr] Mercy mixed with the test."
+      }
+    ]
+  },
+  "all_stay_consequence": {
+    "title": "[TODO:fr] Be Just",
+    "text": "[TODO:fr] Their wives and children would die.\nGod would not honor that.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Keep one, send the rest with grain",
+        "feedback": "[TODO:fr] You temper the test."
+      }
+    ]
+  },
+  "keep_one": {
+    "title": "[TODO:fr] Their Confession",
+    "text": "[TODO:fr] They speak among themselves, not knowing\nyou understand every word.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Plug your ears, ignore it",
+        "feedback": "[TODO:fr] These words matter."
+      },
+      {
+        "text": "[TODO:fr] Listen quietly to their words",
+        "feedback": "[TODO:fr] You strain to hear."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:fr] Listen",
+    "text": "[TODO:fr] These are the words you waited\ntwenty years to hear.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Listen quietly to their words",
+        "feedback": "[TODO:fr] Your heart stops."
+      }
+    ]
+  },
+  "overhear": {
+    "title": "[TODO:fr] \"This Is For Joseph\"",
+    "text": "[TODO:fr] \"We sinned against our brother.\nWe saw his anguish and would not hear.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Show your tears in front of them",
+        "feedback": "[TODO:fr] They must not see, yet."
+      },
+      {
+        "text": "[TODO:fr] Turn aside and weep alone",
+        "feedback": "[TODO:fr] Tears in the shadow."
+      }
+    ]
+  },
+  "tears_open_consequence": {
+    "title": "[TODO:fr] Not Yet",
+    "text": "[TODO:fr] They would see and the test\nwould be undone too soon.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Turn aside and weep alone",
+        "feedback": "[TODO:fr] You step into shadow."
+      }
+    ]
+  },
+  "weep_alone": {
+    "title": "[TODO:fr] Choose Simeon",
+    "text": "[TODO:fr] You return composed. Now choose\nwhich brother to hold.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Bind Reuben, the eldest",
+        "feedback": "[TODO:fr] Reuben tried to save you."
+      },
+      {
+        "text": "[TODO:fr] Bind Simeon before their eyes",
+        "feedback": "[TODO:fr] The fierce one — fitting."
+      }
+    ]
+  },
+  "reuben_consequence": {
+    "title": "[TODO:fr] Not Reuben",
+    "text": "[TODO:fr] Reuben spoke for you long ago.\nLet justice fall on another.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Bind Simeon before their eyes",
+        "feedback": "[TODO:fr] Simeon it is."
+      }
+    ]
+  },
+  "bind_simeon": {
+    "title": "[TODO:fr] Simeon Bound",
+    "text": "[TODO:fr] Ropes circle his wrists. He goes\nwithout protest. The brothers pale.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Order their sacks filled with grain",
+        "feedback": "[TODO:fr] Mercy under the mask."
+      },
+      {
+        "text": "[TODO:fr] Send them empty, to teach a lesson",
+        "feedback": "[TODO:fr] Their families would starve."
+      }
+    ]
+  },
+  "empty_consequence": {
+    "title": "[TODO:fr] Mercy Returns",
+    "text": "[TODO:fr] Famine kills children too.\nGive them what they came for.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Order their sacks filled with grain",
+        "feedback": "[TODO:fr] You restore the order."
+      }
+    ]
+  },
+  "fill_sacks": {
+    "title": "[TODO:fr] Silver Returned",
+    "text": "[TODO:fr] You whisper to the steward:\n\"Put each man's silver back in his sack.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Take the silver as fair pay",
+        "feedback": "[TODO:fr] It must go back."
+      },
+      {
+        "text": "[TODO:fr] Hide it deep within the grain",
+        "feedback": "[TODO:fr] A secret gift."
+      },
+      {
+        "text": "[TODO:fr] Toss it openly into their cart",
+        "feedback": "[TODO:fr] It must be hidden."
+      }
+    ]
+  },
+  "silver_consequence": {
+    "title": "[TODO:fr] No Profit",
+    "text": "[TODO:fr] You will not take from your father's house.\nReturn it in secret.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Hide it deep within the grain",
+        "feedback": "[TODO:fr] You command it done."
+      }
+    ]
+  },
+  "open_consequence": {
+    "title": "[TODO:fr] Hidden, Not Open",
+    "text": "[TODO:fr] An open gift would frighten them.\nBetter discovered later.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Hide it deep within the grain",
+        "feedback": "[TODO:fr] Secret it is."
+      }
+    ]
+  },
+  "silver_hidden": {
+    "title": "[TODO:fr] Provision for the Road",
+    "text": "[TODO:fr] The steward also packs food\nfor the long journey home.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Send them off with no warning",
+        "feedback": "[TODO:fr] Repeat the terms once more."
+      },
+      {
+        "text": "[TODO:fr] Repeat: bring the youngest back",
+        "feedback": "[TODO:fr] The condition is set."
+      }
+    ]
+  },
+  "no_warning_consequence": {
+    "title": "[TODO:fr] Make It Clear",
+    "text": "[TODO:fr] If they forget the terms,\nthe test cannot be completed.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Repeat: bring the youngest back",
+        "feedback": "[TODO:fr] You speak it firmly."
+      }
+    ]
+  },
+  "send_off": {
+    "title": "[TODO:fr] They Depart",
+    "text": "[TODO:fr] Donkeys laden, the nine ride out.\nFrom your window, you watch.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Run after them and confess all",
+        "feedback": "[TODO:fr] The test must finish."
+      },
+      {
+        "text": "[TODO:fr] Pray for their safe return",
+        "feedback": "[TODO:fr] May God bring them back."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:fr] Hold the Plan",
+    "text": "[TODO:fr] Father's heart, Benjamin's safety —\nthe test must be finished.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Pray for their safe return",
+        "feedback": "[TODO:fr] You bow your head."
+      }
+    ]
+  },
+  "first_camp": {
+    "title": "[TODO:fr] Camp at Dusk",
+    "text": "[TODO:fr] Far away, the brothers stop.\nOne opens his sack for grain.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Silver gleams atop the grain",
+        "feedback": "[TODO:fr] Their faces drain white."
+      }
+    ]
+  },
+  "silver_found": {
+    "title": "[TODO:fr] \"What Has God Done?\"",
+    "text": "[TODO:fr] They tremble. \"What is this God\nhas done to us?\" they cry.",
+    "choices": [
+      {
+        "text": "[TODO:fr] They will turn back in panic",
+        "feedback": "[TODO:fr] Famine forces them home."
+      }
+    ]
+  },
+  "press_on": {
+    "title": "[TODO:fr] Onward to Canaan",
+    "text": "[TODO:fr] Fear pushes them home.\nFather is waiting.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Hide the truth from Jacob",
+        "feedback": "[TODO:fr] Truth must be told."
+      },
+      {
+        "text": "[TODO:fr] Tell Jacob everything plainly",
+        "feedback": "[TODO:fr] Honesty, even when hard."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:fr] Speak True",
+    "text": "[TODO:fr] Father will see the missing son.\nA lie will only deepen the pain.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Tell Jacob everything plainly",
+        "feedback": "[TODO:fr] They steady themselves."
+      }
+    ]
+  },
+  "tell_jacob": {
+    "title": "[TODO:fr] Father Hears",
+    "text": "[TODO:fr] Jacob's hand trembles at his chest.\n\"Joseph is gone. Simeon now too…\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Promise to bring Benjamin",
+        "feedback": "[TODO:fr] Reuben pledges his sons."
+      },
+      {
+        "text": "[TODO:fr] Argue and shout at father",
+        "feedback": "[TODO:fr] Patience with the grieving."
+      },
+      {
+        "text": "[TODO:fr] Walk away in frustration",
+        "feedback": "[TODO:fr] Stay with him."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:fr] Be Gentle",
+    "text": "[TODO:fr] Shouting will not heal a father\nwho has buried a son in his heart.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Promise to bring Benjamin",
+        "feedback": "[TODO:fr] You soften your voice."
+      }
+    ]
+  },
+  "walk_consequence": {
+    "title": "[TODO:fr] Stay With Him",
+    "text": "[TODO:fr] Leaving solves nothing.\nFather needs a steady son now.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Promise to bring Benjamin",
+        "feedback": "[TODO:fr] You return to his side."
+      }
+    ]
+  },
+  "promise_jacob": {
+    "title": "[TODO:fr] Jacob Refuses",
+    "text": "[TODO:fr] \"My son shall not go down with you.\"\nThe grain bag empties slowly.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Force the journey now",
+        "feedback": "[TODO:fr] Wait for the famine to speak."
+      },
+      {
+        "text": "[TODO:fr] Wait until the grain runs out",
+        "feedback": "[TODO:fr] Hunger will move his hand."
+      }
+    ]
+  },
+  "force_consequence": {
+    "title": "[TODO:fr] Patience",
+    "text": "[TODO:fr] Father will not be forced.\nGod's time will come.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Wait until the grain runs out",
+        "feedback": "[TODO:fr] You bow and wait."
+      }
+    ]
+  },
+  "wait_famine": {
+    "title": "[TODO:fr] Sacks Run Empty",
+    "text": "[TODO:fr] Weeks pass. The last grain is gone.\nFather summons his sons.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Stay silent and let Reuben speak",
+        "feedback": "[TODO:fr] Judah steps forward instead."
+      },
+      {
+        "text": "[TODO:fr] Boast you can fix it alone",
+        "feedback": "[TODO:fr] Pride helps no one."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "[TODO:fr] Quiet, Brother",
+    "text": "[TODO:fr] Father needs a pledge, not a boast.\nLet Judah speak.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Stay silent and let Judah speak",
+        "feedback": "[TODO:fr] You step back."
+      }
+    ]
+  },
+  "judah_speaks": {
+    "title": "[TODO:fr] Judah's Pledge",
+    "text": "[TODO:fr] \"Send the boy with me. I will be\nsurety. On me alone the blame.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Mock Judah's pledge",
+        "feedback": "[TODO:fr] His pledge is a true one."
+      },
+      {
+        "text": "[TODO:fr] Father weighs it in silence",
+        "feedback": "[TODO:fr] Jacob's eyes close in pain."
+      }
+    ]
+  },
+  "mock_judah_consequence": {
+    "title": "[TODO:fr] Hush",
+    "text": "[TODO:fr] This is the moment of pledge.\nDo not break it with mockery.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Father weighs it in silence",
+        "feedback": "[TODO:fr] Quiet returns."
+      }
+    ]
+  },
+  "father_relents": {
+    "title": "[TODO:fr] \"If I Am Bereaved…\"",
+    "text": "[TODO:fr] \"Take double silver. Take a gift.\nAnd may God Almighty give you mercy.\"",
+    "choices": [
+      {
+        "text": "[TODO:fr] Pack only what is required",
+        "feedback": "[TODO:fr] Father said double — and a gift."
+      },
+      {
+        "text": "[TODO:fr] Prepare double silver and a gift",
+        "feedback": "[TODO:fr] Honey, balm, almonds, spices."
+      }
+    ]
+  },
+  "stingy_consequence": {
+    "title": "[TODO:fr] Honor Father",
+    "text": "[TODO:fr] Father has spoken with care.\nObey him in full.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Prepare double silver and a gift",
+        "feedback": "[TODO:fr] You honor his word."
+      }
+    ]
+  },
+  "preparation": {
+    "title": "[TODO:fr] Donkeys Loaded",
+    "text": "[TODO:fr] Benjamin tightens his sash.\nThe road south waits in the dust.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Set out without praying",
+        "feedback": "[TODO:fr] Begin in God's hand."
+      },
+      {
+        "text": "[TODO:fr] Bow with father in prayer",
+        "feedback": "[TODO:fr] \"God Almighty, give us mercy.\""
+      }
+    ]
+  },
+  "no_pray_consequence": {
+    "title": "[TODO:fr] Pray First",
+    "text": "[TODO:fr] Egypt is far. The vizier is harsh.\nAsk God's mercy now.",
+    "choices": [
+      {
+        "text": "[TODO:fr] Bow with father in prayer",
+        "feedback": "[TODO:fr] You kneel together."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:fr] Toward Egypt Again",
+    "text": "[TODO:fr] Eleven brothers ride south.\nA strange vizier waits — and watches.",
+    "choices": []
+  }
+}

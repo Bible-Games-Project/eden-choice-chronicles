@@ -1,0 +1,501 @@
+{
+  "start": {
+    "title": "[TODO:pl] Pharaoh's Decree",
+    "text": "[TODO:pl] Soldiers shout in the streets.\n\"Every Hebrew son must die.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hand the baby to a soldier",
+        "feedback": "[TODO:pl] Never. He is God's gift."
+      },
+      {
+        "text": "[TODO:pl] Hide your newborn son",
+        "feedback": "[TODO:pl] Faith stronger than fear."
+      },
+      {
+        "text": "[TODO:pl] Run into the desert tonight",
+        "feedback": "[TODO:pl] The night swallows the weak."
+      }
+    ]
+  },
+  "hand_consequence": {
+    "title": "[TODO:pl] No, Never",
+    "text": "[TODO:pl] Your arms tighten around him.\nGod did not give him to be killed.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hide him in your home",
+        "feedback": "[TODO:pl] You bolt the door."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "[TODO:pl] Too Dangerous",
+    "text": "[TODO:pl] The desert by night is no place\nfor a newborn. Stay. Hide him.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hide him in your home",
+        "feedback": "[TODO:pl] You return to the cradle."
+      }
+    ]
+  },
+  "hide_home": {
+    "title": "[TODO:pl] Three Months Hidden",
+    "text": "[TODO:pl] You nurse him in silence.\nEvery cry could end his life.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Trust God and keep hiding",
+        "feedback": "[TODO:pl] Each day is a small miracle."
+      },
+      {
+        "text": "[TODO:pl] Show him proudly to neighbors",
+        "feedback": "[TODO:pl] Pride could betray him."
+      }
+    ]
+  },
+  "show_consequence": {
+    "title": "[TODO:pl] Silence Saves Him",
+    "text": "[TODO:pl] A loud word could reach the guards.\nGuard him in quiet.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Keep hiding him in silence",
+        "feedback": "[TODO:pl] You return to the shadows."
+      }
+    ]
+  },
+  "growing_baby": {
+    "title": "[TODO:pl] He Grows",
+    "text": "[TODO:pl] He is too big to hide much longer.\nHis cries fill the small room.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Bury him in the floor",
+        "feedback": "[TODO:pl] He needs air, not a grave."
+      },
+      {
+        "text": "[TODO:pl] Pray and seek God's plan",
+        "feedback": "[TODO:pl] An idea begins to rise."
+      }
+    ]
+  },
+  "bury_consequence": {
+    "title": "[TODO:pl] Not That Way",
+    "text": "[TODO:pl] Despair cannot save him.\nKneel and ask the God of your fathers.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Pray for guidance",
+        "feedback": "[TODO:pl] Peace settles in your chest."
+      }
+    ]
+  },
+  "prayer": {
+    "title": "[TODO:pl] A Quiet Plea",
+    "text": "[TODO:pl] \"God of Abraham, save my son.\"\nA thought stirs: the river. The reeds.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Ignore it and keep hiding",
+        "feedback": "[TODO:pl] Hiding will not last."
+      },
+      {
+        "text": "[TODO:pl] Trust the thought from God",
+        "feedback": "[TODO:pl] You reach for the papyrus."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "[TODO:pl] Trust the Whisper",
+    "text": "[TODO:pl] God speaks softly to faithful hearts.\nDo not silence Him now.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Begin weaving a basket",
+        "feedback": "[TODO:pl] Your hands move with purpose."
+      }
+    ]
+  },
+  "weave_basket": {
+    "title": "[TODO:pl] Papyrus and Pitch",
+    "text": "[TODO:pl] You weave through the night.\nTar and pitch will keep him dry.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Use a fragile clay pot",
+        "feedback": "[TODO:pl] Clay would crack and sink."
+      },
+      {
+        "text": "[TODO:pl] Coat the basket with pitch",
+        "feedback": "[TODO:pl] It will float and stay sealed."
+      }
+    ]
+  },
+  "clay_consequence": {
+    "title": "[TODO:pl] Not Clay",
+    "text": "[TODO:pl] Only pitch can keep the river out.\nSeal it carefully.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Coat it with pitch",
+        "feedback": "[TODO:pl] The seams hold tight."
+      }
+    ]
+  },
+  "miriam_called": {
+    "title": "[TODO:pl] Miriam, Your Daughter",
+    "text": "[TODO:pl] Your daughter watches you wide-eyed.\n\"Mother, what are you doing?\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Send her away in anger",
+        "feedback": "[TODO:pl] She is your ally, not enemy."
+      },
+      {
+        "text": "[TODO:pl] Tell her to come with you",
+        "feedback": "[TODO:pl] She nods, brave like her mother."
+      },
+      {
+        "text": "[TODO:pl] Lie to keep her safe",
+        "feedback": "[TODO:pl] She must understand the truth."
+      }
+    ]
+  },
+  "anger_consequence": {
+    "title": "[TODO:pl] Not Now",
+    "text": "[TODO:pl] She is small but faithful.\nYou will need her at the river.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Take her with you",
+        "feedback": "[TODO:pl] She slips her hand into yours."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "[TODO:pl] Truth, Gently",
+    "text": "[TODO:pl] A lie cannot guard her brother.\nTell her plainly. Trust her.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Tell her the truth",
+        "feedback": "[TODO:pl] Her chin lifts. She is ready."
+      }
+    ]
+  },
+  "to_river": {
+    "title": "[TODO:pl] To the Reeds",
+    "text": "[TODO:pl] Before dawn, you slip out the door.\nThe Nile breathes mist ahead.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Throw him into the open river",
+        "feedback": "[TODO:pl] The current would take him."
+      },
+      {
+        "text": "[TODO:pl] Hide the basket in the reeds",
+        "feedback": "[TODO:pl] Calm water. Sheltered. Safe."
+      }
+    ]
+  },
+  "throw_consequence": {
+    "title": "[TODO:pl] Among the Reeds",
+    "text": "[TODO:pl] He must rest where the water is still.\nGod chose this place for a reason.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Place him gently in the reeds",
+        "feedback": "[TODO:pl] The basket bobs softly."
+      }
+    ]
+  },
+  "place_basket": {
+    "title": "[TODO:pl] The Hardest Goodbye",
+    "text": "[TODO:pl] You lower the basket into the reeds.\nHis tiny breath rises and falls.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Snatch him back and run home",
+        "feedback": "[TODO:pl] Faith means letting go."
+      },
+      {
+        "text": "[TODO:pl] Whisper a blessing and step back",
+        "feedback": "[TODO:pl] \"The Lord keep you, my son.\""
+      }
+    ]
+  },
+  "snatch_consequence": {
+    "title": "[TODO:pl] Trust God Now",
+    "text": "[TODO:pl] If you take him home, he will die.\nThe river is his only path.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Bless him and let him go",
+        "feedback": "[TODO:pl] Tears fall on the reeds."
+      }
+    ]
+  },
+  "miriam_watch": {
+    "title": "[TODO:pl] Miriam Stays",
+    "text": "[TODO:pl] You leave Miriam to keep watch.\n\"Stay hidden. See what becomes of him.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Order her to swim with the basket",
+        "feedback": "[TODO:pl] She would drown in the current."
+      },
+      {
+        "text": "[TODO:pl] Tell her to hide and watch",
+        "feedback": "[TODO:pl] She kneels behind tall reeds."
+      }
+    ]
+  },
+  "swim_consequence": {
+    "title": "[TODO:pl] Watch From Shore",
+    "text": "[TODO:pl] She is a child. She must hide and pray.\nGod will move others.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Tell her to watch from the reeds",
+        "feedback": "[TODO:pl] She crouches, silent and still."
+      }
+    ]
+  },
+  "princess_arrives": {
+    "title": "[TODO:pl] Royal Footsteps",
+    "text": "[TODO:pl] Sandals on stone. Silk on the wind.\nPharaoh's daughter comes to bathe.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Throw a stone to scare her off",
+        "feedback": "[TODO:pl] She is the answer, not the threat."
+      },
+      {
+        "text": "[TODO:pl] Wait and watch in silence",
+        "feedback": "[TODO:pl] Miriam holds her breath."
+      }
+    ]
+  },
+  "stone_consequence": {
+    "title": "[TODO:pl] Do Not Interfere",
+    "text": "[TODO:pl] God is opening a door no one expected.\nDo not slam it shut.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wait and trust God",
+        "feedback": "[TODO:pl] The princess steps closer."
+      }
+    ]
+  },
+  "she_sees": {
+    "title": "[TODO:pl] She Sees the Basket",
+    "text": "[TODO:pl] She points among the reeds.\n\"Bring me that basket.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Pray she opens it gently",
+        "feedback": "[TODO:pl] Your heart pounds in the reeds."
+      },
+      {
+        "text": "[TODO:pl] Have Miriam shout a warning",
+        "feedback": "[TODO:pl] Silence now, child. Trust God."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "[TODO:pl] Silence is Wiser",
+    "text": "[TODO:pl] A shout would expose everything.\nLet the moment unfold.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Stay hidden and pray",
+        "feedback": "[TODO:pl] The basket rises slowly."
+      }
+    ]
+  },
+  "she_opens": {
+    "title": "[TODO:pl] A Hebrew Child",
+    "text": "[TODO:pl] She lifts the lid. He cries.\n\"He is one of the Hebrew babies.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Whisper a blessing for her heart",
+        "feedback": "[TODO:pl] Her face softens."
+      },
+      {
+        "text": "[TODO:pl] Have Miriam beg her loudly",
+        "feedback": "[TODO:pl] Wait. The right moment will come."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:pl] Wait For It",
+    "text": "[TODO:pl] Compassion is rising in her heart.\nDo not rush God's work.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Pray quietly and watch",
+        "feedback": "[TODO:pl] She cradles the baby."
+      }
+    ]
+  },
+  "compassion": {
+    "title": "[TODO:pl] Pity Moves Her",
+    "text": "[TODO:pl] She holds him close, tears in her eyes.\n\"I will keep him for my own.\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Send Miriam to offer a nurse",
+        "feedback": "[TODO:pl] Now is the moment, child."
+      },
+      {
+        "text": "[TODO:pl] Let Miriam keep silent forever",
+        "feedback": "[TODO:pl] God placed her here for this."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "[TODO:pl] Speak Now, Daughter",
+    "text": "[TODO:pl] This is why she was put here.\nLet her step forward in faith.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Let Miriam approach the princess",
+        "feedback": "[TODO:pl] She rises from the reeds."
+      }
+    ]
+  },
+  "miriam_offers": {
+    "title": "[TODO:pl] A Brave Little Voice",
+    "text": "[TODO:pl] Miriam steps out. \"Shall I find\na Hebrew nurse for the child?\"",
+    "choices": [
+      {
+        "text": "[TODO:pl] Suggest an Egyptian wet nurse",
+        "feedback": "[TODO:pl] He must come back to you."
+      },
+      {
+        "text": "[TODO:pl] Wait for the princess's answer",
+        "feedback": "[TODO:pl] \"Go,\" she says."
+      }
+    ]
+  },
+  "egyptian_consequence": {
+    "title": "[TODO:pl] He Belongs With You",
+    "text": "[TODO:pl] God arranged his return to your arms.\nDo not turn from the gift.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Wait for the princess to answer",
+        "feedback": "[TODO:pl] \"Go and bring her,\" she says."
+      }
+    ]
+  },
+  "yes_go": {
+    "title": "[TODO:pl] Run, Miriam",
+    "text": "[TODO:pl] Miriam runs through the reeds.\nShe finds you trembling and waiting.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Refuse to come, hiding in fear",
+        "feedback": "[TODO:pl] God is giving him back. Go."
+      },
+      {
+        "text": "[TODO:pl] Come at once to the princess",
+        "feedback": "[TODO:pl] You wipe your eyes and run."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:pl] Step Forward",
+    "text": "[TODO:pl] Faith now means meeting her face to face.\nGod has gone before you.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Go to the princess",
+        "feedback": "[TODO:pl] Your sandals slap the path."
+      }
+    ]
+  },
+  "before_princess": {
+    "title": "[TODO:pl] Before the Princess",
+    "text": "[TODO:pl] You bow low at the river's edge.\nShe places your son in your arms.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Confess that you are his mother",
+        "feedback": "[TODO:pl] Silence now serves God's plan."
+      },
+      {
+        "text": "[TODO:pl] Accept the wages and the child",
+        "feedback": "[TODO:pl] \"Take him. Nurse him for me.\""
+      }
+    ]
+  },
+  "confess_consequence": {
+    "title": "[TODO:pl] Hold Your Tongue",
+    "text": "[TODO:pl] Telling now could end it all.\nReceive the gift God prepared.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Bow and accept the child",
+        "feedback": "[TODO:pl] She smiles, none the wiser."
+      }
+    ]
+  },
+  "wages": {
+    "title": "[TODO:pl] Paid to Mother Him",
+    "text": "[TODO:pl] She pays you to nurse your own son.\nGod has done the impossible.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Refuse the wages out of pride",
+        "feedback": "[TODO:pl] Receive what God provides."
+      },
+      {
+        "text": "[TODO:pl] Take him home and raise him",
+        "feedback": "[TODO:pl] He sleeps against your chest."
+      }
+    ]
+  },
+  "pride_consequence": {
+    "title": "[TODO:pl] Receive the Blessing",
+    "text": "[TODO:pl] God's provision is not to be refused.\nTake the silver and your son.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Take him home",
+        "feedback": "[TODO:pl] You walk home weeping with joy."
+      }
+    ]
+  },
+  "home_again": {
+    "title": "[TODO:pl] Years of Whispered Songs",
+    "text": "[TODO:pl] You sing the songs of Abraham,\nof Isaac, of Jacob — into his ear.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Hide him forever from the palace",
+        "feedback": "[TODO:pl] He has a calling beyond home."
+      },
+      {
+        "text": "[TODO:pl] Prepare him to return to her",
+        "feedback": "[TODO:pl] You teach him who he truly is."
+      }
+    ]
+  },
+  "hide_forever_consequence": {
+    "title": "[TODO:pl] He Belongs to God",
+    "text": "[TODO:pl] He was given to you for a season.\nNow give him back to His purpose.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Prepare him for the palace",
+        "feedback": "[TODO:pl] You braid his hair with prayers."
+      }
+    ]
+  },
+  "return_palace": {
+    "title": "[TODO:pl] Back to the Princess",
+    "text": "[TODO:pl] He is weaned. The day has come.\nYou walk him to the palace gates.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Run away with him at the last",
+        "feedback": "[TODO:pl] Trust the God who saved him."
+      },
+      {
+        "text": "[TODO:pl] Place him in her arms",
+        "feedback": "[TODO:pl] She receives him as her son."
+      }
+    ]
+  },
+  "runaway_consequence": {
+    "title": "[TODO:pl] Let Him Go",
+    "text": "[TODO:pl] God has a great work for him.\nDo not hold him back from it.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Place him in her arms",
+        "feedback": "[TODO:pl] Her eyes shine with love."
+      }
+    ]
+  },
+  "named_moses": {
+    "title": "[TODO:pl] She Names Him Moses",
+    "text": "[TODO:pl] \"I drew him out of the water.\"\nMoses. The drawn-out one.",
+    "choices": [
+      {
+        "text": "[TODO:pl] Walk away in faith",
+        "feedback": "[TODO:pl] God's plan has only begun."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:pl] A Saved Deliverer",
+    "text": "[TODO:pl] You saved a baby from the river.\nGod is raising a deliverer for His people.",
+    "choices": []
+  }
+}

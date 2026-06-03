@@ -1,0 +1,213 @@
+{
+  "start": {
+    "title": "[TODO:tr] Two Men, One Temple",
+    "text": "[TODO:tr] Jesus speaks softly to the crowd,\n\"Two men went up to the temple to pray.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Decide you already know best",
+        "feedback": "[TODO:tr] Pride hears nothing new."
+      },
+      {
+        "text": "[TODO:tr] Lean in and listen",
+        "feedback": "[TODO:tr] Your heart grows still."
+      }
+    ]
+  },
+  "know_consequence": {
+    "title": "[TODO:tr] Listen Again",
+    "text": "[TODO:tr] Pride is the first wall against truth.\nLay it down and hear.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Lean in and listen",
+        "feedback": "[TODO:tr] You let your guard down."
+      }
+    ]
+  },
+  "temple": {
+    "title": "[TODO:tr] Into the Temple",
+    "text": "[TODO:tr] Light falls in long warm beams.\nTwo figures step inside to pray.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Judge them before they speak",
+        "feedback": "[TODO:tr] Wait. Watch first."
+      },
+      {
+        "text": "[TODO:tr] Watch each man in silence",
+        "feedback": "[TODO:tr] Your eyes soften."
+      }
+    ]
+  },
+  "judge_consequence": {
+    "title": "[TODO:tr] Hold Your Judgment",
+    "text": "[TODO:tr] God sees the heart, not the robe.\nWait and watch.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Watch each man in silence",
+        "feedback": "[TODO:tr] You hold your peace."
+      }
+    ]
+  },
+  "pharisee_pray": {
+    "title": "[TODO:tr] The Pharisee Stands",
+    "text": "[TODO:tr] The Pharisee lifts his hands and prays,\n\"God, I thank you I am not like others.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Admire his confident faith",
+        "feedback": "[TODO:tr] He prays to himself."
+      },
+      {
+        "text": "[TODO:tr] Notice he prays to himself",
+        "feedback": "[TODO:tr] Discernment grows."
+      }
+    ]
+  },
+  "admire_consequence": {
+    "title": "[TODO:tr] Look Again",
+    "text": "[TODO:tr] Loud prayer is not the same as true prayer.\nListen to what he says.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Notice he prays to himself",
+        "feedback": "[TODO:tr] Your eyes open."
+      }
+    ]
+  },
+  "boast": {
+    "title": "[TODO:tr] I Fast, I Give",
+    "text": "[TODO:tr] \"I fast twice a week. I give tithes.\"\nHis chest swells with each word.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Copy his proud posture",
+        "feedback": "[TODO:tr] Pride dries the soul."
+      },
+      {
+        "text": "[TODO:tr] Feel the emptiness in his voice",
+        "feedback": "[TODO:tr] You hear what is missing."
+      },
+      {
+        "text": "[TODO:tr] Wish you were as righteous",
+        "feedback": "[TODO:tr] True righteousness is humble."
+      }
+    ]
+  },
+  "copy_consequence": {
+    "title": "[TODO:tr] Do Not Copy",
+    "text": "[TODO:tr] Imitating pride builds nothing.\nGod looks lower than the loud.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Feel the emptiness in his voice",
+        "feedback": "[TODO:tr] You see through the words."
+      }
+    ]
+  },
+  "wish_consequence": {
+    "title": "[TODO:tr] Not That Way",
+    "text": "[TODO:tr] His list is long and his heart small.\nDo not envy that.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Feel the emptiness in his voice",
+        "feedback": "[TODO:tr] Envy fades quietly."
+      }
+    ]
+  },
+  "tax_far": {
+    "title": "[TODO:tr] Far From the Altar",
+    "text": "[TODO:tr] A tax collector stands in shadow,\neyes down, afraid to lift them.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Mock him for hiding back there",
+        "feedback": "[TODO:tr] Heaven is closer to him now."
+      },
+      {
+        "text": "[TODO:tr] Step closer with quiet respect",
+        "feedback": "[TODO:tr] Compassion rises in you."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:tr] Do Not Mock",
+    "text": "[TODO:tr] The lowest place is the holy place.\nDo not laugh at sorrow.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Step closer with quiet respect",
+        "feedback": "[TODO:tr] Your mockery fades."
+      }
+    ]
+  },
+  "mercy": {
+    "title": "[TODO:tr] Have Mercy on Me",
+    "text": "[TODO:tr] He strikes his chest and whispers,\n\"God, have mercy on me, a sinner.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Tell him to pray more impressively",
+        "feedback": "[TODO:tr] Heaven hears the broken cry."
+      },
+      {
+        "text": "[TODO:tr] Pray the same words with him",
+        "feedback": "[TODO:tr] Your lips form his prayer."
+      }
+    ]
+  },
+  "impress_consequence": {
+    "title": "[TODO:tr] Heaven Hears Honesty",
+    "text": "[TODO:tr] Short and true beats long and loud.\nPray with him instead.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Pray the same words with him",
+        "feedback": "[TODO:tr] Your heart bows."
+      }
+    ]
+  },
+  "forgiven": {
+    "title": "[TODO:tr] Lifted Up",
+    "text": "[TODO:tr] Light touches his bowed face.\nHe breathes as if for the first time.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Doubt that mercy is so easy",
+        "feedback": "[TODO:tr] Mercy is costly, but freely given."
+      },
+      {
+        "text": "[TODO:tr] Believe heaven has heard him",
+        "feedback": "[TODO:tr] Faith rises within you."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:tr] Mercy Is Real",
+    "text": "[TODO:tr] Mercy is not earned, only received.\nLet yourself believe.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Believe heaven has heard him",
+        "feedback": "[TODO:tr] Your doubt softens."
+      }
+    ]
+  },
+  "jesus_explains": {
+    "title": "[TODO:tr] The One Who Was Heard",
+    "text": "[TODO:tr] Jesus says, \"This man went home justified,\nnot the other.\"",
+    "choices": [
+      {
+        "text": "[TODO:tr] Argue the proud man deserved more",
+        "feedback": "[TODO:tr] Humility is the only door."
+      },
+      {
+        "text": "[TODO:tr] Receive the lesson in silence",
+        "feedback": "[TODO:tr] Your heart bends low."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:tr] The Door Is Low",
+    "text": "[TODO:tr] Only the bowed can enter mercy.\nThere is no other door.",
+    "choices": [
+      {
+        "text": "[TODO:tr] Receive the lesson in silence",
+        "feedback": "[TODO:tr] You let go of the argument."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:tr] Lifted by Humility",
+    "text": "[TODO:tr] Jesus looks at you and says softly,\n\"Whoever humbles himself will be lifted up.\"",
+    "choices": []
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "start": {
+    "title": "On the Road",
+    "text": "The pilgrims walk toward Jerusalem.\nThe feast of Passover draws near.",
+    "choices": [
+      {
+        "text": "Run ahead alone, far from them",
+        "feedback": "Stay near your family."
+      },
+      {
+        "text": "Walk beside Mary and Joseph",
+        "feedback": "You walk in quiet joy."
+      },
+      {
+        "text": "Refuse to go to the feast",
+        "feedback": "The feast is sacred."
+      }
+    ]
+  },
+  "stray_consequence": {
+    "title": "Walk Together",
+    "text": "The road is long and crowded.\nStay near your parents.",
+    "choices": [
+      {
+        "text": "Walk beside Mary and Joseph",
+        "feedback": "You return to their side."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Honor the Feast",
+    "text": "Passover is the holy memory of God.\nYou must go.",
+    "choices": [
+      {
+        "text": "Walk beside Mary and Joseph",
+        "feedback": "You step onto the road."
+      }
+    ]
+  },
+  "temple": {
+    "title": "The Temple Courts",
+    "text": "Sunlight falls on the great stones.\nVoices of teachers fill the air.",
+    "choices": [
+      {
+        "text": "Buy bread in the market",
+        "feedback": "Something deeper calls you."
+      },
+      {
+        "text": "Enter and listen to the teachers",
+        "feedback": "You step inside, drawn to the words."
+      }
+    ]
+  },
+  "market_consequence": {
+    "title": "His Father's House",
+    "text": "The temple is your true place.\nGo where wisdom is spoken.",
+    "choices": [
+      {
+        "text": "Enter and listen to the teachers",
+        "feedback": "You walk into the temple."
+      }
+    ]
+  },
+  "stay": {
+    "title": "When the Caravan Leaves",
+    "text": "The pilgrims begin to depart.\nThe teachers still speak of God.",
+    "choices": [
+      {
+        "text": "Stay to hear the words of God",
+        "feedback": "You sit at their feet."
+      },
+      {
+        "text": "Run after the caravan now",
+        "feedback": "Your true place is here."
+      },
+      {
+        "text": "Hide in the streets to play",
+        "feedback": "Do not waste this hour."
+      }
+    ]
+  },
+  "follow_consequence": {
+    "title": "Stay and Learn",
+    "text": "The Father's house holds you.\nYou are meant to remain.",
+    "choices": [
+      {
+        "text": "Stay to hear the words of God",
+        "feedback": "You sit again to listen."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Sacred Time",
+    "text": "Wisdom does not wait for play.\nReturn to the temple.",
+    "choices": [
+      {
+        "text": "Stay to hear the words of God",
+        "feedback": "You take your place again."
+      }
+    ]
+  },
+  "search": {
+    "title": "They Are Searching",
+    "text": "Three days pass in the temple.\nMary and Joseph walk Jerusalem in fear.",
+    "choices": [
+      {
+        "text": "Slip away and hide from them",
+        "feedback": "Do not flee from love."
+      },
+      {
+        "text": "Remain where they will find you",
+        "feedback": "You sit in quiet trust."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "Be Found",
+    "text": "They love you and seek you.\nWait where you belong.",
+    "choices": [
+      {
+        "text": "Remain where they will find you",
+        "feedback": "You stay in the temple."
+      }
+    ]
+  },
+  "teachers": {
+    "title": "Among the Wise",
+    "text": "The elders ask many questions.\nThey wait for your answer.",
+    "choices": [
+      {
+        "text": "Stay silent and say nothing",
+        "feedback": "Speak the truth in you."
+      },
+      {
+        "text": "Boast of your own greatness",
+        "feedback": "Wisdom is humble."
+      },
+      {
+        "text": "Answer with humble understanding",
+        "feedback": "They marvel at your words."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "Speak Gently",
+    "text": "Truth lives within you.\nLet it be heard.",
+    "choices": [
+      {
+        "text": "Answer with humble understanding",
+        "feedback": "Your soft voice fills the room."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Be Humble",
+    "text": "Wisdom is not for boasting.\nSpeak with quiet grace.",
+    "choices": [
+      {
+        "text": "Answer with humble understanding",
+        "feedback": "You speak with calm light."
+      }
+    ]
+  },
+  "reunion": {
+    "title": "Mary Finds You",
+    "text": "She weeps:\n\"Why have you done this to us?\"",
+    "choices": [
+      {
+        "text": "Blame her for losing you",
+        "feedback": "Honor your mother."
+      },
+      {
+        "text": "\"I was in my Father's house.\"",
+        "feedback": "She holds the words in her heart."
+      },
+      {
+        "text": "Run from her in shame",
+        "feedback": "Do not run from her love."
+      }
+    ]
+  },
+  "blame_consequence": {
+    "title": "Speak with Love",
+    "text": "She is your mother.\nAnswer her with grace.",
+    "choices": [
+      {
+        "text": "\"I was in my Father's house.\"",
+        "feedback": "Her tears soften."
+      }
+    ]
+  },
+  "shame_consequence": {
+    "title": "Stay With Her",
+    "text": "She has searched three days.\nGive her the truth.",
+    "choices": [
+      {
+        "text": "\"I was in my Father's house.\"",
+        "feedback": "She embraces you."
+      }
+    ]
+  },
+  "return": {
+    "title": "Home to Nazareth",
+    "text": "You walk with them under the dawn.\nYou grow in wisdom and grace.",
+    "choices": []
+  }
+}

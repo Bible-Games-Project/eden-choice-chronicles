@@ -1,0 +1,493 @@
+{
+  "start": {
+    "title": "The Road Back",
+    "text": "Egypt rises beyond the dust.\nThe land of your fear, and your call.",
+    "choices": [
+      {
+        "text": "Hide your face and turn back",
+        "feedback": "He did not send you to flee."
+      },
+      {
+        "text": "Walk on toward the city",
+        "feedback": "Each step is a vow kept."
+      },
+      {
+        "text": "Wait for a sign first",
+        "feedback": "The sign was the bush."
+      }
+    ]
+  },
+  "turn_back_consequence": {
+    "title": "There Is No Going Back",
+    "text": "Midian holds nothing for you now.\nThe call is in front, not behind.",
+    "choices": [
+      {
+        "text": "Walk on toward the city",
+        "feedback": "You set your face forward."
+      }
+    ]
+  },
+  "wait_sign_consequence": {
+    "title": "He Has Already Spoken",
+    "text": "The fire on Horeb was enough.\nObey before you ask again.",
+    "choices": [
+      {
+        "text": "Walk on toward the city",
+        "feedback": "You step forward."
+      }
+    ]
+  },
+  "meet_aaron": {
+    "title": "Aaron Comes to Meet You",
+    "text": "Your brother runs across the sand.\n\"The Lord sent me to find you.\"",
+    "choices": [
+      {
+        "text": "Embrace him as brother",
+        "feedback": "Joy returns to your bones."
+      },
+      {
+        "text": "Test him with hard words",
+        "feedback": "He is a gift, not a rival."
+      }
+    ]
+  },
+  "test_aaron_consequence": {
+    "title": "He Is Your Voice",
+    "text": "God Himself sent him to your side.\nReceive him with open arms.",
+    "choices": [
+      {
+        "text": "Embrace him as brother",
+        "feedback": "You hold him close."
+      }
+    ]
+  },
+  "tell_elders": {
+    "title": "Before the Elders of Israel",
+    "text": "Hebrew elders sit in the shadow.\nThey wait to hear from God.",
+    "choices": [
+      {
+        "text": "Speak the words God gave",
+        "feedback": "Aaron speaks beside you."
+      },
+      {
+        "text": "Soften the message for them",
+        "feedback": "His word is not yours to edit."
+      },
+      {
+        "text": "Boast of your own calling",
+        "feedback": "You are messenger, not master."
+      }
+    ]
+  },
+  "soften_consequence": {
+    "title": "Speak It Whole",
+    "text": "What He gave you, give to them.\nDo not trim His word.",
+    "choices": [
+      {
+        "text": "Speak the words God gave",
+        "feedback": "You begin again."
+      }
+    ]
+  },
+  "boast_elders_consequence": {
+    "title": "Not Your Glory",
+    "text": "It is His name that frees them.\nLower your eyes and speak.",
+    "choices": [
+      {
+        "text": "Speak the words God gave",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "elders_believe": {
+    "title": "And They Believed",
+    "text": "The signs are shown. The elders bow.\n\"The Lord has seen us at last.\"",
+    "choices": [
+      {
+        "text": "Set out for the palace",
+        "feedback": "Your heart steadies."
+      }
+    ]
+  },
+  "palace_gates": {
+    "title": "Gates of Pharaoh",
+    "text": "Stone giants flank the entrance.\nGuards watch you with cold eyes.",
+    "choices": [
+      {
+        "text": "Ask audience with the king",
+        "feedback": "You speak with steady voice."
+      },
+      {
+        "text": "Force your way past guards",
+        "feedback": "Iron will not open this door."
+      },
+      {
+        "text": "Bribe the gatekeeper",
+        "feedback": "God's word does not need silver."
+      }
+    ]
+  },
+  "force_consequence": {
+    "title": "Not by Strength",
+    "text": "Spears bar your way at once.\nAsk, do not seize.",
+    "choices": [
+      {
+        "text": "Ask audience with the king",
+        "feedback": "You step back, then forward."
+      }
+    ]
+  },
+  "bribe_consequence": {
+    "title": "His Word, Not Coin",
+    "text": "You carry the name of the Lord.\nThat is gate enough.",
+    "choices": [
+      {
+        "text": "Ask audience with the king",
+        "feedback": "You hide the silver away."
+      }
+    ]
+  },
+  "court_official": {
+    "title": "The King's Servant",
+    "text": "A bald scribe blocks the way.\n\"State your name and your god.\"",
+    "choices": [
+      {
+        "text": "\"The God of the Hebrews sent us\"",
+        "feedback": "He stiffens at the words."
+      },
+      {
+        "text": "Hide who sent you",
+        "feedback": "Hide His name and lose it."
+      }
+    ]
+  },
+  "hide_sender_consequence": {
+    "title": "Do Not Hide Him",
+    "text": "He sent you in His name.\nSpeak it, even here.",
+    "choices": [
+      {
+        "text": "\"The God of the Hebrews sent us\"",
+        "feedback": "Your voice grows firm."
+      }
+    ]
+  },
+  "enter_throne_hall": {
+    "title": "Into the Light",
+    "text": "A shaft of sun falls on the throne.\nPharaoh waits, still as stone.",
+    "choices": [
+      {
+        "text": "Approach with reverence to God",
+        "feedback": "You bow only to Heaven."
+      },
+      {
+        "text": "Kneel and worship Pharaoh",
+        "feedback": "He is not your god."
+      },
+      {
+        "text": "Run from the hall",
+        "feedback": "Stand. He is with you."
+      }
+    ]
+  },
+  "worship_consequence": {
+    "title": "Bow Only to Him",
+    "text": "No man wears the crown of God.\nStand and speak the truth.",
+    "choices": [
+      {
+        "text": "Approach with reverence to God",
+        "feedback": "You rise from your knees."
+      }
+    ]
+  },
+  "run_hall_consequence": {
+    "title": "Do Not Flee Now",
+    "text": "He has gone before you here.\nSet your feet and speak.",
+    "choices": [
+      {
+        "text": "Approach with reverence to God",
+        "feedback": "You walk forward."
+      }
+    ]
+  },
+  "before_pharaoh": {
+    "title": "The First Word",
+    "text": "Pharaoh's eyes weigh you in silence.\nThe court holds its breath.",
+    "choices": [
+      {
+        "text": "\"Let my people go.\"",
+        "feedback": "The words ring across the hall."
+      },
+      {
+        "text": "Beg favors for the Hebrews",
+        "feedback": "It is a command, not a plea."
+      },
+      {
+        "text": "Threaten him with armies",
+        "feedback": "Your strength is His name."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "Speak the Lord's Word",
+    "text": "Pity is not the message.\nDeliverance is.",
+    "choices": [
+      {
+        "text": "\"Let my people go.\"",
+        "feedback": "You straighten and speak."
+      }
+    ]
+  },
+  "threaten_consequence": {
+    "title": "His Word Is Enough",
+    "text": "You have no army at your back.\nYou have His name on your lips.",
+    "choices": [
+      {
+        "text": "\"Let my people go.\"",
+        "feedback": "You speak it again, plainly."
+      }
+    ]
+  },
+  "pharaoh_mocks": {
+    "title": "\"Who Is the Lord?\"",
+    "text": "\"I do not know your God,\nand I will not let Israel go.\"",
+    "choices": [
+      {
+        "text": "Hold the word of the Lord",
+        "feedback": "Your voice does not shake."
+      },
+      {
+        "text": "Curse Pharaoh in anger",
+        "feedback": "Speak God's word, not yours."
+      },
+      {
+        "text": "Apologize and withdraw",
+        "feedback": "Do not unsay His command."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Not Your Wrath",
+    "text": "Judgment belongs to the Lord.\nSpeak only what He gave.",
+    "choices": [
+      {
+        "text": "Hold the word of the Lord",
+        "feedback": "You quiet your tongue."
+      }
+    ]
+  },
+  "apologize_consequence": {
+    "title": "Do Not Take It Back",
+    "text": "His command stands, even here.\nRepeat it, do not retract it.",
+    "choices": [
+      {
+        "text": "Hold the word of the Lord",
+        "feedback": "You hold the line."
+      }
+    ]
+  },
+  "demand_again": {
+    "title": "A Three Days' Journey",
+    "text": "\"Let us go to sacrifice in the desert,\nlest plague or sword find us.\"",
+    "choices": [
+      {
+        "text": "Speak the request as given",
+        "feedback": "You deliver it whole."
+      },
+      {
+        "text": "Lie about your true purpose",
+        "feedback": "Truth is your only ground."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "Do Not Lie for God",
+    "text": "His work needs no deceit.\nSpeak only what He told you.",
+    "choices": [
+      {
+        "text": "Speak the request as given",
+        "feedback": "You speak the truth."
+      }
+    ]
+  },
+  "pharaoh_refuses": {
+    "title": "Pharaoh's Wrath",
+    "text": "\"You make the people idle!\nReturn to your burdens — now.\"",
+    "choices": [
+      {
+        "text": "Stand silent before his rage",
+        "feedback": "You will not bow to him."
+      },
+      {
+        "text": "Argue louder with the king",
+        "feedback": "His heart only hardens more."
+      },
+      {
+        "text": "Flee the throne hall",
+        "feedback": "Walk out, do not run."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "His Heart Is Stone",
+    "text": "Words alone will not move him.\nLet the Lord answer.",
+    "choices": [
+      {
+        "text": "Stand silent before his rage",
+        "feedback": "You hold your peace."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "Do Not Run",
+    "text": "You came as a messenger of God.\nLeave standing, not fleeing.",
+    "choices": [
+      {
+        "text": "Stand silent before his rage",
+        "feedback": "You straighten your shoulders."
+      }
+    ]
+  },
+  "harsher_labor": {
+    "title": "No More Straw",
+    "text": "\"Let them gather their own straw.\nThe quota will not be lessened.\"",
+    "choices": [
+      {
+        "text": "Carry the news to the people",
+        "feedback": "Hard truth, faithfully borne."
+      },
+      {
+        "text": "Hide the new decree from them",
+        "feedback": "They will know either way."
+      }
+    ]
+  },
+  "hide_decree_consequence": {
+    "title": "They Must Know",
+    "text": "Silence will not soften the blow.\nGo and speak the truth.",
+    "choices": [
+      {
+        "text": "Carry the news to the people",
+        "feedback": "You walk back to Goshen."
+      }
+    ]
+  },
+  "foremen_beaten": {
+    "title": "The Foremen Bleed",
+    "text": "Hebrew foremen are struck for failing.\nBricks lie scattered in the dust.",
+    "choices": [
+      {
+        "text": "Stay among the suffering",
+        "feedback": "You do not turn away."
+      },
+      {
+        "text": "Hide your face from them",
+        "feedback": "They are still your people."
+      },
+      {
+        "text": "Strike a guard in vengeance",
+        "feedback": "That sin already cost you years."
+      }
+    ]
+  },
+  "hide_face_consequence": {
+    "title": "Do Not Look Away",
+    "text": "Their wounds are part of the call.\nStand with them.",
+    "choices": [
+      {
+        "text": "Stay among the suffering",
+        "feedback": "You step into the dust."
+      }
+    ]
+  },
+  "strike_guard_consequence": {
+    "title": "Not Again",
+    "text": "Once before you struck in rage.\nThis time, trust the Lord.",
+    "choices": [
+      {
+        "text": "Stay among the suffering",
+        "feedback": "You lower your hand."
+      }
+    ]
+  },
+  "israelites_blame": {
+    "title": "\"You Have Made Us Hated\"",
+    "text": "The foremen turn on you in grief.\n\"Pharaoh's sword is at our throats.\"",
+    "choices": [
+      {
+        "text": "Take the blame in silence",
+        "feedback": "You bear the weight."
+      },
+      {
+        "text": "Defend yourself proudly",
+        "feedback": "Their pain is real. Listen."
+      },
+      {
+        "text": "Curse them for their unbelief",
+        "feedback": "They are crushed, not faithless."
+      }
+    ]
+  },
+  "defend_consequence": {
+    "title": "Hear Their Pain",
+    "text": "Their backs bleed for your words.\nLet them speak it out.",
+    "choices": [
+      {
+        "text": "Take the blame in silence",
+        "feedback": "You lower your eyes."
+      }
+    ]
+  },
+  "curse_people_consequence": {
+    "title": "They Are Yours",
+    "text": "These are the flock you were given.\nDo not curse what He blesses.",
+    "choices": [
+      {
+        "text": "Take the blame in silence",
+        "feedback": "You hold your tongue."
+      }
+    ]
+  },
+  "moses_cries_out": {
+    "title": "Alone Before God",
+    "text": "Night falls on the brick fields.\nYou kneel beneath the cold stars.",
+    "choices": [
+      {
+        "text": "Cry out: \"Why send me, Lord?\"",
+        "feedback": "Honest grief is still prayer."
+      },
+      {
+        "text": "Resign and go back to Midian",
+        "feedback": "You cannot return now."
+      },
+      {
+        "text": "Blame Aaron for the failure",
+        "feedback": "The burden is yours, not his."
+      }
+    ]
+  },
+  "resign_consequence": {
+    "title": "He Is Not Done",
+    "text": "The work has barely begun.\nLift your eyes to Him.",
+    "choices": [
+      {
+        "text": "Cry out: \"Why send me, Lord?\"",
+        "feedback": "You raise your face."
+      }
+    ]
+  },
+  "blame_aaron_consequence": {
+    "title": "He Is Your Helper",
+    "text": "Aaron was given to your weakness.\nDo not turn on him.",
+    "choices": [
+      {
+        "text": "Cry out: \"Why send me, Lord?\"",
+        "feedback": "You bring it to God instead."
+      }
+    ]
+  },
+  "ending": {
+    "title": "The Lord Will Answer",
+    "text": "Wind moves over the dark sand.\nHis hand is not yet revealed.",
+    "choices": []
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "[TODO:it] A Hidden Wound",
+    "text": "[TODO:it] Beneath your armor, the leprosy spreads.\nA young Israelite servant whispers of a prophet.",
+    "choices": [
+      {
+        "text": "[TODO:it] Curse her foreign god",
+        "feedback": "[TODO:it] Pride keeps your wound hidden."
+      },
+      {
+        "text": "[TODO:it] Hide the disease forever",
+        "feedback": "[TODO:it] Silence will not heal you."
+      },
+      {
+        "text": "[TODO:it] Listen to the servant girl",
+        "feedback": "[TODO:it] Wisdom can come from the small."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:it] Soften Your Heart",
+    "text": "[TODO:it] Her words are not a threat.\nThey may be the only door open to you.",
+    "choices": [
+      {
+        "text": "[TODO:it] Listen to the servant girl",
+        "feedback": "[TODO:it] You set down your pride and listen."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:it] No More Hiding",
+    "text": "[TODO:it] The mark grows beneath your armor.\nOnly truth can lead to healing.",
+    "choices": [
+      {
+        "text": "[TODO:it] Listen to the servant girl",
+        "feedback": "[TODO:it] You turn to her quiet voice."
+      }
+    ]
+  },
+  "journey": {
+    "title": "[TODO:it] Letters and Gold",
+    "text": "[TODO:it] The king sends silver, gold, and a letter.\nThe road to Israel waits.",
+    "choices": [
+      {
+        "text": "[TODO:it] Demand healing from a king",
+        "feedback": "[TODO:it] No king holds this gift."
+      },
+      {
+        "text": "[TODO:it] Seek out the prophet Elisha",
+        "feedback": "[TODO:it] The Lord works through His servant."
+      }
+    ]
+  },
+  "king_consequence": {
+    "title": "[TODO:it] Not by Royal Hand",
+    "text": "[TODO:it] Israel's king tears his robe in fear.\nThe prophet sends word: come to him.",
+    "choices": [
+      {
+        "text": "[TODO:it] Seek out the prophet Elisha",
+        "feedback": "[TODO:it] You turn the chariot toward Elisha."
+      }
+    ]
+  },
+  "arrival": {
+    "title": "[TODO:it] A Closed Door",
+    "text": "[TODO:it] Your chariot waits at the prophet's house.\nElisha does not come out.",
+    "choices": [
+      {
+        "text": "[TODO:it] Wait quietly for his word",
+        "feedback": "[TODO:it] Stillness opens the heart."
+      },
+      {
+        "text": "[TODO:it] Force the door open",
+        "feedback": "[TODO:it] Healing is not seized."
+      },
+      {
+        "text": "[TODO:it] Throw gold at the threshold",
+        "feedback": "[TODO:it] Grace is not bought."
+      }
+    ]
+  },
+  "force_consequence": {
+    "title": "[TODO:it] Lower Your Sword",
+    "text": "[TODO:it] Strength will not heal your skin.\nWait, and listen.",
+    "choices": [
+      {
+        "text": "[TODO:it] Wait quietly for his word",
+        "feedback": "[TODO:it] You step back from the door."
+      }
+    ]
+  },
+  "gold_consequence": {
+    "title": "[TODO:it] Treasures Will Not Cleanse",
+    "text": "[TODO:it] Your silver cannot reach the wound.\nThe prophet asks no payment.",
+    "choices": [
+      {
+        "text": "[TODO:it] Wait quietly for his word",
+        "feedback": "[TODO:it] You gather the coins back in."
+      }
+    ]
+  },
+  "instruction": {
+    "title": "[TODO:it] Wash Seven Times",
+    "text": "[TODO:it] The messenger speaks for the prophet.\n\"Wash in the Jordan and be clean.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Refuse — the rivers at home are better",
+        "feedback": "[TODO:it] Pride blinds you to mercy."
+      },
+      {
+        "text": "[TODO:it] Demand a grand ceremony",
+        "feedback": "[TODO:it] God does not need a stage."
+      },
+      {
+        "text": "[TODO:it] Listen to your servants",
+        "feedback": "[TODO:it] Humble counsel softens stone."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:it] If It Were a Great Thing",
+    "text": "[TODO:it] Your servants whisper at your side.\n\"If he had asked something hard, would you not do it?\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Listen to your servants",
+        "feedback": "[TODO:it] Their words land deep."
+      }
+    ]
+  },
+  "ceremony_consequence": {
+    "title": "[TODO:it] Lay Down the Show",
+    "text": "[TODO:it] There is no parade, no fire, no chant.\nOnly muddy water and obedience.",
+    "choices": [
+      {
+        "text": "[TODO:it] Listen to your servants",
+        "feedback": "[TODO:it] You let go of the spectacle."
+      }
+    ]
+  },
+  "jordan": {
+    "title": "[TODO:it] Into the Brown Water",
+    "text": "[TODO:it] The Jordan flows slow and muddy.\nYou step in, armor laid aside.",
+    "choices": [
+      {
+        "text": "[TODO:it] Wash once and turn away",
+        "feedback": "[TODO:it] Half-faith leaves you unchanged."
+      },
+      {
+        "text": "[TODO:it] Bow and dip seven times",
+        "feedback": "[TODO:it] Each dip drowns a piece of pride."
+      }
+    ]
+  },
+  "once_consequence": {
+    "title": "[TODO:it] Finish What He Said",
+    "text": "[TODO:it] His word was seven, not one.\nReturn into the water.",
+    "choices": [
+      {
+        "text": "[TODO:it] Bow and dip seven times",
+        "feedback": "[TODO:it] You sink beneath the current again."
+      }
+    ]
+  },
+  "healed": {
+    "title": "[TODO:it] Skin Like a Child",
+    "text": "[TODO:it] You rise from the water clean.\n\"Now I know the God of Israel is true.\"",
+    "choices": []
+  }
+}

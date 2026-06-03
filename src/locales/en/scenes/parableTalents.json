@@ -1,0 +1,237 @@
+{
+  "start": {
+    "title": "The Parable",
+    "text": "Jesus turns to you.\n\"A man entrusted his wealth to his servants.\"",
+    "choices": [
+      {
+        "text": "Walk away, unconcerned",
+        "feedback": "Stay. This story is for you."
+      },
+      {
+        "text": "Listen with open heart",
+        "feedback": "His voice steadies you."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "Come Back",
+    "text": "Every gift in your hand waits.\nReturn and hear.",
+    "choices": [
+      {
+        "text": "Listen with open heart",
+        "feedback": "You step closer."
+      }
+    ]
+  },
+  "giving": {
+    "title": "The Master Gives",
+    "text": "He hands out talents:\nfive, two, and one, each by ability.",
+    "choices": [
+      {
+        "text": "Resent the smaller share",
+        "feedback": "Each gift is fully yours."
+      },
+      {
+        "text": "Receive what is given to you",
+        "feedback": "Your hands open."
+      }
+    ]
+  },
+  "resent_consequence": {
+    "title": "Yours Is Enough",
+    "text": "Envy buries every talent.\nReceive what is yours.",
+    "choices": [
+      {
+        "text": "Receive what is given to you",
+        "feedback": "Resentment fades."
+      }
+    ]
+  },
+  "five": {
+    "title": "Five Talents",
+    "text": "The first servant lifts five bags.\n\"I will go and trade at once.\"",
+    "choices": [
+      {
+        "text": "Mock his ambition",
+        "feedback": "Courage is not pride."
+      },
+      {
+        "text": "Honor his courage",
+        "feedback": "You nod with respect."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "He Walks in Faith",
+    "text": "He trusts what was placed in him.\nLearn from his step.",
+    "choices": [
+      {
+        "text": "Honor his courage",
+        "feedback": "Your mockery softens."
+      }
+    ]
+  },
+  "two": {
+    "title": "Two Talents",
+    "text": "The second weighs two coins.\nHe sets out quietly to work.",
+    "choices": [
+      {
+        "text": "Tell him to wait for more",
+        "feedback": "Begin with what you hold."
+      },
+      {
+        "text": "Bless his small beginning",
+        "feedback": "Small starts grow far."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "Begin Today",
+    "text": "Tomorrow has its own seeds.\nUse what is in your hand.",
+    "choices": [
+      {
+        "text": "Bless his small beginning",
+        "feedback": "You let him go."
+      }
+    ]
+  },
+  "one": {
+    "title": "One Talent",
+    "text": "The third digs a hole at dusk.\nHe buries his single coin in fear.",
+    "choices": [
+      {
+        "text": "Tell him fear is wisdom",
+        "feedback": "Fear hides what should shine."
+      },
+      {
+        "text": "Hide your own gift as well",
+        "feedback": "Buried gifts feed no one."
+      },
+      {
+        "text": "Beg him to use it instead",
+        "feedback": "Your voice trembles for him."
+      }
+    ]
+  },
+  "fear_consequence": {
+    "title": "Fear Is Not Faith",
+    "text": "Caution that buries is not wise.\nIt is faithless.",
+    "choices": [
+      {
+        "text": "Beg him to use it instead",
+        "feedback": "You change your mind."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Lift It Out",
+    "text": "No gift was meant for the dark.\nDig it up again.",
+    "choices": [
+      {
+        "text": "Beg him to use it instead",
+        "feedback": "You uncover yours too."
+      }
+    ]
+  },
+  "return": {
+    "title": "The Master Returns",
+    "text": "After a long time he comes back.\n\"Show me what you have done.\"",
+    "choices": [
+      {
+        "text": "Make excuses for everyone",
+        "feedback": "Account for yourself."
+      },
+      {
+        "text": "Stand and give your account",
+        "feedback": "You step forward calmly."
+      }
+    ]
+  },
+  "excuse_consequence": {
+    "title": "Own Your Work",
+    "text": "Each life answers for itself.\nSpeak for what is yours.",
+    "choices": [
+      {
+        "text": "Stand and give your account",
+        "feedback": "Your voice steadies."
+      }
+    ]
+  },
+  "reward_five": {
+    "title": "Well Done",
+    "text": "The first brings ten talents.\n\"Well done, good and faithful servant.\"",
+    "choices": [
+      {
+        "text": "Envy his great reward",
+        "feedback": "His joy can be yours too."
+      },
+      {
+        "text": "Rejoice with his master",
+        "feedback": "Joy fills the room."
+      }
+    ]
+  },
+  "envy_consequence": {
+    "title": "Run Your Race",
+    "text": "Faithfulness, not size, is praised.\nYou will be measured the same.",
+    "choices": [
+      {
+        "text": "Rejoice with his master",
+        "feedback": "Envy melts away."
+      }
+    ]
+  },
+  "reward_two": {
+    "title": "Equal Praise",
+    "text": "The second brings four talents.\n\"Well done. Enter into joy.\"",
+    "choices": [
+      {
+        "text": "Decide small gifts don't matter",
+        "feedback": "Heaven counts faithfulness."
+      },
+      {
+        "text": "See that faithfulness is praised",
+        "feedback": "A truth settles in you."
+      }
+    ]
+  },
+  "small_consequence": {
+    "title": "All of It Matters",
+    "text": "Two talents earned the same words.\nNothing given is too small.",
+    "choices": [
+      {
+        "text": "See that faithfulness is praised",
+        "feedback": "Your view shifts."
+      }
+    ]
+  },
+  "judgment_one": {
+    "title": "I Was Afraid",
+    "text": "The third holds out a dirty coin.\n\"I was afraid. I hid it away.\"",
+    "choices": [
+      {
+        "text": "Defend his fear as humble",
+        "feedback": "Fear was never his master's wish."
+      },
+      {
+        "text": "Mourn what was never used",
+        "feedback": "Tears rise for the buried gift."
+      }
+    ]
+  },
+  "defend_consequence": {
+    "title": "Fear Is Not Humility",
+    "text": "True humility uses the gift.\nIt does not hide.",
+    "choices": [
+      {
+        "text": "Mourn what was never used",
+        "feedback": "You sit with the truth."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Use What You Hold",
+    "text": "Jesus looks at you and says,\n\"To everyone given much, much is asked.\"",
+    "choices": []
+  }
+}

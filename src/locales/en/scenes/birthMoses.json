@@ -1,0 +1,501 @@
+{
+  "start": {
+    "title": "Pharaoh's Decree",
+    "text": "Soldiers shout in the streets.\n\"Every Hebrew son must die.\"",
+    "choices": [
+      {
+        "text": "Hand the baby to a soldier",
+        "feedback": "Never. He is God's gift."
+      },
+      {
+        "text": "Hide your newborn son",
+        "feedback": "Faith stronger than fear."
+      },
+      {
+        "text": "Run into the desert tonight",
+        "feedback": "The night swallows the weak."
+      }
+    ]
+  },
+  "hand_consequence": {
+    "title": "No, Never",
+    "text": "Your arms tighten around him.\nGod did not give him to be killed.",
+    "choices": [
+      {
+        "text": "Hide him in your home",
+        "feedback": "You bolt the door."
+      }
+    ]
+  },
+  "flee_consequence": {
+    "title": "Too Dangerous",
+    "text": "The desert by night is no place\nfor a newborn. Stay. Hide him.",
+    "choices": [
+      {
+        "text": "Hide him in your home",
+        "feedback": "You return to the cradle."
+      }
+    ]
+  },
+  "hide_home": {
+    "title": "Three Months Hidden",
+    "text": "You nurse him in silence.\nEvery cry could end his life.",
+    "choices": [
+      {
+        "text": "Trust God and keep hiding",
+        "feedback": "Each day is a small miracle."
+      },
+      {
+        "text": "Show him proudly to neighbors",
+        "feedback": "Pride could betray him."
+      }
+    ]
+  },
+  "show_consequence": {
+    "title": "Silence Saves Him",
+    "text": "A loud word could reach the guards.\nGuard him in quiet.",
+    "choices": [
+      {
+        "text": "Keep hiding him in silence",
+        "feedback": "You return to the shadows."
+      }
+    ]
+  },
+  "growing_baby": {
+    "title": "He Grows",
+    "text": "He is too big to hide much longer.\nHis cries fill the small room.",
+    "choices": [
+      {
+        "text": "Bury him in the floor",
+        "feedback": "He needs air, not a grave."
+      },
+      {
+        "text": "Pray and seek God's plan",
+        "feedback": "An idea begins to rise."
+      }
+    ]
+  },
+  "bury_consequence": {
+    "title": "Not That Way",
+    "text": "Despair cannot save him.\nKneel and ask the God of your fathers.",
+    "choices": [
+      {
+        "text": "Pray for guidance",
+        "feedback": "Peace settles in your chest."
+      }
+    ]
+  },
+  "prayer": {
+    "title": "A Quiet Plea",
+    "text": "\"God of Abraham, save my son.\"\nA thought stirs: the river. The reeds.",
+    "choices": [
+      {
+        "text": "Ignore it and keep hiding",
+        "feedback": "Hiding will not last."
+      },
+      {
+        "text": "Trust the thought from God",
+        "feedback": "You reach for the papyrus."
+      }
+    ]
+  },
+  "ignore_consequence": {
+    "title": "Trust the Whisper",
+    "text": "God speaks softly to faithful hearts.\nDo not silence Him now.",
+    "choices": [
+      {
+        "text": "Begin weaving a basket",
+        "feedback": "Your hands move with purpose."
+      }
+    ]
+  },
+  "weave_basket": {
+    "title": "Papyrus and Pitch",
+    "text": "You weave through the night.\nTar and pitch will keep him dry.",
+    "choices": [
+      {
+        "text": "Use a fragile clay pot",
+        "feedback": "Clay would crack and sink."
+      },
+      {
+        "text": "Coat the basket with pitch",
+        "feedback": "It will float and stay sealed."
+      }
+    ]
+  },
+  "clay_consequence": {
+    "title": "Not Clay",
+    "text": "Only pitch can keep the river out.\nSeal it carefully.",
+    "choices": [
+      {
+        "text": "Coat it with pitch",
+        "feedback": "The seams hold tight."
+      }
+    ]
+  },
+  "miriam_called": {
+    "title": "Miriam, Your Daughter",
+    "text": "Your daughter watches you wide-eyed.\n\"Mother, what are you doing?\"",
+    "choices": [
+      {
+        "text": "Send her away in anger",
+        "feedback": "She is your ally, not enemy."
+      },
+      {
+        "text": "Tell her to come with you",
+        "feedback": "She nods, brave like her mother."
+      },
+      {
+        "text": "Lie to keep her safe",
+        "feedback": "She must understand the truth."
+      }
+    ]
+  },
+  "anger_consequence": {
+    "title": "Not Now",
+    "text": "She is small but faithful.\nYou will need her at the river.",
+    "choices": [
+      {
+        "text": "Take her with you",
+        "feedback": "She slips her hand into yours."
+      }
+    ]
+  },
+  "lie_consequence": {
+    "title": "Truth, Gently",
+    "text": "A lie cannot guard her brother.\nTell her plainly. Trust her.",
+    "choices": [
+      {
+        "text": "Tell her the truth",
+        "feedback": "Her chin lifts. She is ready."
+      }
+    ]
+  },
+  "to_river": {
+    "title": "To the Reeds",
+    "text": "Before dawn, you slip out the door.\nThe Nile breathes mist ahead.",
+    "choices": [
+      {
+        "text": "Throw him into the open river",
+        "feedback": "The current would take him."
+      },
+      {
+        "text": "Hide the basket in the reeds",
+        "feedback": "Calm water. Sheltered. Safe."
+      }
+    ]
+  },
+  "throw_consequence": {
+    "title": "Among the Reeds",
+    "text": "He must rest where the water is still.\nGod chose this place for a reason.",
+    "choices": [
+      {
+        "text": "Place him gently in the reeds",
+        "feedback": "The basket bobs softly."
+      }
+    ]
+  },
+  "place_basket": {
+    "title": "The Hardest Goodbye",
+    "text": "You lower the basket into the reeds.\nHis tiny breath rises and falls.",
+    "choices": [
+      {
+        "text": "Snatch him back and run home",
+        "feedback": "Faith means letting go."
+      },
+      {
+        "text": "Whisper a blessing and step back",
+        "feedback": "\"The Lord keep you, my son.\""
+      }
+    ]
+  },
+  "snatch_consequence": {
+    "title": "Trust God Now",
+    "text": "If you take him home, he will die.\nThe river is his only path.",
+    "choices": [
+      {
+        "text": "Bless him and let him go",
+        "feedback": "Tears fall on the reeds."
+      }
+    ]
+  },
+  "miriam_watch": {
+    "title": "Miriam Stays",
+    "text": "You leave Miriam to keep watch.\n\"Stay hidden. See what becomes of him.\"",
+    "choices": [
+      {
+        "text": "Order her to swim with the basket",
+        "feedback": "She would drown in the current."
+      },
+      {
+        "text": "Tell her to hide and watch",
+        "feedback": "She kneels behind tall reeds."
+      }
+    ]
+  },
+  "swim_consequence": {
+    "title": "Watch From Shore",
+    "text": "She is a child. She must hide and pray.\nGod will move others.",
+    "choices": [
+      {
+        "text": "Tell her to watch from the reeds",
+        "feedback": "She crouches, silent and still."
+      }
+    ]
+  },
+  "princess_arrives": {
+    "title": "Royal Footsteps",
+    "text": "Sandals on stone. Silk on the wind.\nPharaoh's daughter comes to bathe.",
+    "choices": [
+      {
+        "text": "Throw a stone to scare her off",
+        "feedback": "She is the answer, not the threat."
+      },
+      {
+        "text": "Wait and watch in silence",
+        "feedback": "Miriam holds her breath."
+      }
+    ]
+  },
+  "stone_consequence": {
+    "title": "Do Not Interfere",
+    "text": "God is opening a door no one expected.\nDo not slam it shut.",
+    "choices": [
+      {
+        "text": "Wait and trust God",
+        "feedback": "The princess steps closer."
+      }
+    ]
+  },
+  "she_sees": {
+    "title": "She Sees the Basket",
+    "text": "She points among the reeds.\n\"Bring me that basket.\"",
+    "choices": [
+      {
+        "text": "Pray she opens it gently",
+        "feedback": "Your heart pounds in the reeds."
+      },
+      {
+        "text": "Have Miriam shout a warning",
+        "feedback": "Silence now, child. Trust God."
+      }
+    ]
+  },
+  "shout_consequence": {
+    "title": "Silence is Wiser",
+    "text": "A shout would expose everything.\nLet the moment unfold.",
+    "choices": [
+      {
+        "text": "Stay hidden and pray",
+        "feedback": "The basket rises slowly."
+      }
+    ]
+  },
+  "she_opens": {
+    "title": "A Hebrew Child",
+    "text": "She lifts the lid. He cries.\n\"He is one of the Hebrew babies.\"",
+    "choices": [
+      {
+        "text": "Whisper a blessing for her heart",
+        "feedback": "Her face softens."
+      },
+      {
+        "text": "Have Miriam beg her loudly",
+        "feedback": "Wait. The right moment will come."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "Wait For It",
+    "text": "Compassion is rising in her heart.\nDo not rush God's work.",
+    "choices": [
+      {
+        "text": "Pray quietly and watch",
+        "feedback": "She cradles the baby."
+      }
+    ]
+  },
+  "compassion": {
+    "title": "Pity Moves Her",
+    "text": "She holds him close, tears in her eyes.\n\"I will keep him for my own.\"",
+    "choices": [
+      {
+        "text": "Send Miriam to offer a nurse",
+        "feedback": "Now is the moment, child."
+      },
+      {
+        "text": "Let Miriam keep silent forever",
+        "feedback": "God placed her here for this."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "Speak Now, Daughter",
+    "text": "This is why she was put here.\nLet her step forward in faith.",
+    "choices": [
+      {
+        "text": "Let Miriam approach the princess",
+        "feedback": "She rises from the reeds."
+      }
+    ]
+  },
+  "miriam_offers": {
+    "title": "A Brave Little Voice",
+    "text": "Miriam steps out. \"Shall I find\na Hebrew nurse for the child?\"",
+    "choices": [
+      {
+        "text": "Suggest an Egyptian wet nurse",
+        "feedback": "He must come back to you."
+      },
+      {
+        "text": "Wait for the princess's answer",
+        "feedback": "\"Go,\" she says."
+      }
+    ]
+  },
+  "egyptian_consequence": {
+    "title": "He Belongs With You",
+    "text": "God arranged his return to your arms.\nDo not turn from the gift.",
+    "choices": [
+      {
+        "text": "Wait for the princess to answer",
+        "feedback": "\"Go and bring her,\" she says."
+      }
+    ]
+  },
+  "yes_go": {
+    "title": "Run, Miriam",
+    "text": "Miriam runs through the reeds.\nShe finds you trembling and waiting.",
+    "choices": [
+      {
+        "text": "Refuse to come, hiding in fear",
+        "feedback": "God is giving him back. Go."
+      },
+      {
+        "text": "Come at once to the princess",
+        "feedback": "You wipe your eyes and run."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Step Forward",
+    "text": "Faith now means meeting her face to face.\nGod has gone before you.",
+    "choices": [
+      {
+        "text": "Go to the princess",
+        "feedback": "Your sandals slap the path."
+      }
+    ]
+  },
+  "before_princess": {
+    "title": "Before the Princess",
+    "text": "You bow low at the river's edge.\nShe places your son in your arms.",
+    "choices": [
+      {
+        "text": "Confess that you are his mother",
+        "feedback": "Silence now serves God's plan."
+      },
+      {
+        "text": "Accept the wages and the child",
+        "feedback": "\"Take him. Nurse him for me.\""
+      }
+    ]
+  },
+  "confess_consequence": {
+    "title": "Hold Your Tongue",
+    "text": "Telling now could end it all.\nReceive the gift God prepared.",
+    "choices": [
+      {
+        "text": "Bow and accept the child",
+        "feedback": "She smiles, none the wiser."
+      }
+    ]
+  },
+  "wages": {
+    "title": "Paid to Mother Him",
+    "text": "She pays you to nurse your own son.\nGod has done the impossible.",
+    "choices": [
+      {
+        "text": "Refuse the wages out of pride",
+        "feedback": "Receive what God provides."
+      },
+      {
+        "text": "Take him home and raise him",
+        "feedback": "He sleeps against your chest."
+      }
+    ]
+  },
+  "pride_consequence": {
+    "title": "Receive the Blessing",
+    "text": "God's provision is not to be refused.\nTake the silver and your son.",
+    "choices": [
+      {
+        "text": "Take him home",
+        "feedback": "You walk home weeping with joy."
+      }
+    ]
+  },
+  "home_again": {
+    "title": "Years of Whispered Songs",
+    "text": "You sing the songs of Abraham,\nof Isaac, of Jacob — into his ear.",
+    "choices": [
+      {
+        "text": "Hide him forever from the palace",
+        "feedback": "He has a calling beyond home."
+      },
+      {
+        "text": "Prepare him to return to her",
+        "feedback": "You teach him who he truly is."
+      }
+    ]
+  },
+  "hide_forever_consequence": {
+    "title": "He Belongs to God",
+    "text": "He was given to you for a season.\nNow give him back to His purpose.",
+    "choices": [
+      {
+        "text": "Prepare him for the palace",
+        "feedback": "You braid his hair with prayers."
+      }
+    ]
+  },
+  "return_palace": {
+    "title": "Back to the Princess",
+    "text": "He is weaned. The day has come.\nYou walk him to the palace gates.",
+    "choices": [
+      {
+        "text": "Run away with him at the last",
+        "feedback": "Trust the God who saved him."
+      },
+      {
+        "text": "Place him in her arms",
+        "feedback": "She receives him as her son."
+      }
+    ]
+  },
+  "runaway_consequence": {
+    "title": "Let Him Go",
+    "text": "God has a great work for him.\nDo not hold him back from it.",
+    "choices": [
+      {
+        "text": "Place him in her arms",
+        "feedback": "Her eyes shine with love."
+      }
+    ]
+  },
+  "named_moses": {
+    "title": "She Names Him Moses",
+    "text": "\"I drew him out of the water.\"\nMoses. The drawn-out one.",
+    "choices": [
+      {
+        "text": "Walk away in faith",
+        "feedback": "God's plan has only begun."
+      }
+    ]
+  },
+  "ending": {
+    "title": "A Saved Deliverer",
+    "text": "You saved a baby from the river.\nGod is raising a deliverer for His people.",
+    "choices": []
+  }
+}

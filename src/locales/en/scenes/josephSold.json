@@ -1,0 +1,347 @@
+{
+  "start": {
+    "title": "Father's Favor",
+    "text": "You are Joseph. Father gave you a long coat of many colors.\nYour brothers stare in silence.",
+    "choices": [
+      {
+        "text": "Mock them with the coat",
+        "feedback": "Their faces darken. Hatred grows."
+      },
+      {
+        "text": "Wear it humbly and thank Father",
+        "feedback": "You bow your head. \"Thank you, Father.\""
+      },
+      {
+        "text": "Hide the coat to keep peace",
+        "feedback": "Father's gift cannot be hidden forever."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Bitter Glances",
+    "text": "They turn away, muttering.\nThe coat feels heavier than before.",
+    "choices": [
+      {
+        "text": "Wear it and thank Father",
+        "feedback": "You return to him with quiet gratitude."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Father Notices",
+    "text": "Jacob asks where the gift has gone.\nYou cannot lie to him.",
+    "choices": [
+      {
+        "text": "Wear it openly and thank him",
+        "feedback": "He smiles. The coat is yours to bear."
+      }
+    ]
+  },
+  "thank_father": {
+    "title": "The Dream",
+    "text": "That night you dream: eleven sheaves bow to yours.\nYou wake with the vision burning.",
+    "choices": [
+      {
+        "text": "Tell your brothers the dream",
+        "feedback": "Honesty is the path. You go to them."
+      },
+      {
+        "text": "Keep the dream a secret",
+        "feedback": "But God's words ask to be spoken."
+      }
+    ]
+  },
+  "secret_consequence": {
+    "title": "It Burns Inside",
+    "text": "The dream returns each night.\nYou cannot hold it alone.",
+    "choices": [
+      {
+        "text": "Go and tell your brothers",
+        "feedback": "You walk to them at dawn."
+      }
+    ]
+  },
+  "tell_brothers": {
+    "title": "The Sheaves Bowed",
+    "text": "\"Your sheaves bowed to mine.\"\nTheir eyes flash. \"Will you reign over us?\"",
+    "choices": [
+      {
+        "text": "Take back the words",
+        "feedback": "The dream is from God. You cannot unsay it."
+      },
+      {
+        "text": "Stand firm — it is from God",
+        "feedback": "You hold your ground, calm and clear."
+      }
+    ]
+  },
+  "retract_consequence": {
+    "title": "The Dream Returns",
+    "text": "Sun, moon and stars now bow to you.\nGod will not let you forget.",
+    "choices": [
+      {
+        "text": "Stand firm — it is from God",
+        "feedback": "You face them again, unshaken."
+      }
+    ]
+  },
+  "stand_firm": {
+    "title": "Father Sends You",
+    "text": "Jacob calls: \"Go see if your brothers are well at Shechem.\"\nThey are far in the north.",
+    "choices": [
+      {
+        "text": "Refuse — you fear them",
+        "feedback": "A son obeys his father."
+      },
+      {
+        "text": "Obey and go find them",
+        "feedback": "\"Here am I,\" you answer."
+      },
+      {
+        "text": "Send a servant in your place",
+        "feedback": "Father asked you, not another."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "Jacob's Quiet Look",
+    "text": "Your father waits. He says nothing.\nObedience cannot be refused.",
+    "choices": [
+      {
+        "text": "Obey and go to your brothers",
+        "feedback": "You take up your sandals."
+      }
+    ]
+  },
+  "servant_consequence": {
+    "title": "He Asked for You",
+    "text": "The servant cannot bring back his sons.\nFather asked for you.",
+    "choices": [
+      {
+        "text": "Set out yourself",
+        "feedback": "You shoulder the bundle and walk."
+      }
+    ]
+  },
+  "set_out": {
+    "title": "The Long Road",
+    "text": "The hills stretch on. Shechem is empty.\nA stranger says: \"They went to Dothan.\"",
+    "choices": [
+      {
+        "text": "Turn back home",
+        "feedback": "You came to find them. Press on."
+      },
+      {
+        "text": "Press on toward Dothan",
+        "feedback": "You set your face north."
+      }
+    ]
+  },
+  "turnback_consequence": {
+    "title": "The Path Is Clear",
+    "text": "Father trusted you with this errand.\nYou cannot return empty-handed.",
+    "choices": [
+      {
+        "text": "Press on toward Dothan",
+        "feedback": "You turn north again."
+      }
+    ]
+  },
+  "to_dothan": {
+    "title": "They See You",
+    "text": "Across the green fields, your brothers spot the colored coat.\nThey gather, pointing.",
+    "choices": [
+      {
+        "text": "Run from them",
+        "feedback": "Where can you run? The fields are open."
+      },
+      {
+        "text": "Hide the coat first",
+        "feedback": "They have already seen it."
+      },
+      {
+        "text": "Approach in peace",
+        "feedback": "You raise your hand. \"Peace, my brothers.\""
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "Caught in the Field",
+    "text": "Their long strides catch you.\nThe coat marks you from afar.",
+    "choices": [
+      {
+        "text": "Stand and greet them in peace",
+        "feedback": "You stop running and face them."
+      }
+    ]
+  },
+  "hide2_consequence": {
+    "title": "Too Late",
+    "text": "They are already coming.\nThe coat lies crumpled at your feet.",
+    "choices": [
+      {
+        "text": "Approach them in peace",
+        "feedback": "You walk forward, hands open."
+      }
+    ]
+  },
+  "approach": {
+    "title": "\"The Dreamer Comes\"",
+    "text": "\"Behold, this dreamer.\"\nThey seize you. The coat is torn from your shoulders.",
+    "choices": [
+      {
+        "text": "Beg Reuben for mercy",
+        "feedback": "Reuben's face softens. He speaks for you."
+      },
+      {
+        "text": "Curse them in your fear",
+        "feedback": "Your words make their hands tighter."
+      },
+      {
+        "text": "Fight back with all your strength",
+        "feedback": "Ten against one. You fall to the dust."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Hands Like Iron",
+    "text": "Their grip will not loosen.\nOnly mercy can save you now.",
+    "choices": [
+      {
+        "text": "Beg Reuben for mercy",
+        "feedback": "You turn to the eldest. \"Reuben—\""
+      }
+    ]
+  },
+  "fight_consequence": {
+    "title": "Pinned to the Earth",
+    "text": "Bruised and breathless, you cannot rise.\nOnly Reuben might still hear you.",
+    "choices": [
+      {
+        "text": "Beg Reuben for mercy",
+        "feedback": "\"Reuben, my brother — please.\""
+      }
+    ]
+  },
+  "beg_reuben": {
+    "title": "Reuben Intervenes",
+    "text": "\"Shed no blood,\" Reuben says. \"Cast him into this pit.\"\nHe plans to rescue you later.",
+    "choices": [
+      {
+        "text": "Cry out to Heaven from the pit",
+        "feedback": "From the dark stones, you call on God."
+      },
+      {
+        "text": "Threaten Father's wrath",
+        "feedback": "Threats from a pit fall back on the speaker."
+      }
+    ]
+  },
+  "threat_consequence": {
+    "title": "Stones Above",
+    "text": "Their laughter echoes down.\nOnly God can hear you here.",
+    "choices": [
+      {
+        "text": "Cry out to Heaven",
+        "feedback": "You whisper, \"O God of my fathers...\""
+      }
+    ]
+  },
+  "cry_out": {
+    "title": "Voices Above",
+    "text": "Hooves and bells. Camels passing.\nA caravan of Ishmaelites comes near.",
+    "choices": [
+      {
+        "text": "Stay silent and wait for Reuben",
+        "feedback": "Judah's voice rises before Reuben returns."
+      },
+      {
+        "text": "Trust God's hand in this",
+        "feedback": "You wait. Above, Judah begins to speak."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "The Plan Unfolds",
+    "text": "You hear Judah's voice — calm, calculating.\nGod is at work even now.",
+    "choices": [
+      {
+        "text": "Trust God's hand",
+        "feedback": "You lift your eyes to the slit of sky."
+      }
+    ]
+  },
+  "judah_speaks": {
+    "title": "Judah's Counsel",
+    "text": "\"What profit if we kill our brother? Let us sell him.\"\nThey haul you up by the rope.",
+    "choices": [
+      {
+        "text": "Plead with the merchants",
+        "feedback": "Silver has already been counted."
+      },
+      {
+        "text": "Accept the path God allows",
+        "feedback": "You bow your head. The road is His."
+      },
+      {
+        "text": "Strike Judah in fury",
+        "feedback": "Bound hands cannot strike. Bound hearts can pray."
+      }
+    ]
+  },
+  "plead_consequence": {
+    "title": "Twenty Pieces of Silver",
+    "text": "Coins clink into Judah's hand.\nThe merchants nod and bind your wrists.",
+    "choices": [
+      {
+        "text": "Accept the path God allows",
+        "feedback": "Your tears are silent. Your trust is not."
+      }
+    ]
+  },
+  "strike_consequence": {
+    "title": "Bound Wrists",
+    "text": "The rope tightens. There is no fight to be had.\nOnly faith remains.",
+    "choices": [
+      {
+        "text": "Accept the path God allows",
+        "feedback": "You whisper a prayer for them all."
+      }
+    ]
+  },
+  "accept": {
+    "title": "Toward Egypt",
+    "text": "The caravan turns south, dust rising.\nBehind you, your brothers grow small.",
+    "choices": [
+      {
+        "text": "Carry the dream in your heart",
+        "feedback": "The vision of sheaves remains, alive."
+      }
+    ]
+  },
+  "to_egypt": {
+    "title": "The Bloodied Coat",
+    "text": "Far behind, your brothers dip the coat in goat's blood.\nThey carry it home to Jacob.",
+    "choices": [
+      {
+        "text": "Pray for your father",
+        "feedback": "\"Comfort him, O God of Israel.\""
+      }
+    ]
+  },
+  "father_grief": {
+    "title": "Jacob Mourns",
+    "text": "Jacob tears his clothes. \"A wild beast has devoured him.\"\nHe will not be comforted.",
+    "choices": [
+      {
+        "text": "Trust that God's plan endures",
+        "feedback": "What man means for evil, God means for good."
+      }
+    ]
+  },
+  "ending": {
+    "title": "The Road to Egypt",
+    "text": "The dunes rise gold ahead.\nA boy goes down to Egypt — but God goes with him.",
+    "choices": []
+  }
+}

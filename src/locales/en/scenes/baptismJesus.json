@@ -1,0 +1,207 @@
+{
+  "start": {
+    "title": "The Voice in the Wilderness",
+    "text": "John cries by the Jordan:\n\"Repent, the Kingdom is near.\"",
+    "choices": [
+      {
+        "text": "Mock his strange clothing",
+        "feedback": "He speaks the word of God."
+      },
+      {
+        "text": "Listen with an open heart",
+        "feedback": "His words pierce the silence."
+      },
+      {
+        "text": "Turn back to the city",
+        "feedback": "The river is calling you."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Honor the Prophet",
+    "text": "He is the voice prepared by God.\nLisen humbly.",
+    "choices": [
+      {
+        "text": "Listen with an open heart",
+        "feedback": "Your heart softens."
+      }
+    ]
+  },
+  "turn_consequence": {
+    "title": "Stay at the River",
+    "text": "Your hour begins here.\nThe Father has called you.",
+    "choices": [
+      {
+        "text": "Listen with an open heart",
+        "feedback": "You step closer."
+      }
+    ]
+  },
+  "crowds": {
+    "title": "Among the People",
+    "text": "Crowds gather along the shore.\nThey come to be cleansed.",
+    "choices": [
+      {
+        "text": "Stand apart in pride",
+        "feedback": "You came to be among them."
+      },
+      {
+        "text": "Walk among them as a brother",
+        "feedback": "You move quietly through the crowd."
+      }
+    ]
+  },
+  "apart_consequence": {
+    "title": "Walk With Them",
+    "text": "You came to share their humanity.\nWalk among them.",
+    "choices": [
+      {
+        "text": "Walk among them as a brother",
+        "feedback": "You join the people."
+      }
+    ]
+  },
+  "approach": {
+    "title": "Toward John",
+    "text": "John stands in the river.\nHis eyes find yours.",
+    "choices": [
+      {
+        "text": "Demand he recognize you",
+        "feedback": "Come in humility."
+      },
+      {
+        "text": "Wait silently in line",
+        "feedback": "The Father calls you forward."
+      },
+      {
+        "text": "Step forward to be baptized",
+        "feedback": "You walk into the water."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "Be Humble",
+    "text": "You did not come to be honored.\nYou came to obey.",
+    "choices": [
+      {
+        "text": "Step forward to be baptized",
+        "feedback": "You enter the river."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "The Hour Has Come",
+    "text": "The Father waits for this moment.\nGo to John.",
+    "choices": [
+      {
+        "text": "Step forward to be baptized",
+        "feedback": "You step into the current."
+      }
+    ]
+  },
+  "hesitate": {
+    "title": "John's Hesitation",
+    "text": "John whispers:\n\"I should be baptized by You.\"",
+    "choices": [
+      {
+        "text": "Agree and turn away",
+        "feedback": "All righteousness must be fulfilled."
+      },
+      {
+        "text": "\"Let it be so to fulfill all.\"",
+        "feedback": "John bows and obeys."
+      },
+      {
+        "text": "Rebuke him sharply",
+        "feedback": "Speak to him with grace."
+      }
+    ]
+  },
+  "agree_consequence": {
+    "title": "Fulfill the Way",
+    "text": "This must be done in obedience.\nSpeak the word.",
+    "choices": [
+      {
+        "text": "\"Let it be so to fulfill all.\"",
+        "feedback": "John lifts his hands."
+      }
+    ]
+  },
+  "rebuke_consequence": {
+    "title": "Speak Gently",
+    "text": "He is your forerunner.\nAnswer him with peace.",
+    "choices": [
+      {
+        "text": "\"Let it be so to fulfill all.\"",
+        "feedback": "John consents in awe."
+      }
+    ]
+  },
+  "baptism": {
+    "title": "Into the Water",
+    "text": "The cool river rises.\nYou bow your head.",
+    "choices": [
+      {
+        "text": "Resist the waters",
+        "feedback": "Surrender to the Father."
+      },
+      {
+        "text": "Accept the waters in silence",
+        "feedback": "You are washed in obedience."
+      }
+    ]
+  },
+  "resist_consequence": {
+    "title": "Surrender",
+    "text": "This is the will of the Father.\nYield to the moment.",
+    "choices": [
+      {
+        "text": "Accept the waters in silence",
+        "feedback": "You bow into the water."
+      }
+    ]
+  },
+  "dove": {
+    "title": "The Heavens Open",
+    "text": "The sky parts above you.\nA dove descends in silence.",
+    "choices": [
+      {
+        "text": "Hide your face in shame",
+        "feedback": "The Father delights in you."
+      },
+      {
+        "text": "Boast aloud to the crowd",
+        "feedback": "Receive in stillness."
+      },
+      {
+        "text": "Lift your eyes to the Father",
+        "feedback": "Light fills your face."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Look Up",
+    "text": "You are the Beloved Son.\nReceive the gift.",
+    "choices": [
+      {
+        "text": "Lift your eyes to the Father",
+        "feedback": "You raise your face."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "Receive in Silence",
+    "text": "This moment is sacred.\nLet the Spirit speak.",
+    "choices": [
+      {
+        "text": "Lift your eyes to the Father",
+        "feedback": "You stand in quiet awe."
+      }
+    ]
+  },
+  "voice": {
+    "title": "The Father's Voice",
+    "text": "\"This is My beloved Son,\nin whom I am well pleased.\"",
+    "choices": []
+  }
+}

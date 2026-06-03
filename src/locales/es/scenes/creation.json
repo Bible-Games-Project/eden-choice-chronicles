@@ -1,0 +1,532 @@
+{
+  "start": {
+    "title": "[TODO:es] Before All Things",
+    "text": "[TODO:es] Nothing exists yet.\nOnly you — and the deep, endless dark.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hold still — feel the emptiness",
+        "feedback": "[TODO:es] You wait. The darkness presses closer — patient, heavy."
+      },
+      {
+        "text": "[TODO:es] Reach into the darkness",
+        "feedback": "[TODO:es] Your hand stretches forward. Something stirs beneath the surface."
+      },
+      {
+        "text": "[TODO:es] Speak — break the silence",
+        "feedback": "[TODO:es] A sound rises from deep within you — the first sound ever made."
+      }
+    ]
+  },
+  "silence": {
+    "title": "[TODO:es] The Great Silence",
+    "text": "[TODO:es] You wait in the stillness.\nThe emptiness aches — it needs something more.",
+    "choices": [
+      {
+        "text": "[TODO:es] Let the first word form",
+        "feedback": "[TODO:es] The word gathers inside you — heavy with purpose."
+      },
+      {
+        "text": "[TODO:es] Breathe over the waters",
+        "feedback": "[TODO:es] Your breath ripples across the deep. Something awakens."
+      }
+    ]
+  },
+  "voice": {
+    "title": "[TODO:es] The Word",
+    "text": "[TODO:es] Your voice tears through the nothing.\nIt carries the weight of forever.",
+    "choices": [
+      {
+        "text": "[TODO:es] Command — let there be light",
+        "feedback": "[TODO:es] The command explodes from you. There is no turning back."
+      },
+      {
+        "text": "[TODO:es] Whisper it gently into being",
+        "feedback": "[TODO:es] The whisper leaves your lips — soft, yet unstoppable."
+      }
+    ]
+  },
+  "void": {
+    "title": "[TODO:es] The Formless Deep",
+    "text": "[TODO:es] Endless waters stretch beneath you.\nYou hover above the deep.",
+    "choices": [
+      {
+        "text": "[TODO:es] Descend toward the waters",
+        "feedback": "[TODO:es] You lower yourself. The water trembles at your presence."
+      },
+      {
+        "text": "[TODO:es] Stir the surface with your breath",
+        "feedback": "[TODO:es] Your breath moves across the face of the deep."
+      }
+    ]
+  },
+  "light": {
+    "title": "[TODO:es] Let There Be Light",
+    "text": "[TODO:es] Light bursts from you — blinding, infinite.\nWarmth floods the emptiness for the first time.",
+    "choices": [
+      {
+        "text": "[TODO:es] Let the light expand everywhere",
+        "feedback": "[TODO:es] The light races outward — filling every void."
+      },
+      {
+        "text": "[TODO:es] Shape the light — give it edges",
+        "feedback": "[TODO:es] You cup the light in your hands. It pulses, alive."
+      },
+      {
+        "text": "[TODO:es] Separate it from the darkness",
+        "feedback": "[TODO:es] You draw a line between light and dark. Order begins."
+      }
+    ]
+  },
+  "light_obey": {
+    "title": "[TODO:es] Let There Be Light",
+    "text": "[TODO:es] Your command shakes the void.\nLight explodes — infinite, blinding, alive.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hold the light close",
+        "feedback": "[TODO:es] Warmth gathers around you — golden, tender."
+      },
+      {
+        "text": "[TODO:es] Push it outward — fill everything",
+        "feedback": "[TODO:es] The light obeys. It floods the emptiness without end."
+      }
+    ]
+  },
+  "light_awe": {
+    "title": "[TODO:es] Let There Be Light",
+    "text": "[TODO:es] Light rises gently from your breath.\nSoft at first — then blazing, unstoppable.",
+    "choices": [
+      {
+        "text": "[TODO:es] Shape it into something greater",
+        "feedback": "[TODO:es] You press the light upward — it stretches into sky."
+      },
+      {
+        "text": "[TODO:es] Divide the light from the dark",
+        "feedback": "[TODO:es] Shadow and radiance separate at your touch."
+      }
+    ]
+  },
+  "warmth": {
+    "title": "[TODO:es] First Warmth",
+    "text": "[TODO:es] The light settles into warmth.\nYou feel creation responding to your touch.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stretch the sky open above",
+        "feedback": "[TODO:es] You reach upward. The sky begins to unfold."
+      },
+      {
+        "text": "[TODO:es] Spread your hands — expand it all",
+        "feedback": "[TODO:es] Everything stretches — wider, higher, limitless."
+      }
+    ]
+  },
+  "day_night": {
+    "title": "[TODO:es] Evening and Morning",
+    "text": "[TODO:es] You name the light Day and the darkness Night.\nThe first sunset. The first dawn.",
+    "choices": [
+      {
+        "text": "[TODO:es] Begin the second day",
+        "feedback": "[TODO:es] You move forward. There is more to create."
+      },
+      {
+        "text": "[TODO:es] Pause — linger in what you've made",
+        "feedback": "[TODO:es] You stop. The colors are yours — and they are beautiful."
+      }
+    ]
+  },
+  "sky": {
+    "title": "[TODO:es] The Heavens Above",
+    "text": "[TODO:es] You stretch out the sky like a curtain.\nWaters part — above and below.",
+    "choices": [
+      {
+        "text": "[TODO:es] Command the dry land to appear",
+        "feedback": "[TODO:es] Your voice strikes the deep. The earth begins to rise."
+      },
+      {
+        "text": "[TODO:es] Gather the waters together",
+        "feedback": "[TODO:es] The waters obey — drawing inward, making room."
+      },
+      {
+        "text": "[TODO:es] Step back — admire the vastness",
+        "feedback": "[TODO:es] You pause. The sky stretches further than you imagined."
+      }
+    ]
+  },
+  "sky_vast": {
+    "title": "[TODO:es] The Vast Sky",
+    "text": "[TODO:es] Blue stretches endlessly in every direction.\nYour creation grows beyond what even you imagined.",
+    "choices": [
+      {
+        "text": "[TODO:es] Call forth the land below",
+        "feedback": "[TODO:es] You speak downward. The ground trembles in answer."
+      },
+      {
+        "text": "[TODO:es] Gather the seas into their places",
+        "feedback": "[TODO:es] The waters rush to their boundaries — eager, wild."
+      }
+    ]
+  },
+  "waters_gather": {
+    "title": "[TODO:es] The Gathering of Waters",
+    "text": "[TODO:es] You push the oceans into their places.\nRivers carve paths at your command.",
+    "choices": [
+      {
+        "text": "[TODO:es] Raise the mountains from the deep",
+        "feedback": "[TODO:es] Stone groans upward. The peaks reach toward you."
+      },
+      {
+        "text": "[TODO:es] Shape the earth with your hands",
+        "feedback": "[TODO:es] You kneel. The soil is warm beneath your fingers."
+      }
+    ]
+  },
+  "expanse": {
+    "title": "[TODO:es] The Dome of Heaven",
+    "text": "[TODO:es] The sky arches like a cathedral you built.\nEvery direction holds a promise.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bring forth the ground below",
+        "feedback": "[TODO:es] You look down. The earth rises to meet your gaze."
+      },
+      {
+        "text": "[TODO:es] Press your hands into the earth",
+        "feedback": "[TODO:es] Your palms sink into the clay. It yields to you."
+      }
+    ]
+  },
+  "land": {
+    "title": "[TODO:es] Dry Ground",
+    "text": "[TODO:es] Mountains rise at your word.\nGreen erupts — sudden, wild, everywhere.",
+    "choices": [
+      {
+        "text": "[TODO:es] Plant a forest with a thought",
+        "feedback": "[TODO:es] Trees spring up — tall, ancient, reaching for your sky."
+      },
+      {
+        "text": "[TODO:es] Craft the first flower by hand",
+        "feedback": "[TODO:es] A single bloom opens in your palm. Perfect."
+      },
+      {
+        "text": "[TODO:es] Climb to the highest peak",
+        "feedback": "[TODO:es] You ascend. The world unfolds beneath you."
+      }
+    ]
+  },
+  "land_emerge": {
+    "title": "[TODO:es] The Earth Rises",
+    "text": "[TODO:es] Solid ground forms under your touch.\nYou feel the earth breathe for the first time.",
+    "choices": [
+      {
+        "text": "[TODO:es] Scatter seeds across the soil",
+        "feedback": "[TODO:es] Seeds fall from your hands like rain. Life begins."
+      },
+      {
+        "text": "[TODO:es] Kneel beside a growing tree",
+        "feedback": "[TODO:es] You watch it grow — slowly, tenderly, from nothing."
+      }
+    ]
+  },
+  "plants": {
+    "title": "[TODO:es] The First Garden",
+    "text": "[TODO:es] Trees stretch toward the sky you made.\nFruit hangs heavy — sweet, untouched.",
+    "choices": [
+      {
+        "text": "[TODO:es] Taste your own creation",
+        "feedback": "[TODO:es] Sweetness fills you — your own gift, tasted for the first time."
+      },
+      {
+        "text": "[TODO:es] Wait for darkness — then fill it",
+        "feedback": "[TODO:es] You wait. The empty sky calls to you."
+      }
+    ]
+  },
+  "flowers": {
+    "title": "[TODO:es] Colors Unnamed",
+    "text": "[TODO:es] Petals open at your touch.\nColors no eye has ever seen — until now.",
+    "choices": [
+      {
+        "text": "[TODO:es] Breathe in what you've made",
+        "feedback": "[TODO:es] The scent is unlike anything. Because nothing existed before."
+      },
+      {
+        "text": "[TODO:es] Turn your gaze upward — the sky is empty",
+        "feedback": "[TODO:es] The dark sky waits — a canvas, unfinished."
+      }
+    ]
+  },
+  "mountain": {
+    "title": "[TODO:es] The Summit",
+    "text": "[TODO:es] From the peak, you see everything you've made.\nAn empty sky — waiting to be filled.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hang the stars yourself",
+        "feedback": "[TODO:es] You reach up. The first star burns in your hand."
+      },
+      {
+        "text": "[TODO:es] Descend — there is more to do",
+        "feedback": "[TODO:es] You climb down. The work is not yet finished."
+      }
+    ]
+  },
+  "stars": {
+    "title": "[TODO:es] Sun, Moon, and Stars",
+    "text": "[TODO:es] You hang the sun like a lamp.\nA thousand stars fly from your fingertips.",
+    "choices": [
+      {
+        "text": "[TODO:es] Turn toward the empty sea",
+        "feedback": "[TODO:es] The ocean stretches before you — vast, silent, waiting."
+      },
+      {
+        "text": "[TODO:es] Place every star one by one",
+        "feedback": "[TODO:es] Each star finds its place. You name them all."
+      },
+      {
+        "text": "[TODO:es] Set the moon in its place",
+        "feedback": "[TODO:es] Silver rises. The night breathes softly."
+      }
+    ]
+  },
+  "stars_delight": {
+    "title": "[TODO:es] Sun, Moon, and Stars",
+    "text": "[TODO:es] Sweetness lingers — your creation is good.\nAbove you, the sky waits for light.",
+    "choices": [
+      {
+        "text": "[TODO:es] Ignite the brightest star",
+        "feedback": "[TODO:es] Fire leaps from your fingers. The sky blazes."
+      },
+      {
+        "text": "[TODO:es] Paint the night sky with silver",
+        "feedback": "[TODO:es] Moonlight pours down — gentle, steady, yours."
+      }
+    ]
+  },
+  "stars_vision": {
+    "title": "[TODO:es] Sun, Moon, and Stars",
+    "text": "[TODO:es] From the mountaintop, you fling stars into the dark.\nEach one a promise.",
+    "choices": [
+      {
+        "text": "[TODO:es] Keep going — fill every corner",
+        "feedback": "[TODO:es] More. More. The darkness shrinks with every throw."
+      },
+      {
+        "text": "[TODO:es] Set the moon to guard the night",
+        "feedback": "[TODO:es] The moon rises — faithful, watching over what you made."
+      }
+    ]
+  },
+  "countless_stars": {
+    "title": "[TODO:es] Uncountable",
+    "text": "[TODO:es] You place them beyond counting.\nEach one a covenant — a whisper of what's to come.",
+    "choices": [
+      {
+        "text": "[TODO:es] Turn to the empty seas",
+        "feedback": "[TODO:es] Below, the waters are still. They need life."
+      },
+      {
+        "text": "[TODO:es] Rest a moment beneath your sky",
+        "feedback": "[TODO:es] You lie back. Your stars shine above you."
+      }
+    ]
+  },
+  "moonrise": {
+    "title": "[TODO:es] The Lesser Light",
+    "text": "[TODO:es] Silver light spills across still waters.\nThe moon takes its place — faithful, quiet.",
+    "choices": [
+      {
+        "text": "[TODO:es] Fill the oceans with life",
+        "feedback": "[TODO:es] You turn to the deep. It's time to fill it."
+      },
+      {
+        "text": "[TODO:es] Wait for the dawn you designed",
+        "feedback": "[TODO:es] You wait. The horizon glows with approaching light."
+      }
+    ]
+  },
+  "sea_dawn": {
+    "title": "[TODO:es] Dawn Over the Deep",
+    "text": "[TODO:es] Dawn breaks — your dawn.\nThe waters stir, ready to receive life.",
+    "choices": [
+      {
+        "text": "[TODO:es] Speak life into the deep",
+        "feedback": "[TODO:es] Your voice enters the water. Movement begins."
+      },
+      {
+        "text": "[TODO:es] Listen to the silence before it fills",
+        "feedback": "[TODO:es] One last breath of stillness. Then — everything."
+      }
+    ]
+  },
+  "sea_creatures": {
+    "title": "[TODO:es] The Waters Teem",
+    "text": "[TODO:es] You fill the seas — whales, fish, swarms of life.\nBirds burst from your hands — filling the sky with song.",
+    "choices": [
+      {
+        "text": "[TODO:es] Turn to the land — it's still empty",
+        "feedback": "[TODO:es] The ground waits. You have more to give."
+      },
+      {
+        "text": "[TODO:es] Send a bird soaring across the sky",
+        "feedback": "[TODO:es] Wings spread. The bird trusts the wind you made."
+      }
+    ]
+  },
+  "bird_flight": {
+    "title": "[TODO:es] First Flight",
+    "text": "[TODO:es] Wings catch the wind you made.\nThe bird knows no fear — only sky.",
+    "choices": [
+      {
+        "text": "[TODO:es] Return to the ground — fill it next",
+        "feedback": "[TODO:es] You descend. The earth needs creatures of its own."
+      },
+      {
+        "text": "[TODO:es] Feel the wind on your face",
+        "feedback": "[TODO:es] The breeze you made touches your skin. It's good."
+      }
+    ]
+  },
+  "land_creatures": {
+    "title": "[TODO:es] Every Living Thing",
+    "text": "[TODO:es] You speak — lions, deer, serpents, insects appear.\nThe earth breathes with life you gave it.",
+    "choices": [
+      {
+        "text": "[TODO:es] Something is still missing — press on",
+        "feedback": "[TODO:es] A restlessness stirs in you. This isn't finished."
+      },
+      {
+        "text": "[TODO:es] Walk among them — your creatures",
+        "feedback": "[TODO:es] They gather around you — warm, trusting, alive."
+      }
+    ]
+  },
+  "land_creatures_wind": {
+    "title": "[TODO:es] Every Living Thing",
+    "text": "[TODO:es] You stand among creatures — wild, warm, alive.\nThey do not run. They know your voice.",
+    "choices": [
+      {
+        "text": "[TODO:es] Sit among them quietly",
+        "feedback": "[TODO:es] You sit. They press close — unafraid."
+      },
+      {
+        "text": "[TODO:es] Something greater stirs inside you",
+        "feedback": "[TODO:es] The ache rises. None of them can truly know you."
+      }
+    ]
+  },
+  "among_animals": {
+    "title": "[TODO:es] Among the Creatures",
+    "text": "[TODO:es] They gather around you — trusting, alive.\nBut none of them can know you. Not truly.",
+    "choices": [
+      {
+        "text": "[TODO:es] Feel the ache of being alone",
+        "feedback": "[TODO:es] The loneliness deepens. You need someone who understands."
+      },
+      {
+        "text": "[TODO:es] Begin the final work",
+        "feedback": "[TODO:es] You stand. Your hands know what to do."
+      }
+    ]
+  },
+  "before_man": {
+    "title": "[TODO:es] The Sixth Day",
+    "text": "[TODO:es] You kneel in the dust.\nYour hands begin to shape something new — something like you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Mold the clay carefully",
+        "feedback": "[TODO:es] Your fingers press into the dust. A form takes shape."
+      },
+      {
+        "text": "[TODO:es] Whisper: \"In our image…\"",
+        "feedback": "[TODO:es] The words leave your lips. The clay trembles."
+      }
+    ]
+  },
+  "before_man_lonely": {
+    "title": "[TODO:es] The Sixth Day",
+    "text": "[TODO:es] The ache deepens — you want to be known.\nYou kneel in the dust and begin.",
+    "choices": [
+      {
+        "text": "[TODO:es] Shape the clay with trembling hands",
+        "feedback": "[TODO:es] Your hands shake. This one will be different."
+      },
+      {
+        "text": "[TODO:es] Take your time — this matters most",
+        "feedback": "[TODO:es] You slow down. Every detail matters."
+      }
+    ]
+  },
+  "breath_of_life": {
+    "title": "[TODO:es] The Breath of Life",
+    "text": "[TODO:es] Dust becomes flesh under your hands.\nYou lean close — and breathe life into him.",
+    "choices": [
+      {
+        "text": "[TODO:es] Watch his eyes open",
+        "feedback": "[TODO:es] His eyes open. He sees you first."
+      },
+      {
+        "text": "[TODO:es] Place him gently in the garden",
+        "feedback": "[TODO:es] You carry him — warm, breathing — into paradise."
+      }
+    ]
+  },
+  "breath_of_life_sacred": {
+    "title": "[TODO:es] The Breath of Life",
+    "text": "[TODO:es] Your breath enters the clay.\nHis chest rises. His heart beats — once, twice, forever.",
+    "choices": [
+      {
+        "text": "[TODO:es] Set him down in paradise",
+        "feedback": "[TODO:es] You lay him gently on the grass. He stirs."
+      },
+      {
+        "text": "[TODO:es] Stand back — let him see the world",
+        "feedback": "[TODO:es] You step away. His eyes open to everything you made."
+      }
+    ]
+  },
+  "first_garden": {
+    "title": "[TODO:es] Eden",
+    "text": "[TODO:es] Paradise stretches before you — your masterpiece.\nYou look at all you have made.",
+    "choices": [
+      {
+        "text": "[TODO:es] Say it — the words that complete it all",
+        "feedback": "[TODO:es] The words rise in you — final, certain."
+      },
+      {
+        "text": "[TODO:es] Sit beside your creation in silence",
+        "feedback": "[TODO:es] You sit. No words needed. It is enough."
+      }
+    ]
+  },
+  "first_garden_wonder": {
+    "title": "[TODO:es] Eden",
+    "text": "[TODO:es] He stands in the garden — alive, breathing, yours.\nEverything — all of it — was for this moment.",
+    "choices": [
+      {
+        "text": "[TODO:es] Speak the final words",
+        "feedback": "[TODO:es] Your voice fills the garden — warm, full, complete."
+      },
+      {
+        "text": "[TODO:es] Rest — your work is finished",
+        "feedback": "[TODO:es] You exhale. It is done."
+      }
+    ]
+  },
+  "very_good": {
+    "title": "[TODO:es] Very Good",
+    "text": "[TODO:es] \"It is very good.\"\nYou smile upon your work.",
+    "choices": [
+      {
+        "text": "[TODO:es] Rest — you have finished",
+        "feedback": "[TODO:es] Peace settles over everything."
+      }
+    ]
+  },
+  "rest": {
+    "title": "[TODO:es] The Seventh Day",
+    "text": "[TODO:es] You rest. All creation breathes.\nThe story has only just begun.",
+    "choices": []
+  },
+  "rest_blessed": {
+    "title": "[TODO:es] The Seventh Day",
+    "text": "[TODO:es] You rest beside the one you made.\nPeace fills every corner of your world.",
+    "choices": []
+  }
+}

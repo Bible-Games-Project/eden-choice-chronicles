@@ -1,0 +1,289 @@
+{
+  "start": {
+    "title": "Out of Egypt",
+    "text": "Israel walks free at first light.\nWhich way will you lead them?",
+    "choices": [
+      {
+        "text": "Take the short road by the sea",
+        "feedback": "War waits on that road."
+      },
+      {
+        "text": "Follow the Lord's pillar of cloud",
+        "feedback": "He goes before you."
+      },
+      {
+        "text": "Hurry back to beg Pharaoh's blessing",
+        "feedback": "Do not look back."
+      }
+    ]
+  },
+  "short_road_consequence": {
+    "title": "Not That Way",
+    "text": "The Philistines guard that path.\nThe Lord leads another way.",
+    "choices": [
+      {
+        "text": "Follow the Lord's pillar of cloud",
+        "feedback": "You turn toward the wilderness."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "Do Not Turn Back",
+    "text": "Egypt is behind you forever.\nLook only ahead.",
+    "choices": [
+      {
+        "text": "Follow the Lord's pillar of cloud",
+        "feedback": "You set your face to the desert."
+      }
+    ]
+  },
+  "pillar_follows": {
+    "title": "Pillar of Cloud",
+    "text": "By day a cloud, by night a fire.\nThe Lord goes before His people.",
+    "choices": [
+      {
+        "text": "Press on as He leads you",
+        "feedback": "You walk toward the sea."
+      }
+    ]
+  },
+  "pharaoh_regrets": {
+    "title": "Pharaoh's Regret",
+    "text": "In Egypt the king curses his weakness.\n\"Bring back our slaves!\"",
+    "choices": [
+      {
+        "text": "Speed back to plead with him",
+        "feedback": "He has chosen war."
+      },
+      {
+        "text": "Trust the Lord and keep moving",
+        "feedback": "Your steps stay steady."
+      },
+      {
+        "text": "Hide the people in the dunes",
+        "feedback": "There is no hiding from this."
+      }
+    ]
+  },
+  "plead_consequence": {
+    "title": "No More Pleading",
+    "text": "His chariots are already rolling.\nThe time for words is gone.",
+    "choices": [
+      {
+        "text": "Trust the Lord and keep moving",
+        "feedback": "You hold the line."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "Sand Cannot Hide You",
+    "text": "Six hundred chariots can find you.\nOnly the Lord can save you.",
+    "choices": [
+      {
+        "text": "Trust the Lord and keep moving",
+        "feedback": "You walk on."
+      }
+    ]
+  },
+  "army_charges": {
+    "title": "Dust on the Horizon",
+    "text": "A red cloud rises behind you.\nChariots. Hundreds of them.",
+    "choices": [
+      {
+        "text": "Tell the people: do not fear",
+        "feedback": "Your voice rings out."
+      },
+      {
+        "text": "Run with them toward the cliffs",
+        "feedback": "Stand and see His salvation."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "Stand Firm",
+    "text": "There is nowhere left to run.\nThe Lord will fight for you.",
+    "choices": [
+      {
+        "text": "Tell the people: do not fear",
+        "feedback": "You turn to face them."
+      }
+    ]
+  },
+  "people_panic": {
+    "title": "\"Why Bring Us Here to Die?\"",
+    "text": "The people cry out, trembling.\n\"Were there no graves in Egypt?\"",
+    "choices": [
+      {
+        "text": "Curse them for their unbelief",
+        "feedback": "Their fear is real."
+      },
+      {
+        "text": "Surrender the people to Pharaoh",
+        "feedback": "Never. The Lord saves."
+      },
+      {
+        "text": "Speak peace: stand and see Him",
+        "feedback": "\"The Lord will fight for you.\""
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "Speak Hope, Not Wrath",
+    "text": "They are afraid. So were you once.\nLead them with His promise.",
+    "choices": [
+      {
+        "text": "Speak peace: stand and see Him",
+        "feedback": "Your voice softens."
+      }
+    ]
+  },
+  "surrender_consequence": {
+    "title": "Never Back to Chains",
+    "text": "He did not free you to bind you.\nStand and trust His hand.",
+    "choices": [
+      {
+        "text": "Speak peace: stand and see Him",
+        "feedback": "You face the sea."
+      }
+    ]
+  },
+  "moses_prays": {
+    "title": "A Cry to Heaven",
+    "text": "You stand at the water's edge.\nOnly the Lord can open this.",
+    "choices": [
+      {
+        "text": "Demand the people build boats",
+        "feedback": "There is no time."
+      },
+      {
+        "text": "Lift your staff over the sea",
+        "feedback": "His word fills your hand."
+      },
+      {
+        "text": "Wait silently for some other sign",
+        "feedback": "He has already spoken."
+      }
+    ]
+  },
+  "boats_consequence": {
+    "title": "No Boats Tonight",
+    "text": "He needs no wood, no sails.\nHis breath is enough.",
+    "choices": [
+      {
+        "text": "Lift your staff over the sea",
+        "feedback": "You raise the staff high."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "He Has Spoken",
+    "text": "\"Why do you cry to me? Go forward.\"\nThe sign is in your hand.",
+    "choices": [
+      {
+        "text": "Lift your staff over the sea",
+        "feedback": "Your arm rises."
+      }
+    ]
+  },
+  "sea_parts": {
+    "title": "The Waters Divide",
+    "text": "A great wind splits the sea in two.\nA dry road opens through it.",
+    "choices": [
+      {
+        "text": "Send the people across at once",
+        "feedback": "You wave them forward."
+      },
+      {
+        "text": "Stand back and only watch",
+        "feedback": "It opened so you could go."
+      }
+    ]
+  },
+  "watch_consequence": {
+    "title": "Walk Through It",
+    "text": "His miracle is for crossing.\nLead them between the walls.",
+    "choices": [
+      {
+        "text": "Send the people across at once",
+        "feedback": "You step onto the dry seabed."
+      }
+    ]
+  },
+  "crossing": {
+    "title": "Between the Walls",
+    "text": "Walls of water rise on each side.\nIsrael walks the dry path.",
+    "choices": [
+      {
+        "text": "Boast of your power before them",
+        "feedback": "It is His arm, not yours."
+      },
+      {
+        "text": "Lead them toward the far shore",
+        "feedback": "Your sandals find solid ground."
+      }
+    ]
+  },
+  "boast_consequence": {
+    "title": "His Hand, Not Yours",
+    "text": "Give Him glory, not yourself.\nLead with a humble heart.",
+    "choices": [
+      {
+        "text": "Lead them toward the far shore",
+        "feedback": "You bow your head and walk."
+      }
+    ]
+  },
+  "far_shore": {
+    "title": "On the Far Shore",
+    "text": "Israel stands safe. Behind you,\nchariots crash into the corridor.",
+    "choices": [
+      {
+        "text": "Mock the drowning soldiers",
+        "feedback": "Do not laugh at His judgment."
+      },
+      {
+        "text": "Run back to fight them yourself",
+        "feedback": "The Lord fights for you."
+      },
+      {
+        "text": "Stretch your hand back over the sea",
+        "feedback": "The wind shifts at your hand."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "Solemn, Not Proud",
+    "text": "His judgment is heavy and just.\nReceive it with awe.",
+    "choices": [
+      {
+        "text": "Stretch your hand back over the sea",
+        "feedback": "You raise your arm."
+      }
+    ]
+  },
+  "fight_consequence": {
+    "title": "He Fights for You",
+    "text": "Do not lift a sword tonight.\nLift only your hand at His word.",
+    "choices": [
+      {
+        "text": "Stretch your hand back over the sea",
+        "feedback": "You stretch out your arm."
+      }
+    ]
+  },
+  "sea_closes": {
+    "title": "The Sea Returns",
+    "text": "The walls fall as one great wave.\nNot one chariot rises again.",
+    "choices": [
+      {
+        "text": "Sing to the Lord with the people",
+        "feedback": "Miriam lifts her timbrel."
+      }
+    ]
+  },
+  "ending": {
+    "title": "Saved by His Hand",
+    "text": "Israel stands free on the shore.\nThe Lord alone has saved them.",
+    "choices": []
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "start": {
+    "title": "[TODO:es] Before Caiaphas",
+    "text": "[TODO:es] The high priest's hall burns with torches.\nAll eyes turn to you, bound and silent.",
+    "choices": [
+      {
+        "text": "[TODO:es] Curse the council for their malice",
+        "feedback": "[TODO:es] Their judgment will judge them."
+      },
+      {
+        "text": "[TODO:es] Stand quietly and meet their gaze",
+        "feedback": "[TODO:es] Your silence fills the hall."
+      },
+      {
+        "text": "[TODO:es] Beg them to release you",
+        "feedback": "[TODO:es] The cup is in your hand."
+      }
+    ]
+  },
+  "curse_consequence": {
+    "title": "[TODO:es] Bless, Not Curse",
+    "text": "[TODO:es] Even now, the answer is grace.\nMeet wrath with steady silence.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stand quietly and meet their gaze",
+        "feedback": "[TODO:es] You straighten without a word."
+      }
+    ]
+  },
+  "beg_consequence": {
+    "title": "[TODO:es] Not by Begging",
+    "text": "[TODO:es] You came for this hour.\nLet your stillness be your answer.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stand quietly and meet their gaze",
+        "feedback": "[TODO:es] Your eyes do not waver."
+      }
+    ]
+  },
+  "false_witnesses": {
+    "title": "[TODO:es] False Words",
+    "text": "[TODO:es] Two witnesses twist your every saying.\nTheir stories do not even agree.",
+    "choices": [
+      {
+        "text": "[TODO:es] Argue against every false word",
+        "feedback": "[TODO:es] Lies collapse beneath silence."
+      },
+      {
+        "text": "[TODO:es] Mock the men for their lies",
+        "feedback": "[TODO:es] Truth needs no mockery."
+      },
+      {
+        "text": "[TODO:es] Answer them with silence",
+        "feedback": "[TODO:es] You say nothing. They falter."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:es] Silence Speaks",
+    "text": "[TODO:es] Their lies cannot stand alone.\nLet the silence undo them.",
+    "choices": [
+      {
+        "text": "[TODO:es] Answer them with silence",
+        "feedback": "[TODO:es] Your stillness is louder than words."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:es] Truth Stands Alone",
+    "text": "[TODO:es] Mockery is not your way.\nLet truth bear its own weight.",
+    "choices": [
+      {
+        "text": "[TODO:es] Answer them with silence",
+        "feedback": "[TODO:es] The hall grows uneasy."
+      }
+    ]
+  },
+  "high_priest_demands": {
+    "title": "[TODO:es] Are You the Christ?",
+    "text": "[TODO:es] Caiaphas rises. \"Tell us under oath.\nAre you the Son of God?\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Deny it to save your life",
+        "feedback": "[TODO:es] Truth, even unto death."
+      },
+      {
+        "text": "[TODO:es] Refuse to answer at all",
+        "feedback": "[TODO:es] The hour calls for the great Yes."
+      },
+      {
+        "text": "[TODO:es] \"I am. You will see me coming.\"",
+        "feedback": "[TODO:es] Caiaphas tears his robes in rage."
+      }
+    ]
+  },
+  "deny_consequence": {
+    "title": "[TODO:es] Truth, Always",
+    "text": "[TODO:es] You did not come to deny who you are.\nDeclare it before them all.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"I am. You will see me coming.\"",
+        "feedback": "[TODO:es] The hall erupts in shouts."
+      }
+    ]
+  },
+  "refuse_consequence": {
+    "title": "[TODO:es] Speak the Yes",
+    "text": "[TODO:es] For this you came into the world:\nto bear witness to the truth.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"I am. You will see me coming.\"",
+        "feedback": "[TODO:es] Your voice rings without fear."
+      }
+    ]
+  },
+  "to_pilate": {
+    "title": "[TODO:es] To the Roman",
+    "text": "[TODO:es] Dawn breaks over the city walls.\nGuards drag you toward the praetorium.",
+    "choices": [
+      {
+        "text": "[TODO:es] Drag your feet to slow them",
+        "feedback": "[TODO:es] Walk with steady peace."
+      },
+      {
+        "text": "[TODO:es] Demand a fair Roman hearing",
+        "feedback": "[TODO:es] Trust the Father, not Rome."
+      },
+      {
+        "text": "[TODO:es] Walk in silent obedience",
+        "feedback": "[TODO:es] Your steps match theirs."
+      }
+    ]
+  },
+  "drag_consequence": {
+    "title": "[TODO:es] Steady Steps",
+    "text": "[TODO:es] Fear slows the feet of the unwilling.\nYou are not unwilling.",
+    "choices": [
+      {
+        "text": "[TODO:es] Walk in silent obedience",
+        "feedback": "[TODO:es] You keep pace with quiet grace."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:es] Not by Rights",
+    "text": "[TODO:es] Justice will not be won here today.\nThe Father holds the verdict.",
+    "choices": [
+      {
+        "text": "[TODO:es] Walk in silent obedience",
+        "feedback": "[TODO:es] You enter the hall at peace."
+      }
+    ]
+  },
+  "pilate_questions": {
+    "title": "[TODO:es] What Is Truth?",
+    "text": "[TODO:es] Pilate studies you. \"Are you a king?\"\nHis voice is curious, half afraid.",
+    "choices": [
+      {
+        "text": "[TODO:es] Mock his Roman power",
+        "feedback": "[TODO:es] Speak truth, not insults."
+      },
+      {
+        "text": "[TODO:es] \"My kingdom is not of this world.\"",
+        "feedback": "[TODO:es] Pilate frowns, intrigued."
+      },
+      {
+        "text": "[TODO:es] Stay silent to confuse him",
+        "feedback": "[TODO:es] Here, truth must be spoken plainly."
+      }
+    ]
+  },
+  "mock_rome_consequence": {
+    "title": "[TODO:es] Truth, Not Scorn",
+    "text": "[TODO:es] Even Pilate must hear the kingdom.\nSpeak it gently and clearly.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"My kingdom is not of this world.\"",
+        "feedback": "[TODO:es] Pilate steps closer to listen."
+      }
+    ]
+  },
+  "silent_pilate_consequence": {
+    "title": "[TODO:es] Speak Plainly Here",
+    "text": "[TODO:es] Pilate is searching for an exit.\nGive him the truth he asks for.",
+    "choices": [
+      {
+        "text": "[TODO:es] \"My kingdom is not of this world.\"",
+        "feedback": "[TODO:es] He weighs the words in silence."
+      }
+    ]
+  },
+  "crowd_demands": {
+    "title": "[TODO:es] Crucify Him!",
+    "text": "[TODO:es] Outside, the crowd swells and shouts.\n\"Crucify him! Crucify him!\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Call down judgment on the crowd",
+        "feedback": "[TODO:es] Forgive them. They do not know."
+      },
+      {
+        "text": "[TODO:es] Plead with them to stop",
+        "feedback": "[TODO:es] The hour is set. Bear it in silence."
+      },
+      {
+        "text": "[TODO:es] Bear their cries in silence",
+        "feedback": "[TODO:es] Their shouts wash over you."
+      }
+    ]
+  },
+  "judgment_consequence": {
+    "title": "[TODO:es] Forgive Them",
+    "text": "[TODO:es] They do not know what they do.\nMercy is the harder word today.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bear their cries in silence",
+        "feedback": "[TODO:es] You bow your head, praying."
+      }
+    ]
+  },
+  "plead_consequence": {
+    "title": "[TODO:es] Silence Now",
+    "text": "[TODO:es] The crowd cannot be turned by pleading.\nOnly the cross will turn them.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bear their cries in silence",
+        "feedback": "[TODO:es] Your stillness is its own answer."
+      }
+    ]
+  },
+  "pilate_washes": {
+    "title": "[TODO:es] I Am Innocent",
+    "text": "[TODO:es] Pilate calls for water and washes his hands.\n\"I am innocent of this man's blood.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Accuse Pilate of cowardice",
+        "feedback": "[TODO:es] Let his own conscience speak."
+      },
+      {
+        "text": "[TODO:es] Receive his words without protest",
+        "feedback": "[TODO:es] Your peace unsettles him deeper."
+      },
+      {
+        "text": "[TODO:es] Demand he free you outright",
+        "feedback": "[TODO:es] The cup is in your hand still."
+      }
+    ]
+  },
+  "accuse_consequence": {
+    "title": "[TODO:es] Let Conscience Speak",
+    "text": "[TODO:es] His own heart will accuse him later.\nYou need not raise your voice.",
+    "choices": [
+      {
+        "text": "[TODO:es] Receive his words without protest",
+        "feedback": "[TODO:es] He turns away, troubled."
+      }
+    ]
+  },
+  "demand_free_consequence": {
+    "title": "[TODO:es] The Cup Remains",
+    "text": "[TODO:es] Freedom now would unmake the rescue.\nThe yes is still your yes.",
+    "choices": [
+      {
+        "text": "[TODO:es] Receive his words without protest",
+        "feedback": "[TODO:es] Your peace is unshaken."
+      }
+    ]
+  },
+  "condemned": {
+    "title": "[TODO:es] The Sentence",
+    "text": "[TODO:es] Pilate hands you over to the soldiers.\nThe verdict is sealed in silence.",
+    "choices": [
+      {
+        "text": "[TODO:es] Cry out against the injustice",
+        "feedback": "[TODO:es] Carry it with quiet love."
+      },
+      {
+        "text": "[TODO:es] Walk forward with steady peace",
+        "feedback": "[TODO:es] Each step is a willing yes."
+      },
+      {
+        "text": "[TODO:es] Collapse and refuse to move",
+        "feedback": "[TODO:es] Rise. The road is yours."
+      }
+    ]
+  },
+  "cry_out_consequence": {
+    "title": "[TODO:es] Quiet Love",
+    "text": "[TODO:es] The greatest love walks in silence here.\nLet it carry you onward.",
+    "choices": [
+      {
+        "text": "[TODO:es] Walk forward with steady peace",
+        "feedback": "[TODO:es] Your shoulders lift with grace."
+      }
+    ]
+  },
+  "collapse_consequence": {
+    "title": "[TODO:es] Rise and Walk",
+    "text": "[TODO:es] The road has been written for you.\nWalk it as the willing Lamb.",
+    "choices": [
+      {
+        "text": "[TODO:es] Walk forward with steady peace",
+        "feedback": "[TODO:es] You stand. The soldiers part."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:es] Led Toward the Road",
+    "text": "[TODO:es] Soldiers fall in around you.\nThe stone steps wait beneath the dawn.",
+    "choices": []
+  }
+}

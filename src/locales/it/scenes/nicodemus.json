@@ -1,0 +1,213 @@
+{
+  "start": {
+    "title": "[TODO:it] A Visit by Night",
+    "text": "[TODO:it] Nicodemus comes quietly under the stars.\nHe seeks Jesus while the city sleeps.",
+    "choices": [
+      {
+        "text": "[TODO:it] Hide from this strange teacher",
+        "feedback": "[TODO:it] Truth is worth seeking."
+      },
+      {
+        "text": "[TODO:it] Approach him with open heart",
+        "feedback": "[TODO:it] You step into the lamplight."
+      }
+    ]
+  },
+  "hide_consequence": {
+    "title": "[TODO:it] Seek Truth",
+    "text": "[TODO:it] Even by night, the honest seeker is welcome.\nDraw near in peace.",
+    "choices": [
+      {
+        "text": "[TODO:it] Approach him with open heart",
+        "feedback": "[TODO:it] You move toward the light."
+      }
+    ]
+  },
+  "greet": {
+    "title": "[TODO:it] Rabbi from God",
+    "text": "[TODO:it] \"Rabbi, we know you come from God,\"\nNicodemus says with quiet respect.",
+    "choices": [
+      {
+        "text": "[TODO:it] Flatter him to gain favor",
+        "feedback": "[TODO:it] Sincerity matters more."
+      },
+      {
+        "text": "[TODO:it] Speak the truth in humility",
+        "feedback": "[TODO:it] Your honesty opens the way."
+      }
+    ]
+  },
+  "flatter_consequence": {
+    "title": "[TODO:it] Be Sincere",
+    "text": "[TODO:it] He sees the heart, not smooth words.\nCome plainly to him.",
+    "choices": [
+      {
+        "text": "[TODO:it] Speak the truth in humility",
+        "feedback": "[TODO:it] You speak from the heart."
+      }
+    ]
+  },
+  "born_again": {
+    "title": "[TODO:it] Born Again",
+    "text": "[TODO:it] Jesus says softly,\n\"You must be born again to see the kingdom.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Ask sincerely what he means",
+        "feedback": "[TODO:it] A humble question opens truth."
+      },
+      {
+        "text": "[TODO:it] Dismiss it as impossible",
+        "feedback": "[TODO:it] Wait, and listen further."
+      },
+      {
+        "text": "[TODO:it] Mock the strange teaching",
+        "feedback": "[TODO:it] Mockery shuts the door."
+      }
+    ]
+  },
+  "dismiss_consequence": {
+    "title": "[TODO:it] Stay Open",
+    "text": "[TODO:it] What sounds impossible may be Spirit.\nAsk and you will learn.",
+    "choices": [
+      {
+        "text": "[TODO:it] Ask sincerely what he means",
+        "feedback": "[TODO:it] You lean in to listen."
+      }
+    ]
+  },
+  "mock_consequence": {
+    "title": "[TODO:it] Be Humble",
+    "text": "[TODO:it] Wisdom hides from a scornful heart.\nSoften and try again.",
+    "choices": [
+      {
+        "text": "[TODO:it] Ask sincerely what he means",
+        "feedback": "[TODO:it] You set pride aside."
+      }
+    ]
+  },
+  "spirit": {
+    "title": "[TODO:it] Like the Wind",
+    "text": "[TODO:it] \"The Spirit is like the wind,\" Jesus breathes.\n\"You hear it, but cannot trace it.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Demand to see it first",
+        "feedback": "[TODO:it] Some truths are felt, not seen."
+      },
+      {
+        "text": "[TODO:it] Trust what you cannot see",
+        "feedback": "[TODO:it] Faith begins where sight ends."
+      }
+    ]
+  },
+  "demand_consequence": {
+    "title": "[TODO:it] Faith First",
+    "text": "[TODO:it] The wind moves leaves you cannot grasp.\nTrust still moves the soul.",
+    "choices": [
+      {
+        "text": "[TODO:it] Trust what you cannot see",
+        "feedback": "[TODO:it] You breathe in quiet trust."
+      }
+    ]
+  },
+  "heavenly": {
+    "title": "[TODO:it] Heavenly Things",
+    "text": "[TODO:it] \"If earthly words confuse you,\nhow will heavenly ones be received?\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Listen with a quiet mind",
+        "feedback": "[TODO:it] Stillness welcomes truth."
+      },
+      {
+        "text": "[TODO:it] Argue from your own learning",
+        "feedback": "[TODO:it] Pride blocks the door."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "[TODO:it] Be Still",
+    "text": "[TODO:it] Even teachers must sit and learn.\nLet his words settle.",
+    "choices": [
+      {
+        "text": "[TODO:it] Listen with a quiet mind",
+        "feedback": "[TODO:it] You grow still inside."
+      }
+    ]
+  },
+  "love": {
+    "title": "[TODO:it] So Loved the World",
+    "text": "[TODO:it] \"God so loved the world he gave his Son,\nthat whoever believes may have life.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Reject so wide a love",
+        "feedback": "[TODO:it] His love is for all."
+      },
+      {
+        "text": "[TODO:it] Receive his words in faith",
+        "feedback": "[TODO:it] Love settles in your heart."
+      }
+    ]
+  },
+  "reject_consequence": {
+    "title": "[TODO:it] Open Your Heart",
+    "text": "[TODO:it] His love is offered freely to you.\nReceive it gently.",
+    "choices": [
+      {
+        "text": "[TODO:it] Receive his words in faith",
+        "feedback": "[TODO:it] You let love in."
+      }
+    ]
+  },
+  "light": {
+    "title": "[TODO:it] Step into Light",
+    "text": "[TODO:it] \"Whoever lives by truth comes to the light,\nso his deeds may shine.\"",
+    "choices": [
+      {
+        "text": "[TODO:it] Stay hidden in the dark",
+        "feedback": "[TODO:it] The light is kinder than fear."
+      },
+      {
+        "text": "[TODO:it] Step softly into the light",
+        "feedback": "[TODO:it] Warm light meets you."
+      }
+    ]
+  },
+  "hide2_consequence": {
+    "title": "[TODO:it] Come Forward",
+    "text": "[TODO:it] Hiding wears the heart down.\nLet the light find you.",
+    "choices": [
+      {
+        "text": "[TODO:it] Step softly into the light",
+        "feedback": "[TODO:it] You let the light reach you."
+      }
+    ]
+  },
+  "reflect": {
+    "title": "[TODO:it] Walking Home",
+    "text": "[TODO:it] Nicodemus walks home as dawn rises,\nthe words burning quietly inside.",
+    "choices": [
+      {
+        "text": "[TODO:it] Forget what you heard tonight",
+        "feedback": "[TODO:it] Truth asks to be kept."
+      },
+      {
+        "text": "[TODO:it] Carry his words in your heart",
+        "feedback": "[TODO:it] You hold them close."
+      }
+    ]
+  },
+  "forget_consequence": {
+    "title": "[TODO:it] Keep Watch",
+    "text": "[TODO:it] Some seeds grow slowly in the soul.\nDo not lose them.",
+    "choices": [
+      {
+        "text": "[TODO:it] Carry his words in your heart",
+        "feedback": "[TODO:it] You keep them safe."
+      }
+    ]
+  },
+  "ending": {
+    "title": "[TODO:it] Born of the Spirit",
+    "text": "[TODO:it] Jesus stands in the morning light.\n\"Be born of the Spirit, and live.\"",
+    "choices": []
+  }
+}

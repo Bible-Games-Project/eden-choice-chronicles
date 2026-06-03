@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "Lazarus Is Sick",
+    "text": "A messenger gasps, breathless.\n\"Lord, the one you love is ill.\"",
+    "choices": [
+      {
+        "text": "Urge Jesus to hurry",
+        "feedback": "Trust his timing."
+      },
+      {
+        "text": "Wait for his word",
+        "feedback": "Jesus listens quietly."
+      },
+      {
+        "text": "Dismiss the news",
+        "feedback": "Hear him out."
+      }
+    ]
+  },
+  "urge_consequence": {
+    "title": "His Own Time",
+    "text": "He will not be rushed.\nWait.",
+    "choices": [
+      {
+        "text": "Wait for his word",
+        "feedback": "You bow your head."
+      }
+    ]
+  },
+  "dismiss_consequence": {
+    "title": "Hear Him",
+    "text": "This sickness has a purpose.\nListen.",
+    "choices": [
+      {
+        "text": "Wait for his word",
+        "feedback": "You quiet your heart."
+      }
+    ]
+  },
+  "delay": {
+    "title": "Two Days More",
+    "text": "He stays where he is, two days.\n\"It is for God's glory.\"",
+    "choices": [
+      {
+        "text": "Question his delay",
+        "feedback": "He sees what you cannot."
+      },
+      {
+        "text": "Trust his purpose",
+        "feedback": "Peace settles on you."
+      }
+    ]
+  },
+  "question_consequence": {
+    "title": "He Sees Further",
+    "text": "His delay is not absence.\nTrust him.",
+    "choices": [
+      {
+        "text": "Trust his purpose",
+        "feedback": "You breathe in."
+      }
+    ]
+  },
+  "travel": {
+    "title": "Let Us Go",
+    "text": "\"Our friend Lazarus sleeps.\"\n\"I go to wake him.\"",
+    "choices": [
+      {
+        "text": "Stay back in fear",
+        "feedback": "Go with him."
+      },
+      {
+        "text": "Walk with him to Bethany",
+        "feedback": "You step onto the road."
+      }
+    ]
+  },
+  "stayback_consequence": {
+    "title": "Follow Him",
+    "text": "Do not be left behind.\nGo.",
+    "choices": [
+      {
+        "text": "Walk with him to Bethany",
+        "feedback": "You catch up."
+      }
+    ]
+  },
+  "martha": {
+    "title": "Martha Meets You",
+    "text": "\"If you had been here, Lord,\nmy brother would not have died.\"",
+    "choices": [
+      {
+        "text": "Tell her to give up hope",
+        "feedback": "Hope is not dead."
+      },
+      {
+        "text": "\"He is the Resurrection\"",
+        "feedback": "Her eyes lift."
+      },
+      {
+        "text": "Stay silent and turn away",
+        "feedback": "Speak hope to her."
+      }
+    ]
+  },
+  "giveup_consequence": {
+    "title": "Hope Remains",
+    "text": "Death is not the end here.\nSpeak life.",
+    "choices": [
+      {
+        "text": "\"He is the Resurrection\"",
+        "feedback": "Her tears slow."
+      }
+    ]
+  },
+  "silent_consequence": {
+    "title": "Find Words",
+    "text": "She needs hope.\nGive her his name.",
+    "choices": [
+      {
+        "text": "\"He is the Resurrection\"",
+        "feedback": "Your voice steadies."
+      }
+    ]
+  },
+  "mary": {
+    "title": "Mary Falls Weeping",
+    "text": "Mary kneels at his feet, weeping.\nThe crowd around her grieves.",
+    "choices": [
+      {
+        "text": "Scold their tears",
+        "feedback": "Weep with them."
+      },
+      {
+        "text": "Weep with them",
+        "feedback": "Your eyes blur."
+      }
+    ]
+  },
+  "scold_consequence": {
+    "title": "Share the Sorrow",
+    "text": "Even Jesus weeps.\nGrieve with them.",
+    "choices": [
+      {
+        "text": "Weep with them",
+        "feedback": "Tears come freely."
+      }
+    ]
+  },
+  "weeps": {
+    "title": "Jesus Wept",
+    "text": "He stands still, tears falling.\n\"See how he loved him.\"",
+    "choices": [
+      {
+        "text": "Lead him to the tomb",
+        "feedback": "He follows you."
+      },
+      {
+        "text": "Pull him from the crowd",
+        "feedback": "He came for this."
+      }
+    ]
+  },
+  "pull_consequence": {
+    "title": "Let Him Stay",
+    "text": "He came to this place on purpose.\nLead him on.",
+    "choices": [
+      {
+        "text": "Lead him to the tomb",
+        "feedback": "He walks beside you."
+      }
+    ]
+  },
+  "tomb": {
+    "title": "Take Away the Stone",
+    "text": "\"Take away the stone,\" he says.\nMartha trembles. \"Lord, it stinks.\"",
+    "choices": [
+      {
+        "text": "Leave the stone in place",
+        "feedback": "Obey his word."
+      },
+      {
+        "text": "Roll the stone away",
+        "feedback": "Hands push together."
+      },
+      {
+        "text": "Argue with Jesus",
+        "feedback": "Believe and see."
+      }
+    ]
+  },
+  "leave_consequence": {
+    "title": "Obey Him",
+    "text": "Faith moves the stone.\nRoll it.",
+    "choices": [
+      {
+        "text": "Roll the stone away",
+        "feedback": "The stone groans aside."
+      }
+    ]
+  },
+  "argue_consequence": {
+    "title": "Believe",
+    "text": "\"Did I not say, believe?\"\nDo as he says.",
+    "choices": [
+      {
+        "text": "Roll the stone away",
+        "feedback": "You lean your weight."
+      }
+    ]
+  },
+  "call": {
+    "title": "Lazarus, Come Out",
+    "text": "He lifts his hands and his voice.\n\"Lazarus, come out!\"",
+    "choices": [
+      {
+        "text": "Cover your ears in fear",
+        "feedback": "Watch and see."
+      },
+      {
+        "text": "Watch the dark doorway",
+        "feedback": "You hold your breath."
+      }
+    ]
+  },
+  "cover_consequence": {
+    "title": "Look",
+    "text": "Do not miss this.\nWatch.",
+    "choices": [
+      {
+        "text": "Watch the dark doorway",
+        "feedback": "Your heart pounds."
+      }
+    ]
+  },
+  "emerge": {
+    "title": "Unbind Him",
+    "text": "He steps from the tomb, alive.\n\"Unbind him. Let him go.\"",
+    "choices": []
+  }
+}

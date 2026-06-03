@@ -1,0 +1,169 @@
+{
+  "start": {
+    "title": "[TODO:es] Quiet Fields",
+    "text": "[TODO:es] The flock sleeps under cold stars.\nThe night is long and still.",
+    "choices": [
+      {
+        "text": "[TODO:es] Sleep and abandon the flock",
+        "feedback": "[TODO:es] Wolves wait in the dark."
+      },
+      {
+        "text": "[TODO:es] Keep faithful watch",
+        "feedback": "[TODO:es] Your eyes stay on the hills."
+      },
+      {
+        "text": "[TODO:es] Wander into town for warmth",
+        "feedback": "[TODO:es] The flock is your charge."
+      }
+    ]
+  },
+  "sleep_consequence": {
+    "title": "[TODO:es] Stay Awake",
+    "text": "[TODO:es] A faithful watch is a holy thing.\nKeep your post.",
+    "choices": [
+      {
+        "text": "[TODO:es] Keep faithful watch",
+        "feedback": "[TODO:es] You sit upright again."
+      }
+    ]
+  },
+  "wander_consequence": {
+    "title": "[TODO:es] Return to the Flock",
+    "text": "[TODO:es] The sheep need your care tonight.\nGo back to your post.",
+    "choices": [
+      {
+        "text": "[TODO:es] Keep faithful watch",
+        "feedback": "[TODO:es] You return to the field."
+      }
+    ]
+  },
+  "light": {
+    "title": "[TODO:es] A Sudden Light",
+    "text": "[TODO:es] The night cracks open with glory.\nAn angel stands before you.",
+    "choices": [
+      {
+        "text": "[TODO:es] Run away in terror",
+        "feedback": "[TODO:es] Heaven calls you to listen."
+      },
+      {
+        "text": "[TODO:es] Attack with your staff",
+        "feedback": "[TODO:es] This is no enemy."
+      },
+      {
+        "text": "[TODO:es] Bow and listen in awe",
+        "feedback": "[TODO:es] You kneel in trembling wonder."
+      }
+    ]
+  },
+  "run_consequence": {
+    "title": "[TODO:es] Do Not Be Afraid",
+    "text": "[TODO:es] The angel speaks gently to you.\nReturn and listen.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bow and listen in awe",
+        "feedback": "[TODO:es] Your fear gives way to peace."
+      }
+    ]
+  },
+  "attack_consequence": {
+    "title": "[TODO:es] Lower Your Staff",
+    "text": "[TODO:es] This light brings news, not harm.\nReceive it with reverence.",
+    "choices": [
+      {
+        "text": "[TODO:es] Bow and listen in awe",
+        "feedback": "[TODO:es] Your staff falls to the grass."
+      }
+    ]
+  },
+  "message": {
+    "title": "[TODO:es] Good News",
+    "text": "[TODO:es] \"Today in Bethlehem a Savior is born.\nYou will find him in a manger.\"",
+    "choices": [
+      {
+        "text": "[TODO:es] Doubt the heavenly word",
+        "feedback": "[TODO:es] Heaven does not lie."
+      },
+      {
+        "text": "[TODO:es] Believe and rise to go",
+        "feedback": "[TODO:es] Your heart burns to see him."
+      }
+    ]
+  },
+  "doubt_consequence": {
+    "title": "[TODO:es] Trust the Sign",
+    "text": "[TODO:es] A child in a manger awaits.\nGo and see for yourself.",
+    "choices": [
+      {
+        "text": "[TODO:es] Believe and rise to go",
+        "feedback": "[TODO:es] You take up your staff."
+      }
+    ]
+  },
+  "travel": {
+    "title": "[TODO:es] Toward Bethlehem",
+    "text": "[TODO:es] The road is dark but your steps are sure.\nThe town glows ahead.",
+    "choices": [
+      {
+        "text": "[TODO:es] Wait until morning instead",
+        "feedback": "[TODO:es] Do not delay this gift."
+      },
+      {
+        "text": "[TODO:es] Hurry through the night",
+        "feedback": "[TODO:es] Your feet do not tire."
+      },
+      {
+        "text": "[TODO:es] Bring fine gifts to buy first",
+        "feedback": "[TODO:es] Bring only your heart."
+      }
+    ]
+  },
+  "wait_consequence": {
+    "title": "[TODO:es] Go Now",
+    "text": "[TODO:es] The Savior waits in a manger tonight.\nDo not turn back.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hurry through the night",
+        "feedback": "[TODO:es] You quicken your pace."
+      }
+    ]
+  },
+  "gifts_consequence": {
+    "title": "[TODO:es] Empty Hands Are Enough",
+    "text": "[TODO:es] He receives the poor as the rich.\nGo as you are.",
+    "choices": [
+      {
+        "text": "[TODO:es] Hurry through the night",
+        "feedback": "[TODO:es] You go with empty hands."
+      }
+    ]
+  },
+  "worship": {
+    "title": "[TODO:es] The Child",
+    "text": "[TODO:es] He lies in a manger, just as told.\nHis breath is soft, his face is light.",
+    "choices": [
+      {
+        "text": "[TODO:es] Stand back in silence",
+        "feedback": "[TODO:es] Draw near to him."
+      },
+      {
+        "text": "[TODO:es] Kneel and worship the child",
+        "feedback": "[TODO:es] Your knees touch the straw."
+      }
+    ]
+  },
+  "silence_consequence": {
+    "title": "[TODO:es] Come Closer",
+    "text": "[TODO:es] He is the One the angel spoke of.\nWorship him with your whole heart.",
+    "choices": [
+      {
+        "text": "[TODO:es] Kneel and worship the child",
+        "feedback": "[TODO:es] You kneel beside the manger."
+      }
+    ]
+  },
+  "return": {
+    "title": "[TODO:es] Praising as You Go",
+    "text": "[TODO:es] You return to the fields rejoicing.\nHeaven has touched the earth tonight.",
+    "choices": []
+  }
+}
