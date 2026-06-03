@@ -7,6 +7,8 @@ import StoryEndScreen from "@/components/StoryEndScreen";
 import SceneSelector from "@/components/SceneSelector";
 import SpriteViewer from "@/components/SpriteViewer";
 import { useGameProgress } from "@/hooks/useGameProgress";
+import { useIAP } from "@/hooks/useIAP";
+import { Paywall } from "@/components/Paywall";
 import { shuffleChoices } from "@/lib/shuffleChoices";
 import { useDevMode } from "@/hooks/useDevMode";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
@@ -825,6 +827,8 @@ const Index = () => {
   const [showEndScreen, setShowEndScreen] = useState(false);
   const { devMode, toggleDevMode } = useDevMode();
   const progress = useGameProgress(devMode);
+  const iap = useIAP();
+  const [showPaywall, setShowPaywall] = useState(false);
   const transitionLock = useRef(false);
   const transitionTimers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
@@ -973,7 +977,19 @@ const Index = () => {
             onSelectStory={handleSelectStory}
             onBack={() => setScreen("menu")}
             devMode={devMode}
+            hasPremium={iap.hasPremium}
+            onPaywallRequest={() => setShowPaywall(true)}
           />
+          {showPaywall && (
+            <Paywall
+              freeLimit={3}
+              totalStories={100}
+              onClose={() => setShowPaywall(false)}
+              onPurchase={iap.purchase}
+              onRestore={iap.restore}
+              isLoading={iap.isLoading}
+            />
+          )}
         </motion.div>
       );
     }
@@ -990,7 +1006,19 @@ const Index = () => {
             onSelectStory={handleSelectStory}
             onBack={() => setScreen("menu")}
             devMode={devMode}
+            hasPremium={iap.hasPremium}
+            onPaywallRequest={() => setShowPaywall(true)}
           />
+          {showPaywall && (
+            <Paywall
+              freeLimit={3}
+              totalStories={100}
+              onClose={() => setShowPaywall(false)}
+              onPurchase={iap.purchase}
+              onRestore={iap.restore}
+              isLoading={iap.isLoading}
+            />
+          )}
         </motion.div>
       );
     }

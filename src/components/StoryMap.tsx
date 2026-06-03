@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
-import { Lock, Check, ChevronLeft, Play, Star } from "lucide-react";
+import { Lock, Check, ChevronLeft, Play, Star, Gem } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
 import storyListBg from "@/assets/map/story-list-bg.jpg";
+
+/** Stories up to and including this number are free to play (set via VITE_FREE_STORY_LIMIT) */
+export const FREE_STORY_LIMIT = Number(import.meta.env.VITE_FREE_STORY_LIMIT ?? 3);
 
 interface StoryMapProps {
   title: string;
@@ -12,9 +15,24 @@ interface StoryMapProps {
   onSelectStory: (story: StoryMeta) => void;
   onBack: () => void;
   devMode?: boolean;
+  /** Whether the user has purchased the premium entitlement */
+  hasPremium?: boolean;
+  /** Called when the user taps a premium-locked story */
+  onPaywallRequest?: () => void;
 }
 
-const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestStars, onSelectStory, onBack, devMode = false }: StoryMapProps) => {
+const StoryMap = ({
+  title,
+  stories,
+  isStoryCompleted,
+  isStoryUnlocked,
+  getBestStars,
+  onSelectStory,
+  onBack,
+  devMode = false,
+  hasPremium = false,
+  onPaywallRequest,
+}: StoryMapProps) => {
   return (
     <div className="fixed inset-0 overflow-hidden">
       <img src={storyListBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
@@ -44,23 +62,37 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
           <div className="max-w-md mx-auto flex flex-col gap-3 pt-2">
             {stories.map((story, i) => {
               const completed = isStoryCompleted(story.id);
-              const unlocked = devMode || isStoryUnlocked(story, stories);
+              // Premium gate: any story beyond the free limit requires purchase
+              const isPremiumLocked = !devMode && !hasPremium && story.number > FREE_STORY_LIMIT;
+              const unlocked = devMode || (!isPremiumLocked && isStoryUnlocked(story, stories));
               const playable = unlocked && story.hasContent;
+
+              const handleClick = () => {
+                if (isPremiumLocked) {
+                  onPaywallRequest?.();
+                } else if (playable) {
+                  onSelectStory(story);
+                }
+              };
+
+              const isInteractive = playable || isPremiumLocked;
 
               return (
                 <motion.div
                   key={story.id}
-                  role={playable ? "button" : undefined}
-                  tabIndex={playable ? 0 : undefined}
+                  role={isInteractive ? "button" : undefined}
+                  tabIndex={isInteractive ? 0 : undefined}
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.03, duration: 0.4 }}
-                  onClick={() => playable && onSelectStory(story)}
-                  onKeyDown={(e) => { if (playable && (e.key === "Enter" || e.key === " ")) onSelectStory(story); }}
-                  style={{ cursor: playable ? 'pointer' : completed ? 'default' : 'not-allowed' }}
+                  onClick={handleClick}
+                  onKeyDown={(e) => { if (isInteractive && (e.key === "Enter" || e.key === " ")) handleClick(); }}
+                  style={{ cursor: isInteractive ? 'pointer' : completed ? 'default' : 'not-allowed' }}
                   className={`w-full flex items-center gap-4 px-5 py-4 rounded-xl border transition-all duration-300 text-left select-none ${
                     completed
                       ? "border-eden/40 bg-eden/15"
+                      : isPremiumLocked
+                      ? "border-gold/20 bg-gold/5 hover:border-gold/35 hover:bg-gold/10"
                       : playable
                       ? "border-gold/30 bg-gold/10 hover:border-gold/50 hover:bg-gold/20 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.15)]"
                       : unlocked && !story.hasContent
@@ -72,6 +104,8 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
                     className={`w-10 h-10 rounded-full border flex-shrink-0 flex items-center justify-center ${
                       completed
                         ? "border-eden/50 bg-eden/30"
+                        : isPremiumLocked
+                        ? "border-gold/25 bg-gold/10"
                         : playable
                         ? "border-gold/40 bg-gold/20"
                         : "border-muted-foreground/20 bg-black/20"
@@ -79,6 +113,8 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
                   >
                     {completed ? (
                       <Check className="w-4 h-4 text-eden-light" />
+                    ) : isPremiumLocked ? (
+                      <Gem className="w-3.5 h-3.5 text-gold/60" />
                     ) : playable ? (
                       <Play className="w-3.5 h-3.5 text-gold ml-0.5" />
                     ) : (
@@ -91,6 +127,8 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
                       className={`font-display text-sm md:text-base tracking-wide block truncate ${
                         completed
                           ? "text-eden-light"
+                          : isPremiumLocked
+                          ? "text-gold/50"
                           : playable
                           ? "text-gold"
                           : "text-primary-foreground/40"
