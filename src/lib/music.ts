@@ -1,8 +1,10 @@
 // Data-driven background music engine.
 //
-// Tracks are auto-discovered from `src/assets/music/*.mp3` via Vite's
-// import.meta.glob. Drop new mp3 files in that folder and they are
-// automatically included in the shuffle pool — no code changes required.
+// Tracks are auto-discovered from `src/assets/music/*.mp3.asset.json`
+// pointer files via Vite's import.meta.glob. The binaries themselves live
+// on the Lovable Assets CDN (kept out of the repo). To add a new track,
+// upload it with `lovable-assets create` and drop the resulting
+// `.mp3.asset.json` in that folder — no code changes required.
 //
 // - Fisher-Yates shuffle per session
 // - No back-to-back repetition (track that just played cannot start the
@@ -10,11 +12,19 @@
 // - Single <audio> instance, persists across scenes
 // - Volume bound to the global Settings Volume slider (0..100)
 
-const trackModules = import.meta.glob("../assets/music/*.mp3", {
+type AssetPointer = { url: string };
+
+const trackModules = import.meta.glob("../assets/music/*.mp3.asset.json", {
   eager: true,
-  query: "?url",
-  import: "default",
-}) as Record<string, string>;
+}) as Record<string, { default: AssetPointer } | AssetPointer>;
+
+const TRACKS: string[] = Object.entries(trackModules)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([, mod]) => {
+    const ptr = (mod as { default?: AssetPointer }).default ?? (mod as AssetPointer);
+    return ptr.url;
+  })
+  .filter((u): u is string => typeof u === "string" && u.length > 0);
 
 const TRACKS: string[] = Object.entries(trackModules)
   .sort(([a], [b]) => a.localeCompare(b))
