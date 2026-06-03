@@ -44,3 +44,26 @@ This is a **Capacitor** app (React + Vite + TypeScript) with:
 - Capacitor config: `capacitor.config.ts`
 
 Deploy workflows are reusable from `Bible-Games-Project/bgp-admin`.
+
+## Translations Contract
+
+**All user-visible strings MUST live in `src/locales/<lang>/...json`. Never hardcode user-facing text in components.**
+
+### Structure
+- `src/locales/en/common.json` — UI strings (source of truth)
+- `src/locales/en/scenes/<storyId>.json` — per-story scene strings (source of truth)
+- Every other language under `src/locales/<lang>/` MUST mirror the English file tree and key set.
+
+### Supported languages (12)
+`en` (source), `es`, `pt-BR`, `fr`, `de`, `it`, `pl`, `ru`, `tr`, `ja`, `ko`, `ar`.
+
+### Rules for adding/changing literals
+1. Add the key first in `src/locales/en/...` (source of truth).
+2. Add the SAME key in ALL other 11 languages in the same change. If a real translation is not yet available, use a placeholder prefixed with `[TODO:<lang>]` (e.g. `"[TODO:ar] Settings"`). Never leave the key missing.
+3. Never remove a key from `en/` without removing it from every other language in the same change.
+4. Run `node scripts/validate-locales.mjs` before committing. It exits non-zero on any missing/extra key or file.
+
+### Validation
+- Script: `scripts/validate-locales.mjs`
+- Compares every locale against `en/`. Reports missing files, missing keys, and extra keys.
+- Intended to run in CI and locally before commits.
