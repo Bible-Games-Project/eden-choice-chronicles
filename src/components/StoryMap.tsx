@@ -117,7 +117,7 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
                       </span>
                     )}
                   </div>
-                </motion.div>
+                </div>
               );
             })}
           </div>
