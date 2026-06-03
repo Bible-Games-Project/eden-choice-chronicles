@@ -7,6 +7,7 @@ import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import { SettingsProvider } from "@/hooks/useSettings";
 import SfxBridge from "@/components/SfxBridge";
+import MusicBridge from "@/components/MusicBridge";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +16,7 @@ const App = () => (
     <SettingsProvider>
       <TooltipProvider>
         <SfxBridge />
+        <MusicBridge />
         <Toaster />
         <Sonner />
         <BrowserRouter>
