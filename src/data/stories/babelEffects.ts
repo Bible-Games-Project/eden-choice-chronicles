@@ -1,18 +1,15 @@
 import { SceneEffect } from "@/components/SceneEffects";
 
 export const babelEffects: Record<string, SceneEffect> = {
-  start: "fireflies",
+  start: "leaves",
   unity: "fireflies",
-  ambition_seed: "fireflies",
-  first_bricks: "sparks",
-  the_idea: "sparks",
-  doubt_rises: "fireflies",
-  construction_begins: "sparks",
-  tower_rising: "sparks",
+  proposal: "sparks",
+  bricks: "sparks",
+  construction: "sparks",
+  rising: "sparks",
+  summit: "fireflies",
   gods_gaze: "sparkles",
-  the_confusion: "sparks",
-  panic: "sparks",
+  confusion: "sparks",
   scattering: "leaves",
-  new_land: "leaves",
   reflection: "sparkles",
 };
