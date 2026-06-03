@@ -1,7 +1,7 @@
 {
   "start": {
-    "title": "[TODO:ja] A Voice in Sleep",
-    "text": "[TODO:ja] An angel speaks in your dream:\n\"Rise. Herod seeks the child.\"",
+    "title": "眠りの中の声",
+    "text": "天使があなたの夢の中で語りかけます。\n「起きなさい。ヘロデが幼子を捜しています。」",
     "choices": [
       {
         "text": "[TODO:ja] Sleep on, it is only a dream",
@@ -18,8 +18,8 @@
     ]
   },
   "ignore_consequence": {
-    "title": "[TODO:ja] Rise Now",
-    "text": "[TODO:ja] The danger is real and near.\nDo not delay.",
+    "title": "今すぐ起きなさい",
+    "text": "危険は現実であり、すぐそこにあります。\n遅れてはなりません。",
     "choices": [
       {
         "text": "[TODO:ja] Wake at once and obey",
@@ -28,8 +28,8 @@
     ]
   },
   "wait_consequence": {
-    "title": "[TODO:ja] Trust the Word",
-    "text": "[TODO:ja] Heaven has already spoken.\nMove now.",
+    "title": "御言葉を信じよ",
+    "text": "天はすでに語っています。\n今すぐ行動しなさい。",
     "choices": [
       {
         "text": "[TODO:ja] Wake at once and obey",
@@ -38,8 +38,8 @@
     ]
   },
   "wake": {
-    "title": "[TODO:ja] Wake the Mother",
-    "text": "[TODO:ja] Mary sleeps with the child near.\nThere is no time to lose.",
+    "title": "母を起こせ",
+    "text": "マリアは幼子のそばで眠っています。\n時間を無駄にしている暇はありません。",
     "choices": [
       {
         "text": "[TODO:ja] Wake Mary and prepare to flee",
@@ -52,8 +52,8 @@
     ]
   },
   "hide_consequence": {
-    "title": "[TODO:ja] Flee, Do Not Hide",
-    "text": "[TODO:ja] The angel said to leave the land.\nObey the word.",
+    "title": "逃げよ、隠れるな",
+    "text": "天使は土地を離れるように言いました。\n御言葉に従いなさい。",
     "choices": [
       {
         "text": "[TODO:ja] Wake Mary and prepare to flee",
@@ -62,8 +62,8 @@
     ]
   },
   "flee": {
-    "title": "[TODO:ja] Out of Bethlehem",
-    "text": "[TODO:ja] Moonlight falls on empty streets.\nThe child sleeps in Mary's arms.",
+    "title": "ベツレヘムを離れて",
+    "text": "月の光が人気のない通りに降り注ぐ。\n幼子はマリアの腕の中で眠っている。",
     "choices": [
       {
         "text": "[TODO:ja] Knock and warn the neighbors",
@@ -80,8 +80,8 @@
     ]
   },
   "warn_consequence": {
-    "title": "[TODO:ja] Go Quietly",
-    "text": "[TODO:ja] Your task is to save the child.\nLeave at once.",
+    "title": "静かに進め",
+    "text": "あなたの使命は幼子を救うこと。\n直ちに出発しなさい。",
     "choices": [
       {
         "text": "[TODO:ja] Slip into the night silently",
@@ -90,8 +90,8 @@
     ]
   },
   "main_road_consequence": {
-    "title": "[TODO:ja] Hidden Paths",
-    "text": "[TODO:ja] Soldiers patrol the open ways.\nKeep to the shadows.",
+    "title": "隠された道",
+    "text": "兵士が街道を巡回している。\n影に隠れて進みなさい。",
     "choices": [
       {
         "text": "[TODO:ja] Slip into the night silently",
@@ -100,8 +100,8 @@
     ]
   },
   "road": {
-    "title": "[TODO:ja] Toward the South",
-    "text": "[TODO:ja] The desert stretches before you.\nEgypt lies far beyond.",
+    "title": "南へ",
+    "text": "砂漠があなたの前に広がる。\nエジプトははるか彼方にある。",
     "choices": [
       {
         "text": "[TODO:ja] Turn back, the road is too far",
@@ -114,8 +114,8 @@
     ]
   },
   "turn_back_consequence": {
-    "title": "[TODO:ja] Forward Only",
-    "text": "[TODO:ja] Behind you is danger.\nAhead is safety.",
+    "title": "前へ進むのみ",
+    "text": "後ろには危険が迫る。\n前には安全がある。",
     "choices": [
       {
         "text": "[TODO:ja] Press on through the night",
@@ -124,8 +124,8 @@
     ]
   },
   "rest": {
-    "title": "[TODO:ja] By the Oasis",
-    "text": "[TODO:ja] Water glints under the rising sun.\nThe child must drink.",
+    "title": "オアシスにて",
+    "text": "昇る太陽の下、水がきらめく。\n幼子は水を飲まなければならない。",
     "choices": [
       {
         "text": "[TODO:ja] Linger here for many days",
@@ -142,8 +142,8 @@
     ]
   },
   "linger_consequence": {
-    "title": "[TODO:ja] Move On",
-    "text": "[TODO:ja] The border is still far away.\nKeep going.",
+    "title": "進み続けよ",
+    "text": "国境はまだ遠い。\n進み続けなさい。",
     "choices": [
       {
         "text": "[TODO:ja] Pray, then keep moving",
@@ -152,8 +152,8 @@
     ]
   },
   "send_back_consequence": {
-    "title": "[TODO:ja] Stay Together",
-    "text": "[TODO:ja] She and the child are your charge.\nNever leave them.",
+    "title": "共に留まれ",
+    "text": "彼女と幼子はあなたの責任だ。\n決して彼らを置き去りにしてはならない。",
     "choices": [
       {
         "text": "[TODO:ja] Pray, then keep moving",
@@ -162,8 +162,8 @@
     ]
   },
   "egypt": {
-    "title": "[TODO:ja] The Land of Egypt",
-    "text": "[TODO:ja] Pyramids rise in the rose dawn.\nYou have crossed the border.",
+    "title": "エジプトの地",
+    "text": "バラ色の夜明けにピラミッドがそびえ立つ。\nあなたは国境を越えた。",
     "choices": [
       {
         "text": "[TODO:ja] Find a humble home and stay",
@@ -176,8 +176,8 @@
     ]
   },
   "court_consequence": {
-    "title": "[TODO:ja] Stay Hidden",
-    "text": "[TODO:ja] The child must grow in quiet.\nFind a humble place.",
+    "title": "隠れていなさい",
+    "text": "幼子は静かに成長しなければならない。\n質素な場所を見つけなさい。",
     "choices": [
       {
         "text": "[TODO:ja] Find a humble home and stay",
@@ -186,8 +186,8 @@
     ]
   },
   "safe": {
-    "title": "[TODO:ja] Safe in Egypt",
-    "text": "[TODO:ja] The child sleeps under a warm lamp.\nHe is alive. He is safe.",
+    "title": "エジプトにて安全に",
+    "text": "幼子は暖かいランプの下で眠っている。\n彼は生きている。彼は安全だ。",
     "choices": []
   }
 }
