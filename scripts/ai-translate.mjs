@@ -83,11 +83,10 @@ async function callAI(messages, attempt = 0) {
         model: MODEL,
         messages,
         temperature: 0.2,
+        response_format: { type: "json_object" },
       }),
     });
-    if (res.status === 429 || res.status >= 500) {
-      throw new Error(`HTTP ${res.status}`);
-    }
+    if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
     if (!res.ok) {
       const text = await res.text();
       throw new Error(`HTTP ${res.status}: ${text.slice(0, 200)}`);
@@ -105,16 +104,11 @@ async function callAI(messages, attempt = 0) {
 }
 
 function extractJson(text) {
-  // Strip code fences if present
   let t = text.trim();
-  if (t.startsWith("```")) {
-    t = t.replace(/^```(?:json)?\s*/i, "").replace(/```\s*$/i, "").trim();
-  }
-  // Try direct parse
+  if (t.startsWith("```")) t = t.replace(/^```(?:json)?\s*/i, "").replace(/```\s*$/i, "").trim();
   try { return JSON.parse(t); } catch {}
-  // Find first [ ... ] or { ... }
-  const start = t.search(/[\[{]/);
-  const end = Math.max(t.lastIndexOf("]"), t.lastIndexOf("}"));
+  const start = t.indexOf("{");
+  const end = t.lastIndexOf("}");
   if (start !== -1 && end > start) {
     try { return JSON.parse(t.slice(start, end + 1)); } catch {}
   }
@@ -123,31 +117,26 @@ function extractJson(text) {
 
 async function translateBatch(lang, items) {
   const langName = LANG_NAMES[lang] || lang;
-  const payload = items.map((it, i) => ({ i, text: it.english }));
-  const sys = `You are a professional translator for a narrative Bible storytelling game.
-Translate every English string into ${langName}.
+  const payload = {};
+  items.forEach((it, i) => { payload[String(i)] = it.english; });
+  const sys = `You are a professional translator for a narrative Bible storytelling game. Translate every English string into ${langName}.
 Rules:
-- Preserve newline characters (\\n) and any surrounding punctuation exactly.
-- Keep the same tone: reverent, vivid, second-person narrative.
-- Do not add quotes or commentary. Output ONLY a JSON array.
-- Each output element: {"i": <index>, "t": "<translation>"}.
-- Translate ALL ${payload.length} items, in order. Index must match input.
-- Keep proper biblical names in their conventional ${langName} form.
-- For very short UI strings, keep them short.`;
-  const user = `Translate to ${langName}:\n${JSON.stringify(payload)}`;
+- Preserve newline characters (\\n) exactly where they appear.
+- Reverent, vivid, second-person narrative tone.
+- Keep biblical names in their conventional ${langName} form.
+- Keep UI strings short.
+- Output a single JSON object whose keys are the SAME numeric string keys from the input and whose values are the translated strings. No extra keys, no commentary.`;
+  const user = `Translate every value below to ${langName}. Return JSON object with the same keys:\n${JSON.stringify(payload)}`;
   const content = await callAI([
     { role: "system", content: sys },
     { role: "user", content: user },
   ]);
   const parsed = extractJson(content);
-  const arr = Array.isArray(parsed) ? parsed : parsed.translations || [];
-  const map = new Map();
-  for (const row of arr) {
-    if (row && typeof row.i === "number" && typeof row.t === "string") {
-      map.set(row.i, row.t);
-    }
-  }
-  return items.map((_, i) => map.get(i) ?? null);
+  const obj = parsed && typeof parsed === "object" ? parsed : {};
+  return items.map((_, i) => {
+    const v = obj[String(i)] ?? obj[i];
+    return typeof v === "string" ? v : null;
+  });
 }
 
 async function processLang(lang) {
