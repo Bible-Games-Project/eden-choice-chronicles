@@ -1,4 +1,4 @@
-.PHONY: sync-ios sync-android build optimize-images
+.PHONY: sync-ios sync-android build optimize-images validate-locales
 
 build:
 	npm run build
@@ -12,3 +12,7 @@ sync-android: build
 optimize-images:
 	@echo "🖼️  Optimizing images to WebP format..."
 	@./optimize-images.sh
+
+validate-locales:
+	@echo "🌍 Validating translations..."
+	@node scripts/validate-locales.mjs
