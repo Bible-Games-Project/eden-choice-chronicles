@@ -197,7 +197,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
               }`}
             >
               <Wrench className="w-3.5 h-3.5" />
-              Dev Mode: {devMode ? "ON" : "OFF"}
+              {t("devModeLabel")}: {devMode ? t("devModeOn") : t("devModeOff")}
             </button>
 
             <button
@@ -205,13 +205,13 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
               className="flex items-center gap-2 px-4 py-2 rounded-lg border border-primary-foreground/15 bg-black/20 text-primary-foreground/40 hover:bg-primary-foreground/5 text-xs font-display tracking-wider uppercase transition-all cursor-pointer"
             >
               <Eye className="w-3.5 h-3.5" />
-              Sprite Viewer
+              {t("spriteViewer")}
             </button>
           </div>
 
           {devMode && (
             <p className="text-[10px] text-amber-400/60 font-body text-center">
-              All stories unlocked • Scene selector available
+              {t("allStoriesUnlocked")}
             </p>
           )}
         </motion.div>

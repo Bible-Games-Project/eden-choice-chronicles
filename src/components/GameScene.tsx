@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { StoryChoice } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { useSettings } from "@/hooks/useSettings";
+import { useTranslated, useTranslatedList } from "@/hooks/useTranslated";
 
 interface GameSceneProps {
   title: string;
@@ -37,6 +39,11 @@ const getFeedbackColor = (isCorrect: boolean) => isCorrect ? CORRECT_BG : INCORR
 
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false, storyId }: GameSceneProps) => {
   void storyId;
+  const { t } = useSettings();
+  const translatedText = useTranslated(text);
+  const choiceTexts = useMemo(() => choices.map((c) => c.text), [choices]);
+  const translatedChoiceTexts = useTranslatedList(choiceTexts);
+  const continueLabel = t("continueJourney");
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedIsCorrect, setClickedIsCorrect] = useState<boolean | null>(null);
   const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
@@ -116,7 +123,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   }, [onComplete]);
 
   // Join text with ". " for mobile/tablet (single flowing paragraph)
-  const mobileText = text.replace(/\n/g, " ");
+  const mobileText = translatedText.replace(/\n/g, " ");
 
   const renderTextBlock = (compact = false, joinLines = false) => (
     <div className="text-center">
@@ -132,7 +139,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
             {mobileText}
           </p>
         ) : (
-          text.split("\n").map((line, i) => (
+          translatedText.split("\n").map((line, i) => (
             <p
               key={i}
               className={`font-body italic text-primary-foreground/90 drop-shadow-[0_3px_8px_rgba(0,0,0,0.85)] leading-snug ${
@@ -186,7 +193,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
                     compact ? "text-sm" : "text-base md:text-lg"
                   }`}
                 >
-                  {choice.text}
+                  {translatedChoiceTexts[i] ?? choice.text}
                 </span>
               </motion.button>
             );
@@ -218,7 +225,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
             compact ? "px-5 py-2" : "px-8 py-3"
           }`}
         >
-          Continue Journey
+          {continueLabel}
         </button>
       </motion.div>
     );
