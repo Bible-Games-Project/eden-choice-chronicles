@@ -217,6 +217,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
         </motion.div>
       </div>
 
+      <SettingsPanel open={settingsOpen} onClose={() => setSettingsOpen(false)} />
     </div>
   );
 };
