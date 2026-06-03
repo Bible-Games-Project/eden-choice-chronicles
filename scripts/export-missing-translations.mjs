@@ -14,13 +14,22 @@
  *   node scripts/export-missing-translations.mjs --stories-only
  */
 
-import { readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync, statSync, unlinkSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(fileURLToPath(new URL(".", import.meta.url)), "..");
 const LOCALES_DIR = join(ROOT, "src/locales");
 const SOURCE_LANG = "en";
+
+// Clean up old translation files
+const oldFiles = readdirSync(ROOT).filter(f => f.startsWith("translations-to-do") && (f.endsWith(".json") || f.endsWith(".csv") || f.endsWith(".md")));
+if (oldFiles.length > 0) {
+  console.log(`🧹 Cleaning up ${oldFiles.length} old translation file(s)...`);
+  for (const file of oldFiles) {
+    unlinkSync(join(ROOT, file));
+  }
+}
 
 const args = process.argv.slice(2);
 const targetLang = args.find(a => a.startsWith("--lang="))?.split("=")[1];
