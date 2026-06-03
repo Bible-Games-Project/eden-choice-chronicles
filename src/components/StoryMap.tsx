@@ -48,13 +48,10 @@ const StoryMap = ({ title, stories, isStoryCompleted, isStoryUnlocked, getBestSt
               const playable = unlocked && story.hasContent;
 
               return (
-                <motion.div
+                <div
                   key={story.id}
                   role={playable ? "button" : undefined}
                   tabIndex={playable ? 0 : undefined}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.03, duration: 0.4 }}
                   onClick={() => playable && onSelectStory(story)}
                   onKeyDown={(e) => { if (playable && (e.key === "Enter" || e.key === " ")) onSelectStory(story); }}
                   style={{ cursor: playable ? 'pointer' : completed ? 'default' : 'not-allowed' }}
