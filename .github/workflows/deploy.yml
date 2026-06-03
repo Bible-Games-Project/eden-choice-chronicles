@@ -29,9 +29,27 @@ on:
 
 jobs:
   # =========================
+  #   Validate Translations
+  # =========================
+  validate-locales:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate locale files
+        run: node scripts/validate-locales.mjs
+
+  # =========================
   #   Optimize Images
   # =========================
   optimize-images:
+    needs: validate-locales
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
