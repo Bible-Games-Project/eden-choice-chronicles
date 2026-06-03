@@ -8,14 +8,12 @@ import starryPromise from "@/assets/scenes/abraham-lot/starry-promise.jpg";
 
 export const abrahamLotImages: Record<string, string> = {
   start: campOvercrowded,
+  tension: quarrelWell,
   quarrel: quarrelWell,
-  force_consequence: quarrelWell,
   decision: campOvercrowded,
-  demand_consequence: campOvercrowded,
   offering: hilltopView,
   lots_choice: jordanPlain,
   lot_departs: lotDeparting,
-  stay_consequence: lotDeparting,
   remaining: mamreAltar,
   the_promise: starryPromise,
 };
