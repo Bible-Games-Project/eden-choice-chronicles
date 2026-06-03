@@ -3,7 +3,6 @@ import { StoryChoice } from "@/data/stories/creation";
 import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useSettings } from "@/hooks/useSettings";
-import { useTranslated, useTranslatedList } from "@/hooks/useTranslated";
 
 interface GameSceneProps {
   title: string;
