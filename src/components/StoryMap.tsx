@@ -2,7 +2,6 @@ import { Lock, Check, ChevronLeft, Play, Star, Gem } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
 import storyListBg from "@/assets/map/story-list-bg.jpg";
 import { useSettings } from "@/hooks/useSettings";
-import { useTranslated } from "@/hooks/useTranslated";
 
 const StoryRowTitle = ({
   number,
@@ -13,8 +12,7 @@ const StoryRowTitle = ({
   englishTitle: string;
   className: string;
 }) => {
-  const translated = useTranslated(englishTitle);
-  return <span className={className}>{number}. {translated}</span>;
+  return <span className={className}>{number}. {englishTitle}</span>;
 };
 
 /** Stories up to and including this number are free to play (set via VITE_FREE_STORY_LIMIT) */
@@ -48,7 +46,7 @@ const StoryMap = ({
   onPaywallRequest,
 }: StoryMapProps) => {
   const { t } = useSettings();
-  const translatedTitle = useTranslated(title);
+  const translatedTitle = title;
   return (
     <div className="fixed inset-0 overflow-hidden">
       <img src={storyListBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
