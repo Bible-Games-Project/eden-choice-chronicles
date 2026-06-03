@@ -171,12 +171,12 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
                 onClick={() => handleChoice(choice, i)}
                 disabled={clickedIndex !== null || !isReady || isTransitioning}
                 className={`group w-full text-center rounded-lg border transition-all duration-300 ${
-                  staggered || isSolidButtonStyle ? "" : "backdrop-blur-md"
-                } ${isReady && !isTransitioning ? "cursor-pointer" : "cursor-default"} ${
+                  isReady && !isTransitioning ? "cursor-pointer" : "cursor-default"
+                } ${
                   compact ? "px-4 py-2" : "px-5 py-3"
                 }`}
                 style={{
-                  backgroundColor: flashBg || (isSolidButtonStyle ? "rgba(0,0,0,0.75)" : "rgba(0,0,0,0.4)"),
+                  backgroundColor: flashBg || "rgba(0,0,0,0.75)",
                   borderColor: flashBorder || "rgba(255,255,255,0.2)",
                   pointerEvents: isReady && !isTransitioning ? "auto" : "none",
                 }}
