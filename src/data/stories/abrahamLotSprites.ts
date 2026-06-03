@@ -1,12 +1,12 @@
-import abrahamLotTogether from "@/assets/sprites/abraham-lot/abraham-lot-together.png";
-import abrahamThoughtful from "@/assets/sprites/abraham-lot/abraham-thoughtful.png";
-import herdsmenQuarrel from "@/assets/sprites/abraham-lot/herdsmen-quarrel.png";
-import abrahamSpeakingLot from "@/assets/sprites/abraham-lot/abraham-speaking-lot.png";
-import abrahamOffering from "@/assets/sprites/abraham-lot/abraham-offering.png";
-import lotGazing from "@/assets/sprites/abraham-lot/lot-gazing.png";
-import lotDeparting from "@/assets/sprites/abraham-lot/lot-departing.png";
-import abrahamWatching from "@/assets/sprites/abraham-lot/abraham-watching.png";
-import abrahamKneeling from "@/assets/sprites/abraham-lot/abraham-kneeling.png";
+import abrahamLotTogether from "@/assets/sprites/abraham-lot/abraham-lot-together.webp";
+import abrahamThoughtful from "@/assets/sprites/abraham-lot/abraham-thoughtful.webp";
+import herdsmenQuarrel from "@/assets/sprites/abraham-lot/herdsmen-quarrel.webp";
+import abrahamSpeakingLot from "@/assets/sprites/abraham-lot/abraham-speaking-lot.webp";
+import abrahamOffering from "@/assets/sprites/abraham-lot/abraham-offering.webp";
+import lotGazing from "@/assets/sprites/abraham-lot/lot-gazing.webp";
+import lotDeparting from "@/assets/sprites/abraham-lot/lot-departing.webp";
+import abrahamWatching from "@/assets/sprites/abraham-lot/abraham-watching.webp";
+import abrahamKneeling from "@/assets/sprites/abraham-lot/abraham-kneeling.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

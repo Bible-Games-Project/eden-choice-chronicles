@@ -1,15 +1,15 @@
-import abrahamFamine from "@/assets/sprites/abraham-egypt/abraham-famine.png";
-import abrahamSarahRoad from "@/assets/sprites/abraham-egypt/abraham-sarah-road.png";
-import abrahamFearful from "@/assets/sprites/abraham-egypt/abraham-fearful.png";
-import abrahamSarahWhisper from "@/assets/sprites/abraham-egypt/abraham-sarah-whisper.png";
-import abrahamSarahEntering from "@/assets/sprites/abraham-egypt/abraham-sarah-entering.png";
-import abrahamOfficial from "@/assets/sprites/abraham-egypt/abraham-official.png";
-import abrahamGrief from "@/assets/sprites/abraham-egypt/abraham-grief.png";
-import abrahamGifts from "@/assets/sprites/abraham-egypt/abraham-gifts.png";
-import pharaohStricken from "@/assets/sprites/abraham-egypt/pharaoh-stricken.png";
-import abrahamPharaoh from "@/assets/sprites/abraham-egypt/abraham-pharaoh.png";
-import abrahamSarahLeaving from "@/assets/sprites/abraham-egypt/abraham-sarah-leaving.png";
-import abrahamAltar from "@/assets/sprites/abraham-egypt/abraham-altar.png";
+import abrahamFamine from "@/assets/sprites/abraham-egypt/abraham-famine.webp";
+import abrahamSarahRoad from "@/assets/sprites/abraham-egypt/abraham-sarah-road.webp";
+import abrahamFearful from "@/assets/sprites/abraham-egypt/abraham-fearful.webp";
+import abrahamSarahWhisper from "@/assets/sprites/abraham-egypt/abraham-sarah-whisper.webp";
+import abrahamSarahEntering from "@/assets/sprites/abraham-egypt/abraham-sarah-entering.webp";
+import abrahamOfficial from "@/assets/sprites/abraham-egypt/abraham-official.webp";
+import abrahamGrief from "@/assets/sprites/abraham-egypt/abraham-grief.webp";
+import abrahamGifts from "@/assets/sprites/abraham-egypt/abraham-gifts.webp";
+import pharaohStricken from "@/assets/sprites/abraham-egypt/pharaoh-stricken.webp";
+import abrahamPharaoh from "@/assets/sprites/abraham-egypt/abraham-pharaoh.webp";
+import abrahamSarahLeaving from "@/assets/sprites/abraham-egypt/abraham-sarah-leaving.webp";
+import abrahamAltar from "@/assets/sprites/abraham-egypt/abraham-altar.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

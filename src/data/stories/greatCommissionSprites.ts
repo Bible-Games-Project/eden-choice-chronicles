@@ -1,11 +1,11 @@
-import disciplesArriving from "@/assets/sprites/great-commission/disciples-arriving.png";
-import jesusAppearing from "@/assets/sprites/great-commission/jesus-appearing.png";
-import jesusAuthority from "@/assets/sprites/great-commission/jesus-authority.png";
-import jesusCommission from "@/assets/sprites/great-commission/jesus-commission.png";
-import jesusBaptize from "@/assets/sprites/great-commission/jesus-baptize.png";
-import jesusTeaching from "@/assets/sprites/great-commission/jesus-teaching.png";
-import jesusPromise from "@/assets/sprites/great-commission/jesus-promise.png";
-import disciplesSent from "@/assets/sprites/great-commission/disciples-sent.png";
+import disciplesArriving from "@/assets/sprites/great-commission/disciples-arriving.webp";
+import jesusAppearing from "@/assets/sprites/great-commission/jesus-appearing.webp";
+import jesusAuthority from "@/assets/sprites/great-commission/jesus-authority.webp";
+import jesusCommission from "@/assets/sprites/great-commission/jesus-commission.webp";
+import jesusBaptize from "@/assets/sprites/great-commission/jesus-baptize.webp";
+import jesusTeaching from "@/assets/sprites/great-commission/jesus-teaching.webp";
+import jesusPromise from "@/assets/sprites/great-commission/jesus-promise.webp";
+import disciplesSent from "@/assets/sprites/great-commission/disciples-sent.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

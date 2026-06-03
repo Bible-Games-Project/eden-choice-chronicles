@@ -1,14 +1,14 @@
-import adamAwakening from "@/assets/sprites/adam-eve/adam-awakening.png";
-import adamNaming from "@/assets/sprites/adam-eve/adam-naming.png";
-import adamLonely from "@/assets/sprites/adam-eve/adam-lonely.png";
-import adamSleeping from "@/assets/sprites/adam-eve/adam-sleeping.png";
-import adamEveMeeting from "@/assets/sprites/adam-eve/adam-eve-meeting.png";
-import adamEveTree from "@/assets/sprites/adam-eve/adam-eve-tree.png";
-import eveSerpent from "@/assets/sprites/adam-eve/eve-serpent.png";
-import adamEveFruit from "@/assets/sprites/adam-eve/adam-eve-fruit.png";
-import adamEveHiding from "@/assets/sprites/adam-eve/adam-eve-hiding.png";
-import adamEveBowing from "@/assets/sprites/adam-eve/adam-eve-bowing.png";
-import adamEveLeaving from "@/assets/sprites/adam-eve/adam-eve-leaving.png";
+import adamAwakening from "@/assets/sprites/adam-eve/adam-awakening.webp";
+import adamNaming from "@/assets/sprites/adam-eve/adam-naming.webp";
+import adamLonely from "@/assets/sprites/adam-eve/adam-lonely.webp";
+import adamSleeping from "@/assets/sprites/adam-eve/adam-sleeping.webp";
+import adamEveMeeting from "@/assets/sprites/adam-eve/adam-eve-meeting.webp";
+import adamEveTree from "@/assets/sprites/adam-eve/adam-eve-tree.webp";
+import eveSerpent from "@/assets/sprites/adam-eve/eve-serpent.webp";
+import adamEveFruit from "@/assets/sprites/adam-eve/adam-eve-fruit.webp";
+import adamEveHiding from "@/assets/sprites/adam-eve/adam-eve-hiding.webp";
+import adamEveBowing from "@/assets/sprites/adam-eve/adam-eve-bowing.webp";
+import adamEveLeaving from "@/assets/sprites/adam-eve/adam-eve-leaving.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

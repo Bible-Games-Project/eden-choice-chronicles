@@ -1,14 +1,14 @@
-import noahCalled from "@/assets/sprites/noah/noah-called.png";
-import noahMocked from "@/assets/sprites/noah/noah-mocked.png";
-import noahBuilding from "@/assets/sprites/noah/noah-building.png";
-import noahFamily from "@/assets/sprites/noah/noah-family.png";
-import noahAnimals from "@/assets/sprites/noah/noah-animals.png";
-import noahBoarding from "@/assets/sprites/noah/noah-boarding.png";
-import noahStorm from "@/assets/sprites/noah/noah-storm.png";
-import noahInside from "@/assets/sprites/noah/noah-inside.png";
-import noahDove from "@/assets/sprites/noah/noah-dove.png";
-import noahSteppingOut from "@/assets/sprites/noah/noah-stepping-out.png";
-import noahCovenant from "@/assets/sprites/noah/noah-covenant.png";
+import noahCalled from "@/assets/sprites/noah/noah-called.webp";
+import noahMocked from "@/assets/sprites/noah/noah-mocked.webp";
+import noahBuilding from "@/assets/sprites/noah/noah-building.webp";
+import noahFamily from "@/assets/sprites/noah/noah-family.webp";
+import noahAnimals from "@/assets/sprites/noah/noah-animals.webp";
+import noahBoarding from "@/assets/sprites/noah/noah-boarding.webp";
+import noahStorm from "@/assets/sprites/noah/noah-storm.webp";
+import noahInside from "@/assets/sprites/noah/noah-inside.webp";
+import noahDove from "@/assets/sprites/noah/noah-dove.webp";
+import noahSteppingOut from "@/assets/sprites/noah/noah-stepping-out.webp";
+import noahCovenant from "@/assets/sprites/noah/noah-covenant.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
