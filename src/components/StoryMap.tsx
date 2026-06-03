@@ -46,7 +46,7 @@ const StoryMap = ({
   onPaywallRequest,
 }: StoryMapProps) => {
   const { t } = useSettings();
-  const translatedTitle = useTranslated(title);
+  const translatedTitle = title;
   return (
     <div className="fixed inset-0 overflow-hidden">
       <img src={storyListBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
