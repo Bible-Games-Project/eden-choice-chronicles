@@ -64,7 +64,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
             textShadow: "0 0 40px hsl(43,75%,55%,0.3), 0 2px 8px rgba(0,0,0,0.8)",
           }}
         >
-          Sacred Quest
+          {t("title")}
         </motion.h1>
 
         <motion.div
@@ -84,7 +84,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
           transition={{ duration: 1, delay: 0.6 }}
           className="font-body italic text-lg md:text-xl text-primary-foreground/50 mb-12"
         >
-          Walk through the greatest stories ever told.
+          {t("tagline")}
         </motion.p>
 
         {/* Testament cards */}
@@ -102,11 +102,11 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
                 <BookOpen className="w-4 h-4 text-gold" />
               </div>
               <span className="font-display text-base tracking-[0.15em] uppercase text-gold">
-                Old Testament
+                {t("oldTestament")}
               </span>
             </div>
             <p className="font-body text-base text-primary-foreground/50 mb-4 pl-[52px]">
-              {otProgress.completed} of {otProgress.total} stories completed
+              {otProgress.completed} / {otProgress.total} {t("storiesCompleted")}
             </p>
             <div className="ml-[52px] h-1 w-[calc(100%-52px)] rounded-full bg-foreground/40 overflow-hidden">
               <motion.div
@@ -151,7 +151,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
                   effectiveNTUnlocked ? "text-gold" : "text-primary-foreground/30"
                 }`}
               >
-                New Testament
+                {t("newTestament")}
               </span>
             </div>
             <p
@@ -162,8 +162,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
               }`}
             >
               {effectiveNTUnlocked
-                ? `${ntProgress.completed} of ${ntProgress.total} stories completed`
-                : "Complete all Old Testament stories to unlock"}
+                ? `${ntProgress.completed} / ${ntProgress.total} ${t("storiesCompleted")}`
+                : t("lockedHint")}
             </p>
             {effectiveNTUnlocked && (
               <div className="mt-4 ml-[52px] h-1 w-[calc(100%-52px)] rounded-full bg-foreground/40 overflow-hidden">
