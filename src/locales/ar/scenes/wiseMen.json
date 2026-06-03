@@ -1,7 +1,7 @@
 {
   "start": {
-    "title": "[TODO:ar] A New Star",
-    "text": "[TODO:ar] A bright star rises in the east.\nIt shines unlike any other.",
+    "title": "نجم جديد",
+    "text": "نجم ساطع يشرق في الشرق.\nيضيء على نحو لا مثيل له.",
     "choices": [
       {
         "text": "[TODO:ar] Ignore it as nothing",
@@ -18,8 +18,8 @@
     ]
   },
   "ignore_consequence": {
-    "title": "[TODO:ar] Look Again",
-    "text": "[TODO:ar] The star will not be hidden.\nIt calls you onward.",
+    "title": "انظر مرة أخرى",
+    "text": "النجم لن يختبئ.\nإنه يدعوك للمضي قدمًا.",
     "choices": [
       {
         "text": "[TODO:ar] Search the ancient prophecies",
@@ -28,8 +28,8 @@
     ]
   },
   "fear_consequence": {
-    "title": "[TODO:ar] Take Heart",
-    "text": "[TODO:ar] This light brings hope.\nFollow where it leads.",
+    "title": "تشجع",
+    "text": "هذا النور يجلب الأمل.\nاتبع حيث يقودك.",
     "choices": [
       {
         "text": "[TODO:ar] Search the ancient prophecies",
@@ -38,8 +38,8 @@
     ]
   },
   "journey": {
-    "title": "[TODO:ar] The Long Road",
-    "text": "[TODO:ar] You ride west across endless dunes.\nThe star moves before you.",
+    "title": "الطريق الطويل",
+    "text": "تركب غربًا عبر الكثبان الرملية التي لا نهاية لها.\nالنجم يتحرك أمامك.",
     "choices": [
       {
         "text": "[TODO:ar] Turn back, the road is hard",
@@ -56,8 +56,8 @@
     ]
   },
   "turn_back_consequence": {
-    "title": "[TODO:ar] Forward Still",
-    "text": "[TODO:ar] The promise lies ahead.\nDo not turn from it now.",
+    "title": "إلى الأمام",
+    "text": "الوعد يكمن في الأمام.\nلا تحِد عنه الآن.",
     "choices": [
       {
         "text": "[TODO:ar] Press on toward Jerusalem",
@@ -66,8 +66,8 @@
     ]
   },
   "herod": {
-    "title": "[TODO:ar] Before Herod",
-    "text": "[TODO:ar] \"Where is the newborn King of the Jews?\"\nHerod's eyes grow cold.",
+    "title": "أمام هيرودس",
+    "text": "«أين ملك اليهود المولود؟»\nعينا هيرودس تتجمدان.",
     "choices": [
       {
         "text": "[TODO:ar] Swear loyalty to Herod alone",
@@ -80,8 +80,8 @@
     ]
   },
   "loyalty_consequence": {
-    "title": "[TODO:ar] One True King",
-    "text": "[TODO:ar] Herod is not the One you seek.\nKeep your eyes on the star.",
+    "title": "الملك الحق الوحيد",
+    "text": "هيرودس ليس هو الذي تبحث عنه.\nأبقِ عينيك على النجم.",
     "choices": [
       {
         "text": "[TODO:ar] Listen to the priests' answer",
@@ -90,8 +90,8 @@
     ]
   },
   "bethlehem": {
-    "title": "[TODO:ar] The Star Stops",
-    "text": "[TODO:ar] The star halts above a humble house.\nHere, the King is found.",
+    "title": "النجم يتوقف",
+    "text": "يتوقف النجم فوق بيت متواضع.\nهنا، يوجد الملك.",
     "choices": [
       {
         "text": "[TODO:ar] Doubt — this cannot be the place",
@@ -108,8 +108,8 @@
     ]
   },
   "doubt_consequence": {
-    "title": "[TODO:ar] Trust the Sign",
-    "text": "[TODO:ar] The star itself has led you here.\nBelieve and enter.",
+    "title": "ثق بالعلامة",
+    "text": "النجم نفسه قادك إلى هنا.\nآمن وادخل.",
     "choices": [
       {
         "text": "[TODO:ar] Knock and enter with reverence",
@@ -118,8 +118,8 @@
     ]
   },
   "wait_consequence": {
-    "title": "[TODO:ar] Enter Now",
-    "text": "[TODO:ar] Do not delay before the King.\nHe waits within.",
+    "title": "ادخل الآن",
+    "text": "لا تتأخر أمام الملك.\nإنه ينتظر في الداخل.",
     "choices": [
       {
         "text": "[TODO:ar] Knock and enter with reverence",
@@ -128,8 +128,8 @@
     ]
   },
   "worship": {
-    "title": "[TODO:ar] Gold, Frankincense, Myrrh",
-    "text": "[TODO:ar] The child meets your eyes.\nYou kneel and open your treasures.",
+    "title": "ذهب، لبان، مر",
+    "text": "الطفل يلتقي بعينيك.\nتركع وتفتح كنوزك.",
     "choices": [
       {
         "text": "[TODO:ar] Keep the finest gifts for yourself",
@@ -142,8 +142,8 @@
     ]
   },
   "greed_consequence": {
-    "title": "[TODO:ar] Give All",
-    "text": "[TODO:ar] He is the King of kings.\nHold nothing back.",
+    "title": "أعطِ كل شيء",
+    "text": "إنه ملك الملوك.\nلا تحبس شيئًا.",
     "choices": [
       {
         "text": "[TODO:ar] Offer all three gifts to the child",
@@ -152,8 +152,8 @@
     ]
   },
   "dream": {
-    "title": "[TODO:ar] A Warning in Sleep",
-    "text": "[TODO:ar] In a dream you are warned:\n\"Do not return to Herod.\"",
+    "title": "تحذير في النوم",
+    "text": "في حلم، يتم تحذيرك:\n«لا ترجع إلى هيرودس.»",
     "choices": [
       {
         "text": "[TODO:ar] Return to Herod as promised",
@@ -170,8 +170,8 @@
     ]
   },
   "betray_consequence": {
-    "title": "[TODO:ar] Obey the Dream",
-    "text": "[TODO:ar] Herod plots against the child.\nDo not lead him to the King.",
+    "title": "أطع الحلم",
+    "text": "هيرودس يتآمر ضد الطفل.\nلا تقده إلى الملك.",
     "choices": [
       {
         "text": "[TODO:ar] Take another road home",
@@ -180,8 +180,8 @@
     ]
   },
   "stay_consequence": {
-    "title": "[TODO:ar] Go Home",
-    "text": "[TODO:ar] Your task here is fulfilled.\nReturn by another way.",
+    "title": "اذهب إلى البيت",
+    "text": "مهمتك هنا قد أُنجزت.\nارجع بطريق آخر.",
     "choices": [
       {
         "text": "[TODO:ar] Take another road home",
@@ -190,8 +190,8 @@
     ]
   },
   "return": {
-    "title": "[TODO:ar] Another Road",
-    "text": "[TODO:ar] You ride east as dawn breaks.\nYou have seen the King.",
+    "title": "طريق آخر",
+    "text": "تركب شرقًا مع بزوغ الفجر.\nلقد رأيت الملك.",
     "choices": []
   }
 }
