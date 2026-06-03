@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
-import { BookOpen, Lock, Wrench, Eye } from "lucide-react";
+import { BookOpen, Lock, Wrench, Eye, Settings as SettingsIcon } from "lucide-react";
+import { useState } from "react";
+import SettingsPanel from "@/components/SettingsPanel";
+import { useSettings } from "@/hooks/useSettings";
 
 interface MainMenuProps {
   onSelectTestament: (testament: "old" | "new") => void;
@@ -13,9 +16,21 @@ interface MainMenuProps {
 
 const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, devMode, onToggleDevMode, onOpenSpriteViewer }: MainMenuProps) => {
   const effectiveNTUnlocked = devMode || isNTUnlocked;
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const { t } = useSettings();
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center overflow-hidden">
+      {/* Settings (gear) button — top right */}
+      <button
+        type="button"
+        onClick={() => setSettingsOpen(true)}
+        aria-label={t("settings")}
+        className="absolute top-4 right-4 z-20 w-11 h-11 rounded-full border border-gold/30 bg-black/30 text-gold flex items-center justify-center hover:bg-gold/15 hover:border-gold/60 transition cursor-pointer"
+      >
+        <SettingsIcon className="w-5 h-5" />
+      </button>
+
       {/* Layered atmospheric background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[hsl(25,25%,8%)] via-[hsl(30,30%,14%)] to-[hsl(25,20%,6%)]" />
       <div
@@ -49,7 +64,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
             textShadow: "0 0 40px hsl(43,75%,55%,0.3), 0 2px 8px rgba(0,0,0,0.8)",
           }}
         >
-          Sacred Quest
+          {t("title")}
         </motion.h1>
 
         <motion.div
@@ -69,7 +84,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
           transition={{ duration: 1, delay: 0.6 }}
           className="font-body italic text-lg md:text-xl text-primary-foreground/50 mb-12"
         >
-          Walk through the greatest stories ever told.
+          {t("tagline")}
         </motion.p>
 
         {/* Testament cards */}
@@ -87,11 +102,11 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
                 <BookOpen className="w-4 h-4 text-gold" />
               </div>
               <span className="font-display text-base tracking-[0.15em] uppercase text-gold">
-                Old Testament
+                {t("oldTestament")}
               </span>
             </div>
             <p className="font-body text-base text-primary-foreground/50 mb-4 pl-[52px]">
-              {otProgress.completed} of {otProgress.total} stories completed
+              {otProgress.completed} / {otProgress.total} {t("storiesCompleted")}
             </p>
             <div className="ml-[52px] h-1 w-[calc(100%-52px)] rounded-full bg-foreground/40 overflow-hidden">
               <motion.div
@@ -136,7 +151,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
                   effectiveNTUnlocked ? "text-gold" : "text-primary-foreground/30"
                 }`}
               >
-                New Testament
+                {t("newTestament")}
               </span>
             </div>
             <p
@@ -147,8 +162,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
               }`}
             >
               {effectiveNTUnlocked
-                ? `${ntProgress.completed} of ${ntProgress.total} stories completed`
-                : "Complete all Old Testament stories to unlock"}
+                ? `${ntProgress.completed} / ${ntProgress.total} ${t("storiesCompleted")}`
+                : t("lockedHint")}
             </p>
             {effectiveNTUnlocked && (
               <div className="mt-4 ml-[52px] h-1 w-[calc(100%-52px)] rounded-full bg-foreground/40 overflow-hidden">
@@ -202,6 +217,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
         </motion.div>
       </div>
 
+      <SettingsPanel open={settingsOpen} onClose={() => setSettingsOpen(false)} />
     </div>
   );
 };
