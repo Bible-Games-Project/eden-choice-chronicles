@@ -36,7 +36,7 @@ const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 const getFeedbackColor = (isCorrect: boolean) => isCorrect ? CORRECT_BG : INCORRECT_BG;
 
 const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false, storyId }: GameSceneProps) => {
-  const isSolidButtonStyle = storyId === "great-commission";
+  void storyId;
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedIsCorrect, setClickedIsCorrect] = useState<boolean | null>(null);
   const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
