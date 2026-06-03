@@ -13,7 +13,7 @@ import noahCovenant from "@/assets/sprites/noah/noah-covenant.png";
 import { SpriteConfig } from "@/data/creationSprites";
 
 export const noahSprites: Record<string, SpriteConfig> = {
-  command: { left: noahCalled },
+  start: { left: noahCalled },
   mockery: { left: noahMocked },
   building: { left: noahBuilding },
   ark_done: { left: noahFamily },

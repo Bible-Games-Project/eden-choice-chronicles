@@ -1,8 +1,8 @@
 import { StoryScene } from "@/data/stories/creation";
 
 export const noahScenes: Record<string, StoryScene> = {
-  command: {
-    id: "command",
+  start: {
+    id: "start",
     title: "The Voice from Above",
     text: "A voice fills the sky.\n\"Noah — build an ark. A flood is coming.\"",
     choices: [

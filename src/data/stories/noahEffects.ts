@@ -1,7 +1,7 @@
 import { SceneEffect } from "@/components/SceneEffects";
 
 export const noahEffects: Record<string, SceneEffect> = {
-  command: "sparks",
+  start: "sparks",
   mockery: "leaves",
   building: "fireflies",
   ark_done: "fireflies",

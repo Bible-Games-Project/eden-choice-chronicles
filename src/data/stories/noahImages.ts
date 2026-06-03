@@ -8,7 +8,7 @@ import newEarthImg from "@/assets/scenes/noah/new-earth.jpg";
 import rainbowImg from "@/assets/scenes/noah/rainbow.jpg";
 
 export const noahImages: Record<string, string> = {
-  command: divineImg,
+  start: divineImg,
   mockery: corruptWorldImg,
   building: buildingImg,
   ark_done: arkCompleteImg,
