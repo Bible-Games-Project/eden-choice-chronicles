@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Star } from "lucide-react";
+import { useSettings } from "@/hooks/useSettings";
 
 interface StoryEndScreenProps {
   stars: number; // 0-5
@@ -19,6 +20,7 @@ const StoryEndScreen = ({
   onReplay,
   onContinue,
 }: StoryEndScreenProps) => {
+  const { t } = useSettings();
   const [revealedStars, setRevealedStars] = useState(0);
   const [showActions, setShowActions] = useState(false);
 
@@ -58,7 +60,7 @@ const StoryEndScreen = ({
           <div className="flex items-center justify-center gap-3 mb-3">
             <div className="h-px w-12 bg-gold/40" />
             <span className="font-display text-xs tracking-[0.3em] uppercase text-gold/70">
-              Story Complete
+              {t("storyComplete")}
             </span>
             <div className="h-px w-12 bg-gold/40" />
           </div>
@@ -98,7 +100,7 @@ const StoryEndScreen = ({
           transition={{ duration: 0.6 }}
           className="font-body italic text-primary-foreground/85 text-base md:text-lg text-center mb-10 drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]"
         >
-          {percentage}% aligned with the biblical story
+          {percentage}{t("alignedSuffix")}
         </motion.p>
 
         {/* Actions */}
@@ -114,14 +116,14 @@ const StoryEndScreen = ({
               onClick={onReplay}
               className="font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 px-6 py-3 cursor-pointer"
             >
-              Replay Story
+              {t("replayStory")}
             </button>
           )}
           <button
             onClick={onContinue}
             className="font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/60 bg-gold/10 text-gold hover:bg-gold/25 hover:border-gold transition-all duration-300 px-8 py-3 cursor-pointer"
           >
-            Continue
+            {t("continue")}
           </button>
         </motion.div>
       </div>
