@@ -1,7 +1,7 @@
 {
   "start": {
-    "title": "[TODO:de] Your Servant",
-    "text": "[TODO:de] Your servant lies dying.\nYou hear a teacher is near.",
+    "title": "Dein Diener",
+    "text": "Dein Diener liegt im Sterben.\nDu hörst, dass ein Lehrer in der Nähe ist.",
     "choices": [
       {
         "text": "[TODO:de] Send for a Roman doctor",
@@ -18,8 +18,8 @@
     ]
   },
   "doctor_consequence": {
-    "title": "[TODO:de] Seek the Healer",
-    "text": "[TODO:de] No skill of Rome can save him.\nOnly Jesus can.",
+    "title": "Suche den Heiler",
+    "text": "Keine römische Kunst kann ihn retten.\nNur Jesus kann es.",
     "choices": [
       {
         "text": "[TODO:de] Go to find Jesus",
@@ -28,8 +28,8 @@
     ]
   },
   "wait_consequence": {
-    "title": "[TODO:de] Do Not Delay",
-    "text": "[TODO:de] Mercy passes through your town.\nReach him now.",
+    "title": "Zögere nicht",
+    "text": "Barmherzigkeit zieht durch deine Stadt.\nErreiche ihn jetzt.",
     "choices": [
       {
         "text": "[TODO:de] Go to find Jesus",
@@ -38,8 +38,8 @@
     ]
   },
   "seek": {
-    "title": "[TODO:de] Before the Teacher",
-    "text": "[TODO:de] You stand before him.\nA Roman among his people.",
+    "title": "Vor dem Lehrer",
+    "text": "Du stehst vor ihm.\nEin Römer unter seinem Volk.",
     "choices": [
       {
         "text": "[TODO:de] \"Lord, my servant suffers.\"",
@@ -52,8 +52,8 @@
     ]
   },
   "command_consequence": {
-    "title": "[TODO:de] Lay Down Pride",
-    "text": "[TODO:de] Authority bends here.\nAsk humbly.",
+    "title": "Lege den Stolz ab",
+    "text": "Autorität beugt sich hier.\nBitte demütig.",
     "choices": [
       {
         "text": "[TODO:de] \"Lord, my servant suffers.\"",
@@ -62,8 +62,8 @@
     ]
   },
   "agree": {
-    "title": "[TODO:de] \"I Will Come\"",
-    "text": "[TODO:de] \"I will come and heal him.\"\nHe steps toward your home.",
+    "title": "„Ich werde kommen“",
+    "text": "„Ich werde kommen und ihn heilen.“\nEr geht auf dein Haus zu.",
     "choices": [
       {
         "text": "[TODO:de] Lead him proudly home",
@@ -76,8 +76,8 @@
     ]
   },
   "proud_consequence": {
-    "title": "[TODO:de] Look Within",
-    "text": "[TODO:de] Who are you that he should come?\nSpeak the truth.",
+    "title": "Blicke nach innen",
+    "text": "Wer bist du, dass er kommen sollte?\nSprich die Wahrheit.",
     "choices": [
       {
         "text": "[TODO:de] Stop. You are unworthy",
@@ -86,8 +86,8 @@
     ]
   },
   "faith": {
-    "title": "[TODO:de] Only Say the Word",
-    "text": "[TODO:de] \"I am not worthy.\"\nWhat will you ask?",
+    "title": "Sprich nur das Wort",
+    "text": "„Ich bin nicht würdig.“\nWas wirst du bitten?",
     "choices": [
       {
         "text": "[TODO:de] Beg him to hurry",
@@ -104,8 +104,8 @@
     ]
   },
   "hurry_consequence": {
-    "title": "[TODO:de] Trust His Word",
-    "text": "[TODO:de] His word alone is enough.\nSpeak it.",
+    "title": "Vertraue seinem Wort",
+    "text": "Sein Wort allein ist genug.\nSprich es aus.",
     "choices": [
       {
         "text": "[TODO:de] \"Only say the word.\"",
@@ -114,8 +114,8 @@
     ]
   },
   "sign_consequence": {
-    "title": "[TODO:de] No Proof Needed",
-    "text": "[TODO:de] Faith does not bargain.\nSpeak from belief.",
+    "title": "Kein Beweis nötig",
+    "text": "Glaube handelt nicht.\nSprich aus Überzeugung.",
     "choices": [
       {
         "text": "[TODO:de] \"Only say the word.\"",
@@ -124,8 +124,8 @@
     ]
   },
   "praise": {
-    "title": "[TODO:de] Such Great Faith",
-    "text": "[TODO:de] He turns to the crowd amazed.\n\"I have not seen such faith.\"",
+    "title": "Solch großer Glaube",
+    "text": "Er wendet sich erstaunt der Menge zu.\n„Solchen Glauben habe ich nicht gesehen.“",
     "choices": [
       {
         "text": "[TODO:de] Boast before the people",
@@ -138,8 +138,8 @@
     ]
   },
   "boast_consequence": {
-    "title": "[TODO:de] Stay Humble",
-    "text": "[TODO:de] The glory is not yours.\nBow quietly.",
+    "title": "Bleibe demütig",
+    "text": "Der Ruhm gehört nicht dir.\nVerneige dich still.",
     "choices": [
       {
         "text": "[TODO:de] Bow in silent gratitude",
@@ -148,8 +148,8 @@
     ]
   },
   "heal": {
-    "title": "[TODO:de] Healed From Afar",
-    "text": "[TODO:de] You return home.\nYour servant breathes deep, well.",
+    "title": "Von Ferne geheilt",
+    "text": "Du kehrst heim.\nDein Diener atmet tief, wohlauf.",
     "choices": []
   }
 }
