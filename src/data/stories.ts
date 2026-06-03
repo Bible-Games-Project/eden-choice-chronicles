@@ -127,17 +127,4 @@ export const NT_JESUS_STORIES: StoryMeta[] = [
   { id: "great-commission", number: 50, title: "Great Commission", section: "new_testament_jesus", category: "Resurrection", hasContent: true },
 ];
 
-export const NT_ACTS_STORIES: StoryMeta[] = [
-  { id: "pentecost", number: 1, title: "Pentecost", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "peter-heals-lame", number: 2, title: "Peter Heals the Lame Man", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "ananias-sapphira", number: 3, title: "Ananias and Sapphira", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "stephen", number: 4, title: "Stephen", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "conversion-paul", number: 5, title: "Conversion of Paul", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "paul-silas-prison", number: 6, title: "Paul and Silas in Prison", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "cornelius", number: 7, title: "Cornelius", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "paul-journeys", number: 8, title: "Paul's Missionary Journeys", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "shipwreck-paul", number: 9, title: "Shipwreck of Paul", section: "new_testament_acts", category: "Acts", hasContent: false },
-  { id: "paul-rome", number: 10, title: "Paul in Rome", section: "new_testament_acts", category: "Acts", hasContent: false },
-];
-
-export const ALL_NT_STORIES = [...NT_JESUS_STORIES, ...NT_ACTS_STORIES];
+export const ALL_NT_STORIES = NT_JESUS_STORIES;
