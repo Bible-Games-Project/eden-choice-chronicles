@@ -28,7 +28,19 @@ export type TranslationKey =
   | "lockedHint"
   | "tagline"
   | "title"
-  | "continueJourney";
+  | "continueJourney"
+  | "storiesLabel"
+  | "devModeSuffix"
+  | "comingSoon"
+  | "storyComplete"
+  | "alignedSuffix"
+  | "replayStory"
+  | "continue"
+  | "devModeLabel"
+  | "devModeOn"
+  | "devModeOff"
+  | "spriteViewer"
+  | "allStoriesUnlocked";
 
 type Dict = Record<TranslationKey, string>;
 
