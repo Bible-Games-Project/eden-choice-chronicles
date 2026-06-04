@@ -9,8 +9,8 @@ export const IAP_ENTITLEMENT_ID = "premium";
 // 🔑 Replace these with your actual API keys from dashboard.revenuecat.com
 // iOS  → App Store Connect → RevenueCat dashboard → "iOS" app
 // Android → Google Play Console → RevenueCat dashboard → "Android" app
-export const RC_API_KEY_IOS = "appl_REPLACE_WITH_YOUR_IOS_KEY";
-export const RC_API_KEY_ANDROID = "goog_REPLACE_WITH_YOUR_ANDROID_KEY";
+export const RC_API_KEY_IOS = "appl_ZFFfGYGlLGvatHTTNJPmLpVqzqo";
+export const RC_API_KEY_ANDROID = "goog_IoPeJBnbRwwSPCWoopVxRqQeItT";
 // ─────────────────────────────────────────────────────────────────────────────
 
 export interface IAPState {
