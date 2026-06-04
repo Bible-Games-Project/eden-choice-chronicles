@@ -788,6 +788,51 @@ const Index = () => {
   };
 
   const renderScreen = () => {
+    if (screen === "intro") {
+      return (
+        <motion.div key="intro" className="fixed inset-0" {...fadeTransition}>
+          <NarrativeScreen
+            title={t("introTitle")}
+            body={t("introBody")}
+            buttonLabelKey="introBegin"
+            onContinue={() => {
+              try { localStorage.setItem(INTRO_SEEN_KEY, "true"); } catch { /* ignore */ }
+              const story = pendingStory;
+              setPendingStory(null);
+              if (story) startStoryNow(story);
+              else setScreen("menu");
+            }}
+          />
+        </motion.div>
+      );
+    }
+
+    if (screen === "credits") {
+      return (
+        <motion.div key="credits" className="fixed inset-0" {...fadeTransition}>
+          <NarrativeScreen
+            title={t("creditsTitle")}
+            body={`${t("creditsBody")}\n\n${t("creditsCreatedBy")}:\n${t("creditsAuthors")}`}
+            onContinue={() => setScreen("congrats")}
+          />
+        </motion.div>
+      );
+    }
+
+    if (screen === "congrats") {
+      return (
+        <motion.div key="congrats" className="fixed inset-0" {...fadeTransition}>
+          <NarrativeScreen
+            title={t("congratsTitle")}
+            body={t("congratsBody")}
+            cta={t("congratsCTA")}
+            buttonLabelKey="returnHome"
+            onContinue={() => setScreen("menu")}
+          />
+        </motion.div>
+      );
+    }
+
     if (screen === "menu") {
       return (
         <motion.div key="menu" className="fixed inset-0" {...fadeTransition}>
