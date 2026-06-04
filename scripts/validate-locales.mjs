@@ -93,7 +93,8 @@ for (const lang of langs) {
   const langFiles = new Set(walkJson(langDir));
 
   for (const rel of sourceFiles) {
-    const srcKeys = Object.keys(flatten(loadJson(join(sourceDir, rel))));
+    const srcFlat = flatten(loadJson(join(sourceDir, rel)));
+    const srcKeys = Object.keys(srcFlat);
 
     if (!langFiles.has(rel)) {
       report.push(`[${lang}] MISSING FILE: ${rel} (${srcKeys.length} keys)`);
@@ -117,13 +118,18 @@ for (const lang of langs) {
       errors += extra.length;
     }
 
-    // Check for empty values and TODO placeholders
+    // Check for empty values (only if source is non-empty) and TODO placeholders
     const issues = Object.entries(tgtFlat)
-      .filter(([_, value]) => {
+      .filter(([key, value]) => {
         if (typeof value !== "string") return false;
         const val = value.trim();
-        // Empty or contains [TODO (case-insensitive)
-        return val === "" || /\[todo/i.test(val);
+        if (/\[todo/i.test(val)) return true;
+        // Only flag empty if the source value is also non-empty
+        if (val === "") {
+          const srcVal = srcFlat[key];
+          return typeof srcVal === "string" && srcVal.trim() !== "";
+        }
+        return false;
       })
       .map(([key, value]) => {
         const val = value.trim();
@@ -134,13 +140,13 @@ for (const lang of langs) {
     if (issues.length > 0) {
       const empty = issues.filter(i => i.issue === "empty");
       const untranslated = issues.filter(i => i.issue === "untranslated");
-      
+
       if (empty.length > 0) {
         report.push(`[${lang}] ${rel} — ${empty.length} empty value(s):`);
         empty.forEach(({ key }) => report.push(`    ✗ ${key} (empty string)`));
         errors += empty.length;
       }
-      
+
       if (untranslated.length > 0) {
         totalPlaceholders += untranslated.length;
         report.push(`[${lang}] ${rel} — ${untranslated.length} untranslated placeholder(s):`);
