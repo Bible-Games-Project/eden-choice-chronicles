@@ -923,8 +923,8 @@ const Index = () => {
             onContinue={handleContinueAfterEnd}
           />
         )}
-        {/* Dev mode HUD */}
-        {devMode && (
+        {/* Dev mode HUD — only shown when VITE_SHOW_DEV_BUTTON=true */}
+        {devMode && import.meta.env.VITE_SHOW_DEV_BUTTON === "true" && (
           <div className="absolute top-3 right-3 z-[65] flex gap-2">
             <button
               onClick={handleRestart}
