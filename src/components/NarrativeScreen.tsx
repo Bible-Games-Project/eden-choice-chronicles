@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useSettings } from "@/hooks/useSettings";
+import type { TranslationKey } from "@/lib/i18n";
 
 interface NarrativeScreenProps {
   title: string;
