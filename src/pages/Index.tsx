@@ -910,6 +910,16 @@ const Index = () => {
           sceneEffect={sceneEffect}
           isTransitioning={isSceneTransitioning}
           storyId={currentStory.id}
+          progress={scene.isFinal ? 1 : Math.min(stepCount / Math.max(1, Object.keys(scenes).length), 0.95)}
+          onExitToMenu={() => {
+            clearTransitionTimers();
+            transitionLock.current = false;
+            setIsSceneTransitioning(false);
+            setTransitionOverlayOpacity(0);
+            setShowEndScreen(false);
+            setCurrentStory(null);
+            setScreen("menu");
+          }}
         />
 
         {/* End of story screen overlay */}
