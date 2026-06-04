@@ -1,4 +1,4 @@
-.PHONY: sync-ios sync-android build optimize-images validate-locales export-translations import-translations test-ios-archive
+.PHONY: sync-ios sync-android build optimize-images validate-locales export-translations import-translations test-ios-archive test-ios-archive-ci
 
 build:
 	npm run build
@@ -19,10 +19,30 @@ test-ios-archive:
 		-sdk iphoneos \
 		-destination 'generic/platform=iOS' \
 		-archivePath /tmp/EdenTest.xcarchive \
-		-allowProvisioningUpdates \
-		CODE_SIGN_STYLE=Automatic \
+		CODE_SIGNING_REQUIRED=NO \
+		CODE_SIGNING_ALLOWED=NO \
 		archive
 	@echo "✅ Archive OK → /tmp/EdenTest.xcarchive"
+
+# Reproduces exact CI flags (no real certs needed to see signing conflict errors)
+test-ios-archive-ci:
+	@echo "🔨 Building web assets..."
+	bun run build
+	@echo "📱 Syncing Capacitor iOS..."
+	bunx cap sync ios
+	@echo "🏗️  Archiving with same flags as CI..."
+	xcodebuild \
+		-project ios/App/App.xcodeproj \
+		-scheme App \
+		-configuration Release \
+		-sdk iphoneos \
+		-destination 'generic/platform=iOS' \
+		-archivePath /tmp/EdenTestCI.xcarchive \
+		DEVELOPMENT_TEAM=$(shell security find-identity -v -p codesigning | grep "Apple Distribution" | head -1 | awk '{print $$3}' | tr -d '"' | cut -c1-10 || echo "FAKETEAMID") \
+		CODE_SIGN_STYLE=Manual \
+		CODE_SIGN_IDENTITY="Apple Distribution" \
+		archive 2>&1 | grep -E "error:|warning:|ARCHIVE|note:" | head -40
+	@echo "✅ Done"
 
 sync-android: build
 	npx cap sync android
