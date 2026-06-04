@@ -29,8 +29,12 @@ const ensureContext = () => {
 
 export const setSfxVolume = (v0to100: number) => {
   currentVolume = Math.max(0, Math.min(1, v0to100 / 100));
+  // SFX are boosted ~2x relative to the slider so button feedback is more
+  // noticeable. Music uses its own gain and is unaffected. A slider value of
+  // 0 still fully mutes (because we multiply by currentVolume).
+  const boosted = Math.min(2, currentVolume * 2);
   if (masterGain && ctx) {
-    masterGain.gain.setTargetAtTime(currentVolume, ctx.currentTime, 0.01);
+    masterGain.gain.setTargetAtTime(boosted, ctx.currentTime, 0.01);
   }
 };
 
