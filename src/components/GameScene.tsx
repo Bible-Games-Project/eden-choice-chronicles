@@ -179,7 +179,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
                 transition={{ duration: clickedIndex !== null ? 0.3 : STAGGER_FADE_DURATION, ease: "easeInOut" }}
                 onClick={() => handleChoice(choice, i)}
                 disabled={clickedIndex !== null || !isReady || isTransitioning}
-                className={`group w-full text-center rounded-lg border transition-colors duration-300 ${
+                className={`group w-full text-center rounded-lg border ${
                   isReady && !isTransitioning ? "cursor-pointer" : "cursor-default"
                 } ${
                   compact ? "px-4 py-2" : "px-5 py-3"
@@ -188,6 +188,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
                   backgroundColor: flashBg || "rgba(0,0,0,0.75)",
                   borderColor: flashBorder || "rgba(255,255,255,0.2)",
                   pointerEvents: isReady && !isTransitioning ? "auto" : "none",
+                  transition: isClicked ? "none" : "background-color 300ms, border-color 300ms",
                 }}
               >
                 <span
