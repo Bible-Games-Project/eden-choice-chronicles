@@ -636,6 +636,7 @@ const INTRO_SEEN_KEY = "sacred-quest-intro-seen-v1";
 const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 
 const Index = () => {
+  const { t } = useSettings();
   const [screen, setScreen] = useState<Screen>("menu");
   const [currentStory, setCurrentStory] = useState<StoryMeta | null>(null);
   const [currentSceneId, setCurrentSceneId] = useState("start");
