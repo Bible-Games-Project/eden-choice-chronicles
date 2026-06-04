@@ -37,6 +37,13 @@ export function useStoryScenes(storyId: string) {
   useEffect(() => {
     let cancelled = false;
 
+    if (!storyId) {
+      setScenes(null);
+      setLoading(false);
+      setError(null);
+      return;
+    }
+
     async function loadScenes() {
       try {
         setLoading(true);

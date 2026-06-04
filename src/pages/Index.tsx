@@ -13,7 +13,6 @@ import { useIAP } from "@/hooks/useIAP";
 import { Paywall } from "@/components/Paywall";
 import { shuffleChoices } from "@/lib/shuffleChoices";
 import { useDevMode } from "@/hooks/useDevMode";
-import { useSettings } from "@/hooks/useSettings";
 import { useStoryScenes } from "@/hooks/useStoryScenes";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
 import { StoryChoice, StoryScene } from "@/data/stories/creation";
@@ -649,7 +648,6 @@ const Index = () => {
   const [totalChoices, setTotalChoices] = useState(0);
   const [showEndScreen, setShowEndScreen] = useState(false);
   const { devMode, toggleDevMode } = useDevMode();
-  const { t } = useSettings();
   const progress = useGameProgress(devMode);
   const iap = useIAP();
   const [showPaywall, setShowPaywall] = useState(false);
