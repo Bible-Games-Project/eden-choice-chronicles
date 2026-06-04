@@ -40,7 +40,7 @@ const getStaggerDelay = (index: number) =>
 const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 const getFeedbackColor = (isCorrect: boolean) => isCorrect ? CORRECT_BG : INCORRECT_BG;
 
-const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false, storyId }: GameSceneProps) => {
+const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false, storyId, onExitToMenu, progress }: GameSceneProps) => {
   void storyId;
   const { t } = useSettings();
   const translatedText = text;
@@ -49,33 +49,30 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const continueLabel = t("continueJourney");
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedIsCorrect, setClickedIsCorrect] = useState<boolean | null>(null);
-  const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
-  const [buttonsReady, setButtonsReady] = useState<boolean[]>([]);
+  const choicesCount = choices.length;
+  const [buttonsVisible, setButtonsVisible] = useState<boolean[]>(() => Array(choicesCount).fill(false));
+  const [buttonsReady, setButtonsReady] = useState<boolean[]>(() => Array(choicesCount).fill(false));
   const [finalButtonVisible, setFinalButtonVisible] = useState(false);
   const [finalButtonReady, setFinalButtonReady] = useState(false);
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
 
+  // Single effect: reset + schedule reveal timers when the scene actually changes.
+  // IMPORTANT: do NOT depend on `choices` reference — parent re-shuffles each render
+  // which would otherwise reset state and cause buttons to re-fade (flicker).
   useEffect(() => {
     setClickedIndex(null);
     setClickedIsCorrect(null);
-    setButtonsVisible(choices.map(() => false));
-    setButtonsReady(choices.map(() => false));
+    setButtonsVisible(Array(choicesCount).fill(false));
+    setButtonsReady(Array(choicesCount).fill(false));
     setFinalButtonVisible(false);
     setFinalButtonReady(false);
-  }, [stepCount, text]);
 
-  useEffect(() => {
     if (isTransitioning) return;
 
     const timers: ReturnType<typeof setTimeout>[] = [];
 
-    setButtonsVisible(choices.map(() => false));
-    setButtonsReady(choices.map(() => false));
-    setFinalButtonVisible(false);
-    setFinalButtonReady(false);
-
-    choices.forEach((_, i) => {
+    for (let i = 0; i < choicesCount; i++) {
       const delay = getStaggerDelay(i);
-
       timers.push(setTimeout(() => {
         setButtonsVisible((prev) => {
           const next = [...prev];
@@ -83,15 +80,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
           return next;
         });
       }, delay * 1000));
-
       timers.push(setTimeout(() => {
-        setButtonsReady(prev => {
+        setButtonsReady((prev) => {
           const next = [...prev];
           next[i] = true;
           return next;
         });
       }, (delay + STAGGER_FADE_DURATION) * 1000));
-    });
+    }
 
     if (isFinal) {
       timers.push(setTimeout(() => setFinalButtonVisible(true), FINAL_BUTTON_DELAY * 1000));
@@ -101,7 +97,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     return () => {
       timers.forEach((timer) => clearTimeout(timer));
     };
-  }, [choices, isFinal, isTransitioning, stepCount, text]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [stepCount, text, choicesCount, isFinal, isTransitioning]);
 
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
