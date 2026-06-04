@@ -172,14 +172,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
             return (
               <motion.button
-                key={`${stepCount}-${i}-${choice.text}`}
+                key={`${stepCount}-${i}`}
                 data-sfx-skip="true"
-                initial={{ opacity: 0 }}
+                initial={false}
                 animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : isVisible ? 1 : 0 }}
                 transition={{ duration: clickedIndex !== null ? 0.3 : STAGGER_FADE_DURATION, ease: "easeInOut" }}
                 onClick={() => handleChoice(choice, i)}
                 disabled={clickedIndex !== null || !isReady || isTransitioning}
-                className={`group w-full text-center rounded-lg border transition-all duration-300 ${
+                className={`group w-full text-center rounded-lg border transition-colors duration-300 ${
                   isReady && !isTransitioning ? "cursor-pointer" : "cursor-default"
                 } ${
                   compact ? "px-4 py-2" : "px-5 py-3"
