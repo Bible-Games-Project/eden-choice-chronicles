@@ -1,5 +1,8 @@
 .PHONY: sync-ios sync-android build optimize-images validate-locales export-translations import-translations test-ios-archive test-ios-archive-ci
 
+-include .env.local
+export
+
 build:
 	npm run build
 
@@ -30,6 +33,13 @@ test-ios-archive-ci:
 	bun run build
 	@echo "📱 Syncing Capacitor iOS..."
 	bunx cap sync ios
+	@echo "🔑 Checking ASC API key credentials..."
+	@if [ -z "$(APP_STORE_CONNECT_API_KEY_ID)" ]; then echo "❌ Missing APP_STORE_CONNECT_API_KEY_ID in .env.local"; exit 1; fi
+	@if [ -z "$(APP_STORE_CONNECT_API_KEY_PATH)" ]; then echo "❌ Missing APP_STORE_CONNECT_API_KEY_PATH in .env.local"; exit 1; fi
+	@if [ -z "$(APP_STORE_CONNECT_ISSUER_ID)" ]; then echo "❌ Missing APP_STORE_CONNECT_ISSUER_ID in .env.local"; exit 1; fi
+	@if [ ! -f "$(APP_STORE_CONNECT_API_KEY_PATH)" ]; then echo "❌ Key file not found: $(APP_STORE_CONNECT_API_KEY_PATH)"; exit 1; fi
+	@mkdir -p $(HOME)/.appstoreconnect/private_keys
+	@cp "$(APP_STORE_CONNECT_API_KEY_PATH)" "$(HOME)/.appstoreconnect/private_keys/AuthKey_$(APP_STORE_CONNECT_API_KEY_ID).p8"
 	@echo "🏗️  Archiving with same flags as CI..."
 	xcodebuild \
 		-project ios/App/App.xcodeproj \
@@ -38,11 +48,14 @@ test-ios-archive-ci:
 		-sdk iphoneos \
 		-destination 'generic/platform=iOS' \
 		-archivePath /tmp/EdenTestCI.xcarchive \
-		DEVELOPMENT_TEAM=$(shell security find-identity -v -p codesigning | grep "Apple Distribution" | head -1 | awk '{print $$3}' | tr -d '"' | cut -c1-10 || echo "FAKETEAMID") \
-		CODE_SIGN_STYLE=Manual \
-		CODE_SIGN_IDENTITY="Apple Distribution" \
-		archive 2>&1 | grep -E "error:|warning:|ARCHIVE|note:" | head -40
-	@echo "✅ Done"
+		-allowProvisioningUpdates \
+		-authenticationKeyPath "$(HOME)/.appstoreconnect/private_keys/AuthKey_$(APP_STORE_CONNECT_API_KEY_ID).p8" \
+		-authenticationKeyID "$(APP_STORE_CONNECT_API_KEY_ID)" \
+		-authenticationKeyIssuerID "$(APP_STORE_CONNECT_ISSUER_ID)" \
+		DEVELOPMENT_TEAM=N65TK8GHAL \
+		CODE_SIGN_STYLE=Automatic \
+		archive
+	@echo "✅ Archive OK → /tmp/EdenTestCI.xcarchive"
 
 sync-android: build
 	npx cap sync android
