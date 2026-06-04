@@ -1,10 +1,28 @@
-.PHONY: sync-ios sync-android build optimize-images validate-locales export-translations import-translations
+.PHONY: sync-ios sync-android build optimize-images validate-locales export-translations import-translations test-ios-archive
 
 build:
 	npm run build
 
 sync-ios: build
 	npx cap sync ios
+
+test-ios-archive:
+	@echo "🔨 Building web assets..."
+	bun run build
+	@echo "📱 Syncing Capacitor iOS..."
+	bunx cap sync ios
+	@echo "🏗️  Archiving (local signing, no upload)..."
+	xcodebuild \
+		-project ios/App/App.xcodeproj \
+		-scheme App \
+		-configuration Release \
+		-sdk iphoneos \
+		-destination 'generic/platform=iOS' \
+		-archivePath /tmp/EdenTest.xcarchive \
+		-allowProvisioningUpdates \
+		CODE_SIGN_STYLE=Automatic \
+		archive
+	@echo "✅ Archive OK → /tmp/EdenTest.xcarchive"
 
 sync-android: build
 	npx cap sync android

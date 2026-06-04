@@ -98,7 +98,7 @@ jobs:
     if: inputs.deploy_ios == true || inputs.deploy_ios == 'true'
     uses: Bible-Games-Project/bgp-admin/.github/workflows/deploy-ios.yml@main
     with:
-      xcode-version: "16.3"
+      xcode-version: ""
       runner: macos-15
       marketing-version: ${{ inputs.marketing_version }}
     secrets:
