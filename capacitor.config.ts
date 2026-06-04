@@ -5,7 +5,8 @@ const config: CapacitorConfig = {
   appName: ' Bible Story Game: Sacred Quest',
   webDir: 'dist',
   ios: {
-    contentInset: 'automatic'
+    contentInset: 'automatic',
+    backgroundColor: '#000000'
   }
 };
 
