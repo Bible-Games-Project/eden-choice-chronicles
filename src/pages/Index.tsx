@@ -768,10 +768,16 @@ const Index = () => {
   }, []);
 
   const handleContinueAfterEnd = useCallback(() => {
-    if (currentStory) progress.completeStory(currentStory.id, computedStars);
-    setScreen(currentStory?.section === "old_testament" ? "map_ot" : "map_nt");
-    setCurrentStory(null);
+    const justFinished = currentStory;
+    if (justFinished) progress.completeStory(justFinished.id, computedStars);
     setShowEndScreen(false);
+    if (justFinished?.id === "great-commission") {
+      setCurrentStory(null);
+      setScreen("credits");
+      return;
+    }
+    setScreen(justFinished?.section === "old_testament" ? "map_ot" : "map_nt");
+    setCurrentStory(null);
   }, [currentStory, progress, computedStars]);
 
   const fadeTransition = {
