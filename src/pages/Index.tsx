@@ -4,8 +4,10 @@ import MainMenu from "@/components/MainMenu";
 import StoryMap, { FREE_STORY_LIMIT } from "@/components/StoryMap";
 import GameScene from "@/components/GameScene";
 import StoryEndScreen from "@/components/StoryEndScreen";
+import NarrativeScreen from "@/components/NarrativeScreen";
 import SceneSelector from "@/components/SceneSelector";
 import SpriteViewer from "@/components/SpriteViewer";
+import { useSettings } from "@/hooks/useSettings";
 import { useGameProgress } from "@/hooks/useGameProgress";
 import { useIAP } from "@/hooks/useIAP";
 import { Paywall } from "@/components/Paywall";
@@ -318,7 +320,7 @@ import { greatCommissionSprites } from "@/data/stories/greatCommissionSprites";
 import { greatCommissionEffects } from "@/data/stories/greatCommissionEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
-type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
+type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites" | "intro" | "credits" | "congrats";
 
 
 const storyImageRegistry: Record<string, Record<string, string>> = {
@@ -630,10 +632,12 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
 
 const SCENE_TRANSITION_FADE_MS = 500;
 const SCENE_TRANSITION_HOLD_MS = 100;
-const SCENE_FEEDBACK_DELAY_MS = 900;
+const SCENE_FEEDBACK_DELAY_MS = 1500;
+const INTRO_SEEN_KEY = "sacred-quest-intro-seen-v1";
 const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 
 const Index = () => {
+  const { t } = useSettings();
   const [screen, setScreen] = useState<Screen>("menu");
   const [currentStory, setCurrentStory] = useState<StoryMeta | null>(null);
   const [currentSceneId, setCurrentSceneId] = useState("start");
@@ -680,7 +684,9 @@ const Index = () => {
     return [storyImages?.[sceneId], sceneSprites?.left, sceneSprites?.right];
   }, []);
 
-  const handleSelectStory = useCallback((story: StoryMeta) => {
+  const [pendingStory, setPendingStory] = useState<StoryMeta | null>(null);
+
+  const startStoryNow = useCallback((story: StoryMeta) => {
     clearTransitionTimers();
     transitionLock.current = false;
     setIsSceneTransitioning(false);
@@ -693,6 +699,19 @@ const Index = () => {
     setShowEndScreen(false);
     setScreen("playing");
   }, [clearTransitionTimers]);
+
+  const handleSelectStory = useCallback((story: StoryMeta) => {
+    // Show intro the very first time the player begins OT story #1.
+    const introSeen = (() => {
+      try { return localStorage.getItem(INTRO_SEEN_KEY) === "true"; } catch { return false; }
+    })();
+    if (!introSeen && story.section === "old_testament" && story.number === 1) {
+      setPendingStory(story);
+      setScreen("intro");
+      return;
+    }
+    startStoryNow(story);
+  }, [startStoryNow]);
 
   const handleRestart = useCallback(() => {
     if (!currentStory) return;
@@ -752,10 +771,16 @@ const Index = () => {
   }, []);
 
   const handleContinueAfterEnd = useCallback(() => {
-    if (currentStory) progress.completeStory(currentStory.id, computedStars);
-    setScreen(currentStory?.section === "old_testament" ? "map_ot" : "map_nt");
-    setCurrentStory(null);
+    const justFinished = currentStory;
+    if (justFinished) progress.completeStory(justFinished.id, computedStars);
     setShowEndScreen(false);
+    if (justFinished?.id === "great-commission") {
+      setCurrentStory(null);
+      setScreen("credits");
+      return;
+    }
+    setScreen(justFinished?.section === "old_testament" ? "map_ot" : "map_nt");
+    setCurrentStory(null);
   }, [currentStory, progress, computedStars]);
 
   const fadeTransition = {
@@ -766,6 +791,51 @@ const Index = () => {
   };
 
   const renderScreen = () => {
+    if (screen === "intro") {
+      return (
+        <motion.div key="intro" className="fixed inset-0" {...fadeTransition}>
+          <NarrativeScreen
+            title={t("introTitle")}
+            body={t("introBody")}
+            buttonLabelKey="introBegin"
+            onContinue={() => {
+              try { localStorage.setItem(INTRO_SEEN_KEY, "true"); } catch { /* ignore */ }
+              const story = pendingStory;
+              setPendingStory(null);
+              if (story) startStoryNow(story);
+              else setScreen("menu");
+            }}
+          />
+        </motion.div>
+      );
+    }
+
+    if (screen === "credits") {
+      return (
+        <motion.div key="credits" className="fixed inset-0" {...fadeTransition}>
+          <NarrativeScreen
+            title={t("creditsTitle")}
+            body={`${t("creditsBody")}\n\n${t("creditsCreatedBy")}:\n${t("creditsAuthors")}`}
+            onContinue={() => setScreen("congrats")}
+          />
+        </motion.div>
+      );
+    }
+
+    if (screen === "congrats") {
+      return (
+        <motion.div key="congrats" className="fixed inset-0" {...fadeTransition}>
+          <NarrativeScreen
+            title={t("congratsTitle")}
+            body={t("congratsBody")}
+            cta={t("congratsCTA")}
+            buttonLabelKey="returnHome"
+            onContinue={() => setScreen("menu")}
+          />
+        </motion.div>
+      );
+    }
+
     if (screen === "menu") {
       return (
         <motion.div key="menu" className="fixed inset-0" {...fadeTransition}>
@@ -912,6 +982,16 @@ const Index = () => {
           sceneEffect={sceneEffect}
           isTransitioning={isSceneTransitioning}
           storyId={currentStory.id}
+          progress={scene.isFinal ? 1 : Math.min(stepCount / Math.max(1, Object.keys(scenes).length), 0.95)}
+          onExitToMenu={() => {
+            clearTransitionTimers();
+            transitionLock.current = false;
+            setIsSceneTransitioning(false);
+            setTransitionOverlayOpacity(0);
+            setShowEndScreen(false);
+            setCurrentStory(null);
+            setScreen("menu");
+          }}
         />
 
         {/* End of story screen overlay */}

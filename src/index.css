@@ -62,8 +62,13 @@
   }
 
   body {
-    @apply text-foreground;
+    color: hsl(var(--foreground));
+    background-color: hsl(var(--scene-base));
     font-family: var(--font-body);
+  }
+
+  html {
+    background-color: hsl(var(--scene-base));
   }
 
   #root {

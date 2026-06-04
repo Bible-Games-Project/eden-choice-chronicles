@@ -4,6 +4,7 @@ import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useSettings } from "@/hooks/useSettings";
 import { playCorrect, playIncorrect } from "@/lib/sfx";
+import { Home } from "lucide-react";
 
 interface GameSceneProps {
   title: string;
@@ -18,6 +19,8 @@ interface GameSceneProps {
   sceneEffect?: SceneEffect;
   isTransitioning?: boolean;
   storyId?: string;
+  onExitToMenu?: () => void;
+  progress?: number;
 }
 
 const CORRECT_BG = "rgba(34, 197, 94, 0.85)";
@@ -37,7 +40,7 @@ const getStaggerDelay = (index: number) =>
 const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 const getFeedbackColor = (isCorrect: boolean) => isCorrect ? CORRECT_BG : INCORRECT_BG;
 
-const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false, storyId }: GameSceneProps) => {
+const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, backgroundImage, sprites, sceneEffect, isTransitioning = false, storyId, onExitToMenu, progress }: GameSceneProps) => {
   void storyId;
   const { t } = useSettings();
   const translatedText = text;
@@ -46,33 +49,30 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const continueLabel = t("continueJourney");
   const [clickedIndex, setClickedIndex] = useState<number | null>(null);
   const [clickedIsCorrect, setClickedIsCorrect] = useState<boolean | null>(null);
-  const [buttonsVisible, setButtonsVisible] = useState<boolean[]>([]);
-  const [buttonsReady, setButtonsReady] = useState<boolean[]>([]);
+  const choicesCount = choices.length;
+  const [buttonsVisible, setButtonsVisible] = useState<boolean[]>(() => Array(choicesCount).fill(false));
+  const [buttonsReady, setButtonsReady] = useState<boolean[]>(() => Array(choicesCount).fill(false));
   const [finalButtonVisible, setFinalButtonVisible] = useState(false);
   const [finalButtonReady, setFinalButtonReady] = useState(false);
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
 
+  // Single effect: reset + schedule reveal timers when the scene actually changes.
+  // IMPORTANT: do NOT depend on `choices` reference — parent re-shuffles each render
+  // which would otherwise reset state and cause buttons to re-fade (flicker).
   useEffect(() => {
     setClickedIndex(null);
     setClickedIsCorrect(null);
-    setButtonsVisible(choices.map(() => false));
-    setButtonsReady(choices.map(() => false));
+    setButtonsVisible(Array(choicesCount).fill(false));
+    setButtonsReady(Array(choicesCount).fill(false));
     setFinalButtonVisible(false);
     setFinalButtonReady(false);
-  }, [stepCount, text]);
 
-  useEffect(() => {
     if (isTransitioning) return;
 
     const timers: ReturnType<typeof setTimeout>[] = [];
 
-    setButtonsVisible(choices.map(() => false));
-    setButtonsReady(choices.map(() => false));
-    setFinalButtonVisible(false);
-    setFinalButtonReady(false);
-
-    choices.forEach((_, i) => {
+    for (let i = 0; i < choicesCount; i++) {
       const delay = getStaggerDelay(i);
-
       timers.push(setTimeout(() => {
         setButtonsVisible((prev) => {
           const next = [...prev];
@@ -80,15 +80,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
           return next;
         });
       }, delay * 1000));
-
       timers.push(setTimeout(() => {
-        setButtonsReady(prev => {
+        setButtonsReady((prev) => {
           const next = [...prev];
           next[i] = true;
           return next;
         });
       }, (delay + STAGGER_FADE_DURATION) * 1000));
-    });
+    }
 
     if (isFinal) {
       timers.push(setTimeout(() => setFinalButtonVisible(true), FINAL_BUTTON_DELAY * 1000));
@@ -98,7 +97,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     return () => {
       timers.forEach((timer) => clearTimeout(timer));
     };
-  }, [choices, isFinal, isTransitioning, stepCount, text]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [stepCount, text, choicesCount, isFinal, isTransitioning]);
 
   const handleChoice = useCallback((choice: StoryChoice, index: number) => {
     if (clickedIndex !== null || isTransitioning) return;
@@ -172,14 +172,14 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
             return (
               <motion.button
-                key={`${stepCount}-${i}-${choice.text}`}
+                key={`${stepCount}-${i}`}
                 data-sfx-skip="true"
-                initial={{ opacity: 0 }}
+                initial={false}
                 animate={{ opacity: clickedIndex !== null && !isClicked ? 0.4 : isVisible ? 1 : 0 }}
                 transition={{ duration: clickedIndex !== null ? 0.3 : STAGGER_FADE_DURATION, ease: "easeInOut" }}
                 onClick={() => handleChoice(choice, i)}
                 disabled={clickedIndex !== null || !isReady || isTransitioning}
-                className={`group w-full text-center rounded-lg border transition-all duration-300 ${
+                className={`group w-full text-center rounded-lg border ${
                   isReady && !isTransitioning ? "cursor-pointer" : "cursor-default"
                 } ${
                   compact ? "px-4 py-2" : "px-5 py-3"
@@ -188,6 +188,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
                   backgroundColor: flashBg || "rgba(0,0,0,0.75)",
                   borderColor: flashBorder || "rgba(255,255,255,0.2)",
                   pointerEvents: isReady && !isTransitioning ? "auto" : "none",
+                  transition: isClicked ? "none" : "background-color 300ms, border-color 300ms",
                 }}
               >
                 <span
@@ -287,6 +288,63 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
 
         {/* Environmental effects */}
         {sceneEffect && <SceneEffects effect={sceneEffect} />}
+
+        {/* Subtle progress indicator */}
+        {typeof progress === "number" && (
+          <div
+            className="absolute left-0 right-0 z-30 pointer-events-none"
+            style={{ top: 'env(safe-area-inset-top, 0px)' }}
+            aria-hidden="true"
+          >
+            <div className="h-[6px] w-full bg-white/10">
+              <div
+                className="h-full bg-white/40 transition-[width] duration-700 ease-out"
+                style={{ width: `${Math.max(0, Math.min(1, progress)) * 100}%` }}
+              />
+            </div>
+          </div>
+        )}
+
+        {/* Home button (top-left) */}
+        {onExitToMenu && (
+          <button
+            type="button"
+            onClick={() => setShowExitConfirm(true)}
+            aria-label={t("returnHome")}
+            className="absolute z-40 rounded-full p-2 bg-black/35 border border-white/15 text-white/70 hover:text-white hover:bg-black/55 transition-colors backdrop-blur-sm"
+            style={{
+              top: 'calc(env(safe-area-inset-top, 0px) + 12px)',
+              left: 'calc(env(safe-area-inset-left, 0px) + 12px)',
+            }}
+          >
+            <Home size={18} strokeWidth={1.75} />
+          </button>
+        )}
+
+        {/* Exit confirm dialog */}
+        {showExitConfirm && (
+          <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm px-6">
+            <div className="w-full max-w-xs rounded-xl border border-white/15 bg-black/80 p-5 text-center">
+              <h3 className="font-display text-base text-white/95 mb-1.5">{t("returnHomeTitle")}</h3>
+              <p className="font-body text-xs text-white/65 mb-4">{t("returnHomeBody")}</p>
+              <div className="flex flex-col gap-2">
+                <button
+                  onClick={() => setShowExitConfirm(false)}
+                  className="w-full rounded-lg border border-white/25 bg-white/5 px-4 py-2 text-sm font-body text-white/90 hover:bg-white/10 transition-colors"
+                >
+                  {t("continueStory")}
+                </button>
+                <button
+                  onClick={() => { setShowExitConfirm(false); onExitToMenu?.(); }}
+                  className="w-full rounded-lg border border-white/15 px-4 py-2 text-sm font-body text-white/70 hover:text-white hover:bg-white/5 transition-colors"
+                >
+                  {t("returnHome")}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
