@@ -296,7 +296,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
             style={{ top: 'env(safe-area-inset-top, 0px)' }}
             aria-hidden="true"
           >
-            <div className="h-[4px] w-full bg-white/10">
+            <div className="h-[6px] w-full bg-white/10">
               <div
                 className="h-full bg-white/40 transition-[width] duration-700 ease-out"
                 style={{ width: `${Math.max(0, Math.min(1, progress)) * 100}%` }}
