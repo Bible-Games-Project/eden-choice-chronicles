@@ -4,6 +4,7 @@ import SceneEffects, { SceneEffect } from "@/components/SceneEffects";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useSettings } from "@/hooks/useSettings";
 import { playCorrect, playIncorrect } from "@/lib/sfx";
+import { Home } from "lucide-react";
 
 interface GameSceneProps {
   title: string;
@@ -18,6 +19,8 @@ interface GameSceneProps {
   sceneEffect?: SceneEffect;
   isTransitioning?: boolean;
   storyId?: string;
+  onExitToMenu?: () => void;
+  progress?: number;
 }
 
 const CORRECT_BG = "rgba(34, 197, 94, 0.85)";
