@@ -317,7 +317,7 @@ import { greatCommissionSprites } from "@/data/stories/greatCommissionSprites";
 import { greatCommissionEffects } from "@/data/stories/greatCommissionEffects";
 import { preloadImages } from "@/lib/preloadImages";
 
-type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites";
+type Screen = "menu" | "map_ot" | "map_nt" | "playing" | "sprites" | "intro" | "credits" | "congrats";
 
 
 const storyImageRegistry: Record<string, Record<string, string>> = {
