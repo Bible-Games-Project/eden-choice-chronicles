@@ -7,7 +7,7 @@ interface NarrativeScreenProps {
   body: string;
   authors?: string;
   cta?: string;
-  buttonLabelKey?: string;
+  buttonLabelKey?: TranslationKey;
   onContinue: () => void;
 }
 
