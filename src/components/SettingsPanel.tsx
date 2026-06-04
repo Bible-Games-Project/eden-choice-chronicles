@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, Volume2 } from "lucide-react";
 import { useSettings } from "@/hooks/useSettings";
 import { LANGUAGES, LanguageCode } from "@/lib/i18n";
+import packageJson from "../../package.json";
 
 interface SettingsPanelProps {
   open: boolean;
@@ -107,6 +108,13 @@ const SettingsPanel = ({ open, onClose }: SettingsPanelProps) => {
                   })}
                 </div>
               </div>
+            </div>
+
+            {/* Version footer */}
+            <div className="px-6 py-3 border-t border-gold/10 flex items-center justify-center">
+              <span className="font-body text-[10px] text-primary-foreground/30 tracking-wider">
+                v{packageJson.version}
+              </span>
             </div>
           </motion.div>
         </motion.div>
