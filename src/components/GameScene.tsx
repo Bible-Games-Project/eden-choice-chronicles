@@ -288,6 +288,63 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         {/* Environmental effects */}
         {sceneEffect && <SceneEffects effect={sceneEffect} />}
 
+        {/* Subtle progress indicator */}
+        {typeof progress === "number" && (
+          <div
+            className="absolute left-0 right-0 z-30 pointer-events-none"
+            style={{ top: 'env(safe-area-inset-top, 0px)' }}
+            aria-hidden="true"
+          >
+            <div className="h-[2px] w-full bg-white/10">
+              <div
+                className="h-full bg-white/40 transition-[width] duration-700 ease-out"
+                style={{ width: `${Math.max(0, Math.min(1, progress)) * 100}%` }}
+              />
+            </div>
+          </div>
+        )}
+
+        {/* Home button (top-left) */}
+        {onExitToMenu && (
+          <button
+            type="button"
+            onClick={() => setShowExitConfirm(true)}
+            aria-label={t("returnHome")}
+            className="absolute z-40 rounded-full p-2 bg-black/35 border border-white/15 text-white/70 hover:text-white hover:bg-black/55 transition-colors backdrop-blur-sm"
+            style={{
+              top: 'calc(env(safe-area-inset-top, 0px) + 12px)',
+              left: 'calc(env(safe-area-inset-left, 0px) + 12px)',
+            }}
+          >
+            <Home size={18} strokeWidth={1.75} />
+          </button>
+        )}
+
+        {/* Exit confirm dialog */}
+        {showExitConfirm && (
+          <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm px-6">
+            <div className="w-full max-w-xs rounded-xl border border-white/15 bg-black/80 p-5 text-center">
+              <h3 className="font-display text-base text-white/95 mb-1.5">{t("returnHomeTitle")}</h3>
+              <p className="font-body text-xs text-white/65 mb-4">{t("returnHomeBody")}</p>
+              <div className="flex flex-col gap-2">
+                <button
+                  onClick={() => setShowExitConfirm(false)}
+                  className="w-full rounded-lg border border-white/25 bg-white/5 px-4 py-2 text-sm font-body text-white/90 hover:bg-white/10 transition-colors"
+                >
+                  {t("continueStory")}
+                </button>
+                <button
+                  onClick={() => { setShowExitConfirm(false); onExitToMenu?.(); }}
+                  className="w-full rounded-lg border border-white/15 px-4 py-2 text-sm font-body text-white/70 hover:text-white hover:bg-white/5 transition-colors"
+                >
+                  {t("returnHome")}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
           {/* Zone 1: Text + Buttons — 45vh */}
