@@ -19,10 +19,11 @@ const SfxBridge = () => {
     const handler = (e: MouseEvent) => {
       const target = e.target as HTMLElement | null;
       if (!target) return;
-      const btn = target.closest("button") as HTMLButtonElement | null;
-      if (!btn) return;
-      if (btn.disabled) return;
-      if (btn.getAttribute(SFX_SKIP_ATTR) === "true") return;
+      const el = target.closest("button, [role='button']") as HTMLElement | null;
+      if (!el) return;
+      if (el instanceof HTMLButtonElement && el.disabled) return;
+      if (el.getAttribute("aria-disabled") === "true") return;
+      if (el.getAttribute(SFX_SKIP_ATTR) === "true") return;
       playClick();
     };
     document.addEventListener("click", handler, true);
