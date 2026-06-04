@@ -45,7 +45,16 @@ function flatten(obj, prefix = "") {
   const out = {};
   for (const [k, v] of Object.entries(obj)) {
     const key = prefix ? `${prefix}.${k}` : k;
-    if (v && typeof v === "object" && !Array.isArray(v)) {
+    if (Array.isArray(v)) {
+      v.forEach((item, i) => {
+        const itemKey = `${key}[${i}]`;
+        if (item && typeof item === "object") {
+          Object.assign(out, flatten(item, itemKey));
+        } else {
+          out[itemKey] = item;
+        }
+      });
+    } else if (v && typeof v === "object") {
       Object.assign(out, flatten(v, key));
     } else {
       out[key] = v;

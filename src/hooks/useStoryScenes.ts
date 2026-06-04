@@ -122,8 +122,10 @@ async function loadTranslations(
   }
 
   try {
-    // Dynamically import the JSON file
-    const module = await import(`@/locales/${language}/scenes/${storyId}.json`);
+    // Dynamically import the JSON file — use the same camelCase module name
+    // as the TypeScript metadata files (e.g. "adam-eve" → "adamEve")
+    const moduleName = getModuleName(storyId);
+    const module = await import(`@/locales/${language}/scenes/${moduleName}.json`);
     const translations = module.default as StoryTranslations;
 
     // Cache it
@@ -217,6 +219,7 @@ function getModuleName(storyId: string): string {
     "pharisee-tax": "phariseeTax",
     "woman-adultery": "womanAdultery",
     "road-emmaus": "emmaus",
+    "feeding-5000": "feeding5000",
   };
 
   if (specialCases[storyId]) {

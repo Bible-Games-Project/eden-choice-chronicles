@@ -2,17 +2,21 @@ import { Lock, Check, ChevronLeft, Play, Star, Gem } from "lucide-react";
 import { StoryMeta } from "@/data/stories";
 import storyListBg from "@/assets/map/story-list-bg.jpg";
 import { useSettings } from "@/hooks/useSettings";
+import { useStoryTitle } from "@/hooks/useStoryTitle";
 
 const StoryRowTitle = ({
   number,
-  englishTitle,
+  storyId,
+  fallbackTitle,
   className,
 }: {
   number: number;
-  englishTitle: string;
+  storyId: string;
+  fallbackTitle: string;
   className: string;
 }) => {
-  return <span className={className}>{number}. {englishTitle}</span>;
+  const translatedTitle = useStoryTitle(storyId);
+  return <span className={className}>{number}. {translatedTitle || fallbackTitle}</span>;
 };
 
 /** Stories up to and including this number are free to play (set via VITE_FREE_STORY_LIMIT) */
@@ -46,7 +50,6 @@ const StoryMap = ({
   onPaywallRequest,
 }: StoryMapProps) => {
   const { t } = useSettings();
-  const translatedTitle = title;
   return (
     <div className="fixed inset-0 overflow-hidden">
       <img src={storyListBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
@@ -54,13 +57,13 @@ const StoryMap = ({
       <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at center, transparent 30%, hsl(25,30%,6%) 100%)' }} />
 
       <div className="relative z-10 h-full flex flex-col">
-        <div className="flex items-center gap-3 px-5 pt-6 pb-4 flex-shrink-0">
+        <div className="flex items-center gap-3 px-5 pb-4 flex-shrink-0" style={{ paddingTop: 'calc(1.5rem + env(safe-area-inset-top))' }}>
           <button onClick={onBack} className="p-2.5 rounded-xl text-gold hover:bg-gold/10 transition-colors cursor-pointer">
             <ChevronLeft className="w-6 h-6" />
           </button>
           <div>
             <h2 className="font-display text-2xl md:text-3xl tracking-widest uppercase text-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
-              {translatedTitle}
+              {title}
             </h2>
             <div className="flex items-center gap-2 mt-1">
               <div className="h-px w-12 bg-gold/40" />
@@ -76,20 +79,38 @@ const StoryMap = ({
           <div className="max-w-md mx-auto flex flex-col gap-3 pt-2">
             {stories.map((story, i) => {
               const completed = isStoryCompleted(story.id);
-              // Premium gate: any story beyond the free limit requires purchase
-              const isPremiumLocked = !devMode && !hasPremium && story.number > FREE_STORY_LIMIT;
-              const unlocked = devMode || (!isPremiumLocked && isStoryUnlocked(story, stories));
+              const isPremiumStory = !devMode && !hasPremium && story.number > FREE_STORY_LIMIT;
+              // A premium story shows the gem teaser only if it is the very next step
+              // in the progression (i.e. the last free story is completed and this is
+              // exactly FREE_STORY_LIMIT + 1), prompting the user to purchase.
+              // All other premium stories stay fully locked (candado).
+              const lastFreeStory = stories.find((s) => s.number === FREE_STORY_LIMIT);
+              const lastFreeDone = lastFreeStory
+                ? isStoryCompleted(lastFreeStory.id)
+                : false;
+              const isPremiumLocked =
+                isPremiumStory &&
+                !(story.number === FREE_STORY_LIMIT + 1 && lastFreeDone);
+              const isGemTeaser =
+                isPremiumStory &&
+                story.number === FREE_STORY_LIMIT + 1 &&
+                lastFreeDone;
+              const unlocked =
+                devMode ||
+                (hasPremium
+                  ? isStoryUnlocked(story, stories)
+                  : !isPremiumStory && isStoryUnlocked(story, stories));
               const playable = unlocked && story.hasContent;
 
               const handleClick = () => {
-                if (isPremiumLocked) {
+                if (isPremiumLocked || isGemTeaser) {
                   onPaywallRequest?.();
                 } else if (playable) {
                   onSelectStory(story);
                 }
               };
 
-              const isInteractive = playable || isPremiumLocked;
+              const isInteractive = playable || isPremiumLocked || isGemTeaser;
 
               return (
                 <div
@@ -102,7 +123,7 @@ const StoryMap = ({
                   className={`w-full flex items-center gap-4 px-5 py-4 rounded-xl border transition-all duration-300 text-left select-none ${
                     completed
                       ? "border-eden/40 bg-eden/15"
-                      : isPremiumLocked
+                      : isGemTeaser
                       ? "border-gold/20 bg-gold/5 hover:border-gold/35 hover:bg-gold/10"
                       : playable
                       ? "border-gold/30 bg-gold/10 hover:border-gold/50 hover:bg-gold/20 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.15)]"
@@ -115,7 +136,7 @@ const StoryMap = ({
                     className={`w-10 h-10 rounded-full border flex-shrink-0 flex items-center justify-center ${
                       completed
                         ? "border-eden/50 bg-eden/30"
-                        : isPremiumLocked
+                        : isGemTeaser
                         ? "border-gold/25 bg-gold/10"
                         : playable
                         ? "border-gold/40 bg-gold/20"
@@ -124,7 +145,7 @@ const StoryMap = ({
                   >
                     {completed ? (
                       <Check className="w-4 h-4 text-eden-light" />
-                    ) : isPremiumLocked ? (
+                    ) : isGemTeaser ? (
                       <Gem className="w-3.5 h-3.5 text-gold/60" />
                     ) : playable ? (
                       <Play className="w-3.5 h-3.5 text-gold ml-0.5" />
@@ -136,7 +157,8 @@ const StoryMap = ({
                   <div className="flex-1 min-w-0">
                     <StoryRowTitle
                       number={story.number}
-                      englishTitle={story.title}
+                      storyId={story.id}
+                      fallbackTitle={story.title}
                       className={`font-display text-sm md:text-base tracking-wide block truncate ${
                         completed
                           ? "text-eden-light"

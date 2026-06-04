@@ -60,14 +60,13 @@ export const Paywall = ({
             <span className="text-gold/80">{freeLimit} {t("paywallStoriesCount")}</span> {t("paywallCompletedSuffix")}
           </p>
           <p className="font-body text-sm text-primary-foreground/50 mb-7 leading-relaxed">
-            {t("paywallUnlockPrefix")} <span className="text-gold/80">{totalStories}+ {t("paywallStoriesCount")}</span> {t("paywallUnlockSuffix")}
+            {t("paywallUnlockAll")}
           </p>
 
           {/* Features */}
           <ul className="mb-7 space-y-2 text-left">
             {[
               t("paywallFeature1"),
-              t("paywallFeature2"),
               t("paywallFeature3"),
             ].map((feature) => (
               <li key={feature} className="flex items-start gap-2.5">

@@ -1,7 +1,10 @@
-.PHONY: sync-ios sync-android build optimize-images validate-locales export-translations import-translations test-ios-archive test-ios-archive-ci
+.PHONY: run sync-ios sync-android build optimize-images validate-locales export-translations import-translations test-ios-archive test-ios-archive-ci
 
 -include .env.local
 export
+
+run:
+	npm run dev
 
 build:
 	npm run build

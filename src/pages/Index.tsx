@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import MainMenu from "@/components/MainMenu";
-import StoryMap from "@/components/StoryMap";
+import StoryMap, { FREE_STORY_LIMIT } from "@/components/StoryMap";
 import GameScene from "@/components/GameScene";
 import StoryEndScreen from "@/components/StoryEndScreen";
 import SceneSelector from "@/components/SceneSelector";
@@ -11,6 +11,7 @@ import { useIAP } from "@/hooks/useIAP";
 import { Paywall } from "@/components/Paywall";
 import { shuffleChoices } from "@/lib/shuffleChoices";
 import { useDevMode } from "@/hooks/useDevMode";
+import { useSettings } from "@/hooks/useSettings";
 import { useStoryScenes } from "@/hooks/useStoryScenes";
 import { OLD_TESTAMENT_STORIES, ALL_NT_STORIES, StoryMeta } from "@/data/stories";
 import { StoryChoice, StoryScene } from "@/data/stories/creation";
@@ -644,6 +645,7 @@ const Index = () => {
   const [totalChoices, setTotalChoices] = useState(0);
   const [showEndScreen, setShowEndScreen] = useState(false);
   const { devMode, toggleDevMode } = useDevMode();
+  const { t } = useSettings();
   const progress = useGameProgress(devMode);
   const iap = useIAP();
   const [showPaywall, setShowPaywall] = useState(false);
@@ -792,7 +794,7 @@ const Index = () => {
       return (
         <motion.div key="map_ot" className="fixed inset-0" {...fadeTransition}>
           <StoryMap
-            title="Old Testament"
+            title={t("oldTestament")}
             stories={OLD_TESTAMENT_STORIES}
             isStoryCompleted={progress.isStoryCompleted}
             isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
@@ -805,7 +807,7 @@ const Index = () => {
           />
           {showPaywall && (
             <Paywall
-              freeLimit={3}
+              freeLimit={FREE_STORY_LIMIT}
               totalStories={100}
               onClose={() => setShowPaywall(false)}
               onPurchase={iap.purchase}
@@ -821,7 +823,7 @@ const Index = () => {
       return (
         <motion.div key="map_nt" className="fixed inset-0" {...fadeTransition}>
           <StoryMap
-            title="New Testament"
+            title={t("newTestament")}
             stories={ALL_NT_STORIES}
             isStoryCompleted={progress.isStoryCompleted}
             isStoryUnlocked={(s, l) => progress.isStoryUnlocked(s, l)}
@@ -834,7 +836,7 @@ const Index = () => {
           />
           {showPaywall && (
             <Paywall
-              freeLimit={3}
+              freeLimit={FREE_STORY_LIMIT}
               totalStories={100}
               onClose={() => setShowPaywall(false)}
               onPurchase={iap.purchase}
@@ -925,7 +927,7 @@ const Index = () => {
         )}
         {/* Dev mode HUD — only shown when VITE_SHOW_DEV_BUTTON=true */}
         {devMode && import.meta.env.VITE_SHOW_DEV_BUTTON === "true" && (
-          <div className="absolute top-3 right-3 z-[65] flex gap-2">
+          <div className="absolute right-3 z-[65] flex gap-2" style={{ top: 'calc(0.75rem + env(safe-area-inset-top))' }}>
             <button
               onClick={handleRestart}
               className="px-3 py-1.5 rounded-lg bg-amber-500/20 border border-amber-500/40 text-amber-400 text-[10px] font-display tracking-wider uppercase cursor-pointer hover:bg-amber-500/30 transition-all"

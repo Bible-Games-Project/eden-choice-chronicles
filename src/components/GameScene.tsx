@@ -291,7 +291,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
           {/* Zone 1: Text + Buttons — 45vh */}
-          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '45vh' }}>
+          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '45vh', paddingTop: 'env(safe-area-inset-top)' }}>
             <div className="w-full max-w-xs px-4 text-center flex flex-col items-center">
               {renderTextBlock(true, true)}
               <div style={{ marginTop: '0.75rem' }}>
@@ -300,7 +300,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
             </div>
           </div>
           {/* Zone 2: Sprite — 55vh anchored to bottom, overflow hidden */}
-          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '55vh' }}>
+          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '55vh', paddingBottom: 'env(safe-area-inset-bottom)' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-mobile-center-${text}`}
@@ -348,7 +348,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         {/* ==================== TABLET ==================== */}
         <div className="relative z-20 h-full hidden md:block lg:hidden overflow-hidden">
           {/* Zone 1: Text + Buttons — 45vh */}
-          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '45vh' }}>
+          <div className="absolute inset-x-0 top-0 w-full flex items-center justify-center overflow-hidden" style={{ height: '45vh', paddingTop: 'env(safe-area-inset-top)' }}>
             <div className="w-full max-w-md px-6 text-center flex flex-col items-center">
               {renderTextBlock(true, true)}
               <div style={{ marginTop: '0.75rem' }}>
@@ -357,7 +357,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
             </div>
           </div>
           {/* Zone 2: Sprite — 55vh anchored to bottom */}
-          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '55vh' }}>
+          <div className="absolute inset-x-0 bottom-0 w-full overflow-hidden" style={{ height: '55vh', paddingBottom: 'env(safe-area-inset-bottom)' }}>
             {sprites?.left && !sprites?.right && (
               <motion.div
                 key={`sprite-tablet-center-${text}`}

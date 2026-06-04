@@ -26,7 +26,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
         type="button"
         onClick={() => setSettingsOpen(true)}
         aria-label={t("settings")}
-        className="absolute top-4 right-4 z-20 w-11 h-11 rounded-full border border-gold/30 bg-black/30 text-gold flex items-center justify-center hover:bg-gold/15 hover:border-gold/60 transition cursor-pointer"
+        className="absolute right-4 z-20 w-11 h-11 rounded-full border border-gold/30 bg-black/30 text-gold flex items-center justify-center hover:bg-gold/15 hover:border-gold/60 transition cursor-pointer"
+        style={{ top: 'calc(1rem + env(safe-area-inset-top))' }}
       >
         <SettingsIcon className="w-5 h-5" />
       </button>
