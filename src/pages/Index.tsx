@@ -681,7 +681,9 @@ const Index = () => {
     return [storyImages?.[sceneId], sceneSprites?.left, sceneSprites?.right];
   }, []);
 
-  const handleSelectStory = useCallback((story: StoryMeta) => {
+  const [pendingStory, setPendingStory] = useState<StoryMeta | null>(null);
+
+  const startStoryNow = useCallback((story: StoryMeta) => {
     clearTransitionTimers();
     transitionLock.current = false;
     setIsSceneTransitioning(false);
@@ -694,6 +696,19 @@ const Index = () => {
     setShowEndScreen(false);
     setScreen("playing");
   }, [clearTransitionTimers]);
+
+  const handleSelectStory = useCallback((story: StoryMeta) => {
+    // Show intro the very first time the player begins OT story #1.
+    const introSeen = (() => {
+      try { return localStorage.getItem(INTRO_SEEN_KEY) === "true"; } catch { return false; }
+    })();
+    if (!introSeen && story.section === "old_testament" && story.number === 1) {
+      setPendingStory(story);
+      setScreen("intro");
+      return;
+    }
+    startStoryNow(story);
+  }, [startStoryNow]);
 
   const handleRestart = useCallback(() => {
     if (!currentStory) return;
