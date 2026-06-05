@@ -60,12 +60,12 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.2 }}
-          className="font-display text-4xl md:text-5xl text-gold tracking-[0.15em] mb-3"
+          className="font-display text-4xl md:text-5xl text-gold tracking-[0.15em] mb-3 text-center leading-[1.05]"
           style={{
             textShadow: "0 0 40px hsl(43,75%,55%,0.3), 0 2px 8px rgba(0,0,0,0.8)",
           }}
         >
-          {t("title")}
+          Bible<br />Unlocked
         </motion.h1>
 
         <motion.div
