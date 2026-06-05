@@ -12,6 +12,7 @@ const SfxBridge = () => {
   const { volume } = useSettings();
 
   useEffect(() => {
+    console.log('[SfxBridge] Volume changed to:', volume);
     setSfxVolume(volume);
   }, [volume]);
 

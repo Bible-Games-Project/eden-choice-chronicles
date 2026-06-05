@@ -33,8 +33,10 @@ export const setSfxVolume = (v0to100: number) => {
   // noticeable. Music uses its own gain and is unaffected. A slider value of
   // 0 still fully mutes (because we multiply by currentVolume).
   const boosted = Math.min(2, currentVolume * 2);
+  console.log('[sfx.ts] setSfxVolume:', { v0to100, currentVolume, boosted, hasContext: !!ctx, hasMasterGain: !!masterGain });
   if (masterGain && ctx) {
     masterGain.gain.setTargetAtTime(boosted, ctx.currentTime, 0.01);
+    console.log('[sfx.ts] masterGain updated, ctxState:', ctx.state);
   }
 };
 

@@ -11,6 +11,7 @@ const MusicBridge = () => {
   const { volume } = useSettings();
 
   useEffect(() => {
+    console.log('[MusicBridge] Volume changed to:', volume);
     setMusicVolume(volume);
   }, [volume]);
 

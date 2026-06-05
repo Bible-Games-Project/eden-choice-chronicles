@@ -46,7 +46,9 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
   }, [volume, language]);
 
   const setVolume = useCallback((v: number) => {
-    setVolumeState(Math.max(0, Math.min(100, Math.round(v))));
+    const clamped = Math.max(0, Math.min(100, Math.round(v)));
+    console.log('[useSettings] setVolume called:', { requested: v, clamped });
+    setVolumeState(clamped);
   }, []);
 
   const setLanguage = useCallback((l: LanguageCode) => {
