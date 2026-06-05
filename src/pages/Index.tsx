@@ -881,6 +881,8 @@ const Index = () => {
               onPurchase={iap.purchase}
               onRestore={iap.restore}
               isLoading={iap.isLoading}
+              error={iap.error}
+              onClearError={iap.clearError}
             />
           )}
         </motion.div>
@@ -910,6 +912,8 @@ const Index = () => {
               onPurchase={iap.purchase}
               onRestore={iap.restore}
               isLoading={iap.isLoading}
+              error={iap.error}
+              onClearError={iap.clearError}
             />
           )}
         </motion.div>

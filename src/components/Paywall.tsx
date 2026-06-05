@@ -1,5 +1,6 @@
-import { Gem, X, RotateCcw } from "lucide-react";
+import { Gem, X, RotateCcw, AlertCircle } from "lucide-react";
 import { useSettings } from "@/hooks/useSettings";
+import { useEffect } from "react";
 
 interface PaywallProps {
   /** Number of free stories the user already played */
@@ -11,6 +12,10 @@ interface PaywallProps {
   onPurchase: () => Promise<void>;
   onRestore: () => Promise<void>;
   isLoading: boolean;
+  /** Error message to display (if any) */
+  error?: string | null;
+  /** Callback to clear error */
+  onClearError?: () => void;
 }
 
 export const Paywall = ({
@@ -20,8 +25,18 @@ export const Paywall = ({
   onPurchase,
   onRestore,
   isLoading,
+  error,
+  onClearError,
 }: PaywallProps) => {
   const { t } = useSettings();
+
+  // Auto-clear error after 5 seconds
+  useEffect(() => {
+    if (error && onClearError) {
+      const timer = setTimeout(onClearError, 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [error, onClearError]);
   
   return (
     <div className="fixed inset-0 z-[200] flex items-end sm:items-center justify-center bg-black/75 backdrop-blur-sm p-4">
@@ -77,6 +92,14 @@ export const Paywall = ({
               </li>
             ))}
           </ul>
+
+          {/* Error message */}
+          {error && (
+            <div className="mb-4 p-3 rounded-lg bg-red-900/20 border border-red-500/30 flex items-start gap-2">
+              <AlertCircle className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
+              <p className="font-body text-xs text-red-200 leading-relaxed">{error}</p>
+            </div>
+          )}
 
           {/* CTA */}
           <button
