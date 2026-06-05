@@ -119,3 +119,27 @@ export const startMusic = () => {
 };
 
 export const hasMusicTracks = () => TRACKS.length > 0;
+
+/**
+ * Pauses background music. Called when app goes to background.
+ */
+export const pauseMusic = () => {
+  if (!audio || audio.paused) return;
+  console.log('[music.ts] pauseMusic: pausing audio');
+  audio.pause();
+};
+
+/**
+ * Resumes background music. Called when app returns to foreground.
+ */
+export const resumeMusic = () => {
+  if (!audio || !started) return;
+  if (!audio.paused) return;
+  console.log('[music.ts] resumeMusic: resuming audio');
+  const p = audio.play();
+  if (p && typeof p.catch === "function") {
+    p.catch((err) => {
+      console.log('[music.ts] resumeMusic: play failed', err);
+    });
+  }
+};
