@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Volume2 } from "lucide-react";
+import { X, Volume2, VolumeX } from "lucide-react";
 import { useSettings } from "@/hooks/useSettings";
 import { LANGUAGES, LanguageCode } from "@/lib/i18n";
 import packageJson from "../../package.json";
@@ -54,30 +54,35 @@ const SettingsPanel = ({ open, onClose }: SettingsPanelProps) => {
             </div>
 
             <div className="px-6 py-5 flex flex-col gap-6 max-h-[70vh] overflow-y-auto">
-              {/* Volume */}
+              {/* Sound toggle */}
               <div>
-                <div className="flex items-center justify-between mb-2">
-                  <label
-                    htmlFor="settings-volume"
-                    className="font-display text-xs tracking-[0.18em] uppercase text-gold/80 flex items-center gap-2"
-                  >
-                    <Volume2 className="w-3.5 h-3.5" />
-                    {t("volume")}
+                <div className="flex items-center justify-between">
+                  <label className="font-display text-xs tracking-[0.18em] uppercase text-gold/80 flex items-center gap-2">
+                    {volume > 0 ? <Volume2 className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
+                    {t("sound")}
                   </label>
-                  <span className="font-body text-sm text-primary-foreground/70 tabular-nums">
-                    {volume}
-                  </span>
+                  <button
+                    type="button"
+                    role="switch"
+                    aria-checked={volume > 0}
+                    onClick={() => setVolume(volume > 0 ? 0 : 80)}
+                    className={`relative inline-flex h-7 w-14 items-center rounded-full border transition-colors cursor-pointer ${
+                      volume > 0
+                        ? "bg-gold/30 border-gold/60"
+                        : "bg-black/40 border-primary-foreground/20"
+                    }`}
+                  >
+                    <span
+                      className={`inline-block h-5 w-5 transform rounded-full bg-gold transition-transform ${
+                        volume > 0 ? "translate-x-8" : "translate-x-1"
+                      }`}
+                    />
+                    <span className="sr-only">{volume > 0 ? t("on") : t("off")}</span>
+                  </button>
                 </div>
-                <input
-                  id="settings-volume"
-                  type="range"
-                  min={0}
-                  max={100}
-                  step={1}
-                  value={volume}
-                  onChange={(e) => setVolume(Number(e.target.value))}
-                  className="w-full accent-gold cursor-pointer"
-                />
+                <p className="mt-2 font-body text-xs text-primary-foreground/50">
+                  {volume > 0 ? t("on") : t("off")}
+                </p>
               </div>
 
               {/* Language */}

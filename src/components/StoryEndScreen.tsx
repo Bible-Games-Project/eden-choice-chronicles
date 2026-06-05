@@ -114,14 +114,14 @@ const StoryEndScreen = ({
           {!isPerfect && (
             <button
               onClick={onReplay}
-              className="font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 px-6 py-3 cursor-pointer"
+              className="font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 bg-black/50 text-gold hover:bg-black/60 hover:border-gold transition-all duration-300 px-6 py-3 cursor-pointer"
             >
               {t("replayStory")}
             </button>
           )}
           <button
             onClick={onContinue}
-            className="font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/60 bg-gold/10 text-gold hover:bg-gold/25 hover:border-gold transition-all duration-300 px-8 py-3 cursor-pointer"
+            className="font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/60 bg-black/50 text-gold hover:bg-black/60 hover:border-gold transition-all duration-300 px-8 py-3 cursor-pointer"
           >
             {t("continue")}
           </button>
