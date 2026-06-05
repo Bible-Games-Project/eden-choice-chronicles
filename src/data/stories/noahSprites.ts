@@ -1,7 +1,6 @@
 import noahCalled from "@/assets/sprites/noah/noah-called.webp";
 import noahMocked from "@/assets/sprites/noah/noah-mocked.webp";
 import noahBuilding from "@/assets/sprites/noah/noah-building.webp";
-import noahFamily from "@/assets/sprites/noah/noah-family.webp";
 import noahAnimals from "@/assets/sprites/noah/noah-animals.webp";
 import noahBoarding from "@/assets/sprites/noah/noah-boarding.webp";
 import noahStorm from "@/assets/sprites/noah/noah-storm.webp";
@@ -16,7 +15,7 @@ export const noahSprites: Record<string, SpriteConfig> = {
   start: { left: noahCalled },
   mockery: { left: noahMocked },
   building: { left: noahBuilding },
-  ark_done: { left: noahFamily },
+  ark_done: { left: noahSteppingOut },
   animals: { left: noahAnimals },
   boarding: { left: noahBoarding },
   storm: { left: noahStorm },
