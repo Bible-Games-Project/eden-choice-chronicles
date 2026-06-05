@@ -631,7 +631,7 @@ const storyEffectRegistry: Record<string, Record<string, string>> = {
 
 const SCENE_TRANSITION_FADE_MS = 500;
 const SCENE_TRANSITION_HOLD_MS = 100;
-const SCENE_FEEDBACK_DELAY_MS = 1500;
+const SCENE_FEEDBACK_DELAY_MS = 2200;
 const INTRO_SEEN_KEY = "sacred-quest-intro-seen-v1";
 const isChoiceCorrect = (choice: StoryChoice) => choice.isCorrect === true;
 
