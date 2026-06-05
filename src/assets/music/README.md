@@ -1,20 +1,21 @@
 # Background Music
 
-Tracks live on the Lovable Assets CDN. This folder only stores
-`*.mp3.asset.json` pointer files — the actual binaries are NOT committed to
-the repo.
+All tracks are embedded in the app bundle as M4A (AAC) files for 100% offline support.
+
+**Format:** M4A (AAC) @ 96kbps - optimized for size while maintaining quality
+**Total size:** ~31 MB for 12 tracks (~40 minutes of music)
 
 ## How to add a new track
 
-From the sandbox:
+Simply drop a `.m4a` file in this directory (`src/assets/music/`). The music
+engine uses Vite's `import.meta.glob` to auto-discover all `*.m4a` files — no
+code changes required.
 
+Example:
 ```bash
-lovable-assets create --file /path/to/my-track.mp3 --filename my-track.mp3 \
-  > src/assets/music/my-track.mp3.asset.json
+# Convert and compress with afconvert (macOS)
+afconvert -f mp4f -d aac -b 96000 -s 3 input.mp3 src/assets/music/audio_13.m4a
 ```
-
-That's it. The music engine globs `*.mp3.asset.json` files and the new
-track joins the shuffle pool automatically — no code changes required.
 
 ## Behavior
 
@@ -22,3 +23,4 @@ track joins the shuffle pool automatically — no code changes required.
 - No back-to-back repetition across cycles
 - Volume tied to the global Settings Volume slider (0 = mute)
 - Single `<audio>` instance, persists across all scenes
+- All audio is local — no network requests, works 100% offline

@@ -1,10 +1,12 @@
 // Data-driven background music engine.
 //
-// Tracks are auto-discovered from `src/assets/music/*.mp3.asset.json`
-// pointer files via Vite's import.meta.glob. The binaries themselves live
-// on the Lovable Assets CDN (kept out of the repo). To add a new track,
-// upload it with `lovable-assets create` and drop the resulting
-// `.mp3.asset.json` in that folder — no code changes required.
+// Tracks are auto-discovered from `src/assets/music/*.m4a` files via Vite's
+// import.meta.glob. All audio files are embedded in the app bundle for 100%
+// offline support. Uses M4A (AAC) format for better compression (60% smaller
+// than MP3 with same quality).
+//
+// To add a new track, drop a `.m4a` file in `src/assets/music/` — no code
+// changes required.
 //
 // - Fisher-Yates shuffle per session
 // - No back-to-back repetition (track that just played cannot start the
@@ -12,18 +14,14 @@
 // - Single <audio> instance, persists across scenes
 // - Volume bound to the global Settings Volume slider (0..100)
 
-type AssetPointer = { url: string };
-
-const trackModules = import.meta.glob("../assets/music/*.mp3.asset.json", {
+const trackModules = import.meta.glob("../assets/music/*.m4a", {
   eager: true,
-}) as Record<string, { default: AssetPointer } | AssetPointer>;
+  import: "default",
+}) as Record<string, string>;
 
 const TRACKS: string[] = Object.entries(trackModules)
   .sort(([a], [b]) => a.localeCompare(b))
-  .map(([, mod]) => {
-    const ptr = (mod as { default?: AssetPointer }).default ?? (mod as AssetPointer);
-    return ptr.url;
-  })
+  .map(([, url]) => url)
   .filter((u): u is string => typeof u === "string" && u.length > 0);
 
 

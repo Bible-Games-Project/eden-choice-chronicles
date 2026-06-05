@@ -45,6 +45,36 @@ This is a **Capacitor** app (React + Vite + TypeScript) with:
 
 Deploy workflows are reusable from `Bible-Games-Project/bgp-admin`.
 
+## ⚠️ OFFLINE-FIRST REQUIREMENT
+
+**CRITICAL: This app MUST work 100% offline**
+
+### Asset Policy
+- ❌ **NEVER** use CDN/external URLs for assets (images, audio, videos)
+- ❌ **NEVER** use `*.asset.json` pointer files that reference external CDNs
+- ✅ **ALWAYS** embed all assets directly in the app bundle
+- ✅ All assets MUST be in `src/assets/` and imported via Vite
+
+### Audio Files
+- **Location**: `src/assets/music/*.mp3` (real MP3 files, NOT `.asset.json` pointers)
+- **Import**: Must use Vite's `import.meta.glob` to load from local bundle
+- **Rationale**: Users must be able to play without internet connection
+
+### Why Offline-First
+1. Biblical content should always be accessible
+2. Users may play in areas with poor/no connectivity
+3. No data consumption for core gameplay
+4. Faster load times (no network requests)
+
+### Exceptions
+- ✅ RevenueCat (IAP) requires occasional internet for license validation
+- ✅ Analytics/telemetry (if added) can be online-only
+
+### Before committing any asset:
+1. Verify the file is in `src/assets/` (not a CDN pointer)
+2. Verify imports use relative paths or Vite globs
+3. Test that the app works with airplane mode enabled
+
 ## Translations Contract
 
 **All user-visible strings MUST live in `src/locales/<lang>/...json`. Never hardcode user-facing text in components.**

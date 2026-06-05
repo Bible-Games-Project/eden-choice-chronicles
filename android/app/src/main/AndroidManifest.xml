@@ -30,6 +30,7 @@
     </application>
 
     <!-- Permissions -->
-
+    
+    <!-- Required for RevenueCat (in-app purchases) - all game assets are offline -->
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
