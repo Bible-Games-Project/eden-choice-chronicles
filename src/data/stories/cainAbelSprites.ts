@@ -17,7 +17,7 @@ export const cainAbelSprites: Record<string, SpriteConfig> = {
   start: { left: cainYoung },
   fields: { left: cainToil },
   abel_pasture: { left: abelShepherd },
-  offerings: { left: brothersOffering },
+  offerings: { left: brothersWalking },
   accepted: { left: cainRejected },
   anger: { left: cainAngry },
   warning: { left: cainWarned },
