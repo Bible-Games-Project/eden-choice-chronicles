@@ -120,16 +120,16 @@ const StoryMap = ({
                   onClick={handleClick}
                   onKeyDown={(e) => { if (isInteractive && (e.key === "Enter" || e.key === " ")) handleClick(); }}
                   style={{ cursor: isInteractive ? 'pointer' : completed ? 'default' : 'not-allowed' }}
-                  className={`w-full flex items-center gap-4 px-5 py-4 rounded-xl border transition-all duration-300 text-left select-none ${
+                  className={`w-full flex items-center gap-4 px-5 py-4 rounded-xl border bg-black/60 transition-all duration-300 text-left select-none ${
                     completed
-                      ? "border-eden/40 bg-eden/15"
+                      ? "border-eden/40 hover:bg-black/70"
                       : isGemTeaser
-                      ? "border-gold/20 bg-gold/5 hover:border-gold/35 hover:bg-gold/10"
+                      ? "border-gold/20 hover:border-gold/35 hover:bg-black/70"
                       : playable
-                      ? "border-gold/30 bg-gold/10 hover:border-gold/50 hover:bg-gold/20 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.15)]"
+                      ? "border-gold/30 hover:border-gold/50 hover:bg-black/70 hover:shadow-[0_0_20px_hsl(43,75%,55%,0.15)]"
                       : unlocked && !story.hasContent
-                      ? "border-muted-foreground/20 bg-black/20 opacity-60"
-                      : "border-muted-foreground/15 bg-black/20 opacity-40"
+                      ? "border-muted-foreground/20 opacity-70"
+                      : "border-muted-foreground/15 opacity-60"
                   }`}
                 >
                   <div
