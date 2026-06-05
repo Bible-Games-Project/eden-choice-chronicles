@@ -1,7 +1,7 @@
 import cainYoung from "@/assets/sprites/cain-abel/cain-young.webp";
 import cainToil from "@/assets/sprites/cain-abel/cain-toil.webp";
 import abelShepherd from "@/assets/sprites/cain-abel/abel-shepherd.webp";
-import brothersOffering from "@/assets/sprites/cain-abel/brothers-offering.webp";
+
 import cainRejected from "@/assets/sprites/cain-abel/cain-rejected.webp";
 import cainAngry from "@/assets/sprites/cain-abel/cain-angry.webp";
 import cainWarned from "@/assets/sprites/cain-abel/cain-warned.webp";
@@ -17,7 +17,7 @@ export const cainAbelSprites: Record<string, SpriteConfig> = {
   start: { left: cainYoung },
   fields: { left: cainToil },
   abel_pasture: { left: abelShepherd },
-  offerings: { left: brothersOffering },
+  offerings: { left: brothersWalking },
   accepted: { left: cainRejected },
   anger: { left: cainAngry },
   warning: { left: cainWarned },
