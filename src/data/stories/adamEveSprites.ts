@@ -1,4 +1,3 @@
-import adamAwakening from "@/assets/sprites/adam-eve/adam-awakening.webp";
 import adamNaming from "@/assets/sprites/adam-eve/adam-naming.webp";
 import adamLonely from "@/assets/sprites/adam-eve/adam-lonely.webp";
 import adamSleeping from "@/assets/sprites/adam-eve/adam-sleeping.webp";
