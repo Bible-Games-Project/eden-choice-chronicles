@@ -762,11 +762,11 @@ const Index = () => {
   const computedStars = useMemo(() => {
     const correct = Math.max(0, totalChoices - wrongChoices);
     const pct = totalChoices > 0 ? (correct / totalChoices) * 100 : 100;
-    if (pct < 10) return 0;
-    if (pct < 20) return 1;
-    if (pct < 40) return 2;
-    if (pct < 60) return 3;
-    if (pct < 80) return 4;
+    if (pct <= 10) return 0;
+    if (pct <= 25) return 1;
+    if (pct <= 49) return 2;
+    if (pct <= 69) return 3;
+    if (pct <= 89) return 4;
     return 5;
   }, [totalChoices, wrongChoices]);
 
