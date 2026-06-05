@@ -289,11 +289,11 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         {/* Environmental effects */}
         {sceneEffect && <SceneEffects effect={sceneEffect} />}
 
-        {/* Subtle progress indicator */}
+        {/* Subtle progress indicator (bottom) */}
         {typeof progress === "number" && (
           <div
             className="absolute left-0 right-0 z-30 pointer-events-none"
-            style={{ top: 'env(safe-area-inset-top, 0px)' }}
+            style={{ bottom: 'env(safe-area-inset-bottom, 0px)' }}
             aria-hidden="true"
           >
             <div className="h-[6px] w-full bg-white/10">
