@@ -2,7 +2,6 @@ import abrahamUr from "@/assets/sprites/abraham/abraham-ur.webp";
 import abrahamKneeling from "@/assets/sprites/abraham/abraham-kneeling.webp";
 import abrahamAwe from "@/assets/sprites/abraham/abraham-awe.webp";
 import abrahamSarahTalk from "@/assets/sprites/abraham/abraham-sarah-talk.webp";
-import abrahamPacking from "@/assets/sprites/abraham/abraham-packing.webp";
 import abrahamLeaving from "@/assets/sprites/abraham/abraham-leaving.webp";
 import abrahamWalking from "@/assets/sprites/abraham/abraham-walking.webp";
 import abrahamDoubt from "@/assets/sprites/abraham/abraham-doubt.webp";
@@ -18,7 +17,7 @@ export const abrahamSprites: Record<string, SpriteConfig> = {
   the_call: { left: abrahamKneeling },
   the_promise: { left: abrahamAwe },
   telling_sarah: { left: abrahamSarahTalk },
-  preparing: { left: abrahamPacking },
+  preparing: { left: abrahamWalking },
   departure: { left: abrahamLeaving },
   the_road: { left: abrahamWalking },
   doubt_night: { left: abrahamDoubt },
