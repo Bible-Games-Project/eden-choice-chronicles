@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Volume2 } from "lucide-react";
+import { X, Volume2, VolumeX } from "lucide-react";
 import { useSettings } from "@/hooks/useSettings";
 import { LANGUAGES, LanguageCode } from "@/lib/i18n";
 import packageJson from "../../package.json";
