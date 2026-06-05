@@ -759,10 +759,16 @@ const Index = () => {
     })();
   }, [currentSceneId, currentStory, getSceneAssetUrls, wait]);
 
-  const computedStars = useMemo(
-    () => Math.max(0, 5 - wrongChoices),
-    [wrongChoices]
-  );
+  const computedStars = useMemo(() => {
+    const correct = Math.max(0, totalChoices - wrongChoices);
+    const pct = totalChoices > 0 ? (correct / totalChoices) * 100 : 100;
+    if (pct < 10) return 0;
+    if (pct < 20) return 1;
+    if (pct < 40) return 2;
+    if (pct < 60) return 3;
+    if (pct < 80) return 4;
+    return 5;
+  }, [totalChoices, wrongChoices]);
 
   const handleReachEnd = useCallback(() => {
     setShowEndScreen(true);
