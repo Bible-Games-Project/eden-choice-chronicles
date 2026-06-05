@@ -222,7 +222,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
         <button
           onClick={handleComplete}
           disabled={isTransitioning || !finalButtonReady}
-          className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 text-gold hover:bg-gold/15 hover:border-gold transition-all duration-300 ${
+          className={`font-display text-xs tracking-[0.2em] uppercase rounded-lg border border-gold/40 bg-black/50 text-gold hover:bg-black/60 hover:border-gold transition-all duration-300 ${
             finalButtonReady && !isTransitioning ? "cursor-pointer" : "cursor-default opacity-60"
           } ${
             compact ? "px-5 py-2" : "px-8 py-3"
