@@ -4,7 +4,7 @@ set -o pipefail
 # Script to optimize PNG images to WebP format
 # Run this periodically when you add new assets to the project
 
-echo "🖼️  Eden Choice Chronicles - Image Optimizer"
+echo "🖼️  Bible Story Game: Sacred Quest - Image Optimizer"
 echo "============================================"
 echo ""
 

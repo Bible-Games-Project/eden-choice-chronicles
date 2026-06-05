@@ -1,4 +1,4 @@
-# Agent Instructions for Eden Choice Chronicles
+# Agent Instructions for Eden Choice Chronicles (Bible Story Game: Sacred Quest)
 
 ## ⚠️ Security - Public Repository
 
