@@ -1,30 +1,8 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, X, ZoomIn } from "lucide-react";
 
 import { creationSprites } from "@/data/creationSprites";
-import { adamEveSprites } from "@/data/stories/adamEveSprites";
-import { cainAbelSprites } from "@/data/stories/cainAbelSprites";
-import { noahSprites } from "@/data/stories/noahSprites";
-import { babelSprites } from "@/data/stories/babelSprites";
-import { abrahamSprites } from "@/data/stories/abrahamSprites";
-import { abrahamEgyptSprites } from "@/data/stories/abrahamEgyptSprites";
-import { abrahamLotSprites } from "@/data/stories/abrahamLotSprites";
-import { sodomSprites } from "@/data/stories/sodomSprites";
-import { sacrificeIsaacSprites } from "@/data/stories/sacrificeIsaacSprites";
-import { rebekahSprites } from "@/data/stories/rebekahSprites";
-import { jacobEsauSprites } from "@/data/stories/jacobEsauSprites";
-import { jacobsDreamSprites } from "@/data/stories/jacobsDreamSprites";
-import { jacobWrestlesSprites } from "@/data/stories/jacobWrestlesSprites";
-import { josephSoldSprites } from "@/data/stories/josephSoldSprites";
-import { josephPotipharSprites } from "@/data/stories/josephPotipharSprites";
-import { josephPrisonSprites } from "@/data/stories/josephPrisonSprites";
-import { josephDreamsSprites } from "@/data/stories/josephDreamsSprites";
-import { josephBrothersEgyptSprites } from "@/data/stories/josephBrothersEgyptSprites";
-import { josephReconcilesSprites } from "@/data/stories/josephReconcilesSprites";
-import { birthMosesSprites } from "@/data/stories/birthMosesSprites";
-import { mosesFleesSprites } from "@/data/stories/mosesFleesSprites";
-import { burningBushSprites } from "@/data/stories/burningBushSprites";
 
 interface SpriteEntry {
   story: string;
@@ -33,57 +11,37 @@ interface SpriteEntry {
   src: string;
 }
 
-const STORY_LABELS: Record<string, string> = {
-  creation: "Creation",
-  "adam-eve": "Adam & Eve",
-  "cain-abel": "Cain & Abel",
-  "noah-flood": "Noah's Flood",
-  "tower-babel": "Tower of Babel",
-  "call-abraham": "Call of Abraham",
-  "abraham-egypt": "Abraham in Egypt",
-  "abraham-lot": "Abraham & Lot",
-  "sodom-gomorrah": "Sodom & Gomorrah",
-  "sacrifice-isaac": "Sacrifice of Isaac",
-  "rebekah-servant": "Rebekah & the Servant",
-  "jacob-esau": "Jacob & Esau",
-  "jacobs-dream": "Jacob's Dream",
-  "jacob-wrestles": "Jacob Wrestles the Angel",
-  "joseph-sold": "Joseph Sold by His Brothers",
-  "joseph-potiphar": "Joseph in Potiphar's House",
-  "joseph-prison": "Joseph in Prison",
-  "joseph-dreams": "Joseph Interprets Dreams",
-  "joseph-brothers-egypt": "Joseph & Brothers in Egypt",
-  "joseph-reconciles": "Joseph Reconciles with His Brothers",
-  "birth-moses": "Birth of Moses",
-  "moses-flees": "Moses Flees Egypt",
-  "burning-bush": "The Burning Bush",
+type SpriteConfig = { left?: string; right?: string };
+type SpriteRegistry = Record<string, SpriteConfig>;
+
+// Auto-discover every *Sprites.ts module under src/data/stories/
+const storyModules = import.meta.glob<Record<string, SpriteRegistry>>(
+  "/src/data/stories/*Sprites.ts",
+  { eager: true }
+);
+
+const ALL_SPRITE_REGISTRIES: Record<string, SpriteRegistry> = {
+  creation: creationSprites,
 };
 
-const ALL_SPRITE_REGISTRIES: Record<string, Record<string, { left?: string; right?: string }>> = {
-  creation: creationSprites,
-  "adam-eve": adamEveSprites,
-  "cain-abel": cainAbelSprites,
-  "noah-flood": noahSprites,
-  "tower-babel": babelSprites,
-  "call-abraham": abrahamSprites,
-  "abraham-egypt": abrahamEgyptSprites,
-  "abraham-lot": abrahamLotSprites,
-  "sodom-gomorrah": sodomSprites,
-  "sacrifice-isaac": sacrificeIsaacSprites,
-  "rebekah-servant": rebekahSprites,
-  "jacob-esau": jacobEsauSprites,
-  "jacobs-dream": jacobsDreamSprites,
-  "jacob-wrestles": jacobWrestlesSprites,
-  "joseph-sold": josephSoldSprites,
-  "joseph-potiphar": josephPotipharSprites,
-  "joseph-prison": josephPrisonSprites,
-  "joseph-dreams": josephDreamsSprites,
-  "joseph-brothers-egypt": josephBrothersEgyptSprites,
-  "joseph-reconciles": josephReconcilesSprites,
-  "birth-moses": birthMosesSprites,
-  "moses-flees": mosesFleesSprites,
-  "burning-bush": burningBushSprites,
-};
+for (const [path, mod] of Object.entries(storyModules)) {
+  const fileName = path.split("/").pop()!.replace(/\.ts$/, "");
+  // Find the exported registry (named like "abrahamSprites")
+  const exportKey = Object.keys(mod).find((k) => k.endsWith("Sprites"));
+  if (!exportKey) continue;
+  const registry = mod[exportKey] as SpriteRegistry;
+  // Derive a story id from filename: "abrahamEgyptSprites" -> "abraham-egypt"
+  const baseName = fileName.replace(/Sprites$/, "");
+  const storyId = baseName.replace(/([A-Z])/g, "-$1").replace(/^-/, "").toLowerCase();
+  ALL_SPRITE_REGISTRIES[storyId] = registry;
+}
+
+function humanize(id: string): string {
+  return id
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
 
 function buildSpriteList(): SpriteEntry[] {
   const entries: SpriteEntry[] = [];
@@ -106,7 +64,7 @@ function buildSpriteList(): SpriteEntry[] {
 }
 
 const allSprites = buildSpriteList();
-const storyIds = [...new Set(allSprites.map((s) => s.story))];
+const storyIds = [...new Set(allSprites.map((s) => s.story))].sort();
 
 interface SpriteViewerProps {
   onBack: () => void;
@@ -118,13 +76,21 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
 
   const filtered = filterStory ? allSprites.filter((s) => s.story === filterStory) : allSprites;
 
+  // Group by story for display
+  const grouped = useMemo(() => {
+    const map = new Map<string, SpriteEntry[]>();
+    for (const s of filtered) {
+      if (!map.has(s.story)) map.set(s.story, []);
+      map.get(s.story)!.push(s);
+    }
+    return [...map.entries()];
+  }, [filtered]);
+
   return (
     <div className="fixed inset-0 overflow-hidden">
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[hsl(25,25%,8%)] via-[hsl(30,30%,14%)] to-[hsl(25,20%,6%)]" />
 
       <div className="relative z-10 h-full flex flex-col">
-        {/* Header */}
         <div className="flex items-center gap-3 px-5 pt-6 pb-4 flex-shrink-0">
           <button onClick={onBack} className="p-2.5 rounded-xl text-gold hover:bg-gold/10 transition-colors cursor-pointer">
             <ChevronLeft className="w-6 h-6" />
@@ -133,11 +99,12 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
             <h2 className="font-display text-2xl tracking-widest uppercase text-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
               Sprite Viewer
             </h2>
-            <span className="font-body text-xs text-gold/50">{filtered.length} sprites</span>
+            <span className="font-body text-xs text-gold/50">
+              {filtered.length} sprites · {storyIds.length} stories
+            </span>
           </div>
         </div>
 
-        {/* Story selector dropdown + filter tabs */}
         <div className="px-5 pb-4 flex-shrink-0 space-y-3">
           <select
             value={filterStory ?? ""}
@@ -147,65 +114,50 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
             <option value="">All stories</option>
             {storyIds.map((id) => (
               <option key={id} value={id}>
-                {STORY_LABELS[id] || id}
+                {humanize(id)}
               </option>
             ))}
           </select>
-          <div className="flex gap-2 overflow-x-auto">
-            <button
-              onClick={() => setFilterStory(null)}
-              className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-display tracking-wider uppercase transition-all cursor-pointer ${
-                filterStory === null ? "bg-gold/30 text-gold border border-gold/50" : "bg-black/30 text-primary-foreground/50 border border-primary-foreground/10 hover:bg-gold/10"
-              }`}
-            >
-              All
-            </button>
-            {storyIds.map((id) => (
-              <button
-                key={id}
-                onClick={() => setFilterStory(id)}
-                className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-display tracking-wider uppercase transition-all cursor-pointer ${
-                  filterStory === id ? "bg-gold/30 text-gold border border-gold/50" : "bg-black/30 text-primary-foreground/50 border border-primary-foreground/10 hover:bg-gold/10"
-                }`}
-              >
-                {STORY_LABELS[id] || id}
-              </button>
-            ))}
-          </div>
         </div>
 
-        {/* Sprite grid */}
         <div className="flex-1 overflow-y-auto px-4 pb-8">
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3 max-w-4xl mx-auto">
-            {filtered.map((sprite, i) => (
-              <motion.button
-                key={sprite.src}
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: Math.min(i * 0.02, 0.5) }}
-                onClick={() => setZoomedSrc(sprite.src)}
-                className="group relative aspect-square rounded-xl border border-primary-foreground/10 bg-black/30 overflow-hidden cursor-pointer hover:border-gold/40 transition-all"
-              >
-                <img
-                  src={sprite.src}
-                  alt={`${sprite.scene} (${sprite.side})`}
-                  className="w-full h-full object-contain p-1"
-                  loading="lazy"
-                />
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <p className="text-[10px] text-gold/80 truncate font-body">{sprite.scene}</p>
-                  <p className="text-[9px] text-primary-foreground/40 truncate">{STORY_LABELS[sprite.story]}</p>
+          <div className="max-w-4xl mx-auto space-y-6">
+            {grouped.map(([storyId, sprites]) => (
+              <section key={storyId}>
+                <h3 className="font-display text-sm tracking-widest uppercase text-gold/80 mb-2 px-1 sticky top-0 bg-[hsl(30,30%,14%)]/80 backdrop-blur-sm py-1 z-10">
+                  {humanize(storyId)} <span className="text-gold/40">({sprites.length})</span>
+                </h3>
+                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3">
+                  {sprites.map((sprite, i) => (
+                    <motion.button
+                      key={sprite.src}
+                      initial={{ opacity: 0, scale: 0.9 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ delay: Math.min(i * 0.01, 0.3) }}
+                      onClick={() => setZoomedSrc(sprite.src)}
+                      className="group relative aspect-square rounded-xl border border-primary-foreground/10 bg-black/30 overflow-hidden cursor-pointer hover:border-gold/40 transition-all"
+                    >
+                      <img
+                        src={sprite.src}
+                        alt={`${sprite.scene} (${sprite.side})`}
+                        className="w-full h-full object-contain p-1"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <p className="text-[10px] text-gold/80 truncate font-body">{sprite.scene}</p>
+                      </div>
+                      <div className="absolute top-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <ZoomIn className="w-3.5 h-3.5 text-gold/60" />
+                      </div>
+                    </motion.button>
+                  ))}
                 </div>
-                <div className="absolute top-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <ZoomIn className="w-3.5 h-3.5 text-gold/60" />
-                </div>
-              </motion.button>
+              </section>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Zoom overlay */}
       <AnimatePresence>
         {zoomedSrc && (
           <motion.div
