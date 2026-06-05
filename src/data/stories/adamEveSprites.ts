@@ -1,4 +1,3 @@
-import adamAwakening from "@/assets/sprites/adam-eve/adam-awakening.webp";
 import adamNaming from "@/assets/sprites/adam-eve/adam-naming.webp";
 import adamLonely from "@/assets/sprites/adam-eve/adam-lonely.webp";
 import adamSleeping from "@/assets/sprites/adam-eve/adam-sleeping.webp";
@@ -14,7 +13,7 @@ import { SpriteConfig } from "@/data/creationSprites";
 
 // Exactly ONE sprite per scene. Waist-up, transparent PNG.
 export const adamEveSprites: Record<string, SpriteConfig> = {
-  start: { left: adamAwakening },
+  start: { left: adamNaming },
   naming: { left: adamNaming },
   lonely: { left: adamLonely },
   deep_sleep: { left: adamSleeping },
