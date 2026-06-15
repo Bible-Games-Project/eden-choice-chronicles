@@ -182,7 +182,7 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
         </div>
 
         {/* Dev tools section — only shown when VITE_SHOW_DEV_BUTTON=true */}
-        {import.meta.env.VITE_SHOW_DEV_BUTTON === "true" && (
+        {(import.meta.env.VITE_SHOW_DEV_BUTTON === "true" || devMode) && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

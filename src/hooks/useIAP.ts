@@ -71,7 +71,7 @@ export function useIAP(): IAPState {
 
   const purchase = useCallback(async () => {
     if (!Capacitor.isNativePlatform()) {
-      setError("Purchases are only available on mobile devices");
+      setError("iapErrorMobileOnly");
       return;
     }
     setIsLoading(true);
@@ -82,7 +82,7 @@ export function useIAP(): IAPState {
       const pkg = offerings.current?.availablePackages?.[0];
       if (!pkg) {
         console.warn("[IAP] No packages available in current offering");
-        setError("No products available. Please try again later.");
+        setError("iapErrorNoProducts");
         return;
       }
       await Purchases.purchasePackage({ aPackage: pkg });
@@ -92,7 +92,7 @@ export function useIAP(): IAPState {
       const err = e as { userCancelled?: boolean; message?: string };
       if (!err?.userCancelled) {
         console.error("[IAP] Purchase failed:", e);
-        setError(err?.message || "Purchase failed. Please try again.");
+        setError("iapErrorPurchaseFailed");
       }
     } finally {
       setIsLoading(false);
@@ -101,7 +101,7 @@ export function useIAP(): IAPState {
 
   const restore = useCallback(async () => {
     if (!Capacitor.isNativePlatform()) {
-      setError("Restore is only available on mobile devices");
+      setError("iapErrorRestoreMobileOnly");
       return;
     }
     setIsLoading(true);
@@ -112,12 +112,11 @@ export function useIAP(): IAPState {
       const hasActivePurchase = IAP_ENTITLEMENT_ID in customerInfo.entitlements.active;
       setHasPremium(hasActivePurchase);
       if (!hasActivePurchase) {
-        setError("No previous purchases found");
+        setError("iapErrorNoPreviousPurchases");
       }
     } catch (e) {
       console.error("[IAP] Restore failed:", e);
-      const err = e as { message?: string };
-      setError(err?.message || "Restore failed. Please try again.");
+      setError("iapErrorRestoreFailed");
     } finally {
       setIsLoading(false);
     }

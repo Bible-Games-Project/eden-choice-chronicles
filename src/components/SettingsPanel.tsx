@@ -1,6 +1,8 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Volume2, VolumeX } from "lucide-react";
+import { useState, useRef, useCallback } from "react";
 import { useSettings } from "@/hooks/useSettings";
+import { useDevMode } from "@/hooks/useDevMode";
 import { LANGUAGES, LanguageCode } from "@/lib/i18n";
 import packageJson from "../../package.json";
 
@@ -9,9 +11,33 @@ interface SettingsPanelProps {
   onClose: () => void;
 }
 
+const TAPS_REQUIRED = 10;
+
 const SettingsPanel = ({ open, onClose }: SettingsPanelProps) => {
   const { volume, setVolume, language, setLanguage, t } = useSettings();
+  const { devMode, activateDevMode } = useDevMode();
   const isRTL = language === "ar";
+  const [tapCount, setTapCount] = useState(0);
+  const [justActivated, setJustActivated] = useState(false);
+  const resetTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleVersionTap = useCallback(() => {
+    if (devMode) return;
+
+    if (resetTimer.current) clearTimeout(resetTimer.current);
+    resetTimer.current = setTimeout(() => setTapCount(0), 2000);
+
+    setTapCount((prev) => {
+      const next = prev + 1;
+      if (next >= TAPS_REQUIRED) {
+        activateDevMode();
+        setJustActivated(true);
+        setTimeout(() => setJustActivated(false), 2000);
+        return 0;
+      }
+      return next;
+    });
+  }, [devMode, activateDevMode]);
 
   return (
     <AnimatePresence>
@@ -117,9 +143,16 @@ const SettingsPanel = ({ open, onClose }: SettingsPanelProps) => {
 
             {/* Version footer */}
             <div className="px-6 py-3 border-t border-gold/10 flex items-center justify-center">
-              <span className="font-body text-[10px] text-primary-foreground/30 tracking-wider">
-                v{packageJson.version}
-              </span>
+              <button
+                type="button"
+                onClick={handleVersionTap}
+                className="font-body text-[10px] tracking-wider select-none cursor-default focus:outline-none transition-colors"
+                style={{ WebkitTapHighlightColor: "transparent" }}
+              >
+                <span className={justActivated ? "text-amber-400" : devMode ? "text-amber-400/50" : "text-primary-foreground/30"}>
+                  v{packageJson.version}{devMode ? " ✦" : ""}
+                </span>
+              </button>
             </div>
           </motion.div>
         </motion.div>

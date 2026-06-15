@@ -1,6 +1,7 @@
-import { Gem, X, RotateCcw, AlertCircle } from "lucide-react";
+import { Gem, X, RotateCcw, AlertCircle, CheckCircle2 } from "lucide-react";
 import { useSettings } from "@/hooks/useSettings";
 import { useEffect } from "react";
+import type { TranslationKey } from "@/lib/i18n";
 
 interface PaywallProps {
   /** Number of free stories the user already played */
@@ -16,6 +17,8 @@ interface PaywallProps {
   error?: string | null;
   /** Callback to clear error */
   onClearError?: () => void;
+  /** Whether the purchase just completed successfully */
+  purchased?: boolean;
 }
 
 export const Paywall = ({
@@ -27,6 +30,7 @@ export const Paywall = ({
   isLoading,
   error,
   onClearError,
+  purchased = false,
 }: PaywallProps) => {
   const { t } = useSettings();
 
@@ -37,7 +41,41 @@ export const Paywall = ({
       return () => clearTimeout(timer);
     }
   }, [error, onClearError]);
-  
+
+  // Auto-close after showing success screen
+  useEffect(() => {
+    if (purchased) {
+      const timer = setTimeout(onClose, 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [purchased, onClose]);
+
+  if (purchased) {
+    return (
+      <div className="fixed inset-0 z-[200] flex items-end sm:items-center justify-center bg-black/75 backdrop-blur-sm p-4">
+        <div className="relative w-full max-w-sm rounded-2xl border border-gold/30 bg-[hsl(25,30%,8%)] shadow-[0_0_60px_hsl(43,75%,25%,0.3)] overflow-hidden">
+          <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
+          <div className="px-6 py-12 text-center">
+            <div className="mb-5 flex justify-center">
+              <div className="relative">
+                <div className="absolute inset-0 rounded-full bg-gold/20 blur-xl" />
+                <div className="relative p-4 rounded-full bg-gold/15 border border-gold/40">
+                  <CheckCircle2 className="w-8 h-8 text-gold" />
+                </div>
+              </div>
+            </div>
+            <h2 className="font-display text-2xl tracking-widest text-gold uppercase mb-3">
+              {t("paywallSuccessTitle")}
+            </h2>
+            <p className="font-body text-sm text-primary-foreground/60 leading-relaxed">
+              {t("paywallSuccessBody")}
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="fixed inset-0 z-[200] flex items-end sm:items-center justify-center bg-black/75 backdrop-blur-sm p-4">
       <div className="relative w-full max-w-sm rounded-2xl border border-gold/30 bg-[hsl(25,30%,8%)] shadow-[0_0_60px_hsl(43,75%,25%,0.3)] overflow-hidden">
@@ -97,7 +135,7 @@ export const Paywall = ({
           {error && (
             <div className="mb-4 p-3 rounded-lg bg-red-900/20 border border-red-500/30 flex items-start gap-2">
               <AlertCircle className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
-              <p className="font-body text-xs text-red-200 leading-relaxed">{error}</p>
+              <p className="font-body text-xs text-red-200 leading-relaxed">{t(error as TranslationKey)}</p>
             </div>
           )}
 

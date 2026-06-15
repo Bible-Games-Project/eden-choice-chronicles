@@ -651,6 +651,7 @@ const Index = () => {
   const progress = useGameProgress(devMode);
   const iap = useIAP();
   const [showPaywall, setShowPaywall] = useState(false);
+
   const transitionLock = useRef(false);
   const transitionTimers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
@@ -889,6 +890,7 @@ const Index = () => {
               isLoading={iap.isLoading}
               error={iap.error}
               onClearError={iap.clearError}
+              purchased={iap.hasPremium}
             />
           )}
         </motion.div>
@@ -920,6 +922,7 @@ const Index = () => {
               isLoading={iap.isLoading}
               error={iap.error}
               onClearError={iap.clearError}
+              purchased={iap.hasPremium}
             />
           )}
         </motion.div>
@@ -1013,8 +1016,8 @@ const Index = () => {
             onContinue={handleContinueAfterEnd}
           />
         )}
-        {/* Dev mode HUD — only shown when VITE_SHOW_DEV_BUTTON=true */}
-        {devMode && import.meta.env.VITE_SHOW_DEV_BUTTON === "true" && (
+        {/* Dev mode HUD */}
+        {devMode && (
           <div className="absolute right-3 z-[65] flex gap-2" style={{ top: 'calc(0.75rem + env(safe-area-inset-top))' }}>
             <button
               onClick={handleRestart}

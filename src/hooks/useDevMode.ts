@@ -19,5 +19,10 @@ export function useDevMode() {
     });
   }, []);
 
-  return { devMode, toggleDevMode };
+  const activateDevMode = useCallback(() => {
+    localStorage.setItem(DEV_MODE_KEY, "true");
+    setDevMode(true);
+  }, []);
+
+  return { devMode, toggleDevMode, activateDevMode };
 }
