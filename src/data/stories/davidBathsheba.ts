@@ -10,8 +10,8 @@ export const davidBathshebaScenes: Record<string, StoryScene> = {
     title: "When Kings Go to War",
     text: "Spring has come. Joab leads your army.\nYou linger alone in the palace.",
     choices: [
-      { text: "Stay idle on the rooftop", nextScene: "rooftop_consequence", tag: "idle", feedback: "Idleness opens the door to sin.", isCorrect: false, sentiment: "negative" },
-      { text: "Ride out and lead your men", nextScene: "seeing", tag: "faithful", feedback: "A king belongs with his people.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay idle on the rooftop", nextScene: "rooftop_consequence", tag: "idle", feedback: "Idleness opens the door to sin.", isCorrect: true, sentiment: "negative" },
+      { text: "Ride out and lead your men", nextScene: "seeing", tag: "faithful", feedback: "A king belongs with his people.", isCorrect: false, sentiment: "positive" },
       { text: "Demand new wine and music", nextScene: "wine_consequence", tag: "proud", feedback: "Comfort dulls the heart.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,9 +38,9 @@ export const davidBathshebaScenes: Record<string, StoryScene> = {
     title: "A Woman Bathing",
     text: "Below, a woman bathes in the courtyard.\nYour eyes will not turn away.",
     choices: [
-      { text: "Send for her at once", nextScene: "summon_consequence", tag: "lust", feedback: "Power must not take what is not yours.", isCorrect: false, sentiment: "negative" },
-      { text: "Look away and pray", nextScene: "uriah", tag: "faithful", feedback: "Turn your eyes from temptation.", isCorrect: true, sentiment: "positive" },
-      { text: "Ask who her husband is", nextScene: "ask_consequence", tag: "lust", feedback: "Curiosity here is the first step to ruin.", isCorrect: false, sentiment: "negative" },
+      { text: "Send for her at once", nextScene: "summon_consequence", tag: "lust", feedback: "Power must not take what is not yours.", isCorrect: true, sentiment: "negative" },
+      { text: "Look away and pray", nextScene: "uriah", tag: "faithful", feedback: "Turn your eyes from temptation.", isCorrect: false, sentiment: "positive" },
+      { text: "Ask who her husband is", nextScene: "ask_consequence", tag: "lust", feedback: "Curiosity here is the first step to ruin.", isCorrect: true, sentiment: "negative" },
     ],
   },
   ask_consequence: {
@@ -67,9 +67,9 @@ export const davidBathshebaScenes: Record<string, StoryScene> = {
     title: "Uriah Stands Before You",
     text: "Uriah refuses comfort while his men sleep in fields.\n\"Shall I lie with my wife?\"",
     choices: [
-      { text: "Order Uriah to the front to die", nextScene: "front_consequence", tag: "wicked", feedback: "Murder will not hide your sin.", isCorrect: false, sentiment: "negative" },
-      { text: "Get him drunk to send him home", nextScene: "drunk_consequence", tag: "deceit", feedback: "Deceit breeds deeper deceit.", isCorrect: false, sentiment: "negative" },
-      { text: "Confess your sin to him", nextScene: "nathan", tag: "faithful", feedback: "Truth is the only door out.", isCorrect: true, sentiment: "positive" },
+      { text: "Order Uriah to the front to die", nextScene: "front_consequence", tag: "wicked", feedback: "Murder will not hide your sin.", isCorrect: true, sentiment: "negative" },
+      { text: "Get him drunk to send him home", nextScene: "drunk_consequence", tag: "deceit", feedback: "Deceit breeds deeper deceit.", isCorrect: true, sentiment: "negative" },
+      { text: "Confess your sin to him", nextScene: "nathan", tag: "faithful", feedback: "Truth is the only door out.", isCorrect: false, sentiment: "positive" },
     ],
   },
   drunk_consequence: {

@@ -76,8 +76,8 @@ export const sodomScenes: Record<string, StoryScene> = {
     text: "The angel grips your wrist. \"Hurry!\nDo not look back. Flee to the hills.\"",
     choices: [
       { text: "Linger to gather your gold", nextScene: "flee", isCorrect: false, sentiment: "negative" },
-      { text: "Go now — leave everything", nextScene: "flee", isCorrect: true, sentiment: "positive" },
-      { text: "Question where to run", nextScene: "flee", isCorrect: false, sentiment: "negative" },
+      { text: "Go now — leave everything", nextScene: "flee", isCorrect: false, sentiment: "positive" },
+      { text: "Question where to run", nextScene: "flee", isCorrect: true, sentiment: "negative" },
     ],
   },
   flee: {

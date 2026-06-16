@@ -122,9 +122,9 @@ export const saulKingScenes: Record<string, StoryScene> = {
     title: "Tribes Gather at Mizpah",
     text: "Lots fall and your name is called.\nThe people search the camp.",
     choices: [
-      { text: "Step forward to be seen", nextScene: "confirmation", tag: "obedient", feedback: "Wind lifts your tunic gently.", isCorrect: true, sentiment: "positive" },
+      { text: "Step forward to be seen", nextScene: "confirmation", tag: "obedient", feedback: "Wind lifts your tunic gently.", isCorrect: false, sentiment: "positive" },
       { text: "Demand a throne and crown", nextScene: "demand_consequence", tag: "proud", feedback: "Greatness wears no gold yet.", isCorrect: false, sentiment: "negative" },
-      { text: "Hide among the baggage", nextScene: "hide_consequence", tag: "fearful", feedback: "God will still bring you out.", isCorrect: false, sentiment: "negative" },
+      { text: "Hide among the baggage", nextScene: "hide_consequence", tag: "fearful", feedback: "God will still bring you out.", isCorrect: true, sentiment: "negative" },
     ],
   },
   demand_consequence: {
