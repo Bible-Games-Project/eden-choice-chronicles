@@ -6,8 +6,8 @@ export const babelScenes: Record<string, StoryScene> = {
     title: "The Plain of Shinar",
     text: "A wide green plain stretches ahead.\nAll mankind has gathered here — one people, one tongue.",
     choices: [
-      { text: "Settle and build a home", nextScene: "unity", tag: "humble", feedback: "You sink roots into the earth. It feels right.", isCorrect: true, sentiment: "positive" },
-      { text: "Dream of something greater", nextScene: "unity", tag: "ambitious", feedback: "The horizon is not enough. You want the sky.", isCorrect: false, sentiment: "negative" },
+      { text: "Settle and build a home", nextScene: "unity", tag: "humble", feedback: "You sink roots into the earth. It feels right.", isCorrect: false, sentiment: "positive" },
+      { text: "Dream of something greater", nextScene: "unity", tag: "ambitious", feedback: "The horizon is not enough. You want the sky.", isCorrect: true, sentiment: "negative" },
     ],
   },
   unity: {
@@ -15,8 +15,8 @@ export const babelScenes: Record<string, StoryScene> = {
     title: "One Tongue",
     text: "Voices blend. Laughter rises.\nThere is no word you cannot understand.",
     choices: [
-      { text: "Praise God for the gift of unity", nextScene: "proposal", tag: "grateful", feedback: "You lift your voice in thanks. Others bow their heads.", isCorrect: true, sentiment: "positive" },
-      { text: "Boast of what we could achieve", nextScene: "proposal", tag: "boastful", feedback: "Pride sparks in the crowd. Eyes turn upward.", isCorrect: false, sentiment: "negative" },
+      { text: "Praise God for the gift of unity", nextScene: "proposal", tag: "grateful", feedback: "You lift your voice in thanks. Others bow their heads.", isCorrect: false, sentiment: "positive" },
+      { text: "Boast of what we could achieve", nextScene: "proposal", tag: "boastful", feedback: "Pride sparks in the crowd. Eyes turn upward.", isCorrect: true, sentiment: "negative" },
       { text: "Stay silent — listen to the elders", nextScene: "proposal", tag: "watchful", feedback: "Wise voices speak softly. Others shout louder.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -25,8 +25,8 @@ export const babelScenes: Record<string, StoryScene> = {
     title: "The Great Idea",
     text: "An elder rises. \"Let us build a tower — its top in the heavens.\"\n\"Let us make a name for ourselves.\"",
     choices: [
-      { text: "Cheer — join the great work", nextScene: "bricks", tag: "eager", feedback: "Your voice is one of thousands. The crowd roars.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak against it — this is pride", nextScene: "bricks", tag: "faithful", feedback: "Few hear you. But the words are spoken.", isCorrect: true, sentiment: "positive" },
+      { text: "Cheer — join the great work", nextScene: "bricks", tag: "eager", feedback: "Your voice is one of thousands. The crowd roars.", isCorrect: true, sentiment: "negative" },
+      { text: "Speak against it — this is pride", nextScene: "bricks", tag: "faithful", feedback: "Few hear you. But the words are spoken.", isCorrect: false, sentiment: "positive" },
       { text: "Wait — let others decide", nextScene: "bricks", tag: "passive", feedback: "Silence is its own answer. The vote passes.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -44,8 +44,8 @@ export const babelScenes: Record<string, StoryScene> = {
     title: "The First Floors",
     text: "Walls rise. The tower casts a long shadow.\nMen sing as they lift each beam.",
     choices: [
-      { text: "Boast — \"We need no God now\"", nextScene: "rising", tag: "blasphemous", feedback: "Workers cheer. Above, the silence deepens.", isCorrect: false, sentiment: "negative" },
-      { text: "Work quietly — say a prayer", nextScene: "rising", tag: "reverent", feedback: "No one hears. But the prayer is heard above.", isCorrect: true, sentiment: "positive" },
+      { text: "Boast — \"We need no God now\"", nextScene: "rising", tag: "blasphemous", feedback: "Workers cheer. Above, the silence deepens.", isCorrect: true, sentiment: "negative" },
+      { text: "Work quietly — say a prayer", nextScene: "rising", tag: "reverent", feedback: "No one hears. But the prayer is heard above.", isCorrect: false, sentiment: "positive" },
     ],
   },
   rising: {
@@ -53,8 +53,8 @@ export const babelScenes: Record<string, StoryScene> = {
     title: "Higher",
     text: "Year after year. Stone upon stone.\nThe tower pierces the clouds.",
     choices: [
-      { text: "Doubt — should we stop?", nextScene: "summit", tag: "doubting", feedback: "You whisper it. The wind carries the words away.", isCorrect: true, sentiment: "positive" },
-      { text: "Climb higher — there is no limit", nextScene: "summit", tag: "ambitious", feedback: "The ladder feels endless. Your pride is fuel.", isCorrect: false, sentiment: "negative" },
+      { text: "Doubt — should we stop?", nextScene: "summit", tag: "doubting", feedback: "You whisper it. The wind carries the words away.", isCorrect: false, sentiment: "positive" },
+      { text: "Climb higher — there is no limit", nextScene: "summit", tag: "ambitious", feedback: "The ladder feels endless. Your pride is fuel.", isCorrect: true, sentiment: "negative" },
       { text: "Demand the workers go faster", nextScene: "summit", tag: "harsh", feedback: "Tempers fray. Hands bleed. The tower climbs.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -63,8 +63,8 @@ export const babelScenes: Record<string, StoryScene> = {
     title: "Touching the Sky",
     text: "You stand at the top. The earth is small below.\nThe heavens feel close — almost within reach.",
     choices: [
-      { text: "Reach upward — claim the sky", nextScene: "gods_gaze", tag: "prideful", feedback: "Your fingers find only wind. Yet you feel watched.", isCorrect: false, sentiment: "negative" },
-      { text: "Kneel — feel suddenly small", nextScene: "gods_gaze", tag: "humble", feedback: "The vastness above swallows your pride.", isCorrect: true, sentiment: "positive" },
+      { text: "Reach upward — claim the sky", nextScene: "gods_gaze", tag: "prideful", feedback: "Your fingers find only wind. Yet you feel watched.", isCorrect: true, sentiment: "negative" },
+      { text: "Kneel — feel suddenly small", nextScene: "gods_gaze", tag: "humble", feedback: "The vastness above swallows your pride.", isCorrect: false, sentiment: "positive" },
     ],
   },
   gods_gaze: {
@@ -72,8 +72,8 @@ export const babelScenes: Record<string, StoryScene> = {
     title: "He Comes Down",
     text: "A voice fills the air, calm as thunder.\n\"They are one people. Nothing will be impossible for them.\"",
     choices: [
-      { text: "Stand defiant before the voice", nextScene: "confusion", tag: "defiant", feedback: "Your courage withers. The air grows heavy.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow your head in fear and awe", nextScene: "confusion", tag: "reverent", feedback: "Your knees buckle. The presence is everywhere.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand defiant before the voice", nextScene: "confusion", tag: "defiant", feedback: "Your courage withers. The air grows heavy.", isCorrect: true, sentiment: "negative" },
+      { text: "Bow your head in fear and awe", nextScene: "confusion", tag: "reverent", feedback: "Your knees buckle. The presence is everywhere.", isCorrect: false, sentiment: "positive" },
     ],
   },
   confusion: {

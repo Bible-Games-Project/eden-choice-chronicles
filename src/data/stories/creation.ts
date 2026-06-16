@@ -289,7 +289,7 @@ export const creationScenes: Record<string, StoryScene> = {
     title: "The Sixth Day",
     text: "You kneel in the dust.\nYour hands begin to shape something new — something like you.",
     choices: [
-      { text: "Mold the clay carefully", nextScene: "breath_of_life", tag: "witness", feedback: "Your fingers press into the dust. A form takes shape.", isCorrect: false, sentiment: "negative" },
+      { text: "Mold the clay carefully", nextScene: "breath_of_life", tag: "witness", feedback: "Your fingers press into the dust. A form takes shape.", isCorrect: true, sentiment: "negative" },
       { text: "Whisper: \"In our image…\"", nextScene: "breath_of_life_sacred", tag: "sacred", feedback: "The words leave your lips. The clay trembles.", isCorrect: true, sentiment: "positive" },
     ],
   },
