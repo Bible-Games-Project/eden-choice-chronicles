@@ -12,9 +12,11 @@ interface MainMenuProps {
   devMode: boolean;
   onToggleDevMode: () => void;
   onOpenSpriteViewer: () => void;
+  onDevCompleteAll?: () => void;
+  onDevReset?: () => void;
 }
 
-const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, devMode, onToggleDevMode, onOpenSpriteViewer }: MainMenuProps) => {
+const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, devMode, onToggleDevMode, onOpenSpriteViewer, onDevCompleteAll, onDevReset }: MainMenuProps) => {
   const effectiveNTUnlocked = devMode || isNTUnlocked;
   const [settingsOpen, setSettingsOpen] = useState(false);
   const { t } = useSettings();
@@ -212,9 +214,25 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
             </div>
 
             {devMode && (
-              <p className="text-[10px] text-amber-400/60 font-body text-center">
-                {t("allStoriesUnlocked")}
-              </p>
+              <>
+                <p className="text-[10px] text-amber-400/60 font-body text-center">
+                  IAP paywall bypassed · progress from cache
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    onClick={onDevCompleteAll}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-amber-500/30 bg-amber-500/10 text-amber-400/70 hover:bg-amber-500/20 text-[10px] font-display tracking-wider uppercase transition-all cursor-pointer"
+                  >
+                    Complete all
+                  </button>
+                  <button
+                    onClick={onDevReset}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-red-500/30 bg-red-500/10 text-red-400/70 hover:bg-red-500/20 text-[10px] font-display tracking-wider uppercase transition-all cursor-pointer"
+                  >
+                    Reset all
+                  </button>
+                </div>
+              </>
             )}
           </motion.div>
         )}

@@ -852,6 +852,8 @@ const Index = () => {
             devMode={devMode}
             onToggleDevMode={toggleDevMode}
             onOpenSpriteViewer={() => setScreen("sprites")}
+            onDevCompleteAll={() => progress.devCompleteAll([...OLD_TESTAMENT_STORIES, ...ALL_NT_STORIES].map((s) => s.id))}
+            onDevReset={progress.resetProgress}
           />
         </motion.div>
       );
@@ -879,6 +881,7 @@ const Index = () => {
             devMode={devMode}
             hasPremium={iap.hasPremium}
             onPaywallRequest={() => setShowPaywall(true)}
+            onDevToggleCompleted={devMode ? (id, done) => progress.devSetCompleted(id, done) : undefined}
           />
           {showPaywall && (
             <Paywall
@@ -911,6 +914,7 @@ const Index = () => {
             devMode={devMode}
             hasPremium={iap.hasPremium}
             onPaywallRequest={() => setShowPaywall(true)}
+            onDevToggleCompleted={devMode ? (id, done) => progress.devSetCompleted(id, done) : undefined}
           />
           {showPaywall && (
             <Paywall

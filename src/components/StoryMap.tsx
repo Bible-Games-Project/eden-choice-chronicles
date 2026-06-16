@@ -35,6 +35,8 @@ interface StoryMapProps {
   hasPremium?: boolean;
   /** Called when the user taps a premium-locked story */
   onPaywallRequest?: () => void;
+  /** Dev-only: toggle a story's completed state */
+  onDevToggleCompleted?: (storyId: string, completed: boolean) => void;
 }
 
 const StoryMap = ({
@@ -48,6 +50,7 @@ const StoryMap = ({
   devMode = false,
   hasPremium = false,
   onPaywallRequest,
+  onDevToggleCompleted,
 }: StoryMapProps) => {
   const { t } = useSettings();
   return (
@@ -95,11 +98,9 @@ const StoryMap = ({
                 isPremiumStory &&
                 story.number === FREE_STORY_LIMIT + 1 &&
                 lastFreeDone;
-              const unlocked =
-                devMode ||
-                (hasPremium
-                  ? isStoryUnlocked(story, stories)
-                  : !isPremiumStory && isStoryUnlocked(story, stories));
+              const unlocked = hasPremium
+                ? isStoryUnlocked(story, stories)
+                : !isPremiumStory && isStoryUnlocked(story, stories);
               const playable = unlocked && story.hasContent;
 
               const handleClick = () => {
@@ -191,6 +192,23 @@ const StoryMap = ({
                       </span>
                     )}
                   </div>
+
+                  {devMode && onDevToggleCompleted && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onDevToggleCompleted(story.id, !completed);
+                      }}
+                      className={`flex-shrink-0 w-7 h-7 rounded-full border text-[10px] font-display flex items-center justify-center transition-all cursor-pointer ${
+                        completed
+                          ? "border-amber-500/60 bg-amber-500/20 text-amber-400"
+                          : "border-amber-500/30 bg-transparent text-amber-500/40 hover:border-amber-500/60 hover:text-amber-400"
+                      }`}
+                      title={completed ? "Mark incomplete" : "Mark complete"}
+                    >
+                      {completed ? "✓" : "○"}
+                    </button>
+                  )}
                 </div>
               );
             })}

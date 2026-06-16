@@ -36,7 +36,6 @@ export function useGameProgress(devMode: boolean = false) {
 
   const isStoryUnlocked = useCallback(
     (story: StoryMeta, list: StoryMeta[]) => {
-      if (devMode) return true;
       if (story.number === 1) {
         // First story in OT is always unlocked
         if (story.section === "old_testament") return true;
@@ -89,6 +88,32 @@ export function useGameProgress(devMode: boolean = false) {
     setProgress(empty);
   }, []);
 
+  const devSetCompleted = useCallback((storyId: string, completed: boolean) => {
+    setProgress((prev) => {
+      if (completed) {
+        if (prev.completedStories.includes(storyId)) return prev;
+        const next: GameProgress = { ...prev, completedStories: [...prev.completedStories, storyId] };
+        saveProgress(next);
+        return next;
+      } else {
+        const filtered = prev.completedStories.filter((id) => id !== storyId);
+        if (filtered.length === prev.completedStories.length) return prev;
+        const next: GameProgress = { ...prev, completedStories: filtered };
+        saveProgress(next);
+        return next;
+      }
+    });
+  }, []);
+
+  const devCompleteAll = useCallback((storyIds: string[]) => {
+    setProgress((prev) => {
+      const merged = Array.from(new Set([...prev.completedStories, ...storyIds]));
+      const next: GameProgress = { ...prev, completedStories: merged };
+      saveProgress(next);
+      return next;
+    });
+  }, []);
+
   const otProgress = {
     completed: OLD_TESTAMENT_STORIES.filter((s) =>
       progress.completedStories.includes(s.id)
@@ -110,6 +135,8 @@ export function useGameProgress(devMode: boolean = false) {
     completeStory,
     getBestStars,
     resetProgress,
+    devSetCompleted,
+    devCompleteAll,
     otProgress,
     ntProgress,
   };
