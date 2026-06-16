@@ -58,9 +58,15 @@ const ensureAudio = () => {
   audio = new Audio();
   audio.preload = "auto";
   audio.volume = currentVolume;
+  // Prevent iOS from showing remote playback controls (AirPlay, lock screen)
+  audio.disableRemotePlayback = true;
   audio.addEventListener("ended", () => {
     advance();
   });
+  // Clear media session so iOS doesn't show Now Playing metadata
+  if ("mediaSession" in navigator) {
+    navigator.mediaSession.metadata = null;
+  }
   return audio;
 };
 

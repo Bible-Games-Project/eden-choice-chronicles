@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useSettings } from "@/hooks/useSettings";
 import { hasMusicTracks, pauseMusic, resumeMusic, startMusic } from "@/lib/music";
 
@@ -9,6 +9,8 @@ import { hasMusicTracks, pauseMusic, resumeMusic, startMusic } from "@/lib/music
  */
 const MusicBridge = () => {
   const { soundEnabled } = useSettings();
+  const soundEnabledRef = useRef(soundEnabled);
+  soundEnabledRef.current = soundEnabled;
 
   useEffect(() => {
     if (soundEnabled) {
@@ -20,7 +22,9 @@ const MusicBridge = () => {
 
   useEffect(() => {
     if (!hasMusicTracks()) return;
-    const kick = () => startMusic();
+    // Read the ref so the listener always sees the latest soundEnabled value
+    // without needing to re-register on every toggle.
+    const kick = () => { if (soundEnabledRef.current) startMusic(); };
     kick();
     const events: Array<keyof DocumentEventMap> = [
       "pointerdown",
