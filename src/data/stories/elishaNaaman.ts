@@ -38,8 +38,8 @@ export const elishaNaamanScenes: Record<string, StoryScene> = {
     title: "Letters and Gold",
     text: "The king sends silver, gold, and a letter.\nThe road to Israel waits.",
     choices: [
-      { text: "Demand healing from a king", nextScene: "king_consequence", tag: "proud", feedback: "No king holds this gift.", isCorrect: false, sentiment: "negative" },
-      { text: "Seek out the prophet Elisha", nextScene: "arrival", tag: "faithful", feedback: "The Lord works through His servant.", isCorrect: true, sentiment: "positive" },
+      { text: "Demand healing from a king", nextScene: "king_consequence", tag: "proud", feedback: "No king holds this gift.", isCorrect: true, sentiment: "negative" },
+      { text: "Seek out the prophet Elisha", nextScene: "arrival", tag: "faithful", feedback: "The Lord works through His servant.", isCorrect: false, sentiment: "positive" },
     ],
   },
   king_consequence: {
@@ -85,8 +85,8 @@ export const elishaNaamanScenes: Record<string, StoryScene> = {
     title: "Wash Seven Times",
     text: "The messenger speaks for the prophet.\n\"Wash in the Jordan and be clean.\"",
     choices: [
-      { text: "Refuse — the rivers at home are better", nextScene: "refuse_consequence", tag: "proud", feedback: "Pride blinds you to mercy.", isCorrect: false, sentiment: "negative" },
-      { text: "Demand a grand ceremony", nextScene: "ceremony_consequence", tag: "proud", feedback: "God does not need a stage.", isCorrect: false, sentiment: "negative" },
+      { text: "Refuse — the rivers at home are better", nextScene: "refuse_consequence", tag: "proud", feedback: "Pride blinds you to mercy.", isCorrect: true, sentiment: "negative" },
+      { text: "Demand a grand ceremony", nextScene: "ceremony_consequence", tag: "proud", feedback: "God does not need a stage.", isCorrect: true, sentiment: "negative" },
       { text: "Listen to your servants", nextScene: "jordan", tag: "faithful", feedback: "Humble counsel softens stone.", isCorrect: true, sentiment: "positive" },
     ],
   },

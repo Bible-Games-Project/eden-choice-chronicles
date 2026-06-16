@@ -10,9 +10,9 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     title: "A Prophet at the Door",
     text: "Jeremiah stands before your throne.\nHe says Babylon is the Lord's rod.",
     choices: [
-      { text: "Throw him into the cistern", nextScene: "imprison_consequence", tag: "proud", feedback: "You silence the voice, not the truth.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen to the Lord's word", nextScene: "preach", tag: "faithful", feedback: "Hard words can save a kingdom.", isCorrect: true, sentiment: "positive" },
-      { text: "Dismiss him as a traitor", nextScene: "ignore_consequence", tag: "proud", feedback: "Pride closes the only open door.", isCorrect: false, sentiment: "negative" },
+      { text: "Throw him into the cistern", nextScene: "imprison_consequence", tag: "proud", feedback: "You silence the voice, not the truth.", isCorrect: true, sentiment: "negative" },
+      { text: "Listen to the Lord's word", nextScene: "preach", tag: "faithful", feedback: "Hard words can save a kingdom.", isCorrect: false, sentiment: "positive" },
+      { text: "Dismiss him as a traitor", nextScene: "ignore_consequence", tag: "proud", feedback: "Pride closes the only open door.", isCorrect: true, sentiment: "negative" },
     ],
   },
   imprison_consequence: {
@@ -67,8 +67,8 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     text: "The citizens mock the prophet.\n\"Peace, peace,\" they cry.",
     choices: [
       { text: "Curse them with the prophet", nextScene: "curse_consequence", tag: "proud", feedback: "The Lord did not send you to curse.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand with Jeremiah's warning", nextScene: "siege", tag: "faithful", feedback: "You refuse to join the laughter.", isCorrect: true, sentiment: "positive" },
-      { text: "Join the people's mockery", nextScene: "giveup_consequence", tag: "proud", feedback: "Mocking the prophet mocks the Lord.", isCorrect: false, sentiment: "negative" },
+      { text: "Stand with Jeremiah's warning", nextScene: "siege", tag: "faithful", feedback: "You refuse to join the laughter.", isCorrect: false, sentiment: "positive" },
+      { text: "Join the people's mockery", nextScene: "giveup_consequence", tag: "proud", feedback: "Mocking the prophet mocks the Lord.", isCorrect: true, sentiment: "negative" },
     ],
   },
   curse_consequence: {
@@ -95,8 +95,8 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     text: "Nebuchadnezzar's army surrounds the walls.\nThe prophet says: do not resist.",
     choices: [
       { text: "Trust the idols on the high places", nextScene: "idols_consequence", tag: "proud", feedback: "Wood and stone cannot lift a siege.", isCorrect: false, sentiment: "negative" },
-      { text: "Send for Egypt's chariots", nextScene: "egypt_consequence", tag: "fearful", feedback: "Egypt is a broken reed.", isCorrect: false, sentiment: "negative" },
-      { text: "Submit to the Lord's word", nextScene: "famine", tag: "faithful", feedback: "Submission to God outweighs strength.", isCorrect: true, sentiment: "positive" },
+      { text: "Send for Egypt's chariots", nextScene: "egypt_consequence", tag: "fearful", feedback: "Egypt is a broken reed.", isCorrect: true, sentiment: "negative" },
+      { text: "Submit to the Lord's word", nextScene: "famine", tag: "faithful", feedback: "Submission to God outweighs strength.", isCorrect: false, sentiment: "positive" },
     ],
   },
   idols_consequence: {
@@ -123,8 +123,8 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     text: "Inside the walls, the children grow thin.\nJeremiah weeps in the empty streets.",
     choices: [
       { text: "Blame the prophet for the hunger", nextScene: "blame_consequence", tag: "proud", feedback: "Blame will not feed your people.", isCorrect: false, sentiment: "negative" },
-      { text: "Flee the city in secret", nextScene: "flee_consequence", tag: "fearful", feedback: "You cannot outrun the Lord's word.", isCorrect: false, sentiment: "negative" },
-      { text: "Repent before the Lord", nextScene: "fall", tag: "faithful", feedback: "Late repentance is still repentance.", isCorrect: true, sentiment: "positive" },
+      { text: "Flee the city in secret", nextScene: "flee_consequence", tag: "fearful", feedback: "You cannot outrun the Lord's word.", isCorrect: true, sentiment: "negative" },
+      { text: "Repent before the Lord", nextScene: "fall", tag: "faithful", feedback: "Late repentance is still repentance.", isCorrect: false, sentiment: "positive" },
     ],
   },
   blame_consequence: {
@@ -151,8 +151,8 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     text: "Fire climbs the temple stones.\nSmoke covers the holy hill.",
     choices: [
       { text: "Hide inside the burning temple", nextScene: "hide_consequence", tag: "fearful", feedback: "The walls cannot shelter you now.", isCorrect: false, sentiment: "negative" },
-      { text: "Try to escape the broken wall", nextScene: "escape_consequence", tag: "fearful", feedback: "The plain of Jericho will catch you.", isCorrect: false, sentiment: "negative" },
-      { text: "Accept the Lord's judgment", nextScene: "exile", tag: "faithful", feedback: "You bow beneath the rod He warned of.", isCorrect: true, sentiment: "positive" },
+      { text: "Try to escape the broken wall", nextScene: "escape_consequence", tag: "fearful", feedback: "The plain of Jericho will catch you.", isCorrect: true, sentiment: "negative" },
+      { text: "Accept the Lord's judgment", nextScene: "exile", tag: "faithful", feedback: "You bow beneath the rod He warned of.", isCorrect: false, sentiment: "positive" },
     ],
   },
   hide_consequence: {

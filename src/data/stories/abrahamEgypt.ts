@@ -9,9 +9,9 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "The Famine",
     text: "The promised land cracks under drought.\nFlocks weaken. Sarah grows thin.",
     choices: [
-      { text: "Trust God and wait for rain", nextScene: "road_south", isCorrect: true, sentiment: "positive" },
+      { text: "Trust God and wait for rain", nextScene: "road_south", isCorrect: false, sentiment: "positive" },
       { text: "Curse the dry sky", nextScene: "road_south", isCorrect: false, sentiment: "negative" },
-      { text: "Turn south to Egypt at once", nextScene: "road_south", isCorrect: false, sentiment: "negative" },
+      { text: "Turn south to Egypt at once", nextScene: "road_south", isCorrect: true, sentiment: "negative" },
     ],
   },
   road_south: {
@@ -19,8 +19,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "The Road South",
     text: "Egypt promises grain. Sarah walks beside you, silent.\nThe horizon shimmers.",
     choices: [
-      { text: "Pray before each step forward", nextScene: "fear_rises", isCorrect: true, sentiment: "positive" },
-      { text: "Push on without a word to God", nextScene: "fear_rises", isCorrect: false, sentiment: "negative" },
+      { text: "Pray before each step forward", nextScene: "fear_rises", isCorrect: false, sentiment: "positive" },
+      { text: "Push on without a word to God", nextScene: "fear_rises", isCorrect: true, sentiment: "negative" },
     ],
   },
   fear_rises: {
@@ -28,8 +28,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "A Cold Thought",
     text: "Egyptians may kill you to take your wife.\nFear coils tight inside your chest.",
     choices: [
-      { text: "Plot a lie to save yourself", nextScene: "the_lie", isCorrect: false, sentiment: "negative" },
-      { text: "Trust God to guard you both", nextScene: "the_lie", isCorrect: true, sentiment: "positive" },
+      { text: "Plot a lie to save yourself", nextScene: "the_lie", isCorrect: true, sentiment: "negative" },
+      { text: "Trust God to guard you both", nextScene: "the_lie", isCorrect: false, sentiment: "positive" },
       { text: "Turn back to the famine", nextScene: "the_lie", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,8 +38,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "The Half-Truth",
     text: "Sarah's eyes find yours. \"Say you are my sister.\"\nThe words taste like ash.",
     choices: [
-      { text: "Confess fear and speak truth", nextScene: "entering_egypt", isCorrect: true, sentiment: "positive" },
-      { text: "Make her agree to the lie", nextScene: "entering_egypt", isCorrect: false, sentiment: "negative" },
+      { text: "Confess fear and speak truth", nextScene: "entering_egypt", isCorrect: false, sentiment: "positive" },
+      { text: "Make her agree to the lie", nextScene: "entering_egypt", isCorrect: true, sentiment: "negative" },
     ],
   },
   entering_egypt: {
@@ -47,8 +47,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "The Gates of Egypt",
     text: "The city teems. Eyes follow Sarah everywhere.\nWhispers reach the palace.",
     choices: [
-      { text: "Stay close and shield her", nextScene: "officials_come", isCorrect: true, sentiment: "positive" },
-      { text: "Step away to seem unrelated", nextScene: "officials_come", isCorrect: false, sentiment: "negative" },
+      { text: "Stay close and shield her", nextScene: "officials_come", isCorrect: false, sentiment: "positive" },
+      { text: "Step away to seem unrelated", nextScene: "officials_come", isCorrect: true, sentiment: "negative" },
       { text: "Boast of the gifts you'll receive", nextScene: "officials_come", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -57,8 +57,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "Pharaoh's Officials",
     text: "An official arrives. \"Pharaoh has heard of her beauty.\"\nHis smile is polite. Sharp.",
     choices: [
-      { text: "Repeat the lie — \"My sister\"", nextScene: "sarah_taken", isCorrect: false, sentiment: "negative" },
-      { text: "Speak truth — \"She is my wife\"", nextScene: "sarah_taken", isCorrect: true, sentiment: "positive" },
+      { text: "Repeat the lie — \"My sister\"", nextScene: "sarah_taken", isCorrect: true, sentiment: "negative" },
+      { text: "Speak truth — \"She is my wife\"", nextScene: "sarah_taken", isCorrect: false, sentiment: "positive" },
     ],
   },
   sarah_taken: {
@@ -66,8 +66,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "Alone",
     text: "They lead Sarah toward the palace.\nThe tent is suddenly unbearably quiet.",
     choices: [
-      { text: "Fall to your knees and cry to God", nextScene: "gifts_arrive", isCorrect: true, sentiment: "positive" },
-      { text: "Sit numb and count your losses", nextScene: "gifts_arrive", isCorrect: false, sentiment: "negative" },
+      { text: "Fall to your knees and cry to God", nextScene: "gifts_arrive", isCorrect: false, sentiment: "positive" },
+      { text: "Sit numb and count your losses", nextScene: "gifts_arrive", isCorrect: true, sentiment: "negative" },
     ],
   },
   gifts_arrive: {
@@ -75,8 +75,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "The Price of Silence",
     text: "Sheep, gold, servants — Pharaoh's payment.\nEach gift feels like a nail.",
     choices: [
-      { text: "Accept them, hide the shame", nextScene: "plagues", isCorrect: false, sentiment: "negative" },
-      { text: "Refuse them and beg God to act", nextScene: "plagues", isCorrect: true, sentiment: "positive" },
+      { text: "Accept them, hide the shame", nextScene: "plagues", isCorrect: true, sentiment: "negative" },
+      { text: "Refuse them and beg God to act", nextScene: "plagues", isCorrect: false, sentiment: "positive" },
       { text: "Send them back to Pharaoh", nextScene: "plagues", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -94,8 +94,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "The Reckoning",
     text: "Pharaoh's voice shakes. \"Why did you do this?\nWhy did you say 'my sister'?\"",
     choices: [
-      { text: "Make excuses for your fear", nextScene: "expelled", isCorrect: false, sentiment: "negative" },
-      { text: "Bow your head — no defense", nextScene: "expelled", isCorrect: true, sentiment: "positive" },
+      { text: "Make excuses for your fear", nextScene: "expelled", isCorrect: true, sentiment: "negative" },
+      { text: "Bow your head — no defense", nextScene: "expelled", isCorrect: false, sentiment: "positive" },
       { text: "Blame the famine for it all", nextScene: "expelled", isCorrect: false, sentiment: "negative" },
     ],
   },

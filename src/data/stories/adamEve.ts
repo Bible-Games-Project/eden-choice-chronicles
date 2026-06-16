@@ -68,8 +68,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Serpent's Question",
     text: "A serpent speaks to Eve:\n\"Did God really say you must not eat?\"",
     choices: [
-      { text: "Stand beside her — repeat God's word", nextScene: "fruit", tag: "guarding", feedback: "You speak the truth aloud. The serpent hisses.", isCorrect: true, sentiment: "positive" },
-      { text: "Stay silent and let her answer", nextScene: "fruit", tag: "passive", feedback: "Her voice trembles. You say nothing.", isCorrect: false, sentiment: "negative" },
+      { text: "Stand beside her — repeat God's word", nextScene: "fruit", tag: "guarding", feedback: "You speak the truth aloud. The serpent hisses.", isCorrect: false, sentiment: "positive" },
+      { text: "Stay silent and let her answer", nextScene: "fruit", tag: "passive", feedback: "Her voice trembles. You say nothing.", isCorrect: true, sentiment: "negative" },
       { text: "Listen — maybe he is right", nextScene: "fruit", tag: "curious", feedback: "The whisper begins to feel reasonable.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -78,9 +78,9 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Fruit in Her Hand",
     text: "Eve has taken the fruit. She offers it to you.\nHer eyes plead — and burn.",
     choices: [
-      { text: "Refuse — remember the command", nextScene: "shame", tag: "faithful", feedback: "Your hand drops to your side. But she has already eaten.", isCorrect: true, sentiment: "positive" },
-      { text: "Take it and eat", nextScene: "shame", tag: "fallen", feedback: "Sweet. Then bitter. Then — you know.", isCorrect: false, sentiment: "negative" },
-      { text: "Eat to share her fate", nextScene: "shame", tag: "weak", feedback: "Love twists into disobedience. You bite.", isCorrect: false, sentiment: "negative" },
+      { text: "Refuse — remember the command", nextScene: "shame", tag: "faithful", feedback: "Your hand drops to your side. But she has already eaten.", isCorrect: false, sentiment: "positive" },
+      { text: "Take it and eat", nextScene: "shame", tag: "fallen", feedback: "Sweet. Then bitter. Then — you know.", isCorrect: true, sentiment: "negative" },
+      { text: "Eat to share her fate", nextScene: "shame", tag: "weak", feedback: "Love twists into disobedience. You bite.", isCorrect: true, sentiment: "negative" },
     ],
   },
   shame: {
@@ -88,8 +88,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Eyes Opened",
     text: "You see yourselves — bare, afraid.\nFig leaves cannot cover what has changed.",
     choices: [
-      { text: "Own the wrong before God", nextScene: "confrontation", tag: "humble", feedback: "Shame becomes sorrow. Sorrow opens a door.", isCorrect: true, sentiment: "positive" },
-      { text: "Run and hide in the trees", nextScene: "confrontation", tag: "fleeing", feedback: "You crouch in the brush. His voice still finds you.", isCorrect: false, sentiment: "negative" },
+      { text: "Own the wrong before God", nextScene: "confrontation", tag: "humble", feedback: "Shame becomes sorrow. Sorrow opens a door.", isCorrect: false, sentiment: "positive" },
+      { text: "Run and hide in the trees", nextScene: "confrontation", tag: "fleeing", feedback: "You crouch in the brush. His voice still finds you.", isCorrect: true, sentiment: "negative" },
       { text: "Blame Eve to yourself", nextScene: "confrontation", tag: "blaming", feedback: "The anger feels safe. It is not.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -98,8 +98,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "\"Where Are You?\"",
     text: "The Lord walks in the garden and calls.\nHis voice is not angry — it is grieved.",
     choices: [
-      { text: "Confess: \"I disobeyed\"", nextScene: "expulsion", tag: "repentant", feedback: "Truth is heavy. And it sets something free.", isCorrect: true, sentiment: "positive" },
-      { text: "\"The woman You gave me did it\"", nextScene: "expulsion", tag: "deflecting", feedback: "You point. The blame does not save you.", isCorrect: false, sentiment: "negative" },
+      { text: "Confess: \"I disobeyed\"", nextScene: "expulsion", tag: "repentant", feedback: "Truth is heavy. And it sets something free.", isCorrect: false, sentiment: "positive" },
+      { text: "\"The woman You gave me did it\"", nextScene: "expulsion", tag: "deflecting", feedback: "You point. The blame does not save you.", isCorrect: true, sentiment: "negative" },
       { text: "Stay silent in the bushes", nextScene: "expulsion", tag: "hiding", feedback: "Silence cannot hide a fallen heart.", isCorrect: false, sentiment: "negative" },
     ],
   },
