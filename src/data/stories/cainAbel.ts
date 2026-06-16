@@ -98,7 +98,7 @@ export const cainAbelScenes: Record<string, StoryScene> = {
     text: "The voice of the Lord finds you.\n\"Where is your brother Abel?\"",
     choices: [
       { text: "Confess what your hands have done", nextScene: "wanderer", tag: "confessing", feedback: "The truth crushes you. And begins to free you.", isCorrect: false, sentiment: "positive" },
-      { text: "\"Am I my brother's keeper?\"", nextScene: "wanderer", tag: "denying", feedback: "The lie tastes like ash in your mouth.", isCorrect: false, sentiment: "negative" },
+      { text: "\"Am I my brother's keeper?\"", nextScene: "wanderer", tag: "denying", feedback: "The lie tastes like ash in your mouth.", isCorrect: true, sentiment: "negative" },
       { text: "Stay silent and hide your eyes", nextScene: "wanderer", tag: "hiding", feedback: "His blood cries out from the ground.", isCorrect: false, sentiment: "negative" },
     ],
   },

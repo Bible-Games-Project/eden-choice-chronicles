@@ -98,8 +98,8 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "\"Where Are You?\"",
     text: "The Lord walks in the garden and calls.\nHis voice is not angry — it is grieved.",
     choices: [
-      { text: "Confess: \"I disobeyed\"", nextScene: "expulsion", tag: "repentant", feedback: "Truth is heavy. And it sets something free.", isCorrect: true, sentiment: "positive" },
-      { text: "\"The woman You gave me did it\"", nextScene: "expulsion", tag: "deflecting", feedback: "You point. The blame does not save you.", isCorrect: false, sentiment: "negative" },
+      { text: "Confess: \"I disobeyed\"", nextScene: "expulsion", tag: "repentant", feedback: "Truth is heavy. And it sets something free.", isCorrect: false, sentiment: "positive" },
+      { text: "\"The woman You gave me did it\"", nextScene: "expulsion", tag: "deflecting", feedback: "You point. The blame does not save you.", isCorrect: true, sentiment: "negative" },
       { text: "Stay silent in the bushes", nextScene: "expulsion", tag: "hiding", feedback: "Silence cannot hide a fallen heart.", isCorrect: false, sentiment: "negative" },
     ],
   },

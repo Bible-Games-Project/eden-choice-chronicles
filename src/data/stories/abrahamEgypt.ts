@@ -57,8 +57,8 @@ export const abrahamEgyptScenes: Record<string, StoryScene> = {
     title: "Pharaoh's Officials",
     text: "An official arrives. \"Pharaoh has heard of her beauty.\"\nHis smile is polite. Sharp.",
     choices: [
-      { text: "Repeat the lie — \"My sister\"", nextScene: "sarah_taken", isCorrect: false, sentiment: "negative" },
-      { text: "Speak truth — \"She is my wife\"", nextScene: "sarah_taken", isCorrect: true, sentiment: "positive" },
+      { text: "Repeat the lie — \"My sister\"", nextScene: "sarah_taken", isCorrect: true, sentiment: "negative" },
+      { text: "Speak truth — \"She is my wife\"", nextScene: "sarah_taken", isCorrect: false, sentiment: "positive" },
     ],
   },
   sarah_taken: {

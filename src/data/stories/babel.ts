@@ -44,7 +44,7 @@ export const babelScenes: Record<string, StoryScene> = {
     title: "The First Floors",
     text: "Walls rise. The tower casts a long shadow.\nMen sing as they lift each beam.",
     choices: [
-      { text: "Boast — \"We need no God now\"", nextScene: "rising", tag: "blasphemous", feedback: "Workers cheer. Above, the silence deepens.", isCorrect: false, sentiment: "negative" },
+      { text: "Boast — \"We need no God now\"", nextScene: "rising", tag: "blasphemous", feedback: "Workers cheer. Above, the silence deepens.", isCorrect: true, sentiment: "negative" },
       { text: "Work quietly — say a prayer", nextScene: "rising", tag: "reverent", feedback: "No one hears. But the prayer is heard above.", isCorrect: false, sentiment: "positive" },
     ],
   },
