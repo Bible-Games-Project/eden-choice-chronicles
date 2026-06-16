@@ -1,8 +1,17 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, createContext, useContext, createElement } from "react";
+import type { ReactNode } from "react";
 
 const DEV_MODE_KEY = "bible-journey-dev-mode";
 
-export function useDevMode() {
+interface DevModeContextValue {
+  devMode: boolean;
+  toggleDevMode: () => void;
+  activateDevMode: () => void;
+}
+
+const DevModeContext = createContext<DevModeContextValue | null>(null);
+
+export function DevModeProvider({ children }: { children: ReactNode }) {
   const [devMode, setDevMode] = useState(() => {
     try {
       return localStorage.getItem(DEV_MODE_KEY) === "true";
@@ -24,5 +33,11 @@ export function useDevMode() {
     setDevMode(true);
   }, []);
 
-  return { devMode, toggleDevMode, activateDevMode };
+  return createElement(DevModeContext.Provider, { value: { devMode, toggleDevMode, activateDevMode } }, children);
+}
+
+export function useDevMode(): DevModeContextValue {
+  const ctx = useContext(DevModeContext);
+  if (!ctx) throw new Error("useDevMode must be used within DevModeProvider");
+  return ctx;
 }

@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import { SettingsProvider } from "@/hooks/useSettings";
+import { DevModeProvider } from "@/hooks/useDevMode";
 import SfxBridge from "@/components/SfxBridge";
 import MusicBridge from "@/components/MusicBridge";
 import AppLifecycleBridge from "@/components/AppLifecycleBridge";
@@ -14,6 +15,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
+    <DevModeProvider>
     <SettingsProvider>
       <TooltipProvider>
         <SfxBridge />
@@ -30,6 +32,7 @@ const App = () => (
         </BrowserRouter>
       </TooltipProvider>
     </SettingsProvider>
+    </DevModeProvider>
   </QueryClientProvider>
 );
 
