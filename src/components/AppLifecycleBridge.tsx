@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { App } from "@capacitor/app";
-import { pauseMusic, resumeMusic } from "@/lib/music";
+import { suspendMusic, restoreMusic } from "@/lib/music";
 
 /**
  * Bridges Capacitor App lifecycle events to the audio engines.
@@ -15,9 +15,9 @@ const AppLifecycleBridge = () => {
     const handleAppStateChange = App.addListener("appStateChange", ({ isActive }) => {
       console.log('[AppLifecycleBridge] App state changed:', isActive ? "foreground" : "background");
       if (isActive) {
-        resumeMusic();
+        restoreMusic();
       } else {
-        pauseMusic();
+        suspendMusic();
       }
     });
 

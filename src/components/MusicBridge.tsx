@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useSettings } from "@/hooks/useSettings";
-import { hasMusicTracks, pauseMusic, resumeMusic, startMusic } from "@/lib/music";
+import { hasMusicTracks, pauseMusic, resumeMusic, setMusicEnabled, startMusic } from "@/lib/music";
 
 /**
  * Bridges the global soundEnabled setting to the background music engine and
@@ -13,6 +13,7 @@ const MusicBridge = () => {
   soundEnabledRef.current = soundEnabled;
 
   useEffect(() => {
+    setMusicEnabled(soundEnabled);
     if (soundEnabled) {
       resumeMusic();
     } else {

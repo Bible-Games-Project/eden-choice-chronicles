@@ -29,8 +29,10 @@ let audio: HTMLAudioElement | null = null;
 let playlist: string[] = [];
 let cursor = 0;
 let started = false;
+let musicEnabled = true;
 let currentVolume = 0.8; // 0..1
 let lastPlayedUrl: string | null = null;
+let suspendedTime = 0;
 
 const fisherYates = <T,>(arr: T[]): T[] => {
   const out = arr.slice();
@@ -118,26 +120,44 @@ export const startMusic = () => {
 
 export const hasMusicTracks = () => TRACKS.length > 0;
 
-/**
- * Pauses background music. Called when app goes to background.
- */
+export const setMusicEnabled = (enabled: boolean) => {
+  musicEnabled = enabled;
+};
+
+/** Pauses music for the mute toggle. Does NOT clear the iOS audio session. */
 export const pauseMusic = () => {
   if (!audio || audio.paused) return;
-  console.log('[music.ts] pauseMusic: pausing audio');
   audio.pause();
 };
 
-/**
- * Resumes background music. Called when app returns to foreground.
- */
+/** Resumes music for the mute toggle. Respects musicEnabled. */
 export const resumeMusic = () => {
-  if (!audio || !started) return;
+  if (!audio || !started || !musicEnabled) return;
   if (!audio.paused) return;
-  console.log('[music.ts] resumeMusic: resuming audio');
   const p = audio.play();
-  if (p && typeof p.catch === "function") {
-    p.catch((err) => {
-      console.log('[music.ts] resumeMusic: play failed', err);
-    });
-  }
+  if (p && typeof p.catch === "function") p.catch(() => {});
+};
+
+/**
+ * Clears the audio src so iOS ends the audio session and removes the
+ * Now Playing widget. Call when the app goes to background.
+ */
+export const suspendMusic = () => {
+  if (!audio) return;
+  suspendedTime = audio.currentTime;
+  if (!audio.paused) audio.pause();
+  audio.src = "";
+  audio.load();
+};
+
+/**
+ * Restores the audio src and resumes playback if music is enabled.
+ * Call when the app returns to foreground.
+ */
+export const restoreMusic = () => {
+  if (!audio || !started || !musicEnabled || playlist.length === 0) return;
+  audio.src = playlist[cursor];
+  audio.currentTime = suspendedTime;
+  const p = audio.play();
+  if (p && typeof p.catch === "function") p.catch(() => {});
 };
