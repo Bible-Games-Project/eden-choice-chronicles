@@ -1,12 +1,13 @@
 // Lightweight Web Audio SFX system.
-// No assets, no network, no external deps. Synthesized tones tied to the
-// global Volume slider (0-100). Setting volume to 0 fully mutes all sounds.
+// No assets, no network, no external deps. Synthesized tones, enabled/disabled
+// via setSfxEnabled().
 
 type SfxKind = "click" | "correct" | "incorrect";
 
 let ctx: AudioContext | null = null;
 let masterGain: GainNode | null = null;
-let currentVolume = 0.8; // 0..1
+let sfxEnabled = true;
+const FIXED_VOLUME = 0.8;
 const lastPlayed: Record<SfxKind, number> = { click: 0, correct: 0, incorrect: 0 };
 const MIN_INTERVAL_MS: Record<SfxKind, number> = { click: 40, correct: 120, incorrect: 120 };
 
@@ -18,7 +19,7 @@ const ensureContext = () => {
     if (!Ctor) return null;
     ctx = new Ctor();
     masterGain = ctx.createGain();
-    masterGain.gain.value = currentVolume;
+    masterGain.gain.value = FIXED_VOLUME * 2;
     masterGain.connect(ctx.destination);
   }
   if (ctx.state === "suspended") {
@@ -27,17 +28,8 @@ const ensureContext = () => {
   return ctx;
 };
 
-export const setSfxVolume = (v0to100: number) => {
-  currentVolume = Math.max(0, Math.min(1, v0to100 / 100));
-  // SFX are boosted ~2x relative to the slider so button feedback is more
-  // noticeable. Music uses its own gain and is unaffected. A slider value of
-  // 0 still fully mutes (because we multiply by currentVolume).
-  const boosted = Math.min(2, currentVolume * 2);
-  console.log('[sfx.ts] setSfxVolume:', { v0to100, currentVolume, boosted, hasContext: !!ctx, hasMasterGain: !!masterGain });
-  if (masterGain && ctx) {
-    masterGain.gain.setTargetAtTime(boosted, ctx.currentTime, 0.01);
-    console.log('[sfx.ts] masterGain updated, ctxState:', ctx.state);
-  }
+export const setSfxEnabled = (enabled: boolean) => {
+  sfxEnabled = enabled;
 };
 
 const tone = (
@@ -48,7 +40,7 @@ const tone = (
   peakGain = 0.25,
 ) => {
   const audio = ensureContext();
-  if (!audio || !masterGain || currentVolume <= 0) return;
+  if (!audio || !masterGain || !sfxEnabled) return;
   const osc = audio.createOscillator();
   const gain = audio.createGain();
   osc.type = type;

@@ -14,7 +14,7 @@ interface SettingsPanelProps {
 const TAPS_REQUIRED = 10;
 
 const SettingsPanel = ({ open, onClose }: SettingsPanelProps) => {
-  const { volume, setVolume, language, setLanguage, t } = useSettings();
+  const { soundEnabled, setSoundEnabled, language, setLanguage, t } = useSettings();
   const { devMode, activateDevMode } = useDevMode();
   const isRTL = language === "ar";
   const [tapCount, setTapCount] = useState(0);
@@ -84,30 +84,30 @@ const SettingsPanel = ({ open, onClose }: SettingsPanelProps) => {
               <div>
                 <div className="flex items-center justify-between">
                   <label className="font-display text-xs tracking-[0.18em] uppercase text-gold/80 flex items-center gap-2">
-                    {volume > 0 ? <Volume2 className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
+                    {soundEnabled ? <Volume2 className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
                     {t("sound")}
                   </label>
                   <button
                     type="button"
                     role="switch"
-                    aria-checked={volume > 0}
-                    onClick={() => setVolume(volume > 0 ? 0 : 80)}
+                    aria-checked={soundEnabled}
+                    onClick={() => setSoundEnabled(!soundEnabled)}
                     className={`relative inline-flex h-7 w-14 items-center rounded-full border transition-colors cursor-pointer ${
-                      volume > 0
+                      soundEnabled
                         ? "bg-gold/30 border-gold/60"
                         : "bg-black/40 border-primary-foreground/20"
                     }`}
                   >
                     <span
                       className={`inline-block h-5 w-5 transform rounded-full bg-gold transition-transform ${
-                        volume > 0 ? "translate-x-8" : "translate-x-1"
+                        soundEnabled ? "translate-x-8" : "translate-x-1"
                       }`}
                     />
-                    <span className="sr-only">{volume > 0 ? t("on") : t("off")}</span>
+                    <span className="sr-only">{soundEnabled ? t("on") : t("off")}</span>
                   </button>
                 </div>
                 <p className="mt-2 font-body text-xs text-primary-foreground/50">
-                  {volume > 0 ? t("on") : t("off")}
+                  {soundEnabled ? t("on") : t("off")}
                 </p>
               </div>
 

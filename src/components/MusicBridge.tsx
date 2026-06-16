@@ -1,24 +1,26 @@
 import { useEffect } from "react";
 import { useSettings } from "@/hooks/useSettings";
-import { hasMusicTracks, setMusicVolume, startMusic } from "@/lib/music";
+import { hasMusicTracks, pauseMusic, resumeMusic, startMusic } from "@/lib/music";
 
 /**
- * Bridges the global Volume setting to the background music engine and
+ * Bridges the global soundEnabled setting to the background music engine and
  * kicks off playback on the first user gesture (required by browser
  * autoplay policy). Mount once at the app root.
  */
 const MusicBridge = () => {
-  const { volume } = useSettings();
+  const { soundEnabled } = useSettings();
 
   useEffect(() => {
-    console.log('[MusicBridge] Volume changed to:', volume);
-    setMusicVolume(volume);
-  }, [volume]);
+    if (soundEnabled) {
+      resumeMusic();
+    } else {
+      pauseMusic();
+    }
+  }, [soundEnabled]);
 
   useEffect(() => {
     if (!hasMusicTracks()) return;
     const kick = () => startMusic();
-    // Try immediately (works if a prior gesture already unlocked audio)
     kick();
     const events: Array<keyof DocumentEventMap> = [
       "pointerdown",

@@ -2,8 +2,8 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, R
 import { LanguageCode, translations, DEFAULT_LANGUAGE, TranslationKey } from "@/lib/i18n";
 
 interface SettingsContextValue {
-  volume: number;
-  setVolume: (v: number) => void;
+  soundEnabled: boolean;
+  setSoundEnabled: (v: boolean) => void;
   language: LanguageCode;
   setLanguage: (l: LanguageCode) => void;
   t: (key: TranslationKey) => string;
@@ -14,6 +14,8 @@ const STORAGE_KEY = "sacred-quest-settings-v1";
 const SettingsContext = createContext<SettingsContextValue | null>(null);
 
 interface PersistedSettings {
+  soundEnabled?: boolean;
+  // legacy field — migrated on load
   volume?: number;
   language?: LanguageCode;
 }
@@ -28,27 +30,30 @@ const loadPersisted = (): PersistedSettings => {
   }
 };
 
+const loadSoundEnabled = (p: PersistedSettings): boolean => {
+  if (typeof p.soundEnabled === "boolean") return p.soundEnabled;
+  // migrate from old numeric volume field
+  if (typeof p.volume === "number") return p.volume > 0;
+  return true;
+};
+
 export const SettingsProvider = ({ children }: { children: ReactNode }) => {
   const initial = loadPersisted();
-  const [volume, setVolumeState] = useState<number>(
-    typeof initial.volume === "number" ? initial.volume : 80,
-  );
+  const [soundEnabled, setSoundEnabledState] = useState<boolean>(loadSoundEnabled(initial));
   const [language, setLanguageState] = useState<LanguageCode>(
     initial.language ?? DEFAULT_LANGUAGE,
   );
 
   useEffect(() => {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({ volume, language }));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ soundEnabled, language }));
     } catch {
       /* ignore */
     }
-  }, [volume, language]);
+  }, [soundEnabled, language]);
 
-  const setVolume = useCallback((v: number) => {
-    const clamped = Math.max(0, Math.min(100, Math.round(v)));
-    console.log('[useSettings] setVolume called:', { requested: v, clamped });
-    setVolumeState(clamped);
+  const setSoundEnabled = useCallback((v: boolean) => {
+    setSoundEnabledState(v);
   }, []);
 
   const setLanguage = useCallback((l: LanguageCode) => {
@@ -64,8 +69,8 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
   );
 
   const value = useMemo(
-    () => ({ volume, setVolume, language, setLanguage, t }),
-    [volume, setVolume, language, setLanguage, t],
+    () => ({ soundEnabled, setSoundEnabled, language, setLanguage, t }),
+    [soundEnabled, setSoundEnabled, language, setLanguage, t],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

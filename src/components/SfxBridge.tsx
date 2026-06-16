@@ -1,20 +1,19 @@
 import { useEffect } from "react";
 import { useSettings } from "@/hooks/useSettings";
-import { playClick, setSfxVolume, SFX_SKIP_ATTR } from "@/lib/sfx";
+import { playClick, setSfxEnabled, SFX_SKIP_ATTR } from "@/lib/sfx";
 
 /**
- * Bridges the global Volume setting to the SFX engine and installs a
+ * Bridges the global soundEnabled setting to the SFX engine and installs a
  * single global click listener that plays the UI click sound for every
  * enabled <button>. Buttons that play their own feedback (correct/incorrect)
  * should set `data-sfx-skip="true"` to avoid double sounds.
  */
 const SfxBridge = () => {
-  const { volume } = useSettings();
+  const { soundEnabled } = useSettings();
 
   useEffect(() => {
-    console.log('[SfxBridge] Volume changed to:', volume);
-    setSfxVolume(volume);
-  }, [volume]);
+    setSfxEnabled(soundEnabled);
+  }, [soundEnabled]);
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {

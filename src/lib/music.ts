@@ -88,14 +88,6 @@ const playCurrent = () => {
   }
 };
 
-export const setMusicVolume = (v0to100: number) => {
-  currentVolume = Math.max(0, Math.min(1, v0to100 / 100));
-  console.log('[music.ts] setMusicVolume:', { v0to100, currentVolume, hasAudio: !!audio });
-  if (audio) {
-    audio.volume = currentVolume;
-    console.log('[music.ts] audio.volume set to:', audio.volume, 'paused:', audio.paused);
-  }
-};
 
 /**
  * Starts (or resumes) background music. Safe to call multiple times — only
