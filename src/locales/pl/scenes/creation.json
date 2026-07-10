@@ -4,292 +4,520 @@
     "title": "Na początku",
     "text": "Ty jesteś Bogiem — Ojcem, Synem i Duchem Świętym.\nNic jeszcze nie zostało stworzone. Jaki jest twój pierwszy czyn?",
     "choices": [
-      { "text": "Pozostać w milczeniu i samotności na zawsze", "feedback": "W Rdz 1,1 pierwszym czynem Boga było stworzenie nieba i ziemi." },
-      { "text": "Stworzyć niebo i ziemię", "feedback": "Poprawnie — Rdz 1,1: «Na początku Bóg stworzył niebo i ziemię»." },
-      { "text": "Mówić tylko do siebie", "feedback": "W Rdz 1,1 Bóg nie milczał — stworzył niebo i ziemię." }
+      {
+        "text": "Pozostać w milczeniu i samotności na zawsze",
+        "feedback": "W Rdz 1,1 pierwszym czynem Boga było stworzenie nieba i ziemi."
+      },
+      {
+        "text": "Stworzyć niebo i ziemię",
+        "feedback": "Rdz 1,1: «Na początku Bóg stworzył niebo i ziemię»."
+      },
+      {
+        "text": "Mówić tylko do siebie",
+        "feedback": "W Rdz 1,1 Bóg nie milczał — stworzył niebo i ziemię."
+      }
     ]
   },
   "silence": {
     "title": "Ziemia bezładna",
     "text": "Ziemia jest bezładna i pusta.\nCiemność zalega nad otchłanią. Co czynisz?",
     "choices": [
-      { "text": "Powiedzieć: «Niech się stanie światłość»", "feedback": "Poprawnie — Rdz 1,3: «Wtedy Bóg rzekł: Niech się stanie światłość»." },
-      { "text": "Rozkazać jeszcze większej ciemności okryć wszystko", "feedback": "W Rdz 1,3 Bóg powiedział «Niech się stanie światłość» — nie więcej ciemności." }
+      {
+        "text": "Powiedzieć: «Niech się stanie światłość»",
+        "feedback": "Rdz 1,3: «Wtedy Bóg rzekł: Niech się stanie światłość»."
+      },
+      {
+        "text": "Rozkazać jeszcze większej ciemności okryć wszystko",
+        "feedback": "W Rdz 1,3 Bóg powiedział «Niech się stanie światłość» — nie więcej ciemności."
+      }
     ]
   },
   "voice": {
     "title": "Duch nad wodami",
     "text": "Duch Boży unosi się nad wodami.\nCo najpierw powołujesz do istnienia?",
     "choices": [
-      { "text": "«Niech się stanie światłość»", "feedback": "Poprawnie — światłość była pierwszym, co Bóg powołał do istnienia (Rdz 1,3)." },
-      { "text": "«Niech powstaną drzewa i zwierzęta»", "feedback": "W Rdz 1 Bóg najpierw stworzył światłość — rośliny pojawiają się w Dniu Trzecim, a zwierzęta w Dniach Piątym i Szóstym." }
+      {
+        "text": "«Niech się stanie światłość»",
+        "feedback": "światłość była pierwszym, co Bóg powołał do istnienia (Rdz 1,3)."
+      },
+      {
+        "text": "«Niech powstaną drzewa i zwierzęta»",
+        "feedback": "W Rdz 1 Bóg najpierw stworzył światłość — rośliny pojawiają się w Dniu Trzecim, a zwierzęta w Dniach Piątym i Szóstym."
+      }
     ]
   },
   "void": {
     "title": "Otchłań",
     "text": "Ziemia jest bezładna; ciemność zalega nad otchłanią.\nDuch Boży unosi się nad wodami. Co teraz?",
     "choices": [
-      { "text": "Powiedzieć: «Niech się stanie światłość»", "feedback": "Poprawnie — Rdz 1,3: «Niech się stanie światłość»." },
-      { "text": "Stworzyć od razu ludzi", "feedback": "W Rdz 1 ludzie zostają stworzeni szóstego dnia, nie na początku. Najpierw jest światłość." }
+      {
+        "text": "Powiedzieć: «Niech się stanie światłość»",
+        "feedback": "Rdz 1,3: «Niech się stanie światłość»."
+      },
+      {
+        "text": "Stworzyć od razu ludzi",
+        "feedback": "W Rdz 1 ludzie zostają stworzeni szóstego dnia, nie na początku. Najpierw jest światłość."
+      }
     ]
   },
   "light": {
     "title": "Nastała światłość",
     "text": "Światłość świeci. Widzisz, że światłość jest dobra.\nJaki jest twój następny czyn w Dniu Pierwszym?",
     "choices": [
-      { "text": "Dodać drugie słońce na niebie", "feedback": "W Rdz 1,4 Bóg oddzielił światłość od ciemności — nie stworzył drugiego słońca." },
-      { "text": "Całkowicie zetrzeć ciemność", "feedback": "W Rdz 1,4-5 Bóg nie zniszczył ciemności — oddzielił ją od światłości i nazwał Nocą." },
-      { "text": "Oddzielić światłość od ciemności", "feedback": "Poprawnie — Rdz 1,4: «I oddzielił Bóg światłość od ciemności»." }
+      {
+        "text": "Dodać drugie słońce na niebie",
+        "feedback": "W Rdz 1,4 Bóg oddzielił światłość od ciemności — nie stworzył drugiego słońca."
+      },
+      {
+        "text": "Całkowicie zetrzeć ciemność",
+        "feedback": "W Rdz 1,4-5 Bóg nie zniszczył ciemności — oddzielił ją od światłości i nazwał Nocą."
+      },
+      {
+        "text": "Oddzielić światłość od ciemności",
+        "feedback": "Rdz 1,4: «I oddzielił Bóg światłość od ciemności»."
+      }
     ]
   },
   "light_obey": {
     "title": "Dzień i Noc",
     "text": "Światłość świeci i jest dobra.\nJak dopełniasz pierwszy dzień?",
     "choices": [
-      { "text": "Nazwać światłość Dniem, a ciemność Nocą", "feedback": "Poprawnie — Rdz 1,5: «I nazwał Bóg światłość Dniem, a ciemność nazwał Nocą»." },
-      { "text": "Teraz stworzyć słońce, księżyc i gwiazdy", "feedback": "W Rdz 1 słońce, księżyc i gwiazdy są stworzone czwartego dnia — nie pierwszego." }
+      {
+        "text": "Nazwać światłość Dniem, a ciemność Nocą",
+        "feedback": "Rdz 1,5: «I nazwał Bóg światłość Dniem, a ciemność nazwał Nocą»."
+      },
+      {
+        "text": "Teraz stworzyć słońce, księżyc i gwiazdy",
+        "feedback": "W Rdz 1 słońce, księżyc i gwiazdy są stworzone czwartego dnia — nie pierwszego."
+      }
     ]
   },
   "light_awe": {
     "title": "Pierwszy dzień",
     "text": "Jest światłość. Jest ciemność.\nCo dopełnia pierwszy dzień?",
     "choices": [
-      { "text": "Teraz stworzyć stworzenia morskie", "feedback": "W Rdz 1,20-23 stworzenia morskie pojawiają się w Dniu Piątym. Dzień Pierwszy oddziela światłość i ciemność." },
-      { "text": "Nazwać światłość Dniem, a ciemność Nocą", "feedback": "Poprawnie — Rdz 1,5: Bóg nazwał światłość Dniem, a ciemność Nocą." }
+      {
+        "text": "Teraz stworzyć stworzenia morskie",
+        "feedback": "W Rdz 1,20-23 stworzenia morskie pojawiają się w Dniu Piątym. Dzień Pierwszy oddziela światłość i ciemność."
+      },
+      {
+        "text": "Nazwać światłość Dniem, a ciemność Nocą",
+        "feedback": "Rdz 1,5: Bóg nazwał światłość Dniem, a ciemność Nocą."
+      }
     ]
   },
   "warmth": {
     "title": "Drugi dzień",
     "text": "Pierwszy dzień jest dokończony.\nCo tworzysz w Dniu Drugim?",
     "choices": [
-      { "text": "Sklepienie, by oddzielić wody z góry od wód z dołu", "feedback": "Poprawnie — Rdz 1,6-7: Bóg uczynił sklepienie i oddzielił wody z góry od wód z dołu." },
-      { "text": "Zasadzić pierwszy ogród", "feedback": "W Rdz 1,11 rośliny pojawiają się w Dniu Trzecim. Dzień Drugi to sklepienie — niebo." }
+      {
+        "text": "Sklepienie, by oddzielić wody z góry od wód z dołu",
+        "feedback": "Rdz 1,6-7: Bóg uczynił sklepienie i oddzielił wody z góry od wód z dołu."
+      },
+      {
+        "text": "Zasadzić pierwszy ogród",
+        "feedback": "W Rdz 1,11 rośliny pojawiają się w Dniu Trzecim. Dzień Drugi to sklepienie — niebo."
+      }
     ]
   },
   "day_night": {
     "title": "Drugi dzień",
     "text": "Wieczór i poranek — pierwszy dzień skończony.\nCo przychodzi w Dniu Drugim?",
     "choices": [
-      { "text": "Stworzyć sklepienie i nazwać je Niebem", "feedback": "Poprawnie — Rdz 1,8: «I nazwał Bóg sklepienie Niebem»." },
-      { "text": "Stworzyć ryby i ptaki", "feedback": "W Rdz 1,20-23 ryby i ptaki pojawiają się w Dniu Piątym — nie w Dniu Drugim." }
+      {
+        "text": "Stworzyć sklepienie i nazwać je Niebem",
+        "feedback": "Rdz 1,8: «I nazwał Bóg sklepienie Niebem»."
+      },
+      {
+        "text": "Stworzyć ryby i ptaki",
+        "feedback": "W Rdz 1,20-23 ryby i ptaki pojawiają się w Dniu Piątym — nie w Dniu Drugim."
+      }
     ]
   },
   "sky": {
     "title": "Trzeci dzień",
     "text": "Sklepienie Nieba jest gotowe.\nJaki jest twój pierwszy czyn w Dniu Trzecim?",
     "choices": [
-      { "text": "Rozkazać, by pojawił się ląd bez poruszania wód", "feedback": "W Rdz 1,9 Bóg najpierw zebrał wody — potem pojawił się suchy ląd." },
-      { "text": "Zebrać wody w jedno miejsce", "feedback": "Poprawnie — Rdz 1,9: «Niech zbiorą się wody w jedno miejsce, a ukaże się ląd suchy»." },
-      { "text": "Stworzyć słońce, by ogrzewało niebo", "feedback": "W Rdz 1,14-16 słońce jest uczynione czwartego dnia — nie trzeciego." }
+      {
+        "text": "Rozkazać, by pojawił się ląd bez poruszania wód",
+        "feedback": "W Rdz 1,9 Bóg najpierw zebrał wody — potem pojawił się suchy ląd."
+      },
+      {
+        "text": "Zebrać wody w jedno miejsce",
+        "feedback": "Rdz 1,9: «Niech zbiorą się wody w jedno miejsce, a ukaże się ląd suchy»."
+      },
+      {
+        "text": "Stworzyć słońce, by ogrzewało niebo",
+        "feedback": "W Rdz 1,14-16 słońce jest uczynione czwartego dnia — nie trzeciego."
+      }
     ]
   },
   "sky_vast": {
     "title": "Trzeci dzień",
     "text": "Sklepienie Nieba jest ukończone.\nCo przychodzi w Dniu Trzecim?",
     "choices": [
-      { "text": "Stworzyć najpierw gwiazdy", "feedback": "W Rdz 1,14-16 gwiazdy są stworzone czwartego dnia. Dzień Trzeci to suchy ląd i morza." },
-      { "text": "Zebrać wody w morza, aby pojawił się ląd", "feedback": "Poprawnie — Rdz 1,9-10: Bóg zebrał wody w morza i ukazał się suchy ląd." }
+      {
+        "text": "Stworzyć najpierw gwiazdy",
+        "feedback": "W Rdz 1,14-16 gwiazdy są stworzone czwartego dnia. Dzień Trzeci to suchy ląd i morza."
+      },
+      {
+        "text": "Zebrać wody w morza, aby pojawił się ląd",
+        "feedback": "Rdz 1,9-10: Bóg zebrał wody w morza i ukazał się suchy ląd."
+      }
     ]
   },
   "waters_gather": {
     "title": "Ukazuje się suchy ląd",
     "text": "Wody się gromadzą. Wyłania się suchy ląd.\nCo czynisz dalej w Dniu Trzecim?",
     "choices": [
-      { "text": "Pokryć ziemię roślinami, nasionami i drzewami owocowymi", "feedback": "Poprawnie — Rdz 1,11: «Niechaj ziemia wyda rośliny zielone, trawy dające nasienie, drzewa owocowe»." },
-      { "text": "Napełnić teraz morza rybami", "feedback": "W Rdz 1,20-21 ryby pojawiają się w Dniu Piątym. Dzień Trzeci kończy się roślinami i drzewami." }
+      {
+        "text": "Pokryć ziemię roślinami, nasionami i drzewami owocowymi",
+        "feedback": "Rdz 1,11: «Niechaj ziemia wyda rośliny zielone, trawy dające nasienie, drzewa owocowe»."
+      },
+      {
+        "text": "Napełnić teraz morza rybami",
+        "feedback": "W Rdz 1,20-21 ryby pojawiają się w Dniu Piątym. Dzień Trzeci kończy się roślinami i drzewami."
+      }
     ]
   },
   "expanse": {
     "title": "Trzeci dzień",
     "text": "Niebiosa rozciągają się w górze.\nCo czynisz w Dniu Trzecim?",
     "choices": [
-      { "text": "Wywieść suchy ląd, rośliny i drzewa owocowe", "feedback": "Poprawnie — Rdz 1,9-12: suchy ląd, morza i roślinność pojawiają się w Dniu Trzecim." },
-      { "text": "Ukształtować Adama z prochu", "feedback": "W Rdz 2,7 Adam jest ukształtowany w Dniu Szóstym — nie w Dniu Trzecim." }
+      {
+        "text": "Wywieść suchy ląd, rośliny i drzewa owocowe",
+        "feedback": "Rdz 1,9-12: suchy ląd, morza i roślinność pojawiają się w Dniu Trzecim."
+      },
+      {
+        "text": "Ukształtować Adama z prochu",
+        "feedback": "W Rdz 2,7 Adam jest ukształtowany w Dniu Szóstym — nie w Dniu Trzecim."
+      }
     ]
   },
   "land": {
     "title": "Roślinność",
     "text": "Pojawia się suchy ląd.\nJakim rodzajem życia go okrywasz?",
     "choices": [
-      { "text": "Rośliny, zioła i drzewa owocowe — każde według swojego rodzaju", "feedback": "Poprawnie — Rdz 1,11-12: rośliny i drzewa każde «według swego rodzaju»." },
-      { "text": "Tylko kwiaty, bez drzew", "feedback": "W Rdz 1,11 Bóg uczynił rośliny, zioła I drzewa owocowe — nie same kwiaty." },
-      { "text": "Dzikie zwierzęta wędrujące po górach", "feedback": "W Rdz 1,24-25 zwierzęta lądowe pojawiają się szóstego dnia — nie trzeciego." }
+      {
+        "text": "Rośliny, zioła i drzewa owocowe — każde według swojego rodzaju",
+        "feedback": "Rdz 1,11-12: rośliny i drzewa każde «według swego rodzaju»."
+      },
+      {
+        "text": "Tylko kwiaty, bez drzew",
+        "feedback": "W Rdz 1,11 Bóg uczynił rośliny, zioła I drzewa owocowe — nie same kwiaty."
+      },
+      {
+        "text": "Dzikie zwierzęta wędrujące po górach",
+        "feedback": "W Rdz 1,24-25 zwierzęta lądowe pojawiają się szóstego dnia — nie trzeciego."
+      }
     ]
   },
   "land_emerge": {
     "title": "Ziemia wydaje",
     "text": "Suchy grunt jest gotowy.\nCo wschodzi w Dniu Trzecim?",
     "choices": [
-      { "text": "Roślinność z nasieniem i drzewa owocowe rodzące owoc", "feedback": "Poprawnie — Rdz 1,11: «trawa dająca nasienie i drzewa owocowe rodzące owoc... według swego rodzaju»." },
-      { "text": "Pszczoły i motyle przed jakimikolwiek roślinami", "feedback": "W Rdz 1,24-25 stworzenia pełzające pojawiają się w Dniu Szóstym. Dzień Trzeci przynosi najpierw rośliny." }
+      {
+        "text": "Roślinność z nasieniem i drzewa owocowe rodzące owoc",
+        "feedback": "Rdz 1,11: «trawa dająca nasienie i drzewa owocowe rodzące owoc... według swego rodzaju»."
+      },
+      {
+        "text": "Pszczoły i motyle przed jakimikolwiek roślinami",
+        "feedback": "W Rdz 1,24-25 stworzenia pełzające pojawiają się w Dniu Szóstym. Dzień Trzeci przynosi najpierw rośliny."
+      }
     ]
   },
   "plants": {
     "title": "Czwarty dzień",
     "text": "Dzień Trzeci jest zakończony — rośliny i drzewa pokrywają ziemię.\nCo tworzysz w Dniu Czwartym?",
     "choices": [
-      { "text": "Światła na sklepieniu — słońce, księżyc i gwiazdy", "feedback": "Poprawnie — Rdz 1,14-16: Bóg uczynił słońce, księżyc i gwiazdy w Dniu Czwartym." },
-      { "text": "Stworzenia morskie i ptaki", "feedback": "W Rdz 1,20-23 stworzenia morskie i ptaki pojawiają się w Dniu Piątym — nie w Dniu Czwartym." }
+      {
+        "text": "Światła na sklepieniu — słońce, księżyc i gwiazdy",
+        "feedback": "Rdz 1,14-16: Bóg uczynił słońce, księżyc i gwiazdy w Dniu Czwartym."
+      },
+      {
+        "text": "Stworzenia morskie i ptaki",
+        "feedback": "W Rdz 1,20-23 stworzenia morskie i ptaki pojawiają się w Dniu Piątym — nie w Dniu Czwartym."
+      }
     ]
   },
   "flowers": {
     "title": "Czwarty dzień",
     "text": "Rośliny pokrywają ziemię.\nCo przychodzi w Dniu Czwartym?",
     "choices": [
-      { "text": "Adam i Ewa", "feedback": "W Rdz 1,26-27 ludzie są stworzeni w Dniu Szóstym — nie w Dniu Czwartym." },
-      { "text": "Słońce, księżyc i gwiazdy", "feedback": "Poprawnie — Rdz 1,14-19: Bóg umieścił słońce, księżyc i gwiazdy na sklepieniu nieba." }
+      {
+        "text": "Adam i Ewa",
+        "feedback": "W Rdz 1,26-27 ludzie są stworzeni w Dniu Szóstym — nie w Dniu Czwartym."
+      },
+      {
+        "text": "Słońce, księżyc i gwiazdy",
+        "feedback": "Rdz 1,14-19: Bóg umieścił słońce, księżyc i gwiazdy na sklepieniu nieba."
+      }
     ]
   },
   "mountain": {
     "title": "Czwarty dzień",
     "text": "Ziemia jest pełna roślin i drzew.\nCo czynisz w Dniu Czwartym?",
     "choices": [
-      { "text": "Słońce, księżyc i gwiazdy na niebiosach", "feedback": "Poprawnie — Rdz 1,14-19: Bóg umieścił dwa wielkie światła i gwiazdy na sklepieniu nieba." },
-      { "text": "Deszcz, śnieg i chmury", "feedback": "W Rdz 1 Dzień Czwarty dotyczy słońca, księżyca i gwiazd — nie pogody." }
+      {
+        "text": "Słońce, księżyc i gwiazdy na niebiosach",
+        "feedback": "Rdz 1,14-19: Bóg umieścił dwa wielkie światła i gwiazdy na sklepieniu nieba."
+      },
+      {
+        "text": "Deszcz, śnieg i chmury",
+        "feedback": "W Rdz 1 Dzień Czwarty dotyczy słońca, księżyca i gwiazd — nie pogody."
+      }
     ]
   },
   "stars": {
     "title": "Większe i mniejsze światło",
     "text": "Światła są umieszczone na niebiosach.\nJak je porządkujesz?",
     "choices": [
-      { "text": "Jedno światło rządzące zarówno dniem, jak i nocą", "feedback": "W Rdz 1,16 Bóg uczynił DWA wielkie światła — większe dla dnia i mniejsze dla nocy." },
-      { "text": "Same gwiazdy — bez słońca i księżyca", "feedback": "W Rdz 1,16 Bóg uczynił słońce i księżyc oprócz gwiazd." },
-      { "text": "Większe światło, by rządziło dniem, mniejsze nocą, oraz gwiazdy", "feedback": "Poprawnie — Rdz 1,16: «większe światło, aby rządziło dniem, i mniejsze światło, aby rządziło nocą; uczynił też gwiazdy»." }
+      {
+        "text": "Jedno światło rządzące zarówno dniem, jak i nocą",
+        "feedback": "W Rdz 1,16 Bóg uczynił DWA wielkie światła — większe dla dnia i mniejsze dla nocy."
+      },
+      {
+        "text": "Same gwiazdy — bez słońca i księżyca",
+        "feedback": "W Rdz 1,16 Bóg uczynił słońce i księżyc oprócz gwiazd."
+      },
+      {
+        "text": "Większe światło, by rządziło dniem, mniejsze nocą, oraz gwiazdy",
+        "feedback": "Rdz 1,16: «większe światło, aby rządziło dniem, i mniejsze światło, aby rządziło nocą; uczynił też gwiazdy»."
+      }
     ]
   },
   "stars_delight": {
     "title": "Światła na niebiosach",
     "text": "Dzień Czwarty trwa.\nCo zostaje umieszczone?",
     "choices": [
-      { "text": "Słońce, księżyc i niezliczone gwiazdy", "feedback": "Poprawnie — Rdz 1,14-16: słońce, księżyc i gwiazdy — dla znaków, pór, dni i lat." },
-      { "text": "Jedno małe światełko na całe niebo", "feedback": "W Rdz 1,16 Bóg uczynił DWA wielkie światła oraz gwiazdy — nie jedno małe światło." }
+      {
+        "text": "Słońce, księżyc i niezliczone gwiazdy",
+        "feedback": "Rdz 1,14-16: słońce, księżyc i gwiazdy — dla znaków, pór, dni i lat."
+      },
+      {
+        "text": "Jedno małe światełko na całe niebo",
+        "feedback": "W Rdz 1,16 Bóg uczynił DWA wielkie światła oraz gwiazdy — nie jedno małe światło."
+      }
     ]
   },
   "stars_vision": {
     "title": "Gwiazdy bez liczby",
     "text": "Umieszczasz światła na niebiosach.\nIle gwiazd będzie?",
     "choices": [
-      { "text": "Niezliczone — ponad rachubę", "feedback": "Poprawnie — Rdz 15,5 i 22,17 opisują gwiazdy nieba jako niemożliwe do policzenia." },
-      { "text": "Dokładnie siedem gwiazd — ani jednej więcej", "feedback": "W Piśmie gwiazdy Boga są niezliczone — «jak gwiazdy nieba w mnóstwie» (Rdz 22,17)." }
+      {
+        "text": "Niezliczone — ponad rachubę",
+        "feedback": "Rdz 15,5 i 22,17 opisują gwiazdy nieba jako niemożliwe do policzenia."
+      },
+      {
+        "text": "Dokładnie siedem gwiazd — ani jednej więcej",
+        "feedback": "W Piśmie gwiazdy Boga są niezliczone — «jak gwiazdy nieba w mnóstwie» (Rdz 22,17)."
+      }
     ]
   },
   "countless_stars": {
     "title": "Piąty dzień",
     "text": "Światła Dnia Czwartego są umieszczone.\nCo tworzysz w Dniu Piątym?",
     "choices": [
-      { "text": "Istoty roiące się w wodach i ptaki latające w górze", "feedback": "Poprawnie — Rdz 1,20-21: «Niech wody zaroją się stworzeniami żywymi, a nad ziemią niech latają ptaki»." },
-      { "text": "Drzewa, trawę i owoce", "feedback": "W Rdz 1,11 rośliny pojawiają się w Dniu Trzecim — nie w Dniu Piątym." }
+      {
+        "text": "Istoty roiące się w wodach i ptaki latające w górze",
+        "feedback": "Rdz 1,20-21: «Niech wody zaroją się stworzeniami żywymi, a nad ziemią niech latają ptaki»."
+      },
+      {
+        "text": "Drzewa, trawę i owoce",
+        "feedback": "W Rdz 1,11 rośliny pojawiają się w Dniu Trzecim — nie w Dniu Piątym."
+      }
     ]
   },
   "moonrise": {
     "title": "Piąty dzień",
     "text": "Noc ma swój księżyc; dzień ma swoje słońce.\nJakie żywe istoty wypełniają Dzień Piąty?",
     "choices": [
-      { "text": "Stworzenia morskie i ptaki latające", "feedback": "Poprawnie — Rdz 1,20-23: stworzenia morskie i ptaki wypełniają wody i niebiosa w Dniu Piątym." },
-      { "text": "Bydło i pełzające", "feedback": "W Rdz 1,24-25 bydło i pełzające pojawiają się w Dniu Szóstym — nie w Dniu Piątym." }
+      {
+        "text": "Stworzenia morskie i ptaki latające",
+        "feedback": "Rdz 1,20-23: stworzenia morskie i ptaki wypełniają wody i niebiosa w Dniu Piątym."
+      },
+      {
+        "text": "Bydło i pełzające",
+        "feedback": "W Rdz 1,24-25 bydło i pełzające pojawiają się w Dniu Szóstym — nie w Dniu Piątym."
+      }
     ]
   },
   "sea_dawn": {
     "title": "Wody i niebiosa",
     "text": "Dzień Piąty się zaczyna.\nJakie stworzenia czynisz?",
     "choices": [
-      { "text": "Wielkie stworzenia morskie, ryby i wszelkie ptactwo skrzydlate", "feedback": "Poprawnie — Rdz 1,20-22: Bóg stworzył wielkie potwory morskie i wszelkie ptactwo skrzydlate i pobłogosławił je." },
-      { "text": "Tylko pszczoły do kwiatów", "feedback": "W Rdz 1,20-21 Dzień Piąty przynosi wielkie stworzenia morskie i wszelkie ptactwo skrzydlate — nie tylko owady." }
+      {
+        "text": "Wielkie stworzenia morskie, ryby i wszelkie ptactwo skrzydlate",
+        "feedback": "Rdz 1,20-22: Bóg stworzył wielkie potwory morskie i wszelkie ptactwo skrzydlate i pobłogosławił je."
+      },
+      {
+        "text": "Tylko pszczoły do kwiatów",
+        "feedback": "W Rdz 1,20-21 Dzień Piąty przynosi wielkie stworzenia morskie i wszelkie ptactwo skrzydlate — nie tylko owady."
+      }
     ]
   },
   "sea_creatures": {
     "title": "Bądźcie płodni i mnóżcie się",
     "text": "Morza się roją; ptaki latają w górze.\nJakim błogosławieństwem je obdarzasz?",
     "choices": [
-      { "text": "«Bądźcie płodni i mnóżcie się, i napełnijcie wody i ziemię»", "feedback": "Poprawnie — Rdz 1,22: «Bądźcie płodni i mnóżcie się, abyście napełnili wody w morzach, a ptactwo niech się rozmnaża na ziemi»." },
-      { "text": "«Wróćcie do prochu — zawiedliście»", "feedback": "W Rdz 1,22 Bóg BŁOGOSŁAWIŁ stworzeniom, by się mnożyły — nie zniszczył ich." }
+      {
+        "text": "«Bądźcie płodni i mnóżcie się, i napełnijcie wody i ziemię»",
+        "feedback": "Rdz 1,22: «Bądźcie płodni i mnóżcie się, abyście napełnili wody w morzach, a ptactwo niech się rozmnaża na ziemi»."
+      },
+      {
+        "text": "«Wróćcie do prochu — zawiedliście»",
+        "feedback": "W Rdz 1,22 Bóg BŁOGOSŁAWIŁ stworzeniom, by się mnożyły — nie zniszczył ich."
+      }
     ]
   },
   "bird_flight": {
     "title": "Szósty dzień",
     "text": "Morze i niebo są napełnione.\nCo przychodzi w Dniu Szóstym?",
     "choices": [
-      { "text": "Bydło, dzikie zwierzęta i pełzające ziemi", "feedback": "Poprawnie — Rdz 1,24-25: bydło, zwierzęta ziemi i pełzające w Dniu Szóstym." },
-      { "text": "Więcej gwiazd na niebie", "feedback": "Gwiazdy zostały uczynione w Dniu Czwartym. Dzień Szósty przynosi zwierzęta lądowe — i ludzi." }
+      {
+        "text": "Bydło, dzikie zwierzęta i pełzające ziemi",
+        "feedback": "Rdz 1,24-25: bydło, zwierzęta ziemi i pełzające w Dniu Szóstym."
+      },
+      {
+        "text": "Więcej gwiazd na niebie",
+        "feedback": "Gwiazdy zostały uczynione w Dniu Czwartym. Dzień Szósty przynosi zwierzęta lądowe — i ludzi."
+      }
     ]
   },
   "land_creatures": {
     "title": "Na nasz obraz",
     "text": "Ziemia roi się od zwierząt.\nJakie jest twoje końcowe dzieło stworzenia?",
     "choices": [
-      { "text": "Powiedzieć: «Uczyńmy człowieka na nasz obraz, podobnego nam»", "feedback": "Poprawnie — Rdz 1,26: «Uczyńmy człowieka na nasz obraz, podobnego nam»." },
-      { "text": "Zamienić jedno ze zwierząt w człowieka", "feedback": "W Rdz 2,7 Bóg ukształtował człowieka z prochu ziemi — nie ze zwierzęcia." }
+      {
+        "text": "Powiedzieć: «Uczyńmy człowieka na nasz obraz, podobnego nam»",
+        "feedback": "Rdz 1,26: «Uczyńmy człowieka na nasz obraz, podobnego nam»."
+      },
+      {
+        "text": "Zamienić jedno ze zwierząt w człowieka",
+        "feedback": "W Rdz 2,7 Bóg ukształtował człowieka z prochu ziemi — nie ze zwierzęcia."
+      }
     ]
   },
   "land_creatures_wind": {
     "title": "Korona stworzenia",
     "text": "Zwierzęta wypełniają ziemię.\nCzego jeszcze brak?",
     "choices": [
-      { "text": "Ogłosić stworzenie zakończonym — nic więcej nie potrzeba", "feedback": "W Rdz 1,26, po zwierzętach, Bóg rzekł: «Uczyńmy człowieka na nasz obraz». Stworzenie nie było jeszcze pełne." },
-      { "text": "Istota uczyniona na obraz Boga", "feedback": "Poprawnie — Rdz 1,26-27: ludzie są uczynieni na obraz i podobieństwo Boże." }
+      {
+        "text": "Ogłosić stworzenie zakończonym — nic więcej nie potrzeba",
+        "feedback": "W Rdz 1,26, po zwierzętach, Bóg rzekł: «Uczyńmy człowieka na nasz obraz». Stworzenie nie było jeszcze pełne."
+      },
+      {
+        "text": "Istota uczyniona na obraz Boga",
+        "feedback": "Rdz 1,26-27: ludzie są uczynieni na obraz i podobieństwo Boże."
+      }
     ]
   },
   "among_animals": {
     "title": "Uczyńmy człowieka",
     "text": "Żadne zwierzę nie nosi twojego obrazu.\nJak czynisz pierwszego człowieka?",
     "choices": [
-      { "text": "Zamienić lwa w człowieka", "feedback": "W Rdz 2,7 Bóg ukształtował człowieka z prochu ziemi — nie z innego stworzenia." },
-      { "text": "Ukształtować go z prochu ziemi", "feedback": "Poprawnie — Rdz 2,7: «Pan Bóg ukształtował człowieka z prochu ziemi»." }
+      {
+        "text": "Zamienić lwa w człowieka",
+        "feedback": "W Rdz 2,7 Bóg ukształtował człowieka z prochu ziemi — nie z innego stworzenia."
+      },
+      {
+        "text": "Ukształtować go z prochu ziemi",
+        "feedback": "Rdz 2,7: «Pan Bóg ukształtował człowieka z prochu ziemi»."
+      }
     ]
   },
   "before_man": {
     "title": "Ukształtowany z prochu",
     "text": "Kształtujesz człowieka z prochu ziemi.\nJak staje się istotą żywą?",
     "choices": [
-      { "text": "Wypowiedzieć słowo i pozwolić mu obudzić się samemu", "feedback": "W Rdz 2,7 Bóg wyraźnie tchnął tchnienie życia w nozdrza człowieka." },
-      { "text": "Tchnąć tchnienie życia w jego nozdrza", "feedback": "Poprawnie — Rdz 2,7: «I tchnął w jego nozdrza tchnienie życia, i człowiek stał się istotą żywą»." }
+      {
+        "text": "Wypowiedzieć słowo i pozwolić mu obudzić się samemu",
+        "feedback": "W Rdz 2,7 Bóg wyraźnie tchnął tchnienie życia w nozdrza człowieka."
+      },
+      {
+        "text": "Tchnąć tchnienie życia w jego nozdrza",
+        "feedback": "Rdz 2,7: «I tchnął w jego nozdrza tchnienie życia, i człowiek stał się istotą żywą»."
+      }
     ]
   },
   "before_man_lonely": {
     "title": "Tchnienie życia",
     "text": "Postać człowieka leży nieruchomo w prochu.\nCo daje mu życie?",
     "choices": [
-      { "text": "Twoje tchnienie w jego nozdrzach", "feedback": "Poprawnie — Rdz 2,7: Bóg tchnął tchnienie życia w nozdrza człowieka, i stał się on istotą żywą." },
-      { "text": "Woda wylana na glinę", "feedback": "W Rdz 2,7 to TCHNIENIE Boga — nie woda — dało życie człowiekowi." }
+      {
+        "text": "Twoje tchnienie w jego nozdrzach",
+        "feedback": "Rdz 2,7: Bóg tchnął tchnienie życia w nozdrza człowieka, i stał się on istotą żywą."
+      },
+      {
+        "text": "Woda wylana na glinę",
+        "feedback": "W Rdz 2,7 to TCHNIENIE Boga — nie woda — dało życie człowiekowi."
+      }
     ]
   },
   "breath_of_life": {
     "title": "Ogród",
     "text": "Człowiek żyje.\nGdzie go umieszczasz?",
     "choices": [
-      { "text": "Na pustyni, by się wykazał", "feedback": "W Rdz 2,8 Bóg zasadził ogród w Edenie i umieścił tam człowieka." },
-      { "text": "W ogrodzie Eden, aby go uprawiał i strzegł", "feedback": "Poprawnie — Rdz 2,15: «Pan Bóg wziął człowieka i umieścił go w ogrodzie Eden, aby go uprawiał i strzegł»." }
+      {
+        "text": "Na pustyni, by się wykazał",
+        "feedback": "W Rdz 2,8 Bóg zasadził ogród w Edenie i umieścił tam człowieka."
+      },
+      {
+        "text": "W ogrodzie Eden, aby go uprawiał i strzegł",
+        "feedback": "Rdz 2,15: «Pan Bóg wziął człowieka i umieścił go w ogrodzie Eden, aby go uprawiał i strzegł»."
+      }
     ]
   },
   "breath_of_life_sacred": {
     "title": "Eden przygotowany",
     "text": "Człowiek oddycha i żyje.\nJaki dom mu przygotowujesz?",
     "choices": [
-      { "text": "Ogród w Edenie, z każdym drzewem miłym dla oka i dobrym do jedzenia", "feedback": "Poprawnie — Rdz 2,8-9: Bóg zasadził ogród w Edenie z każdym drzewem miłym dla oka i dobrym do jedzenia." },
-      { "text": "Pole cierni i ostów", "feedback": "W Rdz 2,8 Eden był ogrodem rozkoszy. Ciernie i osty pojawiają się dopiero po Upadku (Rdz 3,18)." }
+      {
+        "text": "Ogród w Edenie, z każdym drzewem miłym dla oka i dobrym do jedzenia",
+        "feedback": "Rdz 2,8-9: Bóg zasadził ogród w Edenie z każdym drzewem miłym dla oka i dobrym do jedzenia."
+      },
+      {
+        "text": "Pole cierni i ostów",
+        "feedback": "W Rdz 2,8 Eden był ogrodem rozkoszy. Ciernie i osty pojawiają się dopiero po Upadku (Rdz 3,18)."
+      }
     ]
   },
   "first_garden": {
     "title": "Oto, bardzo dobre",
     "text": "Stworzenie jest ukończone.\nCo mówisz, patrząc na wszystko?",
     "choices": [
-      { "text": "«Oto było bardzo dobre»", "feedback": "Poprawnie — Rdz 1,31: «I widział Bóg wszystko, co uczynił, a było to bardzo dobre»." },
-      { "text": "«To porażka — muszę zacząć od nowa»", "feedback": "W Rdz 1,31 Bóg widział, że wszystko, co uczynił, było bardzo dobre — nie porażką." }
+      {
+        "text": "«Oto było bardzo dobre»",
+        "feedback": "Rdz 1,31: «I widział Bóg wszystko, co uczynił, a było to bardzo dobre»."
+      },
+      {
+        "text": "«To porażka — muszę zacząć od nowa»",
+        "feedback": "W Rdz 1,31 Bóg widział, że wszystko, co uczynił, było bardzo dobre — nie porażką."
+      }
     ]
   },
   "first_garden_wonder": {
     "title": "Szósty dzień ukończony",
     "text": "Człowiek chodzi w ogrodzie. Stworzenie ukończone.\nCo ogłaszasz?",
     "choices": [
-      { "text": "«Oto jest bardzo dobre»", "feedback": "Poprawnie — Rdz 1,31: «I widział Bóg wszystko, co uczynił, a było to bardzo dobre»." },
-      { "text": "«Będę musiał jutro na nowo uczynić ludzi»", "feedback": "W Rdz 1,31 Bóg ogłosił wszystko, co uczynił — w tym ludzi — bardzo dobrym." }
+      {
+        "text": "«Oto jest bardzo dobre»",
+        "feedback": "Rdz 1,31: «I widział Bóg wszystko, co uczynił, a było to bardzo dobre»."
+      },
+      {
+        "text": "«Będę musiał jutro na nowo uczynić ludzi»",
+        "feedback": "W Rdz 1,31 Bóg ogłosił wszystko, co uczynił — w tym ludzi — bardzo dobrym."
+      }
     ]
   },
   "very_good": {
     "title": "Siódmy dzień",
     "text": "Sześć dni stworzenia jest ukończonych.\nCo czynisz siódmego dnia?",
     "choices": [
-      { "text": "Odpocząć i pobłogosławić siódmy dzień, uświęcając go", "feedback": "Poprawnie — Rdz 2,2-3: «W dniu siódmym Bóg ukończył dzieło swoje... I pobłogosławił Bóg dzień siódmy, i uświęcił go»." }
+      {
+        "text": "Odpocząć i pobłogosławić siódmy dzień, uświęcając go",
+        "feedback": "Rdz 2,2-3: «W dniu siódmym Bóg ukończył dzieło swoje... I pobłogosławił Bóg dzień siódmy, i uświęcił go»."
+      }
     ]
   },
   "rest": {

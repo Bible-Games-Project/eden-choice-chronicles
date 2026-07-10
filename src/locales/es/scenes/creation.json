@@ -4,292 +4,520 @@
     "title": "En el principio",
     "text": "Tú eres Dios — Padre, Hijo y Espíritu Santo.\nNada ha sido creado aún. ¿Cuál es tu primer acto?",
     "choices": [
-      { "text": "Permanecer en silencio y solo para siempre", "feedback": "En Génesis 1:1, el primer acto de Dios fue crear los cielos y la tierra." },
-      { "text": "Crear los cielos y la tierra", "feedback": "Correcto — Génesis 1:1: «En el principio creó Dios los cielos y la tierra»." },
-      { "text": "Hablar solo contigo mismo", "feedback": "En Génesis 1:1, Dios no guardó silencio — creó los cielos y la tierra." }
+      {
+        "text": "Permanecer en silencio y solo para siempre",
+        "feedback": "En Génesis 1:1, el primer acto de Dios fue crear los cielos y la tierra."
+      },
+      {
+        "text": "Crear los cielos y la tierra",
+        "feedback": "Génesis 1:1: «En el principio creó Dios los cielos y la tierra»."
+      },
+      {
+        "text": "Hablar solo contigo mismo",
+        "feedback": "En Génesis 1:1, Dios no guardó silencio — creó los cielos y la tierra."
+      }
     ]
   },
   "silence": {
     "title": "La tierra sin forma",
     "text": "La tierra está sin forma y vacía.\nLas tinieblas cubren el abismo. ¿Qué haces?",
     "choices": [
-      { "text": "Decir: «Sea la luz»", "feedback": "Correcto — Génesis 1:3: «Y dijo Dios: Sea la luz»." },
-      { "text": "Ordenar más tinieblas para que lo cubran todo", "feedback": "En Génesis 1:3, Dios dijo «Sea la luz» — no más tinieblas." }
+      {
+        "text": "Decir: «Sea la luz»",
+        "feedback": "Génesis 1:3: «Y dijo Dios: Sea la luz»."
+      },
+      {
+        "text": "Ordenar más tinieblas para que lo cubran todo",
+        "feedback": "En Génesis 1:3, Dios dijo «Sea la luz» — no más tinieblas."
+      }
     ]
   },
   "voice": {
     "title": "El Espíritu sobre las aguas",
     "text": "El Espíritu de Dios se mueve sobre las aguas.\n¿Qué llamas primero a la existencia?",
     "choices": [
-      { "text": "«Sea la luz»", "feedback": "Correcto — la luz fue lo primero que Dios llamó a la existencia (Génesis 1:3)." },
-      { "text": "«Sean los árboles y los animales»", "feedback": "En Génesis 1, Dios creó primero la luz — las plantas vienen en el Día Tres y los animales en los Días Cinco y Seis." }
+      {
+        "text": "«Sea la luz»",
+        "feedback": "la luz fue lo primero que Dios llamó a la existencia (Génesis 1:3)."
+      },
+      {
+        "text": "«Sean los árboles y los animales»",
+        "feedback": "En Génesis 1, Dios creó primero la luz — las plantas vienen en el Día Tres y los animales en los Días Cinco y Seis."
+      }
     ]
   },
   "void": {
     "title": "El abismo",
     "text": "La tierra está sin forma; las tinieblas cubren el abismo.\nEl Espíritu de Dios se mueve sobre las aguas. ¿Qué haces ahora?",
     "choices": [
-      { "text": "Decir: «Sea la luz»", "feedback": "Correcto — Génesis 1:3: «Sea la luz»." },
-      { "text": "Crear seres humanos de inmediato", "feedback": "En Génesis 1, los humanos son creados el sexto día, no primero. La luz viene primero." }
+      {
+        "text": "Decir: «Sea la luz»",
+        "feedback": "Génesis 1:3: «Sea la luz»."
+      },
+      {
+        "text": "Crear seres humanos de inmediato",
+        "feedback": "En Génesis 1, los humanos son creados el sexto día, no primero. La luz viene primero."
+      }
     ]
   },
   "light": {
     "title": "Ha venido la luz",
     "text": "La luz brilla. Ves que la luz es buena.\n¿Cuál es tu siguiente acto en el Día Uno?",
     "choices": [
-      { "text": "Añadir un segundo sol en el cielo", "feedback": "En Génesis 1:4, Dios separó la luz de las tinieblas — no creó un segundo sol." },
-      { "text": "Borrar completamente las tinieblas", "feedback": "En Génesis 1:4-5, Dios no destruyó las tinieblas — las separó de la luz y las llamó Noche." },
-      { "text": "Separar la luz de las tinieblas", "feedback": "Correcto — Génesis 1:4: «Y separó Dios la luz de las tinieblas»." }
+      {
+        "text": "Añadir un segundo sol en el cielo",
+        "feedback": "En Génesis 1:4, Dios separó la luz de las tinieblas — no creó un segundo sol."
+      },
+      {
+        "text": "Borrar completamente las tinieblas",
+        "feedback": "En Génesis 1:4-5, Dios no destruyó las tinieblas — las separó de la luz y las llamó Noche."
+      },
+      {
+        "text": "Separar la luz de las tinieblas",
+        "feedback": "Génesis 1:4: «Y separó Dios la luz de las tinieblas»."
+      }
     ]
   },
   "light_obey": {
     "title": "Día y Noche",
     "text": "La luz brilla y es buena.\n¿Cómo completas el primer día?",
     "choices": [
-      { "text": "Llamar Día a la luz y Noche a las tinieblas", "feedback": "Correcto — Génesis 1:5: «Y llamó Dios a la luz Día, y a las tinieblas llamó Noche»." },
-      { "text": "Crear ahora el sol, la luna y las estrellas", "feedback": "En Génesis 1, el sol, la luna y las estrellas son creados el cuarto día — no el primero." }
+      {
+        "text": "Llamar Día a la luz y Noche a las tinieblas",
+        "feedback": "Génesis 1:5: «Y llamó Dios a la luz Día, y a las tinieblas llamó Noche»."
+      },
+      {
+        "text": "Crear ahora el sol, la luna y las estrellas",
+        "feedback": "En Génesis 1, el sol, la luna y las estrellas son creados el cuarto día — no el primero."
+      }
     ]
   },
   "light_awe": {
     "title": "El primer día",
     "text": "Hay luz. Hay tinieblas.\n¿Qué completa el primer día?",
     "choices": [
-      { "text": "Hacer ahora las criaturas del mar", "feedback": "En Génesis 1:20-23, las criaturas del mar vienen en el Día Cinco. El Día Uno separa la luz y las tinieblas." },
-      { "text": "Llamar Día a la luz y Noche a las tinieblas", "feedback": "Correcto — Génesis 1:5: Dios llamó Día a la luz y Noche a las tinieblas." }
+      {
+        "text": "Hacer ahora las criaturas del mar",
+        "feedback": "En Génesis 1:20-23, las criaturas del mar vienen en el Día Cinco. El Día Uno separa la luz y las tinieblas."
+      },
+      {
+        "text": "Llamar Día a la luz y Noche a las tinieblas",
+        "feedback": "Génesis 1:5: Dios llamó Día a la luz y Noche a las tinieblas."
+      }
     ]
   },
   "warmth": {
     "title": "El segundo día",
     "text": "El primer día está completo.\n¿Qué creas en el Día Dos?",
     "choices": [
-      { "text": "Una expansión para separar las aguas de arriba de las de abajo", "feedback": "Correcto — Génesis 1:6-7: Dios hizo una expansión y separó las aguas de arriba de las de abajo." },
-      { "text": "Plantar el primer jardín", "feedback": "En Génesis 1:11, las plantas vienen en el Día Tres. El Día Dos es la expansión — el cielo." }
+      {
+        "text": "Una expansión para separar las aguas de arriba de las de abajo",
+        "feedback": "Génesis 1:6-7: Dios hizo una expansión y separó las aguas de arriba de las de abajo."
+      },
+      {
+        "text": "Plantar el primer jardín",
+        "feedback": "En Génesis 1:11, las plantas vienen en el Día Tres. El Día Dos es la expansión — el cielo."
+      }
     ]
   },
   "day_night": {
     "title": "El segundo día",
     "text": "Tarde y mañana — el primer día ha terminado.\n¿Qué viene en el Día Dos?",
     "choices": [
-      { "text": "Crear la expansión y llamarla Cielo", "feedback": "Correcto — Génesis 1:8: «Y llamó Dios a la expansión Cielos»." },
-      { "text": "Crear los peces y las aves", "feedback": "En Génesis 1:20-23, los peces y las aves vienen en el Día Cinco — no en el Día Dos." }
+      {
+        "text": "Crear la expansión y llamarla Cielo",
+        "feedback": "Génesis 1:8: «Y llamó Dios a la expansión Cielos»."
+      },
+      {
+        "text": "Crear los peces y las aves",
+        "feedback": "En Génesis 1:20-23, los peces y las aves vienen en el Día Cinco — no en el Día Dos."
+      }
     ]
   },
   "sky": {
     "title": "El tercer día",
     "text": "La expansión del Cielo está hecha.\n¿Cuál es tu primer acto en el Día Tres?",
     "choices": [
-      { "text": "Ordenar que aparezca lo seco sin mover las aguas", "feedback": "En Génesis 1:9, Dios primero reunió las aguas — luego apareció lo seco." },
-      { "text": "Reunir las aguas en un solo lugar", "feedback": "Correcto — Génesis 1:9: «Júntense las aguas en un lugar, y descúbrase lo seco»." },
-      { "text": "Crear el sol para calentar el cielo", "feedback": "En Génesis 1:14-16, el sol es hecho el cuarto día — no el tercero." }
+      {
+        "text": "Ordenar que aparezca lo seco sin mover las aguas",
+        "feedback": "En Génesis 1:9, Dios primero reunió las aguas — luego apareció lo seco."
+      },
+      {
+        "text": "Reunir las aguas en un solo lugar",
+        "feedback": "Génesis 1:9: «Júntense las aguas en un lugar, y descúbrase lo seco»."
+      },
+      {
+        "text": "Crear el sol para calentar el cielo",
+        "feedback": "En Génesis 1:14-16, el sol es hecho el cuarto día — no el tercero."
+      }
     ]
   },
   "sky_vast": {
     "title": "El tercer día",
     "text": "La expansión del Cielo está completa.\n¿Qué viene en el Día Tres?",
     "choices": [
-      { "text": "Crear primero las estrellas", "feedback": "En Génesis 1:14-16, las estrellas son creadas el cuarto día. El Día Tres es lo seco y los mares." },
-      { "text": "Reunir las aguas en mares para que aparezca lo seco", "feedback": "Correcto — Génesis 1:9-10: Dios reunió las aguas en mares y apareció lo seco." }
+      {
+        "text": "Crear primero las estrellas",
+        "feedback": "En Génesis 1:14-16, las estrellas son creadas el cuarto día. El Día Tres es lo seco y los mares."
+      },
+      {
+        "text": "Reunir las aguas en mares para que aparezca lo seco",
+        "feedback": "Génesis 1:9-10: Dios reunió las aguas en mares y apareció lo seco."
+      }
     ]
   },
   "waters_gather": {
     "title": "Aparece lo seco",
     "text": "Las aguas se reúnen. Emerge lo seco.\n¿Qué haces después en el Día Tres?",
     "choices": [
-      { "text": "Cubrir la tierra de plantas, semillas y árboles frutales", "feedback": "Correcto — Génesis 1:11: «Produzca la tierra hierba verde, hierba que dé semilla, árbol de fruto»." },
-      { "text": "Llenar los mares de peces ahora mismo", "feedback": "En Génesis 1:20-21, los peces vienen en el Día Cinco. El Día Tres termina con plantas y árboles." }
+      {
+        "text": "Cubrir la tierra de plantas, semillas y árboles frutales",
+        "feedback": "Génesis 1:11: «Produzca la tierra hierba verde, hierba que dé semilla, árbol de fruto»."
+      },
+      {
+        "text": "Llenar los mares de peces ahora mismo",
+        "feedback": "En Génesis 1:20-21, los peces vienen en el Día Cinco. El Día Tres termina con plantas y árboles."
+      }
     ]
   },
   "expanse": {
     "title": "El tercer día",
     "text": "Los cielos se extienden en lo alto.\n¿Qué haces en el Día Tres?",
     "choices": [
-      { "text": "Hacer surgir lo seco, las plantas y los árboles frutales", "feedback": "Correcto — Génesis 1:9-12: lo seco, los mares y la vegetación aparecen en el Día Tres." },
-      { "text": "Formar a Adán del polvo", "feedback": "En Génesis 2:7, Adán es formado el Día Seis — no el Día Tres." }
+      {
+        "text": "Hacer surgir lo seco, las plantas y los árboles frutales",
+        "feedback": "Génesis 1:9-12: lo seco, los mares y la vegetación aparecen en el Día Tres."
+      },
+      {
+        "text": "Formar a Adán del polvo",
+        "feedback": "En Génesis 2:7, Adán es formado el Día Seis — no el Día Tres."
+      }
     ]
   },
   "land": {
     "title": "La vegetación",
     "text": "Aparece lo seco.\n¿Con qué tipo de vida lo cubres?",
     "choices": [
-      { "text": "Plantas, hierbas y árboles frutales — cada uno según su especie", "feedback": "Correcto — Génesis 1:11-12: plantas y árboles cada uno «según su género»." },
-      { "text": "Solo flores, y sin árboles", "feedback": "En Génesis 1:11, Dios hizo plantas, hierbas Y árboles frutales — no solo flores." },
-      { "text": "Animales salvajes que vaguen por las montañas", "feedback": "En Génesis 1:24-25, los animales terrestres vienen el sexto día — no el tercero." }
+      {
+        "text": "Plantas, hierbas y árboles frutales — cada uno según su especie",
+        "feedback": "Génesis 1:11-12: plantas y árboles cada uno «según su género»."
+      },
+      {
+        "text": "Solo flores, y sin árboles",
+        "feedback": "En Génesis 1:11, Dios hizo plantas, hierbas Y árboles frutales — no solo flores."
+      },
+      {
+        "text": "Animales salvajes que vaguen por las montañas",
+        "feedback": "En Génesis 1:24-25, los animales terrestres vienen el sexto día — no el tercero."
+      }
     ]
   },
   "land_emerge": {
     "title": "La tierra produce",
     "text": "El suelo seco está listo.\n¿Qué brota en el Día Tres?",
     "choices": [
-      { "text": "Vegetación con semilla y árboles frutales que den fruto", "feedback": "Correcto — Génesis 1:11: «hierba que da semilla, árbol que da fruto... según su género»." },
-      { "text": "Abejas y mariposas antes que cualquier planta", "feedback": "En Génesis 1:24-25, los seres que se arrastran vienen el Día Seis. El Día Tres trae primero las plantas." }
+      {
+        "text": "Vegetación con semilla y árboles frutales que den fruto",
+        "feedback": "Génesis 1:11: «hierba que da semilla, árbol que da fruto... según su género»."
+      },
+      {
+        "text": "Abejas y mariposas antes que cualquier planta",
+        "feedback": "En Génesis 1:24-25, los seres que se arrastran vienen el Día Seis. El Día Tres trae primero las plantas."
+      }
     ]
   },
   "plants": {
     "title": "El cuarto día",
     "text": "El Día Tres está completo — plantas y árboles cubren la tierra.\n¿Qué creas en el Día Cuatro?",
     "choices": [
-      { "text": "Lumbreras en la expansión — sol, luna y estrellas", "feedback": "Correcto — Génesis 1:14-16: Dios hizo el sol, la luna y las estrellas en el Día Cuatro." },
-      { "text": "Criaturas marinas y aves", "feedback": "En Génesis 1:20-23, las criaturas marinas y las aves vienen en el Día Cinco — no en el Día Cuatro." }
+      {
+        "text": "Lumbreras en la expansión — sol, luna y estrellas",
+        "feedback": "Génesis 1:14-16: Dios hizo el sol, la luna y las estrellas en el Día Cuatro."
+      },
+      {
+        "text": "Criaturas marinas y aves",
+        "feedback": "En Génesis 1:20-23, las criaturas marinas y las aves vienen en el Día Cinco — no en el Día Cuatro."
+      }
     ]
   },
   "flowers": {
     "title": "El cuarto día",
     "text": "Las plantas cubren la tierra.\n¿Qué viene en el Día Cuatro?",
     "choices": [
-      { "text": "Adán y Eva", "feedback": "En Génesis 1:26-27, los humanos son creados el Día Seis — no el Día Cuatro." },
-      { "text": "El sol, la luna y las estrellas", "feedback": "Correcto — Génesis 1:14-19: Dios puso el sol, la luna y las estrellas en la expansión de los cielos." }
+      {
+        "text": "Adán y Eva",
+        "feedback": "En Génesis 1:26-27, los humanos son creados el Día Seis — no el Día Cuatro."
+      },
+      {
+        "text": "El sol, la luna y las estrellas",
+        "feedback": "Génesis 1:14-19: Dios puso el sol, la luna y las estrellas en la expansión de los cielos."
+      }
     ]
   },
   "mountain": {
     "title": "El cuarto día",
     "text": "La tierra está llena de plantas y árboles.\n¿Qué haces en el Día Cuatro?",
     "choices": [
-      { "text": "El sol, la luna y las estrellas en los cielos", "feedback": "Correcto — Génesis 1:14-19: Dios puso dos grandes lumbreras y las estrellas en la expansión de los cielos." },
-      { "text": "Lluvia, nieve y nubes", "feedback": "En Génesis 1, el Día Cuatro se trata del sol, la luna y las estrellas — no del clima." }
+      {
+        "text": "El sol, la luna y las estrellas en los cielos",
+        "feedback": "Génesis 1:14-19: Dios puso dos grandes lumbreras y las estrellas en la expansión de los cielos."
+      },
+      {
+        "text": "Lluvia, nieve y nubes",
+        "feedback": "En Génesis 1, el Día Cuatro se trata del sol, la luna y las estrellas — no del clima."
+      }
     ]
   },
   "stars": {
     "title": "La lumbrera mayor y la menor",
     "text": "Las lumbreras están puestas en los cielos.\n¿Cómo las ordenas?",
     "choices": [
-      { "text": "Una sola lumbrera para regir tanto el día como la noche", "feedback": "En Génesis 1:16, Dios hizo DOS grandes lumbreras — la mayor para el día y la menor para la noche." },
-      { "text": "Solo estrellas — ni sol ni luna", "feedback": "En Génesis 1:16, Dios hizo el sol y la luna además de las estrellas." },
-      { "text": "Una lumbrera mayor para el día, una menor para la noche, y las estrellas", "feedback": "Correcto — Génesis 1:16: «la lumbrera mayor para que señorease en el día, y la lumbrera menor para que señorease en la noche; hizo también las estrellas»." }
+      {
+        "text": "Una sola lumbrera para regir tanto el día como la noche",
+        "feedback": "En Génesis 1:16, Dios hizo DOS grandes lumbreras — la mayor para el día y la menor para la noche."
+      },
+      {
+        "text": "Solo estrellas — ni sol ni luna",
+        "feedback": "En Génesis 1:16, Dios hizo el sol y la luna además de las estrellas."
+      },
+      {
+        "text": "Una lumbrera mayor para el día, una menor para la noche, y las estrellas",
+        "feedback": "Génesis 1:16: «la lumbrera mayor para que señorease en el día, y la lumbrera menor para que señorease en la noche; hizo también las estrellas»."
+      }
     ]
   },
   "stars_delight": {
     "title": "Lumbreras en los cielos",
     "text": "El Día Cuatro continúa.\n¿Qué es puesto en su lugar?",
     "choices": [
-      { "text": "El sol, la luna e incontables estrellas", "feedback": "Correcto — Génesis 1:14-16: sol, luna y estrellas — para señales, estaciones, días y años." },
-      { "text": "Solo una pequeña lumbrera para todo el cielo", "feedback": "En Génesis 1:16, Dios hizo DOS grandes lumbreras, además de las estrellas — no una sola pequeña." }
+      {
+        "text": "El sol, la luna e incontables estrellas",
+        "feedback": "Génesis 1:14-16: sol, luna y estrellas — para señales, estaciones, días y años."
+      },
+      {
+        "text": "Solo una pequeña lumbrera para todo el cielo",
+        "feedback": "En Génesis 1:16, Dios hizo DOS grandes lumbreras, además de las estrellas — no una sola pequeña."
+      }
     ]
   },
   "stars_vision": {
     "title": "Estrellas sin número",
     "text": "Colocas lumbreras en los cielos.\n¿Cuántas estrellas habrá?",
     "choices": [
-      { "text": "Incontables — sin número", "feedback": "Correcto — Génesis 15:5 y 22:17 describen las estrellas del cielo como imposibles de contar." },
-      { "text": "Exactamente siete estrellas — ni una más", "feedback": "En la Escritura, las estrellas de Dios son innumerables — «como las estrellas del cielo en multitud» (Génesis 22:17)." }
+      {
+        "text": "Incontables — sin número",
+        "feedback": "Génesis 15:5 y 22:17 describen las estrellas del cielo como imposibles de contar."
+      },
+      {
+        "text": "Exactamente siete estrellas — ni una más",
+        "feedback": "En la Escritura, las estrellas de Dios son innumerables — «como las estrellas del cielo en multitud» (Génesis 22:17)."
+      }
     ]
   },
   "countless_stars": {
     "title": "El quinto día",
     "text": "Las lumbreras del Día Cuatro están puestas.\n¿Qué creas en el Día Cinco?",
     "choices": [
-      { "text": "Criaturas que llenen las aguas, y aves que vuelen arriba", "feedback": "Correcto — Génesis 1:20-21: «Produzcan las aguas seres vivientes, y aves que vuelen sobre la tierra»." },
-      { "text": "Árboles, hierba y fruto", "feedback": "En Génesis 1:11, las plantas vienen en el Día Tres — no en el Día Cinco." }
+      {
+        "text": "Criaturas que llenen las aguas, y aves que vuelen arriba",
+        "feedback": "Génesis 1:20-21: «Produzcan las aguas seres vivientes, y aves que vuelen sobre la tierra»."
+      },
+      {
+        "text": "Árboles, hierba y fruto",
+        "feedback": "En Génesis 1:11, las plantas vienen en el Día Tres — no en el Día Cinco."
+      }
     ]
   },
   "moonrise": {
     "title": "El quinto día",
     "text": "La noche tiene su luna; el día, su sol.\n¿Qué seres vivos llenan el Día Cinco?",
     "choices": [
-      { "text": "Criaturas marinas y aves voladoras", "feedback": "Correcto — Génesis 1:20-23: las criaturas marinas y las aves llenan las aguas y los cielos en el Día Cinco." },
-      { "text": "Ganado y seres que se arrastran", "feedback": "En Génesis 1:24-25, el ganado y los seres que se arrastran vienen en el Día Seis — no en el Día Cinco." }
+      {
+        "text": "Criaturas marinas y aves voladoras",
+        "feedback": "Génesis 1:20-23: las criaturas marinas y las aves llenan las aguas y los cielos en el Día Cinco."
+      },
+      {
+        "text": "Ganado y seres que se arrastran",
+        "feedback": "En Génesis 1:24-25, el ganado y los seres que se arrastran vienen en el Día Seis — no en el Día Cinco."
+      }
     ]
   },
   "sea_dawn": {
     "title": "Aguas y cielos",
     "text": "Comienza el Día Cinco.\n¿Qué criaturas creas?",
     "choices": [
-      { "text": "Grandes monstruos marinos, peces y toda ave alada", "feedback": "Correcto — Génesis 1:20-22: Dios creó los grandes monstruos marinos y toda ave alada, y los bendijo." },
-      { "text": "Solo abejas para las flores", "feedback": "En Génesis 1:20-21, el Día Cinco trae grandes criaturas marinas y toda ave alada — no solo insectos." }
+      {
+        "text": "Grandes monstruos marinos, peces y toda ave alada",
+        "feedback": "Génesis 1:20-22: Dios creó los grandes monstruos marinos y toda ave alada, y los bendijo."
+      },
+      {
+        "text": "Solo abejas para las flores",
+        "feedback": "En Génesis 1:20-21, el Día Cinco trae grandes criaturas marinas y toda ave alada — no solo insectos."
+      }
     ]
   },
   "sea_creatures": {
     "title": "Fructificad y multiplicaos",
     "text": "Los mares bullen; las aves vuelan en lo alto.\n¿Qué bendición pronuncias sobre ellos?",
     "choices": [
-      { "text": "«Fructificad y multiplicaos, y llenad las aguas y la tierra»", "feedback": "Correcto — Génesis 1:22: «Fructificad y multiplicaos, y llenad las aguas en los mares, y multiplíquense las aves en la tierra»." },
-      { "text": "«Volved al polvo — habéis fallado»", "feedback": "En Génesis 1:22, Dios BENDIJO a las criaturas para multiplicarse — no las destruyó." }
+      {
+        "text": "«Fructificad y multiplicaos, y llenad las aguas y la tierra»",
+        "feedback": "Génesis 1:22: «Fructificad y multiplicaos, y llenad las aguas en los mares, y multiplíquense las aves en la tierra»."
+      },
+      {
+        "text": "«Volved al polvo — habéis fallado»",
+        "feedback": "En Génesis 1:22, Dios BENDIJO a las criaturas para multiplicarse — no las destruyó."
+      }
     ]
   },
   "bird_flight": {
     "title": "El sexto día",
     "text": "El mar y el cielo están llenos.\n¿Qué viene en el Día Seis?",
     "choices": [
-      { "text": "Ganado, bestias salvajes y seres que se arrastran por la tierra", "feedback": "Correcto — Génesis 1:24-25: ganado, bestias de la tierra y seres que se arrastran en el Día Seis." },
-      { "text": "Más estrellas en el cielo", "feedback": "Las estrellas fueron hechas en el Día Cuatro. El Día Seis trae los animales terrestres — y los humanos." }
+      {
+        "text": "Ganado, bestias salvajes y seres que se arrastran por la tierra",
+        "feedback": "Génesis 1:24-25: ganado, bestias de la tierra y seres que se arrastran en el Día Seis."
+      },
+      {
+        "text": "Más estrellas en el cielo",
+        "feedback": "Las estrellas fueron hechas en el Día Cuatro. El Día Seis trae los animales terrestres — y los humanos."
+      }
     ]
   },
   "land_creatures": {
     "title": "A nuestra imagen",
     "text": "La tierra rebosa de animales.\n¿Cuál es tu obra final de la creación?",
     "choices": [
-      { "text": "Decir: «Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza»", "feedback": "Correcto — Génesis 1:26: «Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza»." },
-      { "text": "Convertir a uno de los animales en un humano", "feedback": "En Génesis 2:7, Dios formó al hombre del polvo de la tierra — no de un animal." }
+      {
+        "text": "Decir: «Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza»",
+        "feedback": "Génesis 1:26: «Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza»."
+      },
+      {
+        "text": "Convertir a uno de los animales en un humano",
+        "feedback": "En Génesis 2:7, Dios formó al hombre del polvo de la tierra — no de un animal."
+      }
     ]
   },
   "land_creatures_wind": {
     "title": "La corona de la creación",
     "text": "Los animales llenan la tierra.\n¿Qué falta todavía?",
     "choices": [
-      { "text": "Declarar la creación terminada — no se necesita nada más", "feedback": "En Génesis 1:26, después de los animales, Dios dijo «Hagamos al hombre a nuestra imagen». La creación aún no estaba completa." },
-      { "text": "Un ser hecho a imagen de Dios", "feedback": "Correcto — Génesis 1:26-27: los humanos son hechos a imagen y semejanza de Dios." }
+      {
+        "text": "Declarar la creación terminada — no se necesita nada más",
+        "feedback": "En Génesis 1:26, después de los animales, Dios dijo «Hagamos al hombre a nuestra imagen». La creación aún no estaba completa."
+      },
+      {
+        "text": "Un ser hecho a imagen de Dios",
+        "feedback": "Génesis 1:26-27: los humanos son hechos a imagen y semejanza de Dios."
+      }
     ]
   },
   "among_animals": {
     "title": "Hagamos al hombre",
     "text": "Ningún animal lleva tu imagen.\n¿Cómo haces al primer hombre?",
     "choices": [
-      { "text": "Transformar un león en un hombre", "feedback": "En Génesis 2:7, Dios formó al hombre del polvo de la tierra — no de otra criatura." },
-      { "text": "Formarlo del polvo de la tierra", "feedback": "Correcto — Génesis 2:7: «Entonces Jehová Dios formó al hombre del polvo de la tierra»." }
+      {
+        "text": "Transformar un león en un hombre",
+        "feedback": "En Génesis 2:7, Dios formó al hombre del polvo de la tierra — no de otra criatura."
+      },
+      {
+        "text": "Formarlo del polvo de la tierra",
+        "feedback": "Génesis 2:7: «Entonces Jehová Dios formó al hombre del polvo de la tierra»."
+      }
     ]
   },
   "before_man": {
     "title": "Formado del polvo",
     "text": "Formas a un hombre del polvo de la tierra.\n¿Cómo se convierte en un ser vivo?",
     "choices": [
-      { "text": "Pronunciar una palabra y dejar que despierte por sí mismo", "feedback": "En Génesis 2:7, Dios específicamente sopló aliento de vida en las narices del hombre." },
-      { "text": "Soplar aliento de vida en sus narices", "feedback": "Correcto — Génesis 2:7: «sopló en su nariz aliento de vida, y fue el hombre un ser viviente»." }
+      {
+        "text": "Pronunciar una palabra y dejar que despierte por sí mismo",
+        "feedback": "En Génesis 2:7, Dios específicamente sopló aliento de vida en las narices del hombre."
+      },
+      {
+        "text": "Soplar aliento de vida en sus narices",
+        "feedback": "Génesis 2:7: «sopló en su nariz aliento de vida, y fue el hombre un ser viviente»."
+      }
     ]
   },
   "before_man_lonely": {
     "title": "El aliento de vida",
     "text": "La forma del hombre yace inmóvil en el polvo.\n¿Qué le da vida?",
     "choices": [
-      { "text": "Tu aliento en sus narices", "feedback": "Correcto — Génesis 2:7: Dios sopló el aliento de vida en las narices del hombre, y se convirtió en un ser viviente." },
-      { "text": "Agua vertida sobre el barro", "feedback": "En Génesis 2:7, fue el ALIENTO de Dios — no el agua — lo que dio vida al hombre." }
+      {
+        "text": "Tu aliento en sus narices",
+        "feedback": "Génesis 2:7: Dios sopló el aliento de vida en las narices del hombre, y se convirtió en un ser viviente."
+      },
+      {
+        "text": "Agua vertida sobre el barro",
+        "feedback": "En Génesis 2:7, fue el ALIENTO de Dios — no el agua — lo que dio vida al hombre."
+      }
     ]
   },
   "breath_of_life": {
     "title": "El jardín",
     "text": "El hombre está vivo.\n¿Dónde lo colocas?",
     "choices": [
-      { "text": "En un desierto para que se demuestre a sí mismo", "feedback": "En Génesis 2:8, Dios plantó un huerto en Edén y colocó allí al hombre." },
-      { "text": "En el huerto del Edén, para que lo labre y lo guarde", "feedback": "Correcto — Génesis 2:15: «Tomó, pues, Jehová Dios al hombre, y lo puso en el huerto de Edén, para que lo labrara y lo guardase»." }
+      {
+        "text": "En un desierto para que se demuestre a sí mismo",
+        "feedback": "En Génesis 2:8, Dios plantó un huerto en Edén y colocó allí al hombre."
+      },
+      {
+        "text": "En el huerto del Edén, para que lo labre y lo guarde",
+        "feedback": "Génesis 2:15: «Tomó, pues, Jehová Dios al hombre, y lo puso en el huerto de Edén, para que lo labrara y lo guardase»."
+      }
     ]
   },
   "breath_of_life_sacred": {
     "title": "El Edén preparado",
     "text": "El hombre respira y vive.\n¿Qué hogar preparas para él?",
     "choices": [
-      { "text": "Un huerto en Edén, con todo árbol delicioso a la vista y bueno para comer", "feedback": "Correcto — Génesis 2:8-9: Dios plantó un huerto en Edén con todo árbol delicioso a la vista y bueno para comer." },
-      { "text": "Un campo de espinos y cardos", "feedback": "En Génesis 2:8, el Edén era un huerto de deleite. Los espinos y cardos llegan solo después de la Caída (Génesis 3:18)." }
+      {
+        "text": "Un huerto en Edén, con todo árbol delicioso a la vista y bueno para comer",
+        "feedback": "Génesis 2:8-9: Dios plantó un huerto en Edén con todo árbol delicioso a la vista y bueno para comer."
+      },
+      {
+        "text": "Un campo de espinos y cardos",
+        "feedback": "En Génesis 2:8, el Edén era un huerto de deleite. Los espinos y cardos llegan solo después de la Caída (Génesis 3:18)."
+      }
     ]
   },
   "first_garden": {
     "title": "He aquí, muy bueno",
     "text": "La creación está completa.\n¿Qué dices al contemplarlo todo?",
     "choices": [
-      { "text": "«He aquí, era bueno en gran manera»", "feedback": "Correcto — Génesis 1:31: «Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera»." },
-      { "text": "«Esto es un fracaso — debo empezar de nuevo»", "feedback": "En Génesis 1:31, Dios vio que todo lo que había hecho era muy bueno — no un fracaso." }
+      {
+        "text": "«He aquí, era bueno en gran manera»",
+        "feedback": "Génesis 1:31: «Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera»."
+      },
+      {
+        "text": "«Esto es un fracaso — debo empezar de nuevo»",
+        "feedback": "En Génesis 1:31, Dios vio que todo lo que había hecho era muy bueno — no un fracaso."
+      }
     ]
   },
   "first_garden_wonder": {
     "title": "El sexto día está completo",
     "text": "El hombre camina en el huerto. La creación está terminada.\n¿Qué declaras?",
     "choices": [
-      { "text": "«He aquí, es bueno en gran manera»", "feedback": "Correcto — Génesis 1:31: «Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera»." },
-      { "text": "«Tendré que rehacer a los humanos mañana»", "feedback": "En Génesis 1:31, Dios declaró todo lo que había hecho — incluidos los humanos — bueno en gran manera." }
+      {
+        "text": "«He aquí, es bueno en gran manera»",
+        "feedback": "Génesis 1:31: «Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera»."
+      },
+      {
+        "text": "«Tendré que rehacer a los humanos mañana»",
+        "feedback": "En Génesis 1:31, Dios declaró todo lo que había hecho — incluidos los humanos — bueno en gran manera."
+      }
     ]
   },
   "very_good": {
     "title": "El séptimo día",
     "text": "Los seis días de la creación están completos.\n¿Qué haces en el séptimo día?",
     "choices": [
-      { "text": "Reposar, y bendecir el séptimo día, santificándolo", "feedback": "Correcto — Génesis 2:2-3: «Y acabó Dios en el día séptimo la obra que hizo... Y bendijo Dios al día séptimo, y lo santificó»." }
+      {
+        "text": "Reposar, y bendecir el séptimo día, santificándolo",
+        "feedback": "Génesis 2:2-3: «Y acabó Dios en el día séptimo la obra que hizo... Y bendijo Dios al día séptimo, y lo santificó»."
+      }
     ]
   },
   "rest": {
