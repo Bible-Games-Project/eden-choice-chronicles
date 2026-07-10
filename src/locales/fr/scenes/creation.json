@@ -1,533 +1,305 @@
 {
   "storyTitle": "La Création du Monde",
   "start": {
-    "title": "Avant toutes choses",
-    "text": "Rien n'existe encore.\nSeulement toi — et les ténèbres profondes et infinies.",
+    "title": "Au commencement",
+    "text": "Tu es Dieu — Père, Fils et Saint-Esprit.\nRien n'a encore été créé. Quel est ton premier acte ?",
     "choices": [
-      {
-        "text": "Reste immobile — sens le vide",
-        "feedback": "Tu attends. L'obscurité se fait plus pressante — patiente, lourde."
-      },
-      {
-        "text": "Tends la main dans l'obscurité",
-        "feedback": "Ta main s'étire. Quelque chose s'agite sous la surface."
-      },
-      {
-        "text": "Parle — brise le silence",
-        "feedback": "Un son monte du plus profond de toi — le premier son jamais produit."
-      }
+      { "text": "Rester silencieux et seul pour toujours", "feedback": "Dans Genèse 1:1, le premier acte de Dieu fut de créer les cieux et la terre." },
+      { "text": "Créer les cieux et la terre", "feedback": "Correct — Genèse 1:1 : « Au commencement, Dieu créa les cieux et la terre »." },
+      { "text": "Ne parler qu'à toi-même", "feedback": "Dans Genèse 1:1, Dieu n'est pas resté silencieux — Il a créé les cieux et la terre." }
     ]
   },
   "silence": {
-    "title": "Le Grand Silence",
-    "text": "Tu attends dans le calme.\nLe vide fait mal — il a besoin de quelque chose de plus.",
+    "title": "La terre informe",
+    "text": "La terre est informe et vide.\nLes ténèbres couvrent l'abîme. Que fais-tu ?",
     "choices": [
-      {
-        "text": "Laisse le premier mot se former",
-        "feedback": "Le mot se rassemble en toi — lourd de sens."
-      },
-      {
-        "text": "Respire sur les eaux",
-        "feedback": "Ton souffle ondule sur l'abîme. Quelque chose s'éveille."
-      }
+      { "text": "Dire : « Que la lumière soit »", "feedback": "Correct — Genèse 1:3 : « Dieu dit : Que la lumière soit »." },
+      { "text": "Commander plus de ténèbres pour tout couvrir", "feedback": "Dans Genèse 1:3, Dieu a dit « Que la lumière soit » — pas plus de ténèbres." }
     ]
   },
   "voice": {
-    "title": "La Parole",
-    "text": "Ta voix déchire le néant.\nElle porte le poids de l'éternité.",
+    "title": "L'Esprit sur les eaux",
+    "text": "L'Esprit de Dieu se meut au-dessus des eaux.\nQue fais-tu naître en premier par la parole ?",
     "choices": [
-      {
-        "text": "Ordonne — que la lumière soit",
-        "feedback": "L'ordre explose de toi. Il n'y a pas de retour en arrière."
-      },
-      {
-        "text": "Murmure-le doucement à l'existence",
-        "feedback": "Le murmure quitte tes lèvres — doux, mais imparable."
-      }
+      { "text": "« Que la lumière soit »", "feedback": "Correct — la lumière fut la première chose que Dieu appela à l'existence (Genèse 1:3)." },
+      { "text": "« Que les arbres et les animaux soient »", "feedback": "Dans Genèse 1, Dieu a créé la lumière d'abord — les plantes viennent le Troisième Jour et les animaux les Cinquième et Sixième." }
     ]
   },
   "void": {
-    "title": "L'Abîme informe",
-    "text": "Des eaux infinies s'étendent sous toi.\nTu planes au-dessus de l'abîme.",
+    "title": "L'abîme",
+    "text": "La terre est informe ; les ténèbres couvrent l'abîme.\nL'Esprit de Dieu se meut au-dessus des eaux. Et maintenant ?",
     "choices": [
-      {
-        "text": "Descends vers les eaux",
-        "feedback": "Tu t'abaisses. L'eau tremble à ta présence."
-      },
-      {
-        "text": "Agite la surface de ton souffle",
-        "feedback": "Ton souffle se meut à la surface de l'abîme."
-      }
+      { "text": "Dire : « Que la lumière soit »", "feedback": "Correct — Genèse 1:3 : « Que la lumière soit »." },
+      { "text": "Créer immédiatement les humains", "feedback": "Dans Genèse 1, les humains sont créés le sixième jour, pas en premier. La lumière vient d'abord." }
     ]
   },
   "light": {
-    "title": "Que la lumière soit",
-    "text": "La lumière jaillit de toi — aveuglante, infinie.\nLa chaleur inonde le vide pour la première fois.",
+    "title": "La lumière est venue",
+    "text": "La lumière brille. Tu vois que la lumière est bonne.\nQuel est ton prochain acte au Premier Jour ?",
     "choices": [
-      {
-        "text": "Laisse la lumière s'étendre partout",
-        "feedback": "La lumière se propage — remplissant chaque vide."
-      },
-      {
-        "text": "Façonne la lumière — donne-lui des contours",
-        "feedback": "Tu tiens la lumière dans tes mains. Elle palpite, vivante."
-      },
-      {
-        "text": "Sépare-la des ténèbres",
-        "feedback": "Tu traces une ligne entre la lumière et l'obscurité. L'ordre commence."
-      }
+      { "text": "Ajouter un second soleil dans le ciel", "feedback": "Dans Genèse 1:4, Dieu a séparé la lumière des ténèbres — Il n'a pas créé un second soleil." },
+      { "text": "Effacer complètement les ténèbres", "feedback": "Dans Genèse 1:4-5, Dieu n'a pas détruit les ténèbres — Il les a séparées de la lumière et les a appelées Nuit." },
+      { "text": "Séparer la lumière des ténèbres", "feedback": "Correct — Genèse 1:4 : « Et Dieu sépara la lumière d'avec les ténèbres »." }
     ]
   },
   "light_obey": {
-    "title": "Que la lumière soit",
-    "text": "Ton commandement ébranle le vide.\nLa lumière explose — infinie, aveuglante, vivante.",
+    "title": "Jour et Nuit",
+    "text": "La lumière brille et elle est bonne.\nComment achèves-tu le premier jour ?",
     "choices": [
-      {
-        "text": "Garde la lumière près de toi",
-        "feedback": "La chaleur se rassemble autour de toi — dorée, tendre."
-      },
-      {
-        "text": "Pousse-la vers l'extérieur — remplis tout",
-        "feedback": "La lumière obéit. Elle inonde le vide sans fin."
-      }
+      { "text": "Appeler la lumière Jour et les ténèbres Nuit", "feedback": "Correct — Genèse 1:5 : « Dieu appela la lumière Jour, et les ténèbres il les appela Nuit »." },
+      { "text": "Créer maintenant le soleil, la lune et les étoiles", "feedback": "Dans Genèse 1, le soleil, la lune et les étoiles sont créés le quatrième jour — pas le premier." }
     ]
   },
   "light_awe": {
-    "title": "Que la lumière soit",
-    "text": "La lumière s'élève doucement de ton souffle.\nD'abord douce — puis flamboyante, imparable.",
+    "title": "Le premier jour",
+    "text": "Il y a la lumière. Il y a les ténèbres.\nQu'est-ce qui achève le premier jour ?",
     "choices": [
-      {
-        "text": "Façonne-la en quelque chose de plus grand",
-        "feedback": "Tu presses la lumière vers le haut — elle s'étire en ciel."
-      },
-      {
-        "text": "Divise la lumière des ténèbres",
-        "feedback": "Ombre et éclat se séparent à ton toucher."
-      }
+      { "text": "Faire les créatures marines maintenant", "feedback": "Dans Genèse 1:20-23, les créatures marines viennent au Jour Cinq. Le Jour Un sépare la lumière et les ténèbres." },
+      { "text": "Appeler la lumière Jour et les ténèbres Nuit", "feedback": "Correct — Genèse 1:5 : Dieu a appelé la lumière Jour et les ténèbres Nuit." }
     ]
   },
   "warmth": {
-    "title": "Première Chaleur",
-    "text": "La lumière se transforme en chaleur.\nTu sens la création répondre à ton toucher.",
+    "title": "Le deuxième jour",
+    "text": "Le premier jour est achevé.\nQue crées-tu au Jour Deux ?",
     "choices": [
-      {
-        "text": "Ouvre le ciel au-dessus",
-        "feedback": "Tu tends la main vers le haut. Le ciel commence à se déployer."
-      },
-      {
-        "text": "Écarte tes mains — étends tout",
-        "feedback": "Tout s'étire — plus large, plus haut, illimité."
-      }
+      { "text": "Une étendue pour séparer les eaux d'en haut de celles d'en bas", "feedback": "Correct — Genèse 1:6-7 : Dieu a fait une étendue et a séparé les eaux d'en haut des eaux d'en bas." },
+      { "text": "Planter le premier jardin", "feedback": "Dans Genèse 1:11, les plantes viennent au Jour Trois. Le Jour Deux est l'étendue — le ciel." }
     ]
   },
   "day_night": {
-    "title": "Soir et Matin",
-    "text": "Tu nommes la lumière Jour et les ténèbres Nuit.\nLe premier coucher de soleil. La première aube.",
+    "title": "Le deuxième jour",
+    "text": "Soir et matin — le premier jour est achevé.\nQue vient-il au Jour Deux ?",
     "choices": [
-      {
-        "text": "Commence le deuxième jour",
-        "feedback": "Tu avances. Il y a plus à créer."
-      },
-      {
-        "text": "Fais une pause — attarde-toi sur ce que tu as fait",
-        "feedback": "Tu t'arrêtes. Les couleurs sont tiennes — et elles sont magnifiques."
-      }
+      { "text": "Créer l'étendue et l'appeler Ciel", "feedback": "Correct — Genèse 1:8 : « Dieu appela l'étendue Ciel »." },
+      { "text": "Créer les poissons et les oiseaux", "feedback": "Dans Genèse 1:20-23, les poissons et les oiseaux viennent au Jour Cinq — pas au Jour Deux." }
     ]
   },
   "sky": {
-    "title": "Les Cieux d'En Haut",
-    "text": "Tu étends le ciel comme un rideau.\nLes eaux se séparent — au-dessus et en dessous.",
+    "title": "Le troisième jour",
+    "text": "L'étendue du Ciel est faite.\nQuel est ton premier acte au Jour Trois ?",
     "choices": [
-      {
-        "text": "Ordonne à la terre sèche d'apparaître",
-        "feedback": "Ta voix frappe l'abîme. La terre commence à s'élever."
-      },
-      {
-        "text": "Rassemble les eaux",
-        "feedback": "Les eaux obéissent — se retirant, faisant de la place."
-      },
-      {
-        "text": "Prends du recul — admire l'immensité",
-        "feedback": "Tu fais une pause. Le ciel s'étend plus loin que tu ne l'imaginais."
-      }
+      { "text": "Ordonner que la terre sèche apparaisse sans déplacer les eaux", "feedback": "Dans Genèse 1:9, Dieu a d'abord rassemblé les eaux — puis la terre sèche est apparue." },
+      { "text": "Rassembler les eaux en un seul lieu", "feedback": "Correct — Genèse 1:9 : « Que les eaux se rassemblent en un seul lieu, et que le sec paraisse »." },
+      { "text": "Créer le soleil pour réchauffer le ciel", "feedback": "Dans Genèse 1:14-16, le soleil est fait le quatrième jour — pas le troisième." }
     ]
   },
   "sky_vast": {
-    "title": "Le Vaste Ciel",
-    "text": "Le bleu s'étend à l'infini dans toutes les directions.\nTa création dépasse même ce que tu avais imaginé.",
+    "title": "Le troisième jour",
+    "text": "L'étendue du Ciel est achevée.\nQue vient-il au Jour Trois ?",
     "choices": [
-      {
-        "text": "Fais surgir la terre d'en bas",
-        "feedback": "Tu parles vers le bas. Le sol tremble en réponse."
-      },
-      {
-        "text": "Rassemble les mers à leur place",
-        "feedback": "Les eaux se précipitent vers leurs limites — impatientes, sauvages."
-      }
+      { "text": "Créer les étoiles d'abord", "feedback": "Dans Genèse 1:14-16, les étoiles sont créées le quatrième jour. Le Jour Trois est la terre sèche et les mers." },
+      { "text": "Rassembler les eaux en mers pour que la terre sèche apparaisse", "feedback": "Correct — Genèse 1:9-10 : Dieu a rassemblé les eaux en mers et la terre sèche est apparue." }
     ]
   },
   "waters_gather": {
-    "title": "Le Rassemblement des Eaux",
-    "text": "Tu pousses les océans à leur place.\nLes rivières creusent des chemins à ton commandement.",
+    "title": "La terre sèche apparaît",
+    "text": "Les eaux se rassemblent. La terre sèche émerge.\nQue fais-tu ensuite au Jour Trois ?",
     "choices": [
-      {
-        "text": "Élève les montagnes des profondeurs",
-        "feedback": "La pierre gémit en s'élevant. Les sommets t'atteignent."
-      },
-      {
-        "text": "Façonne la terre de tes mains",
-        "feedback": "Tu t'agenouilles. Le sol est chaud sous tes doigts."
-      }
+      { "text": "Couvrir la terre de plantes, de semences et d'arbres fruitiers", "feedback": "Correct — Genèse 1:11 : « Que la terre produise de la verdure, de l'herbe portant de la semence, des arbres fruitiers »." },
+      { "text": "Remplir maintenant les mers de poissons", "feedback": "Dans Genèse 1:20-21, les poissons viennent au Jour Cinq. Le Jour Trois se termine avec les plantes et les arbres." }
     ]
   },
   "expanse": {
-    "title": "Le Dôme des Cieux",
-    "text": "Le ciel s'arque comme une cathédrale que tu as bâtie.\nChaque direction contient une promesse.",
+    "title": "Le troisième jour",
+    "text": "Les cieux s'étendent au-dessus.\nQue fais-tu au Jour Trois ?",
     "choices": [
-      {
-        "text": "Fais apparaître le sol d'en bas",
-        "feedback": "Tu regardes en bas. La terre s'élève pour rencontrer ton regard."
-      },
-      {
-        "text": "Enfonce tes mains dans la terre",
-        "feedback": "Tes paumes s'enfoncent dans l'argile. Elle te cède."
-      }
+      { "text": "Faire surgir la terre sèche, les plantes et les arbres fruitiers", "feedback": "Correct — Genèse 1:9-12 : la terre sèche, les mers et la végétation apparaissent au Jour Trois." },
+      { "text": "Former Adam de la poussière", "feedback": "Dans Genèse 2:7, Adam est formé le Jour Six — pas le Jour Trois." }
     ]
   },
   "land": {
-    "title": "Terre Ferme",
-    "text": "Les montagnes s'élèvent à ta parole.\nLe vert éclate — soudain, sauvage, partout.",
+    "title": "La végétation",
+    "text": "La terre sèche apparaît.\nDe quel type de vie la couvres-tu ?",
     "choices": [
-      {
-        "text": "Plante une forêt par la pensée",
-        "feedback": "Des arbres surgissent — grands, anciens, atteignant ton ciel."
-      },
-      {
-        "text": "Crée la première fleur à la main",
-        "feedback": "Une seule fleur s'ouvre dans ta paume. Parfaite."
-      },
-      {
-        "text": "Grimpe au plus haut sommet",
-        "feedback": "Tu ascendes. Le monde se déploie sous toi."
-      }
+      { "text": "Plantes, herbes et arbres fruitiers — chacun selon son espèce", "feedback": "Correct — Genèse 1:11-12 : plantes et arbres chacun « selon son espèce »." },
+      { "text": "Seulement des fleurs, et pas d'arbres", "feedback": "Dans Genèse 1:11, Dieu a fait des plantes, des herbes ET des arbres fruitiers — pas seulement des fleurs." },
+      { "text": "Des animaux sauvages pour errer dans les montagnes", "feedback": "Dans Genèse 1:24-25, les animaux terrestres viennent le sixième jour — pas le troisième." }
     ]
   },
   "land_emerge": {
-    "title": "La Terre S'élève",
-    "text": "La terre ferme se forme sous ton toucher.\nTu sens la terre respirer pour la première fois.",
+    "title": "La terre produit",
+    "text": "Le sol sec est prêt.\nQue germe au Jour Trois ?",
     "choices": [
-      {
-        "text": "Disperse des graines sur le sol",
-        "feedback": "Les graines tombent de tes mains comme la pluie. La vie commence."
-      },
-      {
-        "text": "Agenouille-toi près d'un arbre qui pousse",
-        "feedback": "Tu le regardes grandir — lentement, tendrement, à partir de rien."
-      }
+      { "text": "De la végétation avec semence, et des arbres fruitiers portant du fruit", "feedback": "Correct — Genèse 1:11 : « de l'herbe portant de la semence, et des arbres fruitiers portant du fruit... selon leur espèce »." },
+      { "text": "Des abeilles et des papillons avant toute plante", "feedback": "Dans Genèse 1:24-25, les reptiles viennent au Jour Six. Le Jour Trois apporte d'abord les plantes." }
     ]
   },
   "plants": {
-    "title": "Le Premier Jardin",
-    "text": "Les arbres s'étirent vers le ciel que tu as créé.\nLes fruits pendent lourdement — doux, intacts.",
+    "title": "Le quatrième jour",
+    "text": "Le Jour Trois est achevé — plantes et arbres couvrent la terre.\nQue crées-tu au Jour Quatre ?",
     "choices": [
-      {
-        "text": "Goûte ta propre création",
-        "feedback": "La douceur te remplit — ton propre don, goûté pour la première fois."
-      },
-      {
-        "text": "Attends l'obscurité — puis remplis-la",
-        "feedback": "Tu attends. Le ciel vide t'appelle."
-      }
+      { "text": "Des luminaires dans l'étendue — soleil, lune et étoiles", "feedback": "Correct — Genèse 1:14-16 : Dieu a fait le soleil, la lune et les étoiles au Jour Quatre." },
+      { "text": "Des créatures marines et des oiseaux", "feedback": "Dans Genèse 1:20-23, les créatures marines et les oiseaux viennent au Jour Cinq — pas au Jour Quatre." }
     ]
   },
   "flowers": {
-    "title": "Couleurs Innommées",
-    "text": "Les pétales s'ouvrent à ton toucher.\nDes couleurs qu'aucun œil n'a jamais vues — jusqu'à maintenant.",
+    "title": "Le quatrième jour",
+    "text": "Les plantes couvrent la terre.\nQue vient-il au Jour Quatre ?",
     "choices": [
-      {
-        "text": "Respire ce que tu as fait",
-        "feedback": "L'odeur est incomparable. Car rien n'existait avant."
-      },
-      {
-        "text": "Lève les yeux — le ciel est vide",
-        "feedback": "Le ciel sombre attend — une toile, inachevée."
-      }
+      { "text": "Adam et Ève", "feedback": "Dans Genèse 1:26-27, les humains sont créés au Jour Six — pas au Jour Quatre." },
+      { "text": "Le soleil, la lune et les étoiles", "feedback": "Correct — Genèse 1:14-19 : Dieu a placé le soleil, la lune et les étoiles dans l'étendue des cieux." }
     ]
   },
   "mountain": {
-    "title": "Le Sommet",
-    "text": "Du sommet, tu vois tout ce que tu as fait.\nUn ciel vide — attendant d'être rempli.",
+    "title": "Le quatrième jour",
+    "text": "La terre est pleine de plantes et d'arbres.\nQue fais-tu au Jour Quatre ?",
     "choices": [
-      {
-        "text": "Accroche les étoiles toi-même",
-        "feedback": "Tu tends la main. La première étoile brûle dans ta main."
-      },
-      {
-        "text": "Descends — il y a plus à faire",
-        "feedback": "Tu descends. Le travail n'est pas encore terminé."
-      }
+      { "text": "Soleil, lune et étoiles dans les cieux", "feedback": "Correct — Genèse 1:14-19 : Dieu a placé deux grands luminaires et les étoiles dans l'étendue des cieux." },
+      { "text": "Pluie, neige et nuages", "feedback": "Dans Genèse 1, le Jour Quatre concerne le soleil, la lune et les étoiles — pas la météo." }
     ]
   },
   "stars": {
-    "title": "Soleil, Lune et Étoiles",
-    "text": "Tu suspends le soleil comme une lampe.\nUn millier d'étoiles s'échappent de tes doigts.",
+    "title": "Le grand et le petit luminaire",
+    "text": "Les luminaires sont placés dans les cieux.\nComment les ordonnes-tu ?",
     "choices": [
-      {
-        "text": "Tourne-toi vers la mer vide",
-        "feedback": "L'océan s'étend devant toi — vaste, silencieux, en attente."
-      },
-      {
-        "text": "Place chaque étoile une par une",
-        "feedback": "Chaque étoile trouve sa place. Tu les nommes toutes."
-      },
-      {
-        "text": "Mets la lune à sa place",
-        "feedback": "L'argent s'élève. La nuit respire doucement."
-      }
+      { "text": "Un seul luminaire pour gouverner à la fois le jour et la nuit", "feedback": "Dans Genèse 1:16, Dieu a fait DEUX grands luminaires — le plus grand pour le jour et le plus petit pour la nuit." },
+      { "text": "Seulement des étoiles — pas de soleil, pas de lune", "feedback": "Dans Genèse 1:16, Dieu a fait le soleil et la lune en plus des étoiles." },
+      { "text": "Un grand luminaire pour le jour, un plus petit pour la nuit, et les étoiles", "feedback": "Correct — Genèse 1:16 : « le plus grand luminaire pour présider au jour, et le plus petit luminaire pour présider à la nuit ; il fit aussi les étoiles »." }
     ]
   },
   "stars_delight": {
-    "title": "Soleil, Lune et Étoiles",
-    "text": "La douceur persiste — ta création est bonne.\nAu-dessus de toi, le ciel attend la lumière.",
+    "title": "Des luminaires dans les cieux",
+    "text": "Le Jour Quatre continue.\nQu'est-ce qui est mis en place ?",
     "choices": [
-      {
-        "text": "Allume l'étoile la plus brillante",
-        "feedback": "Le feu jaillit de tes doigts. Le ciel s'embrase."
-      },
-      {
-        "text": "Peins le ciel nocturne d'argent",
-        "feedback": "Le clair de lune se déverse — doux, constant, tien."
-      }
+      { "text": "Le soleil, la lune et d'innombrables étoiles", "feedback": "Correct — Genèse 1:14-16 : soleil, lune et étoiles — pour signes, saisons, jours et années." },
+      { "text": "Juste une petite lumière pour tout le ciel", "feedback": "Dans Genèse 1:16, Dieu a fait DEUX grands luminaires, plus les étoiles — pas une petite lumière." }
     ]
   },
   "stars_vision": {
-    "title": "Soleil, Lune et Étoiles",
-    "text": "Du sommet de la montagne, tu lances des étoiles dans l'obscurité.\nChacune une promesse.",
+    "title": "Des étoiles sans nombre",
+    "text": "Tu places des luminaires dans les cieux.\nCombien d'étoiles y aura-t-il ?",
     "choices": [
-      {
-        "text": "Continue — remplis chaque recoin",
-        "feedback": "Plus. Plus. L'obscurité rétrécit à chaque lancer."
-      },
-      {
-        "text": "Charge la lune de garder la nuit",
-        "feedback": "La lune se lève — fidèle, veillant sur ce que tu as fait."
-      }
+      { "text": "Innombrables — au-delà de tout compte", "feedback": "Correct — Genèse 15:5 et 22:17 décrivent les étoiles du ciel comme trop nombreuses pour être comptées." },
+      { "text": "Exactement sept étoiles — pas une de plus", "feedback": "Dans les Écritures, les étoiles de Dieu sont innombrables — « comme les étoiles du ciel en multitude » (Genèse 22:17)." }
     ]
   },
   "countless_stars": {
-    "title": "Innombrables",
-    "text": "Tu les places au-delà de tout compte.\nChacune un pacte — un murmure de ce qui est à venir.",
+    "title": "Le cinquième jour",
+    "text": "Les luminaires du Jour Quatre sont placés.\nQue crées-tu au Jour Cinq ?",
     "choices": [
-      {
-        "text": "Tourne-toi vers les mers vides",
-        "feedback": "En bas, les eaux sont calmes. Elles ont besoin de vie."
-      },
-      {
-        "text": "Repose-toi un instant sous ton ciel",
-        "feedback": "Tu t'allonges. Tes étoiles brillent au-dessus de toi."
-      }
+      { "text": "Des créatures qui pullulent dans les eaux, et des oiseaux pour voler au-dessus", "feedback": "Correct — Genèse 1:20-21 : « Que les eaux produisent en abondance des animaux vivants, et que des oiseaux volent sur la terre »." },
+      { "text": "Des arbres, de l'herbe et des fruits", "feedback": "Dans Genèse 1:11, les plantes viennent au Jour Trois — pas au Jour Cinq." }
     ]
   },
   "moonrise": {
-    "title": "La Lumière Moindre",
-    "text": "La lumière argentée se répand sur les eaux calmes.\nLa lune prend sa place — fidèle, silencieuse.",
+    "title": "Le cinquième jour",
+    "text": "La nuit a sa lune ; le jour, son soleil.\nQuelles créatures vivantes remplissent le Jour Cinq ?",
     "choices": [
-      {
-        "text": "Remplis les océans de vie",
-        "feedback": "Tu te tournes vers les profondeurs. Il est temps de les remplir."
-      },
-      {
-        "text": "Attends l'aube que tu as conçue",
-        "feedback": "Tu attends. L'horizon brille d'une lumière approchante."
-      }
+      { "text": "Créatures marines et oiseaux volants", "feedback": "Correct — Genèse 1:20-23 : les créatures marines et les oiseaux remplissent les eaux et les cieux au Jour Cinq." },
+      { "text": "Bétail et reptiles", "feedback": "Dans Genèse 1:24-25, le bétail et les reptiles viennent au Jour Six — pas au Jour Cinq." }
     ]
   },
   "sea_dawn": {
-    "title": "Aube sur l'Abîme",
-    "text": "L'aube se lève — ton aube.\nLes eaux s'agitent, prêtes à recevoir la vie.",
+    "title": "Eaux et cieux",
+    "text": "Le Jour Cinq commence.\nQuelles créatures fais-tu ?",
     "choices": [
-      {
-        "text": "Parle la vie dans les profondeurs",
-        "feedback": "Ta voix pénètre l'eau. Le mouvement commence."
-      },
-      {
-        "text": "Écoute le silence avant qu'il ne se remplisse",
-        "feedback": "Un dernier souffle d'immobilité. Puis — tout."
-      }
+      { "text": "De grands monstres marins, des poissons et tout oiseau ailé", "feedback": "Correct — Genèse 1:20-22 : Dieu créa les grands monstres marins et tout oiseau ailé, et les bénit." },
+      { "text": "Seulement des abeilles pour les fleurs", "feedback": "Dans Genèse 1:20-21, le Jour Cinq apporte de grandes créatures marines et tout oiseau ailé — pas seulement des insectes." }
     ]
   },
   "sea_creatures": {
-    "title": "Les eaux grouillent",
-    "text": "Tu remplis les mers — baleines, poissons, essaims de vie.\nLes oiseaux jaillissent de tes mains — remplissant le ciel de chants.",
+    "title": "Soyez féconds et multipliez-vous",
+    "text": "Les mers grouillent ; les oiseaux volent au-dessus.\nQuelle bénédiction prononces-tu sur eux ?",
     "choices": [
-      {
-        "text": "Tourne-toi vers la terre — elle est encore vide",
-        "feedback": "Le sol attend. Tu as plus à donner."
-      },
-      {
-        "text": "Envoie un oiseau s'envoler dans le ciel",
-        "feedback": "Les ailes déployées. L'oiseau fait confiance au vent que tu as créé."
-      }
+      { "text": "« Soyez féconds, multipliez-vous, et remplissez les eaux et la terre »", "feedback": "Correct — Genèse 1:22 : « Soyez féconds, multipliez-vous, et remplissez les eaux des mers ; et que les oiseaux se multiplient sur la terre »." },
+      { "text": "« Retournez à la poussière — vous avez échoué »", "feedback": "Dans Genèse 1:22, Dieu a BÉNI les créatures pour se multiplier — Il ne les a pas détruites." }
     ]
   },
   "bird_flight": {
-    "title": "Premier envol",
-    "text": "Les ailes attrapent le vent que tu as créé.\nL'oiseau ne connaît pas la peur — seulement le ciel.",
+    "title": "Le sixième jour",
+    "text": "La mer et le ciel sont remplis.\nQue vient-il au Jour Six ?",
     "choices": [
-      {
-        "text": "Retourne à la terre — remplis-la ensuite",
-        "feedback": "Tu descends. La terre a besoin de ses propres créatures."
-      },
-      {
-        "text": "Sens le vent sur ton visage",
-        "feedback": "La brise que tu as créée touche ta peau. C'est bon."
-      }
+      { "text": "Bétail, bêtes sauvages et reptiles de la terre", "feedback": "Correct — Genèse 1:24-25 : bétail, bêtes de la terre et reptiles au Jour Six." },
+      { "text": "Plus d'étoiles dans le ciel", "feedback": "Les étoiles ont été faites au Jour Quatre. Le Jour Six apporte les animaux terrestres — et les humains." }
     ]
   },
   "land_creatures": {
-    "title": "Toute chose vivante",
-    "text": "Tu parles — lions, cerfs, serpents, insectes apparaissent.\nLa terre respire de la vie que tu lui as donnée.",
+    "title": "À notre image",
+    "text": "La terre fourmille d'animaux.\nQuelle est ton œuvre finale de la création ?",
     "choices": [
-      {
-        "text": "Quelque chose manque encore — continue",
-        "feedback": "Une agitation te saisit. Ce n'est pas fini."
-      },
-      {
-        "text": "Marche parmi eux — tes créatures",
-        "feedback": "Ils se rassemblent autour de toi — chaleureux, confiants, vivants."
-      }
+      { "text": "Dire : « Faisons l'homme à notre image, selon notre ressemblance »", "feedback": "Correct — Genèse 1:26 : « Faisons l'homme à notre image, selon notre ressemblance »." },
+      { "text": "Transformer un des animaux en humain", "feedback": "Dans Genèse 2:7, Dieu a formé l'homme de la poussière de la terre — pas d'un animal." }
     ]
   },
   "land_creatures_wind": {
-    "title": "Toute chose vivante",
-    "text": "Tu te tiens parmi les créatures — sauvages, chaleureuses, vivantes.\nElles ne fuient pas. Elles connaissent ta voix.",
+    "title": "Le couronnement de la création",
+    "text": "Les animaux remplissent la terre.\nQue manque-t-il encore ?",
     "choices": [
-      {
-        "text": "Assieds-toi tranquillement parmi eux",
-        "feedback": "Tu t'assieds. Ils se pressent près — sans peur."
-      },
-      {
-        "text": "Quelque chose de plus grand s'agite en toi",
-        "feedback": "La douleur monte. Aucun d'eux ne peut vraiment te connaître."
-      }
+      { "text": "Déclarer la création achevée — rien de plus n'est nécessaire", "feedback": "Dans Genèse 1:26, après les animaux, Dieu dit « Faisons l'homme à notre image ». La création n'était pas encore achevée." },
+      { "text": "Un être fait à l'image de Dieu", "feedback": "Correct — Genèse 1:26-27 : les humains sont faits à l'image et à la ressemblance de Dieu." }
     ]
   },
   "among_animals": {
-    "title": "Parmi les créatures",
-    "text": "Elles se rassemblent autour de toi — confiantes, vivantes.\nMais aucune d'elles ne peut te connaître. Pas vraiment.",
+    "title": "Faisons l'homme",
+    "text": "Aucun animal ne porte ton image.\nComment fais-tu le premier homme ?",
     "choices": [
-      {
-        "text": "Ressens la douleur d'être seul",
-        "feedback": "La solitude s'approfondit. Tu as besoin de quelqu'un qui comprenne."
-      },
-      {
-        "text": "Commence l'œuvre finale",
-        "feedback": "Tu te lèves. Tes mains savent quoi faire."
-      }
+      { "text": "Transformer un lion en homme", "feedback": "Dans Genèse 2:7, Dieu a formé l'homme de la poussière de la terre — pas d'une autre créature." },
+      { "text": "Le former de la poussière du sol", "feedback": "Correct — Genèse 2:7 : « L'Éternel Dieu forma l'homme de la poussière de la terre »." }
     ]
   },
   "before_man": {
-    "title": "Le sixième jour",
-    "text": "Tu t'agenouilles dans la poussière.\nTes mains commencent à façonner quelque chose de nouveau — quelque chose à ton image.",
+    "title": "Formé de la poussière",
+    "text": "Tu formes un homme de la poussière du sol.\nComment devient-il un être vivant ?",
     "choices": [
-      {
-        "text": "Moule l'argile avec soin",
-        "feedback": "Tes doigts pressent la poussière. Une forme prend vie."
-      },
-      {
-        "text": "Murmure : « À notre image… »",
-        "feedback": "Les mots quittent tes lèvres. L'argile tremble."
-      }
+      { "text": "Prononcer une parole et le laisser s'éveiller de lui-même", "feedback": "Dans Genèse 2:7, Dieu a spécifiquement soufflé le souffle de vie dans les narines de l'homme." },
+      { "text": "Souffler le souffle de vie dans ses narines", "feedback": "Correct — Genèse 2:7 : « Il souffla dans ses narines un souffle de vie, et l'homme devint un être vivant »." }
     ]
   },
   "before_man_lonely": {
-    "title": "Le sixième jour",
-    "text": "Le désir s'intensifie — tu veux être connu.\nTu t'agenouilles dans la poussière et commences.",
+    "title": "Le souffle de vie",
+    "text": "La forme de l'homme repose immobile dans la poussière.\nQu'est-ce qui lui donne la vie ?",
     "choices": [
-      {
-        "text": "Façonne l'argile de tes mains tremblantes",
-        "feedback": "Tes mains tremblent. Celui-ci sera différent."
-      },
-      {
-        "text": "Prends ton temps — c'est le plus important",
-        "feedback": "Tu ralentis. Chaque détail compte."
-      }
+      { "text": "Ton souffle dans ses narines", "feedback": "Correct — Genèse 2:7 : Dieu a soufflé le souffle de vie dans les narines de l'homme, et il devint un être vivant." },
+      { "text": "De l'eau versée sur l'argile", "feedback": "Dans Genèse 2:7, c'est le SOUFFLE de Dieu — pas l'eau — qui a donné la vie à l'homme." }
     ]
   },
   "breath_of_life": {
-    "title": "Le souffle de vie",
-    "text": "La poussière devient chair sous tes mains.\nTu te penches — et lui insuffles la vie.",
+    "title": "Le jardin",
+    "text": "L'homme est vivant.\nOù le places-tu ?",
     "choices": [
-      {
-        "text": "Regarde ses yeux s'ouvrir",
-        "feedback": "Ses yeux s'ouvrent. Il te voit en premier."
-      },
-      {
-        "text": "Place-le doucement dans le jardin",
-        "feedback": "Tu le portes — chaud, respirant — au paradis."
-      }
+      { "text": "Dans un désert pour qu'il fasse ses preuves", "feedback": "Dans Genèse 2:8, Dieu a planté un jardin en Éden et y a placé l'homme." },
+      { "text": "Dans le jardin d'Éden, pour le cultiver et le garder", "feedback": "Correct — Genèse 2:15 : « L'Éternel Dieu prit l'homme, et le plaça dans le jardin d'Éden pour le cultiver et pour le garder »." }
     ]
   },
   "breath_of_life_sacred": {
-    "title": "Le souffle de vie",
-    "text": "Ton souffle entre dans l'argile.\nSa poitrine se soulève. Son cœur bat — une fois, deux fois, pour toujours.",
+    "title": "Éden préparé",
+    "text": "L'homme respire et vit.\nQuelle demeure prépares-tu pour lui ?",
     "choices": [
-      {
-        "text": "Dépose-le au paradis",
-        "feedback": "Tu le déposes doucement sur l'herbe. Il s'agite."
-      },
-      {
-        "text": "Recule — laisse-le voir le monde",
-        "feedback": "Tu t'éloignes. Ses yeux s'ouvrent à tout ce que tu as fait."
-      }
+      { "text": "Un jardin en Éden, avec tout arbre agréable à voir et bon à manger", "feedback": "Correct — Genèse 2:8-9 : Dieu a planté un jardin en Éden avec tout arbre agréable à voir et bon à manger." },
+      { "text": "Un champ d'épines et de chardons", "feedback": "Dans Genèse 2:8, l'Éden était un jardin de délices. Les épines et les chardons ne viennent qu'après la Chute (Genèse 3:18)." }
     ]
   },
   "first_garden": {
-    "title": "Éden",
-    "text": "Le paradis s'étend devant toi — ton chef-d'œuvre.\nTu regardes tout ce que tu as fait.",
+    "title": "Voici, très bon",
+    "text": "La création est achevée.\nQue dis-tu en contemplant tout cela ?",
     "choices": [
-      {
-        "text": "Dis-le — les mots qui complètent tout",
-        "feedback": "Les mots montent en toi — finaux, certains."
-      },
-      {
-        "text": "Assieds-toi à côté de ta création en silence",
-        "feedback": "Tu t'assieds. Pas besoin de mots. C'est suffisant."
-      }
+      { "text": "« Voici, cela était très bon »", "feedback": "Correct — Genèse 1:31 : « Dieu vit tout ce qu'il avait fait et voici, cela était très bon »." },
+      { "text": "« C'est un échec — je dois tout recommencer »", "feedback": "Dans Genèse 1:31, Dieu a vu que tout ce qu'il avait fait était très bon — pas un échec." }
     ]
   },
   "first_garden_wonder": {
-    "title": "Éden",
-    "text": "Il se tient dans le jardin — vivant, respirant, tien.\nTout — absolument tout — était pour ce moment.",
+    "title": "Le sixième jour est achevé",
+    "text": "L'homme marche dans le jardin. La création est achevée.\nQue déclares-tu ?",
     "choices": [
-      {
-        "text": "Prononce les derniers mots",
-        "feedback": "Ta voix remplit le jardin — chaleureuse, pleine, complète."
-      },
-      {
-        "text": "Repose-toi — ton œuvre est achevée",
-        "feedback": "Tu expires. C'est fait."
-      }
+      { "text": "« Voici, cela est très bon »", "feedback": "Correct — Genèse 1:31 : « Dieu vit tout ce qu'il avait fait et voici, cela était très bon »." },
+      { "text": "« Je devrai refaire les humains demain »", "feedback": "Dans Genèse 1:31, Dieu a déclaré tout ce qu'il avait fait — y compris les humains — très bon." }
     ]
   },
   "very_good": {
-    "title": "Très bon",
-    "text": "« C'est très bon. »\nTu souris à ton œuvre.",
+    "title": "Le septième jour",
+    "text": "Les six jours de la création sont achevés.\nQue fais-tu le septième jour ?",
     "choices": [
-      {
-        "text": "Repose-toi — tu as fini",
-        "feedback": "La paix s'installe sur tout."
-      }
+      { "text": "Te reposer et bénir le septième jour, en le sanctifiant", "feedback": "Correct — Genèse 2:2-3 : « Dieu acheva au septième jour son œuvre... Dieu bénit le septième jour et le sanctifia »." }
     ]
   },
   "rest": {
-    "title": "Le septième jour",
-    "text": "Tu te reposes. Toute la création respire.\nL'histoire ne fait que commencer.",
+    "title": "Le Sabbat",
+    "text": "Tu te reposes de toute ton œuvre.\nTu bénis le septième jour et tu le sanctifies.\n\n« Ainsi furent achevés les cieux et la terre ». (Genèse 2:1)",
     "choices": []
   },
   "rest_blessed": {
-    "title": "Le septième jour",
-    "text": "Tu te reposes à côté de celui que tu as créé.\nLa paix remplit chaque recoin de ton monde.",
+    "title": "Le Sabbat",
+    "text": "Tu te reposes, et tu bénis le septième jour comme saint.\nToute la création est achevée — et elle est très bonne.",
     "choices": []
   }
 }
