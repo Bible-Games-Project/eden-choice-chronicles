@@ -700,11 +700,8 @@ const Index = () => {
   }, [clearTransitionTimers]);
 
   const handleSelectStory = useCallback((story: StoryMeta) => {
-    // Show intro the very first time the player begins OT story #1.
-    const introSeen = (() => {
-      try { return localStorage.getItem(INTRO_SEEN_KEY) === "true"; } catch { return false; }
-    })();
-    if (!introSeen && story.section === "old_testament" && story.number === 1) {
+    // Show intro every time the player begins OT story #1 (Creation).
+    if (story.section === "old_testament" && story.number === 1) {
       setPendingStory(story);
       setScreen("intro");
       return;
@@ -804,7 +801,6 @@ const Index = () => {
             body={t("introBody")}
             buttonLabelKey="introBegin"
             onContinue={() => {
-              try { localStorage.setItem(INTRO_SEEN_KEY, "true"); } catch { /* ignore */ }
               const story = pendingStory;
               setPendingStory(null);
               if (story) startStoryNow(story);
