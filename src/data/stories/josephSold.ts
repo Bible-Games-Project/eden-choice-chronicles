@@ -38,7 +38,7 @@ export const josephSoldScenes: Record<string, StoryScene> = {
     title: "The Dream",
     text: "That night you dream: eleven sheaves bow to yours.\nYou wake with the vision burning.",
     choices: [
-      { text: "Tell your brothers the dream", nextScene: "tell_brothers", tag: "honest", feedback: "Honesty is the path. You go to them.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell your brothers the dream", nextScene: "tell_brothers", tag: "honest", feedback: "Genesis 37:5 — Joseph told his brothers about his dream, which made them hate him even more.", isCorrect: true, sentiment: "positive" },
       { text: "Keep the dream a secret", nextScene: "secret_consequence", tag: "fearful", feedback: "But God's words ask to be spoken.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -58,7 +58,7 @@ export const josephSoldScenes: Record<string, StoryScene> = {
     text: "\"Your sheaves bowed to mine.\"\nTheir eyes flash. \"Will you reign over us?\"",
     choices: [
       { text: "Take back the words", nextScene: "retract_consequence", tag: "fearful", feedback: "The dream is from God. You cannot unsay it.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand firm — it is from God", nextScene: "stand_firm", tag: "faithful", feedback: "You hold your ground, calm and clear.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand firm — it is from God", nextScene: "stand_firm", tag: "faithful", feedback: "Genesis 37:8 — Joseph's brothers asked if he intended to reign over them, showing their resentment.", isCorrect: true, sentiment: "positive" },
     ],
   },
   retract_consequence: {
@@ -103,7 +103,7 @@ export const josephSoldScenes: Record<string, StoryScene> = {
     text: "The hills stretch on. Shechem is empty.\nA stranger says: \"They went to Dothan.\"",
     choices: [
       { text: "Turn back home", nextScene: "turnback_consequence", tag: "fearful", feedback: "You came to find them. Press on.", isCorrect: false, sentiment: "negative" },
-      { text: "Press on toward Dothan", nextScene: "to_dothan", tag: "faithful", feedback: "You set your face north.", isCorrect: true, sentiment: "positive" },
+      { text: "Press on toward Dothan", nextScene: "to_dothan", tag: "faithful", feedback: "Genesis 37:17 — Joseph was told his brothers had moved on to Dothan, so he followed them there.", isCorrect: true, sentiment: "positive" },
     ],
   },
   turnback_consequence: {
@@ -147,7 +147,7 @@ export const josephSoldScenes: Record<string, StoryScene> = {
     title: "\"The Dreamer Comes\"",
     text: "\"Behold, this dreamer.\"\nThey seize you. The coat is torn from your shoulders.",
     choices: [
-      { text: "Beg Reuben for mercy", nextScene: "beg_reuben", tag: "humble", feedback: "Reuben's face softens. He speaks for you.", isCorrect: true, sentiment: "positive" },
+      { text: "Beg Reuben for mercy", nextScene: "beg_reuben", tag: "humble", feedback: "Genesis 37:23 — When Joseph reached his brothers, they stripped him of his coat of many colors.", isCorrect: true, sentiment: "positive" },
       { text: "Curse them in your fear", nextScene: "curse_consequence", tag: "proud", feedback: "Your words make their hands tighter.", isCorrect: false, sentiment: "negative" },
       { text: "Fight back with all your strength", nextScene: "fight_consequence", tag: "violent", feedback: "Ten against one. You fall to the dust.", isCorrect: false, sentiment: "negative" },
     ],
@@ -173,7 +173,7 @@ export const josephSoldScenes: Record<string, StoryScene> = {
     title: "Reuben Intervenes",
     text: "\"Shed no blood,\" Reuben says. \"Cast him into this pit.\"\nHe plans to rescue you later.",
     choices: [
-      { text: "Cry out to Heaven from the pit", nextScene: "cry_out", tag: "faithful", feedback: "From the dark stones, you call on God.", isCorrect: true, sentiment: "positive" },
+      { text: "Cry out to Heaven from the pit", nextScene: "cry_out", tag: "faithful", feedback: "Genesis 37:24 — Joseph's brothers took him and cast him into a pit, which was empty of water.", isCorrect: true, sentiment: "positive" },
       { text: "Threaten Father's wrath", nextScene: "threat_consequence", tag: "proud", feedback: "Threats from a pit fall back on the speaker.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -191,7 +191,7 @@ export const josephSoldScenes: Record<string, StoryScene> = {
     text: "Hooves and bells. Camels passing.\nA caravan of Ishmaelites comes near.",
     choices: [
       { text: "Stay silent and wait for Reuben", nextScene: "silent_consequence", tag: "fearful", feedback: "Judah's voice rises before Reuben returns.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust God's hand in this", nextScene: "judah_speaks", tag: "faithful", feedback: "You wait. Above, Judah begins to speak.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust God's hand in this", nextScene: "judah_speaks", tag: "faithful", feedback: "Genesis 37:28 — Joseph was sold into slavery, but God was with him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   silent_consequence: {
@@ -210,7 +210,7 @@ export const josephSoldScenes: Record<string, StoryScene> = {
     text: "\"What profit if we kill our brother? Let us sell him.\"\nThey haul you up by the rope.",
     choices: [
       { text: "Plead with the merchants", nextScene: "plead_consequence", tag: "fearful", feedback: "Silver has already been counted.", isCorrect: false, sentiment: "negative" },
-      { text: "Accept the path God allows", nextScene: "accept", tag: "faithful", feedback: "You bow your head. The road is His.", isCorrect: true, sentiment: "positive" },
+      { text: "Accept the path God allows", nextScene: "accept", tag: "faithful", feedback: "Genesis 37:28 — Joseph's brothers sold him to the Ishmaelites for twenty shekels of silver.", isCorrect: true, sentiment: "positive" },
       { text: "Strike Judah in fury", nextScene: "strike_consequence", tag: "violent", feedback: "Bound hands cannot strike. Bound hearts can pray.", isCorrect: false, sentiment: "negative" },
     ],
   },

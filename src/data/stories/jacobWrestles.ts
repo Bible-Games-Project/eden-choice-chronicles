@@ -13,7 +13,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "Returning Home",
     text: "You are Jacob. Esau marches with four hundred men.\nYour camp waits at the Jabbok ford.",
     choices: [
-      { text: "Send gifts ahead to Esau", nextScene: "send_gifts", tag: "wise", feedback: "You prepare droves of livestock to soften his heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Send gifts ahead to Esau", nextScene: "send_gifts", tag: "wise", feedback: "Genesis 32:13-21 — Jacob prepared a present for Esau, sending droves of animals ahead of him.", isCorrect: true, sentiment: "positive" },
       { text: "Attack first — strike before he does", nextScene: "attack_consequence", tag: "violent", feedback: "Bloodshed is not the path. Your hands tremble.", isCorrect: false, sentiment: "negative" },
       { text: "Flee back the way you came", nextScene: "flee_consequence", tag: "fearful", feedback: "Behind you is Laban. Ahead is the promise.", isCorrect: false, sentiment: "negative" },
     ],
@@ -58,7 +58,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "A Prayer at Dusk",
     text: "\"O God of Abraham, of Isaac — save me.\"\nThe Jabbok runs cold beside the camp.",
     choices: [
-      { text: "Send your family across the ford", nextScene: "send_family", tag: "obedient", feedback: "Wives, sons, all possessions — across the dark water.", isCorrect: true, sentiment: "positive" },
+      { text: "Send your family across the ford", nextScene: "send_family", tag: "obedient", feedback: "Genesis 32:22-23 — Jacob sent his wives, his two female servants, and his eleven children across the Jabbok ford.", isCorrect: true, sentiment: "positive" },
       { text: "Stay together — safer in numbers", nextScene: "stay_consequence", tag: "uncertain", feedback: "Your soul needs the night alone. You know it.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -75,7 +75,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "All Across the Jabbok",
     text: "The last torch fades on the far bank.\nYou stand alone. The river hushes.",
     choices: [
-      { text: "Stay on this side — face the night", nextScene: "alone", tag: "courageous", feedback: "You sit on the cold stone. Stars burn above.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay on this side — face the night", nextScene: "alone", tag: "courageous", feedback: "Genesis 32:24 — Jacob was left alone on his side of the Jabbok.", isCorrect: true, sentiment: "positive" },
       { text: "Cross over to your family now", nextScene: "cross_consequence", tag: "avoidant", feedback: "Something holds you back. The night is not finished.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -94,7 +94,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "Jacob Was Left Alone",
     text: "Footsteps. A figure in the dark.\nA man stands before you — silent, strong.",
     choices: [
-      { text: "Stand your ground", nextScene: "the_struggle", tag: "brave", feedback: "He moves first. You meet him.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand your ground", nextScene: "the_struggle", tag: "brave", feedback: "Genesis 32:24 — A man wrestled with Jacob until daybreak.", isCorrect: true, sentiment: "positive" },
       { text: "Run from him into the night", nextScene: "run_consequence", tag: "afraid", feedback: "He is faster. You cannot escape this.", isCorrect: false, sentiment: "negative" },
       { text: "Beg him to leave you in peace", nextScene: "beg_consequence", tag: "weak", feedback: "He does not answer. He waits for you.", isCorrect: false, sentiment: "negative" },
     ],
@@ -120,7 +120,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "All Through the Night",
     text: "You wrestle. Hours pass. Neither yields.\nYour breath burns. He does not tire.",
     choices: [
-      { text: "Hold on — do not let go", nextScene: "the_touch", tag: "tenacious", feedback: "Sweat and silence. Only the river hears.", isCorrect: true, sentiment: "positive" },
+      { text: "Hold on — do not let go", nextScene: "the_touch", tag: "tenacious", feedback: "Genesis 32:26 — The man told Jacob, \"Let me go, for it is daybreak,\" but Jacob replied, \"I will not let you go unless you bless me.\"", isCorrect: true, sentiment: "positive" },
       { text: "Give up — he is too strong", nextScene: "give_up_consequence", tag: "yielding", feedback: "Something deeper in you refuses. You grip again.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -156,7 +156,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "The Question",
     text: "He says: \"What is your name?\"\nThe river holds its breath.",
     choices: [
-      { text: "Speak truly — \"Jacob\"", nextScene: "new_name", tag: "honest", feedback: "Your old name. Heel-grabber. Supplanter. You confess it.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak truly — \"Jacob\"", nextScene: "new_name", tag: "honest", feedback: "Genesis 32:27 — Jacob answered, \"Jacob.\"", isCorrect: true, sentiment: "positive" },
       { text: "Hide your name from him", nextScene: "hide_name_consequence", tag: "deceitful", feedback: "Deceit will not free you here. Speak truth.", isCorrect: false, sentiment: "negative" },
       { text: "Boast a noble title", nextScene: "boast_name_consequence", tag: "proud", feedback: "He sees through you. The name must come.", isCorrect: false, sentiment: "negative" },
     ],
@@ -182,7 +182,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "Israel",
     text: "\"No longer Jacob — but Israel.\nFor you have struggled with God and prevailed.\"",
     choices: [
-      { text: "Receive the name in awe", nextScene: "name_him", tag: "humble", feedback: "Israel. The name settles over you like dawn.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the name in awe", nextScene: "name_him", tag: "humble", feedback: "Genesis 32:28 — The angel renamed Jacob to Israel because he had struggled with God and with humans and had overcome.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse — you do not deserve it", nextScene: "refuse_consequence", tag: "doubtful", feedback: "He gives. You do not earn. Receive.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -199,7 +199,7 @@ export const jacobWrestlesScenes: Record<string, StoryScene> = {
     title: "Tell Me Your Name",
     text: "You ask: \"Tell me your name.\"\nHe answers only: \"Why do you ask?\"",
     choices: [
-      { text: "Receive his blessing in silence", nextScene: "blessing", tag: "reverent", feedback: "He blesses you there. No more words are needed.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive his blessing in silence", nextScene: "blessing", tag: "reverent", feedback: "Genesis 32:29 — The angel did not reveal his name to Jacob, but instead blessed him there.", isCorrect: true, sentiment: "positive" },
       { text: "Demand his name again", nextScene: "demand_name_consequence", tag: "presumptuous", feedback: "Some names are not for men. Be still.", isCorrect: false, sentiment: "negative" },
     ],
   },
