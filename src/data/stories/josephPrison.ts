@@ -14,7 +14,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     text: "The gate slams shut behind you.\nFalsely accused. Stripped of all favor.",
     choices: [
       { text: "Curse the woman who lied", nextScene: "curse_consequence", tag: "bitter", feedback: "Bitterness will rot you here.", isCorrect: false, sentiment: "negative" },
-      { text: "Quietly trust the Lord", nextScene: "first_night", tag: "faithful", feedback: "You breathe deep. God is still here.", isCorrect: true, sentiment: "positive" },
+      { text: "Quietly trust the Lord", nextScene: "first_night", tag: "faithful", feedback: "Genesis 39:21 — The Lord was with Joseph and showed him steadfast love.", isCorrect: true, sentiment: "positive" },
       { text: "Plot a way to escape", nextScene: "escape_consequence", tag: "fearful", feedback: "Walls are thick. Guards are many.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     title: "First Night",
     text: "Lamplight flickers low.\nYou kneel and whisper His name.",
     choices: [
-      { text: "Sleep with hope in God", nextScene: "morning_work", tag: "faithful", feedback: "Peace settles on your eyes.", isCorrect: true, sentiment: "positive" },
+      { text: "Sleep with hope in God", nextScene: "morning_work", tag: "faithful", feedback: "Genesis 39:21 — The Lord was with Joseph and showed him steadfast love.", isCorrect: true, sentiment: "positive" },
       { text: "Curse the day you were born", nextScene: "despair_consequence", tag: "bitter", feedback: "Despair feeds nothing.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -59,7 +59,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     text: "The keeper points to the buckets.\nWater. Floors. Bread to carry.",
     choices: [
       { text: "Refuse — you are no slave", nextScene: "refuse_consequence", tag: "proud", feedback: "Pride will earn you the lash.", isCorrect: false, sentiment: "negative" },
-      { text: "Work as if for the Lord", nextScene: "faithful_work", tag: "diligent", feedback: "You lift the bucket without a word.", isCorrect: true, sentiment: "positive" },
+      { text: "Work as if for the Lord", nextScene: "faithful_work", tag: "diligent", feedback: "Genesis 39:22 — The keeper of the prison put Joseph in charge of all the prisoners.", isCorrect: true, sentiment: "positive" },
       { text: "Do little, hide from him", nextScene: "lazy_consequence", tag: "lazy", feedback: "He will see. He always sees.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -84,7 +84,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     title: "The Lord Is With Joseph",
     text: "Whatever you touch, prospers.\nThe keeper begins to watch.",
     choices: [
-      { text: "Quietly thank God in your heart", nextScene: "trusted_steward", tag: "humble", feedback: "Heaven hears the silent prayer.", isCorrect: true, sentiment: "positive" },
+      { text: "Quietly thank God in your heart", nextScene: "trusted_steward", tag: "humble", feedback: "Genesis 39:23 — The Lord was with Joseph, and whatever he did, the Lord made it succeed.", isCorrect: true, sentiment: "positive" },
       { text: "Boast of your skill aloud", nextScene: "boast_consequence", tag: "proud", feedback: "Boasting ruins what humility built.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -102,7 +102,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     text: "The keeper hands you the ring.\n\"All the prisoners — your charge.\"",
     choices: [
       { text: "Demand release in return", nextScene: "demand_consequence", tag: "proud", feedback: "He laughs. You are still a prisoner.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and serve faithfully", nextScene: "two_arrivals", tag: "humble", feedback: "You bow. The keys are heavy and warm.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and serve faithfully", nextScene: "two_arrivals", tag: "humble", feedback: "Genesis 39:22 — The keeper of the prison put Joseph in charge of all the prisoners.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -121,7 +121,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     text: "Two new prisoners arrive.\nCupbearer and chief baker. Pale, afraid.",
     choices: [
       { text: "Ignore them — not your problem", nextScene: "ignore_consequence", tag: "cold", feedback: "A shepherd does not turn away.", isCorrect: false, sentiment: "negative" },
-      { text: "Welcome and care for them", nextScene: "morning_sad", tag: "kind", feedback: "You pour them water. They breathe.", isCorrect: true, sentiment: "positive" },
+      { text: "Welcome and care for them", nextScene: "morning_sad", tag: "kind", feedback: "Genesis 40:4 — The captain of the guard assigned Joseph to them, and he attended them.", isCorrect: true, sentiment: "positive" },
       { text: "Mock the fallen nobles", nextScene: "mock_consequence", tag: "cruel", feedback: "Cruelty is not in the Lord's house.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -146,7 +146,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     title: "Why So Downcast?",
     text: "At dawn their faces are dark.\nSomething troubles them deeply.",
     choices: [
-      { text: "Tell me your dreams, please", nextScene: "interpret_offer", tag: "wise", feedback: "Both men look up at once.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell me your dreams, please", nextScene: "interpret_offer", tag: "wise", feedback: "Genesis 40:8 — Joseph asked them, \"Do not interpretations belong to God? Please tell them to me.\"", isCorrect: true, sentiment: "positive" },
       { text: "Stay silent — none of your concern", nextScene: "silent_consequence", tag: "cold", feedback: "Silence helps no one here.", isCorrect: false, sentiment: "negative" },
       { text: "Charge them coins to listen", nextScene: "greedy_consequence", tag: "greedy", feedback: "God's gift is not for sale.", isCorrect: false, sentiment: "negative" },
     ],
@@ -183,7 +183,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     text: "\"A vine — three branches budding.\nI pressed grapes into Pharaoh's cup.\"",
     choices: [
       { text: "Invent a flattering meaning", nextScene: "flatter_consequence", tag: "deceitful", feedback: "The Lord does not speak through flattery.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak what God reveals", nextScene: "cupbearer_meaning", tag: "wise", feedback: "Words rise clearly in your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak what God reveals", nextScene: "cupbearer_meaning", tag: "wise", feedback: "Genesis 40:8 — Joseph said, \"Do not interpretations belong to God? Please tell them to me.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   flatter_consequence: {
@@ -199,7 +199,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     title: "Three Days",
     text: "\"Three branches: three days.\nPharaoh will lift up your head.\"",
     choices: [
-      { text: "Ask him to remember you", nextScene: "remember_request", tag: "hopeful", feedback: "His eyes shine with promise.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask him to remember you", nextScene: "remember_request", tag: "hopeful", feedback: "Genesis 40:14 — Joseph asked the cupbearer to remember him and mention him to Pharaoh.", isCorrect: true, sentiment: "positive" },
       { text: "Demand half his future wages", nextScene: "demand_wages_consequence", tag: "greedy", feedback: "God's gift was never for sale.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -225,7 +225,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     text: "\"Three baskets on my head — birds\nate the bread meant for Pharaoh.\"",
     choices: [
       { text: "Lie to spare him pain", nextScene: "lie_consequence", tag: "deceitful", feedback: "A lie helps no one in the end.", isCorrect: false, sentiment: "negative" },
-      { text: "Tell the hard truth gently", nextScene: "baker_meaning", tag: "wise", feedback: "You take a slow breath. Truth.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell the hard truth gently", nextScene: "baker_meaning", tag: "wise", feedback: "Genesis 40:19 — Joseph told the chief baker that Pharaoh would lift off his head and hang him on a tree.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse to interpret it", nextScene: "refuse_interp_consequence", tag: "fearful", feedback: "Refusing will not change the dream.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -260,7 +260,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     title: "The Third Day",
     text: "Pharaoh's birthday dawns.\nGuards come for both men.",
     choices: [
-      { text: "Bless them as they go", nextScene: "wait_news", tag: "faithful", feedback: "You lay a hand on each shoulder.", isCorrect: true, sentiment: "positive" },
+      { text: "Bless them as they go", nextScene: "wait_news", tag: "faithful", feedback: "Genesis 40:20 — On Pharaoh's birthday, he restored the chief cupbearer and hanged the chief baker, just as Joseph had interpreted.", isCorrect: true, sentiment: "positive" },
       { text: "Rage against the guards", nextScene: "rage_consequence", tag: "bitter", feedback: "Anger will only earn you chains.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -277,7 +277,7 @@ export const josephPrisonScenes: Record<string, StoryScene> = {
     title: "Word Returns",
     text: "It is as you said.\nThe cupbearer lives. The baker does not.",
     choices: [
-      { text: "Wait quietly to be remembered", nextScene: "forgotten", tag: "faithful", feedback: "You sit by the small window.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait quietly to be remembered", nextScene: "forgotten", tag: "faithful", feedback: "Genesis 40:23 — The chief cupbearer did not remember Joseph, but forgot him.", isCorrect: true, sentiment: "positive" },
       { text: "Curse the cupbearer's silence", nextScene: "curse2_consequence", tag: "bitter", feedback: "Bitterness blinds the watchful eye.", isCorrect: false, sentiment: "negative" },
     ],
   },

@@ -14,7 +14,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "Dawn breaks on your prison cell.\nFootsteps approach the iron door.",
     choices: [
       { text: "Curse the lost years", nextScene: "curse_consequence", tag: "bitter", feedback: "Bitterness has no place here.", isCorrect: false, sentiment: "negative" },
-      { text: "Rise and pray to the Lord", nextScene: "summons", tag: "faithful", feedback: "Peace fills your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Rise and pray to the Lord", nextScene: "summons", tag: "faithful", feedback: "Genesis 41:1 — Joseph remained in prison for two full years after interpreting the dreams of the cupbearer and the baker.", isCorrect: true, sentiment: "positive" },
       { text: "Pretend to be sick", nextScene: "hide_consequence", tag: "fearful", feedback: "Fear cannot hide you.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "\"Pharaoh demands you. Quickly!\"\nThe magicians have all failed him.",
     choices: [
       { text: "Boast you can solve it", nextScene: "boast_consequence", tag: "proud", feedback: "Pride goes before the fall.", isCorrect: false, sentiment: "negative" },
-      { text: "Shave and dress for the king", nextScene: "preparation", tag: "obedient", feedback: "You honor the king's house.", isCorrect: true, sentiment: "positive" },
+      { text: "Shave and dress for the king", nextScene: "preparation", tag: "obedient", feedback: "Genesis 41:14 — Pharaoh sent and called Joseph, who was quickly brought out of the dungeon.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse out of fear", nextScene: "refuse_consequence", tag: "fearful", feedback: "There is no refusing Pharaoh.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -85,7 +85,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "Cool stone, painted columns.\nAn official waits to lead you in.",
     choices: [
       { text: "Demand pay before you speak", nextScene: "demand_consequence", tag: "greedy", feedback: "This is not a market.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and follow in silence", nextScene: "throne_enter", tag: "humble", feedback: "Silence shows respect.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and follow in silence", nextScene: "throne_enter", tag: "humble", feedback: "Genesis 41:14 — Joseph was brought out of the dungeon and came before Pharaoh.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -102,7 +102,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "Light pours through high windows.\nPharaoh sits, deeply troubled.",
     choices: [
       { text: "Stare boldly at the king", nextScene: "stare_consequence", tag: "proud", feedback: "Such pride is foolish here.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow low to the ground", nextScene: "pharaoh_speaks", tag: "humble", feedback: "Your forehead touches stone.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow low to the ground", nextScene: "pharaoh_speaks", tag: "humble", feedback: "Genesis 41:14 — Joseph was brought out of the dungeon and came before Pharaoh.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stare_consequence: {
@@ -119,7 +119,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "\"I have dreamed. None can interpret.\nI hear you can. Is it so?\"",
     choices: [
       { text: "\"Yes, the gift is mine alone\"", nextScene: "claim_consequence", tag: "proud", feedback: "You take credit that isn't yours.", isCorrect: false, sentiment: "negative" },
-      { text: "\"It is not in me; God will speak\"", nextScene: "humble_answer", tag: "faithful", feedback: "Truthful and humble.", isCorrect: true, sentiment: "positive" },
+      { text: "\"It is not in me; God will speak\"", nextScene: "humble_answer", tag: "faithful", feedback: "Genesis 41:16 — Joseph answered Pharaoh, saying, \"It is not in me; God will give Pharaoh a favorable answer.\"", isCorrect: true, sentiment: "positive" },
       { text: "\"I will try my best, mighty king\"", nextScene: "try_consequence", tag: "proud", feedback: "Trying is not enough.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -146,7 +146,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "God Will Answer",
     text: "Pharaoh leans forward, quieter now.\n\"Then hear my dream, Hebrew.\"",
     choices: [
-      { text: "Listen with full attention", nextScene: "cattle_dream", tag: "faithful", feedback: "You quiet your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen with full attention", nextScene: "cattle_dream", tag: "faithful", feedback: "Genesis 41:17-24 — Pharaoh proceeded to tell Joseph his dreams about the cows and the ears of grain.", isCorrect: true, sentiment: "positive" },
       { text: "Interrupt with questions", nextScene: "interrupt_consequence", tag: "proud", feedback: "Let the king speak first.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -164,7 +164,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "\"Seven fat cows came from the Nile.\nSeven gaunt cows ate them whole.\"",
     choices: [
       { text: "Tell him what cows mean in Egypt", nextScene: "egypt_lore_consequence", tag: "proud", feedback: "This is no folk tale.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen for the second dream", nextScene: "grain_dream", tag: "wise", feedback: "Two dreams, one message.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen for the second dream", nextScene: "grain_dream", tag: "wise", feedback: "Genesis 41:17-24 — Pharaoh told Joseph both his dream about the seven cows and his dream about the seven ears of grain.", isCorrect: true, sentiment: "positive" },
     ],
   },
   egypt_lore_consequence: {
@@ -181,7 +181,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "\"Seven full heads of grain rose.\nSeven thin ones swallowed them up.\"",
     choices: [
       { text: "Praise Egypt's many gods", nextScene: "idols_consequence", tag: "unfaithful", feedback: "There is one true God.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak God's interpretation", nextScene: "interpretation", tag: "faithful", feedback: "God puts words in your mouth.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak God's interpretation", nextScene: "interpretation", tag: "faithful", feedback: "Genesis 41:25 — Joseph told Pharaoh that God had revealed what He was about to do through the dreams.", isCorrect: true, sentiment: "positive" },
       { text: "Ask for a sign first", nextScene: "sign_consequence", tag: "fearful", feedback: "God's word is the sign.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -209,7 +209,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "\"The dreams are one, O King.\nGod has shown what He will do.\"",
     choices: [
       { text: "Soften the bad news", nextScene: "soften_consequence", tag: "fearful", feedback: "Truth must be spoken whole.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak it plainly", nextScene: "plain_truth", tag: "faithful", feedback: "Pharaoh leans in to hear.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak it plainly", nextScene: "plain_truth", tag: "faithful", feedback: "Genesis 41:25 — Joseph explained to Pharaoh that both dreams conveyed the same message from God.", isCorrect: true, sentiment: "positive" },
     ],
   },
   soften_consequence: {
@@ -226,7 +226,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "\"Seven years of plenty will come.\nThen seven years of famine.\"",
     choices: [
       { text: "Stop and wait for praise", nextScene: "stop_consequence", tag: "proud", feedback: "The word is not finished.", isCorrect: false, sentiment: "negative" },
-      { text: "Continue with God's counsel", nextScene: "give_counsel", tag: "wise", feedback: "Wisdom must follow warning.", isCorrect: true, sentiment: "positive" },
+      { text: "Continue with God's counsel", nextScene: "give_counsel", tag: "wise", feedback: "Genesis 41:29-30 — Joseph plainly stated that seven years of abundant harvest would be followed by seven years of severe famine.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stop_consequence: {
@@ -243,7 +243,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "\"Find a wise man. Store one fifth\nof the grain in years of plenty.\"",
     choices: [
       { text: "Name yourself for the role", nextScene: "self_consequence", tag: "proud", feedback: "Let the king choose.", isCorrect: false, sentiment: "negative" },
-      { text: "Leave the choice to Pharaoh", nextScene: "leave_choice", tag: "humble", feedback: "Humility honors God.", isCorrect: true, sentiment: "positive" },
+      { text: "Leave the choice to Pharaoh", nextScene: "leave_choice", tag: "humble", feedback: "Genesis 41:33-36 — Joseph advised Pharaoh to appoint a discerning and wise man to oversee the collection and storage of grain during the years of plenty.", isCorrect: true, sentiment: "positive" },
       { text: "Demand silver to share more", nextScene: "silver_consequence", tag: "greedy", feedback: "God gives freely.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -270,7 +270,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     title: "The King Decides",
     text: "Pharaoh stands. The court is silent.\n\"Can we find such a man?\"",
     choices: [
-      { text: "Wait quietly for his word", nextScene: "pharaoh_chooses", tag: "humble", feedback: "Calm trust on your face.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait quietly for his word", nextScene: "pharaoh_chooses", tag: "humble", feedback: "Genesis 41:37 — Joseph's counsel pleased Pharaoh and all his officials, who then considered the plan.", isCorrect: true, sentiment: "positive" },
       { text: "Push your own name forward", nextScene: "push_consequence", tag: "proud", feedback: "Pride could ruin all.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -288,7 +288,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "\"Can we find one with God's Spirit\nlike this man? You shall rule.\"",
     choices: [
       { text: "Refuse, you are unworthy", nextScene: "refuse2_consequence", tag: "fearful", feedback: "False humility is also pride.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and accept God's call", nextScene: "ring_given", tag: "faithful", feedback: "You receive what God gives.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and accept God's call", nextScene: "ring_given", tag: "faithful", feedback: "Genesis 41:38-40 — Pharaoh recognized that the Spirit of God was in Joseph and appointed him over all of Egypt.", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse2_consequence: {
@@ -305,7 +305,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "Pharaoh slides his ring on you.\n\"None shall lift hand without you.\"",
     choices: [
       { text: "Forget the God who lifted you", nextScene: "forget_consequence", tag: "unfaithful", feedback: "Never forget the Giver.", isCorrect: false, sentiment: "negative" },
-      { text: "Give thanks to God in your heart", nextScene: "ride_out", tag: "faithful", feedback: "All glory to the Lord.", isCorrect: true, sentiment: "positive" },
+      { text: "Give thanks to God in your heart", nextScene: "ride_out", tag: "faithful", feedback: "Genesis 41:42 — Pharaoh put his signet ring on Joseph's hand, clothing him in fine linen and placing a gold chain around his neck.", isCorrect: true, sentiment: "positive" },
     ],
   },
   forget_consequence: {
@@ -322,7 +322,7 @@ export const josephDreamsScenes: Record<string, StoryScene> = {
     text: "You ride through Egypt's roads.\nMen bow as you pass.",
     choices: [
       { text: "Plan revenge on your brothers", nextScene: "revenge_consequence", tag: "bitter", feedback: "Forgiveness will come.", isCorrect: false, sentiment: "negative" },
-      { text: "Plan to save God's people", nextScene: "ending", tag: "faithful", feedback: "You see God's larger purpose.", isCorrect: true, sentiment: "positive" },
+      { text: "Plan to save God's people", nextScene: "ending", tag: "faithful", feedback: "Genesis 41:43 — Joseph rode in the second chariot, and people bowed before him as he traveled throughout Egypt.", isCorrect: true, sentiment: "positive" },
       { text: "Boast to all you meet", nextScene: "boast2_consequence", tag: "proud", feedback: "Stay humble in honor.", isCorrect: false, sentiment: "negative" },
     ],
   },
