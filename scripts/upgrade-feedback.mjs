@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  rebekah: "Rebekah and the Servant (Genesis 24)",
-  jacobEsau: "Jacob and Esau (Genesis 25 & 27)",
-  jacobsDream: "Jacob's Dream at Bethel (Genesis 28:10-22)",
-  jacobWrestles: "Jacob Wrestles the Angel (Genesis 32:22-32)",
-  josephSold: "Joseph Sold by His Brothers (Genesis 37)",
+  josephPotiphar: "Joseph in Potiphar's House (Genesis 39)",
+  josephPrison: "Joseph in Prison (Genesis 39-40)",
+  josephDreams: "Joseph Interprets Pharaoh's Dreams (Genesis 41)",
+  josephBrothersEgypt: "Joseph and His Brothers in Egypt (Genesis 42-44)",
+  josephReconciles: "Joseph Reconciles with His Brothers (Genesis 44-46)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
