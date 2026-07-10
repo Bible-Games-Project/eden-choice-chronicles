@@ -55,6 +55,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const [finalButtonVisible, setFinalButtonVisible] = useState(false);
   const [finalButtonReady, setFinalButtonReady] = useState(false);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
+  const [pendingIncorrect, setPendingIncorrect] = useState<{ choice: StoryChoice; feedback: string } | null>(null);
 
   // Single effect: reset + schedule reveal timers when the scene actually changes.
   // IMPORTANT: do NOT depend on `choices` reference — parent re-shuffles each render
