@@ -13,7 +13,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     text: "You stand in a stranger's courtyard.\nPotiphar, captain of Pharaoh, watches you.",
     choices: [
       { text: "Run from this house", nextScene: "run_consequence", tag: "fearful", feedback: "You would be hunted as a runaway.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and serve with all your heart", nextScene: "serve_well", tag: "humble", feedback: "You bow low. The Lord is with you.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and serve with all your heart", nextScene: "serve_well", tag: "humble", feedback: "Genesis 39:4 — Joseph found favor in Potiphar's sight and served him.", isCorrect: true, sentiment: "positive" },
       { text: "Demand to be sent home", nextScene: "demand_consequence", tag: "proud", feedback: "Potiphar laughs coldly. You are a slave.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     text: "Each task you touch prospers.\nPotiphar begins to notice.",
     choices: [
       { text: "Steal grain to keep for yourself", nextScene: "steal_consequence", tag: "greedy", feedback: "A slave's hand must be clean.", isCorrect: false, sentiment: "negative" },
-      { text: "Give God the glory in silence", nextScene: "trusted", tag: "faithful", feedback: "You whisper thanks. Heaven hears.", isCorrect: true, sentiment: "positive" },
+      { text: "Give God the glory in silence", nextScene: "trusted", tag: "faithful", feedback: "Genesis 39:3 — Potiphar saw that the Lord was with Joseph and that the Lord made all he did to prosper in his hand.", isCorrect: true, sentiment: "positive" },
       { text: "Boast of your skill to others", nextScene: "boast_consequence", tag: "proud", feedback: "Boasting will draw envy, not favor.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -67,7 +67,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     text: "\"All I have is in your hand,\" Potiphar says.\nHe makes you steward of his house.",
     choices: [
       { text: "Use the wealth for your comfort", nextScene: "wealth_consequence", tag: "greedy", feedback: "His trust is not yours to spend.", isCorrect: false, sentiment: "negative" },
-      { text: "Manage every gift with honor", nextScene: "diligent", tag: "faithful", feedback: "You take up the scrolls with care.", isCorrect: true, sentiment: "positive" },
+      { text: "Manage every gift with honor", nextScene: "diligent", tag: "faithful", feedback: "Genesis 39:4 — Potiphar made Joseph overseer of his house and put all that he had into his hand.", isCorrect: true, sentiment: "positive" },
     ],
   },
   wealth_consequence: {
@@ -83,7 +83,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     title: "Blessing in the House",
     text: "The fields, the storehouse, the table — all flourish.\nThe Lord blesses for your sake.",
     choices: [
-      { text: "Pray and thank God each day", nextScene: "noticed", tag: "faithful", feedback: "Your prayers rise like incense.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray and thank God each day", nextScene: "noticed", tag: "faithful", feedback: "Genesis 39:5 — The Lord blessed the Egyptian's house for Joseph's sake, and the blessing of the Lord was on all that he had in the house and in the field.", isCorrect: true, sentiment: "positive" },
       { text: "Take credit before the household", nextScene: "credit_consequence", tag: "proud", feedback: "The blessing is not yours to claim.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -103,7 +103,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     text: "Potiphar's wife watches you each day.\nHer smile is warm, too warm.",
     choices: [
       { text: "Smile back to please her", nextScene: "smile_consequence", tag: "weak", feedback: "A small flame can burn a house.", isCorrect: false, sentiment: "negative" },
-      { text: "Keep your eyes lowered, work on", nextScene: "first_advance", tag: "faithful", feedback: "You bow your head and pass.", isCorrect: true, sentiment: "positive" },
+      { text: "Keep your eyes lowered, work on", nextScene: "first_advance", tag: "faithful", feedback: "Genesis 39:7 — Potiphar's wife cast longing eyes on Joseph.", isCorrect: true, sentiment: "positive" },
     ],
   },
   smile_consequence: {
@@ -119,7 +119,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     title: "\"Lie With Me\"",
     text: "She whispers it openly. Her hand finds yours.\nThe room grows still.",
     choices: [
-      { text: "Refuse — \"How can I sin against God?\"", nextScene: "she_persists", tag: "righteous", feedback: "Your voice is firm and quiet.", isCorrect: true, sentiment: "positive" },
+      { text: "Refuse — \"How can I sin against God?\"", nextScene: "she_persists", tag: "righteous", feedback: "Genesis 39:8-9 — Joseph refused Potiphar's wife, stating he could not do this great wickedness and sin against God.", isCorrect: true, sentiment: "positive" },
       { text: "Stay and weigh her offer", nextScene: "weigh_consequence", tag: "weak", feedback: "To weigh sin is to invite it.", isCorrect: false, sentiment: "negative" },
       { text: "Yield — no one will know", nextScene: "yield_consequence", tag: "fallen", feedback: "God sees what no man sees.", isCorrect: false, sentiment: "negative" },
     ],
@@ -145,7 +145,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     title: "Day After Day",
     text: "She speaks to you each morning.\nEach evening she waits in the hall.",
     choices: [
-      { text: "Avoid being alone with her", nextScene: "the_empty_house", tag: "wise", feedback: "Wisdom keeps the door shut.", isCorrect: true, sentiment: "positive" },
+      { text: "Avoid being alone with her", nextScene: "the_empty_house", tag: "wise", feedback: "Genesis 39:10 — Potiphar's wife spoke to Joseph day after day, but he did not listen to her, to lie with her or to be with her.", isCorrect: true, sentiment: "positive" },
       { text: "Confront her with harsh words", nextScene: "confront_consequence", tag: "rash", feedback: "Anger may shame her into hatred.", isCorrect: false, sentiment: "negative" },
       { text: "Tell Potiphar about her", nextScene: "tell_consequence", tag: "rash", feedback: "Who would believe a slave?", isCorrect: false, sentiment: "negative" },
     ],
@@ -173,7 +173,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     title: "No One Within",
     text: "The servants are gone for the feast.\nYou enter the hall to do your work.",
     choices: [
-      { text: "Finish quickly and leave", nextScene: "she_grabs", tag: "wise", feedback: "Be swift. The house is too quiet.", isCorrect: true, sentiment: "positive" },
+      { text: "Finish quickly and leave", nextScene: "she_grabs", tag: "wise", feedback: "Genesis 39:11 — Joseph went into the house to do his work when none of the men of the house were inside.", isCorrect: true, sentiment: "positive" },
       { text: "Linger — enjoy the silence", nextScene: "linger_consequence", tag: "careless", feedback: "Quiet houses are not always safe.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -190,7 +190,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     title: "She Catches Your Garment",
     text: "Her hand closes on your cloak.\n\"Lie with me!\" she demands.",
     choices: [
-      { text: "Leave the garment and flee", nextScene: "fled", tag: "righteous", feedback: "You slip out of the cloth and run.", isCorrect: true, sentiment: "positive" },
+      { text: "Leave the garment and flee", nextScene: "fled", tag: "righteous", feedback: "Genesis 39:12 — Joseph left his garment in her hand and fled and got out of the house.", isCorrect: true, sentiment: "positive" },
       { text: "Wrestle the cloak back", nextScene: "wrestle_consequence", tag: "rash", feedback: "She will tear it and call it proof.", isCorrect: false, sentiment: "negative" },
       { text: "Yield this once to keep peace", nextScene: "yield2_consequence", tag: "fallen", feedback: "There is no peace in such a sin.", isCorrect: false, sentiment: "negative" },
     ],
@@ -219,7 +219,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     text: "You stand outside, breathing hard.\nYour cloak is in her hand.",
     choices: [
       { text: "Hide and wait for the truth", nextScene: "hide2_consequence", tag: "fearful", feedback: "Hiding only looks like guilt.", isCorrect: false, sentiment: "negative" },
-      { text: "Return to your duties in faith", nextScene: "her_cry", tag: "faithful", feedback: "God knows. You will trust Him.", isCorrect: true, sentiment: "positive" },
+      { text: "Return to your duties in faith", nextScene: "her_cry", tag: "faithful", feedback: "Genesis 39:10 — Joseph refused to lie beside her or be with her, continuing to go about his duties.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide2_consequence: {
@@ -235,7 +235,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     title: "She Cries Out",
     text: "She calls the servants, holding your cloak.\n\"The Hebrew tried to shame me!\"",
     choices: [
-      { text: "Stand silent before God", nextScene: "before_potiphar", tag: "humble", feedback: "Your peace will be your defense.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand silent before God", nextScene: "before_potiphar", tag: "humble", feedback: "Genesis 39:14-15 — Potiphar's wife called to the men of her household and accused Joseph, holding his garment as evidence.", isCorrect: true, sentiment: "positive" },
       { text: "Shout her lie before all", nextScene: "shout_consequence", tag: "rash", feedback: "Anger will only feed her story.", isCorrect: false, sentiment: "negative" },
       { text: "Run away from the house", nextScene: "flee_consequence", tag: "fearful", feedback: "Flight is a confession.", isCorrect: false, sentiment: "negative" },
     ],
@@ -263,7 +263,7 @@ export const josephPotipharScenes: Record<string, StoryScene> = {
     title: "His Wrath Burns",
     text: "Potiphar holds the torn cloak.\nHis eyes are dark with anger.",
     choices: [
-      { text: "Bow and accept his judgment", nextScene: "to_prison", tag: "humble", feedback: "You kneel without a word.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and accept his judgment", nextScene: "to_prison", tag: "humble", feedback: "Genesis 39:19-20 — When Potiphar heard his wife's story, his anger was kindled, and he put Joseph into the prison.", isCorrect: true, sentiment: "positive" },
       { text: "Beg loudly for your life", nextScene: "beg_consequence", tag: "fearful", feedback: "His mind is set. Words will not turn it.", isCorrect: false, sentiment: "negative" },
       { text: "Curse his wife in fury", nextScene: "curse_consequence", tag: "rash", feedback: "Such words could cost your head.", isCorrect: false, sentiment: "negative" },
     ],

@@ -14,7 +14,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "They Return",
     text: "Eleven brothers stand below.\nBenjamin is among them. Your heart burns.",
     choices: [
-      { text: "Order the steward to greet them", nextScene: "greet", tag: "wise", feedback: "You move with control.", isCorrect: true, sentiment: "positive" },
+      { text: "Order the steward to greet them", nextScene: "greet", tag: "wise", feedback: "Genesis 43:16 — Joseph told his steward to bring the men to his house and prepare a meal.", isCorrect: true, sentiment: "positive" },
       { text: "Strike them down for old wrongs", nextScene: "strike_consequence", tag: "bitter", feedback: "Vengeance is not God's path.", isCorrect: false, sentiment: "negative" },
       { text: "Hide and let them leave", nextScene: "hide_consequence", tag: "fearful", feedback: "Father waits for word.", isCorrect: false, sentiment: "negative" },
     ],
@@ -40,7 +40,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Bring Them In",
     text: "\"Bring these men into my house.\nPrepare a feast at noon.\"",
     choices: [
-      { text: "Have them led to your home", nextScene: "summon_meal", tag: "kind", feedback: "The steward bows and obeys.", isCorrect: true, sentiment: "positive" },
+      { text: "Have them led to your home", nextScene: "summon_meal", tag: "kind", feedback: "Genesis 43:17 — The steward brought the men into Joseph's house.", isCorrect: true, sentiment: "positive" },
       { text: "Demand the silver first", nextScene: "demand_silver_consequence", tag: "harsh", feedback: "First show them mercy.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -74,7 +74,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "First Sight of Benjamin",
     text: "You see your mother's son.\nA flood rises in your chest.",
     choices: [
-      { text: "Excuse yourself to weep alone", nextScene: "recover", tag: "tender", feedback: "You hide your tears in your chamber.", isCorrect: true, sentiment: "positive" },
+      { text: "Excuse yourself to weep alone", nextScene: "recover", tag: "tender", feedback: "Genesis 43:30 — Joseph hurried out because he was deeply moved by his brother Benjamin and he wanted to weep.", isCorrect: true, sentiment: "positive" },
       { text: "Embrace him in front of all", nextScene: "embrace_too_soon_consequence", tag: "rash", feedback: "Not yet. The test is not done.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -91,7 +91,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Wash Your Face",
     text: "You return composed.\nThe meal is set, brothers seated by age.",
     choices: [
-      { text: "Sit with them and break bread", nextScene: "dine", tag: "gracious", feedback: "Benjamin's portion is five times more.", isCorrect: true, sentiment: "positive" },
+      { text: "Sit with them and break bread", nextScene: "dine", tag: "gracious", feedback: "Genesis 43:31-32 — Joseph washed his face and came out, then they served the meal.", isCorrect: true, sentiment: "positive" },
       { text: "Eat apart, stay aloof", nextScene: "aloof_consequence", tag: "cold", feedback: "Honor them this hour.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -108,7 +108,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "A Strange Wonder",
     text: "They marvel they sit by birth order.\nBenjamin's plate is heaped highest.",
     choices: [
-      { text: "Plan one final test tonight", nextScene: "cup_plan", tag: "wise", feedback: "You must know their hearts toward Benjamin.", isCorrect: true, sentiment: "positive" },
+      { text: "Plan one final test tonight", nextScene: "cup_plan", tag: "wise", feedback: "Genesis 44:1-2 — Joseph commanded his steward to fill the men's sacks with food, put each man's money back in his sack, and put Joseph's silver cup in the youngest brother's sack.", isCorrect: true, sentiment: "positive" },
       { text: "Send them home content", nextScene: "send_home_consequence", tag: "fearful", feedback: "First test their love for Benjamin.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -127,7 +127,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "The Silver Cup",
     text: "\"Hide my cup in Benjamin's sack.\nReturn their silver too.\"",
     choices: [
-      { text: "Place the cup in his sack", nextScene: "send_off2", tag: "test", feedback: "The steward obeys in silence.", isCorrect: true, sentiment: "positive" },
+      { text: "Place the cup in his sack", nextScene: "send_off2", tag: "test", feedback: "Genesis 44:2 — The steward put the cup in Benjamin's sack.", isCorrect: true, sentiment: "positive" },
       { text: "Cancel — too cruel a test", nextScene: "cancel_consequence", tag: "fearful", feedback: "Their hearts must be revealed.", isCorrect: false, sentiment: "negative" },
       { text: "Hide it in Reuben's sack", nextScene: "wrong_sack_consequence", tag: "unwise", feedback: "Only Benjamin tests their love.", isCorrect: false, sentiment: "negative" },
     ],
@@ -153,7 +153,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Dawn Departure",
     text: "Donkeys laden, they ride out at dawn,\nlight in their step.",
     choices: [
-      { text: "Send the steward to overtake them", nextScene: "overtake", tag: "test", feedback: "Hooves thunder after them.", isCorrect: true, sentiment: "positive" },
+      { text: "Send the steward to overtake them", nextScene: "overtake", tag: "test", feedback: "Genesis 44:4 — Joseph told his steward to pursue the men and ask them why they had repaid good with evil by stealing his silver cup.", isCorrect: true, sentiment: "positive" },
       { text: "Let them ride home in peace", nextScene: "let_go_consequence", tag: "fearful", feedback: "The test must finish.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -170,7 +170,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Halted on the Road",
     text: "\"Why have you repaid good with evil?\nWhere is my master's silver cup?\"",
     choices: [
-      { text: "Have him search every sack", nextScene: "search_sacks", tag: "test", feedback: "They unload, certain of innocence.", isCorrect: true, sentiment: "positive" },
+      { text: "Have him search every sack", nextScene: "search_sacks", tag: "test", feedback: "Genesis 44:4 — Joseph's steward overtook the brothers and questioned them about the missing cup.", isCorrect: true, sentiment: "positive" },
       { text: "Have him accuse Reuben outright", nextScene: "accuse_one_consequence", tag: "unjust", feedback: "Search them all, fairly.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -187,7 +187,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Eldest to Youngest",
     text: "Sack after sack — clean, clean, clean.\nBenjamin's is opened last.",
     choices: [
-      { text: "Watch the truth come out", nextScene: "found_in_benjamin", tag: "patient", feedback: "The cup gleams in the grain.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch the truth come out", nextScene: "found_in_benjamin", tag: "patient", feedback: "Genesis 44:9-10 — The brothers agreed that whoever had the cup would die, and the rest would be Joseph's slaves.", isCorrect: true, sentiment: "positive" },
       { text: "Stop the search now", nextScene: "stop_consequence", tag: "fearful", feedback: "The truth must surface.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -204,7 +204,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "The Cup Found",
     text: "Silver glints in Benjamin's sack.\nThe brothers tear their robes.",
     choices: [
-      { text: "Bring all eleven back to you", nextScene: "return_to_palace", tag: "test", feedback: "They turn their donkeys around.", isCorrect: true, sentiment: "positive" },
+      { text: "Bring all eleven back to you", nextScene: "return_to_palace", tag: "test", feedback: "Genesis 44:12 — The steward searched, beginning with the eldest and ending with the youngest, and the cup was found in Benjamin's sack.", isCorrect: true, sentiment: "positive" },
       { text: "Take only Benjamin captive", nextScene: "take_one_consequence", tag: "unwise", feedback: "Will they all stand for him?", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -223,7 +223,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Back Before You",
     text: "Eleven men fall to the ground.\nDust on their faces, hearts broken.",
     choices: [
-      { text: "Speak harsh: \"What have you done?\"", nextScene: "fall_down", tag: "test", feedback: "The room goes silent.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak harsh: \"What have you done?\"", nextScene: "fall_down", tag: "test", feedback: "Genesis 44:13 — Upon finding the cup, the brothers tore their clothes and returned to the city.", isCorrect: true, sentiment: "positive" },
       { text: "Forgive instantly with no test", nextScene: "no_test_consequence", tag: "rash", feedback: "Hear Judah first.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -240,7 +240,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "On Their Knees",
     text: "\"God has uncovered our guilt,\" they cry.\n\"We are all your servants.\"",
     choices: [
-      { text: "\"Only the guilty stays. Go free.\"", nextScene: "judah_steps", tag: "test", feedback: "You watch their faces closely.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Only the guilty stays. Go free.\"", nextScene: "judah_steps", tag: "test", feedback: "Genesis 44:14 — Judah and his brothers arrived at Joseph's house, and they fell to the ground before him.", isCorrect: true, sentiment: "positive" },
       { text: "\"All of you to prison now.\"", nextScene: "all_prison_consequence", tag: "unjust", feedback: "Test only Benjamin.", isCorrect: false, sentiment: "negative" },
       { text: "Send Benjamin to die", nextScene: "death_consequence", tag: "cruel", feedback: "You would never harm him.", isCorrect: false, sentiment: "negative" },
     ],
@@ -266,7 +266,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Judah Steps Forward",
     text: "Judah lifts his head from the dust.\n\"My lord, hear your servant speak.\"",
     choices: [
-      { text: "Allow Judah to speak fully", nextScene: "plea", tag: "wise", feedback: "You wait in silence.", isCorrect: true, sentiment: "positive" },
+      { text: "Allow Judah to speak fully", nextScene: "plea", tag: "wise", feedback: "Genesis 44:18 — Judah approached Joseph and began to plead on behalf of Benjamin and their father.", isCorrect: true, sentiment: "positive" },
       { text: "Silence him immediately", nextScene: "silence_consequence", tag: "fearful", feedback: "Hear his heart.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -285,7 +285,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "\"Take Me Instead\"",
     text: "\"My father's life is bound to the boy.\nLet me stay. Let Benjamin go home.\"",
     choices: [
-      { text: "Send all attendants out at once", nextScene: "send_attendants_out", tag: "tender", feedback: "You can hold back no longer.", isCorrect: true, sentiment: "positive" },
+      { text: "Send all attendants out at once", nextScene: "send_attendants_out", tag: "tender", feedback: "Genesis 44:33 — Judah offered himself as a slave in place of Benjamin, so Benjamin could return to his father.", isCorrect: true, sentiment: "positive" },
       { text: "Mock his offer coldly", nextScene: "mock_consequence", tag: "cruel", feedback: "His pledge is the test's answer.", isCorrect: false, sentiment: "negative" },
       { text: "Accept Judah, send Benjamin off", nextScene: "accept_consequence", tag: "harsh", feedback: "The time has come to reveal.", isCorrect: false, sentiment: "negative" },
     ],
@@ -311,7 +311,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "\"Go Out from Me!\"",
     text: "The hall empties of Egyptians.\nOnly eleven brothers remain.",
     choices: [
-      { text: "Weep aloud and tell them", nextScene: "reveal", tag: "tender", feedback: "Sobs shake your whole body.", isCorrect: true, sentiment: "positive" },
+      { text: "Weep aloud and tell them", nextScene: "reveal", tag: "tender", feedback: "Genesis 45:1 — Joseph could no longer control himself and commanded all his attendants to leave his presence.", isCorrect: true, sentiment: "positive" },
       { text: "Frighten them once more", nextScene: "frighten_consequence", tag: "cruel", feedback: "The waiting is over.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -328,7 +328,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "\"I Am Joseph\"",
     text: "\"I am Joseph your brother.\nIs my father still alive?\"",
     choices: [
-      { text: "Wait as they stand stunned", nextScene: "brothers_silent", tag: "patient", feedback: "Not one of them can answer.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait as they stand stunned", nextScene: "brothers_silent", tag: "patient", feedback: "Genesis 45:3 — Joseph's brothers were unable to answer him because they were dismayed at his presence.", isCorrect: true, sentiment: "positive" },
       { text: "Roar in triumph at them", nextScene: "roar_consequence", tag: "harsh", feedback: "Be gentle now.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -345,7 +345,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Stunned to Silence",
     text: "They cannot speak. They cannot move.\nTerror and shame fill their eyes.",
     choices: [
-      { text: "\"Come near to me, I beg you.\"", nextScene: "comfort", tag: "tender", feedback: "Your arms open wide.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Come near to me, I beg you.\"", nextScene: "comfort", tag: "tender", feedback: "Genesis 45:4 — Joseph told his brothers to come closer to him.", isCorrect: true, sentiment: "positive" },
       { text: "Demand they confess all", nextScene: "demand_confess_consequence", tag: "harsh", feedback: "Comfort them first.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -364,7 +364,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "\"Do Not Be Grieved\"",
     text: "\"I am Joseph, whom you sold.\nDo not be angry with yourselves.\"",
     choices: [
-      { text: "\"God sent me here before you\"", nextScene: "it_was_god", tag: "faithful", feedback: "Their tears begin to fall.", isCorrect: true, sentiment: "positive" },
+      { text: "\"God sent me here before you\"", nextScene: "it_was_god", tag: "faithful", feedback: "Genesis 45:5 — Joseph told his brothers not to be grieved or angry with themselves for selling him, because God sent him before them to preserve life.", isCorrect: true, sentiment: "positive" },
       { text: "\"You will pay for what you did\"", nextScene: "condemn_consequence", tag: "bitter", feedback: "God has turned it to good.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -381,7 +381,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "To Save Many Lives",
     text: "\"To preserve a remnant for you,\nto save many lives — God did this.\"",
     choices: [
-      { text: "Embrace Benjamin first", nextScene: "kiss_benjamin", tag: "loving", feedback: "You fall on his neck weeping.", isCorrect: true, sentiment: "positive" },
+      { text: "Embrace Benjamin first", nextScene: "kiss_benjamin", tag: "loving", feedback: "Genesis 45:14 — Joseph first embraced his brother Benjamin and wept.", isCorrect: true, sentiment: "positive" },
       { text: "Send them away in shame", nextScene: "shame_consequence", tag: "cold", feedback: "Embrace your brother.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -449,7 +449,7 @@ export const josephReconcilesScenes: Record<string, StoryScene> = {
     title: "Toward Goshen",
     text: "Wagons cross the desert.\nFather is coming. The family is whole.",
     choices: [
-      { text: "Ride out to meet him in Goshen", nextScene: "ending", tag: "loving", feedback: "You fall on his neck a long time.", isCorrect: true, sentiment: "positive" },
+      { text: "Ride out to meet him in Goshen", nextScene: "ending", tag: "loving", feedback: "Genesis 46:29 — Joseph prepared his chariot and went up to Goshen to meet his father Israel.", isCorrect: true, sentiment: "positive" },
       { text: "Let servants greet him first", nextScene: "servants_consequence", tag: "cold", feedback: "Go yourself.", isCorrect: false, sentiment: "negative" },
     ],
   },
