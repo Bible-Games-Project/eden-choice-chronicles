@@ -1,182 +1,173 @@
 {
-  "storyTitle": "إبراهيم في مصر",
+  "storyTitle": "[TODO:ar] Abraham in Egypt",
   "start": {
-    "title": "المجاعة",
-    "text": "الأرض الموعودة تتشقق تحت الجفاف.\nالقطعان تضعف. سارة تزداد نحولًا.",
+    "title": "[TODO:ar] A Famine in the Land",
+    "text": "[TODO:ar] A severe famine strikes the land of Canaan.\nWhat do you do?",
     "choices": [
       {
-        "text": "ثق بالله وانتظر المطر",
-        "feedback": ""
+        "text": "[TODO:ar] Go down to Egypt to live there as a foreigner for a while"
       },
       {
-        "text": "العن السماء الجافة",
-        "feedback": ""
+        "text": "[TODO:ar] Sail across the sea to a distant island"
       },
       {
-        "text": "اتجه جنوبًا إلى مصر فورًا",
-        "feedback": ""
+        "text": "[TODO:ar] Stay in Canaan and lead an army"
       }
     ]
   },
   "road_south": {
-    "title": "الطريق جنوبًا",
-    "text": "مصر تعد بالحبوب. سارة تسير بجانبك، صامتة.\nالأفق يرتعش.",
+    "title": "[TODO:ar] As You Near Egypt",
+    "text": "[TODO:ar] You are about to enter Egypt.\nWhat do you say to your wife Sarai?",
     "choices": [
       {
-        "text": "صلِّ قبل كل خطوة إلى الأمام",
-        "feedback": ""
+        "text": "[TODO:ar] 'I know what a beautiful woman you are â the Egyptians will kill me to take you'"
       },
       {
-        "text": "استمر دون كلمة لله",
-        "feedback": ""
+        "text": "[TODO:ar] 'The Lord will protect us; we have nothing to fear'"
+      },
+      {
+        "text": "[TODO:ar] Say nothing at all to Sarai"
       }
     ]
   },
   "fear_rises": {
-    "title": "فكرة باردة",
-    "text": "قد يقتلك المصريون ليأخذوا زوجتك.\nالخوف يتلوى بشدة داخل صدرك.",
+    "title": "[TODO:ar] The Request",
+    "text": "[TODO:ar] You ask Sarai to do something to protect your life.\nWhat is it?",
     "choices": [
       {
-        "text": "دبّر كذبة لتنقذ نفسك",
-        "feedback": ""
+        "text": "[TODO:ar] 'Say you are my sister, so that I will be treated well because of you'"
       },
       {
-        "text": "ثق بالله ليحرسكما",
-        "feedback": ""
+        "text": "[TODO:ar] 'Say you are my mother, so no one will notice'"
       },
       {
-        "text": "ارجع إلى المجاعة",
-        "feedback": ""
+        "text": "[TODO:ar] 'Say we are strangers who have never met'"
       }
     ]
   },
   "the_lie": {
-    "title": "نصف الحقيقة",
-    "text": "عينا سارة تلتقيان بعينيك. \"قل إنك أخي.\"\nالكلمات كالجمر في فمك.",
+    "title": "[TODO:ar] The Egyptians See Sarai",
+    "text": "[TODO:ar] You arrive in Egypt.\nHow do the Egyptians respond to Sarai?",
     "choices": [
       {
-        "text": "اعترف بالخوف وتكلم بالحق",
-        "feedback": ""
+        "text": "[TODO:ar] The Egyptians see that she is very beautiful"
       },
       {
-        "text": "اجعلها توافق على الكذبة",
-        "feedback": ""
+        "text": "[TODO:ar] The Egyptians ignore her completely"
+      },
+      {
+        "text": "[TODO:ar] The Egyptians drive her away from the city"
       }
     ]
   },
   "entering_egypt": {
-    "title": "بوابات مصر",
-    "text": "المدينة تعج بالناس. العيون تتبع سارة في كل مكان.\nالهمسات تصل إلى القصر.",
+    "title": "[TODO:ar] Pharaoh's Officials",
+    "text": "[TODO:ar] Pharaoh's officials see Sarai.\nWhat do they do?",
     "choices": [
       {
-        "text": "ابقَ قريبًا واحرسها",
-        "feedback": ""
+        "text": "[TODO:ar] They praise her to Pharaoh, and she is taken into his palace"
       },
       {
-        "text": "ابتعد لتبدو غير مرتبط",
-        "feedback": ""
+        "text": "[TODO:ar] They chase Abram out of Egypt at once"
       },
       {
-        "text": "تباهى بالهدايا التي ستتلقاها",
-        "feedback": ""
+        "text": "[TODO:ar] They ignore her and offer no attention"
       }
     ]
   },
   "officials_come": {
-    "title": "مسؤولو فرعون",
-    "text": "يصل مسؤول. \"لقد سمع فرعون عن جمالها.\"\nابتسامته مهذبة. حادة.",
+    "title": "[TODO:ar] For Sarai's Sake",
+    "text": "[TODO:ar] Because of Sarai, Pharaoh treats you well.\nHow does he treat Abram?",
     "choices": [
       {
-        "text": "كرر الكذبة — \"أختي\"",
-        "feedback": ""
+        "text": "[TODO:ar] He gives you sheep, cattle, donkeys, servants and camels"
       },
       {
-        "text": "تكلم بالحق — \"هي زوجتي\"",
-        "feedback": ""
+        "text": "[TODO:ar] He puts Abram in prison"
+      },
+      {
+        "text": "[TODO:ar] He gives Abram nothing at all"
       }
     ]
   },
   "sarah_taken": {
-    "title": "وحدك",
-    "text": "يقودون سارة نحو القصر.\nالخيمة فجأة صامتة بشكل لا يطاق.",
+    "title": "[TODO:ar] The Lord Strikes",
+    "text": "[TODO:ar] The Lord does not remain silent.\nWhat does He do because of Sarai?",
     "choices": [
       {
-        "text": "اسقط على ركبتيك وابكِ إلى الله",
-        "feedback": ""
+        "text": "[TODO:ar] The Lord inflicts serious diseases on Pharaoh and his household"
       },
       {
-        "text": "اجلس خدرًا وعد خسائرك",
-        "feedback": ""
+        "text": "[TODO:ar] The Lord sends fire down on Egypt"
+      },
+      {
+        "text": "[TODO:ar] The Lord remains silent"
       }
     ]
   },
   "gifts_arrive": {
-    "title": "ثمن الصمت",
-    "text": "غنم، ذهب، خدم — عطايا فرعون.\nكل هدية كالمسمار في قلبك.",
+    "title": "[TODO:ar] Pharaoh Summons You",
+    "text": "[TODO:ar] Pharaoh calls for you.\nWhat does he say?",
     "choices": [
       {
-        "text": "اقبلها، اخفِ العار",
-        "feedback": ""
+        "text": "[TODO:ar] 'What have you done to me? Why didn't you tell me she was your wife?'"
       },
       {
-        "text": "ارفضها وتوسل إلى الله أن يتصرف",
-        "feedback": ""
+        "text": "[TODO:ar] 'Thank you for your gifts â please stay'"
       },
       {
-        "text": "أعدهم إلى فرعون",
-        "feedback": ""
+        "text": "[TODO:ar] 'Sarai will remain in my house forever'"
       }
     ]
   },
   "plagues": {
-    "title": "الله يضرب",
-    "text": "المرض يجتاح بيت فرعون.\nلا يستطيع أي معالج تسمية سببه.",
+    "title": "[TODO:ar] Take Her and Go",
+    "text": "[TODO:ar] Pharaoh gives his order.\nWhat does he command?",
     "choices": [
       {
-        "text": "اعلم أن الله لم ينسَ",
-        "feedback": ""
+        "text": "[TODO:ar] 'Here is your wife. Take her and go!'"
       },
       {
-        "text": "خف مما سيفعله الله بك",
-        "feedback": ""
+        "text": "[TODO:ar] 'You must remain here as my servant forever'"
+      },
+      {
+        "text": "[TODO:ar] 'I will keep Sarai and you may return to Canaan alone'"
       }
     ]
   },
   "confronted": {
-    "title": "الحساب",
-    "text": "صوت فرعون يرتجف. \"لماذا فعلت هذا؟\nلماذا قلت 'أختي'؟\"",
+    "title": "[TODO:ar] Escorted Out",
+    "text": "[TODO:ar] Pharaoh gives orders about you.\nWhat happens?",
     "choices": [
       {
-        "text": "اختلق الأعذار لخوفك",
-        "feedback": ""
+        "text": "[TODO:ar] Pharaoh's men send you on your way, with your wife and everything you have"
       },
       {
-        "text": "اطأطئ رأسك — لا دفاع",
-        "feedback": ""
+        "text": "[TODO:ar] Pharaoh's men strip you of all your possessions"
       },
       {
-        "text": "ألقِ باللوم على المجاعة في كل شيء",
-        "feedback": ""
+        "text": "[TODO:ar] Pharaoh's men put you in chains"
       }
     ]
   },
   "expelled": {
-    "title": "الطرد",
-    "text": "\"خذ زوجتك. خذ كل شيء. اذهب.\"\nالحراس يرافقونك إلى الحدود.",
+    "title": "[TODO:ar] Going Up from Egypt",
+    "text": "[TODO:ar] You leave Egypt.\nWhere do you go?",
     "choices": [
       {
-        "text": "امشِ إلى الأمام، خجلًا جدًا من النظر",
-        "feedback": ""
+        "text": "[TODO:ar] Go up from Egypt to the Negev, with your wife and all you have"
       },
       {
-        "text": "مد يدك لسارة في صمت",
-        "feedback": ""
+        "text": "[TODO:ar] Stay in Egypt and settle there for good"
+      },
+      {
+        "text": "[TODO:ar] Go east across the desert to Assyria"
       }
     ]
   },
   "altar": {
-    "title": "المذبح",
-    "text": "عدت إلى أرض الموعد، تبني مذبحاً من الحجارة.\nالوعد قائم — رغم كل شيء.",
+    "title": "[TODO:ar] Back to the Altar",
+    "text": "[TODO:ar] You return to the place between Bethel and Ai,\nto the altar you had built at first, and there you call on the name of the Lord.",
     "choices": []
   }
 }

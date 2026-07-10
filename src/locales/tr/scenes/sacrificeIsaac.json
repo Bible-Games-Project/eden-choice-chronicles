@@ -1,372 +1,233 @@
 {
-  "storyTitle": "İshak'ın Kurban Edilmesi",
+  "storyTitle": "[TODO:tr] Sacrifice of Isaac",
   "start": {
-    "title": "Gecenin Bir Sesi",
-    "text": "Çadırındaki ateş azalmış.\nİshak, Sara'nın yanında uyuyor — vaadin oğlu, yaşlılığının kahkahası.\nSonra, sessizlikte, hayatın boyunca tanıdığın bir ses: \"İbrahim.\"",
+    "title": "[TODO:tr] God Tests Abraham",
+    "text": "[TODO:tr] God calls to you.\nHow do you answer?",
     "choices": [
       {
-        "text": "Hemen cevap ver: \"İşte ben\"",
-        "feedback": "Korku onu yakalayamadan söz ağzından çıkar. \"İşte ben, Rab.\""
+        "text": "[TODO:tr] Answer: 'Here I am'"
       },
       {
-        "text": "Duymamış gibi yap",
-        "feedback": "Battaniyeyi daha yukarı çekersin. Ses gitmez."
+        "text": "[TODO:tr] Ignore the voice and go back to sleep"
       },
       {
-        "text": "Önce ne istediğini bilmek için ısrar et",
-        "feedback": "Kalbin dinlemeden pazarlık eder. Sessizlik ağırlaşır."
-      }
-    ]
-  },
-  "doubt_consequence": {
-    "title": "O Geçip Gitmez",
-    "text": "Ses gitmez. Bekler — sabırlı, engin, kesin.\nUr'dan seni çağıran O'ndan kaçamazsın.\nYataktan kalkar ve soğuk havaya adım atarsın.",
-    "choices": [
-      {
-        "text": "Eğil ve sonunda cevap ver: \"İşte ben\"",
-        "feedback": "Alnını kuma değdirirsin. \"İşte ben, Rab.\""
+        "text": "[TODO:tr] Demand to know the Lord's name first"
       }
     ]
   },
   "the_command": {
-    "title": "Oğlunu Al",
-    "text": "Sözler gelir, yavaş ve korkunç:\n\"Oğlunu, sevdiğin biricik oğlun İshak'ı al ve Moriya diyarına git.\nOrada onu yakmalık sunu olarak, sana göstereceğim bir dağda sun.\"",
+    "title": "[TODO:tr] Take Your Son",
+    "text": "[TODO:tr] God speaks the command.\nWhat does He say?",
     "choices": [
       {
-        "text": "Reddet — Tanrı bunu isteyemezdi",
-        "feedback": "Başını sallarsın. Ama emir geri alınmaz."
+        "text": "[TODO:tr] 'Take your son, your only son, whom you love â Isaac â and offer him as a burnt offering on a mountain I will show you'"
       },
       {
-        "text": "Titreyen bir sessizlikle eğil ve kabul et",
-        "feedback": "Yüzünü yere bastırırsın. Kelimeler gelmez — sadece teslimiyet."
+        "text": "[TODO:tr] 'Take a lamb from your flock and offer it here'"
       },
       {
-        "text": "Tanrı'ya yalvar, onun yerine seni alsın",
-        "feedback": "\"Beni al, Rab — çocuğu değil.\" Gökler takasa cevap vermez."
-      }
-    ]
-  },
-  "refuse_consequence": {
-    "title": "Onu Veren Tanrı",
-    "text": "Uçsuz bucaksız yıldızların altında yalnız duruyorsun.\nBu, Sara'nın rahmi ölüyken İshak'ı vaat eden aynı Tanrı'dır.\nOğlanı O verdi. Henüz sana yalan söylemedi.",
-    "choices": [
-      {
-        "text": "Verene güven — ve itaat et",
-        "feedback": "Reddin çöker. \"Veren, aynı zamanda koruyabilir.\""
-      }
-    ]
-  },
-  "bargain_consequence": {
-    "title": "Sunabileceğin Bir Yedek Yok",
-    "text": "Pazarlıkların boğazında düğümlenir.\nBu sınav senin hayatın için değil. Kalbin içindir.\nBinlerce yıldız yukarıda bekliyor — bir zamanlar O'nun vaat ettiği yıldızlar.",
-    "choices": [
-      {
-        "text": "Pazarlıktan vazgeç ve itaat et",
-        "feedback": "Pazarlık etmeyi bırakırsın. Güvenmekten başka bir şey kalmaz."
+        "text": "[TODO:tr] 'Build a great temple in Beersheba'"
       }
     ]
   },
   "the_weight": {
-    "title": "Şafaktan Önce",
-    "text": "Gökyüzü grileşene kadar sönmekte olan ateşin başında oturursun.\nİshak yakında usulca nefes alıyor. Sara kımıldamıyor.\nÇok geçmeden güneş doğacak — ve cesaretin kırılmadan önce hareket etmelisin.",
+    "title": "[TODO:tr] Early the Next Morning",
+    "text": "[TODO:tr] Early the next morning you prepare for the journey.\nWhat do you do?",
     "choices": [
       {
-        "text": "Hizmetkarları uyandır ve hemen eşeği hazırla",
-        "feedback": "Düşünmektense yürümek daha iyi. Kalkar ve başlarsın."
+        "text": "[TODO:tr] Get up early, saddle your donkey, take two servants and your son Isaac, and cut enough wood for the burnt offering"
       },
       {
-        "text": "Bekle — belki başka bir işaret gelir",
-        "feedback": "Şafak yine de söker. Emir değişmez."
+        "text": "[TODO:tr] Refuse to go and stay in Beersheba"
       },
       {
-        "text": "Sarah'ı uyandır ve ona her şeyi anlat",
-        "feedback": "Elin omzunun üzerinde durur — ve geri düşer. Ayrılığa dayanamazdı."
-      }
-    ]
-  },
-  "delay_consequence": {
-    "title": "Başka Bir İşaret Gelmeyecek",
-    "text": "Işık artıyor. Kuşlar ilk çağrılarına başlıyor.\nBir kez söylenen sözün tekrarlanmasına gerek yok.\nGecikmiş itaat, yapılması gerekeni yumuşatmayacaktır.",
-    "choices": [
-      {
-        "text": "Kalk ve yolculuğa hazırlan",
-        "feedback": "Ağırlığıyla kaskatı kesilmiş bir şekilde ayağa kalkar ve hizmetkarları çağırırsın."
-      }
-    ]
-  },
-  "tell_sarah_consequence": {
-    "title": "Buna Katlanmamalı",
-    "text": "Çadırı yıkardı.\nİshak'a sarılır ve bunu isteyen Tanrı'ya lanet okurdu.\nBu yük yalnızca sana ait – ve eğer gerekirse İshak'a.",
-    "choices": [
-      {
-        "text": "Sessizce ayrıl ve sessizlik içinde hazırlan",
-        "feedback": "Tek kelime etmeden dışarı çıkarsın. Şafak sırrını saklar."
+        "text": "[TODO:tr] Wait for a sign before setting out"
       }
     ]
   },
   "departure": {
-    "title": "Üç Günlük Yürüyüş",
-    "text": "Yakmalık sunu için odunları kendin yarıyorsun — baltanın her darbesi bir öncekinden daha ağır.\nİshak'ı nazikçe uyandırıyorsun. İki hizmetçi seninle geliyor.\nMoriya diyarı üç günlük kuzeyde yatıyor.",
+    "title": "[TODO:tr] Toward Moriah",
+    "text": "[TODO:tr] You travel toward the place God has told you.\nHow long do you journey?",
     "choices": [
       {
-        "text": "Açıklama yapmadan ilk ışıkta yola çık",
-        "feedback": "Çocuk uykulu ve güvenle takip eder. Çadıra arkana bakmazsın."
+        "text": "[TODO:tr] Travel for three days, until you look up and see the place in the distance"
       },
       {
-        "text": "İshak'a nereye gittiğin hakkında yalan söyle",
-        "feedback": "Yalan kül tadındadır. Sana sorgusuz sualsiz inanır — ki bu daha kötüdür."
-      }
-    ]
-  },
-  "lie_consequence": {
-    "title": "Bugün İçin Yeterli Gerçek",
-    "text": "Ona yalan söyleyemezsin. Tüm gerçeği değil — ama yalan da değil.\n\"İbadet etmeye gidiyoruz,\" diyorsun ona. \"Tanrı sağlayacak.\"\nBu, henüz anladığından daha doğru.",
-    "choices": [
+        "text": "[TODO:tr] Travel only a single hour before arriving"
+      },
       {
-        "text": "Onunla birlikte şafağa doğru yürü",
-        "feedback": "Sana gülümser ve elini tutar. Yol başlar."
+        "text": "[TODO:tr] Travel for forty years through the desert"
       }
     ]
   },
   "the_road": {
-    "title": "Kuzeye Uzun Yol",
-    "text": "Uçsuz bucaksız soluk bir gökyüzünün altında üç gün.\nİshak kuzular, yıldızlar ve döndüğünüzde Sara'nın ne pişireceği hakkında gevezelik ediyor.\nHer kelime küçük bir bıçak — ve küçük bir merhamet.",
+    "title": "[TODO:tr] Stay Here With the Donkey",
+    "text": "[TODO:tr] You come near the mountain.\nWhat do you tell the servants?",
     "choices": [
       {
-        "text": "Onu tamamen dinle — her kelimeyi sakla",
-        "feedback": "Sesini çöldeki son kuyuymuş gibi içersin."
+        "text": "[TODO:tr] 'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you'"
       },
       {
-        "text": "Ayrı yürü ve kalbini katılaştır",
-        "feedback": "Onun önünde adımlarını hızlandırırsın. Mesafe seni korumaz."
+        "text": "[TODO:tr] 'Come with us up the mountain to watch'"
       },
       {
-        "text": "Geri dön — yolculuğun bir hata olduğunu iddia et",
-        "feedback": "Ayakların yavaşlar. Ama seni çağıran sesten kaçamazsın."
-      }
-    ]
-  },
-  "harden_consequence": {
-    "title": "Bir Baba Kendini Sertleştiremez",
-    "text": "Bundan kaçmak için kendini yeterince küçültemezsin.\nEğer Tanrı hiçbir şey sağlamazsa, onu her iki şekilde de kaybedeceksin — bir kez sunakta, ve sonsuza dek ruhunda.\nSon adıma kadar sevgini hak ediyor.",
-    "choices": [
-      {
-        "text": "Yavaşla ve tekrar onun yanında yürü",
-        "feedback": "Onun adımlarına uyarsın. Sana gülümser. O gülümsemeyi hak etmiyorsun."
-      }
-    ]
-  },
-  "turn_back_consequence": {
-    "title": "Geri Dönüş Yok",
-    "text": "Şimdi geri dönersen, her vaat çözülür.\nSaydığı yıldızlar, yemin ettiği uluslar — hepsi bir ret üzerine çöker.\nİman bir yoldur; sen zaten üzerindesin.",
-    "choices": [
-      {
-        "text": "Tekrar kuzeye dön ve yürümeye devam et",
-        "feedback": "Yüzünü çakmak taşı gibi sertleştirir ve onunla yürümeye devam edersin."
+        "text": "[TODO:tr] 'Take the donkey home; we are not coming back'"
       }
     ]
   },
   "mountain_in_sight": {
-    "title": "Uzaklardaki Dağ",
-    "text": "Üçüncü gün gözlerini kaldırıyorsun — ve onu görüyorsun.\nUzakta, soluk bir sisle sarılmış tek bir zirve.\nİçindeki bir şey buranın o yer olduğunu biliyor.",
+    "title": "[TODO:tr] The Wood and the Fire",
+    "text": "[TODO:tr] You prepare to climb the mountain.\nWho carries what?",
     "choices": [
       {
-        "text": "Hizmetkarlara eşekle burada beklemelerini söyle",
-        "feedback": "\"Eşekle burada kalın. Çocukla ben ibadet etmeye gideceğiz — ve size geri geleceğiz.\""
+        "text": "[TODO:tr] Place the wood for the burnt offering on Isaac's shoulders; carry the fire and the knife yourself"
       },
       {
-        "text": "Destek için hizmetkarları yanına al",
-        "feedback": "Onlara doğru bir adım atarsın — sonra durursun. Bunu paylaşamazlar."
-      }
-    ]
-  },
-  "servants_consequence": {
-    "title": "Bu Başka Gözler İçin Değil",
-    "text": "Eğer tanık olurlarsa, seni durdururlar. Eğer seni durdururlarsa, O'nu başarısızlığa uğratmış olursun.\nBu senin, çocuğun ve Tanrı arasında.\nBaşka hiçbir el destekleyemez veya engelleyemez.",
-    "choices": [
+        "text": "[TODO:tr] Carry the wood yourself while Isaac carries nothing"
+      },
       {
-        "text": "Onlara dağın eteğinde burada beklemelerini söyle",
-        "feedback": "\"Burada kalın. Size geri döneceğiz.\" Kelimeler henüz anlamadığın bir kehanet gibi gelir."
+        "text": "[TODO:tr] Leave the wood behind at the foot of the mountain"
       }
     ]
   },
   "leave_servants": {
-    "title": "Odunu O Taşıyacak",
-    "text": "Yarılmış odun demetini İshak'ın güçlü genç omuzlarına yüklüyorsun.\nAteşi ve bıçağı kendi ellerinde taşıyorsun.\nBirlikte dar patikayı tırmanmaya başlıyorsunuz.",
+    "title": "[TODO:tr] Father",
+    "text": "[TODO:tr] As you walk together, Isaac speaks up.\nWhat does he say?",
     "choices": [
       {
-        "text": "Onun yanında sessizce yürü",
-        "feedback": "Adım adım, patika yukarı doğru kıvrılır. Rüzgar kayalıklarda şarkı söyler."
+        "text": "[TODO:tr] 'Father â the fire and wood are here, but where is the lamb for the burnt offering?'"
+      },
+      {
+        "text": "[TODO:tr] 'Father â let us go back home right now'"
+      },
+      {
+        "text": "[TODO:tr] Isaac says nothing the whole way up"
       }
     ]
   },
   "isaacs_question": {
-    "title": "Kuzu Nerede?",
-    "text": "Yolun yarısında, İshak durur ve sana döner.\n\"Babam — işte ateş ve odun. Ama yakmalık sunu için kuzu nerede?\"\nGözleri berrak ve güven dolu. Bir cevap bekliyor.",
+    "title": "[TODO:tr] God Will Provide",
+    "text": "[TODO:tr] You answer Isaac.\nWhat do you say?",
     "choices": [
       {
-        "text": "\"Tanrı'nın kendisi bir kuzu sağlayacak, oğlum\"",
-        "feedback": "Kelimeler ağzından bir dua gibi çıkar. Anlamlarını sen bile henüz bilmiyorsun."
+        "text": "[TODO:tr] 'God Himself will provide the lamb for the burnt offering, my son'"
       },
       {
-        "text": "Ona gerçeği söyle — onun kuzu olduğunu",
-        "feedback": "Yüzü bembeyaz olur. Odunu düşürür ve geriye doğru sendeler."
+        "text": "[TODO:tr] 'You are the lamb, Isaac'"
       },
       {
-        "text": "Hiçbir şey söyleme ve yürümeye devam et",
-        "feedback": "Uzun bir an bekler. Sonra sessizce takip eder. İçindeki bir şey biliyor."
-      }
-    ]
-  },
-  "tell_truth_consequence": {
-    "title": "Hala Sana Güveniyor",
-    "text": "Titriyor. Ama uzun bir sessizlikten sonra, odunu tekrar alır.\nKaçmaz. Sana lanet okumaz.\nYanında yürümeye devam eder — çünkü senin her zaman güvendiğin Tanrı'ya güveniyor.",
-    "choices": [
-      {
-        "text": "Onunla birlikte huşu içinde zirveye yürü",
-        "feedback": "İki inanç, patikanın sonuna kadar yan yana yürür."
-      }
-    ]
-  },
-  "silence_consequence": {
-    "title": "İmanın Cevabı",
-    "text": "Sorusu cevapsız bırakılamaz — şimdi değil, asla değil.\nİman sessizlik değildir. İman karanlığa söylenen sözdür.\nOna dönüyorsun.",
-    "choices": [
-      {
-        "text": "De ki: \"Tanrı kendisi sağlayacak kuzuyu, oğlum\"",
-        "feedback": "Sen söylersin. Dağ nefesini tutmuş gibi görünür."
+        "text": "[TODO:tr] 'There is no lamb â we go home now'"
       }
     ]
   },
   "summit": {
-    "title": "Gösterdiği Yer",
-    "text": "Yere ulaşıyorsun. Rüzgar duruluyor.\nTaşları toplamaya başlıyorsun. İshak diz çöker ve sana yardım eder, küçük elleri senin yanındadır.\nMizbah yükselir — kaba, kutsal, korkunç.",
+    "title": "[TODO:tr] The Altar",
+    "text": "[TODO:tr] You reach the place God has told you about.\nWhat do you build there?",
     "choices": [
       {
-        "text": "Odunları taşların üzerine sırayla diz",
-        "feedback": "Her odun parçası dikkatle yerleştirilir. Sunak hazır."
+        "text": "[TODO:tr] Build an altar, arrange the wood on it, bind Isaac and lay him on the altar, on top of the wood"
       },
       {
-        "text": "Dur — bunu yapamazsın",
-        "feedback": "Ellerin yanlarına düşer. Etrafında rüzgar yükselir."
-      }
-    ]
-  },
-  "stop_consequence": {
-    "title": "Dirilişe İnanan İman",
-    "text": "Ellerin titriyor. Sonra bir düşünce seni sarar — emrin kendisinden daha eski:\n\"İshak'ı ölü bir rahimden veren, onu ölümden geri verebilir.\"\nBuna inanıyorsun. Anlamıyorsun. Ama inanıyorsun.",
-    "choices": [
+        "text": "[TODO:tr] Build a shrine to another god instead"
+      },
       {
-        "text": "Odunları al ve başlayanı bitir",
-        "feedback": "Ellerin sabit. Sunağı tamamlarsın."
+        "text": "[TODO:tr] Refuse to build anything and turn back"
       }
     ]
   },
   "the_binding": {
-    "title": "Karşı Koymadı",
-    "text": "İshak'a dönüyorsun. Sözler yok — sadece gözlerin onunkiyle buluşuyor.\nGörüyor. Anlıyor. Ve kaçmıyor.\nDiz çöker. Ellerini bağlamana izin verir. Kendini odunların üzerine bırakır.",
+    "title": "[TODO:tr] The Knife",
+    "text": "[TODO:tr] Isaac is bound on the altar.\nWhat do you do next?",
     "choices": [
       {
-        "text": "Alnından öp ve bıçağı kaldır",
-        "feedback": "Onun gözyaşı senin gözyaşınla buluşur. Bıçağı kaldırırsın."
+        "text": "[TODO:tr] Reach out your hand and take the knife to slay your son"
       },
       {
-        "text": "Onu serbest bırak — sunaktan kaç",
-        "feedback": "Elin ipi bulur — ama durur. Şimdi geri dönmek, onun tüm cesaretini değersiz kılmaktır."
-      }
-    ]
-  },
-  "flee_consequence": {
-    "title": "Onun İmanı Seni Tutar",
-    "text": "Çocuk altında hareketsiz yatıyor, gözleri kapalı, nefesi düzenli.\nGüveniyor. Kendini seninle birlikte sunuyor.\nEğer kaçarsan, sadece Tanrı'ya değil — İshak'ın kendi teslimiyetine de ihanet edersin.",
-    "choices": [
+        "text": "[TODO:tr] Set the knife aside and refuse"
+      },
       {
-        "text": "Sonuna kadar onunla dur — bıçağı kaldır",
-        "feedback": "Bıçağı onun üzerine kaldırırsın, iki elin de titrer."
+        "text": "[TODO:tr] Loose Isaac and flee down the mountain"
       }
     ]
   },
   "the_knife": {
-    "title": "İbrahim! İbrahim!",
-    "text": "Bıçak yükseğe kalkar. Kolların taş kesilir.\nEn yüksek noktada — bir ses gökyüzünü yırtar:\n\"İbrahim! İbrahim!\"",
+    "title": "[TODO:tr] The Angel of the Lord",
+    "text": "[TODO:tr] The angel of the Lord calls out to you from heaven.\nWhat does he say?",
     "choices": [
       {
-        "text": "Hemen cevap ver: \"İşte ben buradayım\"",
-        "feedback": "Bıçak durur. \"İşte ben buradayım, Rab.\""
+        "text": "[TODO:tr] 'Abraham! Abraham! Do not lay a hand on the boy. Do not do anything to him'"
       },
       {
-        "text": "Başka bir emir gelmeden vur",
-        "feedback": "Kolun gerilir — sonra kilitlenir. Yapamazsın. Sesin önceliği var."
-      }
-    ]
-  },
-  "strike_consequence": {
-    "title": "Sınav Kan Değil",
-    "text": "Kolun hareket etmeyecek.\nTanrı ölümü istemedi — ölümü verecek kalbi istedi.\nOna o kalbi verdin. Bıçak işini zaten yaptı.",
-    "choices": [
+        "text": "[TODO:tr] 'Strike the boy quickly â do not delay'"
+      },
       {
-        "text": "Bıçağı indir ve sese cevap ver: \"İşte ben buradayım\"",
-        "feedback": "Bıçak elinden düşer toprağa. \"İşte ben buradayım.\""
+        "text": "[TODO:tr] The angel says nothing at all"
       }
     ]
   },
   "the_stay": {
-    "title": "Çocuğa El Uzatma",
-    "text": "\"Çocuğa el uzatma. Ona hiçbir şey yapma.\nÇünkü şimdi biliyorum ki Tanrı'dan korkuyorsun — çünkü biricik oğlunu, tek oğlunu Benden esirgemedin.\"\nYanına diz çöküyorsun. Dünya yeniden nefes alıyor.",
+    "title": "[TODO:tr] Now I Know",
+    "text": "[TODO:tr] The angel explains why you were stopped.\nWhat does he say?",
     "choices": [
       {
-        "text": "İshak'ın ellerini çöz ve onu odunların üzerinden kaldır",
-        "feedback": "Titreyen parmakların onu serbest bırakır. Sana sarılır ve ağlar."
+        "text": "[TODO:tr] 'Now I know that you fear God, because you have not withheld from Me your son, your only son'"
+      },
+      {
+        "text": "[TODO:tr] 'You have failed the test; go home in shame'"
+      },
+      {
+        "text": "[TODO:tr] 'Isaac must still die; try again tomorrow'"
       }
     ]
   },
   "the_ram": {
-    "title": "Çalılığa Takılmış",
-    "text": "Gözlerini kaldırdın — ve işte sunağın arkasındaki çalılıkta, boynuzlarından çalılığa takılmış bir koç duruyor.\nPatikadan gelmedi. O sadece orada.\nTanrı sağladı.",
+    "title": "[TODO:tr] A Ram in the Thicket",
+    "text": "[TODO:tr] You look up.\nWhat do you see caught in the thicket?",
     "choices": [
       {
-        "text": "Koçu al ve İshak'ın yerine kurban et",
-        "feedback": "Koçu serbest bırakır ve odunların üzerine koyarsın. Ateş yükselir."
+        "text": "[TODO:tr] A ram caught by its horns in a thicket â you take it and offer it as a burnt offering in place of your son"
       },
       {
-        "text": "Reddet — şimdi hiçbir şeyi kurban etme",
-        "feedback": "Donakalmışsın. Koç bekler. Sunak bekler."
-      }
-    ]
-  },
-  "no_sacrifice_consequence": {
-    "title": "Tapınma Tamamlanmalı",
-    "text": "Tapınmaya geldin. Sunak hala bir sunu bekliyor.\nTanrı bir tane sağladı — onu kabul etmek itaatin son eylemidir.\nOnu sunmamak merhameti hor görmektir.",
-    "choices": [
+        "text": "[TODO:tr] A dove flying above the altar"
+      },
       {
-        "text": "Koçu al ve adağı tamamla",
-        "feedback": "Koçu serbest bırakır ve odunların üzerine koyarsın. Duman doğruca göğe yükselir."
+        "text": "[TODO:tr] Nothing at all â the altar remains empty"
       }
     ]
   },
   "the_name": {
-    "title": "Rab Sağlayacak",
-    "text": "O yere Yahve-Yire adını verdin — \"Rab Sağlayacak.\"\nİshak yanında duruyor, canlı, nefes alıyor, eli seninkinin içinde küçücük.\nKoçun dumanı geniş soluk gökyüzüne yükseliyor.",
+    "title": "[TODO:tr] The Lord Will Provide",
+    "text": "[TODO:tr] You name that place to mark what happened.\nWhat name do you give it?",
     "choices": [
       {
-        "text": "Eğil ve dinle — ses bitmedi",
-        "feedback": "Başını eğersin. Ses tekrar gelir, bu sefer daha nazik."
+        "text": "[TODO:tr] 'The Lord Will Provide' (Yahweh Yireh)"
+      },
+      {
+        "text": "[TODO:tr] 'The Place of Grief'"
+      },
+      {
+        "text": "[TODO:tr] 'The Mountain of Fire'"
       }
     ]
   },
   "the_blessing": {
-    "title": "Kendi Kendime Yemin Ettim",
-    "text": "\"Kendi kendime yemin ettim, diyor Rab:\nbunu yaptığın ve biricik oğlunu esirgemediğin için,\nseni kesinlikle kutsayacağım ve soyunu göklerin yıldızları gibi ve deniz kıyısındaki kum gibi çoğaltacağım.\nSenin soyun aracılığıyla yeryüzünün tüm ulusları kutsanacak — çünkü sesime itaat ettin.\"",
+    "title": "[TODO:tr] The Oath",
+    "text": "[TODO:tr] The angel of the Lord calls to you a second time from heaven.\nWhat is the promise?",
     "choices": [
       {
-        "text": "İshak'ın elini tut ve eve doğru uzun yürüyüşe başla",
-        "feedback": "Birlikte patikaya dönersiniz, gökyüzü etrafınızda altın rengi yanar."
+        "text": "[TODO:tr] 'I will surely bless you and make your descendants as numerous as the stars in the sky and the sand on the seashore; through your offspring all nations on earth will be blessed'"
+      },
+      {
+        "text": "[TODO:tr] 'Your descendants will be few and forgotten'"
+      },
+      {
+        "text": "[TODO:tr] 'You will lose all you have as punishment'"
       }
     ]
   },
   "homecoming": {
-    "title": "Yine Geldik",
-    "text": "Yıldızlar kendini göstermeye başladığında dağdan birlikte iniyorsunuz.\nHizmetkarlar onları bıraktığınız yerde bekliyor.\n\"Yine sana geldik,\" diyorsun — ve bu, onların asla bilemeyeceklerinden daha doğru.",
+    "title": "[TODO:tr] Back to Beersheba",
+    "text": "[TODO:tr] Abraham returns to his servants, and together they set off for Beersheba.\nAnd Abraham stays in Beersheba.",
     "choices": []
   }
 }

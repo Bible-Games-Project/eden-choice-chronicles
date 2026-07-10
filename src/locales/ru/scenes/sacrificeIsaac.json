@@ -1,372 +1,233 @@
 {
-  "storyTitle": "Жертвоприношение Исаака",
+  "storyTitle": "[TODO:ru] Sacrifice of Isaac",
   "start": {
-    "title": "Голос в ночи",
-    "text": "Огонь в твоём шатре догорел.\nИсаак спит рядом с Саррой — сын обетования, смех твоей старости.\nЗатем, в тишине, голос, который ты знал всю свою жизнь: «Авраам».",
+    "title": "[TODO:ru] God Tests Abraham",
+    "text": "[TODO:ru] God calls to you.\nHow do you answer?",
     "choices": [
       {
-        "text": "Ответь сразу: «Вот я»",
-        "feedback": "Слово слетает с твоих уст прежде, чем страх успевает его поймать. «Вот я, Господи»"
+        "text": "[TODO:ru] Answer: 'Here I am'"
       },
       {
-        "text": "Притворись, что не слышал",
-        "feedback": "Ты натягиваешь одеяло выше. Голос не умолкает."
+        "text": "[TODO:ru] Ignore the voice and go back to sleep"
       },
       {
-        "text": "Потребуй сначала узнать, чего Он хочет",
-        "feedback": "Твоё сердце торгуется, ещё не выслушав. Тишина становится тяжелее."
-      }
-    ]
-  },
-  "doubt_consequence": {
-    "title": "Он не проходит мимо",
-    "text": "Голос не уходит. Он ждёт — терпеливый, безмерный, уверенный.\nТы не можешь убежать от Того, Кто вывел тебя из Ура.\nТы поднимаешься с постели и выходишь на холодный воздух.",
-    "choices": [
-      {
-        "text": "Низко поклонись и ответь наконец: «Вот я»",
-        "feedback": "Ты касаешься лбом песка. «Вот я, Господи»"
+        "text": "[TODO:ru] Demand to know the Lord's name first"
       }
     ]
   },
   "the_command": {
-    "title": "Возьми сына твоего",
-    "text": "Слова приходят, медленные и ужасные:\n«Возьми сына твоего, единственного твоего Исаака, которого ты любишь, и пойди в землю Мориа.\nИ принеси его там во всесожжение на одной из гор, которую Я укажу тебе».",
+    "title": "[TODO:ru] Take Your Son",
+    "text": "[TODO:ru] God speaks the command.\nWhat does He say?",
     "choices": [
       {
-        "text": "Откажись — конечно, Бог не мог этого просить",
-        "feedback": "Ты качаешь головой. Но повеление не отменяется."
+        "text": "[TODO:ru] 'Take your son, your only son, whom you love â Isaac â and offer him as a burnt offering on a mountain I will show you'"
       },
       {
-        "text": "Поклонись в дрожащей тишине и прими",
-        "feedback": "Ты прижимаешь лицо к земле. Слов нет — только покорность."
+        "text": "[TODO:ru] 'Take a lamb from your flock and offer it here'"
       },
       {
-        "text": "Умоляй Бога взять тебя вместо него",
-        "feedback": "«Возьми меня, Господи — не мальчика». Небеса не отвечают на эту сделку."
-      }
-    ]
-  },
-  "refuse_consequence": {
-    "title": "Бог, Который дал его",
-    "text": "Ты стоишь один под огромными звёздами.\nЭто тот же Бог, Который обещал Исаака, когда утроба Сарры была мертва.\nОн дал мальчика. Он ещё не лгал тебе.",
-    "choices": [
-      {
-        "text": "Доверься Тому, Кто дал — и повинуйся",
-        "feedback": "Твой отказ рушится. «Тот, Кто дал, может и сохранить»."
-      }
-    ]
-  },
-  "bargain_consequence": {
-    "title": "Нет замены, которую ты можешь предложить",
-    "text": "Твои сделки умирают в твоём горле.\nЭто испытание не для твоей жизни. Оно для твоего сердца.\nЗвёзды ждут над тобой тысячами — те самые звёзды, которые Он когда-то обещал.",
-    "choices": [
-      {
-        "text": "Откажись от сделки и повинуйся",
-        "feedback": "Ты перестаёшь торговаться. Остаётся только доверять."
+        "text": "[TODO:ru] 'Build a great temple in Beersheba'"
       }
     ]
   },
   "the_weight": {
-    "title": "Перед рассветом",
-    "text": "Ты сидишь у догорающего огня, пока небо не посереет.\nИсаак тихо дышит рядом. Сарра не шевелится.\nСкоро взойдёт солнце — и ты должен двинуться, прежде чем твоя смелость иссякнет.",
+    "title": "[TODO:ru] Early the Next Morning",
+    "text": "[TODO:ru] Early the next morning you prepare for the journey.\nWhat do you do?",
     "choices": [
       {
-        "text": "Разбуди слуг и немедленно оседлай осла",
-        "feedback": "Лучше идти, чем думать. Ты встаёшь и начинаешь."
+        "text": "[TODO:ru] Get up early, saddle your donkey, take two servants and your son Isaac, and cut enough wood for the burnt offering"
       },
       {
-        "text": "Подожди — возможно, придёт другой знак",
-        "feedback": "Рассвет всё равно наступает. Повеление не меняется."
+        "text": "[TODO:ru] Refuse to go and stay in Beersheba"
       },
       {
-        "text": "Разбуди Сарру и расскажи ей всё",
-        "feedback": "Твоя рука зависает над её плечом — и опускается. Она не переживёт разлуки."
-      }
-    ]
-  },
-  "delay_consequence": {
-    "title": "Иного знамения не будет",
-    "text": "Свет нарастает. Птицы начинают свои первые трели.\nСлово, однажды сказанное, не нуждается в повторении.\nОтложенное послушание не смягчит того, что должно быть сделано.",
-    "choices": [
-      {
-        "text": "Встань и приготовься к путешествию",
-        "feedback": "Ты встаёшь, отяжелевший от этого бремени, и зовёшь слуг."
-      }
-    ]
-  },
-  "tell_sarah_consequence": {
-    "title": "Она не должна нести это",
-    "text": "Она бы разорвала шатер.\nОна бы прильнула к Исааку и прокляла Бога, Который просил.\nЭто бремя только твое — и Исаака, если так должно быть.",
-    "choices": [
-      {
-        "text": "Уйди тихо и готовься в тишине",
-        "feedback": "Ты выходишь без единого слова. Рассвет хранит твой секрет."
+        "text": "[TODO:ru] Wait for a sign before setting out"
       }
     ]
   },
   "departure": {
-    "title": "Три дня пути",
-    "text": "Ты сам рубишь дрова для всесожжения — каждый удар топора тяжелее предыдущего.\nТы нежно будишь Исаака. Два слуги идут с тобой.\nЗемля Мориа лежит в трех днях пути на север.",
+    "title": "[TODO:ru] Toward Moriah",
+    "text": "[TODO:ru] You travel toward the place God has told you.\nHow long do you journey?",
     "choices": [
       {
-        "text": "Отправляйся на рассвете без объяснений",
-        "feedback": "Мальчик следует за тобой, сонный и доверчивый. Ты не оглядываешься на шатёр."
+        "text": "[TODO:ru] Travel for three days, until you look up and see the place in the distance"
       },
       {
-        "text": "Солги Исааку о том, куда вы идёте",
-        "feedback": "Ложь на вкус как пепел. Он верит тебе без вопросов — что ещё хуже."
-      }
-    ]
-  },
-  "lie_consequence": {
-    "title": "Достаточно правды на сегодня",
-    "text": "Ты не можешь лгать ему. Не всю правду — но и не ложь.\n«Мы идем поклоняться, — говоришь ты ему. — Бог Сам усмотрит».\nЭто правдивее, чем ты пока понимаешь.",
-    "choices": [
+        "text": "[TODO:ru] Travel only a single hour before arriving"
+      },
       {
-        "text": "Иди с ним дальше в рассвет",
-        "feedback": "Он улыбается тебе и берёт твою руку. Дорога начинается."
+        "text": "[TODO:ru] Travel for forty years through the desert"
       }
     ]
   },
   "the_road": {
-    "title": "Долгая дорога на север",
-    "text": "Три дня под огромным бледным небом.\nИсаак болтает о ягнятах и звездах, и о том, что Сара приготовит, когда вы вернетесь.\nКаждое слово — маленький нож — и маленькое милосердие.",
+    "title": "[TODO:ru] Stay Here With the Donkey",
+    "text": "[TODO:ru] You come near the mountain.\nWhat do you tell the servants?",
     "choices": [
       {
-        "text": "Выслушай его полностью — запомни каждое слово",
-        "feedback": "Ты впитываешь его голос, как будто это последний колодец в пустыне."
+        "text": "[TODO:ru] 'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you'"
       },
       {
-        "text": "Иди отдельно и ожесточи своё сердце",
-        "feedback": "Ты ускоряешь шаг, опережая его. Расстояние не защищает тебя."
+        "text": "[TODO:ru] 'Come with us up the mountain to watch'"
       },
       {
-        "text": "Вернись — заяви, что путешествие было ошибкой",
-        "feedback": "Твои ноги замедляются. Но ты не можешь убежать от голоса, который тебя позвал."
-      }
-    ]
-  },
-  "harden_consequence": {
-    "title": "Отец не может ожесточиться",
-    "text": "Ты не можешь стать достаточно малым, чтобы избежать этого.\nЕсли Бог ничего не усмотрит, ты потеряешь его в любом случае — один раз на алтаре, и навсегда в своей душе.\nОн заслуживает твоей любви до последнего шага.",
-    "choices": [
-      {
-        "text": "Замедли шаг и снова иди рядом с ним",
-        "feedback": "Ты подстраиваешься под его шаг. Он улыбается тебе. Ты не заслуживаешь этой улыбки."
-      }
-    ]
-  },
-  "turn_back_consequence": {
-    "title": "Нет пути назад",
-    "text": "Если ты повернешь назад сейчас, каждое обещание распадется.\nЗвезды, которые Он сосчитал, народы, которые Он поклялся — все рухнет из-за отказа.\nВера — это дорога; ты уже на ней.",
-    "choices": [
-      {
-        "text": "Снова повернись на север и продолжай идти",
-        "feedback": "Ты делаешь своё лицо как кремень и идёшь с ним дальше."
+        "text": "[TODO:ru] 'Take the donkey home; we are not coming back'"
       }
     ]
   },
   "mountain_in_sight": {
-    "title": "Гора издалека",
-    "text": "На третий день ты поднимаешь глаза — и видишь ее.\nОдинокая вершина вдалеке, окутанная бледной дымкой.\nЧто-то внутри тебя знает, что это то самое место.",
+    "title": "[TODO:ru] The Wood and the Fire",
+    "text": "[TODO:ru] You prepare to climb the mountain.\nWho carries what?",
     "choices": [
       {
-        "text": "Скажи слугам ждать здесь с ослом",
-        "feedback": "«Останьтесь здесь с ослом. Мы с мальчиком пойдём поклониться — и вернёмся к вам»."
+        "text": "[TODO:ru] Place the wood for the burnt offering on Isaac's shoulders; carry the fire and the knife yourself"
       },
       {
-        "text": "Возьми слуг с собой для поддержки",
-        "feedback": "Ты делаешь шаг к ним — затем останавливаешься. Они не могут разделить это."
-      }
-    ]
-  },
-  "servants_consequence": {
-    "title": "Это не для чужих глаз",
-    "text": "Если они увидят, они остановят тебя. Если они остановят тебя, ты подвел Его.\nЭто между тобой, мальчиком и Богом.\nНичья другая рука не может помочь или помешать.",
-    "choices": [
+        "text": "[TODO:ru] Carry the wood yourself while Isaac carries nothing"
+      },
       {
-        "text": "Скажи им ждать здесь у подножия горы",
-        "feedback": "«Останьтесь здесь. Мы вернёмся к вам». Слова кажутся пророчеством, которое ты ещё не понимаешь."
+        "text": "[TODO:ru] Leave the wood behind at the foot of the mountain"
       }
     ]
   },
   "leave_servants": {
-    "title": "Он понесет дрова",
-    "text": "Ты кладешь связку нарубленных дров на крепкие молодые плечи Исаака.\nТы несешь огонь и нож в своих руках.\nВместе вы начинаете подниматься по узкой тропе.",
+    "title": "[TODO:ru] Father",
+    "text": "[TODO:ru] As you walk together, Isaac speaks up.\nWhat does he say?",
     "choices": [
       {
-        "text": "Иди в тишине рядом с ним",
-        "feedback": "Шаг за шагом тропа вьётся вверх. Ветер поёт в скалах."
+        "text": "[TODO:ru] 'Father â the fire and wood are here, but where is the lamb for the burnt offering?'"
+      },
+      {
+        "text": "[TODO:ru] 'Father â let us go back home right now'"
+      },
+      {
+        "text": "[TODO:ru] Isaac says nothing the whole way up"
       }
     ]
   },
   "isaacs_question": {
-    "title": "Где же агнец?",
-    "text": "На полпути Исаак останавливается и поворачивается к тебе.\n«Отец мой — вот огонь и дрова. Но где же агнец для всесожжения?»\nЕго глаза ясны и доверчивы. Он ждет ответа.",
+    "title": "[TODO:ru] God Will Provide",
+    "text": "[TODO:ru] You answer Isaac.\nWhat do you say?",
     "choices": [
       {
-        "text": "«Бог Сам усмотрит Себе агнца, сын мой»",
-        "feedback": "Слова слетают с твоих уст как молитва. Даже ты ещё не знаешь, что они означают."
+        "text": "[TODO:ru] 'God Himself will provide the lamb for the burnt offering, my son'"
       },
       {
-        "text": "Скажи ему правду — что он и есть агнец",
-        "feedback": "Его лицо белеет. Он роняет дрова и спотыкается назад."
+        "text": "[TODO:ru] 'You are the lamb, Isaac'"
       },
       {
-        "text": "Ничего не говори и продолжай идти",
-        "feedback": "Он долго ждет. Затем тихо следует за тобой. Что-то внутри него знает."
-      }
-    ]
-  },
-  "tell_truth_consequence": {
-    "title": "Он все еще доверяет тебе",
-    "text": "Он дрожит. Но после долгого молчания он снова берет дрова.\nОн не бежит. Он не проклинает тебя.\nОн идет рядом с тобой — потому что доверяет Богу, Которому ты всегда доверял.",
-    "choices": [
-      {
-        "text": "Иди с ним в благоговейной тишине к вершине",
-        "feedback": "Две веры идут бок о бок по последнему участку пути."
-      }
-    ]
-  },
-  "silence_consequence": {
-    "title": "Ответ веры",
-    "text": "Ты не можешь оставить его вопрос без ответа — ни сейчас, ни когда-либо.\nВера — это не молчание. Вера — это слово, сказанное во тьму.\nТы поворачиваешься к нему.",
-    "choices": [
-      {
-        "text": "Скажи: «Бог Сам усмотрит Себе агнца, сын Мой»",
-        "feedback": "Ты произносишь это. Гора, кажется, затаила дыхание."
+        "text": "[TODO:ru] 'There is no lamb â we go home now'"
       }
     ]
   },
   "summit": {
-    "title": "Место, которое Он указал",
-    "text": "Вы достигаете места. Ветер стихает.\nТы начинаешь собирать камни. Исаак становится на колени и помогает тебе, его маленькие руки рядом с твоими.\nАлтарь возвышается — грубый, священный, ужасный.",
+    "title": "[TODO:ru] The Altar",
+    "text": "[TODO:ru] You reach the place God has told you about.\nWhat do you build there?",
     "choices": [
       {
-        "text": "Разложи дрова на камнях",
-        "feedback": "Каждый кусок дерева аккуратно укладывается. Жертвенник готов."
+        "text": "[TODO:ru] Build an altar, arrange the wood on it, bind Isaac and lay him on the altar, on top of the wood"
       },
       {
-        "text": "Остановись — ты не можешь этого сделать",
-        "feedback": "Твои руки опускаются по бокам. Ветер усиливается вокруг тебя."
-      }
-    ]
-  },
-  "stop_consequence": {
-    "title": "Вера, верящая в воскресение",
-    "text": "Твои руки дрожат. Затем в тебя входит мысль — древнее самой заповеди:\n«Тот, кто дал Исаака из мертвой утробы, может вернуть его из мертвых».\nТы веришь в это. Ты не понимаешь этого. Но ты веришь.",
-    "choices": [
+        "text": "[TODO:ru] Build a shrine to another god instead"
+      },
       {
-        "text": "Возьми дрова и закончи начатое",
-        "feedback": "Твои руки тверды. Ты завершаешь жертвенник."
+        "text": "[TODO:ru] Refuse to build anything and turn back"
       }
     ]
   },
   "the_binding": {
-    "title": "Он не сопротивлялся",
-    "text": "Ты поворачиваешься к Исааку. Нет слов — только ваши глаза встречаются.\nОн видит. Он понимает. И он не бежит.\nОн становится на колени. Он позволяет тебе связать ему руки. Он ложится на дрова.",
+    "title": "[TODO:ru] The Knife",
+    "text": "[TODO:ru] Isaac is bound on the altar.\nWhat do you do next?",
     "choices": [
       {
-        "text": "Поцелуй его в лоб и подними нож",
-        "feedback": "Его слеза встречается с твоей слезой. Ты поднимаешь нож."
+        "text": "[TODO:ru] Reach out your hand and take the knife to slay your son"
       },
       {
-        "text": "Отпусти его — беги от жертвенника",
-        "feedback": "Твоя рука находит веревку — но останавливается. Отступить сейчас — значит обесценить всю его храбрость."
-      }
-    ]
-  },
-  "flee_consequence": {
-    "title": "Его вера держит тебя",
-    "text": "Мальчик лежит неподвижно под тобой, глаза закрыты, дыхание ровное.\nОн доверяет. Он приносит себя в жертву вместе с тобой.\nЕсли ты убежишь, ты предашь не только Бога — но и собственную покорность Исаака.",
-    "choices": [
+        "text": "[TODO:ru] Set the knife aside and refuse"
+      },
       {
-        "text": "Стой с ним до конца — подними нож",
-        "feedback": "Ты поднимаешь нож над ним, обе руки дрожат."
+        "text": "[TODO:ru] Loose Isaac and flee down the mountain"
       }
     ]
   },
   "the_knife": {
-    "title": "Авраам! Авраам!",
-    "text": "Лезвие поднимается высоко. Твои руки как камень.\nВ самой высокой точке — голос разрывает небо:\n«Авраам! Авраам!»",
+    "title": "[TODO:ru] The Angel of the Lord",
+    "text": "[TODO:ru] The angel of the Lord calls out to you from heaven.\nWhat does he say?",
     "choices": [
       {
-        "text": "Ответь немедленно: «Вот я»",
-        "feedback": "Нож останавливается. «Вот я, Господи»."
+        "text": "[TODO:ru] 'Abraham! Abraham! Do not lay a hand on the boy. Do not do anything to him'"
       },
       {
-        "text": "Ударь, прежде чем придет другая команда",
-        "feedback": "Твоя рука напрягается — затем замирает. Ты не можешь. Голос имеет право."
-      }
-    ]
-  },
-  "strike_consequence": {
-    "title": "Испытание — не кровь",
-    "text": "Твоя рука не двинется.\nБог не просил смерти — Он просил сердце, которое отдаст смерть.\nТы отдал Ему это сердце. Лезвие уже сделало свое дело.",
-    "choices": [
+        "text": "[TODO:ru] 'Strike the boy quickly â do not delay'"
+      },
       {
-        "text": "Опусти нож и ответь голосу: «Вот я»",
-        "feedback": "Нож падает из твоей руки в пыль. «Вот я»."
+        "text": "[TODO:ru] The angel says nothing at all"
       }
     ]
   },
   "the_stay": {
-    "title": "Не поднимай руки на отрока",
-    "text": "«Не поднимай руки твоей на отрока и не делай над ним ничего.\nИбо теперь Я знаю, что боишься ты Бога, и не пожалел сына твоего, единственного твоего, для Меня».\nТы падаешь на колени рядом с ним. Мир снова дышит.",
+    "title": "[TODO:ru] Now I Know",
+    "text": "[TODO:ru] The angel explains why you were stopped.\nWhat does he say?",
     "choices": [
       {
-        "text": "Развяжи руки Исаака и подними его с дров",
-        "feedback": "Твои дрожащие пальцы освобождают его. Он цепляется за тебя и плачет."
+        "text": "[TODO:ru] 'Now I know that you fear God, because you have not withheld from Me your son, your only son'"
+      },
+      {
+        "text": "[TODO:ru] 'You have failed the test; go home in shame'"
+      },
+      {
+        "text": "[TODO:ru] 'Isaac must still die; try again tomorrow'"
       }
     ]
   },
   "the_ram": {
-    "title": "Пойманный в чаще",
-    "text": "Ты поднимаешь глаза — и там, в кустах за алтарем, стоит баран, запутавшийся рогами в чаще.\nОн не пришел по тропе. Он просто там.\nБог предусмотрел.",
+    "title": "[TODO:ru] A Ram in the Thicket",
+    "text": "[TODO:ru] You look up.\nWhat do you see caught in the thicket?",
     "choices": [
       {
-        "text": "Возьми овна и принеси его в жертву вместо Исаака",
-        "feedback": "Ты освобождаешь овна и кладешь его на дрова. Огонь поднимается."
+        "text": "[TODO:ru] A ram caught by its horns in a thicket â you take it and offer it as a burnt offering in place of your son"
       },
       {
-        "text": "Откажись — не приноси ничего в жертву сейчас",
-        "feedback": "Ты стоишь застывший. Овен ждет. Жертвенник ждет."
-      }
-    ]
-  },
-  "no_sacrifice_consequence": {
-    "title": "Поклонение Должно Быть Завершено",
-    "text": "Ты пришел поклоняться. Алтарь все еще взывает к приношению.\nБог предусмотрел его — принять его есть последний акт послушания.\nНе принести его — значит пренебречь милостью.",
-    "choices": [
+        "text": "[TODO:ru] A dove flying above the altar"
+      },
       {
-        "text": "Возьми овна и заверши приношение",
-        "feedback": "Ты освобождаешь овна и кладешь его на дрова. Дым поднимается прямо к небу."
+        "text": "[TODO:ru] Nothing at all â the altar remains empty"
       }
     ]
   },
   "the_name": {
-    "title": "Господь Усмотрит",
-    "text": "Ты называешь это место Иегова-Ире — «Господь усмотрит».\nИсаак стоит рядом с тобой, живой, дышащий, его маленькая рука в твоей.\nДым от барана поднимается в широкое бледное небо.",
+    "title": "[TODO:ru] The Lord Will Provide",
+    "text": "[TODO:ru] You name that place to mark what happened.\nWhat name do you give it?",
     "choices": [
       {
-        "text": "Поклонись и слушай — голос еще не закончил",
-        "feedback": "Ты склоняешь голову. Голос снова звучит, на этот раз мягче."
+        "text": "[TODO:ru] 'The Lord Will Provide' (Yahweh Yireh)"
+      },
+      {
+        "text": "[TODO:ru] 'The Place of Grief'"
+      },
+      {
+        "text": "[TODO:ru] 'The Mountain of Fire'"
       }
     ]
   },
   "the_blessing": {
-    "title": "Мною Клянусь",
-    "text": "«Мною клянусь, говорит Господь:\nза то, что ты сделал это и не пожалел сына твоего, единственного твоего,\nЯ благословлю тебя и умножу семя твое, как звезды небесные и как песок на берегу морском.\nИ в семени твоем благословятся все народы земли — за то, что ты послушался гласа Моего».",
+    "title": "[TODO:ru] The Oath",
+    "text": "[TODO:ru] The angel of the Lord calls to you a second time from heaven.\nWhat is the promise?",
     "choices": [
       {
-        "text": "Возьми Исаака за руку и начни долгий путь домой",
-        "feedback": "Вы вместе поворачиваете к тропе, небо вокруг вас горит золотом."
+        "text": "[TODO:ru] 'I will surely bless you and make your descendants as numerous as the stars in the sky and the sand on the seashore; through your offspring all nations on earth will be blessed'"
+      },
+      {
+        "text": "[TODO:ru] 'Your descendants will be few and forgotten'"
+      },
+      {
+        "text": "[TODO:ru] 'You will lose all you have as punishment'"
       }
     ]
   },
   "homecoming": {
-    "title": "Мы Снова Пришли",
-    "text": "Вы вместе спускаетесь с горы, когда начинают появляться звезды.\nСлуги ждут там, где вы их оставили.\n«Мы снова пришли к вам», — говоришь ты — и это правдивее, чем они когда-либо узнают.",
+    "title": "[TODO:ru] Back to Beersheba",
+    "text": "[TODO:ru] Abraham returns to his servants, and together they set off for Beersheba.\nAnd Abraham stays in Beersheba.",
     "choices": []
   }
 }

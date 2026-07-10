@@ -1,372 +1,233 @@
 {
-  "storyTitle": "Ofiara Izaaka",
+  "storyTitle": "[TODO:pl] Sacrifice of Isaac",
   "start": {
-    "title": "Głos w Nocy",
-    "text": "Ogień w twoim namiocie przygasł.\nIzaak śpi obok Sary — syn obietnicy, śmiech twojej starości.\nWtedy, w ciszy, głos, który znasz całe życie: „Abrahamie”.",
+    "title": "[TODO:pl] God Tests Abraham",
+    "text": "[TODO:pl] God calls to you.\nHow do you answer?",
     "choices": [
       {
-        "text": "Odpowiedz natychmiast: „Oto ja”",
-        "feedback": "Słowo opuszcza cię, zanim strach zdoła je pochwycić. „Oto ja, Panie”."
+        "text": "[TODO:pl] Answer: 'Here I am'"
       },
       {
-        "text": "Udawaj, że nie słyszałeś",
-        "feedback": "Naciągasz koc wyżej. Głos nie ustaje."
+        "text": "[TODO:pl] Ignore the voice and go back to sleep"
       },
       {
-        "text": "Żądaj, by najpierw dowiedzieć się, czego chce",
-        "feedback": "Twoje serce targuje się, zanim jeszcze posłuchało. Cisza staje się cięższa."
-      }
-    ]
-  },
-  "doubt_consequence": {
-    "title": "On Nie Przechodzi Obok",
-    "text": "Głos nie ustaje. Czeka — cierpliwy, ogromny, pewny.\nNie możesz uciec od Tego, który wezwał cię z Ur.\nWstajesz z łóżka i wychodzisz na zimne powietrze.",
-    "choices": [
-      {
-        "text": "Ukłoń się nisko i odpowiedz w końcu: „Oto ja”",
-        "feedback": "Dotykasz czołem piasku. „Oto ja, Panie”."
+        "text": "[TODO:pl] Demand to know the Lord's name first"
       }
     ]
   },
   "the_command": {
-    "title": "Weź Swego Syna",
-    "text": "Słowa nadchodzą, powolne i straszne:\n„Weź swego syna, jedynego syna Izaaka, którego miłujesz, i idź do ziemi Moria.\nZłóż go tam w ofierze całopalnej, na górze, którą ci wskażę.”",
+    "title": "[TODO:pl] Take Your Son",
+    "text": "[TODO:pl] God speaks the command.\nWhat does He say?",
     "choices": [
       {
-        "text": "Odmów — z pewnością Bóg nie mógłby o to prosić",
-        "feedback": "Potrząsasz głową. Ale rozkaz nie cofa się."
+        "text": "[TODO:pl] 'Take your son, your only son, whom you love â Isaac â and offer him as a burnt offering on a mountain I will show you'"
       },
       {
-        "text": "Ukłoń się w drżącej ciszy i przyjmij",
-        "feedback": "Przywierasz twarzą do ziemi. Nie ma słów — tylko poddanie."
+        "text": "[TODO:pl] 'Take a lamb from your flock and offer it here'"
       },
       {
-        "text": "Błagaj Boga, by wziął ciebie zamiast niego",
-        "feedback": "„Weź mnie, Panie — nie chłopca”. Niebiosa nie odpowiadają na tę wymianę."
-      }
-    ]
-  },
-  "refuse_consequence": {
-    "title": "Bóg, Który Go Dał",
-    "text": "Stoisz sam pod rozległymi gwiazdami.\nTo ten sam Bóg, który obiecał Izaaka, gdy łono Sary było martwe.\nDał chłopca. Jeszcze cię nie okłamał.",
-    "choices": [
-      {
-        "text": "Zaufaj Temu, który dał — i bądź posłuszny",
-        "feedback": "Twoja odmowa upada. „Ten, który dał, może też zabrać”."
-      }
-    ]
-  },
-  "bargain_consequence": {
-    "title": "Żadnej Zastępczej Ofiary",
-    "text": "Twoje targi umierają ci w gardle.\nTa próba nie jest dla twojego życia. Jest dla twojego serca.\nGwiazdy czekają nad tobą w tysiącach — te same gwiazdy, które On kiedyś obiecał.",
-    "choices": [
-      {
-        "text": "Porzuć targowanie się i bądź posłuszny",
-        "feedback": "Przestajesz się targować. Nie pozostaje nic poza zaufaniem."
+        "text": "[TODO:pl] 'Build a great temple in Beersheba'"
       }
     ]
   },
   "the_weight": {
-    "title": "Przed Świtem",
-    "text": "Siedzisz przy dogasającym ogniu, aż niebo poszarzeje.\nIzaak cicho oddycha w pobliżu. Sara się nie porusza.\nWkrótce wzejdzie słońce — a ty musisz ruszyć, zanim twoja odwaga pęknie.",
+    "title": "[TODO:pl] Early the Next Morning",
+    "text": "[TODO:pl] Early the next morning you prepare for the journey.\nWhat do you do?",
     "choices": [
       {
-        "text": "Obudź sługi i natychmiast osiodłaj osła",
-        "feedback": "Lepiej iść, niż myśleć. Wstajesz i zaczynasz."
+        "text": "[TODO:pl] Get up early, saddle your donkey, take two servants and your son Isaac, and cut enough wood for the burnt offering"
       },
       {
-        "text": "Czekaj — może nadejdzie inny znak",
-        "feedback": "Świt i tak nadchodzi. Rozkaz się nie zmienia."
+        "text": "[TODO:pl] Refuse to go and stay in Beersheba"
       },
       {
-        "text": "Obudź Sarę i opowiedz jej wszystko",
-        "feedback": "Twoja ręka unosi się nad jej ramieniem — i opada. Nie przeżyłaby rozstania."
-      }
-    ]
-  },
-  "delay_consequence": {
-    "title": "Żaden inny znak nie nadejdzie",
-    "text": "Światło narasta. Ptaki zaczynają swoje pierwsze trele.\nSłowo raz wypowiedziane nie musi być powtarzane.\nOpóźnione posłuszeństwo nie złagodzi tego, co musi się stać.",
-    "choices": [
-      {
-        "text": "Wstań i przygotuj się do podróży",
-        "feedback": "Stajesz, sztywny pod ciężarem tego, i wołasz sługi."
-      }
-    ]
-  },
-  "tell_sarah_consequence": {
-    "title": "Ona nie może tego znieść",
-    "text": "Zburzyłaby namiot.\nUczepiłaby się Izaaka i przeklęła Boga, który o to prosił.\nTo brzemię jest tylko twoje — i Izaaka, jeśli musi tak być.",
-    "choices": [
-      {
-        "text": "Wyjdź cicho i przygotuj się w milczeniu",
-        "feedback": "Wychodzisz na zewnątrz bez słowa. Świt strzeże twojej tajemnicy."
+        "text": "[TODO:pl] Wait for a sign before setting out"
       }
     ]
   },
   "departure": {
-    "title": "Trzy dni drogi",
-    "text": "Sam rąbiesz drewno na ofiarę całopalną — każde uderzenie siekiery cięższe od poprzedniego.\nDelikatnie budzisz Izaaka. Dwóch sług idzie z tobą.\nZiemia Moria leży trzy dni drogi na północ.",
+    "title": "[TODO:pl] Toward Moriah",
+    "text": "[TODO:pl] You travel toward the place God has told you.\nHow long do you journey?",
     "choices": [
       {
-        "text": "Wyrusz o świcie bez wyjaśnień",
-        "feedback": "Chłopiec podąża za tobą, śpiący i ufny. Nie oglądasz się na namiot."
+        "text": "[TODO:pl] Travel for three days, until you look up and see the place in the distance"
       },
       {
-        "text": "Skłam Izaakowi, dokąd idziecie",
-        "feedback": "Kłamstwo smakuje popiołem. Wierzy ci bez pytania — co jest gorsze."
-      }
-    ]
-  },
-  "lie_consequence": {
-    "title": "Prawda wystarczająca na dziś",
-    "text": "Nie możesz go okłamać. Nie całą prawdą — ale też nie kłamstwem.\n„Idziemy oddać cześć” – mówisz mu. „Bóg zapewni”.\nTo jest prawdziwsze, niż jeszcze rozumiesz.",
-    "choices": [
+        "text": "[TODO:pl] Travel only a single hour before arriving"
+      },
       {
-        "text": "Idź z nim w stronę świtu",
-        "feedback": "Uśmiecha się do ciebie i bierze cię za rękę. Droga się zaczyna."
+        "text": "[TODO:pl] Travel for forty years through the desert"
       }
     ]
   },
   "the_road": {
-    "title": "Długa droga na północ",
-    "text": "Trzy dni pod rozległym, bladym niebem.\nIzaak papla o jagniętach i gwiazdach, i o tym, co Sara ugotuje, gdy wrócicie.\nKażde słowo to mały nóż — i małe miłosierdzie.",
+    "title": "[TODO:pl] Stay Here With the Donkey",
+    "text": "[TODO:pl] You come near the mountain.\nWhat do you tell the servants?",
     "choices": [
       {
-        "text": "Słuchaj go uważnie — zachowaj każde słowo",
-        "feedback": "Pijesz jego głos, jakby to była ostatnia studnia na pustyni."
+        "text": "[TODO:pl] 'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you'"
       },
       {
-        "text": "Idź osobno i zatwardź swoje serce",
-        "feedback": "Przyspieszasz kroku przed nim. Dystans cię nie chroni."
+        "text": "[TODO:pl] 'Come with us up the mountain to watch'"
       },
       {
-        "text": "Wróć — powiedz, że podróż była pomyłką",
-        "feedback": "Twoje stopy zwalniają. Ale nie możesz uciec przed głosem, który cię wezwał."
-      }
-    ]
-  },
-  "harden_consequence": {
-    "title": "Ojciec nie może się zatwardzić",
-    "text": "Nie możesz stać się na tyle mały, by uciec przed tym.\nJeśli Bóg niczego nie zapewni, i tak go stracisz — raz na ołtarzu, a na zawsze w swojej duszy.\nZasługuje na twoją miłość aż do ostatniego kroku.",
-    "choices": [
-      {
-        "text": "Zwolnij i idź znowu obok niego",
-        "feedback": "Dopasowujesz się do jego kroku. Uśmiecha się do ciebie. Nie zasługujesz na ten uśmiech."
-      }
-    ]
-  },
-  "turn_back_consequence": {
-    "title": "Nie ma powrotu",
-    "text": "Jeśli teraz zawrócisz, każda obietnica się rozpadnie.\nGwiazdy, które policzył, narody, które przysiągł — wszystko runie z powodu odmowy.\nWiara to droga; już na niej jesteś.",
-    "choices": [
-      {
-        "text": "Znowu skieruj się na północ i idź dalej",
-        "feedback": "Ustawiasz swoją twarz jak krzemień i idziesz z nim dalej."
+        "text": "[TODO:pl] 'Take the donkey home; we are not coming back'"
       }
     ]
   },
   "mountain_in_sight": {
-    "title": "Góra z daleka",
-    "text": "Trzeciego dnia podnosisz oczy — i widzisz to.\nSamotny szczyt w oddali, spowity bladą mgłą.\nCoś w tobie wie, że to jest to miejsce.",
+    "title": "[TODO:pl] The Wood and the Fire",
+    "text": "[TODO:pl] You prepare to climb the mountain.\nWho carries what?",
     "choices": [
       {
-        "text": "Powiedz sługom, żeby tu czekali z osłem",
-        "feedback": "„Zostańcie tu z osłem. Ja i chłopiec pójdziemy, by oddać cześć — i wrócimy do was”."
+        "text": "[TODO:pl] Place the wood for the burnt offering on Isaac's shoulders; carry the fire and the knife yourself"
       },
       {
-        "text": "Zabierz sługi ze sobą, by cię wspierali",
-        "feedback": "Robisz krok w ich stronę — potem stajesz. Nie mogą tego dzielić."
-      }
-    ]
-  },
-  "servants_consequence": {
-    "title": "To nie jest dla innych oczu",
-    "text": "Jeśli będą świadkami, powstrzymają cię. Jeśli cię powstrzymają, zawiodłeś Go.\nTo jest między tobą, chłopcem i Bogiem.\nŻadna inna ręka nie może pomóc ani przeszkodzić.",
-    "choices": [
+        "text": "[TODO:pl] Carry the wood yourself while Isaac carries nothing"
+      },
       {
-        "text": "Powiedz im, żeby czekali tu u podnóża góry",
-        "feedback": "„Zostańcie tu. Wrócimy do was”. Słowa brzmią jak proroctwo, którego jeszcze nie rozumiesz."
+        "text": "[TODO:pl] Leave the wood behind at the foot of the mountain"
       }
     ]
   },
   "leave_servants": {
-    "title": "On poniesie drewno",
-    "text": "Kładziesz wiązkę porąbanego drewna na silnych, młodych ramionach Izaaka.\nWłasnymi rękami niesiesz ogień i nóż.\nRazem zaczynacie wspinać się wąską ścieżką.",
+    "title": "[TODO:pl] Father",
+    "text": "[TODO:pl] As you walk together, Isaac speaks up.\nWhat does he say?",
     "choices": [
       {
-        "text": "Idź w milczeniu obok niego",
-        "feedback": "Krok po kroku ścieżka wije się w górę. Wiatr śpiewa w klifach."
+        "text": "[TODO:pl] 'Father â the fire and wood are here, but where is the lamb for the burnt offering?'"
+      },
+      {
+        "text": "[TODO:pl] 'Father â let us go back home right now'"
+      },
+      {
+        "text": "[TODO:pl] Isaac says nothing the whole way up"
       }
     ]
   },
   "isaacs_question": {
-    "title": "Gdzie jest baranek?",
-    "text": "W połowie drogi Izaak zatrzymuje się i odwraca do ciebie.\n„Ojcze mój — oto ogień i drewno. Ale gdzie jest baranek na ofiarę całopalną?”\nJego oczy są jasne i ufne. Czeka na odpowiedź.",
+    "title": "[TODO:pl] God Will Provide",
+    "text": "[TODO:pl] You answer Isaac.\nWhat do you say?",
     "choices": [
       {
-        "text": "„Bóg sam zapewni baranka, mój synu”",
-        "feedback": "Słowa opuszczają cię jak modlitwa. Nawet ty jeszcze nie wiesz, co one znaczą."
+        "text": "[TODO:pl] 'God Himself will provide the lamb for the burnt offering, my son'"
       },
       {
-        "text": "Powiedz mu prawdę — że to on jest barankiem",
-        "feedback": "Jego twarz blednie. Upuszcza drewno i potyka się do tyłu."
+        "text": "[TODO:pl] 'You are the lamb, Isaac'"
       },
       {
-        "text": "Nic nie mów i idź dalej",
-        "feedback": "Czeka dłuższą chwilę. Potem cicho podąża. Coś w nim wie."
-      }
-    ]
-  },
-  "tell_truth_consequence": {
-    "title": "On nadal ci ufa",
-    "text": "Drży. Ale po długiej ciszy znowu podnosi drewno.\nNie ucieka. Nie przeklina cię.\nIdzie obok ciebie — bo ufa Bogu, któremu zawsze ufałeś.",
-    "choices": [
-      {
-        "text": "Idź z nim w nabożnej ciszy na szczyt",
-        "feedback": "Dwie wiary idą ramię w ramię ostatnim odcinkiem ścieżki."
-      }
-    ]
-  },
-  "silence_consequence": {
-    "title": "Odpowiedź wiary",
-    "text": "Nie możesz pozostawić jego pytania bez odpowiedzi — nie teraz, nigdy.\nWiara to nie cisza. Wiara to słowo wypowiedziane w ciemność.\nOdwracasz się do niego.",
-    "choices": [
-      {
-        "text": "Powiedz: „Bóg sam sobie upatrzy jagnię na całopalenie, synu mój”",
-        "feedback": "Mówisz to. Góra zdaje się wstrzymywać oddech."
+        "text": "[TODO:pl] 'There is no lamb â we go home now'"
       }
     ]
   },
   "summit": {
-    "title": "Miejsce, które wskazał",
-    "text": "Docierasz na miejsce. Wiatr cichnie.\nZaczynasz zbierać kamienie. Izaak klęka i pomaga ci, jego małe ręce obok twoich.\nOłtarz wznosi się — surowy, święty, straszny.",
+    "title": "[TODO:pl] The Altar",
+    "text": "[TODO:pl] You reach the place God has told you about.\nWhat do you build there?",
     "choices": [
       {
-        "text": "Ułóż drwa na kamieniach",
-        "feedback": "Każdy kawałek drewna kładziesz z troską. Ołtarz jest gotowy."
+        "text": "[TODO:pl] Build an altar, arrange the wood on it, bind Isaac and lay him on the altar, on top of the wood"
       },
       {
-        "text": "Zatrzymaj się — nie możesz tego zrobić",
-        "feedback": "Twoje ręce opadają wzdłuż ciała. Wiatr wzmaga się wokół ciebie."
-      }
-    ]
-  },
-  "stop_consequence": {
-    "title": "Wiara, która wierzy w zmartwychwstanie",
-    "text": "Twoje ręce drżą. Wtedy ogarnia cię myśl — starsza niż samo przykazanie:\n„Ten, który dał Izaaka z martwego łona, może go przywrócić z martwych”.\nWierzysz w to. Nie rozumiesz tego. Ale wierzysz.",
-    "choices": [
+        "text": "[TODO:pl] Build a shrine to another god instead"
+      },
       {
-        "text": "Weź drwa i dokończ to, co zostało rozpoczęte",
-        "feedback": "Twoje ręce są pewne. Dokończasz ołtarz."
+        "text": "[TODO:pl] Refuse to build anything and turn back"
       }
     ]
   },
   "the_binding": {
-    "title": "Nie stawiał oporu",
-    "text": "Odwracasz się do Izaaka. Nie ma słów — tylko twoje oczy spotykające się z jego.\nOn widzi. On rozumie. I nie ucieka.\nKlęka. Pozwala ci związać mu ręce. Kładzie się na drewnie.",
+    "title": "[TODO:pl] The Knife",
+    "text": "[TODO:pl] Isaac is bound on the altar.\nWhat do you do next?",
     "choices": [
       {
-        "text": "Pocałuj go w czoło i podnieś nóż",
-        "feedback": "Jego łza spotyka twoją łzę. Podnosisz nóż."
+        "text": "[TODO:pl] Reach out your hand and take the knife to slay your son"
       },
       {
-        "text": "Uwolnij go — uciekaj od ołtarza",
-        "feedback": "Twoja ręka znajduje sznur — ale zatrzymuje się. Cofnięcie się teraz sprawiłoby, że cała jego odwaga byłaby bezwartościowa."
-      }
-    ]
-  },
-  "flee_consequence": {
-    "title": "Jego wiara cię trzyma",
-    "text": "Chłopiec leży nieruchomo pod tobą, z zamkniętymi oczami, spokojnie oddychając.\nUfa. Ofiarowuje się razem z tobą.\nJeśli uciekniesz, zdradzisz nie tylko Boga — ale i własne poddanie się Izaaka.",
-    "choices": [
+        "text": "[TODO:pl] Set the knife aside and refuse"
+      },
       {
-        "text": "Stój z nim do końca — podnieś nóż",
-        "feedback": "Podnosisz nóż nad nim, obie ręce drżą."
+        "text": "[TODO:pl] Loose Isaac and flee down the mountain"
       }
     ]
   },
   "the_knife": {
-    "title": "Abrahamie! Abrahamie!",
-    "text": "Ostrze wznosi się wysoko. Twoje ramiona są jak kamień.\nW najwyższym punkcie — głos rozdziera niebo:\n„Abrahamie! Abrahamie!”",
+    "title": "[TODO:pl] The Angel of the Lord",
+    "text": "[TODO:pl] The angel of the Lord calls out to you from heaven.\nWhat does he say?",
     "choices": [
       {
-        "text": "Odpowiedz natychmiast: „Oto jestem”",
-        "feedback": "Nóż zatrzymuje się. „Oto jestem, Panie.”"
+        "text": "[TODO:pl] 'Abraham! Abraham! Do not lay a hand on the boy. Do not do anything to him'"
       },
       {
-        "text": "Uderz, zanim nadejdzie kolejne polecenie",
-        "feedback": "Twoje ramię napina się — potem blokuje. Nie możesz. Głos ma pierwszeństwo."
-      }
-    ]
-  },
-  "strike_consequence": {
-    "title": "Próba to nie krew",
-    "text": "Twoje ramię się nie poruszy.\nBóg nie prosił o śmierć — prosił o serce, które by tę śmierć oddało.\nDałeś Mu to serce. Ostrze już wykonało swoją pracę.",
-    "choices": [
+        "text": "[TODO:pl] 'Strike the boy quickly â do not delay'"
+      },
       {
-        "text": "Opuść nóż i odpowiedz głosowi: „Oto jestem”",
-        "feedback": "Nóż wypada ci z ręki w pył. „Oto jestem.”"
+        "text": "[TODO:pl] The angel says nothing at all"
       }
     ]
   },
   "the_stay": {
-    "title": "Nie podnoś ręki na chłopca",
-    "text": "„Nie podnoś ręki na chłopca. Nic mu nie czyń.\nBo teraz wiem, że boisz się Boga — bo nie odmówiłeś Mi swego syna, jedynego syna”.\nUpadasz na kolana obok niego. Świat znowu oddycha.",
+    "title": "[TODO:pl] Now I Know",
+    "text": "[TODO:pl] The angel explains why you were stopped.\nWhat does he say?",
     "choices": [
       {
-        "text": "Uwolnij ręce Izaaka i podnieś go z drewna",
-        "feedback": "Twoje drżące palce uwalniają go. Przytula się do ciebie i płacze."
+        "text": "[TODO:pl] 'Now I know that you fear God, because you have not withheld from Me your son, your only son'"
+      },
+      {
+        "text": "[TODO:pl] 'You have failed the test; go home in shame'"
+      },
+      {
+        "text": "[TODO:pl] 'Isaac must still die; try again tomorrow'"
       }
     ]
   },
   "the_ram": {
-    "title": "Złapany w gąszczu",
-    "text": "Podnosisz oczy — a tam, w zaroślach za ołtarzem, baran stoi uwięziony rogami w gąszczu.\nNie przyszedł ścieżką. Po prostu tam jest.\nBóg zapewnił.",
+    "title": "[TODO:pl] A Ram in the Thicket",
+    "text": "[TODO:pl] You look up.\nWhat do you see caught in the thicket?",
     "choices": [
       {
-        "text": "Weź barana i złóż go w ofierze zamiast Izaaka",
-        "feedback": "Uwalniasz barana i kładziesz go na drewnie. Ogień wzbija się."
+        "text": "[TODO:pl] A ram caught by its horns in a thicket â you take it and offer it as a burnt offering in place of your son"
       },
       {
-        "text": "Odmów — nie składaj teraz żadnej ofiary",
-        "feedback": "Stoisz zamrożony. Baran czeka. Ołtarz czeka."
-      }
-    ]
-  },
-  "no_sacrifice_consequence": {
-    "title": "Należy Dokończyć Kult",
-    "text": "Przyszedłeś oddać cześć. Ołtarz wciąż woła o ofiarę.\nBóg ją zapewnił — przyjęcie jej jest ostatnim aktem posłuszeństwa.\nNieofiarowanie jej to pogarda dla miłosierdzia.",
-    "choices": [
+        "text": "[TODO:pl] A dove flying above the altar"
+      },
       {
-        "text": "Weź barana i dokończ ofiarę",
-        "feedback": "Uwalniasz barana i kładziesz go na drewnie. Dym wznosi się prosto do nieba."
+        "text": "[TODO:pl] Nothing at all â the altar remains empty"
       }
     ]
   },
   "the_name": {
-    "title": "Pan Zapewni",
-    "text": "Nazywasz to miejsce Jahwe-Jireh — „Pan Zapewni”.\nIzaak stoi obok ciebie, żywy, oddychający, jego mała dłoń w twojej.\nDym barana unosi się w szerokie, blade niebo.",
+    "title": "[TODO:pl] The Lord Will Provide",
+    "text": "[TODO:pl] You name that place to mark what happened.\nWhat name do you give it?",
     "choices": [
       {
-        "text": "Pokłoń się i słuchaj — głos jeszcze nie skończył",
-        "feedback": "Pochylasz głowę. Głos rozbrzmiewa ponownie, tym razem łagodniej."
+        "text": "[TODO:pl] 'The Lord Will Provide' (Yahweh Yireh)"
+      },
+      {
+        "text": "[TODO:pl] 'The Place of Grief'"
+      },
+      {
+        "text": "[TODO:pl] 'The Mountain of Fire'"
       }
     ]
   },
   "the_blessing": {
-    "title": "Przysiągłem na Siebie Samego",
-    "text": "„Przysiągłem na Siebie Samego, mówi Pan:\nponieważ to uczyniłeś i nie odmówiłeś mi jedynego syna,\nna pewno cię pobłogosławię i rozmnożę twoje potomstwo jak gwiazdy na niebie i jak piasek na brzegu morza.\nW twoim potomstwie będą błogosławione wszystkie narody ziemi — ponieważ usłuchałeś Mojego głosu.”",
+    "title": "[TODO:pl] The Oath",
+    "text": "[TODO:pl] The angel of the Lord calls to you a second time from heaven.\nWhat is the promise?",
     "choices": [
       {
-        "text": "Weź Izaaka za rękę i rozpocznij długą drogę do domu",
-        "feedback": "Razem zwracacie się w stronę ścieżki, niebo płonie złotem wokół was."
+        "text": "[TODO:pl] 'I will surely bless you and make your descendants as numerous as the stars in the sky and the sand on the seashore; through your offspring all nations on earth will be blessed'"
+      },
+      {
+        "text": "[TODO:pl] 'Your descendants will be few and forgotten'"
+      },
+      {
+        "text": "[TODO:pl] 'You will lose all you have as punishment'"
       }
     ]
   },
   "homecoming": {
-    "title": "Znowu Przyszliśmy",
-    "text": "Schodzicie razem z góry, gdy gwiazdy zaczynają się ukazywać.\nSłudzy czekają tam, gdzie ich zostawiłeś.\n„Znowu przyszliśmy do ciebie” – mówisz – a to jest prawdziwsze, niż kiedykolwiek się dowiedzą.",
+    "title": "[TODO:pl] Back to Beersheba",
+    "text": "[TODO:pl] Abraham returns to his servants, and together they set off for Beersheba.\nAnd Abraham stays in Beersheba.",
     "choices": []
   }
 }

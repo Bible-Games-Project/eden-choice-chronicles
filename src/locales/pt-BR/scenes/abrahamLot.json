@@ -1,136 +1,158 @@
 {
-  "storyTitle": "Abraão e Ló",
+  "storyTitle": "[TODO:pt-BR] Abraham and Lot",
   "start": {
-    "title": "Duas Casas",
-    "text": "Seus rebanhos e os de Ló enchem o mesmo vale.\nA terra geme sob tanta vida.",
+    "title": "[TODO:pt-BR] Very Wealthy",
+    "text": "[TODO:pt-BR] You come back from Egypt to the Negev, and then to the hills between Bethel and Ai.\nHow wealthy are you now?",
     "choices": [
       {
-        "text": "Ignore a tensão — prossiga",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Very wealthy â in livestock, silver and gold"
       },
       {
-        "text": "Perceba o problema se formando",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Poor and empty-handed from the journey"
+      },
+      {
+        "text": "[TODO:pt-BR] The same as before, with no change"
       }
     ]
   },
   "tension": {
-    "title": "Poços Lotados",
-    "text": "Dois rebanhos. Um poço. As vozes dos pastores se elevam.\nAlgo precisa ceder.",
+    "title": "[TODO:pt-BR] The Land Cannot Support You",
+    "text": "[TODO:pt-BR] Both you and your nephew Lot have flocks, herds and tents.\nWhat is the trouble?",
     "choices": [
       {
-        "text": "Reivindique o poço por direito de idade",
-        "feedback": ""
+        "text": "[TODO:pt-BR] The land cannot support you both together, for your possessions are too great"
       },
       {
-        "text": "Ouça primeiro, não julgue ainda",
-        "feedback": ""
+        "text": "[TODO:pt-BR] You have too little livestock to feed anyone"
       },
       {
-        "text": "Afaste os rebanhos de Ló",
-        "feedback": ""
+        "text": "[TODO:pt-BR] A great enemy is attacking both camps"
       }
     ]
   },
   "quarrel": {
-    "title": "Os Pastores Entram em Conflito",
-    "text": "Cajados erguidos. Gritos na poeira.\nUm golpe poderia quebrar tudo entre vocês.",
+    "title": "[TODO:pt-BR] Strife Between the Herdsmen",
+    "text": "[TODO:pt-BR] Trouble breaks out.\nWhat happens?",
     "choices": [
       {
-        "text": "Ordene a seus homens que ataquem primeiro",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Quarreling breaks out between your herdsmen and Lot's herdsmen"
       },
       {
-        "text": "Interceda — chame a paz",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Peace and joy spread through both camps"
+      },
+      {
+        "text": "[TODO:pt-BR] Lot's herdsmen leave without a word"
       }
     ]
   },
   "decision": {
-    "title": "Falando com Ló",
-    "text": "Você leva Ló para um lado. \"Somos família.\nQue não haja contenda entre nós.\"",
+    "title": "[TODO:pt-BR] You Speak to Lot",
+    "text": "[TODO:pt-BR] You want to end the strife.\nWhat do you say to Lot?",
     "choices": [
       {
-        "text": "Exija que ele parta imediatamente",
-        "feedback": ""
+        "text": "[TODO:pt-BR] 'Let's not have any quarreling between you and me â we are close relatives'"
       },
       {
-        "text": "Ofereça a ele a primeira escolha",
-        "feedback": ""
+        "text": "[TODO:pt-BR] 'You must leave at once â you are not my equal'"
       },
       {
-        "text": "Apegue-se à sua primogenitura",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Say nothing and drive Lot out"
       }
     ]
   },
   "offering": {
-    "title": "A Mão Aberta",
-    "text": "\"Se você for para a esquerda, eu vou para a direita.\nSe você for para a direita, eu vou para a esquerda. Escolha.\"",
+    "title": "[TODO:pt-BR] First Choice",
+    "text": "[TODO:pt-BR] You offer Lot a choice.\nWhat do you say?",
     "choices": [
       {
-        "text": "Espere em silêncio que ele escolha o menor",
-        "feedback": ""
+        "text": "[TODO:pt-BR] 'If you go to the left, I'll go to the right; if you go to the right, I'll go to the left'"
       },
       {
-        "text": "Fale com convicção — libere a terra",
-        "feedback": ""
+        "text": "[TODO:pt-BR] 'I am the elder â I will choose first'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'We will both stay here and share every well'"
       }
     ]
   },
   "lots_choice": {
-    "title": "Ló Olha para o Leste",
-    "text": "Ló vê a planície do Jordão — verde, irrigada, rica.\nEle a escolhe sem hesitação.",
+    "title": "[TODO:pt-BR] Lot Looks Up",
+    "text": "[TODO:pt-BR] Lot looks around at the land.\nWhat does he choose?",
     "choices": [
       {
-        "text": "Ressinta-se por ele ter levado o melhor",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Lot chooses the whole plain of the Jordan, well watered like the garden of the Lord"
       },
       {
-        "text": "Abençoe-o e deixe-o ir",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Lot chooses the dry hill country"
       },
       {
-        "text": "Tente fazê-lo mudar de ideia",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Lot refuses to choose and stays with Abram"
       }
     ]
   },
   "lot_departs": {
-    "title": "A Separação",
-    "text": "Os rebanhos de Ló se movem em direção à planície.\nA poeira de seu caminho assenta-se lentamente.",
+    "title": "[TODO:pt-BR] The Parting",
+    "text": "[TODO:pt-BR] You and Lot part ways.\nWhere does Lot go?",
     "choices": [
       {
-        "text": "Fique e observe-o sem amargura",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Lot sets out toward the east and pitches his tents near Sodom"
       },
       {
-        "text": "Vire-se — recuse-se a ver",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Lot travels far west across the sea"
+      },
+      {
+        "text": "[TODO:pt-BR] Lot goes back to Haran"
       }
     ]
   },
   "remaining": {
-    "title": "O Que Resta",
-    "text": "As colinas estão secas, o vale silencioso.\nVocê está sozinho com a terra que Deus deu.",
+    "title": "[TODO:pt-BR] Where You Live",
+    "text": "[TODO:pt-BR] Lot is gone.\nWhere do you live?",
     "choices": [
       {
-        "text": "Lamente o que você liberou",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Live in the land of Canaan"
       },
       {
-        "text": "Construa um altar em gratidão",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Live in the plain of the Jordan near Sodom"
       },
       {
-        "text": "Conte o que você perdeu em rebanhos",
-        "feedback": ""
+        "text": "[TODO:pt-BR] Live in Egypt"
       }
     ]
   },
   "the_promise": {
-    "title": "Levante Seus Olhos",
-    "text": "\"Toda a terra que você vê — eu a dou a você.\nSua descendência será como o pó.\"",
+    "title": "[TODO:pt-BR] Lift Up Your Eyes",
+    "text": "[TODO:pt-BR] The Lord speaks to you after Lot has parted from you.\nWhat does He say?",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] 'Lift up your eyes; all the land you see I will give to you and your offspring forever'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'You will lose this land to Lot's descendants'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'Return to Haran; the land is not yours'"
+      }
+    ]
+  },
+  "mamre": {
+    "title": "[TODO:pt-BR] Walk Through the Land",
+    "text": "[TODO:pt-BR] The Lord tells you what to do next.\nWhat is it?",
+    "choices": [
+      {
+        "text": "[TODO:pt-BR] 'Go, walk through the length and breadth of the land, for I am giving it to you'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'Stay in one place and never travel again'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'Give the land back to the Canaanites'"
+      }
+    ]
+  },
+  "altar": {
+    "title": "[TODO:pt-BR] The Great Trees of Mamre",
+    "text": "[TODO:pt-BR] So you move your tents and go to live near the great trees of Mamre at Hebron,\nwhere you build an altar to the Lord.",
     "choices": []
   }
 }

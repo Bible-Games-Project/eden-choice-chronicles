@@ -1,136 +1,158 @@
 {
-  "storyTitle": "Авраам и Лот",
+  "storyTitle": "[TODO:ru] Abraham and Lot",
   "start": {
-    "title": "Два стана",
-    "text": "Твои стада и стада Лота заполняют одну долину.\nЗемля стонет от такого множества жизни.",
+    "title": "[TODO:ru] Very Wealthy",
+    "text": "[TODO:ru] You come back from Egypt to the Negev, and then to the hills between Bethel and Ai.\nHow wealthy are you now?",
     "choices": [
       {
-        "text": "Игнорируй напряжение — продолжай",
-        "feedback": ""
+        "text": "[TODO:ru] Very wealthy â in livestock, silver and gold"
       },
       {
-        "text": "Заметь, как назревает беда",
-        "feedback": ""
+        "text": "[TODO:ru] Poor and empty-handed from the journey"
+      },
+      {
+        "text": "[TODO:ru] The same as before, with no change"
       }
     ]
   },
   "tension": {
-    "title": "Переполненные колодцы",
-    "text": "Два стада. Один колодец. Голоса пастухов нарастают.\nЧто-то должно измениться.",
+    "title": "[TODO:ru] The Land Cannot Support You",
+    "text": "[TODO:ru] Both you and your nephew Lot have flocks, herds and tents.\nWhat is the trouble?",
     "choices": [
       {
-        "text": "Заяви права на колодец по праву возраста",
-        "feedback": ""
+        "text": "[TODO:ru] The land cannot support you both together, for your possessions are too great"
       },
       {
-        "text": "Сначала послушай, пока ничего не суди",
-        "feedback": ""
+        "text": "[TODO:ru] You have too little livestock to feed anyone"
       },
       {
-        "text": "Отгони стада Лота",
-        "feedback": ""
+        "text": "[TODO:ru] A great enemy is attacking both camps"
       }
     ]
   },
   "quarrel": {
-    "title": "Стычка пастухов",
-    "text": "Посохи подняты. Крики в пыли.\nОдин удар может разрушить всё между вами.",
+    "title": "[TODO:ru] Strife Between the Herdsmen",
+    "text": "[TODO:ru] Trouble breaks out.\nWhat happens?",
     "choices": [
       {
-        "text": "Прикажи своим людям ударить первыми",
-        "feedback": ""
+        "text": "[TODO:ru] Quarreling breaks out between your herdsmen and Lot's herdsmen"
       },
       {
-        "text": "Встань между ними — призови к миру",
-        "feedback": ""
+        "text": "[TODO:ru] Peace and joy spread through both camps"
+      },
+      {
+        "text": "[TODO:ru] Lot's herdsmen leave without a word"
       }
     ]
   },
   "decision": {
-    "title": "Разговор с Лотом",
-    "text": "Ты отводишь Лота в сторону. «Мы же семья.\nПусть не будет раздора между нами».",
+    "title": "[TODO:ru] You Speak to Lot",
+    "text": "[TODO:ru] You want to end the strife.\nWhat do you say to Lot?",
     "choices": [
       {
-        "text": "Потребуй, чтобы он немедленно ушел",
-        "feedback": ""
+        "text": "[TODO:ru] 'Let's not have any quarreling between you and me â we are close relatives'"
       },
       {
-        "text": "Предложи ему выбрать первым",
-        "feedback": ""
+        "text": "[TODO:ru] 'You must leave at once â you are not my equal'"
       },
       {
-        "text": "Держись своего старшинства",
-        "feedback": ""
+        "text": "[TODO:ru] Say nothing and drive Lot out"
       }
     ]
   },
   "offering": {
-    "title": "Открытая рука",
-    "text": "«Если ты пойдёшь налево, я пойду направо.\nЕсли ты пойдёшь направо, я пойду налево. Выбирай».",
+    "title": "[TODO:ru] First Choice",
+    "text": "[TODO:ru] You offer Lot a choice.\nWhat do you say?",
     "choices": [
       {
-        "text": "Тихо надейся, что он выберет меньшее",
-        "feedback": ""
+        "text": "[TODO:ru] 'If you go to the left, I'll go to the right; if you go to the right, I'll go to the left'"
       },
       {
-        "text": "Искренне отдай землю",
-        "feedback": ""
+        "text": "[TODO:ru] 'I am the elder â I will choose first'"
+      },
+      {
+        "text": "[TODO:ru] 'We will both stay here and share every well'"
       }
     ]
   },
   "lots_choice": {
-    "title": "Лот смотрит на восток",
-    "text": "Лот видит Иорданскую равнину — зелёную, орошаемую, богатую.\nОн выбирает её без колебаний.",
+    "title": "[TODO:ru] Lot Looks Up",
+    "text": "[TODO:ru] Lot looks around at the land.\nWhat does he choose?",
     "choices": [
       {
-        "text": "Обижайся на него за то, что он взял лучшее",
-        "feedback": ""
+        "text": "[TODO:ru] Lot chooses the whole plain of the Jordan, well watered like the garden of the Lord"
       },
       {
-        "text": "Благослови его и отпусти",
-        "feedback": ""
+        "text": "[TODO:ru] Lot chooses the dry hill country"
       },
       {
-        "text": "Попытайся переубедить его",
-        "feedback": ""
+        "text": "[TODO:ru] Lot refuses to choose and stays with Abram"
       }
     ]
   },
   "lot_departs": {
-    "title": "Разлука",
-    "text": "Стада Лота движутся к равнине.\nПыль его дороги медленно оседает.",
+    "title": "[TODO:ru] The Parting",
+    "text": "[TODO:ru] You and Lot part ways.\nWhere does Lot go?",
     "choices": [
       {
-        "text": "Стой и смотри на него без горечи",
-        "feedback": ""
+        "text": "[TODO:ru] Lot sets out toward the east and pitches his tents near Sodom"
       },
       {
-        "text": "Отвернись — откажись видеть",
-        "feedback": ""
+        "text": "[TODO:ru] Lot travels far west across the sea"
+      },
+      {
+        "text": "[TODO:ru] Lot goes back to Haran"
       }
     ]
   },
   "remaining": {
-    "title": "Что осталось",
-    "text": "Холмы сухи, долина тиха.\nТы один с землёй, которую дал Бог.",
+    "title": "[TODO:ru] Where You Live",
+    "text": "[TODO:ru] Lot is gone.\nWhere do you live?",
     "choices": [
       {
-        "text": "Оплакивай то, что ты отпустил",
-        "feedback": ""
+        "text": "[TODO:ru] Live in the land of Canaan"
       },
       {
-        "text": "Построй жертвенник в благодарность",
-        "feedback": ""
+        "text": "[TODO:ru] Live in the plain of the Jordan near Sodom"
       },
       {
-        "text": "Подсчитай, что ты потерял в стадах",
-        "feedback": ""
+        "text": "[TODO:ru] Live in Egypt"
       }
     ]
   },
   "the_promise": {
-    "title": "Подними глаза",
-    "text": "«Всю землю, которую ты видишь, Я даю тебе.\nПотомство твоё будет как прах земной».",
+    "title": "[TODO:ru] Lift Up Your Eyes",
+    "text": "[TODO:ru] The Lord speaks to you after Lot has parted from you.\nWhat does He say?",
+    "choices": [
+      {
+        "text": "[TODO:ru] 'Lift up your eyes; all the land you see I will give to you and your offspring forever'"
+      },
+      {
+        "text": "[TODO:ru] 'You will lose this land to Lot's descendants'"
+      },
+      {
+        "text": "[TODO:ru] 'Return to Haran; the land is not yours'"
+      }
+    ]
+  },
+  "mamre": {
+    "title": "[TODO:ru] Walk Through the Land",
+    "text": "[TODO:ru] The Lord tells you what to do next.\nWhat is it?",
+    "choices": [
+      {
+        "text": "[TODO:ru] 'Go, walk through the length and breadth of the land, for I am giving it to you'"
+      },
+      {
+        "text": "[TODO:ru] 'Stay in one place and never travel again'"
+      },
+      {
+        "text": "[TODO:ru] 'Give the land back to the Canaanites'"
+      }
+    ]
+  },
+  "altar": {
+    "title": "[TODO:ru] The Great Trees of Mamre",
+    "text": "[TODO:ru] So you move your tents and go to live near the great trees of Mamre at Hebron,\nwhere you build an altar to the Lord.",
     "choices": []
   }
 }

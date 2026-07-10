@@ -1,136 +1,158 @@
 {
-  "storyTitle": "إبراهيم ولوط",
+  "storyTitle": "[TODO:ar] Abraham and Lot",
   "start": {
-    "title": "عائلتان",
-    "text": "قطعانك وقطعان لوط تملأ الوادي نفسه.\nالأرض تئن تحت وطأة هذه الحياة الكثيرة.",
+    "title": "[TODO:ar] Very Wealthy",
+    "text": "[TODO:ar] You come back from Egypt to the Negev, and then to the hills between Bethel and Ai.\nHow wealthy are you now?",
     "choices": [
       {
-        "text": "تجاهل التوتر — استمر",
-        "feedback": ""
+        "text": "[TODO:ar] Very wealthy â in livestock, silver and gold"
       },
       {
-        "text": "لاحظ المشكلة تتشكل",
-        "feedback": ""
+        "text": "[TODO:ar] Poor and empty-handed from the journey"
+      },
+      {
+        "text": "[TODO:ar] The same as before, with no change"
       }
     ]
   },
   "tension": {
-    "title": "آبار مزدحمة",
-    "text": "قطيعان. بئر واحدة. أصوات الرعاة ترتفع.\nلا بد أن يتغير شيء.",
+    "title": "[TODO:ar] The Land Cannot Support You",
+    "text": "[TODO:ar] Both you and your nephew Lot have flocks, herds and tents.\nWhat is the trouble?",
     "choices": [
       {
-        "text": "اطالب بالبئر بحق الأقدمية",
-        "feedback": ""
+        "text": "[TODO:ar] The land cannot support you both together, for your possessions are too great"
       },
       {
-        "text": "استمع أولًا، لا تحكم بعد",
-        "feedback": ""
+        "text": "[TODO:ar] You have too little livestock to feed anyone"
       },
       {
-        "text": "اطرد قطعان لوط بعيدًا",
-        "feedback": ""
+        "text": "[TODO:ar] A great enemy is attacking both camps"
       }
     ]
   },
   "quarrel": {
-    "title": "صدام الرعاة",
-    "text": "عصي مرفوعة. صرخات في الغبار.\nضربة واحدة قد تحطم كل شيء بينكما.",
+    "title": "[TODO:ar] Strife Between the Herdsmen",
+    "text": "[TODO:ar] Trouble breaks out.\nWhat happens?",
     "choices": [
       {
-        "text": "أمر رجالك بالضرب أولًا",
-        "feedback": ""
+        "text": "[TODO:ar] Quarreling breaks out between your herdsmen and Lot's herdsmen"
       },
       {
-        "text": "تدخل بينهما — ادعُ للسلام",
-        "feedback": ""
+        "text": "[TODO:ar] Peace and joy spread through both camps"
+      },
+      {
+        "text": "[TODO:ar] Lot's herdsmen leave without a word"
       }
     ]
   },
   "decision": {
-    "title": "التحدث إلى لوط",
-    "text": "تأخذ لوط جانباً. \"نحن عائلة.\nفلا يكن خصام بيننا.\"",
+    "title": "[TODO:ar] You Speak to Lot",
+    "text": "[TODO:ar] You want to end the strife.\nWhat do you say to Lot?",
     "choices": [
       {
-        "text": "اطلب منه المغادرة فورًا",
-        "feedback": ""
+        "text": "[TODO:ar] 'Let's not have any quarreling between you and me â we are close relatives'"
       },
       {
-        "text": "اعرض عليه الاختيار الأول",
-        "feedback": ""
+        "text": "[TODO:ar] 'You must leave at once â you are not my equal'"
       },
       {
-        "text": "تمسك بأقدميتك",
-        "feedback": ""
+        "text": "[TODO:ar] Say nothing and drive Lot out"
       }
     ]
   },
   "offering": {
-    "title": "اليد المفتوحة",
-    "text": "\"إن ذهبت يساراً، ذهبت يميناً.\nوإن ذهبت يميناً، ذهبت يساراً. اختر.\"",
+    "title": "[TODO:ar] First Choice",
+    "text": "[TODO:ar] You offer Lot a choice.\nWhat do you say?",
     "choices": [
       {
-        "text": "تمنى بهدوء أن يختار الأقل",
-        "feedback": ""
+        "text": "[TODO:ar] 'If you go to the left, I'll go to the right; if you go to the right, I'll go to the left'"
       },
       {
-        "text": "اعنِ كل كلمة — حرر الأرض",
-        "feedback": ""
+        "text": "[TODO:ar] 'I am the elder â I will choose first'"
+      },
+      {
+        "text": "[TODO:ar] 'We will both stay here and share every well'"
       }
     ]
   },
   "lots_choice": {
-    "title": "لوط ينظر شرقاً",
-    "text": "يرى لوط سهل الأردن — أخضر، مروي، غني.\nيختاره بلا تردد.",
+    "title": "[TODO:ar] Lot Looks Up",
+    "text": "[TODO:ar] Lot looks around at the land.\nWhat does he choose?",
     "choices": [
       {
-        "text": "استاء منه لأخذه الأفضل",
-        "feedback": ""
+        "text": "[TODO:ar] Lot chooses the whole plain of the Jordan, well watered like the garden of the Lord"
       },
       {
-        "text": "باركه ودعه يذهب",
-        "feedback": ""
+        "text": "[TODO:ar] Lot chooses the dry hill country"
       },
       {
-        "text": "حاول تغيير رأيه",
-        "feedback": ""
+        "text": "[TODO:ar] Lot refuses to choose and stays with Abram"
       }
     ]
   },
   "lot_departs": {
-    "title": "الافتراق",
-    "text": "قطعان لوط تتحرك نحو السهل.\nغبار طريقه يستقر ببطء.",
+    "title": "[TODO:ar] The Parting",
+    "text": "[TODO:ar] You and Lot part ways.\nWhere does Lot go?",
     "choices": [
       {
-        "text": "قف وراقبه بلا مرارة",
-        "feedback": ""
+        "text": "[TODO:ar] Lot sets out toward the east and pitches his tents near Sodom"
       },
       {
-        "text": "أدر وجهك — ارفض الرؤية",
-        "feedback": ""
+        "text": "[TODO:ar] Lot travels far west across the sea"
+      },
+      {
+        "text": "[TODO:ar] Lot goes back to Haran"
       }
     ]
   },
   "remaining": {
-    "title": "ما تبقى",
-    "text": "التلال جافة، الوادي هادئ.\nأنت وحدك مع الأرض التي أعطاها الله.",
+    "title": "[TODO:ar] Where You Live",
+    "text": "[TODO:ar] Lot is gone.\nWhere do you live?",
     "choices": [
       {
-        "text": "احزن على ما تخليت عنه",
-        "feedback": ""
+        "text": "[TODO:ar] Live in the land of Canaan"
       },
       {
-        "text": "ابنِ مذبحًا شكرًا",
-        "feedback": ""
+        "text": "[TODO:ar] Live in the plain of the Jordan near Sodom"
       },
       {
-        "text": "احصِ ما خسرته من قطعان",
-        "feedback": ""
+        "text": "[TODO:ar] Live in Egypt"
       }
     ]
   },
   "the_promise": {
-    "title": "ارفع عينيك",
-    "text": "\"كل الأرض التي تراها — أعطيها لك.\nونسلك سيكون كتراب الأرض.\"",
+    "title": "[TODO:ar] Lift Up Your Eyes",
+    "text": "[TODO:ar] The Lord speaks to you after Lot has parted from you.\nWhat does He say?",
+    "choices": [
+      {
+        "text": "[TODO:ar] 'Lift up your eyes; all the land you see I will give to you and your offspring forever'"
+      },
+      {
+        "text": "[TODO:ar] 'You will lose this land to Lot's descendants'"
+      },
+      {
+        "text": "[TODO:ar] 'Return to Haran; the land is not yours'"
+      }
+    ]
+  },
+  "mamre": {
+    "title": "[TODO:ar] Walk Through the Land",
+    "text": "[TODO:ar] The Lord tells you what to do next.\nWhat is it?",
+    "choices": [
+      {
+        "text": "[TODO:ar] 'Go, walk through the length and breadth of the land, for I am giving it to you'"
+      },
+      {
+        "text": "[TODO:ar] 'Stay in one place and never travel again'"
+      },
+      {
+        "text": "[TODO:ar] 'Give the land back to the Canaanites'"
+      }
+    ]
+  },
+  "altar": {
+    "title": "[TODO:ar] The Great Trees of Mamre",
+    "text": "[TODO:ar] So you move your tents and go to live near the great trees of Mamre at Hebron,\nwhere you build an altar to the Lord.",
     "choices": []
   }
 }

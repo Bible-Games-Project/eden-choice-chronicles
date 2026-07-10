@@ -1,182 +1,173 @@
 {
   "storyTitle": "Abraham in Egypt",
   "start": {
-    "title": "The Famine",
-    "text": "The promised land cracks under drought.\nFlocks weaken. Sarah grows thin.",
+    "title": "A Famine in the Land",
+    "text": "A severe famine strikes the land of Canaan.\nWhat do you do?",
     "choices": [
       {
-        "text": "Trust God and wait for rain",
-        "feedback": ""
+        "text": "Go down to Egypt to live there as a foreigner for a while"
       },
       {
-        "text": "Curse the dry sky",
-        "feedback": ""
+        "text": "Sail across the sea to a distant island"
       },
       {
-        "text": "Turn south to Egypt at once",
-        "feedback": ""
+        "text": "Stay in Canaan and lead an army"
       }
     ]
   },
   "road_south": {
-    "title": "The Road South",
-    "text": "Egypt promises grain. Sarah walks beside you, silent.\nThe horizon shimmers.",
+    "title": "As You Near Egypt",
+    "text": "You are about to enter Egypt.\nWhat do you say to your wife Sarai?",
     "choices": [
       {
-        "text": "Pray before each step forward",
-        "feedback": ""
+        "text": "'I know what a beautiful woman you are â the Egyptians will kill me to take you'"
       },
       {
-        "text": "Push on without a word to God",
-        "feedback": ""
+        "text": "'The Lord will protect us; we have nothing to fear'"
+      },
+      {
+        "text": "Say nothing at all to Sarai"
       }
     ]
   },
   "fear_rises": {
-    "title": "A Cold Thought",
-    "text": "Egyptians may kill you to take your wife.\nFear coils tight inside your chest.",
+    "title": "The Request",
+    "text": "You ask Sarai to do something to protect your life.\nWhat is it?",
     "choices": [
       {
-        "text": "Plot a lie to save yourself",
-        "feedback": ""
+        "text": "'Say you are my sister, so that I will be treated well because of you'"
       },
       {
-        "text": "Trust God to guard you both",
-        "feedback": ""
+        "text": "'Say you are my mother, so no one will notice'"
       },
       {
-        "text": "Turn back to the famine",
-        "feedback": ""
+        "text": "'Say we are strangers who have never met'"
       }
     ]
   },
   "the_lie": {
-    "title": "The Half-Truth",
-    "text": "Sarah's eyes find yours. \"Say you are my sister.\"\nThe words taste like ash.",
+    "title": "The Egyptians See Sarai",
+    "text": "You arrive in Egypt.\nHow do the Egyptians respond to Sarai?",
     "choices": [
       {
-        "text": "Confess fear and speak truth",
-        "feedback": ""
+        "text": "The Egyptians see that she is very beautiful"
       },
       {
-        "text": "Make her agree to the lie",
-        "feedback": ""
+        "text": "The Egyptians ignore her completely"
+      },
+      {
+        "text": "The Egyptians drive her away from the city"
       }
     ]
   },
   "entering_egypt": {
-    "title": "The Gates of Egypt",
-    "text": "The city teems. Eyes follow Sarah everywhere.\nWhispers reach the palace.",
+    "title": "Pharaoh's Officials",
+    "text": "Pharaoh's officials see Sarai.\nWhat do they do?",
     "choices": [
       {
-        "text": "Stay close and shield her",
-        "feedback": ""
+        "text": "They praise her to Pharaoh, and she is taken into his palace"
       },
       {
-        "text": "Step away to seem unrelated",
-        "feedback": ""
+        "text": "They chase Abram out of Egypt at once"
       },
       {
-        "text": "Boast of the gifts you'll receive",
-        "feedback": ""
+        "text": "They ignore her and offer no attention"
       }
     ]
   },
   "officials_come": {
-    "title": "Pharaoh's Officials",
-    "text": "An official arrives. \"Pharaoh has heard of her beauty.\"\nHis smile is polite. Sharp.",
+    "title": "For Sarai's Sake",
+    "text": "Because of Sarai, Pharaoh treats you well.\nHow does he treat Abram?",
     "choices": [
       {
-        "text": "Repeat the lie — \"My sister\"",
-        "feedback": ""
+        "text": "He gives you sheep, cattle, donkeys, servants and camels"
       },
       {
-        "text": "Speak truth — \"She is my wife\"",
-        "feedback": ""
+        "text": "He puts Abram in prison"
+      },
+      {
+        "text": "He gives Abram nothing at all"
       }
     ]
   },
   "sarah_taken": {
-    "title": "Alone",
-    "text": "They lead Sarah toward the palace.\nThe tent is suddenly unbearably quiet.",
+    "title": "The Lord Strikes",
+    "text": "The Lord does not remain silent.\nWhat does He do because of Sarai?",
     "choices": [
       {
-        "text": "Fall to your knees and cry to God",
-        "feedback": ""
+        "text": "The Lord inflicts serious diseases on Pharaoh and his household"
       },
       {
-        "text": "Sit numb and count your losses",
-        "feedback": ""
+        "text": "The Lord sends fire down on Egypt"
+      },
+      {
+        "text": "The Lord remains silent"
       }
     ]
   },
   "gifts_arrive": {
-    "title": "The Price of Silence",
-    "text": "Sheep, gold, servants — Pharaoh's payment.\nEach gift feels like a nail.",
+    "title": "Pharaoh Summons You",
+    "text": "Pharaoh calls for you.\nWhat does he say?",
     "choices": [
       {
-        "text": "Accept them, hide the shame",
-        "feedback": ""
+        "text": "'What have you done to me? Why didn't you tell me she was your wife?'"
       },
       {
-        "text": "Refuse them and beg God to act",
-        "feedback": ""
+        "text": "'Thank you for your gifts â please stay'"
       },
       {
-        "text": "Send them back to Pharaoh",
-        "feedback": ""
+        "text": "'Sarai will remain in my house forever'"
       }
     ]
   },
   "plagues": {
-    "title": "God Strikes",
-    "text": "Sickness sweeps through Pharaoh's house.\nNo healer can name its cause.",
+    "title": "Take Her and Go",
+    "text": "Pharaoh gives his order.\nWhat does he command?",
     "choices": [
       {
-        "text": "Know that God has not forgotten",
-        "feedback": ""
+        "text": "'Here is your wife. Take her and go!'"
       },
       {
-        "text": "Fear what God will do to you",
-        "feedback": ""
+        "text": "'You must remain here as my servant forever'"
+      },
+      {
+        "text": "'I will keep Sarai and you may return to Canaan alone'"
       }
     ]
   },
   "confronted": {
-    "title": "The Reckoning",
-    "text": "Pharaoh's voice shakes. \"Why did you do this?\nWhy did you say 'my sister'?\"",
+    "title": "Escorted Out",
+    "text": "Pharaoh gives orders about you.\nWhat happens?",
     "choices": [
       {
-        "text": "Make excuses for your fear",
-        "feedback": ""
+        "text": "Pharaoh's men send you on your way, with your wife and everything you have"
       },
       {
-        "text": "Bow your head — no defense",
-        "feedback": ""
+        "text": "Pharaoh's men strip you of all your possessions"
       },
       {
-        "text": "Blame the famine for it all",
-        "feedback": ""
+        "text": "Pharaoh's men put you in chains"
       }
     ]
   },
   "expelled": {
-    "title": "Sent Away",
-    "text": "\"Take your wife. Take it all. Go.\"\nGuards walk you to the border.",
+    "title": "Going Up from Egypt",
+    "text": "You leave Egypt.\nWhere do you go?",
     "choices": [
       {
-        "text": "Walk ahead, too ashamed to look",
-        "feedback": ""
+        "text": "Go up from Egypt to the Negev, with your wife and all you have"
       },
       {
-        "text": "Reach for Sarah's hand in silence",
-        "feedback": ""
+        "text": "Stay in Egypt and settle there for good"
+      },
+      {
+        "text": "Go east across the desert to Assyria"
       }
     ]
   },
   "altar": {
-    "title": "The Altar",
-    "text": "Back in the promised land, you build stones.\nThe promise stands — despite you.",
+    "title": "Back to the Altar",
+    "text": "You return to the place between Bethel and Ai,\nto the altar you had built at first, and there you call on the name of the Lord.",
     "choices": []
   }
 }

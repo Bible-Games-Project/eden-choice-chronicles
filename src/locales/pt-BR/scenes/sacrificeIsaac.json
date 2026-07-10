@@ -1,372 +1,233 @@
 {
-  "storyTitle": "O Sacrifício de Isaque",
+  "storyTitle": "[TODO:pt-BR] Sacrifice of Isaac",
   "start": {
-    "title": "Uma Voz na Noite",
-    "text": "O fogo em sua tenda diminuiu.\nIsaque dorme ao lado de Sara — o filho da promessa, o riso de sua velhice.\nEntão, no silêncio, uma voz que você conhece por toda a vida: \"Abraão.\"",
+    "title": "[TODO:pt-BR] God Tests Abraham",
+    "text": "[TODO:pt-BR] God calls to you.\nHow do you answer?",
     "choices": [
       {
-        "text": "Responda imediatamente: \"Aqui estou\"",
-        "feedback": "A palavra te escapa antes que o medo possa alcançá-la. \"Aqui estou, Senhor.\""
+        "text": "[TODO:pt-BR] Answer: 'Here I am'"
       },
       {
-        "text": "Finja que não ouviu",
-        "feedback": "Você puxa o cobertor mais para cima. A voz não se afasta."
+        "text": "[TODO:pt-BR] Ignore the voice and go back to sleep"
       },
       {
-        "text": "Exija saber o que Ele quer primeiro",
-        "feedback": "Seu coração barganha antes mesmo de ter escutado. O silêncio se torna mais pesado."
-      }
-    ]
-  },
-  "doubt_consequence": {
-    "title": "Ele Não Passa Adiante",
-    "text": "A voz não se vai. Ela espera — paciente, imensa, certa.\nNão podes fugir Daquele que te chamou de Ur.\nLevantas-te da cama e sais para o ar frio.",
-    "choices": [
-      {
-        "text": "Curve-se e responda finalmente: \"Aqui estou\"",
-        "feedback": "Você toca a testa na areia. \"Aqui estou, Senhor.\""
+        "text": "[TODO:pt-BR] Demand to know the Lord's name first"
       }
     ]
   },
   "the_command": {
-    "title": "Toma Teu Filho",
-    "text": "As palavras vêm, lentas e terríveis:\n\"Toma teu filho, teu único filho Isaque, a quem amas, e vai à terra de Moriá.\nOferece-o ali em holocausto, num dos montes que eu te mostrarei.\"",
+    "title": "[TODO:pt-BR] Take Your Son",
+    "text": "[TODO:pt-BR] God speaks the command.\nWhat does He say?",
     "choices": [
       {
-        "text": "Recuse — certamente Deus não pediria isso",
-        "feedback": "Você balança a cabeça. Mas o comando não se desdiz."
+        "text": "[TODO:pt-BR] 'Take your son, your only son, whom you love â Isaac â and offer him as a burnt offering on a mountain I will show you'"
       },
       {
-        "text": "Curve-se em silêncio trêmulo e aceite",
-        "feedback": "Você pressiona o rosto contra o chão. Nenhuma palavra vem — apenas rendição."
+        "text": "[TODO:pt-BR] 'Take a lamb from your flock and offer it here'"
       },
       {
-        "text": "Peça a Deus para levar você em vez disso",
-        "feedback": "\"Leva-me, Senhor — não o menino.\" Os céus não respondem à troca."
-      }
-    ]
-  },
-  "refuse_consequence": {
-    "title": "O Deus Que Lho Deu",
-    "text": "Tu estás sozinho sob as vastas estrelas.\nEste é o mesmo Deus que prometeu Isaque quando o ventre de Sara estava morto.\nEle deu o menino. Ele ainda não te mentiu.",
-    "choices": [
-      {
-        "text": "Confie naquele que deu — e obedeça",
-        "feedback": "Sua recusa desmorona. \"Aquele que deu também pode guardar.\""
-      }
-    ]
-  },
-  "bargain_consequence": {
-    "title": "Nenhum Substituto Que Possas Oferecer",
-    "text": "Tuas barganhas morrem em tua garganta.\nEste teste não é pela tua vida. É pelo teu coração.\nAs estrelas esperam acima de ti em seus milhares — as mesmas estrelas que Ele uma vez prometeu.",
-    "choices": [
-      {
-        "text": "Abandone a barganha e obedeça",
-        "feedback": "Você para de barganhar. Não resta nada além de confiar."
+        "text": "[TODO:pt-BR] 'Build a great temple in Beersheba'"
       }
     ]
   },
   "the_weight": {
-    "title": "Antes do Amanhecer",
-    "text": "Tu te sentas junto à fogueira moribunda até que o céu acinzentado.\nIsaque respira suavemente por perto. Sara não se mexe.\nLogo o sol nascerá — e tu deves agir antes que tua coragem se quebre.",
+    "title": "[TODO:pt-BR] Early the Next Morning",
+    "text": "[TODO:pt-BR] Early the next morning you prepare for the journey.\nWhat do you do?",
     "choices": [
       {
-        "text": "Acorde os servos e sele o jumento imediatamente",
-        "feedback": "Melhor andar do que pensar. Você se levanta e começa."
+        "text": "[TODO:pt-BR] Get up early, saddle your donkey, take two servants and your son Isaac, and cut enough wood for the burnt offering"
       },
       {
-        "text": "Espere — talvez outro sinal venha",
-        "feedback": "O amanhecer chega de qualquer forma. O comando não muda."
+        "text": "[TODO:pt-BR] Refuse to go and stay in Beersheba"
       },
       {
-        "text": "Acorde Sara e conte-lhe tudo",
-        "feedback": "Sua mão paira sobre o ombro dela — e recua. Ela não sobreviveria à separação."
-      }
-    ]
-  },
-  "delay_consequence": {
-    "title": "Nenhum Outro Sinal Virá",
-    "text": "A luz aumenta. Os pássaros começam seus primeiros chamados.\nA palavra uma vez proferida não precisa ser repetida.\nA obediência tardia não suavizará o que deve ser feito.",
-    "choices": [
-      {
-        "text": "Levante-se e prepare-se para a jornada",
-        "feedback": "Você se levanta, rígido com o peso, e chama os servos."
-      }
-    ]
-  },
-  "tell_sarah_consequence": {
-    "title": "Ela Não Deve Suportar Isso",
-    "text": "Ela derrubaria a tenda.\nEla se apegaria a Isaque e amaldiçoaria o Deus que pediu.\nEste fardo é só seu — e de Isaque, se assim tiver de ser.",
-    "choices": [
-      {
-        "text": "Saia em silêncio e prepare-se em silêncio",
-        "feedback": "Você sai sem uma palavra. O amanhecer guarda seu segredo."
+        "text": "[TODO:pt-BR] Wait for a sign before setting out"
       }
     ]
   },
   "departure": {
-    "title": "Três Dias de Caminhada",
-    "text": "Tu mesmo rachas a lenha para o holocausto — cada golpe do machado mais pesado que o anterior.\nAcordas Isaque gentilmente. Dois servos vêm contigo.\nA terra de Moriá fica a três dias ao norte.",
+    "title": "[TODO:pt-BR] Toward Moriah",
+    "text": "[TODO:pt-BR] You travel toward the place God has told you.\nHow long do you journey?",
     "choices": [
       {
-        "text": "Parta ao amanhecer sem explicação",
-        "feedback": "O menino segue, sonolento e confiante. Você não olha para trás, para a tenda."
+        "text": "[TODO:pt-BR] Travel for three days, until you look up and see the place in the distance"
       },
       {
-        "text": "Minta para Isaque sobre onde você está indo",
-        "feedback": "A mentira tem gosto de cinzas. Ele acredita em você sem questionar — o que é pior."
-      }
-    ]
-  },
-  "lie_consequence": {
-    "title": "Verdade Suficiente para Hoje",
-    "text": "Não podes mentir para ele. Não a verdade toda — mas também não uma mentira.\n“Vamos adorar”, dizes a ele. “Deus proverá.”\nÉ mais verdadeiro do que ainda compreendes.",
-    "choices": [
+        "text": "[TODO:pt-BR] Travel only a single hour before arriving"
+      },
       {
-        "text": "Caminhe com ele para o amanhecer",
-        "feedback": "Ele sorri para você e pega sua mão. A estrada começa."
+        "text": "[TODO:pt-BR] Travel for forty years through the desert"
       }
     ]
   },
   "the_road": {
-    "title": "A Longa Estrada para o Norte",
-    "text": "Três dias sob um vasto céu pálido.\nIsaque tagarela sobre cordeiros e estrelas e o que Sara cozinhará quando voltares.\nCada palavra é uma pequena faca — e uma pequena misericórdia.",
+    "title": "[TODO:pt-BR] Stay Here With the Donkey",
+    "text": "[TODO:pt-BR] You come near the mountain.\nWhat do you tell the servants?",
     "choices": [
       {
-        "text": "Ouça-o completamente — guarde cada palavra",
-        "feedback": "Você bebe a voz dele como se fosse o último poço no deserto."
+        "text": "[TODO:pt-BR] 'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you'"
       },
       {
-        "text": "Ande separado e endureça seu coração",
-        "feedback": "Você acelera o passo à frente dele. A distância não te protege."
+        "text": "[TODO:pt-BR] 'Come with us up the mountain to watch'"
       },
       {
-        "text": "Volte — alegue que a jornada foi um erro",
-        "feedback": "Seus pés diminuem. Mas você não pode fugir da voz que te chamou."
-      }
-    ]
-  },
-  "harden_consequence": {
-    "title": "Um Pai Não Pode Endurecer-se",
-    "text": "Não podes te encolher o suficiente para escapar disso.\nSe Deus não prover nada, tu o perderás de qualquer forma — uma vez no altar, e para sempre em tua alma.\nEle merece teu amor até o último passo.",
-    "choices": [
-      {
-        "text": "Diminua o ritmo e caminhe ao lado dele novamente",
-        "feedback": "Você acompanha o passo dele. Ele sorri para você. Você não merece esse sorriso."
-      }
-    ]
-  },
-  "turn_back_consequence": {
-    "title": "Não Há Como Voltar Atrás",
-    "text": "Se voltares agora, toda promessa se desfaz.\nAs estrelas que Ele contou, as nações que Ele jurou — tudo desmorona com uma recusa.\nA fé é uma estrada; tu já estás nela.",
-    "choices": [
-      {
-        "text": "Vire para o norte novamente e continue andando",
-        "feedback": "Você endurece o rosto como pedra e segue com ele."
+        "text": "[TODO:pt-BR] 'Take the donkey home; we are not coming back'"
       }
     ]
   },
   "mountain_in_sight": {
-    "title": "A Montanha ao Longe",
-    "text": "No terceiro dia, levantas os olhos — e a vês.\nUm único pico à distância, envolto em névoa pálida.\nAlgo dentro de ti sabe que este é o lugar.",
+    "title": "[TODO:pt-BR] The Wood and the Fire",
+    "text": "[TODO:pt-BR] You prepare to climb the mountain.\nWho carries what?",
     "choices": [
       {
-        "text": "Diga aos servos para esperarem aqui com o jumento",
-        "feedback": "\"Fiquem aqui com o jumento. O menino e eu subiremos para adorar — e voltaremos a vocês.\""
+        "text": "[TODO:pt-BR] Place the wood for the burnt offering on Isaac's shoulders; carry the fire and the knife yourself"
       },
       {
-        "text": "Traga os servos com você para apoio",
-        "feedback": "Você dá um passo em direção a eles — então para. Eles não podem compartilhar isso."
-      }
-    ]
-  },
-  "servants_consequence": {
-    "title": "Isto Não É Para Outros Olhos",
-    "text": "Se eles testemunharem, eles te impedirão. Se eles te impedirem, tu falhaste com Ele.\nIsto é entre tu, o menino e Deus.\nNenhuma outra mão pode ajudar ou atrapalhar.",
-    "choices": [
+        "text": "[TODO:pt-BR] Carry the wood yourself while Isaac carries nothing"
+      },
       {
-        "text": "Diga a eles para esperarem aqui ao pé da montanha",
-        "feedback": "\"Fiquem aqui. Voltaremos a vocês.\" As palavras parecem uma profecia que você ainda não entende."
+        "text": "[TODO:pt-BR] Leave the wood behind at the foot of the mountain"
       }
     ]
   },
   "leave_servants": {
-    "title": "Ele Levará a Lenha",
-    "text": "Colocas o feixe de lenha rachada sobre os ombros jovens e fortes de Isaque.\nTu levas o fogo e a faca em tuas próprias mãos.\nJuntos, começais a subir o caminho estreito.",
+    "title": "[TODO:pt-BR] Father",
+    "text": "[TODO:pt-BR] As you walk together, Isaac speaks up.\nWhat does he say?",
     "choices": [
       {
-        "text": "Caminhe em silêncio ao lado dele",
-        "feedback": "Passo a passo, o caminho serpenteia para cima. O vento canta nos penhascos."
+        "text": "[TODO:pt-BR] 'Father â the fire and wood are here, but where is the lamb for the burnt offering?'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'Father â let us go back home right now'"
+      },
+      {
+        "text": "[TODO:pt-BR] Isaac says nothing the whole way up"
       }
     ]
   },
   "isaacs_question": {
-    "title": "Onde Está o Cordeiro?",
-    "text": "No meio do caminho, Isaque para e se vira para ti.\n\"Meu pai — eis o fogo e a lenha. Mas onde está o cordeiro para o holocausto?\"\nSeus olhos são límpidos e confiantes. Ele espera por uma resposta.",
+    "title": "[TODO:pt-BR] God Will Provide",
+    "text": "[TODO:pt-BR] You answer Isaac.\nWhat do you say?",
     "choices": [
       {
-        "text": "\"Deus mesmo proverá um cordeiro, meu filho\"",
-        "feedback": "As palavras te escapam como uma oração. Nem você ainda sabe o que elas significam."
+        "text": "[TODO:pt-BR] 'God Himself will provide the lamb for the burnt offering, my son'"
       },
       {
-        "text": "Conte a ele a verdade — que ele é o cordeiro",
-        "feedback": "O rosto dele fica branco. Ele deixa cair a madeira e tropeça para trás."
+        "text": "[TODO:pt-BR] 'You are the lamb, Isaac'"
       },
       {
-        "text": "Não diga nada e continue andando",
-        "feedback": "Ele espera um longo momento. Então, silenciosamente, segue. Algo dentro dele sabe."
-      }
-    ]
-  },
-  "tell_truth_consequence": {
-    "title": "Ele Ainda Confia em Ti",
-    "text": "Ele treme. Mas depois de um longo silêncio, ele pega a lenha novamente.\nEle não foge. Ele não te amaldiçoa.\nEle caminha ao teu lado — porque ele confia no Deus em quem tu sempre confiaste.",
-    "choices": [
-      {
-        "text": "Caminhe com ele em silêncio reverente até o cume",
-        "feedback": "Duas fés caminham lado a lado no último trecho do caminho."
-      }
-    ]
-  },
-  "silence_consequence": {
-    "title": "A Resposta da Fé",
-    "text": "Não podes deixar a pergunta dele sem resposta — nem agora, nem nunca.\nA fé não é silêncio. A fé é a palavra proferida na escuridão.\nTu te voltas para ele.",
-    "choices": [
-      {
-        "text": "Diga: \"Deus mesmo proverá o cordeiro, meu filho\"",
-        "feedback": "Tu o dizes. A montanha parece prender a respiração."
+        "text": "[TODO:pt-BR] 'There is no lamb â we go home now'"
       }
     ]
   },
   "summit": {
-    "title": "O Lugar Que Ele Mostrou",
-    "text": "Tu chegas ao lugar. O vento se acalma.\nComeças a juntar pedras. Isaque se ajoelha e te ajuda, suas pequenas mãos ao lado das tuas.\nO altar se ergue — rústico, sagrado, terrível.",
+    "title": "[TODO:pt-BR] The Altar",
+    "text": "[TODO:pt-BR] You reach the place God has told you about.\nWhat do you build there?",
     "choices": [
       {
-        "text": "Arrume a lenha sobre as pedras",
-        "feedback": "Cada pedaço de lenha é colocado com cuidado. O altar está pronto."
+        "text": "[TODO:pt-BR] Build an altar, arrange the wood on it, bind Isaac and lay him on the altar, on top of the wood"
       },
       {
-        "text": "Pare — você não pode fazer isso",
-        "feedback": "Tuas mãos caem ao teu lado. O vento aumenta ao teu redor."
-      }
-    ]
-  },
-  "stop_consequence": {
-    "title": "Fé Que Acredita na Ressurreição",
-    "text": "Tuas mãos tremem. Então um pensamento te invade — mais antigo que o próprio mandamento:\n\"Aquele que deu Isaque de um ventre morto pode devolvê-lo dentre os mortos.\"\nTu acreditas. Não o entendes. Mas acreditas.",
-    "choices": [
+        "text": "[TODO:pt-BR] Build a shrine to another god instead"
+      },
       {
-        "text": "Pegue a lenha e termine o que foi começado",
-        "feedback": "Tuas mãos firmes. Tu completas o altar."
+        "text": "[TODO:pt-BR] Refuse to build anything and turn back"
       }
     ]
   },
   "the_binding": {
-    "title": "Ele Não Resiste",
-    "text": "Você se vira para Isaque. Não há palavras — apenas seus olhos encontrando os dele.\nEle vê. Ele entende. E ele não foge.\nEle se ajoelha. Ele permite que você amarre suas mãos. Ele se deita sobre a lenha.",
+    "title": "[TODO:pt-BR] The Knife",
+    "text": "[TODO:pt-BR] Isaac is bound on the altar.\nWhat do you do next?",
     "choices": [
       {
-        "text": "Beije a testa dele e levante a faca",
-        "feedback": "A lágrima dele encontra a tua. Tu levantas a faca."
+        "text": "[TODO:pt-BR] Reach out your hand and take the knife to slay your son"
       },
       {
-        "text": "Solte-o — fuja do altar",
-        "feedback": "Tua mão encontra a corda — mas para. Voltar agora é tornar toda a coragem dele inútil."
-      }
-    ]
-  },
-  "flee_consequence": {
-    "title": "A Fé Dele Te Sustenta",
-    "text": "O menino jaz imóvel sob você, olhos fechados, respiração constante.\nEle confia. Ele está se oferecendo com você.\nSe você fugir, você trai não apenas a Deus — mas a própria entrega de Isaque.",
-    "choices": [
+        "text": "[TODO:pt-BR] Set the knife aside and refuse"
+      },
       {
-        "text": "Fique com ele até o fim — levante a faca",
-        "feedback": "Tu levantas a faca sobre ele, ambas as mãos tremendo."
+        "text": "[TODO:pt-BR] Loose Isaac and flee down the mountain"
       }
     ]
   },
   "the_knife": {
-    "title": "Abraão! Abraão!",
-    "text": "A lâmina se ergue. Teus braços são de pedra.\nNo ponto mais alto — uma voz rasga o céu:\n\"Abraão! Abraão!\"",
+    "title": "[TODO:pt-BR] The Angel of the Lord",
+    "text": "[TODO:pt-BR] The angel of the Lord calls out to you from heaven.\nWhat does he say?",
     "choices": [
       {
-        "text": "Responda imediatamente: \"Eis-me aqui\"",
-        "feedback": "A faca para. \"Eis-me aqui, Senhor.\""
+        "text": "[TODO:pt-BR] 'Abraham! Abraham! Do not lay a hand on the boy. Do not do anything to him'"
       },
       {
-        "text": "Ataque antes que outra ordem possa vir",
-        "feedback": "Teu braço se tensiona — então trava. Tu não podes. A voz tem prioridade."
-      }
-    ]
-  },
-  "strike_consequence": {
-    "title": "A Prova Não É Sangue",
-    "text": "Teu braço não se moverá.\nDeus não pediu a morte — Ele pediu o coração que a daria.\nTu Lhe deste esse coração. A lâmina já fez seu trabalho.",
-    "choices": [
+        "text": "[TODO:pt-BR] 'Strike the boy quickly â do not delay'"
+      },
       {
-        "text": "Abaixe a faca e responda à voz: \"Eis-me aqui\"",
-        "feedback": "A faca cai da tua mão na poeira. \"Eis-me aqui.\""
+        "text": "[TODO:pt-BR] The angel says nothing at all"
       }
     ]
   },
   "the_stay": {
-    "title": "Não Estendas a Mão Sobre o Jovem",
-    "text": "\"Não estendas a mão sobre o jovem. Nada lhe faças.\nAgora sei que temes a Deus — pois não Me negaste teu filho, teu único filho.\"\nTu cais de joelhos ao lado dele. O mundo respira novamente.",
+    "title": "[TODO:pt-BR] Now I Know",
+    "text": "[TODO:pt-BR] The angel explains why you were stopped.\nWhat does he say?",
     "choices": [
       {
-        "text": "Solte as mãos de Isaque e levante-o da lenha",
-        "feedback": "Teus dedos trêmulos o libertam. Ele se agarra a ti e chora."
+        "text": "[TODO:pt-BR] 'Now I know that you fear God, because you have not withheld from Me your son, your only son'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'You have failed the test; go home in shame'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'Isaac must still die; try again tomorrow'"
       }
     ]
   },
   "the_ram": {
-    "title": "Preso no Arbusto",
-    "text": "Levantas os olhos — e ali, no arbusto atrás do altar, um carneiro está preso pelos chifres na moita.\nNão veio do caminho. Simplesmente está ali.\nDeus proveu.",
+    "title": "[TODO:pt-BR] A Ram in the Thicket",
+    "text": "[TODO:pt-BR] You look up.\nWhat do you see caught in the thicket?",
     "choices": [
       {
-        "text": "Pegue o carneiro e ofereça-o no lugar de Isaque",
-        "feedback": "Tu libertas o carneiro e o colocas na lenha. O fogo se eleva."
+        "text": "[TODO:pt-BR] A ram caught by its horns in a thicket â you take it and offer it as a burnt offering in place of your son"
       },
       {
-        "text": "Recuse — não sacrifique nada agora",
-        "feedback": "Tu ficas paralisado. O carneiro espera. O altar espera."
-      }
-    ]
-  },
-  "no_sacrifice_consequence": {
-    "title": "A Adoração Deve Ser Completa",
-    "text": "Vieste para adorar. O altar ainda clama por uma oferta.\nDeus proveu uma — recebê-la é o ato final de obediência.\nNão oferecê-la é desprezar a misericórdia.",
-    "choices": [
+        "text": "[TODO:pt-BR] A dove flying above the altar"
+      },
       {
-        "text": "Pegue o carneiro e complete a oferta",
-        "feedback": "Tu libertas o carneiro e o colocas na lenha. A fumaça sobe direto para o céu."
+        "text": "[TODO:pt-BR] Nothing at all â the altar remains empty"
       }
     ]
   },
   "the_name": {
-    "title": "O Senhor Proverá",
-    "text": "Chamas o lugar de Yahweh-Yireh — \"O Senhor Proverá.\"\nIsaque está ao teu lado, vivo, respirando, sua mão pequena na tua.\nA fumaça do carneiro sobe para o vasto céu pálido.",
+    "title": "[TODO:pt-BR] The Lord Will Provide",
+    "text": "[TODO:pt-BR] You name that place to mark what happened.\nWhat name do you give it?",
     "choices": [
       {
-        "text": "Curve-se e ouça — a voz não terminou",
-        "feedback": "Tu abaixas a cabeça. A voz vem novamente, mais gentil desta vez."
+        "text": "[TODO:pt-BR] 'The Lord Will Provide' (Yahweh Yireh)"
+      },
+      {
+        "text": "[TODO:pt-BR] 'The Place of Grief'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'The Mountain of Fire'"
       }
     ]
   },
   "the_blessing": {
-    "title": "Por Mim Mesmo Jurei",
-    "text": "\"Por Mim mesmo jurei, diz o Senhor:\nporquanto fizeste isso e não retiveste o teu único filho,\nEu te abençoarei grandemente e multiplicarei a tua descendência como as estrelas do céu e como a areia que está na praia do mar.\nNa tua descendência serão benditas todas as nações da terra — porquanto obedeceste à Minha voz.\"",
+    "title": "[TODO:pt-BR] The Oath",
+    "text": "[TODO:pt-BR] The angel of the Lord calls to you a second time from heaven.\nWhat is the promise?",
     "choices": [
       {
-        "text": "Pegue a mão de Isaque e comece a longa caminhada para casa",
-        "feedback": "Vocês se viram juntos em direção ao caminho, o céu queimando em ouro ao redor de vocês."
+        "text": "[TODO:pt-BR] 'I will surely bless you and make your descendants as numerous as the stars in the sky and the sand on the seashore; through your offspring all nations on earth will be blessed'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'Your descendants will be few and forgotten'"
+      },
+      {
+        "text": "[TODO:pt-BR] 'You will lose all you have as punishment'"
       }
     ]
   },
   "homecoming": {
-    "title": "Voltamos Novamente",
-    "text": "Desceis a montanha juntos enquanto as estrelas começam a se mostrar.\nOs servos estão esperando onde os deixaste.\n\"Voltamos novamente a vós\", dizes — e é mais verdadeiro do que eles jamais saberão.",
+    "title": "[TODO:pt-BR] Back to Beersheba",
+    "text": "[TODO:pt-BR] Abraham returns to his servants, and together they set off for Beersheba.\nAnd Abraham stays in Beersheba.",
     "choices": []
   }
 }

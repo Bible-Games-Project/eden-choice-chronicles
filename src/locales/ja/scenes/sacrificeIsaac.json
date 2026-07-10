@@ -1,372 +1,233 @@
 {
-  "storyTitle": "イサクの献身",
+  "storyTitle": "[TODO:ja] Sacrifice of Isaac",
   "start": {
-    "title": "夜の声",
-    "text": "あなたの天幕の火は燃え尽きていました。\nイサクはサラの隣で眠っています — 約束の子、あなたの老年の笑い。\nそして、静寂の中で、あなたは生涯知っていた声を聞きます。「アブラハム。」",
+    "title": "[TODO:ja] God Tests Abraham",
+    "text": "[TODO:ja] God calls to you.\nHow do you answer?",
     "choices": [
       {
-        "text": "すぐに答えなさい：「はい、ここにいます」",
-        "feedback": "恐れが追いつく前に、言葉があなたから離れます。「はい、主よ。」"
+        "text": "[TODO:ja] Answer: 'Here I am'"
       },
       {
-        "text": "聞こえなかったふりをしなさい",
-        "feedback": "あなたは毛布をさらに引き上げます。その声は去りません。"
+        "text": "[TODO:ja] Ignore the voice and go back to sleep"
       },
       {
-        "text": "まず彼が何を望んでいるのかを要求しなさい",
-        "feedback": "あなたの心は聞く前に交渉します。沈黙は重くなります。"
-      }
-    ]
-  },
-  "doubt_consequence": {
-    "title": "彼は通り過ぎない",
-    "text": "声は去りません。それは待ちます — 忍耐強く、広大で、確かな声です。\nウルからあなたを呼び出した方から逃れることはできません。\nあなたはベッドから起き上がり、冷たい空気の中へ足を踏み出します。",
-    "choices": [
-      {
-        "text": "深く頭を下げ、ついに答えなさい：「はい、ここにいます」",
-        "feedback": "あなたは額を砂につけます。「はい、主よ。」"
+        "text": "[TODO:ja] Demand to know the Lord's name first"
       }
     ]
   },
   "the_command": {
-    "title": "あなたの息子を連れて行きなさい",
-    "text": "言葉が、ゆっくりと恐ろしい響きで聞こえます。\n「あなたの息子、あなたの愛するひとり子イサクを連れて、モリヤの地へ行きなさい。\nそこで、わたしが示す山の上で、彼を焼き尽くす捧げ物として献げなさい。」",
+    "title": "[TODO:ja] Take Your Son",
+    "text": "[TODO:ja] God speaks the command.\nWhat does He say?",
     "choices": [
       {
-        "text": "拒否しなさい — 神がこれを求めるはずがない",
-        "feedback": "あなたは首を振ります。しかし、その命令は取り消されません。"
+        "text": "[TODO:ja] 'Take your son, your only son, whom you love â Isaac â and offer him as a burnt offering on a mountain I will show you'"
       },
       {
-        "text": "震える沈黙の中で頭を下げ、受け入れなさい",
-        "feedback": "あなたは顔を地面に押し付けます。言葉は出ません — ただ降伏だけです。"
+        "text": "[TODO:ja] 'Take a lamb from your flock and offer it here'"
       },
       {
-        "text": "代わりにあなたを連れて行くよう神に懇願しなさい",
-        "feedback": "「私を連れて行ってください、主よ — この子ではなく。」天は取引に答えません。"
-      }
-    ]
-  },
-  "refuse_consequence": {
-    "title": "彼を与えた神",
-    "text": "あなたは広大な星空の下に一人で立っています。\nこれは、サラの胎が死んでいたときにイサクを約束したのと同じ神です。\n彼は少年を与えました。彼はまだあなたに嘘をついていません。",
-    "choices": [
-      {
-        "text": "与えられた方を信頼し、従いなさい",
-        "feedback": "あなたの拒否は崩れ落ちます。「与えられた方は、また守ることもできる。」"
-      }
-    ]
-  },
-  "bargain_consequence": {
-    "title": "あなたが提供できる代替品はない",
-    "text": "あなたの交渉は喉で止まります。\nこの試練はあなたの命のためではありません。あなたの心のためです。\n何千もの星があなたの頭上で待っています — かつて彼が約束したまさにその星々です。",
-    "choices": [
-      {
-        "text": "交渉を手放し、従いなさい",
-        "feedback": "あなたは交渉をやめます。信頼するしかありません。"
+        "text": "[TODO:ja] 'Build a great temple in Beersheba'"
       }
     ]
   },
   "the_weight": {
-    "title": "夜明け前",
-    "text": "あなたは空が灰色になるまで、消えゆく火のそばに座っています。\nイサクは近くで静かに息をしています。サラは身動きしません。\nまもなく太陽が昇るでしょう — そしてあなたは勇気が尽きる前に動かなければなりません。",
+    "title": "[TODO:ja] Early the Next Morning",
+    "text": "[TODO:ja] Early the next morning you prepare for the journey.\nWhat do you do?",
     "choices": [
       {
-        "text": "すぐにしもべたちを起こし、ろばに鞍をつけなさい",
-        "feedback": "考えるよりも歩く方が良い。あなたは立ち上がり、始めます。"
+        "text": "[TODO:ja] Get up early, saddle your donkey, take two servants and your son Isaac, and cut enough wood for the burnt offering"
       },
       {
-        "text": "待ちなさい — もしかしたら別のしるしが来るかもしれない",
-        "feedback": "夜明けはそれでも来ます。命令は変わりません。"
+        "text": "[TODO:ja] Refuse to go and stay in Beersheba"
       },
       {
-        "text": "サラを起こし、すべてを話しなさい",
-        "feedback": "あなたの手は彼女の肩の上でさまよい — そして引き下がります。彼女は別れに耐えられないでしょう。"
-      }
-    ]
-  },
-  "delay_consequence": {
-    "title": "他に徴候はない",
-    "text": "光が強くなる。鳥たちがさえずり始める。\n一度語られた言葉は、繰り返される必要はない。\n遅れた従順は、なすべきことを和らげはしない。",
-    "choices": [
-      {
-        "text": "立ち上がり、旅の準備をしなさい",
-        "feedback": "あなたは、その重みに硬直し、立ち上がり、しもべたちを呼びます。"
-      }
-    ]
-  },
-  "tell_sarah_consequence": {
-    "title": "彼女にこれを負わせてはならない",
-    "text": "彼女は天幕を引き裂くだろう。\nイサクにしがみつき、要求した神を呪うだろう。\nこの重荷はあなた一人だけのものだ — そして、もし必要ならイサクのものだ。",
-    "choices": [
-      {
-        "text": "静かに立ち去り、黙って準備しなさい",
-        "feedback": "あなたは一言も発せずに外に出ます。夜明けがあなたの秘密を守ります。"
+        "text": "[TODO:ja] Wait for a sign before setting out"
       }
     ]
   },
   "departure": {
-    "title": "三日間の道のり",
-    "text": "あなたは燔祭の薪を自分で割る — 斧の一振りごとに重みが増す。\nあなたはイサクを優しく起こす。二人のしもべがあなたと共に行く。\nモリヤの地は北へ三日の道のりだ。",
+    "title": "[TODO:ja] Toward Moriah",
+    "text": "[TODO:ja] You travel toward the place God has told you.\nHow long do you journey?",
     "choices": [
       {
-        "text": "説明なしに夜明けに出発しなさい",
-        "feedback": "少年は眠そうに、信頼してついてきます。あなたはテントを振り返りません。"
+        "text": "[TODO:ja] Travel for three days, until you look up and see the place in the distance"
       },
       {
-        "text": "イサクにどこへ行くのか嘘をつきなさい",
-        "feedback": "嘘は灰の味がします。彼は疑問を抱かずにあなたを信じます — それはもっと悪いことです。"
-      }
-    ]
-  },
-  "lie_consequence": {
-    "title": "今日のための十分な真実",
-    "text": "彼に嘘はつけない。全ての真実ではないが — 嘘でもない。\n「礼拝に行くのだ」とあなたは彼に言う。「神が備えてくださるだろう。」\nそれはあなたがまだ理解している以上に真実だ。",
-    "choices": [
+        "text": "[TODO:ja] Travel only a single hour before arriving"
+      },
       {
-        "text": "彼と一緒に夜明けの中を歩き続けなさい",
-        "feedback": "彼はあなたを見上げて微笑み、あなたの手を取ります。道が始まります。"
+        "text": "[TODO:ja] Travel for forty years through the desert"
       }
     ]
   },
   "the_road": {
-    "title": "北への長い道",
-    "text": "広大な薄い空の下、三日間。\nイサクは子羊のこと、星のこと、そしてあなたが帰ったときにサラが何を作るかについておしゃべりする。\nどの言葉も小さなナイフであり — 小さな慈悲だ。",
+    "title": "[TODO:ja] Stay Here With the Donkey",
+    "text": "[TODO:ja] You come near the mountain.\nWhat do you tell the servants?",
     "choices": [
       {
-        "text": "彼の言葉を完全に聞きなさい — すべての言葉を心に留めなさい",
-        "feedback": "あなたは彼の声を、まるで砂漠の最後の井戸であるかのように飲み込みます。"
+        "text": "[TODO:ja] 'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you'"
       },
       {
-        "text": "離れて歩き、心を硬くしなさい",
-        "feedback": "あなたは彼よりも速く歩きます。距離はあなたを守りません。"
+        "text": "[TODO:ja] 'Come with us up the mountain to watch'"
       },
       {
-        "text": "引き返しなさい — 旅は間違いだったと主張しなさい",
-        "feedback": "あなたの足は遅くなります。しかし、あなたを呼んだ声から逃れることはできません。"
-      }
-    ]
-  },
-  "harden_consequence": {
-    "title": "父は心を固くすることはできない",
-    "text": "あなたはこれを逃れるほど自分を小さくすることはできない。\nもし神が何も備えなければ、あなたはどちらにしても彼を失うだろう — 一度は祭壇で、そして永遠にあなたの魂の中で。\n彼は最後のステップまであなたの愛を受けるに値する。",
-    "choices": [
-      {
-        "text": "速度を落とし、再び彼の隣を歩きなさい",
-        "feedback": "あなたは彼のペースに合わせます。彼はあなたを見上げて微笑みます。あなたはその笑顔に値しません。"
-      }
-    ]
-  },
-  "turn_back_consequence": {
-    "title": "もう後戻りはできない",
-    "text": "もし今引き返せば、全ての約束はほつれてしまう。\n彼が数えた星々、彼が誓った国々 — 全ては拒絶によって崩壊する。\n信仰は道だ。あなたはすでにその上にいる。",
-    "choices": [
-      {
-        "text": "再び北を向き、歩き続けなさい",
-        "feedback": "あなたは顔を火打ち石のように固くし、彼と一緒に歩き続けます。"
+        "text": "[TODO:ja] 'Take the donkey home; we are not coming back'"
       }
     ]
   },
   "mountain_in_sight": {
-    "title": "遠くの山",
-    "text": "三日目にあなたは目を上げ — それを見る。\n遠くにかすむ、薄い霞に包まれた一つの峰。\nあなたの内なる何かが、ここがその場所だと知っている。",
+    "title": "[TODO:ja] The Wood and the Fire",
+    "text": "[TODO:ja] You prepare to climb the mountain.\nWho carries what?",
     "choices": [
       {
-        "text": "しもべたちにろばと一緒にここで待つように言いなさい",
-        "feedback": "「ろばと一緒にここで待ちなさい。私と少年は礼拝に行く — そしてまたあなたたちのところに戻ってくる。」"
+        "text": "[TODO:ja] Place the wood for the burnt offering on Isaac's shoulders; carry the fire and the knife yourself"
       },
       {
-        "text": "しもべたちを連れて上り、支援させなさい",
-        "feedback": "あなたは彼らに向かって一歩踏み出し — そして止まります。彼らはこれを共有できません。"
-      }
-    ]
-  },
-  "servants_consequence": {
-    "title": "これは他の目には触れさせてはならない",
-    "text": "もし彼らが見れば、彼らはあなたを止めるだろう。もし彼らがあなたを止めれば、あなたは彼に失敗したことになる。\nこれはあなたと少年と神との間だけのものだ。\n他の手が助けたり妨げたりしてはならない。",
-    "choices": [
+        "text": "[TODO:ja] Carry the wood yourself while Isaac carries nothing"
+      },
       {
-        "text": "彼らに山のふもとで待つように言いなさい",
-        "feedback": "「ここで待ちなさい。私たちはあなたたちのところに戻ってくる。」その言葉は、まだ理解できない預言のように感じられます。"
+        "text": "[TODO:ja] Leave the wood behind at the foot of the mountain"
       }
     ]
   },
   "leave_servants": {
-    "title": "彼が薪を運ぶだろう",
-    "text": "あなたは割った薪の束をイサクのたくましい若い肩に乗せる。\nあなたは火とナイフを自分の手に持つ。\n共に狭い道を登り始める。",
+    "title": "[TODO:ja] Father",
+    "text": "[TODO:ja] As you walk together, Isaac speaks up.\nWhat does he say?",
     "choices": [
       {
-        "text": "彼の隣を黙って歩きなさい",
-        "feedback": "一歩一歩、道は上へ曲がりくねっています。風が崖で歌います。"
+        "text": "[TODO:ja] 'Father â the fire and wood are here, but where is the lamb for the burnt offering?'"
+      },
+      {
+        "text": "[TODO:ja] 'Father â let us go back home right now'"
+      },
+      {
+        "text": "[TODO:ja] Isaac says nothing the whole way up"
       }
     ]
   },
   "isaacs_question": {
-    "title": "子羊はどこに？",
-    "text": "途中で、イサクは立ち止まり、あなたの方を向く。\n「父よ — ご覧ください、火と薪はあります。しかし、燔祭のための子羊はどこにいるのですか？」\n彼の目は澄んでいて、信頼に満ちている。彼は答えを待っている。",
+    "title": "[TODO:ja] God Will Provide",
+    "text": "[TODO:ja] You answer Isaac.\nWhat do you say?",
     "choices": [
       {
-        "text": "「神ご自身が子羊を備えてくださるだろう、わが子よ」",
-        "feedback": "その言葉は祈りのようにあなたから離れます。あなたでさえ、それが何を意味するのかまだ知りません。"
+        "text": "[TODO:ja] 'God Himself will provide the lamb for the burnt offering, my son'"
       },
       {
-        "text": "彼に真実を話しなさい — 彼こそが子羊であると",
-        "feedback": "彼の顔は真っ白になります。彼は木材を落とし、後ろによろめきます。"
+        "text": "[TODO:ja] 'You are the lamb, Isaac'"
       },
       {
-        "text": "何も言わず、歩き続ける",
-        "feedback": "彼はしばらく待つ。そして静かに後を追う。彼の中の何かが知っているのだ。"
-      }
-    ]
-  },
-  "tell_truth_consequence": {
-    "title": "彼はまだあなたを信頼している",
-    "text": "彼は震える。しかし長い沈黙の後、彼は再び薪を拾い上げる。\n彼は逃げない。彼はあなたを呪わない。\n彼はあなたの隣を歩き続ける — なぜなら、彼はあなたが常に信頼してきた神を信頼しているからだ。",
-    "choices": [
-      {
-        "text": "畏敬の念を抱き、沈黙して頂上まで彼と歩く",
-        "feedback": "二つの信仰が、道の最後の部分を並んで歩む。"
-      }
-    ]
-  },
-  "silence_consequence": {
-    "title": "信仰の答え",
-    "text": "彼の質問に答えずに放置することはできない — 今も、これからも。\n信仰は沈黙ではない。信仰は闇の中で語られる言葉だ。\nあなたは彼の方を向く。",
-    "choices": [
-      {
-        "text": "「神ご自身が子羊を備えてくださるだろう、わが子よ」と言う",
-        "feedback": "あなたはそれを口にする。山は息をひそめているようだ。"
+        "text": "[TODO:ja] 'There is no lamb â we go home now'"
       }
     ]
   },
   "summit": {
-    "title": "彼が示した場所",
-    "text": "あなたはその場所にたどり着く。風が静まる。\nあなたは石を集め始める。イサクはひざまずき、あなたの隣で小さな手で手伝う。\n祭壇が築かれる — 粗野で、聖なる、恐ろしい祭壇が。",
+    "title": "[TODO:ja] The Altar",
+    "text": "[TODO:ja] You reach the place God has told you about.\nWhat do you build there?",
     "choices": [
       {
-        "text": "石の上に木をきちんと並べる",
-        "feedback": "木片は一つ一つ丁寧に置かれる。祭壇は準備ができた。"
+        "text": "[TODO:ja] Build an altar, arrange the wood on it, bind Isaac and lay him on the altar, on top of the wood"
       },
       {
-        "text": "やめなさい — あなたにはこれはできない",
-        "feedback": "あなたの手は体の脇に落ちる。風があなたの周りで強くなる。"
-      }
-    ]
-  },
-  "stop_consequence": {
-    "title": "復活を信じる信仰",
-    "text": "あなたの手は震える。そのとき、一つの思いがあなたの中に入る — 命令そのものよりも古い思いが。\n「死んだ胎からイサクを与えた方は、死者の中から彼を返してくださるだろう。」\nあなたはそれを信じる。あなたはそれを理解しない。しかしあなたは信じる。",
-    "choices": [
+        "text": "[TODO:ja] Build a shrine to another god instead"
+      },
       {
-        "text": "木を取り上げ、始まったことを終える",
-        "feedback": "あなたの手はしっかりしている。あなたは祭壇を完成させる。"
+        "text": "[TODO:ja] Refuse to build anything and turn back"
       }
     ]
   },
   "the_binding": {
-    "title": "彼は抵抗しなかった",
-    "text": "あなたはイサクの方を向く。言葉はない — ただあなたの目が彼の目と合うだけだ。\n彼は見る。彼は理解する。そして彼は逃げない。\n彼はひざまずく。彼はあなたに手を縛らせる。彼は自ら薪の上に横たわる。",
+    "title": "[TODO:ja] The Knife",
+    "text": "[TODO:ja] Isaac is bound on the altar.\nWhat do you do next?",
     "choices": [
       {
-        "text": "彼の額にキスをして、ナイフを上げる",
-        "feedback": "彼の涙とあなたの涙が混じる。あなたはナイフを上げる。"
+        "text": "[TODO:ja] Reach out your hand and take the knife to slay your son"
       },
       {
-        "text": "彼を解放しなさい — 祭壇から逃げなさい",
-        "feedback": "あなたの手は紐を見つける — しかし止まる。今引き返すことは、彼のすべての勇気を無駄にすることだ。"
-      }
-    ]
-  },
-  "flee_consequence": {
-    "title": "彼の信仰があなたを支える",
-    "text": "少年はあなたの下で静かに横たわり、目を閉じ、呼吸は穏やかだ。\n彼は信頼している。彼はあなたと共に自分を捧げている。\nもしあなたが逃げれば、あなたは神だけでなく — イサク自身の降伏をも裏切ることになる。",
-    "choices": [
+        "text": "[TODO:ja] Set the knife aside and refuse"
+      },
       {
-        "text": "最後まで彼と共に立ちなさい — ナイフを上げなさい",
-        "feedback": "あなたは彼の上にナイフを上げる、両手は震えている。"
+        "text": "[TODO:ja] Loose Isaac and flee down the mountain"
       }
     ]
   },
   "the_knife": {
-    "title": "アブラハム！アブラハム！",
-    "text": "刃が高く上がる。あなたの腕は石のようだ。\n最も高いところで — 声が空を切り裂く。\n「アブラハム！アブラハム！」",
+    "title": "[TODO:ja] The Angel of the Lord",
+    "text": "[TODO:ja] The angel of the Lord calls out to you from heaven.\nWhat does he say?",
     "choices": [
       {
-        "text": "すぐに答えなさい：「はい、ここにいます」",
-        "feedback": "ナイフは止まる。「はい、主よ、ここにいます。」"
+        "text": "[TODO:ja] 'Abraham! Abraham! Do not lay a hand on the boy. Do not do anything to him'"
       },
       {
-        "text": "別の命令が来る前に打つ",
-        "feedback": "あなたの腕は緊張する — そして固まる。あなたにはできない。その声には優先権がある。"
-      }
-    ]
-  },
-  "strike_consequence": {
-    "title": "試練は血ではない",
-    "text": "あなたの腕は動かないだろう。\n神は死を求めたのではなく — 死を与えるであろう心を求めたのだ。\nあなたは彼にその心を与えた。刃はすでにその役目を果たしたのだ。",
-    "choices": [
+        "text": "[TODO:ja] 'Strike the boy quickly â do not delay'"
+      },
       {
-        "text": "ナイフを下ろし、声に答えなさい：「はい、ここにいます」",
-        "feedback": "ナイフはあなたの手から落ち、塵の中に転がる。「はい、ここにいます。」"
+        "text": "[TODO:ja] The angel says nothing at all"
       }
     ]
   },
   "the_stay": {
-    "title": "その子に手を出すな",
-    "text": "「その子に手を出すな。何もしてはならない。\n今、あなたが神を恐れることが分かった — あなたは私に、あなたの息子、あなたのひとり子を惜しまなかったからだ。」\nあなたは彼の隣でひざまずく。世界は再び息をする。",
+    "title": "[TODO:ja] Now I Know",
+    "text": "[TODO:ja] The angel explains why you were stopped.\nWhat does he say?",
     "choices": [
       {
-        "text": "イサクの手を解き、木から彼を降ろす",
-        "feedback": "あなたの震える指が彼を自由にする。彼はあなたにしがみつき、泣く。"
+        "text": "[TODO:ja] 'Now I know that you fear God, because you have not withheld from Me your son, your only son'"
+      },
+      {
+        "text": "[TODO:ja] 'You have failed the test; go home in shame'"
+      },
+      {
+        "text": "[TODO:ja] 'Isaac must still die; try again tomorrow'"
       }
     ]
   },
   "the_ram": {
-    "title": "茂みに捕らえられて",
-    "text": "目を上げると、祭壇の後ろの茂みに、角を絡ませた雄羊が立っています。\nそれは道から来たのではありません。ただそこにいるのです。\n神が備えてくださいました。",
+    "title": "[TODO:ja] A Ram in the Thicket",
+    "text": "[TODO:ja] You look up.\nWhat do you see caught in the thicket?",
     "choices": [
       {
-        "text": "雄羊を取り、イサクの代わりにそれを捧げる",
-        "feedback": "あなたは雄羊を解放し、木の上に置く。火が燃え上がる。"
+        "text": "[TODO:ja] A ram caught by its horns in a thicket â you take it and offer it as a burnt offering in place of your son"
       },
       {
-        "text": "拒否する — 今は何も犠牲にしない",
-        "feedback": "あなたは凍りつく。雄羊は待つ。祭壇は待つ。"
-      }
-    ]
-  },
-  "no_sacrifice_consequence": {
-    "title": "礼拝を完遂せよ",
-    "text": "あなたは礼拝に来ました。祭壇はまだ供え物を求めています。\n神はそれを用意してくださいました。それを受け入れることが、従順の最後の行為です。\nそれを捧げないことは、慈悲を軽んじることです。",
-    "choices": [
+        "text": "[TODO:ja] A dove flying above the altar"
+      },
       {
-        "text": "雄羊を取り、供え物を完成させる",
-        "feedback": "あなたは雄羊を解放し、木の上に置く。煙はまっすぐに天に昇る。"
+        "text": "[TODO:ja] Nothing at all â the altar remains empty"
       }
     ]
   },
   "the_name": {
-    "title": "主は備え給う",
-    "text": "あなたはそこをヤハウェ・イルエ、すなわち「主は備え給う」と名付けます。\nイサクはあなたの隣に立ち、生きて呼吸し、その小さな手があなたの手の中にあります。\n雄羊の煙が広大な薄い空へと昇っていきます。",
+    "title": "[TODO:ja] The Lord Will Provide",
+    "text": "[TODO:ja] You name that place to mark what happened.\nWhat name do you give it?",
     "choices": [
       {
-        "text": "頭を下げて聞きなさい — 声はまだ終わっていない",
-        "feedback": "あなたは頭を下げる。声が再び聞こえる、今度はより優しく。"
+        "text": "[TODO:ja] 'The Lord Will Provide' (Yahweh Yireh)"
+      },
+      {
+        "text": "[TODO:ja] 'The Place of Grief'"
+      },
+      {
+        "text": "[TODO:ja] 'The Mountain of Fire'"
       }
     ]
   },
   "the_blessing": {
-    "title": "わたしは自分自身にかけて誓う",
-    "text": "「わたしは自分自身にかけて誓う、と主は言われる。\nあなたがこのことを行い、あなたのひとり子を惜しまなかったから、\nわたしは必ずあなたを祝福し、あなたの子孫を天の星のように、海辺の砂のように増やすだろう。\nあなたの子孫によって、地のすべての国民は祝福されるだろう。あなたがわたしの声に従ったからである。」",
+    "title": "[TODO:ja] The Oath",
+    "text": "[TODO:ja] The angel of the Lord calls to you a second time from heaven.\nWhat is the promise?",
     "choices": [
       {
-        "text": "イサクの手を取り、長い帰路につく",
-        "feedback": "あなたは共に道の方を向く、空はあなたの周りで金色に燃えている。"
+        "text": "[TODO:ja] 'I will surely bless you and make your descendants as numerous as the stars in the sky and the sand on the seashore; through your offspring all nations on earth will be blessed'"
+      },
+      {
+        "text": "[TODO:ja] 'Your descendants will be few and forgotten'"
+      },
+      {
+        "text": "[TODO:ja] 'You will lose all you have as punishment'"
       }
     ]
   },
   "homecoming": {
-    "title": "私たちは再び来た",
-    "text": "星が姿を現し始める頃、あなたはイサクと共に山を下ります。\n召使いたちはあなたが彼らを残した場所で待っています。\n「私たちはあなたのもとに再び来た」とあなたは言います。そしてそれは、彼らが知る以上に真実です。",
+    "title": "[TODO:ja] Back to Beersheba",
+    "text": "[TODO:ja] Abraham returns to his servants, and together they set off for Beersheba.\nAnd Abraham stays in Beersheba.",
     "choices": []
   }
 }

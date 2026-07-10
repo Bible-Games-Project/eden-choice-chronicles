@@ -1,182 +1,173 @@
 {
-  "storyTitle": "Авраам в Египте",
+  "storyTitle": "[TODO:ru] Abraham in Egypt",
   "start": {
-    "title": "Голод",
-    "text": "Земля обетованная трескается от засухи.\nСтада слабеют. Сарра худеет.",
+    "title": "[TODO:ru] A Famine in the Land",
+    "text": "[TODO:ru] A severe famine strikes the land of Canaan.\nWhat do you do?",
     "choices": [
       {
-        "text": "Доверься Богу и жди дождя",
-        "feedback": ""
+        "text": "[TODO:ru] Go down to Egypt to live there as a foreigner for a while"
       },
       {
-        "text": "Прокляни сухое небо",
-        "feedback": ""
+        "text": "[TODO:ru] Sail across the sea to a distant island"
       },
       {
-        "text": "Немедленно поверни на юг, в Египет",
-        "feedback": ""
+        "text": "[TODO:ru] Stay in Canaan and lead an army"
       }
     ]
   },
   "road_south": {
-    "title": "Дорога на юг",
-    "text": "Египет обещает зерно. Сарра идет рядом с тобой, молча.\nГоризонт мерцает.",
+    "title": "[TODO:ru] As You Near Egypt",
+    "text": "[TODO:ru] You are about to enter Egypt.\nWhat do you say to your wife Sarai?",
     "choices": [
       {
-        "text": "Молись перед каждым шагом вперёд",
-        "feedback": ""
+        "text": "[TODO:ru] 'I know what a beautiful woman you are â the Egyptians will kill me to take you'"
       },
       {
-        "text": "Иди вперёд, не сказав ни слова Богу",
-        "feedback": ""
+        "text": "[TODO:ru] 'The Lord will protect us; we have nothing to fear'"
+      },
+      {
+        "text": "[TODO:ru] Say nothing at all to Sarai"
       }
     ]
   },
   "fear_rises": {
-    "title": "Холодная мысль",
-    "text": "Египтяне могут убить тебя, чтобы забрать твою жену.\nСтрах сжимается внутри твоей груди.",
+    "title": "[TODO:ru] The Request",
+    "text": "[TODO:ru] You ask Sarai to do something to protect your life.\nWhat is it?",
     "choices": [
       {
-        "text": "Задумай ложь, чтобы спасти себя",
-        "feedback": ""
+        "text": "[TODO:ru] 'Say you are my sister, so that I will be treated well because of you'"
       },
       {
-        "text": "Доверься Богу, чтобы Он защитил вас обоих",
-        "feedback": ""
+        "text": "[TODO:ru] 'Say you are my mother, so no one will notice'"
       },
       {
-        "text": "Вернись к голоду",
-        "feedback": ""
+        "text": "[TODO:ru] 'Say we are strangers who have never met'"
       }
     ]
   },
   "the_lie": {
-    "title": "Полуправда",
-    "text": "Глаза Сарры встречаются с твоими. «Скажи, что ты моя сестра».\nСлова эти горчат, как пепел.",
+    "title": "[TODO:ru] The Egyptians See Sarai",
+    "text": "[TODO:ru] You arrive in Egypt.\nHow do the Egyptians respond to Sarai?",
     "choices": [
       {
-        "text": "Признайся в страхе и скажи правду",
-        "feedback": ""
+        "text": "[TODO:ru] The Egyptians see that she is very beautiful"
       },
       {
-        "text": "Заставь её согласиться на ложь",
-        "feedback": ""
+        "text": "[TODO:ru] The Egyptians ignore her completely"
+      },
+      {
+        "text": "[TODO:ru] The Egyptians drive her away from the city"
       }
     ]
   },
   "entering_egypt": {
-    "title": "Врата Египта",
-    "text": "Город кишит людьми. Всюду за Саррой следят глаза.\nШёпот доходит до дворца.",
+    "title": "[TODO:ru] Pharaoh's Officials",
+    "text": "[TODO:ru] Pharaoh's officials see Sarai.\nWhat do they do?",
     "choices": [
       {
-        "text": "Оставайся рядом и защищай её",
-        "feedback": ""
+        "text": "[TODO:ru] They praise her to Pharaoh, and she is taken into his palace"
       },
       {
-        "text": "Отойди, чтобы казаться непричастным",
-        "feedback": ""
+        "text": "[TODO:ru] They chase Abram out of Egypt at once"
       },
       {
-        "text": "Хвастайся дарами, которые получишь",
-        "feedback": ""
+        "text": "[TODO:ru] They ignore her and offer no attention"
       }
     ]
   },
   "officials_come": {
-    "title": "Фараоновы чиновники",
-    "text": "Прибывает чиновник. «Фараон наслышан о её красоте».\nЕго улыбка вежлива. Остра.",
+    "title": "[TODO:ru] For Sarai's Sake",
+    "text": "[TODO:ru] Because of Sarai, Pharaoh treats you well.\nHow does he treat Abram?",
     "choices": [
       {
-        "text": "Повтори ложь: «Моя сестра»",
-        "feedback": ""
+        "text": "[TODO:ru] He gives you sheep, cattle, donkeys, servants and camels"
       },
       {
-        "text": "Скажи правду: «Она моя жена»",
-        "feedback": ""
+        "text": "[TODO:ru] He puts Abram in prison"
+      },
+      {
+        "text": "[TODO:ru] He gives Abram nothing at all"
       }
     ]
   },
   "sarah_taken": {
-    "title": "Один",
-    "text": "Сарру ведут к дворцу.\nВ шатре вдруг становится невыносимо тихо.",
+    "title": "[TODO:ru] The Lord Strikes",
+    "text": "[TODO:ru] The Lord does not remain silent.\nWhat does He do because of Sarai?",
     "choices": [
       {
-        "text": "Упади на колени и воззови к Богу",
-        "feedback": ""
+        "text": "[TODO:ru] The Lord inflicts serious diseases on Pharaoh and his household"
       },
       {
-        "text": "Сиди оцепенело и считай свои потери",
-        "feedback": ""
+        "text": "[TODO:ru] The Lord sends fire down on Egypt"
+      },
+      {
+        "text": "[TODO:ru] The Lord remains silent"
       }
     ]
   },
   "gifts_arrive": {
-    "title": "Цена молчания",
-    "text": "Овцы, золото, слуги — плата фараона.\nКаждый дар кажется гвоздём.",
+    "title": "[TODO:ru] Pharaoh Summons You",
+    "text": "[TODO:ru] Pharaoh calls for you.\nWhat does he say?",
     "choices": [
       {
-        "text": "Прими их, скрой позор",
-        "feedback": ""
+        "text": "[TODO:ru] 'What have you done to me? Why didn't you tell me she was your wife?'"
       },
       {
-        "text": "Откажись от них и умоляй Бога действовать",
-        "feedback": ""
+        "text": "[TODO:ru] 'Thank you for your gifts â please stay'"
       },
       {
-        "text": "Отправь их обратно к фараону",
-        "feedback": ""
+        "text": "[TODO:ru] 'Sarai will remain in my house forever'"
       }
     ]
   },
   "plagues": {
-    "title": "Бог поражает",
-    "text": "Болезнь охватывает дом фараона.\nНи один целитель не может назвать её причину.",
+    "title": "[TODO:ru] Take Her and Go",
+    "text": "[TODO:ru] Pharaoh gives his order.\nWhat does he command?",
     "choices": [
       {
-        "text": "Знай, что Бог не забыл",
-        "feedback": ""
+        "text": "[TODO:ru] 'Here is your wife. Take her and go!'"
       },
       {
-        "text": "Бойся того, что Бог сделает с тобой",
-        "feedback": ""
+        "text": "[TODO:ru] 'You must remain here as my servant forever'"
+      },
+      {
+        "text": "[TODO:ru] 'I will keep Sarai and you may return to Canaan alone'"
       }
     ]
   },
   "confronted": {
-    "title": "Расплата",
-    "text": "Голос фараона дрожит. «Зачем ты это сделал?\nЗачем сказал: „моя сестра“?»",
+    "title": "[TODO:ru] Escorted Out",
+    "text": "[TODO:ru] Pharaoh gives orders about you.\nWhat happens?",
     "choices": [
       {
-        "text": "Ищи оправдания своему страху",
-        "feedback": ""
+        "text": "[TODO:ru] Pharaoh's men send you on your way, with your wife and everything you have"
       },
       {
-        "text": "Склони голову — нет защиты",
-        "feedback": ""
+        "text": "[TODO:ru] Pharaoh's men strip you of all your possessions"
       },
       {
-        "text": "Обвини во всём голод",
-        "feedback": ""
+        "text": "[TODO:ru] Pharaoh's men put you in chains"
       }
     ]
   },
   "expelled": {
-    "title": "Изгнание",
-    "text": "«Возьми жену свою. Возьми всё. Иди».\nСтражники провожают тебя до границы.",
+    "title": "[TODO:ru] Going Up from Egypt",
+    "text": "[TODO:ru] You leave Egypt.\nWhere do you go?",
     "choices": [
       {
-        "text": "Иди вперёд, слишком стыдясь, чтобы смотреть",
-        "feedback": ""
+        "text": "[TODO:ru] Go up from Egypt to the Negev, with your wife and all you have"
       },
       {
-        "text": "Молча возьми Сару за руку",
-        "feedback": ""
+        "text": "[TODO:ru] Stay in Egypt and settle there for good"
+      },
+      {
+        "text": "[TODO:ru] Go east across the desert to Assyria"
       }
     ]
   },
   "altar": {
-    "title": "Жертвенник",
-    "text": "Вернувшись в землю обетованную, ты строишь жертвенник.\nОбещание остаётся — несмотря на тебя.",
+    "title": "[TODO:ru] Back to the Altar",
+    "text": "[TODO:ru] You return to the place between Bethel and Ai,\nto the altar you had built at first, and there you call on the name of the Lord.",
     "choices": []
   }
 }

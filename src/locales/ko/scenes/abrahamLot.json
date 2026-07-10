@@ -1,136 +1,158 @@
 {
-  "storyTitle": "아브라함과 롯",
+  "storyTitle": "[TODO:ko] Abraham and Lot",
   "start": {
-    "title": "두 가족",
-    "text": "당신의 가축 떼와 롯의 가축 떼가 같은 골짜기를 채웁니다.\n땅은 너무 많은 생명으로 신음합니다.",
+    "title": "[TODO:ko] Very Wealthy",
+    "text": "[TODO:ko] You come back from Egypt to the Negev, and then to the hills between Bethel and Ai.\nHow wealthy are you now?",
     "choices": [
       {
-        "text": "긴장을 무시하고 — 계속 나아가라",
-        "feedback": ""
+        "text": "[TODO:ko] Very wealthy â in livestock, silver and gold"
       },
       {
-        "text": "문제가 생기는 것을 알아차려라",
-        "feedback": ""
+        "text": "[TODO:ko] Poor and empty-handed from the journey"
+      },
+      {
+        "text": "[TODO:ko] The same as before, with no change"
       }
     ]
   },
   "tension": {
-    "title": "붐비는 우물",
-    "text": "두 떼의 가축. 하나의 우물. 목자들의 목소리가 높아집니다.\n무언가 양보해야 합니다.",
+    "title": "[TODO:ko] The Land Cannot Support You",
+    "text": "[TODO:ko] Both you and your nephew Lot have flocks, herds and tents.\nWhat is the trouble?",
     "choices": [
       {
-        "text": "나이의 권리로 우물을 주장하라",
-        "feedback": ""
+        "text": "[TODO:ko] The land cannot support you both together, for your possessions are too great"
       },
       {
-        "text": "먼저 듣고, 아직 아무것도 판단하지 마라",
-        "feedback": ""
+        "text": "[TODO:ko] You have too little livestock to feed anyone"
       },
       {
-        "text": "롯의 가축들을 쫓아내라",
-        "feedback": ""
+        "text": "[TODO:ko] A great enemy is attacking both camps"
       }
     ]
   },
   "quarrel": {
-    "title": "목자들의 충돌",
-    "text": "지팡이가 들리고. 먼지 속에서 고함이 터져 나옵니다.\n한 번의 충돌이 당신들 사이의 모든 것을 깨뜨릴 수 있습니다.",
+    "title": "[TODO:ko] Strife Between the Herdsmen",
+    "text": "[TODO:ko] Trouble breaks out.\nWhat happens?",
     "choices": [
       {
-        "text": "네 사람들에게 먼저 공격하라고 명령하라",
-        "feedback": ""
+        "text": "[TODO:ko] Quarreling breaks out between your herdsmen and Lot's herdsmen"
       },
       {
-        "text": "그들 사이에 서서 평화를 외치십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Peace and joy spread through both camps"
+      },
+      {
+        "text": "[TODO:ko] Lot's herdsmen leave without a word"
       }
     ]
   },
   "decision": {
-    "title": "롯에게 말하다",
-    "text": "당신은 롯을 옆으로 데리고 갑니다. \"우리는 가족이다.\n우리 사이에 다툼이 없게 하자.\"",
+    "title": "[TODO:ko] You Speak to Lot",
+    "text": "[TODO:ko] You want to end the strife.\nWhat do you say to Lot?",
     "choices": [
       {
-        "text": "즉시 떠나라고 요구하십시오",
-        "feedback": ""
+        "text": "[TODO:ko] 'Let's not have any quarreling between you and me â we are close relatives'"
       },
       {
-        "text": "그에게 첫 번째 선택권을 주십시오",
-        "feedback": ""
+        "text": "[TODO:ko] 'You must leave at once â you are not my equal'"
       },
       {
-        "text": "당신의 연장자 권리를 고수하십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Say nothing and drive Lot out"
       }
     ]
   },
   "offering": {
-    "title": "열린 손",
-    "text": "\"네가 왼쪽으로 가면 나는 오른쪽으로 가고.\n네가 오른쪽으로 가면 나는 왼쪽으로 가겠다. 선택하라.\"",
+    "title": "[TODO:ko] First Choice",
+    "text": "[TODO:ko] You offer Lot a choice.\nWhat do you say?",
     "choices": [
       {
-        "text": "그가 더 작은 것을 선택하기를 조용히 바라십시오",
-        "feedback": ""
+        "text": "[TODO:ko] 'If you go to the left, I'll go to the right; if you go to the right, I'll go to the left'"
       },
       {
-        "text": "진심으로 말하십시오 — 땅을 내어주십시오",
-        "feedback": ""
+        "text": "[TODO:ko] 'I am the elder â I will choose first'"
+      },
+      {
+        "text": "[TODO:ko] 'We will both stay here and share every well'"
       }
     ]
   },
   "lots_choice": {
-    "title": "롯이 동쪽을 바라보다",
-    "text": "롯은 요단 평야를 봅니다 — 푸르고, 물이 풍부하고, 비옥합니다.\n그는 주저 없이 그곳을 선택합니다.",
+    "title": "[TODO:ko] Lot Looks Up",
+    "text": "[TODO:ko] Lot looks around at the land.\nWhat does he choose?",
     "choices": [
       {
-        "text": "그가 가장 좋은 것을 가져간 것에 대해 분개하십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Lot chooses the whole plain of the Jordan, well watered like the garden of the Lord"
       },
       {
-        "text": "그를 축복하고 가게 하십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Lot chooses the dry hill country"
       },
       {
-        "text": "그의 마음을 바꾸려 노력하십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Lot refuses to choose and stays with Abram"
       }
     ]
   },
   "lot_departs": {
-    "title": "헤어짐",
-    "text": "롯의 가축 떼가 평야를 향해 움직입니다.\n그의 길의 먼지가 천천히 가라앉습니다.",
+    "title": "[TODO:ko] The Parting",
+    "text": "[TODO:ko] You and Lot part ways.\nWhere does Lot go?",
     "choices": [
       {
-        "text": "씁쓸함 없이 서서 그를 지켜보십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Lot sets out toward the east and pitches his tents near Sodom"
       },
       {
-        "text": "외면하십시오 — 보기를 거부하십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Lot travels far west across the sea"
+      },
+      {
+        "text": "[TODO:ko] Lot goes back to Haran"
       }
     ]
   },
   "remaining": {
-    "title": "남겨진 것",
-    "text": "언덕은 건조하고, 골짜기는 고요합니다.\n당신은 하나님이 주신 땅과 홀로 있습니다.",
+    "title": "[TODO:ko] Where You Live",
+    "text": "[TODO:ko] Lot is gone.\nWhere do you live?",
     "choices": [
       {
-        "text": "내어준 것을 슬퍼하십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Live in the land of Canaan"
       },
       {
-        "text": "감사함으로 제단을 쌓으십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Live in the plain of the Jordan near Sodom"
       },
       {
-        "text": "잃어버린 양 떼를 세어보십시오",
-        "feedback": ""
+        "text": "[TODO:ko] Live in Egypt"
       }
     ]
   },
   "the_promise": {
-    "title": "눈을 들어라",
-    "text": "\"네가 보는 모든 땅을 — 내가 네게 주리라.\n네 자손은 땅의 티끌 같으리라.\"",
+    "title": "[TODO:ko] Lift Up Your Eyes",
+    "text": "[TODO:ko] The Lord speaks to you after Lot has parted from you.\nWhat does He say?",
+    "choices": [
+      {
+        "text": "[TODO:ko] 'Lift up your eyes; all the land you see I will give to you and your offspring forever'"
+      },
+      {
+        "text": "[TODO:ko] 'You will lose this land to Lot's descendants'"
+      },
+      {
+        "text": "[TODO:ko] 'Return to Haran; the land is not yours'"
+      }
+    ]
+  },
+  "mamre": {
+    "title": "[TODO:ko] Walk Through the Land",
+    "text": "[TODO:ko] The Lord tells you what to do next.\nWhat is it?",
+    "choices": [
+      {
+        "text": "[TODO:ko] 'Go, walk through the length and breadth of the land, for I am giving it to you'"
+      },
+      {
+        "text": "[TODO:ko] 'Stay in one place and never travel again'"
+      },
+      {
+        "text": "[TODO:ko] 'Give the land back to the Canaanites'"
+      }
+    ]
+  },
+  "altar": {
+    "title": "[TODO:ko] The Great Trees of Mamre",
+    "text": "[TODO:ko] So you move your tents and go to live near the great trees of Mamre at Hebron,\nwhere you build an altar to the Lord.",
     "choices": []
   }
 }
