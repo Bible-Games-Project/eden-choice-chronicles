@@ -11,7 +11,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "The Master's Charge",
     text: "Abraham is old. He places your hand under his thigh.\n\"Swear by the Lord — do not take a wife for Isaac from the Canaanites.\"",
     choices: [
-      { text: "Swear and accept the journey to his homeland", nextScene: "the_oath", tag: "obedient", feedback: "You give your word. The journey begins in your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Swear and accept the journey to his homeland", nextScene: "the_oath", tag: "obedient", feedback: "Genesis 24:3 — Abraham made his servant swear an oath not to take a wife for Isaac from the Canaanites.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse — the road is too long for an old servant", nextScene: "refuse_consequence", tag: "refusing", feedback: "Abraham's eyes do not waver. The promise is heavier than the road.", isCorrect: false, sentiment: "negative" },
       { text: "Suggest a Canaanite girl from a wealthy house", nextScene: "canaan_consequence", tag: "compromising", feedback: "\"No,\" he says. \"Not from this land. The Lord swore to my fathers.\"", isCorrect: false, sentiment: "negative" },
     ],
@@ -37,7 +37,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "Ten Camels Loaded",
     text: "You take ten camels and the best of your master's goods.\nThe road to Mesopotamia is long. Aram-Naharaim waits.",
     choices: [
-      { text: "Set out at once with quiet trust", nextScene: "the_well", tag: "trusting", feedback: "You turn the caravan north. The desert opens before you.", isCorrect: true, sentiment: "positive" },
+      { text: "Set out at once with quiet trust", nextScene: "the_well", tag: "trusting", feedback: "Genesis 24:10 — Abraham's servant took ten of his master's camels and departed for Aram-Naharaim, to the city of Nahor.", isCorrect: true, sentiment: "positive" },
       { text: "Delay — gather more men and weapons first", nextScene: "delay_consequence", tag: "delaying", feedback: "You linger over preparations. But faith does not wait on iron.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -82,7 +82,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "The Sign You Ask",
     text: "What sign will you set before the Lord?",
     choices: [
-      { text: "\"She who offers to water my camels — let her be the one\"", nextScene: "rebekah_arrives", tag: "biblical_sign", feedback: "The words are barely out of your mouth when a girl appears with a jar on her shoulder.", isCorrect: true, sentiment: "positive" },
+      { text: "\"She who offers to water my camels — let her be the one\"", nextScene: "rebekah_arrives", tag: "biblical_sign", feedback: "Genesis 24:14 — Abraham's servant prayed that the woman who offered water to him and his camels would be the one the Lord appointed for Isaac.", isCorrect: true, sentiment: "positive" },
       { text: "\"Send me a sign of fire from heaven\"", nextScene: "fire_consequence", tag: "spectacle", feedback: "The sky stays still. God answers in kindness, not in flame.", isCorrect: false, sentiment: "negative" },
       { text: "\"The first one to greet me — let her be the one\"", nextScene: "greeting_consequence", tag: "shallow_sign", feedback: "A greeting costs nothing. Your master needs a heart that gives.", isCorrect: false, sentiment: "negative" },
     ],
@@ -110,7 +110,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "A Girl at the Well",
     text: "She is young, careful, lovely.\nShe fills her jar and turns to leave.",
     choices: [
-      { text: "Run to her: \"Please give me a little water from your jar\"", nextScene: "rebekah_pov_request", tag: "humble_request", feedback: "Your voice is humble. She stops and turns.", isCorrect: true, sentiment: "positive" },
+      { text: "Run to her: \"Please give me a little water from your jar\"", nextScene: "rebekah_pov_request", tag: "humble_request", feedback: "Genesis 24:17 — Abraham's servant ran to meet Rebekah and asked her for a little water from her jar.", isCorrect: true, sentiment: "positive" },
       { text: "Order her to water your camels at once", nextScene: "command_consequence", tag: "demanding", feedback: "Her face hardens. She walks away without a word.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -155,7 +155,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "Until They Have Done",
     text: "You run between well and trough until your arms ache.\nTen camels drink their fill. The old man watches you in silence.",
     choices: [
-      { text: "Finish the work fully, then ask if he needs more", nextScene: "the_gifts", tag: "thorough", feedback: "You set the empty jar down. He has not moved his eyes from you.", isCorrect: true, sentiment: "positive" },
+      { text: "Finish the work fully, then ask if he needs more", nextScene: "the_gifts", tag: "thorough", feedback: "Genesis 24:19-20 — Rebekah quickly emptied her jar into the trough and ran again to the well to draw water for all the camels until they had finished drinking.", isCorrect: true, sentiment: "positive" },
       { text: "Stop halfway — surely that is enough", nextScene: "halfway_consequence", tag: "incomplete", feedback: "The camels still murmur with thirst. The work is not done.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -174,7 +174,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "Gold in His Hand",
     text: "The old servant takes a heavy gold ring and two bracelets.\n\"Tell me — whose daughter are you? Is there room in your father's house?\"",
     choices: [
-      { text: "\"I am Bethuel's daughter — son of Milcah and Nahor\"", nextScene: "the_blessing_well", tag: "honest", feedback: "His face changes. He bows his head to the ground at once.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I am Bethuel's daughter — son of Milcah and Nahor\"", nextScene: "the_blessing_well", tag: "honest", feedback: "Genesis 24:23-24 — Abraham's servant asked Rebekah whose daughter she was and if there was room in her father's house for them to spend the night, and she replied that she was the daughter of Bethuel, son of Milcah, whom she bore to Nahor.", isCorrect: true, sentiment: "positive" },
       { text: "Hide your name — he might be a thief", nextScene: "hide_consequence", tag: "evasive", feedback: "His kind eyes do not look like a thief's. The truth would have cost you nothing.", isCorrect: false, sentiment: "negative" },
       { text: "Take the gold and run home without answering", nextScene: "run_consequence", tag: "greedy", feedback: "You clutch the gold to your chest. But the man's voice follows you, gentle, unhurried.", isCorrect: false, sentiment: "negative" },
     ],
@@ -200,7 +200,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "Blessed Be the Lord",
     text: "He bows his head to the ground, weeping.\n\"Blessed be the Lord, who has led me to the house of my master's brothers.\"",
     choices: [
-      { text: "Run home and tell your mother's house everything", nextScene: "laban_meets", tag: "telling", feedback: "You run, the gold catching the last sun. The house must hear of this.", isCorrect: true, sentiment: "positive" },
+      { text: "Run home and tell your mother's house everything", nextScene: "laban_meets", tag: "telling", feedback: "Genesis 24:28 — Rebekah ran home and told her mother's household about the servant's words and actions.", isCorrect: true, sentiment: "positive" },
       { text: "Say nothing — keep the gold for yourself", nextScene: "secret_consequence", tag: "selfish", feedback: "The Lord's hand cannot be hidden in a pocket. Your mother sees the gold at once.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -253,7 +253,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "Will You Go With This Man?",
     text: "In the morning the servant says: \"Send me away to my master.\"\nYour family asks: \"Let her stay with us a few days — at least ten.\"\nThen they turn to you. \"Will you go with this man?\"",
     choices: [
-      { text: "\"I will go.\"", nextScene: "the_blessing_send", tag: "biblical_choice", feedback: "Two words. Quiet, certain. The whole house falls still.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I will go.\"", nextScene: "the_blessing_send", tag: "biblical_choice", feedback: "Genesis 24:58 — Rebekah answered, \"I will go.\"", isCorrect: true, sentiment: "positive" },
       { text: "\"Let me wait ten days at least\"", nextScene: "wait_consequence", tag: "delaying", feedback: "The servant's face is pleading. The Lord's hand has been on this from the first hour.", isCorrect: false, sentiment: "negative" },
       { text: "\"I will not leave my mother's house\"", nextScene: "stay_consequence", tag: "refusing", feedback: "Your mother lowers her eyes. The God who called Abraham is calling you now.", isCorrect: false, sentiment: "negative" },
     ],
@@ -289,7 +289,7 @@ export const rebekahScenes: Record<string, StoryScene> = {
     title: "South Toward Canaan",
     text: "The desert stretches for many days. The servant rides ahead, watchful and quiet.\nYou feel the Lord's hand on every mile.",
     choices: [
-      { text: "Trust the journey and pray as you ride", nextScene: "isaac_in_field", tag: "trusting", feedback: "The wind moves the veil at your face. The sky deepens to evening.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust the journey and pray as you ride", nextScene: "isaac_in_field", tag: "trusting", feedback: "Genesis 24:61 — Rebekah and her female attendants mounted the camels and followed the man, with the servant leading the way.", isCorrect: true, sentiment: "positive" },
       { text: "Beg the servant to turn the caravan back", nextScene: "turn_back_consequence", tag: "doubting", feedback: "He shakes his head, kindly. \"The Lord goes before us, my lady.\"", isCorrect: false, sentiment: "negative" },
     ],
   },

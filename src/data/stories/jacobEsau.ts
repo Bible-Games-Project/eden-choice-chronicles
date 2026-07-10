@@ -12,7 +12,7 @@ export const jacobEsauScenes: Record<string, StoryScene> = {
     title: "Two Nations in the Womb",
     text: "You are Jacob. From birth you grasped Esau's heel.\nHe runs the wild fields. You stay among the tents.",
     choices: [
-      { text: "Cook lentil stew at the tent", nextScene: "the_stew", tag: "patient", feedback: "The pot bubbles. Red. Fragrant. The day is quiet.", isCorrect: true, sentiment: "positive" },
+      { text: "Cook lentil stew at the tent", nextScene: "the_stew", tag: "patient", feedback: "Genesis 25:29 — Jacob was cooking stew when Esau came in from the field.", isCorrect: true, sentiment: "positive" },
       { text: "Run after Esau into the open hills", nextScene: "hunt_consequence", tag: "imitating", feedback: "The thorns tear your robe. The hunt is not yours.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -55,7 +55,7 @@ export const jacobEsauScenes: Record<string, StoryScene> = {
     title: "\"Swear to Me First\"",
     text: "\"Look — I'm about to die. What good is a birthright to me?\"\nHis hand reaches for the bowl.",
     choices: [
-      { text: "Make him swear before you give it", nextScene: "stew_eaten", tag: "binding", feedback: "He swears. The birthright is yours. He eats. He leaves. He despises it.", isCorrect: true, sentiment: "positive" },
+      { text: "Make him swear before you give it", nextScene: "stew_eaten", tag: "binding", feedback: "Genesis 25:33 — Jacob made Esau swear to him before he ate the bread and lentil stew.", isCorrect: true, sentiment: "positive" },
       { text: "Trust his word — hand him the bowl", nextScene: "trust_consequence", tag: "naive", feedback: "He eats, laughs, walks out. Nothing was sealed but bread.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -82,7 +82,7 @@ export const jacobEsauScenes: Record<string, StoryScene> = {
     title: "Isaac Calls for Esau",
     text: "Father is old. His eyes see only shadows. He calls Esau:\n\"Hunt me venison. I will bless you before I die.\"",
     choices: [
-      { text: "Wait quietly — go to your mother Rebekah", nextScene: "rebekah_plan", tag: "listening", feedback: "She has heard everything. Her eyes are bright with purpose.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait quietly — go to your mother Rebekah", nextScene: "rebekah_plan", tag: "listening", feedback: "Genesis 27:5-6 — Rebekah overheard Isaac speaking to Esau and then spoke to Jacob.", isCorrect: true, sentiment: "positive" },
       { text: "Confront Esau — demand the blessing now", nextScene: "confront_consequence", tag: "rash", feedback: "He laughs. \"You have my birthright. The blessing is mine.\"", isCorrect: false, sentiment: "negative" },
       { text: "Walk away — the blessing is not for you", nextScene: "walkaway_consequence", tag: "resigning", feedback: "Mother stops you at the door. \"The Lord told me — the older shall serve the younger.\"", isCorrect: false, sentiment: "negative" },
     ],
@@ -133,7 +133,7 @@ export const jacobEsauScenes: Record<string, StoryScene> = {
     title: "\"Who Are You, My Son?\"",
     text: "Isaac lifts his blind face. \"Who is it?\"\nYour throat is dry. The moment hangs.",
     choices: [
-      { text: "\"I am Esau your firstborn.\"", nextScene: "the_test", tag: "claiming", feedback: "The words leave your lips. The tent holds its breath.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I am Esau your firstborn.\"", nextScene: "the_test", tag: "claiming", feedback: "Genesis 27:19 — Jacob told his father Isaac, \"I am Esau your firstborn.\"", isCorrect: true, sentiment: "positive" },
       { text: "\"It is I, Jacob — forgive me.\"", nextScene: "confess_consequence", tag: "confessing", feedback: "He recoils. \"Then leave me — go!\" The blessing slips away.", isCorrect: false, sentiment: "negative" },
       { text: "Stay silent and offer the dish", nextScene: "silent_consequence", tag: "silent", feedback: "\"Speak, my son. Who are you?\" There is no path forward without words.", isCorrect: false, sentiment: "negative" },
     ],

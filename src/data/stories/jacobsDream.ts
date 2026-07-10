@@ -13,7 +13,7 @@ export const jacobsDreamScenes: Record<string, StoryScene> = {
     title: "The Road from Beersheba",
     text: "You are Jacob, fleeing Esau's wrath.\nThe sun lowers. Haran is far. Night is near.",
     choices: [
-      { text: "Keep walking — find a place to rest", nextScene: "wilderness", tag: "obedient", feedback: "You walk on. The wind cools. The hills stretch wide.", isCorrect: true, sentiment: "positive" },
+      { text: "Keep walking — find a place to rest", nextScene: "wilderness", tag: "obedient", feedback: "Genesis 28:10 — Jacob went out from Beersheba toward Haran.", isCorrect: true, sentiment: "positive" },
       { text: "Turn back — beg Esau's mercy", nextScene: "turn_back_consequence", tag: "fearful", feedback: "Fear pulls you home. But the path back is closed.", isCorrect: false, sentiment: "negative" },
       { text: "Hide in the rocks until dark", nextScene: "hide_consequence", tag: "hiding", feedback: "Hiding is not your road. Father said: go.", isCorrect: false, sentiment: "negative" },
     ],
@@ -39,7 +39,7 @@ export const jacobsDreamScenes: Record<string, StoryScene> = {
     title: "Open Wilderness",
     text: "Hills stretch in every direction. Light is failing.\nYou must stop somewhere — soon.",
     choices: [
-      { text: "Rest at this stony place", nextScene: "the_place", tag: "trusting", feedback: "Something quiet here. You step off the path.", isCorrect: true, sentiment: "positive" },
+      { text: "Rest at this stony place", nextScene: "the_place", tag: "trusting", feedback: "Genesis 28:11 — Jacob came to a certain place and stayed there overnight because the sun had set.", isCorrect: true, sentiment: "positive" },
       { text: "Push on through the night", nextScene: "push_on_consequence", tag: "restless", feedback: "Darkness swallows the road. You stumble blind.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -58,7 +58,7 @@ export const jacobsDreamScenes: Record<string, StoryScene> = {
     title: "A Certain Place",
     text: "Bare ground. Scattered stones. The sun is gone.\nYou have nothing for a pillow.",
     choices: [
-      { text: "Take a stone for a pillow", nextScene: "lay_down", tag: "humble", feedback: "You choose a smooth stone. It is enough.", isCorrect: true, sentiment: "positive" },
+      { text: "Take a stone for a pillow", nextScene: "lay_down", tag: "humble", feedback: "Genesis 28:11 — Jacob took one of the stones of the place and put it under his head.", isCorrect: true, sentiment: "positive" },
       { text: "Use your cloak — stones are too hard", nextScene: "soft_consequence", tag: "comfort", feedback: "You shiver. The wind cuts through. Sleep won't come.", isCorrect: false, sentiment: "negative" },
       { text: "Walk on — find a softer spot", nextScene: "wander_consequence", tag: "wandering", feedback: "Each spot is the same. The night is not for searching.", isCorrect: false, sentiment: "negative" },
     ],
@@ -94,7 +94,7 @@ export const jacobsDreamScenes: Record<string, StoryScene> = {
     title: "A Stairway",
     text: "A great stairway rises from earth to heaven.\nAngels of God ascend and descend on it.",
     choices: [
-      { text: "Watch in silent awe", nextScene: "the_voice", tag: "reverent", feedback: "You do not move. The light pours down.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch in silent awe", nextScene: "the_voice", tag: "reverent", feedback: "Genesis 28:12 — Jacob saw a ladder set up on the earth, with its top reaching to heaven, and the angels of God were ascending and descending on it.", isCorrect: true, sentiment: "positive" },
       { text: "Try to climb the stairway", nextScene: "climb_consequence", tag: "presumptuous", feedback: "Your foot will not lift. This is not for climbing — for seeing.", isCorrect: false, sentiment: "negative" },
       { text: "Call out to the angels", nextScene: "call_consequence", tag: "interrupting", feedback: "Your voice is small. They pass without turning.", isCorrect: false, sentiment: "negative" },
     ],
@@ -120,7 +120,7 @@ export const jacobsDreamScenes: Record<string, StoryScene> = {
     title: "The Voice Above",
     text: "\"I am the LORD, God of Abraham and Isaac.\nThe land where you lie I will give to you.\"",
     choices: [
-      { text: "Receive the promise in silence", nextScene: "the_promise", tag: "receiving", feedback: "You let the words enter you. Earth and heaven hold still.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the promise in silence", nextScene: "the_promise", tag: "receiving", feedback: "Genesis 28:13-15 — The LORD stood above the ladder and spoke promises to Jacob.", isCorrect: true, sentiment: "positive" },
       { text: "Bargain — ask for proof first", nextScene: "bargain_consequence", tag: "bargaining", feedback: "The promise is freely given. It needs no haggling.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -173,7 +173,7 @@ export const jacobsDreamScenes: Record<string, StoryScene> = {
     title: "The Stone Pillar",
     text: "You take the stone from beneath your head\nand set it upright. Dawn breaks soft and pink.",
     choices: [
-      { text: "Pour oil on it as an offering", nextScene: "anoint", tag: "consecrating", feedback: "Oil runs down the stone. It glistens in the morning light.", isCorrect: true, sentiment: "positive" },
+      { text: "Pour oil on it as an offering", nextScene: "anoint", tag: "consecrating", feedback: "Genesis 28:18 — Jacob took the stone that he had put under his head, set it up as a pillar, and poured oil on top of it.", isCorrect: true, sentiment: "positive" },
       { text: "Leave it plain — it is enough", nextScene: "plain_consequence", tag: "withholding", feedback: "Something more is owed. The Lord met you here.", isCorrect: false, sentiment: "negative" },
     ],
   },
