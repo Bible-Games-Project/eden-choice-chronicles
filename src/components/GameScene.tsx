@@ -118,8 +118,27 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       finalUIColor,
     });
 
+    // For the Creation story, show an educational explanation after an incorrect
+    // answer before advancing. The explanation is the correct choice's feedback,
+    // which is already localized (Genesis reference + quote).
+    if (!nextIsCorrect && storyId === "creation") {
+      const correctChoice = choices.find((c) => isChoiceCorrect(c));
+      const feedback = correctChoice?.feedback?.trim();
+      if (correctChoice && feedback) {
+        setPendingIncorrect({ choice, feedback });
+        return;
+      }
+    }
+
     onChoice(choice);
-  }, [clickedIndex, isTransitioning, onChoice]);
+  }, [clickedIndex, isTransitioning, onChoice, storyId, choices]);
+
+  const handleDismissFeedback = useCallback(() => {
+    if (!pendingIncorrect) return;
+    const c = pendingIncorrect.choice;
+    setPendingIncorrect(null);
+    onChoice(c);
+  }, [pendingIncorrect, onChoice]);
 
   const handleComplete = useCallback(() => {
     onComplete();
