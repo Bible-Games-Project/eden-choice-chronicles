@@ -1,176 +1,188 @@
 {
-  "storyTitle": "O Chamado de Abraão",
+  "storyTitle": "O Chamado de Abrão",
   "start": {
-    "title": "Uma Vida em Ur",
-    "text": "Setenta e cinco anos vividos.\nA cidade murmura. Teu coração está inquieto.",
+    "title": "Uma Vida em Harã",
+    "text": "Tu vives em Harã com teu pai Terá, tua esposa Sarai e teu sobrinho Ló.\nTens setenta e cinco anos de idade.",
     "choices": [
       {
-        "text": "Curve-se diante dos ídolos domésticos",
-        "feedback": ""
+        "text": "Vive como Abrão em Harã, com setenta e cinco anos",
+        "feedback": "Gênesis 12:4 — Abrão tinha setenta e cinco anos quando partiu de Harã."
       },
       {
-        "text": "Suba ao terraço e escute",
-        "feedback": ""
+        "text": "Vive como um jovem na cidade de Ur",
+        "feedback": "Em Gênesis 12, Abrão já havia deixado Ur e estava em Harã, com setenta e cinco anos."
       },
       {
-        "text": "Enterre a saudade no trabalho",
-        "feedback": ""
+        "text": "Vive como rei sobre uma grande nação",
+        "feedback": "Gênesis não descreve Abrão como um rei; ele era um pastor nômade."
       }
     ]
   },
   "the_call": {
-    "title": "A Voz",
-    "text": "Uma voz — clara, inconfundível.\n\"Deixa tua terra. Vai para onde Eu te mostrarei.\"",
+    "title": "O Chamado do Senhor",
+    "text": "O Senhor fala contigo.\nO que Ele ordena?",
     "choices": [
       {
-        "text": "Cubra os ouvidos de medo",
-        "feedback": ""
+        "text": "'Sai da tua terra, da tua parentela e da casa de teu pai, para a terra que eu te mostrarei'",
+        "feedback": "Gênesis 12:1 — O Senhor disse a Abrão: 'Sai da tua terra, da tua parentela e da casa de teu pai, para a terra que eu te mostrarei.'"
       },
       {
-        "text": "Ajoelhe-se e responda: \"Eis-me aqui\"",
-        "feedback": ""
+        "text": "'Permanece em Harã e adora os ídolos da casa'",
+        "feedback": "Gênesis diz que o Senhor mandou Abrão partir, não ficar."
       },
       {
-        "text": "Exija prova do Seu nome",
-        "feedback": ""
+        "text": "'Constrói-me um templo aqui em Harã'",
+        "feedback": "O Senhor disse a Abrão para ir a uma terra que Ele lhe mostraria."
       }
     ]
   },
   "the_promise": {
     "title": "A Promessa",
-    "text": "\"Farei de ti uma grande nação.\nTodas as famílias da terra serão abençoadas por meio de ti.\"",
+    "text": "O Senhor acrescenta Sua promessa.\nO que Ele diz?",
     "choices": [
       {
-        "text": "Duvide — você não tem filho",
-        "feedback": ""
+        "text": "'Farei de ti uma grande nação e te abençoarei; todos os povos da terra serão abençoados por meio de ti'",
+        "feedback": "Gênesis 12:2-3 — 'Farei de ti uma grande nação, e todos os povos da terra serão abençoados por meio de ti.'"
       },
       {
-        "text": "Receba as palavras em silêncio",
-        "feedback": ""
+        "text": "'Dar-te-ei grandes riquezas para guardares para ti'",
+        "feedback": "A promessa era que todos os povos seriam abençoados por meio de Abrão, não que ele acumularia riquezas."
+      },
+      {
+        "text": "'Terás uma vida longa e nenhum descendente'",
+        "feedback": "O Senhor prometeu a Abrão uma grande nação de descendentes."
       }
     ]
   },
   "telling_sarah": {
-    "title": "Contando a Sara",
-    "text": "Os olhos de Sara buscam os teus.\n\"O que a voz nos pediu?\"",
+    "title": "Tua Casa",
+    "text": "Deves preparar tua família para a jornada.\nQuem vai contigo?",
     "choices": [
       {
-        "text": "Esconda a verdade para poupá-la",
-        "feedback": ""
+        "text": "Leva Sarai, tua esposa, e Ló, teu sobrinho",
+        "feedback": "Gênesis 12:5 — Abrão levou Sarai, sua mulher, e Ló, seu sobrinho, e todos os bens que haviam adquirido em Harã, e as pessoas que lá haviam ajuntado."
       },
       {
-        "text": "Fale claramente — \"Precisamos partir\"",
-        "feedback": ""
+        "text": "Deixa Sarai em Harã",
+        "feedback": "Gênesis diz que Abrão levou Sarai consigo."
       },
       {
-        "text": "Peça a ela para decidir por você",
-        "feedback": ""
+        "text": "Vai sozinho, apenas com um cajado",
+        "feedback": "Gênesis diz que Abrão levou sua casa, rebanhos e posses."
       }
     ]
   },
   "preparing": {
-    "title": "Reunindo o Essencial",
-    "text": "Tendas. Rebanhos. Alguns fardos.\nUma vida inteira não cabe num camelo.",
+    "title": "O Que Levas",
+    "text": "Tu reúnes o que levarás na jornada.\nO que vai contigo?",
     "choices": [
       {
-        "text": "Leve apenas o necessário",
-        "feedback": ""
+        "text": "Todos os bens e pessoas que adquiriste em Harã",
+        "feedback": "Gênesis 12:5 — Abrão levou todos os bens e as pessoas que haviam adquirido em Harã."
       },
       {
-        "text": "Apegue-se a cada posse",
-        "feedback": ""
+        "text": "Apenas um pequeno saco de pão",
+        "feedback": "Gênesis diz que Abrão partiu com toda a sua casa e posses."
       },
       {
-        "text": "Atrasar mais um dia",
-        "feedback": ""
+        "text": "Uma carruagem de ouro do rei de Harã",
+        "feedback": "Gênesis não descreve uma carruagem de nenhum rei."
       }
     ]
   },
   "departure": {
-    "title": "O Portão ao Amanhecer",
-    "text": "Ur te vê partir.\nAlguns choram. Outros balançam a cabeça.",
+    "title": "Tu Partes",
+    "text": "Chegou a hora de partir.\nPara onde te diriges?",
     "choices": [
       {
-        "text": "Demore-se e perca a coragem",
-        "feedback": ""
+        "text": "Parte para a terra de Canaã",
+        "feedback": "Gênesis 12:5 — Partiram de Harã para ir à terra de Canaã, e lá chegaram."
       },
       {
-        "text": "Avance sem olhar para trás",
-        "feedback": ""
+        "text": "Parte para o Egito para enriquecer",
+        "feedback": "Gênesis diz que Abrão partiu para Canaã; o Egito veio depois, durante uma fome."
+      },
+      {
+        "text": "Parte sem destino em mente",
+        "feedback": "O Senhor tinha uma terra específica em mente — Canaã."
       }
     ]
   },
   "the_road": {
-    "title": "A Longa Estrada",
-    "text": "Sol. Areia. Horizonte sem fim.\nSara caminha ao teu lado em silêncio.",
+    "title": "Para a Terra",
+    "text": "Tu viajas pela terra de Canaã.\nAté onde vais?",
     "choices": [
       {
-        "text": "Volte — isso é demais",
-        "feedback": ""
+        "text": "Viaja até o grande carvalho de Moré em Siquém",
+        "feedback": "Gênesis 12:6 — Abrão atravessou a terra até o lugar do carvalho de Moré, em Siquém."
       },
       {
-        "text": "Confie em cada passo à frente",
-        "feedback": ""
+        "text": "Volta para Harã na metade do caminho",
+        "feedback": "Gênesis diz que Abrão chegou em Canaã."
       },
       {
-        "text": "Amaldiçoe o caminho sob seus pés",
-        "feedback": ""
+        "text": "Atravessa o mar para uma ilha distante",
+        "feedback": "Gênesis diz que Abrão viajou por terra para Canaã."
       }
     ]
   },
   "doubt_night": {
-    "title": "A Longa Noite",
-    "text": "Dentro da tenda, o silêncio é pesado.\n\"E se eu tiver ouvido mal?\"",
+    "title": "O Senhor Aparece",
+    "text": "Em Siquém, o Senhor te aparece.\nO que Ele diz?",
     "choices": [
       {
-        "text": "Ore através da escuridão",
-        "feedback": ""
+        "text": "'À tua descendência darei esta terra'",
+        "feedback": "Gênesis 12:7 — O Senhor apareceu a Abrão e disse: 'À tua descendência darei esta terra.'"
       },
       {
-        "text": "Barganhe — \"Apenas me dê um sinal\"",
-        "feedback": ""
+        "text": "'Esta terra pertence a outro povo para sempre'",
+        "feedback": "O Senhor prometeu a terra à descendência de Abrão."
       },
       {
-        "text": "Planeje um retorno a Ur",
-        "feedback": ""
+        "text": "'Volta para Harã; erraste em vir'",
+        "feedback": "O Senhor confirmou a promessa em Canaã, não mandou Abrão de volta."
       }
     ]
   },
   "stargazing": {
-    "title": "Sob as Estrelas",
-    "text": "O céu é vasto. Inúmeras luzes.\n\"Assim será a tua descendência.\"",
+    "title": "Em Siquém",
+    "text": "Tu ouviste a promessa. O que fazes em Siquém?",
     "choices": [
       {
-        "text": "Creia na promessa como dada",
-        "feedback": ""
+        "text": "Constrói ali um altar ao Senhor que te apareceu",
+        "feedback": "Gênesis 12:7 — Abrão edificou ali um altar ao Senhor, que lhe aparecera."
       },
       {
-        "text": "Zombe do voto impossível",
-        "feedback": ""
+        "text": "Constrói um palácio de cedro para ti",
+        "feedback": "Gênesis diz que Abrão construiu um altar, não um palácio."
+      },
+      {
+        "text": "Não digas nada e segue rapidamente",
+        "feedback": "Gênesis diz que Abrão adorou construindo um altar em Siquém."
       }
     ]
   },
   "canaan_arrival": {
-    "title": "A Terra de Canaã",
-    "text": "Colinas verdes. Água corrente. Uma terra que respira.\n\"Esta terra darei à tua descendência.\"",
+    "title": "Entre Betel e Ai",
+    "text": "Tu segues de Siquém para as colinas.\nOnde paras e armas tua tenda?",
     "choices": [
       {
-        "text": "Reivindique-o em voz alta como seu",
-        "feedback": ""
+        "text": "Arma tua tenda nas colinas entre Betel e Ai, e constrói outro altar",
+        "feedback": "Gênesis 12:8 — Dali Abrão prosseguiu para as colinas a leste de Betel e armou sua tenda, com Betel a oeste e Ai a leste; ali edificou um altar e invocou o nome do Senhor."
       },
       {
-        "text": "Receba-o com gratidão silenciosa",
-        "feedback": ""
+        "text": "Arma tua tenda na cidade de Sodoma",
+        "feedback": "Gênesis diz que Abrão armou sua tenda entre Betel e Ai."
       },
       {
-        "text": "Questione — \"Por que esta terra?\"",
-        "feedback": ""
+        "text": "Navega de volta pelo rio para Harã",
+        "feedback": "Gênesis diz que Abrão continuou para o sul através de Canaã."
       }
     ]
   },
   "altar": {
-    "title": "O Altar",
-    "text": "Reúnes pedras e te ajoelhas.\nA fé te trouxe até aqui. Ela te levará adiante.",
+    "title": "Invocando o Nome do Senhor",
+    "text": "Tu invocas o nome do Senhor em teu novo altar.\nA promessa de uma grande nação te acompanha enquanto viajas para o Neguebe.",
     "choices": []
   }
 }

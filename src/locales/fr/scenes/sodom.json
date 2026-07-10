@@ -1,164 +1,188 @@
 {
-  "storyTitle": "La Destruction de Sodome et Gomorrhe",
+  "storyTitle": "La destruction de Sodome",
   "start": {
-    "title": "La porte au crépuscule",
-    "text": "Tu es assis à la porte de Sodome.\nLa ville rit bruyamment sous un ciel rouge.",
+    "title": "À la porte de Sodome",
+    "text": "C'est le soir. Tu es assis à la porte de la ville de Sodome.\nDeux anges arrivent à Sodome. Que fais-tu ?",
     "choices": [
       {
-        "text": "Joins-toi aux rires pour t'intégrer",
-        "feedback": ""
+        "text": "Te lever pour aller à leur rencontre et te prosterner la face contre terre",
+        "feedback": "Genèse 19:1 — Quand Lot les vit, il se leva pour aller à leur rencontre et se prosterna la face contre terre."
       },
       {
-        "text": "Observe en silence, l'esprit troublé",
-        "feedback": ""
+        "text": "Te détourner et ignorer les étrangers",
+        "feedback": "La Genèse dit que Lot s'est levé et s'est prosterné devant eux."
+      },
+      {
+        "text": "Les chasser de la ville avec un bâton",
+        "feedback": "La Genèse dit que Lot les a accueillis respectueusement."
       }
     ]
   },
   "wickedness": {
-    "title": "Le cœur de la ville",
-    "text": "La cruauté dans les rues. Les faibles sont moqués.\nTa conscience te fait mal, encore et encore.",
+    "title": "Viens chez moi",
+    "text": "Tu parles aux deux étrangers.\nQue dis-tu ?",
     "choices": [
       {
-        "text": "Fais comme si tu n'avais rien vu",
-        "feedback": ""
+        "text": "'Mes seigneurs, je vous en prie, détournez-vous vers la maison de votre serviteur ; vous pourrez vous laver les pieds et passer la nuit'",
+        "feedback": "Genèse 19:2 — 'Mes seigneurs, je vous en prie, détournez-vous vers la maison de votre serviteur. Vous pourrez vous laver les pieds et passer la nuit, puis vous continuerez votre chemin tôt le matin.'"
       },
       {
-        "text": "Pleure en silence et prie",
-        "feedback": ""
+        "text": "'Quittez Sodome immédiatement — ce n'est pas sûr ici'",
+        "feedback": "Lot les a pressés de passer la nuit chez lui."
       },
       {
-        "text": "Vante ta position ici",
-        "feedback": ""
+        "text": "'Dormez ici sur la place comme vous l'aviez prévu'",
+        "feedback": "Lot a insisté pour que les anges viennent chez lui plutôt que de rester sur la place."
       }
     ]
   },
   "strangers": {
-    "title": "Deux étrangers",
-    "text": "Deux voyageurs approchent de la porte.\nQuelque chose en eux n'est pas de ce monde.",
+    "title": "Un repas chez toi",
+    "text": "Les anges viennent chez toi.\nQue leur prépares-tu ?",
     "choices": [
       {
-        "text": "Incline-toi et offre-leur ta maison",
-        "feedback": ""
+        "text": "Préparer un repas pour eux, en faisant cuire du pain sans levain",
+        "feedback": "Genèse 19:3 — Il leur prépara un repas, faisant cuire du pain sans levain, et ils mangèrent."
       },
       {
-        "text": "Avertis-les et éloigne-toi",
-        "feedback": ""
+        "text": "Offre-leur seulement de l'eau et envoie-les au lit",
+        "feedback": "Lot fit cuire du pain et leur prépara un repas."
       },
       {
-        "text": "Exige de savoir qui ils sont",
-        "feedback": ""
+        "text": "Offre-leur un agneau rôti au feu",
+        "feedback": "La Genèse spécifie du pain sans levain, pas de l'agneau rôti."
       }
     ]
   },
   "welcome": {
-    "title": "Sous ton toit",
-    "text": "Ils te suivent chez toi. Le pain est rompu.\nDehors, la ville commence à s'agiter.",
+    "title": "Les hommes de la ville",
+    "text": "Avant que tu n'ailles te coucher, tous les hommes de Sodome — jeunes et vieux — encerclent la maison.\nQue réclament-ils ?",
     "choices": [
       {
-        "text": "Verrouille chaque porte et veille",
-        "feedback": ""
+        "text": "« Où sont les hommes qui sont venus chez toi ce soir ? Amène-les-nous »",
+        "feedback": "Genèse 19:5 — Ils appelèrent Lot et lui dirent : « Où sont les hommes qui sont venus chez toi cette nuit ? Amène-les-nous, pour que nous couchions avec eux. »"
       },
       {
-        "text": "Laisse la porte grande ouverte",
-        "feedback": ""
+        "text": "« Donne-nous de la nourriture et de l'or de ta maison »",
+        "feedback": "Les hommes réclamaient les invités de Lot, pas de l'or."
+      },
+      {
+        "text": "« Accueille-nous pour manger avec les étrangers »",
+        "feedback": "Les hommes de Sodome sont venus avec une intention hostile, pas une demande amicale."
       }
     ]
   },
   "mob": {
-    "title": "Voix à la porte",
-    "text": "Une foule crie. Des poings frappent le bois.\n« Livrez-les-nous ! »",
+    "title": "À la porte",
+    "text": "Tu sors pour parler à la foule.\nQue fais-tu de la porte ?",
     "choices": [
       {
-        "text": "Livre les invités pour te sauver",
-        "feedback": ""
+        "text": "Sors vers eux et ferme la porte derrière toi",
+        "feedback": "Genèse 19:6 — Lot sortit vers eux, à l'entrée de la maison, et ferma la porte derrière lui."
       },
       {
-        "text": "Tiens-toi dans l'embrasure de la porte et refuse",
-        "feedback": ""
+        "text": "Laisse la porte grande ouverte pour que les invités puissent fuir",
+        "feedback": "Lot ferma la porte derrière lui pour protéger les invités."
+      },
+      {
+        "text": "Livre toi-même les invités à la foule",
+        "feedback": "Lot supplia les hommes de ne pas faire de mal à ses invités."
       }
     ]
   },
   "angels_warn": {
-    "title": "L'avertissement",
-    "text": "Les étrangers parlent. « Cette ville est finie.\nPrends ta famille. Pars maintenant. »",
+    "title": "Tiré à l'intérieur",
+    "text": "La foule se presse pour enfoncer la porte.\nQue font les anges ?",
     "choices": [
       {
-        "text": "Discute — ta vie est ici",
-        "feedback": ""
+        "text": "Les anges tendent la main, te tirent à l'intérieur de la maison et frappent les hommes de cécité",
+        "feedback": "Genèse 19:10-11 — Mais les hommes de l'intérieur tendirent la main, tirèrent Lot dans la maison et fermèrent la porte. Puis ils frappèrent de cécité les hommes qui étaient à l'entrée de la maison."
       },
       {
-        "text": "Crois — rassemble ta famille",
-        "feedback": ""
+        "text": "Les anges ouvrent la porte et laissent la foule entrer",
+        "feedback": "Les anges tirèrent Lot à l'intérieur et frappèrent la foule de cécité."
       },
       {
-        "text": "Négocie pour plus de temps",
-        "feedback": ""
+        "text": "Les anges disparaissent silencieusement et t'abandonnent",
+        "feedback": "Les anges ont sauvé Lot et sont restés avec lui."
       }
     ]
   },
   "sons_in_law": {
-    "title": "Plaider avec la famille",
-    "text": "Les fiancés de tes filles te rient au nez.\n« Vieil homme — tu rêves de feu. »",
+    "title": "Avertis ta famille",
+    "text": "Les anges te disent d'avertir tes proches de la destruction imminente.\nComment tes gendres réagissent-ils ?",
     "choices": [
       {
-        "text": "Reste et essaie de les convaincre",
-        "feedback": ""
+        "text": "Tes gendres pensent que tu plaisantes",
+        "feedback": "Genèse 19:14 — Lot sortit et parla à ses gendres, mais ils pensèrent qu'il plaisantait."
       },
       {
-        "text": "Supplie encore une fois, puis retourne chez toi",
-        "feedback": ""
+        "text": "Tes gendres te croient et te suivent aussitôt",
+        "feedback": "Les gendres ne prirent pas Lot au sérieux."
+      },
+      {
+        "text": "Tes gendres te tuent pour l'avertissement",
+        "feedback": "La Genèse dit qu'ils pensaient que Lot plaisantait."
       }
     ]
   },
   "urge": {
-    "title": "L'aube — Prends ma main",
-    "text": "L'ange te saisit le poignet. « Dépêche-toi !\nNe regarde pas en arrière. Fuis vers les collines. »",
+    "title": "L'aube — Fuyez pour vos vies",
+    "text": "Au lever du jour, les anges t'exhortent à te dépêcher.\nQue disent-ils ?",
     "choices": [
       {
-        "text": "Tarde pour ramasser ton or",
-        "feedback": ""
+        "text": "« Fuyez pour vos vies ! Ne regardez pas en arrière, et ne vous arrêtez nulle part dans la plaine ! Fuyez vers les montagnes »",
+        "feedback": "Genèse 19:17 — « Fuyez pour vos vies ! Ne regardez pas en arrière, et ne vous arrêtez nulle part dans la plaine ! Fuyez vers les montagnes, de peur d'être emportés ! »"
       },
       {
-        "text": "Pars maintenant — laisse tout",
-        "feedback": ""
+        "text": "« Prenez votre or et cachez-vous à l'intérieur de la ville »",
+        "feedback": "Les anges ont ordonné à Lot de fuir vers les montagnes, pas de se cacher."
       },
       {
-        "text": "Demande-toi où courir",
-        "feedback": ""
+        "text": "« Attendez encore quelques jours avant de partir »",
+        "feedback": "Les anges ont dit « Fuyez ! » avec urgence, pas d'attendre."
       }
     ]
   },
   "flee": {
-    "title": "La route depuis la ville",
-    "text": "Ta femme et tes filles courent à tes côtés.\nDerrière, un rugissement commence à monter vers le ciel.",
+    "title": "Feu du ciel",
+    "text": "Tu atteins la ville de Tsoar au lever du soleil.\nQue fait le Seigneur à Sodome et Gomorrhe ?",
     "choices": [
       {
-        "text": "Jette un coup d'œil en arrière pour voir si c'est réel",
-        "feedback": ""
+        "text": "Le Seigneur fait pleuvoir du soufre et du feu du ciel sur Sodome et Gomorrhe",
+        "feedback": "Genèse 19:24 — Alors le Seigneur fit pleuvoir du soufre et du feu sur Sodome et Gomorrhe, de la part du Seigneur, du ciel."
       },
       {
-        "text": "Garde les yeux fixés vers l'avant",
-        "feedback": ""
+        "text": "Le Seigneur envoie un grand déluge sur les villes",
+        "feedback": "La Genèse dit que du soufre ardent est tombé du ciel, pas un déluge."
+      },
+      {
+        "text": "Le Seigneur épargne les villes et les laisse debout",
+        "feedback": "Sodome et Gomorrhe furent détruites par le feu du ciel."
       }
     ]
   },
   "wife_looks": {
-    "title": "Elle a regardé",
-    "text": "Ta femme se retourne. Son corps s'immobilise, puis blanchit.\nUne colonne de sel à l'aube.",
+    "title": "Elle a Regardé en Arrière",
+    "text": "Ta femme est derrière toi.\nQue lui arrive-t-il ?",
     "choices": [
       {
-        "text": "Arrête-toi et pleure sur elle",
-        "feedback": ""
+        "text": "Elle regarde en arrière et devient une colonne de sel",
+        "feedback": "Genèse 19:26 — Mais la femme de Lot regarda en arrière, et elle devint une colonne de sel."
       },
       {
-        "text": "Crie — et continue de courir avec les filles",
-        "feedback": ""
+        "text": "Elle court en sécurité à Tsoar avec toi",
+        "feedback": "La femme de Lot regarda en arrière et fut changée en colonne de sel."
+      },
+      {
+        "text": "Elle se transforme en oiseau et s'envole",
+        "feedback": "La Genèse dit qu'elle est devenue une colonne de sel."
       }
     ]
   },
   "aftermath": {
-    "title": "Tsoar au lever du soleil",
-    "text": "La fumée assombrit la plaine derrière toi.\nTu es assis dans la poussière. Épargné. Vide. Vivant.",
+    "title": "La Fumée de la Plaine",
+    "text": "Tôt le matin, Abraham se lève et regarde vers Sodome.\nIl voit une fumée dense s'élever de la terre, comme la fumée d'une fournaise.\nDieu se souvint d'Abraham, et Il fit sortir Lot du milieu du désastre.",
     "choices": []
   }
 }

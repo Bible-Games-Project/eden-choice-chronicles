@@ -1,136 +1,188 @@
 {
   "storyTitle": "İbrahim ve Lut",
   "start": {
-    "title": "İki Hane",
-    "text": "Senin sürün ve Lut'un sürüsü aynı vadiyi doldurur.\nToprak bu kadar yaşamın altında inler.",
+    "title": "Çok Zengin",
+    "text": "Mısır'dan Negev'e, sonra da Beyt-El ile Ay arasındaki tepelere geri dönüyorsun.\nŞimdi ne kadar zenginsin?",
     "choices": [
       {
-        "text": "Gerginliği görmezden gel — devam et",
-        "feedback": ""
+        "text": "Çok zengin — hayvan, gümüş ve altın bakımından",
+        "feedback": "Yaratılış 13:2 — Abram, hayvan, gümüş ve altın bakımından çok zengin olmuştu."
       },
       {
-        "text": "Ortaya çıkan sorunu fark et",
-        "feedback": ""
+        "text": "Yolculuktan dolayı fakir ve eli boş",
+        "feedback": "Yaratılış, Abram'ın Mısır'dan çok zengin çıktığını söyler."
+      },
+      {
+        "text": "Değişiklik olmadan, eskisi gibi",
+        "feedback": "Yaratılış, Abram'ın çok zenginleştiğini söyler."
       }
     ]
   },
   "tension": {
-    "title": "Kalabalık Kuyular",
-    "text": "İki sürü. Bir kuyu. Çobanların sesleri yükselir.\nBir şey değişmeli.",
+    "title": "Toprak Sizi Destekleyemez",
+    "text": "Hem senin hem de yeğenin Lut'un sürüleri, hayvanları ve çadırları var.\nSorun ne?",
     "choices": [
       {
-        "text": "Yaş hakkıyla kuyuyu talep et",
-        "feedback": ""
+        "text": "Toprak ikinizi birlikte destekleyemez, çünkü mallarınız çok fazla",
+        "feedback": "Yaratılış 13:6 — Toprak, birlikte kaldıkları sürece onları destekleyemedi, çünkü malları çok fazlaydı."
       },
       {
-        "text": "Önce dinle, henüz yargılama",
-        "feedback": ""
+        "text": "Kimseyi besleyecek kadar az hayvanın var",
+        "feedback": "Sorun, toprağa göre çok fazla hayvan olmasıydı, çok az değil."
       },
       {
-        "text": "Lut'un sürülerini uzaklaştır",
-        "feedback": ""
+        "text": "Büyük bir düşman her iki ordugaha da saldırıyor",
+        "feedback": "Yaratılış, gerginliğin kalabalık sürülerden kaynaklandığını, savaştan değil."
       }
     ]
   },
   "quarrel": {
-    "title": "Çobanlar Çatışır",
-    "text": "Asalar kalktı. Toz içinde bağırışlar.\nBir darbe aranızdaki her şeyi yıkabilir.",
+    "title": "Çobanlar Arasındaki Çekişme",
+    "text": "Sorun çıkıyor.\nNe olur?",
     "choices": [
       {
-        "text": "Adamlarına önce saldırmalarını emret",
-        "feedback": ""
+        "text": "Senin çobanların ile Lut'un çobanları arasında çekişme başlar",
+        "feedback": "Yaratılış 13:7 — Ve Abram'ın çobanları ile Lut'un çobanları arasında çekişme çıktı."
       },
       {
-        "text": "Aralarına gir — barışı çağır",
-        "feedback": ""
+        "text": "Her iki ordugahta da barış ve sevinç yayılır",
+        "feedback": "Yaratılış, çobanlar arasında kavgaların çıktığını söyler."
+      },
+      {
+        "text": "Lut'un çobanları tek kelime etmeden ayrılır",
+        "feedback": "Yaratılış, kavga ettiklerini, sadece ayrılmadıklarını söyler."
       }
     ]
   },
   "decision": {
-    "title": "Lut'la Konuşmak",
-    "text": "Lut'u bir kenara çekersin. \"Biz aileyiz.\nAramızda çekişme olmasın.\"",
+    "title": "Lut'la Konuşuyorsun",
+    "text": "Kavgayı bitirmek istiyorsun.\nLut'a ne dersin?",
     "choices": [
       {
-        "text": "Hemen gitmesini talep et",
-        "feedback": ""
+        "text": "'Seninle benim aramda kavga olmasın — biz yakın akrabayız'",
+        "feedback": "Yaratılış 13:8 — 'Seninle benim aramda, çobanlarınla benim çobanlarım arasında kavga olmasın, çünkü biz kardeşiz.'"
       },
       {
-        "text": "Ona ilk seçimi teklif et",
-        "feedback": ""
+        "text": "'Hemen gitmelisin — sen benim dengim değilsin'",
+        "feedback": "Avram nazikçe konuştu, aile bağlarına hitap etti."
       },
       {
-        "text": "Kıdemine sarıl",
-        "feedback": ""
+        "text": "Hiçbir şey söyleme ve Lut'u kov",
+        "feedback": "Yaratılış, Avram'ın Lut'a söylediği barışçıl sözleri kaydeder."
       }
     ]
   },
   "offering": {
-    "title": "Açık El",
-    "text": "\"Sen sola gidersen, ben sağa giderim.\nSen sağa gidersen, ben sola giderim. Seç.\"",
+    "title": "İlk Seçim",
+    "text": "Lut'a bir seçim sunuyorsun.\nNe dersin?",
     "choices": [
       {
-        "text": "Sessizce daha azını seçmesini umut et",
-        "feedback": ""
+        "text": "'Eğer sen sola gidersen, ben sağa giderim; eğer sen sağa gidersen, ben sola giderim'",
+        "feedback": "Yaratılış 13:9 — 'Eğer sen sola gidersen, ben sağa giderim; eğer sen sağa gidersen, ben sola giderim.'"
       },
       {
-        "text": "Her kelimeyi ciddiye al — toprağı serbest bırak",
-        "feedback": ""
+        "text": "'Ben büyüğüm — önce ben seçeceğim'",
+        "feedback": "Avram, büyük olmasına rağmen Lut'un önce seçmesine izin verdi."
+      },
+      {
+        "text": "'İkimiz de burada kalacağız ve her kuyuyu paylaşacağız'",
+        "feedback": "Avram, kavganın bitmesi için yollarını ayırmalarını önerdi."
       }
     ]
   },
   "lots_choice": {
-    "title": "Lut Doğuya Bakar",
-    "text": "Lut Ürdün ovasını görür — yeşil, sulak, zengin.\nHesaplamadan onu seçer.",
+    "title": "Lut Yukarı Bakıyor",
+    "text": "Lut etrafına, toprağa bakıyor.\nNe seçiyor?",
     "choices": [
       {
-        "text": "En iyisini aldığı için ona içerle",
-        "feedback": ""
+        "text": "Lut, Rab'bin bahçesi gibi iyi sulanmış olan bütün Şeria ovasını seçer",
+        "feedback": "Yaratılış 13:10-11 — Lut gözlerini kaldırdı ve bütün Şeria ovasının Rab'bin bahçesi gibi iyi sulanmış olduğunu gördü; böylece Lut bütün Şeria ovasını kendisi için seçti."
       },
       {
-        "text": "Onu kutsayarak gitmesine izin ver",
-        "feedback": ""
+        "text": "Lut kuru tepelik araziyi seçer",
+        "feedback": "Lut, iyi sulanmış Şeria ovasını seçti."
       },
       {
-        "text": "Fikrini değiştirmeye çalış",
-        "feedback": ""
+        "text": "Lut seçmeyi reddeder ve Avram'la kalır",
+        "feedback": "Yaratılış, Lut'un Şeria ovasını seçtiğini ve Avram'dan ayrıldığını söyler."
       }
     ]
   },
   "lot_departs": {
     "title": "Ayrılık",
-    "text": "Lut'un sürüleri ovaya doğru ilerler.\nYolunun tozu yavaşça çöker.",
+    "text": "Sen ve Lut yollarınızı ayırıyorsunuz.\nLut nereye gidiyor?",
     "choices": [
       {
-        "text": "Acı çekmeden onu izle",
-        "feedback": ""
+        "text": "Lut doğuya doğru yola çıkar ve çadırlarını Sodom yakınlarına kurar",
+        "feedback": "Yaratılış 13:11-12 — Lut doğuya doğru yola çıktı; çadırlarını Sodom yakınlarına kurdu."
       },
       {
-        "text": "Yüzünü çevir — görmeyi reddet",
-        "feedback": ""
+        "text": "Lut batıya, denizin ötesine doğru çok uzaklara gider",
+        "feedback": "Lut doğuya, ovaya ve Sodom yakınlarına gitti."
+      },
+      {
+        "text": "Lut Haran'a geri döner",
+        "feedback": "Lut doğuya, Şeria ovasına, Sodom yakınlarına gitti."
       }
     ]
   },
   "remaining": {
-    "title": "Kalanlar",
-    "text": "Tepeler kuru, vadi sessiz.\nTanrı'nın verdiği toprakla yalnızsın.",
+    "title": "Nerede Yaşıyorsun",
+    "text": "Lut gitti.\nNerede yaşıyorsun?",
     "choices": [
       {
-        "text": "Bıraktığın şeye yas tut",
-        "feedback": ""
+        "text": "Kenan diyarında yaşa",
+        "feedback": "Yaratılış 13:12 — Avram Kenan diyarında yaşadı, Lut ise ovanın şehirleri arasında yaşadı."
       },
       {
-        "text": "Şükranla bir sunak inşa et",
-        "feedback": ""
+        "text": "Şeria ovasında, Sodom yakınlarında yaşa",
+        "feedback": "Lut Sodom yakınlarında yaşadı; Avram Kenan'da kaldı."
       },
       {
-        "text": "Sürülerde kaybettiğini say",
-        "feedback": ""
+        "text": "Mısır'da yaşa",
+        "feedback": "Avram Mısır'dan ayrılmıştı; şimdi Kenan'da yaşıyordu."
       }
     ]
   },
   "the_promise": {
     "title": "Gözlerini Kaldır",
-    "text": "\"Gördüğün tüm toprakları sana veriyorum.\nSoyun toz gibi olacak.\"",
+    "text": "Lut senden ayrıldıktan sonra Rab seninle konuşur.\nNe der?",
+    "choices": [
+      {
+        "text": "'Gözlerini kaldır; gördüğün bütün toprakları sana ve soyuna sonsuza dek vereceğim'",
+        "feedback": "Yaratılış 13:14-15 — 'Bulunduğun yerden kuzeye, güneye, doğuya ve batıya bak. Gördüğün bütün toprakları sana ve soyuna sonsuza dek vereceğim.'"
+      },
+      {
+        "text": "'Bu toprakları Lut'un soyuna kaybedeceksin'",
+        "feedback": "Rab, toprakları Avram'ın soyuna sonsuza dek vaat etti."
+      },
+      {
+        "text": "'Haran'a dön; toprak senin değil'",
+        "feedback": "Rab, toprak armağanını Avram'a onayladı."
+      }
+    ]
+  },
+  "mamre": {
+    "title": "Toprakta Yürü",
+    "text": "Rab sana sonra ne yapacağını söyler.\nNedir o?",
+    "choices": [
+      {
+        "text": "'Git, toprağın uzunluğunu ve genişliğini dolaş, çünkü onu sana veriyorum'",
+        "feedback": "Yaratılış 13:17 — 'Kalk, ülkeyi baştan başa dolaş, çünkü onu sana vereceğim.'"
+      },
+      {
+        "text": "'Tek bir yerde kal ve bir daha asla seyahat etme'",
+        "feedback": "Rab Abram'a ülkeyi dolaşmasını söyledi."
+      },
+      {
+        "text": "'Toprakları Kenanlılara geri ver'",
+        "feedback": "Rab toprakları Abram'a ve onun soyuna verdi."
+      }
+    ]
+  },
+  "altar": {
+    "title": "Mamre'nin Ulu Ağaçları",
+    "text": "Böylece çadırlarını toplar ve Hebron'daki Mamre'nin ulu ağaçlarının yanına yerleşirsin,\norada Rab'be bir sunak inşa edersin.",
     "choices": []
   }
 }

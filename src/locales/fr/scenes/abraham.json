@@ -1,176 +1,188 @@
 {
-  "storyTitle": "L'Appel d'Abraham",
+  "storyTitle": "L'appel d'Abraham",
   "start": {
-    "title": "Une vie à Ur",
-    "text": "Soixante-quinze ans derrière toi.\nLa ville bourdonne. Ton cœur est agité.",
+    "title": "Une vie à Haran",
+    "text": "Tu vis à Haran avec ton père Térach, ta femme Saraï et ton neveu Lot.\nTu as soixante-quinze ans.",
     "choices": [
       {
-        "text": "Incline-toi devant les idoles de la maison",
-        "feedback": ""
+        "text": "Vis comme Abram à Haran, âgé de soixante-quinze ans",
+        "feedback": "Genèse 12:4 — Abram avait soixante-quinze ans lorsqu'il quitta Haran."
       },
       {
-        "text": "Monte sur le toit et écoute",
-        "feedback": ""
+        "text": "Vis comme un jeune homme dans la ville d'Ur",
+        "feedback": "Selon Genèse 12, Abram avait déjà quitté Ur et se trouvait à Haran, âgé de soixante-quinze ans."
       },
       {
-        "text": "Enterre le désir dans le travail",
-        "feedback": ""
+        "text": "Vis comme roi d'une grande nation",
+        "feedback": "La Genèse ne décrit pas Abram comme un roi ; il était un berger nomade."
       }
     ]
   },
   "the_call": {
-    "title": "La Voix",
-    "text": "Une voix — claire, indubitable.\n« Quitte ton pays. Va où je te montrerai. »",
+    "title": "L'appel du Seigneur",
+    "text": "Le Seigneur te parle.\nQue te commande-t-Il ?",
     "choices": [
       {
-        "text": "Couvre tes oreilles de peur",
-        "feedback": ""
+        "text": "« Va-t'en de ton pays, de ta patrie et de la maison de ton père, vers le pays que je te montrerai »",
+        "feedback": "Genèse 12:1 — L'Éternel dit à Abram : « Va-t'en de ton pays, de ta patrie et de la maison de ton père, vers le pays que je te montrerai. »"
       },
       {
-        "text": "Agenouille-toi et réponds « Me voici »",
-        "feedback": ""
+        "text": "« Reste à Haran et adore les idoles familiales »",
+        "feedback": "La Genèse dit que le Seigneur a dit à Abram de partir, pas de rester."
       },
       {
-        "text": "Exige la preuve de Son nom",
-        "feedback": ""
+        "text": "« Construis-Moi un temple ici à Haran »",
+        "feedback": "Le Seigneur a dit à Abram d'aller dans un pays qu'Il lui montrerait."
       }
     ]
   },
   "the_promise": {
     "title": "La Promesse",
-    "text": "« Je ferai de toi une grande nation.\nTous les peuples seront bénis par toi. »",
+    "text": "Le Seigneur ajoute Sa promesse.\nQue dit-Il ?",
     "choices": [
       {
-        "text": "Doute — tu n'as pas de fils",
-        "feedback": ""
+        "text": "« Je ferai de toi une grande nation et je te bénirai ; toutes les familles de la terre seront bénies en toi »",
+        "feedback": "Genèse 12:2-3 — « Je ferai de toi une grande nation, et toutes les familles de la terre seront bénies en toi. »"
       },
       {
-        "text": "Reçois les paroles en silence",
-        "feedback": ""
+        "text": "« Je te donnerai de grandes richesses à garder pour toi seul »",
+        "feedback": "La promesse était que toutes les familles seraient bénies par Abram, et non qu'il amasserait des richesses."
+      },
+      {
+        "text": "« Tu auras une longue vie et pas de descendants »",
+        "feedback": "Le Seigneur a promis à Abram une grande nation de descendants."
       }
     ]
   },
   "telling_sarah": {
-    "title": "Parler à Sara",
-    "text": "Les yeux de Sara cherchent les tiens.\n« Qu'est-ce que la voix nous a demandé ? »",
+    "title": "Ta Famille",
+    "text": "Tu dois préparer ta famille pour le voyage.\nQui t'accompagne ?",
     "choices": [
       {
-        "text": "Cache la vérité pour l'épargner",
-        "feedback": ""
+        "text": "Prends Saraï ta femme et Lot ton neveu",
+        "feedback": "Genèse 12:5 — Abram prit Saraï sa femme, Lot son neveu, et tous les biens et les personnes qu'ils avaient acquis à Haran."
       },
       {
-        "text": "Parle clairement — « Nous devons partir »",
-        "feedback": ""
+        "text": "Laisse Saraï derrière à Haran",
+        "feedback": "La Genèse dit qu'Abram a emmené Saraï avec lui."
       },
       {
-        "text": "Demande-lui de décider pour toi",
-        "feedback": ""
+        "text": "Pars seul avec seulement un bâton de marche",
+        "feedback": "La Genèse dit qu'Abram est parti avec toute sa maisonnée et ses biens."
       }
     ]
   },
   "preparing": {
-    "title": "Rassembler l'essentiel",
-    "text": "Tentes. Troupeaux. Quelques ballots.\nUne vie entière ne tient pas sur un chameau.",
+    "title": "Ce que tu emportes",
+    "text": "Tu rassembles ce que tu emporteras pour le voyage.\nQu'est-ce qui t'accompagne ?",
     "choices": [
       {
-        "text": "N'emporte que le nécessaire",
-        "feedback": ""
+        "text": "Tous les biens et les personnes que tu as acquis à Haran",
+        "feedback": "Genèse 12:5 — Abram prit tous les biens et les personnes qu'ils avaient acquis à Haran."
       },
       {
-        "text": "Accroche-toi à chaque possession",
-        "feedback": ""
+        "text": "Seulement un petit sac de pain",
+        "feedback": "La Genèse dit qu'Abram est parti avec toute sa maisonnée et ses biens."
       },
       {
-        "text": "Remets à plus tard d'un jour",
-        "feedback": ""
+        "text": "Un char d'or du roi de Haran",
+        "feedback": "La Genèse ne décrit pas de char d'un quelconque roi."
       }
     ]
   },
   "departure": {
-    "title": "La Porte à l'aube",
-    "text": "Ur te regarde partir.\nCertains pleurent. Certains secouent la tête.",
+    "title": "Tu pars",
+    "text": "Le moment est venu de partir.\nOù te diriges-tu ?",
     "choices": [
       {
-        "text": "Hésite et perds ton courage",
-        "feedback": ""
+        "text": "Pars pour le pays de Canaan",
+        "feedback": "Genèse 12:5 — Ils partirent de Haran pour aller au pays de Canaan, et ils y arrivèrent."
       },
       {
-        "text": "Avance sans regarder en arrière",
-        "feedback": ""
+        "text": "Pars pour l'Égypte pour devenir riche",
+        "feedback": "La Genèse dit qu'Abram est parti pour Canaan ; l'Égypte est venue plus tard, pendant une famine."
+      },
+      {
+        "text": "Pars sans destination en tête",
+        "feedback": "Le Seigneur avait un pays spécifique en tête — Canaan."
       }
     ]
   },
   "the_road": {
-    "title": "La Longue Route",
-    "text": "Soleil. Sable. Horizon infini.\nSara marche à tes côtés en silence.",
+    "title": "Dans le pays",
+    "text": "Tu voyages à travers le pays de Canaan.\nJusqu'où vas-tu ?",
     "choices": [
       {
-        "text": "Fais demi-tour — c'est trop",
-        "feedback": ""
+        "text": "Voyage jusqu'au grand chêne de Moré à Sichem",
+        "feedback": "Genèse 12:6 — Abram traversa le pays jusqu'au lieu du grand chêne de Moré à Sichem."
       },
       {
-        "text": "Fais confiance à chaque pas en avant",
-        "feedback": ""
+        "text": "Retourne à Haran à mi-chemin",
+        "feedback": "La Genèse dit qu'Abram est arrivé en Canaan."
       },
       {
-        "text": "Maudis la route sous tes pieds",
-        "feedback": ""
+        "text": "Traverse la mer jusqu'à une île lointaine",
+        "feedback": "La Genèse dit qu'Abram a voyagé par voie terrestre en Canaan."
       }
     ]
   },
   "doubt_night": {
-    "title": "La Longue Nuit",
-    "text": "À l'intérieur de la tente, le silence est lourd.\n« Et si j'avais mal entendu ? »",
+    "title": "L'Éternel apparaît",
+    "text": "À Sichem, l'Éternel t'apparaît.\nQue dit-Il ?",
     "choices": [
       {
-        "text": "Prie à travers les ténèbres",
-        "feedback": ""
+        "text": "« Je donnerai ce pays à ta descendance »",
+        "feedback": "Genèse 12:7 — L'Éternel apparut à Abram et dit : « Je donnerai ce pays à ta descendance. »"
       },
       {
-        "text": "Négocie — « Donne-moi juste un signe »",
-        "feedback": ""
+        "text": "« Ce pays appartient à un autre peuple pour toujours »",
+        "feedback": "L'Éternel a promis le pays à la descendance d'Abram."
       },
       {
-        "text": "Planifie un retour à Ur",
-        "feedback": ""
+        "text": "« Retourne à Haran ; tu as eu tort de venir »",
+        "feedback": "L'Éternel a confirmé la promesse en Canaan, Il n'a pas renvoyé Abram."
       }
     ]
   },
   "stargazing": {
-    "title": "Sous les Étoiles",
-    "text": "Le ciel est vaste. D'innombrables lumières.\n« Ainsi sera ta descendance. »",
+    "title": "À Sichem",
+    "text": "Tu as entendu la promesse. Que fais-tu à Sichem ?",
     "choices": [
       {
-        "text": "Crois la promesse telle qu'elle est donnée",
-        "feedback": ""
+        "text": "Construis-y un autel à l'Éternel qui t'est apparu",
+        "feedback": "Genèse 12:7 — Abram y bâtit un autel à l'Éternel, qui lui était apparu."
       },
       {
-        "text": "Moque-toi du vœu impossible",
-        "feedback": ""
+        "text": "Construis-toi un palais de cèdre",
+        "feedback": "La Genèse dit qu'Abram a construit un autel, pas un palais."
+      },
+      {
+        "text": "Ne dis rien et avance rapidement",
+        "feedback": "La Genèse dit qu'Abram a adoré en construisant un autel à Sichem."
       }
     ]
   },
   "canaan_arrival": {
-    "title": "Le Pays de Canaan",
-    "text": "Collines verdoyantes. Eau courante. Une terre qui respire.\n« Cette terre, je la donne à ta descendance. »",
+    "title": "Entre Béthel et Aï",
+    "text": "Tu quittes Sichem pour les collines.\nOù t'arrêtes-tu et plantes-tu ta tente ?",
     "choices": [
       {
-        "text": "Revendique-le haut et fort comme le tien",
-        "feedback": ""
+        "text": "Plante ta tente dans les collines entre Béthel et Aï, et construis un autre autel",
+        "feedback": "Genèse 12:8 — De là, Abram se dirigea vers les collines à l'est de Béthel et planta sa tente, avec Béthel à l'ouest et Aï à l'est ; là, il bâtit un autel et invoqua le nom de l'Éternel."
       },
       {
-        "text": "Reçois-le avec une gratitude silencieuse",
-        "feedback": ""
+        "text": "Plante ta tente dans la ville de Sodome",
+        "feedback": "La Genèse dit qu'Abram a planté sa tente entre Béthel et Aï."
       },
       {
-        "text": "Questionne — « Pourquoi cette terre ? »",
-        "feedback": ""
+        "text": "Retourne en bateau de l'autre côté du fleuve jusqu'à Haran",
+        "feedback": "La Genèse dit qu'Abram a continué vers le sud à travers Canaan."
       }
     ]
   },
   "altar": {
-    "title": "L'Autel",
-    "text": "Tu rassembles des pierres et t'agenouilles.\nLa foi t'a porté jusqu'ici. Elle te portera plus loin.",
+    "title": "Invoquer le Nom de l'Éternel",
+    "text": "Tu invoques le nom de l'Éternel à ton nouvel autel.\nLa promesse d'une grande nation t'accompagne alors que tu continues ton voyage vers le Néguev.",
     "choices": []
   }
 }

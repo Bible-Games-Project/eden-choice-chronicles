@@ -1,182 +1,206 @@
 {
   "storyTitle": "Abramo in Egitto",
   "start": {
-    "title": "La Carestia",
-    "text": "La terra promessa si spacca sotto la siccità.\nI greggi si indeboliscono. Sara dimagrisce.",
+    "title": "Una Carestia nella Terra",
+    "text": "Una grave carestia colpisce la terra di Canaan.\nCosa fai?",
     "choices": [
       {
-        "text": "Confida in Dio e aspetta la pioggia",
-        "feedback": ""
+        "text": "Scendi in Egitto per viverci come straniero per un po'",
+        "feedback": "Genesi 12:10 — Ora c'era una carestia nel paese, e Abramo scese in Egitto per viverci per un po', perché la carestia era grave."
       },
       {
-        "text": "Maledici il cielo secco",
-        "feedback": ""
+        "text": "Attraversa il mare verso un'isola lontana",
+        "feedback": "La Genesi dice che Abramo scese in Egitto durante la carestia."
       },
       {
-        "text": "Volta subito a sud verso l'Egitto",
-        "feedback": ""
+        "text": "Rimani a Canaan e guida un esercito",
+        "feedback": "La Genesi dice che Abramo andò in Egitto a causa della carestia."
       }
     ]
   },
   "road_south": {
-    "title": "La Strada a Sud",
-    "text": "L'Egitto promette grano. Sara cammina al tuo fianco, silenziosa.\nL'orizzonte luccica.",
+    "title": "Mentre Ti Avvicini all'Egitto",
+    "text": "Stai per entrare in Egitto.\nCosa dici a tua moglie Sarai?",
     "choices": [
       {
-        "text": "Prega prima di ogni passo in avanti",
-        "feedback": ""
+        "text": "'So che sei una donna bellissima — gli Egiziani mi uccideranno per prenderti'",
+        "feedback": "Genesi 12:11-12 — 'So che sei una donna bellissima. Quando gli Egiziani ti vedranno, mi uccideranno ma ti lasceranno vivere.'"
       },
       {
-        "text": "Prosegui senza una parola a Dio",
-        "feedback": ""
+        "text": "'Il Signore ci proteggerà; non abbiamo nulla da temere'",
+        "feedback": "La Genesi dice che Abramo aveva paura e non si fidava apertamente; ideò un piano."
+      },
+      {
+        "text": "Non dire nulla a Sarai",
+        "feedback": "La Genesi registra le parole che Abramo disse a Sarai riguardo alla sua paura."
       }
     ]
   },
   "fear_rises": {
-    "title": "Un Freddo Pensiero",
-    "text": "Gli Egiziani potrebbero ucciderti per prendere tua moglie.\nLa paura si stringe forte nel tuo petto.",
+    "title": "La Richiesta",
+    "text": "Chiedi a Sarai di fare qualcosa per proteggere la tua vita.\nCosa le chiedi?",
     "choices": [
       {
-        "text": "Inventa una bugia per salvarti",
-        "feedback": ""
+        "text": "'Di' che sei mia sorella, così sarò trattato bene grazie a te'",
+        "feedback": "Genesi 12:13 — 'Di', ti prego, che sei mia sorella, perché io sia trattato bene per causa tua e la mia vita sia risparmiata per merito tuo.'"
       },
       {
-        "text": "Confida in Dio che vi protegga entrambi",
-        "feedback": ""
+        "text": "'Di' che sei mia madre, così nessuno si accorgerà'",
+        "feedback": "Abramo chiese a Sarai di dire che era sua sorella."
       },
       {
-        "text": "Torna indietro alla carestia",
-        "feedback": ""
+        "text": "'Di' che siamo estranei che non si sono mai incontrati'",
+        "feedback": "La mezza verità di Abramo fu di chiamarla sua sorella."
       }
     ]
   },
   "the_lie": {
-    "title": "La Mezza Verità",
-    "text": "Gli occhi di Sara incontrano i tuoi. «Di’ che sei mia sorella.»\nLe parole sanno di cenere.",
+    "title": "Gli Egiziani Vedono Sarai",
+    "text": "Arrivi in Egitto.\nCome reagiscono gli Egiziani a Sarai?",
     "choices": [
       {
-        "text": "Confessa la paura e di' la verità",
-        "feedback": ""
+        "text": "Gli Egiziani vedono che è molto bella",
+        "feedback": "Genesi 12:14 — Quando Abramo giunse in Egitto, gli Egiziani videro che Sarai era una donna molto bella."
       },
       {
-        "text": "Falla acconsentire alla bugia",
-        "feedback": ""
+        "text": "Gli Egiziani la ignorano completamente",
+        "feedback": "La Genesi dice che gli Egiziani notarono quanto fosse bella."
+      },
+      {
+        "text": "Gli Egiziani la cacciano via dalla città",
+        "feedback": "Gli Egiziani lodarono la sua bellezza; non la cacciarono via."
       }
     ]
   },
   "entering_egypt": {
-    "title": "Le Porte d'Egitto",
-    "text": "La città brulica. Gli sguardi seguono Sara ovunque.\nI sussurri giungono al palazzo.",
+    "title": "I Funzionari del Faraone",
+    "text": "I funzionari del Faraone vedono Sarai.\nCosa fanno?",
     "choices": [
       {
-        "text": "Resta vicino e proteggila",
-        "feedback": ""
+        "text": "La lodano al Faraone, e lei viene portata nel suo palazzo",
+        "feedback": "Genesi 12:15 — Quando i funzionari del Faraone la videro, la lodarono al Faraone, e lei fu portata nel suo palazzo."
       },
       {
-        "text": "Allontanati per sembrare estraneo",
-        "feedback": ""
+        "text": "Cacciano subito Abramo dall'Egitto",
+        "feedback": "La Genesi dice che Sarai fu portata nel palazzo del Faraone, non che Abramo fu cacciato via."
       },
       {
-        "text": "Vantati dei doni che riceverai",
-        "feedback": ""
+        "text": "La ignorano e non le prestano alcuna attenzione",
+        "feedback": "I funzionari del Faraone lodarono la sua bellezza al re."
       }
     ]
   },
   "officials_come": {
-    "title": "Funzionari del Faraone",
-    "text": "Arriva un funzionario. «Il Faraone ha sentito parlare della sua bellezza.»\nIl suo sorriso è cortese. Affilato.",
+    "title": "Per Amore di Sarai",
+    "text": "A causa di Sarai, il Faraone ti tratta bene.\nCome tratta Abramo?",
     "choices": [
       {
-        "text": "Ripeti la bugia — «Mia sorella»",
-        "feedback": ""
+        "text": "Ti dà pecore, bestiame, asini, servi e cammelli",
+        "feedback": "Genesi 12:16 — Egli trattò bene Abramo per causa sua, e Abramo ebbe pecore e buoi, asini e asine, servi e serve, e cammelli."
       },
       {
-        "text": "Di' la verità — «È mia moglie»",
-        "feedback": ""
+        "text": "Mette Abramo in prigione",
+        "feedback": "La Genesi dice che il Faraone diede molti doni ad Abramo per amore di Sarai."
+      },
+      {
+        "text": "Non dà nulla ad Abramo",
+        "feedback": "La Genesi elenca i molti doni che Abramo ricevette."
       }
     ]
   },
   "sarah_taken": {
-    "title": "Solo",
-    "text": "Conducono Sara verso il palazzo.\nLa tenda è improvvisamente insopportabilmente silenziosa.",
+    "title": "Il Signore Colpisce",
+    "text": "Il Signore non rimane in silenzio.\nCosa fa a causa di Sarai?",
     "choices": [
       {
-        "text": "Cadi in ginocchio e grida a Dio",
-        "feedback": ""
+        "text": "Il Signore infligge gravi malattie al Faraone e alla sua casa",
+        "feedback": "Genesi 12:17 — Ma il Signore colpì il Faraone e la sua casa con grandi piaghe a causa di Sarai, moglie di Abramo."
       },
       {
-        "text": "Siediti intorpidito e conta le tue perdite",
-        "feedback": ""
+        "text": "Il Signore manda fuoco sull'Egitto",
+        "feedback": "La Genesi dice che il Signore mandò gravi malattie, non fuoco."
+      },
+      {
+        "text": "Il Signore rimane in silenzio",
+        "feedback": "La Genesi dice che il Signore agì; colpì la casa del Faraone."
       }
     ]
   },
   "gifts_arrive": {
-    "title": "Il Prezzo del Silenzio",
-    "text": "Pecore, oro, servi — il pagamento del Faraone.\nOgni dono sembra un chiodo.",
+    "title": "Il Faraone Ti Convoca",
+    "text": "Il Faraone ti chiama.\nCosa dice?",
     "choices": [
       {
-        "text": "Accettali, nascondi la vergogna",
-        "feedback": ""
+        "text": "'Che mi hai fatto? Perché non mi hai detto che era tua moglie?'",
+        "feedback": "Genesi 12:18 — 'Che mi hai fatto? Perché non mi hai detto che era tua moglie?'"
       },
       {
-        "text": "Rifiutali e supplica Dio di agire",
-        "feedback": ""
+        "text": "'Grazie per i tuoi doni — per favore, resta'",
+        "feedback": "Il Faraone rimproverò Abramo; non lo ringraziò."
       },
       {
-        "text": "Rimandali al Faraone",
-        "feedback": ""
+        "text": "'Sarai rimarrà nella mia casa per sempre'",
+        "feedback": "Il Faraone restituì Sarai ad Abramo."
       }
     ]
   },
   "plagues": {
-    "title": "Dio Colpisce",
-    "text": "La malattia si diffonde nella casa del Faraone.\nNessun guaritore può nominarne la causa.",
+    "title": "Prendila e Vai",
+    "text": "Il Faraone dà il suo ordine.\nCosa comanda?",
     "choices": [
       {
-        "text": "Sappi che Dio non ha dimenticato",
-        "feedback": ""
+        "text": "'Ecco tua moglie. Prendila e vai!'",
+        "feedback": "Genesi 12:19 — 'Ora, ecco tua moglie. Prendila e vai!'"
       },
       {
-        "text": "Temi ciò che Dio ti farà",
-        "feedback": ""
+        "text": "'Devi rimanere qui come mio servo per sempre'",
+        "feedback": "Il Faraone mandò via Abram con Sarai."
+      },
+      {
+        "text": "'Terrò Sarai e tu potrai tornare a Canaan da solo'",
+        "feedback": "Il Faraone restituì Sarai ad Abram."
       }
     ]
   },
   "confronted": {
-    "title": "La Resa dei Conti",
-    "text": "La voce del Faraone trema. «Perché hai fatto questo?\nPerché hai detto 'mia sorella'?»",
+    "title": "Scortato Fuori",
+    "text": "Il Faraone dà ordini su di te.\nCosa succede?",
     "choices": [
       {
-        "text": "Trova scuse per la tua paura",
-        "feedback": ""
+        "text": "Gli uomini del Faraone ti mandano via, con tua moglie e tutto ciò che possiedi",
+        "feedback": "Genesi 12:20 — Allora il Faraone diede ordini ai suoi uomini riguardo ad Abram, ed essi lo mandarono via, con sua moglie e tutto ciò che aveva."
       },
       {
-        "text": "China il capo — nessuna difesa",
-        "feedback": ""
+        "text": "Gli uomini del Faraone ti spogliano di tutti i tuoi averi",
+        "feedback": "La Genesi dice che Abram partì con sua moglie e tutto ciò che aveva."
       },
       {
-        "text": "Incolpa la carestia per tutto",
-        "feedback": ""
+        "text": "Gli uomini del Faraone ti mettono in catene",
+        "feedback": "La Genesi dice che gli uomini del Faraone mandarono via Abram in pace."
       }
     ]
   },
   "expelled": {
-    "title": "Mandato Via",
-    "text": "«Prendi tua moglie. Prendi tutto. Vai.»\nLe guardie ti accompagnano al confine.",
+    "title": "Salendo dall'Egitto",
+    "text": "Lasci l'Egitto.\nDove vai?",
     "choices": [
       {
-        "text": "Cammina avanti, troppo vergognoso per guardare",
-        "feedback": ""
+        "text": "Sali dall'Egitto al Neghev, con tua moglie e tutto ciò che hai",
+        "feedback": "Genesi 13:1 — Così Abram salì dall'Egitto al Neghev, con sua moglie e tutto ciò che aveva, e Lot andò con lui."
       },
       {
-        "text": "Cerca la mano di Sara in silenzio",
-        "feedback": ""
+        "text": "Rimani in Egitto e stabilisciti lì per sempre",
+        "feedback": "La Genesi dice che Abram salì dall'Egitto."
+      },
+      {
+        "text": "Vai a est attraverso il deserto verso l'Assiria",
+        "feedback": "La Genesi dice che Abram tornò nel Neghev, nella terra della promessa."
       }
     ]
   },
   "altar": {
-    "title": "L'Altare",
-    "text": "Tornato nella terra promessa, costruisci altari di pietre.\nLa promessa rimane — nonostante te.",
+    "title": "Di Nuovo all'Altare",
+    "text": "Torni al luogo tra Betel e Ai,\nall'altare che avevi costruito all'inizio, e lì invochi il nome del Signore.",
     "choices": []
   }
 }

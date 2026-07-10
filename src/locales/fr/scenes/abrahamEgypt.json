@@ -1,182 +1,206 @@
 {
   "storyTitle": "Abraham en Égypte",
   "start": {
-    "title": "La Famine",
-    "text": "La terre promise se fend sous la sécheresse.\nLes troupeaux s'affaiblissent. Sara maigrit.",
+    "title": "Une famine dans le pays",
+    "text": "Une famine sévère frappe le pays de Canaan.\nQue fais-tu ?",
     "choices": [
       {
-        "text": "Fais confiance à Dieu et attends la pluie",
-        "feedback": ""
+        "text": "Descends en Égypte pour y vivre comme étranger pendant un temps",
+        "feedback": "Genèse 12:10 — Or, il y eut une famine dans le pays, et Abram descendit en Égypte pour y séjourner, car la famine était grande dans le pays."
       },
       {
-        "text": "Maudis le ciel sec",
-        "feedback": ""
+        "text": "Traverse la mer jusqu'à une île lointaine",
+        "feedback": "La Genèse dit qu'Abram est descendu en Égypte pendant la famine."
       },
       {
-        "text": "Tourne-toi vers l'Égypte aussitôt",
-        "feedback": ""
+        "text": "Reste en Canaan et dirige une armée",
+        "feedback": "La Genèse dit qu'Abram est allé en Égypte à cause de la famine."
       }
     ]
   },
   "road_south": {
-    "title": "La Route du Sud",
-    "text": "L'Égypte promet du grain. Sara marche à tes côtés, silencieuse.\nL'horizon scintille.",
+    "title": "Alors que tu approches de l'Égypte",
+    "text": "Tu es sur le point d'entrer en Égypte.\nQue dis-tu à ta femme Saraï ?",
     "choices": [
       {
-        "text": "Prie avant chaque pas en avant",
-        "feedback": ""
+        "text": "« Je sais que tu es une femme belle — les Égyptiens me tueront pour te prendre »",
+        "feedback": "Genèse 12:11-12 — « Je sais que tu es une femme belle. Quand les Égyptiens te verront, ils me tueront mais te laisseront vivre. »"
       },
       {
-        "text": "Continue sans un mot à Dieu",
-        "feedback": ""
+        "text": "« L'Éternel nous protégera ; nous n'avons rien à craindre »",
+        "feedback": "La Genèse dit qu'Abram avait peur et ne faisait pas ouvertement confiance ; il a élaboré un plan."
+      },
+      {
+        "text": "Ne dis rien du tout à Saraï",
+        "feedback": "La Genèse rapporte les paroles qu'Abram a dites à Saraï concernant sa peur."
       }
     ]
   },
   "fear_rises": {
-    "title": "Une Pensée Froide",
-    "text": "Les Égyptiens pourraient te tuer pour prendre ta femme.\nLa peur s'enroule étroitement dans ta poitrine.",
+    "title": "La Requête",
+    "text": "Tu demandes à Saraï de faire quelque chose pour protéger ta vie.\nQu'est-ce que c'est ?",
     "choices": [
       {
-        "text": "Invente un mensonge pour te sauver",
-        "feedback": ""
+        "text": "« Dis que tu es ma sœur, afin que je sois bien traité à cause de toi »",
+        "feedback": "Genèse 12:13 — « Dis, je te prie, que tu es ma sœur, afin que je sois bien traité à cause de toi, et que ma vie soit épargnée grâce à toi. »"
       },
       {
-        "text": "Fais confiance à Dieu pour vous garder tous les deux",
-        "feedback": ""
+        "text": "« Dis que tu es ma mère, pour que personne ne remarque »",
+        "feedback": "Abram a demandé à Saraï de dire qu'elle était sa sœur."
       },
       {
-        "text": "Retourne à la famine",
-        "feedback": ""
+        "text": "« Dis que nous sommes des étrangers qui ne se sont jamais rencontrés »",
+        "feedback": "La demi-vérité d'Abram était de l'appeler sa sœur."
       }
     ]
   },
   "the_lie": {
-    "title": "La demi-vérité",
-    "text": "Les yeux de Sara rencontrent les vôtres. « Dis que tu es ma sœur. »\nCes mots ont un goût de cendre.",
+    "title": "Les Égyptiens Voient Saraï",
+    "text": "Tu arrives en Égypte.\nComment les Égyptiens réagissent-ils à Saraï ?",
     "choices": [
       {
-        "text": "Confesse ta peur et dis la vérité",
-        "feedback": ""
+        "text": "Les Égyptiens voient qu'elle est très belle",
+        "feedback": "Genèse 12:14 — Lorsque Abram fut arrivé en Égypte, les Égyptiens virent que la femme était très belle."
       },
       {
-        "text": "Fais-la consentir au mensonge",
-        "feedback": ""
+        "text": "Les Égyptiens l'ignorent complètement",
+        "feedback": "La Genèse dit que les Égyptiens ont remarqué sa beauté."
+      },
+      {
+        "text": "Les Égyptiens la chassent de la ville",
+        "feedback": "Les Égyptiens ont loué sa beauté ; ils ne l'ont pas chassée."
       }
     ]
   },
   "entering_egypt": {
-    "title": "Les portes de l'Égypte",
-    "text": "La ville grouille. Les regards suivent Sara partout.\nDes murmures parviennent au palais.",
+    "title": "Les Officiers de Pharaon",
+    "text": "Les officiers de Pharaon voient Saraï.\nQue font-ils ?",
     "choices": [
       {
-        "text": "Reste près et protège-la",
-        "feedback": ""
+        "text": "Ils la louent à Pharaon, et elle est emmenée dans son palais",
+        "feedback": "Genèse 12:15 — Les officiers de Pharaon la virent et la louèrent à Pharaon ; et la femme fut emmenée dans la maison de Pharaon."
       },
       {
-        "text": "Éloigne-toi pour paraître sans lien",
-        "feedback": ""
+        "text": "Ils chassent Abram d'Égypte immédiatement",
+        "feedback": "La Genèse dit que Saraï a été emmenée dans le palais de Pharaon, et non qu'Abram a été chassé."
       },
       {
-        "text": "Vante-toi des cadeaux que tu recevras",
-        "feedback": ""
+        "text": "Ils l'ignorent et ne lui prêtent aucune attention",
+        "feedback": "Les officiers de Pharaon ont loué sa beauté au roi."
       }
     ]
   },
   "officials_come": {
-    "title": "Les fonctionnaires de Pharaon",
-    "text": "Un fonctionnaire arrive. « Pharaon a entendu parler de sa beauté. »\nSon sourire est poli. Tranchant.",
+    "title": "À Cause de Saraï",
+    "text": "À cause de Saraï, Pharaon te traite bien.\nComment traite-t-il Abram ?",
     "choices": [
       {
-        "text": "Répète le mensonge — « Ma sœur »",
-        "feedback": ""
+        "text": "Il te donne des brebis, des bœufs, des ânes, des serviteurs et des chameaux",
+        "feedback": "Genèse 12:16 — Il traita bien Abram à cause d'elle ; et Abram eut des brebis, des bœufs, des ânes, des serviteurs et des servantes, et des chameaux."
       },
       {
-        "text": "Dis la vérité — « C'est ma femme »",
-        "feedback": ""
+        "text": "Il met Abram en prison",
+        "feedback": "La Genèse dit que Pharaon a donné de nombreux cadeaux à Abram à cause de Saraï."
+      },
+      {
+        "text": "Il ne donne rien du tout à Abram",
+        "feedback": "La Genèse énumère les nombreux cadeaux qu'Abram a reçus."
       }
     ]
   },
   "sarah_taken": {
-    "title": "Seul",
-    "text": "Ils mènent Sara vers le palais.\nLa tente est soudainement d'un silence insupportable.",
+    "title": "L'Éternel Frappe",
+    "text": "L'Éternel ne reste pas silencieux.\nQue fait-Il à cause de Saraï ?",
     "choices": [
       {
-        "text": "Tombe à genoux et crie à Dieu",
-        "feedback": ""
+        "text": "L'Éternel inflige de graves maladies à Pharaon et à sa maison",
+        "feedback": "Genèse 12:17 — Mais l'Éternel frappa Pharaon et sa maison de grandes plaies, à cause de Saraï, femme d'Abram."
       },
       {
-        "text": "Reste engourdi et compte tes pertes",
-        "feedback": ""
+        "text": "L'Éternel envoie le feu sur l'Égypte",
+        "feedback": "La Genèse dit que l'Éternel a envoyé de graves maladies, pas le feu."
+      },
+      {
+        "text": "L'Éternel reste silencieux",
+        "feedback": "La Genèse dit que l'Éternel a agi ; Il a frappé la maison de Pharaon."
       }
     ]
   },
   "gifts_arrive": {
-    "title": "Le prix du silence",
-    "text": "Moutons, or, serviteurs — le paiement de Pharaon.\nChaque cadeau est comme un clou.",
+    "title": "Pharaon Te Convoque",
+    "text": "Pharaon t'appelle.\nQue dit-il ?",
     "choices": [
       {
-        "text": "Accepte-les, cache la honte",
-        "feedback": ""
+        "text": "« Qu'est-ce que tu m'as fait ? Pourquoi ne m'as-tu pas dit qu'elle était ta femme ? »",
+        "feedback": "Genèse 12:18 — « Qu'est-ce que tu m'as fait ? Pourquoi ne m'as-tu pas dit qu'elle était ta femme ? »"
       },
       {
-        "text": "Refuse-les et supplie Dieu d'agir",
-        "feedback": ""
+        "text": "« Merci pour tes cadeaux — s'il te plaît, reste »",
+        "feedback": "Pharaon a réprimandé Abram ; il ne l'a pas remercié."
       },
       {
-        "text": "Renvoye-les à Pharaon",
-        "feedback": ""
+        "text": "« Saraï restera dans ma maison pour toujours »",
+        "feedback": "Pharaon a rendu Saraï à Abram."
       }
     ]
   },
   "plagues": {
-    "title": "Dieu frappe",
-    "text": "La maladie ravage la maison de Pharaon.\nAucun guérisseur ne peut en nommer la cause.",
+    "title": "Prends-la et Va-t'en",
+    "text": "Pharaon donne son ordre.\nQue commande-t-il ?",
     "choices": [
       {
-        "text": "Sache que Dieu n'a pas oublié",
-        "feedback": ""
+        "text": "'Voici ta femme. Prends-la et va-t'en !'",
+        "feedback": "Genèse 12:19 — 'Maintenant donc, voici ta femme. Prends-la et va-t'en !'"
       },
       {
-        "text": "Crains ce que Dieu te fera",
-        "feedback": ""
+        "text": "'Tu dois rester ici comme mon serviteur pour toujours'",
+        "feedback": "Pharaon renvoya Abram avec Saraï."
+      },
+      {
+        "text": "'Je garderai Saraï et tu pourras retourner seul à Canaan'",
+        "feedback": "Pharaon rendit Saraï à Abram."
       }
     ]
   },
   "confronted": {
-    "title": "Le jugement",
-    "text": "La voix de Pharaon tremble. « Pourquoi as-tu fait cela ?\nPourquoi as-tu dit 'ma sœur' ? »",
+    "title": "Escorté Dehors",
+    "text": "Pharaon donne des ordres à ton sujet.\nQue se passe-t-il ?",
     "choices": [
       {
-        "text": "Trouve des excuses à ta peur",
-        "feedback": ""
+        "text": "Les hommes de Pharaon te renvoient, avec ta femme et tout ce que tu possèdes",
+        "feedback": "Genèse 12:20 — Alors Pharaon donna des ordres à ses hommes au sujet d'Abram, et ils le renvoyèrent, lui, sa femme et tout ce qu'il possédait."
       },
       {
-        "text": "Baisse la tête — aucune défense",
-        "feedback": ""
+        "text": "Les hommes de Pharaon te dépouillent de tous tes biens",
+        "feedback": "La Genèse dit qu'Abram partit avec sa femme et tout ce qu'il possédait."
       },
       {
-        "text": "Blâme la famine pour tout cela",
-        "feedback": ""
+        "text": "Les hommes de Pharaon te mettent aux fers",
+        "feedback": "La Genèse dit que les hommes de Pharaon renvoyèrent Abram en paix."
       }
     ]
   },
   "expelled": {
-    "title": "Renvoi",
-    "text": "« Prends ta femme. Prends tout. Va-t'en. »\nDes gardes vous accompagnent jusqu'à la frontière.",
+    "title": "Montant d'Égypte",
+    "text": "Tu quittes l'Égypte.\nOù vas-tu ?",
     "choices": [
       {
-        "text": "Avance, trop honteux pour regarder",
-        "feedback": ""
+        "text": "Monte d'Égypte vers le Néguev, avec ta femme et tout ce que tu as",
+        "feedback": "Genèse 13:1 — Abram monta donc d'Égypte vers le Néguev, avec sa femme et tout ce qu'il possédait, et Lot l'accompagna."
       },
       {
-        "text": "Tends la main à Sara en silence",
-        "feedback": ""
+        "text": "Reste en Égypte et installe-toi là pour de bon",
+        "feedback": "La Genèse dit qu'Abram monta d'Égypte."
+      },
+      {
+        "text": "Va vers l'est à travers le désert jusqu'en Assyrie",
+        "feedback": "La Genèse dit qu'Abram retourna au Néguev, dans la terre promise."
       }
     ]
   },
   "altar": {
-    "title": "L'autel",
-    "text": "De retour en terre promise, vous bâtissez des pierres.\nLa promesse tient — malgré vous.",
+    "title": "Retour à l'Autel",
+    "text": "Tu retournes à l'endroit entre Béthel et Aï,\nà l'autel que tu avais construit au début, et là tu invoques le nom de l'Éternel.",
     "choices": []
   }
 }

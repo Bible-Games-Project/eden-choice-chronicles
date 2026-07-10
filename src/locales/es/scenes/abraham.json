@@ -1,176 +1,188 @@
 {
-  "storyTitle": "El Llamado de Abraham",
+  "storyTitle": "La llamada de Abraham",
   "start": {
-    "title": "Una vida en Ur",
-    "text": "Setenta y cinco años quedan atrás.\nLa ciudad ruge. Tu corazón está inquieto.",
+    "title": "Una vida en Harán",
+    "text": "Vives en Harán con tu padre Téraj, tu esposa Sarai y tu sobrino Lot.\nTienes setenta y cinco años.",
     "choices": [
       {
-        "text": "Inclínate ante los ídolos domésticos",
-        "feedback": ""
+        "text": "Vive como Abram en Harán, de setenta y cinco años",
+        "feedback": "Génesis 12:4 — Y Abram tenía setenta y cinco años cuando salió de Harán."
       },
       {
-        "text": "Sube a la azotea y escucha",
-        "feedback": ""
+        "text": "Vive como un joven en la ciudad de Ur",
+        "feedback": "Según Génesis 12, Abram ya había dejado Ur y estaba en Harán, a la edad de setenta y cinco años."
       },
       {
-        "text": "Sepulta el anhelo en el trabajo",
-        "feedback": ""
+        "text": "Vive como rey de una gran nación",
+        "feedback": "El Génesis no describe a Abram como un rey; era un pastor errante."
       }
     ]
   },
   "the_call": {
-    "title": "La Voz",
-    "text": "Una voz, clara e inconfundible.\n\"Deja tu tierra. Ve a donde yo te muestre\".",
+    "title": "La llamada del Señor",
+    "text": "El Señor te habla.\n¿Qué te manda?",
     "choices": [
       {
-        "text": "Cúbrete los oídos con miedo",
-        "feedback": ""
+        "text": "«Vete de tu tierra, de tu parentela y de la casa de tu padre, a la tierra que te mostraré»",
+        "feedback": "Génesis 12:1 — Pero Jehová había dicho a Abram: «Vete de tu tierra, de tu parentela y de la casa de tu padre, a la tierra que te mostraré»."
       },
       {
-        "text": "Arrodíllate y responde: \"Aquí estoy\"",
-        "feedback": ""
+        "text": "«Quédate en Harán y adora a los ídolos de la casa»",
+        "feedback": "El Génesis dice que el Señor le dijo a Abram que se fuera, no que se quedara."
       },
       {
-        "text": "Exige pruebas de Su nombre",
-        "feedback": ""
+        "text": "«Constrúyeme un templo aquí en Harán»",
+        "feedback": "El Señor le dijo a Abram que fuera a una tierra que Él le mostraría."
       }
     ]
   },
   "the_promise": {
-    "title": "La Promesa",
-    "text": "\"Haré de ti una gran nación.\nTodas las naciones serán bendecidas por medio de ti\".",
+    "title": "La promesa",
+    "text": "El Señor añade Su promesa.\n¿Qué dice?",
     "choices": [
       {
-        "text": "Duda, no tienes hijo",
-        "feedback": ""
+        "text": "«Haré de ti una nación grande y te bendeciré; y serán benditas en ti todas las familias de la tierra»",
+        "feedback": "Génesis 12:2-3 — «Haré de ti una nación grande, y serán benditas en ti todas las familias de la tierra»."
       },
       {
-        "text": "Recibe las palabras en silencio",
-        "feedback": ""
+        "text": "«Te daré grandes riquezas para que las guardes para ti»",
+        "feedback": "La promesa era que todas las naciones serían bendecidas a través de Abram, no que él acumularía riquezas."
+      },
+      {
+        "text": "«Tendrás una larga vida y ningún descendiente»",
+        "feedback": "El Señor le prometió a Abram una gran nación de descendientes."
       }
     ]
   },
   "telling_sarah": {
-    "title": "Contándoselo a Sara",
-    "text": "Los ojos de Sara buscan los tuyos.\n\"¿Qué nos ha pedido esa voz?\"",
+    "title": "Tu casa",
+    "text": "Debes preparar a tu familia para el viaje.\n¿Quién va contigo?",
     "choices": [
       {
-        "text": "Oculta la verdad para protegerla",
-        "feedback": ""
+        "text": "Lleva a Sarai tu esposa y a Lot tu sobrino",
+        "feedback": "Génesis 12:5 — Tomó, pues, Abram a Sarai su mujer y a Lot hijo de su hermano, y todos sus bienes que habían ganado y las personas que habían adquirido en Harán."
       },
       {
-        "text": "Habla claro: \"Debemos irnos\"",
-        "feedback": ""
+        "text": "Deja a Sarai en Harán",
+        "feedback": "El Génesis dice que Abram se llevó a Sarai con él."
       },
       {
-        "text": "Pídele que decida por ti",
-        "feedback": ""
+        "text": "Ve solo con un bastón",
+        "feedback": "El Génesis dice que Abram se fue con toda su casa, rebaños y posesiones."
       }
     ]
   },
   "preparing": {
-    "title": "Reuniendo lo importante",
-    "text": "Tiendas. Rebaños. Unos pocos fardos.\nUna vida entera no cabe en un camello.",
+    "title": "Lo que llevas",
+    "text": "Reúnes lo que llevarás en el viaje.\n¿Qué va contigo?",
     "choices": [
       {
-        "text": "Empaca solo lo necesario",
-        "feedback": ""
+        "text": "Todos los bienes y las personas que habéis adquirido en Harán",
+        "feedback": "Génesis 12:5 — Abram tomó todos sus bienes que habían ganado y las personas que habían adquirido en Harán."
       },
       {
-        "text": "Aférrate a cada posesión",
-        "feedback": ""
+        "text": "Solo una pequeña bolsa de pan",
+        "feedback": "El Génesis dice que Abram partió con toda su casa y posesiones."
       },
       {
-        "text": "Retrasa un día más",
-        "feedback": ""
+        "text": "Un carro de oro del rey de Harán",
+        "feedback": "El Génesis no describe un carro de ningún rey."
       }
     ]
   },
   "departure": {
-    "title": "La puerta al amanecer",
-    "text": "Ur os ve marchar.\nAlgunos lloran. Otros sacuden la cabeza.",
+    "title": "Te pones en camino",
+    "text": "Ha llegado el momento de partir.\n¿Hacia dónde te diriges?",
     "choices": [
       {
-        "text": "Demórate y pierde el valor",
-        "feedback": ""
+        "text": "Ponte en camino hacia la tierra de Canaán",
+        "feedback": "Génesis 12:5 — Y salieron para ir a tierra de Canaán; y a tierra de Canaán llegaron."
       },
       {
-        "text": "Camina hacia adelante sin mirar atrás",
-        "feedback": ""
+        "text": "Ponte en camino hacia Egipto para hacerte rico",
+        "feedback": "El Génesis dice que Abram partió hacia Canaán; Egipto vino después, durante una hambruna."
+      },
+      {
+        "text": "Ponte en camino sin un destino en mente",
+        "feedback": "El Señor tenía una tierra específica en mente: Canaán."
       }
     ]
   },
   "the_road": {
-    "title": "El largo camino",
-    "text": "Sol. Arena. Un horizonte sin fin.\nSara camina a tu lado en silencio.",
+    "title": "En la tierra",
+    "text": "Viajas por la tierra de Canaán.\n¿Hasta dónde vas?",
     "choices": [
       {
-        "text": "Vuelve atrás, esto es demasiado",
-        "feedback": ""
+        "text": "Viaja hasta la gran encina de More en Siquem",
+        "feedback": "Génesis 12:6 — Abram atravesó la tierra hasta el lugar de Siquem, hasta la encina de More."
       },
       {
-        "text": "Confía en cada paso adelante",
-        "feedback": ""
+        "text": "Vuelve a Harán a mitad de camino",
+        "feedback": "Génesis dice que Abram llegó a Canaán."
       },
       {
-        "text": "Maldice el camino bajo tus pies",
-        "feedback": ""
+        "text": "Cruza el mar a una isla lejana",
+        "feedback": "Génesis dice que Abram viajó por tierra a Canaán."
       }
     ]
   },
   "doubt_night": {
-    "title": "La larga noche",
-    "text": "Dentro de la tienda, el silencio es denso.\n\"¿Y si he escuchado mal?\"",
+    "title": "El Señor se aparece",
+    "text": "En Siquem el Señor se te aparece.\n¿Qué te dice?",
     "choices": [
       {
-        "text": "Ora a través de la oscuridad",
-        "feedback": ""
+        "text": "«A tu descendencia daré esta tierra»",
+        "feedback": "Génesis 12:7 — Y se apareció Jehová a Abram, y le dijo: «A tu descendencia daré esta tierra»."
       },
       {
-        "text": "Negocia: \"Solo dame una señal\"",
-        "feedback": ""
+        "text": "«Esta tierra pertenece a otro pueblo para siempre»",
+        "feedback": "El Señor prometió la tierra a la descendencia de Abram."
       },
       {
-        "text": "Planea un regreso a Ur",
-        "feedback": ""
+        "text": "«Vuelve a Harán; te equivocaste al venir»",
+        "feedback": "El Señor confirmó la promesa en Canaán, no envió a Abram de vuelta."
       }
     ]
   },
   "stargazing": {
-    "title": "Bajo las estrellas",
-    "text": "El cielo es inmenso. Incontables luces.\n\"Así de numerosa será tu descendencia\".",
+    "title": "En Siquem",
+    "text": "Has oído la promesa. ¿Qué haces en Siquem?",
     "choices": [
       {
-        "text": "Cree la promesa tal como fue dada",
-        "feedback": ""
+        "text": "Edifica allí un altar al Señor que se te apareció",
+        "feedback": "Génesis 12:7 — Y edificó allí Abram un altar a Jehová, quien se le había aparecido."
       },
       {
-        "text": "Búrlate del voto imposible",
-        "feedback": ""
+        "text": "Construye un palacio de cedro para ti",
+        "feedback": "Génesis dice que Abram construyó un altar, no un palacio."
+      },
+      {
+        "text": "No digas nada y sigue rápidamente",
+        "feedback": "Génesis dice que Abram adoró construyendo un altar en Siquem."
       }
     ]
   },
   "canaan_arrival": {
-    "title": "La tierra de Canaán",
-    "text": "Colinas verdes. Agua corriente. Una tierra que respira.\n\"Esta tierra se la daré a tu descendencia\".",
+    "title": "Entre Betel y Hai",
+    "text": "Te mueves de Siquem a las colinas.\n¿Dónde te detienes y plantas tu tienda?",
     "choices": [
       {
-        "text": "Reclámalo en voz alta como tuyo",
-        "feedback": ""
+        "text": "Planta tu tienda en las colinas entre Betel y Hai, y construye otro altar",
+        "feedback": "Génesis 12:8 — Y se pasó de allí a un monte al oriente de Betel, y plantó su tienda, teniendo a Betel al occidente y a Hai al oriente; y edificó allí altar a Jehová, e invocó el nombre de Jehová."
       },
       {
-        "text": "Recíbelo con tranquila gratitud",
-        "feedback": ""
+        "text": "Planta tu tienda en la ciudad de Sodoma",
+        "feedback": "Génesis dice que Abram plantó su tienda entre Betel y Hai."
       },
       {
-        "text": "Pregunta: \"¿Por qué esta tierra?\"",
-        "feedback": ""
+        "text": "Navega de vuelta al otro lado del río hasta Harán",
+        "feedback": "Génesis dice que Abram continuó hacia el sur a través de Canaán."
       }
     ]
   },
   "altar": {
-    "title": "El Altar",
-    "text": "Reúnes piedras y te arrodillas.\nLa fe te ha traído hasta aquí. Te seguirá guiando.",
+    "title": "Invocando el Nombre del Señor",
+    "text": "Invocas el nombre del Señor en tu nuevo altar.\nLa promesa de una gran nación te acompaña mientras viajas hacia el Neguev.",
     "choices": []
   }
 }

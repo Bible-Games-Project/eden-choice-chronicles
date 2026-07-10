@@ -1,372 +1,278 @@
 {
-  "storyTitle": "Ofiara Izaaka",
+  "storyTitle": "Ofiarowanie Izaaka",
   "start": {
-    "title": "Głos w Nocy",
-    "text": "Ogień w twoim namiocie przygasł.\nIzaak śpi obok Sary — syn obietnicy, śmiech twojej starości.\nWtedy, w ciszy, głos, który znasz całe życie: „Abrahamie”.",
+    "title": "Bóg Doświadcza Abrahama",
+    "text": "Bóg cię wzywa.\nJak odpowiadasz?",
     "choices": [
       {
-        "text": "Odpowiedz natychmiast: „Oto ja”",
-        "feedback": "Słowo opuszcza cię, zanim strach zdoła je pochwycić. „Oto ja, Panie”."
+        "text": "Odpowiedź: „Oto jestem”",
+        "feedback": "Księga Rodzaju 22:1 — Po pewnym czasie Bóg wystawił Abrahama na próbę. Rzekł do niego: „Abrahamie!” A on odpowiedział: „Oto jestem”."
       },
       {
-        "text": "Udawaj, że nie słyszałeś",
-        "feedback": "Naciągasz koc wyżej. Głos nie ustaje."
+        "text": "Zignoruj głos i wróć do snu",
+        "feedback": "Abraham natychmiast odpowiedział Panu: „Oto jestem”."
       },
       {
-        "text": "Żądaj, by najpierw dowiedzieć się, czego chce",
-        "feedback": "Twoje serce targuje się, zanim jeszcze posłuchało. Cisza staje się cięższa."
-      }
-    ]
-  },
-  "doubt_consequence": {
-    "title": "On Nie Przechodzi Obok",
-    "text": "Głos nie ustaje. Czeka — cierpliwy, ogromny, pewny.\nNie możesz uciec od Tego, który wezwał cię z Ur.\nWstajesz z łóżka i wychodzisz na zimne powietrze.",
-    "choices": [
-      {
-        "text": "Ukłoń się nisko i odpowiedz w końcu: „Oto ja”",
-        "feedback": "Dotykasz czołem piasku. „Oto ja, Panie”."
+        "text": "Najpierw zażądaj poznania imienia Pana",
+        "feedback": "Abraham po prostu odpowiedział: „Oto jestem”."
       }
     ]
   },
   "the_command": {
     "title": "Weź Swego Syna",
-    "text": "Słowa nadchodzą, powolne i straszne:\n„Weź swego syna, jedynego syna Izaaka, którego miłujesz, i idź do ziemi Moria.\nZłóż go tam w ofierze całopalnej, na górze, którą ci wskażę.”",
+    "text": "Bóg wypowiada rozkaz.\nCo mówi?",
     "choices": [
       {
-        "text": "Odmów — z pewnością Bóg nie mógłby o to prosić",
-        "feedback": "Potrząsasz głową. Ale rozkaz nie cofa się."
+        "text": "„Weź swego syna, jedynego syna, którego miłujesz — Izaaka — i złóż go w ofierze całopalnej na górze, którą ci wskażę”",
+        "feedback": "Księga Rodzaju 22:2 — „Weź swego syna, jedynego syna, którego miłujesz — Izaaka — i idź do kraju Moria. Złóż go tam w ofierze całopalnej na jednej z gór, którą ci wskażę”."
       },
       {
-        "text": "Ukłoń się w drżącej ciszy i przyjmij",
-        "feedback": "Przywierasz twarzą do ziemi. Nie ma słów — tylko poddanie."
+        "text": "„Weź baranka ze swojej trzody i złóż go tutaj”",
+        "feedback": "Bóg nakazał Abrahamowi złożyć w ofierze Izaaka, jego syna."
       },
       {
-        "text": "Błagaj Boga, by wziął ciebie zamiast niego",
-        "feedback": "„Weź mnie, Panie — nie chłopca”. Niebiosa nie odpowiadają na tę wymianę."
-      }
-    ]
-  },
-  "refuse_consequence": {
-    "title": "Bóg, Który Go Dał",
-    "text": "Stoisz sam pod rozległymi gwiazdami.\nTo ten sam Bóg, który obiecał Izaaka, gdy łono Sary było martwe.\nDał chłopca. Jeszcze cię nie okłamał.",
-    "choices": [
-      {
-        "text": "Zaufaj Temu, który dał — i bądź posłuszny",
-        "feedback": "Twoja odmowa upada. „Ten, który dał, może też zabrać”."
-      }
-    ]
-  },
-  "bargain_consequence": {
-    "title": "Żadnej Zastępczej Ofiary",
-    "text": "Twoje targi umierają ci w gardle.\nTa próba nie jest dla twojego życia. Jest dla twojego serca.\nGwiazdy czekają nad tobą w tysiącach — te same gwiazdy, które On kiedyś obiecał.",
-    "choices": [
-      {
-        "text": "Porzuć targowanie się i bądź posłuszny",
-        "feedback": "Przestajesz się targować. Nie pozostaje nic poza zaufaniem."
+        "text": "„Zbuduj wielką świątynię w Beer-Szebie”",
+        "feedback": "Rozkaz Boga dotyczył złożenia Izaaka na górze w Moria."
       }
     ]
   },
   "the_weight": {
-    "title": "Przed Świtem",
-    "text": "Siedzisz przy dogasającym ogniu, aż niebo poszarzeje.\nIzaak cicho oddycha w pobliżu. Sara się nie porusza.\nWkrótce wzejdzie słońce — a ty musisz ruszyć, zanim twoja odwaga pęknie.",
+    "title": "Wczesnym Rankiem Następnego Dnia",
+    "text": "Wczesnym rankiem następnego dnia przygotowujesz się do podróży.\nCo robisz?",
     "choices": [
       {
-        "text": "Obudź sługi i natychmiast osiodłaj osła",
-        "feedback": "Lepiej iść, niż myśleć. Wstajesz i zaczynasz."
+        "text": "Wstań wcześnie, osiodłaj osła, weź dwóch sług i swego syna Izaaka, i narąb wystarczająco dużo drewna na ofiarę całopalną",
+        "feedback": "Księga Rodzaju 22:3 — Wczesnym rankiem Abraham wstał i osiodłał swego osła. Wziął ze sobą dwóch swoich sług i swego syna Izaaka. Gdy narąbał wystarczająco dużo drewna na ofiarę całopalną, wyruszył."
       },
       {
-        "text": "Czekaj — może nadejdzie inny znak",
-        "feedback": "Świt i tak nadchodzi. Rozkaz się nie zmienia."
+        "text": "Odmów pójścia i zostań w Beer-Szebie",
+        "feedback": "Abraham natychmiast posłuchał Boga, wstając wcześnie rano."
       },
       {
-        "text": "Obudź Sarę i opowiedz jej wszystko",
-        "feedback": "Twoja ręka unosi się nad jej ramieniem — i opada. Nie przeżyłaby rozstania."
-      }
-    ]
-  },
-  "delay_consequence": {
-    "title": "Żaden inny znak nie nadejdzie",
-    "text": "Światło narasta. Ptaki zaczynają swoje pierwsze trele.\nSłowo raz wypowiedziane nie musi być powtarzane.\nOpóźnione posłuszeństwo nie złagodzi tego, co musi się stać.",
-    "choices": [
-      {
-        "text": "Wstań i przygotuj się do podróży",
-        "feedback": "Stajesz, sztywny pod ciężarem tego, i wołasz sługi."
-      }
-    ]
-  },
-  "tell_sarah_consequence": {
-    "title": "Ona nie może tego znieść",
-    "text": "Zburzyłaby namiot.\nUczepiłaby się Izaaka i przeklęła Boga, który o to prosił.\nTo brzemię jest tylko twoje — i Izaaka, jeśli musi tak być.",
-    "choices": [
-      {
-        "text": "Wyjdź cicho i przygotuj się w milczeniu",
-        "feedback": "Wychodzisz na zewnątrz bez słowa. Świt strzeże twojej tajemnicy."
+        "text": "Poczekaj na znak, zanim wyruszysz",
+        "feedback": "Abraham wyruszył natychmiast, bez czekania."
       }
     ]
   },
   "departure": {
-    "title": "Trzy dni drogi",
-    "text": "Sam rąbiesz drewno na ofiarę całopalną — każde uderzenie siekiery cięższe od poprzedniego.\nDelikatnie budzisz Izaaka. Dwóch sług idzie z tobą.\nZiemia Moria leży trzy dni drogi na północ.",
+    "title": "W Kierunku Moria",
+    "text": "Podróżujesz w kierunku miejsca, które wskazał ci Bóg.\nJak długo podróżujesz?",
     "choices": [
       {
-        "text": "Wyrusz o świcie bez wyjaśnień",
-        "feedback": "Chłopiec podąża za tobą, śpiący i ufny. Nie oglądasz się na namiot."
+        "text": "Podróżuj przez trzy dni, aż podniesiesz wzrok i zobaczysz to miejsce w oddali",
+        "feedback": "Księga Rodzaju 22:4 — Trzeciego dnia Abraham podniósł wzrok i zobaczył to miejsce w oddali."
       },
       {
-        "text": "Skłam Izaakowi, dokąd idziecie",
-        "feedback": "Kłamstwo smakuje popiołem. Wierzy ci bez pytania — co jest gorsze."
-      }
-    ]
-  },
-  "lie_consequence": {
-    "title": "Prawda wystarczająca na dziś",
-    "text": "Nie możesz go okłamać. Nie całą prawdą — ale też nie kłamstwem.\n„Idziemy oddać cześć” – mówisz mu. „Bóg zapewni”.\nTo jest prawdziwsze, niż jeszcze rozumiesz.",
-    "choices": [
+        "text": "Podróżuj tylko jedną godzinę przed przybyciem",
+        "feedback": "Podróż do Moria trwała trzy dni."
+      },
       {
-        "text": "Idź z nim w stronę świtu",
-        "feedback": "Uśmiecha się do ciebie i bierze cię za rękę. Droga się zaczyna."
+        "text": "Podróżuj przez czterdzieści lat przez pustynię",
+        "feedback": "Księga Rodzaju mówi, że Abraham dotarł na miejsce trzeciego dnia."
       }
     ]
   },
   "the_road": {
-    "title": "Długa droga na północ",
-    "text": "Trzy dni pod rozległym, bladym niebem.\nIzaak papla o jagniętach i gwiazdach, i o tym, co Sara ugotuje, gdy wrócicie.\nKażde słowo to mały nóż — i małe miłosierdzie.",
+    "title": "Zostańcie Tutaj Z Osłem",
+    "text": "Zbliżasz się do góry.\nCo mówisz sługom?",
     "choices": [
       {
-        "text": "Słuchaj go uważnie — zachowaj każde słowo",
-        "feedback": "Pijesz jego głos, jakby to była ostatnia studnia na pustyni."
+        "text": "„Zostańcie tutaj z osłem, a ja i chłopiec pójdziemy tam. Oddamy cześć, a potem wrócimy do was”",
+        "feedback": "Księga Rodzaju 22:5 — „Zostańcie tutaj z osłem, a ja i chłopiec pójdziemy tam. Oddamy cześć, a potem wrócimy do was”."
       },
       {
-        "text": "Idź osobno i zatwardź swoje serce",
-        "feedback": "Przyspieszasz kroku przed nim. Dystans cię nie chroni."
+        "text": "„Chodźcie z nami na górę, żeby popatrzeć”",
+        "feedback": "Abraham powiedział sługom, żeby czekali z osłem."
       },
       {
-        "text": "Wróć — powiedz, że podróż była pomyłką",
-        "feedback": "Twoje stopy zwalniają. Ale nie możesz uciec przed głosem, który cię wezwał."
-      }
-    ]
-  },
-  "harden_consequence": {
-    "title": "Ojciec nie może się zatwardzić",
-    "text": "Nie możesz stać się na tyle mały, by uciec przed tym.\nJeśli Bóg niczego nie zapewni, i tak go stracisz — raz na ołtarzu, a na zawsze w swojej duszy.\nZasługuje na twoją miłość aż do ostatniego kroku.",
-    "choices": [
-      {
-        "text": "Zwolnij i idź znowu obok niego",
-        "feedback": "Dopasowujesz się do jego kroku. Uśmiecha się do ciebie. Nie zasługujesz na ten uśmiech."
-      }
-    ]
-  },
-  "turn_back_consequence": {
-    "title": "Nie ma powrotu",
-    "text": "Jeśli teraz zawrócisz, każda obietnica się rozpadnie.\nGwiazdy, które policzył, narody, które przysiągł — wszystko runie z powodu odmowy.\nWiara to droga; już na niej jesteś.",
-    "choices": [
-      {
-        "text": "Znowu skieruj się na północ i idź dalej",
-        "feedback": "Ustawiasz swoją twarz jak krzemień i idziesz z nim dalej."
+        "text": "„Zabierzcie osła do domu; nie wracamy”",
+        "feedback": "Abraham powiedział: „Wrócimy do was”."
       }
     ]
   },
   "mountain_in_sight": {
-    "title": "Góra z daleka",
-    "text": "Trzeciego dnia podnosisz oczy — i widzisz to.\nSamotny szczyt w oddali, spowity bladą mgłą.\nCoś w tobie wie, że to jest to miejsce.",
+    "title": "Drewno i Ogień",
+    "text": "Przygotowujesz się do wspinaczki na górę.\nKto co niesie?",
     "choices": [
       {
-        "text": "Powiedz sługom, żeby tu czekali z osłem",
-        "feedback": "„Zostańcie tu z osłem. Ja i chłopiec pójdziemy, by oddać cześć — i wrócimy do was”."
+        "text": "Połóż drewno na ofiarę całopalną na ramiona Izaaka; sam nieś ogień i nóż",
+        "feedback": "Księga Rodzaju 22:6 — Abraham wziął drewno do całopalenia i włożył je na swego syna Izaaka, sam zaś niósł ogień i nóż."
       },
       {
-        "text": "Zabierz sługi ze sobą, by cię wspierali",
-        "feedback": "Robisz krok w ich stronę — potem stajesz. Nie mogą tego dzielić."
-      }
-    ]
-  },
-  "servants_consequence": {
-    "title": "To nie jest dla innych oczu",
-    "text": "Jeśli będą świadkami, powstrzymają cię. Jeśli cię powstrzymają, zawiodłeś Go.\nTo jest między tobą, chłopcem i Bogiem.\nŻadna inna ręka nie może pomóc ani przeszkodzić.",
-    "choices": [
+        "text": "Sam nieś drewno, a Izaak niech nic nie niesie",
+        "feedback": "Izaak niósł drewno; Abraham niósł ogień i nóż."
+      },
       {
-        "text": "Powiedz im, żeby czekali tu u podnóża góry",
-        "feedback": "„Zostańcie tu. Wrócimy do was”. Słowa brzmią jak proroctwo, którego jeszcze nie rozumiesz."
+        "text": "Zostaw drewno u podnóża góry",
+        "feedback": "Drewno na ofiarę całopalną zostało położone na Izaaku."
       }
     ]
   },
   "leave_servants": {
-    "title": "On poniesie drewno",
-    "text": "Kładziesz wiązkę porąbanego drewna na silnych, młodych ramionach Izaaka.\nWłasnymi rękami niesiesz ogień i nóż.\nRazem zaczynacie wspinać się wąską ścieżką.",
+    "title": "Ojcze",
+    "text": "Gdy idziecie razem, Izaak odzywa się.\nCo mówi?",
     "choices": [
       {
-        "text": "Idź w milczeniu obok niego",
-        "feedback": "Krok po kroku ścieżka wije się w górę. Wiatr śpiewa w klifach."
+        "text": "„Ojcze — oto ogień i drwa, lecz gdzie jest baranek na całopalenie?”",
+        "feedback": "Księga Rodzaju 22:7 — „Ojcze, oto ogień i drwa, lecz gdzie jest baranek na całopalenie?”"
+      },
+      {
+        "text": "„Ojcze — wróćmy do domu już teraz”",
+        "feedback": "Izaak zapytał o baranka na ofiarę."
+      },
+      {
+        "text": "Izaak nic nie mówi przez całą drogę",
+        "feedback": "Księga Rodzaju odnotowuje pytanie Izaaka o baranka."
       }
     ]
   },
   "isaacs_question": {
-    "title": "Gdzie jest baranek?",
-    "text": "W połowie drogi Izaak zatrzymuje się i odwraca do ciebie.\n„Ojcze mój — oto ogień i drewno. Ale gdzie jest baranek na ofiarę całopalną?”\nJego oczy są jasne i ufne. Czeka na odpowiedź.",
+    "title": "Bóg Zaopatrzy",
+    "text": "Odpowiadasz Izaakowi.\nCo mówisz?",
     "choices": [
       {
-        "text": "„Bóg sam zapewni baranka, mój synu”",
-        "feedback": "Słowa opuszczają cię jak modlitwa. Nawet ty jeszcze nie wiesz, co one znaczą."
+        "text": "„Bóg sam sobie upatrzy baranka na całopalenie, synu mój”",
+        "feedback": "Księga Rodzaju 22:8 — „Bóg sam sobie upatrzy baranka na całopalenie, synu mój.”"
       },
       {
-        "text": "Powiedz mu prawdę — że to on jest barankiem",
-        "feedback": "Jego twarz blednie. Upuszcza drewno i potyka się do tyłu."
+        "text": "„Ty jesteś barankiem, Izaaku”",
+        "feedback": "Abraham powiedział Izaakowi, że Bóg sam zaopatrzy baranka."
       },
       {
-        "text": "Nic nie mów i idź dalej",
-        "feedback": "Czeka dłuższą chwilę. Potem cicho podąża. Coś w nim wie."
-      }
-    ]
-  },
-  "tell_truth_consequence": {
-    "title": "On nadal ci ufa",
-    "text": "Drży. Ale po długiej ciszy znowu podnosi drewno.\nNie ucieka. Nie przeklina cię.\nIdzie obok ciebie — bo ufa Bogu, któremu zawsze ufałeś.",
-    "choices": [
-      {
-        "text": "Idź z nim w nabożnej ciszy na szczyt",
-        "feedback": "Dwie wiary idą ramię w ramię ostatnim odcinkiem ścieżki."
-      }
-    ]
-  },
-  "silence_consequence": {
-    "title": "Odpowiedź wiary",
-    "text": "Nie możesz pozostawić jego pytania bez odpowiedzi — nie teraz, nigdy.\nWiara to nie cisza. Wiara to słowo wypowiedziane w ciemność.\nOdwracasz się do niego.",
-    "choices": [
-      {
-        "text": "Powiedz: „Bóg sam sobie upatrzy jagnię na całopalenie, synu mój”",
-        "feedback": "Mówisz to. Góra zdaje się wstrzymywać oddech."
+        "text": "„Nie ma baranka — wracamy teraz do domu”",
+        "feedback": "Abraham odpowiedział z wiarą: Bóg zaopatrzy."
       }
     ]
   },
   "summit": {
-    "title": "Miejsce, które wskazał",
-    "text": "Docierasz na miejsce. Wiatr cichnie.\nZaczynasz zbierać kamienie. Izaak klęka i pomaga ci, jego małe ręce obok twoich.\nOłtarz wznosi się — surowy, święty, straszny.",
+    "title": "Ołtarz",
+    "text": "Docierasz do miejsca, o którym powiedział ci Bóg.\nCo tam budujesz?",
     "choices": [
       {
-        "text": "Ułóż drwa na kamieniach",
-        "feedback": "Każdy kawałek drewna kładziesz z troską. Ołtarz jest gotowy."
+        "text": "Zbuduj ołtarz, ułóż na nim drewno, zwiąż Izaaka i połóż go na ołtarzu, na drewnie",
+        "feedback": "Księga Rodzaju 22:9 — A gdy przyszli na miejsce, które mu Bóg wskazał, Abraham zbudował tam ołtarz i ułożył na nim drwa. Potem związał swego syna Izaaka i położył go na ołtarzu, na drwach."
       },
       {
-        "text": "Zatrzymaj się — nie możesz tego zrobić",
-        "feedback": "Twoje ręce opadają wzdłuż ciała. Wiatr wzmaga się wokół ciebie."
-      }
-    ]
-  },
-  "stop_consequence": {
-    "title": "Wiara, która wierzy w zmartwychwstanie",
-    "text": "Twoje ręce drżą. Wtedy ogarnia cię myśl — starsza niż samo przykazanie:\n„Ten, który dał Izaaka z martwego łona, może go przywrócić z martwych”.\nWierzysz w to. Nie rozumiesz tego. Ale wierzysz.",
-    "choices": [
+        "text": "Zamiast tego zbuduj świątynię innemu bogu",
+        "feedback": "Abraham zbudował ołtarz Panu, dokładnie tak, jak mu nakazano."
+      },
       {
-        "text": "Weź drwa i dokończ to, co zostało rozpoczęte",
-        "feedback": "Twoje ręce są pewne. Dokończasz ołtarz."
+        "text": "Odmów budowania czegokolwiek i zawróć",
+        "feedback": "Abraham posłuchał i zbudował ołtarz."
       }
     ]
   },
   "the_binding": {
-    "title": "Nie stawiał oporu",
-    "text": "Odwracasz się do Izaaka. Nie ma słów — tylko twoje oczy spotykające się z jego.\nOn widzi. On rozumie. I nie ucieka.\nKlęka. Pozwala ci związać mu ręce. Kładzie się na drewnie.",
+    "title": "Nóż",
+    "text": "Izaak jest związany na ołtarzu.\nCo robisz dalej?",
     "choices": [
       {
-        "text": "Pocałuj go w czoło i podnieś nóż",
-        "feedback": "Jego łza spotyka twoją łzę. Podnosisz nóż."
+        "text": "Wyciągnij rękę i weź nóż, aby zabić swego syna",
+        "feedback": "Księga Rodzaju 22:10 — Potem wyciągnął rękę i wziął nóż, aby zabić swego syna."
       },
       {
-        "text": "Uwolnij go — uciekaj od ołtarza",
-        "feedback": "Twoja ręka znajduje sznur — ale zatrzymuje się. Cofnięcie się teraz sprawiłoby, że cała jego odwaga byłaby bezwartościowa."
-      }
-    ]
-  },
-  "flee_consequence": {
-    "title": "Jego wiara cię trzyma",
-    "text": "Chłopiec leży nieruchomo pod tobą, z zamkniętymi oczami, spokojnie oddychając.\nUfa. Ofiarowuje się razem z tobą.\nJeśli uciekniesz, zdradzisz nie tylko Boga — ale i własne poddanie się Izaaka.",
-    "choices": [
+        "text": "Odłóż nóż i odmów",
+        "feedback": "Abraham wyciągnął nóż, aby w pełni posłuchać Boga."
+      },
       {
-        "text": "Stój z nim do końca — podnieś nóż",
-        "feedback": "Podnosisz nóż nad nim, obie ręce drżą."
+        "text": "Rozwiąż Izaaka i ucieknij w dół góry",
+        "feedback": "Abraham podniósł nóż w posłuszeństwie; nie uciekł."
       }
     ]
   },
   "the_knife": {
-    "title": "Abrahamie! Abrahamie!",
-    "text": "Ostrze wznosi się wysoko. Twoje ramiona są jak kamień.\nW najwyższym punkcie — głos rozdziera niebo:\n„Abrahamie! Abrahamie!”",
+    "title": "Anioł Pana",
+    "text": "Anioł Pana woła do ciebie z nieba.\nCo mówi?",
     "choices": [
       {
-        "text": "Odpowiedz natychmiast: „Oto jestem”",
-        "feedback": "Nóż zatrzymuje się. „Oto jestem, Panie.”"
+        "text": "„Abrahamie! Abrahamie! Nie podnoś ręki na chłopca. Nie czyń mu nic złego”",
+        "feedback": "Księga Rodzaju 22:11-12 — „Abrahamie! Abrahamie!” „Oto jestem” — odpowiedział. „Nie podnoś ręki na chłopca” — powiedział. „Nie czyń mu nic złego.”"
       },
       {
-        "text": "Uderz, zanim nadejdzie kolejne polecenie",
-        "feedback": "Twoje ramię napina się — potem blokuje. Nie możesz. Głos ma pierwszeństwo."
-      }
-    ]
-  },
-  "strike_consequence": {
-    "title": "Próba to nie krew",
-    "text": "Twoje ramię się nie poruszy.\nBóg nie prosił o śmierć — prosił o serce, które by tę śmierć oddało.\nDałeś Mu to serce. Ostrze już wykonało swoją pracę.",
-    "choices": [
+        "text": "„Uderz chłopca szybko — nie zwlekaj”",
+        "feedback": "Anioł powstrzymał Abrahama przed skrzywdzeniem Izaaka."
+      },
       {
-        "text": "Opuść nóż i odpowiedz głosowi: „Oto jestem”",
-        "feedback": "Nóż wypada ci z ręki w pył. „Oto jestem.”"
+        "text": "Anioł nic nie mówi",
+        "feedback": "Anioł zawołał wyraźnie i powstrzymał Abrahama."
       }
     ]
   },
   "the_stay": {
-    "title": "Nie podnoś ręki na chłopca",
-    "text": "„Nie podnoś ręki na chłopca. Nic mu nie czyń.\nBo teraz wiem, że boisz się Boga — bo nie odmówiłeś Mi swego syna, jedynego syna”.\nUpadasz na kolana obok niego. Świat znowu oddycha.",
+    "title": "Teraz Wiem",
+    "text": "Anioł wyjaśnia, dlaczego zostałeś zatrzymany.\nCo mówi?",
     "choices": [
       {
-        "text": "Uwolnij ręce Izaaka i podnieś go z drewna",
-        "feedback": "Twoje drżące palce uwalniają go. Przytula się do ciebie i płacze."
+        "text": "„Teraz wiem, że boisz się Boga, bo nie odmówiłeś Mi swego syna, jedynego syna”",
+        "feedback": "Księga Rodzaju 22:12 — „Teraz wiem, że boisz się Boga, bo nie odmówiłeś Mi swego syna, jedynego syna.”"
+      },
+      {
+        "text": "'Nie zdałeś testu; wracaj do domu ze wstydem'",
+        "feedback": "Anioł pochwalił posłuszeństwo Abrahama."
+      },
+      {
+        "text": "'Izaak musi umrzeć; spróbuj ponownie jutro'",
+        "feedback": "Anioł nakazał Abrahamowi, aby nie krzywdził Izaaka."
       }
     ]
   },
   "the_ram": {
-    "title": "Złapany w gąszczu",
-    "text": "Podnosisz oczy — a tam, w zaroślach za ołtarzem, baran stoi uwięziony rogami w gąszczu.\nNie przyszedł ścieżką. Po prostu tam jest.\nBóg zapewnił.",
+    "title": "Baran w gąszczu",
+    "text": "Podnosisz wzrok.\nCo widzisz uwięzione w gąszczu?",
     "choices": [
       {
-        "text": "Weź barana i złóż go w ofierze zamiast Izaaka",
-        "feedback": "Uwalniasz barana i kładziesz go na drewnie. Ogień wzbija się."
+        "text": "Baran zaplątany rogami w gąszczu — bierzesz go i składasz w ofierze całopalnej zamiast syna",
+        "feedback": "Księga Rodzaju 22:13 — Abraham podniósł wzrok i zobaczył barana, który rogami uwięził się w zaroślach. Podszedł, wziął barana i złożył go w ofierze całopalnej zamiast swego syna."
       },
       {
-        "text": "Odmów — nie składaj teraz żadnej ofiary",
-        "feedback": "Stoisz zamrożony. Baran czeka. Ołtarz czeka."
-      }
-    ]
-  },
-  "no_sacrifice_consequence": {
-    "title": "Należy Dokończyć Kult",
-    "text": "Przyszedłeś oddać cześć. Ołtarz wciąż woła o ofiarę.\nBóg ją zapewnił — przyjęcie jej jest ostatnim aktem posłuszeństwa.\nNieofiarowanie jej to pogarda dla miłosierdzia.",
-    "choices": [
+        "text": "Gołębica latająca nad ołtarzem",
+        "feedback": "Abraham zobaczył barana uwięzionego rogami w gąszczu."
+      },
       {
-        "text": "Weź barana i dokończ ofiarę",
-        "feedback": "Uwalniasz barana i kładziesz go na drewnie. Dym wznosi się prosto do nieba."
+        "text": "Nic — ołtarz pozostaje pusty",
+        "feedback": "Bóg zapewnił barana uwięzionego w gąszczu."
       }
     ]
   },
   "the_name": {
-    "title": "Pan Zapewni",
-    "text": "Nazywasz to miejsce Jahwe-Jireh — „Pan Zapewni”.\nIzaak stoi obok ciebie, żywy, oddychający, jego mała dłoń w twojej.\nDym barana unosi się w szerokie, blade niebo.",
+    "title": "Pan zaopatrzy",
+    "text": "Nazywasz to miejsce, aby upamiętnić to, co się wydarzyło.\nJaką nazwę mu nadajesz?",
     "choices": [
       {
-        "text": "Pokłoń się i słuchaj — głos jeszcze nie skończył",
-        "feedback": "Pochylasz głowę. Głos rozbrzmiewa ponownie, tym razem łagodniej."
+        "text": "'Pan zaopatrzy' (Jahwe Jire)",
+        "feedback": "Księga Rodzaju 22:14 — I nazwał Abraham to miejsce: „Pan zaopatruje”."
+      },
+      {
+        "text": "'Miejsce żałoby'",
+        "feedback": "Abraham nazwał je „Pan zaopatrzy”."
+      },
+      {
+        "text": "'Góra Ognia'",
+        "feedback": "Abraham nazwał to miejsce „Pan zaopatrzy”."
       }
     ]
   },
   "the_blessing": {
-    "title": "Przysiągłem na Siebie Samego",
-    "text": "„Przysiągłem na Siebie Samego, mówi Pan:\nponieważ to uczyniłeś i nie odmówiłeś mi jedynego syna,\nna pewno cię pobłogosławię i rozmnożę twoje potomstwo jak gwiazdy na niebie i jak piasek na brzegu morza.\nW twoim potomstwie będą błogosławione wszystkie narody ziemi — ponieważ usłuchałeś Mojego głosu.”",
+    "title": "Przysięga",
+    "text": "Anioł Pana woła do ciebie po raz drugi z nieba.\nJaka to obietnica?",
     "choices": [
       {
-        "text": "Weź Izaaka za rękę i rozpocznij długą drogę do domu",
-        "feedback": "Razem zwracacie się w stronę ścieżki, niebo płonie złotem wokół was."
+        "text": "'Będę ci błogosławił obficie i rozmnożę potomstwo twoje jak gwiazdy na niebie i jak piasek na brzegu morza; przez potomstwo twoje będą błogosławione wszystkie narody ziemi'",
+        "feedback": "Księga Rodzaju 22:16-18 — „Przysięgam na siebie samego... Będę ci błogosławił obficie i rozmnożę potomstwo twoje jak gwiazdy na niebie i jak piasek na brzegu morza... i przez potomstwo twoje będą błogosławione wszystkie narody ziemi, ponieważ usłuchałeś głosu mego”."
+      },
+      {
+        "text": "'Twoje potomstwo będzie nieliczne i zapomniane'",
+        "feedback": "Pan obiecał potomstwo liczne jak gwiazdy i piasek."
+      },
+      {
+        "text": "'Stracisz wszystko, co masz, jako karę'",
+        "feedback": "Pan pobłogosławił Abrahama za jego posłuszeństwo."
       }
     ]
   },
   "homecoming": {
-    "title": "Znowu Przyszliśmy",
-    "text": "Schodzicie razem z góry, gdy gwiazdy zaczynają się ukazywać.\nSłudzy czekają tam, gdzie ich zostawiłeś.\n„Znowu przyszliśmy do ciebie” – mówisz – a to jest prawdziwsze, niż kiedykolwiek się dowiedzą.",
+    "title": "Powrót do Beer-Szeby",
+    "text": "Abraham wraca do swoich sług i razem wyruszają do Beer-Szeby.\nI Abraham zamieszkuje w Beer-Szebie.",
     "choices": []
   }
 }

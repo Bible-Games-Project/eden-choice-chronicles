@@ -1,164 +1,188 @@
 {
-  "storyTitle": "Destruction of Sodom and Gomorrah",
+  "storyTitle": "The Destruction of Sodom",
   "start": {
-    "title": "The Gate at Dusk",
-    "text": "You sit at the gate of Sodom.\nThe city laughs loudly under a red sky.",
+    "title": "At the Gate of Sodom",
+    "text": "It is evening. You are sitting in the gateway of the city of Sodom.\nTwo angels arrive at Sodom. What do you do?",
     "choices": [
       {
-        "text": "Join the laughter to fit in",
-        "feedback": ""
+        "text": "Get up to meet them and bow down with your face to the ground",
+        "feedback": "Genesis 19:1 — When Lot saw them, he got up to meet them and bowed down with his face to the ground."
       },
       {
-        "text": "Watch quietly, troubled in spirit",
-        "feedback": ""
+        "text": "Turn away and ignore the strangers",
+        "feedback": "Genesis says Lot rose and bowed before them."
+      },
+      {
+        "text": "Chase them out of the city with a staff",
+        "feedback": "Genesis says Lot welcomed them respectfully."
       }
     ]
   },
   "wickedness": {
-    "title": "The City's Heart",
-    "text": "Cruelty in the streets. The weak are mocked.\nYour conscience aches and aches.",
+    "title": "Come to My House",
+    "text": "You speak to the two strangers.\nWhat do you say?",
     "choices": [
       {
-        "text": "Pretend you didn't see it",
-        "feedback": ""
+        "text": "'My lords, please turn aside to your servant's house; you can wash your feet and spend the night'",
+        "feedback": "Genesis 19:2 — 'My lords, please turn aside to your servant's house. You can wash your feet and spend the night and then go on your way early in the morning.'"
       },
       {
-        "text": "Grieve in silence and pray",
-        "feedback": ""
+        "text": "'Leave Sodom at once — it is not safe here'",
+        "feedback": "Lot urged them to spend the night at his house."
       },
       {
-        "text": "Boast of your standing here",
-        "feedback": ""
+        "text": "'Sleep here in the square as you planned'",
+        "feedback": "Lot insisted the angels come home with him rather than stay in the square."
       }
     ]
   },
   "strangers": {
-    "title": "Two Strangers",
-    "text": "Two travelers approach the gate.\nSomething in them is not of this world.",
+    "title": "A Meal in Your House",
+    "text": "The angels come home with you.\nWhat do you prepare for them?",
     "choices": [
       {
-        "text": "Bow and offer them your home",
-        "feedback": ""
+        "text": "Prepare a meal for them, baking bread without yeast",
+        "feedback": "Genesis 19:3 — He prepared a meal for them, baking bread without yeast, and they ate."
       },
       {
-        "text": "Warn them off and walk away",
-        "feedback": ""
+        "text": "Offer them only water and send them to bed",
+        "feedback": "Lot baked bread and prepared a meal for them."
       },
       {
-        "text": "Demand to know who they are",
-        "feedback": ""
+        "text": "Offer them a lamb roasted with fire",
+        "feedback": "Genesis specifies unleavened bread, not roasted lamb."
       }
     ]
   },
   "welcome": {
-    "title": "Under Your Roof",
-    "text": "They follow you home. Bread is broken.\nOutside, the city begins to stir.",
+    "title": "The Men of the City",
+    "text": "Before you go to bed, all the men of Sodom — young and old — surround the house.\nWhat do they demand?",
     "choices": [
       {
-        "text": "Bolt every door and keep watch",
-        "feedback": ""
+        "text": "'Where are the men who came to you tonight? Bring them out to us'",
+        "feedback": "Genesis 19:5 — They called to Lot, 'Where are the men who came to you tonight? Bring them out to us so that we can have sex with them.'"
       },
       {
-        "text": "Leave the door wide open",
-        "feedback": ""
+        "text": "'Give us food and gold from your house'",
+        "feedback": "The men demanded Lot's guests, not gold."
+      },
+      {
+        "text": "'Welcome us to eat with the strangers'",
+        "feedback": "The men of Sodom came with hostile intent, not a friendly request."
       }
     ]
   },
   "mob": {
-    "title": "Voices at the Door",
-    "text": "A crowd shouts. Fists pound the wood.\n\"Send them out to us!\"",
+    "title": "At the Door",
+    "text": "You go outside to speak to the crowd.\nWhat do you do with the door?",
     "choices": [
       {
-        "text": "Hand the guests over to save yourself",
-        "feedback": ""
+        "text": "Go out to them and shut the door behind you",
+        "feedback": "Genesis 19:6 — Lot went outside to meet them and shut the door behind him."
       },
       {
-        "text": "Stand in the doorway and refuse",
-        "feedback": ""
+        "text": "Leave the door wide open so the guests can flee",
+        "feedback": "Lot shut the door behind him to protect the guests."
+      },
+      {
+        "text": "Hand the guests over to the crowd yourself",
+        "feedback": "Lot pleaded with the men not to harm his guests."
       }
     ]
   },
   "angels_warn": {
-    "title": "The Warning",
-    "text": "The strangers speak. \"This city is finished.\nTake your family. Leave now.\"",
+    "title": "Pulled Inside",
+    "text": "The crowd surges to break down the door.\nWhat do the angels do?",
     "choices": [
       {
-        "text": "Argue — your life is here",
-        "feedback": ""
+        "text": "The angels reach out, pull you back into the house, and strike the men with blindness",
+        "feedback": "Genesis 19:10-11 — The men inside reached out and pulled Lot back into the house and shut the door. Then they struck the men at the door with blindness."
       },
       {
-        "text": "Believe — gather your family",
-        "feedback": ""
+        "text": "The angels open the door and let the crowd inside",
+        "feedback": "The angels pulled Lot in and struck the crowd with blindness."
       },
       {
-        "text": "Bargain for more time",
-        "feedback": ""
+        "text": "The angels vanish silently and abandon you",
+        "feedback": "The angels rescued Lot and stayed with him."
       }
     ]
   },
   "sons_in_law": {
-    "title": "Pleading with Family",
-    "text": "Your daughters' betrothed laugh in your face.\n\"Old man — you dream of fire.\"",
+    "title": "Warn Your Family",
+    "text": "The angels tell you to warn your relatives about the coming destruction.\nHow do your sons-in-law respond?",
     "choices": [
       {
-        "text": "Stay and try to convince them",
-        "feedback": ""
+        "text": "Your sons-in-law think you are joking",
+        "feedback": "Genesis 19:14 — Lot went out and spoke to his sons-in-law, but they thought he was joking."
       },
       {
-        "text": "Beg once more, then turn back home",
-        "feedback": ""
+        "text": "Your sons-in-law believe you and follow at once",
+        "feedback": "The sons-in-law did not take Lot seriously."
+      },
+      {
+        "text": "Your sons-in-law kill you for the warning",
+        "feedback": "Genesis says they thought Lot was joking."
       }
     ]
   },
   "urge": {
-    "title": "Dawn — Take My Hand",
-    "text": "The angel grips your wrist. \"Hurry!\nDo not look back. Flee to the hills.\"",
+    "title": "Dawn — Flee for Your Lives",
+    "text": "As dawn breaks, the angels urge you to hurry.\nWhat do they say?",
     "choices": [
       {
-        "text": "Linger to gather your gold",
-        "feedback": ""
+        "text": "'Flee for your lives! Don't look back, and don't stop anywhere in the plain! Flee to the mountains'",
+        "feedback": "Genesis 19:17 — 'Flee for your lives! Don't look back, and don't stop anywhere in the plain! Flee to the mountains or you will be swept away!'"
       },
       {
-        "text": "Go now — leave everything",
-        "feedback": ""
+        "text": "'Take your gold and hide inside the city'",
+        "feedback": "The angels commanded Lot to flee to the mountains, not to hide."
       },
       {
-        "text": "Question where to run",
-        "feedback": ""
+        "text": "'Wait a few more days before leaving'",
+        "feedback": "The angels said 'Flee!' urgently, not to wait."
       }
     ]
   },
   "flee": {
-    "title": "The Road from the City",
-    "text": "Your wife and daughters run beside you.\nBehind, a roar begins to climb the sky.",
+    "title": "Fire from Heaven",
+    "text": "You reach the town of Zoar as the sun rises.\nWhat does the Lord do to Sodom and Gomorrah?",
     "choices": [
       {
-        "text": "Glance back to see if it's real",
-        "feedback": ""
+        "text": "The Lord rains down burning sulfur out of the heavens on Sodom and Gomorrah",
+        "feedback": "Genesis 19:24 — Then the Lord rained down burning sulfur on Sodom and Gomorrah — from the Lord out of the heavens."
       },
       {
-        "text": "Keep your eyes fixed forward",
-        "feedback": ""
+        "text": "The Lord sends a great flood over the cities",
+        "feedback": "Genesis says burning sulfur fell from heaven, not a flood."
+      },
+      {
+        "text": "The Lord spares the cities and lets them stand",
+        "feedback": "Sodom and Gomorrah were destroyed by fire from heaven."
       }
     ]
   },
   "wife_looks": {
-    "title": "She Looked",
-    "text": "Your wife turns. Her body stills, then whitens.\nA pillar of salt in the dawn.",
+    "title": "She Looked Back",
+    "text": "Your wife is behind you.\nWhat happens to her?",
     "choices": [
       {
-        "text": "Stop and weep over her",
-        "feedback": ""
+        "text": "She looks back and becomes a pillar of salt",
+        "feedback": "Genesis 19:26 — But Lot's wife looked back, and she became a pillar of salt."
       },
       {
-        "text": "Cry out — and keep running with the girls",
-        "feedback": ""
+        "text": "She runs safely into Zoar with you",
+        "feedback": "Lot's wife looked back and was turned into a pillar of salt."
+      },
+      {
+        "text": "She turns into a bird and flies away",
+        "feedback": "Genesis says she became a pillar of salt."
       }
     ]
   },
   "aftermath": {
-    "title": "Zoar at Sunrise",
-    "text": "Smoke darkens the plain behind you.\nYou sit in the dust. Spared. Hollow. Alive.",
+    "title": "The Smoke of the Plain",
+    "text": "Early in the morning, Abraham gets up and looks down toward Sodom.\nHe sees dense smoke rising from the land, like smoke from a furnace.\nGod remembered Abraham, and He brought Lot out of the catastrophe.",
     "choices": []
   }
 }

@@ -1,136 +1,188 @@
 {
   "storyTitle": "Abraham and Lot",
   "start": {
-    "title": "Two Households",
-    "text": "Your flocks and Lot's fill the same valley.\nThe land groans under so much life.",
+    "title": "Very Wealthy",
+    "text": "You come back from Egypt to the Negev, and then to the hills between Bethel and Ai.\nHow wealthy are you now?",
     "choices": [
       {
-        "text": "Ignore the strain — push on",
-        "feedback": ""
+        "text": "Very wealthy — in livestock, silver and gold",
+        "feedback": "Genesis 13:2 — Abram had become very wealthy in livestock and in silver and gold."
       },
       {
-        "text": "Notice the trouble forming",
-        "feedback": ""
+        "text": "Poor and empty-handed from the journey",
+        "feedback": "Genesis says Abram came out of Egypt very wealthy."
+      },
+      {
+        "text": "The same as before, with no change",
+        "feedback": "Genesis says Abram had grown very wealthy."
       }
     ]
   },
   "tension": {
-    "title": "Crowded Wells",
-    "text": "Two flocks. One well. The shepherds' voices rise.\nSomething must give.",
+    "title": "The Land Cannot Support You",
+    "text": "Both you and your nephew Lot have flocks, herds and tents.\nWhat is the trouble?",
     "choices": [
       {
-        "text": "Claim the well by right of age",
-        "feedback": ""
+        "text": "The land cannot support you both together, for your possessions are too great",
+        "feedback": "Genesis 13:6 — The land could not support them while they stayed together, for their possessions were so great."
       },
       {
-        "text": "Listen first, judge nothing yet",
-        "feedback": ""
+        "text": "You have too little livestock to feed anyone",
+        "feedback": "The trouble was too much livestock for the land, not too little."
       },
       {
-        "text": "Drive Lot's flocks away",
-        "feedback": ""
+        "text": "A great enemy is attacking both camps",
+        "feedback": "Genesis says the strain was from crowded flocks, not from war."
       }
     ]
   },
   "quarrel": {
-    "title": "The Herdsmen Clash",
-    "text": "Staffs raised. Shouts in the dust.\nA blow could break everything between you.",
+    "title": "Strife Between the Herdsmen",
+    "text": "Trouble breaks out.\nWhat happens?",
     "choices": [
       {
-        "text": "Order your men to strike first",
-        "feedback": ""
+        "text": "Quarreling breaks out between your herdsmen and Lot's herdsmen",
+        "feedback": "Genesis 13:7 — And quarreling arose between Abram's herders and Lot's herders."
       },
       {
-        "text": "Step between them — call peace",
-        "feedback": ""
+        "text": "Peace and joy spread through both camps",
+        "feedback": "Genesis says quarrels broke out between the herdsmen."
+      },
+      {
+        "text": "Lot's herdsmen leave without a word",
+        "feedback": "Genesis says they quarreled, not that they simply left."
       }
     ]
   },
   "decision": {
-    "title": "Speaking to Lot",
-    "text": "You take Lot aside. \"We are family.\nLet there be no strife between us.\"",
+    "title": "You Speak to Lot",
+    "text": "You want to end the strife.\nWhat do you say to Lot?",
     "choices": [
       {
-        "text": "Demand he leave at once",
-        "feedback": ""
+        "text": "'Let's not have any quarreling between you and me — we are close relatives'",
+        "feedback": "Genesis 13:8 — 'Let's not have any quarreling between you and me, or between your herders and mine, for we are close relatives.'"
       },
       {
-        "text": "Offer him the first choice",
-        "feedback": ""
+        "text": "'You must leave at once — you are not my equal'",
+        "feedback": "Abram spoke kindly, appealing to their family bond."
       },
       {
-        "text": "Cling to your seniority",
-        "feedback": ""
+        "text": "Say nothing and drive Lot out",
+        "feedback": "Genesis records Abram's peaceful words to Lot."
       }
     ]
   },
   "offering": {
-    "title": "The Open Hand",
-    "text": "\"If you go left, I go right.\nIf you go right, I go left. Choose.\"",
+    "title": "First Choice",
+    "text": "You offer Lot a choice.\nWhat do you say?",
     "choices": [
       {
-        "text": "Hope quietly he picks the lesser",
-        "feedback": ""
+        "text": "'If you go to the left, I'll go to the right; if you go to the right, I'll go to the left'",
+        "feedback": "Genesis 13:9 — 'If you go to the left, I'll go to the right; if you go to the right, I'll go to the left.'"
       },
       {
-        "text": "Mean every word — release the land",
-        "feedback": ""
+        "text": "'I am the elder — I will choose first'",
+        "feedback": "Abram let Lot choose first, though he was the elder."
+      },
+      {
+        "text": "'We will both stay here and share every well'",
+        "feedback": "Abram proposed they part ways, so the strife would end."
       }
     ]
   },
   "lots_choice": {
-    "title": "Lot Looks East",
-    "text": "Lot sees the Jordan plain — green, watered, rich.\nHe chooses it without hesitation.",
+    "title": "Lot Looks Up",
+    "text": "Lot looks around at the land.\nWhat does he choose?",
     "choices": [
       {
-        "text": "Resent him for taking the best",
-        "feedback": ""
+        "text": "Lot chooses the whole plain of the Jordan, well watered like the garden of the Lord",
+        "feedback": "Genesis 13:10-11 — Lot looked up and saw that the whole plain of the Jordan was well watered, like the garden of the Lord; so Lot chose for himself the whole plain of the Jordan."
       },
       {
-        "text": "Bless him and let him go",
-        "feedback": ""
+        "text": "Lot chooses the dry hill country",
+        "feedback": "Lot chose the well-watered plain of the Jordan."
       },
       {
-        "text": "Try to change his mind",
-        "feedback": ""
+        "text": "Lot refuses to choose and stays with Abram",
+        "feedback": "Genesis says Lot chose the Jordan plain and parted from Abram."
       }
     ]
   },
   "lot_departs": {
     "title": "The Parting",
-    "text": "Lot's flocks move toward the plain.\nThe dust of his road settles slowly.",
+    "text": "You and Lot part ways.\nWhere does Lot go?",
     "choices": [
       {
-        "text": "Stand and watch him without bitterness",
-        "feedback": ""
+        "text": "Lot sets out toward the east and pitches his tents near Sodom",
+        "feedback": "Genesis 13:11-12 — Lot set out toward the east; he pitched his tents near Sodom."
       },
       {
-        "text": "Turn away — refuse to see",
-        "feedback": ""
+        "text": "Lot travels far west across the sea",
+        "feedback": "Lot went east, toward the plain and near Sodom."
+      },
+      {
+        "text": "Lot goes back to Haran",
+        "feedback": "Lot went east toward the plain of the Jordan, near Sodom."
       }
     ]
   },
   "remaining": {
-    "title": "What Is Left",
-    "text": "The hills are dry, the valley quiet.\nYou are alone with the land God gave.",
+    "title": "Where You Live",
+    "text": "Lot is gone.\nWhere do you live?",
     "choices": [
       {
-        "text": "Mourn what you released",
-        "feedback": ""
+        "text": "Live in the land of Canaan",
+        "feedback": "Genesis 13:12 — Abram lived in the land of Canaan, while Lot lived among the cities of the plain."
       },
       {
-        "text": "Build an altar in gratitude",
-        "feedback": ""
+        "text": "Live in the plain of the Jordan near Sodom",
+        "feedback": "Lot lived near Sodom; Abram stayed in Canaan."
       },
       {
-        "text": "Count what you lost in flocks",
-        "feedback": ""
+        "text": "Live in Egypt",
+        "feedback": "Abram had left Egypt; he lived now in Canaan."
       }
     ]
   },
   "the_promise": {
-    "title": "Lift Your Eyes",
-    "text": "\"All the land you see — I give to you.\nYour offspring will be as the dust.\"",
+    "title": "Lift Up Your Eyes",
+    "text": "The Lord speaks to you after Lot has parted from you.\nWhat does He say?",
+    "choices": [
+      {
+        "text": "'Lift up your eyes; all the land you see I will give to you and your offspring forever'",
+        "feedback": "Genesis 13:14-15 — 'Look around from where you are, to the north and south, to the east and west. All the land that you see I will give to you and your offspring forever.'"
+      },
+      {
+        "text": "'You will lose this land to Lot's descendants'",
+        "feedback": "The Lord promised the land to Abram's offspring forever."
+      },
+      {
+        "text": "'Return to Haran; the land is not yours'",
+        "feedback": "The Lord confirmed the gift of the land to Abram."
+      }
+    ]
+  },
+  "mamre": {
+    "title": "Walk Through the Land",
+    "text": "The Lord tells you what to do next.\nWhat is it?",
+    "choices": [
+      {
+        "text": "'Go, walk through the length and breadth of the land, for I am giving it to you'",
+        "feedback": "Genesis 13:17 — 'Go, walk through the length and breadth of the land, for I am giving it to you.'"
+      },
+      {
+        "text": "'Stay in one place and never travel again'",
+        "feedback": "The Lord told Abram to walk through the land."
+      },
+      {
+        "text": "'Give the land back to the Canaanites'",
+        "feedback": "The Lord gave the land to Abram and his offspring."
+      }
+    ]
+  },
+  "altar": {
+    "title": "The Great Trees of Mamre",
+    "text": "So you move your tents and go to live near the great trees of Mamre at Hebron,\nwhere you build an altar to the Lord.",
     "choices": []
   }
 }

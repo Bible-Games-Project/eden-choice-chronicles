@@ -1,372 +1,278 @@
 {
-  "storyTitle": "El Sacrificio de Isaac",
+  "storyTitle": "El sacrificio de Isaac",
   "start": {
-    "title": "Una voz en la noche",
-    "text": "El fuego de tu tienda ha menguado.\nIsaac duerme junto a Sara —el hijo de la promesa, la risa de tu vejez.\nEntonces, en el silencio, una voz que has conocido toda tu vida: «Abraham».",
+    "title": "Dios pone a prueba a Abraham",
+    "text": "Dios te llama.\n¿Cómo respondes?",
     "choices": [
       {
-        "text": "Responde al instante: \"Aquí estoy\"",
-        "feedback": "La palabra te abandona antes de que el miedo pueda atraparla. \"Aquí estoy, Señor.\""
+        "text": "Respuesta: «Aquí estoy»",
+        "feedback": "Génesis 22:1 — Algún tiempo después, Dios puso a prueba a Abraham. Le dijo: «¡Abraham!». Él respondió: «Aquí estoy»."
       },
       {
-        "text": "Finge que no has oído",
-        "feedback": "Te subes la manta. La voz no se va."
+        "text": "Ignora la voz y vuelve a dormir",
+        "feedback": "Abraham respondió al Señor de inmediato: «Aquí estoy»."
       },
       {
-        "text": "Exige saber qué quiere Él primero",
-        "feedback": "Tu corazón negocia antes incluso de haber escuchado. El silencio se vuelve más pesado."
-      }
-    ]
-  },
-  "doubt_consequence": {
-    "title": "Él no pasa de largo",
-    "text": "La voz no se va. Espera —paciente, inmensa, segura.\nNo puedes huir de Aquel que te llamó de Ur.\nTe levantas de la cama y sales al aire frío.",
-    "choices": [
-      {
-        "text": "Inclínate y responde por fin: \"Aquí estoy\"",
-        "feedback": "Tocaste la arena con la frente. \"Aquí estoy, Señor.\""
+        "text": "Exige saber el nombre del Señor primero",
+        "feedback": "Abraham simplemente respondió: «Aquí estoy»."
       }
     ]
   },
   "the_command": {
     "title": "Toma a tu hijo",
-    "text": "Las palabras llegan, lentas y terribles:\n«Toma a tu hijo, tu único hijo Isaac, a quien amas, y ve a la tierra de Moriah.\nOfrécelo allí en holocausto, en un monte que yo te mostraré.»",
+    "text": "Dios pronuncia el mandato.\n¿Qué dice?",
     "choices": [
       {
-        "text": "Niégate —seguramente Dios no podría pedir esto",
-        "feedback": "Mueves la cabeza. Pero el mandato no se desdice."
+        "text": "«Toma a tu hijo, tu único hijo, a quien tanto amas —Isaac— y ofrécelo en holocausto en un monte que yo te mostraré»",
+        "feedback": "Génesis 22:2 — «Toma a tu hijo, tu único hijo, a quien tanto amas —Isaac—, y vete a la región de Moria. Ofrécelo allí en holocausto en un monte que yo te mostraré»."
       },
       {
-        "text": "Inclínate en tembloroso silencio y acepta",
-        "feedback": "Pegas la cara al suelo. No salen palabras, solo rendición."
+        "text": "«Toma un cordero de tu rebaño y ofrécelo aquí»",
+        "feedback": "Dios mandó a Abraham que ofreciera a Isaac, su hijo."
       },
       {
-        "text": "Ruega a Dios que te tome a ti en su lugar",
-        "feedback": "\"Tómame a mí, Señor, no al muchacho.\" Los cielos no responden al intercambio."
-      }
-    ]
-  },
-  "refuse_consequence": {
-    "title": "El Dios que se lo Dio",
-    "text": "Estás solo bajo las vastas estrellas.\nEste es el mismo Dios que prometió a Isaac cuando el vientre de Sara estaba muerto.\nÉl dio al niño. Todavía no te ha mentido.",
-    "choices": [
-      {
-        "text": "Confía en Aquel que dio, y obedece",
-        "feedback": "Tu negativa se desmorona. \"El que dio también puede guardar.\""
-      }
-    ]
-  },
-  "bargain_consequence": {
-    "title": "Ningún Sustituto que Puedas Ofrecer",
-    "text": "Tus ruegos mueren en tu garganta.\nEsta prueba no es por tu vida. Es por tu corazón.\nLas estrellas te esperan arriba en sus miles — las mismas estrellas que Él una vez prometió.",
-    "choices": [
-      {
-        "text": "Abandona el regateo y obedece",
-        "feedback": "Dejas de regatear. No queda nada más que confiar."
+        "text": "«Construye un gran templo en Beerseba»",
+        "feedback": "El mandato de Dios era ofrecer a Isaac en un monte de Moria."
       }
     ]
   },
   "the_weight": {
-    "title": "Antes del Amanecer",
-    "text": "Te sientas junto al fuego moribundo hasta que el cielo se vuelve gris.\nIsaac respira suavemente cerca. Sara no se mueve.\nPronto saldrá el sol — y debes moverte antes de que tu valor se rompa.",
+    "title": "A la mañana siguiente",
+    "text": "A la mañana siguiente te preparas para el viaje.\n¿Qué haces?",
     "choices": [
       {
-        "text": "Despierta a los sirvientes y ensilla el asno de inmediato",
-        "feedback": "Mejor caminar que pensar. Te levantas y empiezas."
+        "text": "Levántate temprano, ensilla tu asno, toma a dos siervos y a tu hijo Isaac, y corta suficiente leña para el holocausto",
+        "feedback": "Génesis 22:3 — A la mañana siguiente, Abraham se levantó temprano y ensilló su asno. Llevó consigo a dos de sus siervos y a su hijo Isaac. Después de cortar suficiente leña para el holocausto, se puso en camino."
       },
       {
-        "text": "Espera, quizás venga otra señal",
-        "feedback": "El amanecer llega de todos modos. La orden no cambia."
+        "text": "Niégate a ir y quédate en Beerseba",
+        "feedback": "Abraham obedeció a Dios de inmediato, levantándose temprano por la mañana."
       },
       {
-        "text": "Despierta a Sara y cuéntale todo",
-        "feedback": "Tu mano se cierne sobre su hombro y retrocede. Ella no sobreviviría a la separación."
-      }
-    ]
-  },
-  "delay_consequence": {
-    "title": "No Vendrá Otra Señal",
-    "text": "La luz crece. Los pájaros comienzan sus primeros cantos.\nLa palabra una vez dicha no necesita ser repetida.\nLa obediencia demorada no suavizará lo que debe hacerse.",
-    "choices": [
-      {
-        "text": "Levántate y prepárate para el viaje",
-        "feedback": "Te pones de pie, rígido por el peso, y llamas a los sirvientes."
-      }
-    ]
-  },
-  "tell_sarah_consequence": {
-    "title": "Ella No Debe Soportar Esto",
-    "text": "Ella derribaría la tienda.\nSe aferraría a Isaac y maldeciría al Dios que lo pidió.\nEsta carga es solo tuya — y de Isaac, si es necesario.",
-    "choices": [
-      {
-        "text": "Sal en silencio y prepárate en secreto",
-        "feedback": "Sales sin decir palabra. El amanecer guarda tu secreto."
+        "text": "Espera una señal antes de partir",
+        "feedback": "Abraham partió de inmediato, sin esperar."
       }
     ]
   },
   "departure": {
-    "title": "Tres Días de Caminata",
-    "text": "Tú mismo cortas la leña para el holocausto — cada golpe del hacha más pesado que el anterior.\nDespiertas a Isaac suavemente. Dos siervos vienen contigo.\nLa tierra de Moriah se encuentra a tres días al norte.",
+    "title": "Hacia Moria",
+    "text": "Viajas hacia el lugar que Dios te ha dicho.\n¿Cuánto tiempo viajas?",
     "choices": [
       {
-        "text": "Sal al amanecer sin explicaciones",
-        "feedback": "El muchacho te sigue, soñoliento y confiado. No miras atrás a la tienda."
+        "text": "Viaja durante tres días, hasta que levantes la vista y veas el lugar a lo lejos",
+        "feedback": "Génesis 22:4 — Al tercer día, Abraham levantó la vista y vio el lugar a lo lejos."
       },
       {
-        "text": "Miente a Isaac sobre adónde vais",
-        "feedback": "La mentira sabe a ceniza. Te cree sin dudarlo, lo cual es peor."
-      }
-    ]
-  },
-  "lie_consequence": {
-    "title": "Verdad Suficiente por Hoy",
-    "text": "No puedes mentirle. No toda la verdad — pero no una mentira.\n«Vamos a adorar», le dices. «Dios proveerá.»\nEs más cierto de lo que aún entiendes.",
-    "choices": [
+        "text": "Viaja solo una hora antes de llegar",
+        "feedback": "El viaje a Moria duró tres días."
+      },
       {
-        "text": "Sigue caminando con él hacia el amanecer",
-        "feedback": "Te sonríe y te toma de la mano. El camino comienza."
+        "text": "Viaja durante cuarenta años por el desierto",
+        "feedback": "Génesis dice que Abraham llegó al lugar al tercer día."
       }
     ]
   },
   "the_road": {
-    "title": "El Largo Camino al Norte",
-    "text": "Tres días bajo un vasto cielo pálido.\nIsaac parlotea sobre corderos y estrellas y lo que Sara cocinará cuando regreséis.\nCada palabra es un pequeño cuchillo — y una pequeña misericordia.",
+    "title": "Quédate aquí con el asno",
+    "text": "Te acercas a la montaña.\n¿Qué les dices a los siervos?",
     "choices": [
       {
-        "text": "Escúchale atentamente, guarda cada palabra",
-        "feedback": "Bebes de su voz como si fuera el último pozo en el desierto."
+        "text": "«Quedaos aquí con el asno, mientras el muchacho y yo vamos hasta allí. Adoraremos y luego volveremos a vosotros»",
+        "feedback": "Génesis 22:5 — «Quedaos aquí con el asno, mientras el muchacho y yo vamos hasta allí. Adoraremos y luego volveremos a vosotros»."
       },
       {
-        "text": "Camina aparte y endurece tu corazón",
-        "feedback": "Aceleras el paso delante de él. La distancia no te protege."
+        "text": "«Venid con nosotros a la montaña para observar»",
+        "feedback": "Abraham les dijo a los siervos que esperaran con el asno."
       },
       {
-        "text": "Vuelve atrás, di que el viaje fue un error",
-        "feedback": "Tus pies se ralentizan. Pero no puedes huir de la voz que te llamó."
-      }
-    ]
-  },
-  "harden_consequence": {
-    "title": "Un Padre No Puede Endurecerse",
-    "text": "No puedes hacerte lo suficientemente pequeño como para escapar de esto.\nSi Dios no provee nada, lo perderás de cualquier manera — una vez en el altar, y para siempre en tu alma.\nÉl merece tu amor hasta el último paso.",
-    "choices": [
-      {
-        "text": "Reduce la velocidad y camina de nuevo a su lado",
-        "feedback": "Te ajustas a su paso. Él te sonríe. No mereces esa sonrisa."
-      }
-    ]
-  },
-  "turn_back_consequence": {
-    "title": "No Hay Vuelta Atrás",
-    "text": "Si te vuelves ahora, cada promesa se deshará.\nLas estrellas que Él contó, las naciones que Él juró, todo se derrumba ante una negativa.\nLa fe es un camino; tú ya estás en él.",
-    "choices": [
-      {
-        "text": "Vuelve a mirar al norte y sigue caminando",
-        "feedback": "Endureces tu rostro como el pedernal y sigues caminando con él."
+        "text": "«Llevad el asno a casa; no volveremos»",
+        "feedback": "Abraham dijo: «Volveremos a vosotros»."
       }
     ]
   },
   "mountain_in_sight": {
-    "title": "La Montaña a lo Lejos",
-    "text": "Al tercer día levantas los ojos y la ves.\nUna única cima en la distancia, envuelta en una neblina pálida.\nAlgo dentro de ti sabe que este es el lugar.",
+    "title": "La leña y el fuego",
+    "text": "Te preparas para subir a la montaña.\n¿Quién lleva qué?",
     "choices": [
       {
-        "text": "Dile a los sirvientes que esperen aquí con el asno",
-        "feedback": "\"Quedaos aquí con el asno. El muchacho y yo subiremos a adorar, y volveremos a vosotros.\""
+        "text": "Coloca la leña para el holocausto sobre los hombros de Isaac; lleva tú mismo el fuego y el cuchillo",
+        "feedback": "Génesis 22:6 — Abraham tomó la leña para el holocausto y la puso sobre su hijo Isaac, y él mismo llevó el fuego y el cuchillo."
       },
       {
-        "text": "Lleva a los sirvientes contigo para que te apoyen",
-        "feedback": "Das un paso hacia ellos, luego te detienes. No pueden compartir esto."
-      }
-    ]
-  },
-  "servants_consequence": {
-    "title": "Esto No Es Para Otros Ojos",
-    "text": "Si ellos son testigos, te detendrán. Si te detienen, le habrás fallado.\nEsto es entre tú, el muchacho y Dios.\nNinguna otra mano puede ayudar o estorbar.",
-    "choices": [
+        "text": "Lleva tú mismo la leña mientras Isaac no lleva nada",
+        "feedback": "Isaac llevó la leña; Abraham llevó el fuego y el cuchillo."
+      },
       {
-        "text": "Diles que esperen aquí al pie de la montaña",
-        "feedback": "\"Quedaos aquí. Volveremos a vosotros.\" Las palabras suenan a profecía que aún no entiendes."
+        "text": "Deja la leña al pie de la montaña",
+        "feedback": "La leña para el holocausto fue puesta sobre Isaac."
       }
     ]
   },
   "leave_servants": {
-    "title": "Él Llevará la Leña",
-    "text": "Pones el haz de leña partida sobre los fuertes y jóvenes hombros de Isaac.\nTú llevas el fuego y el cuchillo en tus propias manos.\nJuntos comenzáis a subir por el estrecho sendero.",
+    "title": "Padre",
+    "text": "Mientras camináis juntos, Isaac habla.\n¿Qué dice?",
     "choices": [
       {
-        "text": "Camina en silencio a su lado",
-        "feedback": "Paso a paso, el sendero asciende. El viento canta en los acantilados."
+        "text": "«Padre —el fuego y la leña están aquí, pero ¿dónde está el cordero para el holocausto?»",
+        "feedback": "Génesis 22:7 — «Padre, el fuego y la leña están aquí, pero ¿dónde está el cordero para el holocausto?»"
+      },
+      {
+        "text": "«Padre —volvamos a casa ahora mismo»",
+        "feedback": "Isaac preguntó por el cordero para la ofrenda."
+      },
+      {
+        "text": "Isaac no dice nada en todo el camino",
+        "feedback": "Génesis registra la pregunta de Isaac sobre el cordero."
       }
     ]
   },
   "isaacs_question": {
-    "title": "¿Dónde Está el Cordero?",
-    "text": "A mitad de camino, Isaac se detiene y se vuelve hacia ti.\n«Padre mío, he aquí el fuego y la leña. ¿Pero dónde está el cordero para el holocausto?»\nSus ojos son claros y confiados. Él espera una respuesta.",
+    "title": "Dios Proveerá",
+    "text": "Tú respondes a Isaac.\n¿Qué dices?",
     "choices": [
       {
-        "text": "\"Dios mismo proveerá un cordero, hijo mío\"",
-        "feedback": "Las palabras te salen como una oración. Ni siquiera tú sabes aún lo que significan."
+        "text": "«Dios mismo proveerá el cordero para el holocausto, hijo mío»",
+        "feedback": "Génesis 22:8 — «Dios mismo proveerá el cordero para el holocausto, hijo mío.»"
       },
       {
-        "text": "Dile la verdad: que él es el cordero",
-        "feedback": "Su cara se pone blanca. Suelta la leña y tropieza hacia atrás."
+        "text": "«Tú eres el cordero, Isaac»",
+        "feedback": "Abraham le dijo a Isaac que Dios mismo proveería el cordero."
       },
       {
-        "text": "No digas nada y sigue caminando",
-        "feedback": "Él espera un largo momento. Luego te sigue en silencio. Algo en él lo sabe."
-      }
-    ]
-  },
-  "tell_truth_consequence": {
-    "title": "Él Todavía Confía en Ti",
-    "text": "Él tiembla. Pero después de un largo silencio, vuelve a coger la leña.\nNo huye. No te maldice.\nCamina a tu lado, porque confía en el Dios en el que tú siempre has confiado.",
-    "choices": [
-      {
-        "text": "Camina con él en asombrado silencio hasta la cima",
-        "feedback": "Dos fes caminan lado a lado por el último tramo del sendero."
-      }
-    ]
-  },
-  "silence_consequence": {
-    "title": "La respuesta de la fe",
-    "text": "No puedes dejar su pregunta sin respuesta, ni ahora ni nunca.\nLa fe no es silencio. La fe es la palabra pronunciada en la oscuridad.\nTe vuelves hacia él.",
-    "choices": [
-      {
-        "text": "Di: «Dios mismo proveerá el cordero, hijo mío»",
-        "feedback": "Tú lo dices. La montaña parece contener la respiración."
+        "text": "«No hay cordero —nos vamos a casa ahora»",
+        "feedback": "Abraham respondió con fe: Dios proveería."
       }
     ]
   },
   "summit": {
-    "title": "El lugar que Él mostró",
-    "text": "Llegas al lugar. El viento se calma.\nEmpiezas a recoger piedras. Isaac se arrodilla y te ayuda, sus pequeñas manos junto a las tuyas.\nEl altar se eleva: tosco, sagrado, terrible.",
+    "title": "El Altar",
+    "text": "Llegas al lugar del que Dios te ha hablado.\n¿Qué construyes allí?",
     "choices": [
       {
-        "text": "Coloca la leña en orden sobre las piedras",
-        "feedback": "Cada trozo de leña se coloca con cuidado. El altar está listo."
+        "text": "Construye un altar, coloca la leña sobre él, ata a Isaac y ponlo sobre el altar, encima de la leña",
+        "feedback": "Génesis 22:9 — Cuando llegaron al lugar del que Dios le había hablado, Abraham edificó allí un altar y dispuso la leña sobre él. Ató a su hijo Isaac y lo puso en el altar, encima de la leña."
       },
       {
-        "text": "Detente, no puedes hacer esto",
-        "feedback": "Tus manos caen a tus costados. El viento se levanta a tu alrededor."
-      }
-    ]
-  },
-  "stop_consequence": {
-    "title": "Fe que cree en la resurrección",
-    "text": "Tus manos tiemblan. Entonces un pensamiento te invade, más antiguo que el propio mandato:\n«Aquel que dio a Isaac de un vientre estéril puede devolverlo de entre los muertos».\nLo crees. No lo entiendes. Pero lo crees.",
-    "choices": [
+        "text": "Construye un santuario a otro dios en su lugar",
+        "feedback": "Abraham construyó un altar al Señor, exactamente como se le ordenó."
+      },
       {
-        "text": "Toma la leña y termina lo que empezaste",
-        "feedback": "Tus manos firmes. Completas el altar."
+        "text": "Niégate a construir nada y regresa",
+        "feedback": "Abraham obedeció y construyó el altar."
       }
     ]
   },
   "the_binding": {
-    "title": "Él no se resistió",
-    "text": "Te vuelves hacia Isaac. No hay palabras, solo tus ojos encontrándose con los suyos.\nÉl ve. Él entiende. Y no huye.\nSe arrodilla. Te deja atarle las manos. Se tumba sobre la leña.",
+    "title": "El Cuchillo",
+    "text": "Isaac está atado en el altar.\n¿Qué haces ahora?",
     "choices": [
       {
-        "text": "Besa su frente y levanta el cuchillo",
-        "feedback": "Su lágrima se une a la tuya. Levantas el cuchillo."
+        "text": "Extiende tu mano y toma el cuchillo para degollar a tu hijo",
+        "feedback": "Génesis 22:10 — Entonces extendió su mano y tomó el cuchillo para degollar a su hijo."
       },
       {
-        "text": "Suéltalo, huye del altar",
-        "feedback": "Tu mano encuentra la cuerda, pero se detiene. Volver atrás ahora es hacer que todo su valor sea inútil."
-      }
-    ]
-  },
-  "flee_consequence": {
-    "title": "Su fe te sostiene",
-    "text": "El muchacho yace inmóvil debajo de ti, con los ojos cerrados, respirando con regularidad.\nConfía. Se está ofreciendo contigo.\nSi huyes, traicionas no solo a Dios, sino también la propia entrega de Isaac.",
-    "choices": [
+        "text": "Deja el cuchillo a un lado y niégate",
+        "feedback": "Abraham extendió la mano con el cuchillo para obedecer a Dios plenamente."
+      },
       {
-        "text": "Quédate con él hasta el final, levanta el cuchillo",
-        "feedback": "Levantas el cuchillo sobre él, ambas manos temblorosas."
+        "text": "Desata a Isaac y huye montaña abajo",
+        "feedback": "Abraham levantó el cuchillo en obediencia; no huyó."
       }
     ]
   },
   "the_knife": {
-    "title": "¡Abraham! ¡Abraham!",
-    "text": "La hoja se eleva. Tus brazos son de piedra.\nEn el punto más alto, una voz rasga el cielo:\n«¡Abraham! ¡Abraham!»",
+    "title": "El Ángel del Señor",
+    "text": "El ángel del Señor te llama desde el cielo.\n¿Qué dice?",
     "choices": [
       {
-        "text": "Responde al instante: «Aquí estoy»",
-        "feedback": "El cuchillo se detiene. «Aquí estoy, Señor.»"
+        "text": "«¡Abraham! ¡Abraham! No pongas tu mano sobre el muchacho. No le hagas nada»",
+        "feedback": "Génesis 22:11-12 — «¡Abraham! ¡Abraham!» «Heme aquí», respondió él. «No pongas tu mano sobre el muchacho», dijo. «No le hagas nada.»"
       },
       {
-        "text": "Golpea antes de que pueda venir otra orden",
-        "feedback": "Tu brazo se tensa, luego se bloquea. No puedes. La voz tiene prioridad."
-      }
-    ]
-  },
-  "strike_consequence": {
-    "title": "La prueba no es sangre",
-    "text": "Tu brazo no se moverá.\nDios no pidió la muerte, pidió el corazón que daría la muerte.\nLe has dado ese corazón. La hoja ya ha hecho su trabajo.",
-    "choices": [
+        "text": "«Golpea al muchacho rápidamente —no te demores»",
+        "feedback": "El ángel impidió que Abraham dañara a Isaac."
+      },
       {
-        "text": "Baja el cuchillo y responde a la voz: «Aquí estoy»",
-        "feedback": "El cuchillo cae de tu mano al polvo. «Aquí estoy.»"
+        "text": "El ángel no dice nada en absoluto",
+        "feedback": "El ángel llamó claramente y detuvo a Abraham."
       }
     ]
   },
   "the_stay": {
-    "title": "No pongas tu mano sobre el muchacho",
-    "text": "«No pongas tu mano sobre el muchacho. No le hagas nada.\nPorque ahora sé que temes a Dios, pues no me has negado a tu hijo, tu único hijo».\nTe arrodillas junto a él. El mundo vuelve a respirar.",
+    "title": "Ahora Sé",
+    "text": "El ángel explica por qué te detuvieron.\n¿Qué dice?",
     "choices": [
       {
-        "text": "Suelta las manos de Isaac y levántalo de la leña",
-        "feedback": "Tus dedos temblorosos lo liberan. Él se aferra a ti y llora."
+        "text": "«Ahora sé que temes a Dios, porque no me has negado a tu hijo, tu único hijo»",
+        "feedback": "Génesis 22:12 — «Ahora sé que temes a Dios, porque no me has negado a tu hijo, tu único hijo.»"
+      },
+      {
+        "text": "'Has fallado la prueba; vuelve a casa avergonzado'",
+        "feedback": "El ángel elogió la obediencia de Abraham."
+      },
+      {
+        "text": "'Isaac debe morir; inténtalo de nuevo mañana'",
+        "feedback": "El ángel le ordenó a Abraham que no dañara a Isaac."
       }
     ]
   },
   "the_ram": {
-    "title": "Atrapado en la zarza",
-    "text": "Levantas la vista, y allí, entre la maleza detrás del altar, un carnero está atrapado por los cuernos en la zarza.\nNo vino por el camino. Simplemente está allí.\nDios ha provisto.",
+    "title": "Un carnero en la zarza",
+    "text": "Miras hacia arriba.\n¿Qué ves atrapado en la zarza?",
     "choices": [
       {
-        "text": "Toma el carnero y ofrécelo en lugar de Isaac",
-        "feedback": "Liberas al carnero y lo colocas sobre la leña. El fuego se eleva."
+        "text": "Un carnero atrapado por los cuernos en una zarza; lo tomas y lo ofreces como holocausto en lugar de tu hijo",
+        "feedback": "Génesis 22:13 — Abraham alzó la vista y vio un carnero enredado por los cuernos en un matorral. Fue, tomó el carnero y lo ofreció en holocausto en lugar de su hijo."
       },
       {
-        "text": "Rehúsate, no sacrifiques nada ahora",
-        "feedback": "Te quedas inmóvil. El carnero espera. El altar espera."
-      }
-    ]
-  },
-  "no_sacrifice_consequence": {
-    "title": "La adoración debe completarse",
-    "text": "Viniste a adorar. El altar todavía pide una ofrenda.\nDios ha provisto una; recibirla es el acto final de obediencia.\nNo ofrecerla es despreciar la misericordia.",
-    "choices": [
+        "text": "Una paloma volando sobre el altar",
+        "feedback": "Abraham vio un carnero atrapado por los cuernos en una zarza."
+      },
       {
-        "text": "Toma el carnero y completa la ofrenda",
-        "feedback": "Liberas al carnero y lo colocas sobre la leña. El humo se eleva directamente al cielo."
+        "text": "Nada en absoluto; el altar permanece vacío",
+        "feedback": "Dios proveyó un carnero atrapado en la zarza."
       }
     ]
   },
   "the_name": {
-    "title": "El Señor proveerá",
-    "text": "Nombres el lugar Yahveh-Yireh: «El Señor proveerá».\nIsaac está a tu lado, vivo, respirando, su pequeña mano en la tuya.\nEl humo del carnero se eleva hacia el amplio cielo pálido.",
+    "title": "El Señor Proveerá",
+    "text": "Nombras ese lugar para recordar lo que sucedió.\n¿Qué nombre le das?",
     "choices": [
       {
-        "text": "Inclínate y escucha, la voz no ha terminado",
-        "feedback": "Inclinas la cabeza. La voz vuelve, más suave esta vez."
+        "text": "'El Señor Proveerá' (Yahveh Yireh)",
+        "feedback": "Génesis 22:14 — Por eso Abraham llamó a aquel lugar 'El Señor Proveerá'."
+      },
+      {
+        "text": "'El Lugar del Dolor'",
+        "feedback": "Abraham lo llamó 'El Señor Proveerá'."
+      },
+      {
+        "text": "'La Montaña de Fuego'",
+        "feedback": "Abraham llamó al lugar 'El Señor Proveerá'."
       }
     ]
   },
   "the_blessing": {
-    "title": "Por mí mismo he jurado",
-    "text": "«Por mí mismo he jurado, dice el Señor:\npor cuanto has hecho esto y no me has negado a tu hijo, tu único hijo,\nde cierto te bendeciré, y multiplicaré tu descendencia como las estrellas del cielo y como la arena que está a la orilla del mar.\nEn tu descendencia serán benditas todas las naciones de la tierra, por cuanto has obedecido mi voz».",
+    "title": "El Juramento",
+    "text": "El ángel del Señor te llama por segunda vez desde el cielo.\n¿Cuál es la promesa?",
     "choices": [
       {
-        "text": "Toma la mano de Isaac y comienza el largo camino a casa",
-        "feedback": "Os volvéis juntos hacia el sendero, el cielo ardiendo en oro a vuestro alrededor."
+        "text": "'Ciertamente te bendeciré y multiplicaré tu descendencia como las estrellas del cielo y como la arena de la orilla del mar; por medio de tu descendencia serán bendecidas todas las naciones de la tierra'",
+        "feedback": "Génesis 22:16-18 — 'Por mí mismo he jurado... Ciertamente te bendeciré y multiplicaré tu descendencia como las estrellas del cielo y como la arena que está a la orilla del mar... y en tu simiente serán benditas todas las naciones de la tierra, por cuanto has obedecido mi voz.'"
+      },
+      {
+        "text": "'Tu descendencia será escasa y olvidada'",
+        "feedback": "El Señor prometió descendientes tan numerosos como las estrellas y la arena."
+      },
+      {
+        "text": "'Perderás todo lo que tienes como castigo'",
+        "feedback": "El Señor bendijo a Abraham por su obediencia."
       }
     ]
   },
   "homecoming": {
-    "title": "Hemos vuelto",
-    "text": "Bajáis juntos la montaña mientras las estrellas empiezan a mostrarse.\nLos siervos esperan donde los dejaste.\n«Hemos vuelto a vosotros», dices, y es más cierto de lo que ellos jamás sabrán.",
+    "title": "De vuelta a Beerseba",
+    "text": "Abraham regresa con sus siervos, y juntos parten hacia Beerseba.\nY Abraham se queda en Beerseba.",
     "choices": []
   }
 }

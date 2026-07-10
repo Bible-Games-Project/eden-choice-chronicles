@@ -121,7 +121,10 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     // For the first five stories, show an educational explanation after an
     // incorrect answer before advancing. The explanation is the correct choice's
     // feedback, which is already localized (biblical reference + brief context).
-    const EDU_STORIES = new Set(["creation", "adam-eve", "cain-abel", "noah-flood", "tower-babel"]);
+    const EDU_STORIES = new Set([
+      "creation", "adam-eve", "cain-abel", "noah-flood", "tower-babel",
+      "call-abraham", "abraham-egypt", "abraham-lot", "sodom-gomorrah", "sacrifice-isaac",
+    ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
       const feedback = correctChoice?.feedback?.trim();

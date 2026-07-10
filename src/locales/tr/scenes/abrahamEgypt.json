@@ -1,182 +1,206 @@
 {
-  "storyTitle": "İbrahim'in Mısır'da",
+  "storyTitle": "Mısır'daki İbrahim",
   "start": {
-    "title": "Kıtlık",
-    "text": "Vaat edilen topraklar kuraklık altında çatlıyor.\nSürüler zayıflıyor. Sara zayıflıyor.",
+    "title": "Ülkede Bir Kıtlık",
+    "text": "Kenan ülkesinde şiddetli bir kıtlık baş gösterir.\nNe yaparsın?",
     "choices": [
       {
-        "text": "Tanrı'ya güven ve yağmuru bekle",
-        "feedback": ""
+        "text": "Bir süreliğine yabancı olarak yaşamak için Mısır'a in",
+        "feedback": "Yaratılış 12:10 — Şimdi ülkede bir kıtlık vardı ve Abram, bir süreliğine orada yaşamak için Mısır'a indi, çünkü kıtlık şiddetliydi."
       },
       {
-        "text": "Kuru gökyüzüne lanet et",
-        "feedback": ""
+        "text": "Uzak bir adaya deniz yoluyla geç",
+        "feedback": "Yaratılış, Abram'ın kıtlık sırasında Mısır'a indiğini söyler."
       },
       {
-        "text": "Hemen güneye, Mısır'a dön",
-        "feedback": ""
+        "text": "Kenan'da kal ve bir orduya liderlik et",
+        "feedback": "Yaratılış, Abram'ın kıtlık yüzünden Mısır'a gittiğini söyler."
       }
     ]
   },
   "road_south": {
-    "title": "Güney Yolu",
-    "text": "Mısır tahıl vaat ediyor. Sara yanında sessizce yürüyor.\nUfuk parıldıyor.",
+    "title": "Mısır'a Yaklaşırken",
+    "text": "Mısır'a girmek üzeresin.\nKarın Saray'a ne dersin?",
     "choices": [
       {
-        "text": "Her adımdan önce dua et",
-        "feedback": ""
+        "text": "'Ne kadar güzel bir kadın olduğunu biliyorum — Mısırlılar seni almak için beni öldürecekler'",
+        "feedback": "Yaratılış 12:11-12 — 'Ne kadar güzel bir kadın olduğunu biliyorum. Mısırlılar seni gördüklerinde beni öldürecekler ama seni yaşatacaklar.'"
       },
       {
-        "text": "Tanrı'ya tek kelime etmeden ilerle",
-        "feedback": ""
+        "text": "'Rab bizi koruyacak; korkacak hiçbir şeyimiz yok'",
+        "feedback": "Yaratılış, Abram'ın korktuğunu ve açıkça güvenmediğini; bir plan yaptığını söyler."
+      },
+      {
+        "text": "Saray'a hiçbir şey söyleme",
+        "feedback": "Yaratılış, Abram'ın korkusu hakkında Saray'a söylediği sözleri kaydeder."
       }
     ]
   },
   "fear_rises": {
-    "title": "Soğuk Bir Düşünce",
-    "text": "Mısırlılar karını almak için seni öldürebilir.\nKorku göğsünün içinde sıkıca kıvrılıyor.",
+    "title": "Rica",
+    "text": "Hayatını korumak için Saray'dan bir şey yapmasını istiyorsun.\nNedir bu?",
     "choices": [
       {
-        "text": "Kendini kurtarmak için bir yalan uydur",
-        "feedback": ""
+        "text": "'Kız kardeşim olduğunu söyle ki senin sayende bana iyi davranılsın'",
+        "feedback": "Yaratılış 12:13 — 'Kız kardeşim olduğunu söyle ki senin sayende bana iyi davranılsın ve senin yüzünden canım bağışlansın.'"
       },
       {
-        "text": "İkinizi de Tanrı'nın koruyacağına güven",
-        "feedback": ""
+        "text": "'Annem olduğunu söyle ki kimse fark etmesin'",
+        "feedback": "Avram, Saray'dan kız kardeşi olduğunu söylemesini istedi."
       },
       {
-        "text": "Kıtlığa geri dön",
-        "feedback": ""
+        "text": "'Hiç tanışmamış yabancılar olduğumuzu söyle'",
+        "feedback": "Avram'ın yarı-doğrusu, ona kız kardeşi demesiydi."
       }
     ]
   },
   "the_lie": {
-    "title": "Yarım Hakikat",
-    "text": "Sara'nın gözleri seninkileri bulur. \"Kız kardeşim de.\"\nSözler kül tadındadır.",
+    "title": "Mısırlılar Saray'ı Görür",
+    "text": "Mısır'a varıyorsun.\nMısırlılar Saray'a nasıl tepki veriyor?",
     "choices": [
       {
-        "text": "Korkunu itiraf et ve doğruyu söyle",
-        "feedback": ""
+        "text": "Mısırlılar onun çok güzel olduğunu görüyor",
+        "feedback": "Yaratılış 12:14 — Avram Mısır'a geldiğinde, Mısırlılar Saray'ın çok güzel bir kadın olduğunu gördüler."
       },
       {
-        "text": "Yalana razı olmasını sağla",
-        "feedback": ""
+        "text": "Mısırlılar onu tamamen görmezden geliyor",
+        "feedback": "Yaratılış, Mısırlıların onun ne kadar güzel olduğunu fark ettiklerini söyler."
+      },
+      {
+        "text": "Mısırlılar onu şehirden kovuyor",
+        "feedback": "Mısırlılar onun güzelliğini övdüler; onu kovmadılar."
       }
     ]
   },
   "entering_egypt": {
-    "title": "Mısır Kapıları",
-    "text": "Şehir kaynıyor. Gözler Sara'yı her yerde takip ediyor.\nMırıltılar saraya ulaşıyor.",
+    "title": "Firavun'un Görevlileri",
+    "text": "Firavun'un görevlileri Saray'ı görüyor.\nNe yapıyorlar?",
     "choices": [
       {
-        "text": "Yakın dur ve onu koru",
-        "feedback": ""
+        "text": "Onu Firavun'a överler ve o, Firavun'un sarayına alınır",
+        "feedback": "Yaratılış 12:15 — Firavun'un görevlileri onu görünce, Firavun'a övdüler ve o, Firavun'un sarayına alındı."
       },
       {
-        "text": "İlgisiz görünmek için uzaklaş",
-        "feedback": ""
+        "text": "Avram'ı hemen Mısır'dan kovuyorlar",
+        "feedback": "Yaratılış, Saray'ın Firavun'un sarayına alındığını söyler, Avram'ın kovulduğunu değil."
       },
       {
-        "text": "Alacağın hediyelerle övün",
-        "feedback": ""
+        "text": "Onu görmezden gelirler ve hiç ilgi göstermezler",
+        "feedback": "Firavun'un görevlileri onun güzelliğini krala övdüler."
       }
     ]
   },
   "officials_come": {
-    "title": "Firavun'un Görevlileri",
-    "text": "Bir görevli gelir. \"Firavun onun güzelliğini duymuş.\"\nGülümsemesi kibar. Keskin.",
+    "title": "Saray'ın Hatırına",
+    "text": "Saray yüzünden Firavun sana iyi davranıyor.\nAvram'a nasıl davranıyor?",
     "choices": [
       {
-        "text": "Yalanı tekrarla — \"Kız kardeşim\"",
-        "feedback": ""
+        "text": "Sana koyun, sığır, eşek, hizmetçi ve deve verir",
+        "feedback": "Yaratılış 12:16 — Onun hatırına Avram'a iyi davrandı ve Avram koyunlar, sığırlar, erkek ve dişi eşekler, erkek ve dişi hizmetçiler ve develer edindi."
       },
       {
-        "text": "Doğruyu söyle — \"O benim karım\"",
-        "feedback": ""
+        "text": "Avram'ı hapse atar",
+        "feedback": "Yaratılış, Firavun'un Saray'ın hatırına Avram'a birçok hediye verdiğini söyler."
+      },
+      {
+        "text": "Avram'a hiçbir şey vermez",
+        "feedback": "Yaratılış, Avram'ın aldığı birçok hediyeyi listeler."
       }
     ]
   },
   "sarah_taken": {
-    "title": "Yalnız",
-    "text": "Sara'yı saraya doğru götürürler.\nÇadır aniden dayanılmaz derecede sessizleşir.",
+    "title": "Rab Vurur",
+    "text": "Rab sessiz kalmaz.\nSaray yüzünden ne yapar?",
     "choices": [
       {
-        "text": "Dizlerinin üzerine çök ve Tanrı'ya ağla",
-        "feedback": ""
+        "text": "Rab, Firavun'a ve ev halkına ciddi hastalıklar verir",
+        "feedback": "Yaratılış 12:17 — Ama Rab, Avram'ın karısı Saray yüzünden Firavun'a ve ev halkına ciddi hastalıklar verdi."
       },
       {
-        "text": "Uyuşmuş otur ve kayıplarını say",
-        "feedback": ""
+        "text": "Rab Mısır'a ateş yağdırır",
+        "feedback": "Yaratılış, Rab'bin ciddi hastalıklar gönderdiğini, ateş değil, söyler."
+      },
+      {
+        "text": "Rab sessiz kalır",
+        "feedback": "Yaratılış, Rab'bin hareket ettiğini; Firavun'un evini vurduğunu söyler."
       }
     ]
   },
   "gifts_arrive": {
-    "title": "Sessizliğin Bedeli",
-    "text": "Koyunlar, altın, hizmetkarlar — Firavun'un ödemesi.\nHer hediye bir çivi gibi hissettirir.",
+    "title": "Firavun Seni Çağırır",
+    "text": "Firavun seni çağırır.\nNe der?",
     "choices": [
       {
-        "text": "Onları kabul et, utancı gizle",
-        "feedback": ""
+        "text": "'Bana ne yaptın? Neden karın olduğunu söylemedin?'",
+        "feedback": "Yaratılış 12:18 — 'Bana ne yaptın? Neden karın olduğunu söylemedin?'"
       },
       {
-        "text": "Onları reddet ve Tanrı'dan harekete geçmesini dile",
-        "feedback": ""
+        "text": "'Hediyelerin için teşekkür ederim — lütfen kal'",
+        "feedback": "Firavun Avram'ı azarladı; ona teşekkür etmedi."
       },
       {
-        "text": "Onları Firavun'a geri gönder",
-        "feedback": ""
+        "text": "'Saray sonsuza dek evimde kalacak'",
+        "feedback": "Firavun Saray'ı Avram'a geri verdi."
       }
     ]
   },
   "plagues": {
-    "title": "Tanrı Vuruyor",
-    "text": "Firavun'un evini hastalık sarar.\nHiçbir şifacı nedenini bulamaz.",
+    "title": "Onu Al ve Git",
+    "text": "Firavun emrini verir.\nNe buyurur?",
     "choices": [
       {
-        "text": "Tanrı'nın unutmadığını bil",
-        "feedback": ""
+        "text": "'İşte karın. Onu al ve git!'",
+        "feedback": "Yaratılış 12:19 — 'Şimdi, işte karın. Onu al ve git!'"
       },
       {
-        "text": "Tanrı'nın sana ne yapacağından kork",
-        "feedback": ""
+        "text": "'Sonsuza dek kulum olarak burada kalmalısın'",
+        "feedback": "Firavun, Abram'ı Saray ile birlikte gönderdi."
+      },
+      {
+        "text": "'Saray'ı alıkoyacağım ve sen Kenan'a yalnız dönebilirsin'",
+        "feedback": "Firavun, Saray'ı Abram'a geri verdi."
       }
     ]
   },
   "confronted": {
-    "title": "Hesaplaşma",
-    "text": "Firavun'un sesi titrer. \"Neden yaptın bunu?\nNeden 'kız kardeşim' dedin?\"",
+    "title": "Uğurlanma",
+    "text": "Firavun senin hakkında emirler veriyor.\nNe olur?",
     "choices": [
       {
-        "text": "Korkuların için bahaneler üret",
-        "feedback": ""
+        "text": "Firavun'un adamları seni, karını ve sahip olduğun her şeyiyle birlikte yolcu eder",
+        "feedback": "Yaratılış 12:20 — Bunun üzerine Firavun, Abram hakkında adamlarına emirler verdi ve onlar da onu, karısını ve sahip olduğu her şeyiyle birlikte yolcu ettiler."
       },
       {
-        "text": "Başını eğ — savunma yok",
-        "feedback": ""
+        "text": "Firavun'un adamları seni tüm mal varlığından soyar",
+        "feedback": "Yaratılış, Abram'ın karısı ve sahip olduğu her şeyiyle ayrıldığını söyler."
       },
       {
-        "text": "Her şey için kıtlığı suçla",
-        "feedback": ""
+        "text": "Firavun'un adamları seni zincire vurur",
+        "feedback": "Yaratılış, Firavun'un adamlarının Abram'ı barış içinde yolcu ettiğini söyler."
       }
     ]
   },
   "expelled": {
-    "title": "Uzaklaştırıldı",
-    "text": "\"Karını al. Hepsini al. Git.\"\nMuhafızlar seni sınıra kadar götürür.",
+    "title": "Mısır'dan Yukarı Çıkış",
+    "text": "Mısır'dan ayrılıyorsun.\nNereye gidiyorsun?",
     "choices": [
       {
-        "text": "Utancından bakamadan ilerle",
-        "feedback": ""
+        "text": "Mısır'dan Negev'e, karın ve sahip olduğun her şeyle birlikte yukarı çık",
+        "feedback": "Yaratılış 13:1 — Böylece Abram, karısı ve sahip olduğu her şeyiyle birlikte Mısır'dan Negev'e çıktı ve Lut da onunla birlikteydi."
       },
       {
-        "text": "Sessizce Sara'nın elini tut",
-        "feedback": ""
+        "text": "Mısır'da kal ve oraya temelli yerleş",
+        "feedback": "Yaratılış, Abram'ın Mısır'dan yukarı çıktığını söyler."
+      },
+      {
+        "text": "Doğuya, çölü geçerek Asur'a git",
+        "feedback": "Yaratılış, Abram'ın vaat edilen topraklardaki Negev'e döndüğünü söyler."
       }
     ]
   },
   "altar": {
-    "title": "Sunak",
-    "text": "Vaat edilen topraklara geri döndüğünde taşlar inşa edersin.\nVaat duruyor — sana rağmen.",
+    "title": "Sunak Başına Dönüş",
+    "text": "Beyt-El ile Ay arasındaki yere, ilk inşa ettiğin sunağa geri dönüyorsun ve orada Rab'bin adını çağırıyorsun.",
     "choices": []
   }
 }

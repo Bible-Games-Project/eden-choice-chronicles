@@ -1,164 +1,188 @@
 {
-  "storyTitle": "Zniszczenie Sodomy i Gomory",
+  "storyTitle": "Zniszczenie Sodomy",
   "start": {
-    "title": "Brama o zmierzchu",
-    "text": "Siedzisz u bramy Sodomy.\nMiasto głośno się śmieje pod czerwonym niebem.",
+    "title": "Przy bramie Sodomy",
+    "text": "Jest wieczór. Siedzisz w bramie miasta Sodomy.\nPrzybywają dwaj aniołowie do Sodomy. Co robisz?",
     "choices": [
       {
-        "text": "Dołącz do śmiechu, by się dopasować",
-        "feedback": ""
+        "text": "Wstajesz, aby ich powitać i kłaniasz się twarzą do ziemi",
+        "feedback": "Księga Rodzaju 19:1 — Gdy Lot ich zobaczył, wstał, aby ich powitać i skłonił się twarzą do ziemi."
       },
       {
-        "text": "Obserwuj cicho, zaniepokojony w duchu",
-        "feedback": ""
+        "text": "Odwracasz się i ignorujesz nieznajomych",
+        "feedback": "Księga Rodzaju mówi, że Lot wstał i pokłonił się przed nimi."
+      },
+      {
+        "text": "Wypędzasz ich z miasta kijem",
+        "feedback": "Księga Rodzaju mówi, że Lot przywitał ich z szacunkiem."
       }
     ]
   },
   "wickedness": {
-    "title": "Serce Miasta",
-    "text": "Okrutność na ulicach. Słabi są wyśmiewani.\nTwoje sumienie boli i boli.",
+    "title": "Przyjdź do mojego domu",
+    "text": "Mówisz do dwóch nieznajomych.\nCo mówisz?",
     "choices": [
       {
-        "text": "Udawaj, że tego nie widziałeś",
-        "feedback": ""
+        "text": "'Panowie moi, proszę, wstąpcie do domu sługi waszego; możecie umyć nogi i przenocować'",
+        "feedback": "Księga Rodzaju 19:2 — „Panowie moi, proszę, wstąpcie do domu sługi waszego. Możecie umyć nogi i przenocować, a potem wcześnie rano wyruszyć w drogę”."
       },
       {
-        "text": "Smuc się w ciszy i módl",
-        "feedback": ""
+        "text": "'Opuśćcie Sodomę natychmiast — tu nie jest bezpiecznie'",
+        "feedback": "Lot nalegał, aby przenocowali w jego domu."
       },
       {
-        "text": "Chwal się swoją pozycją tutaj",
-        "feedback": ""
+        "text": "'Śpijcie tutaj na placu, jak planowaliście'",
+        "feedback": "Lot nalegał, aby aniołowie poszli z nim do domu, zamiast zostawać na placu."
       }
     ]
   },
   "strangers": {
-    "title": "Dwóch Nieznajomych",
-    "text": "Dwóch podróżnych zbliża się do bramy.\nCoś w nich nie jest z tego świata.",
+    "title": "Posiłek w twoim domu",
+    "text": "Aniołowie przychodzą do ciebie do domu.\nCo dla nich przygotowujesz?",
     "choices": [
       {
-        "text": "Pokłoń się i zaoferuj im swój dom",
-        "feedback": ""
+        "text": "Przygotowujesz dla nich posiłek, piekąc chleb bez drożdży",
+        "feedback": "Księga Rodzaju 19:3 — Przygotował dla nich posiłek, piekąc chleb bez drożdży, i jedli."
       },
       {
-        "text": "Ostrzeż ich i odejdź",
-        "feedback": ""
+        "text": "Zaproponuj im tylko wodę i wyślij ich do łóżka",
+        "feedback": "Lot upiekł chleb i przygotował dla nich posiłek."
       },
       {
-        "text": "Żądaj, by wiedzieć, kim są",
-        "feedback": ""
+        "text": "Zaproponuj im jagnię pieczone w ogniu",
+        "feedback": "Księga Rodzaju wyraźnie mówi o chlebie niekwaszonym, nie o pieczonym jagnięciu."
       }
     ]
   },
   "welcome": {
-    "title": "Pod Twoim Dachem",
-    "text": "Idą za tobą do domu. Chleb jest łamany.\nNa zewnątrz miasto zaczyna się budzić.",
+    "title": "Mężczyźni z Miasta",
+    "text": "Zanim pójdziesz spać, wszyscy mężczyźni z Sodomy — młodzi i starzy — otaczają dom.\nCzego żądają?",
     "choices": [
       {
-        "text": "Zarygluj każde drzwi i czuwaj",
-        "feedback": ""
+        "text": "„Gdzie są mężczyźni, którzy przyszli do ciebie dziś wieczorem? Wyprowadź ich do nas”",
+        "feedback": "Księga Rodzaju 19:5 — Zawołali do Lota: „Gdzie są mężczyźni, którzy przyszli do ciebie dziś wieczorem? Wyprowadź ich do nas, abyśmy mogli z nimi obcować.”"
       },
       {
-        "text": "Zostaw drzwi szeroko otwarte",
-        "feedback": ""
+        "text": "„Daj nam jedzenie i złoto z twojego domu”",
+        "feedback": "Mężczyźni żądali gości Lota, nie złota."
+      },
+      {
+        "text": "„Przywitaj nas, abyśmy mogli zjeść z obcymi”",
+        "feedback": "Mężczyźni z Sodomy przyszli z wrogim zamiarem, a nie z przyjazną prośbą."
       }
     ]
   },
   "mob": {
-    "title": "Głosy u Drzwi",
-    "text": "Tłum krzyczy. Pięści walą w drewno.\n„Wydaj ich nam!”",
+    "title": "Przy Drzwiach",
+    "text": "Wychodzisz na zewnątrz, aby porozmawiać z tłumem.\nCo robisz z drzwiami?",
     "choices": [
       {
-        "text": "Wydaj gości, by ocalić siebie",
-        "feedback": ""
+        "text": "Wyjdź do nich i zamknij za sobą drzwi",
+        "feedback": "Księga Rodzaju 19:6 — Lot wyszedł na zewnątrz, aby się z nimi spotkać i zamknął za sobą drzwi."
       },
       {
-        "text": "Stań w drzwiach i odmów",
-        "feedback": ""
+        "text": "Zostaw drzwi szeroko otwarte, aby goście mogli uciec",
+        "feedback": "Lot zamknął za sobą drzwi, aby chronić gości."
+      },
+      {
+        "text": "Sam wydaj gości tłumowi",
+        "feedback": "Lot błagał mężczyzn, aby nie krzywdzili jego gości."
       }
     ]
   },
   "angels_warn": {
-    "title": "Ostrzeżenie",
-    "text": "Nieznajomi mówią: „To miasto jest skończone.\nZabierz swoją rodzinę. Odejdź teraz.”",
+    "title": "Wciągnięty do Środka",
+    "text": "Tłum napiera, aby wyważyć drzwi.\nCo robią aniołowie?",
     "choices": [
       {
-        "text": "Spieraj się — twoje życie jest tutaj",
-        "feedback": ""
+        "text": "Aniołowie wyciągają ręce, wciągają cię z powrotem do domu i porażają mężczyzn ślepotą",
+        "feedback": "Księga Rodzaju 19:10-11 — Mężczyźni w środku wyciągnęli ręce, wciągnęli Lota z powrotem do domu i zamknęli drzwi. Następnie porazili mężczyzn przy drzwiach ślepotą."
       },
       {
-        "text": "Wierz — zbierz swoją rodzinę",
-        "feedback": ""
+        "text": "Aniołowie otwierają drzwi i wpuszczają tłum do środka",
+        "feedback": "Aniołowie wciągnęli Lota i porazili tłum ślepotą."
       },
       {
-        "text": "Negocjuj o więcej czasu",
-        "feedback": ""
+        "text": "Aniołowie znikają cicho i opuszczają cię",
+        "feedback": "Aniołowie uratowali Lota i zostali z nim."
       }
     ]
   },
   "sons_in_law": {
-    "title": "Błaganie Rodziny",
-    "text": "Narzeczeni twoich córek śmieją ci się w twarz.\n„Starcze – śnisz o ogniu.”",
+    "title": "Ostrzeż Swoją Rodzinę",
+    "text": "Aniołowie mówią ci, abyś ostrzegł swoich krewnych przed nadchodzącą zagładą.\nJak reagują twoi zięciowie?",
     "choices": [
       {
-        "text": "Zostań i spróbuj ich przekonać",
-        "feedback": ""
+        "text": "Twoi zięciowie myślą, że żartujesz",
+        "feedback": "Księga Rodzaju 19:14 — Lot wyszedł i rozmawiał ze swoimi zięciami, ale oni myśleli, że żartuje."
       },
       {
-        "text": "Błagaj jeszcze raz, potem wróć do domu",
-        "feedback": ""
+        "text": "Twoi zięciowie wierzą ci i natychmiast idą za tobą",
+        "feedback": "Zięciowie nie potraktowali Lota poważnie."
+      },
+      {
+        "text": "Twoi zięciowie zabijają cię za ostrzeżenie",
+        "feedback": "Księga Rodzaju mówi, że myśleli, że Lot żartuje."
       }
     ]
   },
   "urge": {
-    "title": "Świt — Chwyć Mnie za Rękę",
-    "text": "Anioł chwyta cię za nadgarstek. „Spiesz się!\nNie oglądaj się. Uciekaj w góry.”",
+    "title": "Świt — Uciekajcie o Życie",
+    "text": "Gdy wstaje świt, aniołowie nakłaniają cię do pośpiechu.\nCo mówią?",
     "choices": [
       {
-        "text": "Zostań, by zebrać swoje złoto",
-        "feedback": ""
+        "text": "„Uciekajcie o życie! Nie oglądajcie się za siebie i nie zatrzymujcie się nigdzie na równinie! Uciekajcie w góry”",
+        "feedback": "Księga Rodzaju 19:17 — „Uciekajcie o życie! Nie oglądajcie się za siebie i nie zatrzymujcie się nigdzie na równinie! Uciekajcie w góry, bo inaczej zostaniecie zmieceni!”"
       },
       {
-        "text": "Idź teraz — zostaw wszystko",
-        "feedback": ""
+        "text": "„Zabierz swoje złoto i ukryj się w mieście”",
+        "feedback": "Aniołowie nakazali Lotowi uciekać w góry, a nie ukrywać się."
       },
       {
-        "text": "Zastanów się, dokąd uciekać",
-        "feedback": ""
+        "text": "„Poczekaj jeszcze kilka dni przed wyjazdem”",
+        "feedback": "Aniołowie powiedzieli „Uciekajcie!” pilnie, a nie żeby czekać."
       }
     ]
   },
   "flee": {
-    "title": "Droga z Miasta",
-    "text": "Twoja żona i córki biegną obok ciebie.\nZ tyłu ryk zaczyna wznosić się ku niebu.",
+    "title": "Ogień z Nieba",
+    "text": "Docierasz do miasta Coar, gdy wschodzi słońce.\nCo Pan czyni z Sodomą i Gomorą?",
     "choices": [
       {
-        "text": "Spójrz wstecz, by zobaczyć, czy to prawda",
-        "feedback": ""
+        "text": "Pan zsyła z nieba płonącą siarkę na Sodomę i Gomorę",
+        "feedback": "Księga Rodzaju 19:24 — Wtedy Pan zesłał na Sodomę i Gomorę deszcz płonącej siarki — od Pana z nieba."
       },
       {
-        "text": "Trzymaj wzrok utkwiony do przodu",
-        "feedback": ""
+        "text": "Pan zsyła wielką powódź na miasta",
+        "feedback": "Księga Rodzaju mówi, że z nieba spadła płonąca siarka, a nie potop."
+      },
+      {
+        "text": "Pan oszczędza miasta i pozwala im stać.",
+        "feedback": "Sodoma i Gomora zostały zniszczone przez ogień z nieba."
       }
     ]
   },
   "wife_looks": {
-    "title": "Spojrzała",
-    "text": "Twoja żona odwraca się. Jej ciało zastyga, potem bieleje.\nSłup soli o świcie.",
+    "title": "Obejrzała się",
+    "text": "Twoja żona jest za tobą.\nCo się z nią stanie?",
     "choices": [
       {
-        "text": "Zatrzymaj się i płacz nad nią",
-        "feedback": ""
+        "text": "Ogląda się za siebie i zamienia się w słup soli.",
+        "feedback": "Księga Rodzaju 19:26 — Lecz żona Lota obejrzała się za siebie i stała się słupem soli."
       },
       {
-        "text": "Krzycz — i biegnij dalej z dziewczynami",
-        "feedback": ""
+        "text": "Bezpiecznie ucieka z tobą do Coaru.",
+        "feedback": "Żona Lota obejrzała się za siebie i zamieniła się w słup soli."
+      },
+      {
+        "text": "Zamienia się w ptaka i odlatuje.",
+        "feedback": "Księga Rodzaju mówi, że zamieniła się w słup soli."
       }
     ]
   },
   "aftermath": {
-    "title": "Coar o Wschodzie Słońca",
-    "text": "Dym zaciemnia równinę za tobą.\nSiedzisz w kurzu. Oszczędzony. Pusty. Żywy.",
+    "title": "Dym z równiny",
+    "text": "Wcześnie rano Abraham wstaje i spogląda w stronę Sodomy.\nWidzi gęsty dym unoszący się z ziemi, jak dym z pieca.\nBóg pamiętał o Abrahamie i wyprowadził Lota z katastrofy.",
     "choices": []
   }
 }

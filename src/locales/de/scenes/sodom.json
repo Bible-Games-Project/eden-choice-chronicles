@@ -1,164 +1,188 @@
 {
-  "storyTitle": "Die Zerstörung von Sodom und Gomorra",
+  "storyTitle": "Die Zerstörung Sodoms",
   "start": {
-    "title": "Das Tor in der Dämmerung",
-    "text": "Du sitzt am Tor von Sodom.\nDie Stadt lacht laut unter einem roten Himmel.",
+    "title": "Am Tor von Sodom",
+    "text": "Es ist Abend. Du sitzt am Tor der Stadt Sodom.\nZwei Engel kommen in Sodom an. Was tust du?",
     "choices": [
       {
-        "text": "Stimme in das Lachen ein, um dazuzugehören",
-        "feedback": ""
+        "text": "Steh auf, um sie zu treffen, und verbeuge dich mit dem Gesicht zur Erde",
+        "feedback": "1. Mose 19,1 — Als Lot sie sah, stand er auf, um sie zu treffen, und verbeugte sich mit dem Gesicht zur Erde."
       },
       {
-        "text": "Beobachte schweigend, innerlich beunruhigt",
-        "feedback": ""
+        "text": "Wende dich ab und ignoriere die Fremden",
+        "feedback": "Die Genesis sagt, Lot stand auf und verbeugte sich vor ihnen."
+      },
+      {
+        "text": "Jage sie mit einem Stock aus der Stadt",
+        "feedback": "Die Genesis sagt, Lot hieß sie respektvoll willkommen."
       }
     ]
   },
   "wickedness": {
-    "title": "Das Herz der Stadt",
-    "text": "Grausamkeit auf den Straßen. Die Schwachen werden verspottet.\nDein Gewissen schmerzt und schmerzt.",
+    "title": "Komm in mein Haus",
+    "text": "Du sprichst zu den beiden Fremden.\nWas sagst du?",
     "choices": [
       {
-        "text": "Tu so, als hättest du es nicht gesehen",
-        "feedback": ""
+        "text": "'Meine Herren, kehrt doch bitte im Haus eures Dieners ein; ihr könnt eure Füße waschen und die Nacht verbringen'",
+        "feedback": "1. Mose 19,2 — 'Meine Herren, kehrt doch bitte im Haus eures Dieners ein. Ihr könnt eure Füße waschen und die Nacht verbringen und dann am frühen Morgen euren Weg fortsetzen.'"
       },
       {
-        "text": "Trauere schweigend und bete",
-        "feedback": ""
+        "text": "'Verlasst Sodom sofort – es ist hier nicht sicher'",
+        "feedback": "Lot drängte sie, die Nacht in seinem Haus zu verbringen."
       },
       {
-        "text": "Prahle mit deinem Ansehen hier",
-        "feedback": ""
+        "text": "'Schlaft hier auf dem Platz, wie ihr es geplant habt'",
+        "feedback": "Lot bestand darauf, dass die Engel mit ihm nach Hause kamen, anstatt auf dem Platz zu bleiben."
       }
     ]
   },
   "strangers": {
-    "title": "Zwei Fremde",
-    "text": "Zwei Reisende nähern sich dem Tor.\nEtwas an ihnen ist nicht von dieser Welt.",
+    "title": "Ein Mahl in deinem Haus",
+    "text": "Die Engel kommen mit dir nach Hause.\nWas bereitest du für sie zu?",
     "choices": [
       {
-        "text": "Verbeuge dich und biete ihnen dein Zuhause an",
-        "feedback": ""
+        "text": "Bereite ihnen ein Mahl zu und backe Brot ohne Hefe",
+        "feedback": "Genesis 19,3 — Er bereitete ihnen ein Mahl und backte ungesäuertes Brot, und sie aßen."
       },
       {
-        "text": "Warne sie und geh weg",
-        "feedback": ""
+        "text": "Biete ihnen nur Wasser an und schicke sie zu Bett",
+        "feedback": "Lot backte Brot und bereitete ihnen ein Mahl."
       },
       {
-        "text": "Verlange zu wissen, wer sie sind",
-        "feedback": ""
+        "text": "Biete ihnen ein mit Feuer gebratenes Lamm an",
+        "feedback": "Die Genesis erwähnt ungesäuertes Brot, kein gebratenes Lamm."
       }
     ]
   },
   "welcome": {
-    "title": "Unter Deinem Dach",
-    "text": "Sie folgen dir nach Hause. Brot wird gebrochen.\nDraußen beginnt die Stadt sich zu regen.",
+    "title": "Die Männer der Stadt",
+    "text": "Bevor du zu Bett gehst, umringen alle Männer von Sodom – jung und alt – das Haus.\nWas fordern sie?",
     "choices": [
       {
-        "text": "Verriegele jede Tür und halte Wache",
-        "feedback": ""
+        "text": "„Wo sind die Männer, die heute Nacht zu dir gekommen sind? Bring sie uns heraus!“",
+        "feedback": "Genesis 19,5 — Sie riefen Lot zu: „Wo sind die Männer, die heute Nacht zu dir gekommen sind? Bring sie uns heraus, damit wir mit ihnen schlafen können.“"
       },
       {
-        "text": "Lass die Tür weit offen",
-        "feedback": ""
+        "text": "„Gib uns Essen und Gold aus deinem Haus!“",
+        "feedback": "Die Männer forderten Lots Gäste, nicht Gold."
+      },
+      {
+        "text": "„Heiße uns willkommen, mit den Fremden zu essen!“",
+        "feedback": "Die Männer von Sodom kamen mit feindseliger Absicht, nicht mit einer freundlichen Bitte."
       }
     ]
   },
   "mob": {
-    "title": "Stimmen an der Tür",
-    "text": "Eine Menge schreit. Fäuste pochen ans Holz.\n„Gib sie uns heraus!“",
+    "title": "An der Tür",
+    "text": "Du gehst hinaus, um mit der Menge zu sprechen.\nWas machst du mit der Tür?",
     "choices": [
       {
-        "text": "Liefere die Gäste aus, um dich selbst zu retten",
-        "feedback": ""
+        "text": "Geh zu ihnen hinaus und schließe die Tür hinter dir",
+        "feedback": "Genesis 19,6 — Lot ging hinaus, um sie zu treffen, und schloss die Tür hinter sich."
       },
       {
-        "text": "Stell dich in den Türrahmen und weigere dich",
-        "feedback": ""
+        "text": "Lass die Tür weit offen, damit die Gäste fliehen können",
+        "feedback": "Lot schloss die Tür hinter sich, um die Gäste zu schützen."
+      },
+      {
+        "text": "Liefere die Gäste selbst der Menge aus",
+        "feedback": "Lot flehte die Männer an, seinen Gästen nichts anzutun."
       }
     ]
   },
   "angels_warn": {
-    "title": "Die Warnung",
-    "text": "Die Fremden sprechen. „Diese Stadt ist verloren.\nNimm deine Familie. Geh jetzt.“",
+    "title": "Hineingezogen",
+    "text": "Die Menge drängt, um die Tür aufzubrechen.\nWas tun die Engel?",
     "choices": [
       {
-        "text": "Argumentiere – dein Leben ist hier",
-        "feedback": ""
+        "text": "Die Engel strecken die Hand aus, ziehen dich zurück ins Haus und schlagen die Männer mit Blindheit",
+        "feedback": "Genesis 19,10-11 — Die Männer drinnen streckten die Hand aus und zogen Lot zurück ins Haus und schlossen die Tür. Dann schlugen sie die Männer an der Tür mit Blindheit."
       },
       {
-        "text": "Glaube – versammle deine Familie",
-        "feedback": ""
+        "text": "Die Engel öffnen die Tür und lassen die Menge herein",
+        "feedback": "Die Engel zogen Lot hinein und schlugen die Menge mit Blindheit."
       },
       {
-        "text": "Handle um mehr Zeit",
-        "feedback": ""
+        "text": "Die Engel verschwinden schweigend und verlassen dich",
+        "feedback": "Die Engel retteten Lot und blieben bei ihm."
       }
     ]
   },
   "sons_in_law": {
-    "title": "Flehen mit der Familie",
-    "text": "Die Verlobten deiner Töchter lachen dir ins Gesicht.\n„Alter Mann – du träumst von Feuer.“",
+    "title": "Warne deine Familie",
+    "text": "Die Engel sagen dir, du sollst deine Verwandten vor der kommenden Zerstörung warnen.\nWie reagieren deine Schwiegersöhne?",
     "choices": [
       {
-        "text": "Bleib und versuche, sie zu überzeugen",
-        "feedback": ""
+        "text": "Deine Schwiegersöhne halten dich für einen Scherz",
+        "feedback": "Genesis 19,14 — Lot ging hinaus und sprach zu seinen Schwiegersöhnen, aber sie dachten, er mache Witze."
       },
       {
-        "text": "Bitte noch einmal, dann kehre heim",
-        "feedback": ""
+        "text": "Deine Schwiegersöhne glauben dir und folgen sofort",
+        "feedback": "Die Schwiegersöhne nahmen Lot nicht ernst."
+      },
+      {
+        "text": "Deine Schwiegersöhne töten dich wegen der Warnung",
+        "feedback": "Die Genesis sagt, sie dachten, Lot mache Witze."
       }
     ]
   },
   "urge": {
-    "title": "Morgenröte – Nimm meine Hand",
-    "text": "Der Engel packt dein Handgelenk. „Beeil dich!\nSchau nicht zurück. Flieh in die Berge.“",
+    "title": "Morgenröte – Flieht um euer Leben",
+    "text": "Als die Morgenröte anbricht, drängen dich die Engel zur Eile.\nWas sagen sie?",
     "choices": [
       {
-        "text": "Verweile, um dein Gold zu sammeln",
-        "feedback": ""
+        "text": "„Flieht um euer Leben! Schaut nicht zurück und haltet nirgends in der Ebene an! Flieht in die Berge!“",
+        "feedback": "Genesis 19,17 — „Flieht um euer Leben! Schaut nicht zurück und haltet nirgends in der Ebene an! Flieht in die Berge, sonst werdet ihr hinweggefegt!“"
       },
       {
-        "text": "Geh jetzt – lass alles zurück",
-        "feedback": ""
+        "text": "„Nimm dein Gold und verstecke dich in der Stadt!“",
+        "feedback": "Die Engel befahlen Lot, in die Berge zu fliehen, nicht sich zu verstecken."
       },
       {
-        "text": "Frage, wohin du fliehen sollst",
-        "feedback": ""
+        "text": "„Wartet noch ein paar Tage, bevor ihr geht!“",
+        "feedback": "Die Engel sagten dringend „Flieht!“, nicht zu warten."
       }
     ]
   },
   "flee": {
-    "title": "Der Weg aus der Stadt",
-    "text": "Deine Frau und Töchter rennen neben dir.\nHinter euch beginnt ein Brüllen den Himmel zu erklimmen.",
+    "title": "Feuer vom Himmel",
+    "text": "Du erreichst die Stadt Zoar, als die Sonne aufgeht.\nWas tut der Herr mit Sodom und Gomorra?",
     "choices": [
       {
-        "text": "Blicke zurück, um zu sehen, ob es real ist",
-        "feedback": ""
+        "text": "Der Herr lässt brennenden Schwefel vom Himmel auf Sodom und Gomorra regnen",
+        "feedback": "Genesis 19,24 — Da ließ der Herr Schwefel und Feuer vom Herrn vom Himmel auf Sodom und Gomorra regnen."
       },
       {
-        "text": "Halte deine Augen fest nach vorne gerichtet",
-        "feedback": ""
+        "text": "Der Herr sendet eine große Flut über die Städte",
+        "feedback": "Die Genesis sagt, brennender Schwefel fiel vom Himmel, keine Flut."
+      },
+      {
+        "text": "Der Herr verschont die Städte und lässt sie stehen",
+        "feedback": "Sodom und Gomorra wurden durch Feuer vom Himmel zerstört."
       }
     ]
   },
   "wife_looks": {
-    "title": "Sie schaute",
-    "text": "Deine Frau dreht sich um. Ihr Körper erstarrt, dann wird er weiß.\nEine Salzsäule in der Morgenröte.",
+    "title": "Sie sah zurück",
+    "text": "Deine Frau ist hinter dir.\nWas geschieht mit ihr?",
     "choices": [
       {
-        "text": "Halte inne und weine um sie",
-        "feedback": ""
+        "text": "Sie blickt zurück und wird zu einer Salzsäule",
+        "feedback": "Genesis 19,26 — Aber Lots Frau sah zurück, und sie wurde zu einer Salzsäule."
       },
       {
-        "text": "Schrei auf – und renne weiter mit den Mädchen",
-        "feedback": ""
+        "text": "Sie rennt sicher mit dir nach Zoar",
+        "feedback": "Lots Frau sah zurück und wurde zu einer Salzsäule."
+      },
+      {
+        "text": "Sie verwandelt sich in einen Vogel und fliegt davon",
+        "feedback": "Die Genesis sagt, sie wurde zu einer Salzsäule."
       }
     ]
   },
   "aftermath": {
-    "title": "Zoar bei Sonnenaufgang",
-    "text": "Rauch verdunkelt die Ebene hinter dir.\nDu sitzt im Staub. Verschont. Leer. Lebendig.",
+    "title": "Der Rauch der Ebene",
+    "text": "Früh am Morgen steht Abraham auf und blickt hinab nach Sodom.\nEr sieht dichten Rauch vom Land aufsteigen, wie Rauch aus einem Ofen.\nGott erinnerte sich an Abraham, und Er führte Lot aus der Katastrophe heraus.",
     "choices": []
   }
 }

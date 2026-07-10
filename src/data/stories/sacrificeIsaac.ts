@@ -1,280 +1,164 @@
 import { StoryScene } from "@/data/stories/creation";
 
+// Story 10 — The Sacrifice of Isaac (Genesis 22).
+// First-person: the player IS Abraham.
+// Correct choices describe events explicitly told in Scripture.
+// Incorrect choices describe actions that do NOT appear in the biblical account.
 export const sacrificeIsaacScenes: Record<string, StoryScene> = {
-  // ============ ACT I — THE CALL ============
   start: {
     id: "start",
-    title: "A Voice in the Night",
-    text: "The fire in your tent has burned low.\nIsaac sleeps beside Sarah — the son of promise, the laughter of your old age.\nThen, in the silence, a voice you have known all your life: \"Abraham.\"",
+    title: "God Tests Abraham",
+    text: "God calls to you.\nHow do you answer?",
     choices: [
-      { text: "Answer at once: \"Here I am\"", nextScene: "the_command", tag: "obedient", feedback: "The word leaves you before fear can catch it. \"Here I am, Lord.\"", isCorrect: true, sentiment: "positive" },
-      { text: "Pretend you did not hear", nextScene: "doubt_consequence", tag: "evasive", feedback: "You pull the blanket higher. The voice does not move on.", isCorrect: false, sentiment: "negative" },
-      { text: "Demand to know what He wants first", nextScene: "doubt_consequence", tag: "guarded", feedback: "Your heart bargains before it has even listened. The silence grows heavier.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  doubt_consequence: {
-    id: "doubt_consequence",
-    title: "He Does Not Pass By",
-    text: "The voice does not leave. It waits — patient, immense, certain.\nYou cannot run from the One who called you out of Ur.\nYou rise from the bed and step into the cold air.",
-    choices: [
-      { text: "Bow low and answer at last: \"Here I am\"", nextScene: "the_command", tag: "yielding", feedback: "You touch your forehead to the sand. \"Here I am, Lord.\"", isCorrect: true, sentiment: "positive" },
+      { text: "Answer: 'Here I am'", nextScene: "the_command", tag: "answer", feedback: "Genesis 22:1 — Some time later God tested Abraham. He said to him, 'Abraham!' 'Here I am,' he replied.", isCorrect: true, sentiment: "positive" },
+      { text: "Ignore the voice and go back to sleep", nextScene: "the_command", tag: "invented", feedback: "Abraham answered the Lord at once, 'Here I am.'", isCorrect: false, sentiment: "negative" },
+      { text: "Demand to know the Lord's name first", nextScene: "the_command", tag: "invented", feedback: "Abraham simply answered, 'Here I am.'", isCorrect: false, sentiment: "negative" },
     ],
   },
   the_command: {
     id: "the_command",
     title: "Take Your Son",
-    text: "The words come, slow and terrible:\n\"Take your son, your only son Isaac, whom you love, and go to the land of Moriah.\nOffer him there as a burnt offering, on a mountain I will show you.\"",
+    text: "God speaks the command.\nWhat does He say?",
     choices: [
-      { text: "Refuse — surely God could not ask this", nextScene: "refuse_consequence", tag: "refusing", feedback: "You shake your head. But the command does not unsay itself.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow in trembling silence and accept", nextScene: "the_weight", tag: "submitting", feedback: "You press your face to the ground. No words come — only surrender.", isCorrect: true, sentiment: "positive" },
-      { text: "Beg God to take you instead", nextScene: "bargain_consequence", tag: "bargaining", feedback: "\"Take me, Lord — not the boy.\" The heavens do not answer the trade.", isCorrect: false, sentiment: "negative" },
+      { text: "'Take your son, your only son, whom you love — Isaac — and offer him as a burnt offering on a mountain I will show you'", nextScene: "the_weight", tag: "command", feedback: "Genesis 22:2 — 'Take your son, your only son, whom you love — Isaac — and go to the region of Moriah. Sacrifice him there as a burnt offering on a mountain I will show you.'", isCorrect: true, sentiment: "negative" },
+      { text: "'Take a lamb from your flock and offer it here'", nextScene: "the_weight", tag: "invented", feedback: "God commanded Abraham to offer Isaac, his son.", isCorrect: false, sentiment: "negative" },
+      { text: "'Build a great temple in Beersheba'", nextScene: "the_weight", tag: "invented", feedback: "God's command was to offer Isaac on a mountain in Moriah.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  refuse_consequence: {
-    id: "refuse_consequence",
-    title: "The God Who Gave Him",
-    text: "You stand alone under the vast stars.\nThis is the same God who promised Isaac when Sarah's womb was dead.\nHe gave the boy. He has not lied to you yet.",
-    choices: [
-      { text: "Trust the One who gave — and obey", nextScene: "the_weight", tag: "trusting", feedback: "Your refusal collapses. \"He who gave can also keep.\"", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-  bargain_consequence: {
-    id: "bargain_consequence",
-    title: "No Substitute You Can Offer",
-    text: "Your bargains die in your throat.\nThis test is not for your life. It is for your heart.\nThe stars wait above you in their thousands — the very stars He once promised.",
-    choices: [
-      { text: "Let go of the bargain and obey", nextScene: "the_weight", tag: "yielding", feedback: "You stop bargaining. There is nothing left but to trust.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-
-  // ============ ACT II — THE PREPARATION ============
   the_weight: {
     id: "the_weight",
-    title: "Before the Dawn",
-    text: "You sit by the dying fire until the sky greys.\nIsaac breathes softly nearby. Sarah does not stir.\nSoon the sun will rise — and you must move before your courage breaks.",
+    title: "Early the Next Morning",
+    text: "Early the next morning you prepare for the journey.\nWhat do you do?",
     choices: [
-      { text: "Wake the servants and saddle the donkey at once", nextScene: "departure", tag: "early_obedience", feedback: "Better to walk than to think. You rise and begin.", isCorrect: true, sentiment: "positive" },
-      { text: "Wait — perhaps another sign will come", nextScene: "delay_consequence", tag: "delaying", feedback: "Dawn comes anyway. The command does not change.", isCorrect: false, sentiment: "negative" },
-      { text: "Wake Sarah and tell her everything", nextScene: "tell_sarah_consequence", tag: "telling", feedback: "Your hand hovers over her shoulder — and falls back. She would not survive the parting.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  delay_consequence: {
-    id: "delay_consequence",
-    title: "No Other Sign Will Come",
-    text: "The light grows. Birds begin their first calls.\nThe word once spoken does not need to be repeated.\nObedience delayed will not soften what must be done.",
-    choices: [
-      { text: "Rise and prepare for the journey", nextScene: "departure", tag: "rising", feedback: "You stand, stiff with the weight of it, and call the servants.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-  tell_sarah_consequence: {
-    id: "tell_sarah_consequence",
-    title: "She Must Not Bear This",
-    text: "She would tear the tent down.\nShe would cling to Isaac and curse the God who asked.\nThis burden is yours alone — and Isaac's, if it must be.",
-    choices: [
-      { text: "Leave quietly and prepare in silence", nextScene: "departure", tag: "shielding", feedback: "You step outside without a word. The dawn keeps your secret.", isCorrect: true, sentiment: "positive" },
+      { text: "Get up early, saddle your donkey, take two servants and your son Isaac, and cut enough wood for the burnt offering", nextScene: "departure", tag: "prepare", feedback: "Genesis 22:3 — Early the next morning Abraham got up and loaded his donkey. He took with him two of his servants and his son Isaac. When he had cut enough wood for the burnt offering, he set out.", isCorrect: true, sentiment: "positive" },
+      { text: "Refuse to go and stay in Beersheba", nextScene: "departure", tag: "invented", feedback: "Abraham obeyed God at once, rising early in the morning.", isCorrect: false, sentiment: "negative" },
+      { text: "Wait for a sign before setting out", nextScene: "departure", tag: "invented", feedback: "Abraham set out immediately, without waiting.", isCorrect: false, sentiment: "negative" },
     ],
   },
   departure: {
     id: "departure",
-    title: "Three Days' Walk",
-    text: "You split the wood for the burnt offering yourself — each blow of the axe heavier than the last.\nYou wake Isaac gently. Two servants come with you.\nThe land of Moriah lies three days to the north.",
+    title: "Toward Moriah",
+    text: "You travel toward the place God has told you.\nHow long do you journey?",
     choices: [
-      { text: "Set out at first light without explanation", nextScene: "the_road", tag: "set_out", feedback: "The boy follows, sleepy and trusting. You do not look back at the tent.", isCorrect: true, sentiment: "positive" },
-      { text: "Lie to Isaac about where you are going", nextScene: "lie_consequence", tag: "lying", feedback: "The lie tastes of ash. He believes you without question — which is worse.", isCorrect: false, sentiment: "negative" },
+      { text: "Travel for three days, until you look up and see the place in the distance", nextScene: "the_road", tag: "three-days", feedback: "Genesis 22:4 — On the third day Abraham looked up and saw the place in the distance.", isCorrect: true, sentiment: "positive" },
+      { text: "Travel only a single hour before arriving", nextScene: "the_road", tag: "invented", feedback: "The journey to Moriah took three days.", isCorrect: false, sentiment: "negative" },
+      { text: "Travel for forty years through the desert", nextScene: "the_road", tag: "invented", feedback: "Genesis says Abraham reached the place on the third day.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  lie_consequence: {
-    id: "lie_consequence",
-    title: "Truth Enough for Today",
-    text: "You cannot lie to him. Not the whole truth — but not a lie.\n\"We go to worship,\" you tell him. \"God will provide.\"\nIt is more true than you yet understand.",
-    choices: [
-      { text: "Walk on with him into the dawn", nextScene: "the_road", tag: "walking", feedback: "He smiles up at you and takes your hand. The road begins.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-
-  // ============ ACT III — THE JOURNEY ============
   the_road: {
     id: "the_road",
-    title: "The Long Road North",
-    text: "Three days under a vast pale sky.\nIsaac chatters about lambs and stars and what Sarah will cook when you return.\nEvery word is a small knife — and a small mercy.",
+    title: "Stay Here With the Donkey",
+    text: "You come near the mountain.\nWhat do you tell the servants?",
     choices: [
-      { text: "Listen to him fully — store every word", nextScene: "mountain_in_sight", tag: "treasuring", feedback: "You drink in his voice as if it were the last well in the desert.", isCorrect: true, sentiment: "positive" },
-      { text: "Walk apart and harden your heart", nextScene: "harden_consequence", tag: "hardening", feedback: "You quicken your pace ahead of him. The distance does not protect you.", isCorrect: false, sentiment: "negative" },
-      { text: "Turn back — claim the journey was a mistake", nextScene: "turn_back_consequence", tag: "fleeing", feedback: "Your feet slow. But you cannot outrun the voice that called you.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  harden_consequence: {
-    id: "harden_consequence",
-    title: "A Father Cannot Harden Himself",
-    text: "You cannot make yourself small enough to escape this.\nIf God provides nothing, you will lose him either way — once on the altar, and forever in your soul.\nHe deserves your love until the last step.",
-    choices: [
-      { text: "Slow down and walk beside him again", nextScene: "mountain_in_sight", tag: "returning", feedback: "You match his pace. He smiles up at you. You do not deserve that smile.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-  turn_back_consequence: {
-    id: "turn_back_consequence",
-    title: "There Is No Going Back",
-    text: "If you turn back now, every promise unravels.\nThe stars He counted, the nations He swore — all collapse on a refusal.\nFaith is a road; you are already on it.",
-    choices: [
-      { text: "Face north again and keep walking", nextScene: "mountain_in_sight", tag: "facing", feedback: "You set your face like flint and walk on with him.", isCorrect: true, sentiment: "positive" },
+      { text: "'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you'", nextScene: "mountain_in_sight", tag: "return", feedback: "Genesis 22:5 — 'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you.'", isCorrect: true, sentiment: "positive" },
+      { text: "'Come with us up the mountain to watch'", nextScene: "mountain_in_sight", tag: "invented", feedback: "Abraham told the servants to wait behind with the donkey.", isCorrect: false, sentiment: "negative" },
+      { text: "'Take the donkey home; we are not coming back'", nextScene: "mountain_in_sight", tag: "invented", feedback: "Abraham said, 'We will come back to you.'", isCorrect: false, sentiment: "positive" },
     ],
   },
   mountain_in_sight: {
     id: "mountain_in_sight",
-    title: "The Mountain Afar Off",
-    text: "On the third day you lift your eyes — and see it.\nA single peak in the distance, wrapped in pale haze.\nSomething inside you knows this is the place.",
+    title: "The Wood and the Fire",
+    text: "You prepare to climb the mountain.\nWho carries what?",
     choices: [
-      { text: "Tell the servants to wait here with the donkey", nextScene: "leave_servants", tag: "separating", feedback: "\"Stay here with the donkey. The boy and I will go up to worship — and we will come again to you.\"", isCorrect: true, sentiment: "positive" },
-      { text: "Bring the servants up with you for support", nextScene: "servants_consequence", tag: "leaning", feedback: "You take a step toward them — then stop. They cannot share this.", isCorrect: false, sentiment: "negative" },
+      { text: "Place the wood for the burnt offering on Isaac's shoulders; carry the fire and the knife yourself", nextScene: "leave_servants", tag: "wood", feedback: "Genesis 22:6 — Abraham took the wood for the burnt offering and placed it on his son Isaac, and he himself carried the fire and the knife.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry the wood yourself while Isaac carries nothing", nextScene: "leave_servants", tag: "invented", feedback: "Isaac carried the wood; Abraham carried the fire and the knife.", isCorrect: false, sentiment: "negative" },
+      { text: "Leave the wood behind at the foot of the mountain", nextScene: "leave_servants", tag: "invented", feedback: "The wood for the burnt offering was placed on Isaac.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  servants_consequence: {
-    id: "servants_consequence",
-    title: "This Is for No Other Eyes",
-    text: "If they witness, they will stop you. If they stop you, you have failed Him.\nThis is between you, the boy, and God.\nNo other hand may steady or hinder.",
-    choices: [
-      { text: "Tell them to wait here at the foot of the mountain", nextScene: "leave_servants", tag: "alone", feedback: "\"Stay here. We will return to you.\" The words feel like prophecy you do not yet understand.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-
-  // ============ ACT IV — THE ASCENT ============
   leave_servants: {
     id: "leave_servants",
-    title: "He Will Carry the Wood",
-    text: "You lay the bundle of split wood across Isaac's strong young shoulders.\nYou carry the fire and the knife in your own hands.\nTogether you begin to climb the narrow path.",
+    title: "Father",
+    text: "As you walk together, Isaac speaks up.\nWhat does he say?",
     choices: [
-      { text: "Walk in silence beside him", nextScene: "isaacs_question", tag: "silent_walk", feedback: "Step by step, the path winds upward. The wind sings in the cliffs.", isCorrect: true, sentiment: "positive" },
+      { text: "'Father — the fire and wood are here, but where is the lamb for the burnt offering?'", nextScene: "isaacs_question", tag: "question", feedback: "Genesis 22:7 — 'Father, the fire and wood are here, but where is the lamb for the burnt offering?'", isCorrect: true, sentiment: "positive" },
+      { text: "'Father — let us go back home right now'", nextScene: "isaacs_question", tag: "invented", feedback: "Isaac asked about the lamb for the offering.", isCorrect: false, sentiment: "negative" },
+      { text: "Isaac says nothing the whole way up", nextScene: "isaacs_question", tag: "invented", feedback: "Genesis records Isaac's question about the lamb.", isCorrect: false, sentiment: "negative" },
     ],
   },
   isaacs_question: {
     id: "isaacs_question",
-    title: "Where Is the Lamb?",
-    text: "Halfway up, Isaac stops and turns to you.\n\"My father — behold the fire and the wood. But where is the lamb for the burnt offering?\"\nHis eyes are clear and trusting. He waits for an answer.",
+    title: "God Will Provide",
+    text: "You answer Isaac.\nWhat do you say?",
     choices: [
-      { text: "\"God Himself will provide a lamb, my son\"", nextScene: "summit", tag: "faith_answer", feedback: "The words leave you like a prayer. Even you do not yet know what they mean.", isCorrect: true, sentiment: "positive" },
-      { text: "Tell him the truth — that he is the lamb", nextScene: "tell_truth_consequence", tag: "harsh_truth", feedback: "His face goes white. He drops the wood and stumbles backward.", isCorrect: false, sentiment: "negative" },
-      { text: "Say nothing and keep walking", nextScene: "silence_consequence", tag: "evading", feedback: "He waits a long moment. Then quietly follows. Something in him knows.", isCorrect: false, sentiment: "negative" },
+      { text: "'God Himself will provide the lamb for the burnt offering, my son'", nextScene: "summit", tag: "provide", feedback: "Genesis 22:8 — 'God Himself will provide the lamb for the burnt offering, my son.'", isCorrect: true, sentiment: "positive" },
+      { text: "'You are the lamb, Isaac'", nextScene: "summit", tag: "invented", feedback: "Abraham told Isaac that God Himself would provide the lamb.", isCorrect: false, sentiment: "negative" },
+      { text: "'There is no lamb — we go home now'", nextScene: "summit", tag: "invented", feedback: "Abraham answered with faith: God would provide.", isCorrect: false, sentiment: "negative" },
     ],
   },
-  tell_truth_consequence: {
-    id: "tell_truth_consequence",
-    title: "He Trusts You Still",
-    text: "He trembles. But after a long silence, he picks up the wood again.\nHe does not run. He does not curse you.\nHe walks on beside you — because he trusts the God you have always trusted.",
-    choices: [
-      { text: "Walk with him in awed silence to the summit", nextScene: "summit", tag: "awed", feedback: "Two faiths walk side by side up the last of the path.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-  silence_consequence: {
-    id: "silence_consequence",
-    title: "The Answer of Faith",
-    text: "You cannot leave his question without an answer — not now, not ever.\nFaith is not silence. Faith is the word spoken into the dark.\nYou turn to him.",
-    choices: [
-      { text: "Say: \"God Himself will provide the lamb, my son\"", nextScene: "summit", tag: "faith_late", feedback: "You speak it. The mountain seems to hold its breath.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-
-  // ============ ACT V — THE ALTAR ============
   summit: {
     id: "summit",
-    title: "The Place He Showed",
-    text: "You reach the place. The wind stills.\nYou begin to gather stones. Isaac kneels and helps you, his small hands beside yours.\nThe altar rises — rough, sacred, terrible.",
+    title: "The Altar",
+    text: "You reach the place God has told you about.\nWhat do you build there?",
     choices: [
-      { text: "Lay the wood in order upon the stones", nextScene: "the_binding", tag: "ordering", feedback: "Each piece of wood goes down with care. The altar is ready.", isCorrect: true, sentiment: "positive" },
-      { text: "Stop — you cannot do this", nextScene: "stop_consequence", tag: "wavering", feedback: "Your hands fall to your sides. The wind picks up around you.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  stop_consequence: {
-    id: "stop_consequence",
-    title: "Faith That Believes Resurrection",
-    text: "Your hands shake. Then a thought enters you — older than the command itself:\n\"He who gave Isaac out of a dead womb can give him back from the dead.\"\nYou believe it. You do not understand it. But you believe.",
-    choices: [
-      { text: "Take up the wood and finish what was begun", nextScene: "the_binding", tag: "resurrection_faith", feedback: "Your hands steady. You complete the altar.", isCorrect: true, sentiment: "positive" },
+      { text: "Build an altar, arrange the wood on it, bind Isaac and lay him on the altar, on top of the wood", nextScene: "the_binding", tag: "altar", feedback: "Genesis 22:9 — When they reached the place God had told him about, Abraham built an altar there and arranged the wood on it. He bound his son Isaac and laid him on the altar, on top of the wood.", isCorrect: true, sentiment: "negative" },
+      { text: "Build a shrine to another god instead", nextScene: "the_binding", tag: "invented", feedback: "Abraham built an altar to the Lord, exactly as commanded.", isCorrect: false, sentiment: "negative" },
+      { text: "Refuse to build anything and turn back", nextScene: "the_binding", tag: "invented", feedback: "Abraham obeyed and built the altar.", isCorrect: false, sentiment: "positive" },
     ],
   },
   the_binding: {
     id: "the_binding",
-    title: "He Did Not Resist",
-    text: "You turn to Isaac. There are no words — only your eyes meeting his.\nHe sees. He understands. And he does not run.\nHe kneels. He lets you bind his hands. He lays himself upon the wood.",
+    title: "The Knife",
+    text: "Isaac is bound on the altar.\nWhat do you do next?",
     choices: [
-      { text: "Kiss his forehead and lift the knife", nextScene: "the_knife", tag: "lifting", feedback: "His tear meets your tear. You raise the knife.", isCorrect: true, sentiment: "positive" },
-      { text: "Loose him — flee from the altar", nextScene: "flee_consequence", tag: "fleeing", feedback: "Your hand finds the cord — but stops. To turn back now is to make all his courage worthless.", isCorrect: false, sentiment: "negative" },
+      { text: "Reach out your hand and take the knife to slay your son", nextScene: "the_knife", tag: "knife", feedback: "Genesis 22:10 — Then he reached out his hand and took the knife to slay his son.", isCorrect: true, sentiment: "negative" },
+      { text: "Set the knife aside and refuse", nextScene: "the_knife", tag: "invented", feedback: "Abraham reached out with the knife to obey God fully.", isCorrect: false, sentiment: "positive" },
+      { text: "Loose Isaac and flee down the mountain", nextScene: "the_knife", tag: "invented", feedback: "Abraham raised the knife in obedience; he did not flee.", isCorrect: false, sentiment: "positive" },
     ],
   },
-  flee_consequence: {
-    id: "flee_consequence",
-    title: "His Faith Holds You",
-    text: "The boy lies still beneath you, eyes closed, breathing steady.\nHe trusts. He is offering himself with you.\nIf you flee, you betray not only God — but Isaac's own surrender.",
-    choices: [
-      { text: "Stand with him to the end — lift the knife", nextScene: "the_knife", tag: "standing", feedback: "You raise the knife above him, both hands trembling.", isCorrect: true, sentiment: "positive" },
-    ],
-  },
-
-  // ============ ACT VI — THE VOICE FROM HEAVEN ============
   the_knife: {
     id: "the_knife",
-    title: "Abraham! Abraham!",
-    text: "The blade rises high. Your arms are stone.\nAt the highest point — a voice tears the sky open:\n\"Abraham! Abraham!\"",
+    title: "The Angel of the Lord",
+    text: "The angel of the Lord calls out to you from heaven.\nWhat does he say?",
     choices: [
-      { text: "Answer at once: \"Here I am\"", nextScene: "the_stay", tag: "answering", feedback: "The knife stops. \"Here I am, Lord.\"", isCorrect: true, sentiment: "positive" },
-      { text: "Strike before another command can come", nextScene: "strike_consequence", tag: "striking", feedback: "Your arm tenses — then locks. You cannot. The voice has the right of way.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  strike_consequence: {
-    id: "strike_consequence",
-    title: "The Test Is Not Blood",
-    text: "Your arm will not move.\nGod did not ask for the death — He asked for the heart that would give the death.\nYou have given Him that heart. The blade has done its work already.",
-    choices: [
-      { text: "Lower the knife and answer the voice: \"Here I am\"", nextScene: "the_stay", tag: "lowering", feedback: "The knife falls from your hand into the dust. \"Here I am.\"", isCorrect: true, sentiment: "positive" },
+      { text: "'Abraham! Abraham! Do not lay a hand on the boy. Do not do anything to him'", nextScene: "the_stay", tag: "stay", feedback: "Genesis 22:11-12 — 'Abraham! Abraham!' 'Here I am,' he replied. 'Do not lay a hand on the boy,' he said. 'Do not do anything to him.'", isCorrect: true, sentiment: "positive" },
+      { text: "'Strike the boy quickly — do not delay'", nextScene: "the_stay", tag: "invented", feedback: "The angel stopped Abraham from harming Isaac.", isCorrect: false, sentiment: "negative" },
+      { text: "The angel says nothing at all", nextScene: "the_stay", tag: "invented", feedback: "The angel called out clearly and stopped Abraham.", isCorrect: false, sentiment: "negative" },
     ],
   },
   the_stay: {
     id: "the_stay",
-    title: "Lay Not Your Hand on the Boy",
-    text: "\"Lay not your hand on the boy. Do nothing to him.\nFor now I know that you fear God — for you have not withheld your son, your only son, from Me.\"\nYou drop to your knees beside him. The world breathes again.",
+    title: "Now I Know",
+    text: "The angel explains why you were stopped.\nWhat does he say?",
     choices: [
-      { text: "Loose Isaac's hands and lift him from the wood", nextScene: "the_ram", tag: "loosing", feedback: "Your trembling fingers free him. He clings to you and weeps.", isCorrect: true, sentiment: "positive" },
+      { text: "'Now I know that you fear God, because you have not withheld from Me your son, your only son'", nextScene: "the_ram", tag: "fear-god", feedback: "Genesis 22:12 — 'Now I know that you fear God, because you have not withheld from Me your son, your only son.'", isCorrect: true, sentiment: "positive" },
+      { text: "'You have failed the test; go home in shame'", nextScene: "the_ram", tag: "invented", feedback: "The angel commended Abraham's obedience.", isCorrect: false, sentiment: "negative" },
+      { text: "'Isaac must still die; try again tomorrow'", nextScene: "the_ram", tag: "invented", feedback: "The angel commanded Abraham not to harm Isaac.", isCorrect: false, sentiment: "negative" },
     ],
   },
   the_ram: {
     id: "the_ram",
-    title: "Caught in the Thicket",
-    text: "You lift your eyes — and there in the brush behind the altar, a ram stands caught by its horns in the thicket.\nIt did not come from the path. It is simply there.\nGod has provided.",
+    title: "A Ram in the Thicket",
+    text: "You look up.\nWhat do you see caught in the thicket?",
     choices: [
-      { text: "Take the ram and offer it in Isaac's place", nextScene: "the_name", tag: "offering", feedback: "You free the ram and lay it on the wood. The fire rises.", isCorrect: true, sentiment: "positive" },
-      { text: "Refuse — sacrifice nothing now", nextScene: "no_sacrifice_consequence", tag: "refusing", feedback: "You stand frozen. The ram waits. The altar waits.", isCorrect: false, sentiment: "negative" },
-    ],
-  },
-  no_sacrifice_consequence: {
-    id: "no_sacrifice_consequence",
-    title: "Worship Must Be Completed",
-    text: "You came to worship. The altar still calls for an offering.\nGod has provided one — to receive it is the final act of obedience.\nNot to offer it is to despise the mercy.",
-    choices: [
-      { text: "Take the ram and complete the offering", nextScene: "the_name", tag: "completing", feedback: "You free the ram and lay it on the wood. The smoke rises straight to heaven.", isCorrect: true, sentiment: "positive" },
+      { text: "A ram caught by its horns in a thicket — you take it and offer it as a burnt offering in place of your son", nextScene: "the_name", tag: "ram", feedback: "Genesis 22:13 — Abraham looked up and there in a thicket he saw a ram caught by its horns. He went over and took the ram and sacrificed it as a burnt offering instead of his son.", isCorrect: true, sentiment: "positive" },
+      { text: "A dove flying above the altar", nextScene: "the_name", tag: "invented", feedback: "Abraham saw a ram caught by its horns in a thicket.", isCorrect: false, sentiment: "negative" },
+      { text: "Nothing at all — the altar remains empty", nextScene: "the_name", tag: "invented", feedback: "God provided a ram caught in the thicket.", isCorrect: false, sentiment: "negative" },
     ],
   },
   the_name: {
     id: "the_name",
     title: "The Lord Will Provide",
-    text: "You name the place Yahweh-Yireh — \"The Lord Will Provide.\"\nIsaac stands beside you, alive, breathing, his hand small in yours.\nThe smoke of the ram rises into the wide pale sky.",
+    text: "You name that place to mark what happened.\nWhat name do you give it?",
     choices: [
-      { text: "Bow and listen — the voice is not finished", nextScene: "the_blessing", tag: "listening", feedback: "You bow your head. The voice comes again, gentler this time.", isCorrect: true, sentiment: "positive" },
+      { text: "'The Lord Will Provide' (Yahweh Yireh)", nextScene: "the_blessing", tag: "name", feedback: "Genesis 22:14 — So Abraham called that place 'The Lord Will Provide.'", isCorrect: true, sentiment: "positive" },
+      { text: "'The Place of Grief'", nextScene: "the_blessing", tag: "invented", feedback: "Abraham named it 'The Lord Will Provide.'", isCorrect: false, sentiment: "negative" },
+      { text: "'The Mountain of Fire'", nextScene: "the_blessing", tag: "invented", feedback: "Abraham named the place 'The Lord Will Provide.'", isCorrect: false, sentiment: "negative" },
     ],
   },
-
-  // ============ ACT VII — THE BLESSING ============
   the_blessing: {
     id: "the_blessing",
-    title: "By Myself I Have Sworn",
-    text: "\"By Myself I have sworn, says the Lord:\nbecause you have done this and have not withheld your only son,\nI will surely bless you, and multiply your seed as the stars of the heaven and as the sand upon the seashore.\nIn your seed shall all nations of the earth be blessed — because you have obeyed My voice.\"",
+    title: "The Oath",
+    text: "The angel of the Lord calls to you a second time from heaven.\nWhat is the promise?",
     choices: [
-      { text: "Take Isaac's hand and begin the long walk home", nextScene: "homecoming", tag: "homeward", feedback: "You turn together toward the path, the sky burning gold around you.", isCorrect: true, sentiment: "positive" },
+      { text: "'I will surely bless you and make your descendants as numerous as the stars in the sky and the sand on the seashore; through your offspring all nations on earth will be blessed'", nextScene: "homecoming", tag: "blessing", feedback: "Genesis 22:16-18 — 'I swear by Myself... I will surely bless you and make your descendants as numerous as the stars in the sky and as the sand on the seashore... and through your offspring all nations on earth will be blessed, because you have obeyed Me.'", isCorrect: true, sentiment: "positive" },
+      { text: "'Your descendants will be few and forgotten'", nextScene: "homecoming", tag: "invented", feedback: "The Lord promised descendants as many as the stars and the sand.", isCorrect: false, sentiment: "negative" },
+      { text: "'You will lose all you have as punishment'", nextScene: "homecoming", tag: "invented", feedback: "The Lord blessed Abraham for his obedience.", isCorrect: false, sentiment: "negative" },
     ],
-    isFinal: true,
   },
   homecoming: {
     id: "homecoming",
-    title: "We Have Come Again",
-    text: "You walk down the mountain together as the stars begin to show themselves.\nThe servants are waiting where you left them.\n\"We have come again to you,\" you say — and it is truer than they will ever know.",
+    title: "Back to Beersheba",
+    text: "Abraham returns to his servants, and together they set off for Beersheba.\nAnd Abraham stays in Beersheba.",
     choices: [],
     isFinal: true,
   },
