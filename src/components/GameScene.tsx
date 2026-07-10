@@ -124,6 +124,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     const EDU_STORIES = new Set([
       "creation", "adam-eve", "cain-abel", "noah-flood", "tower-babel",
       "call-abraham", "abraham-egypt", "abraham-lot", "sodom-gomorrah", "sacrifice-isaac",
+      "rebekah-servant", "jacob-esau", "jacobs-dream", "jacob-wrestles", "joseph-sold",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
