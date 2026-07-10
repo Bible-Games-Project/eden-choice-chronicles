@@ -801,7 +801,6 @@ const Index = () => {
             body={t("introBody")}
             buttonLabelKey="introBegin"
             onContinue={() => {
-              try { localStorage.setItem(INTRO_SEEN_KEY, "true"); } catch { /* ignore */ }
               const story = pendingStory;
               setPendingStory(null);
               if (story) startStoryNow(story);
