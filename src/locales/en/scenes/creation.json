@@ -1,533 +1,305 @@
 {
   "storyTitle": "Creation of the World",
   "start": {
-    "title": "Before All Things",
-    "text": "Nothing exists yet.\nOnly you — and the deep, endless dark.",
+    "title": "In the Beginning",
+    "text": "You are God — Father, Son, and Holy Spirit.\nNothing has been created yet. What is your first act?",
     "choices": [
-      {
-        "text": "Hold still — feel the emptiness",
-        "feedback": "You wait. The darkness presses closer — patient, heavy."
-      },
-      {
-        "text": "Reach into the darkness",
-        "feedback": "Your hand stretches forward. Something stirs beneath the surface."
-      },
-      {
-        "text": "Speak — break the silence",
-        "feedback": "A sound rises from deep within you — the first sound ever made."
-      }
+      { "text": "Remain silent and alone forever", "feedback": "In Genesis 1:1, God's first act was to create the heavens and the earth." },
+      { "text": "Create the heavens and the earth", "feedback": "Correct — Genesis 1:1: 'In the beginning God created the heavens and the earth.'" },
+      { "text": "Speak only to yourself", "feedback": "In Genesis 1:1, God did not stay silent — He created the heavens and the earth." }
     ]
   },
   "silence": {
-    "title": "The Great Silence",
-    "text": "You wait in the stillness.\nThe emptiness aches — it needs something more.",
+    "title": "The Formless Earth",
+    "text": "The earth is formless and void.\nDarkness covers the deep. What do you do?",
     "choices": [
-      {
-        "text": "Let the first word form",
-        "feedback": "The word gathers inside you — heavy with purpose."
-      },
-      {
-        "text": "Breathe over the waters",
-        "feedback": "Your breath ripples across the deep. Something awakens."
-      }
+      { "text": "Say: 'Let there be light'", "feedback": "Correct — Genesis 1:3: 'And God said, Let there be light.'" },
+      { "text": "Command more darkness to cover everything", "feedback": "In Genesis 1:3, God said 'Let there be light' — not more darkness." }
     ]
   },
   "voice": {
-    "title": "The Word",
-    "text": "Your voice tears through the nothing.\nIt carries the weight of forever.",
+    "title": "The Spirit Over the Waters",
+    "text": "The Spirit of God hovers over the waters.\nWhat do you speak into being first?",
     "choices": [
-      {
-        "text": "Command — let there be light",
-        "feedback": "The command explodes from you. There is no turning back."
-      },
-      {
-        "text": "Whisper it gently into being",
-        "feedback": "The whisper leaves your lips — soft, yet unstoppable."
-      }
+      { "text": "'Let there be light'", "feedback": "Correct — light was the first thing God spoke into being (Genesis 1:3)." },
+      { "text": "'Let there be trees and animals'", "feedback": "In Genesis 1, God created light first — plants come on Day Three, animals on Days Five and Six." }
     ]
   },
   "void": {
-    "title": "The Formless Deep",
-    "text": "Endless waters stretch beneath you.\nYou hover above the deep.",
+    "title": "The Deep",
+    "text": "The earth is without form; darkness covers the deep.\nThe Spirit of God hovers over the waters. What now?",
     "choices": [
-      {
-        "text": "Descend toward the waters",
-        "feedback": "You lower yourself. The water trembles at your presence."
-      },
-      {
-        "text": "Stir the surface with your breath",
-        "feedback": "Your breath moves across the face of the deep."
-      }
+      { "text": "Say: 'Let there be light'", "feedback": "Correct — Genesis 1:3: 'Let there be light.'" },
+      { "text": "Create humans right away", "feedback": "In Genesis 1, humans are created on the sixth day, not first. Light comes first." }
     ]
   },
   "light": {
-    "title": "Let There Be Light",
-    "text": "Light bursts from you — blinding, infinite.\nWarmth floods the emptiness for the first time.",
+    "title": "Light Has Come",
+    "text": "Light shines. You see that the light is good.\nWhat is your next act on Day One?",
     "choices": [
-      {
-        "text": "Let the light expand everywhere",
-        "feedback": "The light races outward — filling every void."
-      },
-      {
-        "text": "Shape the light — give it edges",
-        "feedback": "You cup the light in your hands. It pulses, alive."
-      },
-      {
-        "text": "Separate it from the darkness",
-        "feedback": "You draw a line between light and dark. Order begins."
-      }
+      { "text": "Add a second sun in the sky", "feedback": "In Genesis 1:4, God separated the light from the darkness — He did not create a second sun." },
+      { "text": "Erase the darkness completely", "feedback": "In Genesis 1:4-5, God did not destroy darkness — He separated it from light and named it Night." },
+      { "text": "Separate the light from the darkness", "feedback": "Correct — Genesis 1:4: 'And God separated the light from the darkness.'" }
     ]
   },
   "light_obey": {
-    "title": "Let There Be Light",
-    "text": "Your command shakes the void.\nLight explodes — infinite, blinding, alive.",
+    "title": "Day and Night",
+    "text": "Light shines and it is good.\nHow do you complete the first day?",
     "choices": [
-      {
-        "text": "Hold the light close",
-        "feedback": "Warmth gathers around you — golden, tender."
-      },
-      {
-        "text": "Push it outward — fill everything",
-        "feedback": "The light obeys. It floods the emptiness without end."
-      }
+      { "text": "Call the light Day and the darkness Night", "feedback": "Correct — Genesis 1:5: 'God called the light Day, and the darkness he called Night.'" },
+      { "text": "Create the sun, moon, and stars now", "feedback": "In Genesis 1, the sun, moon, and stars are created on the fourth day — not the first." }
     ]
   },
   "light_awe": {
-    "title": "Let There Be Light",
-    "text": "Light rises gently from your breath.\nSoft at first — then blazing, unstoppable.",
+    "title": "The First Day",
+    "text": "There is light. There is darkness.\nWhat completes the first day?",
     "choices": [
-      {
-        "text": "Shape it into something greater",
-        "feedback": "You press the light upward — it stretches into sky."
-      },
-      {
-        "text": "Divide the light from the dark",
-        "feedback": "Shadow and radiance separate at your touch."
-      }
+      { "text": "Make the sea creatures now", "feedback": "In Genesis 1:20-23, sea creatures come on Day Five. Day One separates light and darkness." },
+      { "text": "Call the light Day and the darkness Night", "feedback": "Correct — Genesis 1:5: God called the light Day and the darkness Night." }
     ]
   },
   "warmth": {
-    "title": "First Warmth",
-    "text": "The light settles into warmth.\nYou feel creation responding to your touch.",
+    "title": "The Second Day",
+    "text": "The first day is complete.\nWhat do you create on Day Two?",
     "choices": [
-      {
-        "text": "Stretch the sky open above",
-        "feedback": "You reach upward. The sky begins to unfold."
-      },
-      {
-        "text": "Spread your hands — expand it all",
-        "feedback": "Everything stretches — wider, higher, limitless."
-      }
+      { "text": "An expanse to separate the waters above from below", "feedback": "Correct — Genesis 1:6-7: God made an expanse and separated the waters above from the waters below." },
+      { "text": "Plant the first garden", "feedback": "In Genesis 1:11, plants come on Day Three. Day Two is the expanse — the sky." }
     ]
   },
   "day_night": {
-    "title": "Evening and Morning",
-    "text": "You name the light Day and the darkness Night.\nThe first sunset. The first dawn.",
+    "title": "The Second Day",
+    "text": "Evening and morning — the first day is done.\nWhat comes on Day Two?",
     "choices": [
-      {
-        "text": "Begin the second day",
-        "feedback": "You move forward. There is more to create."
-      },
-      {
-        "text": "Pause — linger in what you've made",
-        "feedback": "You stop. The colors are yours — and they are beautiful."
-      }
+      { "text": "Create the expanse and call it Heaven", "feedback": "Correct — Genesis 1:8: 'And God called the expanse Heaven.'" },
+      { "text": "Create fish and birds", "feedback": "In Genesis 1:20-23, fish and birds come on Day Five — not Day Two." }
     ]
   },
   "sky": {
-    "title": "The Heavens Above",
-    "text": "You stretch out the sky like a curtain.\nWaters part — above and below.",
+    "title": "The Third Day",
+    "text": "The expanse of Heaven is made.\nWhat is your first act on Day Three?",
     "choices": [
-      {
-        "text": "Command the dry land to appear",
-        "feedback": "Your voice strikes the deep. The earth begins to rise."
-      },
-      {
-        "text": "Gather the waters together",
-        "feedback": "The waters obey — drawing inward, making room."
-      },
-      {
-        "text": "Step back — admire the vastness",
-        "feedback": "You pause. The sky stretches further than you imagined."
-      }
+      { "text": "Command dry land to appear without moving the waters", "feedback": "In Genesis 1:9, God first gathered the waters together — then the dry land appeared." },
+      { "text": "Gather the waters together into one place", "feedback": "Correct — Genesis 1:9: 'Let the waters be gathered into one place, and let the dry land appear.'" },
+      { "text": "Create the sun to warm the sky", "feedback": "In Genesis 1:14-16, the sun is made on the fourth day — not the third." }
     ]
   },
   "sky_vast": {
-    "title": "The Vast Sky",
-    "text": "Blue stretches endlessly in every direction.\nYour creation grows beyond what even you imagined.",
+    "title": "The Third Day",
+    "text": "The expanse of Heaven is complete.\nWhat comes on Day Three?",
     "choices": [
-      {
-        "text": "Call forth the land below",
-        "feedback": "You speak downward. The ground trembles in answer."
-      },
-      {
-        "text": "Gather the seas into their places",
-        "feedback": "The waters rush to their boundaries — eager, wild."
-      }
+      { "text": "Create the stars first", "feedback": "In Genesis 1:14-16, stars are created on the fourth day. Day Three is dry land and seas." },
+      { "text": "Gather the waters into seas so dry land appears", "feedback": "Correct — Genesis 1:9-10: God gathered the waters into seas and dry land appeared." }
     ]
   },
   "waters_gather": {
-    "title": "The Gathering of Waters",
-    "text": "You push the oceans into their places.\nRivers carve paths at your command.",
+    "title": "Dry Land Appears",
+    "text": "The waters gather. Dry land emerges.\nWhat do you do next on Day Three?",
     "choices": [
-      {
-        "text": "Raise the mountains from the deep",
-        "feedback": "Stone groans upward. The peaks reach toward you."
-      },
-      {
-        "text": "Shape the earth with your hands",
-        "feedback": "You kneel. The soil is warm beneath your fingers."
-      }
+      { "text": "Cover the land with plants, seeds, and fruit trees", "feedback": "Correct — Genesis 1:11: 'Let the earth sprout vegetation, plants yielding seed, and fruit trees.'" },
+      { "text": "Fill the seas with fish right now", "feedback": "In Genesis 1:20-21, fish come on Day Five. Day Three ends with plants and trees." }
     ]
   },
   "expanse": {
-    "title": "The Dome of Heaven",
-    "text": "The sky arches like a cathedral you built.\nEvery direction holds a promise.",
+    "title": "The Third Day",
+    "text": "The heavens stretch above.\nWhat do you do on Day Three?",
     "choices": [
-      {
-        "text": "Bring forth the ground below",
-        "feedback": "You look down. The earth rises to meet your gaze."
-      },
-      {
-        "text": "Press your hands into the earth",
-        "feedback": "Your palms sink into the clay. It yields to you."
-      }
+      { "text": "Bring forth dry land, plants, and fruit trees", "feedback": "Correct — Genesis 1:9-12: dry land, seas, and vegetation appear on Day Three." },
+      { "text": "Form Adam from the dust", "feedback": "In Genesis 2:7, Adam is formed on Day Six — not Day Three." }
     ]
   },
   "land": {
-    "title": "Dry Ground",
-    "text": "Mountains rise at your word.\nGreen erupts — sudden, wild, everywhere.",
+    "title": "Vegetation",
+    "text": "Dry land appears.\nWhat kind of life do you cover it with?",
     "choices": [
-      {
-        "text": "Plant a forest with a thought",
-        "feedback": "Trees spring up — tall, ancient, reaching for your sky."
-      },
-      {
-        "text": "Craft the first flower by hand",
-        "feedback": "A single bloom opens in your palm. Perfect."
-      },
-      {
-        "text": "Climb to the highest peak",
-        "feedback": "You ascend. The world unfolds beneath you."
-      }
+      { "text": "Plants, herbs, and fruit trees — each according to its kind", "feedback": "Correct — Genesis 1:11-12: plants and trees each 'according to its kind.'" },
+      { "text": "Only flowers, and no trees", "feedback": "In Genesis 1:11, God made plants, herbs, AND fruit trees — not flowers alone." },
+      { "text": "Wild animals to roam the mountains", "feedback": "In Genesis 1:24-25, land animals come on the sixth day — not the third." }
     ]
   },
   "land_emerge": {
-    "title": "The Earth Rises",
-    "text": "Solid ground forms under your touch.\nYou feel the earth breathe for the first time.",
+    "title": "The Earth Brings Forth",
+    "text": "The dry ground is ready.\nWhat sprouts on Day Three?",
     "choices": [
-      {
-        "text": "Scatter seeds across the soil",
-        "feedback": "Seeds fall from your hands like rain. Life begins."
-      },
-      {
-        "text": "Kneel beside a growing tree",
-        "feedback": "You watch it grow — slowly, tenderly, from nothing."
-      }
+      { "text": "Vegetation with seed, and fruit trees bearing fruit", "feedback": "Correct — Genesis 1:11: 'plants yielding seed, and fruit trees bearing fruit... each according to its kind.'" },
+      { "text": "Bees and butterflies before any plants", "feedback": "In Genesis 1:24-25, creeping things come on Day Six. Day Three brings plants first." }
     ]
   },
   "plants": {
-    "title": "The First Garden",
-    "text": "Trees stretch toward the sky you made.\nFruit hangs heavy — sweet, untouched.",
+    "title": "The Fourth Day",
+    "text": "Day Three is complete — plants and trees cover the earth.\nWhat do you create on Day Four?",
     "choices": [
-      {
-        "text": "Taste your own creation",
-        "feedback": "Sweetness fills you — your own gift, tasted for the first time."
-      },
-      {
-        "text": "Wait for darkness — then fill it",
-        "feedback": "You wait. The empty sky calls to you."
-      }
+      { "text": "Lights in the expanse — sun, moon, and stars", "feedback": "Correct — Genesis 1:14-16: God made the sun, moon, and stars on Day Four." },
+      { "text": "Sea creatures and birds", "feedback": "In Genesis 1:20-23, sea creatures and birds come on Day Five — not Day Four." }
     ]
   },
   "flowers": {
-    "title": "Colors Unnamed",
-    "text": "Petals open at your touch.\nColors no eye has ever seen — until now.",
+    "title": "The Fourth Day",
+    "text": "Plants cover the earth.\nWhat comes on Day Four?",
     "choices": [
-      {
-        "text": "Breathe in what you've made",
-        "feedback": "The scent is unlike anything. Because nothing existed before."
-      },
-      {
-        "text": "Turn your gaze upward — the sky is empty",
-        "feedback": "The dark sky waits — a canvas, unfinished."
-      }
+      { "text": "Adam and Eve", "feedback": "In Genesis 1:26-27, humans are created on Day Six — not Day Four." },
+      { "text": "The sun, moon, and stars", "feedback": "Correct — Genesis 1:14-19: God set the sun, moon, and stars in the expanse of the heavens." }
     ]
   },
   "mountain": {
-    "title": "The Summit",
-    "text": "From the peak, you see everything you've made.\nAn empty sky — waiting to be filled.",
+    "title": "The Fourth Day",
+    "text": "The land is full of plants and trees.\nWhat do you make on Day Four?",
     "choices": [
-      {
-        "text": "Hang the stars yourself",
-        "feedback": "You reach up. The first star burns in your hand."
-      },
-      {
-        "text": "Descend — there is more to do",
-        "feedback": "You climb down. The work is not yet finished."
-      }
+      { "text": "Sun, moon, and stars in the heavens", "feedback": "Correct — Genesis 1:14-19: God set two great lights and the stars in the expanse of the heavens." },
+      { "text": "Rain, snow, and clouds", "feedback": "In Genesis 1, Day Four is about the sun, moon, and stars — not weather." }
     ]
   },
   "stars": {
-    "title": "Sun, Moon, and Stars",
-    "text": "You hang the sun like a lamp.\nA thousand stars fly from your fingertips.",
+    "title": "The Greater and Lesser Lights",
+    "text": "Lights are set in the heavens.\nHow do you order them?",
     "choices": [
-      {
-        "text": "Turn toward the empty sea",
-        "feedback": "The ocean stretches before you — vast, silent, waiting."
-      },
-      {
-        "text": "Place every star one by one",
-        "feedback": "Each star finds its place. You name them all."
-      },
-      {
-        "text": "Set the moon in its place",
-        "feedback": "Silver rises. The night breathes softly."
-      }
+      { "text": "One single light to rule both day and night", "feedback": "In Genesis 1:16, God made TWO great lights — the greater for the day and the lesser for the night." },
+      { "text": "Only stars — no sun, no moon", "feedback": "In Genesis 1:16, God made the sun and the moon as well as the stars." },
+      { "text": "A greater light to rule the day, a lesser to rule the night, and the stars", "feedback": "Correct — Genesis 1:16: 'The greater light to rule the day, and the lesser light to rule the night — and the stars.'" }
     ]
   },
   "stars_delight": {
-    "title": "Sun, Moon, and Stars",
-    "text": "Sweetness lingers — your creation is good.\nAbove you, the sky waits for light.",
+    "title": "Lights in the Heavens",
+    "text": "Day Four continues.\nWhat is set in place?",
     "choices": [
-      {
-        "text": "Ignite the brightest star",
-        "feedback": "Fire leaps from your fingers. The sky blazes."
-      },
-      {
-        "text": "Paint the night sky with silver",
-        "feedback": "Moonlight pours down — gentle, steady, yours."
-      }
+      { "text": "The sun, the moon, and countless stars", "feedback": "Correct — Genesis 1:14-16: sun, moon, and stars — for signs and seasons, days and years." },
+      { "text": "Just one small light for the whole sky", "feedback": "In Genesis 1:16, God made TWO great lights, plus the stars — not one small light." }
     ]
   },
   "stars_vision": {
-    "title": "Sun, Moon, and Stars",
-    "text": "From the mountaintop, you fling stars into the dark.\nEach one a promise.",
+    "title": "Stars Beyond Number",
+    "text": "You place lights in the heavens.\nHow many stars will there be?",
     "choices": [
-      {
-        "text": "Keep going — fill every corner",
-        "feedback": "More. More. The darkness shrinks with every throw."
-      },
-      {
-        "text": "Set the moon to guard the night",
-        "feedback": "The moon rises — faithful, watching over what you made."
-      }
+      { "text": "Countless — beyond number", "feedback": "Correct — Genesis 15:5 and 22:17 describe the stars of heaven as too many to count." },
+      { "text": "Exactly seven stars — no more", "feedback": "In Scripture, God's stars are innumerable — 'as the stars of the sky in multitude' (Genesis 22:17)." }
     ]
   },
   "countless_stars": {
-    "title": "Uncountable",
-    "text": "You place them beyond counting.\nEach one a covenant — a whisper of what's to come.",
+    "title": "The Fifth Day",
+    "text": "The lights of Day Four are set.\nWhat do you create on Day Five?",
     "choices": [
-      {
-        "text": "Turn to the empty seas",
-        "feedback": "Below, the waters are still. They need life."
-      },
-      {
-        "text": "Rest a moment beneath your sky",
-        "feedback": "You lie back. Your stars shine above you."
-      }
+      { "text": "Creatures that swarm the waters, and birds to fly above", "feedback": "Correct — Genesis 1:20-21: 'Let the waters swarm with living creatures, and let birds fly above the earth.'" },
+      { "text": "Trees, grass, and fruit", "feedback": "In Genesis 1:11, plants come on Day Three — not Day Five." }
     ]
   },
   "moonrise": {
-    "title": "The Lesser Light",
-    "text": "Silver light spills across still waters.\nThe moon takes its place — faithful, quiet.",
+    "title": "The Fifth Day",
+    "text": "Night has its moon; day has its sun.\nWhat living things fill Day Five?",
     "choices": [
-      {
-        "text": "Fill the oceans with life",
-        "feedback": "You turn to the deep. It's time to fill it."
-      },
-      {
-        "text": "Wait for the dawn you designed",
-        "feedback": "You wait. The horizon glows with approaching light."
-      }
+      { "text": "Sea creatures and flying birds", "feedback": "Correct — Genesis 1:20-23: sea creatures and birds fill the waters and skies on Day Five." },
+      { "text": "Cattle and creeping things", "feedback": "In Genesis 1:24-25, cattle and creeping things come on Day Six — not Day Five." }
     ]
   },
   "sea_dawn": {
-    "title": "Dawn Over the Deep",
-    "text": "Dawn breaks — your dawn.\nThe waters stir, ready to receive life.",
+    "title": "Waters and Skies",
+    "text": "Day Five begins.\nWhich creatures do you make?",
     "choices": [
-      {
-        "text": "Speak life into the deep",
-        "feedback": "Your voice enters the water. Movement begins."
-      },
-      {
-        "text": "Listen to the silence before it fills",
-        "feedback": "One last breath of stillness. Then — everything."
-      }
+      { "text": "Great sea creatures, fish, and every winged bird", "feedback": "Correct — Genesis 1:20-22: God created the great sea creatures and every winged bird, and blessed them." },
+      { "text": "Only bees for the flowers", "feedback": "In Genesis 1:20-21, Day Five brings great sea creatures and every winged bird — not just insects." }
     ]
   },
   "sea_creatures": {
-    "title": "The Waters Teem",
-    "text": "You fill the seas — whales, fish, swarms of life.\nBirds burst from your hands — filling the sky with song.",
+    "title": "Be Fruitful and Multiply",
+    "text": "The seas swarm; birds fly above.\nWhat blessing do you speak over them?",
     "choices": [
-      {
-        "text": "Turn to the land — it's still empty",
-        "feedback": "The ground waits. You have more to give."
-      },
-      {
-        "text": "Send a bird soaring across the sky",
-        "feedback": "Wings spread. The bird trusts the wind you made."
-      }
+      { "text": "'Be fruitful and multiply, and fill the waters and the earth'", "feedback": "Correct — Genesis 1:22: 'Be fruitful and multiply and fill the waters in the seas, and let birds multiply on the earth.'" },
+      { "text": "'Return to the dust — you have failed'", "feedback": "In Genesis 1:22, God BLESSED the creatures to multiply — He did not destroy them." }
     ]
   },
   "bird_flight": {
-    "title": "First Flight",
-    "text": "Wings catch the wind you made.\nThe bird knows no fear — only sky.",
+    "title": "The Sixth Day",
+    "text": "Sea and sky are filled.\nWhat comes on Day Six?",
     "choices": [
-      {
-        "text": "Return to the ground — fill it next",
-        "feedback": "You descend. The earth needs creatures of its own."
-      },
-      {
-        "text": "Feel the wind on your face",
-        "feedback": "The breeze you made touches your skin. It's good."
-      }
+      { "text": "Livestock, wild beasts, and creeping things of the earth", "feedback": "Correct — Genesis 1:24-25: cattle, beasts of the earth, and creeping things on Day Six." },
+      { "text": "More stars in the sky", "feedback": "Stars were made on Day Four. Day Six brings land animals — and humans." }
     ]
   },
   "land_creatures": {
-    "title": "Every Living Thing",
-    "text": "You speak — lions, deer, serpents, insects appear.\nThe earth breathes with life you gave it.",
+    "title": "In Our Image",
+    "text": "The land teems with animals.\nWhat is your final work of creation?",
     "choices": [
-      {
-        "text": "Something is still missing — press on",
-        "feedback": "A restlessness stirs in you. This isn't finished."
-      },
-      {
-        "text": "Walk among them — your creatures",
-        "feedback": "They gather around you — warm, trusting, alive."
-      }
+      { "text": "Say: 'Let us make man in our image, after our likeness'", "feedback": "Correct — Genesis 1:26: 'Let us make man in our image, after our likeness.'" },
+      { "text": "Turn one of the animals into a human", "feedback": "In Genesis 2:7, God formed man from the dust of the ground — not from an animal." }
     ]
   },
   "land_creatures_wind": {
-    "title": "Every Living Thing",
-    "text": "You stand among creatures — wild, warm, alive.\nThey do not run. They know your voice.",
+    "title": "The Crown of Creation",
+    "text": "The animals fill the earth.\nWhat is still missing?",
     "choices": [
-      {
-        "text": "Sit among them quietly",
-        "feedback": "You sit. They press close — unafraid."
-      },
-      {
-        "text": "Something greater stirs inside you",
-        "feedback": "The ache rises. None of them can truly know you."
-      }
+      { "text": "Declare creation finished — nothing more is needed", "feedback": "In Genesis 1:26, after the animals, God said 'Let us make man in our image.' Creation was not yet complete." },
+      { "text": "A being made in the image of God", "feedback": "Correct — Genesis 1:26-27: humans are made in the image and likeness of God." }
     ]
   },
   "among_animals": {
-    "title": "Among the Creatures",
-    "text": "They gather around you — trusting, alive.\nBut none of them can know you. Not truly.",
+    "title": "Let Us Make Man",
+    "text": "No animal bears your image.\nHow do you make the first man?",
     "choices": [
-      {
-        "text": "Feel the ache of being alone",
-        "feedback": "The loneliness deepens. You need someone who understands."
-      },
-      {
-        "text": "Begin the final work",
-        "feedback": "You stand. Your hands know what to do."
-      }
+      { "text": "Transform a lion into a man", "feedback": "In Genesis 2:7, God formed man from the dust of the ground — not from another creature." },
+      { "text": "Form him from the dust of the ground", "feedback": "Correct — Genesis 2:7: 'The Lord God formed the man of dust from the ground.'" }
     ]
   },
   "before_man": {
-    "title": "The Sixth Day",
-    "text": "You kneel in the dust.\nYour hands begin to shape something new — something like you.",
+    "title": "Formed from Dust",
+    "text": "You form a man from the dust of the ground.\nHow does he become a living being?",
     "choices": [
-      {
-        "text": "Mold the clay carefully",
-        "feedback": "Your fingers press into the dust. A form takes shape."
-      },
-      {
-        "text": "Whisper: \"In our image…\"",
-        "feedback": "The words leave your lips. The clay trembles."
-      }
+      { "text": "Speak a word and let him wake on his own", "feedback": "In Genesis 2:7, God specifically breathed the breath of life into the man's nostrils." },
+      { "text": "Breathe the breath of life into his nostrils", "feedback": "Correct — Genesis 2:7: 'He breathed into his nostrils the breath of life, and the man became a living creature.'" }
     ]
   },
   "before_man_lonely": {
-    "title": "The Sixth Day",
-    "text": "The ache deepens — you want to be known.\nYou kneel in the dust and begin.",
+    "title": "The Breath of Life",
+    "text": "The form of the man lies still in the dust.\nWhat brings him to life?",
     "choices": [
-      {
-        "text": "Shape the clay with trembling hands",
-        "feedback": "Your hands shake. This one will be different."
-      },
-      {
-        "text": "Take your time — this matters most",
-        "feedback": "You slow down. Every detail matters."
-      }
+      { "text": "Your breath in his nostrils", "feedback": "Correct — Genesis 2:7: God breathed the breath of life into the man's nostrils, and he became a living being." },
+      { "text": "Water poured over the clay", "feedback": "In Genesis 2:7, it was God's BREATH — not water — that gave man life." }
     ]
   },
   "breath_of_life": {
-    "title": "The Breath of Life",
-    "text": "Dust becomes flesh under your hands.\nYou lean close — and breathe life into him.",
+    "title": "The Garden",
+    "text": "The man is alive.\nWhere do you place him?",
     "choices": [
-      {
-        "text": "Watch his eyes open",
-        "feedback": "His eyes open. He sees you first."
-      },
-      {
-        "text": "Place him gently in the garden",
-        "feedback": "You carry him — warm, breathing — into paradise."
-      }
+      { "text": "In a desert to prove himself", "feedback": "In Genesis 2:8, God planted a garden in Eden and placed the man there." },
+      { "text": "In the garden of Eden, to work it and keep it", "feedback": "Correct — Genesis 2:15: 'The Lord God took the man and put him in the garden of Eden to work it and keep it.'" }
     ]
   },
   "breath_of_life_sacred": {
-    "title": "The Breath of Life",
-    "text": "Your breath enters the clay.\nHis chest rises. His heart beats — once, twice, forever.",
+    "title": "Eden Prepared",
+    "text": "The man breathes and lives.\nWhat home do you prepare for him?",
     "choices": [
-      {
-        "text": "Set him down in paradise",
-        "feedback": "You lay him gently on the grass. He stirs."
-      },
-      {
-        "text": "Stand back — let him see the world",
-        "feedback": "You step away. His eyes open to everything you made."
-      }
+      { "text": "A garden in Eden, with every tree pleasant to the sight and good for food", "feedback": "Correct — Genesis 2:8-9: God planted a garden in Eden with every tree pleasant to sight and good for food." },
+      { "text": "A field of thorns and thistles", "feedback": "In Genesis 2:8, Eden was a garden of delight. Thorns and thistles come only after the Fall (Genesis 3:18)." }
     ]
   },
   "first_garden": {
-    "title": "Eden",
-    "text": "Paradise stretches before you — your masterpiece.\nYou look at all you have made.",
+    "title": "Behold, Very Good",
+    "text": "Creation is complete.\nWhat do you say when you look upon it all?",
     "choices": [
-      {
-        "text": "Say it — the words that complete it all",
-        "feedback": "The words rise in you — final, certain."
-      },
-      {
-        "text": "Sit beside your creation in silence",
-        "feedback": "You sit. No words needed. It is enough."
-      }
+      { "text": "'Behold, it was very good'", "feedback": "Correct — Genesis 1:31: 'God saw everything that he had made, and behold, it was very good.'" },
+      { "text": "'This is a failure — I must start over'", "feedback": "In Genesis 1:31, God saw that everything He had made was very good — not a failure." }
     ]
   },
   "first_garden_wonder": {
-    "title": "Eden",
-    "text": "He stands in the garden — alive, breathing, yours.\nEverything — all of it — was for this moment.",
+    "title": "The Sixth Day is Complete",
+    "text": "Man walks in the garden. Creation is finished.\nWhat do you declare?",
     "choices": [
-      {
-        "text": "Speak the final words",
-        "feedback": "Your voice fills the garden — warm, full, complete."
-      },
-      {
-        "text": "Rest — your work is finished",
-        "feedback": "You exhale. It is done."
-      }
+      { "text": "'Behold, it is very good'", "feedback": "Correct — Genesis 1:31: 'And God saw everything that he had made, and behold, it was very good.'" },
+      { "text": "'I will need to redo the humans tomorrow'", "feedback": "In Genesis 1:31, God declared everything He had made — including humans — very good." }
     ]
   },
   "very_good": {
-    "title": "Very Good",
-    "text": "\"It is very good.\"\nYou smile upon your work.",
+    "title": "The Seventh Day",
+    "text": "Six days of creation are complete.\nWhat do you do on the seventh day?",
     "choices": [
-      {
-        "text": "Rest — you have finished",
-        "feedback": "Peace settles over everything."
-      }
+      { "text": "Rest, and bless the seventh day, making it holy", "feedback": "Correct — Genesis 2:2-3: 'On the seventh day God finished his work... He blessed the seventh day and made it holy.'" }
     ]
   },
   "rest": {
-    "title": "The Seventh Day",
-    "text": "You rest. All creation breathes.\nThe story has only just begun.",
+    "title": "The Sabbath",
+    "text": "You rest from all your work.\nYou bless the seventh day and make it holy.\n\n'Thus the heavens and the earth were finished.' (Genesis 2:1)",
     "choices": []
   },
   "rest_blessed": {
-    "title": "The Seventh Day",
-    "text": "You rest beside the one you made.\nPeace fills every corner of your world.",
+    "title": "The Sabbath",
+    "text": "You rest, and bless the seventh day as holy.\nAll creation is finished — and it is very good.",
     "choices": []
   }
 }
