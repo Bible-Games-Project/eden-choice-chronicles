@@ -55,6 +55,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
   const [finalButtonVisible, setFinalButtonVisible] = useState(false);
   const [finalButtonReady, setFinalButtonReady] = useState(false);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
+  const [pendingIncorrect, setPendingIncorrect] = useState<{ choice: StoryChoice; feedback: string } | null>(null);
 
   // Single effect: reset + schedule reveal timers when the scene actually changes.
   // IMPORTANT: do NOT depend on `choices` reference — parent re-shuffles each render
@@ -66,6 +67,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     setButtonsReady(Array(choicesCount).fill(false));
     setFinalButtonVisible(false);
     setFinalButtonReady(false);
+    setPendingIncorrect(null);
 
     if (isTransitioning) return;
 
@@ -116,8 +118,27 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       finalUIColor,
     });
 
+    // For the Creation story, show an educational explanation after an incorrect
+    // answer before advancing. The explanation is the correct choice's feedback,
+    // which is already localized (Genesis reference + quote).
+    if (!nextIsCorrect && storyId === "creation") {
+      const correctChoice = choices.find((c) => isChoiceCorrect(c));
+      const feedback = correctChoice?.feedback?.trim();
+      if (correctChoice && feedback) {
+        setPendingIncorrect({ choice, feedback });
+        return;
+      }
+    }
+
     onChoice(choice);
-  }, [clickedIndex, isTransitioning, onChoice]);
+  }, [clickedIndex, isTransitioning, onChoice, storyId, choices]);
+
+  const handleDismissFeedback = useCallback(() => {
+    if (!pendingIncorrect) return;
+    const c = pendingIncorrect.choice;
+    setPendingIncorrect(null);
+    onChoice(c);
+  }, [pendingIncorrect, onChoice]);
 
   const handleComplete = useCallback(() => {
     onComplete();
@@ -344,6 +365,30 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
             </div>
           </div>
         )}
+
+        {/* Educational feedback overlay for incorrect answers (Creation story) */}
+        {pendingIncorrect && (
+          <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm px-6">
+            <motion.div
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.35, ease: "easeOut" }}
+              className="w-full max-w-sm rounded-xl border border-gold/40 bg-black/85 p-5 text-center"
+            >
+              <p className="font-body text-sm md:text-base text-primary-foreground/90 leading-relaxed mb-4">
+                {pendingIncorrect.feedback}
+              </p>
+              <button
+                onClick={handleDismissFeedback}
+                className="w-full rounded-lg border border-gold/50 bg-black/50 px-4 py-2 text-sm font-display tracking-[0.18em] uppercase text-gold hover:bg-gold/15 hover:border-gold transition-colors cursor-pointer"
+              >
+                {t("continue")}
+              </button>
+            </motion.div>
+          </div>
+        )}
+
+
 
 
         {/* ==================== MOBILE ==================== */}
