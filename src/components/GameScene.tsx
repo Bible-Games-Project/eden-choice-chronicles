@@ -67,6 +67,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
     setButtonsReady(Array(choicesCount).fill(false));
     setFinalButtonVisible(false);
     setFinalButtonReady(false);
+    setPendingIncorrect(null);
 
     if (isTransitioning) return;
 
