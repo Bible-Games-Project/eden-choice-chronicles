@@ -1,160 +1,188 @@
 {
-  "storyTitle": "Ной и потоп",
+  "storyTitle": "[TODO:ru] Noah and the Flood",
   "start": {
-    "title": "Голос Свыше",
-    "text": "Голос наполняет небо.\n«Ной — построй ковчег. Грядет потоп».",
+    "title": "[TODO:ru] The Voice from Above",
+    "text": "[TODO:ru] God speaks to you.\n\"Make yourself an ark. A flood is coming.\"",
     "choices": [
       {
-        "text": "[TODO:ru] Doubt — this cannot be true",
-        "feedback": "[TODO:ru] The voice fades. But the weight in your chest remains."
+        "text": "[TODO:ru] Receive God's command to build an ark of cypress wood",
+        "feedback": "[TODO:ru] Genesis 6:14, 22 — God told Noah to make an ark of cypress wood, and Noah did everything just as God commanded."
       },
       {
-        "text": "[TODO:ru] \"Here I am. I will obey.\"",
-        "feedback": "[TODO:ru] Genesis 6:22 — Noah did everything just as God commanded him."
+        "text": "[TODO:ru] Refuse the command and flee the land",
+        "feedback": "[TODO:ru] Genesis says Noah obeyed God; he did not flee."
       },
       {
-        "text": "[TODO:ru] Ask why you were chosen",
-        "feedback": "[TODO:ru] No answer comes. Only the command remains."
+        "text": "[TODO:ru] Buy an existing ship from a merchant",
+        "feedback": "[TODO:ru] Genesis says Noah built the ark himself, as God instructed."
       }
     ]
   },
   "mockery": {
-    "title": "Голоса толпы",
-    "text": "Жители собираются, смеясь.\n«Лодка? Здесь? Ты безумен, старик».",
+    "title": "[TODO:ru] A Watching World",
+    "text": "[TODO:ru] The world around you is corrupt and violent.\nThey watch you build. How do you respond?",
     "choices": [
       {
-        "text": "[TODO:ru] Shout back in anger",
-        "feedback": "[TODO:ru] Your words only feed their mockery."
+        "text": "[TODO:ru] Keep building the ark by faith",
+        "feedback": "[TODO:ru] Hebrews 11:7 — By faith Noah built the ark in reverent fear, though warned of things not yet seen."
       },
       {
-        "text": "[TODO:ru] Stay silent and keep working",
-        "feedback": "[TODO:ru] Hebrews 11:7 — By faith Noah kept building the ark, despite the world's mockery."
+        "text": "[TODO:ru] Abandon the ark to please the crowd",
+        "feedback": "[TODO:ru] Scripture says Noah kept building by faith."
       },
       {
-        "text": "[TODO:ru] Beg them to believe",
-        "feedback": "[TODO:ru] They turn their backs. You are alone in faith."
+        "text": "[TODO:ru] Attack the mockers to silence them",
+        "feedback": "[TODO:ru] Scripture does not describe Noah attacking anyone."
       }
     ]
   },
   "building": {
-    "title": "Кипарис и смола",
-    "text": "Годы пота. Дерево трескается. Смола запечатывает.\nТвоя спина болит, но ковчег поднимается.",
+    "title": "[TODO:ru] Cypress and Pitch",
+    "text": "[TODO:ru] You gather the materials God commanded.\nHow do you build the ark?",
     "choices": [
       {
-        "text": "[TODO:ru] Rest a while, the work is endless",
-        "feedback": "[TODO:ru] Doubt creeps in with the silence."
+        "text": "[TODO:ru] Build it of cypress wood, coated with pitch inside and out",
+        "feedback": "[TODO:ru] Genesis 6:14 — Make yourself an ark of cypress wood; coat it with pitch inside and out."
       },
       {
-        "text": "[TODO:ru] Press on — God commanded it",
-        "feedback": "[TODO:ru] Genesis 6:14-16 — Noah built the ark of cypress wood exactly as God instructed."
+        "text": "[TODO:ru] Build it from cut stone",
+        "feedback": "[TODO:ru] Genesis says the ark was built of cypress wood, not stone."
+      },
+      {
+        "text": "[TODO:ru] Weave it from reeds like a basket",
+        "feedback": "[TODO:ru] Genesis says the ark was made of cypress wood, sealed with pitch."
       }
     ]
   },
   "ark_done": {
-    "title": "Он стоит законченный",
-    "text": "Ковчег возвышается над тобой.\nТвоя семья собирается, безмолвная перед деревом.",
+    "title": "[TODO:ru] It Stands Finished",
+    "text": "[TODO:ru] The ark is complete, exactly as God commanded.\nWhat does it look like?",
     "choices": [
       {
-        "text": "[TODO:ru] Boast to the watching crowd",
-        "feedback": "[TODO:ru] Pride poisons the work. You catch yourself."
+        "text": "[TODO:ru] 300 cubits long, 50 wide, 30 high, with three decks",
+        "feedback": "[TODO:ru] Genesis 6:15-16 — The ark was 300 cubits long, 50 wide, 30 high, with three decks."
       },
       {
-        "text": "[TODO:ru] Thank God for the strength given",
-        "feedback": "[TODO:ru] Genesis 6:9 — Noah walked with God and gave Him thanks for every step."
+        "text": "[TODO:ru] A small round boat with one deck",
+        "feedback": "[TODO:ru] Genesis gives specific dimensions; the ark was not a small round boat."
+      },
+      {
+        "text": "[TODO:ru] A raft, flat and open to the sky",
+        "feedback": "[TODO:ru] Genesis says the ark had a roof, three decks, and a door in its side."
       }
     ]
   },
   "animals": {
-    "title": "По двое",
-    "text": "Существа приходят со всех земель.\nЛьвы рядом с ягнятами. Орлы у твоих ног.",
+    "title": "[TODO:ru] The Creatures Come",
+    "text": "[TODO:ru] The animals arrive at the ark.\nWho do you take on board?",
     "choices": [
       {
-        "text": "[TODO:ru] Drive the dangerous ones away",
-        "feedback": "[TODO:ru] Fear blinds you. God sent every one."
+        "text": "[TODO:ru] Take pairs of every kind of animal, male and female",
+        "feedback": "[TODO:ru] Genesis 7:8-9 — Pairs of clean and unclean animals, birds and creeping things came to Noah, male and female."
       },
       {
-        "text": "[TODO:ru] Welcome each pair gently",
-        "feedback": "[TODO:ru] Genesis 7:8-9 — The animals came to Noah two by two, and he received them."
+        "text": "[TODO:ru] Take only sheep and goats",
+        "feedback": "[TODO:ru] Genesis says every kind of animal came, not only sheep and goats."
+      },
+      {
+        "text": "[TODO:ru] Take no animals — only your family",
+        "feedback": "[TODO:ru] Genesis says the animals came into the ark with Noah."
       }
     ]
   },
   "boarding": {
-    "title": "Дверь закрывается",
-    "text": "Твоя семья внутри. Животные устраиваются.\nСам Бог закрывает дверь.",
+    "title": "[TODO:ru] The Door Shut",
+    "text": "[TODO:ru] It is time to enter the ark.\nWho enters, and who closes the door?",
     "choices": [
       {
-        "text": "[TODO:ru] Run back out to warn them again",
-        "feedback": "[TODO:ru] The door is sealed. The choice has been made."
+        "text": "[TODO:ru] Enter with your wife, three sons, and their wives; the Lord shuts the door",
+        "feedback": "[TODO:ru] Genesis 7:13, 16 — Noah, his wife, his three sons and their wives entered the ark, and the Lord shut him in."
       },
       {
-        "text": "[TODO:ru] Hold your wife's hand and wait",
-        "feedback": "[TODO:ru] Genesis 7:16 — The Lord Himself shut the door of the ark behind Noah."
+        "text": "[TODO:ru] Enter the ark alone, leaving your family behind",
+        "feedback": "[TODO:ru] Genesis says Noah's whole household entered the ark with him."
+      },
+      {
+        "text": "[TODO:ru] Stay outside and close the door from without",
+        "feedback": "[TODO:ru] Genesis says the Lord Himself shut Noah inside the ark."
       }
     ]
   },
   "storm": {
-    "title": "Небеса открываются",
-    "text": "Дождь обрушивается, как никогда прежде.\nГлубины разверзаются. Мир тонет.",
+    "title": "[TODO:ru] Forty Days of Rain",
+    "text": "[TODO:ru] The windows of heaven open.\nWhat happens?",
     "choices": [
       {
-        "text": "[TODO:ru] Curse the sky in horror",
-        "feedback": "[TODO:ru] The sound swallows your cry."
+        "text": "[TODO:ru] Rain falls on the earth for forty days and forty nights",
+        "feedback": "[TODO:ru] Genesis 7:12 — Rain fell on the earth forty days and forty nights."
       },
       {
-        "text": "[TODO:ru] Trust that God is just and merciful",
-        "feedback": "[TODO:ru] Genesis 7:23 — Noah trusted God as the flood covered the earth."
+        "text": "[TODO:ru] A single storm passes in one day",
+        "feedback": "[TODO:ru] Genesis says the rain fell for forty days and nights."
       },
       {
-        "text": "[TODO:ru] Try to pull strangers from the water",
-        "feedback": "[TODO:ru] The door is sealed. There is nothing to be done."
+        "text": "[TODO:ru] Only a light drizzle falls",
+        "feedback": "[TODO:ru] Genesis describes the fountains of the deep bursting and the windows of heaven opening."
       }
     ]
   },
   "inside": {
-    "title": "Сорок дней",
-    "text": "Ковчег качается. Животные дышат.\nДни сливаются. Остается только скрип дерева.",
+    "title": "[TODO:ru] Upon the Waters",
+    "text": "[TODO:ru] The ark floats on the deep.\nHow long do the waters prevail on the earth?",
     "choices": [
       {
-        "text": "[TODO:ru] Tend the creatures with care",
-        "feedback": "[TODO:ru] Genesis 7:24 — Noah cared for his family and the animals through 150 days on the waters."
+        "text": "[TODO:ru] The waters flood the earth for a hundred and fifty days",
+        "feedback": "[TODO:ru] Genesis 7:24 — The waters flooded the earth for a hundred and fifty days."
       },
       {
-        "text": "[TODO:ru] Sit alone and let despair grow",
-        "feedback": "[TODO:ru] The silence presses on you. Faith dims."
+        "text": "[TODO:ru] The waters recede in three days",
+        "feedback": "[TODO:ru] Genesis says the waters prevailed 150 days before receding."
+      },
+      {
+        "text": "[TODO:ru] You steer the ark back toward Eden",
+        "feedback": "[TODO:ru] Genesis does not describe Noah steering the ark; God kept it afloat."
       }
     ]
   },
   "dove": {
-    "title": "Голубь возвращается",
-    "text": "Ты выпускаешь голубя. Проходят часы.\nОн возвращается — оливковый лист в клюве.",
+    "title": "[TODO:ru] The Dove Returns",
+    "text": "[TODO:ru] The waters begin to recede.\nHow do you know dry land is near?",
     "choices": [
       {
-        "text": "[TODO:ru] Doubt — perhaps a stray branch",
-        "feedback": "[TODO:ru] Even now, doubt fights to hold you."
+        "text": "[TODO:ru] Send out a dove; it returns with a fresh olive leaf",
+        "feedback": "[TODO:ru] Genesis 8:11 — The dove returned to Noah in the evening with a freshly plucked olive leaf."
       },
       {
-        "text": "[TODO:ru] Weep — life still grows",
-        "feedback": "[TODO:ru] Genesis 8:11 — The dove returned with an olive leaf — a sign of new life."
+        "text": "[TODO:ru] Send out a raven that returns with grain",
+        "feedback": "[TODO:ru] Genesis says the dove — not the raven — brought back an olive leaf."
+      },
+      {
+        "text": "[TODO:ru] Open the roof and look with your own eyes only",
+        "feedback": "[TODO:ru] Genesis says Noah sent out birds to test whether the waters had gone down."
       }
     ]
   },
   "dry_land": {
-    "title": "Земля под ногами",
-    "text": "Дверь открывается. Солнце льется.\nТы ступаешь на теплую, живую грязь.",
+    "title": "[TODO:ru] Earth Beneath Your Feet",
+    "text": "[TODO:ru] The Lord tells you to come out of the ark.\nWhat do you do first on dry land?",
     "choices": [
       {
-        "text": "[TODO:ru] Rush to claim the new land",
-        "feedback": "[TODO:ru] The land was never yours to claim."
+        "text": "[TODO:ru] Build an altar to the Lord and offer sacrifices",
+        "feedback": "[TODO:ru] Genesis 8:20 — Noah built an altar to the Lord and offered burnt offerings on it."
       },
       {
-        "text": "[TODO:ru] Kneel and build an altar to God",
-        "feedback": "[TODO:ru] Genesis 8:20 — Noah's first act on dry land was to build an altar to the Lord."
+        "text": "[TODO:ru] Begin building a great tower right away",
+        "feedback": "[TODO:ru] Genesis says Noah's first act was to build an altar, not a tower."
+      },
+      {
+        "text": "[TODO:ru] Refuse to leave the ark",
+        "feedback": "[TODO:ru] Genesis says Noah came out of the ark when God told him to."
       }
     ]
   },
   "covenant": {
-    "title": "Радуга",
-    "text": "Радуга простирается по небу.\n«Никогда больше. Это Мой завет с тобой».",
+    "title": "[TODO:ru] The Rainbow",
+    "text": "[TODO:ru] A rainbow arches across the sky.\n\"Never again will I flood the earth. This is my covenant with you.\"",
     "choices": []
   }
 }

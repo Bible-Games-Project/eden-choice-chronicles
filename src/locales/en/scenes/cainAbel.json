@@ -1,176 +1,188 @@
 {
   "storyTitle": "Cain and Abel",
   "start": {
-    "title": "Sons of the Soil",
-    "text": "You are Cain, firstborn of Adam.\nYour brother Abel walks beside you in the dawn.",
+    "title": "Sons of Adam",
+    "text": "You open your eyes as the firstborn of Adam and Eve.\nA second son, Abel, is born after you.",
     "choices": [
       {
-        "text": "Greet him with brotherly love",
-        "feedback": "Genesis 4:1-2 — Cain and Abel were the first two brothers, sons of Adam and Eve."
+        "text": "Live as the firstborn son of Adam and Eve",
+        "feedback": "Genesis 4:1-2 — Eve gave birth to Cain, and then to his brother Abel."
       },
       {
-        "text": "Compare yourself to him in silence",
-        "feedback": "A quiet bitterness takes root."
+        "text": "Be born before Adam and Eve",
+        "feedback": "Genesis says Adam and Eve came first; Cain was their son."
       },
       {
-        "text": "Walk ahead without him",
-        "feedback": "He calls your name. You do not turn."
+        "text": "Grow up as an only child",
+        "feedback": "Genesis says Cain had a brother, Abel."
       }
     ]
   },
   "fields": {
-    "title": "The Tiller of Soil",
-    "text": "The earth resists your hoe.\nSweat. Stones. The long hours of work.",
+    "title": "Your Work",
+    "text": "The years pass. Each brother finds his labor.\nWhat is yours?",
     "choices": [
       {
-        "text": "Work with patience and care",
-        "feedback": "Genesis 4:2 — Cain worked the soil while Abel kept flocks."
+        "text": "Work the ground as a tiller of the soil",
+        "feedback": "Genesis 4:2 — Cain worked the soil."
       },
       {
-        "text": "Curse the ground as you dig",
-        "feedback": "Each strike grows angrier than the last."
+        "text": "Keep flocks of sheep like Abel",
+        "feedback": "Genesis says Abel kept flocks; Cain worked the soil."
+      },
+      {
+        "text": "Refuse to work at all",
+        "feedback": "Genesis says Cain worked the ground."
       }
     ]
   },
   "abel_pasture": {
-    "title": "Your Brother's Flock",
-    "text": "Abel rests among his sheep, content.\nA newborn lamb sleeps on his chest.",
+    "title": "Your Brother's Work",
+    "text": "You see Abel across the field.\nWhat is he doing?",
     "choices": [
       {
-        "text": "Be glad for his gentle work",
-        "feedback": "Warmth rises where envy could have grown."
+        "text": "See Abel keeping flocks of sheep",
+        "feedback": "Genesis 4:2 — Abel kept flocks."
       },
       {
-        "text": "Resent that his work seems easy",
-        "feedback": "Genesis 4:5 — Cain grew envious and downcast when God favored Abel."
+        "text": "See Abel tilling the ground beside you",
+        "feedback": "Genesis says Abel kept flocks, not that he tilled the ground."
       },
       {
-        "text": "Mock him under your breath",
-        "feedback": "Your words stay quiet, but they sting your own soul."
+        "text": "See Abel fishing at the river",
+        "feedback": "Genesis does not describe Abel fishing."
       }
     ]
   },
   "offerings": {
     "title": "Before the Altar",
-    "text": "It is time to bring an offering to the Lord.\nWhat will you give?",
+    "text": "The time comes to bring an offering to the Lord.\nWhat will you bring?",
     "choices": [
       {
-        "text": "Bring your very best firstfruits",
-        "feedback": "You choose the finest grain. Your heart is open."
+        "text": "Bring some of the fruits of the soil as an offering",
+        "feedback": "Genesis 4:3 — Cain brought some of the fruits of the soil as an offering to the Lord."
       },
       {
-        "text": "Bring whatever was left over",
-        "feedback": "Genesis 4:3 — Cain brought some of the fruits of the soil, not his very best."
+        "text": "Bring a firstborn lamb from your flock",
+        "feedback": "Genesis says Abel brought a lamb; Cain brought fruits of the soil."
       },
       {
-        "text": "Bring nothing — you earned it",
-        "feedback": "Empty hands. A harder, prouder heart."
+        "text": "Bring nothing at all",
+        "feedback": "Genesis says Cain did bring an offering, though not the best."
       }
     ]
   },
   "accepted": {
-    "title": "The Lord's Favor",
-    "text": "The Lord receives Abel's lamb with joy.\nYour offering — He does not regard.",
+    "title": "The Lord's Regard",
+    "text": "You wait as the Lord looks upon the two offerings.\nWhat happens?",
     "choices": [
       {
-        "text": "Search yourself before God",
-        "feedback": "You ask why. The answer is already in you."
+        "text": "The Lord looks with favor on Abel and his offering, but not on yours",
+        "feedback": "Genesis 4:4-5 — The Lord looked with favor on Abel and his offering, but on Cain and his offering He did not look with favor."
       },
       {
-        "text": "Burn with rage against Abel",
-        "feedback": "Genesis 4:5 — Cain became very angry when his offering was not accepted."
+        "text": "The Lord favors both offerings equally",
+        "feedback": "Genesis says the Lord favored Abel's offering, not both."
       },
       {
-        "text": "Accuse God of unfairness",
-        "feedback": "Your fist rises. The sky does not answer."
+        "text": "The Lord accepts your offering and rejects Abel's",
+        "feedback": "Genesis says the opposite — the Lord favored Abel's offering."
       }
     ]
   },
   "anger": {
-    "title": "Why Are You Angry?",
-    "text": "Your face falls. Your hands shake.\nThe Lord asks: \"Why are you angry?\"",
+    "title": "Your Face Falls",
+    "text": "The offering is over. Something rises in you.\nHow do you respond?",
     "choices": [
       {
-        "text": "Lay your anger down before Him",
-        "feedback": "The fire begins to cool. Honesty opens a path."
+        "text": "Become very angry, your face downcast",
+        "feedback": "Genesis 4:5 — Cain was very angry, and his face was downcast."
       },
       {
-        "text": "Refuse to answer — turn away",
-        "feedback": "Genesis 4:5-6 — Cain turned his face away and refused to answer God."
+        "text": "Rejoice with Abel over his accepted offering",
+        "feedback": "Genesis says Cain became angry, not that he rejoiced."
+      },
+      {
+        "text": "Bring a better offering the very next day",
+        "feedback": "Genesis does not describe Cain bringing a second offering."
       }
     ]
   },
   "warning": {
-    "title": "Sin Crouches at the Door",
-    "text": "\"Sin is crouching at your door.\nIts desire is for you — but you must master it.\"",
+    "title": "Sin Crouching at the Door",
+    "text": "The Lord speaks to you.\nWhat does He say?",
     "choices": [
       {
-        "text": "Commit to master your anger",
-        "feedback": "You exhale. You will choose differently."
+        "text": "'Sin is crouching at your door — but you must rule over it'",
+        "feedback": "Genesis 4:6-7 — The Lord warned Cain that sin was crouching at his door and he must rule over it."
       },
       {
-        "text": "Let the rage take you",
-        "feedback": "Genesis 4:7 — Cain did not master the sin crouching at his door."
+        "text": "'Bring a lamb instead of grain'",
+        "feedback": "Genesis does not record the Lord telling Cain to bring a lamb."
       },
       {
-        "text": "Pretend you did not hear",
-        "feedback": "The warning fades. The hatred remains."
+        "text": "Nothing — the Lord is silent",
+        "feedback": "Genesis says the Lord did speak to Cain about sin at the door."
       }
     ]
   },
   "invitation": {
-    "title": "Come With Me to the Field",
-    "text": "Abel walks toward you, trusting.\nHis face is open. Yours is not.",
+    "title": "You Speak to Your Brother",
+    "text": "Abel walks near, trusting.\nWhat do you say?",
     "choices": [
       {
-        "text": "Tell him the truth of your heart",
-        "feedback": "Words are hard. But honesty is mercy."
+        "text": "Say to Abel, 'Let's go out to the field'",
+        "feedback": "Genesis 4:8 — Cain said to Abel, 'Let's go out to the field.'"
       },
       {
-        "text": "Lure him alone into the field",
-        "feedback": "Genesis 4:8 — Cain lured Abel out into the field."
+        "text": "Invite Abel to worship at the altar together",
+        "feedback": "Genesis says Cain led Abel out to the field, not to the altar."
+      },
+      {
+        "text": "Send Abel away and never speak to him again",
+        "feedback": "Genesis says Cain called Abel to the field, not that he sent him away."
       }
     ]
   },
   "field": {
     "title": "In the Field",
-    "text": "The field is empty. No one will see.\nAnger surges. A stone is in your hand.",
+    "text": "You and Abel are alone in the open field.\nWhat do you do?",
     "choices": [
       {
-        "text": "Drop the stone — walk away",
-        "feedback": "It falls heavy at your feet. You breathe again."
+        "text": "Attack Abel your brother and kill him",
+        "feedback": "Genesis 4:8 — Cain attacked his brother Abel and killed him."
       },
       {
-        "text": "Strike him in your fury",
-        "feedback": "Genesis 4:8 — Cain rose up against Abel his brother and killed him."
+        "text": "Argue with Abel and then forgive him",
+        "feedback": "Genesis says Cain killed Abel; he did not forgive him."
       },
       {
-        "text": "Threaten him, then strike",
-        "feedback": "Your hand obeys the rage. The field receives him."
+        "text": "Walk home without touching him",
+        "feedback": "Genesis says Cain killed Abel in the field."
       }
     ]
   },
   "confrontation": {
     "title": "\"Where Is Your Brother?\"",
-    "text": "The voice of the Lord finds you.\n\"Where is your brother Abel?\"",
+    "text": "The Lord's voice finds you.\n\"Where is your brother Abel?\"",
     "choices": [
       {
-        "text": "Confess what your hands have done",
-        "feedback": "The truth crushes you. And begins to free you."
+        "text": "Answer: 'I do not know. Am I my brother's keeper?'",
+        "feedback": "Genesis 4:9 — Cain replied, 'I don't know. Am I my brother's keeper?'"
       },
       {
-        "text": "\"Am I my brother's keeper?\"",
-        "feedback": "Genesis 4:9 — Cain replied, 'Am I my brother's keeper?'"
+        "text": "Confess plainly: 'I have killed him'",
+        "feedback": "Genesis says Cain denied knowing; he did not confess plainly."
       },
       {
-        "text": "Stay silent and hide your eyes",
-        "feedback": "His blood cries out from the ground."
+        "text": "Stay silent before the Lord",
+        "feedback": "Genesis says Cain answered the Lord; he did not stay silent."
       }
     ]
   },
   "wanderer": {
-    "title": "East of Eden, Marked",
-    "text": "The Lord places a mark to protect you.\nYou must wander far from home.",
+    "title": "A Restless Wanderer",
+    "text": "The Lord places a mark on you for your protection.\nYou go out to wander east of Eden, in the land of Nod.",
     "choices": []
   }
 }

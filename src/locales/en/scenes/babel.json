@@ -1,164 +1,188 @@
 {
-  "storyTitle": "Tower of Babel",
+  "storyTitle": "The Tower of Babel",
   "start": {
-    "title": "The Plain of Shinar",
-    "text": "A wide green plain stretches ahead.\nAll mankind has gathered here — one people, one tongue.",
+    "title": "One Language",
+    "text": "The whole earth has one language and a common speech.\nWhere do the people settle?",
     "choices": [
       {
-        "text": "Settle and build a home",
-        "feedback": "You sink roots into the earth. It feels right."
+        "text": "Settle in the plain of Shinar",
+        "feedback": "Genesis 11:2 — As people moved eastward, they found a plain in Shinar and settled there."
       },
       {
-        "text": "Dream of something greater",
-        "feedback": "Genesis 11:2 — The people settled in the plain of Shinar and dreamed of greatness."
+        "text": "Sail east across a great sea",
+        "feedback": "Genesis says the people settled in the plain of Shinar."
+      },
+      {
+        "text": "Scatter across the earth right away",
+        "feedback": "The people did not scatter yet — that came later, as judgment."
       }
     ]
   },
   "unity": {
-    "title": "One Tongue",
-    "text": "Voices blend. Laughter rises.\nThere is no word you cannot understand.",
+    "title": "One Speech",
+    "text": "You look at your neighbors.\nHow do you all speak?",
     "choices": [
       {
-        "text": "Praise God for the gift of unity",
-        "feedback": "You lift your voice in thanks. Others bow their heads."
+        "text": "You all speak the same language, one common speech",
+        "feedback": "Genesis 11:1 — The whole world had one language and a common speech."
       },
       {
-        "text": "Boast of what we could achieve",
-        "feedback": "Genesis 11:4 — They said, 'Let us make a name for ourselves.'"
+        "text": "Every family speaks a different tongue",
+        "feedback": "Genesis says everyone spoke one language at this point."
       },
       {
-        "text": "Stay silent — listen to the elders",
-        "feedback": "Wise voices speak softly. Others shout louder."
+        "text": "No one speaks at all",
+        "feedback": "Genesis says the people spoke — with one common speech."
       }
     ]
   },
   "proposal": {
-    "title": "The Great Idea",
-    "text": "An elder rises. \"Let us build a tower — its top in the heavens.\"\n\"Let us make a name for ourselves.\"",
+    "title": "The Proposal",
+    "text": "The people gather.\nWhat do they propose to build?",
     "choices": [
       {
-        "text": "Cheer — join the great work",
-        "feedback": "Genesis 11:3-4 — The people joined together to build a city and a great tower."
+        "text": "'Let us build a city, and a tower that reaches to the heavens — and make a name for ourselves'",
+        "feedback": "Genesis 11:4 — They said, 'Come, let us build ourselves a city, with a tower that reaches to the heavens, so that we may make a name for ourselves.'"
       },
       {
-        "text": "Speak against it — this is pride",
-        "feedback": "Few hear you. But the words are spoken."
+        "text": "'Let us build an altar to the Lord'",
+        "feedback": "Genesis says they built a city and a tower to make a name for themselves, not an altar."
       },
       {
-        "text": "Wait — let others decide",
-        "feedback": "Silence is its own answer. The vote passes."
+        "text": "'Let us go back and travel alone'",
+        "feedback": "Genesis says the people stayed together to build."
       }
     ]
   },
   "bricks": {
     "title": "Bricks and Tar",
-    "text": "You mold wet clay into bricks.\nThey are stronger than stone. They will reach the sky.",
+    "text": "You gather materials for the great work.\nHow do you build?",
     "choices": [
       {
-        "text": "Work for the love of craft",
-        "feedback": "Genesis 11:3 — They made bricks and used tar for mortar to build the tower."
+        "text": "Make bricks and bake them thoroughly, using tar for mortar",
+        "feedback": "Genesis 11:3 — They said, 'Come, let's make bricks and bake them thoroughly.' They used brick instead of stone, and tar for mortar."
       },
       {
-        "text": "Race the others — outshine them",
-        "feedback": "Your speed turns to recklessness. Bricks crack."
+        "text": "Cut stones from the mountains",
+        "feedback": "Genesis says they used bricks and tar, not cut stones."
+      },
+      {
+        "text": "Weave the tower from reeds",
+        "feedback": "Genesis says they used baked bricks and tar."
       }
     ]
   },
   "construction": {
-    "title": "The First Floors",
-    "text": "Walls rise. The tower casts a long shadow.\nMen sing as they lift each beam.",
+    "title": "The City and the Tower",
+    "text": "The work begins.\nWhat do you build together?",
     "choices": [
       {
-        "text": "Boast — \"We need no God now\"",
-        "feedback": "Genesis 11:4 — They boasted, seeking a tower with its top reaching the heavens."
+        "text": "Build a city and a tower with its top in the heavens",
+        "feedback": "Genesis 11:4-5 — They set out to build a city and a tower with its top in the heavens."
       },
       {
-        "text": "Work quietly — say a prayer",
-        "feedback": "No one hears. But the prayer is heard above."
+        "text": "Build separate homes far from one another",
+        "feedback": "Genesis says they built one city together, not scattered homes."
+      },
+      {
+        "text": "Build a bridge across the sea",
+        "feedback": "Genesis says they built a city and a tower, not a bridge."
       }
     ]
   },
   "rising": {
-    "title": "Higher",
-    "text": "Year after year. Stone upon stone.\nThe tower pierces the clouds.",
+    "title": "Higher and Higher",
+    "text": "The tower climbs into the sky.\nWhy do the people keep building?",
     "choices": [
       {
-        "text": "Doubt — should we stop?",
-        "feedback": "You whisper it. The wind carries the words away."
+        "text": "To make a name for themselves, so they will not be scattered over the earth",
+        "feedback": "Genesis 11:4 — 'Let us make a name for ourselves, and not be scattered over the face of the whole earth.'"
       },
       {
-        "text": "Climb higher — there is no limit",
-        "feedback": "Genesis 11:4-5 — The tower rose higher in pride until the Lord came down to see it."
+        "text": "To honor the Lord who made the heavens",
+        "feedback": "Genesis says they built to make a name for themselves, not to honor the Lord."
       },
       {
-        "text": "Demand the workers go faster",
-        "feedback": "Tempers fray. Hands bleed. The tower climbs."
+        "text": "To hide from a coming flood",
+        "feedback": "God had already promised never again to flood the earth (Genesis 9)."
       }
     ]
   },
   "summit": {
-    "title": "Touching the Sky",
-    "text": "You stand at the top. The earth is small below.\nThe heavens feel close — almost within reach.",
+    "title": "The Lord Comes Down",
+    "text": "The tower rises. What happens next?",
     "choices": [
       {
-        "text": "Reach upward — claim the sky",
-        "feedback": "Genesis 11:4 — Their pride reached upward, seeking to make a name for themselves."
+        "text": "The Lord comes down to see the city and the tower",
+        "feedback": "Genesis 11:5 — The Lord came down to see the city and the tower the people were building."
       },
       {
-        "text": "Kneel — feel suddenly small",
-        "feedback": "The vastness above swallows your pride."
+        "text": "The tower reaches heaven and the people enter it",
+        "feedback": "Genesis does not say the tower reached heaven; the Lord came down to see it."
+      },
+      {
+        "text": "Angels descend to help the workers build",
+        "feedback": "Genesis does not describe angels helping to build."
       }
     ]
   },
   "gods_gaze": {
-    "title": "He Comes Down",
-    "text": "A voice fills the air, calm as thunder.\n\"They are one people. Nothing will be impossible for them.\"",
+    "title": "The Lord's Decision",
+    "text": "The Lord speaks about the people.\nWhat does He decide to do?",
     "choices": [
       {
-        "text": "Stand defiant before the voice",
-        "feedback": "Genesis 11:6-7 — God saw their pride and chose to confuse their language."
+        "text": "'Come, let us go down and confuse their language'",
+        "feedback": "Genesis 11:6-7 — The Lord said, 'Come, let us go down and confuse their language so they will not understand each other.'"
       },
       {
-        "text": "Bow your head in fear and awe",
-        "feedback": "Your knees buckle. The presence is everywhere."
+        "text": "'Let us praise their great work'",
+        "feedback": "Genesis says the Lord confused their language, not praised the tower."
+      },
+      {
+        "text": "'Let us destroy the tower with fire'",
+        "feedback": "Genesis says the Lord confused their language and scattered them, not that He destroyed the tower with fire."
       }
     ]
   },
   "confusion": {
     "title": "Strange Words",
-    "text": "You shout to your friend. He stares.\nHis mouth opens — but the sounds make no sense.",
+    "text": "You turn to your neighbor and speak.\nWhat happens?",
     "choices": [
       {
-        "text": "Force him to understand — shout louder",
-        "feedback": "Anger only deepens the void between you."
+        "text": "You can no longer understand one another's speech",
+        "feedback": "Genesis 11:7 — The Lord confused their language so they could not understand each other."
       },
       {
-        "text": "Step back — accept what God has done",
-        "feedback": "Genesis 11:7 — God confused their language so they could not understand one another."
+        "text": "Everyone suddenly speaks even more clearly",
+        "feedback": "Genesis says their speech was confused, not made clearer."
       },
       {
-        "text": "Blame the elders — start a fight",
-        "feedback": "Fists fly. The tower bleeds men instead of mortar."
+        "text": "Everyone falls silent and never speaks again",
+        "feedback": "Genesis says the languages were confused, not that speech ended."
       }
     ]
   },
   "scattering": {
-    "title": "Going Out",
-    "text": "Families gather what they can.\nEach group walks toward a different horizon.",
+    "title": "Scattered Over the Earth",
+    "text": "The building stops.\nWhat happens to the people?",
     "choices": [
       {
-        "text": "Curse the heavens as you leave",
-        "feedback": "Bitterness is a heavy load to carry."
+        "text": "The Lord scatters them from there over all the earth, and they stop building the city",
+        "feedback": "Genesis 11:8 — The Lord scattered them from there over all the earth, and they stopped building the city."
       },
       {
-        "text": "Walk in silence, lesson in heart",
-        "feedback": "Genesis 11:8 — The Lord scattered the people from there over all the earth."
+        "text": "The people stay in Shinar and finish the tower",
+        "feedback": "Genesis says they stopped building and were scattered."
+      },
+      {
+        "text": "The people sail back to Eden",
+        "feedback": "Genesis says they were scattered over the whole earth, not that they returned to Eden."
       }
     ]
   },
   "reflection": {
-    "title": "A New Land",
-    "text": "You stop on a quiet ridge.\nThe tower is far behind — a memory of pride.",
+    "title": "Babel",
+    "text": "That is why the city was called Babel —\nfor there the Lord confused the language of the whole world.",
     "choices": []
   }
 }

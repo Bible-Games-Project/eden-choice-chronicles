@@ -1,160 +1,188 @@
 {
-  "storyTitle": "Nuh ve Tufan",
+  "storyTitle": "[TODO:tr] Noah and the Flood",
   "start": {
-    "title": "Yukarıdan Gelen Ses",
-    "text": "Gökyüzünü bir ses doldurur.\n\"Nuh — bir gemi yap. Bir tufan geliyor.\"",
+    "title": "[TODO:tr] The Voice from Above",
+    "text": "[TODO:tr] God speaks to you.\n\"Make yourself an ark. A flood is coming.\"",
     "choices": [
       {
-        "text": "[TODO:tr] Doubt — this cannot be true",
-        "feedback": "[TODO:tr] The voice fades. But the weight in your chest remains."
+        "text": "[TODO:tr] Receive God's command to build an ark of cypress wood",
+        "feedback": "[TODO:tr] Genesis 6:14, 22 — God told Noah to make an ark of cypress wood, and Noah did everything just as God commanded."
       },
       {
-        "text": "[TODO:tr] \"Here I am. I will obey.\"",
-        "feedback": "[TODO:tr] Genesis 6:22 — Noah did everything just as God commanded him."
+        "text": "[TODO:tr] Refuse the command and flee the land",
+        "feedback": "[TODO:tr] Genesis says Noah obeyed God; he did not flee."
       },
       {
-        "text": "[TODO:tr] Ask why you were chosen",
-        "feedback": "[TODO:tr] No answer comes. Only the command remains."
+        "text": "[TODO:tr] Buy an existing ship from a merchant",
+        "feedback": "[TODO:tr] Genesis says Noah built the ark himself, as God instructed."
       }
     ]
   },
   "mockery": {
-    "title": "Kalabalığın Sesleri",
-    "text": "Köylüler toplanır, gülüşürler.\n\"Bir tekne mi? Burada mı? Sen delisin, ihtiyar.\"",
+    "title": "[TODO:tr] A Watching World",
+    "text": "[TODO:tr] The world around you is corrupt and violent.\nThey watch you build. How do you respond?",
     "choices": [
       {
-        "text": "[TODO:tr] Shout back in anger",
-        "feedback": "[TODO:tr] Your words only feed their mockery."
+        "text": "[TODO:tr] Keep building the ark by faith",
+        "feedback": "[TODO:tr] Hebrews 11:7 — By faith Noah built the ark in reverent fear, though warned of things not yet seen."
       },
       {
-        "text": "[TODO:tr] Stay silent and keep working",
-        "feedback": "[TODO:tr] Hebrews 11:7 — By faith Noah kept building the ark, despite the world's mockery."
+        "text": "[TODO:tr] Abandon the ark to please the crowd",
+        "feedback": "[TODO:tr] Scripture says Noah kept building by faith."
       },
       {
-        "text": "[TODO:tr] Beg them to believe",
-        "feedback": "[TODO:tr] They turn their backs. You are alone in faith."
+        "text": "[TODO:tr] Attack the mockers to silence them",
+        "feedback": "[TODO:tr] Scripture does not describe Noah attacking anyone."
       }
     ]
   },
   "building": {
-    "title": "Selvi ve Zift",
-    "text": "Yılların teri. Odun yarılır. Zift mühürler.\nSırtın ağrır, ama gemi yükselir.",
+    "title": "[TODO:tr] Cypress and Pitch",
+    "text": "[TODO:tr] You gather the materials God commanded.\nHow do you build the ark?",
     "choices": [
       {
-        "text": "[TODO:tr] Rest a while, the work is endless",
-        "feedback": "[TODO:tr] Doubt creeps in with the silence."
+        "text": "[TODO:tr] Build it of cypress wood, coated with pitch inside and out",
+        "feedback": "[TODO:tr] Genesis 6:14 — Make yourself an ark of cypress wood; coat it with pitch inside and out."
       },
       {
-        "text": "[TODO:tr] Press on — God commanded it",
-        "feedback": "[TODO:tr] Genesis 6:14-16 — Noah built the ark of cypress wood exactly as God instructed."
+        "text": "[TODO:tr] Build it from cut stone",
+        "feedback": "[TODO:tr] Genesis says the ark was built of cypress wood, not stone."
+      },
+      {
+        "text": "[TODO:tr] Weave it from reeds like a basket",
+        "feedback": "[TODO:tr] Genesis says the ark was made of cypress wood, sealed with pitch."
       }
     ]
   },
   "ark_done": {
-    "title": "Tamamlandı",
-    "text": "Gemi üzerinde yükselir.\nAilen toplanır, ahşabın önünde sessizce.",
+    "title": "[TODO:tr] It Stands Finished",
+    "text": "[TODO:tr] The ark is complete, exactly as God commanded.\nWhat does it look like?",
     "choices": [
       {
-        "text": "[TODO:tr] Boast to the watching crowd",
-        "feedback": "[TODO:tr] Pride poisons the work. You catch yourself."
+        "text": "[TODO:tr] 300 cubits long, 50 wide, 30 high, with three decks",
+        "feedback": "[TODO:tr] Genesis 6:15-16 — The ark was 300 cubits long, 50 wide, 30 high, with three decks."
       },
       {
-        "text": "[TODO:tr] Thank God for the strength given",
-        "feedback": "[TODO:tr] Genesis 6:9 — Noah walked with God and gave Him thanks for every step."
+        "text": "[TODO:tr] A small round boat with one deck",
+        "feedback": "[TODO:tr] Genesis gives specific dimensions; the ark was not a small round boat."
+      },
+      {
+        "text": "[TODO:tr] A raft, flat and open to the sky",
+        "feedback": "[TODO:tr] Genesis says the ark had a roof, three decks, and a door in its side."
       }
     ]
   },
   "animals": {
-    "title": "İkişer İkişer",
-    "text": "Her diyardan yaratıklar gelir.\nKuzuların yanında aslanlar. Ayaklarının dibinde kartallar.",
+    "title": "[TODO:tr] The Creatures Come",
+    "text": "[TODO:tr] The animals arrive at the ark.\nWho do you take on board?",
     "choices": [
       {
-        "text": "[TODO:tr] Drive the dangerous ones away",
-        "feedback": "[TODO:tr] Fear blinds you. God sent every one."
+        "text": "[TODO:tr] Take pairs of every kind of animal, male and female",
+        "feedback": "[TODO:tr] Genesis 7:8-9 — Pairs of clean and unclean animals, birds and creeping things came to Noah, male and female."
       },
       {
-        "text": "[TODO:tr] Welcome each pair gently",
-        "feedback": "[TODO:tr] Genesis 7:8-9 — The animals came to Noah two by two, and he received them."
+        "text": "[TODO:tr] Take only sheep and goats",
+        "feedback": "[TODO:tr] Genesis says every kind of animal came, not only sheep and goats."
+      },
+      {
+        "text": "[TODO:tr] Take no animals — only your family",
+        "feedback": "[TODO:tr] Genesis says the animals came into the ark with Noah."
       }
     ]
   },
   "boarding": {
-    "title": "Kapı Kapanır",
-    "text": "Ailen içeride. Hayvanlar yerleşir.\nTanrı'nın Kendisi kapıyı kapatır.",
+    "title": "[TODO:tr] The Door Shut",
+    "text": "[TODO:tr] It is time to enter the ark.\nWho enters, and who closes the door?",
     "choices": [
       {
-        "text": "[TODO:tr] Run back out to warn them again",
-        "feedback": "[TODO:tr] The door is sealed. The choice has been made."
+        "text": "[TODO:tr] Enter with your wife, three sons, and their wives; the Lord shuts the door",
+        "feedback": "[TODO:tr] Genesis 7:13, 16 — Noah, his wife, his three sons and their wives entered the ark, and the Lord shut him in."
       },
       {
-        "text": "[TODO:tr] Hold your wife's hand and wait",
-        "feedback": "[TODO:tr] Genesis 7:16 — The Lord Himself shut the door of the ark behind Noah."
+        "text": "[TODO:tr] Enter the ark alone, leaving your family behind",
+        "feedback": "[TODO:tr] Genesis says Noah's whole household entered the ark with him."
+      },
+      {
+        "text": "[TODO:tr] Stay outside and close the door from without",
+        "feedback": "[TODO:tr] Genesis says the Lord Himself shut Noah inside the ark."
       }
     ]
   },
   "storm": {
-    "title": "Gökler Açılır",
-    "text": "Yağmur daha önce hiç görülmemiş gibi çarpar.\nDerinlikler patlar. Dünya boğulur.",
+    "title": "[TODO:tr] Forty Days of Rain",
+    "text": "[TODO:tr] The windows of heaven open.\nWhat happens?",
     "choices": [
       {
-        "text": "[TODO:tr] Curse the sky in horror",
-        "feedback": "[TODO:tr] The sound swallows your cry."
+        "text": "[TODO:tr] Rain falls on the earth for forty days and forty nights",
+        "feedback": "[TODO:tr] Genesis 7:12 — Rain fell on the earth forty days and forty nights."
       },
       {
-        "text": "[TODO:tr] Trust that God is just and merciful",
-        "feedback": "[TODO:tr] Genesis 7:23 — Noah trusted God as the flood covered the earth."
+        "text": "[TODO:tr] A single storm passes in one day",
+        "feedback": "[TODO:tr] Genesis says the rain fell for forty days and nights."
       },
       {
-        "text": "[TODO:tr] Try to pull strangers from the water",
-        "feedback": "[TODO:tr] The door is sealed. There is nothing to be done."
+        "text": "[TODO:tr] Only a light drizzle falls",
+        "feedback": "[TODO:tr] Genesis describes the fountains of the deep bursting and the windows of heaven opening."
       }
     ]
   },
   "inside": {
-    "title": "Kırk Gün",
-    "text": "Gemi sallanır. Hayvanlar nefes alır.\nGünler bulanıklaşır. Sadece ahşabın gıcırtısı kalır.",
+    "title": "[TODO:tr] Upon the Waters",
+    "text": "[TODO:tr] The ark floats on the deep.\nHow long do the waters prevail on the earth?",
     "choices": [
       {
-        "text": "[TODO:tr] Tend the creatures with care",
-        "feedback": "[TODO:tr] Genesis 7:24 — Noah cared for his family and the animals through 150 days on the waters."
+        "text": "[TODO:tr] The waters flood the earth for a hundred and fifty days",
+        "feedback": "[TODO:tr] Genesis 7:24 — The waters flooded the earth for a hundred and fifty days."
       },
       {
-        "text": "[TODO:tr] Sit alone and let despair grow",
-        "feedback": "[TODO:tr] The silence presses on you. Faith dims."
+        "text": "[TODO:tr] The waters recede in three days",
+        "feedback": "[TODO:tr] Genesis says the waters prevailed 150 days before receding."
+      },
+      {
+        "text": "[TODO:tr] You steer the ark back toward Eden",
+        "feedback": "[TODO:tr] Genesis does not describe Noah steering the ark; God kept it afloat."
       }
     ]
   },
   "dove": {
-    "title": "Güvercin Geri Döner",
-    "text": "Bir güvercin salarsın. Saatler geçer.\nGeri döner — gagasında bir zeytin yaprağıyla.",
+    "title": "[TODO:tr] The Dove Returns",
+    "text": "[TODO:tr] The waters begin to recede.\nHow do you know dry land is near?",
     "choices": [
       {
-        "text": "[TODO:tr] Doubt — perhaps a stray branch",
-        "feedback": "[TODO:tr] Even now, doubt fights to hold you."
+        "text": "[TODO:tr] Send out a dove; it returns with a fresh olive leaf",
+        "feedback": "[TODO:tr] Genesis 8:11 — The dove returned to Noah in the evening with a freshly plucked olive leaf."
       },
       {
-        "text": "[TODO:tr] Weep — life still grows",
-        "feedback": "[TODO:tr] Genesis 8:11 — The dove returned with an olive leaf — a sign of new life."
+        "text": "[TODO:tr] Send out a raven that returns with grain",
+        "feedback": "[TODO:tr] Genesis says the dove — not the raven — brought back an olive leaf."
+      },
+      {
+        "text": "[TODO:tr] Open the roof and look with your own eyes only",
+        "feedback": "[TODO:tr] Genesis says Noah sent out birds to test whether the waters had gone down."
       }
     ]
   },
   "dry_land": {
-    "title": "Ayaklarının Altındaki Toprak",
-    "text": "Kapı açılır. Güneş içeri dolar.\nSıcak, canlı çamura basarsın.",
+    "title": "[TODO:tr] Earth Beneath Your Feet",
+    "text": "[TODO:tr] The Lord tells you to come out of the ark.\nWhat do you do first on dry land?",
     "choices": [
       {
-        "text": "[TODO:tr] Rush to claim the new land",
-        "feedback": "[TODO:tr] The land was never yours to claim."
+        "text": "[TODO:tr] Build an altar to the Lord and offer sacrifices",
+        "feedback": "[TODO:tr] Genesis 8:20 — Noah built an altar to the Lord and offered burnt offerings on it."
       },
       {
-        "text": "[TODO:tr] Kneel and build an altar to God",
-        "feedback": "[TODO:tr] Genesis 8:20 — Noah's first act on dry land was to build an altar to the Lord."
+        "text": "[TODO:tr] Begin building a great tower right away",
+        "feedback": "[TODO:tr] Genesis says Noah's first act was to build an altar, not a tower."
+      },
+      {
+        "text": "[TODO:tr] Refuse to leave the ark",
+        "feedback": "[TODO:tr] Genesis says Noah came out of the ark when God told him to."
       }
     ]
   },
   "covenant": {
-    "title": "Gökkuşağı",
-    "text": "Gökyüzünde bir gökkuşağı belirir.\n\"Bir daha asla. Bu, seninle yaptığım antlaşmamdır.\"",
+    "title": "[TODO:tr] The Rainbow",
+    "text": "[TODO:tr] A rainbow arches across the sky.\n\"Never again will I flood the earth. This is my covenant with you.\"",
     "choices": []
   }
 }

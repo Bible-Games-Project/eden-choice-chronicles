@@ -1,176 +1,188 @@
 {
-  "storyTitle": "카인과 아벨",
+  "storyTitle": "[TODO:ko] Cain and Abel",
   "start": {
-    "title": "땅의 아들들",
-    "text": "당신은 아담의 맏아들 카인입니다.\n새벽녘에 당신의 동생 아벨이 당신 곁을 걷습니다.",
+    "title": "[TODO:ko] Sons of Adam",
+    "text": "[TODO:ko] You open your eyes as the firstborn of Adam and Eve.\nA second son, Abel, is born after you.",
     "choices": [
       {
-        "text": "[TODO:ko] Greet him with brotherly love",
-        "feedback": "[TODO:ko] Genesis 4:1-2 — Cain and Abel were the first two brothers, sons of Adam and Eve."
+        "text": "[TODO:ko] Live as the firstborn son of Adam and Eve",
+        "feedback": "[TODO:ko] Genesis 4:1-2 — Eve gave birth to Cain, and then to his brother Abel."
       },
       {
-        "text": "[TODO:ko] Compare yourself to him in silence",
-        "feedback": "[TODO:ko] A quiet bitterness takes root."
+        "text": "[TODO:ko] Be born before Adam and Eve",
+        "feedback": "[TODO:ko] Genesis says Adam and Eve came first; Cain was their son."
       },
       {
-        "text": "[TODO:ko] Walk ahead without him",
-        "feedback": "[TODO:ko] He calls your name. You do not turn."
+        "text": "[TODO:ko] Grow up as an only child",
+        "feedback": "[TODO:ko] Genesis says Cain had a brother, Abel."
       }
     ]
   },
   "fields": {
-    "title": "땅을 가는 자",
-    "text": "땅은 당신의 괭이에 저항합니다.\n땀. 돌. 긴 노동 시간.",
+    "title": "[TODO:ko] Your Work",
+    "text": "[TODO:ko] The years pass. Each brother finds his labor.\nWhat is yours?",
     "choices": [
       {
-        "text": "[TODO:ko] Work with patience and care",
-        "feedback": "[TODO:ko] Genesis 4:2 — Cain worked the soil while Abel kept flocks."
+        "text": "[TODO:ko] Work the ground as a tiller of the soil",
+        "feedback": "[TODO:ko] Genesis 4:2 — Cain worked the soil."
       },
       {
-        "text": "[TODO:ko] Curse the ground as you dig",
-        "feedback": "[TODO:ko] Each strike grows angrier than the last."
+        "text": "[TODO:ko] Keep flocks of sheep like Abel",
+        "feedback": "[TODO:ko] Genesis says Abel kept flocks; Cain worked the soil."
+      },
+      {
+        "text": "[TODO:ko] Refuse to work at all",
+        "feedback": "[TODO:ko] Genesis says Cain worked the ground."
       }
     ]
   },
   "abel_pasture": {
-    "title": "네 아우의 양 떼",
-    "text": "아벨은 양들 사이에서 만족하며 쉬고 있습니다.\n갓 태어난 어린 양이 그의 가슴 위에서 잠들어 있습니다.",
+    "title": "[TODO:ko] Your Brother's Work",
+    "text": "[TODO:ko] You see Abel across the field.\nWhat is he doing?",
     "choices": [
       {
-        "text": "[TODO:ko] Be glad for his gentle work",
-        "feedback": "[TODO:ko] Warmth rises where envy could have grown."
+        "text": "[TODO:ko] See Abel keeping flocks of sheep",
+        "feedback": "[TODO:ko] Genesis 4:2 — Abel kept flocks."
       },
       {
-        "text": "[TODO:ko] Resent that his work seems easy",
-        "feedback": "[TODO:ko] Genesis 4:5 — Cain grew envious and downcast when God favored Abel."
+        "text": "[TODO:ko] See Abel tilling the ground beside you",
+        "feedback": "[TODO:ko] Genesis says Abel kept flocks, not that he tilled the ground."
       },
       {
-        "text": "[TODO:ko] Mock him under your breath",
-        "feedback": "[TODO:ko] Your words stay quiet, but they sting your own soul."
+        "text": "[TODO:ko] See Abel fishing at the river",
+        "feedback": "[TODO:ko] Genesis does not describe Abel fishing."
       }
     ]
   },
   "offerings": {
-    "title": "제단 앞에서",
-    "text": "주님께 제물을 바칠 때입니다.\n무엇을 드릴 것입니까?",
+    "title": "[TODO:ko] Before the Altar",
+    "text": "[TODO:ko] The time comes to bring an offering to the Lord.\nWhat will you bring?",
     "choices": [
       {
-        "text": "[TODO:ko] Bring your very best firstfruits",
-        "feedback": "[TODO:ko] You choose the finest grain. Your heart is open."
+        "text": "[TODO:ko] Bring some of the fruits of the soil as an offering",
+        "feedback": "[TODO:ko] Genesis 4:3 — Cain brought some of the fruits of the soil as an offering to the Lord."
       },
       {
-        "text": "[TODO:ko] Bring whatever was left over",
-        "feedback": "[TODO:ko] Genesis 4:3 — Cain brought some of the fruits of the soil, not his very best."
+        "text": "[TODO:ko] Bring a firstborn lamb from your flock",
+        "feedback": "[TODO:ko] Genesis says Abel brought a lamb; Cain brought fruits of the soil."
       },
       {
-        "text": "[TODO:ko] Bring nothing — you earned it",
-        "feedback": "[TODO:ko] Empty hands. A harder, prouder heart."
+        "text": "[TODO:ko] Bring nothing at all",
+        "feedback": "[TODO:ko] Genesis says Cain did bring an offering, though not the best."
       }
     ]
   },
   "accepted": {
-    "title": "주님의 은총",
-    "text": "주님은 아벨의 어린 양을 기쁨으로 받으십니다.\n당신의 제물은 그가 돌보지 않으십니다.",
+    "title": "[TODO:ko] The Lord's Regard",
+    "text": "[TODO:ko] You wait as the Lord looks upon the two offerings.\nWhat happens?",
     "choices": [
       {
-        "text": "[TODO:ko] Search yourself before God",
-        "feedback": "[TODO:ko] You ask why. The answer is already in you."
+        "text": "[TODO:ko] The Lord looks with favor on Abel and his offering, but not on yours",
+        "feedback": "[TODO:ko] Genesis 4:4-5 — The Lord looked with favor on Abel and his offering, but on Cain and his offering He did not look with favor."
       },
       {
-        "text": "[TODO:ko] Burn with rage against Abel",
-        "feedback": "[TODO:ko] Genesis 4:5 — Cain became very angry when his offering was not accepted."
+        "text": "[TODO:ko] The Lord favors both offerings equally",
+        "feedback": "[TODO:ko] Genesis says the Lord favored Abel's offering, not both."
       },
       {
-        "text": "[TODO:ko] Accuse God of unfairness",
-        "feedback": "[TODO:ko] Your fist rises. The sky does not answer."
+        "text": "[TODO:ko] The Lord accepts your offering and rejects Abel's",
+        "feedback": "[TODO:ko] Genesis says the opposite — the Lord favored Abel's offering."
       }
     ]
   },
   "anger": {
-    "title": "왜 화를 내느냐?",
-    "text": "당신의 얼굴이 어두워집니다. 손이 떨립니다.\n주님께서 물으십니다. \"왜 화를 내느냐?\"",
+    "title": "[TODO:ko] Your Face Falls",
+    "text": "[TODO:ko] The offering is over. Something rises in you.\nHow do you respond?",
     "choices": [
       {
-        "text": "[TODO:ko] Lay your anger down before Him",
-        "feedback": "[TODO:ko] The fire begins to cool. Honesty opens a path."
+        "text": "[TODO:ko] Become very angry, your face downcast",
+        "feedback": "[TODO:ko] Genesis 4:5 — Cain was very angry, and his face was downcast."
       },
       {
-        "text": "[TODO:ko] Refuse to answer — turn away",
-        "feedback": "[TODO:ko] Genesis 4:5-6 — Cain turned his face away and refused to answer God."
+        "text": "[TODO:ko] Rejoice with Abel over his accepted offering",
+        "feedback": "[TODO:ko] Genesis says Cain became angry, not that he rejoiced."
+      },
+      {
+        "text": "[TODO:ko] Bring a better offering the very next day",
+        "feedback": "[TODO:ko] Genesis does not describe Cain bringing a second offering."
       }
     ]
   },
   "warning": {
-    "title": "죄가 문 앞에 웅크리고 있다",
-    "text": "\"죄가 네 문 앞에 웅크리고 있다.\n그것의 욕망은 너를 향하지만, 너는 그것을 다스려야 한다.\"",
+    "title": "[TODO:ko] Sin Crouching at the Door",
+    "text": "[TODO:ko] The Lord speaks to you.\nWhat does He say?",
     "choices": [
       {
-        "text": "[TODO:ko] Commit to master your anger",
-        "feedback": "[TODO:ko] You exhale. You will choose differently."
+        "text": "[TODO:ko] 'Sin is crouching at your door — but you must rule over it'",
+        "feedback": "[TODO:ko] Genesis 4:6-7 — The Lord warned Cain that sin was crouching at his door and he must rule over it."
       },
       {
-        "text": "[TODO:ko] Let the rage take you",
-        "feedback": "[TODO:ko] Genesis 4:7 — Cain did not master the sin crouching at his door."
+        "text": "[TODO:ko] 'Bring a lamb instead of grain'",
+        "feedback": "[TODO:ko] Genesis does not record the Lord telling Cain to bring a lamb."
       },
       {
-        "text": "[TODO:ko] Pretend you did not hear",
-        "feedback": "[TODO:ko] The warning fades. The hatred remains."
+        "text": "[TODO:ko] Nothing — the Lord is silent",
+        "feedback": "[TODO:ko] Genesis says the Lord did speak to Cain about sin at the door."
       }
     ]
   },
   "invitation": {
-    "title": "나와 함께 들로 가자",
-    "text": "아벨은 당신을 믿고 다가옵니다.\n그의 얼굴은 열려 있습니다. 당신의 얼굴은 그렇지 않습니다.",
+    "title": "[TODO:ko] You Speak to Your Brother",
+    "text": "[TODO:ko] Abel walks near, trusting.\nWhat do you say?",
     "choices": [
       {
-        "text": "[TODO:ko] Tell him the truth of your heart",
-        "feedback": "[TODO:ko] Words are hard. But honesty is mercy."
+        "text": "[TODO:ko] Say to Abel, 'Let's go out to the field'",
+        "feedback": "[TODO:ko] Genesis 4:8 — Cain said to Abel, 'Let's go out to the field.'"
       },
       {
-        "text": "[TODO:ko] Lure him alone into the field",
-        "feedback": "[TODO:ko] Genesis 4:8 — Cain lured Abel out into the field."
+        "text": "[TODO:ko] Invite Abel to worship at the altar together",
+        "feedback": "[TODO:ko] Genesis says Cain led Abel out to the field, not to the altar."
+      },
+      {
+        "text": "[TODO:ko] Send Abel away and never speak to him again",
+        "feedback": "[TODO:ko] Genesis says Cain called Abel to the field, not that he sent him away."
       }
     ]
   },
   "field": {
-    "title": "들판에서",
-    "text": "들판은 비어 있습니다. 아무도 보지 못할 것입니다.\n분노가 치밀어 오릅니다. 손에 돌이 들려 있습니다.",
+    "title": "[TODO:ko] In the Field",
+    "text": "[TODO:ko] You and Abel are alone in the open field.\nWhat do you do?",
     "choices": [
       {
-        "text": "[TODO:ko] Drop the stone — walk away",
-        "feedback": "[TODO:ko] It falls heavy at your feet. You breathe again."
+        "text": "[TODO:ko] Attack Abel your brother and kill him",
+        "feedback": "[TODO:ko] Genesis 4:8 — Cain attacked his brother Abel and killed him."
       },
       {
-        "text": "[TODO:ko] Strike him in your fury",
-        "feedback": "[TODO:ko] Genesis 4:8 — Cain rose up against Abel his brother and killed him."
+        "text": "[TODO:ko] Argue with Abel and then forgive him",
+        "feedback": "[TODO:ko] Genesis says Cain killed Abel; he did not forgive him."
       },
       {
-        "text": "[TODO:ko] Threaten him, then strike",
-        "feedback": "[TODO:ko] Your hand obeys the rage. The field receives him."
+        "text": "[TODO:ko] Walk home without touching him",
+        "feedback": "[TODO:ko] Genesis says Cain killed Abel in the field."
       }
     ]
   },
   "confrontation": {
-    "title": "“네 아우가 어디 있느냐?”",
-    "text": "주님의 음성이 당신을 찾아옵니다.\n“네 아우 아벨이 어디 있느냐?”",
+    "title": "[TODO:ko] \"Where Is Your Brother?\"",
+    "text": "[TODO:ko] The Lord's voice finds you.\n\"Where is your brother Abel?\"",
     "choices": [
       {
-        "text": "[TODO:ko] Confess what your hands have done",
-        "feedback": "[TODO:ko] The truth crushes you. And begins to free you."
+        "text": "[TODO:ko] Answer: 'I do not know. Am I my brother's keeper?'",
+        "feedback": "[TODO:ko] Genesis 4:9 — Cain replied, 'I don't know. Am I my brother's keeper?'"
       },
       {
-        "text": "[TODO:ko] \"Am I my brother's keeper?\"",
-        "feedback": "[TODO:ko] Genesis 4:9 — Cain replied, 'Am I my brother's keeper?'"
+        "text": "[TODO:ko] Confess plainly: 'I have killed him'",
+        "feedback": "[TODO:ko] Genesis says Cain denied knowing; he did not confess plainly."
       },
       {
-        "text": "[TODO:ko] Stay silent and hide your eyes",
-        "feedback": "[TODO:ko] His blood cries out from the ground."
+        "text": "[TODO:ko] Stay silent before the Lord",
+        "feedback": "[TODO:ko] Genesis says Cain answered the Lord; he did not stay silent."
       }
     ]
   },
   "wanderer": {
-    "title": "에덴 동쪽, 표식을 받다",
-    "text": "주님께서 당신을 보호하기 위해 표식을 주십니다.\n당신은 고향을 떠나 멀리 방랑해야 합니다.",
+    "title": "[TODO:ko] A Restless Wanderer",
+    "text": "[TODO:ko] The Lord places a mark on you for your protection.\nYou go out to wander east of Eden, in the land of Nod.",
     "choices": []
   }
 }

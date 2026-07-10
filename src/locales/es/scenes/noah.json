@@ -1,160 +1,188 @@
 {
-  "storyTitle": "Noé y el Diluvio",
+  "storyTitle": "[TODO:es] Noah and the Flood",
   "start": {
-    "title": "La Voz de lo Alto",
-    "text": "Una voz llena el cielo.\n\"Noé, construye un arca. Se acerca un diluvio.\"",
+    "title": "[TODO:es] The Voice from Above",
+    "text": "[TODO:es] God speaks to you.\n\"Make yourself an ark. A flood is coming.\"",
     "choices": [
       {
-        "text": "[TODO:es] Doubt — this cannot be true",
-        "feedback": "[TODO:es] The voice fades. But the weight in your chest remains."
+        "text": "[TODO:es] Receive God's command to build an ark of cypress wood",
+        "feedback": "[TODO:es] Genesis 6:14, 22 — God told Noah to make an ark of cypress wood, and Noah did everything just as God commanded."
       },
       {
-        "text": "[TODO:es] \"Here I am. I will obey.\"",
-        "feedback": "[TODO:es] Genesis 6:22 — Noah did everything just as God commanded him."
+        "text": "[TODO:es] Refuse the command and flee the land",
+        "feedback": "[TODO:es] Genesis says Noah obeyed God; he did not flee."
       },
       {
-        "text": "[TODO:es] Ask why you were chosen",
-        "feedback": "[TODO:es] No answer comes. Only the command remains."
+        "text": "[TODO:es] Buy an existing ship from a merchant",
+        "feedback": "[TODO:es] Genesis says Noah built the ark himself, as God instructed."
       }
     ]
   },
   "mockery": {
-    "title": "Voces de la Multitud",
-    "text": "Los aldeanos se reúnen, riendo.\n\"¿Un barco? ¿Aquí? Estás loco, viejo.\"",
+    "title": "[TODO:es] A Watching World",
+    "text": "[TODO:es] The world around you is corrupt and violent.\nThey watch you build. How do you respond?",
     "choices": [
       {
-        "text": "[TODO:es] Shout back in anger",
-        "feedback": "[TODO:es] Your words only feed their mockery."
+        "text": "[TODO:es] Keep building the ark by faith",
+        "feedback": "[TODO:es] Hebrews 11:7 — By faith Noah built the ark in reverent fear, though warned of things not yet seen."
       },
       {
-        "text": "[TODO:es] Stay silent and keep working",
-        "feedback": "[TODO:es] Hebrews 11:7 — By faith Noah kept building the ark, despite the world's mockery."
+        "text": "[TODO:es] Abandon the ark to please the crowd",
+        "feedback": "[TODO:es] Scripture says Noah kept building by faith."
       },
       {
-        "text": "[TODO:es] Beg them to believe",
-        "feedback": "[TODO:es] They turn their backs. You are alone in faith."
+        "text": "[TODO:es] Attack the mockers to silence them",
+        "feedback": "[TODO:es] Scripture does not describe Noah attacking anyone."
       }
     ]
   },
   "building": {
-    "title": "Ciprés y Brea",
-    "text": "Años de sudor. La madera se parte. La brea sella.\nTe duele la espalda, pero el arca se eleva.",
+    "title": "[TODO:es] Cypress and Pitch",
+    "text": "[TODO:es] You gather the materials God commanded.\nHow do you build the ark?",
     "choices": [
       {
-        "text": "[TODO:es] Rest a while, the work is endless",
-        "feedback": "[TODO:es] Doubt creeps in with the silence."
+        "text": "[TODO:es] Build it of cypress wood, coated with pitch inside and out",
+        "feedback": "[TODO:es] Genesis 6:14 — Make yourself an ark of cypress wood; coat it with pitch inside and out."
       },
       {
-        "text": "[TODO:es] Press on — God commanded it",
-        "feedback": "[TODO:es] Genesis 6:14-16 — Noah built the ark of cypress wood exactly as God instructed."
+        "text": "[TODO:es] Build it from cut stone",
+        "feedback": "[TODO:es] Genesis says the ark was built of cypress wood, not stone."
+      },
+      {
+        "text": "[TODO:es] Weave it from reeds like a basket",
+        "feedback": "[TODO:es] Genesis says the ark was made of cypress wood, sealed with pitch."
       }
     ]
   },
   "ark_done": {
-    "title": "Está Terminada",
-    "text": "El arca se alza sobre ti.\nTu familia se reúne, en silencio ante la madera.",
+    "title": "[TODO:es] It Stands Finished",
+    "text": "[TODO:es] The ark is complete, exactly as God commanded.\nWhat does it look like?",
     "choices": [
       {
-        "text": "[TODO:es] Boast to the watching crowd",
-        "feedback": "[TODO:es] Pride poisons the work. You catch yourself."
+        "text": "[TODO:es] 300 cubits long, 50 wide, 30 high, with three decks",
+        "feedback": "[TODO:es] Genesis 6:15-16 — The ark was 300 cubits long, 50 wide, 30 high, with three decks."
       },
       {
-        "text": "[TODO:es] Thank God for the strength given",
-        "feedback": "[TODO:es] Genesis 6:9 — Noah walked with God and gave Him thanks for every step."
+        "text": "[TODO:es] A small round boat with one deck",
+        "feedback": "[TODO:es] Genesis gives specific dimensions; the ark was not a small round boat."
+      },
+      {
+        "text": "[TODO:es] A raft, flat and open to the sky",
+        "feedback": "[TODO:es] Genesis says the ark had a roof, three decks, and a door in its side."
       }
     ]
   },
   "animals": {
-    "title": "De Dos en Dos",
-    "text": "Criaturas de todas las tierras vienen.\nLeones junto a corderos. Águilas a tus pies.",
+    "title": "[TODO:es] The Creatures Come",
+    "text": "[TODO:es] The animals arrive at the ark.\nWho do you take on board?",
     "choices": [
       {
-        "text": "[TODO:es] Drive the dangerous ones away",
-        "feedback": "[TODO:es] Fear blinds you. God sent every one."
+        "text": "[TODO:es] Take pairs of every kind of animal, male and female",
+        "feedback": "[TODO:es] Genesis 7:8-9 — Pairs of clean and unclean animals, birds and creeping things came to Noah, male and female."
       },
       {
-        "text": "[TODO:es] Welcome each pair gently",
-        "feedback": "[TODO:es] Genesis 7:8-9 — The animals came to Noah two by two, and he received them."
+        "text": "[TODO:es] Take only sheep and goats",
+        "feedback": "[TODO:es] Genesis says every kind of animal came, not only sheep and goats."
+      },
+      {
+        "text": "[TODO:es] Take no animals — only your family",
+        "feedback": "[TODO:es] Genesis says the animals came into the ark with Noah."
       }
     ]
   },
   "boarding": {
-    "title": "La Puerta se Cierra",
-    "text": "Tu familia está dentro. Los animales se acomodan.\nDios mismo cierra la puerta.",
+    "title": "[TODO:es] The Door Shut",
+    "text": "[TODO:es] It is time to enter the ark.\nWho enters, and who closes the door?",
     "choices": [
       {
-        "text": "[TODO:es] Run back out to warn them again",
-        "feedback": "[TODO:es] The door is sealed. The choice has been made."
+        "text": "[TODO:es] Enter with your wife, three sons, and their wives; the Lord shuts the door",
+        "feedback": "[TODO:es] Genesis 7:13, 16 — Noah, his wife, his three sons and their wives entered the ark, and the Lord shut him in."
       },
       {
-        "text": "[TODO:es] Hold your wife's hand and wait",
-        "feedback": "[TODO:es] Genesis 7:16 — The Lord Himself shut the door of the ark behind Noah."
+        "text": "[TODO:es] Enter the ark alone, leaving your family behind",
+        "feedback": "[TODO:es] Genesis says Noah's whole household entered the ark with him."
+      },
+      {
+        "text": "[TODO:es] Stay outside and close the door from without",
+        "feedback": "[TODO:es] Genesis says the Lord Himself shut Noah inside the ark."
       }
     ]
   },
   "storm": {
-    "title": "Los Cielos se Abren",
-    "text": "La lluvia cae como nunca antes se había visto.\nLas profundidades estallan. El mundo se ahoga.",
+    "title": "[TODO:es] Forty Days of Rain",
+    "text": "[TODO:es] The windows of heaven open.\nWhat happens?",
     "choices": [
       {
-        "text": "[TODO:es] Curse the sky in horror",
-        "feedback": "[TODO:es] The sound swallows your cry."
+        "text": "[TODO:es] Rain falls on the earth for forty days and forty nights",
+        "feedback": "[TODO:es] Genesis 7:12 — Rain fell on the earth forty days and forty nights."
       },
       {
-        "text": "[TODO:es] Trust that God is just and merciful",
-        "feedback": "[TODO:es] Genesis 7:23 — Noah trusted God as the flood covered the earth."
+        "text": "[TODO:es] A single storm passes in one day",
+        "feedback": "[TODO:es] Genesis says the rain fell for forty days and nights."
       },
       {
-        "text": "[TODO:es] Try to pull strangers from the water",
-        "feedback": "[TODO:es] The door is sealed. There is nothing to be done."
+        "text": "[TODO:es] Only a light drizzle falls",
+        "feedback": "[TODO:es] Genesis describes the fountains of the deep bursting and the windows of heaven opening."
       }
     ]
   },
   "inside": {
-    "title": "Cuarenta Días",
-    "text": "El arca se mece. Los animales respiran.\nLos días se difuminan. Solo queda el crujido de la madera.",
+    "title": "[TODO:es] Upon the Waters",
+    "text": "[TODO:es] The ark floats on the deep.\nHow long do the waters prevail on the earth?",
     "choices": [
       {
-        "text": "[TODO:es] Tend the creatures with care",
-        "feedback": "[TODO:es] Genesis 7:24 — Noah cared for his family and the animals through 150 days on the waters."
+        "text": "[TODO:es] The waters flood the earth for a hundred and fifty days",
+        "feedback": "[TODO:es] Genesis 7:24 — The waters flooded the earth for a hundred and fifty days."
       },
       {
-        "text": "[TODO:es] Sit alone and let despair grow",
-        "feedback": "[TODO:es] The silence presses on you. Faith dims."
+        "text": "[TODO:es] The waters recede in three days",
+        "feedback": "[TODO:es] Genesis says the waters prevailed 150 days before receding."
+      },
+      {
+        "text": "[TODO:es] You steer the ark back toward Eden",
+        "feedback": "[TODO:es] Genesis does not describe Noah steering the ark; God kept it afloat."
       }
     ]
   },
   "dove": {
-    "title": "La Paloma Regresa",
-    "text": "Sueltas una paloma. Pasan las horas.\nRegresa, con una hoja de olivo en el pico.",
+    "title": "[TODO:es] The Dove Returns",
+    "text": "[TODO:es] The waters begin to recede.\nHow do you know dry land is near?",
     "choices": [
       {
-        "text": "[TODO:es] Doubt — perhaps a stray branch",
-        "feedback": "[TODO:es] Even now, doubt fights to hold you."
+        "text": "[TODO:es] Send out a dove; it returns with a fresh olive leaf",
+        "feedback": "[TODO:es] Genesis 8:11 — The dove returned to Noah in the evening with a freshly plucked olive leaf."
       },
       {
-        "text": "[TODO:es] Weep — life still grows",
-        "feedback": "[TODO:es] Genesis 8:11 — The dove returned with an olive leaf — a sign of new life."
+        "text": "[TODO:es] Send out a raven that returns with grain",
+        "feedback": "[TODO:es] Genesis says the dove — not the raven — brought back an olive leaf."
+      },
+      {
+        "text": "[TODO:es] Open the roof and look with your own eyes only",
+        "feedback": "[TODO:es] Genesis says Noah sent out birds to test whether the waters had gone down."
       }
     ]
   },
   "dry_land": {
-    "title": "Tierra Bajo Tus Pies",
-    "text": "La puerta se abre. El sol entra a raudales.\nPisas barro cálido y vivo.",
+    "title": "[TODO:es] Earth Beneath Your Feet",
+    "text": "[TODO:es] The Lord tells you to come out of the ark.\nWhat do you do first on dry land?",
     "choices": [
       {
-        "text": "[TODO:es] Rush to claim the new land",
-        "feedback": "[TODO:es] The land was never yours to claim."
+        "text": "[TODO:es] Build an altar to the Lord and offer sacrifices",
+        "feedback": "[TODO:es] Genesis 8:20 — Noah built an altar to the Lord and offered burnt offerings on it."
       },
       {
-        "text": "[TODO:es] Kneel and build an altar to God",
-        "feedback": "[TODO:es] Genesis 8:20 — Noah's first act on dry land was to build an altar to the Lord."
+        "text": "[TODO:es] Begin building a great tower right away",
+        "feedback": "[TODO:es] Genesis says Noah's first act was to build an altar, not a tower."
+      },
+      {
+        "text": "[TODO:es] Refuse to leave the ark",
+        "feedback": "[TODO:es] Genesis says Noah came out of the ark when God told him to."
       }
     ]
   },
   "covenant": {
-    "title": "El Arcoíris",
-    "text": "Un arcoíris se extiende por el cielo.\n\"Nunca más. Este es mi pacto contigo.\"",
+    "title": "[TODO:es] The Rainbow",
+    "text": "[TODO:es] A rainbow arches across the sky.\n\"Never again will I flood the earth. This is my covenant with you.\"",
     "choices": []
   }
 }

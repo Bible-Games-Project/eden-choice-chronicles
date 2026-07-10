@@ -1,176 +1,188 @@
 {
-  "storyTitle": "Kain ve Habil",
+  "storyTitle": "[TODO:tr] Cain and Abel",
   "start": {
-    "title": "Toprağın Oğulları",
-    "text": "Sen Adem'in ilk oğlu Kain'sin.\nKardeşin Habil şafakta yanında yürüyor.",
+    "title": "[TODO:tr] Sons of Adam",
+    "text": "[TODO:tr] You open your eyes as the firstborn of Adam and Eve.\nA second son, Abel, is born after you.",
     "choices": [
       {
-        "text": "[TODO:tr] Greet him with brotherly love",
-        "feedback": "[TODO:tr] Genesis 4:1-2 — Cain and Abel were the first two brothers, sons of Adam and Eve."
+        "text": "[TODO:tr] Live as the firstborn son of Adam and Eve",
+        "feedback": "[TODO:tr] Genesis 4:1-2 — Eve gave birth to Cain, and then to his brother Abel."
       },
       {
-        "text": "[TODO:tr] Compare yourself to him in silence",
-        "feedback": "[TODO:tr] A quiet bitterness takes root."
+        "text": "[TODO:tr] Be born before Adam and Eve",
+        "feedback": "[TODO:tr] Genesis says Adam and Eve came first; Cain was their son."
       },
       {
-        "text": "[TODO:tr] Walk ahead without him",
-        "feedback": "[TODO:tr] He calls your name. You do not turn."
+        "text": "[TODO:tr] Grow up as an only child",
+        "feedback": "[TODO:tr] Genesis says Cain had a brother, Abel."
       }
     ]
   },
   "fields": {
-    "title": "Toprak İşleyici",
-    "text": "Toprak çapana direniyor.\nTer. Taşlar. Uzun çalışma saatleri.",
+    "title": "[TODO:tr] Your Work",
+    "text": "[TODO:tr] The years pass. Each brother finds his labor.\nWhat is yours?",
     "choices": [
       {
-        "text": "[TODO:tr] Work with patience and care",
-        "feedback": "[TODO:tr] Genesis 4:2 — Cain worked the soil while Abel kept flocks."
+        "text": "[TODO:tr] Work the ground as a tiller of the soil",
+        "feedback": "[TODO:tr] Genesis 4:2 — Cain worked the soil."
       },
       {
-        "text": "[TODO:tr] Curse the ground as you dig",
-        "feedback": "[TODO:tr] Each strike grows angrier than the last."
+        "text": "[TODO:tr] Keep flocks of sheep like Abel",
+        "feedback": "[TODO:tr] Genesis says Abel kept flocks; Cain worked the soil."
+      },
+      {
+        "text": "[TODO:tr] Refuse to work at all",
+        "feedback": "[TODO:tr] Genesis says Cain worked the ground."
       }
     ]
   },
   "abel_pasture": {
-    "title": "Kardeşinin Sürüsü",
-    "text": "Habil koyunlarının arasında dinleniyor, memnun.\nYeni doğmuş bir kuzu göğsünde uyuyor.",
+    "title": "[TODO:tr] Your Brother's Work",
+    "text": "[TODO:tr] You see Abel across the field.\nWhat is he doing?",
     "choices": [
       {
-        "text": "[TODO:tr] Be glad for his gentle work",
-        "feedback": "[TODO:tr] Warmth rises where envy could have grown."
+        "text": "[TODO:tr] See Abel keeping flocks of sheep",
+        "feedback": "[TODO:tr] Genesis 4:2 — Abel kept flocks."
       },
       {
-        "text": "[TODO:tr] Resent that his work seems easy",
-        "feedback": "[TODO:tr] Genesis 4:5 — Cain grew envious and downcast when God favored Abel."
+        "text": "[TODO:tr] See Abel tilling the ground beside you",
+        "feedback": "[TODO:tr] Genesis says Abel kept flocks, not that he tilled the ground."
       },
       {
-        "text": "[TODO:tr] Mock him under your breath",
-        "feedback": "[TODO:tr] Your words stay quiet, but they sting your own soul."
+        "text": "[TODO:tr] See Abel fishing at the river",
+        "feedback": "[TODO:tr] Genesis does not describe Abel fishing."
       }
     ]
   },
   "offerings": {
-    "title": "Sunak Önünde",
-    "text": "Rab'be bir sunu getirme zamanı.\nNe vereceksin?",
+    "title": "[TODO:tr] Before the Altar",
+    "text": "[TODO:tr] The time comes to bring an offering to the Lord.\nWhat will you bring?",
     "choices": [
       {
-        "text": "[TODO:tr] Bring your very best firstfruits",
-        "feedback": "[TODO:tr] You choose the finest grain. Your heart is open."
+        "text": "[TODO:tr] Bring some of the fruits of the soil as an offering",
+        "feedback": "[TODO:tr] Genesis 4:3 — Cain brought some of the fruits of the soil as an offering to the Lord."
       },
       {
-        "text": "[TODO:tr] Bring whatever was left over",
-        "feedback": "[TODO:tr] Genesis 4:3 — Cain brought some of the fruits of the soil, not his very best."
+        "text": "[TODO:tr] Bring a firstborn lamb from your flock",
+        "feedback": "[TODO:tr] Genesis says Abel brought a lamb; Cain brought fruits of the soil."
       },
       {
-        "text": "[TODO:tr] Bring nothing — you earned it",
-        "feedback": "[TODO:tr] Empty hands. A harder, prouder heart."
+        "text": "[TODO:tr] Bring nothing at all",
+        "feedback": "[TODO:tr] Genesis says Cain did bring an offering, though not the best."
       }
     ]
   },
   "accepted": {
-    "title": "Rab'bin Lütfu",
-    "text": "Rab, Habil'in kuzusunu sevinçle kabul ediyor.\nSenin sununu — O dikkate almıyor.",
+    "title": "[TODO:tr] The Lord's Regard",
+    "text": "[TODO:tr] You wait as the Lord looks upon the two offerings.\nWhat happens?",
     "choices": [
       {
-        "text": "[TODO:tr] Search yourself before God",
-        "feedback": "[TODO:tr] You ask why. The answer is already in you."
+        "text": "[TODO:tr] The Lord looks with favor on Abel and his offering, but not on yours",
+        "feedback": "[TODO:tr] Genesis 4:4-5 — The Lord looked with favor on Abel and his offering, but on Cain and his offering He did not look with favor."
       },
       {
-        "text": "[TODO:tr] Burn with rage against Abel",
-        "feedback": "[TODO:tr] Genesis 4:5 — Cain became very angry when his offering was not accepted."
+        "text": "[TODO:tr] The Lord favors both offerings equally",
+        "feedback": "[TODO:tr] Genesis says the Lord favored Abel's offering, not both."
       },
       {
-        "text": "[TODO:tr] Accuse God of unfairness",
-        "feedback": "[TODO:tr] Your fist rises. The sky does not answer."
+        "text": "[TODO:tr] The Lord accepts your offering and rejects Abel's",
+        "feedback": "[TODO:tr] Genesis says the opposite — the Lord favored Abel's offering."
       }
     ]
   },
   "anger": {
-    "title": "Neden Kızgınsın?",
-    "text": "Yüzün düşüyor. Ellerin titriyor.\nRab soruyor: \"Neden kızgınsın?\"",
+    "title": "[TODO:tr] Your Face Falls",
+    "text": "[TODO:tr] The offering is over. Something rises in you.\nHow do you respond?",
     "choices": [
       {
-        "text": "[TODO:tr] Lay your anger down before Him",
-        "feedback": "[TODO:tr] The fire begins to cool. Honesty opens a path."
+        "text": "[TODO:tr] Become very angry, your face downcast",
+        "feedback": "[TODO:tr] Genesis 4:5 — Cain was very angry, and his face was downcast."
       },
       {
-        "text": "[TODO:tr] Refuse to answer — turn away",
-        "feedback": "[TODO:tr] Genesis 4:5-6 — Cain turned his face away and refused to answer God."
+        "text": "[TODO:tr] Rejoice with Abel over his accepted offering",
+        "feedback": "[TODO:tr] Genesis says Cain became angry, not that he rejoiced."
+      },
+      {
+        "text": "[TODO:tr] Bring a better offering the very next day",
+        "feedback": "[TODO:tr] Genesis does not describe Cain bringing a second offering."
       }
     ]
   },
   "warning": {
-    "title": "Günah Kapıda Pusuya Yatmış",
-    "text": "\"Günah kapında pusuya yatmış.\nİsteği sana yöneliktir — ama sen ona egemen olmalısın.\"",
+    "title": "[TODO:tr] Sin Crouching at the Door",
+    "text": "[TODO:tr] The Lord speaks to you.\nWhat does He say?",
     "choices": [
       {
-        "text": "[TODO:tr] Commit to master your anger",
-        "feedback": "[TODO:tr] You exhale. You will choose differently."
+        "text": "[TODO:tr] 'Sin is crouching at your door — but you must rule over it'",
+        "feedback": "[TODO:tr] Genesis 4:6-7 — The Lord warned Cain that sin was crouching at his door and he must rule over it."
       },
       {
-        "text": "[TODO:tr] Let the rage take you",
-        "feedback": "[TODO:tr] Genesis 4:7 — Cain did not master the sin crouching at his door."
+        "text": "[TODO:tr] 'Bring a lamb instead of grain'",
+        "feedback": "[TODO:tr] Genesis does not record the Lord telling Cain to bring a lamb."
       },
       {
-        "text": "[TODO:tr] Pretend you did not hear",
-        "feedback": "[TODO:tr] The warning fades. The hatred remains."
+        "text": "[TODO:tr] Nothing — the Lord is silent",
+        "feedback": "[TODO:tr] Genesis says the Lord did speak to Cain about sin at the door."
       }
     ]
   },
   "invitation": {
-    "title": "Benimle Tarlaya Gel",
-    "text": "Habil sana doğru yürüyor, güvenle.\nYüzü açık. Seninki değil.",
+    "title": "[TODO:tr] You Speak to Your Brother",
+    "text": "[TODO:tr] Abel walks near, trusting.\nWhat do you say?",
     "choices": [
       {
-        "text": "[TODO:tr] Tell him the truth of your heart",
-        "feedback": "[TODO:tr] Words are hard. But honesty is mercy."
+        "text": "[TODO:tr] Say to Abel, 'Let's go out to the field'",
+        "feedback": "[TODO:tr] Genesis 4:8 — Cain said to Abel, 'Let's go out to the field.'"
       },
       {
-        "text": "[TODO:tr] Lure him alone into the field",
-        "feedback": "[TODO:tr] Genesis 4:8 — Cain lured Abel out into the field."
+        "text": "[TODO:tr] Invite Abel to worship at the altar together",
+        "feedback": "[TODO:tr] Genesis says Cain led Abel out to the field, not to the altar."
+      },
+      {
+        "text": "[TODO:tr] Send Abel away and never speak to him again",
+        "feedback": "[TODO:tr] Genesis says Cain called Abel to the field, not that he sent him away."
       }
     ]
   },
   "field": {
-    "title": "Tarlada",
-    "text": "Tarla boş. Kimse görmeyecek.\nÖfke kabarıyor. Elinde bir taş var.",
+    "title": "[TODO:tr] In the Field",
+    "text": "[TODO:tr] You and Abel are alone in the open field.\nWhat do you do?",
     "choices": [
       {
-        "text": "[TODO:tr] Drop the stone — walk away",
-        "feedback": "[TODO:tr] It falls heavy at your feet. You breathe again."
+        "text": "[TODO:tr] Attack Abel your brother and kill him",
+        "feedback": "[TODO:tr] Genesis 4:8 — Cain attacked his brother Abel and killed him."
       },
       {
-        "text": "[TODO:tr] Strike him in your fury",
-        "feedback": "[TODO:tr] Genesis 4:8 — Cain rose up against Abel his brother and killed him."
+        "text": "[TODO:tr] Argue with Abel and then forgive him",
+        "feedback": "[TODO:tr] Genesis says Cain killed Abel; he did not forgive him."
       },
       {
-        "text": "[TODO:tr] Threaten him, then strike",
-        "feedback": "[TODO:tr] Your hand obeys the rage. The field receives him."
+        "text": "[TODO:tr] Walk home without touching him",
+        "feedback": "[TODO:tr] Genesis says Cain killed Abel in the field."
       }
     ]
   },
   "confrontation": {
-    "title": "\"Kardeşin Nerede?\"",
-    "text": "Rab'bin sesi seni bulur.\n\"Kardeşin Habil nerede?\"",
+    "title": "[TODO:tr] \"Where Is Your Brother?\"",
+    "text": "[TODO:tr] The Lord's voice finds you.\n\"Where is your brother Abel?\"",
     "choices": [
       {
-        "text": "[TODO:tr] Confess what your hands have done",
-        "feedback": "[TODO:tr] The truth crushes you. And begins to free you."
+        "text": "[TODO:tr] Answer: 'I do not know. Am I my brother's keeper?'",
+        "feedback": "[TODO:tr] Genesis 4:9 — Cain replied, 'I don't know. Am I my brother's keeper?'"
       },
       {
-        "text": "[TODO:tr] \"Am I my brother's keeper?\"",
-        "feedback": "[TODO:tr] Genesis 4:9 — Cain replied, 'Am I my brother's keeper?'"
+        "text": "[TODO:tr] Confess plainly: 'I have killed him'",
+        "feedback": "[TODO:tr] Genesis says Cain denied knowing; he did not confess plainly."
       },
       {
-        "text": "[TODO:tr] Stay silent and hide your eyes",
-        "feedback": "[TODO:tr] His blood cries out from the ground."
+        "text": "[TODO:tr] Stay silent before the Lord",
+        "feedback": "[TODO:tr] Genesis says Cain answered the Lord; he did not stay silent."
       }
     ]
   },
   "wanderer": {
-    "title": "Aden'in Doğusu, İşaretli",
-    "text": "Rab seni korumak için bir işaret koyar.\nEvinden çok uzaklara gitmelisin.",
+    "title": "[TODO:tr] A Restless Wanderer",
+    "text": "[TODO:tr] The Lord places a mark on you for your protection.\nYou go out to wander east of Eden, in the land of Nod.",
     "choices": []
   }
 }

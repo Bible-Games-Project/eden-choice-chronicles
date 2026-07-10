@@ -1,176 +1,188 @@
 {
-  "storyTitle": "Kain i Abel",
+  "storyTitle": "[TODO:pl] Cain and Abel",
   "start": {
-    "title": "Synowie Ziemi",
-    "text": "Jesteś Kainem, pierworodnym Adama.\nTwój brat Abel idzie obok ciebie o świcie.",
+    "title": "[TODO:pl] Sons of Adam",
+    "text": "[TODO:pl] You open your eyes as the firstborn of Adam and Eve.\nA second son, Abel, is born after you.",
     "choices": [
       {
-        "text": "[TODO:pl] Greet him with brotherly love",
-        "feedback": "[TODO:pl] Genesis 4:1-2 — Cain and Abel were the first two brothers, sons of Adam and Eve."
+        "text": "[TODO:pl] Live as the firstborn son of Adam and Eve",
+        "feedback": "[TODO:pl] Genesis 4:1-2 — Eve gave birth to Cain, and then to his brother Abel."
       },
       {
-        "text": "[TODO:pl] Compare yourself to him in silence",
-        "feedback": "[TODO:pl] A quiet bitterness takes root."
+        "text": "[TODO:pl] Be born before Adam and Eve",
+        "feedback": "[TODO:pl] Genesis says Adam and Eve came first; Cain was their son."
       },
       {
-        "text": "[TODO:pl] Walk ahead without him",
-        "feedback": "[TODO:pl] He calls your name. You do not turn."
+        "text": "[TODO:pl] Grow up as an only child",
+        "feedback": "[TODO:pl] Genesis says Cain had a brother, Abel."
       }
     ]
   },
   "fields": {
-    "title": "Rolnik",
-    "text": "Ziemia opiera się twojej motyce.\nPot. Kamienie. Długie godziny pracy.",
+    "title": "[TODO:pl] Your Work",
+    "text": "[TODO:pl] The years pass. Each brother finds his labor.\nWhat is yours?",
     "choices": [
       {
-        "text": "[TODO:pl] Work with patience and care",
-        "feedback": "[TODO:pl] Genesis 4:2 — Cain worked the soil while Abel kept flocks."
+        "text": "[TODO:pl] Work the ground as a tiller of the soil",
+        "feedback": "[TODO:pl] Genesis 4:2 — Cain worked the soil."
       },
       {
-        "text": "[TODO:pl] Curse the ground as you dig",
-        "feedback": "[TODO:pl] Each strike grows angrier than the last."
+        "text": "[TODO:pl] Keep flocks of sheep like Abel",
+        "feedback": "[TODO:pl] Genesis says Abel kept flocks; Cain worked the soil."
+      },
+      {
+        "text": "[TODO:pl] Refuse to work at all",
+        "feedback": "[TODO:pl] Genesis says Cain worked the ground."
       }
     ]
   },
   "abel_pasture": {
-    "title": "Stado Twojego Brata",
-    "text": "Abel odpoczywa wśród swoich owiec, zadowolony.\nNowonarodzone jagnię śpi na jego piersi.",
+    "title": "[TODO:pl] Your Brother's Work",
+    "text": "[TODO:pl] You see Abel across the field.\nWhat is he doing?",
     "choices": [
       {
-        "text": "[TODO:pl] Be glad for his gentle work",
-        "feedback": "[TODO:pl] Warmth rises where envy could have grown."
+        "text": "[TODO:pl] See Abel keeping flocks of sheep",
+        "feedback": "[TODO:pl] Genesis 4:2 — Abel kept flocks."
       },
       {
-        "text": "[TODO:pl] Resent that his work seems easy",
-        "feedback": "[TODO:pl] Genesis 4:5 — Cain grew envious and downcast when God favored Abel."
+        "text": "[TODO:pl] See Abel tilling the ground beside you",
+        "feedback": "[TODO:pl] Genesis says Abel kept flocks, not that he tilled the ground."
       },
       {
-        "text": "[TODO:pl] Mock him under your breath",
-        "feedback": "[TODO:pl] Your words stay quiet, but they sting your own soul."
+        "text": "[TODO:pl] See Abel fishing at the river",
+        "feedback": "[TODO:pl] Genesis does not describe Abel fishing."
       }
     ]
   },
   "offerings": {
-    "title": "Przed Ołtarzem",
-    "text": "Nadszedł czas, aby złożyć ofiarę Panu.\nCo dasz?",
+    "title": "[TODO:pl] Before the Altar",
+    "text": "[TODO:pl] The time comes to bring an offering to the Lord.\nWhat will you bring?",
     "choices": [
       {
-        "text": "[TODO:pl] Bring your very best firstfruits",
-        "feedback": "[TODO:pl] You choose the finest grain. Your heart is open."
+        "text": "[TODO:pl] Bring some of the fruits of the soil as an offering",
+        "feedback": "[TODO:pl] Genesis 4:3 — Cain brought some of the fruits of the soil as an offering to the Lord."
       },
       {
-        "text": "[TODO:pl] Bring whatever was left over",
-        "feedback": "[TODO:pl] Genesis 4:3 — Cain brought some of the fruits of the soil, not his very best."
+        "text": "[TODO:pl] Bring a firstborn lamb from your flock",
+        "feedback": "[TODO:pl] Genesis says Abel brought a lamb; Cain brought fruits of the soil."
       },
       {
-        "text": "[TODO:pl] Bring nothing — you earned it",
-        "feedback": "[TODO:pl] Empty hands. A harder, prouder heart."
+        "text": "[TODO:pl] Bring nothing at all",
+        "feedback": "[TODO:pl] Genesis says Cain did bring an offering, though not the best."
       }
     ]
   },
   "accepted": {
-    "title": "Łaska Pana",
-    "text": "Pan przyjmuje jagnię Abla z radością.\nTwojej ofiary — On nie zważa.",
+    "title": "[TODO:pl] The Lord's Regard",
+    "text": "[TODO:pl] You wait as the Lord looks upon the two offerings.\nWhat happens?",
     "choices": [
       {
-        "text": "[TODO:pl] Search yourself before God",
-        "feedback": "[TODO:pl] You ask why. The answer is already in you."
+        "text": "[TODO:pl] The Lord looks with favor on Abel and his offering, but not on yours",
+        "feedback": "[TODO:pl] Genesis 4:4-5 — The Lord looked with favor on Abel and his offering, but on Cain and his offering He did not look with favor."
       },
       {
-        "text": "[TODO:pl] Burn with rage against Abel",
-        "feedback": "[TODO:pl] Genesis 4:5 — Cain became very angry when his offering was not accepted."
+        "text": "[TODO:pl] The Lord favors both offerings equally",
+        "feedback": "[TODO:pl] Genesis says the Lord favored Abel's offering, not both."
       },
       {
-        "text": "[TODO:pl] Accuse God of unfairness",
-        "feedback": "[TODO:pl] Your fist rises. The sky does not answer."
+        "text": "[TODO:pl] The Lord accepts your offering and rejects Abel's",
+        "feedback": "[TODO:pl] Genesis says the opposite — the Lord favored Abel's offering."
       }
     ]
   },
   "anger": {
-    "title": "Dlaczego Jesteś Zły?",
-    "text": "Twoja twarz opada. Twoje ręce drżą.\nPan pyta: „Dlaczego jesteś zły?”",
+    "title": "[TODO:pl] Your Face Falls",
+    "text": "[TODO:pl] The offering is over. Something rises in you.\nHow do you respond?",
     "choices": [
       {
-        "text": "[TODO:pl] Lay your anger down before Him",
-        "feedback": "[TODO:pl] The fire begins to cool. Honesty opens a path."
+        "text": "[TODO:pl] Become very angry, your face downcast",
+        "feedback": "[TODO:pl] Genesis 4:5 — Cain was very angry, and his face was downcast."
       },
       {
-        "text": "[TODO:pl] Refuse to answer — turn away",
-        "feedback": "[TODO:pl] Genesis 4:5-6 — Cain turned his face away and refused to answer God."
+        "text": "[TODO:pl] Rejoice with Abel over his accepted offering",
+        "feedback": "[TODO:pl] Genesis says Cain became angry, not that he rejoiced."
+      },
+      {
+        "text": "[TODO:pl] Bring a better offering the very next day",
+        "feedback": "[TODO:pl] Genesis does not describe Cain bringing a second offering."
       }
     ]
   },
   "warning": {
-    "title": "Grzech Czyha u Drzwi",
-    "text": "„Grzech czyha u twoich drzwi.\nJego pożądanie jest ku tobie — ale ty musisz nad nim panować.”",
+    "title": "[TODO:pl] Sin Crouching at the Door",
+    "text": "[TODO:pl] The Lord speaks to you.\nWhat does He say?",
     "choices": [
       {
-        "text": "[TODO:pl] Commit to master your anger",
-        "feedback": "[TODO:pl] You exhale. You will choose differently."
+        "text": "[TODO:pl] 'Sin is crouching at your door — but you must rule over it'",
+        "feedback": "[TODO:pl] Genesis 4:6-7 — The Lord warned Cain that sin was crouching at his door and he must rule over it."
       },
       {
-        "text": "[TODO:pl] Let the rage take you",
-        "feedback": "[TODO:pl] Genesis 4:7 — Cain did not master the sin crouching at his door."
+        "text": "[TODO:pl] 'Bring a lamb instead of grain'",
+        "feedback": "[TODO:pl] Genesis does not record the Lord telling Cain to bring a lamb."
       },
       {
-        "text": "[TODO:pl] Pretend you did not hear",
-        "feedback": "[TODO:pl] The warning fades. The hatred remains."
+        "text": "[TODO:pl] Nothing — the Lord is silent",
+        "feedback": "[TODO:pl] Genesis says the Lord did speak to Cain about sin at the door."
       }
     ]
   },
   "invitation": {
-    "title": "Chodź Ze Mną na Pole",
-    "text": "Abel idzie w twoją stronę, ufny.\nJego twarz jest otwarta. Twoja nie.",
+    "title": "[TODO:pl] You Speak to Your Brother",
+    "text": "[TODO:pl] Abel walks near, trusting.\nWhat do you say?",
     "choices": [
       {
-        "text": "[TODO:pl] Tell him the truth of your heart",
-        "feedback": "[TODO:pl] Words are hard. But honesty is mercy."
+        "text": "[TODO:pl] Say to Abel, 'Let's go out to the field'",
+        "feedback": "[TODO:pl] Genesis 4:8 — Cain said to Abel, 'Let's go out to the field.'"
       },
       {
-        "text": "[TODO:pl] Lure him alone into the field",
-        "feedback": "[TODO:pl] Genesis 4:8 — Cain lured Abel out into the field."
+        "text": "[TODO:pl] Invite Abel to worship at the altar together",
+        "feedback": "[TODO:pl] Genesis says Cain led Abel out to the field, not to the altar."
+      },
+      {
+        "text": "[TODO:pl] Send Abel away and never speak to him again",
+        "feedback": "[TODO:pl] Genesis says Cain called Abel to the field, not that he sent him away."
       }
     ]
   },
   "field": {
-    "title": "Na polu",
-    "text": "Pole jest puste. Nikt nie zobaczy.\nGniew narasta. Kamień jest w twojej dłoni.",
+    "title": "[TODO:pl] In the Field",
+    "text": "[TODO:pl] You and Abel are alone in the open field.\nWhat do you do?",
     "choices": [
       {
-        "text": "[TODO:pl] Drop the stone — walk away",
-        "feedback": "[TODO:pl] It falls heavy at your feet. You breathe again."
+        "text": "[TODO:pl] Attack Abel your brother and kill him",
+        "feedback": "[TODO:pl] Genesis 4:8 — Cain attacked his brother Abel and killed him."
       },
       {
-        "text": "[TODO:pl] Strike him in your fury",
-        "feedback": "[TODO:pl] Genesis 4:8 — Cain rose up against Abel his brother and killed him."
+        "text": "[TODO:pl] Argue with Abel and then forgive him",
+        "feedback": "[TODO:pl] Genesis says Cain killed Abel; he did not forgive him."
       },
       {
-        "text": "[TODO:pl] Threaten him, then strike",
-        "feedback": "[TODO:pl] Your hand obeys the rage. The field receives him."
+        "text": "[TODO:pl] Walk home without touching him",
+        "feedback": "[TODO:pl] Genesis says Cain killed Abel in the field."
       }
     ]
   },
   "confrontation": {
-    "title": "„Gdzie jest twój brat?”",
-    "text": "Głos Pana cię odnajduje.\n„Gdzie jest twój brat Abel?”",
+    "title": "[TODO:pl] \"Where Is Your Brother?\"",
+    "text": "[TODO:pl] The Lord's voice finds you.\n\"Where is your brother Abel?\"",
     "choices": [
       {
-        "text": "[TODO:pl] Confess what your hands have done",
-        "feedback": "[TODO:pl] The truth crushes you. And begins to free you."
+        "text": "[TODO:pl] Answer: 'I do not know. Am I my brother's keeper?'",
+        "feedback": "[TODO:pl] Genesis 4:9 — Cain replied, 'I don't know. Am I my brother's keeper?'"
       },
       {
-        "text": "[TODO:pl] \"Am I my brother's keeper?\"",
-        "feedback": "[TODO:pl] Genesis 4:9 — Cain replied, 'Am I my brother's keeper?'"
+        "text": "[TODO:pl] Confess plainly: 'I have killed him'",
+        "feedback": "[TODO:pl] Genesis says Cain denied knowing; he did not confess plainly."
       },
       {
-        "text": "[TODO:pl] Stay silent and hide your eyes",
-        "feedback": "[TODO:pl] His blood cries out from the ground."
+        "text": "[TODO:pl] Stay silent before the Lord",
+        "feedback": "[TODO:pl] Genesis says Cain answered the Lord; he did not stay silent."
       }
     ]
   },
   "wanderer": {
-    "title": "Na wschód od Edenu, naznaczony",
-    "text": "Pan kładzie znak, aby cię chronić.\nMusisz wędrować daleko od domu.",
+    "title": "[TODO:pl] A Restless Wanderer",
+    "text": "[TODO:pl] The Lord places a mark on you for your protection.\nYou go out to wander east of Eden, in the land of Nod.",
     "choices": []
   }
 }

@@ -1,160 +1,188 @@
 {
-  "storyTitle": "노아와 홍수",
+  "storyTitle": "[TODO:ko] Noah and the Flood",
   "start": {
-    "title": "위로부터 들려오는 음성",
-    "text": "하늘을 가득 채우는 음성.\n“노아야 — 방주를 만들어라. 홍수가 올 것이다.”",
+    "title": "[TODO:ko] The Voice from Above",
+    "text": "[TODO:ko] God speaks to you.\n\"Make yourself an ark. A flood is coming.\"",
     "choices": [
       {
-        "text": "[TODO:ko] Doubt — this cannot be true",
-        "feedback": "[TODO:ko] The voice fades. But the weight in your chest remains."
+        "text": "[TODO:ko] Receive God's command to build an ark of cypress wood",
+        "feedback": "[TODO:ko] Genesis 6:14, 22 — God told Noah to make an ark of cypress wood, and Noah did everything just as God commanded."
       },
       {
-        "text": "[TODO:ko] \"Here I am. I will obey.\"",
-        "feedback": "[TODO:ko] Genesis 6:22 — Noah did everything just as God commanded him."
+        "text": "[TODO:ko] Refuse the command and flee the land",
+        "feedback": "[TODO:ko] Genesis says Noah obeyed God; he did not flee."
       },
       {
-        "text": "[TODO:ko] Ask why you were chosen",
-        "feedback": "[TODO:ko] No answer comes. Only the command remains."
+        "text": "[TODO:ko] Buy an existing ship from a merchant",
+        "feedback": "[TODO:ko] Genesis says Noah built the ark himself, as God instructed."
       }
     ]
   },
   "mockery": {
-    "title": "군중의 목소리",
-    "text": "마을 사람들이 모여 비웃습니다.\n“배라고? 여기에? 당신은 미쳤어, 늙은이.”",
+    "title": "[TODO:ko] A Watching World",
+    "text": "[TODO:ko] The world around you is corrupt and violent.\nThey watch you build. How do you respond?",
     "choices": [
       {
-        "text": "[TODO:ko] Shout back in anger",
-        "feedback": "[TODO:ko] Your words only feed their mockery."
+        "text": "[TODO:ko] Keep building the ark by faith",
+        "feedback": "[TODO:ko] Hebrews 11:7 — By faith Noah built the ark in reverent fear, though warned of things not yet seen."
       },
       {
-        "text": "[TODO:ko] Stay silent and keep working",
-        "feedback": "[TODO:ko] Hebrews 11:7 — By faith Noah kept building the ark, despite the world's mockery."
+        "text": "[TODO:ko] Abandon the ark to please the crowd",
+        "feedback": "[TODO:ko] Scripture says Noah kept building by faith."
       },
       {
-        "text": "[TODO:ko] Beg them to believe",
-        "feedback": "[TODO:ko] They turn their backs. You are alone in faith."
+        "text": "[TODO:ko] Attack the mockers to silence them",
+        "feedback": "[TODO:ko] Scripture does not describe Noah attacking anyone."
       }
     ]
   },
   "building": {
-    "title": "잣나무와 역청",
-    "text": "수년간의 땀. 나무가 갈라지고. 역청이 봉합니다.\n등은 아프지만, 방주는 솟아오릅니다.",
+    "title": "[TODO:ko] Cypress and Pitch",
+    "text": "[TODO:ko] You gather the materials God commanded.\nHow do you build the ark?",
     "choices": [
       {
-        "text": "[TODO:ko] Rest a while, the work is endless",
-        "feedback": "[TODO:ko] Doubt creeps in with the silence."
+        "text": "[TODO:ko] Build it of cypress wood, coated with pitch inside and out",
+        "feedback": "[TODO:ko] Genesis 6:14 — Make yourself an ark of cypress wood; coat it with pitch inside and out."
       },
       {
-        "text": "[TODO:ko] Press on — God commanded it",
-        "feedback": "[TODO:ko] Genesis 6:14-16 — Noah built the ark of cypress wood exactly as God instructed."
+        "text": "[TODO:ko] Build it from cut stone",
+        "feedback": "[TODO:ko] Genesis says the ark was built of cypress wood, not stone."
+      },
+      {
+        "text": "[TODO:ko] Weave it from reeds like a basket",
+        "feedback": "[TODO:ko] Genesis says the ark was made of cypress wood, sealed with pitch."
       }
     ]
   },
   "ark_done": {
-    "title": "완성되다",
-    "text": "방주가 당신 위로 우뚝 솟아 있습니다.\n당신의 가족이 나무 앞에서 침묵하며 모여 있습니다.",
+    "title": "[TODO:ko] It Stands Finished",
+    "text": "[TODO:ko] The ark is complete, exactly as God commanded.\nWhat does it look like?",
     "choices": [
       {
-        "text": "[TODO:ko] Boast to the watching crowd",
-        "feedback": "[TODO:ko] Pride poisons the work. You catch yourself."
+        "text": "[TODO:ko] 300 cubits long, 50 wide, 30 high, with three decks",
+        "feedback": "[TODO:ko] Genesis 6:15-16 — The ark was 300 cubits long, 50 wide, 30 high, with three decks."
       },
       {
-        "text": "[TODO:ko] Thank God for the strength given",
-        "feedback": "[TODO:ko] Genesis 6:9 — Noah walked with God and gave Him thanks for every step."
+        "text": "[TODO:ko] A small round boat with one deck",
+        "feedback": "[TODO:ko] Genesis gives specific dimensions; the ark was not a small round boat."
+      },
+      {
+        "text": "[TODO:ko] A raft, flat and open to the sky",
+        "feedback": "[TODO:ko] Genesis says the ark had a roof, three decks, and a door in its side."
       }
     ]
   },
   "animals": {
-    "title": "둘씩 둘씩",
-    "text": "모든 땅에서 피조물들이 옵니다.\n어린 양 옆에 사자들. 당신 발치에 독수리들.",
+    "title": "[TODO:ko] The Creatures Come",
+    "text": "[TODO:ko] The animals arrive at the ark.\nWho do you take on board?",
     "choices": [
       {
-        "text": "[TODO:ko] Drive the dangerous ones away",
-        "feedback": "[TODO:ko] Fear blinds you. God sent every one."
+        "text": "[TODO:ko] Take pairs of every kind of animal, male and female",
+        "feedback": "[TODO:ko] Genesis 7:8-9 — Pairs of clean and unclean animals, birds and creeping things came to Noah, male and female."
       },
       {
-        "text": "[TODO:ko] Welcome each pair gently",
-        "feedback": "[TODO:ko] Genesis 7:8-9 — The animals came to Noah two by two, and he received them."
+        "text": "[TODO:ko] Take only sheep and goats",
+        "feedback": "[TODO:ko] Genesis says every kind of animal came, not only sheep and goats."
+      },
+      {
+        "text": "[TODO:ko] Take no animals — only your family",
+        "feedback": "[TODO:ko] Genesis says the animals came into the ark with Noah."
       }
     ]
   },
   "boarding": {
-    "title": "문이 닫히다",
-    "text": "당신의 가족이 안에 있습니다. 동물들이 자리를 잡습니다.\n하나님께서 친히 문을 닫으십니다.",
+    "title": "[TODO:ko] The Door Shut",
+    "text": "[TODO:ko] It is time to enter the ark.\nWho enters, and who closes the door?",
     "choices": [
       {
-        "text": "[TODO:ko] Run back out to warn them again",
-        "feedback": "[TODO:ko] The door is sealed. The choice has been made."
+        "text": "[TODO:ko] Enter with your wife, three sons, and their wives; the Lord shuts the door",
+        "feedback": "[TODO:ko] Genesis 7:13, 16 — Noah, his wife, his three sons and their wives entered the ark, and the Lord shut him in."
       },
       {
-        "text": "[TODO:ko] Hold your wife's hand and wait",
-        "feedback": "[TODO:ko] Genesis 7:16 — The Lord Himself shut the door of the ark behind Noah."
+        "text": "[TODO:ko] Enter the ark alone, leaving your family behind",
+        "feedback": "[TODO:ko] Genesis says Noah's whole household entered the ark with him."
+      },
+      {
+        "text": "[TODO:ko] Stay outside and close the door from without",
+        "feedback": "[TODO:ko] Genesis says the Lord Himself shut Noah inside the ark."
       }
     ]
   },
   "storm": {
-    "title": "하늘이 열리다",
-    "text": "이전에 본 적 없는 비가 쏟아집니다.\n깊은 곳이 터져 나옵니다. 세상이 물에 잠깁니다.",
+    "title": "[TODO:ko] Forty Days of Rain",
+    "text": "[TODO:ko] The windows of heaven open.\nWhat happens?",
     "choices": [
       {
-        "text": "[TODO:ko] Curse the sky in horror",
-        "feedback": "[TODO:ko] The sound swallows your cry."
+        "text": "[TODO:ko] Rain falls on the earth for forty days and forty nights",
+        "feedback": "[TODO:ko] Genesis 7:12 — Rain fell on the earth forty days and forty nights."
       },
       {
-        "text": "[TODO:ko] Trust that God is just and merciful",
-        "feedback": "[TODO:ko] Genesis 7:23 — Noah trusted God as the flood covered the earth."
+        "text": "[TODO:ko] A single storm passes in one day",
+        "feedback": "[TODO:ko] Genesis says the rain fell for forty days and nights."
       },
       {
-        "text": "[TODO:ko] Try to pull strangers from the water",
-        "feedback": "[TODO:ko] The door is sealed. There is nothing to be done."
+        "text": "[TODO:ko] Only a light drizzle falls",
+        "feedback": "[TODO:ko] Genesis describes the fountains of the deep bursting and the windows of heaven opening."
       }
     ]
   },
   "inside": {
-    "title": "사십 일",
-    "text": "방주가 흔들립니다. 동물들이 숨을 쉽니다.\n날들이 흐릿해집니다. 오직 나무의 삐걱거리는 소리만 남습니다.",
+    "title": "[TODO:ko] Upon the Waters",
+    "text": "[TODO:ko] The ark floats on the deep.\nHow long do the waters prevail on the earth?",
     "choices": [
       {
-        "text": "[TODO:ko] Tend the creatures with care",
-        "feedback": "[TODO:ko] Genesis 7:24 — Noah cared for his family and the animals through 150 days on the waters."
+        "text": "[TODO:ko] The waters flood the earth for a hundred and fifty days",
+        "feedback": "[TODO:ko] Genesis 7:24 — The waters flooded the earth for a hundred and fifty days."
       },
       {
-        "text": "[TODO:ko] Sit alone and let despair grow",
-        "feedback": "[TODO:ko] The silence presses on you. Faith dims."
+        "text": "[TODO:ko] The waters recede in three days",
+        "feedback": "[TODO:ko] Genesis says the waters prevailed 150 days before receding."
+      },
+      {
+        "text": "[TODO:ko] You steer the ark back toward Eden",
+        "feedback": "[TODO:ko] Genesis does not describe Noah steering the ark; God kept it afloat."
       }
     ]
   },
   "dove": {
-    "title": "비둘기가 돌아오다",
-    "text": "당신은 비둘기를 날려 보냅니다. 몇 시간이 흐릅니다.\n비둘기가 돌아옵니다 — 부리에 올리브 잎을 물고.",
+    "title": "[TODO:ko] The Dove Returns",
+    "text": "[TODO:ko] The waters begin to recede.\nHow do you know dry land is near?",
     "choices": [
       {
-        "text": "[TODO:ko] Doubt — perhaps a stray branch",
-        "feedback": "[TODO:ko] Even now, doubt fights to hold you."
+        "text": "[TODO:ko] Send out a dove; it returns with a fresh olive leaf",
+        "feedback": "[TODO:ko] Genesis 8:11 — The dove returned to Noah in the evening with a freshly plucked olive leaf."
       },
       {
-        "text": "[TODO:ko] Weep — life still grows",
-        "feedback": "[TODO:ko] Genesis 8:11 — The dove returned with an olive leaf — a sign of new life."
+        "text": "[TODO:ko] Send out a raven that returns with grain",
+        "feedback": "[TODO:ko] Genesis says the dove — not the raven — brought back an olive leaf."
+      },
+      {
+        "text": "[TODO:ko] Open the roof and look with your own eyes only",
+        "feedback": "[TODO:ko] Genesis says Noah sent out birds to test whether the waters had gone down."
       }
     ]
   },
   "dry_land": {
-    "title": "발밑의 땅",
-    "text": "문이 열립니다. 햇살이 쏟아져 들어옵니다.\n당신은 따뜻하고 살아있는 진흙 위로 발을 내딛습니다.",
+    "title": "[TODO:ko] Earth Beneath Your Feet",
+    "text": "[TODO:ko] The Lord tells you to come out of the ark.\nWhat do you do first on dry land?",
     "choices": [
       {
-        "text": "[TODO:ko] Rush to claim the new land",
-        "feedback": "[TODO:ko] The land was never yours to claim."
+        "text": "[TODO:ko] Build an altar to the Lord and offer sacrifices",
+        "feedback": "[TODO:ko] Genesis 8:20 — Noah built an altar to the Lord and offered burnt offerings on it."
       },
       {
-        "text": "[TODO:ko] Kneel and build an altar to God",
-        "feedback": "[TODO:ko] Genesis 8:20 — Noah's first act on dry land was to build an altar to the Lord."
+        "text": "[TODO:ko] Begin building a great tower right away",
+        "feedback": "[TODO:ko] Genesis says Noah's first act was to build an altar, not a tower."
+      },
+      {
+        "text": "[TODO:ko] Refuse to leave the ark",
+        "feedback": "[TODO:ko] Genesis says Noah came out of the ark when God told him to."
       }
     ]
   },
   "covenant": {
-    "title": "무지개",
-    "text": "하늘에 무지개가 걸립니다.\n“다시는 그러지 않으리라. 이것은 너희와 맺은 나의 언약이다.”",
+    "title": "[TODO:ko] The Rainbow",
+    "text": "[TODO:ko] A rainbow arches across the sky.\n\"Never again will I flood the earth. This is my covenant with you.\"",
     "choices": []
   }
 }

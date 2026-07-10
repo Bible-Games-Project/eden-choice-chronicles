@@ -1,160 +1,188 @@
 {
-  "storyTitle": "ノアと大洪水",
+  "storyTitle": "[TODO:ja] Noah and the Flood",
   "start": {
-    "title": "天からの声",
-    "text": "声が空に響き渡る。\n「ノアよ、箱舟を造りなさい。洪水が来る。」",
+    "title": "[TODO:ja] The Voice from Above",
+    "text": "[TODO:ja] God speaks to you.\n\"Make yourself an ark. A flood is coming.\"",
     "choices": [
       {
-        "text": "[TODO:ja] Doubt — this cannot be true",
-        "feedback": "[TODO:ja] The voice fades. But the weight in your chest remains."
+        "text": "[TODO:ja] Receive God's command to build an ark of cypress wood",
+        "feedback": "[TODO:ja] Genesis 6:14, 22 — God told Noah to make an ark of cypress wood, and Noah did everything just as God commanded."
       },
       {
-        "text": "[TODO:ja] \"Here I am. I will obey.\"",
-        "feedback": "[TODO:ja] Genesis 6:22 — Noah did everything just as God commanded him."
+        "text": "[TODO:ja] Refuse the command and flee the land",
+        "feedback": "[TODO:ja] Genesis says Noah obeyed God; he did not flee."
       },
       {
-        "text": "[TODO:ja] Ask why you were chosen",
-        "feedback": "[TODO:ja] No answer comes. Only the command remains."
+        "text": "[TODO:ja] Buy an existing ship from a merchant",
+        "feedback": "[TODO:ja] Genesis says Noah built the ark himself, as God instructed."
       }
     ]
   },
   "mockery": {
-    "title": "群衆の声",
-    "text": "村人たちが集まり、笑う。\n「舟だと？ここに？お前は狂っている、老人め。」",
+    "title": "[TODO:ja] A Watching World",
+    "text": "[TODO:ja] The world around you is corrupt and violent.\nThey watch you build. How do you respond?",
     "choices": [
       {
-        "text": "[TODO:ja] Shout back in anger",
-        "feedback": "[TODO:ja] Your words only feed their mockery."
+        "text": "[TODO:ja] Keep building the ark by faith",
+        "feedback": "[TODO:ja] Hebrews 11:7 — By faith Noah built the ark in reverent fear, though warned of things not yet seen."
       },
       {
-        "text": "[TODO:ja] Stay silent and keep working",
-        "feedback": "[TODO:ja] Hebrews 11:7 — By faith Noah kept building the ark, despite the world's mockery."
+        "text": "[TODO:ja] Abandon the ark to please the crowd",
+        "feedback": "[TODO:ja] Scripture says Noah kept building by faith."
       },
       {
-        "text": "[TODO:ja] Beg them to believe",
-        "feedback": "[TODO:ja] They turn their backs. You are alone in faith."
+        "text": "[TODO:ja] Attack the mockers to silence them",
+        "feedback": "[TODO:ja] Scripture does not describe Noah attacking anyone."
       }
     ]
   },
   "building": {
-    "title": "ゴフェルの木とアスファルト",
-    "text": "何年もの汗。木が割れる。アスファルトが隙間を塞ぐ。\n背中が痛むが、箱舟はそびえ立つ。",
+    "title": "[TODO:ja] Cypress and Pitch",
+    "text": "[TODO:ja] You gather the materials God commanded.\nHow do you build the ark?",
     "choices": [
       {
-        "text": "[TODO:ja] Rest a while, the work is endless",
-        "feedback": "[TODO:ja] Doubt creeps in with the silence."
+        "text": "[TODO:ja] Build it of cypress wood, coated with pitch inside and out",
+        "feedback": "[TODO:ja] Genesis 6:14 — Make yourself an ark of cypress wood; coat it with pitch inside and out."
       },
       {
-        "text": "[TODO:ja] Press on — God commanded it",
-        "feedback": "[TODO:ja] Genesis 6:14-16 — Noah built the ark of cypress wood exactly as God instructed."
+        "text": "[TODO:ja] Build it from cut stone",
+        "feedback": "[TODO:ja] Genesis says the ark was built of cypress wood, not stone."
+      },
+      {
+        "text": "[TODO:ja] Weave it from reeds like a basket",
+        "feedback": "[TODO:ja] Genesis says the ark was made of cypress wood, sealed with pitch."
       }
     ]
   },
   "ark_done": {
-    "title": "完成",
-    "text": "箱舟があなたの前にそびえ立つ。\n家族が集まり、木の前に静かに立つ。",
+    "title": "[TODO:ja] It Stands Finished",
+    "text": "[TODO:ja] The ark is complete, exactly as God commanded.\nWhat does it look like?",
     "choices": [
       {
-        "text": "[TODO:ja] Boast to the watching crowd",
-        "feedback": "[TODO:ja] Pride poisons the work. You catch yourself."
+        "text": "[TODO:ja] 300 cubits long, 50 wide, 30 high, with three decks",
+        "feedback": "[TODO:ja] Genesis 6:15-16 — The ark was 300 cubits long, 50 wide, 30 high, with three decks."
       },
       {
-        "text": "[TODO:ja] Thank God for the strength given",
-        "feedback": "[TODO:ja] Genesis 6:9 — Noah walked with God and gave Him thanks for every step."
+        "text": "[TODO:ja] A small round boat with one deck",
+        "feedback": "[TODO:ja] Genesis gives specific dimensions; the ark was not a small round boat."
+      },
+      {
+        "text": "[TODO:ja] A raft, flat and open to the sky",
+        "feedback": "[TODO:ja] Genesis says the ark had a roof, three decks, and a door in its side."
       }
     ]
   },
   "animals": {
-    "title": "二つずつ",
-    "text": "あらゆる地から生き物がやって来る。\n子羊の隣にライオン。あなたの足元にワシ。",
+    "title": "[TODO:ja] The Creatures Come",
+    "text": "[TODO:ja] The animals arrive at the ark.\nWho do you take on board?",
     "choices": [
       {
-        "text": "[TODO:ja] Drive the dangerous ones away",
-        "feedback": "[TODO:ja] Fear blinds you. God sent every one."
+        "text": "[TODO:ja] Take pairs of every kind of animal, male and female",
+        "feedback": "[TODO:ja] Genesis 7:8-9 — Pairs of clean and unclean animals, birds and creeping things came to Noah, male and female."
       },
       {
-        "text": "[TODO:ja] Welcome each pair gently",
-        "feedback": "[TODO:ja] Genesis 7:8-9 — The animals came to Noah two by two, and he received them."
+        "text": "[TODO:ja] Take only sheep and goats",
+        "feedback": "[TODO:ja] Genesis says every kind of animal came, not only sheep and goats."
+      },
+      {
+        "text": "[TODO:ja] Take no animals — only your family",
+        "feedback": "[TODO:ja] Genesis says the animals came into the ark with Noah."
       }
     ]
   },
   "boarding": {
-    "title": "扉が閉まる",
-    "text": "家族は中にいる。動物たちは落ち着く。\n神ご自身が扉を閉められる。",
+    "title": "[TODO:ja] The Door Shut",
+    "text": "[TODO:ja] It is time to enter the ark.\nWho enters, and who closes the door?",
     "choices": [
       {
-        "text": "[TODO:ja] Run back out to warn them again",
-        "feedback": "[TODO:ja] The door is sealed. The choice has been made."
+        "text": "[TODO:ja] Enter with your wife, three sons, and their wives; the Lord shuts the door",
+        "feedback": "[TODO:ja] Genesis 7:13, 16 — Noah, his wife, his three sons and their wives entered the ark, and the Lord shut him in."
       },
       {
-        "text": "[TODO:ja] Hold your wife's hand and wait",
-        "feedback": "[TODO:ja] Genesis 7:16 — The Lord Himself shut the door of the ark behind Noah."
+        "text": "[TODO:ja] Enter the ark alone, leaving your family behind",
+        "feedback": "[TODO:ja] Genesis says Noah's whole household entered the ark with him."
+      },
+      {
+        "text": "[TODO:ja] Stay outside and close the door from without",
+        "feedback": "[TODO:ja] Genesis says the Lord Himself shut Noah inside the ark."
       }
     ]
   },
   "storm": {
-    "title": "天が開く",
-    "text": "これまでに見たことのないような雨が降り注ぐ。\n深淵が裂け、世界は水没する。",
+    "title": "[TODO:ja] Forty Days of Rain",
+    "text": "[TODO:ja] The windows of heaven open.\nWhat happens?",
     "choices": [
       {
-        "text": "[TODO:ja] Curse the sky in horror",
-        "feedback": "[TODO:ja] The sound swallows your cry."
+        "text": "[TODO:ja] Rain falls on the earth for forty days and forty nights",
+        "feedback": "[TODO:ja] Genesis 7:12 — Rain fell on the earth forty days and forty nights."
       },
       {
-        "text": "[TODO:ja] Trust that God is just and merciful",
-        "feedback": "[TODO:ja] Genesis 7:23 — Noah trusted God as the flood covered the earth."
+        "text": "[TODO:ja] A single storm passes in one day",
+        "feedback": "[TODO:ja] Genesis says the rain fell for forty days and nights."
       },
       {
-        "text": "[TODO:ja] Try to pull strangers from the water",
-        "feedback": "[TODO:ja] The door is sealed. There is nothing to be done."
+        "text": "[TODO:ja] Only a light drizzle falls",
+        "feedback": "[TODO:ja] Genesis describes the fountains of the deep bursting and the windows of heaven opening."
       }
     ]
   },
   "inside": {
-    "title": "四十日間",
-    "text": "箱舟は揺れる。動物たちは息をする。\n日々はぼやける。残るのは木のきしみだけ。",
+    "title": "[TODO:ja] Upon the Waters",
+    "text": "[TODO:ja] The ark floats on the deep.\nHow long do the waters prevail on the earth?",
     "choices": [
       {
-        "text": "[TODO:ja] Tend the creatures with care",
-        "feedback": "[TODO:ja] Genesis 7:24 — Noah cared for his family and the animals through 150 days on the waters."
+        "text": "[TODO:ja] The waters flood the earth for a hundred and fifty days",
+        "feedback": "[TODO:ja] Genesis 7:24 — The waters flooded the earth for a hundred and fifty days."
       },
       {
-        "text": "[TODO:ja] Sit alone and let despair grow",
-        "feedback": "[TODO:ja] The silence presses on you. Faith dims."
+        "text": "[TODO:ja] The waters recede in three days",
+        "feedback": "[TODO:ja] Genesis says the waters prevailed 150 days before receding."
+      },
+      {
+        "text": "[TODO:ja] You steer the ark back toward Eden",
+        "feedback": "[TODO:ja] Genesis does not describe Noah steering the ark; God kept it afloat."
       }
     ]
   },
   "dove": {
-    "title": "鳩が戻る",
-    "text": "あなたは鳩を放つ。数時間が過ぎる。\n鳩は戻ってくる。そのくちばしにはオリーブの葉。",
+    "title": "[TODO:ja] The Dove Returns",
+    "text": "[TODO:ja] The waters begin to recede.\nHow do you know dry land is near?",
     "choices": [
       {
-        "text": "[TODO:ja] Doubt — perhaps a stray branch",
-        "feedback": "[TODO:ja] Even now, doubt fights to hold you."
+        "text": "[TODO:ja] Send out a dove; it returns with a fresh olive leaf",
+        "feedback": "[TODO:ja] Genesis 8:11 — The dove returned to Noah in the evening with a freshly plucked olive leaf."
       },
       {
-        "text": "[TODO:ja] Weep — life still grows",
-        "feedback": "[TODO:ja] Genesis 8:11 — The dove returned with an olive leaf — a sign of new life."
+        "text": "[TODO:ja] Send out a raven that returns with grain",
+        "feedback": "[TODO:ja] Genesis says the dove — not the raven — brought back an olive leaf."
+      },
+      {
+        "text": "[TODO:ja] Open the roof and look with your own eyes only",
+        "feedback": "[TODO:ja] Genesis says Noah sent out birds to test whether the waters had gone down."
       }
     ]
   },
   "dry_land": {
-    "title": "足元の土",
-    "text": "扉が開く。太陽の光が差し込む。\nあなたは暖かく、生きている泥の上に足を踏み出す。",
+    "title": "[TODO:ja] Earth Beneath Your Feet",
+    "text": "[TODO:ja] The Lord tells you to come out of the ark.\nWhat do you do first on dry land?",
     "choices": [
       {
-        "text": "[TODO:ja] Rush to claim the new land",
-        "feedback": "[TODO:ja] The land was never yours to claim."
+        "text": "[TODO:ja] Build an altar to the Lord and offer sacrifices",
+        "feedback": "[TODO:ja] Genesis 8:20 — Noah built an altar to the Lord and offered burnt offerings on it."
       },
       {
-        "text": "[TODO:ja] Kneel and build an altar to God",
-        "feedback": "[TODO:ja] Genesis 8:20 — Noah's first act on dry land was to build an altar to the Lord."
+        "text": "[TODO:ja] Begin building a great tower right away",
+        "feedback": "[TODO:ja] Genesis says Noah's first act was to build an altar, not a tower."
+      },
+      {
+        "text": "[TODO:ja] Refuse to leave the ark",
+        "feedback": "[TODO:ja] Genesis says Noah came out of the ark when God told him to."
       }
     ]
   },
   "covenant": {
-    "title": "虹",
-    "text": "虹が空に架かる。\n「二度とない。これはあなたとの契約である。」",
+    "title": "[TODO:ja] The Rainbow",
+    "text": "[TODO:ja] A rainbow arches across the sky.\n\"Never again will I flood the earth. This is my covenant with you.\"",
     "choices": []
   }
 }
