@@ -1,158 +1,188 @@
 {
   "storyTitle": "Abraham y Lot",
   "start": {
-    "title": "Muy Rico",
+    "title": "Muy rico",
     "text": "Vuelves de Egipto al Neguev, y luego a las colinas entre Betel y Hai.\n¿Cuán rico eres ahora?",
     "choices": [
       {
-        "text": "Muy rico, en ganado, plata y oro"
+        "text": "Muy rico —en ganado, plata y oro",
+        "feedback": "Génesis 13:2 — Abram se había hecho muy rico en ganado, en plata y en oro."
       },
       {
-        "text": "Pobre y con las manos vacías por el viaje"
+        "text": "Pobre y con las manos vacías por el viaje",
+        "feedback": "Génesis dice que Abram salió de Egipto muy rico."
       },
       {
-        "text": "Igual que antes, sin cambios"
+        "text": "Lo mismo que antes, sin cambios",
+        "feedback": "Génesis dice que Abram se había hecho muy rico."
       }
     ]
   },
   "tension": {
-    "title": "La Tierra No Puede Sosteneros",
+    "title": "La tierra no puede sosteneros",
     "text": "Tanto tú como tu sobrino Lot tenéis rebaños, manadas y tiendas.\n¿Cuál es el problema?",
     "choices": [
       {
-        "text": "La tierra no puede sosteneros a ambos juntos, porque vuestras posesiones son demasiado grandes"
+        "text": "La tierra no puede sosteneros a ambos juntos, porque vuestras posesiones son demasiado grandes",
+        "feedback": "Génesis 13:6 — Y la tierra no podía sostenerlos mientras permanecían juntos, porque sus posesiones eran tan grandes."
       },
       {
-        "text": "Tienes muy poco ganado para alimentar a nadie"
+        "text": "Tienes muy poco ganado para alimentar a nadie",
+        "feedback": "El problema era demasiado ganado para la tierra, no demasiado poco."
       },
       {
-        "text": "Un gran enemigo está atacando ambos campamentos"
+        "text": "Un gran enemigo está atacando ambos campamentos",
+        "feedback": "Génesis dice que la tensión era por el hacinamiento de los rebaños, no por la guerra."
       }
     ]
   },
   "quarrel": {
-    "title": "Disputa Entre los Pastores",
+    "title": "Disputa entre los pastores",
     "text": "Surge un problema.\n¿Qué sucede?",
     "choices": [
       {
-        "text": "Estalla una disputa entre tus pastores y los pastores de Lot"
+        "text": "Surge una disputa entre tus pastores y los pastores de Lot",
+        "feedback": "Génesis 13:7 — Y surgió una disputa entre los pastores de Abram y los pastores de Lot."
       },
       {
-        "text": "La paz y la alegría se extienden por ambos campamentos"
+        "text": "La paz y la alegría se extienden por ambos campamentos",
+        "feedback": "Génesis dice que surgieron disputas entre los pastores."
       },
       {
-        "text": "Los pastores de Lot se van sin decir palabra"
+        "text": "Los pastores de Lot se van sin decir palabra",
+        "feedback": "Génesis dice que discutieron, no que simplemente se fueron."
       }
     ]
   },
   "decision": {
     "title": "Hablas con Lot",
-    "text": "Quieres acabar con la disputa.\n¿Qué le dices a Lot?",
+    "text": "Quieres poner fin a la contienda.\n¿Qué le dices a Lot?",
     "choices": [
       {
-        "text": "«Que no haya disputas entre tú y yo, somos parientes cercanos»"
+        "text": "«No haya, por favor, contienda entre tú y yo, pues somos parientes»",
+        "feedback": "Génesis 13:8 — «No haya, por favor, contienda entre tú y yo, ni entre tus pastores y los míos, porque somos parientes»"
       },
       {
-        "text": "«Debes irte de inmediato, no eres mi igual»"
+        "text": "«Debes marcharte de inmediato, no eres digno de mí»",
+        "feedback": "Abram habló amablemente, apelando a su vínculo familiar."
       },
       {
-        "text": "No digas nada y expulsa a Lot"
+        "text": "No decir nada y expulsar a Lot",
+        "feedback": "Génesis registra las palabras pacíficas de Abram a Lot."
       }
     ]
   },
   "offering": {
-    "title": "Primera Elección",
-    "text": "Ofreces a Lot una elección.\n¿Qué dices?",
+    "title": "Primera elección",
+    "text": "Le ofreces una elección a Lot.\n¿Qué dices?",
     "choices": [
       {
-        "text": "«Si tú vas a la izquierda, yo iré a la derecha; si tú vas a la derecha, yo iré a la izquierda»"
+        "text": "«Si vas a la izquierda, yo iré a la derecha; si vas a la derecha, yo iré a la izquierda»",
+        "feedback": "Génesis 13:9 — «Si vas a la izquierda, yo iré a la derecha; si vas a la derecha, yo iré a la izquierda»"
       },
       {
-        "text": "«Soy el mayor, yo elegiré primero»"
+        "text": "«Soy el mayor, yo elegiré primero»",
+        "feedback": "Abram dejó que Lot eligiera primero, aunque él era el mayor."
       },
       {
-        "text": "«Ambos nos quedaremos aquí y compartiremos cada pozo»"
+        "text": "«Ambos nos quedaremos aquí y compartiremos cada pozo»",
+        "feedback": "Abram propuso que se separaran, para que la contienda terminara."
       }
     ]
   },
   "lots_choice": {
-    "title": "Lot Mira",
-    "text": "Lot mira alrededor de la tierra.\n¿Qué elige?",
+    "title": "Lot mira hacia arriba",
+    "text": "Lot mira la tierra a su alrededor.\n¿Qué elige?",
     "choices": [
       {
-        "text": "Lot elige toda la llanura del Jordán, bien regada como el jardín del Señor"
+        "text": "Lot elige toda la llanura del Jordán, bien regada como el huerto del Señor",
+        "feedback": "Génesis 13:10-11 — Lot alzó sus ojos y vio toda la llanura del Jordán, que estaba bien regada por todas partes como el huerto del Señor; así que Lot escogió para sí toda la llanura del Jordán."
       },
       {
-        "text": "Lot elige la región montañosa seca"
+        "text": "Lot elige la árida región montañosa",
+        "feedback": "Lot eligió la llanura bien regada del Jordán."
       },
       {
-        "text": "Lot se niega a elegir y se queda con Abram"
+        "text": "Lot se niega a elegir y se queda con Abram",
+        "feedback": "Génesis dice que Lot eligió la llanura del Jordán y se separó de Abram."
       }
     ]
   },
   "lot_departs": {
-    "title": "La Separación",
+    "title": "La separación",
     "text": "Tú y Lot os separáis.\n¿Adónde va Lot?",
     "choices": [
       {
-        "text": "Lot se dirige hacia el este y planta sus tiendas cerca de Sodoma"
+        "text": "Lot parte hacia el este y planta sus tiendas cerca de Sodoma",
+        "feedback": "Génesis 13:11-12 — Lot partió hacia el este; y plantó sus tiendas cerca de Sodoma."
       },
       {
-        "text": "Lot viaja muy al oeste a través del mar"
+        "text": "Lot viaja muy al oeste, cruzando el mar",
+        "feedback": "Lot fue al este, hacia la llanura y cerca de Sodoma."
       },
       {
-        "text": "Lot regresa a Harán"
+        "text": "Lot regresa a Harán",
+        "feedback": "Lot fue al este, hacia la llanura del Jordán, cerca de Sodoma."
       }
     ]
   },
   "remaining": {
-    "title": "Dónde Vives",
-    "text": "Lot se ha ido.\n¿Dónde vives?",
+    "title": "Dónde vives",
+    "text": "Lot se ha ido.\n¿Dónde vives tú?",
     "choices": [
       {
-        "text": "Vive en la tierra de Canaán"
+        "text": "Vivir en la tierra de Canaán",
+        "feedback": "Génesis 13:12 — Abram habitó en la tierra de Canaán, y Lot habitó en las ciudades de la llanura."
       },
       {
-        "text": "Vive en la llanura del Jordán, cerca de Sodoma"
+        "text": "Vivir en la llanura del Jordán, cerca de Sodoma",
+        "feedback": "Lot vivió cerca de Sodoma; Abram se quedó en Canaán."
       },
       {
-        "text": "Vive en Egipto"
+        "text": "Vivir en Egipto",
+        "feedback": "Abram había dejado Egipto; ahora vivía en Canaán."
       }
     ]
   },
   "the_promise": {
-    "title": "Alza Tus Ojos",
-    "text": "El Señor te habla después de que Lot se ha apartado de ti.\n¿Qué te dice?",
+    "title": "Alza tus ojos",
+    "text": "El Señor te habla después de que Lot se ha separado de ti.\n¿Qué dice?",
     "choices": [
       {
-        "text": "'Alza tus ojos; toda la tierra que ves te la daré a ti y a tu descendencia para siempre'"
+        "text": "«Alza tus ojos; toda la tierra que ves te la daré a ti y a tu descendencia para siempre»",
+        "feedback": "Génesis 13:14-15 — «Alza ahora tus ojos y mira desde el lugar donde estás hacia el norte, el sur, el este y el oeste. Porque toda la tierra que ves, te la daré a ti y a tu descendencia para siempre.»"
       },
       {
-        "text": "'Perderás esta tierra a manos de los descendientes de Lot'"
+        "text": "«Perderás esta tierra a manos de los descendientes de Lot»",
+        "feedback": "El Señor prometió la tierra a la descendencia de Abram para siempre."
       },
       {
-        "text": "'Vuelve a Harán; la tierra no es tuya'"
+        "text": "«Regresa a Harán; la tierra no es tuya»",
+        "feedback": "El Señor confirmó el don de la tierra a Abram."
       }
     ]
   },
   "mamre": {
-    "title": "Recorre la Tierra",
+    "title": "Recorre la tierra",
     "text": "El Señor te dice qué hacer a continuación.\n¿Qué es?",
     "choices": [
       {
-        "text": "'Ve, recorre la tierra a lo largo y a lo ancho, porque a ti te la daré'"
+        "text": "«Levántate, recorre la tierra a lo largo y a lo ancho, porque a ti te la daré»",
+        "feedback": "Génesis 13:17 — «Anda, recorre el país a lo largo y a lo ancho, porque yo te lo voy a dar»."
       },
       {
-        "text": "'Quédate en un solo lugar y no viajes nunca más'"
+        "text": "«Quédate en un lugar y no viajes nunca más»",
+        "feedback": "El Señor le dijo a Abram que recorriera la tierra."
       },
       {
-        "text": "'Devuelve la tierra a los cananeos'"
+        "text": "«Devolved la tierra a los cananeos»",
+        "feedback": "El Señor dio la tierra a Abram y a su descendencia."
       }
     ]
   },
   "altar": {
-    "title": "Los Grandes Árboles de Mamre",
-    "text": "Así que trasladas tus tiendas y vas a vivir cerca de los grandes árboles de Mamre, en Hebrón,\ndonde construyes un altar al Señor.",
+    "title": "Las encinas de Mamre",
+    "text": "Así que trasladas tus tiendas y vas a vivir cerca de las encinas de Mamre, en Hebrón,\ndonde construyes un altar al Señor.",
     "choices": []
   }
 }

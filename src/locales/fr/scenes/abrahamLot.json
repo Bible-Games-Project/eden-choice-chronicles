@@ -1,158 +1,188 @@
 {
   "storyTitle": "Abraham et Lot",
   "start": {
-    "title": "Très riche",
-    "text": "Tu reviens d'Égypte au Néguev, puis vers les collines entre Béthel et Aï.\nQuelle est ta richesse maintenant ?",
+    "title": "Très Riche",
+    "text": "Tu reviens d'Égypte au Néguev, puis aux collines entre Béthel et Aï.\nÀ quel point es-tu riche maintenant ?",
     "choices": [
       {
-        "text": "Très riche — en bétail, en argent et en or"
+        "text": "Très riche — en bétail, en argent et en or",
+        "feedback": "Genèse 13:2 — Abram était devenu très riche en bétail, en argent et en or."
       },
       {
-        "text": "Pauvre et les mains vides après le voyage"
+        "text": "Pauvre et les mains vides après le voyage",
+        "feedback": "La Genèse dit qu'Abram sortit d'Égypte très riche."
       },
       {
-        "text": "La même qu'avant, sans changement"
+        "text": "Le même qu'avant, sans changement",
+        "feedback": "La Genèse dit qu'Abram était devenu très riche."
       }
     ]
   },
   "tension": {
-    "title": "La terre ne peut vous soutenir",
+    "title": "La Terre Ne Peut Vous Soutenir",
     "text": "Toi et ton neveu Lot avez des troupeaux, des bêtes et des tentes.\nQuel est le problème ?",
     "choices": [
       {
-        "text": "La terre ne peut vous soutenir tous les deux ensemble, car vos possessions sont trop grandes"
+        "text": "La terre ne peut vous soutenir tous les deux ensemble, car vos possessions sont trop grandes",
+        "feedback": "Genèse 13:6 — La terre ne pouvait les soutenir pendant qu'ils restaient ensemble, car leurs possessions étaient si grandes."
       },
       {
-        "text": "Tu as trop peu de bétail pour nourrir qui que ce soit"
+        "text": "Tu as trop peu de bétail pour nourrir qui que ce soit",
+        "feedback": "Le problème était un trop grand nombre de bêtes pour la terre, pas trop peu."
       },
       {
-        "text": "Un grand ennemi attaque les deux camps"
+        "text": "Un grand ennemi attaque les deux camps",
+        "feedback": "La Genèse dit que la tension venait de troupeaux trop nombreux, pas de la guerre."
       }
     ]
   },
   "quarrel": {
-    "title": "Querelle entre les bergers",
-    "text": "Des troubles éclatent.\nQue se passe-t-il ?",
+    "title": "Querelle Entre les Bergers",
+    "text": "Des problèmes éclatent.\nQue se passe-t-il ?",
     "choices": [
       {
-        "text": "Des querelles éclatent entre tes bergers et les bergers de Lot"
+        "text": "Des querelles éclatent entre tes bergers et les bergers de Lot",
+        "feedback": "Genèse 13:7 — Et des querelles s'élevèrent entre les bergers d'Abram et les bergers de Lot."
       },
       {
-        "text": "La paix et la joie se répandent dans les deux camps"
+        "text": "La paix et la joie se répandent dans les deux camps",
+        "feedback": "La Genèse dit que des querelles éclatèrent entre les bergers."
       },
       {
-        "text": "Les bergers de Lot partent sans un mot"
+        "text": "Les bergers de Lot partent sans un mot",
+        "feedback": "La Genèse dit qu'ils se sont querellés, pas qu'ils sont simplement partis."
       }
     ]
   },
   "decision": {
-    "title": "Tu parles à Lot",
+    "title": "Tu Parles à Lot",
     "text": "Tu veux mettre fin à la discorde.\nQue dis-tu à Lot ?",
     "choices": [
       {
-        "text": "« Qu'il n'y ait pas de querelle entre toi et moi — nous sommes de proches parents »"
+        "text": "« Qu'il n'y ait pas de querelle entre toi et moi, car nous sommes proches parents »",
+        "feedback": "Genèse 13:8 — « Qu'il n'y ait pas de querelle entre toi et moi, ni entre tes bergers et les miens, car nous sommes proches parents. »"
       },
       {
-        "text": "« Tu dois partir immédiatement — tu n'es pas mon égal »"
+        "text": "« Tu dois partir tout de suite, tu n'es pas mon égal »",
+        "feedback": "Abram parla avec bonté, faisant appel à leur lien familial."
       },
       {
-        "text": "Ne dis rien et chasse Lot"
+        "text": "Ne rien dire et chasser Lot",
+        "feedback": "La Genèse rapporte les paroles pacifiques d'Abram à Lot."
       }
     ]
   },
   "offering": {
-    "title": "Premier choix",
+    "title": "Premier Choix",
     "text": "Tu offres un choix à Lot.\nQue dis-tu ?",
     "choices": [
       {
-        "text": "« Si tu vas à gauche, j'irai à droite ; si tu vas à droite, j'irai à gauche »"
+        "text": "« Si tu vas à gauche, j'irai à droite ; si tu vas à droite, j'irai à gauche »",
+        "feedback": "Genèse 13:9 — « Si tu vas à gauche, j'irai à droite ; si tu vas à droite, j'irai à gauche. »"
       },
       {
-        "text": "« Je suis l'aîné — je choisirai en premier »"
+        "text": "« Je suis l'aîné, je choisirai en premier »",
+        "feedback": "Abram laissa Lot choisir en premier, bien qu'il fût l'aîné."
       },
       {
-        "text": "« Nous resterons tous les deux ici et partagerons chaque puits »"
+        "text": "« Nous resterons tous les deux ici et partagerons chaque puits »",
+        "feedback": "Abram proposa qu'ils se séparent, afin que la discorde cesse."
       }
     ]
   },
   "lots_choice": {
-    "title": "Lot lève les yeux",
+    "title": "Lot Lève les Yeux",
     "text": "Lot regarde autour de lui la terre.\nQue choisit-il ?",
     "choices": [
       {
-        "text": "Lot choisit toute la plaine du Jourdain, bien arrosée comme le jardin de l'Éternel"
+        "text": "Lot choisit toute la plaine du Jourdain, bien arrosée comme le jardin de l'Éternel",
+        "feedback": "Genèse 13:10-11 — Lot leva les yeux et vit que toute la plaine du Jourdain était bien arrosée, comme le jardin de l'Éternel ; alors Lot choisit pour lui toute la plaine du Jourdain."
       },
       {
-        "text": "Lot choisit la région montagneuse sèche"
+        "text": "Lot choisit la région montagneuse sèche",
+        "feedback": "Lot choisit la plaine du Jourdain, bien arrosée."
       },
       {
-        "text": "Lot refuse de choisir et reste avec Abram"
+        "text": "Lot refuse de choisir et reste avec Abram",
+        "feedback": "La Genèse dit que Lot choisit la plaine du Jourdain et se sépara d'Abram."
       }
     ]
   },
   "lot_departs": {
-    "title": "La séparation",
+    "title": "La Séparation",
     "text": "Toi et Lot vous séparez.\nOù va Lot ?",
     "choices": [
       {
-        "text": "Lot part vers l'est et dresse ses tentes près de Sodome"
+        "text": "Lot part vers l'est et dresse ses tentes près de Sodome",
+        "feedback": "Genèse 13:11-12 — Lot partit vers l'est ; il dressa ses tentes près de Sodome."
       },
       {
-        "text": "Lot voyage loin à l'ouest à travers la mer"
+        "text": "Lot voyage loin à l'ouest, à travers la mer",
+        "feedback": "Lot alla vers l'est, vers la plaine et près de Sodome."
       },
       {
-        "text": "Lot retourne à Haran"
+        "text": "Lot retourne à Haran",
+        "feedback": "Lot alla vers l'est, vers la plaine du Jourdain, près de Sodome."
       }
     ]
   },
   "remaining": {
-    "title": "Où tu vis",
+    "title": "Où Tu Vis",
     "text": "Lot est parti.\nOù vis-tu ?",
     "choices": [
       {
-        "text": "Vis dans le pays de Canaan"
+        "text": "Vis dans le pays de Canaan",
+        "feedback": "Genèse 13:12 — Abram vécut dans le pays de Canaan, tandis que Lot vécut parmi les villes de la plaine."
       },
       {
-        "text": "Vis dans la plaine du Jourdain près de Sodome"
+        "text": "Vis dans la plaine du Jourdain près de Sodome",
+        "feedback": "Lot vécut près de Sodome ; Abram resta en Canaan."
       },
       {
-        "text": "Vis en Égypte"
+        "text": "Vis en Égypte",
+        "feedback": "Abram avait quitté l'Égypte ; il vivait maintenant en Canaan."
       }
     ]
   },
   "the_promise": {
-    "title": "Lève les yeux",
-    "text": "Le Seigneur te parle après que Lot se soit séparé de toi.\nQue dit-il ?",
+    "title": "Lève les Yeux",
+    "text": "L'Éternel te parle après que Lot se soit séparé de toi.\nQue dit-Il ?",
     "choices": [
       {
-        "text": "« Lève les yeux ; toute la terre que tu vois, je la donnerai à toi et à ta descendance pour toujours »"
+        "text": "« Lève les yeux ; toute la terre que tu vois, je la donnerai à toi et à ta descendance pour toujours »",
+        "feedback": "Genèse 13:14-15 — « Regarde d'où tu es, vers le nord et le sud, vers l'est et l'ouest. Toute la terre que tu vois, je la donnerai à toi et à ta descendance pour toujours. »"
       },
       {
-        "text": "« Tu perdras cette terre au profit des descendants de Lot »"
+        "text": "« Tu perdras cette terre au profit des descendants de Lot »",
+        "feedback": "L'Éternel promit la terre à la descendance d'Abram pour toujours."
       },
       {
-        "text": "« Retourne à Haran ; la terre n'est pas à toi »"
+        "text": "« Retourne à Haran ; la terre n'est pas à toi »",
+        "feedback": "L'Éternel confirma le don de la terre à Abram."
       }
     ]
   },
   "mamre": {
     "title": "Parcours la Terre",
-    "text": "Le Seigneur te dit ce que tu dois faire ensuite.\nQu'est-ce que c'est ?",
+    "text": "L'Éternel te dit ce qu'il faut faire ensuite.\nQu'est-ce que c'est ?",
     "choices": [
       {
-        "text": "« Va, parcours la terre en long et en large, car je te la donne »"
+        "text": "« Va, parcours la terre en long et en large, car je te la donne »",
+        "feedback": "Genèse 13:17 — « Lève-toi, parcours le pays dans sa longueur et dans sa largeur, car je te le donne. »"
       },
       {
-        "text": "« Reste au même endroit et ne voyage plus jamais »"
+        "text": "« Reste au même endroit et ne voyage plus jamais »",
+        "feedback": "Le Seigneur dit à Abram de parcourir le pays."
       },
       {
-        "text": "« Rends la terre aux Cananéens »"
+        "text": "« Rends la terre aux Cananéens »",
+        "feedback": "Le Seigneur donna la terre à Abram et à sa descendance."
       }
     ]
   },
   "altar": {
-    "title": "Les Grands Chênes de Mamré",
-    "text": "Alors tu déplaces tes tentes et tu vas vivre près des grands chênes de Mamré à Hébron,\noù tu construis un autel au Seigneur.",
+    "title": "Les grands arbres de Mamré",
+    "text": "Alors tu déplaces tes tentes et tu vas vivre près des grands arbres de Mamré, à Hébron,\noù tu construis un autel au Seigneur.",
     "choices": []
   }
 }

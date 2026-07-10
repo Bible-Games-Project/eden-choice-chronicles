@@ -1,62 +1,74 @@
 {
   "storyTitle": "Abraham und Lot",
   "start": {
-    "title": "Sehr wohlhabend",
-    "text": "Du kehrst aus Ägypten in den Negev zurück und dann in die Hügel zwischen Bethel und Ai.\nWie wohlhabend bist du jetzt?",
+    "title": "Sehr reich",
+    "text": "Du kommst aus Ägypten zurück in den Negev und dann in die Hügel zwischen Bethel und Ai.\nWie reich bist du jetzt?",
     "choices": [
       {
-        "text": "Sehr wohlhabend – an Vieh, Silber und Gold"
+        "text": "Sehr reich – an Vieh, Silber und Gold",
+        "feedback": "Genesis 13,2 — Abram war sehr reich geworden an Vieh, an Silber und an Gold."
       },
       {
-        "text": "Arm und mit leeren Händen von der Reise"
+        "text": "Arm und mit leeren Händen von der Reise",
+        "feedback": "Die Genesis sagt, Abram kam sehr reich aus Ägypten."
       },
       {
-        "text": "Wie zuvor, ohne Veränderung"
+        "text": "Dasselbe wie zuvor, ohne Veränderung",
+        "feedback": "Die Genesis sagt, Abram war sehr reich geworden."
       }
     ]
   },
   "tension": {
     "title": "Das Land kann euch nicht ernähren",
-    "text": "Sowohl du als auch dein Neffe Lot haben Herden, Vieh und Zelte.\nWas ist das Problem?",
+    "text": "Sowohl du als auch dein Neffe Lot habt Herden, Vieh und Zelte.\nWas ist das Problem?",
     "choices": [
       {
-        "text": "Das Land kann euch beide zusammen nicht ernähren, denn euer Besitz ist zu groß"
+        "text": "Das Land kann euch beide nicht zusammen ernähren, denn euer Besitz ist zu groß",
+        "feedback": "Genesis 13,6 — Und das Land konnte sie nicht zusammen ernähren, denn ihr Besitz war so groß."
       },
       {
-        "text": "Du hast zu wenig Vieh, um jemanden zu ernähren"
+        "text": "Du hast zu wenig Vieh, um jemanden zu ernähren",
+        "feedback": "Das Problem war zu viel Vieh für das Land, nicht zu wenig."
       },
       {
-        "text": "Ein großer Feind greift beide Lager an"
+        "text": "Ein großer Feind greift beide Lager an",
+        "feedback": "Die Genesis sagt, die Belastung kam von überfüllten Herden, nicht vom Krieg."
       }
     ]
   },
   "quarrel": {
     "title": "Streit zwischen den Hirten",
-    "text": "Es kommt zu Schwierigkeiten.\nWas geschieht?",
+    "text": "Ärger bricht aus.\nWas geschieht?",
     "choices": [
       {
-        "text": "Zwischen deinen Hirten und Lots Hirten bricht Streit aus"
+        "text": "Streit bricht aus zwischen deinen Hirten und Lots Hirten",
+        "feedback": "Genesis 13,7 — Und es entstand Streit zwischen Abrams Hirten und Lots Hirten."
       },
       {
-        "text": "Frieden und Freude verbreiten sich in beiden Lagern"
+        "text": "Frieden und Freude verbreiten sich in beiden Lagern",
+        "feedback": "Die Genesis sagt, es brach Streit zwischen den Hirten aus."
       },
       {
-        "text": "Lots Hirten gehen wortlos"
+        "text": "Lots Hirten gehen wortlos",
+        "feedback": "Die Genesis sagt, sie stritten sich, nicht dass sie einfach gingen."
       }
     ]
   },
   "decision": {
-    "title": "Du sprichst mit Lot",
-    "text": "Du willst den Streit beenden.\nWas sagst du zu Lot?",
+    "title": "Du sprichst zu Lot",
+    "text": "Du willst den Streit beenden.\nWas sagst du Lot?",
     "choices": [
       {
-        "text": "„Lass keinen Streit zwischen dir und mir sein – wir sind nahe Verwandte“"
+        "text": "„Lass uns nicht streiten – wir sind nahe Verwandte.“",
+        "feedback": "Genesis 13,8 – „Lass uns doch nicht streiten, ich und du, und unsere Hirten miteinander, denn wir sind Brüder.“"
       },
       {
-        "text": "„Du musst sofort gehen – du bist mir nicht ebenbürtig“"
+        "text": "„Du musst sofort gehen – du bist mir nicht ebenbürtig.“",
+        "feedback": "Abram sprach freundlich und appellierte an ihr Familienband."
       },
       {
-        "text": "Nichts sagen und Lot vertreiben"
+        "text": "Nichts sagen und Lot vertreiben",
+        "feedback": "Die Genesis berichtet von Abrams friedlichen Worten an Lot."
       }
     ]
   },
@@ -65,28 +77,34 @@
     "text": "Du bietest Lot eine Wahl an.\nWas sagst du?",
     "choices": [
       {
-        "text": "„Wenn du nach links gehst, gehe ich nach rechts; wenn du nach rechts gehst, gehe ich nach links“"
+        "text": "„Wenn du nach links gehst, gehe ich nach rechts; wenn du nach rechts gehst, gehe ich nach links.“",
+        "feedback": "Genesis 13,9 – „Willst du zur Linken, so gehe ich zur Rechten; willst du zur Rechten, so gehe ich zur Linken.“"
       },
       {
-        "text": "„Ich bin der Ältere – ich werde zuerst wählen“"
+        "text": "„Ich bin der Ältere – ich wähle zuerst.“",
+        "feedback": "Abram ließ Lot zuerst wählen, obwohl er der Ältere war."
       },
       {
-        "text": "„Wir bleiben beide hier und teilen uns jeden Brunnen“"
+        "text": "„Wir bleiben beide hier und teilen uns jeden Brunnen.“",
+        "feedback": "Abram schlug vor, dass sie sich trennen, damit der Streit endet."
       }
     ]
   },
   "lots_choice": {
-    "title": "Lot blickt auf",
+    "title": "Lot schaut auf",
     "text": "Lot schaut sich im Land um.\nWas wählt er?",
     "choices": [
       {
-        "text": "Lot wählt die ganze Jordanebene, gut bewässert wie der Garten des Herrn"
+        "text": "Lot wählt die ganze Jordanebene, gut bewässert wie der Garten des Herrn.",
+        "feedback": "Genesis 13,10-11 – Da hob Lot seine Augen auf und sah die ganze Jordanebene, dass sie ganz bewässert war wie der Garten des Herrn; da erwählte sich Lot die ganze Jordanebene."
       },
       {
-        "text": "Lot wählt das trockene Hügelland"
+        "text": "Lot wählt das trockene Hügelland.",
+        "feedback": "Lot wählte die gut bewässerte Jordanebene."
       },
       {
-        "text": "Lot weigert sich zu wählen und bleibt bei Abram"
+        "text": "Lot weigert sich zu wählen und bleibt bei Abram.",
+        "feedback": "Die Genesis sagt, Lot wählte die Jordanebene und trennte sich von Abram."
       }
     ]
   },
@@ -95,13 +113,16 @@
     "text": "Du und Lot trennt euch.\nWohin geht Lot?",
     "choices": [
       {
-        "text": "Lot zieht nach Osten und schlägt seine Zelte bei Sodom auf"
+        "text": "Lot zieht nach Osten und schlägt seine Zelte bei Sodom auf.",
+        "feedback": "Genesis 13,11-12 – Lot zog nach Osten; er schlug seine Zelte bei Sodom auf."
       },
       {
-        "text": "Lot reist weit nach Westen über das Meer"
+        "text": "Lot reist weit nach Westen über das Meer.",
+        "feedback": "Lot ging nach Osten, zur Ebene und nahe Sodom."
       },
       {
-        "text": "Lot kehrt nach Haran zurück"
+        "text": "Lot kehrt nach Haran zurück.",
+        "feedback": "Lot ging nach Osten zur Jordanebene, nahe Sodom."
       }
     ]
   },
@@ -110,49 +131,58 @@
     "text": "Lot ist gegangen.\nWo lebst du?",
     "choices": [
       {
-        "text": "Lebe im Land Kanaan"
+        "text": "Lebe im Land Kanaan.",
+        "feedback": "Genesis 13,12 – Abram wohnte im Land Kanaan, und Lot wohnte in den Städten der Ebene."
       },
       {
-        "text": "Lebe in der Jordanebene bei Sodom"
+        "text": "Lebe in der Jordanebene nahe Sodom.",
+        "feedback": "Lot lebte nahe Sodom; Abram blieb in Kanaan."
       },
       {
-        "text": "Lebe in Ägypten"
+        "text": "Lebe in Ägypten.",
+        "feedback": "Abram hatte Ägypten verlassen; er lebte nun in Kanaan."
       }
     ]
   },
   "the_promise": {
-    "title": "Erhebe deine Augen",
+    "title": "Heb deine Augen auf",
     "text": "Der Herr spricht zu dir, nachdem Lot sich von dir getrennt hat.\nWas sagt Er?",
     "choices": [
       {
-        "text": "'Erhebe deine Augen; all das Land, das du siehst, will ich dir und deinen Nachkommen für immer geben'"
+        "text": "„Heb deine Augen auf; all das Land, das du siehst, will ich dir und deinen Nachkommen für immer geben.“",
+        "feedback": "Genesis 13,14-15 – „Heb deine Augen auf und sieh von dem Ort, wo du bist, nach Norden und Süden, nach Osten und Westen. Denn all das Land, das du siehst, will ich dir und deinen Nachkommen für immer geben.“"
       },
       {
-        "text": "'Du wirst dieses Land an Lots Nachkommen verlieren'"
+        "text": "„Du wirst dieses Land an Lots Nachkommen verlieren.“",
+        "feedback": "Der Herr versprach das Land Abrams Nachkommen für immer."
       },
       {
-        "text": "'Kehre nach Haran zurück; das Land gehört dir nicht'"
+        "text": "„Kehre nach Haran zurück; das Land gehört dir nicht.“",
+        "feedback": "Der Herr bestätigte die Gabe des Landes an Abram."
       }
     ]
   },
   "mamre": {
-    "title": "Wandere durch das Land",
+    "title": "Geh durch das Land",
     "text": "Der Herr sagt dir, was als Nächstes zu tun ist.\nWas ist es?",
     "choices": [
       {
-        "text": "'Geh, wandere durch die Länge und Breite des Landes, denn ich gebe es dir'"
+        "text": "„Steh auf, geh durch das Land in seiner Länge und Breite, denn dir will ich es geben.“",
+        "feedback": "Genesis 13,17 — „Geh, durchwandere das Land der Länge und Breite nach, denn dir will ich es geben.“"
       },
       {
-        "text": "'Bleibe an einem Ort und reise nie wieder'"
+        "text": "„Bleib an einem Ort und reise nie wieder.“",
+        "feedback": "Der Herr befahl Abram, das Land zu durchwandern."
       },
       {
-        "text": "'Gib das Land den Kanaanitern zurück'"
+        "text": "„Gib das Land den Kanaanitern zurück.“",
+        "feedback": "Der Herr gab das Land Abram und seinen Nachkommen."
       }
     ]
   },
   "altar": {
     "title": "Die großen Bäume von Mamre",
-    "text": "So ziehst du deine Zelte um und gehst, um in der Nähe der großen Bäume von Mamre bei Hebron zu leben,\nwo du dem Herrn einen Altar baust.",
+    "text": "Du ziehst deine Zelte ab und gehst, um in der Nähe der großen Bäume von Mamre bei Hebron zu wohnen,\nwo du dem Herrn einen Altar baust.",
     "choices": []
   }
 }

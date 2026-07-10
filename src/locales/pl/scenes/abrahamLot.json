@@ -2,16 +2,19 @@
   "storyTitle": "Abraham i Lot",
   "start": {
     "title": "Bardzo zamożny",
-    "text": "Wracasz z Egiptu do Negebu, a potem na wzgórza między Betel a Aj.\nJak zamożny jesteś teraz?",
+    "text": "Wracasz z Egiptu na Negew, a potem na wzgórza między Betel a Aj.\nJak zamożny jesteś teraz?",
     "choices": [
       {
-        "text": "Bardzo zamożny – w inwentarz, srebro i złoto"
+        "text": "Bardzo zamożny — w inwentarz, srebro i złoto",
+        "feedback": "Księga Rodzaju 13:2 — Abram stał się bardzo zamożny w inwentarz, w srebro i w złoto."
       },
       {
-        "text": "Biedny i z pustymi rękami po podróży"
+        "text": "Biedny i z pustymi rękami po podróży",
+        "feedback": "Księga Rodzaju mówi, że Abram wyszedł z Egiptu bardzo zamożny."
       },
       {
-        "text": "Tak samo jak wcześniej, bez zmian"
+        "text": "Tak samo jak wcześniej, bez zmian",
+        "feedback": "Księga Rodzaju mówi, że Abram stał się bardzo zamożny."
       }
     ]
   },
@@ -20,13 +23,16 @@
     "text": "Zarówno ty, jak i twój bratanek Lot macie stada, trzody i namioty.\nJaki jest problem?",
     "choices": [
       {
-        "text": "Ziemia nie może was obu razem utrzymać, bo wasze posiadłości są zbyt wielkie"
+        "text": "Ziemia nie może was obu razem utrzymać, bo wasze posiadłości są zbyt wielkie",
+        "feedback": "Księga Rodzaju 13:6 — Ziemia nie mogła ich utrzymać, gdy przebywali razem, bo ich posiadłości były tak wielkie."
       },
       {
-        "text": "Masz za mało inwentarza, by kogokolwiek wyżywić"
+        "text": "Masz za mało inwentarza, żeby kogokolwiek wyżywić",
+        "feedback": "Problemem było zbyt wiele inwentarza dla ziemi, a nie za mało."
       },
       {
-        "text": "Wielki wróg atakuje oba obozy"
+        "text": "Wielki wróg atakuje oba obozy",
+        "feedback": "Księga Rodzaju mówi, że napięcie wynikało z zatłoczonych stad, a nie z wojny."
       }
     ]
   },
@@ -35,13 +41,16 @@
     "text": "Wybucha kłótnia.\nCo się dzieje?",
     "choices": [
       {
-        "text": "Wybucha kłótnia między twoimi pasterzami a pasterzami Lota"
+        "text": "Wybucha kłótnia między twoimi pasterzami a pasterzami Lota",
+        "feedback": "Księga Rodzaju 13:7 — I powstała kłótnia między pasterzami Abrama a pasterzami Lota."
       },
       {
-        "text": "Pokój i radość rozprzestrzeniają się po obu obozach"
+        "text": "Pokój i radość rozprzestrzeniają się w obu obozach",
+        "feedback": "Księga Rodzaju mówi, że wybuchły kłótnie między pasterzami."
       },
       {
-        "text": "Pasterze Lota odchodzą bez słowa"
+        "text": "Pasterze Lota odchodzą bez słowa",
+        "feedback": "Księga Rodzaju mówi, że się kłócili, a nie, że po prostu odeszli."
       }
     ]
   },
@@ -50,43 +59,52 @@
     "text": "Chcesz zakończyć spór.\nCo mówisz Lotowi?",
     "choices": [
       {
-        "text": "„Niech nie będzie kłótni między mną a tobą – jesteśmy bliskimi krewnymi”"
+        "text": "„Niech nie będzie zwady między mną a tobą — jesteśmy bliskimi krewnymi”",
+        "feedback": "Księga Rodzaju 13:8 — „Niech nie będzie zwady między mną a tobą ani między pasterzami moimi a twoimi, bo jesteśmy bliskimi krewnymi”."
       },
       {
-        "text": "„Musisz natychmiast odejść – nie jesteś mi równy”"
+        "text": "„Musisz natychmiast odejść — nie jesteś mi równy”",
+        "feedback": "Abram przemówił życzliwie, odwołując się do ich więzi rodzinnych."
       },
       {
-        "text": "Nic nie mów i wypędź Lota"
+        "text": "Nic nie mów i wypędź Lota",
+        "feedback": "Księga Rodzaju odnotowuje pokojowe słowa Abrama do Lota."
       }
     ]
   },
   "offering": {
-    "title": "Pierwszy wybór",
-    "text": "Proponujesz Lotowi wybór.\nCo mówisz?",
+    "title": "Pierwszy Wybór",
+    "text": "Oferujesz Lotowi wybór.\nCo mówisz?",
     "choices": [
       {
-        "text": "„Jeśli pójdziesz na lewo, ja pójdę na prawo; jeśli pójdziesz na prawo, ja pójdę na lewo”"
+        "text": "„Jeśli pójdziesz w lewo, ja pójdę w prawo; jeśli pójdziesz w prawo, ja pójdę w lewo”",
+        "feedback": "Księga Rodzaju 13:9 — „Jeśli pójdziesz w lewo, ja pójdę w prawo; jeśli pójdziesz w prawo, ja pójdę w lewo”."
       },
       {
-        "text": "„Jestem starszy – ja wybiorę pierwszy”"
+        "text": "„Jestem starszy — ja wybiorę pierwszy”",
+        "feedback": "Abram pozwolił Lotowi wybrać pierwszemu, choć był starszy."
       },
       {
-        "text": "„Oboje zostaniemy tutaj i będziemy dzielić każdą studnię”"
+        "text": "„Oboje zostaniemy tutaj i będziemy dzielić każdą studnię”",
+        "feedback": "Abram zaproponował, aby się rozeszli, by zakończyć spór."
       }
     ]
   },
   "lots_choice": {
-    "title": "Lot patrzy w górę",
+    "title": "Lot Patrzy W Górę",
     "text": "Lot rozgląda się po ziemi.\nCo wybiera?",
     "choices": [
       {
-        "text": "Lot wybiera całą równinę Jordanu, dobrze nawodnioną jak ogród Pana"
+        "text": "Lot wybiera całą równinę Jordanu, dobrze nawodnioną jak ogród Pana",
+        "feedback": "Księga Rodzaju 13:10-11 — Lot podniósł oczy i zobaczył, że cała równina Jordanu była dobrze nawodniona, jak ogród Pana; więc Lot wybrał dla siebie całą równinę Jordanu."
       },
       {
-        "text": "Lot wybiera suchą krainę pagórkowatą"
+        "text": "Lot wybiera suchą krainę pagórkowatą",
+        "feedback": "Lot wybrał dobrze nawodnioną równinę Jordanu."
       },
       {
-        "text": "Lot odmawia wyboru i zostaje z Abramem"
+        "text": "Lot odmawia wyboru i zostaje z Abramem",
+        "feedback": "Księga Rodzaju mówi, że Lot wybrał równinę Jordanu i rozstał się z Abramem."
       }
     ]
   },
@@ -95,43 +113,52 @@
     "text": "Ty i Lot rozstajecie się.\nDokąd idzie Lot?",
     "choices": [
       {
-        "text": "Lot wyrusza na wschód i rozbija swoje namioty w pobliżu Sodomy"
+        "text": "Lot wyrusza na wschód i rozbija swoje namioty w pobliżu Sodomy",
+        "feedback": "Księga Rodzaju 13:11-12 — Lot wyruszył na wschód; rozbił swoje namioty w pobliżu Sodomy."
       },
       {
-        "text": "Lot podróżuje daleko na zachód przez morze"
+        "text": "Lot podróżuje daleko na zachód przez morze",
+        "feedback": "Lot poszedł na wschód, w stronę równiny i w pobliże Sodomy."
       },
       {
-        "text": "Lot wraca do Haranu"
+        "text": "Lot wraca do Haranu",
+        "feedback": "Lot poszedł na wschód w stronę równiny Jordanu, w pobliże Sodomy."
       }
     ]
   },
   "remaining": {
-    "title": "Gdzie mieszkasz",
+    "title": "Gdzie Mieszkasz",
     "text": "Lota już nie ma.\nGdzie mieszkasz?",
     "choices": [
       {
-        "text": "Mieszkaj w ziemi Kanaan"
+        "text": "Mieszkaj w ziemi Kanaan",
+        "feedback": "Księga Rodzaju 13:12 — Abram mieszkał w ziemi Kanaan, a Lot mieszkał wśród miast równiny."
       },
       {
-        "text": "Mieszkaj na równinie Jordanu w pobliżu Sodomy"
+        "text": "Mieszkaj na równinie Jordanu w pobliżu Sodomy",
+        "feedback": "Lot mieszkał w pobliżu Sodomy; Abram pozostał w Kanaan."
       },
       {
-        "text": "Mieszkaj w Egipcie"
+        "text": "Mieszkaj w Egipcie",
+        "feedback": "Abram opuścił Egipt; mieszkał teraz w Kanaan."
       }
     ]
   },
   "the_promise": {
     "title": "Podnieś Oczy",
-    "text": "Pan przemawia do ciebie po tym, jak Lot się od ciebie oddzielił.\nCo On mówi?",
+    "text": "Pan przemawia do ciebie po tym, jak Lot się z tobą rozstał.\nCo mówi?",
     "choices": [
       {
-        "text": "'Podnieś oczy; całą ziemię, którą widzisz, dam tobie i twojemu potomstwu na zawsze'"
+        "text": "„Podnieś oczy; całą ziemię, którą widzisz, dam tobie i twojemu potomstwu na zawsze”",
+        "feedback": "Księga Rodzaju 13:14-15 — „Rozejrzyj się z miejsca, w którym jesteś, na północ i południe, na wschód i zachód. Całą ziemię, którą widzisz, dam tobie i twojemu potomstwu na zawsze”."
       },
       {
-        "text": "'Stracisz tę ziemię na rzecz potomków Lota'"
+        "text": "„Stracisz tę ziemię na rzecz potomków Lota”",
+        "feedback": "Pan obiecał ziemię potomstwu Abrama na zawsze."
       },
       {
-        "text": "'Wróć do Haranu; ziemia nie jest twoja'"
+        "text": "„Wróć do Haranu; ziemia nie jest twoja”",
+        "feedback": "Pan potwierdził dar ziemi dla Abrama."
       }
     ]
   },
@@ -140,19 +167,22 @@
     "text": "Pan mówi ci, co masz dalej robić.\nCo to jest?",
     "choices": [
       {
-        "text": "'Wstań, przejdź przez tę ziemię wzdłuż i wszerz, bo daję ją tobie'"
+        "text": "„Idź, przejdź przez całą długość i szerokość ziemi, bo daję ją tobie”",
+        "feedback": "Księga Rodzaju 13:17 — „Wstań, przejdź tę ziemię wzdłuż i wszerz, bo tobie ją daję”."
       },
       {
-        "text": "'Pozostań w jednym miejscu i nigdy więcej nie podróżuj'"
+        "text": "„Zostań w jednym miejscu i nigdy więcej nie podróżuj”",
+        "feedback": "Pan powiedział Abramowi, żeby przeszedł przez ziemię."
       },
       {
-        "text": "'Oddaj ziemię Kananejczykom'"
+        "text": "„Oddaj ziemię z powrotem Kananejczykom”",
+        "feedback": "Pan dał ziemię Abramowi i jego potomstwu."
       }
     ]
   },
   "altar": {
-    "title": "Wielkie Dęby Mamre",
-    "text": "Więc przenosisz swoje namioty i idziesz zamieszkać w pobliżu wielkich dębów Mamre w Hebronie,\ngdzie budujesz ołtarz Panu.",
+    "title": "Wielkie Drzewa Mamre",
+    "text": "Przemieszczasz więc swoje namioty i idziesz zamieszkać w pobliżu wielkich drzew Mamre w Hebronie,\ngdzie budujesz ołtarz dla Pana.",
     "choices": []
   }
 }

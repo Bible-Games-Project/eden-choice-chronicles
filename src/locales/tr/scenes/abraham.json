@@ -5,28 +5,34 @@
     "text": "Babanız Terah, karınız Saray ve yeğeniniz Lut ile Harran'da yaşıyorsunuz.\nYetmiş beş yaşındasınız.",
     "choices": [
       {
-        "text": "Yetmiş beş yaşında, Harran'da Abram olarak yaşa"
+        "text": "Harran'da, yetmiş beş yaşında Abram olarak yaşayın",
+        "feedback": "Yaratılış 12:4 — Abram Harran'dan ayrıldığında yetmiş beş yaşındaydı."
       },
       {
-        "text": "Ur şehrinde genç bir adam olarak yaşa"
+        "text": "Ur şehrinde genç bir adam olarak yaşayın",
+        "feedback": "Yaratılış 12'ye göre, Abram Ur'dan ayrılmış ve yetmiş beş yaşında Harran'daydı."
       },
       {
-        "text": "Büyük bir ulusun kralı olarak yaşa"
+        "text": "Büyük bir ulusun kralı olarak yaşayın",
+        "feedback": "Yaratılış, Abram'ı bir kral olarak tanımlamaz; o, göçebe bir çobandı."
       }
     ]
   },
   "the_call": {
     "title": "Rab'bin Çağrısı",
-    "text": "Rab sizinle konuşuyor.\nNe buyuruyor?",
+    "text": "Rab sizinle konuşuyor.\nNe emrediyor?",
     "choices": [
       {
-        "text": "'Ülkeni, halkını ve babanın evini bırakıp sana göstereceğim topraklara git'"
+        "text": "'Ülkenizden, halkınızdan ve babanızın evinden size göstereceğim toprağa gidin'",
+        "feedback": "Yaratılış 12:1 — Rab Abram'a dedi ki: 'Ülkenizden, halkınızdan ve babanızın evinden size göstereceğim toprağa gidin.'"
       },
       {
-        "text": "'Harran'da kal ve ev putlarına tapın'"
+        "text": "'Harran'da kalın ve ev putlarına tapın'",
+        "feedback": "Yaratılış, Rab'bin Abram'a kalmasını değil, gitmesini söylediğini belirtir."
       },
       {
-        "text": "'Burada, Harran'da Bana bir tapınak inşa et'"
+        "text": "'Burada Harran'da Bana bir tapınak inşa edin'",
+        "feedback": "Rab Abram'a, ona göstereceği bir toprağa gitmesini söyledi."
       }
     ]
   },
@@ -35,43 +41,52 @@
     "text": "Rab vaadini ekliyor.\nNe diyor?",
     "choices": [
       {
-        "text": "'Seni büyük bir ulus yapacağım ve seni kutsayacağım; yeryüzündeki tüm halklar senin aracılığınla kutsanacak'"
+        "text": "'Seni büyük bir ulus yapacağım ve seni kutsayacağım; yeryüzündeki tüm halklar senin aracılığınla kutsanacak'",
+        "feedback": "Yaratılış 12:2-3 — 'Seni büyük bir ulus yapacağım ve yeryüzündeki tüm halklar senin aracılığınla kutsanacak.'"
       },
       {
-        "text": "'Sana kendine saklaman için büyük zenginlikler vereceğim'"
+        "text": "'Sana kendine saklaman için büyük zenginlikler vereceğim'",
+        "feedback": "Vaat, tüm halkların Abram aracılığıyla kutsanacağıydı, onun zenginlikleri biriktireceği değil."
       },
       {
-        "text": "'Uzun bir ömrün olacak ve soyun olmayacak'"
+        "text": "'Uzun bir ömrün olacak ve soyun olmayacak'",
+        "feedback": "Rab Abram'a büyük bir soy ulusu vaat etti."
       }
     ]
   },
   "telling_sarah": {
     "title": "Aileniz",
-    "text": "Ailenizi yolculuk için hazırlamalısınız.\nKimler sizinle gidiyor?",
+    "text": "Ailenizi yolculuğa hazırlamalısınız.\nKim sizinle gidiyor?",
     "choices": [
       {
-        "text": "Karınız Saray'ı ve yeğeniniz Lut'u yanınıza alın"
+        "text": "Karınız Saray'ı ve yeğeniniz Lut'u alın",
+        "feedback": "Yaratılış 12:5 — Abram karısı Saray'ı, yeğeni Lut'u ve Harran'da edindikleri tüm malları ve insanları aldı."
       },
       {
-        "text": "Saray'ı Harran'da bırakın"
+        "text": "Saray'ı Harran'da bırakın",
+        "feedback": "Yaratılış, Abram'ın Saray'ı yanına aldığını belirtir."
       },
       {
-        "text": "Sadece bir bastonla yalnız gidin"
+        "text": "Sadece bir bastonla yalnız gidin",
+        "feedback": "Yaratılış, Abram'ın ailesini, sürülerini ve mallarını aldığını belirtir."
       }
     ]
   },
   "preparing": {
-    "title": "Yanınızda Ne Götürüyorsunuz",
+    "title": "Ne Taşıyorsunuz",
     "text": "Yolculukta yanınıza alacaklarınızı topluyorsunuz.\nYanınızda ne gidiyor?",
     "choices": [
       {
-        "text": "Harran'da edindiğiniz tüm mallar ve insanlar"
+        "text": "Harran'da edindiğiniz tüm mallar ve insanlar",
+        "feedback": "Yaratılış 12:5 — Abram Harran'da edindikleri tüm malları ve insanları aldı."
       },
       {
-        "text": "Sadece küçük bir ekmek torbası"
+        "text": "Sadece küçük bir ekmek torbası",
+        "feedback": "Yaratılış, Abram'ın tüm ailesi ve mallarıyla ayrıldığını belirtir."
       },
       {
-        "text": "Harran kralından altın bir savaş arabası"
+        "text": "Harran kralından altın bir savaş arabası",
+        "feedback": "Yaratılış, herhangi bir kraldan bir savaş arabası tanımlamaz."
       }
     ]
   },
@@ -80,79 +95,94 @@
     "text": "Ayrılma zamanı geldi.\nNereye doğru yola çıkıyorsunuz?",
     "choices": [
       {
-        "text": "Kenan diyarına doğru yola çıkın"
+        "text": "Kenan diyarına doğru yola çıkın",
+        "feedback": "Yaratılış 12:5 — Harran'dan Kenan diyarına gitmek üzere yola çıktılar ve oraya vardılar."
       },
       {
-        "text": "Zengin olmak için Mısır'a doğru yola çıkın"
+        "text": "Zengin olmak için Mısır'a doğru yola çıkın",
+        "feedback": "Yaratılış, Abram'ın Kenan'a doğru yola çıktığını belirtir; Mısır daha sonra, bir kıtlık sırasında geldi."
       },
       {
-        "text": "Aklınızda bir hedef olmadan yola çıkın"
+        "text": "Aklınızda bir hedef olmadan yola çıkın",
+        "feedback": "Rab'bin aklında belirli bir diyar vardı — Kenan."
       }
     ]
   },
   "the_road": {
-    "title": "Diyara Doğru",
-    "text": "Kenan diyarı boyunca seyahat ediyorsunuz.\nNe kadar uzağa gidiyorsunuz?",
+    "title": "Diyara",
+    "text": "Kenan topraklarında yolculuk ediyorsun.\nNe kadar uzağa gidersin?",
     "choices": [
       {
-        "text": "Şekem'deki Moreh'in büyük ağacına kadar seyahat edin"
+        "text": "Şekem'deki Moreh'in büyük ağacına kadar git",
+        "feedback": "Yaratılış 12:6 — Abram, ülkeyi Şekem'deki Moreh'in büyük ağacının bulunduğu yere kadar dolaştı."
       },
       {
-        "text": "Yolun yarısında Harran'a geri dönün"
+        "text": "Yolun yarısında Haran'a geri dön",
+        "feedback": "Yaratılış, Abram'ın Kenan'a vardığını söyler."
       },
       {
-        "text": "Denizi geçip uzak bir adaya gidin"
+        "text": "Uzak bir adaya deniz yoluyla geç",
+        "feedback": "Yaratılış, Abram'ın karadan Kenan'a gittiğini söyler."
       }
     ]
   },
   "doubt_night": {
-    "title": "Rab Görünüyor",
-    "text": "Şekem'de Rab size görünüyor.\nNe diyor?",
+    "title": "Rab Görünür",
+    "text": "Şekem'de Rab sana görünür.\nNe der?",
     "choices": [
       {
-        "text": "'Bu toprakları senin soyuna vereceğim'"
+        "text": "'Bu toprakları senin soyuna vereceğim'",
+        "feedback": "Yaratılış 12:7 — Rab Abram'a göründü ve dedi ki: 'Bu toprakları senin soyuna vereceğim.'"
       },
       {
-        "text": "'Bu topraklar sonsuza dek başka bir halka aittir'"
+        "text": "'Bu topraklar sonsuza dek başka bir halka aittir'",
+        "feedback": "Rab, toprakları Abram'ın soyuna vaat etti."
       },
       {
-        "text": "'Harran'a geri dön; gelmekle hata ettin'"
+        "text": "'Haran'a dön; gelmekle hata ettin'",
+        "feedback": "Rab, vaadi Kenan'da onayladı, Abram'ı geri göndermedi."
       }
     ]
   },
   "stargazing": {
     "title": "Şekem'de",
-    "text": "Vaadi duydunuz. Şekem'de ne yapıyorsunuz?",
+    "text": "Vaadi duydun. Şekem'de ne yaparsın?",
     "choices": [
       {
-        "text": "Orada size görünen Rab'be bir sunak inşa edin"
+        "text": "Sana görünen Rab için orada bir sunak inşa et",
+        "feedback": "Yaratılış 12:7 — Abram, kendisine görünen Rab için orada bir sunak inşa etti."
       },
       {
-        "text": "Kendinize sedirden bir saray inşa edin"
+        "text": "Kendine sedirden bir saray inşa et",
+        "feedback": "Yaratılış, Abram'ın bir sunak inşa ettiğini, saray değil."
       },
       {
-        "text": "Hiçbir şey söylemeyin ve hızla ilerleyin"
+        "text": "Hiçbir şey söyleme ve hızla ilerle",
+        "feedback": "Yaratılış, Abram'ın Şekem'de bir sunak inşa ederek ibadet ettiğini söyler."
       }
     ]
   },
   "canaan_arrival": {
-    "title": "Beytel ve Ay Arasında",
-    "text": "Şekem'den tepelere doğru ilerliyorsunuz.\nNerede durup çadırınızı kuruyorsunuz?",
+    "title": "Beyt-el ve Ay Arasında",
+    "text": "Şekem'den tepelere doğru ilerliyorsun.\nNerede durur ve çadırını kurarsın?",
     "choices": [
       {
-        "text": "Çadırınızı Beytel ve Ay arasındaki tepelere kurun ve başka bir sunak inşa edin"
+        "text": "Çadırını Beyt-el ile Ay arasındaki tepelere kur ve başka bir sunak inşa et",
+        "feedback": "Yaratılış 12:8 — Oradan Abram, Beyt-el'in doğusundaki tepelere doğru ilerledi ve çadırını kurdu; batısında Beyt-el, doğusunda Ay vardı; orada bir sunak inşa etti ve Rab'bin adını çağırdı."
       },
       {
-        "text": "Çadırınızı Sodom şehrine kurun"
+        "text": "Çadırını Sodom şehrine kur",
+        "feedback": "Yaratılış, Abram'ın çadırını Beyt-el ile Ay arasına kurduğunu söyler."
       },
       {
-        "text": "Nehrin karşısına Haran'a geri dönün"
+        "text": "Nehrin karşısına Haran'a geri yelken aç",
+        "feedback": "Yaratılış, Abram'ın Kenan boyunca güneye doğru devam ettiğini söyler."
       }
     ]
   },
   "altar": {
-    "title": "Rab'bin Adını Anmak",
-    "text": "Yeni sunağınızda Rab'bin adını anıyorsunuz.\nBüyük bir ulus olma vaadi, Necef'e doğru yolculuğunuzda sizinle birlikte geliyor.",
+    "title": "Rab'bin Adını Çağırmak",
+    "text": "Yeni sunağında Rab'bin adını çağırıyorsun.\nBüyük bir ulus vaadi, Necef'e doğru yolculuğuna devam ederken seninle birlikte.",
     "choices": []
   }
 }

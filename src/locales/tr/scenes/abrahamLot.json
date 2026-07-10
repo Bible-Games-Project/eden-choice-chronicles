@@ -2,16 +2,19 @@
   "storyTitle": "İbrahim ve Lut",
   "start": {
     "title": "Çok Zengin",
-    "text": "Mısır'dan Negev'e, sonra da Beytel ile Ay arasındaki tepelere dönersin.\nŞimdi ne kadar zenginsin?",
+    "text": "Mısır'dan Negev'e, sonra da Beyt-El ile Ay arasındaki tepelere geri dönüyorsun.\nŞimdi ne kadar zenginsin?",
     "choices": [
       {
-        "text": "Çok zengin â hayvan, gümüş ve altın bakımından"
+        "text": "Çok zengin — hayvan, gümüş ve altın bakımından",
+        "feedback": "Yaratılış 13:2 — Abram, hayvan, gümüş ve altın bakımından çok zengin olmuştu."
       },
       {
-        "text": "Yolculuktan dolayı fakir ve eli boş"
+        "text": "Yolculuktan dolayı fakir ve eli boş",
+        "feedback": "Yaratılış, Abram'ın Mısır'dan çok zengin çıktığını söyler."
       },
       {
-        "text": "Aynı, hiçbir değişiklik yok"
+        "text": "Değişiklik olmadan, eskisi gibi",
+        "feedback": "Yaratılış, Abram'ın çok zenginleştiğini söyler."
       }
     ]
   },
@@ -20,139 +23,166 @@
     "text": "Hem senin hem de yeğenin Lut'un sürüleri, hayvanları ve çadırları var.\nSorun ne?",
     "choices": [
       {
-        "text": "Toprak ikinizi birlikte destekleyemez, çünkü mallarınız çok fazla"
+        "text": "Toprak ikinizi birlikte destekleyemez, çünkü mallarınız çok fazla",
+        "feedback": "Yaratılış 13:6 — Toprak, birlikte kaldıkları sürece onları destekleyemedi, çünkü malları çok fazlaydı."
       },
       {
-        "text": "Kimseyi besleyecek kadar az hayvanın var"
+        "text": "Kimseyi besleyecek kadar az hayvanın var",
+        "feedback": "Sorun, toprağa göre çok fazla hayvan olmasıydı, çok az değil."
       },
       {
-        "text": "Büyük bir düşman her iki ordugaha da saldırıyor"
+        "text": "Büyük bir düşman her iki ordugaha da saldırıyor",
+        "feedback": "Yaratılış, gerginliğin kalabalık sürülerden kaynaklandığını, savaştan değil."
       }
     ]
   },
   "quarrel": {
     "title": "Çobanlar Arasındaki Çekişme",
-    "text": "Sorun çıkar.\nNe olur?",
+    "text": "Sorun çıkıyor.\nNe olur?",
     "choices": [
       {
-        "text": "Senin çobanlarınla Lut'un çobanları arasında kavga çıkar"
+        "text": "Senin çobanların ile Lut'un çobanları arasında çekişme başlar",
+        "feedback": "Yaratılış 13:7 — Ve Abram'ın çobanları ile Lut'un çobanları arasında çekişme çıktı."
       },
       {
-        "text": "Her iki ordugahta da barış ve sevinç yayılır"
+        "text": "Her iki ordugahta da barış ve sevinç yayılır",
+        "feedback": "Yaratılış, çobanlar arasında kavgaların çıktığını söyler."
       },
       {
-        "text": "Lut'un çobanları tek kelime etmeden ayrılır"
+        "text": "Lut'un çobanları tek kelime etmeden ayrılır",
+        "feedback": "Yaratılış, kavga ettiklerini, sadece ayrılmadıklarını söyler."
       }
     ]
   },
   "decision": {
-    "title": "Lut'la Konuşursun",
-    "text": "Çekişmeyi bitirmek istersin.\nLut'a ne dersin?",
+    "title": "Lut'la Konuşuyorsun",
+    "text": "Kavgayı bitirmek istiyorsun.\nLut'a ne dersin?",
     "choices": [
       {
-        "text": "'Seninle benim aramda kavga olmasın â biz yakın akrabayız'"
+        "text": "'Seninle benim aramda kavga olmasın — biz yakın akrabayız'",
+        "feedback": "Yaratılış 13:8 — 'Seninle benim aramda, çobanlarınla benim çobanlarım arasında kavga olmasın, çünkü biz kardeşiz.'"
       },
       {
-        "text": "'Hemen gitmelisin â sen benim dengim değilsin'"
+        "text": "'Hemen gitmelisin — sen benim dengim değilsin'",
+        "feedback": "Avram nazikçe konuştu, aile bağlarına hitap etti."
       },
       {
-        "text": "Hiçbir şey söyleme ve Lut'u kov"
+        "text": "Hiçbir şey söyleme ve Lut'u kov",
+        "feedback": "Yaratılış, Avram'ın Lut'a söylediği barışçıl sözleri kaydeder."
       }
     ]
   },
   "offering": {
     "title": "İlk Seçim",
-    "text": "Lut'a bir seçim sunarsın.\nNe dersin?",
+    "text": "Lut'a bir seçim sunuyorsun.\nNe dersin?",
     "choices": [
       {
-        "text": "'Sen sola gidersen ben sağa giderim; sen sağa gidersen ben sola giderim'"
+        "text": "'Eğer sen sola gidersen, ben sağa giderim; eğer sen sağa gidersen, ben sola giderim'",
+        "feedback": "Yaratılış 13:9 — 'Eğer sen sola gidersen, ben sağa giderim; eğer sen sağa gidersen, ben sola giderim.'"
       },
       {
-        "text": "'Ben büyüğüm â ilk ben seçeceğim'"
+        "text": "'Ben büyüğüm — önce ben seçeceğim'",
+        "feedback": "Avram, büyük olmasına rağmen Lut'un önce seçmesine izin verdi."
       },
       {
-        "text": "'İkimiz de burada kalacağız ve her kuyuyu paylaşacağız'"
+        "text": "'İkimiz de burada kalacağız ve her kuyuyu paylaşacağız'",
+        "feedback": "Avram, kavganın bitmesi için yollarını ayırmalarını önerdi."
       }
     ]
   },
   "lots_choice": {
-    "title": "Lut Yukarı Bakar",
-    "text": "Lut etrafına, toprağa bakar.\nNe seçer?",
+    "title": "Lut Yukarı Bakıyor",
+    "text": "Lut etrafına, toprağa bakıyor.\nNe seçiyor?",
     "choices": [
       {
-        "text": "Lut, Rab'bin bahçesi gibi iyi sulanmış Ürdün ovasının tamamını seçer"
+        "text": "Lut, Rab'bin bahçesi gibi iyi sulanmış olan bütün Şeria ovasını seçer",
+        "feedback": "Yaratılış 13:10-11 — Lut gözlerini kaldırdı ve bütün Şeria ovasının Rab'bin bahçesi gibi iyi sulanmış olduğunu gördü; böylece Lut bütün Şeria ovasını kendisi için seçti."
       },
       {
-        "text": "Lut, kuru tepelik araziyi seçer"
+        "text": "Lut kuru tepelik araziyi seçer",
+        "feedback": "Lut, iyi sulanmış Şeria ovasını seçti."
       },
       {
-        "text": "Lut seçmeyi reddeder ve Avram'la kalır"
+        "text": "Lut seçmeyi reddeder ve Avram'la kalır",
+        "feedback": "Yaratılış, Lut'un Şeria ovasını seçtiğini ve Avram'dan ayrıldığını söyler."
       }
     ]
   },
   "lot_departs": {
     "title": "Ayrılık",
-    "text": "Sen ve Lut yollarınızı ayırırsınız.\nLut nereye gider?",
+    "text": "Sen ve Lut yollarınızı ayırıyorsunuz.\nLut nereye gidiyor?",
     "choices": [
       {
-        "text": "Lut doğuya doğru yola çıkar ve çadırlarını Sodom yakınlarına kurar"
+        "text": "Lut doğuya doğru yola çıkar ve çadırlarını Sodom yakınlarına kurar",
+        "feedback": "Yaratılış 13:11-12 — Lut doğuya doğru yola çıktı; çadırlarını Sodom yakınlarına kurdu."
       },
       {
-        "text": "Lut batıya, denizi geçerek uzaklara gider"
+        "text": "Lut batıya, denizin ötesine doğru çok uzaklara gider",
+        "feedback": "Lut doğuya, ovaya ve Sodom yakınlarına gitti."
       },
       {
-        "text": "Lut Haran'a geri döner"
+        "text": "Lut Haran'a geri döner",
+        "feedback": "Lut doğuya, Şeria ovasına, Sodom yakınlarına gitti."
       }
     ]
   },
   "remaining": {
-    "title": "Yaşadığın Yer",
-    "text": "Lut gitti.\nNerede yaşarsın?",
+    "title": "Nerede Yaşıyorsun",
+    "text": "Lut gitti.\nNerede yaşıyorsun?",
     "choices": [
       {
-        "text": "Kenan diyarında yaşa"
+        "text": "Kenan diyarında yaşa",
+        "feedback": "Yaratılış 13:12 — Avram Kenan diyarında yaşadı, Lut ise ovanın şehirleri arasında yaşadı."
       },
       {
-        "text": "Sodom yakınlarındaki Şeria ovasında yaşa"
+        "text": "Şeria ovasında, Sodom yakınlarında yaşa",
+        "feedback": "Lut Sodom yakınlarında yaşadı; Avram Kenan'da kaldı."
       },
       {
-        "text": "Mısır'da yaşa"
+        "text": "Mısır'da yaşa",
+        "feedback": "Avram Mısır'dan ayrılmıştı; şimdi Kenan'da yaşıyordu."
       }
     ]
   },
   "the_promise": {
     "title": "Gözlerini Kaldır",
-    "text": "Lut senden ayrıldıktan sonra Rab seninle konuşuyor.\nNe diyor?",
+    "text": "Lut senden ayrıldıktan sonra Rab seninle konuşur.\nNe der?",
     "choices": [
       {
-        "text": "'Gözlerini kaldır; gördüğün bütün bu toprakları sana ve soyuna sonsuza dek vereceğim'"
+        "text": "'Gözlerini kaldır; gördüğün bütün toprakları sana ve soyuna sonsuza dek vereceğim'",
+        "feedback": "Yaratılış 13:14-15 — 'Bulunduğun yerden kuzeye, güneye, doğuya ve batıya bak. Gördüğün bütün toprakları sana ve soyuna sonsuza dek vereceğim.'"
       },
       {
-        "text": "'Bu toprakları Lut'un soyuna kaybedeceksin'"
+        "text": "'Bu toprakları Lut'un soyuna kaybedeceksin'",
+        "feedback": "Rab, toprakları Avram'ın soyuna sonsuza dek vaat etti."
       },
       {
-        "text": "'Haran'a dön; toprak senin değil'"
+        "text": "'Haran'a dön; toprak senin değil'",
+        "feedback": "Rab, toprak armağanını Avram'a onayladı."
       }
     ]
   },
   "mamre": {
     "title": "Toprakta Yürü",
-    "text": "Rab sana bundan sonra ne yapacağını söylüyor.\nNedir o?",
+    "text": "Rab sana sonra ne yapacağını söyler.\nNedir o?",
     "choices": [
       {
-        "text": "'Git, bu toprakların enine boyuna yürü, çünkü onu sana veriyorum'"
+        "text": "'Git, toprağın uzunluğunu ve genişliğini dolaş, çünkü onu sana veriyorum'",
+        "feedback": "Yaratılış 13:17 — 'Kalk, ülkeyi baştan başa dolaş, çünkü onu sana vereceğim.'"
       },
       {
-        "text": "'Tek bir yerde kal ve bir daha asla seyahat etme'"
+        "text": "'Tek bir yerde kal ve bir daha asla seyahat etme'",
+        "feedback": "Rab Abram'a ülkeyi dolaşmasını söyledi."
       },
       {
-        "text": "'Toprakları Kenanlılara geri ver'"
+        "text": "'Toprakları Kenanlılara geri ver'",
+        "feedback": "Rab toprakları Abram'a ve onun soyuna verdi."
       }
     ]
   },
   "altar": {
     "title": "Mamre'nin Ulu Ağaçları",
-    "text": "Böylece çadırlarını toplar ve Hebron'daki Mamre'nin ulu ağaçlarının yakınına yerleşirsin,\norada Rab'be bir sunak inşa edersin.",
+    "text": "Böylece çadırlarını toplar ve Hebron'daki Mamre'nin ulu ağaçlarının yanına yerleşirsin,\norada Rab'be bir sunak inşa edersin.",
     "choices": []
   }
 }

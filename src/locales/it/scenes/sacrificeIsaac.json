@@ -1,77 +1,92 @@
 {
-  "storyTitle": "Sacrificio di Isacco",
+  "storyTitle": "Il Sacrificio di Isacco",
   "start": {
     "title": "Dio Mette alla Prova Abramo",
     "text": "Dio ti chiama.\nCome rispondi?",
     "choices": [
       {
-        "text": "Rispondi: 'Eccomi'"
+        "text": "Risposta: 'Eccomi'",
+        "feedback": "Genesi 22:1 — Qualche tempo dopo, Dio mise alla prova Abramo. Gli disse: «Abramo!». Ed egli rispose: «Eccomi»."
       },
       {
-        "text": "Ignora la voce e torna a dormire"
+        "text": "Ignora la voce e torna a dormire",
+        "feedback": "Abramo rispose subito al Signore: «Eccomi»."
       },
       {
-        "text": "Chiedi prima di conoscere il nome del Signore"
+        "text": "Chiedi prima di conoscere il nome del Signore",
+        "feedback": "Abramo rispose semplicemente: «Eccomi»."
       }
     ]
   },
   "the_command": {
-    "title": "Prendi tuo Figlio",
+    "title": "Prendi Tuo Figlio",
     "text": "Dio pronuncia il comando.\nCosa dice?",
     "choices": [
       {
-        "text": "'Prendi tuo figlio, il tuo unico figlio, che ami — Isacco — e offrilo in olocausto su un monte che ti mostrerò'"
+        "text": "'Prendi tuo figlio, il tuo unico figlio, che ami — Isacco — e offrilo in olocausto su un monte che ti mostrerò'",
+        "feedback": "Genesi 22:2 — «Prendi ora tuo figlio, il tuo unico figlio, che ami, Isacco, e va' nel paese di Moria; offrilo là in olocausto sopra uno dei monti che ti dirò»."
       },
       {
-        "text": "'Prendi un agnello dal tuo gregge e offrilo qui'"
+        "text": "'Prendi un agnello dal tuo gregge e offrilo qui'",
+        "feedback": "Dio comandò ad Abramo di offrire Isacco, suo figlio."
       },
       {
-        "text": "'Costruisci un grande tempio a Beer-Sheba'"
+        "text": "'Costruisci un grande tempio a Beer-Sheba'",
+        "feedback": "Il comando di Dio era di offrire Isacco su un monte in Moria."
       }
     ]
   },
   "the_weight": {
-    "title": "La Mattina Presto del Giorno Dopo",
-    "text": "La mattina presto del giorno dopo ti prepari per il viaggio.\nCosa fai?",
+    "title": "La Mattina Dopo",
+    "text": "La mattina dopo ti prepari per il viaggio.\nCosa fai?",
     "choices": [
       {
-        "text": "Alzati presto, sella il tuo asino, prendi due servi e tuo figlio Isacco, e taglia abbastanza legna per l'olocausto"
+        "text": "Alzati presto, sella il tuo asino, prendi due servi e tuo figlio Isacco, e taglia abbastanza legna per l'olocausto",
+        "feedback": "Genesi 22:3 — Così Abramo si alzò la mattina presto, sellò il suo asino, prese con sé due dei suoi servi e suo figlio Isacco. Spaccò la legna per l'olocausto e si mise in viaggio."
       },
       {
-        "text": "Rifiuta di andare e rimani a Beer-Sheba"
+        "text": "Rifiuta di andare e rimani a Beer-Sheba",
+        "feedback": "Abramo obbedì subito a Dio, alzandosi la mattina presto."
       },
       {
-        "text": "Aspetta un segno prima di partire"
+        "text": "Aspetta un segno prima di partire",
+        "feedback": "Abramo partì immediatamente, senza aspettare."
       }
     ]
   },
   "departure": {
     "title": "Verso Moria",
-    "text": "Ti dirigi verso il luogo che Dio ti ha indicato.\nQuanto tempo viaggi?",
+    "text": "Viaggi verso il luogo che Dio ti ha indicato.\nQuanto tempo viaggi?",
     "choices": [
       {
-        "text": "Viaggia per tre giorni, finché non alzi lo sguardo e vedi il luogo in lontananza"
+        "text": "Viaggia per tre giorni, finché non alzi lo sguardo e vedi il luogo in lontananza",
+        "feedback": "Genesi 22:4 — Il terzo giorno Abramo alzò gli occhi e vide il luogo da lontano."
       },
       {
-        "text": "Viaggia solo un'ora prima di arrivare"
+        "text": "Viaggia solo un'ora prima di arrivare",
+        "feedback": "Il viaggio verso Moria durò tre giorni."
       },
       {
-        "text": "Viaggia per quarant'anni attraverso il deserto"
+        "text": "Viaggia per quarant'anni attraverso il deserto",
+        "feedback": "La Genesi dice che Abramo raggiunse il luogo il terzo giorno."
       }
     ]
   },
   "the_road": {
-    "title": "Rimani Qui con l'Asino",
+    "title": "Rimanete Qui Con l'Asino",
     "text": "Ti avvicini al monte.\nCosa dici ai servi?",
     "choices": [
       {
-        "text": "'Rimanete qui con l'asino mentre io e il ragazzo andiamo là. Adoreremo e poi torneremo da voi'"
+        "text": "'Rimanete qui con l'asino, mentre io e il ragazzo andremo fin là. Adoreremo e poi torneremo da voi'",
+        "feedback": "Genesi 22:5 — «Rimanete qui con l'asino; io e il ragazzo andremo fin là, adoreremo e poi torneremo da voi»"
       },
       {
-        "text": "'Venite con noi su per il monte a guardare'"
+        "text": "'Venite con noi sul monte a guardare'",
+        "feedback": "Abramo disse ai servi di aspettare con l'asino."
       },
       {
-        "text": "'Riportate l'asino a casa; non torneremo'"
+        "text": "'Riportate l'asino a casa; non torneremo'",
+        "feedback": "Abramo disse: «Torneremo da voi»"
       }
     ]
   },
@@ -80,58 +95,70 @@
     "text": "Ti prepari a salire sul monte.\nChi porta cosa?",
     "choices": [
       {
-        "text": "Poni la legna per l'olocausto sulle spalle di Isacco; porta tu stesso il fuoco e il coltello"
+        "text": "Poni la legna per l'olocausto sulle spalle di Isacco; porta tu stesso il fuoco e il coltello",
+        "feedback": "Genesi 22:6 — Abramo prese la legna per l'olocausto e la pose sul figlio Isacco, portando egli stesso il fuoco e il coltello."
       },
       {
-        "text": "Porta tu stesso la legna mentre Isacco non porta nulla"
+        "text": "Porta tu stesso la legna mentre Isacco non porta nulla",
+        "feedback": "Isacco portava la legna; Abramo portava il fuoco e il coltello."
       },
       {
-        "text": "Lascia la legna ai piedi del monte"
+        "text": "Lascia la legna ai piedi della montagna",
+        "feedback": "La legna per l'olocausto fu posta su Isacco."
       }
     ]
   },
   "leave_servants": {
     "title": "Padre",
-    "text": "Mentre camminate insieme, Isacco parla.\nCosa dice?",
+    "text": "Mentre camminate insieme, Isacco prende la parola.\nCosa dice?",
     "choices": [
       {
-        "text": "'Padre — il fuoco e la legna sono qui, ma dov'è l'agnello per l'olocausto?'"
+        "text": "'Padre — il fuoco e la legna sono qui, ma dov'è l'agnello per l'olocausto?'",
+        "feedback": "Genesi 22:7 — 'Padre, il fuoco e la legna sono qui, ma dov'è l'agnello per l'olocausto?'"
       },
       {
-        "text": "'Padre — torniamo subito a casa'"
+        "text": "'Padre — torniamo subito a casa'",
+        "feedback": "Isacco chiese dell'agnello per l'offerta."
       },
       {
-        "text": "Isacco non dice nulla per tutta la salita"
+        "text": "Isacco non dice nulla per tutta la salita",
+        "feedback": "La Genesi registra la domanda di Isacco riguardo all'agnello."
       }
     ]
   },
   "isaacs_question": {
     "title": "Dio provvederà",
-    "text": "Rispondi a Isacco.\nCosa dici?",
+    "text": "Tu rispondi a Isacco.\nCosa dici?",
     "choices": [
       {
-        "text": "'Dio stesso provvederà l'agnello per l'olocausto, figlio mio'"
+        "text": "'Dio stesso provvederà l'agnello per l'olocausto, figlio mio'",
+        "feedback": "Genesi 22:8 — 'Dio stesso provvederà l'agnello per l'olocausto, figlio mio.'"
       },
       {
-        "text": "'Tu sei l'agnello, Isacco'"
+        "text": "'Tu sei l'agnello, Isacco'",
+        "feedback": "Abramo disse a Isacco che Dio stesso avrebbe provveduto l'agnello."
       },
       {
-        "text": "'Non c'è nessun agnello — torniamo a casa adesso'"
+        "text": "'Non c'è nessun agnello — torniamo a casa adesso'",
+        "feedback": "Abramo rispose con fede: Dio avrebbe provveduto."
       }
     ]
   },
   "summit": {
     "title": "L'Altare",
-    "text": "Giungi al luogo che Dio ti ha indicato.\nCosa costruisci lì?",
+    "text": "Raggiungi il luogo di cui Dio ti ha parlato.\nCosa costruisci lì?",
     "choices": [
       {
-        "text": "Costruisci un altare, disponi la legna su di esso, lega Isacco e ponilo sull'altare, sopra la legna"
+        "text": "Costruisci un altare, disponi la legna su di esso, lega Isacco e ponilo sull'altare, sopra la legna",
+        "feedback": "Genesi 22:9 — Quando giunsero al luogo che Dio gli aveva indicato, Abramo vi costruì un altare e vi dispose la legna. Poi legò suo figlio Isacco e lo pose sull'altare, sopra la legna."
       },
       {
-        "text": "Costruisci invece un santuario a un altro dio"
+        "text": "Costruisci invece un santuario a un altro dio",
+        "feedback": "Abramo costruì un altare al Signore, esattamente come comandato."
       },
       {
-        "text": "Rifiuta di costruire qualsiasi cosa e torna indietro"
+        "text": "Rifiuta di costruire qualsiasi cosa e torna indietro",
+        "feedback": "Abramo obbedì e costruì l'altare."
       }
     ]
   },
@@ -140,13 +167,16 @@
     "text": "Isacco è legato sull'altare.\nCosa fai dopo?",
     "choices": [
       {
-        "text": "Stendi la mano e prendi il coltello per immolare tuo figlio"
+        "text": "Stendi la mano e prendi il coltello per immolare tuo figlio",
+        "feedback": "Genesi 22:10 — Poi stese la mano e prese il coltello per immolare suo figlio."
       },
       {
-        "text": "Metti da parte il coltello e rifiuta"
+        "text": "Metti da parte il coltello e rifiuta",
+        "feedback": "Abramo stese la mano con il coltello per obbedire pienamente a Dio."
       },
       {
-        "text": "Sciogli Isacco e fuggi giù per la montagna"
+        "text": "Sciogli Isacco e fuggi giù dalla montagna",
+        "feedback": "Abramo alzò il coltello in obbedienza; non fuggì."
       }
     ]
   },
@@ -155,28 +185,34 @@
     "text": "L'angelo del Signore ti chiama dal cielo.\nCosa dice?",
     "choices": [
       {
-        "text": "'Abramo! Abramo! Non stendere la mano sul ragazzo. Non fargli nulla'"
+        "text": "'Abramo! Abramo! Non stendere la mano sul ragazzo. Non fargli nulla'",
+        "feedback": "Genesi 22:11-12 — 'Abramo! Abramo!' 'Eccomi,' rispose. 'Non stendere la mano sul ragazzo,' disse. 'Non fargli nulla.'"
       },
       {
-        "text": "'Colpisci il ragazzo rapidamente — non indugiare'"
+        "text": "'Colpisci il ragazzo rapidamente — non indugiare'",
+        "feedback": "L'angelo impedì ad Abramo di fare del male a Isacco."
       },
       {
-        "text": "L'angelo non dice nulla"
+        "text": "L'angelo non dice assolutamente nulla",
+        "feedback": "L'angelo chiamò chiaramente e fermò Abramo."
       }
     ]
   },
   "the_stay": {
-    "title": "Ora So",
+    "title": "Ora so",
     "text": "L'angelo spiega perché sei stato fermato.\nCosa dice?",
     "choices": [
       {
-        "text": "'Ora so che tu temi Dio, perché non mi hai rifiutato tuo figlio, il tuo unico figlio'"
+        "text": "'Ora so che tu temi Dio, perché non mi hai rifiutato tuo figlio, il tuo unico figlio'",
+        "feedback": "Genesi 22:12 — 'Ora so che tu temi Dio, perché non mi hai rifiutato tuo figlio, il tuo unico figlio.'"
       },
       {
-        "text": "'Hai fallito la prova; torna a casa in vergogna'"
+        "text": "'Hai fallito la prova; torna a casa in disgrazia'",
+        "feedback": "L'angelo lodò l'obbedienza di Abramo."
       },
       {
-        "text": "'Isacco deve ancora morire; riprova domani'"
+        "text": "'Isacco deve ancora morire; riprova domani'",
+        "feedback": "L'angelo comandò ad Abramo di non fare del male a Isacco."
       }
     ]
   },
@@ -185,13 +221,16 @@
     "text": "Alzi lo sguardo.\nCosa vedi impigliato nel cespuglio?",
     "choices": [
       {
-        "text": "Un ariete impigliato per le corna in un cespuglio — lo prendi e lo offri come olocausto al posto di tuo figlio"
+        "text": "Un ariete impigliato per le corna in un cespuglio — lo prendi e lo offri in olocausto al posto di tuo figlio",
+        "feedback": "Genesi 22:13 — Abramo alzò gli occhi, ed ecco, dietro a sé, un ariete impigliato per le corna in un cespuglio. Abramo andò, prese l'ariete e lo offrì in olocausto invece di suo figlio."
       },
       {
-        "text": "Una colomba che vola sopra l'altare"
+        "text": "Una colomba che vola sopra l'altare",
+        "feedback": "Abramo vide un ariete impigliato per le corna in un cespuglio."
       },
       {
-        "text": "Assolutamente nulla — l'altare rimane vuoto"
+        "text": "Assolutamente nulla — l'altare rimane vuoto",
+        "feedback": "Dio provvide un ariete impigliato nel cespuglio."
       }
     ]
   },
@@ -200,13 +239,16 @@
     "text": "Dai un nome a quel luogo per ricordare ciò che è accaduto.\nChe nome gli dai?",
     "choices": [
       {
-        "text": "'Il Signore Provvederà' (Yahweh Yireh)"
+        "text": "'Il Signore Provvederà' (Yahweh Yireh)",
+        "feedback": "Genesi 22:14 — Così Abramo chiamò quel luogo 'Il Signore Provvederà'."
       },
       {
-        "text": "'Il Luogo del Dolore'"
+        "text": "'Il Luogo del Dolore'",
+        "feedback": "Abramo lo chiamò 'Il Signore Provvederà'."
       },
       {
-        "text": "'La Montagna del Fuoco'"
+        "text": "'La Montagna di Fuoco'",
+        "feedback": "Abramo chiamò il luogo 'Il Signore Provvederà'."
       }
     ]
   },
@@ -215,19 +257,22 @@
     "text": "L'angelo del Signore ti chiama una seconda volta dal cielo.\nQual è la promessa?",
     "choices": [
       {
-        "text": "'Ti benedirò grandemente e renderò la tua discendenza numerosa come le stelle del cielo e come la sabbia che è sul lido del mare; per mezzo della tua stirpe tutte le nazioni della terra saranno benedette'"
+        "text": "'Ti benedirò grandemente e moltiplicherò la tua discendenza come le stelle del cielo e come la sabbia che è sul lido del mare; per mezzo della tua discendenza saranno benedette tutte le nazioni della terra'",
+        "feedback": "Genesi 22:16-18 — 'Ho giurato per Me stesso... ti benedirò grandemente e moltiplicherò la tua discendenza come le stelle del cielo e come la sabbia che è sul lido del mare... e per mezzo della tua discendenza saranno benedette tutte le nazioni della terra, perché hai ubbidito alla Mia voce.'"
       },
       {
-        "text": "'La tua discendenza sarà scarsa e dimenticata'"
+        "text": "'La tua discendenza sarà scarsa e dimenticata'",
+        "feedback": "Il Signore promise una discendenza numerosa come le stelle e la sabbia."
       },
       {
-        "text": "'Perderai tutto ciò che hai come punizione'"
+        "text": "'Perderai tutto ciò che hai come punizione'",
+        "feedback": "Il Signore benedisse Abramo per la sua obbedienza."
       }
     ]
   },
   "homecoming": {
     "title": "Ritorno a Beer-Sheba",
-    "text": "Abramo torna dai suoi servi, e insieme partono per Beer-Sheba.\nE Abramo rimane a Beer-Sheba.",
+    "text": "Abramo torna dai suoi servi, e insieme si incamminano verso Beer-Sheba.\nE Abramo rimane a Beer-Sheba.",
     "choices": []
   }
 }

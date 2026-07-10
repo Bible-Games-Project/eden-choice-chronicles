@@ -5,13 +5,16 @@
     "text": "Du lebst in Haran mit deinem Vater Terach, deiner Frau Sarai und deinem Neffen Lot.\nDu bist fünfundsiebzig Jahre alt.",
     "choices": [
       {
-        "text": "Lebe als Abram in Haran, fünfundsiebzig Jahre alt"
+        "text": "Lebe als Abram in Haran, fünfundsiebzig Jahre alt",
+        "feedback": "Genesis 12,4 — Abram war fünfundsiebzig Jahre alt, als er aus Haran auszog."
       },
       {
-        "text": "Lebe als junger Mann in der Stadt Ur"
+        "text": "Lebe als junger Mann in der Stadt Ur",
+        "feedback": "Laut Genesis 12 hatte Abram Ur bereits verlassen und war fünfundsiebzig Jahre alt in Haran."
       },
       {
-        "text": "Lebe als König über eine große Nation"
+        "text": "Lebe als König über eine große Nation",
+        "feedback": "Die Genesis beschreibt Abram nicht als König; er war ein wandernder Hirte."
       }
     ]
   },
@@ -20,13 +23,16 @@
     "text": "Der Herr spricht zu dir.\nWas befiehlt Er?",
     "choices": [
       {
-        "text": "„Geh aus deinem Land, von deinen Verwandten und aus dem Haus deines Vaters in das Land, das ich dir zeigen werde.“"
+        "text": "„Geh aus deinem Land, von deinen Verwandten und aus deines Vaters Haus in das Land, das ich dir zeigen werde.“",
+        "feedback": "Genesis 12,1 — Der Herr sprach zu Abram: „Geh aus deinem Land, von deinen Verwandten und aus deines Vaters Haus in das Land, das ich dir zeigen werde.“"
       },
       {
-        "text": "„Bleibe in Haran und bete die Hausgötzen an.“"
+        "text": "„Bleibe in Haran und verehre die Hausgötzen.“",
+        "feedback": "Die Genesis sagt, der Herr habe Abram befohlen zu gehen, nicht zu bleiben."
       },
       {
-        "text": "„Baue mir hier in Haran einen Tempel.“"
+        "text": "„Baue mir hier in Haran einen Tempel.“",
+        "feedback": "Der Herr sagte Abram, er solle in ein Land gehen, das Er ihm zeigen würde."
       }
     ]
   },
@@ -35,43 +41,52 @@
     "text": "Der Herr fügt Seine Verheißung hinzu.\nWas sagt Er?",
     "choices": [
       {
-        "text": "„Ich will dich zu einem großen Volk machen und dich segnen; alle Völker auf Erden werden durch dich gesegnet sein.“"
+        "text": "„Ich will dich zu einem großen Volk machen und dich segnen; alle Völker der Erde sollen durch dich gesegnet werden.“",
+        "feedback": "Genesis 12,2-3 — „Ich will dich zu einem großen Volk machen, und alle Völker der Erde sollen durch dich gesegnet werden.“"
       },
       {
-        "text": "„Ich werde dir großen Reichtum geben, den du für dich behalten sollst.“"
+        "text": "„Ich werde dir großen Reichtum geben, den du für dich behalten sollst.“",
+        "feedback": "Die Verheißung war, dass alle Völker durch Abram gesegnet würden, nicht dass er Reichtümer horten würde."
       },
       {
-        "text": "„Du wirst ein langes Leben haben und keine Nachkommen.“"
+        "text": "„Du wirst ein langes Leben haben und keine Nachkommen.“",
+        "feedback": "Der Herr verhieß Abram ein großes Volk von Nachkommen."
       }
     ]
   },
   "telling_sarah": {
-    "title": "Dein Haushalt",
+    "title": "Dein Hausstand",
     "text": "Du musst deine Familie auf die Reise vorbereiten.\nWer geht mit dir?",
     "choices": [
       {
-        "text": "Nimm Sarai, deine Frau, und Lot, deinen Neffen, mit."
+        "text": "Nimm Sarai, deine Frau, und Lot, deinen Neffen, mit.",
+        "feedback": "Genesis 12,5 — Abram nahm seine Frau Sarai, seinen Neffen Lot und all den Besitz und die Leute, die sie in Haran erworben hatten."
       },
       {
-        "text": "Lass Sarai in Haran zurück."
+        "text": "Lass Sarai in Haran zurück.",
+        "feedback": "Die Genesis sagt, Abram habe Sarai mitgenommen."
       },
       {
-        "text": "Geh allein mit nur einem Wanderstab."
+        "text": "Geh allein mit nur einem Wanderstab.",
+        "feedback": "Die Genesis sagt, Abram sei mit seinem ganzen Hausstand, seinen Herden und seinem Besitz aufgebrochen."
       }
     ]
   },
   "preparing": {
     "title": "Was du trägst",
-    "text": "Du sammelst, was du auf die Reise mitnehmen wirst.\nWas nimmst du mit?",
+    "text": "Du sammelst, was du auf die Reise mitnehmen wirst.\nWas geht mit dir?",
     "choices": [
       {
-        "text": "Alle Besitztümer und Menschen, die du in Haran erworben hast."
+        "text": "All den Besitz und die Leute, die du in Haran erworben hast.",
+        "feedback": "Genesis 12,5 — Abram nahm all den Besitz und die Leute, die sie in Haran erworben hatten."
       },
       {
-        "text": "Nur einen kleinen Beutel Brot."
+        "text": "Nur einen kleinen Beutel Brot.",
+        "feedback": "Die Genesis sagt, Abram sei mit seinem ganzen Hausstand und Besitz aufgebrochen."
       },
       {
-        "text": "Einen goldenen Streitwagen vom König von Haran."
+        "text": "Ein goldener Streitwagen vom König von Haran.",
+        "feedback": "Die Genesis beschreibt keinen Streitwagen von irgendeinem König."
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "Die Zeit ist gekommen, aufzubrechen.\nWohin brichst du auf?",
     "choices": [
       {
-        "text": "Brich auf ins Land Kanaan."
+        "text": "Brich auf ins Land Kanaan.",
+        "feedback": "Genesis 12,5 — Sie zogen von Haran aus, um ins Land Kanaan zu gehen, und sie kamen dort an."
       },
       {
-        "text": "Brich auf nach Ägypten, um reich zu werden."
+        "text": "Brich nach Ägypten auf, um reich zu werden.",
+        "feedback": "Die Genesis sagt, Abram sei nach Kanaan aufgebrochen; Ägypten kam später, während einer Hungersnot."
       },
       {
-        "text": "Brich auf, ohne ein Ziel vor Augen zu haben."
+        "text": "Brich ohne bestimmtes Ziel auf.",
+        "feedback": "Der Herr hatte ein bestimmtes Land im Sinn – Kanaan."
       }
     ]
   },
@@ -95,13 +113,16 @@
     "text": "Du reist durch das Land Kanaan.\nWie weit gehst du?",
     "choices": [
       {
-        "text": "Reise bis zur großen Terebinthe Moreh bei Sichem."
+        "text": "Reise bis zur großen Terebinthe von More bei Sichem",
+        "feedback": "1. Mose 12,6 — Abram zog durch das Land bis zur Stätte Sichem, zum Hain Mores."
       },
       {
-        "text": "Kehre auf halbem Weg nach Haran zurück."
+        "text": "Kehre auf halbem Weg nach Haran zurück",
+        "feedback": "Die Genesis sagt, Abram kam in Kanaan an."
       },
       {
-        "text": "Überquere das Meer zu einer fernen Insel."
+        "text": "Überquere das Meer zu einer fernen Insel",
+        "feedback": "Die Genesis sagt, Abram reiste auf dem Landweg nach Kanaan."
       }
     ]
   },
@@ -110,49 +131,58 @@
     "text": "In Sichem erscheint dir der Herr.\nWas sagt Er?",
     "choices": [
       {
-        "text": "„Deinen Nachkommen will ich dieses Land geben.“"
+        "text": "„Deinen Nachkommen will ich dieses Land geben“",
+        "feedback": "1. Mose 12,7 — Da erschien der Herr dem Abram und sprach: „Deinen Nachkommen will ich dieses Land geben.“"
       },
       {
-        "text": "„Dieses Land gehört für immer einem anderen Volk.“"
+        "text": "„Dieses Land gehört für immer einem anderen Volk“",
+        "feedback": "Der Herr versprach das Land Abrams Nachkommen."
       },
       {
-        "text": "„Kehre nach Haran zurück; es war falsch von dir zu kommen.“"
+        "text": "„Kehre nach Haran zurück; es war falsch von dir zu kommen“",
+        "feedback": "Der Herr bestätigte das Versprechen in Kanaan, schickte Abram nicht zurück."
       }
     ]
   },
   "stargazing": {
     "title": "In Sichem",
-    "text": "Du hast die Verheißung gehört. Was tust du in Sichem?",
+    "text": "Du hast das Versprechen gehört. Was tust du in Sichem?",
     "choices": [
       {
-        "text": "Baue dort einen Altar dem Herrn, der dir erschienen ist."
+        "text": "Baue dort dem Herrn, der dir erschienen ist, einen Altar",
+        "feedback": "1. Mose 12,7 — Und Abram baute dort dem Herrn, der ihm erschienen war, einen Altar."
       },
       {
-        "text": "Baue dir einen Palast aus Zedernholz."
+        "text": "Baue dir einen Palast aus Zedernholz",
+        "feedback": "Die Genesis sagt, Abram baute einen Altar, keinen Palast."
       },
       {
-        "text": "Sage nichts und ziehe schnell weiter."
+        "text": "Sage nichts und ziehe schnell weiter",
+        "feedback": "Die Genesis sagt, Abram betete an, indem er in Sichem einen Altar baute."
       }
     ]
   },
   "canaan_arrival": {
     "title": "Zwischen Bethel und Ai",
-    "text": "Du ziehst von Sichem in die Hügel.\nWo schlägst du dein Zelt auf?",
+    "text": "Du ziehst von Sichem weiter in die Hügel.\nWo hältst du an und schlägst dein Zelt auf?",
     "choices": [
       {
-        "text": "Schlage dein Zelt in den Hügeln zwischen Bethel und Ai auf und baue einen weiteren Altar."
+        "text": "Schlage dein Zelt in den Hügeln zwischen Bethel und Ai auf und baue einen weiteren Altar",
+        "feedback": "1. Mose 12,8 — Und er brach von dort auf zu dem Gebirge östlich von Bethel und schlug sein Zelt auf, sodass Bethel im Westen und Ai im Osten lag; und er baute dort dem Herrn einen Altar und rief den Namen des Herrn an."
       },
       {
-        "text": "Schlage dein Zelt in der Stadt Sodom auf."
+        "text": "Schlage dein Zelt in der Stadt Sodom auf",
+        "feedback": "Die Genesis sagt, Abram schlug sein Zelt zwischen Bethel und Ai auf."
       },
       {
-        "text": "Fahre über den Fluss zurück nach Haran"
+        "text": "Segle über den Fluss zurück nach Haran",
+        "feedback": "Die Genesis sagt, Abram zog weiter südwärts durch Kanaan."
       }
     ]
   },
   "altar": {
     "title": "Den Namen des Herrn anrufen",
-    "text": "Du rufst den Namen des Herrn an deinem neuen Altar an.\nDie Verheißung einer großen Nation begleitet dich auf deiner Reise in den Negev.",
+    "text": "Du rufst den Namen des Herrn an deinem neuen Altar an.\nDas Versprechen einer großen Nation begleitet dich auf deiner Reise in den Negev.",
     "choices": []
   }
 }

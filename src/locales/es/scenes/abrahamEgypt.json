@@ -5,13 +5,16 @@
     "text": "Una hambruna severa golpea la tierra de Canaán.\n¿Qué haces?",
     "choices": [
       {
-        "text": "Baja a Egipto para vivir allí como extranjero por un tiempo"
+        "text": "Desciende a Egipto para vivir allí como extranjero por un tiempo",
+        "feedback": "Génesis 12:10 — Hubo entonces hambre en la tierra, y descendió Abram a Egipto para morar allá; porque era grande el hambre en la tierra."
       },
       {
-        "text": "Navega por el mar a una isla lejana"
+        "text": "Navega a través del mar a una isla lejana",
+        "feedback": "Génesis dice que Abram descendió a Egipto durante la hambruna."
       },
       {
-        "text": "Quédate en Canaán y lidera un ejército"
+        "text": "Quédate en Canaán y lidera un ejército",
+        "feedback": "Génesis dice que Abram fue a Egipto debido a la hambruna."
       }
     ]
   },
@@ -20,28 +23,34 @@
     "text": "Estás a punto de entrar en Egipto.\n¿Qué le dices a tu esposa Sarai?",
     "choices": [
       {
-        "text": "«Sé lo hermosa que eres; los egipcios me matarán para tomarte»"
+        "text": "«Sé que eres una mujer hermosa; los egipcios me matarán para tomarte»",
+        "feedback": "Génesis 12:11-12 — «Sé que eres una mujer hermosa. Cuando los egipcios te vean, dirán: “Es su mujer”; y a mí me matarán, y a ti te dejarán viva»."
       },
       {
-        "text": "«El Señor nos protegerá; no tenemos nada que temer»"
+        "text": "«El Señor nos protegerá; no tenemos nada que temer»",
+        "feedback": "Génesis dice que Abram tuvo miedo y no confió abiertamente; ideó un plan."
       },
       {
-        "text": "No le digas nada a Sarai"
+        "text": "No le digas nada a Sarai",
+        "feedback": "Génesis registra las palabras que Abram le dijo a Sarai sobre su miedo."
       }
     ]
   },
   "fear_rises": {
     "title": "La petición",
-    "text": "Le pides a Sarai que haga algo para proteger tu vida.\n¿Qué es?",
+    "text": "Pides a Sarai que haga algo para proteger tu vida.\n¿Qué es?",
     "choices": [
       {
-        "text": "«Di que eres mi hermana, para que me traten bien por causa tuya»"
+        "text": "«Di que eres mi hermana, para que me traten bien por causa tuya»",
+        "feedback": "Génesis 12:13 — «Di, por favor, que eres mi hermana, para que por causa tuya me vaya bien y salve yo la vida por ti»."
       },
       {
-        "text": "«Di que eres mi madre, para que nadie se dé cuenta»"
+        "text": "«Di que eres mi madre, para que nadie se dé cuenta»",
+        "feedback": "Abram pidió a Sarai que dijera que era su hermana."
       },
       {
-        "text": "«Di que somos extraños que nunca se han conocido»"
+        "text": "«Di que somos extraños que nunca se han conocido»",
+        "feedback": "La media verdad de Abram fue llamarla su hermana."
       }
     ]
   },
@@ -50,13 +59,16 @@
     "text": "Llegas a Egipto.\n¿Cómo responden los egipcios a Sarai?",
     "choices": [
       {
-        "text": "Los egipcios ven que es muy hermosa"
+        "text": "Los egipcios ven que es muy hermosa",
+        "feedback": "Génesis 12:14 — Y sucedió que, cuando Abram entró en Egipto, los egipcios vieron que la mujer era muy hermosa."
       },
       {
-        "text": "Los egipcios la ignoran por completo"
+        "text": "Los egipcios la ignoran por completo",
+        "feedback": "Génesis dice que los egipcios notaron lo hermosa que era."
       },
       {
-        "text": "Los egipcios la echan de la ciudad"
+        "text": "Los egipcios la echan de la ciudad",
+        "feedback": "Los egipcios alabaron su belleza; no la echaron."
       }
     ]
   },
@@ -65,13 +77,16 @@
     "text": "Los oficiales del faraón ven a Sarai.\n¿Qué hacen?",
     "choices": [
       {
-        "text": "La alaban ante el faraón, y ella es llevada a su palacio"
+        "text": "La alaban ante el faraón, y ella es llevada a su palacio",
+        "feedback": "Génesis 12:15 — La vieron los oficiales del faraón y la alabaron ante él; y la mujer fue llevada a la casa del faraón."
       },
       {
-        "text": "Expulsan a Abram de Egipto de inmediato"
+        "text": "Expulsan a Abram de Egipto de inmediato",
+        "feedback": "Génesis dice que Sarai fue llevada al palacio del faraón, no que Abram fuera expulsado."
       },
       {
-        "text": "La ignoran y no le prestan atención"
+        "text": "La ignoran y no le prestan atención",
+        "feedback": "Los oficiales del faraón alabaron su belleza al rey."
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "Por causa de Sarai, el faraón te trata bien.\n¿Cómo trata a Abram?",
     "choices": [
       {
-        "text": "Te da ovejas, ganado, asnos, siervos y camellos"
+        "text": "Te da ovejas, ganado, asnos, siervos y camellos",
+        "feedback": "Génesis 12:16 — Y a Abram le fue bien por causa de ella; y tuvo ovejas, vacas, asnos, siervos, siervas y camellos."
       },
       {
-        "text": "Mete a Abram en prisión"
+        "text": "Pone a Abram en prisión",
+        "feedback": "Génesis dice que el faraón dio a Abram muchos regalos por causa de Sarai."
       },
       {
-        "text": "No le da nada a Abram"
+        "text": "No le da nada a Abram",
+        "feedback": "Génesis enumera los muchos regalos que recibió Abram."
       }
     ]
   },
@@ -95,13 +113,16 @@
     "text": "El Señor no permanece en silencio.\n¿Qué hace por causa de Sarai?",
     "choices": [
       {
-        "text": "El Señor inflige enfermedades graves al faraón y a su casa"
+        "text": "El Señor aflige con graves enfermedades al faraón y a su casa",
+        "feedback": "Génesis 12:17 — Pero el Señor hirió al faraón con grandes plagas, y a su casa, por causa de Sarai, mujer de Abram."
       },
       {
-        "text": "El Señor envía fuego sobre Egipto"
+        "text": "El Señor envía fuego sobre Egipto",
+        "feedback": "Génesis dice que el Señor envió graves enfermedades, no fuego."
       },
       {
-        "text": "El Señor permanece en silencio"
+        "text": "El Señor permanece en silencio",
+        "feedback": "Génesis dice que el Señor actuó; hirió la casa del faraón."
       }
     ]
   },
@@ -110,13 +131,16 @@
     "text": "El faraón te llama.\n¿Qué dice?",
     "choices": [
       {
-        "text": "«¿Qué me has hecho? ¿Por qué no me dijiste que era tu esposa?»"
+        "text": "«¿Qué me has hecho? ¿Por qué no me dijiste que era tu mujer?»",
+        "feedback": "Génesis 12:18 — «¿Qué es esto que me has hecho? ¿Por qué no me declaraste que era tu mujer?»"
       },
       {
-        "text": "«Gracias por tus regalos; por favor, quédate»"
+        "text": "«Gracias por tus regalos, por favor, quédate»",
+        "feedback": "El faraón reprendió a Abram; no le dio las gracias."
       },
       {
-        "text": "«Sarai permanecerá en mi casa para siempre»"
+        "text": "«Sarai permanecerá en mi casa para siempre»",
+        "feedback": "El faraón devolvió a Sarai a Abram."
       }
     ]
   },
@@ -125,28 +149,34 @@
     "text": "El faraón da su orden.\n¿Qué manda?",
     "choices": [
       {
-        "text": "«¡Aquí está tu esposa. Tómala y vete!»"
+        "text": "«Aquí tienes a tu mujer. ¡Tómala y vete!»",
+        "feedback": "Génesis 12:19 — «Ahora pues, aquí tienes a tu mujer. ¡Tómala y vete!»"
       },
       {
-        "text": "«Debes permanecer aquí como mi siervo para siempre»"
+        "text": "«Debes quedarte aquí como mi siervo para siempre»",
+        "feedback": "Faraón despidió a Abram con Sarai."
       },
       {
-        "text": "«Me quedaré con Sarai y tú puedes regresar a Canaán solo»"
+        "text": "«Me quedaré con Sarai y tú puedes regresar solo a Canaán»",
+        "feedback": "Faraón devolvió a Sarai a Abram."
       }
     ]
   },
   "confronted": {
-    "title": "Escoltado fuera",
+    "title": "Escoltado",
     "text": "Faraón da órdenes sobre ti.\n¿Qué sucede?",
     "choices": [
       {
-        "text": "Los hombres del Faraón te despiden, con tu esposa y todo lo que tienes"
+        "text": "Los hombres de Faraón te despiden, con tu mujer y todo lo que tienes",
+        "feedback": "Génesis 12:20 — Entonces Faraón dio órdenes a sus hombres acerca de Abram, y lo despidieron a él, a su mujer y a todo lo que tenía."
       },
       {
-        "text": "Los hombres del Faraón te despojan de todas tus posesiones"
+        "text": "Los hombres de Faraón te despojan de todas tus posesiones",
+        "feedback": "Génesis dice que Abram se fue con su mujer y todo lo que tenía."
       },
       {
-        "text": "Los hombres del Faraón te encadenan"
+        "text": "Los hombres de Faraón te encadenan",
+        "feedback": "Génesis dice que los hombres de Faraón despidieron a Abram en paz."
       }
     ]
   },
@@ -155,18 +185,21 @@
     "text": "Sales de Egipto.\n¿Adónde vas?",
     "choices": [
       {
-        "text": "Sube de Egipto al Neguev, con tu esposa y todo lo que tienes"
+        "text": "Sube de Egipto al Neguev, con tu mujer y todo lo que tienes",
+        "feedback": "Génesis 13:1 — Así que Abram subió de Egipto al Neguev, con su mujer y todo lo que tenía, y Lot fue con él."
       },
       {
-        "text": "Quédate en Egipto y establécete allí para siempre"
+        "text": "Quédate en Egipto y establécete allí para siempre",
+        "feedback": "Génesis dice que Abram subió de Egipto."
       },
       {
-        "text": "Ve al este a través del desierto hacia Asiria"
+        "text": "Ve al este a través del desierto hacia Asiria",
+        "feedback": "Génesis dice que Abram regresó al Neguev, en la tierra prometida."
       }
     ]
   },
   "altar": {
-    "title": "De vuelta al Altar",
+    "title": "De vuelta al altar",
     "text": "Regresas al lugar entre Betel y Hai,\nal altar que habías construido al principio, y allí invocas el nombre del Señor.",
     "choices": []
   }

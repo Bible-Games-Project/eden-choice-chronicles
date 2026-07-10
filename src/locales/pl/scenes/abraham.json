@@ -2,16 +2,19 @@
   "storyTitle": "Powołanie Abrahama",
   "start": {
     "title": "Życie w Haranie",
-    "text": "Mieszkasz w Haranie ze swoim ojcem Terachem, swoją żoną Saraj i swoim bratankiem Lotem.\nMasz siedemdziesiąt pięć lat.",
+    "text": "Mieszkasz w Haranie ze swoim ojcem Terachem, żoną Saraj i bratankiem Lotem.\nMasz siedemdziesiąt pięć lat.",
     "choices": [
       {
-        "text": "Żyj jako Abram w Haranie, mając siedemdziesiąt pięć lat"
+        "text": "Żyj jako Abram w Haranie, w wieku siedemdziesięciu pięciu lat",
+        "feedback": "Księga Rodzaju 12:4 — Abram miał siedemdziesiąt pięć lat, gdy opuścił Haran."
       },
       {
-        "text": "Żyj jako młody człowiek w mieście Ur"
+        "text": "Żyj jako młody człowiek w mieście Ur",
+        "feedback": "Według Księgi Rodzaju 12, Abram opuścił już Ur i był w Haranie, w wieku siedemdziesięciu pięciu lat."
       },
       {
-        "text": "Żyj jako król nad wielkim narodem"
+        "text": "Żyj jako król wielkiego narodu",
+        "feedback": "Księga Rodzaju nie opisuje Abrama jako króla; był wędrownym pasterzem."
       }
     ]
   },
@@ -20,13 +23,16 @@
     "text": "Pan przemawia do ciebie.\nCo On nakazuje?",
     "choices": [
       {
-        "text": "„Wyjdź z twojej ziemi, od twoich krewnych i z domu twego ojca do ziemi, którą ci wskażę”"
+        "text": "„Wyjdź z twojej ziemi, od twoich krewnych i z domu twego ojca do ziemi, którą ci wskażę”",
+        "feedback": "Księga Rodzaju 12:1 — Pan rzekł do Abrama: „Wyjdź z twojej ziemi, od twoich krewnych i z domu twego ojca do ziemi, którą ci wskażę”."
       },
       {
-        "text": "„Pozostań w Haranie i czcij domowe bożki”"
+        "text": "„Pozostań w Haranie i czcij domowe bożki”",
+        "feedback": "Księga Rodzaju mówi, że Pan kazał Abramowi odejść, a nie zostać."
       },
       {
-        "text": "„Zbuduj Mi tu w Haranie świątynię”"
+        "text": "„Zbuduj Mi tu w Haranie świątynię”",
+        "feedback": "Pan kazał Abramowi udać się do ziemi, którą mu wskaże."
       }
     ]
   },
@@ -35,13 +41,16 @@
     "text": "Pan dodaje swoją obietnicę.\nCo On mówi?",
     "choices": [
       {
-        "text": "„Uczynię cię wielkim narodem i będę ci błogosławił; wszystkie narody ziemi będą błogosławione przez ciebie”"
+        "text": "„Uczynię cię wielkim narodem i będę ci błogosławił; wszystkie narody ziemi będą przez ciebie błogosławione”",
+        "feedback": "Księga Rodzaju 12:2-3 — „Uczynię cię wielkim narodem, a wszystkie narody ziemi będą przez ciebie błogosławione”."
       },
       {
-        "text": "„Dam ci wielkie bogactwa, abyś je zachował dla siebie”"
+        "text": "„Dam ci wielkie bogactwa, abyś je zachował dla siebie”",
+        "feedback": "Obietnica dotyczyła tego, że wszystkie narody będą błogosławione przez Abrama, a nie że będzie on gromadził bogactwa."
       },
       {
-        "text": "„Będziesz miał długie życie i żadnych potomków”"
+        "text": "„Będziesz miał długie życie i żadnych potomków”",
+        "feedback": "Pan obiecał Abramowi wielki naród potomków."
       }
     ]
   },
@@ -50,28 +59,34 @@
     "text": "Musisz przygotować swoją rodzinę do podróży.\nKto idzie z tobą?",
     "choices": [
       {
-        "text": "Zabierz Saraj, swoją żonę, i Lota, swojego bratanka"
+        "text": "Zabierz Saraj, swoją żonę, i Lota, swojego bratanka",
+        "feedback": "Księga Rodzaju 12:5 — Abram zabrał swoją żonę Saraj, swojego bratanka Lota oraz cały dobytek i ludzi, których nabyli w Haranie."
       },
       {
-        "text": "Zostaw Saraj w Haranie"
+        "text": "Zostaw Saraj w Haranie",
+        "feedback": "Księga Rodzaju mówi, że Abram zabrał Saraj ze sobą."
       },
       {
-        "text": "Idź sam, tylko z laską"
+        "text": "Idź sam, tylko z laską",
+        "feedback": "Księga Rodzaju mówi, że Abram zabrał swoje domostwo, stada i dobytek."
       }
     ]
   },
   "preparing": {
-    "title": "Co Niesiesz",
+    "title": "Co zabierasz",
     "text": "Zbierasz to, co zabierzesz w podróż.\nCo idzie z tobą?",
     "choices": [
       {
-        "text": "Cały dobytek i ludzi, których nabyłeś w Haranie"
+        "text": "Cały dobytek i ludzi, których nabyliście w Haranie",
+        "feedback": "Księga Rodzaju 12:5 — Abram zabrał cały dobytek i ludzi, których nabyli w Haranie."
       },
       {
-        "text": "Tylko mała torba chleba"
+        "text": "Tylko mała torba chleba",
+        "feedback": "Księga Rodzaju mówi, że Abram wyruszył z całym swoim domostwem i dobytkiem."
       },
       {
-        "text": "Złoty rydwan od króla Haranu"
+        "text": "Złoty rydwan od króla Haranu",
+        "feedback": "Księga Rodzaju nie opisuje rydwanu od żadnego króla."
       }
     ]
   },
@@ -80,43 +95,52 @@
     "text": "Nadszedł czas, aby wyruszyć.\nDokąd wyruszasz?",
     "choices": [
       {
-        "text": "Wyrusz do ziemi Kanaan"
+        "text": "Wyrusz do ziemi Kanaan",
+        "feedback": "Księga Rodzaju 12:5 — Wyruszyli z Haranu, aby udać się do ziemi Kanaan, i tam dotarli."
       },
       {
-        "text": "Wyrusz do Egiptu, aby się wzbogacić"
+        "text": "Wyrusz do Egiptu, aby się wzbogacić",
+        "feedback": "Księga Rodzaju mówi, że Abram wyruszył do Kanaanu; Egipt przyszedł później, podczas głodu."
       },
       {
-        "text": "Wyrusz bez określonego celu"
+        "text": "Wyrusz bez określonego celu",
+        "feedback": "Pan miał na myśli konkretną ziemię — Kanaan."
       }
     ]
   },
   "the_road": {
     "title": "Do Ziemi",
-    "text": "Podróżujesz przez ziemię Kanaan.\nJak daleko idziesz?",
+    "text": "Podróżujesz przez ziemię Kanaan.\nJak daleko się posuniesz?",
     "choices": [
       {
-        "text": "Podróżuj aż do wielkiego dębu More w Sychem"
+        "text": "Podróżuj aż do wielkiego dębu More w Sychem",
+        "feedback": "Księga Rodzaju 12:6 — Abram przeszedł przez kraj aż do miejsca, gdzie stał wielki dąb More w Sychem."
       },
       {
-        "text": "Wróć do Haranu w połowie drogi"
+        "text": "Wróć do Haranu w połowie drogi",
+        "feedback": "Księga Rodzaju mówi, że Abram przybył do Kanaanu."
       },
       {
-        "text": "Przepłyń morze na odległą wyspę"
+        "text": "Przepłyń morze na odległą wyspę",
+        "feedback": "Księga Rodzaju mówi, że Abram podróżował lądem do Kanaanu."
       }
     ]
   },
   "doubt_night": {
-    "title": "Pan się Ukazuje",
+    "title": "Pan się ukazuje",
     "text": "W Sychem Pan ukazuje się tobie.\nCo On mówi?",
     "choices": [
       {
-        "text": "„Twojemu potomstwu dam tę ziemię”"
+        "text": "„Twojemu potomstwu dam tę ziemię”",
+        "feedback": "Księga Rodzaju 12:7 — Pan ukazał się Abramowi i powiedział: „Twojemu potomstwu dam tę ziemię”."
       },
       {
-        "text": "„Ta ziemia należy do innego ludu na zawsze”"
+        "text": "„Ta ziemia należy do innego ludu na zawsze”",
+        "feedback": "Pan obiecał ziemię potomstwu Abrama."
       },
       {
-        "text": "„Wróć do Haranu; źle zrobiłeś, przychodząc”"
+        "text": "„Wróć do Haranu; źle zrobiłeś, że przyszedłeś”",
+        "feedback": "Pan potwierdził obietnicę w Kanaan, a nie odesłał Abrama z powrotem."
       }
     ]
   },
@@ -125,34 +149,40 @@
     "text": "Usłyszałeś obietnicę. Co robisz w Sychem?",
     "choices": [
       {
-        "text": "Zbuduj tam ołtarz Panu, który ci się ukazał"
+        "text": "Zbuduj tam ołtarz dla Pana, który ci się ukazał",
+        "feedback": "Księga Rodzaju 12:7 — Abram zbudował tam ołtarz dla Pana, który mu się ukazał."
       },
       {
-        "text": "Zbuduj sobie pałac z cedru"
+        "text": "Zbuduj sobie pałac z cedru",
+        "feedback": "Księga Rodzaju mówi, że Abram zbudował ołtarz, a nie pałac."
       },
       {
-        "text": "Nic nie mów i szybko idź dalej"
+        "text": "Nic nie mów i szybko idź dalej",
+        "feedback": "Księga Rodzaju mówi, że Abram oddawał cześć, budując ołtarz w Sychem."
       }
     ]
   },
   "canaan_arrival": {
     "title": "Między Betel a Aj",
-    "text": "Wyruszasz z Sychem w góry.\nGdzie zatrzymujesz się i rozbijasz swój namiot?",
+    "text": "Wyruszasz z Sychem w góry.\nGdzie się zatrzymujesz i rozbijasz namiot?",
     "choices": [
       {
-        "text": "Rozbij swój namiot w górach między Betel a Aj i zbuduj kolejny ołtarz"
+        "text": "Rozbij namiot w górach między Betel a Aj i zbuduj kolejny ołtarz",
+        "feedback": "Księga Rodzaju 12:8 — Stamtąd Abram wyruszył w góry na wschód od Betel i rozbił swój namiot, mając Betel na zachodzie i Aj na wschodzie; tam zbudował ołtarz i wzywał imienia Pana."
       },
       {
-        "text": "Rozbij swój namiot w mieście Sodoma"
+        "text": "Rozbij namiot w mieście Sodoma",
+        "feedback": "Księga Rodzaju mówi, że Abram rozbił namiot między Betel a Aj."
       },
       {
-        "text": "Wróć przez rzekę do Haranu"
+        "text": "Przepłyń z powrotem przez rzekę do Haranu",
+        "feedback": "Księga Rodzaju mówi, że Abram kontynuował podróż na południe przez Kanaan."
       }
     ]
   },
   "altar": {
     "title": "Wzywanie Imienia Pana",
-    "text": "Wzywasz imienia Pana przy swoim nowym ołtarzu.\nObietnica wielkiego narodu towarzyszy ci w drodze do Negebu.",
+    "text": "Wzywasz imienia Pana przy swoim nowym ołtarzu.\nObietnica wielkiego narodu towarzyszy ci w podróży w kierunku Negebu.",
     "choices": []
   }
 }

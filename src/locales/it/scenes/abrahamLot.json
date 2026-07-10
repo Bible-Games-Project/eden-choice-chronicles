@@ -5,13 +5,16 @@
     "text": "Torni dall'Egitto al Neghev, e poi sulle colline tra Betel e Ai.\nQuanto sei ricco ora?",
     "choices": [
       {
-        "text": "Molto ricco — in bestiame, argento e oro"
+        "text": "Molto ricco — in bestiame, argento e oro",
+        "feedback": "Genesi 13:2 — Abram era diventato molto ricco in bestiame, in argento e in oro."
       },
       {
-        "text": "Povero e a mani vuote dal viaggio"
+        "text": "Povero e a mani vuote dal viaggio",
+        "feedback": "La Genesi dice che Abram uscì dall'Egitto molto ricco."
       },
       {
-        "text": "Come prima, senza alcun cambiamento"
+        "text": "Lo stesso di prima, senza cambiamenti",
+        "feedback": "La Genesi dice che Abram era diventato molto ricco."
       }
     ]
   },
@@ -20,58 +23,70 @@
     "text": "Sia tu che tuo nipote Lot avete greggi, mandrie e tende.\nQual è il problema?",
     "choices": [
       {
-        "text": "La terra non può sostenervi entrambi insieme, poiché i vostri beni sono troppo grandi"
+        "text": "La terra non può sostenervi entrambi insieme, poiché i vostri beni sono troppo grandi",
+        "feedback": "Genesi 13:6 — La terra non poteva sostenerli mentre rimanevano insieme, poiché i loro beni erano così grandi."
       },
       {
-        "text": "Hai troppo poco bestiame per sfamare chiunque"
+        "text": "Hai troppo poco bestiame per sfamare chiunque",
+        "feedback": "Il problema era troppo bestiame per la terra, non troppo poco."
       },
       {
-        "text": "Un grande nemico sta attaccando entrambi gli accampamenti"
+        "text": "Un grande nemico sta attaccando entrambi gli accampamenti",
+        "feedback": "La Genesi dice che la tensione derivava da greggi affollate, non dalla guerra."
       }
     ]
   },
   "quarrel": {
     "title": "Contesa Tra i Pastori",
-    "text": "Scoppia il problema.\nCosa succede?",
+    "text": "Scoppia un problema.\nCosa succede?",
     "choices": [
       {
-        "text": "Scoppia una lite tra i tuoi pastori e i pastori di Lot"
+        "text": "Scoppia una contesa tra i tuoi pastori e i pastori di Lot",
+        "feedback": "Genesi 13:7 — E sorse una contesa tra i pastori di Abram e i pastori di Lot."
       },
       {
-        "text": "Pace e gioia si diffondono in entrambi gli accampamenti"
+        "text": "Pace e gioia si diffondono in entrambi gli accampamenti",
+        "feedback": "La Genesi dice che scoppiarono liti tra i pastori."
       },
       {
-        "text": "I pastori di Lot se ne vanno senza dire una parola"
+        "text": "I pastori di Lot se ne vanno senza dire una parola",
+        "feedback": "La Genesi dice che litigarono, non che se ne andarono semplicemente."
       }
     ]
   },
   "decision": {
-    "title": "Parli a Lot",
+    "title": "Parli con Lot",
     "text": "Vuoi porre fine alla contesa.\nCosa dici a Lot?",
     "choices": [
       {
-        "text": "'Non ci sia contesa tra me e te — siamo parenti stretti'"
+        "text": "'Non ci sia contesa tra me e te, perché siamo parenti stretti'",
+        "feedback": "Genesi 13:8 — 'Ti prego, non ci sia contesa fra me e te, né fra i miei pastori e i tuoi, perché siamo fratelli.'"
       },
       {
-        "text": "'Devi partire subito — non sei al mio pari'"
+        "text": "'Devi andartene subito, non sei alla mia altezza'",
+        "feedback": "Abramo parlò gentilmente, appellandosi al loro legame familiare."
       },
       {
-        "text": "Non dire nulla e scaccia Lot"
+        "text": "Non dire nulla e scaccia Lot",
+        "feedback": "La Genesi registra le parole pacifiche di Abramo a Lot."
       }
     ]
   },
   "offering": {
     "title": "Prima Scelta",
-    "text": "Offri a Lot una scelta.\nCosa dici?",
+    "text": "Offri una scelta a Lot.\nCosa dici?",
     "choices": [
       {
-        "text": "'Se tu vai a sinistra, io andrò a destra; se tu vai a destra, io andrò a sinistra'"
+        "text": "'Se tu vai a sinistra, io andrò a destra; se tu vai a destra, io andrò a sinistra'",
+        "feedback": "Genesi 13:9 — 'Se tu vai a sinistra, io andrò a destra; se tu vai a destra, io andrò a sinistra.'"
       },
       {
-        "text": "'Io sono il più anziano — sceglierò per primo'"
+        "text": "'Sono il più anziano, sceglierò per primo'",
+        "feedback": "Abramo lasciò che Lot scegliesse per primo, sebbene fosse il più anziano."
       },
       {
-        "text": "'Rimarremo entrambi qui e condivideremo ogni pozzo'"
+        "text": "'Resteremo entrambi qui e condivideremo ogni pozzo'",
+        "feedback": "Abramo propose di separarsi, affinché la contesa finisse."
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "Lot si guarda intorno nella terra.\nCosa sceglie?",
     "choices": [
       {
-        "text": "Lot sceglie tutta la pianura del Giordano, ben irrigata come il giardino del Signore"
+        "text": "Lot sceglie tutta la pianura del Giordano, ben irrigata come il giardino del Signore",
+        "feedback": "Genesi 13:10-11 — Lot alzò gli occhi e vide che tutta la pianura del Giordano era ben irrigata, come il giardino del Signore; così Lot scelse per sé tutta la pianura del Giordano."
       },
       {
-        "text": "Lot sceglie la regione collinare arida"
+        "text": "Lot sceglie la regione montuosa arida",
+        "feedback": "Lot scelse la pianura ben irrigata del Giordano."
       },
       {
-        "text": "Lot si rifiuta di scegliere e rimane con Abramo"
+        "text": "Lot si rifiuta di scegliere e rimane con Abramo",
+        "feedback": "La Genesi dice che Lot scelse la pianura del Giordano e si separò da Abramo."
       }
     ]
   },
@@ -95,63 +113,75 @@
     "text": "Tu e Lot vi separate.\nDove va Lot?",
     "choices": [
       {
-        "text": "Lot si dirige verso est e pianta le sue tende vicino a Sodoma"
+        "text": "Lot si dirige verso est e pianta le sue tende vicino a Sodoma",
+        "feedback": "Genesi 13:11-12 — Lot si diresse verso est; piantò le sue tende vicino a Sodoma."
       },
       {
-        "text": "Lot viaggia molto a ovest attraverso il mare"
+        "text": "Lot viaggia molto a ovest attraverso il mare",
+        "feedback": "Lot andò a est, verso la pianura e vicino a Sodoma."
       },
       {
-        "text": "Lot torna ad Haran"
+        "text": "Lot torna ad Haran",
+        "feedback": "Lot andò a est verso la pianura del Giordano, vicino a Sodoma."
       }
     ]
   },
   "remaining": {
     "title": "Dove Vivi",
-    "text": "Lot è andato.\nDove vivi?",
+    "text": "Lot se n'è andato.\nDove vivi?",
     "choices": [
       {
-        "text": "Vivi nella terra di Canaan"
+        "text": "Vivi nella terra di Canaan",
+        "feedback": "Genesi 13:12 — Abramo abitò nella terra di Canaan, mentre Lot abitò tra le città della pianura."
       },
       {
-        "text": "Vivi nella pianura del Giordano, vicino a Sodoma"
+        "text": "Vivi nella pianura del Giordano vicino a Sodoma",
+        "feedback": "Lot visse vicino a Sodoma; Abramo rimase a Canaan."
       },
       {
-        "text": "Vivi in Egitto"
+        "text": "Vivi in Egitto",
+        "feedback": "Abramo aveva lasciato l'Egitto; ora viveva a Canaan."
       }
     ]
   },
   "the_promise": {
-    "title": "Alza i tuoi occhi",
+    "title": "Alza i Tuoi Occhi",
     "text": "Il Signore ti parla dopo che Lot si è separato da te.\nCosa dice?",
     "choices": [
       {
-        "text": "'Alza i tuoi occhi; tutta la terra che vedi la darò a te e alla tua discendenza per sempre'"
+        "text": "'Alza i tuoi occhi; tutta la terra che vedi la darò a te e alla tua discendenza per sempre'",
+        "feedback": "Genesi 13:14-15 — 'Alza i tuoi occhi e guarda dal luogo dove sei, verso settentrione e mezzogiorno, verso oriente e occidente. Tutta la terra che vedi, la darò a te e alla tua discendenza per sempre.'"
       },
       {
-        "text": "'Perderai questa terra ai discendenti di Lot'"
+        "text": "'Perderai questa terra ai discendenti di Lot'",
+        "feedback": "Il Signore promise la terra alla discendenza di Abramo per sempre."
       },
       {
-        "text": "'Torna ad Haran; la terra non è tua'"
+        "text": "'Torna ad Haran; la terra non è tua'",
+        "feedback": "Il Signore confermò il dono della terra ad Abramo."
       }
     ]
   },
   "mamre": {
-    "title": "Attraversa la Terra",
-    "text": "Il Signore ti dice cosa fare dopo.\nCosa ti dice?",
+    "title": "Cammina per la Terra",
+    "text": "Il Signore ti dice cosa fare dopo.\nCosa?",
     "choices": [
       {
-        "text": "'Va', cammina per la lunghezza e la larghezza della terra, perché io te la sto dando'"
+        "text": "'Va', cammina per la lunghezza e la larghezza della terra, perché io te la do'",
+        "feedback": "Genesi 13:17 — «Àlzati, percorri il paese in lungo e in largo, perché io te lo darò»"
       },
       {
-        "text": "'Rimani in un unico posto e non viaggiare mai più'"
+        "text": "'Rimani in un posto e non viaggiare mai più'",
+        "feedback": "Il Signore disse ad Abramo di percorrere la terra."
       },
       {
-        "text": "'Restituisci la terra ai Cananei'"
+        "text": "'Restituisci la terra ai Cananei'",
+        "feedback": "Il Signore diede la terra ad Abramo e alla sua discendenza."
       }
     ]
   },
   "altar": {
-    "title": "Le Grandi Querce di Mamre",
+    "title": "Le Querce di Mamre",
     "text": "Così sposti le tue tende e vai a vivere vicino alle grandi querce di Mamre, a Ebron,\ndove costruisci un altare al Signore.",
     "choices": []
   }

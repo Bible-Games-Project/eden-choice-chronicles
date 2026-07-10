@@ -2,31 +2,37 @@
   "storyTitle": "Abraham w Egipcie",
   "start": {
     "title": "Głód w Ziemi",
-    "text": "Dotkliwy głód nawiedza ziemię Kanaan.\nCo robisz?",
+    "text": "W ziemi Kanaan panuje dotkliwy głód.\nCo robisz?",
     "choices": [
       {
-        "text": "Zejdź do Egiptu, aby tam przez jakiś czas mieszkać jako cudzoziemiec"
+        "text": "Zejdź do Egiptu, aby tam przez jakiś czas mieszkać jako cudzoziemiec",
+        "feedback": "Księga Rodzaju 12:10 — Teraz nastał głód w ziemi, a Abram zszedł do Egiptu, aby tam przez jakiś czas mieszkać, gdyż głód był dotkliwy."
       },
       {
-        "text": "Przepłyń morze na odległą wyspę"
+        "text": "Przepłyń morze na odległą wyspę",
+        "feedback": "Księga Rodzaju mówi, że Abram zszedł do Egiptu podczas głodu."
       },
       {
-        "text": "Pozostań w Kanaanie i dowódź armią"
+        "text": "Pozostań w Kanaan i poprowadź armię",
+        "feedback": "Księga Rodzaju mówi, że Abram udał się do Egiptu z powodu głodu."
       }
     ]
   },
   "road_south": {
     "title": "Gdy zbliżasz się do Egiptu",
-    "text": "Masz zamiar wejść do Egiptu.\nCo mówisz swojej żonie Saraj?",
+    "text": "Masz zamiar wejść do Egiptu.\nCo mówisz swojej żonie Sarai?",
     "choices": [
       {
-        "text": "„Wiem, jaką jesteś piękną kobietą – Egipcjanie zabiją mnie, żeby cię zabrać”"
+        "text": "„Wiem, jaką jesteś piękną kobietą — Egipcjanie zabiją mnie, żeby cię zabrać”",
+        "feedback": "Księga Rodzaju 12:11-12 — „Wiem, jaką jesteś piękną kobietą. Kiedy Egipcjanie cię zobaczą, zabiją mnie, ale pozwolą ci żyć”."
       },
       {
-        "text": "„Pan nas ochroni; nie mamy się czego obawiać”"
+        "text": "„Pan nas ochroni; nie mamy się czego obawiać”",
+        "feedback": "Księga Rodzaju mówi, że Abram bał się i nie ufał otwarcie; opracował plan."
       },
       {
-        "text": "Nic nie mów Saraj"
+        "text": "Nic nie mów Sarai",
+        "feedback": "Księga Rodzaju odnotowuje słowa, które Abram wypowiedział do Sarai o swoim strachu."
       }
     ]
   },
@@ -35,28 +41,34 @@
     "text": "Prosisz Saraj, aby coś zrobiła, by chronić twoje życie.\nCo to jest?",
     "choices": [
       {
-        "text": "„Powiedz, że jesteś moją siostrą, abym dzięki tobie był dobrze traktowany”"
+        "text": "'Powiedz, że jesteś moją siostrą, abym dzięki tobie był dobrze traktowany'",
+        "feedback": "Księga Rodzaju 12:13 — „Powiedz, proszę, że jesteś moją siostrą, aby mi się dobrze wiodło dzięki tobie i abym z twego powodu pozostał przy życiu”."
       },
       {
-        "text": "„Powiedz, że jesteś moją matką, żeby nikt nie zauważył”"
+        "text": "'Powiedz, że jesteś moją matką, żeby nikt nie zauważył'",
+        "feedback": "Abram poprosił Saraj, aby powiedziała, że jest jego siostrą."
       },
       {
-        "text": "„Powiedz, że jesteśmy obcymi, którzy nigdy się nie spotkali”"
+        "text": "'Powiedz, że jesteśmy nieznajomymi, którzy nigdy się nie spotkali'",
+        "feedback": "Półprawdą Abrama było nazwanie jej siostrą."
       }
     ]
   },
   "the_lie": {
-    "title": "Egipcjanie widzą Saraj",
+    "title": "Egipcjanie Widzą Saraj",
     "text": "Przybywasz do Egiptu.\nJak Egipcjanie reagują na Saraj?",
     "choices": [
       {
-        "text": "Egipcjanie widzą, że jest bardzo piękna"
+        "text": "Egipcjanie widzą, że jest bardzo piękna",
+        "feedback": "Księga Rodzaju 12:14 — Kiedy Abram przybył do Egiptu, Egipcjanie zauważyli, że Saraj jest bardzo piękną kobietą."
       },
       {
-        "text": "Egipcjanie całkowicie ją ignorują"
+        "text": "Egipcjanie całkowicie ją ignorują",
+        "feedback": "Księga Rodzaju mówi, że Egipcjanie zauważyli, jaka była piękna."
       },
       {
-        "text": "Egipcjanie wypędzają ją z miasta"
+        "text": "Egipcjanie wypędzają ją z miasta",
+        "feedback": "Egipcjanie chwalili jej piękno; nie wypędzili jej."
       }
     ]
   },
@@ -65,13 +77,16 @@
     "text": "Urzędnicy faraona widzą Saraj.\nCo robią?",
     "choices": [
       {
-        "text": "Chwalą ją przed faraonem, a ona zostaje zabrana do jego pałacu"
+        "text": "Chwalą ją przed faraonem i zostaje zabrana do jego pałacu",
+        "feedback": "Księga Rodzaju 12:15 — Kiedy urzędnicy faraona ją zobaczyli, chwalili ją przed faraonem i została zabrana do jego pałacu."
       },
       {
-        "text": "Natychmiast wypędzają Abrama z Egiptu"
+        "text": "Natychmiast wypędzają Abrama z Egiptu",
+        "feedback": "Księga Rodzaju mówi, że Saraj została zabrana do pałacu faraona, a nie, że Abram został wypędzony."
       },
       {
-        "text": "Ignorują ją i nie zwracają na nią uwagi"
+        "text": "Ignorują ją i nie zwracają na nią uwagi",
+        "feedback": "Urzędnicy faraona chwalili jej piękno przed królem."
       }
     ]
   },
@@ -80,43 +95,52 @@
     "text": "Z powodu Saraj faraon dobrze cię traktuje.\nJak traktuje Abrama?",
     "choices": [
       {
-        "text": "Daje ci owce, bydło, osły, sługi i wielbłądy"
+        "text": "Daje ci owce, bydło, osły, sługi i wielbłądy",
+        "feedback": "Księga Rodzaju 12:16 — I dobrze traktował Abrama z jej powodu, a Abram nabył owce i bydło, osły i osiołki, sługi i służące, i wielbłądy."
       },
       {
-        "text": "Wsadza Abrama do więzienia"
+        "text": "Wsadza Abrama do więzienia",
+        "feedback": "Księga Rodzaju mówi, że faraon dał Abramowi wiele darów dla dobra Saraj."
       },
       {
-        "text": "Nie daje Abramowi nic"
+        "text": "Nie daje Abramowi nic",
+        "feedback": "Księga Rodzaju wymienia wiele darów, które otrzymał Abram."
       }
     ]
   },
   "sarah_taken": {
-    "title": "Pan uderza",
+    "title": "Pan Uderza",
     "text": "Pan nie milczy.\nCo czyni z powodu Saraj?",
     "choices": [
       {
-        "text": "Pan zsyła poważne choroby na faraona i jego dom"
+        "text": "Pan dotyka faraona i jego domostwo poważnymi chorobami",
+        "feedback": "Księga Rodzaju 12:17 — Lecz Pan dotknął faraona i jego domostwo wielkimi plagami z powodu Saraj, żony Abrama."
       },
       {
-        "text": "Pan zsyła ogień na Egipt"
+        "text": "Pan zsyła ogień na Egipt",
+        "feedback": "Księga Rodzaju mówi, że Pan zesłał poważne choroby, a nie ogień."
       },
       {
-        "text": "Pan milczy"
+        "text": "Pan milczy",
+        "feedback": "Księga Rodzaju mówi, że Pan działał; uderzył dom faraona."
       }
     ]
   },
   "gifts_arrive": {
-    "title": "Faraon wzywa cię",
-    "text": "Faraon wzywa cię.\nCo mówi?",
+    "title": "Faraon Cię Wzywa",
+    "text": "Faraon cię wzywa.\nCo mówi?",
     "choices": [
       {
-        "text": "„Co mi zrobiłeś? Dlaczego nie powiedziałeś mi, że to twoja żona?”"
+        "text": "'Co mi uczyniłeś? Dlaczego nie powiedziałeś mi, że jest twoją żoną?'",
+        "feedback": "Księga Rodzaju 12:18 — „Co mi uczyniłeś? Dlaczego nie powiedziałeś mi, że jest twoją żoną?”"
       },
       {
-        "text": "„Dziękuję za dary – proszę, zostań”"
+        "text": "'Dziękuję za twoje dary — proszę, zostań'",
+        "feedback": "Faraon zganił Abrama; nie podziękował mu."
       },
       {
-        "text": "„Saraj pozostanie w moim domu na zawsze”"
+        "text": "'Saraj pozostanie w moim domu na zawsze'",
+        "feedback": "Faraon zwrócił Saraj Abramowi."
       }
     ]
   },
@@ -125,43 +149,52 @@
     "text": "Faraon wydaje rozkaz.\nCo nakazuje?",
     "choices": [
       {
-        "text": "„Oto twoja żona. Zabierz ją i idź!”"
+        "text": "'Oto twoja żona. Weź ją i idź!'",
+        "feedback": "Księga Rodzaju 12:19 — 'Teraz więc, oto twoja żona. Weź ją i idź!'"
       },
       {
-        "text": "„Musisz tu pozostać jako mój sługa na zawsze”"
+        "text": "'Musisz pozostać tu jako mój sługa na zawsze'",
+        "feedback": "Faraon odesłał Abrama z Saraj."
       },
       {
-        "text": "„Zatrzymam Saraj, a ty możesz wrócić do Kanaanu sam”"
+        "text": "'Zatrzymam Saraj, a ty możesz wrócić do Kanaanu sam'",
+        "feedback": "Faraon zwrócił Saraj Abramowi."
       }
     ]
   },
   "confronted": {
-    "title": "Wyprowadzony",
-    "text": "Faraon wydaje o tobie rozkazy.\nCo się dzieje?",
+    "title": "Odprowadzony",
+    "text": "Faraon wydaje rozkazy na twój temat.\nCo się dzieje?",
     "choices": [
       {
-        "text": "Ludzie faraona odprawiają cię z żoną i wszystkim, co posiadasz"
+        "text": "Ludzie faraona odprowadzają cię w drogę, z twoją żoną i wszystkim, co posiadasz",
+        "feedback": "Księga Rodzaju 12:20 — Wtedy faraon wydał rozkazy swoim ludziom co do Abrama, i odprowadzili go w drogę, z jego żoną i wszystkim, co miał."
       },
       {
-        "text": "Ludzie faraona ograbiają cię ze wszystkich twoich posiadłości"
+        "text": "Ludzie faraona ogołacają cię ze wszystkich twoich posiadłości",
+        "feedback": "Księga Rodzaju mówi, że Abram odszedł z żoną i wszystkim, co miał."
       },
       {
-        "text": "Ludzie faraona zakują cię w łańcuchy"
+        "text": "Ludzie faraona zakują cię w łańcuchy",
+        "feedback": "Księga Rodzaju mówi, że ludzie faraona odprowadzili Abrama w pokoju."
       }
     ]
   },
   "expelled": {
-    "title": "Wyjście z Egiptu",
+    "title": "Wychodząc z Egiptu",
     "text": "Opuszczasz Egipt.\nDokąd idziesz?",
     "choices": [
       {
-        "text": "Wyjdź z Egiptu do Negebu, z żoną i wszystkim, co masz"
+        "text": "Wyjdź z Egiptu na Negew, z twoją żoną i wszystkim, co masz",
+        "feedback": "Księga Rodzaju 13:1 — Tak więc Abram wyszedł z Egiptu na Negew, z żoną i wszystkim, co miał, a Lot poszedł z nim."
       },
       {
-        "text": "Pozostań w Egipcie i osiedl się tam na dobre"
+        "text": "Pozostań w Egipcie i osiedl się tam na dobre",
+        "feedback": "Księga Rodzaju mówi, że Abram wyszedł z Egiptu."
       },
       {
-        "text": "Idź na wschód przez pustynię do Asyrii"
+        "text": "Idź na wschód przez pustynię do Asyrii",
+        "feedback": "Księga Rodzaju mówi, że Abram wrócił na Negew, do ziemi obiecanej."
       }
     ]
   },

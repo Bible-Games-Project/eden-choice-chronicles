@@ -5,73 +5,88 @@
     "text": "Tanrı sana sesleniyor.\nNasıl cevap verirsin?",
     "choices": [
       {
-        "text": "Cevap: 'İşte buradayım'"
+        "text": "Cevap: 'İşte buradayım'",
+        "feedback": "Yaratılış 22:1 — Bir süre sonra Tanrı İbrahim'i sınadı. Ona, 'İbrahim!' dedi. O da, 'İşte buradayım,' diye karşılık verdi."
       },
       {
-        "text": "Sesi duymazdan gel ve tekrar uyu"
+        "text": "Sesi duymazdan gel ve uyumaya devam et",
+        "feedback": "İbrahim hemen Rab'be, 'İşte buradayım,' diye cevap verdi."
       },
       {
-        "text": "Önce Rab'bin adını öğrenmek iste"
+        "text": "Önce Rab'bin adını öğrenmek iste",
+        "feedback": "İbrahim sadece, 'İşte buradayım,' diye cevap verdi."
       }
     ]
   },
   "the_command": {
     "title": "Oğlunu Al",
-    "text": "Tanrı emri söylüyor.\nNe diyor?",
+    "text": "Tanrı emri söyler.\nNe der?",
     "choices": [
       {
-        "text": "'Oğlunu, biricik oğlunu, sevdiğin İshak'ı al ve sana göstereceğim bir dağda yakmalık sunu olarak sun'"
+        "text": "'Oğlunu, biricik oğlunu, sevdiğin İshak'ı al ve sana göstereceğim bir dağda yakmalık sunu olarak sun'",
+        "feedback": "Yaratılış 22:2 — 'Oğlunu, biricik oğlunu, sevdiğin İshak'ı al ve Moriya bölgesine git. Sana göstereceğim bir dağda onu yakmalık sunu olarak sun.'"
       },
       {
-        "text": "'Süründen bir kuzu al ve burada sun'"
+        "text": "'Süründen bir kuzu al ve burada sun'",
+        "feedback": "Tanrı İbrahim'e oğlu İshak'ı kurban etmesini emretti."
       },
       {
-        "text": "'Beerşeba'da büyük bir tapınak inşa et'"
+        "text": "'Beerşeba'da büyük bir tapınak inşa et'",
+        "feedback": "Tanrı'nın emri, İshak'ı Moriya'daki bir dağda kurban etmekti."
       }
     ]
   },
   "the_weight": {
-    "title": "Ertesi Sabah Erkenden",
+    "title": "Ertesi Sabah Erken",
     "text": "Ertesi sabah erkenden yolculuk için hazırlanırsın.\nNe yaparsın?",
     "choices": [
       {
-        "text": "Erkenden kalk, eşeğini eyerle, iki hizmetkarını ve oğlun İshak'ı al, ve yakmalık sunu için yeterince odun kes"
+        "text": "Erken kalk, eşeğini hazırla, iki hizmetkarını ve oğlun İshak'ı al, yakmalık sunu için yeterince odun kes",
+        "feedback": "Yaratılış 22:3 — Ertesi sabah erkenden İbrahim kalktı ve eşeğini yükledi. Yanına iki hizmetkarını ve oğlu İshak'ı aldı. Yakmalık sunu için yeterince odun kestiğinde yola çıktı."
       },
       {
-        "text": "Gitmemeyi reddet ve Beerşeba'da kal"
+        "text": "Gitmemeyi reddet ve Beerşeba'da kal",
+        "feedback": "İbrahim hemen Tanrı'ya itaat etti, sabah erkenden kalktı."
       },
       {
-        "text": "Yola çıkmadan önce bir işaret bekle"
+        "text": "Yola çıkmadan önce bir işaret bekle",
+        "feedback": "İbrahim beklemeden hemen yola çıktı."
       }
     ]
   },
   "departure": {
-    "title": "Moria'ya Doğru",
+    "title": "Moriya'ya Doğru",
     "text": "Tanrı'nın sana söylediği yere doğru yolculuk edersin.\nNe kadar süre yolculuk edersin?",
     "choices": [
       {
-        "text": "Üç gün yolculuk et, ta ki yukarı bakıp uzaktaki yeri görene kadar"
+        "text": "Üç gün yolculuk et, ta ki uzakta o yeri görene kadar",
+        "feedback": "Yaratılış 22:4 — Üçüncü gün İbrahim başını kaldırdı ve uzakta o yeri gördü."
       },
       {
-        "text": "Sadece bir saat yolculuk et ve hemen var"
+        "text": "Sadece bir saat yolculuk et ve hemen var",
+        "feedback": "Moriya'ya yolculuk üç gün sürdü."
       },
       {
-        "text": "Kırk yıl boyunca çölde yolculuk et"
+        "text": "Çölde kırk yıl yolculuk et",
+        "feedback": "Yaratılış, İbrahim'in üçüncü gün o yere ulaştığını söyler."
       }
     ]
   },
   "the_road": {
-    "title": "Eşekle Birlikte Burada Kalın",
+    "title": "Eşekle Burada Kalın",
     "text": "Dağa yaklaşırsın.\nHizmetkarlara ne söylersin?",
     "choices": [
       {
-        "text": "'Ben ve oğlan oraya giderken siz eşekle birlikte burada kalın. Tapınacağız ve sonra size geri döneceğiz'"
+        "text": "'Ben ve çocuk oraya giderken siz eşekle burada kalın. Tapınacağız ve sonra size geri döneceğiz'",
+        "feedback": "Yaratılış 22:5 — 'Siz eşekle burada kalın, ben ve çocuk oraya gideceğiz. Tapınacağız ve sonra size geri döneceğiz.'"
       },
       {
-        "text": "'Bizimle birlikte dağı izlemeye gelin'"
+        "text": "'Bizimle birlikte dağı izlemeye gelin'",
+        "feedback": "İbrahim hizmetkarlara eşekle geride beklemelerini söyledi."
       },
       {
-        "text": "'Eşeği eve götürün; geri gelmiyoruz'"
+        "text": "'Eşeği eve götürün; geri gelmiyoruz'",
+        "feedback": "İbrahim, 'Size geri döneceğiz,' dedi."
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "Dağa tırmanmaya hazırlanırsın.\nKim ne taşır?",
     "choices": [
       {
-        "text": "Yakmalık sunu için odunu İshak'ın omuzlarına koy; ateşi ve bıçağı kendin taşı"
+        "text": "Yakmalık sunu için odunları İshak'ın omuzlarına yükle; ateşi ve bıçağı kendin taşı",
+        "feedback": "Yaratılış 22:6 — İbrahim yakmalık sunu için odunları aldı ve oğlu İshak'ın üzerine koydu; ateşi ve bıçağı kendisi taşıdı."
       },
       {
-        "text": "Odunu kendin taşı, İshak hiçbir şey taşımasın"
+        "text": "İshak hiçbir şey taşımazken odunları kendin taşı",
+        "feedback": "İshak odunları taşıdı; İbrahim ateşi ve bıçağı taşıdı."
       },
       {
-        "text": "Odunu dağın eteğinde bırak"
+        "text": "Odunları dağın eteğinde bırak",
+        "feedback": "Yakmalık sunu için odunlar İshak'ın üzerine konuldu."
       }
     ]
   },
@@ -95,43 +113,52 @@
     "text": "Birlikte yürürken İshak konuşmaya başlar.\nNe der?",
     "choices": [
       {
-        "text": "'Baba — ateş ve odun burada, ama yakmalık sunu için kuzu nerede?'"
+        "text": "'Baba — ateş ve odun burada, ama yakmalık sunu için kuzu nerede?'",
+        "feedback": "Yaratılış 22:7 — 'Baba, ateş ve odun burada, ama yakmalık sunu için kuzu nerede?'"
       },
       {
-        "text": "'Baba — hemen eve geri dönelim'"
+        "text": "'Baba — hemen şimdi eve dönelim'",
+        "feedback": "İshak sunu için kuzuyu sordu."
       },
       {
-        "text": "İshak yol boyunca hiçbir şey söylemez"
+        "text": "İshak tüm yol boyunca hiçbir şey söylemez",
+        "feedback": "Yaratılış, İshak'ın kuzu hakkındaki sorusunu kaydeder."
       }
     ]
   },
   "isaacs_question": {
     "title": "Tanrı Sağlayacak",
-    "text": "İshak'a cevap veriyorsun.\nNe diyorsun?",
+    "text": "İshak'a cevap verirsin.\nNe dersin?",
     "choices": [
       {
-        "text": "'Oğlum, yakmalık sunu için kuzuyu Tanrı kendisi sağlayacak'"
+        "text": "'Tanrı'nın Kendisi yakmalık sunu için kuzuyu sağlayacak, oğlum'",
+        "feedback": "Yaratılış 22:8 — 'Tanrı'nın Kendisi yakmalık sunu için kuzuyu sağlayacak, oğlum.'"
       },
       {
-        "text": "'Kuzu sensin, İshak'"
+        "text": "'Kuzu sensin, İshak'",
+        "feedback": "İbrahim İshak'a Tanrı'nın Kendisinin kuzuyu sağlayacağını söyledi."
       },
       {
-        "text": "'Kuzu yok — şimdi eve dönüyoruz'"
+        "text": "'Kuzu yok — şimdi eve gidiyoruz'",
+        "feedback": "İbrahim imanla cevap verdi: Tanrı sağlayacaktı."
       }
     ]
   },
   "summit": {
     "title": "Sunak",
-    "text": "Tanrı'nın sana söylediği yere ulaşıyorsun.\nOraya ne inşa edersin?",
+    "text": "Tanrı'nın sana söylediği yere ulaşırsın.\nOraya ne inşa edersin?",
     "choices": [
       {
-        "text": "Bir sunak inşa et, üzerine odunları diz, İshak'ı bağla ve odunların üzerine, sunağa yatır"
+        "text": "Bir sunak inşa et, üzerine odunları diz, İshak'ı bağla ve odunların üzerine, sunağa yatır",
+        "feedback": "Yaratılış 22:9 — Tanrı'nın kendisine söylediği yere vardıklarında, İbrahim oraya bir sunak inşa etti ve üzerine odunları dizdi. Oğlu İshak'ı bağladı ve odunların üzerine, sunağa yatırdı."
       },
       {
-        "text": "Bunun yerine başka bir tanrıya tapınak inşa et"
+        "text": "Bunun yerine başka bir tanrıya tapınak inşa et",
+        "feedback": "İbrahim, tam da emredildiği gibi, Rab'be bir sunak inşa etti."
       },
       {
-        "text": "Hiçbir şey inşa etmeyi reddet ve geri dön"
+        "text": "Hiçbir şey inşa etmeyi reddet ve geri dön",
+        "feedback": "İbrahim itaat etti ve sunağı inşa etti."
       }
     ]
   },
@@ -140,73 +167,88 @@
     "text": "İshak sunakta bağlı.\nSonra ne yaparsın?",
     "choices": [
       {
-        "text": "Elini uzat ve oğlunu kesmek için bıçağı al"
+        "text": "Elini uzat ve oğlunu kesmek için bıçağı al",
+        "feedback": "Yaratılış 22:10 — Sonra elini uzattı ve oğlunu kesmek için bıçağı aldı."
       },
       {
-        "text": "Bıçağı bir kenara koy ve reddet"
+        "text": "Bıçağı bir kenara koy ve reddet",
+        "feedback": "İbrahim, Tanrı'ya tam olarak itaat etmek için bıçağı uzattı."
       },
       {
-        "text": "İshak'ı çöz ve dağdan aşağı kaç"
+        "text": "İshak'ı çöz ve dağdan aşağı kaç",
+        "feedback": "İbrahim itaatle bıçağı kaldırdı; kaçmadı."
       }
     ]
   },
   "the_knife": {
     "title": "Rab'bin Meleği",
-    "text": "Rab'bin meleği gökten sana sesleniyor.\nNe diyor?",
+    "text": "Rab'bin meleği gökten sana seslenir.\nNe der?",
     "choices": [
       {
-        "text": "'İbrahim! İbrahim! Çocuğa el sürme. Ona hiçbir şey yapma'"
+        "text": "'İbrahim! İbrahim! Çocuğa el sürme. Ona hiçbir şey yapma'",
+        "feedback": "Yaratılış 22:11-12 — 'İbrahim! İbrahim!' 'İşte buradayım,' diye cevap verdi. 'Çocuğa el sürme,' dedi. 'Ona hiçbir şey yapma.'"
       },
       {
-        "text": "'Çocuğu çabucak vur — gecikme'"
+        "text": "'Çocuğu çabucak vur — gecikme'",
+        "feedback": "Melek İbrahim'in İshak'a zarar vermesini engelledi."
       },
       {
-        "text": "Melek hiçbir şey söylemiyor"
+        "text": "Melek hiçbir şey söylemez",
+        "feedback": "Melek açıkça seslendi ve İbrahim'i durdurdu."
       }
     ]
   },
   "the_stay": {
     "title": "Şimdi Biliyorum",
-    "text": "Melek neden durdurulduğunu açıklıyor.\nNe diyor?",
+    "text": "Melek neden durdurulduğunu açıklar.\nNe der?",
     "choices": [
       {
-        "text": "'Şimdi biliyorum ki Tanrı'dan korkuyorsun, çünkü oğlunu, biricik oğlunu benden esirgemedin'"
+        "text": "'Şimdi biliyorum ki sen Tanrı'dan korkuyorsun, çünkü oğlunu, tek oğlunu Benden esirgemedin'",
+        "feedback": "Yaratılış 22:12 — 'Şimdi biliyorum ki sen Tanrı'dan korkuyorsun, çünkü oğlunu, tek oğlunu Benden esirgemedin.'"
       },
       {
-        "text": "'Sınavda başarısız oldun; utanç içinde eve dön'"
+        "text": "'Testi geçemedin; utanç içinde evine dön'",
+        "feedback": "Melek, İbrahim'in itaatini övdü."
       },
       {
-        "text": "'İshak yine de ölmeli; yarın tekrar dene'"
+        "text": "'İshak yine de ölmeli; yarın tekrar dene'",
+        "feedback": "Melek, İbrahim'e İshak'a zarar vermemesini emretti."
       }
     ]
   },
   "the_ram": {
-    "title": "Çalıdaki Koç",
-    "text": "Yukarı bakıyorsun.\nÇalıya takılmış ne görüyorsun?",
+    "title": "Çalılığa Takılmış Bir Koç",
+    "text": "Yukarı bakıyorsun.\nÇalılığa takılmış ne görüyorsun?",
     "choices": [
       {
-        "text": "Boynuzlarından çalılığa takılmış bir koç — onu alıp oğlunun yerine yakmalık sunu olarak sunuyorsun"
+        "text": "Boynuzlarından çalılığa takılmış bir koç — onu alıp oğlunun yerine yakmalık sunu olarak sunuyorsun",
+        "feedback": "Yaratılış 22:13 — İbrahim başını kaldırıp bakınca, boynuzlarından çalılığa takılmış bir koç gördü. Gidip koçu aldı ve oğlunun yerine yakmalık sunu olarak sundu."
       },
       {
-        "text": "Sunağın üzerinde uçan bir güvercin"
+        "text": "Mizbahın üzerinde uçan bir güvercin",
+        "feedback": "İbrahim, boynuzlarından çalılığa takılmış bir koç gördü."
       },
       {
-        "text": "Hiçbir şey — sunak boş kalıyor"
+        "text": "Hiçbir şey — mizbah boş kalır",
+        "feedback": "Tanrı, çalılığa takılmış bir koç sağladı."
       }
     ]
   },
   "the_name": {
-    "title": "Rab Sağlayacak",
-    "text": "Olanları işaretlemek için o yere bir ad veriyorsun.\nHangi adı verirsin?",
+    "title": "Rab Sağlar",
+    "text": "Olanları anmak için o yere bir isim veriyorsun.\nHangi ismi veriyorsun?",
     "choices": [
       {
-        "text": "'Rab Sağlayacak' (Yahve Yire)"
+        "text": "'Rab Sağlar' (Yahve Yire)",
+        "feedback": "Yaratılış 22:14 — Böylece İbrahim o yere 'Rab Sağlar' adını verdi."
       },
       {
-        "text": "'Keder Yeri'"
+        "text": "'Keder Yeri'",
+        "feedback": "İbrahim oraya 'Rab Sağlar' adını verdi."
       },
       {
-        "text": "'Ateş Dağı'"
+        "text": "'Ateş Dağı'",
+        "feedback": "İbrahim o yere 'Rab Sağlar' adını verdi."
       }
     ]
   },
@@ -215,13 +257,16 @@
     "text": "Rab'bin meleği gökten sana ikinci kez sesleniyor.\nVaat nedir?",
     "choices": [
       {
-        "text": "'Seni kesinlikle kutsayacağım ve soyunu gökteki yıldızlar ve deniz kıyısındaki kum kadar çoğaltacağım; senin soyun aracılığıyla yeryüzündeki tüm uluslar kutsanacak'"
+        "text": "'Seni kesinlikle kutsayacağım ve soyunu gökteki yıldızlar ve deniz kıyısındaki kum kadar çoğaltacağım; senin soyun aracılığıyla yeryüzündeki tüm uluslar kutsanacak'",
+        "feedback": "Yaratılış 22:16-18 — 'Kendi üzerime yemin ederim ki... Seni kesinlikle kutsayacağım ve soyunu gökteki yıldızlar ve deniz kıyısındaki kum kadar çoğaltacağım... ve senin soyun aracılığıyla yeryüzündeki tüm uluslar kutsanacak, çünkü bana itaat ettin.'"
       },
       {
-        "text": "'Soyun az ve unutulmuş olacak'"
+        "text": "'Soyun az ve unutulmuş olacak'",
+        "feedback": "Rab, yıldızlar ve kum kadar çok soy vaat etti."
       },
       {
-        "text": "'Cezalandırma olarak sahip olduğun her şeyi kaybedeceksin'"
+        "text": "'Cezalandırmak için sahip olduğun her şeyi kaybedeceksin'",
+        "feedback": "Rab, İbrahim'i itaati için kutsadı."
       }
     ]
   },

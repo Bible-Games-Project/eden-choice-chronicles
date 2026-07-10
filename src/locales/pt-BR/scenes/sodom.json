@@ -1,62 +1,74 @@
 {
-  "storyTitle": "Sodoma e Gomorra",
+  "storyTitle": "A Destruição de Sodoma",
   "start": {
     "title": "No Portão de Sodoma",
-    "text": "É noite. Tu estás sentado no portão da cidade de Sodoma.\nDois anjos chegam a Sodoma. O que fazes?",
+    "text": "É noite. Você está sentado no portão da cidade de Sodoma.\nDois anjos chegam a Sodoma. O que você faz?",
     "choices": [
       {
-        "text": "Levanta-te para encontrá-los e prostra-te com o rosto em terra"
+        "text": "Levantar-se para encontrá-los e prostrar-se com o rosto em terra",
+        "feedback": "Gênesis 19:1 — Quando Ló os viu, levantou-se para encontrá-los e prostrou-se com o rosto em terra."
       },
       {
-        "text": "Vira-te e ignora os estranhos"
+        "text": "Desviar o olhar e ignorar os estranhos",
+        "feedback": "Gênesis diz que Ló se levantou e se curvou diante deles."
       },
       {
-        "text": "Expulsa-os da cidade com um cajado"
+        "text": "Expulsá-los da cidade com um cajado",
+        "feedback": "Gênesis diz que Ló os recebeu respeitosamente."
       }
     ]
   },
   "wickedness": {
-    "title": "Vinde à Minha Casa",
-    "text": "Tu falas com os dois estranhos.\nO que dizes?",
+    "title": "Venham à Minha Casa",
+    "text": "Você fala com os dois estranhos.\nO que você diz?",
     "choices": [
       {
-        "text": "'Meus senhores, por favor, venham à casa de seu servo; lavem os pés e passem a noite'"
+        "text": "'Meus senhores, por favor, desviem-se para a casa de seu servo; vocês podem lavar os pés e passar a noite'",
+        "feedback": "Gênesis 19:2 — 'Meus senhores, por favor, desviem-se para a casa de seu servo. Vocês podem lavar os pés e passar a noite e depois seguir seu caminho de manhã cedo.'"
       },
       {
-        "text": "'Saiam de Sodoma imediatamente — não é seguro aqui'"
+        "text": "'Saiam de Sodoma imediatamente — não é seguro aqui'",
+        "feedback": "Ló os instou a passar a noite em sua casa."
       },
       {
-        "text": "'Durmam aqui na praça, como planejaram'"
+        "text": "'Durmam aqui na praça como planejaram'",
+        "feedback": "Ló insistiu que os anjos fossem para casa com ele em vez de ficar na praça."
       }
     ]
   },
   "strangers": {
     "title": "Uma Refeição em Sua Casa",
-    "text": "Os anjos chegam à sua casa.\nO que você prepara para eles?",
+    "text": "Os anjos vêm para casa com você.\nO que você prepara para eles?",
     "choices": [
       {
-        "text": "Prepare uma refeição para eles, assando pão sem fermento"
+        "text": "Prepare uma refeição para eles, assando pão sem fermento",
+        "feedback": "Gênesis 19:3 — Ele lhes preparou uma refeição, assando pão sem fermento, e eles comeram."
       },
       {
-        "text": "Ofereça-lhes apenas água e os mande para a cama"
+        "text": "Ofereça-lhes apenas água e mande-os para a cama",
+        "feedback": "Ló assou pão e preparou uma refeição para eles."
       },
       {
-        "text": "Ofereça-lhes um cordeiro assado no fogo"
+        "text": "Ofereça-lhes um cordeiro assado no fogo",
+        "feedback": "Gênesis especifica pão sem fermento, não cordeiro assado."
       }
     ]
   },
   "welcome": {
     "title": "Os Homens da Cidade",
-    "text": "Antes de você ir para a cama, todos os homens de Sodoma — jovens e velhos — cercam a casa.\nO que eles exigem?",
+    "text": "Antes que você vá para a cama, todos os homens de Sodoma — jovens e velhos — cercam a casa.\nO que eles exigem?",
     "choices": [
       {
-        "text": "'Onde estão os homens que vieram a você esta noite? Traga-os para nós'"
+        "text": "'Onde estão os homens que vieram a você esta noite? Traga-os para nós'",
+        "feedback": "Gênesis 19:5 — Eles chamaram Ló: 'Onde estão os homens que vieram a você esta noite? Traga-os para nós, para que possamos ter relações sexuais com eles.'"
       },
       {
-        "text": "'Dê-nos comida e ouro de sua casa'"
+        "text": "'Dê-nos comida e ouro de sua casa'",
+        "feedback": "Os homens exigiram os hóspedes de Ló, não ouro."
       },
       {
-        "text": "'Receba-nos para comer com os estranhos'"
+        "text": "'Bem-vindos para comer com os estranhos'",
+        "feedback": "Os homens de Sodoma vieram com intenção hostil, não com um pedido amigável."
       }
     ]
   },
@@ -65,13 +77,16 @@
     "text": "Você sai para falar com a multidão.\nO que você faz com a porta?",
     "choices": [
       {
-        "text": "Saia para eles e feche a porta atrás de você"
+        "text": "Saia até eles e feche a porta atrás de você",
+        "feedback": "Gênesis 19:6 — Ló saiu para encontrá-los e fechou a porta atrás de si."
       },
       {
-        "text": "Deixe a porta bem aberta para que os convidados possam fugir"
+        "text": "Deixe a porta bem aberta para que os hóspedes possam fugir",
+        "feedback": "Ló fechou a porta atrás de si para proteger os hóspedes."
       },
       {
-        "text": "Entregue os convidados à multidão você mesmo"
+        "text": "Entregue os hóspedes à multidão você mesmo",
+        "feedback": "Ló implorou aos homens para não prejudicarem seus hóspedes."
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "A multidão avança para arrombar a porta.\nO que os anjos fazem?",
     "choices": [
       {
-        "text": "Os anjos estendem a mão, puxam você para dentro da casa e ferem os homens com cegueira"
+        "text": "Os anjos estendem a mão, puxam você de volta para dentro da casa e ferem os homens com cegueira",
+        "feedback": "Gênesis 19:10-11 — Os homens de dentro estenderam a mão, puxaram Ló de volta para dentro da casa e fecharam a porta. Então feriram os homens que estavam à porta com cegueira."
       },
       {
-        "text": "Os anjos abrem a porta e deixam a multidão entrar"
+        "text": "Os anjos abrem a porta e deixam a multidão entrar",
+        "feedback": "Os anjos puxaram Ló para dentro e feriram a multidão com cegueira."
       },
       {
-        "text": "Os anjos desaparecem silenciosamente e o abandonam"
+        "text": "Os anjos desaparecem silenciosamente e o abandonam",
+        "feedback": "Os anjos resgataram Ló e permaneceram com ele."
       }
     ]
   },
@@ -95,13 +113,16 @@
     "text": "Os anjos dizem para você avisar seus parentes sobre a destruição que se aproxima.\nComo seus genros respondem?",
     "choices": [
       {
-        "text": "Seus genros pensam que você está brincando"
+        "text": "Seus genros pensam que você está brincando",
+        "feedback": "Gênesis 19:14 — Ló saiu e falou com seus genros, mas eles pensaram que ele estava brincando."
       },
       {
-        "text": "Seus genros acreditam em você e o seguem imediatamente"
+        "text": "Seus genros acreditam em você e o seguem imediatamente",
+        "feedback": "Os genros não levaram Ló a sério."
       },
       {
-        "text": "Seus genros o matam pelo aviso"
+        "text": "Seus genros o matam pelo aviso",
+        "feedback": "Gênesis diz que eles pensaram que Ló estava brincando."
       }
     ]
   },
@@ -110,13 +131,16 @@
     "text": "Ao amanhecer, os anjos o exortam a se apressar.\nO que eles dizem?",
     "choices": [
       {
-        "text": "'Fujam por suas vidas! Não olhem para trás, e não parem em nenhum lugar da planície! Fujam para as montanhas!'"
+        "text": "'Fujam por suas vidas! Não olhem para trás, e não parem em nenhum lugar da planície! Fujam para as montanhas'",
+        "feedback": "Gênesis 19:17 — 'Fujam por suas vidas! Não olhem para trás, e não parem em nenhum lugar da planície! Fujam para as montanhas, para que não sejam varridos!'"
       },
       {
-        "text": "'Peguem seu ouro e se escondam dentro da cidade'"
+        "text": "'Peguem seu ouro e se escondam dentro da cidade'",
+        "feedback": "Os anjos ordenaram a Ló que fugisse para as montanhas, não que se escondesse."
       },
       {
-        "text": "'Esperem mais alguns dias antes de partir'"
+        "text": "'Esperem mais alguns dias antes de partir'",
+        "feedback": "Os anjos disseram 'Fujam!' urgentemente, não para esperar."
       }
     ]
   },
@@ -125,13 +149,16 @@
     "text": "Você chega à cidade de Zoar ao nascer do sol.\nO que o Senhor faz com Sodoma e Gomorra?",
     "choices": [
       {
-        "text": "O Senhor faz chover enxofre e fogo do céu sobre Sodoma e Gomorra"
+        "text": "O Senhor faz chover enxofre ardente dos céus sobre Sodoma e Gomorra",
+        "feedback": "Gênesis 19:24 — Então o Senhor fez chover enxofre ardente sobre Sodoma e Gomorra — do Senhor, dos céus."
       },
       {
-        "text": "O Senhor envia um grande dilúvio sobre as cidades"
+        "text": "O Senhor envia uma grande inundação sobre as cidades",
+        "feedback": "Gênesis diz que enxofre ardente caiu do céu, não um dilúvio."
       },
       {
-        "text": "O Senhor poupa as cidades e as deixa de pé"
+        "text": "O Senhor poupa as cidades e as deixa de pé",
+        "feedback": "Sodoma e Gomorra foram destruídas por fogo do céu."
       }
     ]
   },
@@ -140,19 +167,22 @@
     "text": "Sua esposa está atrás de você.\nO que acontece com ela?",
     "choices": [
       {
-        "text": "Ela olha para trás e se torna uma coluna de sal"
+        "text": "Ela olha para trás e se torna uma estátua de sal",
+        "feedback": "Gênesis 19:26 — E a mulher de Ló olhou para trás, e ficou convertida numa estátua de sal."
       },
       {
-        "text": "Ela corre em segurança para Zoar com você"
+        "text": "Ela corre em segurança para Zoar com você",
+        "feedback": "A mulher de Ló olhou para trás e foi transformada em uma estátua de sal."
       },
       {
-        "text": "Ela se transforma em um pássaro e voa para longe"
+        "text": "Ela se transforma em um pássaro e voa para longe",
+        "feedback": "Gênesis diz que ela se tornou uma estátua de sal."
       }
     ]
   },
   "aftermath": {
     "title": "A Fumaça da Planície",
-    "text": "De manhã cedo, Abraão se levanta e olha para Sodoma.\nEle vê uma fumaça densa subindo da terra, como fumaça de uma fornalha.\nDeus se lembrou de Abraão, e Ele tirou Ló da catástrofe.",
+    "text": "De manhã cedo, Abraão se levanta e olha para Sodoma.\nEle vê uma fumaça densa subindo da terra, como fumaça de uma fornalha.\nDeus lembrou-se de Abraão, e Ele tirou Ló da catástrofe.",
     "choices": []
   }
 }

@@ -1,122 +1,146 @@
 {
-  "storyTitle": "Abrão e Ló",
+  "storyTitle": "Abraão e Ló",
   "start": {
     "title": "Muito Rico",
-    "text": "Tu voltas do Egito para o Neguebe, e depois para as colinas entre Betel e Ai.\nQuão rico és agora?",
+    "text": "Você volta do Egito para o Neguebe, e depois para as colinas entre Betel e Ai.\nQuão rico você está agora?",
     "choices": [
       {
-        "text": "Muito rico — em gado, prata e ouro"
+        "text": "Muito rico — em gado, prata e ouro",
+        "feedback": "Gênesis 13:2 — Abrão havia se tornado muito rico em gado, em prata e em ouro."
       },
       {
-        "text": "Pobre e de mãos vazias da jornada"
+        "text": "Pobre e de mãos vazias da jornada",
+        "feedback": "Gênesis diz que Abrão saiu do Egito muito rico."
       },
       {
-        "text": "O mesmo de antes, sem mudança"
+        "text": "O mesmo de antes, sem mudança",
+        "feedback": "Gênesis diz que Abrão havia se tornado muito rico."
       }
     ]
   },
   "tension": {
-    "title": "A Terra Não Pode Sustentar-vos",
-    "text": "Tu e teu sobrinho Ló tendes rebanhos, gado e tendas.\nQual é o problema?",
+    "title": "A Terra Não Pode Sustentá-los",
+    "text": "Tanto você quanto seu sobrinho Ló têm rebanhos, gado e tendas.\nQual é o problema?",
     "choices": [
       {
-        "text": "A terra não pode sustentar-vos a ambos juntos, pois vossos bens são grandes demais"
+        "text": "A terra não pode sustentá-los juntos, pois suas posses são grandes demais",
+        "feedback": "Gênesis 13:6 — A terra não podia sustentá-los enquanto permaneciam juntos, pois suas posses eram tão grandes."
       },
       {
-        "text": "Tens pouco gado para alimentar a quem quer que seja"
+        "text": "Você tem pouco gado para alimentar alguém",
+        "feedback": "O problema era gado demais para a terra, não de menos."
       },
       {
-        "text": "Um grande inimigo está atacando ambos os acampamentos"
+        "text": "Um grande inimigo está atacando ambos os acampamentos",
+        "feedback": "Gênesis diz que a tensão era de rebanhos superlotados, não de guerra."
       }
     ]
   },
   "quarrel": {
     "title": "Contenda Entre os Pastores",
-    "text": "A discórdia irrompe.\nO que acontece?",
+    "text": "Problemas surgem.\nO que acontece?",
     "choices": [
       {
-        "text": "Contendas irrompem entre teus pastores e os pastores de Ló"
+        "text": "Contendas surgem entre seus pastores e os pastores de Ló",
+        "feedback": "Gênesis 13:7 — E surgiu contenda entre os pastores de Abrão e os pastores de Ló."
       },
       {
-        "text": "Paz e alegria se espalham por ambos os acampamentos"
+        "text": "Paz e alegria se espalham por ambos os acampamentos",
+        "feedback": "Gênesis diz que surgiram contendas entre os pastores."
       },
       {
-        "text": "Os pastores de Ló partem sem dizer uma palavra"
+        "text": "Os pastores de Ló partem sem dizer uma palavra",
+        "feedback": "Gênesis diz que eles contenderam, não que simplesmente partiram."
       }
     ]
   },
   "decision": {
-    "title": "Tu Falas com Ló",
-    "text": "Tu queres acabar com a discórdia.\nO que dizes a Ló?",
+    "title": "Você Fala com Ló",
+    "text": "Queres acabar com a discórdia.\nO que dizes a Ló?",
     "choices": [
       {
-        "text": "'Que não haja contenda entre mim e ti — somos parentes próximos'"
+        "text": "'Que não haja desavença entre mim e ti — somos parentes próximos'",
+        "feedback": "Gênesis 13:8 — 'Que não haja desavença entre mim e ti, nem entre os teus pastores e os meus, porque somos irmãos.'"
       },
       {
-        "text": "'Deves partir imediatamente — não és meu igual'"
+        "text": "'Deves partir imediatamente — não és meu igual'",
+        "feedback": "Abrão falou bondosamente, apelando ao laço familiar."
       },
       {
-        "text": "Não dizes nada e expulsas Ló"
+        "text": "Não digas nada e expulsa Ló",
+        "feedback": "Gênesis registra as palavras pacíficas de Abrão a Ló."
       }
     ]
   },
   "offering": {
     "title": "Primeira Escolha",
-    "text": "Tu ofereces uma escolha a Ló.\nO que dizes?",
+    "text": "Ofereces uma escolha a Ló.\nO que dizes?",
     "choices": [
       {
-        "text": "'Se fores para a esquerda, eu irei para a direita; se fores para a direita, eu irei para a esquerda'"
+        "text": "'Se fores para a esquerda, irei para a direita; se fores para a direita, irei para a esquerda'",
+        "feedback": "Gênesis 13:9 — 'Se fores para a esquerda, irei para a direita; se fores para a direita, irei para a esquerda.'"
       },
       {
-        "text": "'Eu sou o mais velho — eu escolherei primeiro'"
+        "text": "'Eu sou o mais velho — escolherei primeiro'",
+        "feedback": "Abrão deixou Ló escolher primeiro, embora fosse o mais velho."
       },
       {
-        "text": "'Ambos ficaremos aqui e compartilharemos cada poço'"
+        "text": "'Ambos ficaremos aqui e partilharemos cada poço'",
+        "feedback": "Abrão propôs que se separassem, para que a discórdia terminasse."
       }
     ]
   },
   "lots_choice": {
-    "title": "Ló Olha ao Redor",
-    "text": "Ló olha ao redor para a terra.\nO que ele escolhe?",
+    "title": "Ló Olha",
+    "text": "Ló olha ao redor da terra.\nO que ele escolhe?",
     "choices": [
       {
-        "text": "Ló escolhe toda a planície do Jordão, bem regada como o jardim do Senhor"
+        "text": "Ló escolhe toda a planície do Jordão, bem regada como o jardim do Senhor",
+        "feedback": "Gênesis 13:10-11 — Ló levantou os olhos e viu que toda a planície do Jordão era bem regada, como o jardim do Senhor; assim Ló escolheu para si toda a planície do Jordão."
       },
       {
-        "text": "Ló escolhe a região montanhosa e seca"
+        "text": "Ló escolhe a região montanhosa seca",
+        "feedback": "Ló escolheu a planície bem regada do Jordão."
       },
       {
-        "text": "Ló recusa-se a escolher e fica com Abrão"
+        "text": "Ló recusa-se a escolher e fica com Abrão",
+        "feedback": "Gênesis diz que Ló escolheu a planície do Jordão e se separou de Abrão."
       }
     ]
   },
   "lot_departs": {
     "title": "A Separação",
-    "text": "Tu e Ló vos separais.\nPara onde Ló vai?",
+    "text": "Tu e Ló se separam.\nPara onde Ló vai?",
     "choices": [
       {
-        "text": "Ló parte para o leste e arma suas tendas perto de Sodoma"
+        "text": "Ló parte para o leste e arma suas tendas perto de Sodoma",
+        "feedback": "Gênesis 13:11-12 — Ló partiu para o leste; armou suas tendas perto de Sodoma."
       },
       {
-        "text": "Ló viaja para muito longe, a oeste, através do mar"
+        "text": "Ló viaja para o oeste, através do mar",
+        "feedback": "Ló foi para o leste, em direção à planície e perto de Sodoma."
       },
       {
-        "text": "Ló volta para Harã"
+        "text": "Ló volta para Harã",
+        "feedback": "Ló foi para o leste, em direção à planície do Jordão, perto de Sodoma."
       }
     ]
   },
   "remaining": {
-    "title": "Onde Tu Vives",
-    "text": "Ló se foi.\nOnde tu vives?",
+    "title": "Onde Vives",
+    "text": "Ló se foi.\nOnde vives?",
     "choices": [
       {
-        "text": "Vive na terra de Canaã"
+        "text": "Vive na terra de Canaã",
+        "feedback": "Gênesis 13:12 — Abrão viveu na terra de Canaã, enquanto Ló viveu entre as cidades da planície."
       },
       {
-        "text": "Vive na planície do Jordão, perto de Sodoma"
+        "text": "Vive na planície do Jordão perto de Sodoma",
+        "feedback": "Ló viveu perto de Sodoma; Abrão permaneceu em Canaã."
       },
       {
-        "text": "Vive no Egito"
+        "text": "Vive no Egito",
+        "feedback": "Abrão havia deixado o Egito; ele vivia agora em Canaã."
       }
     ]
   },
@@ -125,34 +149,40 @@
     "text": "O Senhor fala contigo depois que Ló se separou de ti.\nO que Ele diz?",
     "choices": [
       {
-        "text": "'Levanta os teus olhos; toda a terra que vês, eu a darei a ti e à tua descendência para sempre'"
+        "text": "'Levanta os teus olhos; toda a terra que vês, eu a darei a ti e à tua descendência para sempre'",
+        "feedback": "Gênesis 13:14-15 — 'Olha ao redor de onde estás, para o norte e para o sul, para o leste e para o oeste. Toda a terra que vês, eu a darei a ti e à tua descendência para sempre.'"
       },
       {
-        "text": "'Perderás esta terra para os descendentes de Ló'"
+        "text": "'Perderás esta terra para os descendentes de Ló'",
+        "feedback": "O Senhor prometeu a terra à descendência de Abrão para sempre."
       },
       {
-        "text": "'Volta para Harã; a terra não é tua'"
+        "text": "'Volta para Harã; a terra não é tua'",
+        "feedback": "O Senhor confirmou o dom da terra a Abrão."
       }
     ]
   },
   "mamre": {
-    "title": "Percorre a Terra",
+    "title": "Anda Pela Terra",
     "text": "O Senhor te diz o que fazer a seguir.\nO que é?",
     "choices": [
       {
-        "text": "'Vai, percorre a terra em toda a sua extensão, pois eu a estou dando a ti'"
+        "text": "'Vai, anda pelo comprimento e pela largura da terra, porque eu a estou dando a ti'",
+        "feedback": "Gênesis 13:17 — 'Levanta-te, percorre esta terra no seu comprimento e na sua largura, porque a ti a darei.'"
       },
       {
-        "text": "'Fica num só lugar e nunca mais viajes'"
+        "text": "'Fique em um só lugar e nunca mais viaje'",
+        "feedback": "O Senhor disse a Abrão para percorrer a terra."
       },
       {
-        "text": "'Devolve a terra aos cananeus'"
+        "text": "'Devolver a terra aos cananeus'",
+        "feedback": "O Senhor deu a terra a Abrão e à sua descendência."
       }
     ]
   },
   "altar": {
     "title": "Os Grandes Carvalho de Manre",
-    "text": "Então moves tuas tendas e vais morar perto dos grandes carvalhos de Manre, em Hebrom,\nonde constróis um altar ao Senhor.",
+    "text": "Então, moves tuas tendas e vais morar perto dos grandes carvalhos de Manre, em Hebrom,\nonde constróis um altar ao Senhor.",
     "choices": []
   }
 }

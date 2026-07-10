@@ -1,77 +1,92 @@
 {
-  "storyTitle": "Sodom ve Gomora",
+  "storyTitle": "Sodom'un Yıkımı",
   "start": {
     "title": "Sodom Kapısında",
-    "text": "Akşam oldu. Sodom şehrinin kapısında oturuyorsun.\nİki melek Sodom'a varır. Ne yaparsın?",
+    "text": "Akşam oldu. Sodom şehrinin kapısında oturuyorsun.\nİki melek Sodom'a gelir. Ne yaparsın?",
     "choices": [
       {
-        "text": "Onları karşılamak için kalk ve yüzüstü yere kapan"
+        "text": "Onları karşılamak için kalk ve yüzüstü yere kapan",
+        "feedback": "Yaratılış 19:1 — Lut onları görünce, onları karşılamak için kalktı ve yüzüstü yere kapandı."
       },
       {
-        "text": "Arkanı dön ve yabancıları görmezden gel"
+        "text": "Arkanı dön ve yabancıları görmezden gel",
+        "feedback": "Yaratılış, Lut'un kalkıp önlerinde eğildiğini söyler."
       },
       {
-        "text": "Onları bir değnekle şehirden kov"
+        "text": "Onları bir değnekle şehirden kov",
+        "feedback": "Yaratılış, Lut'un onları saygıyla karşıladığını söyler."
       }
     ]
   },
   "wickedness": {
     "title": "Evime Gel",
-    "text": "İki yabancıyla konuşuyorsun.\nNe diyorsun?",
+    "text": "İki yabancıyla konuşuyorsun.\nNe söylersin?",
     "choices": [
       {
-        "text": "'Efendilerim, lütfen kulunuzun evine buyurun; ayaklarınızı yıkayabilir ve geceyi geçirebilirsiniz'"
+        "text": "'Efendilerim, lütfen kulunuzun evine buyurun; ayaklarınızı yıkayıp geceyi geçirebilirsiniz'",
+        "feedback": "Yaratılış 19:2 — 'Efendilerim, lütfen kulunuzun evine buyurun. Ayaklarınızı yıkayıp geceyi geçirebilirsiniz ve sonra sabah erkenden yolunuza devam edersiniz.'"
       },
       {
-        "text": "'Sodom'u derhal terk edin â burası güvenli değil'"
+        "text": "'Hemen Sodom'u terk edin — burası güvenli değil'",
+        "feedback": "Lut, onları evinde gecelemeye ikna etti."
       },
       {
-        "text": "'Planladığınız gibi burada, meydanda uyuyun'"
+        "text": "'Planladığınız gibi burada meydanda uyuyun'",
+        "feedback": "Lut, meleklerin meydanda kalmak yerine onunla eve gelmeleri konusunda ısrar etti."
       }
     ]
   },
   "strangers": {
     "title": "Evinde Bir Yemek",
-    "text": "Melekler sizinle birlikte eve gelir.\nOnlar için ne hazırlarsınız?",
+    "text": "Melekler seninle eve gelir.\nOnlar için ne hazırlarsın?",
     "choices": [
       {
-        "text": "Onlar için mayasız ekmek pişirerek bir yemek hazırlayın"
+        "text": "Onlar için mayasız ekmek pişirerek bir yemek hazırla",
+        "feedback": "Yaratılış 19:3 — Onlar için bir ziyafet hazırladı, mayasız ekmek pişirdi ve yediler."
       },
       {
-        "text": "Onlara sadece su ikram edin ve yatmaya gönderin"
+        "text": "Onlara sadece su ikram et ve yatmalarına izin ver",
+        "feedback": "Lut ekmek pişirdi ve onlar için bir ziyafet hazırladı."
       },
       {
-        "text": "Onlara ateşte kızartılmış bir kuzu ikram edin"
+        "text": "Onlara ateşle kızartılmış bir kuzu ikram et",
+        "feedback": "Yaratılış, kızartılmış kuzu değil, mayasız ekmek olduğunu belirtir."
       }
     ]
   },
   "welcome": {
     "title": "Şehrin Adamları",
-    "text": "Siz yatmadan önce, Sodom'un tüm erkekleri â genç ve yaşlı â evi kuşatır.\nNe talep ederler?",
+    "text": "Yatmadan önce, Sodom'un tüm erkekleri — genç ve yaşlı — evi kuşatır.\nNe talep ediyorlar?",
     "choices": [
       {
-        "text": "'Bu gece size gelen adamlar nerede? Onları bize getirin'"
+        "text": "'Bu gece sana gelen adamlar nerede? Onları bize çıkarın'",
+        "feedback": "Yaratılış 19:5 — Lut'a seslendiler: 'Bu gece sana gelen adamlar nerede? Onları bize çıkarın ki onlarla yatalım.'"
       },
       {
-        "text": "'Evinden bize yiyecek ve altın ver'"
+        "text": "'Evinden bize yiyecek ve altın ver'",
+        "feedback": "Adamlar altın değil, Lut'un misafirlerini talep ettiler."
       },
       {
-        "text": "'Yabancılarla birlikte yemek yememize izin verin'"
+        "text": "'Yabancılarla birlikte yemek yememize izin verin'",
+        "feedback": "Sodom'un adamları dostça bir istek değil, düşmanca bir niyetle geldiler."
       }
     ]
   },
   "mob": {
     "title": "Kapıda",
-    "text": "Kalabalıkla konuşmak için dışarı çıkarsınız.\nKapıyla ne yaparsınız?",
+    "text": "Kalabalıkla konuşmak için dışarı çıkıyorsun.\nKapıyla ne yapıyorsun?",
     "choices": [
       {
-        "text": "Onların yanına çıkın ve kapıyı arkanızdan kapatın"
+        "text": "Dışarı çık ve kapıyı arkandan kapat",
+        "feedback": "Yaratılış 19:6 — Lut dışarı çıktı, onlarla buluştu ve kapıyı arkasından kapattı."
       },
       {
-        "text": "Kapıyı ardına kadar açık bırakın ki misafirler kaçabilsin"
+        "text": "Misafirlerin kaçabilmesi için kapıyı ardına kadar açık bırak",
+        "feedback": "Lut, misafirleri korumak için kapıyı arkasından kapattı."
       },
       {
-        "text": "Misafirleri kendiniz kalabalığa teslim edin"
+        "text": "Misafirleri kalabalığa kendin teslim et",
+        "feedback": "Lut, adamların misafirlerine zarar vermemesi için yalvardı."
       }
     ]
   },
@@ -80,79 +95,94 @@
     "text": "Kalabalık kapıyı kırmak için hücum eder.\nMelekler ne yapar?",
     "choices": [
       {
-        "text": "Melekler uzanır, sizi evin içine çeker ve adamları körlükle vurur"
+        "text": "Melekler uzanır, seni evin içine çeker ve adamları körlükle vurur",
+        "feedback": "Yaratılış 19:10-11 — İçerideki adamlar uzanıp Lut'u evin içine çektiler ve kapıyı kapattılar. Sonra kapıdaki adamları körlükle vurdular."
       },
       {
-        "text": "Melekler kapıyı açar ve kalabalığı içeri alır"
+        "text": "Melekler kapıyı açar ve kalabalığı içeri alır",
+        "feedback": "Melekler Lut'u içeri çekti ve kalabalığı körlükle vurdu."
       },
       {
-        "text": "Melekler sessizce kaybolur ve sizi terk eder"
+        "text": "Melekler sessizce kaybolur ve seni terk eder",
+        "feedback": "Melekler Lut'u kurtardı ve onunla kaldı."
       }
     ]
   },
   "sons_in_law": {
     "title": "Aileni Uyar",
-    "text": "Melekler size yaklaşan yıkım hakkında akrabalarınızı uyarmanızı söyler.\nDamadınız nasıl tepki verir?",
+    "text": "Melekler sana, yaklaşan yıkım hakkında akrabalarını uyarmayı söyler.\nDamadın nasıl tepki verir?",
     "choices": [
       {
-        "text": "Damadınız şaka yaptığınızı düşünür"
+        "text": "Damadın şaka yaptığını düşünür",
+        "feedback": "Yaratılış 19:14 — Lut dışarı çıktı ve damatlarıyla konuştu, ama onlar onun şaka yaptığını düşündüler."
       },
       {
-        "text": "Damadınız size inanır ve hemen peşinizden gelir"
+        "text": "Damadın sana inanır ve hemen peşinden gelir",
+        "feedback": "Damatlar Lut'u ciddiye almadılar."
       },
       {
-        "text": "Damadınız uyarı için sizi öldürür"
+        "text": "Damadın uyarı için seni öldürür",
+        "feedback": "Yaratılış, Lut'un şaka yaptığını düşündüklerini söyler."
       }
     ]
   },
   "urge": {
-    "title": "Şafak â Canınız İçin Kaçın",
-    "text": "Şafak sökerken, melekler sizi acele etmeye çağırır.\nNe derler?",
+    "title": "Şafak — Canınız İçin Kaçın",
+    "text": "Şafak sökerken, melekler seni acele etmeye çağırır.\nNe derler?",
     "choices": [
       {
-        "text": "'Canınız için kaçın! Arkanıza bakmayın ve ovada hiçbir yerde durmayın! Dağlara kaçın'"
+        "text": "'Canınız için kaçın! Arkanıza bakmayın ve ovada hiçbir yerde durmayın! Dağlara kaçın!'",
+        "feedback": "Yaratılış 19:17 — 'Canınız için kaçın! Arkanıza bakmayın ve ovada hiçbir yerde durmayın! Dağlara kaçın, yoksa yok olursunuz!'"
       },
       {
-        "text": "'Altınını al ve şehrin içinde saklan'"
+        "text": "'Altınını al ve şehrin içinde saklan'",
+        "feedback": "Melekler Lut'a dağlara kaçmasını emretti, saklanmasını değil."
       },
       {
-        "text": "'Ayrılmadan önce birkaç gün daha bekleyin'"
+        "text": "'Ayrılmadan önce birkaç gün daha bekle'",
+        "feedback": "Melekler 'Kaçın!' diye acilen söyledi, beklemeyi değil."
       }
     ]
   },
   "flee": {
-    "title": "Gökten Gelen Ateş",
-    "text": "Güneş doğarken Soar kasabasına ulaşırsınız.\nRAB Sodom ve Gomora'ya ne yapar?",
+    "title": "Gökten Ateş",
+    "text": "Güneş doğarken Soar kasabasına ulaşırsın.\nRAB Sodom ve Gomora'ya ne yapar?",
     "choices": [
       {
-        "text": "RAB Sodom ve Gomora'nın üzerine göklerden yanan kükürt yağdırır"
+        "text": "RAB göklerden Sodom ve Gomora üzerine yanan kükürt yağdırır",
+        "feedback": "Yaratılış 19:24 — Sonra RAB Sodom ve Gomora üzerine — RAB'den göklerden — yanan kükürt yağdırdı."
       },
       {
-        "text": "RAB şehirlerin üzerine büyük bir sel gönderir"
+        "text": "RAB şehirlerin üzerine büyük bir sel gönderir",
+        "feedback": "Yaratılış, gökten sel değil, yanan kükürt yağdığını söyler."
       },
       {
-        "text": "RAB şehirleri esirger ve ayakta kalmalarına izin verir"
+        "text": "Rab şehirleri esirger ve ayakta kalmalarına izin verir",
+        "feedback": "Sodom ve Gomora gökten gelen ateşle yok edildi."
       }
     ]
   },
   "wife_looks": {
-    "title": "Arkasını Döndü",
-    "text": "Karınız arkanızda.\nOna ne olur?",
+    "title": "Geriye Baktı",
+    "text": "Karın arkanda.\nOna ne olur?",
     "choices": [
       {
-        "text": "Arkasını döner ve bir tuz direği olur"
+        "text": "Geriye bakar ve bir tuz direği olur",
+        "feedback": "Yaratılış 19:26 — Ama Lut’un karısı arkasına baktı ve bir tuz direği oldu."
       },
       {
-        "text": "Sizinle birlikte güvenle Soar'a koşar"
+        "text": "Seninle birlikte güvenle Soar'a koşar",
+        "feedback": "Lut'un karısı arkasına baktı ve bir tuz direğine dönüştü."
       },
       {
-        "text": "Bir kuşa dönüşür ve uçar"
+        "text": "Bir kuşa dönüşür ve uçar",
+        "feedback": "Yaratılış, onun bir tuz direği olduğunu söyler."
       }
     ]
   },
   "aftermath": {
     "title": "Ovanın Dumanı",
-    "text": "Sabah erken saatlerde İbrahim kalkar ve Sodom'a doğru bakar.\nTopraktan, bir fırının dumanı gibi yoğun bir duman yükseldiğini görür.\nTanrı İbrahim'i hatırladı ve Lut'u felaketten çıkardı.",
+    "text": "Sabah erkenden İbrahim kalkar ve Sodom'a doğru bakar.\nTopraktan, fırından çıkan duman gibi yoğun bir duman yükseldiğini görür.\nTanrı İbrahim'i hatırladı ve Lut'u felaketten çıkardı.",
     "choices": []
   }
 }

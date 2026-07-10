@@ -1,32 +1,38 @@
 {
-  "storyTitle": "Ofiara Izaaka",
+  "storyTitle": "Ofiarowanie Izaaka",
   "start": {
     "title": "Bóg Doświadcza Abrahama",
-    "text": "Bóg cię woła.\nJak odpowiadasz?",
+    "text": "Bóg cię wzywa.\nJak odpowiadasz?",
     "choices": [
       {
-        "text": "Odpowiedz: 'Oto jestem'"
+        "text": "Odpowiedź: „Oto jestem”",
+        "feedback": "Księga Rodzaju 22:1 — Po pewnym czasie Bóg wystawił Abrahama na próbę. Rzekł do niego: „Abrahamie!” A on odpowiedział: „Oto jestem”."
       },
       {
-        "text": "Zignoruj głos i wróć do snu"
+        "text": "Zignoruj głos i wróć do snu",
+        "feedback": "Abraham natychmiast odpowiedział Panu: „Oto jestem”."
       },
       {
-        "text": "Najpierw zażądaj poznania imienia Pana"
+        "text": "Najpierw zażądaj poznania imienia Pana",
+        "feedback": "Abraham po prostu odpowiedział: „Oto jestem”."
       }
     ]
   },
   "the_command": {
     "title": "Weź Swego Syna",
-    "text": "Bóg wypowiada polecenie.\nCo On mówi?",
+    "text": "Bóg wypowiada rozkaz.\nCo mówi?",
     "choices": [
       {
-        "text": "'Weź swego syna, jedynego syna, którego miłujesz – Izaaka – i złóż go w ofierze całopalnej na górze, którą ci wskażę'"
+        "text": "„Weź swego syna, jedynego syna, którego miłujesz — Izaaka — i złóż go w ofierze całopalnej na górze, którą ci wskażę”",
+        "feedback": "Księga Rodzaju 22:2 — „Weź swego syna, jedynego syna, którego miłujesz — Izaaka — i idź do kraju Moria. Złóż go tam w ofierze całopalnej na jednej z gór, którą ci wskażę”."
       },
       {
-        "text": "'Weź baranka ze swojej trzody i złóż go tutaj w ofierze'"
+        "text": "„Weź baranka ze swojej trzody i złóż go tutaj”",
+        "feedback": "Bóg nakazał Abrahamowi złożyć w ofierze Izaaka, jego syna."
       },
       {
-        "text": "'Zbuduj wielką świątynię w Beer-Szebie'"
+        "text": "„Zbuduj wielką świątynię w Beer-Szebie”",
+        "feedback": "Rozkaz Boga dotyczył złożenia Izaaka na górze w Moria."
       }
     ]
   },
@@ -35,13 +41,16 @@
     "text": "Wczesnym rankiem następnego dnia przygotowujesz się do podróży.\nCo robisz?",
     "choices": [
       {
-        "text": "Wstań wcześnie, osiodłaj osła, weź dwóch sług i swego syna Izaaka, i narąb wystarczająco dużo drewna na ofiarę całopalną"
+        "text": "Wstań wcześnie, osiodłaj osła, weź dwóch sług i swego syna Izaaka, i narąb wystarczająco dużo drewna na ofiarę całopalną",
+        "feedback": "Księga Rodzaju 22:3 — Wczesnym rankiem Abraham wstał i osiodłał swego osła. Wziął ze sobą dwóch swoich sług i swego syna Izaaka. Gdy narąbał wystarczająco dużo drewna na ofiarę całopalną, wyruszył."
       },
       {
-        "text": "Odmów pójścia i pozostań w Beer-Szebie"
+        "text": "Odmów pójścia i zostań w Beer-Szebie",
+        "feedback": "Abraham natychmiast posłuchał Boga, wstając wcześnie rano."
       },
       {
-        "text": "Poczekaj na znak, zanim wyruszysz"
+        "text": "Poczekaj na znak, zanim wyruszysz",
+        "feedback": "Abraham wyruszył natychmiast, bez czekania."
       }
     ]
   },
@@ -50,13 +59,16 @@
     "text": "Podróżujesz w kierunku miejsca, które wskazał ci Bóg.\nJak długo podróżujesz?",
     "choices": [
       {
-        "text": "Podróżuj przez trzy dni, aż podniesiesz wzrok i zobaczysz to miejsce w oddali"
+        "text": "Podróżuj przez trzy dni, aż podniesiesz wzrok i zobaczysz to miejsce w oddali",
+        "feedback": "Księga Rodzaju 22:4 — Trzeciego dnia Abraham podniósł wzrok i zobaczył to miejsce w oddali."
       },
       {
-        "text": "Podróżuj tylko jedną godzinę, zanim dotrzesz"
+        "text": "Podróżuj tylko jedną godzinę przed przybyciem",
+        "feedback": "Podróż do Moria trwała trzy dni."
       },
       {
-        "text": "Podróżuj przez czterdzieści lat przez pustynię"
+        "text": "Podróżuj przez czterdzieści lat przez pustynię",
+        "feedback": "Księga Rodzaju mówi, że Abraham dotarł na miejsce trzeciego dnia."
       }
     ]
   },
@@ -65,13 +77,16 @@
     "text": "Zbliżasz się do góry.\nCo mówisz sługom?",
     "choices": [
       {
-        "text": "'Zostańcie tutaj z osłem, a ja i chłopiec pójdziemy tam. Oddamy cześć, a potem wrócimy do was'"
+        "text": "„Zostańcie tutaj z osłem, a ja i chłopiec pójdziemy tam. Oddamy cześć, a potem wrócimy do was”",
+        "feedback": "Księga Rodzaju 22:5 — „Zostańcie tutaj z osłem, a ja i chłopiec pójdziemy tam. Oddamy cześć, a potem wrócimy do was”."
       },
       {
-        "text": "'Chodźcie z nami na górę, żeby popatrzeć'"
+        "text": "„Chodźcie z nami na górę, żeby popatrzeć”",
+        "feedback": "Abraham powiedział sługom, żeby czekali z osłem."
       },
       {
-        "text": "'Zabierzcie osła do domu; nie wracamy'"
+        "text": "„Zabierzcie osła do domu; nie wracamy”",
+        "feedback": "Abraham powiedział: „Wrócimy do was”."
       }
     ]
   },
@@ -80,43 +95,52 @@
     "text": "Przygotowujesz się do wspinaczki na górę.\nKto co niesie?",
     "choices": [
       {
-        "text": "Połóż drewno na ofiarę całopalną na ramionach Izaaka; sam nieś ogień i nóż"
+        "text": "Połóż drewno na ofiarę całopalną na ramiona Izaaka; sam nieś ogień i nóż",
+        "feedback": "Księga Rodzaju 22:6 — Abraham wziął drewno do całopalenia i włożył je na swego syna Izaaka, sam zaś niósł ogień i nóż."
       },
       {
-        "text": "Sam nieś drewno, podczas gdy Izaak nic nie niesie"
+        "text": "Sam nieś drewno, a Izaak niech nic nie niesie",
+        "feedback": "Izaak niósł drewno; Abraham niósł ogień i nóż."
       },
       {
-        "text": "Zostaw drewno u podnóża góry"
+        "text": "Zostaw drewno u podnóża góry",
+        "feedback": "Drewno na ofiarę całopalną zostało położone na Izaaku."
       }
     ]
   },
   "leave_servants": {
     "title": "Ojcze",
-    "text": "Gdy idziecie razem, Izaak odzywa się.\nCo on mówi?",
+    "text": "Gdy idziecie razem, Izaak odzywa się.\nCo mówi?",
     "choices": [
       {
-        "text": "'Ojcze – oto ogień i drewno, ale gdzie jest baranek na ofiarę całopalną?'"
+        "text": "„Ojcze — oto ogień i drwa, lecz gdzie jest baranek na całopalenie?”",
+        "feedback": "Księga Rodzaju 22:7 — „Ojcze, oto ogień i drwa, lecz gdzie jest baranek na całopalenie?”"
       },
       {
-        "text": "'Ojcze – wróćmy do domu natychmiast'"
+        "text": "„Ojcze — wróćmy do domu już teraz”",
+        "feedback": "Izaak zapytał o baranka na ofiarę."
       },
       {
-        "text": "Izaak nic nie mówi przez całą drogę"
+        "text": "Izaak nic nie mówi przez całą drogę",
+        "feedback": "Księga Rodzaju odnotowuje pytanie Izaaka o baranka."
       }
     ]
   },
   "isaacs_question": {
-    "title": "Bóg zapewni",
+    "title": "Bóg Zaopatrzy",
     "text": "Odpowiadasz Izaakowi.\nCo mówisz?",
     "choices": [
       {
-        "text": "„Bóg sam sobie upatrzy jagnię na całopalenie, mój synu”"
+        "text": "„Bóg sam sobie upatrzy baranka na całopalenie, synu mój”",
+        "feedback": "Księga Rodzaju 22:8 — „Bóg sam sobie upatrzy baranka na całopalenie, synu mój.”"
       },
       {
-        "text": "„Ty jesteś jagnięciem, Izaaku”"
+        "text": "„Ty jesteś barankiem, Izaaku”",
+        "feedback": "Abraham powiedział Izaakowi, że Bóg sam zaopatrzy baranka."
       },
       {
-        "text": "„Nie ma jagnięcia — wracamy do domu”"
+        "text": "„Nie ma baranka — wracamy teraz do domu”",
+        "feedback": "Abraham odpowiedział z wiarą: Bóg zaopatrzy."
       }
     ]
   },
@@ -125,13 +149,16 @@
     "text": "Docierasz do miejsca, o którym powiedział ci Bóg.\nCo tam budujesz?",
     "choices": [
       {
-        "text": "Zbuduj ołtarz, ułóż na nim drwa, zwiąż Izaaka i połóż go na ołtarzu, na drwach"
+        "text": "Zbuduj ołtarz, ułóż na nim drewno, zwiąż Izaaka i połóż go na ołtarzu, na drewnie",
+        "feedback": "Księga Rodzaju 22:9 — A gdy przyszli na miejsce, które mu Bóg wskazał, Abraham zbudował tam ołtarz i ułożył na nim drwa. Potem związał swego syna Izaaka i położył go na ołtarzu, na drwach."
       },
       {
-        "text": "Zamiast tego zbuduj świątynię innemu bogu"
+        "text": "Zamiast tego zbuduj świątynię innemu bogu",
+        "feedback": "Abraham zbudował ołtarz Panu, dokładnie tak, jak mu nakazano."
       },
       {
-        "text": "Odmów budowania czegokolwiek i zawróć"
+        "text": "Odmów budowania czegokolwiek i zawróć",
+        "feedback": "Abraham posłuchał i zbudował ołtarz."
       }
     ]
   },
@@ -140,13 +167,16 @@
     "text": "Izaak jest związany na ołtarzu.\nCo robisz dalej?",
     "choices": [
       {
-        "text": "Wyciągnij rękę i weź nóż, aby zabić swojego syna"
+        "text": "Wyciągnij rękę i weź nóż, aby zabić swego syna",
+        "feedback": "Księga Rodzaju 22:10 — Potem wyciągnął rękę i wziął nóż, aby zabić swego syna."
       },
       {
-        "text": "Odłóż nóż i odmów"
+        "text": "Odłóż nóż i odmów",
+        "feedback": "Abraham wyciągnął nóż, aby w pełni posłuchać Boga."
       },
       {
-        "text": "Rozwiąż Izaaka i ucieknij w dół góry"
+        "text": "Rozwiąż Izaaka i ucieknij w dół góry",
+        "feedback": "Abraham podniósł nóż w posłuszeństwie; nie uciekł."
       }
     ]
   },
@@ -155,79 +185,94 @@
     "text": "Anioł Pana woła do ciebie z nieba.\nCo mówi?",
     "choices": [
       {
-        "text": "„Abrahamie! Abrahamie! Nie podnoś ręki na chłopca. Nie czyń mu nic złego”"
+        "text": "„Abrahamie! Abrahamie! Nie podnoś ręki na chłopca. Nie czyń mu nic złego”",
+        "feedback": "Księga Rodzaju 22:11-12 — „Abrahamie! Abrahamie!” „Oto jestem” — odpowiedział. „Nie podnoś ręki na chłopca” — powiedział. „Nie czyń mu nic złego.”"
       },
       {
-        "text": "„Uderz chłopca szybko — nie zwlekaj”"
+        "text": "„Uderz chłopca szybko — nie zwlekaj”",
+        "feedback": "Anioł powstrzymał Abrahama przed skrzywdzeniem Izaaka."
       },
       {
-        "text": "Anioł nic nie mówi"
+        "text": "Anioł nic nie mówi",
+        "feedback": "Anioł zawołał wyraźnie i powstrzymał Abrahama."
       }
     ]
   },
   "the_stay": {
-    "title": "Teraz wiem",
+    "title": "Teraz Wiem",
     "text": "Anioł wyjaśnia, dlaczego zostałeś zatrzymany.\nCo mówi?",
     "choices": [
       {
-        "text": "„Teraz wiem, że boisz się Boga, bo nie odmówiłeś Mi swego syna, jedynego syna”"
+        "text": "„Teraz wiem, że boisz się Boga, bo nie odmówiłeś Mi swego syna, jedynego syna”",
+        "feedback": "Księga Rodzaju 22:12 — „Teraz wiem, że boisz się Boga, bo nie odmówiłeś Mi swego syna, jedynego syna.”"
       },
       {
-        "text": "„Nie zdałeś testu; wracaj do domu ze wstydem”"
+        "text": "'Nie zdałeś testu; wracaj do domu ze wstydem'",
+        "feedback": "Anioł pochwalił posłuszeństwo Abrahama."
       },
       {
-        "text": "„Izaak musi jeszcze umrzeć; spróbuj ponownie jutro”"
+        "text": "'Izaak musi umrzeć; spróbuj ponownie jutro'",
+        "feedback": "Anioł nakazał Abrahamowi, aby nie krzywdził Izaaka."
       }
     ]
   },
   "the_ram": {
-    "title": "Baran w zaroślach",
-    "text": "Podnosisz wzrok.\nCo widzisz uwięzione w zaroślach?",
+    "title": "Baran w gąszczu",
+    "text": "Podnosisz wzrok.\nCo widzisz uwięzione w gąszczu?",
     "choices": [
       {
-        "text": "Barana uwięzionego rogami w zaroślach — bierzesz go i ofiarowujesz jako całopalenie zamiast swojego syna"
+        "text": "Baran zaplątany rogami w gąszczu — bierzesz go i składasz w ofierze całopalnej zamiast syna",
+        "feedback": "Księga Rodzaju 22:13 — Abraham podniósł wzrok i zobaczył barana, który rogami uwięził się w zaroślach. Podszedł, wziął barana i złożył go w ofierze całopalnej zamiast swego syna."
       },
       {
-        "text": "Gołębia latającego nad ołtarzem"
+        "text": "Gołębica latająca nad ołtarzem",
+        "feedback": "Abraham zobaczył barana uwięzionego rogami w gąszczu."
       },
       {
-        "text": "Nic — ołtarz pozostaje pusty"
+        "text": "Nic — ołtarz pozostaje pusty",
+        "feedback": "Bóg zapewnił barana uwięzionego w gąszczu."
       }
     ]
   },
   "the_name": {
-    "title": "Pan zapewni",
-    "text": "Nazywasz to miejsce, aby upamiętnić to, co się stało.\nJaką nazwę mu nadajesz?",
+    "title": "Pan zaopatrzy",
+    "text": "Nazywasz to miejsce, aby upamiętnić to, co się wydarzyło.\nJaką nazwę mu nadajesz?",
     "choices": [
       {
-        "text": "„Pan zapewni” (Jahwe Jireh)"
+        "text": "'Pan zaopatrzy' (Jahwe Jire)",
+        "feedback": "Księga Rodzaju 22:14 — I nazwał Abraham to miejsce: „Pan zaopatruje”."
       },
       {
-        "text": "„Miejsce Smutku”"
+        "text": "'Miejsce żałoby'",
+        "feedback": "Abraham nazwał je „Pan zaopatrzy”."
       },
       {
-        "text": "„Góra Ognia”"
+        "text": "'Góra Ognia'",
+        "feedback": "Abraham nazwał to miejsce „Pan zaopatrzy”."
       }
     ]
   },
   "the_blessing": {
     "title": "Przysięga",
-    "text": "Anioł Pana woła do ciebie po raz drugi z nieba.\nJaka jest obietnica?",
+    "text": "Anioł Pana woła do ciebie po raz drugi z nieba.\nJaka to obietnica?",
     "choices": [
       {
-        "text": "„Będę ci błogosławił i rozmnożę twoje potomstwo jak gwiazdy na niebie i piasek na brzegu morza; przez twoje potomstwo będą błogosławione wszystkie narody ziemi”"
+        "text": "'Będę ci błogosławił obficie i rozmnożę potomstwo twoje jak gwiazdy na niebie i jak piasek na brzegu morza; przez potomstwo twoje będą błogosławione wszystkie narody ziemi'",
+        "feedback": "Księga Rodzaju 22:16-18 — „Przysięgam na siebie samego... Będę ci błogosławił obficie i rozmnożę potomstwo twoje jak gwiazdy na niebie i jak piasek na brzegu morza... i przez potomstwo twoje będą błogosławione wszystkie narody ziemi, ponieważ usłuchałeś głosu mego”."
       },
       {
-        "text": "„Twoje potomstwo będzie nieliczne i zapomniane”"
+        "text": "'Twoje potomstwo będzie nieliczne i zapomniane'",
+        "feedback": "Pan obiecał potomstwo liczne jak gwiazdy i piasek."
       },
       {
-        "text": "„Stracisz wszystko, co masz, jako karę”"
+        "text": "'Stracisz wszystko, co masz, jako karę'",
+        "feedback": "Pan pobłogosławił Abrahama za jego posłuszeństwo."
       }
     ]
   },
   "homecoming": {
     "title": "Powrót do Beer-Szeby",
-    "text": "Abraham wraca do swoich sług i razem wyruszają do Beer-Szeby.\nI Abraham pozostaje w Beer-Szebie.",
+    "text": "Abraham wraca do swoich sług i razem wyruszają do Beer-Szeby.\nI Abraham zamieszkuje w Beer-Szebie.",
     "choices": []
   }
 }

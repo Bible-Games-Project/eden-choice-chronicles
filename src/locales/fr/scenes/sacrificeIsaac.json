@@ -1,92 +1,110 @@
 {
-  "storyTitle": "Sacrifice d'Isaac",
+  "storyTitle": "Le sacrifice d'Isaac",
   "start": {
-    "title": "Dieu Met Abraham à l'Épreuve",
+    "title": "Dieu met Abraham à l'épreuve",
     "text": "Dieu t'appelle.\nComment réponds-tu ?",
     "choices": [
       {
-        "text": "Réponds : « Me voici »"
+        "text": "Réponds : « Me voici »",
+        "feedback": "Genèse 22:1 — Quelque temps après, Dieu mit Abraham à l'épreuve. Il lui dit : « Abraham ! » Il répondit : « Me voici. »"
       },
       {
-        "text": "Ignore la voix et retourne dormir"
+        "text": "Ignore la voix et rendors-toi",
+        "feedback": "Abraham répondit aussitôt au Seigneur : « Me voici. »"
       },
       {
-        "text": "Demande d'abord à connaître le nom du Seigneur"
+        "text": "Demande d'abord à connaître le nom du Seigneur",
+        "feedback": "Abraham répondit simplement : « Me voici. »"
       }
     ]
   },
   "the_command": {
-    "title": "Prends Ton Fils",
-    "text": "Dieu prononce le commandement.\nQue dit-il ?",
+    "title": "Prends ton fils",
+    "text": "Dieu prononce le commandement.\nQue dit-Il ?",
     "choices": [
       {
-        "text": "« Prends ton fils, ton unique, celui que tu aimes — Isaac — et offre-le en holocauste sur une montagne que je te montrerai »"
+        "text": "« Prends ton fils, ton unique, celui que tu aimes — Isaac — et offre-le en holocauste sur une montagne que je te montrerai »",
+        "feedback": "Genèse 22:2 — « Prends ton fils, ton unique, celui que tu aimes — Isaac — et va au pays de Morija. Offre-le là en holocauste sur une montagne que je te montrerai. »"
       },
       {
-        "text": "« Prends un agneau de ton troupeau et offre-le ici »"
+        "text": "« Prends un agneau de ton troupeau et offre-le ici »",
+        "feedback": "Dieu commanda à Abraham d'offrir Isaac, son fils."
       },
       {
-        "text": "« Construis un grand temple à Beer-Sheva »"
+        "text": "« Construis un grand temple à Beer-Sheva »",
+        "feedback": "Le commandement de Dieu était d'offrir Isaac sur une montagne en Morija."
       }
     ]
   },
   "the_weight": {
-    "title": "Tôt le Lendemain Matin",
+    "title": "Tôt le lendemain matin",
     "text": "Tôt le lendemain matin, tu te prépares pour le voyage.\nQue fais-tu ?",
     "choices": [
       {
-        "text": "Lève-toi tôt, selle ton âne, prends deux serviteurs et ton fils Isaac, et coupe assez de bois pour l'holocauste"
+        "text": "Lève-toi tôt, selle ton âne, prends deux serviteurs et ton fils Isaac, et coupe assez de bois pour l'holocauste",
+        "feedback": "Genèse 22:3 — Tôt le lendemain matin, Abraham se leva et sella son âne. Il prit avec lui deux de ses serviteurs et son fils Isaac. Quand il eut coupé assez de bois pour l'holocauste, il se mit en route."
       },
       {
-        "text": "Refuse d'y aller et reste à Beer-Sheva"
+        "text": "Refuse d'y aller et reste à Beer-Sheva",
+        "feedback": "Abraham obéit aussitôt à Dieu, se levant tôt le matin."
       },
       {
-        "text": "Attends un signe avant de partir"
+        "text": "Attends un signe avant de partir",
+        "feedback": "Abraham partit immédiatement, sans attendre."
       }
     ]
   },
   "departure": {
     "title": "Vers Morija",
-    "text": "Tu te diriges vers l'endroit que Dieu t'a indiqué.\nCombien de temps voyages-tu ?",
+    "text": "Tu voyages vers le lieu que Dieu t'a indiqué.\nCombien de temps voyages-tu ?",
     "choices": [
       {
-        "text": "Voyage pendant trois jours, jusqu'à ce que tu lèves les yeux et voies l'endroit au loin"
+        "text": "Voyage pendant trois jours, jusqu'à ce que tu lèves les yeux et voies le lieu au loin",
+        "feedback": "Genèse 22:4 — Le troisième jour, Abraham leva les yeux et vit le lieu au loin."
       },
       {
-        "text": "Voyage seulement une heure avant d'arriver"
+        "text": "Voyage seulement une heure avant d'arriver",
+        "feedback": "Le voyage vers Morija dura trois jours."
       },
       {
-        "text": "Voyage quarante ans à travers le désert"
+        "text": "Voyage quarante ans dans le désert",
+        "feedback": "La Genèse dit qu'Abraham atteignit le lieu le troisième jour."
       }
     ]
   },
   "the_road": {
-    "title": "Restez Ici Avec l'Âne",
+    "title": "Reste ici avec l'âne",
     "text": "Tu t'approches de la montagne.\nQue dis-tu aux serviteurs ?",
     "choices": [
       {
-        "text": "« Restez ici avec l'âne pendant que moi et le garçon allons là-bas. Nous adorerons et ensuite nous reviendrons vers vous »"
+        "text": "« Restez ici avec l'âne pendant que le garçon et moi allons là-bas. Nous adorerons et nous reviendrons vers vous »",
+        "feedback": "Genèse 22:5 — « Restez ici avec l'âne pendant que le garçon et moi allons là-bas. Nous adorerons et nous reviendrons vers vous. »"
       },
       {
-        "text": "« Venez avec nous sur la montagne pour regarder »"
+        "text": "« Venez avec nous sur la montagne pour regarder »",
+        "feedback": "Abraham dit aux serviteurs de rester en arrière avec l'âne."
       },
       {
-        "text": "« Ramenez l'âne à la maison ; nous ne reviendrons pas »"
+        "text": "« Ramenez l'âne à la maison ; nous ne reviendrons pas »",
+        "feedback": "Abraham dit : « Nous reviendrons vers vous. »"
       }
     ]
   },
   "mountain_in_sight": {
-    "title": "Le Bois et le Feu",
+    "title": "Le bois et le feu",
     "text": "Tu te prépares à gravir la montagne.\nQui porte quoi ?",
     "choices": [
       {
-        "text": "Place le bois pour l'holocauste sur les épaules d'Isaac ; porte toi-même le feu et le couteau"
+        "text": "Place le bois pour l'holocauste sur les épaules d'Isaac ; porte toi-même le feu et le couteau",
+        "feedback": "Genèse 22:6 — Abraham prit le bois pour l'holocauste et le plaça sur son fils Isaac, et il porta lui-même le feu et le couteau."
       },
       {
-        "text": "Porte toi-même le bois pendant qu'Isaac ne porte rien"
+        "text": "Porte toi-même le bois pendant qu'Isaac ne porte rien",
+        "feedback": "Isaac porta le bois ; Abraham porta le feu et le couteau."
       },
       {
-        "text": "Laisse le bois au pied de la montagne"
+        "text": "Laisse le bois au pied de la montagne",
+        "feedback": "Le bois pour l'holocauste fut placé sur Isaac."
       }
     ]
   },
@@ -95,13 +113,16 @@
     "text": "Alors que vous marchez ensemble, Isaac prend la parole.\nQue dit-il ?",
     "choices": [
       {
-        "text": "« Père — le feu et le bois sont ici, mais où est l'agneau pour l'holocauste ? »"
+        "text": "« Père — le feu et le bois sont là, mais où est l'agneau pour l'holocauste ? »",
+        "feedback": "Genèse 22:7 — « Père, le feu et le bois sont là, mais où est l'agneau pour l'holocauste ? »"
       },
       {
-        "text": "« Père — rentrons tout de suite à la maison »"
+        "text": "« Père — rentrons à la maison tout de suite »",
+        "feedback": "Isaac interrogea sur l'agneau pour l'offrande."
       },
       {
-        "text": "Isaac ne dit rien pendant tout le chemin"
+        "text": "Isaac ne dit rien pendant tout le chemin",
+        "feedback": "La Genèse rapporte la question d'Isaac concernant l'agneau."
       }
     ]
   },
@@ -110,43 +131,52 @@
     "text": "Tu réponds à Isaac.\nQue dis-tu ?",
     "choices": [
       {
-        "text": "« Dieu lui-même pourvoira à l'agneau pour l'holocauste, mon fils »"
+        "text": "« Dieu Lui-même pourvoira à l'agneau pour l'holocauste, mon fils »",
+        "feedback": "Genèse 22:8 — « Dieu Lui-même pourvoira à l'agneau pour l'holocauste, mon fils. »"
       },
       {
-        "text": "« Tu es l'agneau, Isaac »"
+        "text": "« Tu es l'agneau, Isaac »",
+        "feedback": "Abraham dit à Isaac que Dieu Lui-même pourvoirait à l'agneau."
       },
       {
-        "text": "« Il n'y a pas d'agneau — nous rentrons maintenant »"
+        "text": "« Il n'y a pas d'agneau — nous rentrons maintenant »",
+        "feedback": "Abraham répondit avec foi : Dieu pourvoirait."
       }
     ]
   },
   "summit": {
-    "title": "L'autel",
-    "text": "Tu arrives à l'endroit que Dieu t'a indiqué.\nQue construis-tu là ?",
+    "title": "L'Autel",
+    "text": "Tu atteins le lieu dont Dieu t'a parlé.\nQue construis-tu là ?",
     "choices": [
       {
-        "text": "Construire un autel, y arranger le bois, lier Isaac et le déposer sur l'autel, sur le bois"
+        "text": "Construis un autel, arrange le bois dessus, lie Isaac et pose-le sur l'autel, sur le bois",
+        "feedback": "Genèse 22:9 — Quand ils atteignirent le lieu dont Dieu lui avait parlé, Abraham y bâtit un autel et y arrangea le bois. Il lia son fils Isaac et le posa sur l'autel, sur le bois."
       },
       {
-        "text": "Construire un sanctuaire pour un autre dieu à la place"
+        "text": "Construis plutôt un sanctuaire pour un autre dieu",
+        "feedback": "Abraham bâtit un autel à l'Éternel, exactement comme commandé."
       },
       {
-        "text": "Refuser de construire quoi que ce soit et faire demi-tour"
+        "text": "Refuse de construire quoi que ce soit et fais demi-tour",
+        "feedback": "Abraham obéit et bâtit l'autel."
       }
     ]
   },
   "the_binding": {
-    "title": "Le couteau",
+    "title": "Le Couteau",
     "text": "Isaac est lié sur l'autel.\nQue fais-tu ensuite ?",
     "choices": [
       {
-        "text": "Tendre la main et prendre le couteau pour immoler ton fils"
+        "text": "Tends la main et prends le couteau pour immoler ton fils",
+        "feedback": "Genèse 22:10 — Alors il tendit la main et prit le couteau pour immoler son fils."
       },
       {
-        "text": "Mettre le couteau de côté et refuser"
+        "text": "Mets le couteau de côté et refuse",
+        "feedback": "Abraham tendit la main avec le couteau pour obéir pleinement à Dieu."
       },
       {
-        "text": "Délier Isaac et fuir la montagne"
+        "text": "Délie Isaac et fuis en bas de la montagne",
+        "feedback": "Abraham leva le couteau par obéissance ; il ne s'enfuit pas."
       }
     ]
   },
@@ -155,13 +185,16 @@
     "text": "L'ange de l'Éternel t'appelle du ciel.\nQue dit-il ?",
     "choices": [
       {
-        "text": "« Abraham ! Abraham ! Ne porte pas la main sur l'enfant. Ne lui fais rien »"
+        "text": "« Abraham ! Abraham ! Ne porte pas la main sur l'enfant. Ne lui fais rien »",
+        "feedback": "Genèse 22:11-12 — « Abraham ! Abraham ! » « Me voici, » répondit-il. « Ne porte pas la main sur l'enfant, » dit-il. « Ne lui fais rien. »"
       },
       {
-        "text": "« Frappe l'enfant rapidement — ne tarde pas »"
+        "text": "« Frappe l'enfant rapidement — ne tarde pas »",
+        "feedback": "L'ange empêcha Abraham de nuire à Isaac."
       },
       {
-        "text": "L'ange ne dit rien du tout"
+        "text": "L'ange ne dit rien du tout",
+        "feedback": "L'ange appela clairement et arrêta Abraham."
       }
     ]
   },
@@ -170,43 +203,52 @@
     "text": "L'ange explique pourquoi tu as été arrêté.\nQue dit-il ?",
     "choices": [
       {
-        "text": "« Maintenant je sais que tu crains Dieu, car tu ne m'as pas refusé ton fils, ton unique »"
+        "text": "« Maintenant je sais que tu crains Dieu, car tu ne M'as pas refusé ton fils, ton unique »",
+        "feedback": "Genèse 22:12 — « Maintenant je sais que tu crains Dieu, car tu ne M'as pas refusé ton fils, ton unique. »"
       },
       {
-        "text": "« Tu as échoué au test ; rentre chez toi avec honte »"
+        "text": "'Tu as échoué au test ; rentre chez toi dans la honte'",
+        "feedback": "L'ange a loué l'obéissance d'Abraham."
       },
       {
-        "text": "« Isaac doit encore mourir ; réessaie demain »"
+        "text": "'Isaac doit encore mourir ; réessaie demain'",
+        "feedback": "L'ange a commandé à Abraham de ne pas faire de mal à Isaac."
       }
     ]
   },
   "the_ram": {
-    "title": "Un bélier dans le buisson",
-    "text": "Tu lèves les yeux.\nQue vois-tu pris dans le buisson ?",
+    "title": "Un bélier dans un fourré",
+    "text": "Tu lèves les yeux.\nQue vois-tu pris dans le fourré ?",
     "choices": [
       {
-        "text": "Un bélier pris par les cornes dans un buisson — tu le prends et l'offres en holocauste à la place de ton fils"
+        "text": "Un bélier pris par les cornes dans un fourré — tu le prends et l'offres en holocauste à la place de ton fils",
+        "feedback": "Genèse 22:13 — Abraham leva les yeux et vit un bélier pris par les cornes dans un fourré. Il alla prendre le bélier et l'offrit en holocauste à la place de son fils."
       },
       {
-        "text": "Une colombe volant au-dessus de l'autel"
+        "text": "Une colombe volant au-dessus de l'autel",
+        "feedback": "Abraham a vu un bélier pris par les cornes dans un fourré."
       },
       {
-        "text": "Rien du tout — l'autel reste vide"
+        "text": "Rien du tout — l'autel reste vide",
+        "feedback": "Dieu a pourvu un bélier pris dans le fourré."
       }
     ]
   },
   "the_name": {
     "title": "L'Éternel pourvoira",
-    "text": "Tu nommes cet endroit pour marquer ce qui s'est passé.\nQuel nom lui donnes-tu ?",
+    "text": "Tu nommes ce lieu pour marquer ce qui s'est passé.\nQuel nom lui donnes-tu ?",
     "choices": [
       {
-        "text": "« L'Éternel pourvoira » (Yahweh Yireh)"
+        "text": "'L'Éternel pourvoira' (Yahweh Yireh)",
+        "feedback": "Genèse 22:14 — Abraham appela ce lieu 'L'Éternel pourvoira'."
       },
       {
-        "text": "« Le lieu du chagrin »"
+        "text": "'Le lieu du chagrin'",
+        "feedback": "Abraham l'a nommé 'L'Éternel pourvoira'."
       },
       {
-        "text": "« La montagne de feu »"
+        "text": "'La montagne de feu'",
+        "feedback": "Abraham a nommé le lieu 'L'Éternel pourvoira'."
       }
     ]
   },
@@ -215,19 +257,22 @@
     "text": "L'ange de l'Éternel t'appelle une seconde fois du ciel.\nQuelle est la promesse ?",
     "choices": [
       {
-        "text": "« Je te bénirai abondamment et je multiplierai ta descendance comme les étoiles du ciel et comme le sable qui est sur le bord de la mer ; par ta descendance toutes les nations de la terre seront bénies »"
+        "text": "'Je te bénirai abondamment et je multiplierai ta descendance comme les étoiles du ciel et comme le sable qui est sur le bord de la mer ; par ta descendance toutes les nations de la terre seront bénies'",
+        "feedback": "Genèse 22:16-18 — 'Je le jure par moi-même... Je te bénirai abondamment et je multiplierai ta descendance comme les étoiles du ciel et comme le sable qui est sur le bord de la mer... et par ta descendance toutes les nations de la terre seront bénies, parce que tu as obéi à ma voix.'"
       },
       {
-        "text": "« Ta descendance sera peu nombreuse et oubliée »"
+        "text": "'Tes descendants seront peu nombreux et oubliés'",
+        "feedback": "L'Éternel a promis une descendance aussi nombreuse que les étoiles et le sable."
       },
       {
-        "text": "« Tu perdras tout ce que tu as en guise de punition »"
+        "text": "'Tu perdras tout ce que tu as en guise de punition'",
+        "feedback": "L'Éternel a béni Abraham pour son obéissance."
       }
     ]
   },
   "homecoming": {
-    "title": "Retour à Beer-Sheva",
-    "text": "Abraham retourne auprès de ses serviteurs, et ensemble ils partent pour Beer-Sheva.\nEt Abraham reste à Beer-Sheva.",
+    "title": "Retour à Beer-Shéba",
+    "text": "Abraham retourne auprès de ses serviteurs, et ensemble ils partent pour Beer-Shéba.\nEt Abraham reste à Beer-Shéba.",
     "choices": []
   }
 }

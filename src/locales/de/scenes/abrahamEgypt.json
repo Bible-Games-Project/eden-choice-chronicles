@@ -5,28 +5,34 @@
     "text": "Eine schwere Hungersnot trifft das Land Kanaan.\nWas tust du?",
     "choices": [
       {
-        "text": "Gehe nach Ägypten hinab, um dort eine Weile als Fremder zu leben"
+        "text": "Gehe hinab nach Ägypten, um dort eine Zeit lang als Fremder zu leben",
+        "feedback": "1. Mose 12,10 — Und es kam eine Hungersnot über das Land; da zog Abram hinab nach Ägypten, um dort eine Zeit lang als Fremder zu leben, denn die Hungersnot war schwer."
       },
       {
-        "text": "Segle über das Meer zu einer fernen Insel"
+        "text": "Segle über das Meer zu einer fernen Insel",
+        "feedback": "Die Genesis sagt, Abram ging während der Hungersnot nach Ägypten hinab."
       },
       {
-        "text": "Bleibe in Kanaan und führe ein Heer an"
+        "text": "Bleibe in Kanaan und führe ein Heer an",
+        "feedback": "Die Genesis sagt, Abram ging wegen der Hungersnot nach Ägypten."
       }
     ]
   },
   "road_south": {
     "title": "Als du dich Ägypten näherst",
-    "text": "Du bist dabei, Ägypten zu betreten.\nWas sagst du deiner Frau Sarai?",
+    "text": "Du bist im Begriff, Ägypten zu betreten.\nWas sagst du deiner Frau Sarai?",
     "choices": [
       {
-        "text": "'Ich weiß, was für eine schöne Frau du bist – die Ägypter werden mich töten, um dich zu nehmen'"
+        "text": "„Ich weiß, was für eine schöne Frau du bist – die Ägypter werden mich töten, um dich zu nehmen“",
+        "feedback": "1. Mose 12,11-12 — „Ich weiß, was für eine schöne Frau du bist. Wenn die Ägypter dich sehen, werden sie mich töten, dich aber am Leben lassen.“"
       },
       {
-        "text": "'Der Herr wird uns beschützen; wir haben nichts zu befürchten'"
+        "text": "„Der Herr wird uns beschützen; wir haben nichts zu befürchten“",
+        "feedback": "Die Genesis sagt, Abram hatte Angst und vertraute nicht offen; er schmiedete einen Plan."
       },
       {
-        "text": "Sarai gar nichts sagen"
+        "text": "Sage Sarai überhaupt nichts",
+        "feedback": "Die Genesis berichtet die Worte, die Abram zu Sarai über seine Angst sprach."
       }
     ]
   },
@@ -35,13 +41,16 @@
     "text": "Du bittest Sarai, etwas zu tun, um dein Leben zu schützen.\nWas ist es?",
     "choices": [
       {
-        "text": "'Sag, du seist meine Schwester, damit ich deinetwegen gut behandelt werde'"
+        "text": "„Sag, du bist meine Schwester, damit es mir deinetwegen gut geht.“",
+        "feedback": "Genesis 12,13 – „Sag doch, du seist meine Schwester, damit es mir deinetwegen gut geht und ich um deinetwillen am Leben bleibe.“"
       },
       {
-        "text": "'Sag, du seist meine Mutter, damit es niemandem auffällt'"
+        "text": "„Sag, du bist meine Mutter, damit es niemand merkt.“",
+        "feedback": "Abram bat Sarai, zu sagen, sie sei seine Schwester."
       },
       {
-        "text": "'Sag, wir seien Fremde, die sich nie getroffen haben'"
+        "text": "„Sag, wir sind Fremde, die sich noch nie begegnet sind.“",
+        "feedback": "Abrams Halbwahrheit war, sie seine Schwester zu nennen."
       }
     ]
   },
@@ -50,13 +59,16 @@
     "text": "Du kommst in Ägypten an.\nWie reagieren die Ägypter auf Sarai?",
     "choices": [
       {
-        "text": "Die Ägypter sehen, dass sie sehr schön ist"
+        "text": "Die Ägypter sehen, dass sie sehr schön ist.",
+        "feedback": "Genesis 12,14 – Als Abram nach Ägypten kam, sahen die Ägypter, dass Sarai eine sehr schöne Frau war."
       },
       {
-        "text": "Die Ägypter ignorieren sie völlig"
+        "text": "Die Ägypter ignorieren sie völlig.",
+        "feedback": "Die Genesis sagt, die Ägypter bemerkten, wie schön sie war."
       },
       {
-        "text": "Die Ägypter vertreiben sie aus der Stadt"
+        "text": "Die Ägypter vertreiben sie aus der Stadt.",
+        "feedback": "Die Ägypter lobten ihre Schönheit; sie vertrieben sie nicht."
       }
     ]
   },
@@ -65,13 +77,16 @@
     "text": "Pharaos Beamte sehen Sarai.\nWas tun sie?",
     "choices": [
       {
-        "text": "Sie preisen sie vor dem Pharao, und sie wird in seinen Palast gebracht"
+        "text": "Sie preisen sie vor dem Pharao, und sie wird in seinen Palast gebracht.",
+        "feedback": "Genesis 12,15 – Als die Beamten des Pharao sie sahen, lobten sie sie vor dem Pharao, und sie wurde in seinen Palast gebracht."
       },
       {
-        "text": "Sie jagen Abram sofort aus Ägypten"
+        "text": "Sie jagen Abram sofort aus Ägypten.",
+        "feedback": "Die Genesis sagt, Sarai wurde in den Palast des Pharao gebracht, nicht, dass Abram vertrieben wurde."
       },
       {
-        "text": "Sie ignorieren sie und schenken ihr keine Beachtung"
+        "text": "Sie ignorieren sie und schenken ihr keine Beachtung.",
+        "feedback": "Pharaos Beamte lobten ihre Schönheit vor dem König."
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "Wegen Sarai behandelt der Pharao dich gut.\nWie behandelt er Abram?",
     "choices": [
       {
-        "text": "Er gibt dir Schafe, Rinder, Esel, Diener und Kamele"
+        "text": "Er gibt dir Schafe, Rinder, Esel, Diener und Kamele.",
+        "feedback": "Genesis 12,16 – Er behandelte Abram um ihretwillen gut, und Abram erhielt Schafe und Rinder, männliche und weibliche Esel, männliche und weibliche Diener und Kamele."
       },
       {
-        "text": "Er steckt Abram ins Gefängnis"
+        "text": "Er steckt Abram ins Gefängnis.",
+        "feedback": "Die Genesis sagt, der Pharao gab Abram viele Geschenke um Sarais willen."
       },
       {
-        "text": "Er gibt Abram gar nichts"
+        "text": "Er gibt Abram überhaupt nichts.",
+        "feedback": "Die Genesis listet die vielen Geschenke auf, die Abram erhielt."
       }
     ]
   },
@@ -95,28 +113,34 @@
     "text": "Der Herr schweigt nicht.\nWas tut Er wegen Sarai?",
     "choices": [
       {
-        "text": "Der Herr fügt dem Pharao und seinem Haus schwere Krankheiten zu"
+        "text": "Der Herr schlägt den Pharao und sein Haus mit schweren Krankheiten.",
+        "feedback": "Genesis 12,17 – Aber der Herr schlug den Pharao und sein Haus mit schweren Krankheiten wegen Sarais, der Frau Abrams."
       },
       {
-        "text": "Der Herr sendet Feuer auf Ägypten herab"
+        "text": "Der Herr sendet Feuer auf Ägypten herab.",
+        "feedback": "Die Genesis sagt, der Herr sandte schwere Krankheiten, nicht Feuer."
       },
       {
-        "text": "Der Herr schweigt"
+        "text": "Der Herr schweigt.",
+        "feedback": "Die Genesis sagt, der Herr handelte; Er schlug das Haus des Pharao."
       }
     ]
   },
   "gifts_arrive": {
     "title": "Pharao ruft dich",
-    "text": "Pharao ruft nach dir.\nWas sagt er?",
+    "text": "Pharao ruft dich.\nWas sagt er?",
     "choices": [
       {
-        "text": "'Was hast du mir angetan? Warum hast du mir nicht gesagt, dass sie deine Frau ist?'"
+        "text": "„Was hast du mir angetan? Warum hast du mir nicht gesagt, dass sie deine Frau ist?“",
+        "feedback": "Genesis 12,18 – „Was hast du mir angetan? Warum hast du mir nicht gesagt, dass sie deine Frau ist?“"
       },
       {
-        "text": "'Danke für deine Geschenke – bitte bleib'"
+        "text": "„Danke für deine Geschenke – bitte bleib.“",
+        "feedback": "Pharao tadelte Abram; er dankte ihm nicht."
       },
       {
-        "text": "'Sarai wird für immer in meinem Haus bleiben'"
+        "text": "„Sarai wird für immer in meinem Haus bleiben.“",
+        "feedback": "Pharao gab Sarai an Abram zurück."
       }
     ]
   },
@@ -125,28 +149,34 @@
     "text": "Pharao gibt seinen Befehl.\nWas befiehlt er?",
     "choices": [
       {
-        "text": "'Hier ist deine Frau. Nimm sie und geh!'"
+        "text": "'Hier ist deine Frau. Nimm sie und geh!'",
+        "feedback": "Genesis 12,19 — 'Nun denn, hier ist deine Frau. Nimm sie und geh!'"
       },
       {
-        "text": "'Du musst für immer hier als mein Diener bleiben'"
+        "text": "'Du musst für immer als mein Diener hier bleiben'",
+        "feedback": "Pharao schickte Abram mit Sarai weg."
       },
       {
-        "text": "'Ich werde Sarai behalten und du darfst allein nach Kanaan zurückkehren'"
+        "text": "'Ich behalte Sarai, und du darfst allein nach Kanaan zurückkehren'",
+        "feedback": "Pharao gab Sarai an Abram zurück."
       }
     ]
   },
   "confronted": {
-    "title": "Hinausbegleitet",
+    "title": "Hinausgeleitet",
     "text": "Pharao gibt Befehle über dich.\nWas geschieht?",
     "choices": [
       {
-        "text": "Pharaos Männer schicken dich mit deiner Frau und allem, was du hast, auf den Weg"
+        "text": "Pharaos Männer schicken dich mit deiner Frau und allem, was du hast, auf den Weg",
+        "feedback": "Genesis 12,20 — Da gab der Pharao seinen Männern Befehle wegen Abram, und sie geleiteten ihn mit seiner Frau und allem, was er hatte, hinaus."
       },
       {
-        "text": "Pharaos Männer nehmen dir all deinen Besitz"
+        "text": "Pharaos Männer nehmen dir all deinen Besitz",
+        "feedback": "Die Genesis sagt, Abram ging mit seiner Frau und allem, was er hatte."
       },
       {
-        "text": "Pharaos Männer legen dich in Ketten"
+        "text": "Pharaos Männer legen dich in Ketten",
+        "feedback": "Die Genesis sagt, Pharaos Männer schickten Abram in Frieden auf den Weg."
       }
     ]
   },
@@ -155,13 +185,16 @@
     "text": "Du verlässt Ägypten.\nWohin gehst du?",
     "choices": [
       {
-        "text": "Zieh von Ägypten hinauf in den Negev, mit deiner Frau und allem, was du hast"
+        "text": "Zieh von Ägypten in den Negev hinauf, mit deiner Frau und allem, was du hast",
+        "feedback": "Genesis 13,1 — So zog Abram von Ägypten hinauf in den Negev, er und seine Frau und alles, was er hatte, und Lot mit ihm."
       },
       {
-        "text": "Bleibe in Ägypten und lass dich dort für immer nieder"
+        "text": "Bleib in Ägypten und lass dich dort für immer nieder",
+        "feedback": "Die Genesis sagt, Abram zog aus Ägypten hinauf."
       },
       {
-        "text": "Gehe nach Osten durch die Wüste nach Assyrien"
+        "text": "Geh nach Osten durch die Wüste nach Assyrien",
+        "feedback": "Die Genesis sagt, Abram kehrte in den Negev zurück, in das Land der Verheißung."
       }
     ]
   },

@@ -1,17 +1,20 @@
 {
-  "storyTitle": "Opferung Isaaks",
+  "storyTitle": "Die Opferung Isaaks",
   "start": {
     "title": "Gott prüft Abraham",
     "text": "Gott ruft dich.\nWie antwortest du?",
     "choices": [
       {
-        "text": "Antwort: 'Hier bin ich'"
+        "text": "Antwort: „Hier bin ich.“",
+        "feedback": "Genesis 22,1 — Einige Zeit später stellte Gott Abraham auf die Probe. Er sprach zu ihm: „Abraham!“ „Hier bin ich“, antwortete er."
       },
       {
-        "text": "Ignoriere die Stimme und schlaf weiter"
+        "text": "Ignoriere die Stimme und schlaf weiter.",
+        "feedback": "Abraham antwortete dem Herrn sofort: „Hier bin ich.“"
       },
       {
-        "text": "Verlange zuerst, den Namen des Herrn zu erfahren"
+        "text": "Verlange zuerst, den Namen des Herrn zu erfahren.",
+        "feedback": "Abraham antwortete einfach: „Hier bin ich.“"
       }
     ]
   },
@@ -20,13 +23,16 @@
     "text": "Gott spricht den Befehl.\nWas sagt Er?",
     "choices": [
       {
-        "text": "'Nimm deinen Sohn, deinen einzigen Sohn, den du liebst – Isaak – und opfere ihn als Brandopfer auf einem Berg, den ich dir zeigen werde'"
+        "text": "„Nimm deinen Sohn, deinen einzigen Sohn, den du liebst – Isaak – und opfere ihn als Brandopfer auf einem Berg, den ich dir zeigen werde.“",
+        "feedback": "Genesis 22,2 — „Nimm deinen Sohn, deinen einzigen Sohn, den du liebst – Isaak – und geh in die Gegend von Morija. Opfere ihn dort als Brandopfer auf einem Berg, den ich dir zeigen werde.“"
       },
       {
-        "text": "'Nimm ein Lamm aus deiner Herde und opfere es hier'"
+        "text": "„Nimm ein Lamm von deiner Herde und opfere es hier.“",
+        "feedback": "Gott befahl Abraham, Isaak, seinen Sohn, zu opfern."
       },
       {
-        "text": "'Baue einen großen Tempel in Beerscheba'"
+        "text": "„Baue einen großen Tempel in Beerscheba.“",
+        "feedback": "Gottes Befehl war, Isaak auf einem Berg in Morija zu opfern."
       }
     ]
   },
@@ -35,43 +41,52 @@
     "text": "Früh am nächsten Morgen bereitest du dich auf die Reise vor.\nWas tust du?",
     "choices": [
       {
-        "text": "Steh früh auf, sattel deinen Esel, nimm zwei Diener und deinen Sohn Isaak mit und schneide genug Holz für das Brandopfer"
+        "text": "Steh früh auf, sattle deinen Esel, nimm zwei Diener und deinen Sohn Isaak mit und schneide genug Holz für das Brandopfer.",
+        "feedback": "Genesis 22,3 — Früh am nächsten Morgen stand Abraham auf und sattelte seinen Esel. Er nahm zwei seiner Diener und seinen Sohn Isaak mit. Als er genug Holz für das Brandopfer geschnitten hatte, machte er sich auf den Weg."
       },
       {
-        "text": "Weigere dich zu gehen und bleibe in Beerscheba"
+        "text": "Weigere dich zu gehen und bleibe in Beerscheba.",
+        "feedback": "Abraham gehorchte Gott sofort und stand früh am Morgen auf."
       },
       {
-        "text": "Warte auf ein Zeichen, bevor du aufbrichst"
+        "text": "Warte auf ein Zeichen, bevor du aufbrichst.",
+        "feedback": "Abraham brach sofort auf, ohne zu warten."
       }
     ]
   },
   "departure": {
-    "title": "Nach Moria",
-    "text": "Du reist zu dem Ort, den Gott dir gesagt hat.\nWie lange reist du?",
+    "title": "Nach Morija",
+    "text": "Du reist zu dem Ort, den Gott dir genannt hat.\nWie lange reist du?",
     "choices": [
       {
-        "text": "Reise drei Tage lang, bis du aufblickst und den Ort in der Ferne siehst"
+        "text": "Reise drei Tage lang, bis du aufblickst und den Ort in der Ferne siehst.",
+        "feedback": "Genesis 22,4 — Am dritten Tag blickte Abraham auf und sah den Ort in der Ferne."
       },
       {
-        "text": "Reise nur eine Stunde, bevor du ankommst"
+        "text": "Reise nur eine einzige Stunde, bevor du ankommst.",
+        "feedback": "Die Reise nach Morija dauerte drei Tage."
       },
       {
-        "text": "Reise vierzig Jahre lang durch die Wüste"
+        "text": "Reise vierzig Jahre lang durch die Wüste.",
+        "feedback": "Genesis sagt, Abraham erreichte den Ort am dritten Tag."
       }
     ]
   },
   "the_road": {
-    "title": "Bleibt hier mit dem Esel",
+    "title": "Bleibt hier beim Esel",
     "text": "Du näherst dich dem Berg.\nWas sagst du den Dienern?",
     "choices": [
       {
-        "text": "'Bleibt hier mit dem Esel, während ich und der Junge dorthin gehen. Wir werden anbeten und dann werden wir zu euch zurückkommen'"
+        "text": "„Bleibt hier beim Esel, während ich und der Junge dorthin gehen. Wir werden anbeten und dann zu euch zurückkehren.“",
+        "feedback": "Genesis 22,5 — „Bleibt hier beim Esel, während ich und der Junge dorthin gehen. Wir werden anbeten und dann zu euch zurückkehren.“"
       },
       {
-        "text": "'Kommt mit uns auf den Berg, um zuzusehen'"
+        "text": "„Kommt mit uns auf den Berg, um zuzusehen.“",
+        "feedback": "Abraham sagte den Dienern, sie sollten mit dem Esel zurückbleiben."
       },
       {
-        "text": "'Bringt den Esel nach Hause; wir kommen nicht zurück'"
+        "text": "„Bringt den Esel nach Hause; wir kommen nicht zurück.“",
+        "feedback": "Abraham sagte: „Wir werden zu euch zurückkehren.“"
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "Du bereitest dich darauf vor, den Berg zu besteigen.\nWer trägt was?",
     "choices": [
       {
-        "text": "Lege das Holz für das Brandopfer auf Isaaks Schultern; trage das Feuer und das Messer selbst"
+        "text": "Lege das Holz für das Brandopfer auf Isaaks Schultern; trage das Feuer und das Messer selbst",
+        "feedback": "Genesis 22,6 — Abraham nahm das Holz für das Brandopfer und legte es auf seinen Sohn Isaak, und er selbst trug das Feuer und das Messer."
       },
       {
-        "text": "Trage das Holz selbst, während Isaak nichts trägt"
+        "text": "Trage das Holz selbst, während Isaak nichts trägt",
+        "feedback": "Isaak trug das Holz; Abraham trug das Feuer und das Messer."
       },
       {
-        "text": "Lass das Holz am Fuße des Berges zurück"
+        "text": "Lass das Holz am Fuße des Berges zurück",
+        "feedback": "Das Holz für das Brandopfer wurde auf Isaak gelegt."
       }
     ]
   },
@@ -95,13 +113,16 @@
     "text": "Als ihr zusammen geht, spricht Isaak.\nWas sagt er?",
     "choices": [
       {
-        "text": "'Vater – das Feuer und das Holz sind hier, aber wo ist das Lamm für das Brandopfer?'"
+        "text": "„Vater – Feuer und Holz sind da, aber wo ist das Lamm für das Brandopfer?“",
+        "feedback": "Genesis 22,7 — „Vater, Feuer und Holz sind da, aber wo ist das Lamm für das Brandopfer?“"
       },
       {
-        "text": "'Vater – lass uns sofort nach Hause zurückkehren'"
+        "text": "„Vater – lass uns sofort nach Hause gehen“",
+        "feedback": "Isaak fragte nach dem Lamm für das Opfer."
       },
       {
-        "text": "Isaak sagt den ganzen Weg nach oben nichts"
+        "text": "Isaak sagt den ganzen Weg nach oben nichts",
+        "feedback": "Die Genesis berichtet von Isaaks Frage nach dem Lamm."
       }
     ]
   },
@@ -110,13 +131,16 @@
     "text": "Du antwortest Isaak.\nWas sagst du?",
     "choices": [
       {
-        "text": "'Gott selbst wird das Lamm für das Brandopfer geben, mein Sohn'"
+        "text": "„Gott selbst wird das Lamm für das Brandopfer bereitstellen, mein Sohn.“",
+        "feedback": "Genesis 22,8 — „Gott selbst wird das Lamm für das Brandopfer bereitstellen, mein Sohn.“"
       },
       {
-        "text": "'Du bist das Lamm, Isaak'"
+        "text": "„Du bist das Lamm, Isaak.“",
+        "feedback": "Abraham sagte Isaak, dass Gott selbst das Lamm bereitstellen würde."
       },
       {
-        "text": "'Es gibt kein Lamm – wir gehen jetzt nach Hause'"
+        "text": "„Es gibt kein Lamm – wir gehen jetzt nach Hause.“",
+        "feedback": "Abraham antwortete im Glauben: Gott würde versorgen."
       }
     ]
   },
@@ -125,13 +149,16 @@
     "text": "Du erreichst den Ort, von dem Gott dir erzählt hat.\nWas baust du dort?",
     "choices": [
       {
-        "text": "Baue einen Altar, schichte das Holz darauf, binde Isaak und lege ihn auf den Altar, auf das Holz"
+        "text": "Baue einen Altar, ordne das Holz darauf an, binde Isaak und lege ihn auf den Altar, auf das Holz",
+        "feedback": "Genesis 22,9 — Als sie an den Ort kamen, von dem Gott ihm gesagt hatte, baute Abraham dort einen Altar und ordnete das Holz darauf an. Er band seinen Sohn Isaak und legte ihn auf den Altar, auf das Holz."
       },
       {
-        "text": "Baue stattdessen einen Schrein für einen anderen Gott"
+        "text": "Baue stattdessen einen Schrein für einen anderen Gott",
+        "feedback": "Abraham baute dem Herrn einen Altar, genau wie befohlen."
       },
       {
-        "text": "Weigere dich, etwas zu bauen und kehre um"
+        "text": "Weigere dich, etwas zu bauen und kehre um",
+        "feedback": "Abraham gehorchte und baute den Altar."
       }
     ]
   },
@@ -140,13 +167,16 @@
     "text": "Isaak ist auf dem Altar gebunden.\nWas tust du als Nächstes?",
     "choices": [
       {
-        "text": "Strecke deine Hand aus und nimm das Messer, um deinen Sohn zu töten"
+        "text": "Strecke deine Hand aus und nimm das Messer, um deinen Sohn zu töten",
+        "feedback": "Genesis 22,10 — Dann streckte er seine Hand aus und nahm das Messer, um seinen Sohn zu töten."
       },
       {
-        "text": "Lege das Messer beiseite und weigere dich"
+        "text": "Lege das Messer beiseite und weigere dich",
+        "feedback": "Abraham streckte die Hand mit dem Messer aus, um Gott vollständig zu gehorchen."
       },
       {
-        "text": "Löse Isaak und flieh den Berg hinunter"
+        "text": "Löse Isaak und fliehe den Berg hinunter",
+        "feedback": "Abraham erhob das Messer im Gehorsam; er floh nicht."
       }
     ]
   },
@@ -155,13 +185,16 @@
     "text": "Der Engel des Herrn ruft dir vom Himmel zu.\nWas sagt er?",
     "choices": [
       {
-        "text": "'Abraham! Abraham! Lege deine Hand nicht an den Knaben. Tu ihm nichts'"
+        "text": "„Abraham! Abraham! Lege deine Hand nicht an den Knaben. Tu ihm nichts an.“",
+        "feedback": "Genesis 22,11-12 — „Abraham! Abraham!“ „Hier bin ich“, antwortete er. „Lege deine Hand nicht an den Knaben“, sagte er. „Tu ihm nichts an.“"
       },
       {
-        "text": "'Schlage den Knaben schnell – zögere nicht'"
+        "text": "„Schlage den Knaben schnell – zögere nicht.“",
+        "feedback": "Der Engel hinderte Abraham daran, Isaak zu schaden."
       },
       {
-        "text": "Der Engel sagt überhaupt nichts"
+        "text": "Der Engel sagt überhaupt nichts",
+        "feedback": "Der Engel rief deutlich und hielt Abraham auf."
       }
     ]
   },
@@ -170,13 +203,16 @@
     "text": "Der Engel erklärt, warum du aufgehalten wurdest.\nWas sagt er?",
     "choices": [
       {
-        "text": "'Jetzt weiß ich, dass du Gott fürchtest, denn du hast mir deinen Sohn, deinen einzigen Sohn, nicht vorenthalten'"
+        "text": "„Jetzt weiß ich, dass du Gott fürchtest, denn du hast mir deinen Sohn, deinen einzigen Sohn, nicht vorenthalten.“",
+        "feedback": "Genesis 22,12 — „Jetzt weiß ich, dass du Gott fürchtest, denn du hast mir deinen Sohn, deinen einzigen Sohn, nicht vorenthalten.“"
       },
       {
-        "text": "'Du hast den Test nicht bestanden; geh beschämt nach Hause'"
+        "text": "'Du hast den Test nicht bestanden; geh beschämt nach Hause'",
+        "feedback": "Der Engel lobte Abrahams Gehorsam."
       },
       {
-        "text": "'Isaak muss immer noch sterben; versuch es morgen noch einmal'"
+        "text": "'Isaak muss trotzdem sterben; versuch es morgen noch einmal'",
+        "feedback": "Der Engel befahl Abraham, Isaak nicht zu schaden."
       }
     ]
   },
@@ -185,13 +221,16 @@
     "text": "Du blickst auf.\nWas siehst du im Dickicht gefangen?",
     "choices": [
       {
-        "text": "Einen Widder, der mit seinen Hörnern in einem Dickicht gefangen ist – du nimmst ihn und opferst ihn als Brandopfer anstelle deines Sohnes"
+        "text": "Einen Widder, der mit seinen Hörnern im Dickicht gefangen ist – du nimmst ihn und opferst ihn als Brandopfer anstelle deines Sohnes",
+        "feedback": "1. Mose 22,13 — Abraham blickte auf und sah einen Widder, der sich mit seinen Hörnern im Dickicht verfangen hatte. Er ging hin, nahm den Widder und opferte ihn als Brandopfer anstelle seines Sohnes."
       },
       {
-        "text": "Eine Taube, die über dem Altar fliegt"
+        "text": "Eine Taube, die über dem Altar fliegt",
+        "feedback": "Abraham sah einen Widder, der mit seinen Hörnern im Dickicht gefangen war."
       },
       {
-        "text": "Überhaupt nichts – der Altar bleibt leer"
+        "text": "Gar nichts – der Altar bleibt leer",
+        "feedback": "Gott stellte einen Widder bereit, der im Dickicht gefangen war."
       }
     ]
   },
@@ -200,28 +239,34 @@
     "text": "Du benennst diesen Ort, um zu kennzeichnen, was geschehen ist.\nWelchen Namen gibst du ihm?",
     "choices": [
       {
-        "text": "'Der Herr wird versorgen' (Jahwe Jireh)"
+        "text": "'Der Herr wird versorgen' (Jahwe Jireh)",
+        "feedback": "1. Mose 22,14 — So nannte Abraham diesen Ort 'Der Herr wird versorgen'."
       },
       {
-        "text": "'Der Ort der Trauer'"
+        "text": "'Der Ort der Trauer'",
+        "feedback": "Abraham nannte ihn 'Der Herr wird versorgen'."
       },
       {
-        "text": "'Der Berg des Feuers'"
+        "text": "'Der Berg des Feuers'",
+        "feedback": "Abraham nannte den Ort 'Der Herr wird versorgen'."
       }
     ]
   },
   "the_blessing": {
     "title": "Der Eid",
-    "text": "Der Engel des Herrn ruft dir ein zweites Mal vom Himmel zu.\nWas ist das Versprechen?",
+    "text": "Der Engel des Herrn ruft dich ein zweites Mal vom Himmel herab.\nWas ist die Verheißung?",
     "choices": [
       {
-        "text": "'Ich will dich reichlich segnen und deine Nachkommen so zahlreich machen wie die Sterne am Himmel und den Sand am Meeresstrand; durch deine Nachkommen werden alle Völker der Erde gesegnet sein'"
+        "text": "'Ich will dich reichlich segnen und deine Nachkommen so zahlreich machen wie die Sterne am Himmel und den Sand am Meeresstrand; durch deine Nachkommen werden alle Völker der Erde gesegnet sein'",
+        "feedback": "1. Mose 22,16-18 — 'Ich schwöre bei Mir selbst... Ich will dich reichlich segnen und deine Nachkommen so zahlreich machen wie die Sterne am Himmel und wie der Sand am Meeresstrand... und durch deine Nachkommen werden alle Völker der Erde gesegnet sein, weil du Mir gehorcht hast.'"
       },
       {
-        "text": "'Deine Nachkommen werden wenige und vergessen sein'"
+        "text": "'Deine Nachkommen werden wenige und vergessen sein'",
+        "feedback": "Der Herr verhieß Nachkommen, so zahlreich wie die Sterne und der Sand."
       },
       {
-        "text": "'Du wirst alles verlieren, was du hast, als Strafe'"
+        "text": "'Du wirst alles verlieren, was du hast, als Strafe'",
+        "feedback": "Der Herr segnete Abraham für seinen Gehorsam."
       }
     ]
   },

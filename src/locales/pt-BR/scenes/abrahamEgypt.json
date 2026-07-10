@@ -2,31 +2,37 @@
   "storyTitle": "Abraão no Egito",
   "start": {
     "title": "Uma Fome na Terra",
-    "text": "Uma fome severa atinge a terra de Canaã.\nO que tu fazes?",
+    "text": "Uma fome severa atinge a terra de Canaã.\nO que fazes?",
     "choices": [
       {
-        "text": "Descer ao Egito para viver lá como estrangeiro por um tempo"
+        "text": "Desce ao Egito para viver lá como estrangeiro por um tempo",
+        "feedback": "Gênesis 12:10 — Ora, havia uma fome na terra, e Abrão desceu ao Egito para ali viver por um tempo, pois a fome era severa."
       },
       {
-        "text": "Navegar pelo mar para uma ilha distante"
+        "text": "Navega através do mar para uma ilha distante",
+        "feedback": "Gênesis diz que Abrão desceu ao Egito durante a fome."
       },
       {
-        "text": "Ficar em Canaã e liderar um exército"
+        "text": "Permanece em Canaã e lidera um exército",
+        "feedback": "Gênesis diz que Abrão foi para o Egito por causa da fome."
       }
     ]
   },
   "road_south": {
     "title": "Ao Te Aproximares do Egito",
-    "text": "Estás prestes a entrar no Egito.\nO que tu dizes à tua esposa Sarai?",
+    "text": "Estás prestes a entrar no Egito.\nO que dizes à tua esposa Sarai?",
     "choices": [
       {
-        "text": "'Eu sei que és uma mulher muito bonita — os egípcios me matarão para te levar'"
+        "text": "'Sei que és uma mulher muito bonita — os egípcios me matarão para te levar'",
+        "feedback": "Gênesis 12:11-12 — 'Sei que és uma mulher muito bonita. Quando os egípcios te virem, eles me matarão, mas te deixarão viver.'"
       },
       {
-        "text": "'O Senhor nos protegerá; não temos nada a temer'"
+        "text": "'O Senhor nos protegerá; não temos nada a temer'",
+        "feedback": "Gênesis diz que Abrão estava com medo e não confiou abertamente; ele elaborou um plano."
       },
       {
-        "text": "Não dizer nada a Sarai"
+        "text": "Não digas nada a Sarai",
+        "feedback": "Gênesis registra as palavras que Abrão disse a Sarai sobre seu medo."
       }
     ]
   },
@@ -35,13 +41,16 @@
     "text": "Tu pedes a Sarai que faça algo para proteger tua vida.\nO que é?",
     "choices": [
       {
-        "text": "'Dize que és minha irmã, para que eu seja bem tratado por tua causa'"
+        "text": "'Dize que és minha irmã, para que eu seja bem tratado por tua causa'",
+        "feedback": "Gênesis 12:13 — 'Dize que és minha irmã, para que me vá bem por tua causa, e a minha vida seja poupada por amor de ti.'"
       },
       {
-        "text": "'Dize que és minha mãe, para que ninguém perceba'"
+        "text": "'Dize que és minha mãe, para que ninguém perceba'",
+        "feedback": "Abrão pediu a Sarai que dissesse ser sua irmã."
       },
       {
-        "text": "'Dize que somos estranhos que nunca se encontraram'"
+        "text": "'Dize que somos estranhos que nunca se encontraram'",
+        "feedback": "A meia-verdade de Abrão foi chamá-la de sua irmã."
       }
     ]
   },
@@ -50,124 +59,148 @@
     "text": "Tu chegas ao Egito.\nComo os egípcios reagem a Sarai?",
     "choices": [
       {
-        "text": "Os egípcios veem que ela é muito bonita"
+        "text": "Os egípcios veem que ela é muito bonita",
+        "feedback": "Gênesis 12:14 — E aconteceu que, entrando Abrão no Egito, os egípcios viram que a mulher era muito formosa."
       },
       {
-        "text": "Os egípcios a ignoram completamente"
+        "text": "Os egípcios a ignoram completamente",
+        "feedback": "Gênesis diz que os egípcios notaram quão bonita ela era."
       },
       {
-        "text": "Os egípcios a afastam da cidade"
+        "text": "Os egípcios a expulsam da cidade",
+        "feedback": "Os egípcios louvaram sua beleza; eles não a expulsaram."
       }
     ]
   },
   "entering_egypt": {
-    "title": "Oficiais do Faraó",
-    "text": "Os oficiais do Faraó veem Sarai.\nO que eles fazem?",
+    "title": "Oficiais de Faraó",
+    "text": "Os oficiais de Faraó veem Sarai.\nO que eles fazem?",
     "choices": [
       {
-        "text": "Eles a elogiam ao Faraó, e ela é levada para o palácio dele"
+        "text": "Eles a louvam a Faraó, e ela é levada ao seu palácio",
+        "feedback": "Gênesis 12:15 — E os príncipes de Faraó a viram e gabaram-na diante de Faraó; e a mulher foi levada à casa de Faraó."
       },
       {
-        "text": "Eles expulsam Abrão do Egito imediatamente"
+        "text": "Eles expulsam Abrão do Egito imediatamente",
+        "feedback": "Gênesis diz que Sarai foi levada ao palácio de Faraó, não que Abrão foi expulso."
       },
       {
-        "text": "Eles a ignoram e não lhe dão atenção"
+        "text": "Eles a ignoram e não lhe dão atenção",
+        "feedback": "Os oficiais de Faraó louvaram sua beleza ao rei."
       }
     ]
   },
   "officials_come": {
     "title": "Por Causa de Sarai",
-    "text": "Por causa de Sarai, o Faraó te trata bem.\nComo ele trata Abrão?",
+    "text": "Por causa de Sarai, Faraó te trata bem.\nComo ele trata Abrão?",
     "choices": [
       {
-        "text": "Ele te dá ovelhas, gado, jumentos, servos e camelos"
+        "text": "Ele te dá ovelhas, gado, jumentos, servos e camelos",
+        "feedback": "Gênesis 12:16 — E fez bem a Abrão por amor dela; e ele teve ovelhas, bois, jumentos, servos e servas, jumentas e camelos."
       },
       {
-        "text": "Ele coloca Abrão na prisão"
+        "text": "Ele coloca Abrão na prisão",
+        "feedback": "Gênesis diz que Faraó deu muitos presentes a Abrão por causa de Sarai."
       },
       {
-        "text": "Ele não dá nada a Abrão"
+        "text": "Ele não dá nada a Abrão",
+        "feedback": "Gênesis lista os muitos presentes que Abrão recebeu."
       }
     ]
   },
   "sarah_taken": {
-    "title": "O Senhor Ataca",
+    "title": "O Senhor Fere",
     "text": "O Senhor não permanece em silêncio.\nO que Ele faz por causa de Sarai?",
     "choices": [
       {
-        "text": "O Senhor inflige doenças graves ao Faraó e à sua casa"
+        "text": "O Senhor inflige doenças graves a Faraó e à sua casa",
+        "feedback": "Gênesis 12:17 — Feriu, porém, o Senhor a Faraó e a sua casa com grandes pragas, por causa de Sarai, mulher de Abrão."
       },
       {
-        "text": "O Senhor envia fogo sobre o Egito"
+        "text": "O Senhor envia fogo sobre o Egito",
+        "feedback": "Gênesis diz que o Senhor enviou doenças graves, não fogo."
       },
       {
-        "text": "O Senhor permanece em silêncio"
+        "text": "O Senhor permanece em silêncio",
+        "feedback": "Gênesis diz que o Senhor agiu; Ele feriu a casa de Faraó."
       }
     ]
   },
   "gifts_arrive": {
-    "title": "O Faraó Te Convoca",
-    "text": "O Faraó te chama.\nO que ele diz?",
+    "title": "Faraó Te Convoca",
+    "text": "Faraó te chama.\nO que ele diz?",
     "choices": [
       {
-        "text": "'O que me fizeste? Por que não me disseste que ela era tua esposa?'"
+        "text": "'Que me fizeste? Por que não me disseste que ela era tua mulher?'",
+        "feedback": "Gênesis 12:18 — 'Que é isto que me fizeste? Por que não me disseste que ela era tua mulher?'"
       },
       {
-        "text": "'Obrigado pelos teus presentes — por favor, fica'"
+        "text": "'Obrigado pelos teus presentes — por favor, fique'",
+        "feedback": "Faraó repreendeu Abrão; ele não o agradeceu."
       },
       {
-        "text": "'Sarai permanecerá em minha casa para sempre'"
+        "text": "'Sarai permanecerá em minha casa para sempre'",
+        "feedback": "Faraó devolveu Sarai a Abrão."
       }
     ]
   },
   "plagues": {
     "title": "Leva-a e Vai",
-    "text": "O Faraó dá sua ordem.\nO que ele comanda?",
+    "text": "Faraó dá sua ordem.\nO que ele comanda?",
     "choices": [
       {
-        "text": "'Aqui está tua esposa. Leva-a e vai!'"
+        "text": "'Aqui está sua mulher. Leva-a e vai!'",
+        "feedback": "Gênesis 12:19 — 'Agora, pois, aqui está tua mulher. Leva-a e vai!'"
       },
       {
-        "text": "'Tu deves permanecer aqui como meu servo para sempre'"
+        "text": "'Tu deves permanecer aqui como meu servo para sempre'",
+        "feedback": "Faraó mandou Abrão embora com Sarai."
       },
       {
-        "text": "'Manterei Sarai e tu podes voltar para Canaã sozinho'"
+        "text": "'Manterei Sarai e você pode retornar a Canaã sozinho'",
+        "feedback": "Faraó devolveu Sarai a Abrão."
       }
     ]
   },
   "confronted": {
     "title": "Escoltado para Fora",
-    "text": "Faraó dá ordens a teu respeito.\nO que acontece?",
+    "text": "Faraó dá ordens a seu respeito.\nO que acontece?",
     "choices": [
       {
-        "text": "Os homens do Faraó te mandam embora, com tua mulher e tudo o que tens"
+        "text": "Os homens de Faraó o mandam embora, com sua mulher e tudo o que você tem",
+        "feedback": "Gênesis 12:20 — Então Faraó deu ordens a seus homens a respeito de Abrão, e eles o mandaram embora, com sua mulher e tudo o que ele tinha."
       },
       {
-        "text": "Os homens do Faraó te despojam de todos os teus bens"
+        "text": "Os homens de Faraó o despojam de todos os seus bens",
+        "feedback": "Gênesis diz que Abrão partiu com sua mulher e tudo o que tinha."
       },
       {
-        "text": "Os homens do Faraó te acorrentam"
+        "text": "Os homens de Faraó o acorrentam",
+        "feedback": "Gênesis diz que os homens de Faraó mandaram Abrão embora em paz."
       }
     ]
   },
   "expelled": {
     "title": "Subindo do Egito",
-    "text": "Tu deixas o Egito.\nPara onde vais?",
+    "text": "Você deixa o Egito.\nPara onde você vai?",
     "choices": [
       {
-        "text": "Sobe do Egito para o Neguebe, com tua mulher e tudo o que tens"
+        "text": "Suba do Egito para o Neguebe, com sua mulher e tudo o que você tem",
+        "feedback": "Gênesis 13:1 — Assim, Abrão subiu do Egito para o Neguebe, com sua mulher e tudo o que tinha, e Ló foi com ele."
       },
       {
-        "text": "Fica no Egito e estabelece-te lá para sempre"
+        "text": "Fique no Egito e se estabeleça lá para sempre",
+        "feedback": "Gênesis diz que Abrão subiu do Egito."
       },
       {
-        "text": "Vai para o leste, através do deserto, para a Assíria"
+        "text": "Vá para o leste através do deserto para a Assíria",
+        "feedback": "Gênesis diz que Abrão retornou ao Neguebe, na terra da promessa."
       }
     ]
   },
   "altar": {
     "title": "De Volta ao Altar",
-    "text": "Tu retornas ao lugar entre Betel e Ai,\nao altar que tinhas construído no início, e ali invocas o nome do Senhor.",
+    "text": "Você retorna ao lugar entre Betel e Ai,\nao altar que você havia construído no início, e ali você invoca o nome do Senhor.",
     "choices": []
   }
 }
