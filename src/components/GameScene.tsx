@@ -366,6 +366,30 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
           </div>
         )}
 
+        {/* Educational feedback overlay for incorrect answers (Creation story) */}
+        {pendingIncorrect && (
+          <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm px-6">
+            <motion.div
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.35, ease: "easeOut" }}
+              className="w-full max-w-sm rounded-xl border border-gold/40 bg-black/85 p-5 text-center"
+            >
+              <p className="font-body text-sm md:text-base text-primary-foreground/90 leading-relaxed mb-4">
+                {pendingIncorrect.feedback}
+              </p>
+              <button
+                onClick={handleDismissFeedback}
+                className="w-full rounded-lg border border-gold/50 bg-black/50 px-4 py-2 text-sm font-display tracking-[0.18em] uppercase text-gold hover:bg-gold/15 hover:border-gold transition-colors cursor-pointer"
+              >
+                {t("continue")}
+              </button>
+            </motion.div>
+          </div>
+        )}
+
+
+
 
         {/* ==================== MOBILE ==================== */}
         <div className="relative z-20 h-full md:hidden overflow-hidden">
