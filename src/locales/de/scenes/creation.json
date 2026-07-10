@@ -4,292 +4,520 @@
     "title": "Am Anfang",
     "text": "Du bist Gott — Vater, Sohn und Heiliger Geist.\nNichts ist noch erschaffen. Was ist deine erste Tat?",
     "choices": [
-      { "text": "Für immer schweigend und allein bleiben", "feedback": "In 1. Mose 1,1 war Gottes erste Tat, Himmel und Erde zu erschaffen." },
-      { "text": "Himmel und Erde erschaffen", "feedback": "Richtig — 1. Mose 1,1: „Am Anfang schuf Gott Himmel und Erde.“" },
-      { "text": "Nur zu dir selbst sprechen", "feedback": "In 1. Mose 1,1 blieb Gott nicht stumm — Er erschuf Himmel und Erde." }
+      {
+        "text": "Für immer schweigend und allein bleiben",
+        "feedback": "In 1. Mose 1,1 war Gottes erste Tat, Himmel und Erde zu erschaffen."
+      },
+      {
+        "text": "Himmel und Erde erschaffen",
+        "feedback": "1. Mose 1,1: „Am Anfang schuf Gott Himmel und Erde.“"
+      },
+      {
+        "text": "Nur zu dir selbst sprechen",
+        "feedback": "In 1. Mose 1,1 blieb Gott nicht stumm — Er erschuf Himmel und Erde."
+      }
     ]
   },
   "silence": {
     "title": "Die formlose Erde",
     "text": "Die Erde ist wüst und leer.\nFinsternis liegt über der Tiefe. Was tust du?",
     "choices": [
-      { "text": "Sagen: „Es werde Licht“", "feedback": "Richtig — 1. Mose 1,3: „Und Gott sprach: Es werde Licht!“" },
-      { "text": "Noch mehr Finsternis befehlen, alles zu bedecken", "feedback": "In 1. Mose 1,3 sprach Gott „Es werde Licht“ — nicht mehr Finsternis." }
+      {
+        "text": "Sagen: „Es werde Licht“",
+        "feedback": "1. Mose 1,3: „Und Gott sprach: Es werde Licht!“"
+      },
+      {
+        "text": "Noch mehr Finsternis befehlen, alles zu bedecken",
+        "feedback": "In 1. Mose 1,3 sprach Gott „Es werde Licht“ — nicht mehr Finsternis."
+      }
     ]
   },
   "voice": {
     "title": "Der Geist über den Wassern",
     "text": "Der Geist Gottes schwebt über den Wassern.\nWas rufst du zuerst ins Dasein?",
     "choices": [
-      { "text": "„Es werde Licht“", "feedback": "Richtig — Licht war das Erste, was Gott ins Dasein rief (1. Mose 1,3)." },
-      { "text": "„Es werden Bäume und Tiere“", "feedback": "In 1. Mose 1 erschuf Gott zuerst das Licht — Pflanzen kommen am dritten Tag, Tiere am fünften und sechsten." }
+      {
+        "text": "„Es werde Licht“",
+        "feedback": "Licht war das Erste, was Gott ins Dasein rief (1. Mose 1,3)."
+      },
+      {
+        "text": "„Es werden Bäume und Tiere“",
+        "feedback": "In 1. Mose 1 erschuf Gott zuerst das Licht — Pflanzen kommen am dritten Tag, Tiere am fünften und sechsten."
+      }
     ]
   },
   "void": {
     "title": "Die Tiefe",
     "text": "Die Erde ist wüst; Finsternis liegt über der Tiefe.\nDer Geist Gottes schwebt über den Wassern. Was nun?",
     "choices": [
-      { "text": "Sagen: „Es werde Licht“", "feedback": "Richtig — 1. Mose 1,3: „Es werde Licht.“" },
-      { "text": "Sofort Menschen erschaffen", "feedback": "In 1. Mose 1 werden Menschen am sechsten Tag erschaffen, nicht zuerst. Zuerst kommt das Licht." }
+      {
+        "text": "Sagen: „Es werde Licht“",
+        "feedback": "1. Mose 1,3: „Es werde Licht.“"
+      },
+      {
+        "text": "Sofort Menschen erschaffen",
+        "feedback": "In 1. Mose 1 werden Menschen am sechsten Tag erschaffen, nicht zuerst. Zuerst kommt das Licht."
+      }
     ]
   },
   "light": {
     "title": "Das Licht ist gekommen",
     "text": "Licht scheint. Du siehst, dass das Licht gut ist.\nWas ist deine nächste Tat am ersten Tag?",
     "choices": [
-      { "text": "Eine zweite Sonne an den Himmel setzen", "feedback": "In 1. Mose 1,4 trennte Gott das Licht von der Finsternis — Er erschuf keine zweite Sonne." },
-      { "text": "Die Finsternis völlig auslöschen", "feedback": "In 1. Mose 1,4-5 zerstörte Gott die Finsternis nicht — Er trennte sie vom Licht und nannte sie Nacht." },
-      { "text": "Das Licht von der Finsternis trennen", "feedback": "Richtig — 1. Mose 1,4: „Und Gott schied das Licht von der Finsternis.“" }
+      {
+        "text": "Eine zweite Sonne an den Himmel setzen",
+        "feedback": "In 1. Mose 1,4 trennte Gott das Licht von der Finsternis — Er erschuf keine zweite Sonne."
+      },
+      {
+        "text": "Die Finsternis völlig auslöschen",
+        "feedback": "In 1. Mose 1,4-5 zerstörte Gott die Finsternis nicht — Er trennte sie vom Licht und nannte sie Nacht."
+      },
+      {
+        "text": "Das Licht von der Finsternis trennen",
+        "feedback": "1. Mose 1,4: „Und Gott schied das Licht von der Finsternis.“"
+      }
     ]
   },
   "light_obey": {
     "title": "Tag und Nacht",
     "text": "Das Licht scheint und es ist gut.\nWie vollendest du den ersten Tag?",
     "choices": [
-      { "text": "Das Licht Tag und die Finsternis Nacht nennen", "feedback": "Richtig — 1. Mose 1,5: „Und Gott nannte das Licht Tag, und die Finsternis nannte er Nacht.“" },
-      { "text": "Jetzt Sonne, Mond und Sterne erschaffen", "feedback": "In 1. Mose 1 werden Sonne, Mond und Sterne am vierten Tag erschaffen — nicht am ersten." }
+      {
+        "text": "Das Licht Tag und die Finsternis Nacht nennen",
+        "feedback": "1. Mose 1,5: „Und Gott nannte das Licht Tag, und die Finsternis nannte er Nacht.“"
+      },
+      {
+        "text": "Jetzt Sonne, Mond und Sterne erschaffen",
+        "feedback": "In 1. Mose 1 werden Sonne, Mond und Sterne am vierten Tag erschaffen — nicht am ersten."
+      }
     ]
   },
   "light_awe": {
     "title": "Der erste Tag",
     "text": "Es ist Licht. Es ist Finsternis.\nWas vollendet den ersten Tag?",
     "choices": [
-      { "text": "Jetzt die Meerestiere erschaffen", "feedback": "In 1. Mose 1,20-23 kommen Meerestiere am fünften Tag. Der erste Tag trennt Licht und Finsternis." },
-      { "text": "Das Licht Tag und die Finsternis Nacht nennen", "feedback": "Richtig — 1. Mose 1,5: Gott nannte das Licht Tag und die Finsternis Nacht." }
+      {
+        "text": "Jetzt die Meerestiere erschaffen",
+        "feedback": "In 1. Mose 1,20-23 kommen Meerestiere am fünften Tag. Der erste Tag trennt Licht und Finsternis."
+      },
+      {
+        "text": "Das Licht Tag und die Finsternis Nacht nennen",
+        "feedback": "1. Mose 1,5: Gott nannte das Licht Tag und die Finsternis Nacht."
+      }
     ]
   },
   "warmth": {
     "title": "Der zweite Tag",
     "text": "Der erste Tag ist vollendet.\nWas erschaffst du am zweiten Tag?",
     "choices": [
-      { "text": "Eine Feste, um die Wasser oben von den Wassern unten zu scheiden", "feedback": "Richtig — 1. Mose 1,6-7: Gott machte eine Feste und schied die oberen Wasser von den unteren." },
-      { "text": "Den ersten Garten pflanzen", "feedback": "In 1. Mose 1,11 kommen Pflanzen am dritten Tag. Der zweite Tag ist die Feste — der Himmel." }
+      {
+        "text": "Eine Feste, um die Wasser oben von den Wassern unten zu scheiden",
+        "feedback": "1. Mose 1,6-7: Gott machte eine Feste und schied die oberen Wasser von den unteren."
+      },
+      {
+        "text": "Den ersten Garten pflanzen",
+        "feedback": "In 1. Mose 1,11 kommen Pflanzen am dritten Tag. Der zweite Tag ist die Feste — der Himmel."
+      }
     ]
   },
   "day_night": {
     "title": "Der zweite Tag",
     "text": "Abend und Morgen — der erste Tag ist vollendet.\nWas kommt am zweiten Tag?",
     "choices": [
-      { "text": "Die Feste erschaffen und sie Himmel nennen", "feedback": "Richtig — 1. Mose 1,8: „Und Gott nannte die Feste Himmel.“" },
-      { "text": "Fische und Vögel erschaffen", "feedback": "In 1. Mose 1,20-23 kommen Fische und Vögel am fünften Tag — nicht am zweiten." }
+      {
+        "text": "Die Feste erschaffen und sie Himmel nennen",
+        "feedback": "1. Mose 1,8: „Und Gott nannte die Feste Himmel.“"
+      },
+      {
+        "text": "Fische und Vögel erschaffen",
+        "feedback": "In 1. Mose 1,20-23 kommen Fische und Vögel am fünften Tag — nicht am zweiten."
+      }
     ]
   },
   "sky": {
     "title": "Der dritte Tag",
     "text": "Die Feste des Himmels ist gemacht.\nWas ist deine erste Tat am dritten Tag?",
     "choices": [
-      { "text": "Befehlen, dass Trockenes erscheine, ohne die Wasser zu bewegen", "feedback": "In 1. Mose 1,9 sammelte Gott zuerst die Wasser — dann erschien das Trockene." },
-      { "text": "Die Wasser an einen Ort sammeln", "feedback": "Richtig — 1. Mose 1,9: „Es sammle sich das Wasser an einen Ort, dass man das Trockene sehe.“" },
-      { "text": "Die Sonne erschaffen, um den Himmel zu wärmen", "feedback": "In 1. Mose 1,14-16 wird die Sonne am vierten Tag gemacht — nicht am dritten." }
+      {
+        "text": "Befehlen, dass Trockenes erscheine, ohne die Wasser zu bewegen",
+        "feedback": "In 1. Mose 1,9 sammelte Gott zuerst die Wasser — dann erschien das Trockene."
+      },
+      {
+        "text": "Die Wasser an einen Ort sammeln",
+        "feedback": "1. Mose 1,9: „Es sammle sich das Wasser an einen Ort, dass man das Trockene sehe.“"
+      },
+      {
+        "text": "Die Sonne erschaffen, um den Himmel zu wärmen",
+        "feedback": "In 1. Mose 1,14-16 wird die Sonne am vierten Tag gemacht — nicht am dritten."
+      }
     ]
   },
   "sky_vast": {
     "title": "Der dritte Tag",
     "text": "Die Feste des Himmels ist vollendet.\nWas kommt am dritten Tag?",
     "choices": [
-      { "text": "Zuerst die Sterne erschaffen", "feedback": "In 1. Mose 1,14-16 werden Sterne am vierten Tag erschaffen. Der dritte Tag ist trockenes Land und Meere." },
-      { "text": "Die Wasser zu Meeren sammeln, damit trockenes Land erscheint", "feedback": "Richtig — 1. Mose 1,9-10: Gott sammelte die Wasser zu Meeren, und trockenes Land erschien." }
+      {
+        "text": "Zuerst die Sterne erschaffen",
+        "feedback": "In 1. Mose 1,14-16 werden Sterne am vierten Tag erschaffen. Der dritte Tag ist trockenes Land und Meere."
+      },
+      {
+        "text": "Die Wasser zu Meeren sammeln, damit trockenes Land erscheint",
+        "feedback": "1. Mose 1,9-10: Gott sammelte die Wasser zu Meeren, und trockenes Land erschien."
+      }
     ]
   },
   "waters_gather": {
     "title": "Trockenes Land erscheint",
     "text": "Die Wasser sammeln sich. Trockenes Land erscheint.\nWas tust du als Nächstes am dritten Tag?",
     "choices": [
-      { "text": "Das Land mit Pflanzen, Samen und Fruchtbäumen bedecken", "feedback": "Richtig — 1. Mose 1,11: „Die Erde lasse aufgehen Gras und Kraut, das Samen bringe, und fruchtbare Bäume.“" },
-      { "text": "Die Meere sofort mit Fischen füllen", "feedback": "In 1. Mose 1,20-21 kommen Fische am fünften Tag. Der dritte Tag endet mit Pflanzen und Bäumen." }
+      {
+        "text": "Das Land mit Pflanzen, Samen und Fruchtbäumen bedecken",
+        "feedback": "1. Mose 1,11: „Die Erde lasse aufgehen Gras und Kraut, das Samen bringe, und fruchtbare Bäume.“"
+      },
+      {
+        "text": "Die Meere sofort mit Fischen füllen",
+        "feedback": "In 1. Mose 1,20-21 kommen Fische am fünften Tag. Der dritte Tag endet mit Pflanzen und Bäumen."
+      }
     ]
   },
   "expanse": {
     "title": "Der dritte Tag",
     "text": "Die Himmel spannen sich oben aus.\nWas tust du am dritten Tag?",
     "choices": [
-      { "text": "Trockenes Land, Pflanzen und Fruchtbäume hervorbringen", "feedback": "Richtig — 1. Mose 1,9-12: trockenes Land, Meere und Vegetation erscheinen am dritten Tag." },
-      { "text": "Adam aus Staub formen", "feedback": "In 1. Mose 2,7 wird Adam am sechsten Tag geformt — nicht am dritten." }
+      {
+        "text": "Trockenes Land, Pflanzen und Fruchtbäume hervorbringen",
+        "feedback": "1. Mose 1,9-12: trockenes Land, Meere und Vegetation erscheinen am dritten Tag."
+      },
+      {
+        "text": "Adam aus Staub formen",
+        "feedback": "In 1. Mose 2,7 wird Adam am sechsten Tag geformt — nicht am dritten."
+      }
     ]
   },
   "land": {
     "title": "Die Vegetation",
     "text": "Trockenes Land erscheint.\nMit welcher Art Leben bedeckst du es?",
     "choices": [
-      { "text": "Pflanzen, Kräuter und Fruchtbäume — jedes nach seiner Art", "feedback": "Richtig — 1. Mose 1,11-12: Pflanzen und Bäume, jedes „nach seiner Art“." },
-      { "text": "Nur Blumen, keine Bäume", "feedback": "In 1. Mose 1,11 machte Gott Pflanzen, Kräuter UND Fruchtbäume — nicht nur Blumen." },
-      { "text": "Wilde Tiere, die durch die Berge streifen", "feedback": "In 1. Mose 1,24-25 kommen Landtiere am sechsten Tag — nicht am dritten." }
+      {
+        "text": "Pflanzen, Kräuter und Fruchtbäume — jedes nach seiner Art",
+        "feedback": "1. Mose 1,11-12: Pflanzen und Bäume, jedes „nach seiner Art“."
+      },
+      {
+        "text": "Nur Blumen, keine Bäume",
+        "feedback": "In 1. Mose 1,11 machte Gott Pflanzen, Kräuter UND Fruchtbäume — nicht nur Blumen."
+      },
+      {
+        "text": "Wilde Tiere, die durch die Berge streifen",
+        "feedback": "In 1. Mose 1,24-25 kommen Landtiere am sechsten Tag — nicht am dritten."
+      }
     ]
   },
   "land_emerge": {
     "title": "Die Erde bringt hervor",
     "text": "Der trockene Boden ist bereit.\nWas sprießt am dritten Tag?",
     "choices": [
-      { "text": "Vegetation mit Samen und Fruchtbäume, die Frucht tragen", "feedback": "Richtig — 1. Mose 1,11: „Kraut, das Samen bringt, und Fruchtbäume, die Frucht tragen... ein jeder nach seiner Art.“" },
-      { "text": "Bienen und Schmetterlinge vor jeder Pflanze", "feedback": "In 1. Mose 1,24-25 kommen Kriechtiere am sechsten Tag. Der dritte Tag bringt zuerst Pflanzen." }
+      {
+        "text": "Vegetation mit Samen und Fruchtbäume, die Frucht tragen",
+        "feedback": "1. Mose 1,11: „Kraut, das Samen bringt, und Fruchtbäume, die Frucht tragen... ein jeder nach seiner Art.“"
+      },
+      {
+        "text": "Bienen und Schmetterlinge vor jeder Pflanze",
+        "feedback": "In 1. Mose 1,24-25 kommen Kriechtiere am sechsten Tag. Der dritte Tag bringt zuerst Pflanzen."
+      }
     ]
   },
   "plants": {
     "title": "Der vierte Tag",
     "text": "Der dritte Tag ist vollendet — Pflanzen und Bäume bedecken die Erde.\nWas erschaffst du am vierten Tag?",
     "choices": [
-      { "text": "Lichter an der Feste — Sonne, Mond und Sterne", "feedback": "Richtig — 1. Mose 1,14-16: Gott machte Sonne, Mond und Sterne am vierten Tag." },
-      { "text": "Meerestiere und Vögel", "feedback": "In 1. Mose 1,20-23 kommen Meerestiere und Vögel am fünften Tag — nicht am vierten." }
+      {
+        "text": "Lichter an der Feste — Sonne, Mond und Sterne",
+        "feedback": "1. Mose 1,14-16: Gott machte Sonne, Mond und Sterne am vierten Tag."
+      },
+      {
+        "text": "Meerestiere und Vögel",
+        "feedback": "In 1. Mose 1,20-23 kommen Meerestiere und Vögel am fünften Tag — nicht am vierten."
+      }
     ]
   },
   "flowers": {
     "title": "Der vierte Tag",
     "text": "Pflanzen bedecken die Erde.\nWas kommt am vierten Tag?",
     "choices": [
-      { "text": "Adam und Eva", "feedback": "In 1. Mose 1,26-27 werden Menschen am sechsten Tag erschaffen — nicht am vierten." },
-      { "text": "Sonne, Mond und Sterne", "feedback": "Richtig — 1. Mose 1,14-19: Gott setzte Sonne, Mond und Sterne an die Feste des Himmels." }
+      {
+        "text": "Adam und Eva",
+        "feedback": "In 1. Mose 1,26-27 werden Menschen am sechsten Tag erschaffen — nicht am vierten."
+      },
+      {
+        "text": "Sonne, Mond und Sterne",
+        "feedback": "1. Mose 1,14-19: Gott setzte Sonne, Mond und Sterne an die Feste des Himmels."
+      }
     ]
   },
   "mountain": {
     "title": "Der vierte Tag",
     "text": "Das Land ist voll von Pflanzen und Bäumen.\nWas machst du am vierten Tag?",
     "choices": [
-      { "text": "Sonne, Mond und Sterne an den Himmel", "feedback": "Richtig — 1. Mose 1,14-19: Gott setzte zwei große Lichter und die Sterne an die Feste des Himmels." },
-      { "text": "Regen, Schnee und Wolken", "feedback": "In 1. Mose 1 geht es am vierten Tag um Sonne, Mond und Sterne — nicht um das Wetter." }
+      {
+        "text": "Sonne, Mond und Sterne an den Himmel",
+        "feedback": "1. Mose 1,14-19: Gott setzte zwei große Lichter und die Sterne an die Feste des Himmels."
+      },
+      {
+        "text": "Regen, Schnee und Wolken",
+        "feedback": "In 1. Mose 1 geht es am vierten Tag um Sonne, Mond und Sterne — nicht um das Wetter."
+      }
     ]
   },
   "stars": {
     "title": "Das große und das kleine Licht",
     "text": "Lichter sind an den Himmel gesetzt.\nWie ordnest du sie?",
     "choices": [
-      { "text": "Ein einziges Licht, um Tag und Nacht zu beherrschen", "feedback": "In 1. Mose 1,16 machte Gott ZWEI große Lichter — das größere für den Tag und das kleinere für die Nacht." },
-      { "text": "Nur Sterne — keine Sonne, kein Mond", "feedback": "In 1. Mose 1,16 machte Gott die Sonne und den Mond zusätzlich zu den Sternen." },
-      { "text": "Ein großes Licht für den Tag, ein kleineres für die Nacht und die Sterne", "feedback": "Richtig — 1. Mose 1,16: „Das große Licht, das den Tag regiere, und das kleine Licht, das die Nacht regiere; dazu auch Sterne.“" }
+      {
+        "text": "Ein einziges Licht, um Tag und Nacht zu beherrschen",
+        "feedback": "In 1. Mose 1,16 machte Gott ZWEI große Lichter — das größere für den Tag und das kleinere für die Nacht."
+      },
+      {
+        "text": "Nur Sterne — keine Sonne, kein Mond",
+        "feedback": "In 1. Mose 1,16 machte Gott die Sonne und den Mond zusätzlich zu den Sternen."
+      },
+      {
+        "text": "Ein großes Licht für den Tag, ein kleineres für die Nacht und die Sterne",
+        "feedback": "1. Mose 1,16: „Das große Licht, das den Tag regiere, und das kleine Licht, das die Nacht regiere; dazu auch Sterne.“"
+      }
     ]
   },
   "stars_delight": {
     "title": "Lichter an den Himmeln",
     "text": "Der vierte Tag geht weiter.\nWas wird gesetzt?",
     "choices": [
-      { "text": "Sonne, Mond und unzählige Sterne", "feedback": "Richtig — 1. Mose 1,14-16: Sonne, Mond und Sterne — für Zeichen, Zeiten, Tage und Jahre." },
-      { "text": "Nur ein kleines Licht für den ganzen Himmel", "feedback": "In 1. Mose 1,16 machte Gott ZWEI große Lichter, dazu die Sterne — nicht ein kleines Licht." }
+      {
+        "text": "Sonne, Mond und unzählige Sterne",
+        "feedback": "1. Mose 1,14-16: Sonne, Mond und Sterne — für Zeichen, Zeiten, Tage und Jahre."
+      },
+      {
+        "text": "Nur ein kleines Licht für den ganzen Himmel",
+        "feedback": "In 1. Mose 1,16 machte Gott ZWEI große Lichter, dazu die Sterne — nicht ein kleines Licht."
+      }
     ]
   },
   "stars_vision": {
     "title": "Sterne ohne Zahl",
     "text": "Du setzt Lichter an den Himmel.\nWie viele Sterne wird es geben?",
     "choices": [
-      { "text": "Unzählige — jenseits der Zählung", "feedback": "Richtig — 1. Mose 15,5 und 22,17 beschreiben die Sterne des Himmels als unzählbar." },
-      { "text": "Genau sieben Sterne — nicht mehr", "feedback": "In der Schrift sind Gottes Sterne unzählbar — „wie die Sterne am Himmel“ (1. Mose 22,17)." }
+      {
+        "text": "Unzählige — jenseits der Zählung",
+        "feedback": "1. Mose 15,5 und 22,17 beschreiben die Sterne des Himmels als unzählbar."
+      },
+      {
+        "text": "Genau sieben Sterne — nicht mehr",
+        "feedback": "In der Schrift sind Gottes Sterne unzählbar — „wie die Sterne am Himmel“ (1. Mose 22,17)."
+      }
     ]
   },
   "countless_stars": {
     "title": "Der fünfte Tag",
     "text": "Die Lichter des vierten Tages sind gesetzt.\nWas erschaffst du am fünften Tag?",
     "choices": [
-      { "text": "Wesen, die die Wasser wimmeln lassen, und Vögel, die darüber fliegen", "feedback": "Richtig — 1. Mose 1,20-21: „Es wimmle das Wasser von lebendigem Getier, und Vögel sollen über der Erde fliegen.“" },
-      { "text": "Bäume, Gras und Frucht", "feedback": "In 1. Mose 1,11 kommen Pflanzen am dritten Tag — nicht am fünften." }
+      {
+        "text": "Wesen, die die Wasser wimmeln lassen, und Vögel, die darüber fliegen",
+        "feedback": "1. Mose 1,20-21: „Es wimmle das Wasser von lebendigem Getier, und Vögel sollen über der Erde fliegen.“"
+      },
+      {
+        "text": "Bäume, Gras und Frucht",
+        "feedback": "In 1. Mose 1,11 kommen Pflanzen am dritten Tag — nicht am fünften."
+      }
     ]
   },
   "moonrise": {
     "title": "Der fünfte Tag",
     "text": "Die Nacht hat ihren Mond; der Tag hat seine Sonne.\nWelche Lebewesen füllen den fünften Tag?",
     "choices": [
-      { "text": "Meerestiere und fliegende Vögel", "feedback": "Richtig — 1. Mose 1,20-23: Meerestiere und Vögel füllen die Wasser und die Himmel am fünften Tag." },
-      { "text": "Vieh und Kriechtiere", "feedback": "In 1. Mose 1,24-25 kommen Vieh und Kriechtiere am sechsten Tag — nicht am fünften." }
+      {
+        "text": "Meerestiere und fliegende Vögel",
+        "feedback": "1. Mose 1,20-23: Meerestiere und Vögel füllen die Wasser und die Himmel am fünften Tag."
+      },
+      {
+        "text": "Vieh und Kriechtiere",
+        "feedback": "In 1. Mose 1,24-25 kommen Vieh und Kriechtiere am sechsten Tag — nicht am fünften."
+      }
     ]
   },
   "sea_dawn": {
     "title": "Wasser und Himmel",
     "text": "Der fünfte Tag beginnt.\nWelche Wesen machst du?",
     "choices": [
-      { "text": "Große Meerestiere, Fische und alle geflügelten Vögel", "feedback": "Richtig — 1. Mose 1,20-22: Gott erschuf die großen Meerestiere und alle geflügelten Vögel und segnete sie." },
-      { "text": "Nur Bienen für die Blumen", "feedback": "In 1. Mose 1,20-21 bringt der fünfte Tag große Meerestiere und alle geflügelten Vögel — nicht nur Insekten." }
+      {
+        "text": "Große Meerestiere, Fische und alle geflügelten Vögel",
+        "feedback": "1. Mose 1,20-22: Gott erschuf die großen Meerestiere und alle geflügelten Vögel und segnete sie."
+      },
+      {
+        "text": "Nur Bienen für die Blumen",
+        "feedback": "In 1. Mose 1,20-21 bringt der fünfte Tag große Meerestiere und alle geflügelten Vögel — nicht nur Insekten."
+      }
     ]
   },
   "sea_creatures": {
     "title": "Seid fruchtbar und mehret euch",
     "text": "Die Meere wimmeln; die Vögel fliegen oben.\nWelchen Segen sprichst du über sie?",
     "choices": [
-      { "text": "„Seid fruchtbar und mehret euch und erfüllt die Wasser und die Erde“", "feedback": "Richtig — 1. Mose 1,22: „Seid fruchtbar und mehret euch und erfüllet das Wasser in den Meeren, und die Vögel sollen sich mehren auf Erden.“" },
-      { "text": "„Kehrt zurück zum Staub — ihr habt versagt“", "feedback": "In 1. Mose 1,22 SEGNETE Gott die Geschöpfe, dass sie sich mehren — Er zerstörte sie nicht." }
+      {
+        "text": "„Seid fruchtbar und mehret euch und erfüllt die Wasser und die Erde“",
+        "feedback": "1. Mose 1,22: „Seid fruchtbar und mehret euch und erfüllet das Wasser in den Meeren, und die Vögel sollen sich mehren auf Erden.“"
+      },
+      {
+        "text": "„Kehrt zurück zum Staub — ihr habt versagt“",
+        "feedback": "In 1. Mose 1,22 SEGNETE Gott die Geschöpfe, dass sie sich mehren — Er zerstörte sie nicht."
+      }
     ]
   },
   "bird_flight": {
     "title": "Der sechste Tag",
     "text": "Meer und Himmel sind erfüllt.\nWas kommt am sechsten Tag?",
     "choices": [
-      { "text": "Vieh, wilde Tiere und Kriechtiere der Erde", "feedback": "Richtig — 1. Mose 1,24-25: Vieh, Getier der Erde und Kriechtiere am sechsten Tag." },
-      { "text": "Mehr Sterne am Himmel", "feedback": "Sterne wurden am vierten Tag gemacht. Der sechste Tag bringt Landtiere — und Menschen." }
+      {
+        "text": "Vieh, wilde Tiere und Kriechtiere der Erde",
+        "feedback": "1. Mose 1,24-25: Vieh, Getier der Erde und Kriechtiere am sechsten Tag."
+      },
+      {
+        "text": "Mehr Sterne am Himmel",
+        "feedback": "Sterne wurden am vierten Tag gemacht. Der sechste Tag bringt Landtiere — und Menschen."
+      }
     ]
   },
   "land_creatures": {
     "title": "Nach unserem Bild",
     "text": "Das Land wimmelt von Tieren.\nWas ist dein letztes Werk der Schöpfung?",
     "choices": [
-      { "text": "Sagen: „Lasset uns Menschen machen, ein Bild, das uns gleich sei“", "feedback": "Richtig — 1. Mose 1,26: „Lasset uns Menschen machen, ein Bild, das uns gleich sei.“" },
-      { "text": "Eines der Tiere in einen Menschen verwandeln", "feedback": "In 1. Mose 2,7 formte Gott den Menschen aus Staub der Erde — nicht aus einem Tier." }
+      {
+        "text": "Sagen: „Lasset uns Menschen machen, ein Bild, das uns gleich sei“",
+        "feedback": "1. Mose 1,26: „Lasset uns Menschen machen, ein Bild, das uns gleich sei.“"
+      },
+      {
+        "text": "Eines der Tiere in einen Menschen verwandeln",
+        "feedback": "In 1. Mose 2,7 formte Gott den Menschen aus Staub der Erde — nicht aus einem Tier."
+      }
     ]
   },
   "land_creatures_wind": {
     "title": "Die Krone der Schöpfung",
     "text": "Die Tiere erfüllen die Erde.\nWas fehlt noch?",
     "choices": [
-      { "text": "Die Schöpfung für vollendet erklären — nichts Weiteres wird gebraucht", "feedback": "In 1. Mose 1,26, nach den Tieren, sagte Gott: „Lasset uns Menschen machen nach unserem Bild.“ Die Schöpfung war noch nicht vollendet." },
-      { "text": "Ein Wesen nach dem Bild Gottes", "feedback": "Richtig — 1. Mose 1,26-27: Menschen sind nach dem Bild und Gleichnis Gottes gemacht." }
+      {
+        "text": "Die Schöpfung für vollendet erklären — nichts Weiteres wird gebraucht",
+        "feedback": "In 1. Mose 1,26, nach den Tieren, sagte Gott: „Lasset uns Menschen machen nach unserem Bild.“ Die Schöpfung war noch nicht vollendet."
+      },
+      {
+        "text": "Ein Wesen nach dem Bild Gottes",
+        "feedback": "1. Mose 1,26-27: Menschen sind nach dem Bild und Gleichnis Gottes gemacht."
+      }
     ]
   },
   "among_animals": {
     "title": "Lasset uns Menschen machen",
     "text": "Kein Tier trägt dein Bild.\nWie machst du den ersten Menschen?",
     "choices": [
-      { "text": "Einen Löwen in einen Menschen verwandeln", "feedback": "In 1. Mose 2,7 formte Gott den Menschen aus Staub der Erde — nicht aus einem anderen Geschöpf." },
-      { "text": "Ihn aus Staub der Erde formen", "feedback": "Richtig — 1. Mose 2,7: „Da machte Gott der HERR den Menschen aus Erde vom Acker.“" }
+      {
+        "text": "Einen Löwen in einen Menschen verwandeln",
+        "feedback": "In 1. Mose 2,7 formte Gott den Menschen aus Staub der Erde — nicht aus einem anderen Geschöpf."
+      },
+      {
+        "text": "Ihn aus Staub der Erde formen",
+        "feedback": "1. Mose 2,7: „Da machte Gott der HERR den Menschen aus Erde vom Acker.“"
+      }
     ]
   },
   "before_man": {
     "title": "Aus Staub geformt",
     "text": "Du formst einen Menschen aus Staub der Erde.\nWie wird er zu einem lebendigen Wesen?",
     "choices": [
-      { "text": "Ein Wort sprechen und ihn von selbst aufwachen lassen", "feedback": "In 1. Mose 2,7 blies Gott ausdrücklich den Odem des Lebens in die Nase des Menschen." },
-      { "text": "Den Odem des Lebens in seine Nase blasen", "feedback": "Richtig — 1. Mose 2,7: „Er blies ihm den Odem des Lebens in seine Nase. Und so ward der Mensch ein lebendiges Wesen.“" }
+      {
+        "text": "Ein Wort sprechen und ihn von selbst aufwachen lassen",
+        "feedback": "In 1. Mose 2,7 blies Gott ausdrücklich den Odem des Lebens in die Nase des Menschen."
+      },
+      {
+        "text": "Den Odem des Lebens in seine Nase blasen",
+        "feedback": "1. Mose 2,7: „Er blies ihm den Odem des Lebens in seine Nase. Und so ward der Mensch ein lebendiges Wesen.“"
+      }
     ]
   },
   "before_man_lonely": {
     "title": "Der Odem des Lebens",
     "text": "Die Gestalt des Menschen liegt still im Staub.\nWas bringt ihn zum Leben?",
     "choices": [
-      { "text": "Dein Atem in seiner Nase", "feedback": "Richtig — 1. Mose 2,7: Gott blies den Odem des Lebens in die Nase des Menschen, und er wurde ein lebendiges Wesen." },
-      { "text": "Wasser über den Ton gegossen", "feedback": "In 1. Mose 2,7 war es Gottes ODEM — nicht Wasser — was dem Menschen Leben gab." }
+      {
+        "text": "Dein Atem in seiner Nase",
+        "feedback": "1. Mose 2,7: Gott blies den Odem des Lebens in die Nase des Menschen, und er wurde ein lebendiges Wesen."
+      },
+      {
+        "text": "Wasser über den Ton gegossen",
+        "feedback": "In 1. Mose 2,7 war es Gottes ODEM — nicht Wasser — was dem Menschen Leben gab."
+      }
     ]
   },
   "breath_of_life": {
     "title": "Der Garten",
     "text": "Der Mensch lebt.\nWo setzt du ihn hin?",
     "choices": [
-      { "text": "In eine Wüste, damit er sich bewährt", "feedback": "In 1. Mose 2,8 pflanzte Gott einen Garten in Eden und setzte den Menschen dorthin." },
-      { "text": "In den Garten Eden, ihn zu bauen und zu bewahren", "feedback": "Richtig — 1. Mose 2,15: „Und Gott der HERR nahm den Menschen und setzte ihn in den Garten Eden, dass er ihn bebaute und bewahrte.“" }
+      {
+        "text": "In eine Wüste, damit er sich bewährt",
+        "feedback": "In 1. Mose 2,8 pflanzte Gott einen Garten in Eden und setzte den Menschen dorthin."
+      },
+      {
+        "text": "In den Garten Eden, ihn zu bauen und zu bewahren",
+        "feedback": "1. Mose 2,15: „Und Gott der HERR nahm den Menschen und setzte ihn in den Garten Eden, dass er ihn bebaute und bewahrte.“"
+      }
     ]
   },
   "breath_of_life_sacred": {
     "title": "Eden bereitet",
     "text": "Der Mensch atmet und lebt.\nWelche Heimat bereitest du für ihn?",
     "choices": [
-      { "text": "Einen Garten in Eden, mit jedem Baum, verlockend anzusehen und gut zu essen", "feedback": "Richtig — 1. Mose 2,8-9: Gott pflanzte einen Garten in Eden mit jedem Baum, verlockend anzusehen und gut zu essen." },
-      { "text": "Ein Feld voller Dornen und Disteln", "feedback": "In 1. Mose 2,8 war Eden ein Garten der Wonne. Dornen und Disteln kommen erst nach dem Sündenfall (1. Mose 3,18)." }
+      {
+        "text": "Einen Garten in Eden, mit jedem Baum, verlockend anzusehen und gut zu essen",
+        "feedback": "1. Mose 2,8-9: Gott pflanzte einen Garten in Eden mit jedem Baum, verlockend anzusehen und gut zu essen."
+      },
+      {
+        "text": "Ein Feld voller Dornen und Disteln",
+        "feedback": "In 1. Mose 2,8 war Eden ein Garten der Wonne. Dornen und Disteln kommen erst nach dem Sündenfall (1. Mose 3,18)."
+      }
     ]
   },
   "first_garden": {
     "title": "Siehe, sehr gut",
     "text": "Die Schöpfung ist vollendet.\nWas sagst du, wenn du alles betrachtest?",
     "choices": [
-      { "text": "„Siehe, es war sehr gut“", "feedback": "Richtig — 1. Mose 1,31: „Und Gott sah an alles, was er gemacht hatte, und siehe, es war sehr gut.“" },
-      { "text": "„Das ist ein Versagen — ich muss von vorne anfangen“", "feedback": "In 1. Mose 1,31 sah Gott, dass alles, was er gemacht hatte, sehr gut war — kein Versagen." }
+      {
+        "text": "„Siehe, es war sehr gut“",
+        "feedback": "1. Mose 1,31: „Und Gott sah an alles, was er gemacht hatte, und siehe, es war sehr gut.“"
+      },
+      {
+        "text": "„Das ist ein Versagen — ich muss von vorne anfangen“",
+        "feedback": "In 1. Mose 1,31 sah Gott, dass alles, was er gemacht hatte, sehr gut war — kein Versagen."
+      }
     ]
   },
   "first_garden_wonder": {
     "title": "Der sechste Tag ist vollendet",
     "text": "Der Mensch wandelt im Garten. Die Schöpfung ist vollendet.\nWas erklärst du?",
     "choices": [
-      { "text": "„Siehe, es ist sehr gut“", "feedback": "Richtig — 1. Mose 1,31: „Und Gott sah an alles, was er gemacht hatte, und siehe, es war sehr gut.“" },
-      { "text": "„Ich muss die Menschen morgen neu machen“", "feedback": "In 1. Mose 1,31 erklärte Gott alles, was er gemacht hatte — einschließlich der Menschen — für sehr gut." }
+      {
+        "text": "„Siehe, es ist sehr gut“",
+        "feedback": "1. Mose 1,31: „Und Gott sah an alles, was er gemacht hatte, und siehe, es war sehr gut.“"
+      },
+      {
+        "text": "„Ich muss die Menschen morgen neu machen“",
+        "feedback": "In 1. Mose 1,31 erklärte Gott alles, was er gemacht hatte — einschließlich der Menschen — für sehr gut."
+      }
     ]
   },
   "very_good": {
     "title": "Der siebte Tag",
     "text": "Sechs Tage der Schöpfung sind vollendet.\nWas tust du am siebten Tag?",
     "choices": [
-      { "text": "Ruhen und den siebten Tag segnen und heiligen", "feedback": "Richtig — 1. Mose 2,2-3: „Und Gott vollendete am siebten Tag seine Werke... Und Gott segnete den siebten Tag und heiligte ihn.“" }
+      {
+        "text": "Ruhen und den siebten Tag segnen und heiligen",
+        "feedback": "1. Mose 2,2-3: „Und Gott vollendete am siebten Tag seine Werke... Und Gott segnete den siebten Tag und heiligte ihn.“"
+      }
     ]
   },
   "rest": {
