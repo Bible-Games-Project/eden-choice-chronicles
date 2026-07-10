@@ -10,7 +10,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The First Breath",
     text: "You open your eyes in a warm garden.\nA voice within whispers: you are loved.",
     choices: [
-      { text: "Listen and give thanks", nextScene: "naming", tag: "grateful", feedback: "Peace settles deep in your chest.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen and give thanks", nextScene: "naming", tag: "grateful", feedback: "Genesis 2:7 — The Lord God formed man from the dust and breathed life into him.", isCorrect: true, sentiment: "positive" },
       { text: "Run off to test your strength", nextScene: "naming", tag: "proud", feedback: "The garden answers only with silence.", isCorrect: false, sentiment: "negative" },
       { text: "Demand to know who made you", nextScene: "naming", tag: "defiant", feedback: "The voice does not answer demands.", isCorrect: false, sentiment: "negative" },
     ],
@@ -20,7 +20,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Naming the Creatures",
     text: "Animals gather, waiting.\nThe Lord asks you to name each one.",
     choices: [
-      { text: "Name them with care", nextScene: "lonely", tag: "steward", feedback: "Each name fits as if it were always theirs.", isCorrect: true, sentiment: "positive" },
+      { text: "Name them with care", nextScene: "lonely", tag: "steward", feedback: "Genesis 2:19-20 — Adam gave names to every living creature the Lord brought to him.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse — you are tired", nextScene: "lonely", tag: "lazy", feedback: "They wait, patient and confused.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -29,7 +29,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Alone Among Pairs",
     text: "Every creature has its match.\nOnly you stand alone.",
     choices: [
-      { text: "Trust God with the longing", nextScene: "deep_sleep", tag: "trusting", feedback: "You breathe, and let the ache become prayer.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust God with the longing", nextScene: "deep_sleep", tag: "trusting", feedback: "Genesis 2:18 — God said, 'It is not good for the man to be alone.'", isCorrect: true, sentiment: "positive" },
       { text: "Search the wild on your own", nextScene: "deep_sleep", tag: "restless", feedback: "You walk far. Nothing fills the silence.", isCorrect: false, sentiment: "negative" },
       { text: "Blame the Maker", nextScene: "deep_sleep", tag: "bitter", feedback: "Bitterness only deepens the loneliness.", isCorrect: false, sentiment: "negative" },
     ],
@@ -39,7 +39,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "A Deep Sleep",
     text: "A great peace covers you.\nYour eyes close, and the Lord works.",
     choices: [
-      { text: "Surrender to the rest", nextScene: "meet_eve", tag: "yielded", feedback: "You let go. Something new begins.", isCorrect: true, sentiment: "positive" },
+      { text: "Surrender to the rest", nextScene: "meet_eve", tag: "yielded", feedback: "Genesis 2:21 — The Lord God caused a deep sleep to fall upon Adam.", isCorrect: true, sentiment: "positive" },
       { text: "Fight to stay awake", nextScene: "meet_eve", tag: "stubborn", feedback: "You cannot resist His hand. Sleep comes anyway.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -48,7 +48,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "Bone of My Bone",
     text: "You wake — and she is there.\nA woman, made for you, equal to you.",
     choices: [
-      { text: "Welcome her with joy", nextScene: "warning", tag: "loving", feedback: "\"This at last is bone of my bone.\"", isCorrect: true, sentiment: "positive" },
+      { text: "Welcome her with joy", nextScene: "warning", tag: "loving", feedback: "Genesis 2:23 — Adam said, 'This at last is bone of my bones and flesh of my flesh.'", isCorrect: true, sentiment: "positive" },
       { text: "Treat her as lesser", nextScene: "warning", tag: "prideful", feedback: "She lowers her eyes. The garden grows quieter.", isCorrect: false, sentiment: "negative" },
       { text: "Walk past her in silence", nextScene: "warning", tag: "cold", feedback: "She follows, unsure why you turn away.", isCorrect: false, sentiment: "negative" },
     ],
@@ -58,7 +58,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     title: "The Forbidden Tree",
     text: "God shows you one tree set apart.\n\"Do not eat from this one, or you will die.\"",
     choices: [
-      { text: "Promise to obey His word", nextScene: "serpent", tag: "obedient", feedback: "Peace returns. The garden feels safe.", isCorrect: true, sentiment: "positive" },
+      { text: "Promise to obey His word", nextScene: "serpent", tag: "obedient", feedback: "Genesis 2:16-17 — God commanded not to eat from the tree of the knowledge of good and evil.", isCorrect: true, sentiment: "positive" },
       { text: "Wonder why He hides it from you", nextScene: "serpent", tag: "doubting", feedback: "A seed of suspicion takes root.", isCorrect: false, sentiment: "negative" },
       { text: "Plan to taste it later", nextScene: "serpent", tag: "scheming", feedback: "The thought lingers, sweet and dangerous.", isCorrect: false, sentiment: "negative" },
     ],
@@ -69,7 +69,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     text: "A serpent speaks to Eve:\n\"Did God really say you must not eat?\"",
     choices: [
       { text: "Stand beside her — repeat God's word", nextScene: "fruit", tag: "guarding", feedback: "You speak the truth aloud. The serpent hisses.", isCorrect: false, sentiment: "positive" },
-      { text: "Stay silent and let her answer", nextScene: "fruit", tag: "passive", feedback: "Her voice trembles. You say nothing.", isCorrect: true, sentiment: "negative" },
+      { text: "Stay silent and let her answer", nextScene: "fruit", tag: "passive", feedback: "Genesis 3:6 — Adam was with Eve and remained silent as the serpent spoke.", isCorrect: true, sentiment: "negative" },
       { text: "Listen — maybe he is right", nextScene: "fruit", tag: "curious", feedback: "The whisper begins to feel reasonable.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -79,7 +79,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     text: "Eve has taken the fruit. She offers it to you.\nHer eyes plead — and burn.",
     choices: [
       { text: "Refuse — remember the command", nextScene: "shame", tag: "faithful", feedback: "Your hand drops to your side. But she has already eaten.", isCorrect: false, sentiment: "positive" },
-      { text: "Take it and eat", nextScene: "shame", tag: "fallen", feedback: "Sweet. Then bitter. Then — you know.", isCorrect: true, sentiment: "negative" },
+      { text: "Take it and eat", nextScene: "shame", tag: "fallen", feedback: "Genesis 3:6 — Adam took the fruit Eve gave him and ate it.", isCorrect: true, sentiment: "negative" },
       { text: "Eat to share her fate", nextScene: "shame", tag: "weak", feedback: "Love twists into disobedience. You bite.", isCorrect: true, sentiment: "negative" },
     ],
   },
@@ -89,7 +89,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     text: "You see yourselves — bare, afraid.\nFig leaves cannot cover what has changed.",
     choices: [
       { text: "Own the wrong before God", nextScene: "confrontation", tag: "humble", feedback: "Shame becomes sorrow. Sorrow opens a door.", isCorrect: false, sentiment: "positive" },
-      { text: "Run and hide in the trees", nextScene: "confrontation", tag: "fleeing", feedback: "You crouch in the brush. His voice still finds you.", isCorrect: true, sentiment: "negative" },
+      { text: "Run and hide in the trees", nextScene: "confrontation", tag: "fleeing", feedback: "Genesis 3:8 — Adam and Eve hid themselves among the trees of the garden.", isCorrect: true, sentiment: "negative" },
       { text: "Blame Eve to yourself", nextScene: "confrontation", tag: "blaming", feedback: "The anger feels safe. It is not.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -99,7 +99,7 @@ export const adamEveScenes: Record<string, StoryScene> = {
     text: "The Lord walks in the garden and calls.\nHis voice is not angry — it is grieved.",
     choices: [
       { text: "Confess: \"I disobeyed\"", nextScene: "expulsion", tag: "repentant", feedback: "Truth is heavy. And it sets something free.", isCorrect: false, sentiment: "positive" },
-      { text: "\"The woman You gave me did it\"", nextScene: "expulsion", tag: "deflecting", feedback: "You point. The blame does not save you.", isCorrect: true, sentiment: "negative" },
+      { text: "\"The woman You gave me did it\"", nextScene: "expulsion", tag: "deflecting", feedback: "Genesis 3:12 — Adam blamed Eve: 'The woman you gave me — she gave me the fruit.'", isCorrect: true, sentiment: "negative" },
       { text: "Stay silent in the bushes", nextScene: "expulsion", tag: "hiding", feedback: "Silence cannot hide a fallen heart.", isCorrect: false, sentiment: "negative" },
     ],
   },
