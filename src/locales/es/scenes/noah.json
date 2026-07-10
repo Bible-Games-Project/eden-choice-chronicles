@@ -1,160 +1,188 @@
 {
-  "storyTitle": "Noé y el Diluvio",
+  "storyTitle": "Noé y el diluvio",
   "start": {
     "title": "La voz de lo alto",
-    "text": "Una voz llena el cielo.\n«Noé, construye un arca. Se acerca un diluvio».",
+    "text": "Dios te habla.\n«Hazte un arca. Se acerca un diluvio.»",
     "choices": [
       {
-        "text": "Duda — esto no puede ser verdad",
-        "feedback": "La voz se desvanece. Pero el peso en tu pecho permanece."
+        "text": "Recibe el mandato de Dios de construir un arca de madera de ciprés",
+        "feedback": "Génesis 6:14, 22 — Dios dijo a Noé que hiciera un arca de madera de ciprés, y Noé hizo todo tal como Dios le mandó."
       },
       {
-        "text": "«Aquí estoy. Obedeceré.»",
-        "feedback": "Génesis 6:22 — Noé hizo todo tal como Dios se lo había mandado."
+        "text": "Rechaza el mandato y huye de la tierra",
+        "feedback": "El Génesis dice que Noé obedeció a Dios; no huyó."
       },
       {
-        "text": "Pregunta por qué fuiste elegido",
-        "feedback": "No llega ninguna respuesta. Solo la orden permanece."
+        "text": "Compra un barco existente a un mercader",
+        "feedback": "El Génesis dice que Noé construyó el arca él mismo, como Dios le indicó."
       }
     ]
   },
   "mockery": {
-    "title": "Voces de la multitud",
-    "text": "Los aldeanos se reúnen, riendo.\n«¿Un barco? ¿Aquí? Estás loco, viejo».",
+    "title": "Un mundo que observa",
+    "text": "El mundo a tu alrededor es corrupto y violento.\nTe observan construir. ¿Cómo respondes?",
     "choices": [
       {
-        "text": "Grita con ira",
-        "feedback": "Tus palabras solo alimentan sus burlas."
+        "text": "Sigue construyendo el arca por fe",
+        "feedback": "Hebreos 11:7 — Por la fe Noé construyó el arca con temor reverente, aunque advertido de cosas que aún no se veían."
       },
       {
-        "text": "Permanece en silencio y sigue trabajando",
-        "feedback": "Hebreos 11:7 — Por la fe, Noé siguió construyendo el arca, a pesar de las burlas del mundo."
+        "text": "Abandona el arca para complacer a la multitud",
+        "feedback": "La Escritura dice que Noé siguió construyendo por fe."
       },
       {
-        "text": "Ruégales que crean",
-        "feedback": "Te dan la espalda. Estás solo en la fe."
+        "text": "Ataca a los burladores para silenciarlos",
+        "feedback": "La Escritura no describe a Noé atacando a nadie."
       }
     ]
   },
   "building": {
     "title": "Ciprés y brea",
-    "text": "Años de sudor. La madera se parte. El alquitrán sella.\nTu espalda duele, pero el arca se eleva.",
+    "text": "Reúnes los materiales que Dios mandó.\n¿Cómo construyes el arca?",
     "choices": [
       {
-        "text": "Descansa un rato, el trabajo es interminable",
-        "feedback": "La duda se cuela con el silencio."
+        "text": "Constrúyela de madera de ciprés, recubierta de brea por dentro y por fuera",
+        "feedback": "Génesis 6:14 — Hazte un arca de madera de ciprés; recúbrela con brea por dentro y por fuera."
       },
       {
-        "text": "Sigue adelante — Dios lo ordenó",
-        "feedback": "Génesis 6:14-16 — Noé construyó el arca de madera de ciprés tal como Dios le indicó."
+        "text": "Constrúyela de piedra tallada",
+        "feedback": "El Génesis dice que el arca fue construida de madera de ciprés, no de piedra."
+      },
+      {
+        "text": "Tejéla con cañas como una cesta",
+        "feedback": "El Génesis dice que el arca fue hecha de madera de ciprés, sellada con brea."
       }
     ]
   },
   "ark_done": {
-    "title": "Está Terminada",
-    "text": "El arca se alza sobre ti.\nTu familia se reúne, silenciosa ante la madera.",
+    "title": "Está terminada",
+    "text": "El arca está completa, exactamente como Dios mandó.\n¿Qué aspecto tiene?",
     "choices": [
       {
-        "text": "Alardea ante la multitud que observa",
-        "feedback": "El orgullo envenena el trabajo. Te corriges."
+        "text": "300 codos de largo, 50 de ancho, 30 de alto, con tres cubiertas",
+        "feedback": "Génesis 6:15-16 — El arca tenía 300 codos de largo, 50 de ancho, 30 de alto, con tres cubiertas."
       },
       {
-        "text": "Agradece a Dios la fuerza concedida",
-        "feedback": "Génesis 6:9 — Noé caminaba con Dios y le daba gracias por cada paso."
+        "text": "Un pequeño bote redondo con una cubierta",
+        "feedback": "El Génesis da dimensiones específicas; el arca no era un pequeño bote redondo."
+      },
+      {
+        "text": "Una balsa, plana y abierta al cielo",
+        "feedback": "El Génesis dice que el arca tenía un techo, tres cubiertas y una puerta en su costado."
       }
     ]
   },
   "animals": {
-    "title": "De Dos en Dos",
-    "text": "Criaturas de toda tierra vienen.\nLeones junto a corderos. Águilas a tus pies.",
+    "title": "Vienen las criaturas",
+    "text": "Los animales llegan al arca.\n¿A quiénes subes a bordo?",
     "choices": [
       {
-        "text": "Ahuyenta a los peligrosos",
-        "feedback": "El miedo te ciega. Dios envió a cada uno."
+        "text": "Toma parejas de cada tipo de animal, macho y hembra",
+        "feedback": "Génesis 7:8-9 — Parejas de animales limpios e inmundos, aves y reptiles vinieron a Noé, macho y hembra."
       },
       {
-        "text": "Da la bienvenida a cada pareja con suavidad",
-        "feedback": "Génesis 7:8-9 — Los animales vinieron a Noé de dos en dos, y él los recibió."
+        "text": "Toma solo ovejas y cabras",
+        "feedback": "El Génesis dice que vinieron todo tipo de animales, no solo ovejas y cabras."
+      },
+      {
+        "text": "No tomes animales, solo a tu familia",
+        "feedback": "El Génesis dice que los animales entraron en el arca con Noé."
       }
     ]
   },
   "boarding": {
-    "title": "La Puerta se Cierra",
-    "text": "Tu familia está dentro. Los animales se acomodan.\nDios mismo cierra la puerta.",
+    "title": "La puerta cerrada",
+    "text": "Es hora de entrar en el arca.\n¿Quién entra y quién cierra la puerta?",
     "choices": [
       {
-        "text": "Vuelve corriendo para advertirles de nuevo",
-        "feedback": "La puerta está sellada. La elección ha sido hecha."
+        "text": "Entra con tu esposa, tus tres hijos y sus esposas; el Señor cierra la puerta",
+        "feedback": "Génesis 7:13, 16 — Noé, su esposa, sus tres hijos y las esposas de estos entraron en el arca, y el Señor los encerró."
       },
       {
-        "text": "Toma la mano de tu esposa y espera",
-        "feedback": "Génesis 7:16 — El Señor mismo cerró la puerta del arca tras Noé."
+        "text": "Entra solo en el arca, dejando atrás a tu familia",
+        "feedback": "El Génesis dice que toda la casa de Noé entró con él en el arca."
+      },
+      {
+        "text": "Quédate fuera y cierra la puerta desde el exterior",
+        "feedback": "El Génesis dice que el Señor mismo encerró a Noé en el arca."
       }
     ]
   },
   "storm": {
-    "title": "Los Cielos se Abren",
-    "text": "La lluvia cae como nunca antes se ha visto.\nLas profundidades estallan. El mundo se ahoga.",
+    "title": "Cuarenta días de lluvia",
+    "text": "Las ventanas de los cielos se abren.\n¿Qué sucede?",
     "choices": [
       {
-        "text": "Maldice el cielo con horror",
-        "feedback": "El sonido ahoga tu grito."
+        "text": "La lluvia cae sobre la tierra durante cuarenta días y cuarenta noches",
+        "feedback": "Génesis 7:12 — La lluvia cayó sobre la tierra durante cuarenta días y cuarenta noches."
       },
       {
-        "text": "Confía en que Dios es justo y misericordioso",
-        "feedback": "Génesis 7:23 — Noé confió en Dios mientras el diluvio cubría la tierra."
+        "text": "Una sola tormenta pasa en un día",
+        "feedback": "El Génesis dice que la lluvia cayó durante cuarenta días y noches."
       },
       {
-        "text": "Intenta sacar a extraños del agua",
-        "feedback": "La puerta está sellada. No hay nada que hacer."
+        "text": "Solo cae una ligera llovizna",
+        "feedback": "El Génesis describe cómo irrumpieron las fuentes del gran abismo y se abrieron las ventanas de los cielos."
       }
     ]
   },
   "inside": {
-    "title": "Cuarenta Días",
-    "text": "El arca se mece. Los animales respiran.\nLos días se confunden. Solo el crujido de la madera permanece.",
+    "title": "Sobre las aguas",
+    "text": "El arca flota sobre las profundidades.\n¿Cuánto tiempo prevalecen las aguas sobre la tierra?",
     "choices": [
       {
-        "text": "Cuida a las criaturas con esmero",
-        "feedback": "Génesis 7:24 — Noé cuidó a su familia y a los animales durante 150 días sobre las aguas."
+        "text": "Las aguas inundan la tierra durante ciento cincuenta días",
+        "feedback": "Génesis 7:24 — Las aguas inundaron la tierra durante ciento cincuenta días."
       },
       {
-        "text": "Siéntate solo y deja que la desesperación crezca",
-        "feedback": "El silencio te oprime. La fe se atenúa."
+        "text": "Las aguas retroceden en tres días",
+        "feedback": "El Génesis dice que las aguas prevalecieron 150 días antes de retroceder."
+      },
+      {
+        "text": "Diriges el arca de vuelta hacia el Edén",
+        "feedback": "El Génesis no describe a Noé dirigiendo el arca; Dios la mantuvo a flote."
       }
     ]
   },
   "dove": {
-    "title": "La Paloma Regresa",
-    "text": "Sueltas una paloma. Pasan las horas.\nRegresa — una hoja de olivo en su pico.",
+    "title": "La paloma regresa",
+    "text": "Las aguas comienzan a retroceder.\n¿Cómo sabes que la tierra seca está cerca?",
     "choices": [
       {
-        "text": "Duda — quizás una rama extraviada",
-        "feedback": "Incluso ahora, la duda lucha por retenerte."
+        "text": "Envía una paloma; regresa con una hoja de olivo fresca",
+        "feedback": "Génesis 8:11 — La paloma regresó a Noé por la tarde con una hoja de olivo recién arrancada."
       },
       {
-        "text": "Llora — la vida aún crece",
-        "feedback": "Génesis 8:11 — La paloma volvió con una hoja de olivo — señal de vida nueva."
+        "text": "Envía un cuervo que regresa con grano",
+        "feedback": "El Génesis dice que la paloma —no el cuervo— trajo una hoja de olivo."
+      },
+      {
+        "text": "Abre el techo y mira solo con tus propios ojos",
+        "feedback": "El Génesis dice que Noé envió pájaros para comprobar si las aguas habían bajado."
       }
     ]
   },
   "dry_land": {
-    "title": "Tierra Bajo Tus Pies",
-    "text": "La puerta se abre. El sol se derrama.\nPisas barro cálido y vivo.",
+    "title": "Tierra bajo tus pies",
+    "text": "El Señor te dice que salgas del arca.\n¿Qué haces primero en tierra seca?",
     "choices": [
       {
-        "text": "Corre a reclamar la nueva tierra",
-        "feedback": "La tierra nunca fue tuya para reclamar."
+        "text": "Construye un altar al Señor y ofrece sacrificios",
+        "feedback": "Génesis 8:20 — Noé construyó un altar al Señor y ofreció holocaustos sobre él."
       },
       {
-        "text": "Arrodíllate y construye un altar a Dios",
-        "feedback": "Génesis 8:20 — El primer acto de Noé en tierra seca fue edificar un altar al Señor."
+        "text": "Empieza a construir una gran torre de inmediato",
+        "feedback": "El Génesis dice que el primer acto de Noé fue construir un altar, no una torre."
+      },
+      {
+        "text": "Te niegas a salir del arca",
+        "feedback": "El Génesis dice que Noé salió del arca cuando Dios se lo mandó."
       }
     ]
   },
   "covenant": {
-    "title": "El Arcoíris",
-    "text": "Un arcoíris se extiende por el cielo.\n\"Nunca más. Este es mi pacto contigo.\"",
+    "title": "El arcoíris",
+    "text": "Un arcoíris se extiende por el cielo.\n«Nunca más volveré a inundar la tierra. Este es mi pacto contigo.»",
     "choices": []
   }
 }

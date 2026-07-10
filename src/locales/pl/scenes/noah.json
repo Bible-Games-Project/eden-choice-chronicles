@@ -1,160 +1,188 @@
 {
-  "storyTitle": "Noe i Potop",
+  "storyTitle": "Noe i potop",
   "start": {
-    "title": "Głos z Wysokości",
-    "text": "Głos wypełnia niebo.\n„Noe – zbuduj arkę. Nadchodzi potop”.",
+    "title": "Głos z wysoka",
+    "text": "Bóg przemawia do ciebie.\n„Zbuduj sobie arkę. Nadchodzi potop.”",
     "choices": [
       {
-        "text": "Wątpisz — to nie może być prawda",
-        "feedback": "Głos cichnie. Ale ciężar w twojej piersi pozostaje."
+        "text": "Przyjmij Boże polecenie, aby zbudować arkę z drewna cyprysowego",
+        "feedback": "Księga Rodzaju 6:14, 22 — Bóg powiedział Noemu, aby zbudował arkę z drewna cyprysowego, a Noe uczynił wszystko tak, jak Bóg mu rozkazał."
       },
       {
-        "text": "„Oto ja. Będę posłuszny.”",
-        "feedback": "Rodzaju 6:22 — Noe uczynił wszystko tak, jak Bóg mu rozkazał."
+        "text": "Odmów poleceniu i ucieknij z ziemi",
+        "feedback": "Księga Rodzaju mówi, że Noe był posłuszny Bogu; nie uciekł."
       },
       {
-        "text": "Zapytaj, dlaczego zostałeś wybrany",
-        "feedback": "Nie ma odpowiedzi. Pozostaje tylko rozkaz."
+        "text": "Kup istniejący statek od kupca",
+        "feedback": "Księga Rodzaju mówi, że Noe sam zbudował arkę, tak jak Bóg mu nakazał."
       }
     ]
   },
   "mockery": {
-    "title": "Głosy Tłumu",
-    "text": "Wieśniacy zbierają się, śmiejąc.\n„Łódź? Tutaj? Jesteś szalony, starcze”.",
+    "title": "Obserwujący świat",
+    "text": "Świat wokół ciebie jest zepsuty i pełen przemocy.\nObserwują, jak budujesz. Jak reagujesz?",
     "choices": [
       {
-        "text": "Odkrzyknij ze złością",
-        "feedback": "Twoje słowa tylko podsycają ich drwiny."
+        "text": "Kontynuuj budowę arki z wiarą",
+        "feedback": "List do Hebrajczyków 11:7 — Przez wiarę Noe zbudował arkę z bojaźnią, choć ostrzeżono go o rzeczach jeszcze niewidzianych."
       },
       {
-        "text": "Milcz i pracuj dalej",
-        "feedback": "Hebrajczyków 11:7 — Przez wiarę Noe budował arkę pomimo drwin świata."
+        "text": "Porzuć arkę, aby zadowolić tłum",
+        "feedback": "Pismo Święte mówi, że Noe kontynuował budowę z wiarą."
       },
       {
-        "text": "Błagaj ich, by uwierzyli",
-        "feedback": "Odwracają się plecami. Jesteś sam w wierze."
+        "text": "Zaatakuj szyderców, aby ich uciszyć",
+        "feedback": "Pismo Święte nie opisuje, aby Noe kogokolwiek atakował."
       }
     ]
   },
   "building": {
-    "title": "Cyprys i Smoła",
-    "text": "Lata potu. Drewno pęka. Smoła uszczelnia.\nBolą cię plecy, ale arka się wznosi.",
+    "title": "Cyprys i smoła",
+    "text": "Zbierasz materiały, które nakazał Bóg.\nJak budujesz arkę?",
     "choices": [
       {
-        "text": "Odpocznij chwilę, praca jest niekończąca się",
-        "feedback": "Wątpliwość wkrada się wraz z ciszą."
+        "text": "Zbuduj ją z drewna cyprysowego, pokrytą smołą wewnątrz i na zewnątrz",
+        "feedback": "Księga Rodzaju 6:14 — Zrób sobie arkę z drewna cyprysowego; pokryj ją smołą wewnątrz i na zewnątrz."
       },
       {
-        "text": "Naciskaj — Bóg tak rozkazał",
-        "feedback": "Rodzaju 6:14-16 — Noe zbudował arkę z drewna cyprysowego zgodnie z poleceniem Boga."
+        "text": "Zbuduj ją z ciosanego kamienia",
+        "feedback": "Księga Rodzaju mówi, że arka była zbudowana z drewna cyprysowego, a nie z kamienia."
+      },
+      {
+        "text": "Upleć ją z trzciny jak kosz",
+        "feedback": "Księga Rodzaju mówi, że arka była wykonana z drewna cyprysowego, uszczelniona smołą."
       }
     ]
   },
   "ark_done": {
-    "title": "Stoi Ukończona",
-    "text": "Arka góruje nad tobą.\nTwoja rodzina zbiera się, milcząc przed drewnem.",
+    "title": "Stoi ukończona",
+    "text": "Arka jest ukończona, dokładnie tak, jak nakazał Bóg.\nJak wygląda?",
     "choices": [
       {
-        "text": "Chwal się przed tłumem gapiów",
-        "feedback": "Pycha zatruwa pracę. Łapiesz się na tym."
+        "text": "300 łokci długości, 50 szerokości, 30 wysokości, z trzema pokładami",
+        "feedback": "Księga Rodzaju 6:15-16 — Arka miała 300 łokci długości, 50 szerokości, 30 wysokości, z trzema pokładami."
       },
       {
-        "text": "Dziękuj Bogu za daną siłę",
-        "feedback": "Rodzaju 6:9 — Noe chodził z Bogiem i dziękował Mu za każdy krok."
+        "text": "Mała okrągła łódź z jednym pokładem",
+        "feedback": "Księga Rodzaju podaje konkretne wymiary; arka nie była małą okrągłą łodzią."
+      },
+      {
+        "text": "Tratwa, płaska i otwarta na niebo",
+        "feedback": "Księga Rodzaju mówi, że arka miała dach, trzy pokłady i drzwi w boku."
       }
     ]
   },
   "animals": {
-    "title": "Dwa po Dwa",
-    "text": "Stworzenia przybywają z każdej krainy.\nLwy obok jagniąt. Orły u twoich stóp.",
+    "title": "Nadchodzą stworzenia",
+    "text": "Zwierzęta przybywają do arki.\nKogo zabierasz na pokład?",
     "choices": [
       {
-        "text": "Odegnać niebezpiecznych",
-        "feedback": "Strach cię zaślepia. Bóg posłał każdego."
+        "text": "Zabierz pary każdego rodzaju zwierząt, samca i samicę",
+        "feedback": "Księga Rodzaju 7:8-9 — Pary zwierząt czystych i nieczystych, ptaków i płazów przyszły do Noego, samiec i samica."
       },
       {
-        "text": "Delikatnie witaj każdą parę",
-        "feedback": "Rodzaju 7:8-9 — Zwierzęta przyszły do Noego parami, a on je przyjął."
+        "text": "Zabierz tylko owce i kozy",
+        "feedback": "Księga Rodzaju mówi, że przyszły wszystkie rodzaje zwierząt, a nie tylko owce i kozy."
+      },
+      {
+        "text": "Nie zabieraj żadnych zwierząt — tylko swoją rodzinę",
+        "feedback": "Księga Rodzaju mówi, że zwierzęta weszły do arki z Noem."
       }
     ]
   },
   "boarding": {
-    "title": "Drzwi Się Zamykają",
-    "text": "Twoja rodzina jest w środku. Zwierzęta się uspokajają.\nSam Bóg zamyka drzwi.",
+    "title": "Drzwi zamknięte",
+    "text": "Nadszedł czas, aby wejść do arki.\nKto wchodzi, a kto zamyka drzwi?",
     "choices": [
       {
-        "text": "Wybiegnij z powrotem, by ich ponownie ostrzec",
-        "feedback": "Drzwi są zapieczętowane. Wybór został dokonany."
+        "text": "Wejdź z żoną, trzema synami i ich żonami; Pan zamyka drzwi",
+        "feedback": "Księga Rodzaju 7:13, 16 — Noe, jego żona, jego trzej synowie i ich żony weszli do arki, a Pan zamknął za nim."
       },
       {
-        "text": "Trzymaj żonę za rękę i czekaj",
-        "feedback": "Rodzaju 7:16 — Sam Pan zamknął drzwi arki za Noem."
+        "text": "Wejdź do arki sam, zostawiając rodzinę",
+        "feedback": "Księga Rodzaju mówi, że całe domostwo Noego weszło z nim do arki."
+      },
+      {
+        "text": "Pozostań na zewnątrz i zamknij drzwi od zewnątrz",
+        "feedback": "Księga Rodzaju mówi, że sam Pan zamknął Noego w arce."
       }
     ]
   },
   "storm": {
-    "title": "Niebo Się Otwiera",
-    "text": "Deszcz uderza jak nigdy dotąd.\nGłębia wybucha. Świat tonie.",
+    "title": "Czterdzieści dni deszczu",
+    "text": "Otwierają się okna nieba.\nCo się dzieje?",
     "choices": [
       {
-        "text": "Przeklinaj niebo w przerażeniu",
-        "feedback": "Dźwięk pochłania twój krzyk."
+        "text": "Deszcz pada na ziemię przez czterdzieści dni i czterdzieści nocy",
+        "feedback": "Księga Rodzaju 7:12 — Deszcz padał na ziemię przez czterdzieści dni i czterdzieści nocy."
       },
       {
-        "text": "Ufaj, że Bóg jest sprawiedliwy i miłosierny",
-        "feedback": "Rodzaju 7:23 — Noe zaufał Bogu, gdy potop okrył ziemię."
+        "text": "Pojedyncza burza mija w jeden dzień",
+        "feedback": "Księga Rodzaju mówi, że deszcz padał przez czterdzieści dni i nocy."
       },
       {
-        "text": "Spróbuj wyciągnąć obcych z wody",
-        "feedback": "Drzwi są zapieczętowane. Nic nie da się zrobić."
+        "text": "Pada tylko lekka mżawka",
+        "feedback": "Księga Rodzaju opisuje, jak wybuchły źródła wielkiej otchłani i otworzyły się okna niebios."
       }
     ]
   },
   "inside": {
-    "title": "Czterdzieści Dni",
-    "text": "Arka kołysze się. Zwierzęta oddychają.\nDni zacierają się. Pozostaje tylko skrzypienie drewna.",
+    "title": "Na wodach",
+    "text": "Arka unosi się na głębinach.\nJak długo wody panują na ziemi?",
     "choices": [
       {
-        "text": "Opiekuj się stworzeniami z troską",
-        "feedback": "Rodzaju 7:24 — Noe opiekował się rodziną i zwierzętami przez 150 dni na wodach."
+        "text": "Wody zalewają ziemię przez sto pięćdziesiąt dni",
+        "feedback": "Księga Rodzaju 7:24 — Wody zalewały ziemię przez sto pięćdziesiąt dni."
       },
       {
-        "text": "Usiądź sam i pozwól rozpaczy rosnąć",
-        "feedback": "Cisza cię przytłacza. Wiara gaśnie."
+        "text": "Wody ustępują w ciągu trzech dni",
+        "feedback": "Księga Rodzaju mówi, że wody panowały przez 150 dni, zanim ustąpiły."
+      },
+      {
+        "text": "Kierujesz arkę z powrotem w stronę Edenu",
+        "feedback": "Księga Rodzaju nie opisuje Noego kierującego arką; Bóg utrzymywał ją na powierzchni."
       }
     ]
   },
   "dove": {
-    "title": "Gołębica Wraca",
-    "text": "Wypuszczasz gołębicę. Mijają godziny.\nWraca – z liściem oliwnym w dziobie.",
+    "title": "Gołębica wraca",
+    "text": "Wody zaczynają opadać.\nSkąd wiesz, że suchy ląd jest blisko?",
     "choices": [
       {
-        "text": "Wątpliwość — może zabłąkana gałąź",
-        "feedback": "Nawet teraz wątpliwość walczy, by cię zatrzymać."
+        "text": "Wyślij gołębia; wraca ze świeżym liściem oliwnym",
+        "feedback": "Księga Rodzaju 8:11 — Gołąb wrócił do Noego wieczorem ze świeżo zerwanym liściem oliwnym."
       },
       {
-        "text": "Płacz — życie wciąż rośnie",
-        "feedback": "Rodzaju 8:11 — Gołębica wróciła z listkiem oliwnym — znakiem nowego życia."
+        "text": "Wyślij kruka, który wraca z ziarnem",
+        "feedback": "Księga Rodzaju mówi, że to gołąb — a nie kruk — przyniósł liść oliwny."
+      },
+      {
+        "text": "Otwórz dach i patrz tylko własnymi oczami",
+        "feedback": "Księga Rodzaju mówi, że Noe wysłał ptaki, aby sprawdzić, czy wody opadły."
       }
     ]
   },
   "dry_land": {
-    "title": "Ziemia Pod Stopami",
-    "text": "Drzwi się otwierają. Słońce wpada do środka.\nWychodzisz na ciepłe, żywe błoto.",
+    "title": "Ziemia pod twoimi stopami",
+    "text": "Pan każe ci wyjść z arki.\nCo robisz najpierw na suchym lądzie?",
     "choices": [
       {
-        "text": "Pospiesz się, by zająć nową ziemię",
-        "feedback": "Ziemia nigdy nie była twoja do zajęcia."
+        "text": "Zbuduj ołtarz Panu i złóż ofiary",
+        "feedback": "Księga Rodzaju 8:20 — Noe zbudował ołtarz Panu i złożył na nim ofiary całopalne."
       },
       {
-        "text": "Uklęknij i zbuduj ołtarz Bogu",
-        "feedback": "Rodzaju 8:20 — Pierwszym czynem Noego na suchym lądzie było zbudowanie ołtarza Panu."
+        "text": "Zacznij od razu budować wielką wieżę",
+        "feedback": "Księga Rodzaju mówi, że pierwszym czynem Noego było zbudowanie ołtarza, a nie wieży."
+      },
+      {
+        "text": "Odmów opuszczenia arki",
+        "feedback": "Księga Rodzaju mówi, że Noe wyszedł z arki, gdy Bóg mu kazał."
       }
     ]
   },
   "covenant": {
     "title": "Tęcza",
-    "text": "Tęcza rozciąga się na niebie.\n„Nigdy więcej. To jest moje przymierze z tobą”.",
+    "text": "Tęcza rozciąga się na niebie.\n„Nigdy więcej nie zatopię ziemi. To jest moje przymierze z tobą.”",
     "choices": []
   }
 }

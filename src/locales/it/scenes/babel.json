@@ -1,164 +1,188 @@
 {
   "storyTitle": "La Torre di Babele",
   "start": {
-    "title": "La pianura di Sinar",
-    "text": "Una vasta pianura verde si estende davanti.\nTutta l'umanità si è radunata qui — un popolo, una lingua.",
+    "title": "Un'unica Lingua",
+    "text": "Tutta la terra ha un'unica lingua e un linguaggio comune.\nDove si stabilisce la gente?",
     "choices": [
       {
-        "text": "Stabilisciti e costruisci una casa",
-        "feedback": "Affondi le radici nella terra. Ti sembra giusto."
+        "text": "Stabilitevi nella pianura di Shinar",
+        "feedback": "Genesi 11:2 — Mentre si muovevano verso est, trovarono una pianura nel paese di Shinar e vi si stabilirono."
       },
       {
-        "text": "Sogna qualcosa di più grande",
-        "feedback": "Genesi 11:2 — Gli uomini si stabilirono nella pianura di Sinar sognando la grandezza."
+        "text": "Naviga verso est attraverso un grande mare",
+        "feedback": "La Genesi dice che il popolo si stabilì nella pianura di Shinar."
+      },
+      {
+        "text": "Disperdetevi subito sulla terra",
+        "feedback": "Il popolo non si disperse ancora — ciò avvenne più tardi, come giudizio."
       }
     ]
   },
   "unity": {
-    "title": "Una lingua",
-    "text": "Le voci si fondono. Le risate si levano.\nNon c'è parola che tu non possa capire.",
+    "title": "Un Linguaggio Comune",
+    "text": "Guardi i tuoi vicini.\nCome parlate tutti?",
     "choices": [
       {
-        "text": "Loda Dio per il dono dell'unità",
-        "feedback": "Alzi la voce in ringraziamento. Altri chinano il capo."
+        "text": "Parlate tutti la stessa lingua, un linguaggio comune",
+        "feedback": "Genesi 11:1 — Tutta la terra parlava la stessa lingua e usava le stesse parole."
       },
       {
-        "text": "Vantati di ciò che potremmo ottenere",
-        "feedback": "Genesi 11:4 — Dissero: «Facciamoci un nome»."
+        "text": "Ogni famiglia parla una lingua diversa",
+        "feedback": "La Genesi dice che a questo punto tutti parlavano una sola lingua."
       },
       {
-        "text": "Rimani in silenzio — ascolta gli anziani",
-        "feedback": "Voci sagge parlano dolcemente. Altri gridano più forte."
+        "text": "Nessuno parla affatto",
+        "feedback": "La Genesi dice che il popolo parlava — con un linguaggio comune."
       }
     ]
   },
   "proposal": {
-    "title": "La grande idea",
-    "text": "Un anziano si alza. «Costruiamo una torre — la sua cima nei cieli».\n«Facciamoci un nome.»",
+    "title": "La Proposta",
+    "text": "Il popolo si raduna.\nCosa propongono di costruire?",
     "choices": [
       {
-        "text": "Esulta — unisciti alla grande opera",
-        "feedback": "Genesi 11:3-4 — Il popolo si unì per costruire una città e una grande torre."
+        "text": "'Costruiamoci una città e una torre che raggiunga i cieli — e facciamoci un nome'",
+        "feedback": "Genesi 11:4 — Dissero: «Venite, costruiamoci una città e una torre la cui cima tocchi il cielo, e facciamoci un nome»."
       },
       {
-        "text": "Parla contro — questo è orgoglio",
-        "feedback": "Pochi ti ascoltano. Ma le parole sono pronunciate."
+        "text": "'Costruiamo un altare al Signore'",
+        "feedback": "La Genesi dice che costruirono una città e una torre per farsi un nome, non un altare."
       },
       {
-        "text": "Aspetta — lascia che gli altri decidano",
-        "feedback": "Il silenzio è la sua stessa risposta. Il voto passa."
+        "text": "'Torniamo indietro e viaggiamo da soli'",
+        "feedback": "La Genesi dice che il popolo rimase unito per costruire."
       }
     ]
   },
   "bricks": {
-    "title": "Mattoni e catrame",
-    "text": "Modelli argilla umida in mattoni.\nSono più forti della pietra. Raggiungeranno il cielo.",
+    "title": "Mattoni e Catrame",
+    "text": "Raccogli i materiali per la grande opera.\nCome costruisci?",
     "choices": [
       {
-        "text": "Lavora per amore dell'arte",
-        "feedback": "Genesi 11:3 — Fecero mattoni e usarono bitume come malta per la torre."
+        "text": "Fabbricate mattoni e cuoceteli bene, usando il bitume come malta",
+        "feedback": "Genesi 11:3 — Dissero: «Venite, facciamo dei mattoni e cuociamoli bene». Usarono mattoni invece di pietre e bitume invece di malta."
       },
       {
-        "text": "Gareggia con gli altri — superali",
-        "feedback": "La tua velocità si trasforma in imprudenza. I mattoni si crepano."
+        "text": "Tagliate pietre dalle montagne",
+        "feedback": "La Genesi dice che usarono mattoni e bitume, non pietre tagliate."
+      },
+      {
+        "text": "Intrecciate la torre con canne",
+        "feedback": "La Genesi dice che usarono mattoni cotti e bitume."
       }
     ]
   },
   "construction": {
-    "title": "I primi piani",
-    "text": "Le mura si ergono. La torre proietta una lunga ombra.\nGli uomini cantano mentre sollevano ogni trave.",
+    "title": "La Città e la Torre",
+    "text": "Il lavoro inizia.\nCosa costruite insieme?",
     "choices": [
       {
-        "text": "Vantati — \"Non abbiamo più bisogno di Dio\"",
-        "feedback": "Genesi 11:4 — Si vantarono, cercando una torre la cui cima toccasse il cielo."
+        "text": "Costruisci una città e una torre con la sua cima nei cieli",
+        "feedback": "Genesi 11:4-5 — Si misero a costruire una città e una torre con la sua cima nei cieli."
       },
       {
-        "text": "Lavora in silenzio — recita una preghiera",
-        "feedback": "Nessuno sente. Ma la preghiera è ascoltata dall'alto."
+        "text": "Costruisci case separate lontane l'una dall'altra",
+        "feedback": "La Genesi dice che costruirono insieme una città, non case sparse."
+      },
+      {
+        "text": "Costruisci un ponte attraverso il mare",
+        "feedback": "La Genesi dice che costruirono una città e una torre, non un ponte."
       }
     ]
   },
   "rising": {
-    "title": "Più in alto",
-    "text": "Anno dopo anno. Pietra su pietra.\nLa torre trafigge le nuvole.",
+    "title": "Sempre Più in Alto",
+    "text": "La torre si innalza verso il cielo.\nPerché il popolo continua a costruire?",
     "choices": [
       {
-        "text": "Dubita — dovremmo fermarci?",
-        "feedback": "Lo sussurri. Il vento porta via le parole."
+        "text": "Per farsi un nome, affinché non siano dispersi sulla terra",
+        "feedback": "Genesi 11:4 — «Facciamoci un nome, affinché non siamo dispersi su tutta la faccia della terra»."
       },
       {
-        "text": "Sali più in alto — non c'è limite",
-        "feedback": "Genesi 11:4-5 — La torre si innalzò nell'orgoglio finché il Signore discese a vederla."
+        "text": "Per onorare il Signore che ha fatto i cieli",
+        "feedback": "La Genesi dice che costruirono per farsi un nome, non per onorare il Signore."
       },
       {
-        "text": "Chiedi agli operai di andare più veloci",
-        "feedback": "Gli animi si scaldano. Le mani sanguinano. La torre sale."
+        "text": "Per nascondersi da un'imminente alluvione",
+        "feedback": "Dio aveva già promesso di non inondare mai più la terra (Genesi 9)."
       }
     ]
   },
   "summit": {
-    "title": "Toccando il cielo",
-    "text": "Stai in cima. La terra è piccola sotto.\nI cieli sembrano vicini — quasi a portata di mano.",
+    "title": "Il Signore Scende",
+    "text": "La torre si innalza. Cosa succede dopo?",
     "choices": [
       {
-        "text": "Allunga la mano verso l'alto — reclama il cielo",
-        "feedback": "Genesi 11:4 — La loro superbia si slanciava in alto per farsi un nome."
+        "text": "Il Signore scende a vedere la città e la torre",
+        "feedback": "Genesi 11:5 — Il Signore scese a vedere la città e la torre che i figli degli uomini stavano costruendo."
       },
       {
-        "text": "Inginocchiati — sentiti improvvisamente piccolo",
-        "feedback": "La vastità sopra inghiotte il tuo orgoglio."
+        "text": "La torre raggiunge il cielo e il popolo vi entra",
+        "feedback": "La Genesi non dice che la torre raggiunse il cielo; il Signore scese a vederla."
+      },
+      {
+        "text": "Gli angeli scendono per aiutare i lavoratori a costruire",
+        "feedback": "La Genesi non descrive angeli che aiutano a costruire."
       }
     ]
   },
   "gods_gaze": {
-    "title": "Egli Discende",
-    "text": "Una voce riempie l'aria, calma come un tuono.\n\"Essi sono un solo popolo. Nulla sarà loro impossibile.\"",
+    "title": "La Decisione del Signore",
+    "text": "Il Signore parla del popolo.\nCosa decide di fare?",
     "choices": [
       {
-        "text": "Rimani impavido davanti alla voce",
-        "feedback": "Genesi 11:6-7 — Dio vide la loro superbia e decise di confondere la loro lingua."
+        "text": "'Venite, scendiamo e confondiamo la loro lingua'",
+        "feedback": "Genesi 11:6-7 — Il Signore disse: «Ecco, sono un solo popolo e hanno tutti una sola lingua; questo è l'inizio della loro opera; ora nulla impedirà loro di fare ciò che si propongono. Venite, scendiamo e confondiamo la loro lingua, affinché l'uno non comprenda il parlare dell'altro»."
       },
       {
-        "text": "Inchinate il capo con timore e riverenza",
-        "feedback": "Le tue ginocchia cedono. La presenza è ovunque."
+        "text": "'Lodiamo la loro grande opera'",
+        "feedback": "La Genesi dice che il Signore confuse la loro lingua, non che lodò la torre."
+      },
+      {
+        "text": "'Distruggiamo la torre con il fuoco'",
+        "feedback": "La Genesi dice che il Signore confuse la loro lingua e li disperse, non che distrusse la torre con il fuoco."
       }
     ]
   },
   "confusion": {
     "title": "Strane Parole",
-    "text": "Chiami il tuo amico. Ti fissa.\nLa sua bocca si apre — ma i suoni non hanno senso.",
+    "text": "Ti volti verso il tuo vicino e parli.\nCosa succede?",
     "choices": [
       {
-        "text": "Costringilo a capire — grida più forte",
-        "feedback": "La rabbia non fa che approfondire il vuoto tra voi."
+        "text": "Non potete più capire il parlare l'uno dell'altro",
+        "feedback": "Genesi 11:7 — Il Signore confuse la loro lingua, affinché l'uno non comprendesse il parlare dell'altro."
       },
       {
-        "text": "Fatti indietro — accetta ciò che Dio ha fatto",
-        "feedback": "Genesi 11:7 — Dio confuse la loro lingua perché non si comprendessero più."
+        "text": "Tutti parlano improvvisamente in modo ancora più chiaro",
+        "feedback": "La Genesi dice che il loro linguaggio fu confuso, non reso più chiaro."
       },
       {
-        "text": "Incolpa gli anziani — inizia una rissa",
-        "feedback": "I pugni volano. La torre sanguina uomini invece di malta."
+        "text": "Tutti tacciono e non parlano mai più",
+        "feedback": "La Genesi dice che le lingue furono confuse, non che la parola cessò."
       }
     ]
   },
   "scattering": {
-    "title": "Partenza",
-    "text": "Le famiglie raccolgono ciò che possono.\nOgni gruppo cammina verso un orizzonte diverso.",
+    "title": "Dispersi sulla Terra",
+    "text": "La costruzione si ferma.\nCosa succede al popolo?",
     "choices": [
       {
-        "text": "Maledici i cieli mentre te ne vai",
-        "feedback": "L'amarezza è un peso pesante da portare."
+        "text": "Il Signore li disperde di là su tutta la terra, e smettono di costruire la città",
+        "feedback": "Genesi 11:8 — Il Signore li disperse di là su tutta la terra, e smisero di costruire la città."
       },
       {
-        "text": "Cammina in silenzio, lezione nel cuore",
-        "feedback": "Genesi 11:8 — Il Signore li disperse di là su tutta la terra."
+        "text": "Il popolo rimane a Sinar e finisce la torre",
+        "feedback": "La Genesi dice che smisero di costruire e furono dispersi."
+      },
+      {
+        "text": "Il popolo torna in barca all'Eden",
+        "feedback": "La Genesi dice che furono dispersi su tutta la terra, non che tornarono all'Eden."
       }
     ]
   },
   "reflection": {
-    "title": "Una Nuova Terra",
-    "text": "Ti fermi su una cresta silenziosa.\nLa torre è lontana — un ricordo di orgoglio.",
+    "title": "Babele",
+    "text": "Per questo la città fu chiamata Babele —\nperché là il Signore confuse la lingua di tutto il mondo.",
     "choices": []
   }
 }

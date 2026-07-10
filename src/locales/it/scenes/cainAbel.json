@@ -1,176 +1,188 @@
 {
   "storyTitle": "Caino e Abele",
   "start": {
-    "title": "Figli della Terra",
-    "text": "Tu sei Caino, primogenito di Adamo.\nTuo fratello Abele cammina al tuo fianco all'alba.",
+    "title": "Figli di Adamo",
+    "text": "Apri gli occhi come il primogenito di Adamo ed Eva.\nUn secondo figlio, Abele, nasce dopo di te.",
     "choices": [
       {
-        "text": "Salutalo con amore fraterno",
-        "feedback": "Genesi 4:1-2 — Caino e Abele furono i primi fratelli, figli di Adamo ed Eva."
+        "text": "Vivi come il primogenito di Adamo ed Eva",
+        "feedback": "Genesi 4:1-2 — Eva diede alla luce Caino, e poi suo fratello Abele."
       },
       {
-        "text": "Confrontati con lui in silenzio",
-        "feedback": "Un'amarezza silenziosa mette radici."
+        "text": "Nascere prima di Adamo ed Eva",
+        "feedback": "La Genesi dice che Adamo ed Eva vennero prima; Caino era loro figlio."
       },
       {
-        "text": "Cammina avanti senza di lui",
-        "feedback": "Lui ti chiama per nome. Tu non ti volti."
+        "text": "Crescere come figlio unico",
+        "feedback": "La Genesi dice che Caino aveva un fratello, Abele."
       }
     ]
   },
   "fields": {
-    "title": "Il Coltivatore della Terra",
-    "text": "La terra resiste alla tua zappa.\nSudore. Pietre. Le lunghe ore di lavoro.",
+    "title": "Il Tuo Lavoro",
+    "text": "Gli anni passano. Ogni fratello trova il suo lavoro.\nQual è il tuo?",
     "choices": [
       {
-        "text": "Lavora con pazienza e cura",
-        "feedback": "Genesi 4:2 — Caino lavorava la terra mentre Abele pascolava le pecore."
+        "text": "Lavora la terra come agricoltore",
+        "feedback": "Genesi 4:2 — Caino lavorava la terra."
       },
       {
-        "text": "Maledici la terra mentre scavi",
-        "feedback": "Ogni colpo diventa più rabbioso del precedente."
+        "text": "Custodisci greggi di pecore come Abele",
+        "feedback": "La Genesi dice che Abele custodiva greggi; Caino lavorava la terra."
+      },
+      {
+        "text": "Rifiutati di lavorare del tutto",
+        "feedback": "La Genesi dice che Caino lavorava la terra."
       }
     ]
   },
   "abel_pasture": {
-    "title": "Il Gregge di Tuo Fratello",
-    "text": "Abele riposa tra le sue pecore, contento.\nUn agnello appena nato dorme sul suo petto.",
+    "title": "Il Lavoro di Tuo Fratello",
+    "text": "Vedi Abele dall'altra parte del campo.\nCosa sta facendo?",
     "choices": [
       {
-        "text": "Sii contento del suo dolce lavoro",
-        "feedback": "Il calore sale dove l'invidia avrebbe potuto crescere."
+        "text": "Vedi Abele che custodisce greggi di pecore",
+        "feedback": "Genesi 4:2 — Abele custodiva greggi."
       },
       {
-        "text": "Risentiti che il suo lavoro sembri facile",
-        "feedback": "Genesi 4:5 — Caino divenne invidioso e triste quando Dio guardò con favore Abele."
+        "text": "Vedi Abele che lavora la terra accanto a te",
+        "feedback": "La Genesi dice che Abele custodiva greggi, non che lavorava la terra."
       },
       {
-        "text": "Deridilo sottovoce",
-        "feedback": "Le tue parole rimangono silenziose, ma pungono la tua stessa anima."
+        "text": "Vedi Abele che pesca al fiume",
+        "feedback": "La Genesi non descrive Abele che pesca."
       }
     ]
   },
   "offerings": {
     "title": "Davanti all'Altare",
-    "text": "È tempo di portare un'offerta al Signore.\nCosa offrirai?",
+    "text": "Arriva il momento di portare un'offerta al Signore.\nCosa porterai?",
     "choices": [
       {
-        "text": "Porta le tue migliori primizie",
-        "feedback": "Scegli il grano più fine. Il tuo cuore è aperto."
+        "text": "Porta alcuni frutti della terra come offerta",
+        "feedback": "Genesi 4:3 — Caino portò alcuni frutti della terra come offerta al Signore."
       },
       {
-        "text": "Porta ciò che è rimasto",
-        "feedback": "Genesi 4:3 — Caino portò alcuni frutti del suolo, non i migliori."
+        "text": "Porta un agnello primogenito dal tuo gregge",
+        "feedback": "La Genesi dice che Abele portò un agnello; Caino portò frutti della terra."
       },
       {
-        "text": "Non portare nulla — te lo sei guadagnato",
-        "feedback": "Mani vuote. Un cuore più duro e orgoglioso."
+        "text": "Non portare nulla",
+        "feedback": "La Genesi dice che Caino portò un'offerta, anche se non la migliore."
       }
     ]
   },
   "accepted": {
-    "title": "Il Favore del Signore",
-    "text": "Il Signore riceve con gioia l'agnello di Abele.\nLa tua offerta — Egli non la considera.",
+    "title": "Lo Sguardo del Signore",
+    "text": "Aspetti mentre il Signore guarda le due offerte.\nCosa succede?",
     "choices": [
       {
-        "text": "Esaminati davanti a Dio",
-        "feedback": "Tu chiedi perché. La risposta è già in te."
+        "text": "Il Signore guarda con favore Abele e la sua offerta, ma non la tua",
+        "feedback": "Genesi 4:4-5 — Il Signore guardò con favore Abele e la sua offerta, ma su Caino e la sua offerta non guardò con favore."
       },
       {
-        "text": "Brucia di rabbia contro Abele",
-        "feedback": "Genesi 4:5 — Caino si adirò molto quando la sua offerta non fu accolta."
+        "text": "Il Signore favorisce entrambe le offerte in egual modo",
+        "feedback": "La Genesi dice che il Signore favorì l'offerta di Abele, non entrambe."
       },
       {
-        "text": "Accusa Dio di ingiustizia",
-        "feedback": "Il tuo pugno si alza. Il cielo non risponde."
+        "text": "Il Signore accetta la tua offerta e rifiuta quella di Abele",
+        "feedback": "La Genesi dice il contrario — il Signore favorì l'offerta di Abele."
       }
     ]
   },
   "anger": {
-    "title": "Perché Sei Arrabbiato?",
-    "text": "Il tuo volto si oscura. Le tue mani tremano.\nIl Signore chiede: \"Perché sei arrabbiato?\"",
+    "title": "Il Tuo Volto Cade",
+    "text": "L'offerta è finita. Qualcosa sorge in te.\nCome reagisci?",
     "choices": [
       {
-        "text": "Deponi la tua rabbia davanti a Lui",
-        "feedback": "Il fuoco inizia a raffreddarsi. L'onestà apre un sentiero."
+        "text": "Diventa molto arrabbiato, con il volto abbattuto",
+        "feedback": "Genesi 4:5 — Caino fu molto arrabbiato, e il suo volto era abbattuto."
       },
       {
-        "text": "Rifiuta di rispondere — voltati",
-        "feedback": "Genesi 4:5-6 — Caino distolse il volto e rifiutò di rispondere a Dio."
+        "text": "Rallegrati con Abele per la sua offerta accettata",
+        "feedback": "La Genesi dice che Caino si arrabbiò, non che si rallegrò."
+      },
+      {
+        "text": "Porta un'offerta migliore il giorno dopo",
+        "feedback": "La Genesi non descrive Caino che porta una seconda offerta."
       }
     ]
   },
   "warning": {
-    "title": "Il Peccato è Accovacciato alla Porta",
-    "text": "\"Il peccato è accovacciato alla tua porta.\nIl suo desiderio è per te — ma tu devi dominarlo.\"",
+    "title": "Il Peccato Accovacciato alla Porta",
+    "text": "Il Signore ti parla.\nCosa dice?",
     "choices": [
       {
-        "text": "Impegnati a dominare la tua rabbia",
-        "feedback": "Espiri. Sceglierai diversamente."
+        "text": "'Il peccato è accovacciato alla tua porta — ma tu devi dominarlo'",
+        "feedback": "Genesi 4:6-7 — Il Signore avvertì Caino che il peccato era accovacciato alla sua porta e che doveva dominarlo."
       },
       {
-        "text": "Lascia che la rabbia ti prenda",
-        "feedback": "Genesi 4:7 — Caino non dominò il peccato accovacciato alla sua porta."
+        "text": "'Porta un agnello invece del grano'",
+        "feedback": "La Genesi non registra che il Signore abbia detto a Caino di portare un agnello."
       },
       {
-        "text": "Fingi di non aver sentito",
-        "feedback": "L'avvertimento svanisce. L'odio rimane."
+        "text": "Nulla — il Signore tace",
+        "feedback": "Genesi dice che il Signore parlò a Caino riguardo al peccato alla porta."
       }
     ]
   },
   "invitation": {
-    "title": "Vieni con Me al Campo",
-    "text": "Abele cammina verso di te, fiducioso.\nIl suo volto è aperto. Il tuo no.",
+    "title": "Parli a Tuo Fratello",
+    "text": "Abele si avvicina, fiducioso.\nCosa dici?",
     "choices": [
       {
-        "text": "Digli la verità del tuo cuore",
-        "feedback": "Le parole sono difficili. Ma l'onestà è misericordia."
+        "text": "Di' ad Abele: 'Andiamo in campagna'",
+        "feedback": "Genesi 4:8 — Caino disse ad Abele: 'Andiamo in campagna'."
       },
       {
-        "text": "Attiralo da solo nel campo",
-        "feedback": "Genesi 4:8 — Caino attirò Abele nei campi."
+        "text": "Invita Abele ad adorare insieme all'altare",
+        "feedback": "Genesi dice che Caino condusse Abele in campagna, non all'altare."
+      },
+      {
+        "text": "Manda via Abele e non parlargli mai più",
+        "feedback": "Genesi dice che Caino chiamò Abele in campagna, non che lo mandò via."
       }
     ]
   },
   "field": {
     "title": "Nel Campo",
-    "text": "Il campo è vuoto. Nessuno vedrà.\nLa rabbia sale. Una pietra è nella tua mano.",
+    "text": "Tu e Abele siete soli nel campo aperto.\nChe fai?",
     "choices": [
       {
-        "text": "Lascia cadere la pietra — allontanati",
-        "feedback": "Cade pesante ai tuoi piedi. Respiri di nuovo."
+        "text": "Attacca Abele tuo fratello e uccidilo",
+        "feedback": "Genesi 4:8 — Caino attaccò suo fratello Abele e lo uccise."
       },
       {
-        "text": "Colpiscilo nella tua furia",
-        "feedback": "Genesi 4:8 — Caino si scagliò contro Abele suo fratello e lo uccise."
+        "text": "Discuti con Abele e poi perdonalo",
+        "feedback": "Genesi dice che Caino uccise Abele; non lo perdonò."
       },
       {
-        "text": "Minaccialo, poi colpisci",
-        "feedback": "La tua mano obbedisce alla rabbia. Il campo lo accoglie."
+        "text": "Torna a casa senza toccarlo",
+        "feedback": "Genesi dice che Caino uccise Abele in campagna."
       }
     ]
   },
   "confrontation": {
-    "title": "\"Dov'è Tuo Fratello?\"",
-    "text": "La voce del Signore ti trova.\n\"Dov'è tuo fratello Abele?\"",
+    "title": "«Dov'è tuo fratello?»",
+    "text": "La voce del Signore ti trova.\n«Dov'è Abele, tuo fratello?»",
     "choices": [
       {
-        "text": "Confessa ciò che le tue mani hanno fatto",
-        "feedback": "La verità ti schiaccia. E inizia a liberarti."
+        "text": "Rispondi: 'Non lo so. Sono forse il custode di mio fratello?'",
+        "feedback": "Genesi 4:9 — Caino rispose: 'Non lo so. Sono forse il custode di mio fratello?'"
       },
       {
-        "text": "«Sono forse il custode di mio fratello?»",
-        "feedback": "Genesi 4:9 — Caino rispose: «Sono forse io il custode di mio fratello?»."
+        "text": "Confessa apertamente: 'L'ho ucciso'",
+        "feedback": "Genesi dice che Caino negò di sapere; non confessò apertamente."
       },
       {
-        "text": "Rimani in silenzio e nascondi gli occhi",
-        "feedback": "Il suo sangue grida dalla terra."
+        "text": "Rimani in silenzio davanti al Signore",
+        "feedback": "Genesi dice che Caino rispose al Signore; non rimase in silenzio."
       }
     ]
   },
   "wanderer": {
-    "title": "Ad Est dell'Eden, Segnato",
-    "text": "Il Signore pone un segno per proteggerti.\nDevi vagare lontano da casa.",
+    "title": "Un Vagabondo Irrequieto",
+    "text": "Il Signore ti pone un segno per la tua protezione.\nTu vai a vagare a est dell'Eden, nella terra di Nod.",
     "choices": []
   }
 }

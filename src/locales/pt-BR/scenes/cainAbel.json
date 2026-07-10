@@ -1,152 +1,164 @@
 {
   "storyTitle": "Caim e Abel",
   "start": {
-    "title": "Filhos do Solo",
-    "text": "Tu és Caim, primogênito de Adão.\nTeu irmão Abel caminha ao teu lado na alvorada.",
+    "title": "Filhos de Adão",
+    "text": "Você abre os olhos como o primogênito de Adão e Eva.\nUm segundo filho, Abel, nasce depois de você.",
     "choices": [
       {
-        "text": "Saúda-o com amor fraternal",
-        "feedback": "Gênesis 4:1-2 — Caim e Abel foram os primeiros irmãos, filhos de Adão e Eva."
+        "text": "Viver como o filho primogênito de Adão e Eva",
+        "feedback": "Gênesis 4:1-2 — Eva deu à luz Caim, e depois a seu irmão Abel."
       },
       {
-        "text": "Compara-te a ele em silêncio",
-        "feedback": "Uma amargura silenciosa cria raízes."
+        "text": "Nascer antes de Adão e Eva",
+        "feedback": "Gênesis diz que Adão e Eva vieram primeiro; Caim era filho deles."
       },
       {
-        "text": "Anda à frente sem ele",
-        "feedback": "Ele chama teu nome. Tu não te viras."
+        "text": "Crescer como filho único",
+        "feedback": "Gênesis diz que Caim tinha um irmão, Abel."
       }
     ]
   },
   "fields": {
-    "title": "O Lavrador da Terra",
-    "text": "A terra resiste à tua enxada.\nSuor. Pedras. As longas horas de trabalho.",
+    "title": "Seu Trabalho",
+    "text": "Os anos passam. Cada irmão encontra seu labor.\nQual é o seu?",
     "choices": [
       {
-        "text": "Trabalha com paciência e cuidado",
-        "feedback": "Gênesis 4:2 — Caim lavrava a terra enquanto Abel pastoreava ovelhas."
+        "text": "Trabalhar a terra como lavrador",
+        "feedback": "Gênesis 4:2 — Caim trabalhava a terra."
       },
       {
-        "text": "Amaldiçoa a terra enquanto cavas",
-        "feedback": "Cada golpe fica mais raivoso que o anterior."
+        "text": "Cuidar de rebanhos de ovelhas como Abel",
+        "feedback": "Gênesis diz que Abel cuidava de rebanhos; Caim trabalhava a terra."
+      },
+      {
+        "text": "Recusar-se a trabalhar",
+        "feedback": "Gênesis diz que Caim trabalhava a terra."
       }
     ]
   },
   "abel_pasture": {
-    "title": "O Rebanho do Teu Irmão",
-    "text": "Abel descansa entre suas ovelhas, contente.\nUm cordeiro recém-nascido dorme em seu peito.",
+    "title": "O Trabalho de Seu Irmão",
+    "text": "Você vê Abel do outro lado do campo.\nO que ele está fazendo?",
     "choices": [
       {
-        "text": "Alegra-te por seu trabalho gentil",
-        "feedback": "O calor surge onde a inveja poderia ter crescido."
+        "text": "Ver Abel cuidando de rebanhos de ovelhas",
+        "feedback": "Gênesis 4:2 — Abel cuidava de rebanhos."
       },
       {
-        "text": "Ressente-te de que o trabalho dele parece fácil",
-        "feedback": "Gênesis 4:5 — Caim ficou invejoso e cabisbaixo quando Deus se agradou de Abel."
+        "text": "Ver Abel lavrando a terra ao seu lado",
+        "feedback": "Gênesis diz que Abel cuidava de rebanhos, não que lavrava a terra."
       },
       {
-        "text": "Zomba dele em voz baixa",
-        "feedback": "Tuas palavras permanecem quietas, mas ferem tua própria alma."
+        "text": "Ver Abel pescando no rio",
+        "feedback": "Gênesis não descreve Abel pescando."
       }
     ]
   },
   "offerings": {
     "title": "Diante do Altar",
-    "text": "É hora de trazer uma oferta ao Senhor.\nO que darás?",
+    "text": "Chega a hora de trazer uma oferta ao Senhor.\nO que você trará?",
     "choices": [
       {
-        "text": "Traz tuas melhores primícias",
-        "feedback": "Tu escolhes o grão mais fino. Teu coração está aberto."
+        "text": "Trazer alguns dos frutos da terra como oferta",
+        "feedback": "Gênesis 4:3 — Caim trouxe alguns dos frutos da terra como oferta ao Senhor."
       },
       {
-        "text": "Traz o que sobrou",
-        "feedback": "Gênesis 4:3 — Caim trouxe alguns frutos da terra, e não o melhor deles."
+        "text": "Trazer um cordeiro primogênito do seu rebanho",
+        "feedback": "Gênesis diz que Abel trouxe um cordeiro; Caim trouxe frutos da terra."
       },
       {
-        "text": "Não tragas nada — tu o ganhaste",
-        "feedback": "Mãos vazias. Um coração mais duro e orgulhoso."
+        "text": "Não trazer nada",
+        "feedback": "Gênesis diz que Caim trouxe uma oferta, embora não a melhor."
       }
     ]
   },
   "accepted": {
-    "title": "O Favor do Senhor",
-    "text": "O Senhor recebe o cordeiro de Abel com alegria.\nTua oferta — Ele não a considera.",
+    "title": "O Olhar do Senhor",
+    "text": "Você espera enquanto o Senhor olha para as duas ofertas.\nO que acontece?",
     "choices": [
       {
-        "text": "Examina-te diante de Deus",
-        "feedback": "Tu perguntas por quê. A resposta já está em ti."
+        "text": "O Senhor olha com favor para Abel e sua oferta, mas não para a sua",
+        "feedback": "Gênesis 4:4-5 — O Senhor olhou com favor para Abel e sua oferta, mas para Caim e sua oferta Ele não olhou com favor."
       },
       {
-        "text": "Queima de raiva contra Abel",
-        "feedback": "Gênesis 4:5 — Caim ficou muito irado quando sua oferta não foi aceita."
+        "text": "O Senhor favorece ambas as ofertas igualmente",
+        "feedback": "Gênesis diz que o Senhor favoreceu a oferta de Abel, não ambas."
       },
       {
-        "text": "Acusa Deus de injustiça",
-        "feedback": "Teu punho se ergue. O céu não responde."
+        "text": "O Senhor aceita sua oferta e rejeita a de Abel",
+        "feedback": "Gênesis diz o oposto — o Senhor favoreceu a oferta de Abel."
       }
     ]
   },
   "anger": {
-    "title": "Por Que Estás Irado?",
-    "text": "Teu rosto cai. Tuas mãos tremem.\nO Senhor pergunta: \"Por que estás irado?\"",
+    "title": "Seu Rosto Cai",
+    "text": "A oferta acabou. Algo surge em você.\nComo você reage?",
     "choices": [
       {
-        "text": "Depõe tua raiva diante Dele",
-        "feedback": "O fogo começa a esfriar. A honestidade abre um caminho."
+        "text": "Ficar muito irado, com o rosto abatido",
+        "feedback": "Gênesis 4:5 — Caim ficou muito irado, e seu rosto estava abatido."
       },
       {
-        "text": "Recusa-te a responder — vira-te",
-        "feedback": "Gênesis 4:5-6 — Caim virou o rosto e se recusou a responder a Deus."
+        "text": "Alegrar-se com Abel por sua oferta aceita",
+        "feedback": "Gênesis diz que Caim ficou irado, não que se alegrou."
+      },
+      {
+        "text": "Trazer uma oferta melhor no dia seguinte",
+        "feedback": "Gênesis não descreve Caim trazendo uma segunda oferta."
       }
     ]
   },
   "warning": {
-    "title": "O Pecado Jaz à Porta",
-    "text": "\"O pecado jaz à tua porta.\nSeu desejo é por ti — mas tu deves dominá-lo.\"",
+    "title": "O Pecado À Espreita",
+    "text": "O Senhor fala com você.\nO que Ele diz?",
     "choices": [
       {
-        "text": "Compromete-te a dominar tua raiva",
-        "feedback": "Tu exalas. Tu escolherás diferente."
+        "text": "'O pecado está à sua porta — mas você deve dominá-lo'",
+        "feedback": "Gênesis 4:6-7 — O Senhor advertiu Caim que o pecado estava à sua porta e ele deveria dominá-lo."
       },
       {
-        "text": "Deixa a raiva te dominar",
-        "feedback": "Gênesis 4:7 — Caim não dominou o pecado que estava à sua porta."
+        "text": "'Traga um cordeiro em vez de grãos'",
+        "feedback": "Gênesis não registra o Senhor dizendo a Caim para trazer um cordeiro."
       },
       {
-        "text": "Finge que não ouviste",
-        "feedback": "O aviso se esvai. O ódio permanece."
+        "text": "Nada — o Senhor está em silêncio",
+        "feedback": "Gênesis diz que o Senhor falou com Caim sobre o pecado à porta."
       }
     ]
   },
   "invitation": {
-    "title": "Vem Comigo ao Campo",
-    "text": "Abel caminha em tua direção, confiante.\nSeu rosto está aberto. O teu não.",
+    "title": "Você Fala Com Seu Irmão",
+    "text": "Abel se aproxima, confiante.\nO que você diz?",
     "choices": [
       {
-        "text": "Dize-lhe a verdade de teu coração",
-        "feedback": "Palavras são difíceis. Mas a honestidade é misericórdia."
+        "text": "Diga a Abel: 'Vamos para o campo'",
+        "feedback": "Gênesis 4:8 — Caim disse a Abel: 'Vamos para o campo.'"
       },
       {
-        "text": "Atrai-o sozinho para o campo",
-        "feedback": "Gênesis 4:8 — Caim atraiu Abel para o campo."
+        "text": "Convide Abel para adorar juntos no altar",
+        "feedback": "Gênesis diz que Caim levou Abel para o campo, não para o altar."
+      },
+      {
+        "text": "Mande Abel embora e nunca mais fale com ele",
+        "feedback": "Gênesis diz que Caim chamou Abel ao campo, não que o mandou embora."
       }
     ]
   },
   "field": {
     "title": "No Campo",
-    "text": "O campo está vazio. Ninguém verá.\nA raiva surge. Uma pedra está em tua mão.",
+    "text": "Tu e Abel estão a sós no campo aberto.\nO que fazes?",
     "choices": [
       {
-        "text": "Larga a pedra — vai embora",
-        "feedback": "Ela cai pesada a teus pés. Tu respiras novamente."
+        "text": "Ataque Abel, seu irmão, e mate-o",
+        "feedback": "Gênesis 4:8 — Caim atacou seu irmão Abel e o matou."
       },
       {
-        "text": "Fere-o em tua fúria",
-        "feedback": "Gênesis 4:8 — Caim levantou-se contra Abel, seu irmão, e o matou."
+        "text": "Discuta com Abel e depois o perdoe",
+        "feedback": "Gênesis diz que Caim matou Abel; ele não o perdoou."
       },
       {
-        "text": "Ameaça-o, então golpeia",
-        "feedback": "Tua mão obedece à raiva. O campo o recebe."
+        "text": "Vá para casa sem tocá-lo",
+        "feedback": "Gênesis diz que Caim matou Abel no campo."
       }
     ]
   },
@@ -155,22 +167,22 @@
     "text": "A voz do Senhor te encontra.\n\"Onde está teu irmão Abel?\"",
     "choices": [
       {
-        "text": "Confessa o que tuas mãos fizeram",
-        "feedback": "A verdade te esmaga. E começa a te libertar."
+        "text": "Responda: 'Não sei. Sou eu o guarda do meu irmão?'",
+        "feedback": "Gênesis 4:9 — Caim respondeu: 'Não sei. Sou eu o guarda do meu irmão?'"
       },
       {
-        "text": "\"Sou eu guardador do meu irmão?\"",
-        "feedback": "Gênesis 4:9 — Caim respondeu: “Sou eu guardador do meu irmão?”."
+        "text": "Confesse claramente: 'Eu o matei'",
+        "feedback": "Gênesis diz que Caim negou saber; ele não confessou claramente."
       },
       {
-        "text": "Permanece em silêncio e esconde teus olhos",
-        "feedback": "O sangue dele clama da terra."
+        "text": "Permaneça em silêncio diante do Senhor",
+        "feedback": "Gênesis diz que Caim respondeu ao Senhor; ele não permaneceu em silêncio."
       }
     ]
   },
   "wanderer": {
-    "title": "A Leste do Éden, Marcado",
-    "text": "O Senhor coloca uma marca para te proteger.\nTu deves vagar longe de casa.",
+    "title": "Um Errante Inquieto",
+    "text": "O Senhor coloca uma marca em ti para tua proteção.\nVais vaguear a leste do Éden, na terra de Nod.",
     "choices": []
   }
 }

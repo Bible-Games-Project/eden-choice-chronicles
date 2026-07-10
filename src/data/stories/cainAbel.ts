@@ -1,111 +1,114 @@
 import { StoryScene } from "@/data/stories/creation";
 
-// Story 3 — Cain and Abel. Clean rebuild.
+// Story 3 — Cain and Abel. Biblical-action rebuild (Genesis 4:1-16).
 // First-person: the player IS Cain.
-// Each scene: 1 biblically correct choice + 1–2 incorrect choices.
-// Order is randomized at runtime by shuffleChoices.
+// Correct choices describe events explicitly told in Scripture.
+// Incorrect choices describe actions that do NOT appear in the biblical account.
 export const cainAbelScenes: Record<string, StoryScene> = {
   start: {
     id: "start",
-    title: "Sons of the Soil",
-    text: "You are Cain, firstborn of Adam.\nYour brother Abel walks beside you in the dawn.",
+    title: "Sons of Adam",
+    text: "You open your eyes as the firstborn of Adam and Eve.\nA second son, Abel, is born after you.",
     choices: [
-      { text: "Greet him with brotherly love", nextScene: "fields", tag: "warm", feedback: "Genesis 4:1-2 — Cain and Abel were the first two brothers, sons of Adam and Eve.", isCorrect: true, sentiment: "positive" },
-      { text: "Compare yourself to him in silence", nextScene: "fields", tag: "comparing", feedback: "A quiet bitterness takes root.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk ahead without him", nextScene: "fields", tag: "distant", feedback: "He calls your name. You do not turn.", isCorrect: false, sentiment: "negative" },
+      { text: "Live as the firstborn son of Adam and Eve", nextScene: "fields", tag: "born", feedback: "Genesis 4:1-2 — Eve gave birth to Cain, and then to his brother Abel.", isCorrect: true, sentiment: "positive" },
+      { text: "Be born before Adam and Eve", nextScene: "fields", tag: "impossible", feedback: "Genesis says Adam and Eve came first; Cain was their son.", isCorrect: false, sentiment: "negative" },
+      { text: "Grow up as an only child", nextScene: "fields", tag: "alone", feedback: "Genesis says Cain had a brother, Abel.", isCorrect: false, sentiment: "negative" },
     ],
   },
   fields: {
     id: "fields",
-    title: "The Tiller of Soil",
-    text: "The earth resists your hoe.\nSweat. Stones. The long hours of work.",
+    title: "Your Work",
+    text: "The years pass. Each brother finds his labor.\nWhat is yours?",
     choices: [
-      { text: "Work with patience and care", nextScene: "abel_pasture", tag: "diligent", feedback: "Genesis 4:2 — Cain worked the soil while Abel kept flocks.", isCorrect: true, sentiment: "positive" },
-      { text: "Curse the ground as you dig", nextScene: "abel_pasture", tag: "bitter", feedback: "Each strike grows angrier than the last.", isCorrect: false, sentiment: "negative" },
+      { text: "Work the ground as a tiller of the soil", nextScene: "abel_pasture", tag: "farmer", feedback: "Genesis 4:2 — Cain worked the soil.", isCorrect: true, sentiment: "positive" },
+      { text: "Keep flocks of sheep like Abel", nextScene: "abel_pasture", tag: "wrong-role", feedback: "Genesis says Abel kept flocks; Cain worked the soil.", isCorrect: false, sentiment: "negative" },
+      { text: "Refuse to work at all", nextScene: "abel_pasture", tag: "idle", feedback: "Genesis says Cain worked the ground.", isCorrect: false, sentiment: "negative" },
     ],
   },
   abel_pasture: {
     id: "abel_pasture",
-    title: "Your Brother's Flock",
-    text: "Abel rests among his sheep, content.\nA newborn lamb sleeps on his chest.",
+    title: "Your Brother's Work",
+    text: "You see Abel across the field.\nWhat is he doing?",
     choices: [
-      { text: "Be glad for his gentle work", nextScene: "offerings", tag: "gracious", feedback: "Warmth rises where envy could have grown.", isCorrect: false, sentiment: "positive" },
-      { text: "Resent that his work seems easy", nextScene: "offerings", tag: "envious", feedback: "Genesis 4:5 — Cain grew envious and downcast when God favored Abel.", isCorrect: true, sentiment: "negative" },
-      { text: "Mock him under your breath", nextScene: "offerings", tag: "scornful", feedback: "Your words stay quiet, but they sting your own soul.", isCorrect: false, sentiment: "negative" },
+      { text: "See Abel keeping flocks of sheep", nextScene: "offerings", tag: "shepherd", feedback: "Genesis 4:2 — Abel kept flocks.", isCorrect: true, sentiment: "positive" },
+      { text: "See Abel tilling the ground beside you", nextScene: "offerings", tag: "wrong-role", feedback: "Genesis says Abel kept flocks, not that he tilled the ground.", isCorrect: false, sentiment: "negative" },
+      { text: "See Abel fishing at the river", nextScene: "offerings", tag: "invented", feedback: "Genesis does not describe Abel fishing.", isCorrect: false, sentiment: "negative" },
     ],
   },
   offerings: {
     id: "offerings",
     title: "Before the Altar",
-    text: "It is time to bring an offering to the Lord.\nWhat will you give?",
+    text: "The time comes to bring an offering to the Lord.\nWhat will you bring?",
     choices: [
-      { text: "Bring your very best firstfruits", nextScene: "accepted", tag: "honoring", feedback: "You choose the finest grain. Your heart is open.", isCorrect: false, sentiment: "positive" },
-      { text: "Bring whatever was left over", nextScene: "accepted", tag: "careless", feedback: "Genesis 4:3 — Cain brought some of the fruits of the soil, not his very best.", isCorrect: true, sentiment: "negative" },
-      { text: "Bring nothing — you earned it", nextScene: "accepted", tag: "proud", feedback: "Empty hands. A harder, prouder heart.", isCorrect: false, sentiment: "negative" },
+      { text: "Bring some of the fruits of the soil as an offering", nextScene: "accepted", tag: "grain", feedback: "Genesis 4:3 — Cain brought some of the fruits of the soil as an offering to the Lord.", isCorrect: true, sentiment: "positive" },
+      { text: "Bring a firstborn lamb from your flock", nextScene: "accepted", tag: "wrong-gift", feedback: "Genesis says Abel brought a lamb; Cain brought fruits of the soil.", isCorrect: false, sentiment: "negative" },
+      { text: "Bring nothing at all", nextScene: "accepted", tag: "none", feedback: "Genesis says Cain did bring an offering, though not the best.", isCorrect: false, sentiment: "negative" },
     ],
   },
   accepted: {
     id: "accepted",
-    title: "The Lord's Favor",
-    text: "The Lord receives Abel's lamb with joy.\nYour offering — He does not regard.",
+    title: "The Lord's Regard",
+    text: "You wait as the Lord looks upon the two offerings.\nWhat happens?",
     choices: [
-      { text: "Search yourself before God", nextScene: "anger", tag: "humble", feedback: "You ask why. The answer is already in you.", isCorrect: false, sentiment: "positive" },
-      { text: "Burn with rage against Abel", nextScene: "anger", tag: "raging", feedback: "Genesis 4:5 — Cain became very angry when his offering was not accepted.", isCorrect: true, sentiment: "negative" },
-      { text: "Accuse God of unfairness", nextScene: "anger", tag: "accusing", feedback: "Your fist rises. The sky does not answer.", isCorrect: false, sentiment: "negative" },
+      { text: "The Lord looks with favor on Abel and his offering, but not on yours", nextScene: "anger", tag: "rejected", feedback: "Genesis 4:4-5 — The Lord looked with favor on Abel and his offering, but on Cain and his offering He did not look with favor.", isCorrect: true, sentiment: "negative" },
+      { text: "The Lord favors both offerings equally", nextScene: "anger", tag: "invented", feedback: "Genesis says the Lord favored Abel's offering, not both.", isCorrect: false, sentiment: "negative" },
+      { text: "The Lord accepts your offering and rejects Abel's", nextScene: "anger", tag: "reversed", feedback: "Genesis says the opposite — the Lord favored Abel's offering.", isCorrect: false, sentiment: "negative" },
     ],
   },
   anger: {
     id: "anger",
-    title: "Why Are You Angry?",
-    text: "Your face falls. Your hands shake.\nThe Lord asks: \"Why are you angry?\"",
+    title: "Your Face Falls",
+    text: "The offering is over. Something rises in you.\nHow do you respond?",
     choices: [
-      { text: "Lay your anger down before Him", nextScene: "warning", tag: "yielded", feedback: "The fire begins to cool. Honesty opens a path.", isCorrect: false, sentiment: "positive" },
-      { text: "Refuse to answer — turn away", nextScene: "warning", tag: "stubborn", feedback: "Genesis 4:5-6 — Cain turned his face away and refused to answer God.", isCorrect: true, sentiment: "negative" },
+      { text: "Become very angry, your face downcast", nextScene: "warning", tag: "angry", feedback: "Genesis 4:5 — Cain was very angry, and his face was downcast.", isCorrect: true, sentiment: "negative" },
+      { text: "Rejoice with Abel over his accepted offering", nextScene: "warning", tag: "invented", feedback: "Genesis says Cain became angry, not that he rejoiced.", isCorrect: false, sentiment: "positive" },
+      { text: "Bring a better offering the very next day", nextScene: "warning", tag: "invented", feedback: "Genesis does not describe Cain bringing a second offering.", isCorrect: false, sentiment: "positive" },
     ],
   },
   warning: {
     id: "warning",
-    title: "Sin Crouches at the Door",
-    text: "\"Sin is crouching at your door.\nIts desire is for you — but you must master it.\"",
+    title: "Sin Crouching at the Door",
+    text: "The Lord speaks to you.\nWhat does He say?",
     choices: [
-      { text: "Commit to master your anger", nextScene: "invitation", tag: "resolved", feedback: "You exhale. You will choose differently.", isCorrect: false, sentiment: "positive" },
-      { text: "Let the rage take you", nextScene: "invitation", tag: "surrendering", feedback: "Genesis 4:7 — Cain did not master the sin crouching at his door.", isCorrect: true, sentiment: "negative" },
-      { text: "Pretend you did not hear", nextScene: "invitation", tag: "denying", feedback: "The warning fades. The hatred remains.", isCorrect: false, sentiment: "negative" },
+      { text: "'Sin is crouching at your door — but you must rule over it'", nextScene: "invitation", tag: "warning", feedback: "Genesis 4:6-7 — The Lord warned Cain that sin was crouching at his door and he must rule over it.", isCorrect: true, sentiment: "positive" },
+      { text: "'Bring a lamb instead of grain'", nextScene: "invitation", tag: "invented", feedback: "Genesis does not record the Lord telling Cain to bring a lamb.", isCorrect: false, sentiment: "negative" },
+      { text: "Nothing — the Lord is silent", nextScene: "invitation", tag: "invented", feedback: "Genesis says the Lord did speak to Cain about sin at the door.", isCorrect: false, sentiment: "negative" },
     ],
   },
   invitation: {
     id: "invitation",
-    title: "Come With Me to the Field",
-    text: "Abel walks toward you, trusting.\nHis face is open. Yours is not.",
+    title: "You Speak to Your Brother",
+    text: "Abel walks near, trusting.\nWhat do you say?",
     choices: [
-      { text: "Tell him the truth of your heart", nextScene: "field", tag: "honest", feedback: "Words are hard. But honesty is mercy.", isCorrect: false, sentiment: "positive" },
-      { text: "Lure him alone into the field", nextScene: "field", tag: "plotting", feedback: "Genesis 4:8 — Cain lured Abel out into the field.", isCorrect: true, sentiment: "negative" },
+      { text: "Say to Abel, 'Let's go out to the field'", nextScene: "field", tag: "lure", feedback: "Genesis 4:8 — Cain said to Abel, 'Let's go out to the field.'", isCorrect: true, sentiment: "negative" },
+      { text: "Invite Abel to worship at the altar together", nextScene: "field", tag: "invented", feedback: "Genesis says Cain led Abel out to the field, not to the altar.", isCorrect: false, sentiment: "positive" },
+      { text: "Send Abel away and never speak to him again", nextScene: "field", tag: "invented", feedback: "Genesis says Cain called Abel to the field, not that he sent him away.", isCorrect: false, sentiment: "negative" },
     ],
   },
   field: {
     id: "field",
     title: "In the Field",
-    text: "The field is empty. No one will see.\nAnger surges. A stone is in your hand.",
+    text: "You and Abel are alone in the open field.\nWhat do you do?",
     choices: [
-      { text: "Drop the stone — walk away", nextScene: "confrontation", tag: "restraining", feedback: "It falls heavy at your feet. You breathe again.", isCorrect: false, sentiment: "positive" },
-      { text: "Strike him in your fury", nextScene: "confrontation", tag: "killing", feedback: "Genesis 4:8 — Cain rose up against Abel his brother and killed him.", isCorrect: true, sentiment: "negative" },
-      { text: "Threaten him, then strike", nextScene: "confrontation", tag: "violent", feedback: "Your hand obeys the rage. The field receives him.", isCorrect: false, sentiment: "negative" },
+      { text: "Attack Abel your brother and kill him", nextScene: "confrontation", tag: "kill", feedback: "Genesis 4:8 — Cain attacked his brother Abel and killed him.", isCorrect: true, sentiment: "negative" },
+      { text: "Argue with Abel and then forgive him", nextScene: "confrontation", tag: "invented", feedback: "Genesis says Cain killed Abel; he did not forgive him.", isCorrect: false, sentiment: "positive" },
+      { text: "Walk home without touching him", nextScene: "confrontation", tag: "invented", feedback: "Genesis says Cain killed Abel in the field.", isCorrect: false, sentiment: "positive" },
     ],
   },
   confrontation: {
     id: "confrontation",
     title: "\"Where Is Your Brother?\"",
-    text: "The voice of the Lord finds you.\n\"Where is your brother Abel?\"",
+    text: "The Lord's voice finds you.\n\"Where is your brother Abel?\"",
     choices: [
-      { text: "Confess what your hands have done", nextScene: "wanderer", tag: "confessing", feedback: "The truth crushes you. And begins to free you.", isCorrect: false, sentiment: "positive" },
-      { text: "\"Am I my brother's keeper?\"", nextScene: "wanderer", tag: "denying", feedback: "Genesis 4:9 — Cain replied, 'Am I my brother's keeper?'", isCorrect: true, sentiment: "negative" },
-      { text: "Stay silent and hide your eyes", nextScene: "wanderer", tag: "hiding", feedback: "His blood cries out from the ground.", isCorrect: false, sentiment: "negative" },
+      { text: "Answer: 'I do not know. Am I my brother's keeper?'", nextScene: "wanderer", tag: "deny", feedback: "Genesis 4:9 — Cain replied, 'I don't know. Am I my brother's keeper?'", isCorrect: true, sentiment: "negative" },
+      { text: "Confess plainly: 'I have killed him'", nextScene: "wanderer", tag: "invented", feedback: "Genesis says Cain denied knowing; he did not confess plainly.", isCorrect: false, sentiment: "positive" },
+      { text: "Stay silent before the Lord", nextScene: "wanderer", tag: "invented", feedback: "Genesis says Cain answered the Lord; he did not stay silent.", isCorrect: false, sentiment: "negative" },
     ],
   },
   wanderer: {
     id: "wanderer",
-    title: "East of Eden, Marked",
-    text: "The Lord places a mark to protect you.\nYou must wander far from home.",
+    title: "A Restless Wanderer",
+    text: "The Lord places a mark on you for your protection.\nYou go out to wander east of Eden, in the land of Nod.",
     choices: [],
     isFinal: true,
   },

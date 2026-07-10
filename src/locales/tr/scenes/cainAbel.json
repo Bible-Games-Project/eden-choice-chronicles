@@ -1,152 +1,164 @@
 {
-  "storyTitle": "Kabil ve Habil",
+  "storyTitle": "Kain ve Habil",
   "start": {
-    "title": "Toprağın Oğulları",
-    "text": "Sen Adem'in ilk oğlu Kain'sin.\nKardeşin Habil şafakta yanında yürüyor.",
+    "title": "Adem'in Oğulları",
+    "text": "Adem ve Havva'nın ilk doğanı olarak gözlerini açıyorsun.\nSenden sonra ikinci bir oğul, Habil, doğar.",
     "choices": [
       {
-        "text": "Onu kardeş sevgisiyle selamla",
-        "feedback": "Yaratılış 4:1-2 — Kayin ile Habil, Adem ile Havva'nın ilk kardeş çocuklarıydı."
+        "text": "Âdem ile Havva'nın ilk doğan oğlu olarak yaşa",
+        "feedback": "Yaratılış 4:1-2 — Havva önce Kayin'i, sonra da kardeşi Habil'i doğurdu."
       },
       {
-        "text": "Kendini sessizlik içinde onunla karşılaştır",
-        "feedback": "Sessiz bir acılık kök salar."
+        "text": "Âdem ile Havva'dan önce doğ",
+        "feedback": "Yaratılış, Âdem ile Havva'nın önce geldiğini; Kayin'in onların oğlu olduğunu söyler."
       },
       {
-        "text": "Onsuz ilerle",
-        "feedback": "Adını çağırır. Dönmezsin."
+        "text": "Tek çocuk olarak büyü",
+        "feedback": "Yaratılış, Kayin'in Habil adında bir kardeşi olduğunu söyler."
       }
     ]
   },
   "fields": {
-    "title": "Toprak İşleyicisi",
-    "text": "Toprak çapana direniyor.\nTer. Taşlar. Uzun çalışma saatleri.",
+    "title": "Senin İşin",
+    "text": "Yıllar geçer. Her kardeş kendi işini bulur.\nSeninki ne?",
     "choices": [
       {
-        "text": "Sabır ve özenle çalış",
-        "feedback": "Yaratılış 4:2 — Kayin toprağı işledi, Habil ise sürüleri güttü."
+        "text": "Toprağı işleyen bir çiftçi olarak çalış",
+        "feedback": "Yaratılış 4:2 — Kayin toprağı işlerdi."
       },
       {
-        "text": "Kazarken toprağa lanet et",
-        "feedback": "Her vuruş bir öncekinden daha öfkeli olur."
+        "text": "Habil gibi koyun sürüleri güt",
+        "feedback": "Yaratılış, Habil'in sürü güttüğünü; Kayin'in toprağı işlediğini söyler."
+      },
+      {
+        "text": "Hiç çalışmayı reddet",
+        "feedback": "Yaratılış, Kayin'in toprağı işlediğini söyler."
       }
     ]
   },
   "abel_pasture": {
-    "title": "Kardeşinin Sürüsü",
-    "text": "Habil koyunlarının arasında huzurla dinleniyor.\nYeni doğmuş bir kuzu göğsünde uyuyor.",
+    "title": "Kardeşinin İşi",
+    "text": "Habil'i tarlanın karşısında görüyorsun.\nNe yapıyor?",
     "choices": [
       {
-        "text": "Onun nazik işine sevin",
-        "feedback": "Kıskançlığın büyüyebileceği yerde sıcaklık yükselir."
+        "text": "Habil'in koyun sürüleri güttüğünü gör",
+        "feedback": "Yaratılış 4:2 — Habil sürü güderdi."
       },
       {
-        "text": "İşinin kolay görünmesine içerle",
-        "feedback": "Yaratılış 4:5 — Kayin, Tanrı Habil'i kabul ettiğinde kıskandı ve yüzü asıldı."
+        "text": "Habil'in yanında toprağı işlediğini gör",
+        "feedback": "Yaratılış, Habil'in sürü güttüğünü, toprağı işlemediğini söyler."
       },
       {
-        "text": "Kendi kendine alay et",
-        "feedback": "Sözlerin sessiz kalır ama kendi ruhunu acıtır."
+        "text": "Habil'in nehirde balık tuttuğunu gör",
+        "feedback": "Yaratılış, Habil'in balık tuttuğunu anlatmaz."
       }
     ]
   },
   "offerings": {
-    "title": "Sunak Önünde",
-    "text": "Rab'be bir sunu getirme zamanı.\nNe vereceksin?",
+    "title": "Mizbahın Önünde",
+    "text": "Rab'be sunu getirme zamanı gelir.\nNe getireceksin?",
     "choices": [
       {
-        "text": "En iyi ilk ürünlerini getir",
-        "feedback": "En iyi taneyi seçersin. Kalbin açıktır."
+        "text": "Toprağın ürünlerinden bir kısmını sunu olarak getir",
+        "feedback": "Yaratılış 4:3 — Kayin toprağın ürünlerinden bir kısmını Rab'be sunu olarak getirdi."
       },
       {
-        "text": "Geriye kalan ne varsa getir",
-        "feedback": "Yaratılış 4:3 — Kayin, toprağın ürününden bir kısmını getirdi, en iyisini değil."
+        "text": "Süründen ilk doğan bir kuzu getir",
+        "feedback": "Yaratılış, Habil'in kuzu getirdiğini; Kayin'in toprağın ürünlerini getirdiğini söyler."
       },
       {
-        "text": "Hiçbir şey getirme — sen kazandın",
-        "feedback": "Boş eller. Daha sert, daha gururlu bir kalp."
+        "text": "Hiçbir şey getirme",
+        "feedback": "Yaratılış, Kayin'in bir sunu getirdiğini, ancak en iyisi olmadığını söyler."
       }
     ]
   },
   "accepted": {
-    "title": "Rab'bin Lütfu",
-    "text": "Rab, Habil'in kuzusunu sevinçle kabul eder.\nSenin sununu — O dikkate almaz.",
+    "title": "Rab'bin İlgisi",
+    "text": "Rab iki sunuya bakarken bekliyorsun.\nNe oluyor?",
     "choices": [
       {
-        "text": "Kendini Tanrı'nın önünde ara",
-        "feedback": "Neden diye sorarsın. Cevap zaten içindedir."
+        "text": "Rab Habil'e ve onun sunusuna lütufkar bakar, ama seninkine bakmaz",
+        "feedback": "Yaratılış 4:4-5 — Rab Habil'e ve onun sunusuna lütufkar baktı, ama Kayin'e ve onun sunusuna lütufkar bakmadı."
       },
       {
-        "text": "Habil'e karşı öfkeyle yan",
-        "feedback": "Yaratılış 4:5 — Sunusu kabul edilmeyince Kayin çok öfkelendi."
+        "text": "Rab her iki sunuyu da eşit derecede beğenir",
+        "feedback": "Yaratılış, Rab'bin Habil'in sunusunu beğendiğini, ikisini birden değil."
       },
       {
-        "text": "Tanrı'yı adaletsizlikle suçla",
-        "feedback": "Yumruğun kalkar. Gök cevap vermez."
+        "text": "Rab senin sununu kabul eder ve Habil'inkini reddeder",
+        "feedback": "Yaratılış tam tersini söyler — Rab Habil'in sunusunu beğendi."
       }
     ]
   },
   "anger": {
-    "title": "Neden Kızgınsın?",
-    "text": "Yüzün düşer. Ellerin titrer.\nRab sorar: \"Neden kızgınsın?\"",
+    "title": "Yüzün Düşer",
+    "text": "Sunu biter. İçinde bir şey yükselir.\nNasıl tepki veriyorsun?",
     "choices": [
       {
-        "text": "Öfkeni O'nun önüne bırak",
-        "feedback": "Ateş soğumaya başlar. Dürüstlük bir yol açar."
+        "text": "Çok öfkelen, yüzün asık olsun",
+        "feedback": "Yaratılış 4:5 — Kayin çok öfkelendi ve yüzü asıktı."
       },
       {
-        "text": "Cevap vermeyi reddet — yüzünü çevir",
-        "feedback": "Yaratılış 4:5-6 — Kayin yüzünü çevirdi ve Tanrı'ya cevap vermedi."
+        "text": "Habil'in kabul edilen sunusu için onunla birlikte sevin",
+        "feedback": "Yaratılış, Kayin'in öfkelendiğini, sevinmediğini söyler."
+      },
+      {
+        "text": "Ertesi gün daha iyi bir sunu getir",
+        "feedback": "Yaratılış, Kayin'in ikinci bir sunu getirdiğini anlatmaz."
       }
     ]
   },
   "warning": {
-    "title": "Günah Kapıda Pusuya Yatmış",
-    "text": "\"Günah kapında pusuya yatmış.\nİsteği sensin — ama sen ona egemen olmalısın.\"",
+    "title": "Kapıda Pusuya Yatan Günah",
+    "text": "Rab seninle konuşur.\nNe diyor?",
     "choices": [
       {
-        "text": "Öfkeni kontrol etmeye söz ver",
-        "feedback": "Nefes verirsin. Farklı seçeceksin."
+        "text": "'Günah kapında pusuya yatmış — ama sen ona egemen olmalısın'",
+        "feedback": "Yaratılış 4:6-7 — Rab Kayin'i günahın kapısında pusuya yattığı ve ona egemen olması gerektiği konusunda uyardı."
       },
       {
-        "text": "Öfkenin seni ele geçirmesine izin ver",
-        "feedback": "Yaratılış 4:7 — Kayin, kapıda pusuya yatan günahı yenmedi."
+        "text": "'Tahıl yerine bir kuzu getir'",
+        "feedback": "Yaratılış, Rab'bin Kayin'e kuzu getirmesini söylediğini kaydetmez."
       },
       {
-        "text": "Duymamış gibi yap",
-        "feedback": "Uyarı solar. Nefret kalır."
+        "text": "Hiçbir şey — Rab sessiz",
+        "feedback": "Yaratılış, Rab'bin günah konusunda Kain'le konuştuğunu söyler."
       }
     ]
   },
   "invitation": {
-    "title": "Benimle Tarlaya Gel",
-    "text": "Habil sana doğru güvenle yürüyor.\nYüzü açık. Seninki değil.",
+    "title": "Kardeşinle Konuşuyorsun",
+    "text": "Habil yakınından geçer, güvenerek.\nNe diyorsun?",
     "choices": [
       {
-        "text": "Kalbinin gerçeğini ona söyle",
-        "feedback": "Kelimeler zor. Ama dürüstlük merhamettir."
+        "text": "Habil'e de ki: 'Haydi tarlaya gidelim.'",
+        "feedback": "Yaratılış 4:8 — Kain, Habil'e 'Haydi tarlaya gidelim' dedi."
       },
       {
-        "text": "Onu yalnız başına tarlaya çek",
-        "feedback": "Yaratılış 4:8 — Kayin, Habil'i kırlara götürdü."
+        "text": "Habil'i birlikte sunağa tapınmaya davet et",
+        "feedback": "Yaratılış, Kain'in Habil'i tarlaya götürdüğünü, sunağa değil."
+      },
+      {
+        "text": "Habil'i gönder ve bir daha asla onunla konuşma",
+        "feedback": "Yaratılış, Kain'in Habil'i tarlaya çağırdığını, onu göndermediğini söyler."
       }
     ]
   },
   "field": {
     "title": "Tarlada",
-    "text": "Tarla boş. Kimse görmeyecek.\nÖfke yükseliyor. Elinde bir taş var.",
+    "text": "Sen ve Habil açık tarlada yalnızsınız.\nNe yaparsın?",
     "choices": [
       {
-        "text": "Taşı bırak — uzaklaş",
-        "feedback": "Ayaklarının dibine ağır bir şekilde düşer. Yeniden nefes alırsın."
+        "text": "Kardeşin Habil'e saldır ve onu öldür",
+        "feedback": "Yaratılış 4:8 — Kain kardeşi Habil'e saldırdı ve onu öldürdü."
       },
       {
-        "text": "Öfkenle ona vur",
-        "feedback": "Yaratılış 4:8 — Kayin, kardeşi Habil'e saldırıp onu öldürdü."
+        "text": "Habil'le tartış ve sonra onu affet",
+        "feedback": "Yaratılış, Kain'in Habil'i öldürdüğünü; onu affetmediğini söyler."
       },
       {
-        "text": "Onu tehdit et, sonra vur",
-        "feedback": "Elin öfkeye itaat eder. Tarla onu kabul eder."
+        "text": "Ona dokunmadan eve yürü",
+        "feedback": "Yaratılış, Kain'in Habil'i tarlada öldürdüğünü söyler."
       }
     ]
   },
@@ -155,22 +167,22 @@
     "text": "Rab'bin sesi seni bulur.\n\"Kardeşin Habil nerede?\"",
     "choices": [
       {
-        "text": "Ellerinin yaptıklarını itiraf et",
-        "feedback": "Gerçek seni ezer. Ve seni özgürleştirmeye başlar."
+        "text": "Cevap: 'Bilmiyorum. Kardeşimin bekçisi miyim ben?'",
+        "feedback": "Yaratılış 4:9 — Kain şöyle karşılık verdi: 'Bilmiyorum. Kardeşimin bekçisi miyim ben?'"
       },
       {
-        "text": "\"Ben kardeşimin bekçisi miyim?\"",
-        "feedback": "Yaratılış 4:9 — Kayin, “Kardeşimin bekçisi miyim?” diye karşılık verdi."
+        "text": "Açıkça itiraf et: 'Onu ben öldürdüm'",
+        "feedback": "Yaratılış, Kain'in bilmediğini inkâr ettiğini; açıkça itiraf etmediğini söyler."
       },
       {
-        "text": "Sessiz kal ve gözlerini sakla",
-        "feedback": "Kanı yerden feryat ediyor."
+        "text": "Rab'bin önünde sessiz kal",
+        "feedback": "Yaratılış, Kain'in Rab'be cevap verdiğini; sessiz kalmadığını söyler."
       }
     ]
   },
   "wanderer": {
-    "title": "Aden'in Doğusu, İşaretli",
-    "text": "Rab seni korumak için bir işaret koyar.\nEvinden çok uzaklara gitmelisin.",
+    "title": "Huzursuz Bir Gezgin",
+    "text": "Rab, seni korumak için üzerine bir işaret koyar.\nEden'in doğusuna, Nod diyarına doğru yola çıkarsın.",
     "choices": []
   }
 }

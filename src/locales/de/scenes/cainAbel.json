@@ -1,176 +1,188 @@
 {
   "storyTitle": "Kain und Abel",
   "start": {
-    "title": "Söhne des Bodens",
-    "text": "Du bist Kain, der Erstgeborene Adams.\nDein Bruder Abel geht im Morgengrauen neben dir.",
+    "title": "Söhne Adams",
+    "text": "Du öffnest deine Augen als Erstgeborener von Adam und Eva.\nEin zweiter Sohn, Abel, wird nach dir geboren.",
     "choices": [
       {
-        "text": "Begrüße ihn mit brüderlicher Liebe",
-        "feedback": "Genesis 4:1-2 — Kain und Abel waren die ersten Brüder, Söhne von Adam und Eva."
+        "text": "Lebe als der erstgeborene Sohn von Adam und Eva",
+        "feedback": "Genesis 4,1-2 — Eva gebar Kain und danach seinen Bruder Abel."
       },
       {
-        "text": "Vergleiche dich schweigend mit ihm",
-        "feedback": "Eine leise Bitterkeit schlägt Wurzeln."
+        "text": "Werde vor Adam und Eva geboren",
+        "feedback": "Die Genesis sagt, Adam und Eva kamen zuerst; Kain war ihr Sohn."
       },
       {
-        "text": "Gehe ohne ihn voraus",
-        "feedback": "Er ruft deinen Namen. Du drehst dich nicht um."
+        "text": "Wachse als Einzelkind auf",
+        "feedback": "Die Genesis sagt, Kain hatte einen Bruder, Abel."
       }
     ]
   },
   "fields": {
-    "title": "Der Ackerbauer",
-    "text": "Die Erde widersteht deiner Hacke.\nSchweiß. Steine. Die langen Arbeitsstunden.",
+    "title": "Deine Arbeit",
+    "text": "Die Jahre vergehen. Jeder Bruder findet seine Arbeit.\nWas ist deine?",
     "choices": [
       {
-        "text": "Arbeite mit Geduld und Sorgfalt",
-        "feedback": "Genesis 4:2 — Kain bebaute den Acker, während Abel Schafe hütete."
+        "text": "Bestelle den Boden als Ackerbauer",
+        "feedback": "Genesis 4,2 — Kain bestellte den Boden."
       },
       {
-        "text": "Verfluche den Boden, während du gräbst",
-        "feedback": "Jeder Schlag wird wütender als der letzte."
+        "text": "Hüte Schafherden wie Abel",
+        "feedback": "Die Genesis sagt, Abel hütete Herden; Kain bestellte den Boden."
+      },
+      {
+        "text": "Weigere dich, überhaupt zu arbeiten",
+        "feedback": "Die Genesis sagt, Kain bestellte den Boden."
       }
     ]
   },
   "abel_pasture": {
-    "title": "Die Herde deines Bruders",
-    "text": "Abel ruht zufrieden unter seinen Schafen.\nEin neugeborenes Lamm schläft auf seiner Brust.",
+    "title": "Die Arbeit deines Bruders",
+    "text": "Du siehst Abel auf dem Feld.\nWas tut er?",
     "choices": [
       {
-        "text": "Sei froh über seine sanfte Arbeit",
-        "feedback": "Wärme steigt auf, wo Neid hätte wachsen können."
+        "text": "Sieh Abel, wie er Schafherden hütet",
+        "feedback": "Genesis 4,2 — Abel hütete Herden."
       },
       {
-        "text": "Ärgere dich, dass seine Arbeit einfach erscheint",
-        "feedback": "Genesis 4:5 — Kain wurde neidisch und niedergeschlagen, als Gott Abel gnädig ansah."
+        "text": "Sieh Abel, wie er neben dir den Boden bestellt",
+        "feedback": "Die Genesis sagt, Abel hütete Herden, nicht dass er den Boden bestellte."
       },
       {
-        "text": "Verhöhne ihn leise",
-        "feedback": "Deine Worte bleiben leise, aber sie stechen deine eigene Seele."
+        "text": "Sieh Abel, wie er am Fluss fischt",
+        "feedback": "Die Genesis beschreibt Abel nicht beim Fischen."
       }
     ]
   },
   "offerings": {
     "title": "Vor dem Altar",
-    "text": "Es ist Zeit, dem Herrn ein Opfer darzubringen.\nWas wirst du geben?",
+    "text": "Die Zeit kommt, dem Herrn ein Opfer darzubringen.\nWas wirst du bringen?",
     "choices": [
       {
-        "text": "Bringe deine allerbesten Erstlingsfrüchte",
-        "feedback": "Du wählst das feinste Korn. Dein Herz ist offen."
+        "text": "Bringe einige Früchte des Bodens als Opfergabe",
+        "feedback": "Genesis 4,3 — Kain brachte einige Früchte des Bodens als Opfergabe für den Herrn."
       },
       {
-        "text": "Bringe, was übrig geblieben ist",
-        "feedback": "Genesis 4:3 — Kain brachte einige Früchte des Feldes, nicht das Beste."
+        "text": "Bringe ein erstgeborenes Lamm aus deiner Herde",
+        "feedback": "Die Genesis sagt, Abel brachte ein Lamm; Kain brachte Früchte des Bodens."
       },
       {
-        "text": "Bringe nichts – du hast es dir verdient",
-        "feedback": "Leere Hände. Ein härteres, stolzeres Herz."
+        "text": "Bringe überhaupt nichts",
+        "feedback": "Die Genesis sagt, Kain brachte ein Opfer, wenn auch nicht das beste."
       }
     ]
   },
   "accepted": {
-    "title": "Die Gunst des Herrn",
-    "text": "Der Herr nimmt Abels Lamm mit Freude an.\nDein Opfer – Er beachtet es nicht.",
+    "title": "Das Wohlgefallen des Herrn",
+    "text": "Du wartest, während der Herr die beiden Opfer betrachtet.\nWas geschieht?",
     "choices": [
       {
-        "text": "Prüfe dich selbst vor Gott",
-        "feedback": "Du fragst warum. Die Antwort ist bereits in dir."
+        "text": "Der Herr blickt wohlwollend auf Abel und sein Opfer, aber nicht auf deines",
+        "feedback": "Genesis 4,4-5 — Der Herr blickte wohlwollend auf Abel und sein Opfer, aber auf Kain und sein Opfer blickte er nicht wohlwollend."
       },
       {
-        "text": "Brenne vor Wut gegen Abel",
-        "feedback": "Genesis 4:5 — Kain wurde sehr zornig, als sein Opfer nicht angenommen wurde."
+        "text": "Der Herr begünstigt beide Opfer gleichermaßen",
+        "feedback": "Die Genesis sagt, der Herr begünstigte Abels Opfer, nicht beide."
       },
       {
-        "text": "Beschuldige Gott der Ungerechtigkeit",
-        "feedback": "Deine Faust erhebt sich. Der Himmel antwortet nicht."
+        "text": "Der Herr nimmt dein Opfer an und lehnt Abels ab",
+        "feedback": "Die Genesis sagt das Gegenteil – der Herr begünstigte Abels Opfer."
       }
     ]
   },
   "anger": {
-    "title": "Warum bist du zornig?",
-    "text": "Dein Gesicht fällt. Deine Hände zittern.\nDer Herr fragt: „Warum bist du zornig?“",
+    "title": "Dein Gesicht fällt",
+    "text": "Das Opfer ist beendet. Etwas steigt in dir auf.\nWie reagierst du?",
     "choices": [
       {
-        "text": "Lege deine Wut vor Ihm ab",
-        "feedback": "Das Feuer beginnt abzukühlen. Ehrlichkeit öffnet einen Weg."
+        "text": "Werde sehr zornig, dein Gesicht niedergeschlagen",
+        "feedback": "Genesis 4,5 — Kain war sehr zornig, und sein Gesicht war niedergeschlagen."
       },
       {
-        "text": "Weigere dich zu antworten – wende dich ab",
-        "feedback": "Genesis 4:5-6 — Kain wandte sein Gesicht ab und weigerte sich, Gott zu antworten."
+        "text": "Freue dich mit Abel über sein angenommenes Opfer",
+        "feedback": "Die Genesis sagt, Kain wurde zornig, nicht dass er sich freute."
+      },
+      {
+        "text": "Bringe gleich am nächsten Tag ein besseres Opfer",
+        "feedback": "Die Genesis beschreibt nicht, dass Kain ein zweites Opfer brachte."
       }
     ]
   },
   "warning": {
-    "title": "Die Sünde lauert an der Tür",
-    "text": "„Die Sünde lauert vor deiner Tür.\nIhr Verlangen ist auf dich gerichtet – doch du musst sie beherrschen.“",
+    "title": "Die Sünde lauert vor der Tür",
+    "text": "Der Herr spricht zu dir.\nWas sagt Er?",
     "choices": [
       {
-        "text": "Nimm dir vor, deine Wut zu beherrschen",
-        "feedback": "Du atmest aus. Du wirst anders wählen."
+        "text": "'Die Sünde lauert vor deiner Tür – aber du musst über sie herrschen'",
+        "feedback": "Genesis 4,6-7 — Der Herr warnte Kain, dass die Sünde vor seiner Tür lauerte und er über sie herrschen müsse."
       },
       {
-        "text": "Lass die Wut dich packen",
-        "feedback": "Genesis 4:7 — Kain beherrschte die Sünde nicht, die vor seiner Tür lauerte."
+        "text": "'Bringe ein Lamm statt Getreide'",
+        "feedback": "Die Genesis berichtet nicht, dass der Herr Kain sagte, er solle ein Lamm bringen."
       },
       {
-        "text": "Tu so, als hättest du nichts gehört",
-        "feedback": "Die Warnung verblasst. Der Hass bleibt."
+        "text": "Nichts – der Herr schweigt",
+        "feedback": "Die Genesis sagt, der Herr sprach zu Kain über die Sünde vor der Tür."
       }
     ]
   },
   "invitation": {
-    "title": "Komm mit mir aufs Feld",
-    "text": "Abel geht dir vertrauensvoll entgegen.\nSein Gesicht ist offen. Deines nicht.",
+    "title": "Du sprichst zu deinem Bruder",
+    "text": "Abel kommt vertrauensvoll näher.\nWas sagst du?",
     "choices": [
       {
-        "text": "Sag ihm die Wahrheit deines Herzens",
-        "feedback": "Worte sind schwer. Aber Ehrlichkeit ist Gnade."
+        "text": "Sag zu Abel: „Lass uns aufs Feld gehen.“",
+        "feedback": "Genesis 4,8 – Kain sagte zu Abel: „Lass uns aufs Feld gehen.“"
       },
       {
-        "text": "Locke ihn allein aufs Feld",
-        "feedback": "Genesis 4:8 — Kain lockte Abel hinaus aufs Feld."
+        "text": "Abel einladen, gemeinsam am Altar anzubeten",
+        "feedback": "Die Genesis sagt, Kain führte Abel aufs Feld, nicht zum Altar."
+      },
+      {
+        "text": "Abel wegschicken und nie wieder mit ihm sprechen",
+        "feedback": "Die Genesis sagt, Kain rief Abel aufs Feld, nicht, dass er ihn wegschickte."
       }
     ]
   },
   "field": {
     "title": "Auf dem Feld",
-    "text": "Das Feld ist leer. Niemand wird es sehen.\nZorn steigt auf. Ein Stein ist in deiner Hand.",
+    "text": "Du und Abel seid allein auf dem offenen Feld.\nWas tust du?",
     "choices": [
       {
-        "text": "Lass den Stein fallen — geh weg",
-        "feedback": "Er fällt schwer zu deinen Füßen. Du atmest wieder."
+        "text": "Greife deinen Bruder Abel an und töte ihn",
+        "feedback": "Genesis 4,8 – Kain griff seinen Bruder Abel an und tötete ihn."
       },
       {
-        "text": "Schlag ihn in deiner Wut",
-        "feedback": "Genesis 4:8 — Kain erhob sich gegen seinen Bruder Abel und tötete ihn."
+        "text": "Mit Abel streiten und ihm dann vergeben",
+        "feedback": "Die Genesis sagt, Kain tötete Abel; er vergab ihm nicht."
       },
       {
-        "text": "Bedrohe ihn, dann schlag zu",
-        "feedback": "Deine Hand gehorcht der Wut. Das Feld empfängt ihn."
+        "text": "Geh nach Hause, ohne ihn zu berühren",
+        "feedback": "Die Genesis sagt, Kain tötete Abel auf dem Feld."
       }
     ]
   },
   "confrontation": {
     "title": "„Wo ist dein Bruder?“",
-    "text": "Die Stimme des Herrn findet dich.\n„Wo ist dein Bruder Abel?“",
+    "text": "Die Stimme des Herrn erreicht dich.\n„Wo ist dein Bruder Abel?“",
     "choices": [
       {
-        "text": "Gestehe, was deine Hände getan haben",
-        "feedback": "Die Wahrheit zermalmt dich. Und beginnt, dich zu befreien."
+        "text": "Antwort: „Ich weiß es nicht. Bin ich der Hüter meines Bruders?“",
+        "feedback": "Genesis 4,9 – Kain antwortete: „Ich weiß es nicht. Bin ich der Hüter meines Bruders?“"
       },
       {
-        "text": "„Bin ich der Hüter meines Bruders?“",
-        "feedback": "Genesis 4:9 — Kain antwortete: „Soll ich meines Bruders Hüter sein?“"
+        "text": "Offen bekennen: „Ich habe ihn getötet.“",
+        "feedback": "Die Genesis sagt, Kain leugnete, es zu wissen; er bekannte es nicht offen."
       },
       {
-        "text": "Bleib still und verbirg deine Augen",
-        "feedback": "Sein Blut schreit aus dem Boden."
+        "text": "Vor dem Herrn schweigen",
+        "feedback": "Die Genesis sagt, Kain antwortete dem Herrn; er schwieg nicht."
       }
     ]
   },
   "wanderer": {
-    "title": "Östlich von Eden, gezeichnet",
-    "text": "Der Herr setzt ein Zeichen, um dich zu schützen.\nDu musst weit von zu Hause wandern.",
+    "title": "Ein ruheloser Wanderer",
+    "text": "Der Herr kennzeichnet dich zu deinem Schutz.\nDu ziehst ostwärts von Eden, ins Land Nod, umher.",
     "choices": []
   }
 }

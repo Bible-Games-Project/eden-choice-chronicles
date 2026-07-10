@@ -1,176 +1,188 @@
 {
   "storyTitle": "Caín y Abel",
   "start": {
-    "title": "Hijos de la tierra",
-    "text": "Eres Caín, primogénito de Adán.\nTu hermano Abel camina a tu lado al amanecer.",
+    "title": "Hijos de Adán",
+    "text": "Abres los ojos como el primogénito de Adán y Eva.\nUn segundo hijo, Abel, nace después de ti.",
     "choices": [
       {
-        "text": "Salúdale con amor fraternal",
-        "feedback": "Génesis 4:1-2 — Caín y Abel fueron los primeros hermanos, hijos de Adán y Eva."
+        "text": "Vive como el primogénito de Adán y Eva",
+        "feedback": "Génesis 4:1-2 — Eva dio a luz a Caín, y luego a su hermano Abel."
       },
       {
-        "text": "Compárate con él en silencio",
-        "feedback": "Una amargura silenciosa echa raíces."
+        "text": "Nacer antes que Adán y Eva",
+        "feedback": "El Génesis dice que Adán y Eva fueron primero; Caín era su hijo."
       },
       {
-        "text": "Camina sin él",
-        "feedback": "Él te llama por tu nombre. No te giras."
+        "text": "Crecer como hijo único",
+        "feedback": "El Génesis dice que Caín tenía un hermano, Abel."
       }
     ]
   },
   "fields": {
-    "title": "El labrador de la tierra",
-    "text": "La tierra resiste tu azada.\nSudor. Piedras. Las largas horas de trabajo.",
+    "title": "Tu trabajo",
+    "text": "Pasan los años. Cada hermano encuentra su labor.\n¿Cuál es la tuya?",
     "choices": [
       {
-        "text": "Trabaja con paciencia y cuidado",
-        "feedback": "Génesis 4:2 — Caín labraba la tierra y Abel pastoreaba ovejas."
+        "text": "Trabajar la tierra como labrador",
+        "feedback": "Génesis 4:2 — Caín trabajaba la tierra."
       },
       {
-        "text": "Maldice la tierra mientras cavas",
-        "feedback": "Cada golpe se vuelve más furioso que el anterior."
+        "text": "Cuidar rebaños de ovejas como Abel",
+        "feedback": "El Génesis dice que Abel cuidaba rebaños; Caín trabajaba la tierra."
+      },
+      {
+        "text": "Negarse a trabajar en absoluto",
+        "feedback": "El Génesis dice que Caín trabajaba la tierra."
       }
     ]
   },
   "abel_pasture": {
-    "title": "El rebaño de tu hermano",
-    "text": "Abel descansa entre sus ovejas, contento.\nUn cordero recién nacido duerme sobre su pecho.",
+    "title": "El trabajo de tu hermano",
+    "text": "Ves a Abel al otro lado del campo.\n¿Qué está haciendo?",
     "choices": [
       {
-        "text": "Alégrate por su trabajo delicado",
-        "feedback": "El calor surge donde la envidia podría haber crecido."
+        "text": "Ver a Abel cuidando rebaños de ovejas",
+        "feedback": "Génesis 4:2 — Abel era pastor de ovejas."
       },
       {
-        "text": "Resiente que su trabajo parezca fácil",
-        "feedback": "Génesis 4:5 — Caín se llenó de envidia y decayó su rostro cuando Dios miró con favor a Abel."
+        "text": "Ver a Abel labrando la tierra a tu lado",
+        "feedback": "El Génesis dice que Abel cuidaba rebaños, no que labraba la tierra."
       },
       {
-        "text": "Búrlate de él en voz baja",
-        "feedback": "Tus palabras permanecen en silencio, pero hieren tu propia alma."
+        "text": "Ver a Abel pescando en el río",
+        "feedback": "El Génesis no describe a Abel pescando."
       }
     ]
   },
   "offerings": {
     "title": "Ante el altar",
-    "text": "Es hora de llevar una ofrenda al Señor.\n¿Qué le darás?",
+    "text": "Llega el momento de llevar una ofrenda al Señor.\n¿Qué llevarás?",
     "choices": [
       {
-        "text": "Trae tus mejores primicias",
-        "feedback": "Eliges el grano más fino. Tu corazón está abierto."
+        "text": "Traer algunos frutos de la tierra como ofrenda",
+        "feedback": "Génesis 4:3 — Caín trajo del fruto de la tierra una ofrenda al Señor."
       },
       {
-        "text": "Trae lo que sobró",
-        "feedback": "Génesis 4:3 — Caín trajo algunos frutos de la tierra, no lo mejor."
+        "text": "Traer un cordero primogénito de tu rebaño",
+        "feedback": "El Génesis dice que Abel trajo un cordero; Caín trajo frutos de la tierra."
       },
       {
-        "text": "No traigas nada, te lo ganaste",
-        "feedback": "Manos vacías. Un corazón más duro y orgulloso."
+        "text": "No traer nada en absoluto",
+        "feedback": "El Génesis dice que Caín sí trajo una ofrenda, aunque no la mejor."
       }
     ]
   },
   "accepted": {
-    "title": "El favor del Señor",
-    "text": "El Señor recibe con alegría el cordero de Abel.\nTu ofrenda — Él no la mira.",
+    "title": "La mirada del Señor",
+    "text": "Esperas mientras el Señor mira las dos ofrendas.\n¿Qué sucede?",
     "choices": [
       {
-        "text": "Examínate ante Dios",
-        "feedback": "Preguntas por qué. La respuesta ya está en ti."
+        "text": "El Señor mira con agrado a Abel y su ofrenda, pero no a la tuya",
+        "feedback": "Génesis 4:4-5 — Y el Señor miró con agrado a Abel y a su ofrenda; pero no miró con agrado a Caín y a la ofrenda suya."
       },
       {
-        "text": "Arde de rabia contra Abel",
-        "feedback": "Génesis 4:5 — Caín se enojó mucho cuando su ofrenda no fue aceptada."
+        "text": "El Señor favorece ambas ofrendas por igual",
+        "feedback": "El Génesis dice que el Señor favoreció la ofrenda de Abel, no ambas."
       },
       {
-        "text": "Acusa a Dios de injusticia",
-        "feedback": "Tu puño se alza. El cielo no responde."
+        "text": "El Señor acepta tu ofrenda y rechaza la de Abel",
+        "feedback": "El Génesis dice lo contrario: el Señor favoreció la ofrenda de Abel."
       }
     ]
   },
   "anger": {
-    "title": "¿Por qué estás enojado?",
-    "text": "Tu rostro se ensombrece. Tus manos tiemblan.\nEl Señor pregunta: \"¿Por qué estás enojado?\"",
+    "title": "Tu rostro decae",
+    "text": "La ofrenda ha terminado. Algo surge en ti.\n¿Cómo respondes?",
     "choices": [
       {
-        "text": "Depón tu ira ante Él",
-        "feedback": "El fuego comienza a enfriarse. La honestidad abre un camino."
+        "text": "Enfurecerte mucho, con el rostro abatido",
+        "feedback": "Génesis 4:5 — Y se ensañó Caín en gran manera, y decayó su semblante."
       },
       {
-        "text": "Niégate a responder, date la vuelta",
-        "feedback": "Génesis 4:5-6 — Caín apartó su rostro y se negó a responder a Dios."
+        "text": "Regocijarte con Abel por su ofrenda aceptada",
+        "feedback": "El Génesis dice que Caín se enojó, no que se regocijó."
+      },
+      {
+        "text": "Traer una ofrenda mejor al día siguiente",
+        "feedback": "El Génesis no describe a Caín trayendo una segunda ofrenda."
       }
     ]
   },
   "warning": {
-    "title": "El pecado acecha a la puerta",
-    "text": "\"El pecado está agazapado a tu puerta.\nSu deseo es dominarte — pero tú debes dominarlo a él.\"",
+    "title": "El pecado acechando a la puerta",
+    "text": "El Señor te habla.\n¿Qué te dice?",
     "choices": [
       {
-        "text": "Comprométete a dominar tu ira",
-        "feedback": "Exhalas. Elegirás de manera diferente."
+        "text": "'El pecado está agazapado a tu puerta, pero tú debes dominarlo'",
+        "feedback": "Génesis 4:6-7 — El Señor advirtió a Caín que el pecado estaba agazapado a su puerta y que debía dominarlo."
       },
       {
-        "text": "Deja que la rabia te domine",
-        "feedback": "Génesis 4:7 — Caín no dominó el pecado que estaba a la puerta."
+        "text": "'Trae un cordero en lugar de grano'",
+        "feedback": "El Génesis no registra que el Señor le dijera a Caín que trajera un cordero."
       },
       {
-        "text": "Finge que no escuchaste",
-        "feedback": "La advertencia se desvanece. El odio permanece."
+        "text": "Nada — el Señor calla",
+        "feedback": "El Génesis dice que el Señor habló a Caín sobre el pecado a la puerta."
       }
     ]
   },
   "invitation": {
-    "title": "Ven conmigo al campo",
-    "text": "Abel camina hacia ti, confiado.\nSu rostro es abierto. El tuyo no.",
+    "title": "Hablas con tu hermano",
+    "text": "Abel se acerca, confiado.\n¿Qué le dices?",
     "choices": [
       {
-        "text": "Dile la verdad de tu corazón",
-        "feedback": "Las palabras son difíciles. Pero la honestidad es misericordia."
+        "text": "Di a Abel: «Salgamos al campo»",
+        "feedback": "Génesis 4:8 — Caín dijo a su hermano Abel: «Salgamos al campo»."
       },
       {
-        "text": "Atráelo solo al campo",
-        "feedback": "Génesis 4:8 — Caín llevó a Abel al campo con engaño."
+        "text": "Invita a Abel a adorar juntos en el altar",
+        "feedback": "El Génesis dice que Caín llevó a Abel al campo, no al altar."
+      },
+      {
+        "text": "Despide a Abel y no le hables nunca más",
+        "feedback": "El Génesis dice que Caín llamó a Abel al campo, no que lo despidió."
       }
     ]
   },
   "field": {
     "title": "En el campo",
-    "text": "El campo está vacío. Nadie te verá.\nLa ira te invade. Tienes una piedra en la mano.",
+    "text": "Tú y Abel estáis solos en el campo abierto.\n¿Qué haces?",
     "choices": [
       {
-        "text": "Suelta la piedra — aléjate",
-        "feedback": "Cae pesadamente a tus pies. Vuelves a respirar."
+        "text": "Ataca a tu hermano Abel y mátalo",
+        "feedback": "Génesis 4:8 — Caín atacó a su hermano Abel y lo mató."
       },
       {
-        "text": "Golpéale en tu furia",
-        "feedback": "Génesis 4:8 — Caín se levantó contra Abel su hermano y lo mató."
+        "text": "Discute con Abel y luego perdónale",
+        "feedback": "El Génesis dice que Caín mató a Abel; no le perdonó."
       },
       {
-        "text": "Amenázale, luego golpea",
-        "feedback": "Tu mano obedece la rabia. El campo le recibe."
+        "text": "Vuelve a casa sin tocarle",
+        "feedback": "El Génesis dice que Caín mató a Abel en el campo."
       }
     ]
   },
   "confrontation": {
-    "title": "«¿Dónde está tu hermano?»",
+    "title": "¿Dónde está tu hermano?",
     "text": "La voz del Señor te encuentra.\n«¿Dónde está tu hermano Abel?»",
     "choices": [
       {
-        "text": "Confiesa lo que tus manos han hecho",
-        "feedback": "La verdad te aplasta. Y empieza a liberarte."
+        "text": "Responde: «No lo sé. ¿Soy yo acaso el guarda de mi hermano?»",
+        "feedback": "Génesis 4:9 — Caín respondió: «No lo sé. ¿Soy yo acaso el guarda de mi hermano?»"
       },
       {
-        "text": "¿Soy yo acaso guarda de mi hermano?",
-        "feedback": "Génesis 4:9 — Caín respondió: «¿Soy yo guarda de mi hermano?»."
+        "text": "Confiesa claramente: «Lo he matado»",
+        "feedback": "El Génesis dice que Caín negó saberlo; no confesó claramente."
       },
       {
-        "text": "Permanece en silencio y esconde tus ojos",
-        "feedback": "Su sangre clama desde la tierra."
+        "text": "Permanece en silencio ante el Señor",
+        "feedback": "El Génesis dice que Caín respondió al Señor; no permaneció en silencio."
       }
     ]
   },
   "wanderer": {
-    "title": "Al este del Edén, marcado",
-    "text": "El Señor te pone una marca para protegerte.\nDebes vagar lejos de casa.",
+    "title": "Un vagabundo inquieto",
+    "text": "El Señor te pone una marca para tu protección.\nSales a vagar al este del Edén, en la tierra de Nod.",
     "choices": []
   }
 }

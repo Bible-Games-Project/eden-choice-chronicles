@@ -2,159 +2,187 @@
   "storyTitle": "Noé et le Déluge",
   "start": {
     "title": "La Voix d'En Haut",
-    "text": "Une voix emplit le ciel.\n« Noé — construis une arche. Un déluge arrive. »",
+    "text": "Dieu te parle.\n« Fais-toi une arche. Un déluge arrive. »",
     "choices": [
       {
-        "text": "Doute — cela ne peut être vrai",
-        "feedback": "La voix s'estompe. Mais le poids dans ta poitrine demeure."
+        "text": "Reçois le commandement de Dieu de construire une arche en bois de cyprès",
+        "feedback": "Genèse 6:14, 22 — Dieu dit à Noé de faire une arche en bois de cyprès, et Noé fit tout exactement comme Dieu l'avait commandé."
       },
       {
-        "text": "« Me voici. J'obéirai. »",
-        "feedback": "Genèse 6:22 — Noé fit tout ce que Dieu lui avait commandé."
+        "text": "Refuse le commandement et fuis la terre",
+        "feedback": "La Genèse dit que Noé a obéi à Dieu ; il n'a pas fui."
       },
       {
-        "text": "Demande pourquoi tu as été choisi",
-        "feedback": "Aucune réponse ne vient. Seul le commandement demeure."
+        "text": "Achète un navire existant à un marchand",
+        "feedback": "La Genèse dit que Noé a construit l'arche lui-même, comme Dieu l'avait instruit."
       }
     ]
   },
   "mockery": {
-    "title": "Voix de la Foule",
-    "text": "Les villageois se rassemblent, riant.\n« Un bateau ? Ici ? Tu es fou, vieil homme. »",
+    "title": "Un monde qui observe",
+    "text": "Le monde autour de toi est corrompu et violent.\nIls te regardent construire. Comment réagis-tu ?",
     "choices": [
       {
-        "text": "Crie de colère",
-        "feedback": "Tes paroles ne font qu'alimenter leurs moqueries."
+        "text": "Continue à construire l'arche par la foi",
+        "feedback": "Hébreux 11:7 — Par la foi, Noé construisit l'arche avec une crainte révérencieuse, bien qu'averti de choses encore invisibles."
       },
       {
-        "text": "Reste silencieux et continue de travailler",
-        "feedback": "Hébreux 11:7 — Par la foi, Noé continua de bâtir l'arche malgré les moqueries."
+        "text": "Abandonne l'arche pour plaire à la foule",
+        "feedback": "L'Écriture dit que Noé a continué à construire par la foi."
       },
       {
-        "text": "Supplie-les de croire",
-        "feedback": "Ils te tournent le dos. Tu es seul dans la foi."
+        "text": "Attaque les moqueurs pour les faire taire",
+        "feedback": "L'Écriture ne décrit pas Noé attaquant qui que ce soit."
       }
     ]
   },
   "building": {
-    "title": "Cyprès et Goudron",
-    "text": "Des années de sueur. Le bois se fend. Le goudron scelle.\nTon dos te fait mal, mais l'arche s'élève.",
+    "title": "Cyprès et Poix",
+    "text": "Tu rassembles les matériaux que Dieu a commandés.\nComment construis-tu l'arche ?",
     "choices": [
       {
-        "text": "Repose-toi un instant, le travail est sans fin",
-        "feedback": "Le doute s'insinue avec le silence."
+        "text": "Construis-la en bois de cyprès, enduite de poix à l'intérieur et à l'extérieur",
+        "feedback": "Genèse 6:14 — Fais-toi une arche en bois de cyprès ; enduis-la de poix à l'intérieur et à l'extérieur."
       },
       {
-        "text": "Continue — Dieu l'a commandé",
-        "feedback": "Genèse 6:14-16 — Noé construisit l'arche en bois de cyprès selon les instructions de Dieu."
+        "text": "Construis-la en pierre taillée",
+        "feedback": "La Genèse dit que l'arche a été construite en bois de cyprès, pas en pierre."
+      },
+      {
+        "text": "Tisse-la avec des roseaux comme un panier",
+        "feedback": "La Genèse dit que l'arche a été faite en bois de cyprès, scellée avec de la poix."
       }
     ]
   },
   "ark_done": {
-    "title": "Elle Est Achevée",
-    "text": "L'arche te domine.\nTa famille se rassemble, silencieuse devant le bois.",
+    "title": "Elle est achevée",
+    "text": "L'arche est complète, exactement comme Dieu l'a commandé.\nÀ quoi ressemble-t-elle ?",
     "choices": [
       {
-        "text": "Vante-toi auprès de la foule qui regarde",
-        "feedback": "L'orgueil empoisonne le travail. Tu te reprends."
+        "text": "300 coudées de long, 50 de large, 30 de haut, avec trois ponts",
+        "feedback": "Genèse 6:15-16 — L'arche avait 300 coudées de long, 50 de large, 30 de haut, avec trois ponts."
       },
       {
-        "text": "Remercie Dieu pour la force donnée",
-        "feedback": "Genèse 6:9 — Noé marchait avec Dieu et Lui rendait grâce à chaque pas."
+        "text": "Un petit bateau rond avec un seul pont",
+        "feedback": "La Genèse donne des dimensions spécifiques ; l'arche n'était pas un petit bateau rond."
+      },
+      {
+        "text": "Un radeau, plat et ouvert au ciel",
+        "feedback": "La Genèse dit que l'arche avait un toit, trois ponts et une porte sur le côté."
       }
     ]
   },
   "animals": {
-    "title": "Deux par Deux",
-    "text": "Des créatures viennent de toutes les terres.\nDes lions à côté des agneaux. Des aigles à tes pieds.",
+    "title": "Les créatures viennent",
+    "text": "Les animaux arrivent à l'arche.\nQui prends-tu à bord ?",
     "choices": [
       {
-        "text": "Éloigne les dangereux",
-        "feedback": "La peur t'aveugle. Dieu les a tous envoyés."
+        "text": "Prends des paires de chaque espèce d'animal, mâle et femelle",
+        "feedback": "Genèse 7:8-9 — Des paires d'animaux purs et impurs, d'oiseaux et de reptiles vinrent à Noé, mâle et femelle."
       },
       {
-        "text": "Accueille chaque couple avec douceur",
-        "feedback": "Genèse 7:8-9 — Les animaux vinrent à Noé deux par deux, et il les accueillit."
+        "text": "Prends seulement des moutons et des chèvres",
+        "feedback": "La Genèse dit que toutes sortes d'animaux sont venus, pas seulement des moutons et des chèvres."
+      },
+      {
+        "text": "Ne prends aucun animal — seulement ta famille",
+        "feedback": "La Genèse dit que les animaux sont entrés dans l'arche avec Noé."
       }
     ]
   },
   "boarding": {
-    "title": "La Porte Se Ferme",
-    "text": "Ta famille est à l'intérieur. Les animaux s'installent.\nDieu Lui-même ferme la porte.",
+    "title": "La porte fermée",
+    "text": "Il est temps d'entrer dans l'arche.\nQui entre, et qui ferme la porte ?",
     "choices": [
       {
-        "text": "Cours les avertir à nouveau",
-        "feedback": "La porte est scellée. Le choix a été fait."
+        "text": "Entre avec ta femme, tes trois fils et leurs épouses ; l'Éternel ferme la porte",
+        "feedback": "Genèse 7:13, 16 — Noé, sa femme, ses trois fils et leurs femmes entrèrent dans l'arche, et l'Éternel ferma la porte sur lui."
       },
       {
-        "text": "Tiens la main de ta femme et attends",
-        "feedback": "Genèse 7:16 — Le Seigneur Lui-même ferma la porte de l'arche derrière Noé."
+        "text": "Entre seul dans l'arche, laissant ta famille derrière toi",
+        "feedback": "La Genèse dit que toute la maisonnée de Noé est entrée dans l'arche avec lui."
+      },
+      {
+        "text": "Reste dehors et ferme la porte de l'extérieur",
+        "feedback": "La Genèse dit que l'Éternel Lui-même a enfermé Noé dans l'arche."
       }
     ]
   },
   "storm": {
-    "title": "Les Cieux S'Ouvrent",
-    "text": "La pluie s'abat comme jamais auparavant.\nLes profondeurs éclatent. Le monde se noie.",
+    "title": "Quarante jours de pluie",
+    "text": "Les fenêtres des cieux s'ouvrent.\nQue se passe-t-il ?",
     "choices": [
       {
-        "text": "Maudis le ciel d'horreur",
-        "feedback": "Le son engloutit ton cri."
+        "text": "La pluie tombe sur la terre pendant quarante jours et quarante nuits",
+        "feedback": "Genèse 7:12 — La pluie tomba sur la terre quarante jours et quarante nuits."
       },
       {
-        "text": "Fais confiance à la justice et à la miséricorde de Dieu",
-        "feedback": "Genèse 7:23 — Noé fit confiance à Dieu tandis que le déluge recouvrait la terre."
+        "text": "Une seule tempête passe en un jour",
+        "feedback": "La Genèse dit que la pluie est tombée pendant quarante jours et quarante nuits."
       },
       {
-        "text": "Essaie de tirer des étrangers de l'eau",
-        "feedback": "La porte est scellée. Il n'y a rien à faire."
+        "text": "Seule une légère bruine tombe",
+        "feedback": "La Genèse décrit les fontaines des profondeurs jaillissant et les fenêtres des cieux s'ouvrant."
       }
     ]
   },
   "inside": {
-    "title": "Quarante Jours",
-    "text": "L'arche tangue. Les animaux respirent.\nLes jours se brouillent. Seul le craquement du bois demeure.",
+    "title": "Sur les eaux",
+    "text": "L'arche flotte sur les profondeurs.\nCombien de temps les eaux prévalent-elles sur la terre ?",
     "choices": [
       {
-        "text": "Prends soin des créatures avec attention",
-        "feedback": "Genèse 7:24 — Noé prit soin de sa famille et des animaux pendant 150 jours sur les eaux."
+        "text": "Les eaux inondent la terre pendant cent cinquante jours",
+        "feedback": "Genèse 7:24 — Les eaux inondèrent la terre pendant cent cinquante jours."
       },
       {
-        "text": "Assieds-toi seul et laisse le désespoir grandir",
-        "feedback": "Le silence t'oppresse. La foi s'estompe."
+        "text": "Les eaux se retirent en trois jours",
+        "feedback": "La Genèse dit que les eaux ont prévalu 150 jours avant de se retirer."
+      },
+      {
+        "text": "Tu diriges l'arche vers l'Éden",
+        "feedback": "La Genèse ne décrit pas Noé dirigeant l'arche ; Dieu la maintint à flot."
       }
     ]
   },
   "dove": {
-    "title": "La Colombe Revient",
-    "text": "Tu lâches une colombe. Des heures passent.\nElle revient — une feuille d'olivier dans son bec.",
+    "title": "La colombe revient",
+    "text": "Les eaux commencent à se retirer.\nComment sais-tu que la terre ferme est proche ?",
     "choices": [
       {
-        "text": "Doute — peut-être une branche égarée",
-        "feedback": "Même maintenant, le doute se bat pour te retenir."
+        "text": "Envoie une colombe ; elle revient avec une feuille d'olivier fraîche",
+        "feedback": "Genèse 8:11 — La colombe revint vers Noé le soir, avec une feuille d'olivier fraîchement cueillie."
       },
       {
-        "text": "Pleure — la vie continue de croître",
-        "feedback": "Genèse 8:11 — La colombe revint avec une feuille d'olivier — un signe de vie nouvelle."
+        "text": "Envoie un corbeau qui revient avec du grain",
+        "feedback": "La Genèse dit que la colombe — et non le corbeau — a rapporté une feuille d'olivier."
+      },
+      {
+        "text": "Ouvre le toit et regarde de tes propres yeux seulement",
+        "feedback": "La Genèse dit que Noé a envoyé des oiseaux pour vérifier si les eaux avaient baissé."
       }
     ]
   },
   "dry_land": {
-    "title": "Terre Sous Tes Pieds",
-    "text": "La porte s'ouvre. Le soleil inonde.\nTu marches sur une boue chaude et vivante.",
+    "title": "La terre sous tes pieds",
+    "text": "Le Seigneur te dit de sortir de l'arche.\nQue fais-tu en premier sur la terre ferme ?",
     "choices": [
       {
-        "text": "Précipite-toi pour revendiquer la nouvelle terre",
-        "feedback": "La terre n'a jamais été tienne à revendiquer."
+        "text": "Construis un autel à l'Éternel et offre des sacrifices",
+        "feedback": "Genèse 8:20 — Noé bâtit un autel à l'Éternel et y offrit des holocaustes."
       },
       {
-        "text": "Agenouille-toi et construis un autel à Dieu",
-        "feedback": "Genèse 8:20 — Le premier geste de Noé sur la terre ferme fut de bâtir un autel au Seigneur."
+        "text": "Commence à construire une grande tour tout de suite",
+        "feedback": "La Genèse dit que le premier acte de Noé fut de construire un autel, pas une tour."
+      },
+      {
+        "text": "Refuse de quitter l'arche",
+        "feedback": "La Genèse dit que Noé est sorti de l'arche quand Dieu lui a dit de le faire."
       }
     ]
   },
   "covenant": {
-    "title": "L'Arc-en-Ciel",
-    "text": "Un arc-en-ciel traverse le ciel.\n« Plus jamais. C'est mon alliance avec toi. »",
+    "title": "L'arc-en-ciel",
+    "text": "Un arc-en-ciel s'étend dans le ciel.\n« Jamais plus je n'inonderai la terre. Ceci est mon alliance avec toi. »",
     "choices": []
   }
 }

@@ -2,159 +2,187 @@
   "storyTitle": "Noah und die Sintflut",
   "start": {
     "title": "Die Stimme von oben",
-    "text": "Eine Stimme erfüllt den Himmel.\n„Noah – baue eine Arche. Eine Flut kommt.“",
+    "text": "Gott spricht zu dir.\n„Baue dir eine Arche. Eine Flut wird kommen.“",
     "choices": [
       {
-        "text": "Zweifel — das kann nicht wahr sein",
-        "feedback": "Die Stimme verblasst. Doch die Schwere in deiner Brust bleibt."
+        "text": "Empfange Gottes Befehl, eine Arche aus Zypressenholz zu bauen",
+        "feedback": "Genesis 6,14, 22 – Gott befahl Noah, eine Arche aus Zypressenholz zu bauen, und Noah tat alles, wie Gott es ihm befohlen hatte."
       },
       {
-        "text": "„Hier bin ich. Ich werde gehorchen.“",
-        "feedback": "Genesis 6:22 — Noah tat alles, wie Gott es ihm geboten hatte."
+        "text": "Den Befehl verweigern und das Land fliehen",
+        "feedback": "Die Genesis sagt, Noah gehorchte Gott; er floh nicht."
       },
       {
-        "text": "Frage, warum du auserwählt wurdest",
-        "feedback": "Keine Antwort kommt. Nur der Befehl bleibt."
+        "text": "Ein bestehendes Schiff von einem Händler kaufen",
+        "feedback": "Die Genesis sagt, Noah baute die Arche selbst, wie Gott es ihm aufgetragen hatte."
       }
     ]
   },
   "mockery": {
-    "title": "Stimmen der Menge",
-    "text": "Dorfbewohner versammeln sich, lachend.\n„Ein Boot? Hier? Du bist verrückt, alter Mann.“",
+    "title": "Eine zuschauende Welt",
+    "text": "Die Welt um dich herum ist verdorben und gewalttätig.\nSie beobachten dich beim Bau. Wie reagierst du?",
     "choices": [
       {
-        "text": "Schreie wütend zurück",
-        "feedback": "Deine Worte nähren nur ihren Spott."
+        "text": "Die Arche im Glauben weiterbauen",
+        "feedback": "Hebräer 11,7 – Durch Glauben baute Noah die Arche in ehrfürchtiger Furcht, obwohl er vor Dingen gewarnt wurde, die noch nicht sichtbar waren."
       },
       {
-        "text": "Bleibe still und arbeite weiter",
-        "feedback": "Hebräer 11:7 — Durch Glauben baute Noah die Arche weiter, trotz des Spotts der Welt."
+        "text": "Die Arche aufgeben, um der Menge zu gefallen",
+        "feedback": "Die Schrift sagt, Noah baute im Glauben weiter."
       },
       {
-        "text": "Bitte sie, zu glauben",
-        "feedback": "Sie kehren dir den Rücken zu. Du bist allein im Glauben."
+        "text": "Die Spötter angreifen, um sie zum Schweigen zu bringen",
+        "feedback": "Die Schrift beschreibt nicht, dass Noah jemanden angegriffen hat."
       }
     ]
   },
   "building": {
     "title": "Zypressenholz und Pech",
-    "text": "Jahre des Schwitzens. Holz splittert. Pech dichtet.\nDein Rücken schmerzt, doch die Arche wächst.",
+    "text": "Du sammelst die Materialien, die Gott befohlen hat.\nWie baust du die Arche?",
     "choices": [
       {
-        "text": "Ruhe dich eine Weile aus, die Arbeit ist endlos",
-        "feedback": "Zweifel schleichen sich mit der Stille ein."
+        "text": "Baue sie aus Zypressenholz, innen und außen mit Pech bestrichen",
+        "feedback": "Genesis 6,14 – Mache dir eine Arche aus Zypressenholz; bestreiche sie innen und außen mit Pech."
       },
       {
-        "text": "Mache weiter — Gott hat es befohlen",
-        "feedback": "Genesis 6:14-16 — Noah baute die Arche aus Zypressenholz genau nach Gottes Anweisung."
+        "text": "Baue sie aus behauenem Stein",
+        "feedback": "Die Genesis sagt, die Arche wurde aus Zypressenholz gebaut, nicht aus Stein."
+      },
+      {
+        "text": "Flechte sie aus Schilf wie einen Korb",
+        "feedback": "Die Genesis sagt, die Arche wurde aus Zypressenholz gefertigt und mit Pech versiegelt."
       }
     ]
   },
   "ark_done": {
-    "title": "Sie steht vollendet",
-    "text": "Die Arche ragt über dir auf.\nDeine Familie versammelt sich, schweigend vor dem Holz.",
+    "title": "Sie steht vollendet da",
+    "text": "Die Arche ist fertig, genau wie Gott es befohlen hat.\nWie sieht sie aus?",
     "choices": [
       {
-        "text": "Prahle vor der zuschauenden Menge",
-        "feedback": "Stolz vergiftet die Arbeit. Du fängst dich selbst."
+        "text": "300 Ellen lang, 50 breit, 30 hoch, mit drei Decks",
+        "feedback": "Genesis 6,15-16 – Die Arche war 300 Ellen lang, 50 breit, 30 hoch, mit drei Decks."
       },
       {
-        "text": "Dank Gott für die gegebene Kraft",
-        "feedback": "Genesis 6:9 — Noah wandelte mit Gott und dankte Ihm für jeden Schritt."
+        "text": "Ein kleines rundes Boot mit einem Deck",
+        "feedback": "Die Genesis gibt genaue Maße an; die Arche war kein kleines rundes Boot."
+      },
+      {
+        "text": "Ein Floß, flach und zum Himmel offen",
+        "feedback": "Die Genesis sagt, die Arche hatte ein Dach, drei Decks und eine Tür an der Seite."
       }
     ]
   },
   "animals": {
-    "title": "Zwei und zwei",
-    "text": "Kreaturen kommen aus jedem Land.\nLöwen neben Lämmern. Adler zu deinen Füßen.",
+    "title": "Die Kreaturen kommen",
+    "text": "Die Tiere kommen zur Arche.\nWen nimmst du an Bord?",
     "choices": [
       {
-        "text": "Vertreibe die Gefährlichen",
-        "feedback": "Angst blendet dich. Gott sandte jeden Einzelnen."
+        "text": "Nimm Paare von jeder Tierart, männlich und weiblich",
+        "feedback": "Genesis 7,8-9 – Paare von reinen und unreinen Tieren, Vögeln und Kriechtieren kamen zu Noah, männlich und weiblich."
       },
       {
-        "text": "Begrüße jedes Paar sanft",
-        "feedback": "Genesis 7:8-9 — Die Tiere kamen paarweise zu Noah, und er nahm sie auf."
+        "text": "Nimm nur Schafe und Ziegen",
+        "feedback": "Die Genesis sagt, jede Art von Tier kam, nicht nur Schafe und Ziegen."
+      },
+      {
+        "text": "Nimm keine Tiere – nur deine Familie",
+        "feedback": "Die Genesis sagt, die Tiere kamen mit Noah in die Arche."
       }
     ]
   },
   "boarding": {
-    "title": "Die Tür schließt sich",
-    "text": "Deine Familie ist drinnen. Die Tiere beruhigen sich.\nGott selbst schließt die Tür.",
+    "title": "Die Tür geschlossen",
+    "text": "Es ist Zeit, die Arche zu betreten.\nWer betritt sie, und wer schließt die Tür?",
     "choices": [
       {
-        "text": "Lauf zurück, um sie noch einmal zu warnen",
-        "feedback": "Die Tür ist versiegelt. Die Entscheidung ist getroffen."
+        "text": "Gehe mit deiner Frau, deinen drei Söhnen und ihren Frauen hinein; der Herr verschließt die Tür.",
+        "feedback": "1. Mose 7,13, 16 – Noah, seine Frau, seine drei Söhne und ihre Frauen gingen in die Arche, und der Herr schloss sie ein."
       },
       {
-        "text": "Halte die Hand deiner Frau und warte",
-        "feedback": "Genesis 7:16 — Der Herr selbst schloss die Tür der Arche hinter Noah."
+        "text": "Betritt die Arche allein und lass deine Familie zurück.",
+        "feedback": "Die Genesis sagt, dass Noahs ganzer Hausstand mit ihm in die Arche ging."
+      },
+      {
+        "text": "Bleibe draußen und schließe die Tür von außen.",
+        "feedback": "Die Genesis sagt, dass der Herr selbst Noah in der Arche einschloss."
       }
     ]
   },
   "storm": {
-    "title": "Die Himmel öffnen sich",
-    "text": "Regen prasselt wie nie zuvor gesehen.\nDie Tiefe bricht auf. Die Welt ertrinkt.",
+    "title": "Vierzig Tage Regen",
+    "text": "Die Fenster des Himmels öffnen sich.\nWas geschieht?",
     "choices": [
       {
-        "text": "Verfluche den Himmel vor Entsetzen",
-        "feedback": "Das Geräusch verschluckt deinen Schrei."
+        "text": "Regen fällt vierzig Tage und vierzig Nächte auf die Erde.",
+        "feedback": "1. Mose 7,12 – Und der Regen fiel auf die Erde vierzig Tage und vierzig Nächte."
       },
       {
-        "text": "Vertraue darauf, dass Gott gerecht und barmherzig ist",
-        "feedback": "Genesis 7:23 — Noah vertraute Gott, während die Flut die Erde bedeckte."
+        "text": "Ein einzelner Sturm zieht an einem Tag vorüber.",
+        "feedback": "Die Genesis sagt, dass der Regen vierzig Tage und Nächte fiel."
       },
       {
-        "text": "Versuche, Fremde aus dem Wasser zu ziehen",
-        "feedback": "Die Tür ist versiegelt. Es gibt nichts zu tun."
+        "text": "Es fällt nur ein leichter Nieselregen.",
+        "feedback": "Die Genesis beschreibt, wie die Quellen der Tiefe aufbrachen und die Fenster des Himmels sich öffneten."
       }
     ]
   },
   "inside": {
-    "title": "Vierzig Tage",
-    "text": "Die Arche schaukelt. Die Tiere atmen.\nTage verschwimmen. Nur das Knarren des Holzes bleibt.",
+    "title": "Auf den Wassern",
+    "text": "Die Arche schwimmt auf der Tiefe.\nWie lange bleiben die Wasser auf der Erde?",
     "choices": [
       {
-        "text": "Kümmere dich sorgfältig um die Kreaturen",
-        "feedback": "Genesis 7:24 — Noah versorgte seine Familie und die Tiere 150 Tage lang auf dem Wasser."
+        "text": "Die Wasser überfluten die Erde hundertfünfzig Tage lang.",
+        "feedback": "1. Mose 7,24 – Und die Wasser blieben hundertfünfzig Tage lang auf der Erde."
       },
       {
-        "text": "Sitze allein und lass die Verzweiflung wachsen",
-        "feedback": "Die Stille drückt auf dich. Der Glaube schwindet."
+        "text": "Die Wasser gehen in drei Tagen zurück.",
+        "feedback": "Die Genesis sagt, dass die Wasser 150 Tage lang blieben, bevor sie zurückgingen."
+      },
+      {
+        "text": "Du steuerst die Arche zurück nach Eden.",
+        "feedback": "Die Genesis beschreibt nicht, dass Noah die Arche steuerte; Gott hielt sie über Wasser."
       }
     ]
   },
   "dove": {
     "title": "Die Taube kehrt zurück",
-    "text": "Du lässt eine Taube frei. Stunden vergehen.\nSie kommt zurück – ein Olivenblatt im Schnabel.",
+    "text": "Die Wasser beginnen zurückzugehen.\nWoher weißt du, dass trockenes Land nahe ist?",
     "choices": [
       {
-        "text": "Zweifel — vielleicht ein verirrtes Ästchen",
-        "feedback": "Selbst jetzt kämpft der Zweifel, dich festzuhalten."
+        "text": "Sende eine Taube aus; sie kehrt mit einem frischen Olivenblatt zurück.",
+        "feedback": "1. Mose 8,11 – Und die Taube kam am Abend zu ihm zurück, und siehe, ein frisches Olivenblatt war in ihrem Schnabel."
       },
       {
-        "text": "Weine — das Leben wächst noch",
-        "feedback": "Genesis 8:11 — Die Taube kehrte mit einem Ölblatt zurück — ein Zeichen neuen Lebens."
+        "text": "Sende einen Raben aus, der mit Getreide zurückkehrt.",
+        "feedback": "Die Genesis sagt, dass die Taube – nicht der Rabe – ein Olivenblatt zurückbrachte."
+      },
+      {
+        "text": "Öffne das Dach und schaue nur mit deinen eigenen Augen.",
+        "feedback": "Die Genesis sagt, dass Noah Vögel aussandte, um zu prüfen, ob die Wasser zurückgegangen waren."
       }
     ]
   },
   "dry_land": {
     "title": "Erde unter deinen Füßen",
-    "text": "Die Tür öffnet sich. Sonne strömt herein.\nDu trittst auf warmen, lebendigen Schlamm.",
+    "text": "Der Herr befiehlt dir, die Arche zu verlassen.\nWas tust du zuerst auf trockenem Land?",
     "choices": [
       {
-        "text": "Eile, das neue Land zu beanspruchen",
-        "feedback": "Das Land war nie deins, um es zu beanspruchen."
+        "text": "Baue einen Altar für den Herrn und bringe Opfer dar.",
+        "feedback": "1. Mose 8,20 – Und Noah baute dem Herrn einen Altar und opferte Brandopfer darauf."
       },
       {
-        "text": "Knie nieder und baue Gott einen Altar",
-        "feedback": "Genesis 8:20 — Noahs erste Tat auf trockenem Land war der Bau eines Altars für den Herrn."
+        "text": "Beginne sofort mit dem Bau eines großen Turms.",
+        "feedback": "Die Genesis sagt, dass Noahs erste Tat der Bau eines Altars war, nicht eines Turms."
+      },
+      {
+        "text": "Weigere dich, die Arche zu verlassen.",
+        "feedback": "Die Genesis sagt, dass Noah aus der Arche kam, als Gott es ihm befahl."
       }
     ]
   },
   "covenant": {
     "title": "Der Regenbogen",
-    "text": "Ein Regenbogen spannt sich über den Himmel.\n„Nie wieder. Dies ist mein Bund mit dir.“",
+    "text": "Ein Regenbogen spannt sich über den Himmel.\n„Nie wieder werde ich die Erde überfluten. Dies ist mein Bund mit dir.“",
     "choices": []
   }
 }

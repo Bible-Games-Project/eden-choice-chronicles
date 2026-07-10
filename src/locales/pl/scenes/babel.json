@@ -1,164 +1,188 @@
 {
   "storyTitle": "Wieża Babel",
   "start": {
-    "title": "Równina Szinar",
-    "text": "Przed tobą rozciąga się szeroka, zielona równina.\nCała ludzkość zebrała się tutaj — jeden naród, jeden język.",
+    "title": "Jeden Język",
+    "text": "Cała ziemia ma jeden język i wspólną mowę.\nGdzie osiedlają się ludzie?",
     "choices": [
       {
-        "text": "Osiedl się i zbuduj dom",
-        "feedback": "Wpuszczasz korzenie w ziemię. To wydaje się właściwe."
+        "text": "Osiedl się na równinie Szinar",
+        "feedback": "Księga Rodzaju 11:2 — Wędrując na wschód, znaleźli równinę w Szinarze i tam się osiedlili."
       },
       {
-        "text": "Marz o czymś większym",
-        "feedback": "Rodzaju 11:2 — Ludzie osiedlili się na równinie Szinear i marzyli o wielkości."
+        "text": "Płyń na wschód przez wielkie morze",
+        "feedback": "Księga Rodzaju mówi, że ludzie osiedlili się na równinie Szinar."
+      },
+      {
+        "text": "Rozprosz się natychmiast po ziemi",
+        "feedback": "Ludzie jeszcze się nie rozproszyli — to nastąpiło później, jako sąd."
       }
     ]
   },
   "unity": {
-    "title": "Jeden język",
-    "text": "Głosy się zlewają. Śmiech unosi się w powietrzu.\nNie ma słowa, którego byś nie zrozumiał.",
+    "title": "Jedna Mowa",
+    "text": "Patrzysz na swoich sąsiadów.\nJak wszyscy mówicie?",
     "choices": [
       {
-        "text": "Chwal Boga za dar jedności",
-        "feedback": "Podnosisz głos w podzięce. Inni pochylają głowy."
+        "text": "Wszyscy mówicie tym samym językiem, jedną wspólną mową",
+        "feedback": "Księga Rodzaju 11:1 — Cała ziemia miała jeden język i jedną wspólną mowę."
       },
       {
-        "text": "Chwal się tym, co moglibyśmy osiągnąć",
-        "feedback": "Rodzaju 11:4 — Rzekli: „Uczyńmy sobie imię”."
+        "text": "Każda rodzina mówi innym językiem",
+        "feedback": "Księga Rodzaju mówi, że w tym momencie wszyscy mówili jednym językiem."
       },
       {
-        "text": "Milcz — słuchaj starszych",
-        "feedback": "Mądre głosy mówią cicho. Inni krzyczą głośniej."
+        "text": "Nikt w ogóle nie mówi",
+        "feedback": "Księga Rodzaju mówi, że ludzie mówili — jedną wspólną mową."
       }
     ]
   },
   "proposal": {
-    "title": "Wielki pomysł",
-    "text": "Starszy wstaje. „Zbudujmy wieżę – jej szczyt sięgnie nieba.”\n„Uczyńmy sobie imię.”",
+    "title": "Propozycja",
+    "text": "Ludzie się zbierają.\nCo proponują zbudować?",
     "choices": [
       {
-        "text": "Wiwatuj — dołącz do wielkiego dzieła",
-        "feedback": "Rodzaju 11:3-4 — Lud zjednoczył się, by zbudować miasto i wielką wieżę."
+        "text": "„Zbudujmy miasto i wieżę, której wierzchołek sięga nieba — i uczyńmy sobie imię”",
+        "feedback": "Księga Rodzaju 11:4 — Powiedzieli: „Chodźcie, zbudujmy sobie miasto i wieżę, której wierzchołek sięga nieba, abyśmy sobie uczynili imię”."
       },
       {
-        "text": "Wypowiedz się przeciwko temu — to pycha",
-        "feedback": "Niewielu cię słyszy. Ale słowa są wypowiedziane."
+        "text": "„Zbudujmy ołtarz dla Pana”",
+        "feedback": "Księga Rodzaju mówi, że zbudowali miasto i wieżę, aby sobie uczynić imię, a nie ołtarz."
       },
       {
-        "text": "Czekaj — niech inni zdecydują",
-        "feedback": "Cisza jest swoją własną odpowiedzią. Głosowanie przechodzi."
+        "text": "„Wróćmy i podróżujmy sami”",
+        "feedback": "Księga Rodzaju mówi, że ludzie pozostali razem, aby budować."
       }
     ]
   },
   "bricks": {
-    "title": "Cegły i smoła",
-    "text": "Formujesz mokrą glinę w cegły.\nSą mocniejsze niż kamień. Sięgną nieba.",
+    "title": "Cegły i Smoła",
+    "text": "Zbierasz materiały do wielkiego dzieła.\nJak budujesz?",
     "choices": [
       {
-        "text": "Pracuj z miłości do rzemiosła",
-        "feedback": "Rodzaju 11:3 — Wyrabiali cegły i używali smoły jako zaprawy do budowy wieży."
+        "text": "Rób cegły i wypalaj je dokładnie, używając smoły jako zaprawy",
+        "feedback": "Księga Rodzaju 11:3 — Powiedzieli: „Chodźcie, zróbmy cegły i wypalmy je dokładnie”. Używali cegieł zamiast kamienia i smoły jako zaprawy."
       },
       {
-        "text": "Ścigaj się z innymi — przewyższ ich",
-        "feedback": "Twoja szybkość zamienia się w lekkomyślność. Cegły pękają."
+        "text": "Wytnij kamienie z gór",
+        "feedback": "Księga Rodzaju mówi, że używali cegieł i smoły, a nie ciętych kamieni."
+      },
+      {
+        "text": "Upleć wieżę z trzcin",
+        "feedback": "Księga Rodzaju mówi, że używali wypalanych cegieł i smoły."
       }
     ]
   },
   "construction": {
-    "title": "Pierwsze piętra",
-    "text": "Mury wznoszą się. Wieża rzuca długi cień.\nMężczyźni śpiewają, podnosząc każdą belkę.",
+    "title": "Miasto i Wieża",
+    "text": "Praca się zaczyna.\nCo razem budujecie?",
     "choices": [
       {
-        "text": "Chwal się — „Nie potrzebujemy teraz Boga”",
-        "feedback": "Rodzaju 11:4 — Chełpili się, chcąc wznieść wieżę sięgającą nieba."
+        "text": "Zbuduj miasto i wieżę, której wierzchołek sięga nieba",
+        "feedback": "Księga Rodzaju 11:4-5 — Postanowili zbudować miasto i wieżę, której wierzchołek sięga nieba."
       },
       {
-        "text": "Pracuj cicho — odmów modlitwę",
-        "feedback": "Nikt nie słyszy. Ale modlitwa jest słyszana w górze."
+        "text": "Buduj oddzielne domy daleko od siebie",
+        "feedback": "Księga Rodzaju mówi, że zbudowali jedno miasto razem, a nie rozproszone domy."
+      },
+      {
+        "text": "Zbuduj most przez morze",
+        "feedback": "Księga Rodzaju mówi, że zbudowali miasto i wieżę, a nie most."
       }
     ]
   },
   "rising": {
-    "title": "Wyżej",
-    "text": "Rok po roku. Kamień po kamieniu.\nWieża przebija chmury.",
+    "title": "Coraz Wyżej",
+    "text": "Wieża wznosi się ku niebu.\nDlaczego ludzie wciąż budują?",
     "choices": [
       {
-        "text": "Wątp — czy powinniśmy przestać?",
-        "feedback": "Szepczesz to. Wiatr unosi słowa."
+        "text": "Aby uczynić sobie imię, aby nie zostali rozproszeni po ziemi",
+        "feedback": "Księga Rodzaju 11:4 — „Uczyńmy sobie imię, abyśmy nie zostali rozproszeni po całej ziemi”."
       },
       {
-        "text": "Wspinaj się wyżej — nie ma limitu",
-        "feedback": "Rodzaju 11:4-5 — Wieża rosła w pysze, aż Pan zstąpił, by ją zobaczyć."
+        "text": "Aby uczcić Pana, który stworzył niebiosa",
+        "feedback": "Księga Rodzaju mówi, że budowali, aby uczynić sobie imię, a nie aby uczcić Pana."
       },
       {
-        "text": "Żądaj od robotników, by przyspieszyli",
-        "feedback": "Nerwy puszczają. Ręce krwawią. Wieża pnie się w górę."
+        "text": "Aby ukryć się przed nadchodzącym potopem",
+        "feedback": "Bóg już obiecał, że nigdy więcej nie zatopi ziemi (Księga Rodzaju 9)."
       }
     ]
   },
   "summit": {
-    "title": "Dotykając nieba",
-    "text": "Stoisz na szczycie. Ziemia jest mała poniżej.\nNiebo wydaje się bliskie – niemal na wyciągnięcie ręki.",
+    "title": "Pan Zstępuje",
+    "text": "Wieża rośnie. Co dzieje się dalej?",
     "choices": [
       {
-        "text": "Sięgnij w górę — sięgnij po niebo",
-        "feedback": "Rodzaju 11:4 — Ich pycha sięgała wzwyż, by uczynić sobie imię."
+        "text": "Pan zstępuje, aby zobaczyć miasto i wieżę",
+        "feedback": "Księga Rodzaju 11:5 — Pan zstąpił, aby zobaczyć miasto i wieżę, którą budowali ludzie."
       },
       {
-        "text": "Uklęknij — poczuj się nagle mały",
-        "feedback": "Ogrom otchłani pochłania twoją dumę."
+        "text": "Wieża sięga nieba, a ludzie do niej wchodzą",
+        "feedback": "Księga Rodzaju nie mówi, że wieża sięgała nieba; Pan zstąpił, aby ją zobaczyć."
+      },
+      {
+        "text": "Aniołowie zstępują, aby pomóc robotnikom budować",
+        "feedback": "Księga Rodzaju nie opisuje aniołów pomagających w budowie."
       }
     ]
   },
   "gods_gaze": {
-    "title": "On Zstępuje",
-    "text": "Głos wypełnia powietrze, spokojny jak grom.\n„Są jednym ludem. Nic nie będzie dla nich niemożliwe.”",
+    "title": "Decyzja Pana",
+    "text": "Pan mówi o ludziach.\nCo postanawia uczynić?",
     "choices": [
       {
-        "text": "Stań wyzywająco przed głosem",
-        "feedback": "Rodzaju 11:6-7 — Bóg ujrzał ich pychę i postanowił pomieszać ich język."
+        "text": "„Chodźcie, zstąpmy i pomieszajmy ich język”",
+        "feedback": "Księga Rodzaju 11:6-7 — Pan powiedział: „Chodźcie, zstąpmy i pomieszajmy ich język, aby nie rozumieli się nawzajem”."
       },
       {
-        "text": "Pochyl głowę w strachu i podziwie",
-        "feedback": "Uginają się twoje kolana. Obecność jest wszędzie."
+        "text": "„Pochwalmy ich wspaniałe dzieło”",
+        "feedback": "Księga Rodzaju mówi, że Pan pomieszał ich język, a nie chwalił wieżę."
+      },
+      {
+        "text": "„Zniszczmy wieżę ogniem”",
+        "feedback": "Księga Rodzaju mówi, że Pan pomieszał ich język i rozproszył ich, a nie że zniszczył wieżę ogniem."
       }
     ]
   },
   "confusion": {
     "title": "Dziwne Słowa",
-    "text": "Krzyczysz do przyjaciela. On patrzy.\nJego usta otwierają się — ale dźwięki nie mają sensu.",
+    "text": "Odwracasz się do sąsiada i mówisz.\nCo się dzieje?",
     "choices": [
       {
-        "text": "Zmuś go do zrozumienia — krzycz głośniej",
-        "feedback": "Gniew tylko pogłębia przepaść między wami."
+        "text": "Nie możecie już rozumieć mowy jeden drugiego",
+        "feedback": "Księga Rodzaju 11:7 — Pan pomieszał ich język, aby nie mogli się nawzajem rozumieć."
       },
       {
-        "text": "Cofnij się — zaakceptuj to, co uczynił Bóg",
-        "feedback": "Rodzaju 11:7 — Bóg pomieszał ich język, aby nie rozumieli jeden drugiego."
+        "text": "Wszyscy nagle mówią jeszcze jaśniej",
+        "feedback": "Księga Rodzaju mówi, że ich mowa została pomylona, a nie wyjaśniona."
       },
       {
-        "text": "Obwiniaj starszych — wszcznij bójkę",
-        "feedback": "Pięści latają. Wieża krwawi ludźmi zamiast zaprawą."
+        "text": "Wszyscy milkną i nigdy więcej się nie odzywają",
+        "feedback": "Księga Rodzaju mówi, że języki zostały pomylone, a nie że mowa ustała."
       }
     ]
   },
   "scattering": {
-    "title": "Wyjście",
-    "text": "Rodziny zbierają, co mogą.\nKażda grupa idzie ku innemu horyzontowi.",
+    "title": "Rozproszeni po Ziemi",
+    "text": "Budowa ustaje.\nCo dzieje się z ludźmi?",
     "choices": [
       {
-        "text": "Przeklinaj niebiosa, odchodząc",
-        "feedback": "Gorycz to ciężki bagaż do udźwignięcia."
+        "text": "Pan rozprasza ich stamtąd po całej ziemi i przestają budować miasto",
+        "feedback": "Księga Rodzaju 11:8 — Pan rozproszył ich stamtąd po całej ziemi i przestali budować miasto."
       },
       {
-        "text": "Idź w milczeniu, z nauką w sercu",
-        "feedback": "Rodzaju 11:8 — Pan rozproszył ich stamtąd po całej ziemi."
+        "text": "Ludzie pozostają w Szinarze i kończą wieżę",
+        "feedback": "Księga Rodzaju mówi, że przestali budować i zostali rozproszeni."
+      },
+      {
+        "text": "Ludzie płyną z powrotem do Edenu",
+        "feedback": "Księga Rodzaju mówi, że zostali rozproszeni po całej ziemi, a nie że wrócili do Edenu."
       }
     ]
   },
   "reflection": {
-    "title": "Nowa Ziemia",
-    "text": "Zatrzymujesz się na cichym grzbiecie.\nWieża jest daleko za tobą — wspomnienie pychy.",
+    "title": "Babel",
+    "text": "Dlatego miasto nazwano Babel —\nbo tam Pan pomieszał język całej ziemi.",
     "choices": []
   }
 }

@@ -1,164 +1,188 @@
 {
   "storyTitle": "Babil Kulesi",
   "start": {
-    "title": "Şinar Ovası",
-    "text": "Geniş, yeşil bir ova uzanır önünde.\nTüm insanlık burada toplandı — tek halk, tek dil.",
+    "title": "Tek Dil",
+    "text": "Bütün yeryüzünde tek dil ve ortak bir konuşma vardı.\nİnsanlar nereye yerleşiyor?",
     "choices": [
       {
-        "text": "Yerleş ve bir yuva kur",
-        "feedback": "Toprağa kök salarsın. Bu doğru hissettirir."
+        "text": "Şinar ovasına yerleşin",
+        "feedback": "Yaratılış 11:2 — Doğuya doğru göç ederken, Şinar'da bir ova buldular ve oraya yerleştiler."
       },
       {
-        "text": "Daha büyük bir şey hayal et",
-        "feedback": "Yaratılış 11:2 — İnsanlar Şinar Ovası'na yerleşti ve büyüklüğün hayalini kurdu."
+        "text": "Büyük bir denizin üzerinden doğuya doğru yelken açın",
+        "feedback": "Yaratılış, insanların Şinar ovasına yerleştiğini söyler."
+      },
+      {
+        "text": "Hemen yeryüzüne dağılın",
+        "feedback": "İnsanlar henüz dağılmamıştı — bu daha sonra, bir yargı olarak geldi."
       }
     ]
   },
   "unity": {
-    "title": "Tek Dil",
-    "text": "Sesler karışır. Kahkahalar yükselir.\nAnlamadığın hiçbir kelime yok.",
+    "title": "Tek Konuşma",
+    "text": "Komşularına bakıyorsun.\nHepiniz nasıl konuşuyorsunuz?",
     "choices": [
       {
-        "text": "Birlik armağanı için Tanrı'ya şükret",
-        "feedback": "Şükranla sesini yükseltirsin. Diğerleri başlarını eğer."
+        "text": "Hepiniz aynı dili, ortak bir konuşmayı konuşuyorsunuz",
+        "feedback": "Yaratılış 11:1 — Bütün dünya tek bir dile ve ortak bir konuşmaya sahipti."
       },
       {
-        "text": "Neler başarabileceğimizi övün",
-        "feedback": "Yaratılış 11:4 — “Kendimize bir ad yapalım” dediler."
+        "text": "Her aile farklı bir dil konuşuyor",
+        "feedback": "Yaratılış, bu noktada herkesin tek bir dil konuştuğunu söyler."
       },
       {
-        "text": "Sessiz kal — yaşlıları dinle",
-        "feedback": "Bilge sesler nazikçe konuşur. Diğerleri daha yüksek sesle bağırır."
+        "text": "Kimse hiç konuşmuyor",
+        "feedback": "Yaratılış, insanların konuştuğunu söyler — ortak bir konuşmayla."
       }
     ]
   },
   "proposal": {
-    "title": "Büyük Fikir",
-    "text": "Bir ihtiyar ayağa kalkar. \"Haydi bir kule inşa edelim — tepesi göklerde olsun.\"\n\"Kendimize bir isim yapalım.\"",
+    "title": "Teklif",
+    "text": "İnsanlar toplanır.\nNe inşa etmeyi teklif ediyorlar?",
     "choices": [
       {
-        "text": "Tezahürat yap — büyük işe katıl",
-        "feedback": "Yaratılış 11:3-4 — Halk bir şehir ve büyük bir kule yapmak için birleşti."
+        "text": "'Haydi bir şehir ve göklere ulaşan bir kule inşa edelim — ve kendimize bir isim yapalım'",
+        "feedback": "Yaratılış 11:4 — Dediler ki: 'Haydi kendimize bir şehir ve tepesi göklere ulaşan bir kule yapalım ki kendimize bir isim yapalım.'"
       },
       {
-        "text": "Buna karşı konuş — bu gururdur",
-        "feedback": "Çok az kişi seni duyar. Ama sözler söylenmiştir."
+        "text": "'Rab'be bir sunak inşa edelim'",
+        "feedback": "Yaratılış, kendilerine bir isim yapmak için bir şehir ve kule inşa ettiklerini, bir sunak değil."
       },
       {
-        "text": "Bekle — başkaları karar versin",
-        "feedback": "Sessizlik kendi cevabıdır. Oylama geçer."
+        "text": "'Geri dönüp yalnız seyahat edelim'",
+        "feedback": "Yaratılış, insanların inşa etmek için bir arada kaldığını söyler."
       }
     ]
   },
   "bricks": {
     "title": "Tuğlalar ve Zift",
-    "text": "Islak kili tuğlalara dönüştürürsün.\nTaştan daha güçlüler. Gökyüzüne ulaşacaklar.",
+    "text": "Büyük iş için malzemeleri topluyorsun.\nNasıl inşa ediyorsun?",
     "choices": [
       {
-        "text": "Zanaat sevgisi için çalış",
-        "feedback": "Yaratılış 11:3 — Kule için tuğla yaptılar ve harç yerine zift kullandılar."
+        "text": "Tuğlalar yapın ve iyice pişirin, harç olarak zift kullanın",
+        "feedback": "Yaratılış 11:3 — Dediler ki: 'Haydi tuğlalar yapalım ve iyice pişirelim.' Taş yerine tuğla, harç olarak da zift kullandılar."
       },
       {
-        "text": "Diğerleriyle yarış — onları geride bırak",
-        "feedback": "Hızın pervasızlığa dönüşür. Tuğlalar çatlar."
+        "text": "Dağlardan taş kesin",
+        "feedback": "Yaratılış, kesme taşlar değil, tuğla ve zift kullandıklarını söyler."
+      },
+      {
+        "text": "Kuleyi sazlıklardan örün",
+        "feedback": "Yaratılış, pişmiş tuğla ve zift kullandıklarını söyler."
       }
     ]
   },
   "construction": {
-    "title": "İlk Katlar",
-    "text": "Duvarlar yükselir. Kule uzun bir gölge düşürür.\nAdamlar her kirişi kaldırırken şarkı söyler.",
+    "title": "Şehir ve Kule",
+    "text": "İş başlıyor.\nBirlikte ne inşa ediyorsunuz?",
     "choices": [
       {
-        "text": "Övün — \"Şimdi Tanrı'ya ihtiyacımız yok\"",
-        "feedback": "Yaratılış 11:4 — Övündüler ve tepesi göğe erişen bir kule istediler."
+        "text": "Tepesi göklerde olan bir şehir ve kule inşa edin",
+        "feedback": "Yaratılış 11:4-5 — Tepesi göklerde olan bir şehir ve kule inşa etmeye koyuldular."
       },
       {
-        "text": "Sessizce çalış — bir dua et",
-        "feedback": "Kimse duymaz. Ama dua yukarıda duyulur."
+        "text": "Birbirinden uzak ayrı evler inşa edin",
+        "feedback": "Yaratılış, dağınık evler değil, birlikte tek bir şehir inşa ettiklerini söyler."
+      },
+      {
+        "text": "Deniz üzerinden bir köprü inşa edin",
+        "feedback": "Yaratılış, bir köprü değil, bir şehir ve kule inşa ettiklerini söyler."
       }
     ]
   },
   "rising": {
-    "title": "Daha Yüksek",
-    "text": "Yıl be yıl. Taş üstüne taş.\nKule bulutları deler.",
+    "title": "Daha Yüksek ve Daha Yüksek",
+    "text": "Kule gökyüzüne yükseliyor.\nİnsanlar neden inşa etmeye devam ediyor?",
     "choices": [
       {
-        "text": "Şüphe et — durmalı mıyız?",
-        "feedback": "Fısıldarsın. Rüzgar sözleri alıp götürür."
+        "text": "Kendilerine bir isim yapmak için, böylece yeryüzüne dağılmayacaklar",
+        "feedback": "Yaratılış 11:4 — 'Kendimize bir isim yapalım ki bütün yeryüzüne dağılmayalım.'"
       },
       {
-        "text": "Daha yükseğe tırman — sınır yok",
-        "feedback": "Yaratılış 11:4-5 — Kule gururla yükseldi, ta ki Rab görmek için indi."
+        "text": "Göğü yaratan Rab'bi onurlandırmak için",
+        "feedback": "Yaratılış, Rab'bi onurlandırmak için değil, kendilerine bir isim yapmak için inşa ettiklerini söyler."
       },
       {
-        "text": "İşçilerden daha hızlı olmalarını isteyin",
-        "feedback": "Gerginlik artar. Eller kanar. Kule yükselir."
+        "text": "Gelen bir selden saklanmak için",
+        "feedback": "Tanrı zaten yeryüzünü bir daha asla sular altında bırakmayacağına söz vermişti (Yaratılış 9)."
       }
     ]
   },
   "summit": {
-    "title": "Gökyüzüne Dokunmak",
-    "text": "Zirvede duruyorsun. Dünya aşağıda küçücük.\nGökler yakın hissediliyor — neredeyse ulaşılabilir.",
+    "title": "Rab İniyor",
+    "text": "Kule yükseliyor. Sonra ne oluyor?",
     "choices": [
       {
-        "text": "Yukarıya uzan — gökyüzünü ele geçir",
-        "feedback": "Yaratılış 11:4 — Gururları, kendilerine ad yapmak için yukarıya uzandı."
+        "text": "Rab şehri ve kuleyi görmek için aşağı iner",
+        "feedback": "Yaratılış 11:5 — Rab, insanların inşa ettiği şehri ve kuleyi görmek için aşağı indi."
       },
       {
-        "text": "Diz çök — aniden küçücük hisset",
-        "feedback": "Yukarıdaki enginlik gururunu yutar."
+        "text": "Kule cennete ulaşır ve insanlar ona girer",
+        "feedback": "Yaratılış, kulenin cennete ulaştığını söylemez; Rab onu görmek için aşağı indi."
+      },
+      {
+        "text": "Melekler işçilere yardım etmek için iner",
+        "feedback": "Yaratılış, meleklerin inşa etmeye yardım ettiğini anlatmaz."
       }
     ]
   },
   "gods_gaze": {
-    "title": "O İniyor",
-    "text": "Sakin, gök gürültüsü gibi bir ses havayı doldurur.\n\"Onlar tek bir halk. Onlar için hiçbir şey imkansız olmayacak.\"",
+    "title": "Rab'bin Kararı",
+    "text": "Rab insanlar hakkında konuşuyor.\nNe yapmaya karar veriyor?",
     "choices": [
       {
-        "text": "Sese karşı meydan okurcasına dur",
-        "feedback": "Yaratılış 11:6-7 — Tanrı gururlarını gördü ve dillerini karıştırmaya karar verdi."
+        "text": "'Haydi inelim ve dillerini karıştıralım'",
+        "feedback": "Yaratılış 11:6-7 — Rab dedi ki: 'Haydi inelim ve dillerini karıştıralım ki birbirlerini anlamasınlar.'"
       },
       {
-        "text": "Korku ve huşu içinde başını eğ",
-        "feedback": "Dizlerin titrer. Varlık her yerdedir."
+        "text": "'Büyük eserlerini övelim'",
+        "feedback": "Yaratılış, Rab'bin dillerini karıştırdığını, kuleyi övmediğini söyler."
+      },
+      {
+        "text": "'Kuleyi ateşle yok edelim'",
+        "feedback": "Yaratılış, Rab'bin dillerini karıştırdığını ve onları dağıttığını, kuleyi ateşle yok etmediğini söyler."
       }
     ]
   },
   "confusion": {
     "title": "Garip Sözler",
-    "text": "Arkadaşına seslenirsin. O sana bakar.\nAğzı açılır — ama çıkan sesler anlamsızdır.",
+    "text": "Komşuna dönüp konuşuyorsun.\nNe oluyor?",
     "choices": [
       {
-        "text": "Onu anlamaya zorla — daha yüksek sesle bağır",
-        "feedback": "Öfke aranızdaki boşluğu sadece derinleştirir."
+        "text": "Artık birbirinizin konuşmasını anlayamıyorsunuz",
+        "feedback": "Yaratılış 11:7 — Rab dillerini karıştırdı ki birbirlerini anlayamasınlar."
       },
       {
-        "text": "Geri çekil — Tanrı'nın yaptığını kabul et",
-        "feedback": "Yaratılış 11:7 — Tanrı, birbirlerini anlamasınlar diye dillerini karıştırdı."
+        "text": "Herkes aniden daha da net konuşmaya başlar",
+        "feedback": "Yaratılış, konuşmalarının karıştığını, netleşmediğini söyler."
       },
       {
-        "text": "İleri gelenleri suçla — kavga başlat",
-        "feedback": "Yumruklar uçar. Kule harç yerine adam kanatır."
+        "text": "Herkes susar ve bir daha asla konuşmaz",
+        "feedback": "Yaratılış, dillerin karıştığını, konuşmanın sona ermediğini söyler."
       }
     ]
   },
   "scattering": {
-    "title": "Dışarı Çıkış",
-    "text": "Aileler toplayabildiklerini toplar.\nHer grup farklı bir ufka doğru yürür.",
+    "title": "Yeryüzüne Dağılmış",
+    "text": "İnşaat durur.\nİnsanlara ne olur?",
     "choices": [
       {
-        "text": "Giderken gökleri lanetle",
-        "feedback": "Acı, taşınması ağır bir yüktür."
+        "text": "Rab onları oradan bütün yeryüzüne dağıtır ve şehri inşa etmeyi bırakırlar",
+        "feedback": "Yaratılış 11:8 — Rab onları oradan bütün yeryüzüne dağıttı ve şehri inşa etmeyi bıraktılar."
       },
       {
-        "text": "Sessizlik içinde yürü, ders kalbinde",
-        "feedback": "Yaratılış 11:8 — Rab onları oradan bütün yeryüzüne dağıttı."
+        "text": "Halk Şinar'da kalır ve kuleyi bitirir",
+        "feedback": "Yaratılış, inşa etmeyi bıraktıklarını ve dağıtıldıklarını söyler."
+      },
+      {
+        "text": "Halk gemilerle Aden'e geri döner",
+        "feedback": "Yaratılış, onların bütün yeryüzüne dağıtıldığını, Aden'e dönmediklerini söyler."
       }
     ]
   },
   "reflection": {
-    "title": "Yeni Bir Toprak",
-    "text": "Sessiz bir sırtta durursun.\nKule çok geride kalmıştır — gururun bir hatırası.",
+    "title": "Babil",
+    "text": "Bu yüzden şehre Babil dendi —\nçünkü Rab bütün dünyanın dilini orada karıştırdı.",
     "choices": []
   }
 }

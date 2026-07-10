@@ -1,164 +1,188 @@
 {
   "storyTitle": "Der Turm zu Babel",
   "start": {
-    "title": "Die Ebene Schinar",
-    "text": "Eine weite grüne Ebene erstreckt sich vor dir.\nDie ganze Menschheit hat sich hier versammelt – ein Volk, eine Zunge.",
+    "title": "Eine Sprache",
+    "text": "Die ganze Erde hat eine Sprache und eine gemeinsame Sprechweise.\nWo lassen sich die Menschen nieder?",
     "choices": [
       {
-        "text": "Sich niederlassen und ein Zuhause bauen",
-        "feedback": "Du schlägst Wurzeln in die Erde. Es fühlt sich richtig an."
+        "text": "Siedelt euch in der Ebene Schinar an",
+        "feedback": "1. Mose 11,2 — Als die Menschen nach Osten zogen, fanden sie eine Ebene in Schinar und ließen sich dort nieder."
       },
       {
-        "text": "Von etwas Größerem träumen",
-        "feedback": "Genesis 11:2 — Die Menschen ließen sich in der Ebene Schinar nieder und träumten von Größe."
+        "text": "Segelt nach Osten über ein großes Meer",
+        "feedback": "Die Genesis sagt, die Menschen ließen sich in der Ebene Schinar nieder."
+      },
+      {
+        "text": "Verteilt euch sofort über die Erde",
+        "feedback": "Die Menschen zerstreuten sich noch nicht – das kam später, als Gericht."
       }
     ]
   },
   "unity": {
-    "title": "Eine Zunge",
-    "text": "Stimmen verschmelzen. Gelächter steigt auf.\nEs gibt kein Wort, das du nicht verstehen kannst.",
+    "title": "Eine Sprechweise",
+    "text": "Du siehst deine Nachbarn an.\nWie sprecht ihr alle?",
     "choices": [
       {
-        "text": "Gott preisen für das Geschenk der Einheit",
-        "feedback": "Du erhebst deine Stimme im Dank. Andere senken die Köpfe."
+        "text": "Ihr alle sprecht dieselbe Sprache, eine gemeinsame Rede",
+        "feedback": "1. Mose 11,1 — Die ganze Welt hatte eine Sprache und eine gemeinsame Rede."
       },
       {
-        "text": "Prahlen mit dem, was wir erreichen könnten",
-        "feedback": "Genesis 11:4 — Sie sagten: „Lasst uns einen Namen machen.“"
+        "text": "Jede Familie spricht eine andere Zunge",
+        "feedback": "Die Genesis sagt, dass zu diesem Zeitpunkt alle eine Sprache sprachen."
       },
       {
-        "text": "Schweigen – den Ältesten zuhören",
-        "feedback": "Weise Stimmen sprechen leise. Andere schreien lauter."
+        "text": "Niemand spricht überhaupt",
+        "feedback": "Die Genesis sagt, die Menschen sprachen – mit einer gemeinsamen Rede."
       }
     ]
   },
   "proposal": {
-    "title": "Die große Idee",
-    "text": "Ein Ältester erhebt sich. „Lasst uns einen Turm bauen – seine Spitze im Himmel.“\n„Lasst uns einen Namen machen.“",
+    "title": "Der Vorschlag",
+    "text": "Die Menschen versammeln sich.\nWas schlagen sie vor zu bauen?",
     "choices": [
       {
-        "text": "Jubeln – sich dem großen Werk anschließen",
-        "feedback": "Genesis 11:3-4 — Das Volk schloss sich zusammen, um eine Stadt und einen großen Turm zu bauen."
+        "text": "'Lasst uns eine Stadt bauen und einen Turm, der bis zum Himmel reicht – und uns einen Namen machen'",
+        "feedback": "1. Mose 11,4 — Sie sprachen: „Auf, lasst uns eine Stadt bauen und einen Turm, dessen Spitze bis an den Himmel reicht, damit wir uns einen Namen machen.“"
       },
       {
-        "text": "Dagegen sprechen – das ist Hochmut",
-        "feedback": "Wenige hören dich. Aber die Worte sind gesprochen."
+        "text": "'Lasst uns dem Herrn einen Altar bauen'",
+        "feedback": "Die Genesis sagt, sie bauten eine Stadt und einen Turm, um sich einen Namen zu machen, nicht einen Altar."
       },
       {
-        "text": "Warten – andere entscheiden lassen",
-        "feedback": "Schweigen ist seine eigene Antwort. Die Abstimmung geht durch."
+        "text": "'Lasst uns zurückgehen und alleine reisen'",
+        "feedback": "Die Genesis sagt, die Menschen blieben zusammen, um zu bauen."
       }
     ]
   },
   "bricks": {
     "title": "Ziegel und Teer",
-    "text": "Du formst nassen Ton zu Ziegeln.\nSie sind stärker als Stein. Sie werden den Himmel erreichen.",
+    "text": "Du sammelst Materialien für das große Werk.\nWie baust du?",
     "choices": [
       {
-        "text": "Aus Liebe zum Handwerk arbeiten",
-        "feedback": "Genesis 11:3 — Sie machten Ziegel und benutzten Erdpech als Mörtel für den Turm."
+        "text": "Macht Ziegel und brennt sie gründlich, verwendet Teer als Mörtel",
+        "feedback": "1. Mose 11,3 — Sie sprachen: „Auf, lasst uns Ziegel streichen und brennen!“ Und sie hatten Ziegel statt Steine und Erdharz statt Mörtel."
       },
       {
-        "text": "Die anderen übertreffen – sie überstrahlen",
-        "feedback": "Deine Geschwindigkeit wird zu Rücksichtslosigkeit. Ziegel reißen."
+        "text": "Haut Steine aus den Bergen",
+        "feedback": "Die Genesis sagt, sie verwendeten Ziegel und Teer, keine behauenen Steine."
+      },
+      {
+        "text": "Flechtet den Turm aus Schilf",
+        "feedback": "Die Genesis sagt, sie verwendeten gebrannte Ziegel und Teer."
       }
     ]
   },
   "construction": {
-    "title": "Die ersten Stockwerke",
-    "text": "Mauern erheben sich. Der Turm wirft einen langen Schatten.\nMänner singen, während sie jeden Balken heben.",
+    "title": "Die Stadt und der Turm",
+    "text": "Die Arbeit beginnt.\nWas baut ihr gemeinsam?",
     "choices": [
       {
-        "text": "Prahlen – „Wir brauchen jetzt keinen Gott mehr“",
-        "feedback": "Genesis 11:4 — Sie prahlten und wollten einen Turm bauen, dessen Spitze den Himmel berührt."
+        "text": "Baut eine Stadt und einen Turm, dessen Spitze bis zum Himmel reicht",
+        "feedback": "1. Mose 11,4-5 — Sie machten sich daran, eine Stadt und einen Turm zu bauen, dessen Spitze bis zum Himmel reichte."
       },
       {
-        "text": "Leise arbeiten – ein Gebet sprechen",
-        "feedback": "Niemand hört. Aber das Gebet wird oben gehört."
+        "text": "Baut getrennte Häuser weit voneinander entfernt",
+        "feedback": "Die Genesis sagt, sie bauten gemeinsam eine Stadt, keine verstreuten Häuser."
+      },
+      {
+        "text": "Baut eine Brücke über das Meer",
+        "feedback": "Die Genesis sagt, sie bauten eine Stadt und einen Turm, keine Brücke."
       }
     ]
   },
   "rising": {
-    "title": "Höher",
-    "text": "Jahr für Jahr. Stein auf Stein.\nDer Turm durchstößt die Wolken.",
+    "title": "Höher und höher",
+    "text": "Der Turm steigt in den Himmel.\nWarum bauen die Menschen weiter?",
     "choices": [
       {
-        "text": "Zweifeln – sollten wir aufhören?",
-        "feedback": "Du flüsterst es. Der Wind trägt die Worte davon."
+        "text": "Um sich einen Namen zu machen, damit sie nicht über die Erde zerstreut werden",
+        "feedback": "1. Mose 11,4 — „… damit wir uns einen Namen machen und nicht über die ganze Erde zerstreut werden.“"
       },
       {
-        "text": "Höher klettern – es gibt keine Grenze",
-        "feedback": "Genesis 11:4-5 — Der Turm wuchs in Hochmut, bis der Herr herabkam, um ihn zu sehen."
+        "text": "Um den Herrn zu ehren, der den Himmel gemacht hat",
+        "feedback": "Die Genesis sagt, sie bauten, um sich einen Namen zu machen, nicht um den Herrn zu ehren."
       },
       {
-        "text": "Fordere die Arbeiter auf, schneller zu sein",
-        "feedback": "Die Gemüter erhitzen sich. Hände bluten. Der Turm wächst."
+        "text": "Um sich vor einer kommenden Flut zu verstecken",
+        "feedback": "Gott hatte bereits versprochen, die Erde nie wieder zu überfluten (1. Mose 9)."
       }
     ]
   },
   "summit": {
-    "title": "Den Himmel berühren",
-    "text": "Du stehst ganz oben. Die Erde ist klein unter dir.\nDer Himmel fühlt sich nah an – fast zum Greifen nah.",
+    "title": "Der Herr steigt herab",
+    "text": "Der Turm steigt. Was geschieht als Nächstes?",
     "choices": [
       {
-        "text": "Greife nach oben – beanspruche den Himmel",
-        "feedback": "Genesis 11:4 — Ihr Stolz griff nach oben, um sich einen Namen zu machen."
+        "text": "Der Herr kommt herab, um die Stadt und den Turm zu sehen",
+        "feedback": "1. Mose 11,5 — Da fuhr der Herr herab, um die Stadt und den Turm anzusehen, die die Menschenkinder bauten."
       },
       {
-        "text": "Knie nieder – fühle dich plötzlich klein",
-        "feedback": "Die Weite über dir verschluckt deinen Stolz."
+        "text": "Der Turm erreicht den Himmel und die Menschen betreten ihn",
+        "feedback": "Die Genesis sagt nicht, dass der Turm den Himmel erreichte; der Herr kam herab, um ihn zu sehen."
+      },
+      {
+        "text": "Engel steigen herab, um den Arbeitern beim Bau zu helfen",
+        "feedback": "Die Genesis beschreibt keine Engel, die beim Bau helfen."
       }
     ]
   },
   "gods_gaze": {
-    "title": "Er kommt herab",
-    "text": "Eine Stimme erfüllt die Luft, ruhig wie Donner.\n„Sie sind ein Volk. Nichts wird ihnen unmöglich sein.“",
+    "title": "Der Entschluss des Herrn",
+    "text": "Der Herr spricht über die Menschen.\nWas beschließt Er zu tun?",
     "choices": [
       {
-        "text": "Stelle dich der Stimme trotzig entgegen",
-        "feedback": "Genesis 11:6-7 — Gott sah ihren Stolz und beschloss, ihre Sprache zu verwirren."
+        "text": "'Auf, lasst uns hinabfahren und ihre Sprache verwirren'",
+        "feedback": "1. Mose 11,6-7 — Und der Herr sprach: „Siehe, es ist ein Volk und eine Sprache bei ihnen allen; und dies ist der Anfang ihres Tuns. Nun wird ihnen nichts unmöglich sein, was sie sich vornehmen zu tun. Auf, lasst uns hinabfahren und dort ihre Sprache verwirren, dass keiner des anderen Sprache verstehe!“"
       },
       {
-        "text": "Beuge dein Haupt in Furcht und Ehrfurcht",
-        "feedback": "Deine Knie geben nach. Die Gegenwart ist überall."
+        "text": "'Lasst uns ihr großartiges Werk loben'",
+        "feedback": "Die Genesis sagt, der Herr verwirrte ihre Sprache, nicht dass er den Turm lobte."
+      },
+      {
+        "text": "'Lasst uns den Turm mit Feuer zerstören'",
+        "feedback": "Die Genesis sagt, der Herr verwirrte ihre Sprache und zerstreute sie, nicht dass er den Turm mit Feuer zerstörte."
       }
     ]
   },
   "confusion": {
     "title": "Seltsame Worte",
-    "text": "Du rufst deinem Freund zu. Er starrt.\nSein Mund öffnet sich – doch die Laute ergeben keinen Sinn.",
+    "text": "Du wendest dich an deinen Nachbarn und sprichst.\nWas geschieht?",
     "choices": [
       {
-        "text": "Zwinge ihn zum Verständnis – schreie lauter",
-        "feedback": "Zorn vertieft nur die Kluft zwischen euch."
+        "text": "Ihr könnt die Sprache des anderen nicht mehr verstehen",
+        "feedback": "1. Mose 11,7 — Der Herr verwirrte ihre Sprache, sodass sie einander nicht mehr verstehen konnten."
       },
       {
-        "text": "Tritt zurück – akzeptiere, was Gott getan hat",
-        "feedback": "Genesis 11:7 — Gott verwirrte ihre Sprache, damit sie einander nicht mehr verstanden."
+        "text": "Alle sprechen plötzlich noch deutlicher",
+        "feedback": "Die Genesis sagt, ihre Sprache wurde verwirrt, nicht klarer gemacht."
       },
       {
-        "text": "Beschuldige die Ältesten – fange einen Streit an",
-        "feedback": "Fäuste fliegen. Der Turm blutet Männer statt Mörtel."
+        "text": "Alle verstummen und sprechen nie wieder",
+        "feedback": "Die Genesis sagt, die Sprachen wurden verwirrt, nicht dass das Sprechen aufhörte."
       }
     ]
   },
   "scattering": {
-    "title": "Auszug",
-    "text": "Familien sammeln, was sie können.\nJede Gruppe geht einem anderen Horizont entgegen.",
+    "title": "Über die Erde zerstreut",
+    "text": "Der Bau stoppt.\nWas geschieht mit den Menschen?",
     "choices": [
       {
-        "text": "Verfluche den Himmel, während du gehst",
-        "feedback": "Bitterkeit ist eine schwere Last."
+        "text": "Der Herr zerstreut sie von dort über die ganze Erde, und sie hören auf, die Stadt zu bauen",
+        "feedback": "Genesis 11,8 — Der Herr zerstreute sie von dort über die ganze Erde, und sie hörten auf, die Stadt zu bauen."
       },
       {
-        "text": "Gehe schweigend, die Lektion im Herzen",
-        "feedback": "Genesis 11:8 — Der Herr zerstreute sie von dort über die ganze Erde."
+        "text": "Die Leute bleiben in Schinar und vollenden den Turm",
+        "feedback": "Die Genesis sagt, sie hörten auf zu bauen und wurden zerstreut."
+      },
+      {
+        "text": "Die Leute segeln zurück nach Eden",
+        "feedback": "Die Genesis sagt, sie wurden über die ganze Erde zerstreut, nicht dass sie nach Eden zurückkehrten."
       }
     ]
   },
   "reflection": {
-    "title": "Ein neues Land",
-    "text": "Du hältst auf einem ruhigen Bergrücken an.\nDer Turm ist weit zurück – eine Erinnerung an Stolz.",
+    "title": "Babel",
+    "text": "Darum nannte man die Stadt Babel —\ndenn dort verwirrte der Herr die Sprache der ganzen Welt.",
     "choices": []
   }
 }

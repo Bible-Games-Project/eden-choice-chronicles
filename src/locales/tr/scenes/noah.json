@@ -2,159 +2,187 @@
   "storyTitle": "Nuh ve Tufan",
   "start": {
     "title": "Yukarıdan Gelen Ses",
-    "text": "Bir ses gökyüzünü doldurur.\n\"Nuh — bir gemi yap. Bir tufan geliyor.\"",
+    "text": "Tanrı seninle konuşur.\n\"Kendine bir gemi yap. Bir tufan geliyor.\"",
     "choices": [
       {
-        "text": "Şüphe — bu doğru olamaz",
-        "feedback": "Ses kaybolur. Ama göğsündeki ağırlık kalır."
+        "text": "Tanrı'nın selvi ağacından bir gemi yapma emrini al",
+        "feedback": "Yaratılış 6:14, 22 — Tanrı Nuh'a selvi ağacından bir gemi yapmasını söyledi ve Nuh Tanrı'nın emrettiği her şeyi yaptı."
       },
       {
-        "text": "“İşte buradayım. İtaat edeceğim.”",
-        "feedback": "Yaratılış 6:22 — Nuh, Tanrı'nın buyurduğu her şeyi yaptı."
+        "text": "Emri reddet ve ülkeden kaç",
+        "feedback": "Yaratılış, Nuh'un Tanrı'ya itaat ettiğini; kaçmadığını söyler."
       },
       {
-        "text": "Neden seçildiğini sor",
-        "feedback": "Cevap gelmez. Sadece emir kalır."
+        "text": "Bir tüccardan mevcut bir gemi satın al",
+        "feedback": "Yaratılış, Nuh'un gemiyi Tanrı'nın talimatıyla kendisinin yaptığını söyler."
       }
     ]
   },
   "mockery": {
-    "title": "Kalabalığın Sesleri",
-    "text": "Köylüler toplanır, gülüşürler.\n\"Bir tekne mi? Burada mı? Delirdin mi, ihtiyar adam?\"",
+    "title": "İzleyen Bir Dünya",
+    "text": "Etrafındaki dünya yozlaşmış ve şiddet dolu.\nSeni inşa ederken izliyorlar. Nasıl karşılık verirsin?",
     "choices": [
       {
-        "text": "Öfkeyle geri bağır",
-        "feedback": "Sözlerin sadece alaylarını besler."
+        "text": "İmanla gemiyi yapmaya devam et",
+        "feedback": "İbraniler 11:7 — İmanla Nuh, henüz görülmeyen şeyler hakkında uyarıldığı halde, saygılı bir korkuyla gemiyi yaptı."
       },
       {
-        "text": "Sessiz kal ve çalışmaya devam et",
-        "feedback": "İbraniler 11:7 — Nuh imanla, dünyanın alaylarına rağmen gemiyi yapmaya devam etti."
+        "text": "Kalabalığı memnun etmek için gemiyi terk et",
+        "feedback": "Kutsal Yazılar, Nuh'un imanla yapmaya devam ettiğini söyler."
       },
       {
-        "text": "Onlara inanmaları için yalvar",
-        "feedback": "Sana sırtlarını dönerler. İnançta yalnızsın."
+        "text": "Alay edenlere saldırarak onları sustur",
+        "feedback": "Kutsal Yazılar Nuh'un kimseye saldırdığını anlatmaz."
       }
     ]
   },
   "building": {
     "title": "Selvi ve Zift",
-    "text": "Yılların teri. Odun yarılır. Zift mühürler.\nSırtın ağrır, ama gemi yükselir.",
+    "text": "Tanrı'nın emrettiği malzemeleri toplarsın.\nGemiyi nasıl inşa edersin?",
     "choices": [
       {
-        "text": "Biraz dinlen, iş bitmez",
-        "feedback": "Sessizlikle birlikte şüphe sızar."
+        "text": "Onu selvi ağacından yap, içini ve dışını ziftle kapla",
+        "feedback": "Yaratılış 6:14 — Kendine selvi ağacından bir gemi yap; içini ve dışını ziftle kapla."
       },
       {
-        "text": "Devam et — Tanrı emretti",
-        "feedback": "Yaratılış 6:14-16 — Nuh, Tanrı'nın söylediği gibi selvi ağacından gemi yaptı."
+        "text": "Onu kesme taştan yap",
+        "feedback": "Yaratılış, geminin selvi ağacından yapıldığını, taştan değil."
+      },
+      {
+        "text": "Onu bir sepet gibi sazlıklardan ör",
+        "feedback": "Yaratılış, geminin selvi ağacından yapıldığını, ziftle mühürlendiğini söyler."
       }
     ]
   },
   "ark_done": {
     "title": "Tamamlandı",
-    "text": "Gemi üzerinde yükselir.\nAilen toplanır, ahşabın önünde sessizce.",
+    "text": "Gemi tamamlandı, tıpkı Tanrı'nın emrettiği gibi.\nNasıl görünüyor?",
     "choices": [
       {
-        "text": "İzleyen kalabalığa övün",
-        "feedback": "Gurur işi zehirler. Kendini yakalarsın."
+        "text": "300 arşın uzunluğunda, 50 arşın genişliğinde, 30 arşın yüksekliğinde, üç katlı",
+        "feedback": "Yaratılış 6:15-16 — Gemi 300 arşın uzunluğunda, 50 arşın genişliğinde, 30 arşın yüksekliğinde, üç katlıydı."
       },
       {
-        "text": "Verilen güç için Tanrı'ya şükret",
-        "feedback": "Yaratılış 6:9 — Nuh Tanrı'yla yürüdü ve her adım için O'na şükretti."
+        "text": "Tek katlı küçük yuvarlak bir tekne",
+        "feedback": "Yaratılış belirli boyutlar verir; gemi küçük yuvarlak bir tekne değildi."
+      },
+      {
+        "text": "Gökyüzüne açık, düz bir sal",
+        "feedback": "Yaratılış, geminin çatısı, üç katı ve yanında bir kapısı olduğunu söyler."
       }
     ]
   },
   "animals": {
-    "title": "İkişer İkişer",
-    "text": "Yaratıklar her diyardan gelir.\nKuzuların yanında aslanlar. Ayaklarının dibinde kartallar.",
+    "title": "Canlılar Geliyor",
+    "text": "Hayvanlar gemiye varır.\nKimi gemiye alırsın?",
     "choices": [
       {
-        "text": "Tehlikeli olanları uzaklaştır",
-        "feedback": "Korku seni kör eder. Tanrı hepsini gönderdi."
+        "text": "Her tür hayvandan çiftler al, erkek ve dişi",
+        "feedback": "Yaratılış 7:8-9 — Temiz ve kirli hayvanlardan, kuşlardan ve sürüngenlerden çiftler, erkek ve dişi olarak Nuh'a geldi."
       },
       {
-        "text": "Her çifti nazikçe karşıla",
-        "feedback": "Yaratılış 7:8-9 — Hayvanlar Nuh'a ikişer ikişer geldi ve o onları kabul etti."
+        "text": "Sadece koyun ve keçi al",
+        "feedback": "Yaratılış, sadece koyun ve keçi değil, her tür hayvanın geldiğini söyler."
+      },
+      {
+        "text": "Hiç hayvan alma — sadece aileni",
+        "feedback": "Yaratılış, hayvanların Nuh ile birlikte gemiye girdiğini söyler."
       }
     ]
   },
   "boarding": {
-    "title": "Kapı Kapanır",
-    "text": "Ailen içeride. Hayvanlar yerleşir.\nTanrı'nın Kendisi kapıyı kapatır.",
+    "title": "Kapı Kapandı",
+    "text": "Gemiye girme zamanı.\nKimler girer ve kapıyı kim kapatır?",
     "choices": [
       {
-        "text": "Onları tekrar uyarmak için geri koş",
-        "feedback": "Kapı mühürlü. Seçim yapıldı."
+        "text": "Eşin, üç oğlun ve gelinlerinle birlikte gir; Rab kapıyı kapatıyor",
+        "feedback": "Yaratılış 7:13, 16 — Nuh, karısı, üç oğlu ve gelinleri gemiye girdiler ve Rab onu içeri kapattı."
       },
       {
-        "text": "Karının elini tut ve bekle",
-        "feedback": "Yaratılış 7:16 — Rab'bin kendisi geminin kapısını Nuh'un ardından kapadı."
+        "text": "Aileni geride bırakarak gemiye yalnız gir",
+        "feedback": "Yaratılış, Nuh'un tüm ev halkının onunla birlikte gemiye girdiğini söyler."
+      },
+      {
+        "text": "Dışarıda kal ve kapıyı dışarıdan kapat",
+        "feedback": "Yaratılış, Rab'bin bizzat Nuh'u geminin içine kapattığını söyler."
       }
     ]
   },
   "storm": {
-    "title": "Gökler Açılır",
-    "text": "Yağmur daha önce görülmemiş gibi çarpar.\nDerinlikler patlar. Dünya boğulur.",
+    "title": "Kırk Gün Yağmur",
+    "text": "Göklerin pencereleri açılır.\nNe olur?",
     "choices": [
       {
-        "text": "Dehşet içinde gökyüzüne lanet oku",
-        "feedback": "Ses, çığlığını yutar."
+        "text": "Kırk gün kırk gece yeryüzüne yağmur yağar",
+        "feedback": "Yaratılış 7:12 — Kırk gün kırk gece yeryüzüne yağmur yağdı."
       },
       {
-        "text": "Tanrı'nın adil ve merhametli olduğuna güven",
-        "feedback": "Yaratılış 7:23 — Tufan yeryüzünü kaplarken Nuh Tanrı'ya güvendi."
+        "text": "Tek bir fırtına bir günde geçer",
+        "feedback": "Yaratılış, yağmurun kırk gün kırk gece yağdığını söyler."
       },
       {
-        "text": "Yabancıları sudan çekmeye çalış",
-        "feedback": "Kapı mühürlü. Yapılacak hiçbir şey yok."
+        "text": "Sadece hafif bir çiseleme düşer",
+        "feedback": "Yaratılış, derinliklerin pınarlarının patladığını ve göklerin pencerelerinin açıldığını anlatır."
       }
     ]
   },
   "inside": {
-    "title": "Kırk Gün",
-    "text": "Gemi sallanır. Hayvanlar nefes alır.\nGünler bulanıklaşır. Sadece ahşabın gıcırtısı kalır.",
+    "title": "Sular Üzerinde",
+    "text": "Gemi derin sular üzerinde yüzer.\nSular yeryüzünde ne kadar süre hüküm sürer?",
     "choices": [
       {
-        "text": "Canlılara özenle bak",
-        "feedback": "Yaratılış 7:24 — Nuh, sular üzerinde 150 gün boyunca ailesine ve hayvanlara baktı."
+        "text": "Sular yüz elli gün boyunca yeryüzünü kaplar",
+        "feedback": "Yaratılış 7:24 — Sular yüz elli gün boyunca yeryüzünü kapladı."
       },
       {
-        "text": "Yalnız otur ve umutsuzluğun büyümesine izin ver",
-        "feedback": "Sessizlik üzerine çöker. İnanç kararır."
+        "text": "Sular üç günde çekilir",
+        "feedback": "Yaratılış, suların çekilmeden önce 150 gün boyunca hüküm sürdüğünü söyler."
+      },
+      {
+        "text": "Gemiyi Aden'e doğru geri yönlendirirsin",
+        "feedback": "Yaratılış, Nuh'un gemiyi yönlendirdiğini anlatmaz; Tanrı onu yüzer halde tuttu."
       }
     ]
   },
   "dove": {
     "title": "Güvercin Geri Döner",
-    "text": "Bir güvercin salarsın. Saatler geçer.\nGeri gelir — gagasında bir zeytin yaprağıyla.",
+    "text": "Sular çekilmeye başlar.\nKuru toprağın yakın olduğunu nasıl anlarsın?",
     "choices": [
       {
-        "text": "Şüphe — belki de başıboş bir dal",
-        "feedback": "Şimdi bile, şüphe seni tutmak için savaşır."
+        "text": "Bir güvercin gönder; taze bir zeytin yaprağıyla döner",
+        "feedback": "Yaratılış 8:11 — Güvercin akşam Nuh'a taze koparılmış bir zeytin yaprağıyla döndü."
       },
       {
-        "text": "Ağla — hayat hala büyüyor",
-        "feedback": "Yaratılış 8:11 — Güvercin gagasında bir zeytin yaprağıyla döndü — yeni yaşamın işareti."
+        "text": "Tahılla dönen bir karga gönder",
+        "feedback": "Yaratılış, zeytin yaprağını karganın değil, güvercinin getirdiğini söyler."
+      },
+      {
+        "text": "Çatıyı aç ve sadece kendi gözlerinle bak",
+        "feedback": "Yaratılış, Nuh'un suların çekilip çekilmediğini anlamak için kuşlar gönderdiğini söyler."
       }
     ]
   },
   "dry_land": {
     "title": "Ayaklarının Altındaki Toprak",
-    "text": "Kapı açılır. Güneş içeri dolar.\nSıcak, canlı çamura basarsın.",
+    "text": "Rab sana gemiden çıkmanı söyler.\nKuru toprağa ilk çıktığında ne yaparsın?",
     "choices": [
       {
-        "text": "Yeni toprağı sahiplenmek için acele et",
-        "feedback": "Toprak asla senin sahiplenmen için değildi."
+        "text": "Rab'be bir sunak inşa et ve kurbanlar sun",
+        "feedback": "Yaratılış 8:20 — Nuh Rab'be bir sunak inşa etti ve üzerinde yakmalık sunular sundu."
       },
       {
-        "text": "Diz çök ve Tanrı'ya bir sunak yap",
-        "feedback": "Yaratılış 8:20 — Nuh'un kuru toprakta ilk yaptığı iş Rab'be bir sunak kurmaktı."
+        "text": "Hemen büyük bir kule inşa etmeye başla",
+        "feedback": "Yaratılış, Nuh'un ilk eyleminin bir kule değil, bir sunak inşa etmek olduğunu söyler."
+      },
+      {
+        "text": "Gemiden ayrılmayı reddet",
+        "feedback": "Yaratılış, Nuh'un Tanrı ona söylediğinde gemiden çıktığını söyler."
       }
     ]
   },
   "covenant": {
     "title": "Gökkuşağı",
-    "text": "Gökyüzünde bir gökkuşağı belirir.\n\"Bir daha asla. Bu benim seninle olan antlaşmamdır.\"",
+    "text": "Gökyüzünde bir gökkuşağı belirir.\n\"Yeryüzünü bir daha asla sular altında bırakmayacağım. Bu sizinle yaptığım antlaşmadır.\"",
     "choices": []
   }
 }
