@@ -1,17 +1,20 @@
 {
-  "storyTitle": "Sodom and Gomorrah",
+  "storyTitle": "The Destruction of Sodom",
   "start": {
     "title": "At the Gate of Sodom",
     "text": "It is evening. You are sitting in the gateway of the city of Sodom.\nTwo angels arrive at Sodom. What do you do?",
     "choices": [
       {
-        "text": "Get up to meet them and bow down with your face to the ground"
+        "text": "Get up to meet them and bow down with your face to the ground",
+        "feedback": "Genesis 19:1 — When Lot saw them, he got up to meet them and bowed down with his face to the ground."
       },
       {
-        "text": "Turn away and ignore the strangers"
+        "text": "Turn away and ignore the strangers",
+        "feedback": "Genesis says Lot rose and bowed before them."
       },
       {
-        "text": "Chase them out of the city with a staff"
+        "text": "Chase them out of the city with a staff",
+        "feedback": "Genesis says Lot welcomed them respectfully."
       }
     ]
   },
@@ -20,13 +23,16 @@
     "text": "You speak to the two strangers.\nWhat do you say?",
     "choices": [
       {
-        "text": "'My lords, please turn aside to your servant's house; you can wash your feet and spend the night'"
+        "text": "'My lords, please turn aside to your servant's house; you can wash your feet and spend the night'",
+        "feedback": "Genesis 19:2 — 'My lords, please turn aside to your servant's house. You can wash your feet and spend the night and then go on your way early in the morning.'"
       },
       {
-        "text": "'Leave Sodom at once â it is not safe here'"
+        "text": "'Leave Sodom at once — it is not safe here'",
+        "feedback": "Lot urged them to spend the night at his house."
       },
       {
-        "text": "'Sleep here in the square as you planned'"
+        "text": "'Sleep here in the square as you planned'",
+        "feedback": "Lot insisted the angels come home with him rather than stay in the square."
       }
     ]
   },
@@ -35,28 +41,34 @@
     "text": "The angels come home with you.\nWhat do you prepare for them?",
     "choices": [
       {
-        "text": "Prepare a meal for them, baking bread without yeast"
+        "text": "Prepare a meal for them, baking bread without yeast",
+        "feedback": "Genesis 19:3 — He prepared a meal for them, baking bread without yeast, and they ate."
       },
       {
-        "text": "Offer them only water and send them to bed"
+        "text": "Offer them only water and send them to bed",
+        "feedback": "Lot baked bread and prepared a meal for them."
       },
       {
-        "text": "Offer them a lamb roasted with fire"
+        "text": "Offer them a lamb roasted with fire",
+        "feedback": "Genesis specifies unleavened bread, not roasted lamb."
       }
     ]
   },
   "welcome": {
     "title": "The Men of the City",
-    "text": "Before you go to bed, all the men of Sodom â young and old â surround the house.\nWhat do they demand?",
+    "text": "Before you go to bed, all the men of Sodom — young and old — surround the house.\nWhat do they demand?",
     "choices": [
       {
-        "text": "'Where are the men who came to you tonight? Bring them out to us'"
+        "text": "'Where are the men who came to you tonight? Bring them out to us'",
+        "feedback": "Genesis 19:5 — They called to Lot, 'Where are the men who came to you tonight? Bring them out to us so that we can have sex with them.'"
       },
       {
-        "text": "'Give us food and gold from your house'"
+        "text": "'Give us food and gold from your house'",
+        "feedback": "The men demanded Lot's guests, not gold."
       },
       {
-        "text": "'Welcome us to eat with the strangers'"
+        "text": "'Welcome us to eat with the strangers'",
+        "feedback": "The men of Sodom came with hostile intent, not a friendly request."
       }
     ]
   },
@@ -65,13 +77,16 @@
     "text": "You go outside to speak to the crowd.\nWhat do you do with the door?",
     "choices": [
       {
-        "text": "Go out to them and shut the door behind you"
+        "text": "Go out to them and shut the door behind you",
+        "feedback": "Genesis 19:6 — Lot went outside to meet them and shut the door behind him."
       },
       {
-        "text": "Leave the door wide open so the guests can flee"
+        "text": "Leave the door wide open so the guests can flee",
+        "feedback": "Lot shut the door behind him to protect the guests."
       },
       {
-        "text": "Hand the guests over to the crowd yourself"
+        "text": "Hand the guests over to the crowd yourself",
+        "feedback": "Lot pleaded with the men not to harm his guests."
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "The crowd surges to break down the door.\nWhat do the angels do?",
     "choices": [
       {
-        "text": "The angels reach out, pull you back into the house, and strike the men with blindness"
+        "text": "The angels reach out, pull you back into the house, and strike the men with blindness",
+        "feedback": "Genesis 19:10-11 — The men inside reached out and pulled Lot back into the house and shut the door. Then they struck the men at the door with blindness."
       },
       {
-        "text": "The angels open the door and let the crowd inside"
+        "text": "The angels open the door and let the crowd inside",
+        "feedback": "The angels pulled Lot in and struck the crowd with blindness."
       },
       {
-        "text": "The angels vanish silently and abandon you"
+        "text": "The angels vanish silently and abandon you",
+        "feedback": "The angels rescued Lot and stayed with him."
       }
     ]
   },
@@ -95,28 +113,34 @@
     "text": "The angels tell you to warn your relatives about the coming destruction.\nHow do your sons-in-law respond?",
     "choices": [
       {
-        "text": "Your sons-in-law think you are joking"
+        "text": "Your sons-in-law think you are joking",
+        "feedback": "Genesis 19:14 — Lot went out and spoke to his sons-in-law, but they thought he was joking."
       },
       {
-        "text": "Your sons-in-law believe you and follow at once"
+        "text": "Your sons-in-law believe you and follow at once",
+        "feedback": "The sons-in-law did not take Lot seriously."
       },
       {
-        "text": "Your sons-in-law kill you for the warning"
+        "text": "Your sons-in-law kill you for the warning",
+        "feedback": "Genesis says they thought Lot was joking."
       }
     ]
   },
   "urge": {
-    "title": "Dawn â Flee for Your Lives",
+    "title": "Dawn — Flee for Your Lives",
     "text": "As dawn breaks, the angels urge you to hurry.\nWhat do they say?",
     "choices": [
       {
-        "text": "'Flee for your lives! Don't look back, and don't stop anywhere in the plain! Flee to the mountains'"
+        "text": "'Flee for your lives! Don't look back, and don't stop anywhere in the plain! Flee to the mountains'",
+        "feedback": "Genesis 19:17 — 'Flee for your lives! Don't look back, and don't stop anywhere in the plain! Flee to the mountains or you will be swept away!'"
       },
       {
-        "text": "'Take your gold and hide inside the city'"
+        "text": "'Take your gold and hide inside the city'",
+        "feedback": "The angels commanded Lot to flee to the mountains, not to hide."
       },
       {
-        "text": "'Wait a few more days before leaving'"
+        "text": "'Wait a few more days before leaving'",
+        "feedback": "The angels said 'Flee!' urgently, not to wait."
       }
     ]
   },
@@ -125,13 +149,16 @@
     "text": "You reach the town of Zoar as the sun rises.\nWhat does the Lord do to Sodom and Gomorrah?",
     "choices": [
       {
-        "text": "The Lord rains down burning sulfur out of the heavens on Sodom and Gomorrah"
+        "text": "The Lord rains down burning sulfur out of the heavens on Sodom and Gomorrah",
+        "feedback": "Genesis 19:24 — Then the Lord rained down burning sulfur on Sodom and Gomorrah — from the Lord out of the heavens."
       },
       {
-        "text": "The Lord sends a great flood over the cities"
+        "text": "The Lord sends a great flood over the cities",
+        "feedback": "Genesis says burning sulfur fell from heaven, not a flood."
       },
       {
-        "text": "The Lord spares the cities and lets them stand"
+        "text": "The Lord spares the cities and lets them stand",
+        "feedback": "Sodom and Gomorrah were destroyed by fire from heaven."
       }
     ]
   },
@@ -140,13 +167,16 @@
     "text": "Your wife is behind you.\nWhat happens to her?",
     "choices": [
       {
-        "text": "She looks back and becomes a pillar of salt"
+        "text": "She looks back and becomes a pillar of salt",
+        "feedback": "Genesis 19:26 — But Lot's wife looked back, and she became a pillar of salt."
       },
       {
-        "text": "She runs safely into Zoar with you"
+        "text": "She runs safely into Zoar with you",
+        "feedback": "Lot's wife looked back and was turned into a pillar of salt."
       },
       {
-        "text": "She turns into a bird and flies away"
+        "text": "She turns into a bird and flies away",
+        "feedback": "Genesis says she became a pillar of salt."
       }
     ]
   },

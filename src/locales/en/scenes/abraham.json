@@ -1,17 +1,20 @@
 {
-  "storyTitle": "Call of Abraham",
+  "storyTitle": "The Call of Abraham",
   "start": {
     "title": "A Life in Haran",
     "text": "You live in Haran with your father Terah, your wife Sarai, and your nephew Lot.\nYou are seventy-five years old.",
     "choices": [
       {
-        "text": "Live as Abram in Haran, seventy-five years old"
+        "text": "Live as Abram in Haran, seventy-five years old",
+        "feedback": "Genesis 12:4 — Abram was seventy-five years old when he left Haran."
       },
       {
-        "text": "Live as a young man in the city of Ur"
+        "text": "Live as a young man in the city of Ur",
+        "feedback": "By Genesis 12, Abram had already left Ur and was in Haran, aged seventy-five."
       },
       {
-        "text": "Live as king over a great nation"
+        "text": "Live as king over a great nation",
+        "feedback": "Genesis does not describe Abram as a king; he was a wandering herdsman."
       }
     ]
   },
@@ -20,13 +23,16 @@
     "text": "The Lord speaks to you.\nWhat does He command?",
     "choices": [
       {
-        "text": "'Go from your country, your people and your father's household to the land I will show you'"
+        "text": "'Go from your country, your people and your father's household to the land I will show you'",
+        "feedback": "Genesis 12:1 — The Lord said to Abram, 'Go from your country, your people and your father's household to the land I will show you.'"
       },
       {
-        "text": "'Stay in Haran and worship the household idols'"
+        "text": "'Stay in Haran and worship the household idols'",
+        "feedback": "Genesis says the Lord told Abram to leave, not to stay."
       },
       {
-        "text": "'Build a temple to Me here in Haran'"
+        "text": "'Build a temple to Me here in Haran'",
+        "feedback": "The Lord told Abram to go to a land He would show him."
       }
     ]
   },
@@ -35,13 +41,16 @@
     "text": "The Lord adds His promise.\nWhat does He say?",
     "choices": [
       {
-        "text": "'I will make you into a great nation and bless you; all peoples on earth will be blessed through you'"
+        "text": "'I will make you into a great nation and bless you; all peoples on earth will be blessed through you'",
+        "feedback": "Genesis 12:2-3 — 'I will make you into a great nation, and all peoples on earth will be blessed through you.'"
       },
       {
-        "text": "'I will give you great riches to keep to yourself'"
+        "text": "'I will give you great riches to keep to yourself'",
+        "feedback": "The promise was that all peoples would be blessed through Abram, not that he would hoard riches."
       },
       {
-        "text": "'You will have a long life and no descendants'"
+        "text": "'You will have a long life and no descendants'",
+        "feedback": "The Lord promised Abram a great nation of descendants."
       }
     ]
   },
@@ -50,13 +59,16 @@
     "text": "You must prepare your family for the journey.\nWho goes with you?",
     "choices": [
       {
-        "text": "Take Sarai your wife and Lot your nephew"
+        "text": "Take Sarai your wife and Lot your nephew",
+        "feedback": "Genesis 12:5 — Abram took his wife Sarai, his nephew Lot, and all the possessions and people they had acquired in Haran."
       },
       {
-        "text": "Leave Sarai behind in Haran"
+        "text": "Leave Sarai behind in Haran",
+        "feedback": "Genesis says Abram took Sarai with him."
       },
       {
-        "text": "Go alone with only a walking staff"
+        "text": "Go alone with only a walking staff",
+        "feedback": "Genesis says Abram took his household, flocks, and possessions."
       }
     ]
   },
@@ -65,13 +77,16 @@
     "text": "You gather what you will take on the journey.\nWhat goes with you?",
     "choices": [
       {
-        "text": "All the possessions and people you have acquired in Haran"
+        "text": "All the possessions and people you have acquired in Haran",
+        "feedback": "Genesis 12:5 — Abram took all the possessions and people they had acquired in Haran."
       },
       {
-        "text": "Only a small bag of bread"
+        "text": "Only a small bag of bread",
+        "feedback": "Genesis says Abram left with his whole household and possessions."
       },
       {
-        "text": "A chariot of gold from the king of Haran"
+        "text": "A chariot of gold from the king of Haran",
+        "feedback": "Genesis does not describe a chariot from any king."
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "The time has come to leave.\nWhere do you set out for?",
     "choices": [
       {
-        "text": "Set out for the land of Canaan"
+        "text": "Set out for the land of Canaan",
+        "feedback": "Genesis 12:5 — They set out from Haran to go to the land of Canaan, and they arrived there."
       },
       {
-        "text": "Set out for Egypt to become rich"
+        "text": "Set out for Egypt to become rich",
+        "feedback": "Genesis says Abram set out for Canaan; Egypt came later, during a famine."
       },
       {
-        "text": "Set out with no destination in mind"
+        "text": "Set out with no destination in mind",
+        "feedback": "The Lord had a specific land in mind — Canaan."
       }
     ]
   },
@@ -95,13 +113,16 @@
     "text": "You travel through the land of Canaan.\nHow far do you go?",
     "choices": [
       {
-        "text": "Travel as far as the great tree of Moreh at Shechem"
+        "text": "Travel as far as the great tree of Moreh at Shechem",
+        "feedback": "Genesis 12:6 — Abram traveled through the land as far as the site of the great tree of Moreh at Shechem."
       },
       {
-        "text": "Turn back to Haran halfway there"
+        "text": "Turn back to Haran halfway there",
+        "feedback": "Genesis says Abram arrived in Canaan."
       },
       {
-        "text": "Cross the sea to a distant island"
+        "text": "Cross the sea to a distant island",
+        "feedback": "Genesis says Abram traveled by land into Canaan."
       }
     ]
   },
@@ -110,13 +131,16 @@
     "text": "At Shechem the Lord appears to you.\nWhat does He say?",
     "choices": [
       {
-        "text": "'To your offspring I will give this land'"
+        "text": "'To your offspring I will give this land'",
+        "feedback": "Genesis 12:7 — The Lord appeared to Abram and said, 'To your offspring I will give this land.'"
       },
       {
-        "text": "'This land belongs to another people forever'"
+        "text": "'This land belongs to another people forever'",
+        "feedback": "The Lord promised the land to Abram's offspring."
       },
       {
-        "text": "'Return to Haran; you were wrong to come'"
+        "text": "'Return to Haran; you were wrong to come'",
+        "feedback": "The Lord confirmed the promise in Canaan, not sent Abram back."
       }
     ]
   },
@@ -125,13 +149,16 @@
     "text": "You have heard the promise. What do you do at Shechem?",
     "choices": [
       {
-        "text": "Build an altar there to the Lord who appeared to you"
+        "text": "Build an altar there to the Lord who appeared to you",
+        "feedback": "Genesis 12:7 — Abram built an altar there to the Lord, who had appeared to him."
       },
       {
-        "text": "Build a palace of cedar for yourself"
+        "text": "Build a palace of cedar for yourself",
+        "feedback": "Genesis says Abram built an altar, not a palace."
       },
       {
-        "text": "Say nothing and move on quickly"
+        "text": "Say nothing and move on quickly",
+        "feedback": "Genesis says Abram worshiped by building an altar at Shechem."
       }
     ]
   },
@@ -140,13 +167,16 @@
     "text": "You move on from Shechem into the hills.\nWhere do you stop and pitch your tent?",
     "choices": [
       {
-        "text": "Pitch your tent in the hills between Bethel and Ai, and build another altar"
+        "text": "Pitch your tent in the hills between Bethel and Ai, and build another altar",
+        "feedback": "Genesis 12:8 — From there Abram went on toward the hills east of Bethel and pitched his tent, with Bethel on the west and Ai on the east; there he built an altar and called on the name of the Lord."
       },
       {
-        "text": "Pitch your tent in the city of Sodom"
+        "text": "Pitch your tent in the city of Sodom",
+        "feedback": "Genesis says Abram pitched his tent between Bethel and Ai."
       },
       {
-        "text": "Sail back across the river to Haran"
+        "text": "Sail back across the river to Haran",
+        "feedback": "Genesis says Abram continued southward through Canaan."
       }
     ]
   },

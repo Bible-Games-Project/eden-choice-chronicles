@@ -1,17 +1,20 @@
 {
-  "storyTitle": "Sacrifice of Isaac",
+  "storyTitle": "The Sacrifice of Isaac",
   "start": {
     "title": "God Tests Abraham",
     "text": "God calls to you.\nHow do you answer?",
     "choices": [
       {
-        "text": "Answer: 'Here I am'"
+        "text": "Answer: 'Here I am'",
+        "feedback": "Genesis 22:1 — Some time later God tested Abraham. He said to him, 'Abraham!' 'Here I am,' he replied."
       },
       {
-        "text": "Ignore the voice and go back to sleep"
+        "text": "Ignore the voice and go back to sleep",
+        "feedback": "Abraham answered the Lord at once, 'Here I am.'"
       },
       {
-        "text": "Demand to know the Lord's name first"
+        "text": "Demand to know the Lord's name first",
+        "feedback": "Abraham simply answered, 'Here I am.'"
       }
     ]
   },
@@ -20,13 +23,16 @@
     "text": "God speaks the command.\nWhat does He say?",
     "choices": [
       {
-        "text": "'Take your son, your only son, whom you love â Isaac â and offer him as a burnt offering on a mountain I will show you'"
+        "text": "'Take your son, your only son, whom you love — Isaac — and offer him as a burnt offering on a mountain I will show you'",
+        "feedback": "Genesis 22:2 — 'Take your son, your only son, whom you love — Isaac — and go to the region of Moriah. Sacrifice him there as a burnt offering on a mountain I will show you.'"
       },
       {
-        "text": "'Take a lamb from your flock and offer it here'"
+        "text": "'Take a lamb from your flock and offer it here'",
+        "feedback": "God commanded Abraham to offer Isaac, his son."
       },
       {
-        "text": "'Build a great temple in Beersheba'"
+        "text": "'Build a great temple in Beersheba'",
+        "feedback": "God's command was to offer Isaac on a mountain in Moriah."
       }
     ]
   },
@@ -35,13 +41,16 @@
     "text": "Early the next morning you prepare for the journey.\nWhat do you do?",
     "choices": [
       {
-        "text": "Get up early, saddle your donkey, take two servants and your son Isaac, and cut enough wood for the burnt offering"
+        "text": "Get up early, saddle your donkey, take two servants and your son Isaac, and cut enough wood for the burnt offering",
+        "feedback": "Genesis 22:3 — Early the next morning Abraham got up and loaded his donkey. He took with him two of his servants and his son Isaac. When he had cut enough wood for the burnt offering, he set out."
       },
       {
-        "text": "Refuse to go and stay in Beersheba"
+        "text": "Refuse to go and stay in Beersheba",
+        "feedback": "Abraham obeyed God at once, rising early in the morning."
       },
       {
-        "text": "Wait for a sign before setting out"
+        "text": "Wait for a sign before setting out",
+        "feedback": "Abraham set out immediately, without waiting."
       }
     ]
   },
@@ -50,13 +59,16 @@
     "text": "You travel toward the place God has told you.\nHow long do you journey?",
     "choices": [
       {
-        "text": "Travel for three days, until you look up and see the place in the distance"
+        "text": "Travel for three days, until you look up and see the place in the distance",
+        "feedback": "Genesis 22:4 — On the third day Abraham looked up and saw the place in the distance."
       },
       {
-        "text": "Travel only a single hour before arriving"
+        "text": "Travel only a single hour before arriving",
+        "feedback": "The journey to Moriah took three days."
       },
       {
-        "text": "Travel for forty years through the desert"
+        "text": "Travel for forty years through the desert",
+        "feedback": "Genesis says Abraham reached the place on the third day."
       }
     ]
   },
@@ -65,13 +77,16 @@
     "text": "You come near the mountain.\nWhat do you tell the servants?",
     "choices": [
       {
-        "text": "'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you'"
+        "text": "'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you'",
+        "feedback": "Genesis 22:5 — 'Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you.'"
       },
       {
-        "text": "'Come with us up the mountain to watch'"
+        "text": "'Come with us up the mountain to watch'",
+        "feedback": "Abraham told the servants to wait behind with the donkey."
       },
       {
-        "text": "'Take the donkey home; we are not coming back'"
+        "text": "'Take the donkey home; we are not coming back'",
+        "feedback": "Abraham said, 'We will come back to you.'"
       }
     ]
   },
@@ -80,13 +95,16 @@
     "text": "You prepare to climb the mountain.\nWho carries what?",
     "choices": [
       {
-        "text": "Place the wood for the burnt offering on Isaac's shoulders; carry the fire and the knife yourself"
+        "text": "Place the wood for the burnt offering on Isaac's shoulders; carry the fire and the knife yourself",
+        "feedback": "Genesis 22:6 — Abraham took the wood for the burnt offering and placed it on his son Isaac, and he himself carried the fire and the knife."
       },
       {
-        "text": "Carry the wood yourself while Isaac carries nothing"
+        "text": "Carry the wood yourself while Isaac carries nothing",
+        "feedback": "Isaac carried the wood; Abraham carried the fire and the knife."
       },
       {
-        "text": "Leave the wood behind at the foot of the mountain"
+        "text": "Leave the wood behind at the foot of the mountain",
+        "feedback": "The wood for the burnt offering was placed on Isaac."
       }
     ]
   },
@@ -95,13 +113,16 @@
     "text": "As you walk together, Isaac speaks up.\nWhat does he say?",
     "choices": [
       {
-        "text": "'Father â the fire and wood are here, but where is the lamb for the burnt offering?'"
+        "text": "'Father — the fire and wood are here, but where is the lamb for the burnt offering?'",
+        "feedback": "Genesis 22:7 — 'Father, the fire and wood are here, but where is the lamb for the burnt offering?'"
       },
       {
-        "text": "'Father â let us go back home right now'"
+        "text": "'Father — let us go back home right now'",
+        "feedback": "Isaac asked about the lamb for the offering."
       },
       {
-        "text": "Isaac says nothing the whole way up"
+        "text": "Isaac says nothing the whole way up",
+        "feedback": "Genesis records Isaac's question about the lamb."
       }
     ]
   },
@@ -110,13 +131,16 @@
     "text": "You answer Isaac.\nWhat do you say?",
     "choices": [
       {
-        "text": "'God Himself will provide the lamb for the burnt offering, my son'"
+        "text": "'God Himself will provide the lamb for the burnt offering, my son'",
+        "feedback": "Genesis 22:8 — 'God Himself will provide the lamb for the burnt offering, my son.'"
       },
       {
-        "text": "'You are the lamb, Isaac'"
+        "text": "'You are the lamb, Isaac'",
+        "feedback": "Abraham told Isaac that God Himself would provide the lamb."
       },
       {
-        "text": "'There is no lamb â we go home now'"
+        "text": "'There is no lamb — we go home now'",
+        "feedback": "Abraham answered with faith: God would provide."
       }
     ]
   },
@@ -125,13 +149,16 @@
     "text": "You reach the place God has told you about.\nWhat do you build there?",
     "choices": [
       {
-        "text": "Build an altar, arrange the wood on it, bind Isaac and lay him on the altar, on top of the wood"
+        "text": "Build an altar, arrange the wood on it, bind Isaac and lay him on the altar, on top of the wood",
+        "feedback": "Genesis 22:9 — When they reached the place God had told him about, Abraham built an altar there and arranged the wood on it. He bound his son Isaac and laid him on the altar, on top of the wood."
       },
       {
-        "text": "Build a shrine to another god instead"
+        "text": "Build a shrine to another god instead",
+        "feedback": "Abraham built an altar to the Lord, exactly as commanded."
       },
       {
-        "text": "Refuse to build anything and turn back"
+        "text": "Refuse to build anything and turn back",
+        "feedback": "Abraham obeyed and built the altar."
       }
     ]
   },
@@ -140,13 +167,16 @@
     "text": "Isaac is bound on the altar.\nWhat do you do next?",
     "choices": [
       {
-        "text": "Reach out your hand and take the knife to slay your son"
+        "text": "Reach out your hand and take the knife to slay your son",
+        "feedback": "Genesis 22:10 — Then he reached out his hand and took the knife to slay his son."
       },
       {
-        "text": "Set the knife aside and refuse"
+        "text": "Set the knife aside and refuse",
+        "feedback": "Abraham reached out with the knife to obey God fully."
       },
       {
-        "text": "Loose Isaac and flee down the mountain"
+        "text": "Loose Isaac and flee down the mountain",
+        "feedback": "Abraham raised the knife in obedience; he did not flee."
       }
     ]
   },
@@ -155,13 +185,16 @@
     "text": "The angel of the Lord calls out to you from heaven.\nWhat does he say?",
     "choices": [
       {
-        "text": "'Abraham! Abraham! Do not lay a hand on the boy. Do not do anything to him'"
+        "text": "'Abraham! Abraham! Do not lay a hand on the boy. Do not do anything to him'",
+        "feedback": "Genesis 22:11-12 — 'Abraham! Abraham!' 'Here I am,' he replied. 'Do not lay a hand on the boy,' he said. 'Do not do anything to him.'"
       },
       {
-        "text": "'Strike the boy quickly â do not delay'"
+        "text": "'Strike the boy quickly — do not delay'",
+        "feedback": "The angel stopped Abraham from harming Isaac."
       },
       {
-        "text": "The angel says nothing at all"
+        "text": "The angel says nothing at all",
+        "feedback": "The angel called out clearly and stopped Abraham."
       }
     ]
   },
@@ -170,13 +203,16 @@
     "text": "The angel explains why you were stopped.\nWhat does he say?",
     "choices": [
       {
-        "text": "'Now I know that you fear God, because you have not withheld from Me your son, your only son'"
+        "text": "'Now I know that you fear God, because you have not withheld from Me your son, your only son'",
+        "feedback": "Genesis 22:12 — 'Now I know that you fear God, because you have not withheld from Me your son, your only son.'"
       },
       {
-        "text": "'You have failed the test; go home in shame'"
+        "text": "'You have failed the test; go home in shame'",
+        "feedback": "The angel commended Abraham's obedience."
       },
       {
-        "text": "'Isaac must still die; try again tomorrow'"
+        "text": "'Isaac must still die; try again tomorrow'",
+        "feedback": "The angel commanded Abraham not to harm Isaac."
       }
     ]
   },
@@ -185,13 +221,16 @@
     "text": "You look up.\nWhat do you see caught in the thicket?",
     "choices": [
       {
-        "text": "A ram caught by its horns in a thicket â you take it and offer it as a burnt offering in place of your son"
+        "text": "A ram caught by its horns in a thicket — you take it and offer it as a burnt offering in place of your son",
+        "feedback": "Genesis 22:13 — Abraham looked up and there in a thicket he saw a ram caught by its horns. He went over and took the ram and sacrificed it as a burnt offering instead of his son."
       },
       {
-        "text": "A dove flying above the altar"
+        "text": "A dove flying above the altar",
+        "feedback": "Abraham saw a ram caught by its horns in a thicket."
       },
       {
-        "text": "Nothing at all â the altar remains empty"
+        "text": "Nothing at all — the altar remains empty",
+        "feedback": "God provided a ram caught in the thicket."
       }
     ]
   },
@@ -200,13 +239,16 @@
     "text": "You name that place to mark what happened.\nWhat name do you give it?",
     "choices": [
       {
-        "text": "'The Lord Will Provide' (Yahweh Yireh)"
+        "text": "'The Lord Will Provide' (Yahweh Yireh)",
+        "feedback": "Genesis 22:14 — So Abraham called that place 'The Lord Will Provide.'"
       },
       {
-        "text": "'The Place of Grief'"
+        "text": "'The Place of Grief'",
+        "feedback": "Abraham named it 'The Lord Will Provide.'"
       },
       {
-        "text": "'The Mountain of Fire'"
+        "text": "'The Mountain of Fire'",
+        "feedback": "Abraham named the place 'The Lord Will Provide.'"
       }
     ]
   },
@@ -215,13 +257,16 @@
     "text": "The angel of the Lord calls to you a second time from heaven.\nWhat is the promise?",
     "choices": [
       {
-        "text": "'I will surely bless you and make your descendants as numerous as the stars in the sky and the sand on the seashore; through your offspring all nations on earth will be blessed'"
+        "text": "'I will surely bless you and make your descendants as numerous as the stars in the sky and the sand on the seashore; through your offspring all nations on earth will be blessed'",
+        "feedback": "Genesis 22:16-18 — 'I swear by Myself... I will surely bless you and make your descendants as numerous as the stars in the sky and as the sand on the seashore... and through your offspring all nations on earth will be blessed, because you have obeyed Me.'"
       },
       {
-        "text": "'Your descendants will be few and forgotten'"
+        "text": "'Your descendants will be few and forgotten'",
+        "feedback": "The Lord promised descendants as many as the stars and the sand."
       },
       {
-        "text": "'You will lose all you have as punishment'"
+        "text": "'You will lose all you have as punishment'",
+        "feedback": "The Lord blessed Abraham for his obedience."
       }
     ]
   },
