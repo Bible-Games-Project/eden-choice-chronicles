@@ -128,6 +128,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       "joseph-potiphar", "joseph-prison", "joseph-dreams", "joseph-brothers-egypt", "joseph-reconciles",
       "birth-moses", "moses-flees", "burning-bush", "moses-pharaoh", "plagues-egypt",
       "passover", "crossing-red-sea", "manna-desert", "water-rock", "ten-commandments",
+      "golden-calf", "spies-canaan", "rebellion-people", "balaam-donkey", "death-moses",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
