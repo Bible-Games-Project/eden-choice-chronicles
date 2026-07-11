@@ -126,6 +126,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       "call-abraham", "abraham-egypt", "abraham-lot", "sodom-gomorrah", "sacrifice-isaac",
       "rebekah-servant", "jacob-esau", "jacobs-dream", "jacob-wrestles", "joseph-sold",
       "joseph-potiphar", "joseph-prison", "joseph-dreams", "joseph-brothers-egypt", "joseph-reconciles",
+      "birth-moses", "moses-flees", "burning-bush", "moses-pharaoh", "plagues-egypt",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
