@@ -129,6 +129,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       "birth-moses", "moses-flees", "burning-bush", "moses-pharaoh", "plagues-egypt",
       "passover", "crossing-red-sea", "manna-desert", "water-rock", "ten-commandments",
       "golden-calf", "spies-canaan", "rebellion-people", "balaam-donkey", "death-moses",
+      "fall-jericho", "sin-achan", "deborah-barak", "gideon", "samson",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
