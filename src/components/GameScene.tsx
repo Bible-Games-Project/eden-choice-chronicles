@@ -127,6 +127,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       "rebekah-servant", "jacob-esau", "jacobs-dream", "jacob-wrestles", "joseph-sold",
       "joseph-potiphar", "joseph-prison", "joseph-dreams", "joseph-brothers-egypt", "joseph-reconciles",
       "birth-moses", "moses-flees", "burning-bush", "moses-pharaoh", "plagues-egypt",
+      "passover", "crossing-red-sea", "manna-desert", "water-rock", "ten-commandments",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));

@@ -12,7 +12,7 @@ export const mannaScenes: Record<string, StoryScene> = {
     text: "Weeks since the sea. Bread is gone.\nThe people murmur behind you.",
     choices: [
       { text: "Silence them with anger", nextScene: "anger_consequence", tag: "rash", feedback: "Their hunger is real.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen to their cry, then seek God", nextScene: "people_complain", tag: "humble", feedback: "You turn your ear, then your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen to their cry, then seek God", nextScene: "people_complain", tag: "humble", feedback: "Exodus 16:3 — The people of Israel complained to Moses and Aaron in the wilderness.", isCorrect: true, sentiment: "positive" },
       { text: "Promise them food you do not have", nextScene: "lie_consequence", tag: "fearful", feedback: "Only the Lord can promise that.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const mannaScenes: Record<string, StoryScene> = {
     text: "\"We had pots of meat there!\"\nTheir eyes look back, not forward.",
     choices: [
       { text: "Agree and turn back to Egypt", nextScene: "turnback_consequence", tag: "fearful", feedback: "He did not free you for chains.", isCorrect: false, sentiment: "negative" },
-      { text: "Carry their cry to the Lord", nextScene: "moses_seeks_god", tag: "faithful", feedback: "You climb apart to pray.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry their cry to the Lord", nextScene: "moses_seeks_god", tag: "faithful", feedback: "Exodus 16:12 — The Lord heard the grumbling of the people of Israel.", isCorrect: true, sentiment: "positive" },
     ],
   },
   turnback_consequence: {
@@ -60,7 +60,7 @@ export const mannaScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Demand bread as your right", nextScene: "demand_consequence", tag: "prideful", feedback: "Bread is His gift, not your wage.", isCorrect: false, sentiment: "negative" },
       { text: "Blame yourself and lose hope", nextScene: "despair_consequence", tag: "fearful", feedback: "He has not forgotten you.", isCorrect: false, sentiment: "negative" },
-      { text: "Lay their hunger before Him", nextScene: "god_speaks", tag: "humble", feedback: "He hears every cry.", isCorrect: true, sentiment: "positive" },
+      { text: "Lay their hunger before Him", nextScene: "god_speaks", tag: "humble", feedback: "Exodus 16:12 — The Lord told Moses that He had heard the grumbling of the people of Israel.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -87,7 +87,7 @@ export const mannaScenes: Record<string, StoryScene> = {
     text: "His voice fills the still desert:\n\"Bread from heaven, day by day.\"",
     choices: [
       { text: "Hide the promise from the people", nextScene: "hide_consequence", tag: "fearful", feedback: "His word is for them too.", isCorrect: false, sentiment: "negative" },
-      { text: "Tell Aaron and the people at once", nextScene: "tell_people", tag: "obedient", feedback: "You hurry down the hill.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell Aaron and the people at once", nextScene: "tell_people", tag: "obedient", feedback: "Exodus 16:10 — As Aaron spoke to the whole Israelite community, they looked toward the desert, and there was the glory of the Lord appearing in the cloud.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {

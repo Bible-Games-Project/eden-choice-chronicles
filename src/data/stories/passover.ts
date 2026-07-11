@@ -12,7 +12,7 @@ export const passoverScenes: Record<string, StoryScene> = {
     text: "The Lord speaks at dusk in Goshen.\nA final sign will free His people.",
     choices: [
       { text: "Argue: surely it is enough", nextScene: "argue_consequence", tag: "rash", feedback: "His word is not yours to weigh.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen and obey His word", nextScene: "gather_elders", tag: "obedient", feedback: "You bow your head and listen.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen and obey His word", nextScene: "gather_elders", tag: "obedient", feedback: "Exodus 12:28 — The Israelites did as the Lord commanded Moses and Aaron.", isCorrect: true, sentiment: "positive" },
       { text: "Hide His word from the people", nextScene: "hide_consequence", tag: "fearful", feedback: "It must be told to all.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const passoverScenes: Record<string, StoryScene> = {
     title: "Aaron at Your Side",
     text: "Aaron waits, the elders behind him.\nWhat must each household do?",
     choices: [
-      { text: "Take a lamb without blemish", nextScene: "lamb_chosen", tag: "obedient", feedback: "One for each household.", isCorrect: true, sentiment: "positive" },
+      { text: "Take a lamb without blemish", nextScene: "lamb_chosen", tag: "obedient", feedback: "Exodus 12:3 — Moses told the elders that each man was to take a lamb for his family, one for each household.", isCorrect: true, sentiment: "positive" },
       { text: "Buy any animal in haste", nextScene: "any_animal_consequence", tag: "evasive", feedback: "Without blemish, He said.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -58,7 +58,7 @@ export const passoverScenes: Record<string, StoryScene> = {
     text: "The lamb is kept until twilight.\nThen all Israel slays it together.",
     choices: [
       { text: "Hide the lamb's blood away", nextScene: "hide_blood_consequence", tag: "fearful", feedback: "The blood must be shown.", isCorrect: false, sentiment: "negative" },
-      { text: "Mark the doorposts with blood", nextScene: "doorposts_marked", tag: "obedient", feedback: "Hyssop dipped in red.", isCorrect: true, sentiment: "positive" },
+      { text: "Mark the doorposts with blood", nextScene: "doorposts_marked", tag: "obedient", feedback: "Exodus 12:7 — The Israelites were to take some of the blood and put it on the sides and tops of the doorframes of the houses where they ate the lambs.", isCorrect: true, sentiment: "positive" },
       { text: "Pour the blood on the ground", nextScene: "ground_consequence", tag: "rash", feedback: "On the doorframe, He said.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -85,7 +85,7 @@ export const passoverScenes: Record<string, StoryScene> = {
     title: "The Sign on Every Door",
     text: "Red marks the wood of every home.\nNow the meal must be prepared.",
     choices: [
-      { text: "Roast the lamb with bitter herbs", nextScene: "meal_prepared", tag: "obedient", feedback: "Unleavened bread is broken.", isCorrect: true, sentiment: "positive" },
+      { text: "Roast the lamb with bitter herbs", nextScene: "meal_prepared", tag: "obedient", feedback: "Exodus 12:8 — That same night, the Israelites were to eat the meat roasted over the fire, along with bitter herbs and bread made without yeast.", isCorrect: true, sentiment: "positive" },
       { text: "Boil it with leavened bread", nextScene: "boil_consequence", tag: "evasive", feedback: "Roasted, with no leaven.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -105,7 +105,7 @@ export const passoverScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Sit at ease, take your time", nextScene: "ease_consequence", tag: "evasive", feedback: "In haste, He said.", isCorrect: false, sentiment: "negative" },
       { text: "Wander out into the street", nextScene: "wander_consequence", tag: "rash", feedback: "Not one foot outside tonight.", isCorrect: false, sentiment: "negative" },
-      { text: "Stay inside until morning", nextScene: "stay_inside", tag: "obedient", feedback: "The door is shut behind you.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay inside until morning", nextScene: "stay_inside", tag: "obedient", feedback: "Exodus 12:22 — The Lord commanded that no one was to go outside his house until morning.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ease_consequence: {
@@ -133,7 +133,7 @@ export const passoverScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Open the door to look out", nextScene: "open_consequence", tag: "rash", feedback: "Not yet. Wait on Him.", isCorrect: false, sentiment: "negative" },
       { text: "Boast that you are spared", nextScene: "boast_consequence", tag: "prideful", feedback: "It is His mercy, not yours.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait quietly with your family", nextScene: "morning_summons", tag: "humble", feedback: "The lamps burn low and warm.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait quietly with your family", nextScene: "morning_summons", tag: "humble", feedback: "Exodus 12:23 — The Lord will pass through to strike down the Egyptians, and when he sees the blood on the top and sides of the doorframe, he will pass over that doorway and will not permit the destroyer to enter your houses and strike you down.", isCorrect: true, sentiment: "positive" },
     ],
   },
   open_consequence: {
@@ -160,7 +160,7 @@ export const passoverScenes: Record<string, StoryScene> = {
     text: "Before dawn they pound your door.\nThe king himself summons you now.",
     choices: [
       { text: "Refuse and stay in Goshen", nextScene: "refuse_consequence", tag: "fearful", feedback: "Go. The hour has come.", isCorrect: false, sentiment: "negative" },
-      { text: "Go to Pharaoh with Aaron", nextScene: "before_broken_pharaoh", tag: "obedient", feedback: "You walk into the still city.", isCorrect: true, sentiment: "positive" },
+      { text: "Go to Pharaoh with Aaron", nextScene: "before_broken_pharaoh", tag: "obedient", feedback: "Exodus 12:31 — Pharaoh summoned Moses and Aaron during the night and said, \"Up! Leave my people, you and the Israelites! Go, worship the Lord as you have requested.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_consequence: {
@@ -179,7 +179,7 @@ export const passoverScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Mock him in his sorrow", nextScene: "mock_consequence", tag: "prideful", feedback: "Do not strike a broken man.", isCorrect: false, sentiment: "negative" },
       { text: "Demand half stay behind", nextScene: "half_consequence", tag: "evasive", feedback: "All Israel goes, with all.", isCorrect: false, sentiment: "negative" },
-      { text: "Accept and call the people forth", nextScene: "ending", tag: "faithful", feedback: "You turn toward Goshen.", isCorrect: true, sentiment: "positive" },
+      { text: "Accept and call the people forth", nextScene: "ending", tag: "faithful", feedback: "Exodus 12:31-32 — Pharaoh told Moses and Aaron to go, worship the Lord, and take their flocks and herds as they had requested, and to bless him also.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
