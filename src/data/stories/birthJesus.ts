@@ -11,7 +11,7 @@ export const birthJesusScenes: Record<string, StoryScene> = {
     text: "Mary rests against the donkey at dusk.\nThe road to Bethlehem stretches on.",
     choices: [
       { text: "Push on through the night", nextScene: "push_consequence", tag: "rash", feedback: "She needs gentleness, not haste.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk beside her in care", nextScene: "bethlehem", tag: "faithful", feedback: "Your hand steadies her.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk beside her in care", nextScene: "bethlehem", tag: "faithful", feedback: "Luke 2:4-5 — Joseph went from Nazareth to Bethlehem with Mary, who was pledged to be married to him and was expecting a child.", isCorrect: true, sentiment: "positive" },
       { text: "Turn back to Nazareth", nextScene: "turnback_consequence", tag: "fearful", feedback: "The decree must be obeyed.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const birthJesusScenes: Record<string, StoryScene> = {
     text: "The town is full for the census.\nHer time draws near.",
     choices: [
       { text: "Demand a room with force", nextScene: "demand_consequence", tag: "proud", feedback: "Force will open no door tonight.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask the innkeeper humbly", nextScene: "inn", tag: "faithful", feedback: "Humility opens what pride cannot.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask the innkeeper humbly", nextScene: "inn", tag: "faithful", feedback: "Luke 2:7 — There was no guest room available for them in the inn.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -57,7 +57,7 @@ export const birthJesusScenes: Record<string, StoryScene> = {
     text: "\"There is no room here, traveler.\nOnly the stable behind remains.\"",
     choices: [
       { text: "Sleep in the cold street", nextScene: "street_consequence", tag: "fearful", feedback: "The night will be too harsh.", isCorrect: false, sentiment: "negative" },
-      { text: "Accept the humble stable", nextScene: "stable", tag: "faithful", feedback: "Heaven prepared this place.", isCorrect: true, sentiment: "positive" },
+      { text: "Accept the humble stable", nextScene: "stable", tag: "faithful", feedback: "Luke 2:7 — Mary gave birth to her firstborn son and wrapped him in swaddling clothes and laid him in a manger because there was no place for them in the inn.", isCorrect: true, sentiment: "positive" },
       { text: "Argue and shout in anger", nextScene: "argue_consequence", tag: "proud", feedback: "Quiet your spirit.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -85,7 +85,7 @@ export const birthJesusScenes: Record<string, StoryScene> = {
     text: "Hay, lamplight, and gentle breath.\nMary settles against the wall.",
     choices: [
       { text: "Complain of the place", nextScene: "complain_consequence", tag: "proud", feedback: "Heaven kneels in low places.", isCorrect: false, sentiment: "negative" },
-      { text: "Prepare a place with hay", nextScene: "birth", tag: "faithful", feedback: "Your hands make ready.", isCorrect: true, sentiment: "positive" },
+      { text: "Prepare a place with hay", nextScene: "birth", tag: "faithful", feedback: "Luke 2:7 — Mary laid Jesus in a manger, because there was no guest room available for them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   complain_consequence: {
@@ -104,7 +104,7 @@ export const birthJesusScenes: Record<string, StoryScene> = {
     text: "A soft cry rises through the night.\nThe child is born.",
     choices: [
       { text: "Run for help to strangers", nextScene: "run_consequence", tag: "fearful", feedback: "She needs you here.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand silent in awe", nextScene: "manger", tag: "faithful", feedback: "Heaven has come near.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand silent in awe", nextScene: "manger", tag: "faithful", feedback: "Luke 2:6-7 — While they were there, the time came for the baby to be born, and Mary gave birth to her firstborn son.", isCorrect: true, sentiment: "positive" },
     ],
   },
   run_consequence: {
