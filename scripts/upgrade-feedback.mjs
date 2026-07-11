@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  birthMoses: "The Birth of Moses (Exodus 1-2)",
-  mosesFlees: "Moses Flees Egypt (Exodus 2)",
-  burningBush: "The Burning Bush (Exodus 3-4)",
-  mosesPharaoh: "Moses Before Pharaoh (Exodus 5-7)",
-  plagues: "The Plagues of Egypt (Exodus 7-12)",
+  passover: "The Passover (Exodus 12)",
+  redSea: "The Crossing of the Red Sea (Exodus 13-14)",
+  manna: "Manna in the Wilderness (Exodus 16)",
+  waterRock: "Water from the Rock (Exodus 17)",
+  tenCommandments: "The Ten Commandments (Exodus 19-20, 24, 31-32, 34)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
