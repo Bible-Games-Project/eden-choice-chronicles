@@ -12,7 +12,7 @@ export const sinAchanScenes: Record<string, StoryScene> = {
     text: "Jericho lies in dust at your feet.\nThe Lord forbade all spoils.",
     choices: [
       { text: "Take some gold for the camp", nextScene: "take_consequence", tag: "greedy", feedback: "His command was absolute.", isCorrect: false, sentiment: "negative" },
-      { text: "Devote everything to the Lord", nextScene: "warn_camp", tag: "obedient", feedback: "You honor the ban He set.", isCorrect: true, sentiment: "positive" },
+      { text: "Devote everything to the Lord", nextScene: "warn_camp", tag: "obedient", feedback: "Joshua 6:17-19 — The Lord commanded that Jericho and everything in it be devoted to Him, with only the silver, gold, bronze, and iron vessels going into the Lord's treasury.", isCorrect: true, sentiment: "positive" },
       { text: "Let each man keep a token", nextScene: "token_consequence", tag: "permissive", feedback: "One stolen thread defiles all.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -41,7 +41,7 @@ export const sinAchanScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Ignore the rumor of theft", nextScene: "ignore_consequence", tag: "negligent", feedback: "Hidden sin will not stay hidden.", isCorrect: false, sentiment: "negative" },
       { text: "Send scouts ahead to small Ai", nextScene: "ai_battle", tag: "proud", feedback: "You move without seeking Him.", isCorrect: false, sentiment: "negative" },
-      { text: "Seek the Lord before the next step", nextScene: "seek_lord", tag: "faithful", feedback: "You bow first, march later.", isCorrect: true, sentiment: "positive" },
+      { text: "Seek the Lord before the next step", nextScene: "seek_lord", tag: "faithful", feedback: "Joshua 7:1 — Achan took some of the devoted things, which was an act of unfaithfulness against the Lord.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ignore_consequence: {
@@ -60,7 +60,7 @@ export const sinAchanScenes: Record<string, StoryScene> = {
     text: "Three thousand men climb proud.\nThirty-six fall. The rest flee.",
     choices: [
       { text: "Blame the soldiers' weakness", nextScene: "blame_consequence", tag: "proud", feedback: "The fault is deeper than swords.", isCorrect: false, sentiment: "negative" },
-      { text: "Tear your robe before the ark", nextScene: "joshua_grief", tag: "humble", feedback: "You fall on your face till evening.", isCorrect: true, sentiment: "positive" },
+      { text: "Tear your robe before the ark", nextScene: "joshua_grief", tag: "humble", feedback: "Joshua 7:6 — Joshua tore his clothes and fell facedown before the ark of the Lord until evening, along with the elders of Israel.", isCorrect: true, sentiment: "positive" },
       { text: "Order an immediate counter-attack", nextScene: "counter_consequence", tag: "willful", feedback: "He has withdrawn His hand. Wait.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -96,7 +96,7 @@ export const sinAchanScenes: Record<string, StoryScene> = {
     text: "He answers: rise, sin is in the camp.\nIt must be brought to light.",
     choices: [
       { text: "Hush the matter to keep peace", nextScene: "hush_consequence", tag: "fearful", feedback: "Silence will cost more lives.", isCorrect: false, sentiment: "negative" },
-      { text: "Gather the tribes for inquiry", nextScene: "investigation", tag: "obedient", feedback: "You call every banner forward.", isCorrect: true, sentiment: "positive" },
+      { text: "Gather the tribes for inquiry", nextScene: "investigation", tag: "obedient", feedback: "Joshua 7:13 — The Lord commanded Joshua to consecrate the people and to identify the one who had taken the devoted things.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hush_consequence: {
@@ -115,7 +115,7 @@ export const sinAchanScenes: Record<string, StoryScene> = {
     text: "Lots are cast. Judah is taken.\nThen the clan. Then the man.",
     choices: [
       { text: "Stop before the name is spoken", nextScene: "stop_consequence", tag: "fearful", feedback: "His justice cannot be halted now.", isCorrect: false, sentiment: "negative" },
-      { text: "Press on until truth is named", nextScene: "achan_revealed", tag: "just", feedback: "The lot falls on Achan.", isCorrect: true, sentiment: "positive" },
+      { text: "Press on until truth is named", nextScene: "achan_revealed", tag: "just", feedback: "Joshua 7:16-18 — Joshua brought Israel by tribes, then by clans, then by families, until Achan was singled out.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stop_consequence: {
@@ -134,7 +134,7 @@ export const sinAchanScenes: Record<string, StoryScene> = {
     text: "Achan speaks: a cloak, silver, gold.\nBuried beneath his tent floor.",
     choices: [
       { text: "Excuse him, the loss was small", nextScene: "excuse_consequence", tag: "lenient", feedback: "Sin is never small to a holy God.", isCorrect: false, sentiment: "negative" },
-      { text: "Carry out the Lord's judgment", nextScene: "ending_obedient", tag: "obedient", feedback: "Israel walks to the Valley of Achor.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry out the Lord's judgment", nextScene: "ending_obedient", tag: "obedient", feedback: "Joshua 7:25 — Joshua and all Israel took Achan, the silver, the cloak, the gold, his sons, daughters, oxen, donkeys, sheep, tent, and everything he had, to the Valley of Achor.", isCorrect: true, sentiment: "positive" },
       { text: "Hide the items and move on", nextScene: "hide_consequence", tag: "deceptive", feedback: "Concealment will only spread the rot.", isCorrect: false, sentiment: "negative" },
     ],
   },

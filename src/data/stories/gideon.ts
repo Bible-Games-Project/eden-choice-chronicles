@@ -11,7 +11,7 @@ export const gideonScenes: Record<string, StoryScene> = {
     text: "Midianites raid the harvest.\nYou thresh wheat in secret, afraid.",
     choices: [
       { text: "Curse the Lord for His silence", nextScene: "curse_consequence", tag: "bitter", feedback: "He has not abandoned you.", isCorrect: false, sentiment: "negative" },
-      { text: "Quietly cry out to the Lord", nextScene: "angel_call", tag: "humble", feedback: "Your whisper reaches Him.", isCorrect: true, sentiment: "positive" },
+      { text: "Quietly cry out to the Lord", nextScene: "angel_call", tag: "humble", feedback: "Judges 6:6 — The Israelites cried out to the Lord because of Midian.", isCorrect: true, sentiment: "positive" },
       { text: "Flee with what little remains", nextScene: "flee_consequence", tag: "fearful", feedback: "He is calling you to stay.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const gideonScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Laugh and dismiss the angel", nextScene: "dismiss_consequence", tag: "proud", feedback: "Do not mock His messenger.", isCorrect: false, sentiment: "negative" },
       { text: "Insist you are too weak", nextScene: "weak_consequence", tag: "doubting", feedback: "His strength is your answer.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and accept His calling", nextScene: "fleece_test", tag: "obedient", feedback: "You kneel before the flame.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and accept His calling", nextScene: "fleece_test", tag: "obedient", feedback: "Judges 6:14 — The Lord turned to Gideon and said, \"Go in the strength you have and save Israel out of Midian's hand. Am I not sending you?\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   dismiss_consequence: {
@@ -66,7 +66,7 @@ export const gideonScenes: Record<string, StoryScene> = {
     title: "A Sign on the Fleece",
     text: "Doubt still gnaws at your heart.\nYou lay the wool on the ground.",
     choices: [
-      { text: "Ask humbly for His confirmation", nextScene: "army_reduction", tag: "humble", feedback: "By dawn, the wool is wet.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask humbly for His confirmation", nextScene: "army_reduction", tag: "humble", feedback: "Judges 6:36-37 — Gideon said to God, \"If you will save Israel by my hand as you have promised—look, I will place a wool fleece on the threshing floor. If there is dew only on the fleece and all the ground is dry, then I will know that you will save Israel by my hand, as you said.\"", isCorrect: true, sentiment: "positive" },
       { text: "Demand a sign as proof of power", nextScene: "demand_consequence", tag: "proud", feedback: "Ask, do not command.", isCorrect: false, sentiment: "negative" },
       { text: "Ignore your doubts and march", nextScene: "ignore_consequence", tag: "rash", feedback: "Faith and prayer must walk together.", isCorrect: false, sentiment: "negative" },
     ],
@@ -95,7 +95,7 @@ export const gideonScenes: Record<string, StoryScene> = {
     text: "\"Your army is too many,\" He says.\nThirty-two thousand wait behind you.",
     choices: [
       { text: "Refuse — you need every man", nextScene: "refuse_consequence", tag: "fearful", feedback: "His count is not your count.", isCorrect: false, sentiment: "negative" },
-      { text: "Send home the fearful and watchful", nextScene: "night_attack", tag: "obedient", feedback: "Three hundred remain.", isCorrect: true, sentiment: "positive" },
+      { text: "Send home the fearful and watchful", nextScene: "night_attack", tag: "obedient", feedback: "Judges 7:3 — The Lord told Gideon to announce to the people, \"Anyone who trembles with fear may turn back and leave Mount Gilead.\" So twenty-two thousand men left, while ten thousand remained.", isCorrect: true, sentiment: "positive" },
       { text: "Hide some in the hills as backup", nextScene: "hide_consequence", tag: "doubting", feedback: "He needs no hidden reserves.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -124,7 +124,7 @@ export const gideonScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Charge the camp in silent steel", nextScene: "charge_consequence", tag: "rash", feedback: "His way is not the sword first.", isCorrect: false, sentiment: "negative" },
       { text: "Wait for daylight and reinforcements", nextScene: "wait_consequence", tag: "fearful", feedback: "Now is the hour He gave.", isCorrect: false, sentiment: "negative" },
-      { text: "Break the jars and sound the trumpets", nextScene: "victory", tag: "obedient", feedback: "Light and sound flood the valley.", isCorrect: true, sentiment: "positive" },
+      { text: "Break the jars and sound the trumpets", nextScene: "victory", tag: "obedient", feedback: "Judges 7:20 — The three companies blew their trumpets and broke the jars. Grasping the torches in their left hands and blowing the trumpets in their right, they shouted, \"A sword for the Lord and for Gideon!\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   charge_consequence: {
@@ -150,7 +150,7 @@ export const gideonScenes: Record<string, StoryScene> = {
     title: "The Sword of the Lord",
     text: "Midian turns sword on Midian.\nThe vast camp scatters into the dark.",
     choices: [
-      { text: "Give the glory to the Lord alone", nextScene: "ending_faithful", tag: "humble", feedback: "Your shout joins three hundred.", isCorrect: true, sentiment: "positive" },
+      { text: "Give the glory to the Lord alone", nextScene: "ending_faithful", tag: "humble", feedback: "Judges 7:22 — The three hundred men blew their trumpets, and the Lord caused the men throughout the camp to turn on each other with their swords.", isCorrect: true, sentiment: "positive" },
       { text: "Boast of your clever battle plan", nextScene: "boast_consequence", tag: "proud", feedback: "His arm broke them, not yours.", isCorrect: false, sentiment: "negative" },
       { text: "Demand a crown from the people", nextScene: "crown_consequence", tag: "proud", feedback: "The Lord shall rule over you.", isCorrect: false, sentiment: "negative" },
     ],

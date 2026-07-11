@@ -13,7 +13,7 @@ export const jerichoScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Charge the gates with full force", nextScene: "charge_consequence", tag: "willful", feedback: "These walls will not yield to swords.", isCorrect: false, sentiment: "negative" },
       { text: "Lay siege and starve them out", nextScene: "siege_consequence", tag: "worldly", feedback: "The Lord has another way.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait for the Lord's instruction", nextScene: "divine_word", tag: "obedient", feedback: "You bow before His silence.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait for the Lord's instruction", nextScene: "divine_word", tag: "obedient", feedback: "Joshua 6:2 — The Lord had already given Jericho into Joshua's hand.", isCorrect: true, sentiment: "positive" },
     ],
   },
   charge_consequence: {
@@ -40,7 +40,7 @@ export const jerichoScenes: Record<string, StoryScene> = {
     text: "March around the city six days.\nOn the seventh, march seven times.",
     choices: [
       { text: "Argue this is foolish strategy", nextScene: "argue_consequence", tag: "doubtful", feedback: "His ways are not your ways.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive the strange command", nextScene: "instruct_priests", tag: "faithful", feedback: "You bow your face to the earth.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the strange command", nextScene: "instruct_priests", tag: "faithful", feedback: "Joshua 6:2-5 — Joshua received the Lord's specific instructions for taking Jericho.", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {
@@ -60,7 +60,7 @@ export const jerichoScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hide the ark behind the warriors", nextScene: "hide_consequence", tag: "fearful", feedback: "His presence must lead, not follow.", isCorrect: false, sentiment: "negative" },
       { text: "Send priests in the rear for safety", nextScene: "rear_consequence", tag: "fearful", feedback: "Faith walks in front, not behind.", isCorrect: false, sentiment: "negative" },
-      { text: "Place the priests at the front", nextScene: "first_march", tag: "faithful", feedback: "The horns rise toward the sky.", isCorrect: true, sentiment: "positive" },
+      { text: "Place the priests at the front", nextScene: "first_march", tag: "faithful", feedback: "Joshua 6:6 — Joshua commanded the priests to take up the ark of the covenant and seven trumpets.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -87,7 +87,7 @@ export const jerichoScenes: Record<string, StoryScene> = {
     text: "Only trumpets break the silence.\nJericho mocks from the walls.",
     choices: [
       { text: "Shout back at their mockery", nextScene: "shout_consequence", tag: "willful", feedback: "Not yet. Hold your voice.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk in disciplined silence", nextScene: "sixth_day", tag: "obedient", feedback: "Dust rises beneath quiet feet.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk in disciplined silence", nextScene: "sixth_day", tag: "obedient", feedback: "Joshua 6:10 — Joshua commanded the people not to shout or make any noise until the day he told them to shout.", isCorrect: true, sentiment: "positive" },
     ],
   },
   shout_consequence: {
@@ -105,7 +105,7 @@ export const jerichoScenes: Record<string, StoryScene> = {
     text: "The people grow weary, doubting.\nTomorrow is the seventh.",
     choices: [
       { text: "Quit, the plan has failed", nextScene: "quit_consequence", tag: "doubtful", feedback: "His promise stands. Hold the line.", isCorrect: false, sentiment: "negative" },
-      { text: "Encourage them to trust one more day", nextScene: "seventh_day", tag: "faithful", feedback: "You speak peace through the camp.", isCorrect: true, sentiment: "positive" },
+      { text: "Encourage them to trust one more day", nextScene: "seventh_day", tag: "faithful", feedback: "Joshua 6:14 — On the sixth day, the army marched around the city once, just as they had done on the previous days.", isCorrect: true, sentiment: "positive" },
     ],
   },
   quit_consequence: {
@@ -124,7 +124,7 @@ export const jerichoScenes: Record<string, StoryScene> = {
     text: "The horns blow. The dust rises.\nThe seventh circle is complete.",
     choices: [
       { text: "Wait still longer in silence", nextScene: "wait_consequence", tag: "fearful", feedback: "The moment He named has come.", isCorrect: false, sentiment: "negative" },
-      { text: "Command Israel to shout!", nextScene: "walls_fall", tag: "obedient", feedback: "Your voice splits the silence open.", isCorrect: true, sentiment: "positive" },
+      { text: "Command Israel to shout!", nextScene: "walls_fall", tag: "obedient", feedback: "Joshua 6:16 — After the seventh time around on the seventh day, Joshua commanded the people to shout, for the Lord had given them the city.", isCorrect: true, sentiment: "positive" },
     ],
   },
   wait_consequence: {
@@ -143,7 +143,7 @@ export const jerichoScenes: Record<string, StoryScene> = {
     text: "Stones crack. Towers lean.\nJericho falls into its own dust.",
     choices: [
       { text: "Boast in your military genius", nextScene: "boast_consequence", tag: "proud", feedback: "Not your hand. His.", isCorrect: false, sentiment: "negative" },
-      { text: "Give all glory to the Lord", nextScene: "ending_obedient", tag: "humble", feedback: "You kneel where the walls once stood.", isCorrect: true, sentiment: "positive" },
+      { text: "Give all glory to the Lord", nextScene: "ending_obedient", tag: "humble", feedback: "Joshua 6:20 — The people shouted, and the walls of Jericho fell flat, and they took the city.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
