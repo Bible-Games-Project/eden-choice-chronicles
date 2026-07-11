@@ -12,7 +12,7 @@ export const deathMosesScenes: Record<string, StoryScene> = {
     text: "Israel rests at the edge of promise.\nYour years now end at the river.",
     choices: [
       { text: "Press on and cross with them", nextScene: "press_consequence", tag: "willful", feedback: "The Lord told you not to cross.", isCorrect: false, sentiment: "negative" },
-      { text: "Gather the people one last time", nextScene: "gather_people", tag: "obedient", feedback: "You call them with quiet love.", isCorrect: true, sentiment: "positive" },
+      { text: "Gather the people one last time", nextScene: "gather_people", tag: "obedient", feedback: "Deuteronomy 31:1-8 — Moses gathered all Israel to speak to them before his death.", isCorrect: true, sentiment: "positive" },
       { text: "Say nothing and slip away alone", nextScene: "silent_consequence", tag: "avoidant", feedback: "They deserve a farewell.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const deathMosesScenes: Record<string, StoryScene> = {
     text: "Their faces wait, hushed and still.\nWhat words will you give them?",
     choices: [
       { text: "Recount your own great deeds", nextScene: "boast_consequence", tag: "proud", feedback: "Your story is His story.", isCorrect: false, sentiment: "negative" },
-      { text: "Remind them of the Lord's faithfulness", nextScene: "blessing", tag: "faithful", feedback: "You speak of manna and sea.", isCorrect: true, sentiment: "positive" },
+      { text: "Remind them of the Lord's faithfulness", nextScene: "blessing", tag: "faithful", feedback: "Deuteronomy 31:6 — Moses encouraged the people to be strong and courageous, for the Lord would go with them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -69,7 +69,7 @@ export const deathMosesScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Choose someone of your own bloodline", nextScene: "bloodline_consequence", tag: "willful", feedback: "The Lord chose Joshua, not kin.", isCorrect: false, sentiment: "negative" },
       { text: "Cling to leadership a little longer", nextScene: "cling_consequence", tag: "fearful", feedback: "Your time has come to release it.", isCorrect: false, sentiment: "negative" },
-      { text: "Lay your hands on Joshua", nextScene: "joshua_blessed", tag: "obedient", feedback: "Spirit and wisdom pass to him.", isCorrect: true, sentiment: "positive" },
+      { text: "Lay your hands on Joshua", nextScene: "joshua_blessed", tag: "obedient", feedback: "Deuteronomy 34:9 — Joshua was full of the spirit of wisdom because Moses had laid his hands on him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   bloodline_consequence: {
@@ -105,7 +105,7 @@ export const deathMosesScenes: Record<string, StoryScene> = {
     text: "Each step is heavy and holy.\nAt the top, the Lord will speak.",
     choices: [
       { text: "Turn back to the comfort of camp", nextScene: "turnback_consequence", tag: "fearful", feedback: "He calls you upward, not back.", isCorrect: false, sentiment: "negative" },
-      { text: "Climb in quiet trust", nextScene: "summit", tag: "obedient", feedback: "Your staff steadies your steps.", isCorrect: true, sentiment: "positive" },
+      { text: "Climb in quiet trust", nextScene: "summit", tag: "obedient", feedback: "Deuteronomy 32:48-50 — The Lord commanded Moses to go up to Mount Nebo and die there.", isCorrect: true, sentiment: "positive" },
     ],
   },
   turnback_consequence: {
@@ -125,7 +125,7 @@ export const deathMosesScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Grieve that you may not enter", nextScene: "grief_consequence", tag: "sorrowful", feedback: "You have already received enough.", isCorrect: false, sentiment: "negative" },
       { text: "Demand to cross with the people", nextScene: "demand_consequence", tag: "willful", feedback: "His word is gentle but firm.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive the vision with thanks", nextScene: "vision_received", tag: "grateful", feedback: "Tears of joy fall in silence.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the vision with thanks", nextScene: "vision_received", tag: "grateful", feedback: "Deuteronomy 34:1-4 — From the top of Pisgah, the Lord showed Moses all the land He had promised to Abraham, Isaac, and Jacob.", isCorrect: true, sentiment: "positive" },
     ],
   },
   grief_consequence: {

@@ -11,7 +11,7 @@ export const rebellionPeopleScenes: Record<string, StoryScene> = {
     title: "Murmurs in the Dust",
     text: "The camp grows restless again.\nVoices rise against the long road.",
     choices: [
-      { text: "Walk among them and listen", nextScene: "complaints", tag: "humble", feedback: "You hear their weariness.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk among them and listen", nextScene: "complaints", tag: "humble", feedback: "Numbers 11:1 — The people complained about their hardships, and the Lord heard them.", isCorrect: true, sentiment: "positive" },
       { text: "Shout them into silence", nextScene: "shout_consequence", tag: "harsh", feedback: "Anger only deepens the wound.", isCorrect: false, sentiment: "negative" },
       { text: "Pretend you do not hear", nextScene: "ignore_consequence", tag: "evasive", feedback: "A shepherd cannot turn away.", isCorrect: false, sentiment: "negative" },
     ],
@@ -68,7 +68,7 @@ export const rebellionPeopleScenes: Record<string, StoryScene> = {
     text: "\"Back to Egypt!\" some begin to cry.\n\"Choose a captain. Lead us home.\"",
     choices: [
       { text: "Step aside; let them have their way", nextScene: "step_aside_consequence", tag: "weak", feedback: "Surrender is not faith.", isCorrect: false, sentiment: "negative" },
-      { text: "Fall on your face before them all", nextScene: "intercede", tag: "humble", feedback: "Aaron bows beside you.", isCorrect: true, sentiment: "positive" },
+      { text: "Fall on your face before them all", nextScene: "intercede", tag: "humble", feedback: "Numbers 14:5 — Moses and Aaron fell on their faces before the assembly of the congregation of the children of Israel.", isCorrect: true, sentiment: "positive" },
       { text: "Curse the rebels in your anger", nextScene: "curse_consequence", tag: "harsh", feedback: "Mercy must come first.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -123,7 +123,7 @@ export const rebellionPeopleScenes: Record<string, StoryScene> = {
     title: "Joshua Stands Beside You",
     text: "\"They must not return to Egypt.\"\nHis young face is set like flint.",
     choices: [
-      { text: "Send Joshua to gather the elders", nextScene: "consequences", tag: "wise", feedback: "He goes without delay.", isCorrect: true, sentiment: "positive" },
+      { text: "Send Joshua to gather the elders", nextScene: "consequences", tag: "wise", feedback: "Numbers 14:6-7 — Joshua and Caleb tore their clothes and spoke to the congregation, saying the land was an exceedingly good land.", isCorrect: true, sentiment: "positive" },
       { text: "Hide Joshua's words from the camp", nextScene: "hide_consequence_2", tag: "evasive", feedback: "Truth must not be silenced.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -144,7 +144,7 @@ export const rebellionPeopleScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hide the verdict from the people", nextScene: "hide_verdict_consequence", tag: "evasive", feedback: "They must hear what is true.", isCorrect: false, sentiment: "negative" },
       { text: "Blame Aaron and Joshua before them", nextScene: "blame_consequence", tag: "weak", feedback: "A shepherd carries the weight.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak the Lord's word plainly", nextScene: "people_mourn", tag: "faithful", feedback: "Your voice does not waver.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak the Lord's word plainly", nextScene: "people_mourn", tag: "faithful", feedback: "Numbers 14:28-30 — The Lord declared that none of those who had grumbled would see the land, except Caleb and Joshua.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_verdict_consequence: {
@@ -171,7 +171,7 @@ export const rebellionPeopleScenes: Record<string, StoryScene> = {
     text: "The camp weeps through the night.\nDoubt's harvest is bitter.",
     choices: [
       { text: "Mock their late-coming sorrow", nextScene: "mock_consequence", tag: "harsh", feedback: "Even broken hearts deserve grace.", isCorrect: false, sentiment: "negative" },
-      { text: "Sit among them in silence", nextScene: "ending", tag: "humble", feedback: "You share their grief without words.", isCorrect: true, sentiment: "positive" },
+      { text: "Sit among them in silence", nextScene: "ending", tag: "humble", feedback: "Numbers 14:39 — When Moses told these words to all the children of Israel, the people mourned greatly.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {

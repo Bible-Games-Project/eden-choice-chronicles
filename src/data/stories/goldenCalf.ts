@@ -11,7 +11,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     title: "Forty Days on Sinai",
     text: "The cloud has held you for weeks.\nBelow, the camp grows restless.",
     choices: [
-      { text: "Stay and hear every word of God", nextScene: "people_demand", tag: "obedient", feedback: "His instruction is not yet finished.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay and hear every word of God", nextScene: "people_demand", tag: "obedient", feedback: "Exodus 24:18 — Moses was on the mountain for forty days and forty nights.", isCorrect: true, sentiment: "positive" },
       { text: "Hurry down before you are ready", nextScene: "haste_consequence", tag: "rash", feedback: "His work cannot be rushed.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -31,7 +31,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     text: "The people press around Aaron.\n\"Make us gods to lead the way.\"",
     choices: [
       { text: "(Aaron) Give in to keep the peace", nextScene: "aaron_yields", tag: "weak", feedback: "Fear of men silenced fear of God.", isCorrect: false, sentiment: "negative" },
-      { text: "(Aaron) Refuse and urge them to wait", nextScene: "aaron_yields", tag: "faithful", feedback: "But Aaron's courage fails him.", isCorrect: true, sentiment: "positive" },
+      { text: "(Aaron) Refuse and urge them to wait", nextScene: "aaron_yields", tag: "faithful", feedback: "Exodus 32:2-4 — Aaron asked the people for their gold earrings and fashioned them into a molten calf.", isCorrect: true, sentiment: "positive" },
       { text: "(Aaron) Blame Moses for the delay", nextScene: "aaron_yields", tag: "evasive", feedback: "Blame builds no altar to God.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -88,7 +88,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     text: "Joshua hears war in the camp.\n\"No,\" you say. \"It is revelry.\"",
     choices: [
       { text: "Pretend you did not hear it", nextScene: "ignore_consequence", tag: "evasive", feedback: "Sin cannot be unheard.", isCorrect: false, sentiment: "negative" },
-      { text: "Press on toward the noisy camp", nextScene: "see_idol", tag: "faithful", feedback: "Your steps grow heavier.", isCorrect: true, sentiment: "positive" },
+      { text: "Press on toward the noisy camp", nextScene: "see_idol", tag: "faithful", feedback: "Exodus 32:17-19 — Moses and Joshua descended the mountain, and Moses heard the sound of singing.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ignore_consequence: {
@@ -107,7 +107,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     text: "Firelight glints on a golden idol.\nThe people circle it in song.",
     choices: [
       { text: "Hide the tablets and walk on", nextScene: "hide_consequence", tag: "evasive", feedback: "His law cannot be smuggled past sin.", isCorrect: false, sentiment: "negative" },
-      { text: "Throw the tablets down in holy wrath", nextScene: "tablets_broken", tag: "righteous", feedback: "Stone shatters at the foot of Sinai.", isCorrect: true, sentiment: "positive" },
+      { text: "Throw the tablets down in holy wrath", nextScene: "tablets_broken", tag: "righteous", feedback: "Exodus 32:19 — When Moses saw the calf and the dancing, his anger burned and he threw the tablets from his hands, breaking them at the foot of the mountain.", isCorrect: true, sentiment: "positive" },
       { text: "Join the circle to learn their hearts", nextScene: "join_consequence", tag: "weak", feedback: "Holiness does not bow to idols.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -134,7 +134,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     title: "Silence in the Camp",
     text: "The dancing stops. Eyes drop low.\nThe calf still gleams on its altar.",
     choices: [
-      { text: "Burn it, grind it, scatter the dust", nextScene: "aaron_questioned", tag: "righteous", feedback: "Nothing of the idol remains.", isCorrect: true, sentiment: "positive" },
+      { text: "Burn it, grind it, scatter the dust", nextScene: "aaron_questioned", tag: "righteous", feedback: "Exodus 32:20 — Moses took the calf they had made and burned it in the fire; he ground it to powder, scattered it on the water, and made the Israelites drink it.", isCorrect: true, sentiment: "positive" },
       { text: "Leave the calf as a warning", nextScene: "leave_consequence", tag: "weak", feedback: "An idol left is an idol kept.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -154,7 +154,7 @@ export const goldenCalfScenes: Record<string, StoryScene> = {
     text: "Aaron stands trembling before you.\n\"The fire… and out came this calf.\"",
     choices: [
       { text: "Shrug off the people's great sin", nextScene: "shrug_consequence", tag: "weak", feedback: "Sin cannot be ignored.", isCorrect: false, sentiment: "negative" },
-      { text: "Call all who are for the Lord to you", nextScene: "repentance", tag: "faithful", feedback: "The Levites step to your side.", isCorrect: true, sentiment: "positive" },
+      { text: "Call all who are for the Lord to you", nextScene: "repentance", tag: "faithful", feedback: "Exodus 32:26 — Moses stood in the gate of the camp and said, \"Whoever is for the Lord, come to me.\"", isCorrect: true, sentiment: "positive" },
       { text: "Punish only Aaron and spare the rest", nextScene: "single_consequence", tag: "evasive", feedback: "All Israel shared this guilt.", isCorrect: false, sentiment: "negative" },
     ],
   },

@@ -12,7 +12,7 @@ export const spiesCanaanScenes: Record<string, StoryScene> = {
     text: "The wilderness ends here at Paran.\nThe Lord says, \"Send out scouts.\"",
     choices: [
       { text: "March in blindly without a scout", nextScene: "rash_consequence", tag: "rash", feedback: "Wisdom honors His instruction.", isCorrect: false, sentiment: "negative" },
-      { text: "Choose one leader from each tribe", nextScene: "spies_depart", tag: "obedient", feedback: "Twelve names stand before you.", isCorrect: true, sentiment: "positive" },
+      { text: "Choose one leader from each tribe", nextScene: "spies_depart", tag: "obedient", feedback: "Numbers 13:2 — The Lord commanded Moses to send men to explore the land of Canaan, one leader from each ancestral tribe.", isCorrect: true, sentiment: "positive" },
     ],
   },
   rash_consequence: {
@@ -58,7 +58,7 @@ export const spiesCanaanScenes: Record<string, StoryScene> = {
     text: "Vines bend with grapes large as stones.\nThe land is rich beyond words.",
     choices: [
       { text: "Mistrust the gift and turn back", nextScene: "mistrust_consequence", tag: "fearful", feedback: "His promise stands before you.", isCorrect: false, sentiment: "negative" },
-      { text: "Cut a cluster as a sign for Israel", nextScene: "city_seen", tag: "faithful", feedback: "Two men carry it on a pole.", isCorrect: true, sentiment: "positive" },
+      { text: "Cut a cluster as a sign for Israel", nextScene: "city_seen", tag: "faithful", feedback: "Numbers 13:23 — The spies cut down a branch with a single cluster of grapes so large that two men had to carry it on a pole.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mistrust_consequence: {
@@ -105,7 +105,7 @@ export const spiesCanaanScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Agree with the fearful ten", nextScene: "agree_consequence", tag: "weak", feedback: "Faith does not bow to fear.", isCorrect: false, sentiment: "negative" },
       { text: "Stay silent and let panic spread", nextScene: "silent_consequence", tag: "evasive", feedback: "A leader must speak.", isCorrect: false, sentiment: "negative" },
-      { text: "Let Joshua and Caleb answer", nextScene: "caleb_speaks", tag: "faithful", feedback: "Two voices rise above ten.", isCorrect: true, sentiment: "positive" },
+      { text: "Let Joshua and Caleb answer", nextScene: "caleb_speaks", tag: "faithful", feedback: "Numbers 14:6-9 — Joshua and Caleb tore their clothes and told the assembly that the land was exceedingly good and the Lord would give it to them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   agree_consequence: {
@@ -132,7 +132,7 @@ export const spiesCanaanScenes: Record<string, StoryScene> = {
     text: "Caleb pleads, Joshua at his side.\n\"The Lord is with us. Do not fear.\"",
     choices: [
       { text: "Silence them to keep peace", nextScene: "silence_consequence", tag: "weak", feedback: "True peace stands on truth.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand with their faith before all", nextScene: "people_weep", tag: "faithful", feedback: "You raise your staff in agreement.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand with their faith before all", nextScene: "people_weep", tag: "faithful", feedback: "Numbers 13:30 — Caleb silenced the people before Moses and said, \"We should go up and take possession of the land, for we can surely do it.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   silence_consequence: {
@@ -151,7 +151,7 @@ export const spiesCanaanScenes: Record<string, StoryScene> = {
     text: "The camp wails through the dark.\n\"Better to die in Egypt!\" they cry.",
     choices: [
       { text: "Mock the people in their sorrow", nextScene: "mock_consequence", tag: "harsh", feedback: "Even fear deserves a shepherd.", isCorrect: false, sentiment: "negative" },
-      { text: "Fall on your face and pray for them", nextScene: "rebellion", tag: "humble", feedback: "Aaron bows beside you.", isCorrect: true, sentiment: "positive" },
+      { text: "Fall on your face and pray for them", nextScene: "rebellion", tag: "humble", feedback: "Numbers 14:5 — Moses and Aaron fell facedown in front of the whole assembly of Israel.", isCorrect: true, sentiment: "positive" },
       { text: "Pack your tent and leave alone", nextScene: "leave_consequence", tag: "evasive", feedback: "A shepherd does not flee his sheep.", isCorrect: false, sentiment: "negative" },
     ],
   },
