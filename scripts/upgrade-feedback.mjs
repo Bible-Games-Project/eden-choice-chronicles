@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  passover: "The Passover (Exodus 12)",
-  redSea: "The Crossing of the Red Sea (Exodus 13-14)",
-  manna: "Manna in the Wilderness (Exodus 16)",
-  waterRock: "Water from the Rock (Exodus 17)",
-  tenCommandments: "The Ten Commandments (Exodus 19-20, 24, 31-32, 34)",
+  goldenCalf: "The Golden Calf (Exodus 32)",
+  spiesCanaan: "The Spies in Canaan (Numbers 13-14)",
+  rebellionPeople: "The Rebellion of the People / Korah (Numbers 16-17)",
+  balaam: "Balaam and the Donkey (Numbers 22)",
+  deathMoses: "The Death of Moses (Deuteronomy 32-34)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
