@@ -12,7 +12,7 @@ export const solomonWisdomScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Boast of your new power", nextScene: "boast_consequence", tag: "proud", feedback: "A king's pride blinds his sight.", isCorrect: false, sentiment: "negative" },
       { text: "Tax the people for gold", nextScene: "gold_consequence", tag: "greed", feedback: "Wealth is not what God seeks.", isCorrect: false, sentiment: "negative" },
-      { text: "Seek the Lord at Gibeon", nextScene: "gibeon", tag: "faithful", feedback: "Begin every reign with God.", isCorrect: true, sentiment: "positive" },
+      { text: "Seek the Lord at Gibeon", nextScene: "gibeon", tag: "faithful", feedback: "1 Kings 3:4 — Solomon went to Gibeon to offer sacrifices, for that was the most important high place.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -38,7 +38,7 @@ export const solomonWisdomScenes: Record<string, StoryScene> = {
     title: "The High Place",
     text: "A thousand offerings rise from the altar.\nThe sky burns soft and gold.",
     choices: [
-      { text: "Offer with humble heart", nextScene: "dream", tag: "faithful", feedback: "The Lord receives a quiet flame.", isCorrect: true, sentiment: "positive" },
+      { text: "Offer with humble heart", nextScene: "dream", tag: "faithful", feedback: "1 Kings 3:4 — Solomon offered a thousand burnt offerings on the altar at Gibeon.", isCorrect: true, sentiment: "positive" },
       { text: "Offer to be seen by men", nextScene: "seen_consequence", tag: "proud", feedback: "Worship is not for crowds.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -59,7 +59,7 @@ export const solomonWisdomScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Ask for great riches", nextScene: "riches_consequence", tag: "greed", feedback: "Riches will not lead a people.", isCorrect: false, sentiment: "negative" },
       { text: "Ask to defeat your enemies", nextScene: "enemies_consequence", tag: "proud", feedback: "Power without wisdom destroys.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask for a discerning heart", nextScene: "granted", tag: "faithful", feedback: "Wisdom is the greatest gift.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask for a discerning heart", nextScene: "granted", tag: "faithful", feedback: "1 Kings 3:9 — Solomon asked for a discerning heart to govern God's people and to distinguish between right and wrong.", isCorrect: true, sentiment: "positive" },
     ],
   },
   riches_consequence: {
@@ -86,7 +86,7 @@ export const solomonWisdomScenes: Record<string, StoryScene> = {
     text: "\"Because you asked this, I give it.\nAnd riches and honor also.\"",
     choices: [
       { text: "Boast of your new gift", nextScene: "boast2_consequence", tag: "proud", feedback: "Wisdom kept in pride is lost.", isCorrect: false, sentiment: "negative" },
-      { text: "Wake and serve the people", nextScene: "judgment", tag: "faithful", feedback: "True wisdom acts in love.", isCorrect: true, sentiment: "positive" },
+      { text: "Wake and serve the people", nextScene: "judgment", tag: "faithful", feedback: "1 Kings 3:15 — Solomon awoke and returned to Jerusalem, where he stood before the ark of the Lord's covenant and offered burnt offerings and fellowship offerings.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast2_consequence: {
@@ -106,7 +106,7 @@ export const solomonWisdomScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Choose by the louder voice", nextScene: "loud_consequence", tag: "rash", feedback: "Truth is not measured in volume.", isCorrect: false, sentiment: "negative" },
       { text: "Cast lots to decide", nextScene: "lots_consequence", tag: "lazy", feedback: "Wisdom asks deeper questions.", isCorrect: false, sentiment: "negative" },
-      { text: "Offer to divide the child", nextScene: "kingdom", tag: "faithful", feedback: "True love will reveal itself.", isCorrect: true, sentiment: "positive" },
+      { text: "Offer to divide the child", nextScene: "kingdom", tag: "faithful", feedback: "1 Kings 3:25 — Solomon commanded that the living child be divided in two, with half given to each woman.", isCorrect: true, sentiment: "positive" },
     ],
   },
   loud_consequence: {

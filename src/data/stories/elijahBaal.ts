@@ -11,7 +11,7 @@ export const elijahBaalScenes: Record<string, StoryScene> = {
     text: "King Ahab burns with anger.\n\"You troubler of Israel, where is your God?\"",
     choices: [
       { text: "Bow to Baal in fear", nextScene: "bow_consequence", tag: "fearful", feedback: "Fear must not silence truth.", isCorrect: false, sentiment: "negative" },
-      { text: "Call Israel to Mount Carmel", nextScene: "carmel_call", tag: "faithful", feedback: "Let the Lord answer by fire.", isCorrect: true, sentiment: "positive" },
+      { text: "Call Israel to Mount Carmel", nextScene: "carmel_call", tag: "faithful", feedback: "1 Kings 18:19 — Elijah called all Israel and the prophets of Baal to Mount Carmel.", isCorrect: true, sentiment: "positive" },
       { text: "Flee the king's court", nextScene: "flee_consequence", tag: "fearful", feedback: "A prophet must stand and speak.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,7 +38,7 @@ export const elijahBaalScenes: Record<string, StoryScene> = {
     title: "How Long Will You Limp?",
     text: "Israel waits between two gods.\n\"Choose this day whom you serve.\"",
     choices: [
-      { text: "Let Baal's prophets go first", nextScene: "baal_pray", tag: "faithful", feedback: "Truth need not rush.", isCorrect: true, sentiment: "positive" },
+      { text: "Let Baal's prophets go first", nextScene: "baal_pray", tag: "faithful", feedback: "1 Kings 18:25 — Elijah told the prophets of Baal to choose a bull and prepare it first, since they were many.", isCorrect: true, sentiment: "positive" },
       { text: "Light your altar in secret", nextScene: "secret_consequence", tag: "deceit", feedback: "God needs no trickery.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -57,7 +57,7 @@ export const elijahBaalScenes: Record<string, StoryScene> = {
     title: "No Voice, No Answer",
     text: "From dawn to noon they cry.\nTheir altar stands cold and still.",
     choices: [
-      { text: "Mock their lifeless god", nextScene: "elijah_altar", tag: "bold", feedback: "Truth exposes empty ritual.", isCorrect: true, sentiment: "positive" },
+      { text: "Mock their lifeless god", nextScene: "elijah_altar", tag: "bold", feedback: "1 Kings 18:27 — Elijah mocked the prophets of Baal, suggesting their god was meditating, relieving himself, or on a journey.", isCorrect: true, sentiment: "positive" },
       { text: "Pity them and end it", nextScene: "pity_consequence", tag: "soft", feedback: "Let the silence finish its work.", isCorrect: false, sentiment: "negative" },
       { text: "Walk away in disgust", nextScene: "walk_consequence", tag: "fearful", feedback: "The contest is not yet won.", isCorrect: false, sentiment: "negative" },
     ],
@@ -85,7 +85,7 @@ export const elijahBaalScenes: Record<string, StoryScene> = {
     title: "Twelve Stones",
     text: "You rebuild the altar of the Lord.\nThe people draw near in hush.",
     choices: [
-      { text: "Drench it with water three times", nextScene: "elijah_pray", tag: "faithful", feedback: "Leave no room for doubt.", isCorrect: true, sentiment: "positive" },
+      { text: "Drench it with water three times", nextScene: "elijah_pray", tag: "faithful", feedback: "1 Kings 18:33-34 — Elijah commanded that the altar and sacrifice be drenched with water three times.", isCorrect: true, sentiment: "positive" },
       { text: "Hide oil beneath the wood", nextScene: "oil_consequence", tag: "deceit", feedback: "The Lord needs no help.", isCorrect: false, sentiment: "negative" },
       { text: "Light it yourself quickly", nextScene: "light_consequence", tag: "proud", feedback: "Wait for fire from heaven.", isCorrect: false, sentiment: "negative" },
     ],
@@ -114,7 +114,7 @@ export const elijahBaalScenes: Record<string, StoryScene> = {
     text: "Evening light falls on the altar.\nYou lift your voice once, in peace.",
     choices: [
       { text: "Shout louder than Baal's prophets", nextScene: "shout_consequence", tag: "proud", feedback: "God hears the quiet heart.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray that hearts may turn", nextScene: "fire_falls", tag: "faithful", feedback: "Prayer for souls moves heaven.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray that hearts may turn", nextScene: "fire_falls", tag: "faithful", feedback: "1 Kings 18:37 — Elijah prayed that the people would know the Lord is God and that He had turned their hearts back.", isCorrect: true, sentiment: "positive" },
     ],
   },
   shout_consequence: {
@@ -133,7 +133,7 @@ export const elijahBaalScenes: Record<string, StoryScene> = {
     text: "Flame tears down from the sky.\nWater, wood, and stones — all consumed.",
     choices: [
       { text: "Take credit before the crowd", nextScene: "credit_consequence", tag: "proud", feedback: "Glory belongs to God alone.", isCorrect: false, sentiment: "negative" },
-      { text: "Point them to the true God", nextScene: "ending", tag: "faithful", feedback: "Let every face turn upward.", isCorrect: true, sentiment: "positive" },
+      { text: "Point them to the true God", nextScene: "ending", tag: "faithful", feedback: "1 Kings 18:39 — When the fire fell, the people fell on their faces and proclaimed that the Lord, He is God.", isCorrect: true, sentiment: "positive" },
     ],
   },
   credit_consequence: {

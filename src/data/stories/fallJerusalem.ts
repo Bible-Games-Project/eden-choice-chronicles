@@ -10,7 +10,7 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     title: "A Prophet at the Door",
     text: "Jeremiah stands before your throne.\nHe says Babylon is the Lord's rod.",
     choices: [
-      { text: "Throw him into the cistern", nextScene: "imprison_consequence", tag: "proud", feedback: "You silence the voice, not the truth.", isCorrect: true, sentiment: "negative" },
+      { text: "Throw him into the cistern", nextScene: "imprison_consequence", tag: "proud", feedback: "Jeremiah 38:6 — Jeremiah was cast into the cistern by the officials, not by the king directly.", isCorrect: true, sentiment: "negative" },
       { text: "Listen to the Lord's word", nextScene: "preach", tag: "faithful", feedback: "Hard words can save a kingdom.", isCorrect: false, sentiment: "positive" },
       { text: "Dismiss him as a traitor", nextScene: "ignore_consequence", tag: "proud", feedback: "Pride closes the only open door.", isCorrect: true, sentiment: "negative" },
     ],
@@ -40,7 +40,7 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Soften his message for the people", nextScene: "soften_consequence", tag: "proud", feedback: "A watered prophecy saves no one.", isCorrect: false, sentiment: "negative" },
       { text: "Pull him from the square", nextScene: "retreat_consequence", tag: "fearful", feedback: "Hiding the warning hides the way out.", isCorrect: false, sentiment: "negative" },
-      { text: "Let him speak the full word", nextScene: "reject", tag: "faithful", feedback: "You let the truth be heard.", isCorrect: true, sentiment: "positive" },
+      { text: "Let him speak the full word", nextScene: "reject", tag: "faithful", feedback: "Jeremiah 26:1-19 — The priests and prophets sought to put Jeremiah to death for his words, but the officials and people protected him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   soften_consequence: {
@@ -68,7 +68,7 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Curse them with the prophet", nextScene: "curse_consequence", tag: "proud", feedback: "The Lord did not send you to curse.", isCorrect: false, sentiment: "negative" },
       { text: "Stand with Jeremiah's warning", nextScene: "siege", tag: "faithful", feedback: "You refuse to join the laughter.", isCorrect: false, sentiment: "positive" },
-      { text: "Join the people's mockery", nextScene: "giveup_consequence", tag: "proud", feedback: "Mocking the prophet mocks the Lord.", isCorrect: true, sentiment: "negative" },
+      { text: "Join the people's mockery", nextScene: "giveup_consequence", tag: "proud", feedback: "Jeremiah 20:7-10 — Jeremiah was mocked and derided by many, and even his friends watched for his fall.", isCorrect: true, sentiment: "negative" },
     ],
   },
   curse_consequence: {
@@ -95,7 +95,7 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     text: "Nebuchadnezzar's army surrounds the walls.\nThe prophet says: do not resist.",
     choices: [
       { text: "Trust the idols on the high places", nextScene: "idols_consequence", tag: "proud", feedback: "Wood and stone cannot lift a siege.", isCorrect: false, sentiment: "negative" },
-      { text: "Send for Egypt's chariots", nextScene: "egypt_consequence", tag: "fearful", feedback: "Egypt is a broken reed.", isCorrect: true, sentiment: "negative" },
+      { text: "Send for Egypt's chariots", nextScene: "egypt_consequence", tag: "fearful", feedback: "Jeremiah 37:7-8 — Jeremiah prophesied that Pharaoh's army would return to Egypt and the Chaldeans would come back and capture the city.", isCorrect: true, sentiment: "negative" },
       { text: "Submit to the Lord's word", nextScene: "famine", tag: "faithful", feedback: "Submission to God outweighs strength.", isCorrect: false, sentiment: "positive" },
     ],
   },
@@ -123,7 +123,7 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     text: "Inside the walls, the children grow thin.\nJeremiah weeps in the empty streets.",
     choices: [
       { text: "Blame the prophet for the hunger", nextScene: "blame_consequence", tag: "proud", feedback: "Blame will not feed your people.", isCorrect: false, sentiment: "negative" },
-      { text: "Flee the city in secret", nextScene: "flee_consequence", tag: "fearful", feedback: "You cannot outrun the Lord's word.", isCorrect: true, sentiment: "negative" },
+      { text: "Flee the city in secret", nextScene: "flee_consequence", tag: "fearful", feedback: "2 Kings 25:3-4 — The famine was severe in the city, and King Zedekiah and all the soldiers fled by night through the gate between the two walls.", isCorrect: true, sentiment: "negative" },
       { text: "Repent before the Lord", nextScene: "fall", tag: "faithful", feedback: "Late repentance is still repentance.", isCorrect: false, sentiment: "positive" },
     ],
   },
@@ -151,7 +151,7 @@ export const fallJerusalemScenes: Record<string, StoryScene> = {
     text: "Fire climbs the temple stones.\nSmoke covers the holy hill.",
     choices: [
       { text: "Hide inside the burning temple", nextScene: "hide_consequence", tag: "fearful", feedback: "The walls cannot shelter you now.", isCorrect: false, sentiment: "negative" },
-      { text: "Try to escape the broken wall", nextScene: "escape_consequence", tag: "fearful", feedback: "The plain of Jericho will catch you.", isCorrect: true, sentiment: "negative" },
+      { text: "Try to escape the broken wall", nextScene: "escape_consequence", tag: "fearful", feedback: "2 Kings 25:4-5 — King Zedekiah and all the soldiers fled by night through the gate between the two walls, but the Chaldean army pursued and captured him in the plains of Jericho.", isCorrect: true, sentiment: "negative" },
       { text: "Accept the Lord's judgment", nextScene: "exile", tag: "faithful", feedback: "You bow beneath the rod He warned of.", isCorrect: false, sentiment: "positive" },
     ],
   },
