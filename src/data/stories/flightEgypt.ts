@@ -11,7 +11,7 @@ export const flightEgyptScenes: Record<string, StoryScene> = {
     text: "An angel speaks in your dream:\n\"Rise. Herod seeks the child.\"",
     choices: [
       { text: "Sleep on, it is only a dream", nextScene: "ignore_consequence", tag: "faithless", feedback: "Heaven does not lie.", isCorrect: false, sentiment: "negative" },
-      { text: "Wake at once and obey", nextScene: "wake", tag: "faithful", feedback: "Your eyes open in the dark.", isCorrect: true, sentiment: "positive" },
+      { text: "Wake at once and obey", nextScene: "wake", tag: "faithful", feedback: "Matthew 2:13 — An angel of the Lord appeared to Joseph in a dream and told him to rise, take the child and his mother, and flee to Egypt.", isCorrect: true, sentiment: "positive" },
       { text: "Wait for another sign", nextScene: "wait_consequence", tag: "doubtful", feedback: "There is no time to wait.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,7 +38,7 @@ export const flightEgyptScenes: Record<string, StoryScene> = {
     title: "Wake the Mother",
     text: "Mary sleeps with the child near.\nThere is no time to lose.",
     choices: [
-      { text: "Wake Mary and prepare to flee", nextScene: "flee", tag: "faithful", feedback: "She rises without a question.", isCorrect: true, sentiment: "positive" },
+      { text: "Wake Mary and prepare to flee", nextScene: "flee", tag: "faithful", feedback: "Matthew 2:14 — Joseph rose, took the child and his mother by night, and departed for Egypt.", isCorrect: true, sentiment: "positive" },
       { text: "Hide the child in the house", nextScene: "hide_consequence", tag: "fearful", feedback: "No wall will stop Herod.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -58,7 +58,7 @@ export const flightEgyptScenes: Record<string, StoryScene> = {
     text: "Moonlight falls on empty streets.\nThe child sleeps in Mary's arms.",
     choices: [
       { text: "Knock and warn the neighbors", nextScene: "warn_consequence", tag: "rash", feedback: "Soldiers may already be near.", isCorrect: false, sentiment: "negative" },
-      { text: "Slip into the night silently", nextScene: "road", tag: "faithful", feedback: "Your steps make no sound.", isCorrect: true, sentiment: "positive" },
+      { text: "Slip into the night silently", nextScene: "road", tag: "faithful", feedback: "Matthew 2:14 — Joseph took the child and his mother by night and departed for Egypt.", isCorrect: true, sentiment: "positive" },
       { text: "Take the main road south", nextScene: "main_road_consequence", tag: "rash", feedback: "Stay off the open road.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -86,7 +86,7 @@ export const flightEgyptScenes: Record<string, StoryScene> = {
     text: "The desert stretches before you.\nEgypt lies far beyond.",
     choices: [
       { text: "Turn back, the road is too far", nextScene: "turn_back_consequence", tag: "weak", feedback: "Do not turn back now.", isCorrect: false, sentiment: "negative" },
-      { text: "Press on through the night", nextScene: "rest", tag: "faithful", feedback: "Your feet do not stop.", isCorrect: true, sentiment: "positive" },
+      { text: "Press on through the night", nextScene: "rest", tag: "faithful", feedback: "Matthew 2:14 — Joseph departed for Egypt with the child and his mother.", isCorrect: true, sentiment: "positive" },
     ],
   },
   turn_back_consequence: {
@@ -105,7 +105,7 @@ export const flightEgyptScenes: Record<string, StoryScene> = {
     text: "Water glints under the rising sun.\nThe child must drink.",
     choices: [
       { text: "Linger here for many days", nextScene: "linger_consequence", tag: "lazy", feedback: "Do not stay too long.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray, then keep moving", nextScene: "egypt", tag: "faithful", feedback: "You rise refreshed.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray, then keep moving", nextScene: "egypt", tag: "faithful", feedback: "Matthew 2:14-15 — Joseph departed for Egypt and remained there until the death of Herod, fulfilling what the Lord had spoken by the prophet.", isCorrect: true, sentiment: "positive" },
       { text: "Send Mary back home alone", nextScene: "send_back_consequence", tag: "faithless", feedback: "You go together or not at all.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -132,7 +132,7 @@ export const flightEgyptScenes: Record<string, StoryScene> = {
     title: "The Land of Egypt",
     text: "Pyramids rise in the rose dawn.\nYou have crossed the border.",
     choices: [
-      { text: "Find a humble home and stay", nextScene: "safe", tag: "faithful", feedback: "A small door opens to you.", isCorrect: true, sentiment: "positive" },
+      { text: "Find a humble home and stay", nextScene: "safe", tag: "faithful", feedback: "Matthew 2:15 — Joseph remained in Egypt until the death of Herod.", isCorrect: true, sentiment: "positive" },
       { text: "Demand a place at court", nextScene: "court_consequence", tag: "proud", feedback: "Hide, do not boast.", isCorrect: false, sentiment: "negative" },
     ],
   },

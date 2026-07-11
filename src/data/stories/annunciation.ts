@@ -11,7 +11,7 @@ export const annunciationScenes: Record<string, StoryScene> = {
     text: "Dawn settles over your small home.\nYou begin the quiet work of the day.",
     choices: [
       { text: "Boast to the village", nextScene: "boast_consequence", tag: "proud", feedback: "Your heart was made for stillness.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray in silence", nextScene: "gabriel", tag: "faithful", feedback: "Your prayer rises like incense.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray in silence", nextScene: "gabriel", tag: "faithful", feedback: "Luke 1:28 — The angel Gabriel appeared to Mary while she was at home.", isCorrect: true, sentiment: "positive" },
       { text: "Wander to the market", nextScene: "wander_consequence", tag: "distracted", feedback: "Something deeper waits for you.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const annunciationScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Flee in terror", nextScene: "flee_consequence", tag: "fearful", feedback: "His light still finds you.", isCorrect: false, sentiment: "negative" },
       { text: "Demand a sign of power", nextScene: "demand_consequence", tag: "proud", feedback: "He is the sign.", isCorrect: false, sentiment: "negative" },
-      { text: "Stay and listen quietly", nextScene: "ponder", tag: "faithful", feedback: "Awe holds you in place.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay and listen quietly", nextScene: "ponder", tag: "faithful", feedback: "Luke 1:29 — Mary was greatly troubled at the angel's words and wondered what kind of greeting this might be.", isCorrect: true, sentiment: "positive" },
     ],
   },
   flee_consequence: {
@@ -66,7 +66,7 @@ export const annunciationScenes: Record<string, StoryScene> = {
     title: "What Greeting Is This?",
     text: "His words trouble your young heart.\nWhat could such favor mean?",
     choices: [
-      { text: "Wait for him to speak", nextScene: "announce", tag: "faithful", feedback: "Patience opens the door.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait for him to speak", nextScene: "announce", tag: "faithful", feedback: "Luke 1:30 — The angel continued to speak, telling Mary not to be afraid.", isCorrect: true, sentiment: "positive" },
       { text: "Send him away", nextScene: "sendaway_consequence", tag: "fearful", feedback: "Heaven is not so easily turned.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -84,7 +84,7 @@ export const annunciationScenes: Record<string, StoryScene> = {
     title: "You Will Bear a Son",
     text: "\"You will conceive and bear a son.\nCall his name Jesus. He will be great.\"",
     choices: [
-      { text: "Doubt — how can this be?", nextScene: "question", tag: "honest", feedback: "An honest question is welcomed.", isCorrect: true, sentiment: "positive" },
+      { text: "Doubt — how can this be?", nextScene: "question", tag: "honest", feedback: "Luke 1:34 — Mary asked the angel, \"How will this be, since I am a virgin?\"", isCorrect: true, sentiment: "positive" },
       { text: "Refuse the calling", nextScene: "refuse_consequence", tag: "fearful", feedback: "Fear closes what grace opens.", isCorrect: false, sentiment: "negative" },
       { text: "Demand wealth in return", nextScene: "wealth_consequence", tag: "proud", feedback: "This gift is not for sale.", isCorrect: false, sentiment: "negative" },
     ],
@@ -113,7 +113,7 @@ export const annunciationScenes: Record<string, StoryScene> = {
     text: "\"The Holy Spirit will come upon you.\nNothing is impossible with God.\"",
     choices: [
       { text: "Hide the news from all", nextScene: "hide_consequence", tag: "fearful", feedback: "Some things cannot stay hidden.", isCorrect: false, sentiment: "negative" },
-      { text: "Say: let it be unto me", nextScene: "accept", tag: "faithful", feedback: "Your yes shakes the heavens.", isCorrect: true, sentiment: "positive" },
+      { text: "Say: let it be unto me", nextScene: "accept", tag: "faithful", feedback: "Luke 1:38 — Mary responded, \"Behold, I am the servant of the Lord; let it be to me according to your word.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
