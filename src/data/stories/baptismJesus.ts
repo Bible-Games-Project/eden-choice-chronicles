@@ -11,7 +11,7 @@ export const baptismJesusScenes: Record<string, StoryScene> = {
     text: "John cries by the Jordan:\n\"Repent, the Kingdom is near.\"",
     choices: [
       { text: "Mock his strange clothing", nextScene: "mock_consequence", tag: "proud", feedback: "He speaks the word of God.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen with an open heart", nextScene: "crowds", tag: "faithful", feedback: "His words pierce the silence.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen with an open heart", nextScene: "crowds", tag: "faithful", feedback: "Matthew 3:2 — John the Baptist preached, saying, \"Repent, for the kingdom of heaven is at hand.\"", isCorrect: true, sentiment: "positive" },
       { text: "Turn back to the city", nextScene: "turn_consequence", tag: "faithless", feedback: "The river is calling you.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const baptismJesusScenes: Record<string, StoryScene> = {
     text: "Crowds gather along the shore.\nThey come to be cleansed.",
     choices: [
       { text: "Stand apart in pride", nextScene: "apart_consequence", tag: "proud", feedback: "You came to be among them.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk among them as a brother", nextScene: "approach", tag: "faithful", feedback: "You move quietly through the crowd.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk among them as a brother", nextScene: "approach", tag: "faithful", feedback: "Matthew 3:5-6 — People from Jerusalem, all Judea, and all the region about the Jordan were going out to him, and they were baptized by him in the river Jordan, confessing their sins.", isCorrect: true, sentiment: "positive" },
     ],
   },
   apart_consequence: {
@@ -59,7 +59,7 @@ export const baptismJesusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Demand he recognize you", nextScene: "demand_consequence", tag: "proud", feedback: "Come in humility.", isCorrect: false, sentiment: "negative" },
       { text: "Wait silently in line", nextScene: "wait_consequence", tag: "fearful", feedback: "The Father calls you forward.", isCorrect: false, sentiment: "negative" },
-      { text: "Step forward to be baptized", nextScene: "hesitate", tag: "faithful", feedback: "You walk into the water.", isCorrect: true, sentiment: "positive" },
+      { text: "Step forward to be baptized", nextScene: "hesitate", tag: "faithful", feedback: "Matthew 3:13 — Jesus came from Galilee to the Jordan to John, to be baptized by him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -86,7 +86,7 @@ export const baptismJesusScenes: Record<string, StoryScene> = {
     text: "John whispers:\n\"I should be baptized by You.\"",
     choices: [
       { text: "Agree and turn away", nextScene: "agree_consequence", tag: "faithless", feedback: "All righteousness must be fulfilled.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Let it be so to fulfill all.\"", nextScene: "baptism", tag: "faithful", feedback: "John bows and obeys.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Let it be so to fulfill all.\"", nextScene: "baptism", tag: "faithful", feedback: "Matthew 3:15 — Jesus answered him, \"Let it be so now, for thus it is fitting for us to fulfill all righteousness.\"", isCorrect: true, sentiment: "positive" },
       { text: "Rebuke him sharply", nextScene: "rebuke_consequence", tag: "proud", feedback: "Speak to him with grace.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -114,7 +114,7 @@ export const baptismJesusScenes: Record<string, StoryScene> = {
     text: "The cool river rises.\nYou bow your head.",
     choices: [
       { text: "Resist the waters", nextScene: "resist_consequence", tag: "fearful", feedback: "Surrender to the Father.", isCorrect: false, sentiment: "negative" },
-      { text: "Accept the waters in silence", nextScene: "dove", tag: "faithful", feedback: "You are washed in obedience.", isCorrect: true, sentiment: "positive" },
+      { text: "Accept the waters in silence", nextScene: "dove", tag: "faithful", feedback: "Matthew 3:16 — And when Jesus was baptized, immediately he went up from the water.", isCorrect: true, sentiment: "positive" },
     ],
   },
   resist_consequence: {
@@ -134,7 +134,7 @@ export const baptismJesusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hide your face in shame", nextScene: "hide_consequence", tag: "fearful", feedback: "The Father delights in you.", isCorrect: false, sentiment: "negative" },
       { text: "Boast aloud to the crowd", nextScene: "boast_consequence", tag: "proud", feedback: "Receive in stillness.", isCorrect: false, sentiment: "negative" },
-      { text: "Lift your eyes to the Father", nextScene: "voice", tag: "faithful", feedback: "Light fills your face.", isCorrect: true, sentiment: "positive" },
+      { text: "Lift your eyes to the Father", nextScene: "voice", tag: "faithful", feedback: "Matthew 3:16 — The heavens were opened to Jesus, and he saw the Spirit of God descending like a dove and coming to rest on him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {

@@ -11,7 +11,7 @@ export const jesusTempleScenes: Record<string, StoryScene> = {
     text: "The pilgrims walk toward Jerusalem.\nThe feast of Passover draws near.",
     choices: [
       { text: "Run ahead alone, far from them", nextScene: "stray_consequence", tag: "rash", feedback: "Stay near your family.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk beside Mary and Joseph", nextScene: "temple", tag: "faithful", feedback: "You walk in quiet joy.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk beside Mary and Joseph", nextScene: "temple", tag: "faithful", feedback: "Luke 2:41-42 — Jesus' parents traveled to Jerusalem every year for the Passover, and Jesus went with them.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse to go to the feast", nextScene: "refuse_consequence", tag: "faithless", feedback: "The feast is sacred.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const jesusTempleScenes: Record<string, StoryScene> = {
     text: "Sunlight falls on the great stones.\nVoices of teachers fill the air.",
     choices: [
       { text: "Buy bread in the market", nextScene: "market_consequence", tag: "worldly", feedback: "Something deeper calls you.", isCorrect: false, sentiment: "negative" },
-      { text: "Enter and listen to the teachers", nextScene: "stay", tag: "faithful", feedback: "You step inside, drawn to the words.", isCorrect: true, sentiment: "positive" },
+      { text: "Enter and listen to the teachers", nextScene: "stay", tag: "faithful", feedback: "Luke 2:46 — After three days, Mary and Joseph found Jesus in the temple courts, sitting among the teachers, listening to them and asking them questions.", isCorrect: true, sentiment: "positive" },
     ],
   },
   market_consequence: {
@@ -57,7 +57,7 @@ export const jesusTempleScenes: Record<string, StoryScene> = {
     title: "When the Caravan Leaves",
     text: "The pilgrims begin to depart.\nThe teachers still speak of God.",
     choices: [
-      { text: "Stay to hear the words of God", nextScene: "search", tag: "faithful", feedback: "You sit at their feet.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay to hear the words of God", nextScene: "search", tag: "faithful", feedback: "Luke 2:43 — When the feast was over, while his parents were returning home, the boy Jesus stayed behind in Jerusalem.", isCorrect: true, sentiment: "positive" },
       { text: "Run after the caravan now", nextScene: "follow_consequence", tag: "fearful", feedback: "Your true place is here.", isCorrect: false, sentiment: "negative" },
       { text: "Hide in the streets to play", nextScene: "hide_consequence", tag: "rash", feedback: "Do not waste this hour.", isCorrect: false, sentiment: "negative" },
     ],
@@ -86,7 +86,7 @@ export const jesusTempleScenes: Record<string, StoryScene> = {
     text: "Three days pass in the temple.\nMary and Joseph walk Jerusalem in fear.",
     choices: [
       { text: "Slip away and hide from them", nextScene: "flee_consequence", tag: "faithless", feedback: "Do not flee from love.", isCorrect: false, sentiment: "negative" },
-      { text: "Remain where they will find you", nextScene: "teachers", tag: "faithful", feedback: "You sit in quiet trust.", isCorrect: true, sentiment: "positive" },
+      { text: "Remain where they will find you", nextScene: "teachers", tag: "faithful", feedback: "Luke 2:46 — After three days, Mary and Joseph found Jesus in the temple courts.", isCorrect: true, sentiment: "positive" },
     ],
   },
   flee_consequence: {
@@ -106,7 +106,7 @@ export const jesusTempleScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Stay silent and say nothing", nextScene: "silent_consequence", tag: "fearful", feedback: "Speak the truth in you.", isCorrect: false, sentiment: "negative" },
       { text: "Boast of your own greatness", nextScene: "boast_consequence", tag: "proud", feedback: "Wisdom is humble.", isCorrect: false, sentiment: "negative" },
-      { text: "Answer with humble understanding", nextScene: "reunion", tag: "faithful", feedback: "They marvel at your words.", isCorrect: true, sentiment: "positive" },
+      { text: "Answer with humble understanding", nextScene: "reunion", tag: "faithful", feedback: "Luke 2:47 — Everyone who heard Jesus was amazed at his understanding and his answers.", isCorrect: true, sentiment: "positive" },
     ],
   },
   silent_consequence: {
@@ -133,7 +133,7 @@ export const jesusTempleScenes: Record<string, StoryScene> = {
     text: "She weeps:\n\"Why have you done this to us?\"",
     choices: [
       { text: "Blame her for losing you", nextScene: "blame_consequence", tag: "proud", feedback: "Honor your mother.", isCorrect: false, sentiment: "negative" },
-      { text: "\"I was in my Father's house.\"", nextScene: "return", tag: "faithful", feedback: "She holds the words in her heart.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I was in my Father's house.\"", nextScene: "return", tag: "faithful", feedback: "Luke 2:49 — Jesus asked his parents, \"Why were you searching for me? Didn't you know I had to be in my Father's house?\"", isCorrect: true, sentiment: "positive" },
       { text: "Run from her in shame", nextScene: "shame_consequence", tag: "fearful", feedback: "Do not run from her love.", isCorrect: false, sentiment: "negative" },
     ],
   },

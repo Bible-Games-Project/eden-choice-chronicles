@@ -11,7 +11,7 @@ export const callingDisciplesScenes: Record<string, StoryScene> = {
     text: "Dawn over the lake.\nAll night, and not one fish.",
     choices: [
       { text: "Curse the silent sea", nextScene: "curse_consequence", tag: "faithless", feedback: "Bitterness catches no fish.", isCorrect: false, sentiment: "negative" },
-      { text: "Wash the nets in silence", nextScene: "teaching", tag: "faithful", feedback: "Quiet hands, open heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Wash the nets in silence", nextScene: "teaching", tag: "faithful", feedback: "Luke 5:2 — Simon and his partners were washing their nets after fishing all night.", isCorrect: true, sentiment: "positive" },
       { text: "Pack up and go home", nextScene: "leave_consequence", tag: "fearful", feedback: "Wait. Something stirs.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,7 +38,7 @@ export const callingDisciplesScenes: Record<string, StoryScene> = {
     title: "A Stranger's Voice",
     text: "Crowds press near.\n\"May I teach from your boat?\"",
     choices: [
-      { text: "Push out into the water", nextScene: "catch", tag: "faithful", feedback: "His words fill the air.", isCorrect: true, sentiment: "positive" },
+      { text: "Push out into the water", nextScene: "catch", tag: "faithful", feedback: "Luke 5:3 — Jesus asked Simon to put out a little from the land so He could teach the multitudes from the boat.", isCorrect: true, sentiment: "positive" },
       { text: "Tell him to find another", nextScene: "refuse_consequence", tag: "faithless", feedback: "Open the door wider.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -59,7 +59,7 @@ export const callingDisciplesScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Refuse, the nets are washed", nextScene: "refuse_cast_consequence", tag: "faithless", feedback: "Trust the word.", isCorrect: false, sentiment: "negative" },
       { text: "Argue about the timing", nextScene: "argue_consequence", tag: "proud", feedback: "Set words aside.", isCorrect: false, sentiment: "negative" },
-      { text: "\"At your word, I will.\"", nextScene: "miracle", tag: "faithful", feedback: "Obedience opens the deep.", isCorrect: true, sentiment: "positive" },
+      { text: "\"At your word, I will.\"", nextScene: "miracle", tag: "faithful", feedback: "Luke 5:5 — Simon answered Jesus, \"Master, we have toiled all night and caught nothing; nevertheless at Your word I will let down the net.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_cast_consequence: {
@@ -86,7 +86,7 @@ export const callingDisciplesScenes: Record<string, StoryScene> = {
     text: "Fish surge, the nets break.\nYou fall to your knees.",
     choices: [
       { text: "Boast of your catch", nextScene: "boast_consequence", tag: "proud", feedback: "This is not your doing.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Lord, depart from me.\"", nextScene: "call", tag: "faithful", feedback: "He sees your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Lord, depart from me.\"", nextScene: "call", tag: "faithful", feedback: "Luke 5:8 — When Simon Peter saw the great catch of fish, he fell down at Jesus' knees, saying, \"Depart from me, for I am a sinful man, O Lord!\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -105,7 +105,7 @@ export const callingDisciplesScenes: Record<string, StoryScene> = {
     text: "\"Do not be afraid.\nFrom now, you will fish for men.\"",
     choices: [
       { text: "Hesitate, the boats are yours", nextScene: "hesitate_consequence", tag: "fearful", feedback: "He calls you onward.", isCorrect: false, sentiment: "negative" },
-      { text: "Leave everything and follow", nextScene: "follow", tag: "faithful", feedback: "Your heart is light.", isCorrect: true, sentiment: "positive" },
+      { text: "Leave everything and follow", nextScene: "follow", tag: "faithful", feedback: "Luke 5:11 — When they had brought their boats to land, they forsook all and followed Him.", isCorrect: true, sentiment: "positive" },
       { text: "Bargain for tomorrow", nextScene: "bargain_consequence", tag: "proud", feedback: "Now is the hour.", isCorrect: false, sentiment: "negative" },
     ],
   },

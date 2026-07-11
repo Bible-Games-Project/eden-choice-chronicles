@@ -10,7 +10,7 @@ export const weddingCanaScenes: Record<string, StoryScene> = {
     title: "A Joyful Feast",
     text: "Lanterns sway. Laughter rises.\nThe bride and groom dance.",
     choices: [
-      { text: "Join the dancing", nextScene: "shortage", tag: "joyful", feedback: "Joy belongs to all.", isCorrect: true, sentiment: "positive" },
+      { text: "Join the dancing", nextScene: "shortage", tag: "joyful", feedback: "John 2:1-2 — Jesus and his disciples were invited to the wedding at Cana.", isCorrect: true, sentiment: "positive" },
       { text: "Slip away from the noise", nextScene: "slip_consequence", tag: "withdrawn", feedback: "Stay. Be present.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -31,7 +31,7 @@ export const weddingCanaScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hide the empty jars", nextScene: "hide_consequence", tag: "fearful", feedback: "Truth is better.", isCorrect: false, sentiment: "negative" },
       { text: "Pretend nothing is wrong", nextScene: "pretend_consequence", tag: "proud", feedback: "Do not hide it.", isCorrect: false, sentiment: "negative" },
-      { text: "Bring word to Mary", nextScene: "mother", tag: "faithful", feedback: "She will know.", isCorrect: true, sentiment: "positive" },
+      { text: "Bring word to Mary", nextScene: "mother", tag: "faithful", feedback: "John 2:3 — Mary told Jesus, \"They have no more wine.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -58,7 +58,7 @@ export const weddingCanaScenes: Record<string, StoryScene> = {
     text: "\"They have no more wine,\" she says.\nThen turns to you.",
     choices: [
       { text: "Wait for clear orders", nextScene: "wait_consequence", tag: "fearful", feedback: "Listen closely.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Do whatever he tells you.\"", nextScene: "instruct", tag: "faithful", feedback: "Her trust steadies you.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Do whatever he tells you.\"", nextScene: "instruct", tag: "faithful", feedback: "John 2:5 — Mary instructed the servants, \"Do whatever he tells you.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   wait_consequence: {
@@ -78,7 +78,7 @@ export const weddingCanaScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Ask why — it is only water", nextScene: "ask_consequence", tag: "proud", feedback: "Obey first.", isCorrect: false, sentiment: "negative" },
       { text: "Take only one jar", nextScene: "half_consequence", tag: "doubtful", feedback: "Fill them all.", isCorrect: false, sentiment: "negative" },
-      { text: "Fill every jar to the brim", nextScene: "fill", tag: "faithful", feedback: "Full obedience.", isCorrect: true, sentiment: "positive" },
+      { text: "Fill every jar to the brim", nextScene: "fill", tag: "faithful", feedback: "John 2:6-7 — Jesus told the servants to fill six stone jars with water.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ask_consequence: {
@@ -105,7 +105,7 @@ export const weddingCanaScenes: Record<string, StoryScene> = {
     text: "Six jars, full of cool water.\n\"Now draw some out,\" he says.",
     choices: [
       { text: "Refuse — it is just water", nextScene: "refuse_consequence", tag: "faithless", feedback: "Trust him.", isCorrect: false, sentiment: "negative" },
-      { text: "Carry it to the steward", nextScene: "taste", tag: "faithful", feedback: "You obey without seeing.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry it to the steward", nextScene: "taste", tag: "faithful", feedback: "John 2:8 — Jesus then told the servants to draw some out and take it to the master of the banquet.", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_consequence: {
@@ -124,7 +124,7 @@ export const weddingCanaScenes: Record<string, StoryScene> = {
     text: "The steward's eyes widen.\n\"You saved the best for last!\"",
     choices: [
       { text: "Boast that you poured it", nextScene: "boast_consequence", tag: "proud", feedback: "This is not yours.", isCorrect: false, sentiment: "negative" },
-      { text: "Stay quiet and give thanks", nextScene: "wonder", tag: "faithful", feedback: "Silence honors him.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay quiet and give thanks", nextScene: "wonder", tag: "faithful", feedback: "John 2:9-10 — The master of the banquet tasted the water that had turned into wine, not knowing where it had come from.", isCorrect: true, sentiment: "positive" },
       { text: "Slip out unnoticed", nextScene: "slip2_consequence", tag: "withdrawn", feedback: "Stay and witness.", isCorrect: false, sentiment: "negative" },
     ],
   },
