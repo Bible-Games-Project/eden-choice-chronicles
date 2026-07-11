@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  goldenCalf: "The Golden Calf (Exodus 32)",
-  spiesCanaan: "The Spies in Canaan (Numbers 13-14)",
-  rebellionPeople: "The Rebellion of the People / Korah (Numbers 16-17)",
-  balaam: "Balaam and the Donkey (Numbers 22)",
-  deathMoses: "The Death of Moses (Deuteronomy 32-34)",
+  jericho: "The Fall of Jericho (Joshua 6)",
+  sinAchan: "The Sin of Achan (Joshua 7)",
+  deborahBarak: "Deborah and Barak (Judges 4-5)",
+  gideon: "Gideon (Judges 6-7)",
+  samson: "Samson (Judges 13-16)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
