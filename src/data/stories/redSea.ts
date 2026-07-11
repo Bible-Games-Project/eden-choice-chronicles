@@ -12,7 +12,7 @@ export const redSeaScenes: Record<string, StoryScene> = {
     text: "Israel walks free at first light.\nWhich way will you lead them?",
     choices: [
       { text: "Take the short road by the sea", nextScene: "short_road_consequence", tag: "rash", feedback: "War waits on that road.", isCorrect: false, sentiment: "negative" },
-      { text: "Follow the Lord's pillar of cloud", nextScene: "pillar_follows", tag: "obedient", feedback: "He goes before you.", isCorrect: true, sentiment: "positive" },
+      { text: "Follow the Lord's pillar of cloud", nextScene: "pillar_follows", tag: "obedient", feedback: "Exodus 13:21 — The Lord led them with a pillar of cloud by day and a pillar of fire by night.", isCorrect: true, sentiment: "positive" },
       { text: "Hurry back to beg Pharaoh's blessing", nextScene: "beg_consequence", tag: "fearful", feedback: "Do not look back.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -49,7 +49,7 @@ export const redSeaScenes: Record<string, StoryScene> = {
     text: "In Egypt the king curses his weakness.\n\"Bring back our slaves!\"",
     choices: [
       { text: "Speed back to plead with him", nextScene: "plead_consequence", tag: "fearful", feedback: "He has chosen war.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust the Lord and keep moving", nextScene: "army_charges", tag: "faithful", feedback: "Your steps stay steady.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust the Lord and keep moving", nextScene: "army_charges", tag: "faithful", feedback: "Exodus 14:2 — The Lord told Moses to tell the people to turn back and encamp before Pi-hahiroth.", isCorrect: true, sentiment: "positive" },
       { text: "Hide the people in the dunes", nextScene: "hide_consequence", tag: "evasive", feedback: "There is no hiding from this.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -76,7 +76,7 @@ export const redSeaScenes: Record<string, StoryScene> = {
     title: "Dust on the Horizon",
     text: "A red cloud rises behind you.\nChariots. Hundreds of them.",
     choices: [
-      { text: "Tell the people: do not fear", nextScene: "people_panic", tag: "faithful", feedback: "Your voice rings out.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell the people: do not fear", nextScene: "people_panic", tag: "faithful", feedback: "Exodus 14:13 — Moses told the people not to be afraid, to stand firm and see the salvation of the Lord.", isCorrect: true, sentiment: "positive" },
       { text: "Run with them toward the cliffs", nextScene: "run_consequence", tag: "fearful", feedback: "Stand and see His salvation.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -123,7 +123,7 @@ export const redSeaScenes: Record<string, StoryScene> = {
     text: "You stand at the water's edge.\nOnly the Lord can open this.",
     choices: [
       { text: "Demand the people build boats", nextScene: "boats_consequence", tag: "rash", feedback: "There is no time.", isCorrect: false, sentiment: "negative" },
-      { text: "Lift your staff over the sea", nextScene: "sea_parts", tag: "faithful", feedback: "His word fills your hand.", isCorrect: true, sentiment: "positive" },
+      { text: "Lift your staff over the sea", nextScene: "sea_parts", tag: "faithful", feedback: "Exodus 14:16 — The Lord commanded Moses to lift up his staff and stretch out his hand over the sea to divide it.", isCorrect: true, sentiment: "positive" },
       { text: "Wait silently for some other sign", nextScene: "wait_consequence", tag: "fearful", feedback: "He has already spoken.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -150,7 +150,7 @@ export const redSeaScenes: Record<string, StoryScene> = {
     title: "The Waters Divide",
     text: "A great wind splits the sea in two.\nA dry road opens through it.",
     choices: [
-      { text: "Send the people across at once", nextScene: "crossing", tag: "obedient", feedback: "You wave them forward.", isCorrect: true, sentiment: "positive" },
+      { text: "Send the people across at once", nextScene: "crossing", tag: "obedient", feedback: "Exodus 14:16 — The Lord commanded Moses to stretch out his hand over the sea so the Israelites could go through on dry ground.", isCorrect: true, sentiment: "positive" },
       { text: "Stand back and only watch", nextScene: "watch_consequence", tag: "evasive", feedback: "It opened so you could go.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -169,7 +169,7 @@ export const redSeaScenes: Record<string, StoryScene> = {
     text: "Walls of water rise on each side.\nIsrael walks the dry path.",
     choices: [
       { text: "Boast of your power before them", nextScene: "boast_consequence", tag: "prideful", feedback: "It is His arm, not yours.", isCorrect: false, sentiment: "negative" },
-      { text: "Lead them toward the far shore", nextScene: "far_shore", tag: "humble", feedback: "Your sandals find solid ground.", isCorrect: true, sentiment: "positive" },
+      { text: "Lead them toward the far shore", nextScene: "far_shore", tag: "humble", feedback: "Exodus 14:22 — The Israelites went into the sea on dry ground, with the waters forming a wall on their right and on their left.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -189,7 +189,7 @@ export const redSeaScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Mock the drowning soldiers", nextScene: "mock_consequence", tag: "prideful", feedback: "Do not laugh at His judgment.", isCorrect: false, sentiment: "negative" },
       { text: "Run back to fight them yourself", nextScene: "fight_consequence", tag: "rash", feedback: "The Lord fights for you.", isCorrect: false, sentiment: "negative" },
-      { text: "Stretch your hand back over the sea", nextScene: "sea_closes", tag: "obedient", feedback: "The wind shifts at your hand.", isCorrect: true, sentiment: "positive" },
+      { text: "Stretch your hand back over the sea", nextScene: "sea_closes", tag: "obedient", feedback: "Exodus 14:26 — The Lord commanded Moses to stretch out his hand over the sea so the waters would come back over the Egyptians.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {

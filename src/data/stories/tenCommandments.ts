@@ -12,7 +12,7 @@ export const tenCommandmentsScenes: Record<string, StoryScene> = {
     text: "The mountain stands wrapped in cloud.\nThe people wait in silent awe.",
     choices: [
       { text: "Climb at once without preparing", nextScene: "haste_consequence", tag: "rash", feedback: "His holiness asks reverence first.", isCorrect: false, sentiment: "negative" },
-      { text: "Consecrate the people, then ascend", nextScene: "people_tremble", tag: "obedient", feedback: "You set His order in motion.", isCorrect: true, sentiment: "positive" },
+      { text: "Consecrate the people, then ascend", nextScene: "people_tremble", tag: "obedient", feedback: "Exodus 19:10-11 — The Lord instructed Moses to consecrate the people today and tomorrow, and have them wash their clothes.", isCorrect: true, sentiment: "positive" },
       { text: "Send another in your place", nextScene: "shift_consequence", tag: "evasive", feedback: "He has called your name.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -59,7 +59,7 @@ export const tenCommandmentsScenes: Record<string, StoryScene> = {
     text: "The path winds upward into mist.\nThe air grows still and warm.",
     choices: [
       { text: "Turn back, afraid of the cloud", nextScene: "fear_consequence", tag: "fearful", feedback: "He calls you forward.", isCorrect: false, sentiment: "negative" },
-      { text: "Climb in trust toward His voice", nextScene: "summit", tag: "faithful", feedback: "Each step is steady.", isCorrect: true, sentiment: "positive" },
+      { text: "Climb in trust toward His voice", nextScene: "summit", tag: "faithful", feedback: "Exodus 24:13 — Moses and his assistant Joshua went up on Mount Sinai.", isCorrect: true, sentiment: "positive" },
       { text: "Rest halfway and wait for a sign", nextScene: "delay_consequence", tag: "evasive", feedback: "His sign is the climb itself.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -87,7 +87,7 @@ export const tenCommandmentsScenes: Record<string, StoryScene> = {
     text: "Light fills the cloud around you.\nA voice speaks like rolling thunder.",
     choices: [
       { text: "Stand tall and meet His gaze", nextScene: "pride_consequence", tag: "prideful", feedback: "No flesh stands in His glory.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow low in reverence and listen", nextScene: "god_speaks", tag: "humble", feedback: "Your face touches the stone.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow low in reverence and listen", nextScene: "god_speaks", tag: "humble", feedback: "Exodus 24:18 — Moses entered the cloud as he went up on the mountain, and he stayed on the mountain forty days and forty nights.", isCorrect: true, sentiment: "positive" },
     ],
   },
   pride_consequence: {
@@ -106,7 +106,7 @@ export const tenCommandmentsScenes: Record<string, StoryScene> = {
     text: "Ten holy words fall like fire.\nLove for Him. Love for neighbor.",
     choices: [
       { text: "Argue the words are too heavy", nextScene: "argue_consequence", tag: "fearful", feedback: "His commands are life.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive every word in silence", nextScene: "tablets_given", tag: "obedient", feedback: "You write them on your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive every word in silence", nextScene: "tablets_given", tag: "obedient", feedback: "Exodus 20:1-17 — God spoke all these words, the Ten Commandments, to the people.", isCorrect: true, sentiment: "positive" },
       { text: "Try to add words of your own", nextScene: "add_consequence", tag: "prideful", feedback: "His word stands complete.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -134,7 +134,7 @@ export const tenCommandmentsScenes: Record<string, StoryScene> = {
     text: "Two tablets glow with sacred fire.\nWritten by the finger of God.",
     choices: [
       { text: "Hide them away for yourself", nextScene: "hide_consequence", tag: "fearful", feedback: "They are for all Israel.", isCorrect: false, sentiment: "negative" },
-      { text: "Carry them down to the people", nextScene: "descent", tag: "obedient", feedback: "You hold them close to your chest.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry them down to the people", nextScene: "descent", tag: "obedient", feedback: "Exodus 31:18 — When the Lord finished speaking with Moses on Mount Sinai, He gave him the two tablets of the covenant law, inscribed by the finger of God.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -153,7 +153,7 @@ export const tenCommandmentsScenes: Record<string, StoryScene> = {
     text: "The valley opens beneath you.\nThe camp waits below in hush.",
     choices: [
       { text: "Boast of seeing the Lord", nextScene: "boast_consequence", tag: "prideful", feedback: "Glory is His alone.", isCorrect: false, sentiment: "negative" },
-      { text: "Read the words to all Israel", nextScene: "covenant_sealed", tag: "humble", feedback: "Your voice carries clearly.", isCorrect: true, sentiment: "positive" },
+      { text: "Read the words to all Israel", nextScene: "covenant_sealed", tag: "humble", feedback: "Exodus 32:15 — Moses turned and went down the mountain with the two tablets of the covenant law in his hands.", isCorrect: true, sentiment: "positive" },
       { text: "Hide the tablets under your robe", nextScene: "secret_consequence", tag: "evasive", feedback: "His covenant is for the open day.", isCorrect: false, sentiment: "negative" },
     ],
   },

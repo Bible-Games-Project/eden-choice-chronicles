@@ -12,7 +12,7 @@ export const waterRockScenes: Record<string, StoryScene> = {
     text: "The wells are dry. Lips crack with dust.\nThe people gather, eyes hot.",
     choices: [
       { text: "Scold them for weakness", nextScene: "scold_consequence", tag: "rash", feedback: "Their thirst is real.", isCorrect: false, sentiment: "negative" },
-      { text: "Hear their thirst with patience", nextScene: "people_complain", tag: "humble", feedback: "You listen before you speak.", isCorrect: true, sentiment: "positive" },
+      { text: "Hear their thirst with patience", nextScene: "people_complain", tag: "humble", feedback: "Exodus 17:2 — The people quarreled with Moses and tested the Lord.", isCorrect: true, sentiment: "positive" },
       { text: "Pretend you do not see them", nextScene: "ignore_consequence", tag: "evasive", feedback: "A leader cannot turn away.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const waterRockScenes: Record<string, StoryScene> = {
     text: "\"Did you lead us out to die of thirst?\"\nStones rest in trembling hands.",
     choices: [
       { text: "Strike back in anger", nextScene: "strike_consequence", tag: "rash", feedback: "Wrath only deepens the wound.", isCorrect: false, sentiment: "negative" },
-      { text: "Cry out to the Lord", nextScene: "moses_prays", tag: "faithful", feedback: "You lift the matter higher.", isCorrect: true, sentiment: "positive" },
+      { text: "Cry out to the Lord", nextScene: "moses_prays", tag: "faithful", feedback: "Exodus 17:4 — Moses cried out to the Lord, asking what he should do with the people.", isCorrect: true, sentiment: "positive" },
     ],
   },
   strike_consequence: {
@@ -59,7 +59,7 @@ export const waterRockScenes: Record<string, StoryScene> = {
     text: "Wind moves over the silent slope.\nYou wait for His answer.",
     choices: [
       { text: "Demand water as your right", nextScene: "demand_consequence", tag: "prideful", feedback: "Mercy is His to give.", isCorrect: false, sentiment: "negative" },
-      { text: "Lay their thirst before Him", nextScene: "god_speaks", tag: "humble", feedback: "He hears every cry.", isCorrect: true, sentiment: "positive" },
+      { text: "Lay their thirst before Him", nextScene: "god_speaks", tag: "humble", feedback: "Exodus 17:4 — Moses laid the people's thirst and their anger before the Lord.", isCorrect: true, sentiment: "positive" },
       { text: "Despair and turn back silent", nextScene: "despair_consequence", tag: "fearful", feedback: "He has not abandoned you.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -87,7 +87,7 @@ export const waterRockScenes: Record<string, StoryScene> = {
     text: "His voice is steady as the dawn:\n\"Strike the rock. Water will come.\"",
     choices: [
       { text: "Doubt the word and search for wells", nextScene: "doubt_consequence", tag: "fearful", feedback: "His promise needs no other path.", isCorrect: false, sentiment: "negative" },
-      { text: "Take your staff and obey", nextScene: "approach_rock", tag: "obedient", feedback: "You grip the wood firmly.", isCorrect: true, sentiment: "positive" },
+      { text: "Take your staff and obey", nextScene: "approach_rock", tag: "obedient", feedback: "Exodus 17:5-6 — The Lord commanded Moses to take his staff and strike the rock at Horeb.", isCorrect: true, sentiment: "positive" },
       { text: "Ask the elders to act for you", nextScene: "shift_consequence", tag: "evasive", feedback: "He spoke the word to you.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -115,7 +115,7 @@ export const waterRockScenes: Record<string, StoryScene> = {
     text: "The great rock stands silent and bare.\nThe camp watches from afar.",
     choices: [
       { text: "Boast you will draw the water", nextScene: "boast_consequence", tag: "prideful", feedback: "It is the Lord, not you.", isCorrect: false, sentiment: "negative" },
-      { text: "Strike in His name as commanded", nextScene: "water_flows", tag: "faithful", feedback: "The staff falls true.", isCorrect: true, sentiment: "positive" },
+      { text: "Strike in His name as commanded", nextScene: "water_flows", tag: "faithful", feedback: "Exodus 17:6 — Moses struck the rock in the sight of the elders of Israel, as the Lord commanded.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -134,7 +134,7 @@ export const waterRockScenes: Record<string, StoryScene> = {
     text: "Stone splits. A clear stream rushes out.\nThe dry ground drinks first.",
     choices: [
       { text: "Hold the water back from the people", nextScene: "withhold_consequence", tag: "fearful", feedback: "It was given for them.", isCorrect: false, sentiment: "negative" },
-      { text: "Call the people to come and drink", nextScene: "people_drink", tag: "obedient", feedback: "You wave them forward.", isCorrect: true, sentiment: "positive" },
+      { text: "Call the people to come and drink", nextScene: "people_drink", tag: "obedient", feedback: "Exodus 17:6 — Water came out of the rock, and the people drank.", isCorrect: true, sentiment: "positive" },
     ],
   },
   withhold_consequence: {
