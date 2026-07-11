@@ -13,7 +13,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     text: "You walk where Hebrews labor.\nA taskmaster strikes a slave hard.",
     choices: [
       { text: "Walk away and say nothing", nextScene: "walk_away_consequence", tag: "cowardly", feedback: "Their cry weighs on you.", isCorrect: false, sentiment: "negative" },
-      { text: "Move closer to see clearly", nextScene: "watch_closer", tag: "concerned", feedback: "You must see the truth.", isCorrect: true, sentiment: "positive" },
+      { text: "Move closer to see clearly", nextScene: "watch_closer", tag: "concerned", feedback: "Exodus 2:11 — Moses went out to his people and looked on their burdens.", isCorrect: true, sentiment: "positive" },
       { text: "Call the palace guards", nextScene: "call_guards_consequence", tag: "naive", feedback: "They serve Pharaoh, not justice.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,7 +38,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "He Is My Brother",
     text: "The Hebrew is bleeding, half-broken.\nThe taskmaster lifts the whip again.",
     choices: [
-      { text: "Look around. No one watches.", nextScene: "no_one_sees", tag: "cautious", feedback: "The field is empty.", isCorrect: true, sentiment: "positive" },
+      { text: "Look around. No one watches.", nextScene: "no_one_sees", tag: "cautious", feedback: "Exodus 2:12 — Moses looked this way and that, and when he saw that there was no one around, he struck down the Egyptian.", isCorrect: true, sentiment: "positive" },
       { text: "Shout at the taskmaster", nextScene: "shout_consequence", tag: "rash", feedback: "You give yourself away.", isCorrect: false, sentiment: "negative" },
       { text: "Bribe him with gold", nextScene: "bribe_consequence", tag: "weak", feedback: "Cruelty cannot be bought off.", isCorrect: false, sentiment: "negative" },
     ],
@@ -66,7 +66,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "No One Is Near",
     text: "The field is empty. The whip falls.\nYour hands clench. Anger rises.",
     choices: [
-      { text: "Strike down the Egyptian", nextScene: "strike_egyptian", tag: "decisive", feedback: "Justice — but at what cost?", isCorrect: true, sentiment: "positive" },
+      { text: "Strike down the Egyptian", nextScene: "strike_egyptian", tag: "decisive", feedback: "Exodus 2:12 — Moses looked this way and that, and when he saw that there was no one around, he struck down the Egyptian.", isCorrect: true, sentiment: "positive" },
       { text: "Run for help to the palace", nextScene: "run_palace_consequence", tag: "fearful", feedback: "By then he will be dead.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -83,7 +83,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "It Is Done",
     text: "One blow. He falls and breathes no more.\nThe Hebrew flees in silence.",
     choices: [
-      { text: "Hide his body in the sand", nextScene: "bury_body", tag: "cautious", feedback: "You bury what you have done.", isCorrect: true, sentiment: "positive" },
+      { text: "Hide his body in the sand", nextScene: "bury_body", tag: "cautious", feedback: "Exodus 2:12 — Moses struck down the Egyptian and hid him in the sand.", isCorrect: true, sentiment: "positive" },
       { text: "Leave him where he lies", nextScene: "leave_body_consequence", tag: "reckless", feedback: "Anyone passing will see.", isCorrect: false, sentiment: "negative" },
       { text: "Boast of it in the city", nextScene: "boast_consequence", tag: "prideful", feedback: "Your tongue is your downfall.", isCorrect: false, sentiment: "negative" },
     ],
@@ -109,7 +109,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "Buried in the Sand",
     text: "You cover him quickly. No one saw.\nYou hope no one ever knows.",
     choices: [
-      { text: "Return quietly to the palace", nextScene: "return_palace", tag: "wise", feedback: "Act as though nothing happened.", isCorrect: true, sentiment: "positive" },
+      { text: "Return quietly to the palace", nextScene: "return_palace", tag: "wise", feedback: "Exodus 2:12 — Moses struck down the Egyptian and hid him in the sand.", isCorrect: true, sentiment: "positive" },
       { text: "Tell the Hebrew elders", nextScene: "tell_elders_consequence", tag: "trusting", feedback: "Word will spread too fast.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -128,7 +128,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "A Long Night",
     text: "The palace lamps burn low.\nYou sleep little. Tomorrow you must look.",
     choices: [
-      { text: "Walk among the Hebrews again", nextScene: "second_day", tag: "compassionate", feedback: "You cannot stay away.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk among the Hebrews again", nextScene: "second_day", tag: "compassionate", feedback: "Exodus 2:13 — Moses went out the next day and saw two Hebrews fighting.", isCorrect: true, sentiment: "positive" },
       { text: "Stay hidden in your chamber", nextScene: "hide_chamber_consequence", tag: "fearful", feedback: "Hiding will not undo it.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -171,7 +171,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "\"Why Strike Your Brother?\"",
     text: "The man sneers, eyes narrow.\n\"Will you kill me as you killed him?\"",
     choices: [
-      { text: "Realize you are exposed", nextScene: "exposed", tag: "fearful", feedback: "Surely the thing is known.", isCorrect: true, sentiment: "positive" },
+      { text: "Realize you are exposed", nextScene: "exposed", tag: "fearful", feedback: "Exodus 2:14 — The man who was doing wrong asked Moses, \"Who made you a prince and a judge over us? Do you intend to kill me as you killed the Egyptian?\"", isCorrect: true, sentiment: "positive" },
       { text: "Deny everything loudly", nextScene: "deny_consequence", tag: "deceitful", feedback: "Denial only confirms it.", isCorrect: false, sentiment: "negative" },
       { text: "Threaten him to stay silent", nextScene: "threaten_consequence", tag: "violent", feedback: "Fear breeds witnesses.", isCorrect: false, sentiment: "negative" },
     ],
@@ -199,7 +199,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "The Thing Is Known",
     text: "If a Hebrew knows, Pharaoh will know.\nGuards will come for you.",
     choices: [
-      { text: "Prepare to flee from Egypt", nextScene: "pharaoh_hears", tag: "wise", feedback: "Survival demands flight.", isCorrect: true, sentiment: "positive" },
+      { text: "Prepare to flee from Egypt", nextScene: "pharaoh_hears", tag: "wise", feedback: "Exodus 2:15 — When Pharaoh heard of this incident, he sought to kill Moses, so Moses fled from Pharaoh.", isCorrect: true, sentiment: "positive" },
       { text: "Beg Pharaoh for mercy", nextScene: "beg_pharaoh_consequence", tag: "naive", feedback: "Pharaoh seeks your life.", isCorrect: false, sentiment: "negative" },
       { text: "Hide in the Hebrew quarter", nextScene: "hide_hebrews_consequence", tag: "desperate", feedback: "They will not shelter you.", isCorrect: false, sentiment: "negative" },
     ],
@@ -225,7 +225,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "Pharaoh Hears",
     text: "His voice fills the throne hall.\n\"Find Moses. Bring me his life.\"",
     choices: [
-      { text: "Slip out the eastern gate", nextScene: "leave_egypt", tag: "wise", feedback: "The desert lies beyond.", isCorrect: true, sentiment: "positive" },
+      { text: "Slip out the eastern gate", nextScene: "leave_egypt", tag: "wise", feedback: "Exodus 2:15 — When Pharaoh heard of this incident, he sought to kill Moses, so Moses fled from Pharaoh.", isCorrect: true, sentiment: "positive" },
       { text: "Flee by the river boats", nextScene: "river_consequence", tag: "rash", feedback: "Boats are watched first.", isCorrect: false, sentiment: "negative" },
       { text: "Raise the Hebrews in revolt", nextScene: "revolt_consequence", tag: "prideful", feedback: "It is not your hour.", isCorrect: false, sentiment: "negative" },
     ],
@@ -253,7 +253,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "Out of Egypt",
     text: "The gate closes behind you.\nDust and silence open ahead.",
     choices: [
-      { text: "Walk east, into the desert", nextScene: "desert_walk", tag: "brave", feedback: "Each step is freedom and exile.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk east, into the desert", nextScene: "desert_walk", tag: "brave", feedback: "Exodus 2:15 — Moses fled from Pharaoh and stayed in the land of Midian.", isCorrect: true, sentiment: "positive" },
       { text: "Wait near the gate till dark", nextScene: "wait_gate_consequence", tag: "fearful", feedback: "Patrols will pass at dusk.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -270,7 +270,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "Endless Sand",
     text: "Days pass. Sun and wind.\nYou are alone with your thoughts.",
     choices: [
-      { text: "Press on toward Midian", nextScene: "canyon_pause", tag: "faithful", feedback: "You trust the road.", isCorrect: true, sentiment: "positive" },
+      { text: "Press on toward Midian", nextScene: "canyon_pause", tag: "faithful", feedback: "Exodus 2:15 — Moses fled from Pharaoh and stayed in the land of Midian.", isCorrect: true, sentiment: "positive" },
       { text: "Turn back. Surrender.", nextScene: "surrender_consequence", tag: "cowardly", feedback: "Death waits behind you.", isCorrect: false, sentiment: "negative" },
       { text: "Curse God for your exile", nextScene: "curse_consequence", tag: "bitter", feedback: "Bitterness will not feed you.", isCorrect: false, sentiment: "negative" },
     ],
@@ -296,7 +296,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "A Quiet Canyon",
     text: "You rest in cool shadow.\nFar from palace and chains.",
     choices: [
-      { text: "Pray and keep walking", nextScene: "see_well", tag: "faithful", feedback: "Strength returns to you.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray and keep walking", nextScene: "see_well", tag: "faithful", feedback: "Exodus 2:15 — Moses fled from Pharaoh and stayed in the land of Midian.", isCorrect: true, sentiment: "positive" },
       { text: "Lie down and give up", nextScene: "give_up_consequence", tag: "weary", feedback: "You must rise once more.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -313,7 +313,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "A Well in the Sand",
     text: "Palms rise above the dust.\nYou have come to the land of Midian.",
     choices: [
-      { text: "Sit and rest by the well", nextScene: "meet_midianite", tag: "humble", feedback: "A stranger in a strange land.", isCorrect: true, sentiment: "positive" },
+      { text: "Sit and rest by the well", nextScene: "meet_midianite", tag: "humble", feedback: "Exodus 2:15 — Moses fled from Pharaoh and stayed in the land of Midian, and he sat down by a well.", isCorrect: true, sentiment: "positive" },
       { text: "Hide and watch from afar", nextScene: "hide_well_consequence", tag: "fearful", feedback: "You need water, not shadows.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -330,7 +330,7 @@ export const mosesFleesScenes: Record<string, StoryScene> = {
     title: "A Kind Voice",
     text: "A young woman offers you water.\n\"You are welcome here, stranger.\"",
     choices: [
-      { text: "Receive the water with thanks", nextScene: "ending", tag: "humble", feedback: "A new life begins.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the water with thanks", nextScene: "ending", tag: "humble", feedback: "Exodus 2:16-17 — The seven daughters of the priest of Midian came to draw water, and when shepherds drove them away, Moses helped them and watered their flock.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse and walk on alone", nextScene: "refuse_consequence", tag: "proud", feedback: "Pride is not your friend now.", isCorrect: false, sentiment: "negative" },
       { text: "Lie about who you are", nextScene: "lie_consequence", tag: "deceitful", feedback: "Begin in truth, not lies.", isCorrect: false, sentiment: "negative" },
     ],

@@ -14,7 +14,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     text: "Egypt rises beyond the dust.\nThe land of your fear, and your call.",
     choices: [
       { text: "Hide your face and turn back", nextScene: "turn_back_consequence", tag: "fearful", feedback: "He did not send you to flee.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk on toward the city", nextScene: "meet_aaron", tag: "obedient", feedback: "Each step is a vow kept.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk on toward the city", nextScene: "meet_aaron", tag: "obedient", feedback: "Exodus 4:20 — Moses took his wife and sons, put them on a donkey and started back to Egypt.", isCorrect: true, sentiment: "positive" },
       { text: "Wait for a sign first", nextScene: "wait_sign_consequence", tag: "doubtful", feedback: "The sign was the bush.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "Aaron Comes to Meet You",
     text: "Your brother runs across the sand.\n\"The Lord sent me to find you.\"",
     choices: [
-      { text: "Embrace him as brother", nextScene: "tell_elders", tag: "humble", feedback: "Joy returns to your bones.", isCorrect: true, sentiment: "positive" },
+      { text: "Embrace him as brother", nextScene: "tell_elders", tag: "humble", feedback: "Exodus 4:27 — The Lord told Aaron to go into the wilderness to meet Moses, and Aaron met him at Horeb and kissed him.", isCorrect: true, sentiment: "positive" },
       { text: "Test him with hard words", nextScene: "test_aaron_consequence", tag: "prideful", feedback: "He is a gift, not a rival.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -58,7 +58,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "Before the Elders of Israel",
     text: "Hebrew elders sit in the shadow.\nThey wait to hear from God.",
     choices: [
-      { text: "Speak the words God gave", nextScene: "elders_believe", tag: "faithful", feedback: "Aaron speaks beside you.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak the words God gave", nextScene: "elders_believe", tag: "faithful", feedback: "Exodus 4:30 — Aaron told the elders everything the Lord had said to Moses, and Moses performed the signs before their eyes.", isCorrect: true, sentiment: "positive" },
       { text: "Soften the message for them", nextScene: "soften_consequence", tag: "fearful", feedback: "His word is not yours to edit.", isCorrect: false, sentiment: "negative" },
       { text: "Boast of your own calling", nextScene: "boast_elders_consequence", tag: "prideful", feedback: "You are messenger, not master.", isCorrect: false, sentiment: "negative" },
     ],
@@ -94,7 +94,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "Gates of Pharaoh",
     text: "Stone giants flank the entrance.\nGuards watch you with cold eyes.",
     choices: [
-      { text: "Ask audience with the king", nextScene: "court_official", tag: "obedient", feedback: "You speak with steady voice.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask audience with the king", nextScene: "court_official", tag: "obedient", feedback: "Exodus 5:1 — Moses and Aaron went to Pharaoh and said, \"This is what the Lord, the God of Israel, says: 'Let my people go.'\"", isCorrect: true, sentiment: "positive" },
       { text: "Force your way past guards", nextScene: "force_consequence", tag: "rash", feedback: "Iron will not open this door.", isCorrect: false, sentiment: "negative" },
       { text: "Bribe the gatekeeper", nextScene: "bribe_consequence", tag: "evasive", feedback: "God's word does not need silver.", isCorrect: false, sentiment: "negative" },
     ],
@@ -121,7 +121,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "The King's Servant",
     text: "A bald scribe blocks the way.\n\"State your name and your god.\"",
     choices: [
-      { text: "\"The God of the Hebrews sent us\"", nextScene: "enter_throne_hall", tag: "faithful", feedback: "He stiffens at the words.", isCorrect: true, sentiment: "positive" },
+      { text: "\"The God of the Hebrews sent us\"", nextScene: "enter_throne_hall", tag: "faithful", feedback: "Exodus 5:1 — Moses and Aaron went to Pharaoh and said, \"This is what the Lord, the God of Israel, says: 'Let my people go.'\"", isCorrect: true, sentiment: "positive" },
       { text: "Hide who sent you", nextScene: "hide_sender_consequence", tag: "fearful", feedback: "Hide His name and lose it.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -140,7 +140,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "Into the Light",
     text: "A shaft of sun falls on the throne.\nPharaoh waits, still as stone.",
     choices: [
-      { text: "Approach with reverence to God", nextScene: "before_pharaoh", tag: "humble", feedback: "You bow only to Heaven.", isCorrect: true, sentiment: "positive" },
+      { text: "Approach with reverence to God", nextScene: "before_pharaoh", tag: "humble", feedback: "Exodus 5:1 — Moses and Aaron went to Pharaoh and said, \"This is what the Lord, the God of Israel, says: 'Let my people go.'\"", isCorrect: true, sentiment: "positive" },
       { text: "Kneel and worship Pharaoh", nextScene: "worship_consequence", tag: "rebellious", feedback: "He is not your god.", isCorrect: false, sentiment: "negative" },
       { text: "Run from the hall", nextScene: "run_hall_consequence", tag: "fearful", feedback: "Stand. He is with you.", isCorrect: false, sentiment: "negative" },
     ],
@@ -167,7 +167,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "The First Word",
     text: "Pharaoh's eyes weigh you in silence.\nThe court holds its breath.",
     choices: [
-      { text: "\"Let my people go.\"", nextScene: "pharaoh_mocks", tag: "brave", feedback: "The words ring across the hall.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Let my people go.\"", nextScene: "pharaoh_mocks", tag: "brave", feedback: "Exodus 5:1 — Moses and Aaron went to Pharaoh and said, \"This is what the Lord, the God of Israel, says: 'Let my people go.'\"", isCorrect: true, sentiment: "positive" },
       { text: "Beg favors for the Hebrews", nextScene: "beg_consequence", tag: "fearful", feedback: "It is a command, not a plea.", isCorrect: false, sentiment: "negative" },
       { text: "Threaten him with armies", nextScene: "threaten_consequence", tag: "prideful", feedback: "Your strength is His name.", isCorrect: false, sentiment: "negative" },
     ],
@@ -194,7 +194,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "\"Who Is the Lord?\"",
     text: "\"I do not know your God,\nand I will not let Israel go.\"",
     choices: [
-      { text: "Hold the word of the Lord", nextScene: "demand_again", tag: "faithful", feedback: "Your voice does not shake.", isCorrect: true, sentiment: "positive" },
+      { text: "Hold the word of the Lord", nextScene: "demand_again", tag: "faithful", feedback: "Exodus 5:2 — Pharaoh said, \"Who is the Lord, that I should obey him and let Israel go? I do not know the Lord and I will not let Israel go.\"", isCorrect: true, sentiment: "positive" },
       { text: "Curse Pharaoh in anger", nextScene: "curse_consequence", tag: "rash", feedback: "Speak God's word, not yours.", isCorrect: false, sentiment: "negative" },
       { text: "Apologize and withdraw", nextScene: "apologize_consequence", tag: "fearful", feedback: "Do not unsay His command.", isCorrect: false, sentiment: "negative" },
     ],
@@ -221,7 +221,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "A Three Days' Journey",
     text: "\"Let us go to sacrifice in the desert,\nlest plague or sword find us.\"",
     choices: [
-      { text: "Speak the request as given", nextScene: "pharaoh_refuses", tag: "obedient", feedback: "You deliver it whole.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak the request as given", nextScene: "pharaoh_refuses", tag: "obedient", feedback: "Exodus 5:3 records Moses and Aaron asking Pharaoh to let them go a three days' journey into the wilderness to sacrifice to the Lord.", isCorrect: true, sentiment: "positive" },
       { text: "Lie about your true purpose", nextScene: "lie_consequence", tag: "evasive", feedback: "Truth is your only ground.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -240,7 +240,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "Pharaoh's Wrath",
     text: "\"You make the people idle!\nReturn to your burdens — now.\"",
     choices: [
-      { text: "Stand silent before his rage", nextScene: "harsher_labor", tag: "humble", feedback: "You will not bow to him.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand silent before his rage", nextScene: "harsher_labor", tag: "humble", feedback: "Exodus 5:4-5 shows Pharaoh responding with anger and increasing the Israelites' burdens, while Moses and Aaron remained silent.", isCorrect: true, sentiment: "positive" },
       { text: "Argue louder with the king", nextScene: "argue_consequence", tag: "rash", feedback: "His heart only hardens more.", isCorrect: false, sentiment: "negative" },
       { text: "Flee the throne hall", nextScene: "flee_consequence", tag: "fearful", feedback: "Walk out, do not run.", isCorrect: false, sentiment: "negative" },
     ],
@@ -267,7 +267,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "No More Straw",
     text: "\"Let them gather their own straw.\nThe quota will not be lessened.\"",
     choices: [
-      { text: "Carry the news to the people", nextScene: "foremen_beaten", tag: "obedient", feedback: "Hard truth, faithfully borne.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry the news to the people", nextScene: "foremen_beaten", tag: "obedient", feedback: "Exodus 5:10-11 describes the taskmasters telling the foremen that the people must gather their own straw, and the quota of bricks would not be reduced.", isCorrect: true, sentiment: "positive" },
       { text: "Hide the new decree from them", nextScene: "hide_decree_consequence", tag: "fearful", feedback: "They will know either way.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -286,7 +286,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "The Foremen Bleed",
     text: "Hebrew foremen are struck for failing.\nBricks lie scattered in the dust.",
     choices: [
-      { text: "Stay among the suffering", nextScene: "israelites_blame", tag: "humble", feedback: "You do not turn away.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay among the suffering", nextScene: "israelites_blame", tag: "humble", feedback: "Exodus 5:14 states that the Israelite foremen were beaten for not meeting their quotas, and Moses was present among the suffering.", isCorrect: true, sentiment: "positive" },
       { text: "Hide your face from them", nextScene: "hide_face_consequence", tag: "fearful", feedback: "They are still your people.", isCorrect: false, sentiment: "negative" },
       { text: "Strike a guard in vengeance", nextScene: "strike_guard_consequence", tag: "rash", feedback: "That sin already cost you years.", isCorrect: false, sentiment: "negative" },
     ],
@@ -313,7 +313,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "\"You Have Made Us Hated\"",
     text: "The foremen turn on you in grief.\n\"Pharaoh's sword is at our throats.\"",
     choices: [
-      { text: "Take the blame in silence", nextScene: "moses_cries_out", tag: "humble", feedback: "You bear the weight.", isCorrect: true, sentiment: "positive" },
+      { text: "Take the blame in silence", nextScene: "moses_cries_out", tag: "humble", feedback: "Exodus 5:21 records the foremen confronting Moses and Aaron, blaming them for making the Israelites abhorrent to Pharaoh and his officials.", isCorrect: true, sentiment: "positive" },
       { text: "Defend yourself proudly", nextScene: "defend_consequence", tag: "prideful", feedback: "Their pain is real. Listen.", isCorrect: false, sentiment: "negative" },
       { text: "Curse them for their unbelief", nextScene: "curse_people_consequence", tag: "rash", feedback: "They are crushed, not faithless.", isCorrect: false, sentiment: "negative" },
     ],
@@ -340,7 +340,7 @@ export const mosesPharaohScenes: Record<string, StoryScene> = {
     title: "Alone Before God",
     text: "Night falls on the brick fields.\nYou kneel beneath the cold stars.",
     choices: [
-      { text: "Cry out: \"Why send me, Lord?\"", nextScene: "ending", tag: "faithful", feedback: "Honest grief is still prayer.", isCorrect: true, sentiment: "positive" },
+      { text: "Cry out: \"Why send me, Lord?\"", nextScene: "ending", tag: "faithful", feedback: "Exodus 5:22-23 shows Moses returning to the Lord and asking why He had sent him, and why He had brought trouble upon His people.", isCorrect: true, sentiment: "positive" },
       { text: "Resign and go back to Midian", nextScene: "resign_consequence", tag: "rebellious", feedback: "You cannot return now.", isCorrect: false, sentiment: "negative" },
       { text: "Blame Aaron for the failure", nextScene: "blame_aaron_consequence", tag: "prideful", feedback: "The burden is yours, not his.", isCorrect: false, sentiment: "negative" },
     ],
