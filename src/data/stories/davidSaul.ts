@@ -11,7 +11,7 @@ export const davidSaulScenes: Record<string, StoryScene> = {
     text: "Saul's eyes are dark and tired.\nThe harp waits in your hands.",
     choices: [
       { text: "Mock his troubled mind", nextScene: "mock_consequence", tag: "proud", feedback: "A servant does not scorn the king.", isCorrect: false, sentiment: "negative" },
-      { text: "Play softly to soothe him", nextScene: "jealousy", tag: "faithful", feedback: "The notes calm his heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Play softly to soothe him", nextScene: "jealousy", tag: "faithful", feedback: "1 Samuel 16:23 — David played the harp to soothe Saul when an evil spirit was upon him.", isCorrect: true, sentiment: "positive" },
       { text: "Demand a higher seat", nextScene: "demand_consequence", tag: "proud", feedback: "Pride poisons your gift.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const davidSaulScenes: Record<string, StoryScene> = {
     text: "\"Saul slew thousands, David tens of thousands.\"\nSaul's face turns to stone.",
     choices: [
       { text: "Boast of your victories", nextScene: "boast_consequence", tag: "proud", feedback: "Words like these light a fire.", isCorrect: false, sentiment: "negative" },
-      { text: "Stay quiet and serve faithfully", nextScene: "spear", tag: "faithful", feedback: "You lower your eyes.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay quiet and serve faithfully", nextScene: "spear", tag: "faithful", feedback: "1 Samuel 18:8-9 — Saul was very angry and jealous when the women sang about David's victories.", isCorrect: true, sentiment: "positive" },
       { text: "Shame the king openly", nextScene: "shame_consequence", tag: "rash", feedback: "Do not strike at the crown.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -68,7 +68,7 @@ export const davidSaulScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Draw your sword on the king", nextScene: "sword_consequence", tag: "rash", feedback: "Never lift a hand against him.", isCorrect: false, sentiment: "negative" },
       { text: "Curse Saul and storm out", nextScene: "curse_consequence", tag: "proud", feedback: "Anger is not your weapon.", isCorrect: false, sentiment: "negative" },
-      { text: "Slip away in silence", nextScene: "jonathan_warns", tag: "faithful", feedback: "You leave without a word.", isCorrect: true, sentiment: "positive" },
+      { text: "Slip away in silence", nextScene: "jonathan_warns", tag: "faithful", feedback: "1 Samuel 18:10-11 — Saul hurled a spear at David, but David eluded him twice.", isCorrect: true, sentiment: "positive" },
     ],
   },
   sword_consequence: {
@@ -94,7 +94,7 @@ export const davidSaulScenes: Record<string, StoryScene> = {
     title: "A Friend in the Field",
     text: "Jonathan grips your arm.\n\"My father seeks your life. Run.\"",
     choices: [
-      { text: "Trust Jonathan and flee", nextScene: "flee", tag: "faithful", feedback: "True friendship is from God.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust Jonathan and flee", nextScene: "flee", tag: "faithful", feedback: "1 Samuel 19:1-2 — Jonathan warned David that Saul his father was seeking to kill him, and told him to hide.", isCorrect: true, sentiment: "positive" },
       { text: "Return to confront Saul", nextScene: "confront_consequence", tag: "rash", feedback: "Do not walk into the spear.", isCorrect: false, sentiment: "negative" },
       { text: "Doubt Jonathan's loyalty", nextScene: "doubt_consequence", tag: "fearful", feedback: "He risks all to save you.", isCorrect: false, sentiment: "negative" },
     ],
@@ -123,7 +123,7 @@ export const davidSaulScenes: Record<string, StoryScene> = {
     text: "Saul's army hunts the red canyons.\nYour men whisper of vengeance.",
     choices: [
       { text: "Raise a war band against Saul", nextScene: "war_consequence", tag: "rash", feedback: "Do not fight the Lord's anointed.", isCorrect: false, sentiment: "negative" },
-      { text: "Hide in the hills and pray", nextScene: "cave", tag: "faithful", feedback: "You wait on the Lord.", isCorrect: true, sentiment: "positive" },
+      { text: "Hide in the hills and pray", nextScene: "cave", tag: "faithful", feedback: "1 Samuel 23:14 — David stayed in the wilderness in strongholds, and Saul sought him every day, but God did not give David into his hand.", isCorrect: true, sentiment: "positive" },
       { text: "Flee to a foreign king", nextScene: "foreign_consequence", tag: "fearful", feedback: "Trust God, not strangers.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -152,7 +152,7 @@ export const davidSaulScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Strike Saul down now", nextScene: "strike_consequence", tag: "rash", feedback: "Never harm the Lord's anointed.", isCorrect: false, sentiment: "negative" },
       { text: "Wake him with angry words", nextScene: "wake_consequence", tag: "proud", feedback: "Show mercy without malice.", isCorrect: false, sentiment: "negative" },
-      { text: "Cut only the corner of his robe", nextScene: "mercy_call", tag: "faithful", feedback: "Restraint speaks louder than blood.", isCorrect: true, sentiment: "positive" },
+      { text: "Cut only the corner of his robe", nextScene: "mercy_call", tag: "faithful", feedback: "1 Samuel 24:4 — David secretly cut off a corner of Saul's robe while Saul was in the cave.", isCorrect: true, sentiment: "positive" },
     ],
   },
   strike_consequence: {

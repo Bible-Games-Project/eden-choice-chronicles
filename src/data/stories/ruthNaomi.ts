@@ -10,7 +10,7 @@ export const ruthNaomiScenes: Record<string, StoryScene> = {
     title: "Three Graves in Moab",
     text: "Naomi has lost her husband and sons.\nGrief settles like dusk.",
     choices: [
-      { text: "Sit in silence beside her grief", nextScene: "road_decision", tag: "kind", feedback: "Your hand finds hers.", isCorrect: true, sentiment: "positive" },
+      { text: "Sit in silence beside her grief", nextScene: "road_decision", tag: "kind", feedback: "Ruth 1:3-5 — Naomi's husband Elimelech died, and then her two sons, Mahlon and Chilion, also died.", isCorrect: true, sentiment: "positive" },
       { text: "Leave her to mourn alone", nextScene: "alone_consequence", tag: "cold", feedback: "Sorrow needs company.", isCorrect: false, sentiment: "negative" },
       { text: "Tell her to forget the dead", nextScene: "forget_consequence", tag: "harsh", feedback: "Love does not rush grief.", isCorrect: false, sentiment: "negative" },
     ],
@@ -40,7 +40,7 @@ export const ruthNaomiScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Turn back to Moab and your gods", nextScene: "turnback_consequence", tag: "fearful", feedback: "Your heart is with her.", isCorrect: false, sentiment: "negative" },
       { text: "Wait for another to decide for you", nextScene: "wait_consequence", tag: "passive", feedback: "Loyalty is your own choice.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Where you go, I will go.\"", nextScene: "bethlehem_arrival", tag: "loyal", feedback: "Your vow is unshakable.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Where you go, I will go.\"", nextScene: "bethlehem_arrival", tag: "loyal", feedback: "Ruth 1:16 — Ruth told Naomi, \"Where you go, I will go, and where you stay, I will stay. Your people will be my people and your God my God.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   turnback_consequence: {
@@ -68,7 +68,7 @@ export const ruthNaomiScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hide your Moabite roots in shame", nextScene: "hide_consequence", tag: "fearful", feedback: "Stand with her openly.", isCorrect: false, sentiment: "negative" },
       { text: "Beg in the street for bread", nextScene: "beg_consequence", tag: "passive", feedback: "Work is the gentler way.", isCorrect: false, sentiment: "negative" },
-      { text: "Offer to glean grain to feed her", nextScene: "barley_field", tag: "kind", feedback: "Naomi blesses your courage.", isCorrect: true, sentiment: "positive" },
+      { text: "Offer to glean grain to feed her", nextScene: "barley_field", tag: "kind", feedback: "Ruth 2:2 — Ruth asked Naomi if she could go to the fields and glean among the ears of grain behind anyone in whose eyes she might find favor.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -95,7 +95,7 @@ export const ruthNaomiScenes: Record<string, StoryScene> = {
     text: "Boaz, kind and strong, sees you working.\n\"Stay in my fields,\" he says.",
     choices: [
       { text: "Refuse his kindness in pride", nextScene: "refuse_consequence", tag: "proud", feedback: "Grace is meant to be received.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and thank him with humility", nextScene: "threshing_floor", tag: "humble", feedback: "He answers with quiet warmth.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and thank him with humility", nextScene: "threshing_floor", tag: "humble", feedback: "Ruth 2:10 — Ruth bowed down with her face to the ground and asked Boaz why she had found such favor in his eyes.", isCorrect: true, sentiment: "positive" },
       { text: "Demand more than he offers", nextScene: "demand_consequence", tag: "greedy", feedback: "Kindness is not a debt.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -122,7 +122,7 @@ export const ruthNaomiScenes: Record<string, StoryScene> = {
     title: "Naomi's Counsel",
     text: "\"Go to the threshing floor,\" she says.\n\"Ask Boaz to be your redeemer.\"",
     choices: [
-      { text: "Trust Naomi and go in faith", nextScene: "redemption_home", tag: "trusting", feedback: "Stars watch over your steps.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust Naomi and go in faith", nextScene: "redemption_home", tag: "trusting", feedback: "Ruth 3:5 — Ruth told Naomi, \"I will do everything you say.\"", isCorrect: true, sentiment: "positive" },
       { text: "Ignore her wisdom and stay home", nextScene: "ignore_consequence", tag: "fearful", feedback: "Faith asks one quiet step.", isCorrect: false, sentiment: "negative" },
       { text: "Seek a wealthier man instead", nextScene: "seek_consequence", tag: "greedy", feedback: "Boaz is the kinsman God gave.", isCorrect: false, sentiment: "negative" },
     ],
