@@ -27,7 +27,7 @@ const ROOT = join(fileURLToPath(new URL(".", import.meta.url)), "..");
 const STORIES_DIR = join(ROOT, "src/data/stories");
 const LOCALES_DIR = join(ROOT, "src/locales");
 
-const STORIES = ["annunciation", "birthJesus", "shepherds", "wiseMen", "flightEgypt"];
+const STORIES = ["jesusTemple", "baptismJesus", "temptationDesert", "callingDisciples", "weddingCana"];
 const NON_EN = ["es", "pt-BR", "fr", "de", "it", "pl", "ru", "tr", "ja", "ko", "ar"];
 
 const API_KEY = process.env.LOVABLE_API_KEY;
@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  annunciation: "The Annunciation to Mary (Luke 1:26-38)",
-  birthJesus: "The Birth of Jesus (Luke 2:1-7)",
-  shepherds: "The Shepherds (Luke 2:8-20)",
-  wiseMen: "The Wise Men (Matthew 2:1-12)",
-  flightEgypt: "The Flight to Egypt (Matthew 2:13-15)",
+  jesusTemple: "Jesus in the Temple (Luke 2:41-52)",
+  baptismJesus: "The Baptism of Jesus (Matthew 3:13-17, Mark 1:9-11, Luke 3:21-22)",
+  temptationDesert: "The Temptation in the Wilderness (Matthew 4:1-11, Luke 4:1-13)",
+  callingDisciples: "The Calling of the Disciples (Matthew 4:18-22, Luke 5:1-11)",
+  weddingCana: "The Wedding at Cana (John 2:1-11)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }

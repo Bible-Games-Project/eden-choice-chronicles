@@ -11,7 +11,7 @@ export const temptationDesertScenes: Record<string, StoryScene> = {
     text: "Forty days without bread.\nThe desert is silent.",
     choices: [
       { text: "Curse the wilderness", nextScene: "curse_consequence", tag: "faithless", feedback: "The desert is sacred ground.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray and remain", nextScene: "bread", tag: "faithful", feedback: "Stillness fills your soul.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray and remain", nextScene: "bread", tag: "faithful", feedback: "Matthew 4:2 — Jesus was led into the wilderness to fast for forty days and forty nights.", isCorrect: true, sentiment: "positive" },
       { text: "Walk back home", nextScene: "leave_consequence", tag: "fearful", feedback: "Your hour is here.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const temptationDesertScenes: Record<string, StoryScene> = {
     text: "A voice whispers:\n\"Turn these stones into bread.\"",
     choices: [
       { text: "Make the stones into bread", nextScene: "obey_bread_consequence", tag: "faithless", feedback: "Hunger is not your master.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Man lives by every word of God.\"", nextScene: "pinnacle", tag: "faithful", feedback: "Truth is your bread.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Man lives by every word of God.\"", nextScene: "pinnacle", tag: "faithful", feedback: "Matthew 4:4 — Jesus answered, \"It is written: 'Man shall not live on bread alone, but on every word that comes from the mouth of God.'\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   obey_bread_consequence: {
@@ -59,7 +59,7 @@ export const temptationDesertScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Leap to prove your power", nextScene: "leap_consequence", tag: "proud", feedback: "Do not test the Father.", isCorrect: false, sentiment: "negative" },
       { text: "Boast of your trust", nextScene: "boast_consequence", tag: "proud", feedback: "Speak only the word.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Do not put God to the test.\"", nextScene: "kingdoms", tag: "faithful", feedback: "He frowns and turns.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Do not put God to the test.\"", nextScene: "kingdoms", tag: "faithful", feedback: "Matthew 4:7 — Jesus said to him, \"It is also written: 'Do not put the Lord your God to the test.'\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   leap_consequence: {
@@ -85,7 +85,7 @@ export const temptationDesertScenes: Record<string, StoryScene> = {
     title: "All the Kingdoms",
     text: "He shows the world below.\n\"Bow to me and all is yours.\"",
     choices: [
-      { text: "\"Worship the Lord alone.\"", nextScene: "departs", tag: "faithful", feedback: "Your voice shakes the air.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Worship the Lord alone.\"", nextScene: "departs", tag: "faithful", feedback: "Matthew 4:10 — Jesus said to him, \"Away from me, Satan! For it is written: 'Worship the Lord your God, and serve him only.'\"", isCorrect: true, sentiment: "positive" },
       { text: "Bow for the kingdoms", nextScene: "bow_consequence", tag: "faithless", feedback: "You serve only the Father.", isCorrect: false, sentiment: "negative" },
       { text: "Bargain for half", nextScene: "bargain_consequence", tag: "proud", feedback: "Truth does not bargain.", isCorrect: false, sentiment: "negative" },
     ],
@@ -114,7 +114,7 @@ export const temptationDesertScenes: Record<string, StoryScene> = {
     text: "The tempter fades into the dust.\nSilence returns.",
     choices: [
       { text: "Chase after him", nextScene: "chase_consequence", tag: "proud", feedback: "Let him go.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand in quiet thanks", nextScene: "rest", tag: "faithful", feedback: "Peace fills the desert.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand in quiet thanks", nextScene: "rest", tag: "faithful", feedback: "Matthew 4:11 — Then the devil left him, and angels came and attended him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   chase_consequence: {
