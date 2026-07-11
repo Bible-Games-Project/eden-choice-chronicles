@@ -13,7 +13,7 @@ export const balaamScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Accept the gold without asking", nextScene: "greed_consequence", tag: "greedy", feedback: "Silver dazzles; God is silent.", isCorrect: false, sentiment: "negative" },
       { text: "Send them away with a vague vow", nextScene: "vague_consequence", tag: "evasive", feedback: "Half-hearted answers serve no one.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask the Lord what to say", nextScene: "first_word", tag: "obedient", feedback: "You bow to seek His voice.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask the Lord what to say", nextScene: "first_word", tag: "obedient", feedback: "Numbers 22:8 — Balaam asked the Lord what he should say.", isCorrect: true, sentiment: "positive" },
     ],
   },
   greed_consequence: {
@@ -40,7 +40,7 @@ export const balaamScenes: Record<string, StoryScene> = {
     text: "The Lord says, \"Bless, do not curse.\"\nThe envoys ride home empty.",
     choices: [
       { text: "Send messengers chasing the king's gold", nextScene: "chase_consequence", tag: "greedy", feedback: "Your heart already drifts.", isCorrect: false, sentiment: "negative" },
-      { text: "Tell new envoys what God said", nextScene: "second_offer", tag: "honest", feedback: "Truth, not silver, on your tongue.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell new envoys what God said", nextScene: "second_offer", tag: "honest", feedback: "Numbers 22:13 — Balaam told the princes that the Lord refused to let him go with them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   chase_consequence: {
@@ -58,7 +58,7 @@ export const balaamScenes: Record<string, StoryScene> = {
     text: "Greater nobles come, greater gold.\n\"Name your price,\" they say.",
     choices: [
       { text: "Pretend you never heard the first word", nextScene: "pretend_consequence", tag: "deceit", feedback: "His word does not unsay itself.", isCorrect: false, sentiment: "negative" },
-      { text: "Refuse, even for a house of silver", nextScene: "saddle_donkey", tag: "obedient", feedback: "You speak the words plainly.", isCorrect: true, sentiment: "positive" },
+      { text: "Refuse, even for a house of silver", nextScene: "saddle_donkey", tag: "obedient", feedback: "Numbers 22:18 — Balaam told Balak's servants that he could not go beyond the word of the Lord his God, even if Balak gave him his house full of silver and gold.", isCorrect: true, sentiment: "positive" },
       { text: "Demand a higher fee in secret", nextScene: "fee_consequence", tag: "greedy", feedback: "Greed is a louder god than truth.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -85,7 +85,7 @@ export const balaamScenes: Record<string, StoryScene> = {
     title: "Yet You Saddle the Donkey",
     text: "Their gold still glitters in your mind.\nYou ride toward Moab anyway.",
     choices: [
-      { text: "Turn back and stay in your tent", nextScene: "ending_obedient", tag: "humble", feedback: "Wisdom keeps you home.", isCorrect: true, sentiment: "positive" },
+      { text: "Turn back and stay in your tent", nextScene: "ending_obedient", tag: "humble", feedback: "Numbers 22:19-20 — Balaam should have stayed the night to hear what the Lord would say to him next, rather than saddling his donkey and going with the men.", isCorrect: true, sentiment: "positive" },
       { text: "Press on, planning what to say", nextScene: "narrow_path", tag: "divided", feedback: "The road grows uneasy.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -97,7 +97,7 @@ export const balaamScenes: Record<string, StoryScene> = {
     text: "She bolts into a field.\nYou see only stubborn beast.",
     choices: [
       { text: "Beat her back onto the road", nextScene: "second_block", tag: "blind", feedback: "You strike what you cannot see.", isCorrect: false, sentiment: "negative" },
-      { text: "Pause and ask why she fears", nextScene: "humbled_early", tag: "discerning", feedback: "Her eye sees what yours cannot.", isCorrect: true, sentiment: "positive" },
+      { text: "Pause and ask why she fears", nextScene: "humbled_early", tag: "discerning", feedback: "Numbers 22:23 — The donkey saw the angel of the Lord standing in the way with his drawn sword, and she turned aside out of the way.", isCorrect: true, sentiment: "positive" },
     ],
   },
   humbled_early: {
@@ -116,7 +116,7 @@ export const balaamScenes: Record<string, StoryScene> = {
     text: "She presses your foot to the stone.\nPain blinds you further.",
     choices: [
       { text: "Curse her and beat her again", nextScene: "third_block", tag: "blind", feedback: "Your anger grows; your sight does not.", isCorrect: false, sentiment: "negative" },
-      { text: "Stop and listen to the silence", nextScene: "humbled_early", tag: "discerning", feedback: "Something stands ahead unseen.", isCorrect: true, sentiment: "positive" },
+      { text: "Stop and listen to the silence", nextScene: "humbled_early", tag: "discerning", feedback: "Numbers 22:25 — The donkey saw the angel of the Lord and pressed herself against the wall, crushing Balaam's foot.", isCorrect: true, sentiment: "positive" },
     ],
   },
 
