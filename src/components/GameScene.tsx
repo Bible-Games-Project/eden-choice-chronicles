@@ -132,6 +132,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       "fall-jericho", "sin-achan", "deborah-barak", "gideon", "samson",
       "ruth-naomi", "samuel-called", "saul-king", "david-goliath", "david-saul",
       "david-bathsheba", "solomon-wisdom", "elijah-baal", "elisha-naaman", "fall-jerusalem",
+      "annunciation", "birth-jesus", "shepherds", "wise-men", "flight-egypt",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
