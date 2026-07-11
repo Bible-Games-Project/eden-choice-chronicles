@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  ruthNaomi: "Ruth and Naomi (Ruth 1-4)",
-  samuelCalled: "Samuel's Calling (1 Samuel 3)",
-  saulKing: "Saul Becomes King (1 Samuel 9-10)",
-  davidGoliath: "David and Goliath (1 Samuel 17)",
-  davidSaul: "David and Saul (1 Samuel 18-24)",
+  davidBathsheba: "David and Bathsheba (2 Samuel 11-12)",
+  solomonWisdom: "Solomon Asks for Wisdom (1 Kings 3)",
+  elijahBaal: "Elijah vs the Prophets of Baal (1 Kings 18)",
+  elishaNaaman: "Elisha and Naaman (2 Kings 5)",
+  fallJerusalem: "The Fall of Jerusalem (2 Kings 24-25, 2 Chronicles 36)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
