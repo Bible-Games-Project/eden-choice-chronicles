@@ -12,7 +12,7 @@ export const elishaNaamanScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Curse her foreign god", nextScene: "curse_consequence", tag: "proud", feedback: "Pride keeps your wound hidden.", isCorrect: false, sentiment: "negative" },
       { text: "Hide the disease forever", nextScene: "hide_consequence", tag: "fearful", feedback: "Silence will not heal you.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen to the servant girl", nextScene: "journey", tag: "faithful", feedback: "Wisdom can come from the small.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen to the servant girl", nextScene: "journey", tag: "faithful", feedback: "2 Kings 5:3 — The servant girl told her mistress that the prophet in Samaria could cure Naaman of his leprosy.", isCorrect: true, sentiment: "positive" },
     ],
   },
   curse_consequence: {
@@ -38,7 +38,7 @@ export const elishaNaamanScenes: Record<string, StoryScene> = {
     title: "Letters and Gold",
     text: "The king sends silver, gold, and a letter.\nThe road to Israel waits.",
     choices: [
-      { text: "Demand healing from a king", nextScene: "king_consequence", tag: "proud", feedback: "No king holds this gift.", isCorrect: true, sentiment: "negative" },
+      { text: "Demand healing from a king", nextScene: "king_consequence", tag: "proud", feedback: "2 Kings 5:4-6 — Naaman went to the king of Aram, who then sent a letter and gifts to the king of Israel, not directly to the prophet.", isCorrect: true, sentiment: "negative" },
       { text: "Seek out the prophet Elisha", nextScene: "arrival", tag: "faithful", feedback: "The Lord works through His servant.", isCorrect: false, sentiment: "positive" },
     ],
   },
@@ -57,7 +57,7 @@ export const elishaNaamanScenes: Record<string, StoryScene> = {
     title: "A Closed Door",
     text: "Your chariot waits at the prophet's house.\nElisha does not come out.",
     choices: [
-      { text: "Wait quietly for his word", nextScene: "instruction", tag: "faithful", feedback: "Stillness opens the heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait quietly for his word", nextScene: "instruction", tag: "faithful", feedback: "2 Kings 5:10 — Elisha sent a messenger to Naaman with instructions, rather than coming out himself.", isCorrect: true, sentiment: "positive" },
       { text: "Force the door open", nextScene: "force_consequence", tag: "proud", feedback: "Healing is not seized.", isCorrect: false, sentiment: "negative" },
       { text: "Throw gold at the threshold", nextScene: "gold_consequence", tag: "proud", feedback: "Grace is not bought.", isCorrect: false, sentiment: "negative" },
     ],
@@ -85,7 +85,7 @@ export const elishaNaamanScenes: Record<string, StoryScene> = {
     title: "Wash Seven Times",
     text: "The messenger speaks for the prophet.\n\"Wash in the Jordan and be clean.\"",
     choices: [
-      { text: "Refuse — the rivers at home are better", nextScene: "refuse_consequence", tag: "proud", feedback: "Pride blinds you to mercy.", isCorrect: true, sentiment: "negative" },
+      { text: "Refuse — the rivers at home are better", nextScene: "refuse_consequence", tag: "proud", feedback: "2 Kings 5:11-12 — Naaman was angry and turned away, believing the rivers of Damascus were better than the Jordan.", isCorrect: true, sentiment: "negative" },
       { text: "Demand a grand ceremony", nextScene: "ceremony_consequence", tag: "proud", feedback: "God does not need a stage.", isCorrect: true, sentiment: "negative" },
       { text: "Listen to your servants", nextScene: "jordan", tag: "faithful", feedback: "Humble counsel softens stone.", isCorrect: true, sentiment: "positive" },
     ],
@@ -114,7 +114,7 @@ export const elishaNaamanScenes: Record<string, StoryScene> = {
     text: "The Jordan flows slow and muddy.\nYou step in, armor laid aside.",
     choices: [
       { text: "Wash once and turn away", nextScene: "once_consequence", tag: "proud", feedback: "Half-faith leaves you unchanged.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and dip seven times", nextScene: "healed", tag: "faithful", feedback: "Each dip drowns a piece of pride.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and dip seven times", nextScene: "healed", tag: "faithful", feedback: "2 Kings 5:14 — Naaman went down and dipped himself seven times in the Jordan, according to the word of the man of God.", isCorrect: true, sentiment: "positive" },
     ],
   },
   once_consequence: {
