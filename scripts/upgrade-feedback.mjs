@@ -136,7 +136,7 @@ async function generateFeedbacks(storyLabel, items) {
   }
   const sys = `You write short educational feedback shown in a Bible story game after a wrong answer.
 For each entry, output ONE English sentence (max 2) that:
-- Cites the specific Genesis chapter and verse where possible (e.g. "Genesis 24:19 —").
+- Cites the specific book, chapter and verse where possible (e.g. "Exodus 2:3 —").
 - States the biblical fact plainly. Never uses "you"; refer to the character by name.
 - Never scolds. Warm, educational, factual.
 - Must clearly match the "correct_action". If the correct_action is a soft/interpretive line, still cite the closest verse and describe what Scripture actually records.
