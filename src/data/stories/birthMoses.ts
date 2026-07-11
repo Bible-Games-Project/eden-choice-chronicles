@@ -14,7 +14,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "Soldiers shout in the streets.\n\"Every Hebrew son must die.\"",
     choices: [
       { text: "Hand the baby to a soldier", nextScene: "hand_consequence", tag: "fearful", feedback: "Never. He is God's gift.", isCorrect: false, sentiment: "negative" },
-      { text: "Hide your newborn son", nextScene: "hide_home", tag: "brave", feedback: "Faith stronger than fear.", isCorrect: true, sentiment: "positive" },
+      { text: "Hide your newborn son", nextScene: "hide_home", tag: "brave", feedback: "Exodus 1:22 — Pharaoh commanded that every Hebrew boy born be thrown into the Nile River.", isCorrect: true, sentiment: "positive" },
       { text: "Run into the desert tonight", nextScene: "flee_consequence", tag: "rash", feedback: "The night swallows the weak.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     title: "Three Months Hidden",
     text: "You nurse him in silence.\nEvery cry could end his life.",
     choices: [
-      { text: "Trust God and keep hiding", nextScene: "growing_baby", tag: "faithful", feedback: "Each day is a small miracle.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust God and keep hiding", nextScene: "growing_baby", tag: "faithful", feedback: "Exodus 2:2 — Moses' mother hid him for three months because she saw he was a special child.", isCorrect: true, sentiment: "positive" },
       { text: "Show him proudly to neighbors", nextScene: "show_consequence", tag: "reckless", feedback: "Pride could betray him.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -57,7 +57,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "He is too big to hide much longer.\nHis cries fill the small room.",
     choices: [
       { text: "Bury him in the floor", nextScene: "bury_consequence", tag: "desperate", feedback: "He needs air, not a grave.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray and seek God's plan", nextScene: "prayer", tag: "faithful", feedback: "An idea begins to rise.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray and seek God's plan", nextScene: "prayer", tag: "faithful", feedback: "Exodus 2:3 — When she could no longer hide him, she prepared a basket for him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   bury_consequence: {
@@ -74,7 +74,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "\"God of Abraham, save my son.\"\nA thought stirs: the river. The reeds.",
     choices: [
       { text: "Ignore it and keep hiding", nextScene: "ignore_consequence", tag: "fearful", feedback: "Hiding will not last.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust the thought from God", nextScene: "weave_basket", tag: "faithful", feedback: "You reach for the papyrus.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust the thought from God", nextScene: "weave_basket", tag: "faithful", feedback: "Exodus 2:3 — Moses' mother placed him in a basket among the reeds along the bank of the Nile.", isCorrect: true, sentiment: "positive" },
     ],
   },
   ignore_consequence: {
@@ -93,7 +93,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "You weave through the night.\nTar and pitch will keep him dry.",
     choices: [
       { text: "Use a fragile clay pot", nextScene: "clay_consequence", tag: "foolish", feedback: "Clay would crack and sink.", isCorrect: false, sentiment: "negative" },
-      { text: "Coat the basket with pitch", nextScene: "miriam_called", tag: "wise", feedback: "It will float and stay sealed.", isCorrect: true, sentiment: "positive" },
+      { text: "Coat the basket with pitch", nextScene: "miriam_called", tag: "wise", feedback: "Exodus 2:3 — Moses' mother made a papyrus basket and coated it with tar and pitch.", isCorrect: true, sentiment: "positive" },
     ],
   },
   clay_consequence: {
@@ -110,7 +110,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "Your daughter watches you wide-eyed.\n\"Mother, what are you doing?\"",
     choices: [
       { text: "Send her away in anger", nextScene: "anger_consequence", tag: "harsh", feedback: "She is your ally, not enemy.", isCorrect: false, sentiment: "negative" },
-      { text: "Tell her to come with you", nextScene: "to_river", tag: "wise", feedback: "She nods, brave like her mother.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell her to come with you", nextScene: "to_river", tag: "wise", feedback: "Exodus 2:4 — Moses' sister stood at a distance to see what would happen to him.", isCorrect: true, sentiment: "positive" },
       { text: "Lie to keep her safe", nextScene: "lie_consequence", tag: "fearful", feedback: "She must understand the truth.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -136,7 +136,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "Before dawn, you slip out the door.\nThe Nile breathes mist ahead.",
     choices: [
       { text: "Throw him into the open river", nextScene: "throw_consequence", tag: "rash", feedback: "The current would take him.", isCorrect: false, sentiment: "negative" },
-      { text: "Hide the basket in the reeds", nextScene: "place_basket", tag: "wise", feedback: "Calm water. Sheltered. Safe.", isCorrect: true, sentiment: "positive" },
+      { text: "Hide the basket in the reeds", nextScene: "place_basket", tag: "wise", feedback: "Exodus 2:3 — Moses' mother put the baby in the basket and placed it among the reeds along the bank of the Nile.", isCorrect: true, sentiment: "positive" },
     ],
   },
   throw_consequence: {
@@ -172,7 +172,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "You leave Miriam to keep watch.\n\"Stay hidden. See what becomes of him.\"",
     choices: [
       { text: "Order her to swim with the basket", nextScene: "swim_consequence", tag: "rash", feedback: "She would drown in the current.", isCorrect: false, sentiment: "negative" },
-      { text: "Tell her to hide and watch", nextScene: "princess_arrives", tag: "wise", feedback: "She kneels behind tall reeds.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell her to hide and watch", nextScene: "princess_arrives", tag: "wise", feedback: "Exodus 2:4 — Miriam stood at a distance to see what would happen to him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   swim_consequence: {
@@ -189,7 +189,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "Sandals on stone. Silk on the wind.\nPharaoh's daughter comes to bathe.",
     choices: [
       { text: "Throw a stone to scare her off", nextScene: "stone_consequence", tag: "foolish", feedback: "She is the answer, not the threat.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait and watch in silence", nextScene: "she_sees", tag: "faithful", feedback: "Miriam holds her breath.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait and watch in silence", nextScene: "she_sees", tag: "faithful", feedback: "Exodus 2:5 — Pharaoh's daughter went down to the Nile to bathe, and her attendants walked along the river bank.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stone_consequence: {
@@ -205,7 +205,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     title: "She Sees the Basket",
     text: "She points among the reeds.\n\"Bring me that basket.\"",
     choices: [
-      { text: "Pray she opens it gently", nextScene: "she_opens", tag: "faithful", feedback: "Your heart pounds in the reeds.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray she opens it gently", nextScene: "she_opens", tag: "faithful", feedback: "Exodus 2:5 — She saw the basket among the reeds and sent her female slave to get it.", isCorrect: true, sentiment: "positive" },
       { text: "Have Miriam shout a warning", nextScene: "shout_consequence", tag: "rash", feedback: "Silence now, child. Trust God.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -224,7 +224,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     title: "A Hebrew Child",
     text: "She lifts the lid. He cries.\n\"He is one of the Hebrew babies.\"",
     choices: [
-      { text: "Whisper a blessing for her heart", nextScene: "compassion", tag: "faithful", feedback: "Her face softens.", isCorrect: true, sentiment: "positive" },
+      { text: "Whisper a blessing for her heart", nextScene: "compassion", tag: "faithful", feedback: "Exodus 2:6 — When she opened it, she saw the baby. He was crying, and she felt sorry for him. \"This is one of the Hebrew babies,\" she said.", isCorrect: true, sentiment: "positive" },
       { text: "Have Miriam beg her loudly", nextScene: "beg_consequence", tag: "rash", feedback: "Wait. The right moment will come.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -241,7 +241,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     title: "Pity Moves Her",
     text: "She holds him close, tears in her eyes.\n\"I will keep him for my own.\"",
     choices: [
-      { text: "Send Miriam to offer a nurse", nextScene: "miriam_offers", tag: "wise", feedback: "Now is the moment, child.", isCorrect: true, sentiment: "positive" },
+      { text: "Send Miriam to offer a nurse", nextScene: "miriam_offers", tag: "wise", feedback: "Exodus 2:6 — She took pity on him.", isCorrect: true, sentiment: "positive" },
       { text: "Let Miriam keep silent forever", nextScene: "silent_consequence", tag: "fearful", feedback: "God placed her here for this.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -278,7 +278,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "Miriam runs through the reeds.\nShe finds you trembling and waiting.",
     choices: [
       { text: "Refuse to come, hiding in fear", nextScene: "refuse_consequence", tag: "fearful", feedback: "God is giving him back. Go.", isCorrect: false, sentiment: "negative" },
-      { text: "Come at once to the princess", nextScene: "before_princess", tag: "faithful", feedback: "You wipe your eyes and run.", isCorrect: true, sentiment: "positive" },
+      { text: "Come at once to the princess", nextScene: "before_princess", tag: "faithful", feedback: "Exodus 2:8 — \"Yes, go,\" she said. So the girl went and got the baby's mother.", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_consequence: {
@@ -312,7 +312,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "She pays you to nurse your own son.\nGod has done the impossible.",
     choices: [
       { text: "Refuse the wages out of pride", nextScene: "pride_consequence", tag: "foolish", feedback: "Receive what God provides.", isCorrect: false, sentiment: "negative" },
-      { text: "Take him home and raise him", nextScene: "home_again", tag: "faithful", feedback: "He sleeps against your chest.", isCorrect: true, sentiment: "positive" },
+      { text: "Take him home and raise him", nextScene: "home_again", tag: "faithful", feedback: "Exodus 2:9 — Pharaoh's daughter told Moses' mother to take the baby and nurse him, and she would pay her wages.", isCorrect: true, sentiment: "positive" },
     ],
   },
   pride_consequence: {
@@ -329,7 +329,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "You sing the songs of Abraham,\nof Isaac, of Jacob — into his ear.",
     choices: [
       { text: "Hide him forever from the palace", nextScene: "hide_forever_consequence", tag: "fearful", feedback: "He has a calling beyond home.", isCorrect: false, sentiment: "negative" },
-      { text: "Prepare him to return to her", nextScene: "return_palace", tag: "faithful", feedback: "You teach him who he truly is.", isCorrect: true, sentiment: "positive" },
+      { text: "Prepare him to return to her", nextScene: "return_palace", tag: "faithful", feedback: "Exodus 2:10 — When the child grew older, she brought him to Pharaoh's daughter, and he became her son.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_forever_consequence: {
@@ -346,7 +346,7 @@ export const birthMosesScenes: Record<string, StoryScene> = {
     text: "He is weaned. The day has come.\nYou walk him to the palace gates.",
     choices: [
       { text: "Run away with him at the last", nextScene: "runaway_consequence", tag: "fearful", feedback: "Trust the God who saved him.", isCorrect: false, sentiment: "negative" },
-      { text: "Place him in her arms", nextScene: "named_moses", tag: "faithful", feedback: "She receives him as her son.", isCorrect: true, sentiment: "positive" },
+      { text: "Place him in her arms", nextScene: "named_moses", tag: "faithful", feedback: "Exodus 2:10 — When the child grew older, she brought him to Pharaoh's daughter, and he became her son.", isCorrect: true, sentiment: "positive" },
     ],
   },
   runaway_consequence: {

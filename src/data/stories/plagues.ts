@@ -14,7 +14,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     text: "Pharaoh sits cold upon his throne.\nAaron stands at your side.",
     choices: [
       { text: "Hide the Lord's command", nextScene: "hide_consequence", tag: "fearful", feedback: "Do not hide His word.", isCorrect: false, sentiment: "negative" },
-      { text: "Cast down the staff before him", nextScene: "serpent_sign", tag: "obedient", feedback: "It twists into a serpent.", isCorrect: true, sentiment: "positive" },
+      { text: "Cast down the staff before him", nextScene: "serpent_sign", tag: "obedient", feedback: "Exodus 7:9-10 — The Lord commanded Moses and Aaron to cast down Aaron's staff before Pharaoh, and it became a serpent.", isCorrect: true, sentiment: "positive" },
       { text: "Storm out in anger", nextScene: "storm_consequence", tag: "rash", feedback: "Stand. Speak the sign.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -41,7 +41,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     text: "Their staffs become serpents too.\nYet yours devours theirs whole.",
     choices: [
       { text: "Boast over the magicians", nextScene: "boast_consequence", tag: "prideful", feedback: "Glory is His, not yours.", isCorrect: false, sentiment: "negative" },
-      { text: "Demand again: let them go", nextScene: "to_the_nile", tag: "faithful", feedback: "Pharaoh's heart hardens.", isCorrect: true, sentiment: "positive" },
+      { text: "Demand again: let them go", nextScene: "to_the_nile", tag: "faithful", feedback: "Exodus 7:14-16 — After the magicians' staffs also became serpents and Aaron's staff swallowed theirs, the Lord told Moses to tell Pharaoh to let His people go.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -61,7 +61,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Wait for him to ask first", nextScene: "wait_consequence", tag: "fearful", feedback: "Obey now, not later.", isCorrect: false, sentiment: "negative" },
       { text: "Beg pity from the king", nextScene: "beg_consequence", tag: "fearful", feedback: "It is a sign, not a plea.", isCorrect: false, sentiment: "negative" },
-      { text: "Strike the water with the staff", nextScene: "nile_blood", tag: "obedient", feedback: "The river runs red.", isCorrect: true, sentiment: "positive" },
+      { text: "Strike the water with the staff", nextScene: "nile_blood", tag: "obedient", feedback: "Exodus 7:19-20 — The Lord commanded Aaron to stretch out his hand with his staff over the waters of Egypt, and they would turn to blood.", isCorrect: true, sentiment: "positive" },
     ],
   },
   wait_consequence: {
@@ -86,7 +86,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     title: "Seven Days of Blood",
     text: "Fish die. Egypt cannot drink.\nPharaoh's heart will not bend.",
     choices: [
-      { text: "Threaten frogs upon the land", nextScene: "frogs_plague", tag: "faithful", feedback: "He laughs. Then he hears.", isCorrect: true, sentiment: "positive" },
+      { text: "Threaten frogs upon the land", nextScene: "frogs_plague", tag: "faithful", feedback: "Exodus 8:1-2 — The Lord commanded Moses to tell Pharaoh that if he refused to let the people go, He would plague all his country with frogs.", isCorrect: true, sentiment: "positive" },
       { text: "Mock his powerless gods", nextScene: "mock_consequence", tag: "prideful", feedback: "Speak the Lord's word, not yours.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -105,7 +105,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     title: "Frogs Cover the Land",
     text: "They fill the houses, ovens, beds.\nPharaoh begs you: \"Pray for me.\"",
     choices: [
-      { text: "Pray as the Lord commanded", nextScene: "pharaoh_lies", tag: "obedient", feedback: "Tomorrow, he says. Tomorrow.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray as the Lord commanded", nextScene: "pharaoh_lies", tag: "obedient", feedback: "Exodus 8:8-12 — Pharaoh asked Moses and Aaron to entreat the Lord to take away the frogs, and Moses cried out to the Lord concerning the frogs.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse until they go free", nextScene: "refuse_pray_consequence", tag: "rash", feedback: "Mercy is not yours to barter.", isCorrect: false, sentiment: "negative" },
       { text: "Demand silver for the prayer", nextScene: "silver_consequence", tag: "evasive", feedback: "His mercy is never sold.", isCorrect: false, sentiment: "negative" },
     ],
@@ -133,7 +133,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     text: "Frogs die. The land stinks of them.\nPharaoh's heart hardens again.",
     choices: [
       { text: "Despair and turn back", nextScene: "despair_consequence", tag: "fearful", feedback: "He is not finished here.", isCorrect: false, sentiment: "negative" },
-      { text: "Strike the dust: gnats arise", nextScene: "swarms", tag: "obedient", feedback: "Dust becomes biting clouds.", isCorrect: true, sentiment: "positive" },
+      { text: "Strike the dust: gnats arise", nextScene: "swarms", tag: "obedient", feedback: "Exodus 8:16-17 — The Lord commanded Aaron to stretch out his staff and strike the dust of the earth, so that it might become gnats throughout all the land of Egypt.", isCorrect: true, sentiment: "positive" },
     ],
   },
   despair_consequence: {
@@ -153,7 +153,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Boast over the broken sorcerers", nextScene: "boast_again_consequence", tag: "prideful", feedback: "He humbled them, not you.", isCorrect: false, sentiment: "negative" },
       { text: "Take pity and stop the signs", nextScene: "pity_consequence", tag: "fearful", feedback: "Mercy is not yours to grant.", isCorrect: false, sentiment: "negative" },
-      { text: "Warn of flies, then livestock", nextScene: "livestock_die", tag: "faithful", feedback: "Goshen alone is spared.", isCorrect: true, sentiment: "positive" },
+      { text: "Warn of flies, then livestock", nextScene: "livestock_die", tag: "faithful", feedback: "Exodus 8:20-21 — The Lord commanded Moses to tell Pharaoh that if he did not let His people go, He would send swarms of flies upon him, his servants, his people, and into his houses.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_again_consequence: {
@@ -178,7 +178,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     title: "Cattle Fall in the Field",
     text: "All Egypt's herds lie dead in dust.\nIsrael's flocks graze unharmed.",
     choices: [
-      { text: "Throw soot toward the sky", nextScene: "boils_plague", tag: "obedient", feedback: "Boils break out on every man.", isCorrect: true, sentiment: "positive" },
+      { text: "Throw soot toward the sky", nextScene: "boils_plague", tag: "obedient", feedback: "Exodus 9:8-10 — The Lord commanded Moses and Aaron to take handfuls of ashes from a furnace, and Moses was to throw them toward the heavens in the sight of Pharaoh.", isCorrect: true, sentiment: "positive" },
       { text: "Hide from Pharaoh's wrath", nextScene: "hide_wrath_consequence", tag: "fearful", feedback: "He sent you back. Stand.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -197,7 +197,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     text: "Even the magicians cannot stand.\nStill Pharaoh's heart is iron.",
     choices: [
       { text: "Curse the king to his face", nextScene: "curse_consequence", tag: "rash", feedback: "Speak the warning, not curses.", isCorrect: false, sentiment: "negative" },
-      { text: "Warn of hail and fire from sky", nextScene: "hail_fire", tag: "faithful", feedback: "Some servants believe and hide.", isCorrect: true, sentiment: "positive" },
+      { text: "Warn of hail and fire from sky", nextScene: "hail_fire", tag: "faithful", feedback: "Exodus 9:18 — Moses was to warn Pharaoh that the Lord would send a very heavy hail, such as had not been in Egypt since its foundation.", isCorrect: true, sentiment: "positive" },
       { text: "Give up. Return to Midian.", nextScene: "give_up_consequence", tag: "rebellious", feedback: "There is no road back now.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -225,7 +225,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     text: "Crops, beasts, and trees are shattered.\nPharaoh cries: \"I have sinned.\"",
     choices: [
       { text: "Trust the king's confession", nextScene: "trust_consequence", tag: "fearful", feedback: "He will lie again. Be ready.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray, knowing he will turn", nextScene: "locusts_warning", tag: "humble", feedback: "The storm stops. So does he.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray, knowing he will turn", nextScene: "locusts_warning", tag: "humble", feedback: "Exodus 9:33 — Moses went out of the city from Pharaoh and spread out his hands to the Lord, and the thunder and hail ceased, and the rain no longer poured on the earth.", isCorrect: true, sentiment: "positive" },
     ],
   },
   trust_consequence: {
@@ -243,7 +243,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     text: "What hail left, the locusts eat.\nPharaoh's own court pleads with him.",
     choices: [
       { text: "Side with his frightened servants", nextScene: "side_servants_consequence", tag: "evasive", feedback: "Speak only to Pharaoh, plainly.", isCorrect: false, sentiment: "negative" },
-      { text: "Refuse Pharaoh's half-measures", nextScene: "darkness", tag: "faithful", feedback: "All Israel must go, with all.", isCorrect: true, sentiment: "positive" },
+      { text: "Refuse Pharaoh's half-measures", nextScene: "darkness", tag: "faithful", feedback: "Exodus 10:10-11 — Moses refused Pharaoh's offer to let only the men go, stating that all the people, young and old, with their flocks and herds, must go to hold a feast to the Lord.", isCorrect: true, sentiment: "positive" },
       { text: "Accept his offer to free some", nextScene: "accept_consequence", tag: "fearful", feedback: "Not one hoof stays behind.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -270,7 +270,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     text: "No man rises. No fire is seen.\nIn Goshen, lamps still burn warm.",
     choices: [
       { text: "Steal from Egypt in the dark", nextScene: "steal_consequence", tag: "evasive", feedback: "He will give them favor in time.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait quietly with your people", nextScene: "final_threat", tag: "humble", feedback: "Israel rests in Goshen's light.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait quietly with your people", nextScene: "final_threat", tag: "humble", feedback: "Exodus 10:23 — The children of Israel had light in their dwellings during the three days of darkness.", isCorrect: true, sentiment: "positive" },
     ],
   },
   steal_consequence: {
@@ -290,7 +290,7 @@ export const plaguesScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Beg him to reconsider", nextScene: "beg_again_consequence", tag: "fearful", feedback: "His heart is set in stone.", isCorrect: false, sentiment: "negative" },
       { text: "Boast of victory now", nextScene: "victory_consequence", tag: "prideful", feedback: "It is not yet finished.", isCorrect: false, sentiment: "negative" },
-      { text: "Warn of the firstborn at midnight", nextScene: "ending", tag: "faithful", feedback: "You leave the hall in flame.", isCorrect: true, sentiment: "positive" },
+      { text: "Warn of the firstborn at midnight", nextScene: "ending", tag: "faithful", feedback: "Exodus 11:4-5 — Moses declared to Pharaoh that about midnight the Lord would go out into the midst of Egypt, and all the firstborn in the land of Egypt would die.", isCorrect: true, sentiment: "positive" },
     ],
   },
   beg_again_consequence: {

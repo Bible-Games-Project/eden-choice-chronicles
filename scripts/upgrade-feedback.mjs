@@ -27,7 +27,7 @@ const ROOT = join(fileURLToPath(new URL(".", import.meta.url)), "..");
 const STORIES_DIR = join(ROOT, "src/data/stories");
 const LOCALES_DIR = join(ROOT, "src/locales");
 
-const STORIES = ["josephPotiphar", "josephPrison", "josephDreams", "josephBrothersEgypt", "josephReconciles"];
+const STORIES = ["birthMoses", "mosesFlees", "burningBush", "mosesPharaoh", "plagues"];
 const NON_EN = ["es", "pt-BR", "fr", "de", "it", "pl", "ru", "tr", "ja", "ko", "ar"];
 
 const API_KEY = process.env.LOVABLE_API_KEY;
@@ -136,7 +136,7 @@ async function generateFeedbacks(storyLabel, items) {
   }
   const sys = `You write short educational feedback shown in a Bible story game after a wrong answer.
 For each entry, output ONE English sentence (max 2) that:
-- Cites the specific Genesis chapter and verse where possible (e.g. "Genesis 24:19 —").
+- Cites the specific book, chapter and verse where possible (e.g. "Exodus 2:3 —").
 - States the biblical fact plainly. Never uses "you"; refer to the character by name.
 - Never scolds. Warm, educational, factual.
 - Must clearly match the "correct_action". If the correct_action is a soft/interpretive line, still cite the closest verse and describe what Scripture actually records.
@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  josephPotiphar: "Joseph in Potiphar's House (Genesis 39)",
-  josephPrison: "Joseph in Prison (Genesis 39-40)",
-  josephDreams: "Joseph Interprets Pharaoh's Dreams (Genesis 41)",
-  josephBrothersEgypt: "Joseph and His Brothers in Egypt (Genesis 42-44)",
-  josephReconciles: "Joseph Reconciles with His Brothers (Genesis 44-46)",
+  birthMoses: "The Birth of Moses (Exodus 1-2)",
+  mosesFlees: "Moses Flees Egypt (Exodus 2)",
+  burningBush: "The Burning Bush (Exodus 3-4)",
+  mosesPharaoh: "Moses Before Pharaoh (Exodus 5-7)",
+  plagues: "The Plagues of Egypt (Exodus 7-12)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
