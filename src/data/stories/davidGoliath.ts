@@ -11,7 +11,7 @@ export const davidGoliathScenes: Record<string, StoryScene> = {
     text: "Two armies face each other.\nDust drifts between silent hills.",
     choices: [
       { text: "Flee back to your sheep", nextScene: "flee_consequence", tag: "fearful", feedback: "The Lord called you here.", isCorrect: false, sentiment: "negative" },
-      { text: "Bring bread to your brothers", nextScene: "challenge", tag: "obedient", feedback: "You climb the ridge with your load.", isCorrect: true, sentiment: "positive" },
+      { text: "Bring bread to your brothers", nextScene: "challenge", tag: "obedient", feedback: "1 Samuel 17:17 — Jesse told David to take roasted grain and ten loaves of bread to his brothers at the camp.", isCorrect: true, sentiment: "positive" },
       { text: "Boast to passing soldiers", nextScene: "boast_consequence", tag: "proud", feedback: "Words without faith are wind.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const davidGoliathScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hide behind the soldiers", nextScene: "hide_consequence", tag: "fearful", feedback: "Fear cannot silence God.", isCorrect: false, sentiment: "negative" },
       { text: "Curse the giant aloud", nextScene: "curse_consequence", tag: "rash", feedback: "Faith answers, not anger.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask, \"Who defies the living God?\"", nextScene: "saul_tent", tag: "faithful", feedback: "Your question rises like fire.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask, \"Who defies the living God?\"", nextScene: "saul_tent", tag: "faithful", feedback: "1 Samuel 17:26 — David asked the men standing near him what would be done for the man who kills the Philistine and removes this disgrace from Israel, for who is this uncircumcised Philistine that he should defy the armies of the living God?", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -67,7 +67,7 @@ export const davidGoliathScenes: Record<string, StoryScene> = {
     text: "Heavy bronze, polished and cold.\n\"Wear this, boy. You will need it.\"",
     choices: [
       { text: "Wear the king's armor", nextScene: "armor_consequence", tag: "doubting", feedback: "It was not made for you.", isCorrect: false, sentiment: "negative" },
-      { text: "Set it aside, trust the Lord", nextScene: "brook", tag: "faithful", feedback: "You step out lighter than air.", isCorrect: true, sentiment: "positive" },
+      { text: "Set it aside, trust the Lord", nextScene: "brook", tag: "faithful", feedback: "1 Samuel 17:39 — David put on Saul's armor, but he was not used to them, so he took them off.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse to fight at all", nextScene: "refuse_consequence", tag: "fearful", feedback: "God has given you this hour.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -96,7 +96,7 @@ export const davidGoliathScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Grab the largest jagged rock", nextScene: "jagged_consequence", tag: "rash", feedback: "Trust God's simple gifts.", isCorrect: false, sentiment: "negative" },
       { text: "Take a sword from a soldier", nextScene: "sword_consequence", tag: "doubting", feedback: "Your sling is enough with God.", isCorrect: false, sentiment: "negative" },
-      { text: "Choose five smooth stones", nextScene: "duel", tag: "faithful", feedback: "You weigh them in your palm.", isCorrect: true, sentiment: "positive" },
+      { text: "Choose five smooth stones", nextScene: "duel", tag: "faithful", feedback: "1 Samuel 17:40 — David took his staff in his hand, chose five smooth stones from the stream, put them in the pouch of his shepherd's bag and, with his sling in his hand, approached the Philistine.", isCorrect: true, sentiment: "positive" },
     ],
   },
   jagged_consequence: {
@@ -124,7 +124,7 @@ export const davidGoliathScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Run and pray quietly", nextScene: "pray_consequence", tag: "fearful", feedback: "Speak boldly in His name.", isCorrect: false, sentiment: "negative" },
       { text: "Match his insults with your own", nextScene: "insult_consequence", tag: "rash", feedback: "Speak of the Lord, not yourself.", isCorrect: false, sentiment: "negative" },
-      { text: "\"I come in the name of the Lord\"", nextScene: "victory", tag: "faithful", feedback: "Your sling whirls into the wind.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I come in the name of the Lord\"", nextScene: "victory", tag: "faithful", feedback: "1 Samuel 17:45 — David told Goliath, \"You come against me with sword and spear and javelin, but I come against you in the name of the Lord Almighty, the God of the armies of Israel, whom you have defied.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   pray_consequence: {

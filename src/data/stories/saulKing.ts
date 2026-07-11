@@ -11,7 +11,7 @@ export const saulKingScenes: Record<string, StoryScene> = {
     text: "The elders cry, \"Give us a king!\"\nSamuel turns to the Lord in grief.",
     choices: [
       { text: "Crown yourself before the crowd", nextScene: "crown_consequence", tag: "proud", feedback: "A king is given, not seized.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust Samuel to seek God's word", nextScene: "warning", tag: "humble", feedback: "Samuel kneels in prayer.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust Samuel to seek God's word", nextScene: "warning", tag: "humble", feedback: "1 Samuel 8:6-7 — Samuel prayed to the Lord about the elders' demand for a king.", isCorrect: true, sentiment: "positive" },
       { text: "Mock the prophet's slow reply", nextScene: "mock_consequence", tag: "scornful", feedback: "The Lord answers in His time.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,7 +38,7 @@ export const saulKingScenes: Record<string, StoryScene> = {
     title: "The Cost of a King",
     text: "\"He will take your sons and fields.\"\nThe people still cry for one.",
     choices: [
-      { text: "Listen and weigh his warning", nextScene: "lost_path", tag: "wise", feedback: "Wisdom holds the heart steady.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen and weigh his warning", nextScene: "lost_path", tag: "wise", feedback: "1 Samuel 8:10-18 — Samuel told the people all the words of the Lord, warning them about the ways of the king who would reign over them.", isCorrect: true, sentiment: "positive" },
       { text: "Shout louder than Samuel", nextScene: "shout_consequence", tag: "rebellious", feedback: "Drowned wisdom still bears fruit.", isCorrect: false, sentiment: "negative" },
       { text: "Walk away unmoved", nextScene: "walk_consequence", tag: "indifferent", feedback: "His words are for you too.", isCorrect: false, sentiment: "negative" },
     ],
@@ -68,7 +68,7 @@ export const saulKingScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Give up and turn home", nextScene: "giveup_consequence", tag: "weary", feedback: "God prepares the next step.", isCorrect: false, sentiment: "negative" },
       { text: "Pay him only for the donkeys", nextScene: "pay_consequence", tag: "narrow", feedback: "He brings more than answers.", isCorrect: false, sentiment: "negative" },
-      { text: "Go to the seer Samuel", nextScene: "anointing", tag: "faithful", feedback: "Your steps were guided here.", isCorrect: true, sentiment: "positive" },
+      { text: "Go to the seer Samuel", nextScene: "anointing", tag: "faithful", feedback: "1 Samuel 9:5-6 — Saul's servant suggested they go to the man of God in the town to inquire about their lost donkeys.", isCorrect: true, sentiment: "positive" },
     ],
   },
   giveup_consequence: {
@@ -96,7 +96,7 @@ export const saulKingScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Boast of your new calling", nextScene: "boast_consequence", tag: "proud", feedback: "A king kneels before God first.", isCorrect: false, sentiment: "negative" },
       { text: "Reject the oil entirely", nextScene: "reject_consequence", tag: "fearful", feedback: "Do not refuse what God gives.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive it in trembling silence", nextScene: "assembly", tag: "humble", feedback: "The oil runs warm down your brow.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive it in trembling silence", nextScene: "assembly", tag: "humble", feedback: "1 Samuel 10:1 — Samuel anointed Saul with oil and declared that the Lord had appointed him ruler over His inheritance.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -124,7 +124,7 @@ export const saulKingScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Step forward to be seen", nextScene: "confirmation", tag: "obedient", feedback: "Wind lifts your tunic gently.", isCorrect: false, sentiment: "positive" },
       { text: "Demand a throne and crown", nextScene: "demand_consequence", tag: "proud", feedback: "Greatness wears no gold yet.", isCorrect: false, sentiment: "negative" },
-      { text: "Hide among the baggage", nextScene: "hide_consequence", tag: "fearful", feedback: "God will still bring you out.", isCorrect: true, sentiment: "negative" },
+      { text: "Hide among the baggage", nextScene: "hide_consequence", tag: "fearful", feedback: "1 Samuel 10:22 — When Saul was sought among the people at Mizpah, he was found hidden among the baggage.", isCorrect: true, sentiment: "negative" },
     ],
   },
   demand_consequence: {
