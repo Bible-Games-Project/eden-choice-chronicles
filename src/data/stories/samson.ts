@@ -11,7 +11,7 @@ export const samsonScenes: Record<string, StoryScene> = {
     text: "An angel told your parents of you.\nNo razor must ever touch your hair.",
     choices: [
       { text: "Mock the old vow as foolish", nextScene: "mock_consequence", tag: "proud", feedback: "His promise gave you life.", isCorrect: false, sentiment: "negative" },
-      { text: "Honor the vow set apart for God", nextScene: "vineyard", tag: "obedient", feedback: "You touch your braids in awe.", isCorrect: true, sentiment: "positive" },
+      { text: "Honor the vow set apart for God", nextScene: "vineyard", tag: "obedient", feedback: "Judges 13:5 — Samson was to be a Nazirite, set apart for God from birth, and no razor was to ever touch his head.", isCorrect: true, sentiment: "positive" },
       { text: "Hide the vow from everyone", nextScene: "hide_consequence", tag: "fearful", feedback: "What is set apart must be lived.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const samsonScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Run and hide among the vines", nextScene: "run_consequence", tag: "fearful", feedback: "His Spirit gave you courage.", isCorrect: false, sentiment: "negative" },
       { text: "Beg the lion for mercy", nextScene: "beg_consequence", tag: "passive", feedback: "Stand in the strength He gave.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand and trust the Spirit's strength", nextScene: "philistine_clash", tag: "obedient", feedback: "The lion falls beneath you.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand and trust the Spirit's strength", nextScene: "philistine_clash", tag: "obedient", feedback: "Judges 14:6 — The Spirit of the Lord came powerfully upon Samson, and he tore the lion apart with his bare hands.", isCorrect: true, sentiment: "positive" },
     ],
   },
   run_consequence: {
@@ -67,7 +67,7 @@ export const samsonScenes: Record<string, StoryScene> = {
     text: "They oppress your people daily.\nThe Spirit stirs again.",
     choices: [
       { text: "Make peace and bow to their gods", nextScene: "bow_consequence", tag: "compromise", feedback: "Never bow to Dagon.", isCorrect: false, sentiment: "negative" },
-      { text: "Strike them down with God's strength", nextScene: "delilah_meet", tag: "obedient", feedback: "A jawbone in your hand.", isCorrect: true, sentiment: "positive" },
+      { text: "Strike them down with God's strength", nextScene: "delilah_meet", tag: "obedient", feedback: "Judges 15:14-15 — The Spirit of the Lord came powerfully upon Samson, and he found a fresh jawbone of a donkey and struck down a thousand Philistines.", isCorrect: true, sentiment: "positive" },
       { text: "Boast and challenge them alone", nextScene: "boast_consequence", tag: "proud", feedback: "His arm wins, not your pride.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -95,7 +95,7 @@ export const samsonScenes: Record<string, StoryScene> = {
     text: "\"Tell me where your strength lies.\"\nHer voice is honey and snare.",
     choices: [
       { text: "Reveal the secret of your hair", nextScene: "betrayed", tag: "weak", feedback: "Your vow becomes a wound.", isCorrect: false, sentiment: "negative" },
-      { text: "Guard the vow and walk away", nextScene: "guard_to_betrayed", tag: "obedient", feedback: "You should have left for good.", isCorrect: true, sentiment: "positive" },
+      { text: "Guard the vow and walk away", nextScene: "guard_to_betrayed", tag: "obedient", feedback: "Judges 16:4-6 — The Philistine rulers asked Delilah to discover the source of Samson's great strength.", isCorrect: true, sentiment: "positive" },
       { text: "Lie again and stay in her arms", nextScene: "lie_consequence", tag: "compromise", feedback: "Lies cannot save your soul.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -123,7 +123,7 @@ export const samsonScenes: Record<string, StoryScene> = {
     text: "You wake — your braids are gone.\nThe Spirit has departed from you.",
     choices: [
       { text: "Curse God for leaving you", nextScene: "curse_consequence", tag: "bitter", feedback: "Your sin opened this door.", isCorrect: false, sentiment: "negative" },
-      { text: "Repent quietly in the dark mill", nextScene: "temple_summon", tag: "humble", feedback: "Your hair begins to grow.", isCorrect: true, sentiment: "positive" },
+      { text: "Repent quietly in the dark mill", nextScene: "temple_summon", tag: "humble", feedback: "Judges 16:19-20 — Delilah had Samson's hair shaved off, and the Lord had left him.", isCorrect: true, sentiment: "positive" },
       { text: "Blame Delilah for everything", nextScene: "blame_consequence", tag: "proud", feedback: "You broke the vow yourself.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -151,7 +151,7 @@ export const samsonScenes: Record<string, StoryScene> = {
     text: "They mock you between the pillars.\nYour hair has grown back unseen.",
     choices: [
       { text: "Beg the crowd for your freedom", nextScene: "beg_crowd_consequence", tag: "fearful", feedback: "His glory, not your life.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray once more for the Lord's strength", nextScene: "ending_redeemed", tag: "obedient", feedback: "Power floods your hands.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray once more for the Lord's strength", nextScene: "ending_redeemed", tag: "obedient", feedback: "Judges 16:28 — Samson called to the Lord, asking for strength one last time to avenge his two eyes against the Philistines.", isCorrect: true, sentiment: "positive" },
       { text: "Stay silent and accept defeat", nextScene: "silent_consequence", tag: "passive", feedback: "Rise — finish what He began.", isCorrect: false, sentiment: "negative" },
     ],
   },
