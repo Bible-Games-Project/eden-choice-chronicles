@@ -11,7 +11,7 @@ export const phariseeTaxScenes: Record<string, StoryScene> = {
     text: "Jesus speaks softly to the crowd,\n\"Two men went up to the temple to pray.\"",
     choices: [
       { text: "Decide you already know best", nextScene: "know_consequence", tag: "doubtful", feedback: "Pride hears nothing new.", isCorrect: false, sentiment: "negative" },
-      { text: "Lean in and listen", nextScene: "temple", tag: "faithful", feedback: "Your heart grows still.", isCorrect: true, sentiment: "positive" },
+      { text: "Lean in and listen", nextScene: "temple", tag: "faithful", feedback: "Luke 18:9 — Jesus told this parable to some who trusted in themselves that they were righteous.", isCorrect: true, sentiment: "positive" },
     ],
   },
   know_consequence: {
@@ -30,7 +30,7 @@ export const phariseeTaxScenes: Record<string, StoryScene> = {
     text: "Light falls in long warm beams.\nTwo figures step inside to pray.",
     choices: [
       { text: "Judge them before they speak", nextScene: "judge_consequence", tag: "doubtful", feedback: "Wait. Watch first.", isCorrect: false, sentiment: "negative" },
-      { text: "Watch each man in silence", nextScene: "pharisee_pray", tag: "faithful", feedback: "Your eyes soften.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch each man in silence", nextScene: "pharisee_pray", tag: "faithful", feedback: "Luke 18:10 — Jesus said that two men went up into the temple to pray.", isCorrect: true, sentiment: "positive" },
     ],
   },
   judge_consequence: {
@@ -49,7 +49,7 @@ export const phariseeTaxScenes: Record<string, StoryScene> = {
     text: "The Pharisee lifts his hands and prays,\n\"God, I thank you I am not like others.\"",
     choices: [
       { text: "Admire his confident faith", nextScene: "admire_consequence", tag: "doubtful", feedback: "He prays to himself.", isCorrect: false, sentiment: "negative" },
-      { text: "Notice he prays to himself", nextScene: "boast", tag: "faithful", feedback: "Discernment grows.", isCorrect: true, sentiment: "positive" },
+      { text: "Notice he prays to himself", nextScene: "boast", tag: "faithful", feedback: "Luke 18:11 — The Pharisee stood and prayed with himself, thanking God that he was not like other men.", isCorrect: true, sentiment: "positive" },
     ],
   },
   admire_consequence: {
@@ -68,7 +68,7 @@ export const phariseeTaxScenes: Record<string, StoryScene> = {
     text: "\"I fast twice a week. I give tithes.\"\nHis chest swells with each word.",
     choices: [
       { text: "Copy his proud posture", nextScene: "copy_consequence", tag: "doubtful", feedback: "Pride dries the soul.", isCorrect: false, sentiment: "negative" },
-      { text: "Feel the emptiness in his voice", nextScene: "tax_far", tag: "faithful", feedback: "You hear what is missing.", isCorrect: true, sentiment: "positive" },
+      { text: "Feel the emptiness in his voice", nextScene: "tax_far", tag: "faithful", feedback: "Luke 18:12 — The Pharisee boasted that he fasted twice a week and gave tithes of all he possessed.", isCorrect: true, sentiment: "positive" },
       { text: "Wish you were as righteous", nextScene: "wish_consequence", tag: "fearful", feedback: "True righteousness is humble.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -96,7 +96,7 @@ export const phariseeTaxScenes: Record<string, StoryScene> = {
     text: "A tax collector stands in shadow,\neyes down, afraid to lift them.",
     choices: [
       { text: "Mock him for hiding back there", nextScene: "mock_consequence", tag: "doubtful", feedback: "Heaven is closer to him now.", isCorrect: false, sentiment: "negative" },
-      { text: "Step closer with quiet respect", nextScene: "mercy", tag: "faithful", feedback: "Compassion rises in you.", isCorrect: true, sentiment: "positive" },
+      { text: "Step closer with quiet respect", nextScene: "mercy", tag: "faithful", feedback: "Luke 18:13 — The tax collector stood afar off, and would not lift up his eyes to heaven.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -115,7 +115,7 @@ export const phariseeTaxScenes: Record<string, StoryScene> = {
     text: "He strikes his chest and whispers,\n\"God, have mercy on me, a sinner.\"",
     choices: [
       { text: "Tell him to pray more impressively", nextScene: "impress_consequence", tag: "doubtful", feedback: "Heaven hears the broken cry.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray the same words with him", nextScene: "forgiven", tag: "faithful", feedback: "Your lips form his prayer.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray the same words with him", nextScene: "forgiven", tag: "faithful", feedback: "Luke 18:13 — The tax collector beat his breast, saying, \"God be merciful to me a sinner.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   impress_consequence: {
@@ -134,7 +134,7 @@ export const phariseeTaxScenes: Record<string, StoryScene> = {
     text: "Light touches his bowed face.\nHe breathes as if for the first time.",
     choices: [
       { text: "Doubt that mercy is so easy", nextScene: "doubt_consequence", tag: "doubtful", feedback: "Mercy is costly, but freely given.", isCorrect: false, sentiment: "negative" },
-      { text: "Believe heaven has heard him", nextScene: "jesus_explains", tag: "faithful", feedback: "Faith rises within you.", isCorrect: true, sentiment: "positive" },
+      { text: "Believe heaven has heard him", nextScene: "jesus_explains", tag: "faithful", feedback: "Luke 18:14 — Jesus said the tax collector went down to his house justified.", isCorrect: true, sentiment: "positive" },
     ],
   },
   doubt_consequence: {
@@ -153,7 +153,7 @@ export const phariseeTaxScenes: Record<string, StoryScene> = {
     text: "Jesus says, \"This man went home justified,\nnot the other.\"",
     choices: [
       { text: "Argue the proud man deserved more", nextScene: "argue_consequence", tag: "doubtful", feedback: "Humility is the only door.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive the lesson in silence", nextScene: "ending", tag: "faithful", feedback: "Your heart bends low.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the lesson in silence", nextScene: "ending", tag: "faithful", feedback: "Luke 18:14 — Jesus said that everyone who exalts himself will be humbled, but he who humbles himself will be exalted.", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {
