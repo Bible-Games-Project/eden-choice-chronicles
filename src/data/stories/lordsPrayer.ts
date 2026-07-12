@@ -11,7 +11,7 @@ export const lordsPrayerScenes: Record<string, StoryScene> = {
     text: "The disciples approach quietly.\n\"Lord, teach us how to pray.\"",
     choices: [
       { text: "Pray loud in the street", nextScene: "loud_consequence", tag: "doubtful", feedback: "Prayer is not a show.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask Jesus humbly", nextScene: "our_father", tag: "faithful", feedback: "He smiles warmly.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask Jesus humbly", nextScene: "our_father", tag: "faithful", feedback: "Luke 11:1 — One of Jesus' disciples asked Him to teach them to pray.", isCorrect: true, sentiment: "positive" },
       { text: "Repeat empty phrases", nextScene: "empty_consequence", tag: "fearful", feedback: "Words alone are not faith.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const lordsPrayerScenes: Record<string, StoryScene> = {
     text: "\"Our Father in heaven,\nhallowed be your name.\"",
     choices: [
       { text: "Call God a stranger", nextScene: "stranger_consequence", tag: "doubtful", feedback: "He is your Father.", isCorrect: false, sentiment: "negative" },
-      { text: "Honor God as Father", nextScene: "bread", tag: "faithful", feedback: "A quiet awe fills you.", isCorrect: true, sentiment: "positive" },
+      { text: "Honor God as Father", nextScene: "bread", tag: "faithful", feedback: "Matthew 6:9 — Jesus taught His disciples to hallow God's name.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stranger_consequence: {
@@ -59,7 +59,7 @@ export const lordsPrayerScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hoard for tomorrow", nextScene: "hoard_consequence", tag: "fearful", feedback: "Trust him today.", isCorrect: false, sentiment: "negative" },
       { text: "Demand more than enough", nextScene: "greed_consequence", tag: "doubtful", feedback: "Ask only for today.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask only for today", nextScene: "forgive", tag: "faithful", feedback: "Your hands open.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask only for today", nextScene: "forgive", tag: "faithful", feedback: "Matthew 6:11 — Jesus taught His disciples to ask for their daily bread.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hoard_consequence: {
@@ -86,7 +86,7 @@ export const lordsPrayerScenes: Record<string, StoryScene> = {
     text: "\"Forgive us our debts,\nour failings, our sins.\"",
     choices: [
       { text: "Hide your sins from him", nextScene: "hide_consequence", tag: "fearful", feedback: "Bring them into light.", isCorrect: false, sentiment: "negative" },
-      { text: "Confess and ask mercy", nextScene: "forgive_others", tag: "faithful", feedback: "A weight lifts.", isCorrect: true, sentiment: "positive" },
+      { text: "Confess and ask mercy", nextScene: "forgive_others", tag: "faithful", feedback: "Matthew 6:12 — Jesus taught His disciples to ask God to forgive their debts.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -106,7 +106,7 @@ export const lordsPrayerScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hold the wound tightly", nextScene: "wound_consequence", tag: "fearful", feedback: "Release them too.", isCorrect: false, sentiment: "negative" },
       { text: "Demand they pay first", nextScene: "demand_consequence", tag: "doubtful", feedback: "Mercy goes first.", isCorrect: false, sentiment: "negative" },
-      { text: "Release those who hurt you", nextScene: "deliver", tag: "faithful", feedback: "Your hand opens.", isCorrect: true, sentiment: "positive" },
+      { text: "Release those who hurt you", nextScene: "deliver", tag: "faithful", feedback: "Matthew 6:12 — Jesus taught His disciples to forgive those who sin against them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   wound_consequence: {
@@ -133,7 +133,7 @@ export const lordsPrayerScenes: Record<string, StoryScene> = {
     text: "\"Lead us not into temptation,\nbut deliver us from evil.\"",
     choices: [
       { text: "Trust only your own strength", nextScene: "self_consequence", tag: "doubtful", feedback: "Lean on him.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask the Father to guard you", nextScene: "private", tag: "faithful", feedback: "A quiet courage rises.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask the Father to guard you", nextScene: "private", tag: "faithful", feedback: "Matthew 6:13 — Jesus taught His disciples to ask God to deliver them from evil.", isCorrect: true, sentiment: "positive" },
     ],
   },
   self_consequence: {
@@ -152,7 +152,7 @@ export const lordsPrayerScenes: Record<string, StoryScene> = {
     text: "\"When you pray, go to your room.\nShut the door. Pray in secret.\"",
     choices: [
       { text: "Boast of your devotion", nextScene: "boast_consequence", tag: "doubtful", feedback: "He sees in secret.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray quietly, alone", nextScene: "ending", tag: "faithful", feedback: "The room grows warm.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray quietly, alone", nextScene: "ending", tag: "faithful", feedback: "Matthew 6:6 — Jesus taught His disciples to go into their room and shut the door to pray to their Father in secret.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {

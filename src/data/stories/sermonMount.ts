@@ -11,7 +11,7 @@ export const sermonMountScenes: Record<string, StoryScene> = {
     text: "Word spreads through the valley.\nThe teacher sits upon the hill.",
     choices: [
       { text: "Hurry past, too busy", nextScene: "hurry_consequence", tag: "doubtful", feedback: "Stay and listen.", isCorrect: false, sentiment: "negative" },
-      { text: "Climb up to listen", nextScene: "beatitudes", tag: "faithful", feedback: "Your steps slow with awe.", isCorrect: true, sentiment: "positive" },
+      { text: "Climb up to listen", nextScene: "beatitudes", tag: "faithful", feedback: "Matthew 5:1 — Jesus went up on a mountainside and sat down, and his disciples came to him.", isCorrect: true, sentiment: "positive" },
       { text: "Mock the gathering", nextScene: "mock_consequence", tag: "fearful", feedback: "Quiet your pride.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const sermonMountScenes: Record<string, StoryScene> = {
     text: "\"Blessed are the poor in spirit.\nTheirs is the kingdom of heaven.\"",
     choices: [
       { text: "Boast of your own strength", nextScene: "boast_consequence", tag: "doubtful", feedback: "Lowliness is the door.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow your head humbly", nextScene: "mercy", tag: "faithful", feedback: "Peace settles on you.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow your head humbly", nextScene: "mercy", tag: "faithful", feedback: "Matthew 5:3 — Jesus said, \"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -58,7 +58,7 @@ export const sermonMountScenes: Record<string, StoryScene> = {
     text: "\"Show mercy, and you will receive it.\nPure hearts will see God.\"",
     choices: [
       { text: "Hold a grudge tightly", nextScene: "grudge_consequence", tag: "fearful", feedback: "Open your hand.", isCorrect: false, sentiment: "negative" },
-      { text: "Forgive someone today", nextScene: "salt_light", tag: "faithful", feedback: "Mercy flows out of you.", isCorrect: true, sentiment: "positive" },
+      { text: "Forgive someone today", nextScene: "salt_light", tag: "faithful", feedback: "Matthew 5:7 — Jesus taught, \"Blessed are the merciful, for they will be shown mercy.\"", isCorrect: true, sentiment: "positive" },
       { text: "Judge the crowd around you", nextScene: "judge_consequence", tag: "doubtful", feedback: "First examine yourself.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -86,7 +86,7 @@ export const sermonMountScenes: Record<string, StoryScene> = {
     text: "\"You are the light of the world.\nLet your light shine before others.\"",
     choices: [
       { text: "Hide your gift away", nextScene: "hide_consequence", tag: "fearful", feedback: "A lamp belongs on a stand.", isCorrect: false, sentiment: "negative" },
-      { text: "Let your good shine out", nextScene: "enemies", tag: "faithful", feedback: "Warmth spreads from you.", isCorrect: true, sentiment: "positive" },
+      { text: "Let your good shine out", nextScene: "enemies", tag: "faithful", feedback: "Matthew 5:16 — Jesus said, \"Let your light shine before others, that they may see your good deeds and glorify your Father in heaven.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -106,7 +106,7 @@ export const sermonMountScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Curse those who wronged you", nextScene: "curse_consequence", tag: "doubtful", feedback: "Bless instead.", isCorrect: false, sentiment: "negative" },
       { text: "Repay evil with evil", nextScene: "repay_consequence", tag: "fearful", feedback: "That path only deepens it.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray for your enemy", nextScene: "worry", tag: "faithful", feedback: "Your heart unclenches.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray for your enemy", nextScene: "worry", tag: "faithful", feedback: "Matthew 5:44 — Jesus commanded, \"Love your enemies and pray for those who persecute you.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   curse_consequence: {
@@ -133,7 +133,7 @@ export const sermonMountScenes: Record<string, StoryScene> = {
     text: "\"Look at the birds, the lilies.\nYour Father knows your need.\"",
     choices: [
       { text: "Worry about tomorrow", nextScene: "worry_consequence", tag: "fearful", feedback: "Each day has enough.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust your Father's care", nextScene: "foundation", tag: "faithful", feedback: "Peace fills your chest.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust your Father's care", nextScene: "foundation", tag: "faithful", feedback: "Matthew 6:26 — Jesus pointed out that God feeds the birds of the air, and Matthew 6:28-30 — clothes the lilies of the field, indicating God's care for his people.", isCorrect: true, sentiment: "positive" },
     ],
   },
   worry_consequence: {
@@ -152,7 +152,7 @@ export const sermonMountScenes: Record<string, StoryScene> = {
     text: "\"Hear my words and live them.\nBuild your house upon the rock.\"",
     choices: [
       { text: "Build your life on sand", nextScene: "sand_consequence", tag: "doubtful", feedback: "It will not stand.", isCorrect: false, sentiment: "negative" },
-      { text: "Build your life on his word", nextScene: "ending", tag: "faithful", feedback: "Your heart stands firm.", isCorrect: true, sentiment: "positive" },
+      { text: "Build your life on his word", nextScene: "ending", tag: "faithful", feedback: "Matthew 7:24 — Jesus stated that everyone who hears his words and puts them into practice is like a wise man who built his house on the rock.", isCorrect: true, sentiment: "positive" },
     ],
   },
   sand_consequence: {

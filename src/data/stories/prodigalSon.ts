@@ -11,7 +11,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     text: "Jesus sits on the hillside.\n\"A father had two sons. Listen.\"",
     choices: [
       { text: "Turn away from the story", nextScene: "turn_consequence", tag: "doubtful", feedback: "Stay. This is for you.", isCorrect: false, sentiment: "negative" },
-      { text: "Open your heart and listen", nextScene: "inheritance", tag: "faithful", feedback: "His voice draws you near.", isCorrect: true, sentiment: "positive" },
+      { text: "Open your heart and listen", nextScene: "inheritance", tag: "faithful", feedback: "Luke 15:11 — Jesus tells the parable of a father who had two sons.", isCorrect: true, sentiment: "positive" },
     ],
   },
   turn_consequence: {
@@ -31,7 +31,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Praise the son's boldness", nextScene: "praise_consequence", tag: "doubtful", feedback: "This is not bravery.", isCorrect: false, sentiment: "negative" },
       { text: "Demand he stay home", nextScene: "demand_consequence", tag: "fearful", feedback: "Love does not cage.", isCorrect: false, sentiment: "negative" },
-      { text: "Grieve with the father", nextScene: "leaving", tag: "faithful", feedback: "Your chest aches with his.", isCorrect: true, sentiment: "positive" },
+      { text: "Grieve with the father", nextScene: "leaving", tag: "faithful", feedback: "Luke 15:12 — The younger son asked his father for his share of the estate.", isCorrect: true, sentiment: "positive" },
     ],
   },
   praise_consequence: {
@@ -58,7 +58,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     text: "The young son packs his bag.\nHe walks the road away from home.",
     choices: [
       { text: "Cheer him onward", nextScene: "cheer_consequence", tag: "doubtful", feedback: "He walks toward sorrow.", isCorrect: false, sentiment: "negative" },
-      { text: "Watch with a heavy heart", nextScene: "revelry", tag: "faithful", feedback: "You sense the cost.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch with a heavy heart", nextScene: "revelry", tag: "faithful", feedback: "Luke 15:13 — The younger son gathered all he had and traveled to a distant country.", isCorrect: true, sentiment: "positive" },
     ],
   },
   cheer_consequence: {
@@ -77,7 +77,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     text: "In a far country he spent it all\non feasts, friends, and folly.",
     choices: [
       { text: "Envy his free nights", nextScene: "envy_consequence", tag: "doubtful", feedback: "The lights will dim soon.", isCorrect: false, sentiment: "negative" },
-      { text: "See the emptiness coming", nextScene: "famine", tag: "faithful", feedback: "Your stomach tightens.", isCorrect: true, sentiment: "positive" },
+      { text: "See the emptiness coming", nextScene: "famine", tag: "faithful", feedback: "Luke 15:13 — The younger son squandered his wealth in wild living.", isCorrect: true, sentiment: "positive" },
       { text: "Look away from him", nextScene: "lookaway_consequence", tag: "fearful", feedback: "Stay with him.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -105,7 +105,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     text: "His money is gone. Famine comes.\nHis friends have all vanished.",
     choices: [
       { text: "Mock his foolishness", nextScene: "mock_consequence", tag: "doubtful", feedback: "Mockery is not mercy.", isCorrect: false, sentiment: "negative" },
-      { text: "Ache for the lost son", nextScene: "pigs", tag: "faithful", feedback: "Your heart hurts for him.", isCorrect: true, sentiment: "positive" },
+      { text: "Ache for the lost son", nextScene: "pigs", tag: "faithful", feedback: "Luke 15:14 — After he had spent everything, a severe famine struck that whole country.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -124,7 +124,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     text: "He feeds pigs to survive.\nHe longs to eat their husks.",
     choices: [
       { text: "Pity but do nothing", nextScene: "pity_consequence", tag: "fearful", feedback: "Wait. Watch his heart.", isCorrect: false, sentiment: "negative" },
-      { text: "Hope he comes to himself", nextScene: "repentance", tag: "faithful", feedback: "You whisper for him.", isCorrect: true, sentiment: "positive" },
+      { text: "Hope he comes to himself", nextScene: "repentance", tag: "faithful", feedback: "Luke 15:15-16 — The son hired himself out to a citizen of that country, who sent him to his fields to feed pigs, and he longed to eat the pods the pigs were eating.", isCorrect: true, sentiment: "positive" },
     ],
   },
   pity_consequence: {
@@ -144,7 +144,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Tell him to stay hidden", nextScene: "hidden_consequence", tag: "fearful", feedback: "Shame is not the answer.", isCorrect: false, sentiment: "negative" },
       { text: "Doubt his father's mercy", nextScene: "doubt_consequence", tag: "doubtful", feedback: "You do not know that father.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk the road home with him", nextScene: "return", tag: "faithful", feedback: "Every step is a prayer.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk the road home with him", nextScene: "return", tag: "faithful", feedback: "Luke 15:18-19 — The son decided to go back to his father and confess his sin, admitting he was no longer worthy to be called his son.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hidden_consequence: {
@@ -171,7 +171,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     text: "The father sees him from afar.\nHe runs, and falls on his neck.",
     choices: [
       { text: "Expect a stern punishment", nextScene: "stern_consequence", tag: "fearful", feedback: "Love runs to embrace.", isCorrect: false, sentiment: "negative" },
-      { text: "Weep with the embrace", nextScene: "feast", tag: "faithful", feedback: "Tears fill your eyes.", isCorrect: true, sentiment: "positive" },
+      { text: "Weep with the embrace", nextScene: "feast", tag: "faithful", feedback: "Luke 15:20 — While the son was still a long way off, his father saw him and was filled with compassion; he ran to his son, threw his arms around him and kissed him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stern_consequence: {
@@ -190,7 +190,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     text: "\"My son was lost and is found!\nBring the robe. Begin the feast!\"",
     choices: [
       { text: "Demand he prove himself first", nextScene: "prove_consequence", tag: "doubtful", feedback: "Grace asks no proof.", isCorrect: false, sentiment: "negative" },
-      { text: "Rejoice at the welcome home", nextScene: "brother", tag: "faithful", feedback: "Your soul lifts.", isCorrect: true, sentiment: "positive" },
+      { text: "Rejoice at the welcome home", nextScene: "brother", tag: "faithful", feedback: "Luke 15:23-24 — The father called for the fatted calf to be killed and for them to celebrate because his son was alive again and found.", isCorrect: true, sentiment: "positive" },
     ],
   },
   prove_consequence: {
@@ -210,7 +210,7 @@ export const prodigalSonScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Agree he was unfair", nextScene: "agree_consequence", tag: "doubtful", feedback: "Mercy is never unfair.", isCorrect: false, sentiment: "negative" },
       { text: "Hide your own resentments", nextScene: "hide_consequence", tag: "fearful", feedback: "Bring them to the father.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen for the father's words", nextScene: "ending", tag: "faithful", feedback: "You lean in close.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen for the father's words", nextScene: "ending", tag: "faithful", feedback: "Luke 15:31-32 — The father reminded his elder son that all he had belonged to him, and they should celebrate because his brother was lost and now found.", isCorrect: true, sentiment: "positive" },
     ],
   },
   agree_consequence: {
