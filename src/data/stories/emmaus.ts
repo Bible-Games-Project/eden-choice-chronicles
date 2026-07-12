@@ -12,7 +12,7 @@ export const emmausScenes: Record<string, StoryScene> = {
     text: "You and your friend leave the city.\nHope has died on a Roman cross.",
     choices: [
       { text: "Argue God has abandoned you", nextScene: "argue_consequence", tag: "wrathful", feedback: "Despair is not the last word.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk in silent shared grief", nextScene: "stranger_joins", tag: "humble", feedback: "Each step weighs heavy.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk in silent shared grief", nextScene: "stranger_joins", tag: "humble", feedback: "Luke 24:14 — Cleopas and his companion were discussing everything that had happened.", isCorrect: true, sentiment: "positive" },
       { text: "Boast you saw it coming", nextScene: "boast_consequence", tag: "prideful", feedback: "Pride blinds the heart.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -41,7 +41,7 @@ export const emmausScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Refuse to speak to him", nextScene: "refuse_consequence", tag: "fearful", feedback: "Welcome the stranger.", isCorrect: false, sentiment: "negative" },
       { text: "Mock his ignorance of events", nextScene: "mock_consequence", tag: "prideful", feedback: "Speak gently, not sharply.", isCorrect: false, sentiment: "negative" },
-      { text: "Stop and share your sorrow", nextScene: "share_grief", tag: "humble", feedback: "You turn to face him.", isCorrect: true, sentiment: "positive" },
+      { text: "Stop and share your sorrow", nextScene: "share_grief", tag: "humble", feedback: "Luke 24:17 — Cleopas and his companion stopped, their faces downcast, when the stranger asked what they were discussing.", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_consequence: {
@@ -67,7 +67,7 @@ export const emmausScenes: Record<string, StoryScene> = {
     title: "Concerning Jesus",
     text: "\"He was a prophet, mighty in word.\nThey crucified Him. We had hoped...\"",
     choices: [
-      { text: "Speak with honest heartbreak", nextScene: "scripture", tag: "humble", feedback: "Truth pours from your lips.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak with honest heartbreak", nextScene: "scripture", tag: "humble", feedback: "Luke 24:19-21 — Cleopas and his companion explained to the stranger about Jesus of Nazareth, a prophet they had hoped would redeem Israel, but who had been crucified.", isCorrect: true, sentiment: "positive" },
       { text: "Blame the women for the rumor", nextScene: "blame_consequence", tag: "wrathful", feedback: "They told what they saw.", isCorrect: false, sentiment: "negative" },
       { text: "Cut the story short in shame", nextScene: "short_consequence", tag: "fearful", feedback: "Tell it whole. He is listening.", isCorrect: false, sentiment: "negative" },
     ],
@@ -97,7 +97,7 @@ export const emmausScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Take offense at his words", nextScene: "offense_consequence", tag: "prideful", feedback: "He speaks for your sake.", isCorrect: false, sentiment: "negative" },
       { text: "Interrupt to correct him", nextScene: "interrupt_consequence", tag: "wrathful", feedback: "Listen. He knows more.", isCorrect: false, sentiment: "negative" },
-      { text: "Lean in and listen closely", nextScene: "burning_hearts", tag: "humble", feedback: "Moses, the prophets, all unfold.", isCorrect: true, sentiment: "positive" },
+      { text: "Lean in and listen closely", nextScene: "burning_hearts", tag: "humble", feedback: "Luke 24:27 — The stranger explained to Cleopas and his companion what was said in all the Scriptures concerning himself, beginning with Moses and all the Prophets.", isCorrect: true, sentiment: "positive" },
     ],
   },
   offense_consequence: {
@@ -124,7 +124,7 @@ export const emmausScenes: Record<string, StoryScene> = {
     text: "Something kindles inside your chest.\nYou cannot name it, but it burns.",
     choices: [
       { text: "Distrust the feeling and stop", nextScene: "distrust_consequence", tag: "fearful", feedback: "Let the fire keep burning.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen with your whole heart", nextScene: "invite_stay", tag: "humble", feedback: "The road becomes holy ground.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen with your whole heart", nextScene: "invite_stay", tag: "humble", feedback: "Luke 24:32 — Cleopas and his companion later realized their hearts were burning within them while the stranger talked with them on the road and opened the Scriptures to them.", isCorrect: true, sentiment: "positive" },
       { text: "Demand he explain himself", nextScene: "demand_consequence", tag: "prideful", feedback: "Receive first. Question later.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -152,7 +152,7 @@ export const emmausScenes: Record<string, StoryScene> = {
     text: "The village nears. He acts as if to go on.\nThe sun sinks low.",
     choices: [
       { text: "Let him walk on alone", nextScene: "letgo_consequence", tag: "fearful", feedback: "Do not lose this stranger.", isCorrect: false, sentiment: "negative" },
-      { text: "Urge him, \"Stay with us.\"", nextScene: "breaking_bread", tag: "merciful", feedback: "He turns and follows you in.", isCorrect: true, sentiment: "positive" },
+      { text: "Urge him, \"Stay with us.\"", nextScene: "breaking_bread", tag: "merciful", feedback: "Luke 24:29 — Cleopas and his companion urged the stranger strongly, saying, \"Stay with us, for it is nearly evening; the day is almost over.\"", isCorrect: true, sentiment: "positive" },
       { text: "Charge him for your company", nextScene: "charge_consequence", tag: "prideful", feedback: "Hospitality is free.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -180,7 +180,7 @@ export const emmausScenes: Record<string, StoryScene> = {
     text: "He takes the bread. Blesses it.\nBreaks it. Hands it to you.",
     choices: [
       { text: "Eat without truly looking up", nextScene: "look_consequence", tag: "fearful", feedback: "Lift your eyes. See Him.", isCorrect: false, sentiment: "negative" },
-      { text: "Look at His hands. See Him.", nextScene: "recognition", tag: "humble", feedback: "Your eyes finally open.", isCorrect: true, sentiment: "positive" },
+      { text: "Look at His hands. See Him.", nextScene: "recognition", tag: "humble", feedback: "Luke 24:30-31 — When the stranger was at the table with Cleopas and his companion, he took bread, gave thanks, broke it and began to give it to them, and their eyes were opened.", isCorrect: true, sentiment: "positive" },
       { text: "Boast of your fine hospitality", nextScene: "host_consequence", tag: "prideful", feedback: "This is no time for pride.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -209,7 +209,7 @@ export const emmausScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Sit stunned and stay the night", nextScene: "stay_consequence", tag: "fearful", feedback: "This news cannot wait.", isCorrect: false, sentiment: "negative" },
       { text: "Whisper. Tell no one tonight", nextScene: "whisper_consequence", tag: "fearful", feedback: "The brothers must hear.", isCorrect: false, sentiment: "negative" },
-      { text: "Rise at once. Run to Jerusalem", nextScene: "ending", tag: "merciful", feedback: "Hearts still burning, you run.", isCorrect: true, sentiment: "positive" },
+      { text: "Rise at once. Run to Jerusalem", nextScene: "ending", tag: "merciful", feedback: "Luke 24:33 — Cleopas and his companion got up and returned at once to Jerusalem after recognizing the Lord.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stay_consequence: {

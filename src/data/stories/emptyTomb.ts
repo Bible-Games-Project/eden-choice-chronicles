@@ -12,7 +12,7 @@ export const emptyTombScenes: Record<string, StoryScene> = {
     text: "Spices in hand, you walk before sunrise.\nWho will roll the great stone away?",
     choices: [
       { text: "Turn back. It is too heavy", nextScene: "turn_consequence", tag: "fearful", feedback: "Hope must keep walking.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk on in quiet faith", nextScene: "stone", tag: "humble", feedback: "Your footsteps press through dew.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk on in quiet faith", nextScene: "stone", tag: "humble", feedback: "Mark 16:3 — The women wondered among themselves who would roll away the stone for them.", isCorrect: true, sentiment: "positive" },
       { text: "Wait until the disciples wake", nextScene: "wait_consequence", tag: "fearful", feedback: "Love does not wait at dawn.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -41,7 +41,7 @@ export const emptyTombScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Run away in fear", nextScene: "run_consequence", tag: "fearful", feedback: "Fear cannot guard a miracle.", isCorrect: false, sentiment: "negative" },
       { text: "Accuse soldiers of theft", nextScene: "accuse_consequence", tag: "wrathful", feedback: "No human hand did this.", isCorrect: false, sentiment: "negative" },
-      { text: "Step closer and look inside", nextScene: "enter", tag: "humble", feedback: "Trembling, you draw near.", isCorrect: true, sentiment: "positive" },
+      { text: "Step closer and look inside", nextScene: "enter", tag: "humble", feedback: "Luke 24:3 — The women entered the tomb after finding the stone rolled away.", isCorrect: true, sentiment: "positive" },
     ],
   },
   run_consequence: {
@@ -68,7 +68,7 @@ export const emptyTombScenes: Record<string, StoryScene> = {
     text: "The slab is bare. Folded cloths remain.\nHis body is not here.",
     choices: [
       { text: "Weep without lifting your eyes", nextScene: "weep_consequence", tag: "fearful", feedback: "Lift your eyes. Heaven is speaking.", isCorrect: false, sentiment: "negative" },
-      { text: "Look around in quiet wonder", nextScene: "angels", tag: "humble", feedback: "A light begins to fill the cave.", isCorrect: true, sentiment: "positive" },
+      { text: "Look around in quiet wonder", nextScene: "angels", tag: "humble", feedback: "John 20:5-7 — Peter and John saw the linen cloths lying there, and the napkin that had been around Jesus' head, not lying with the linen cloths but folded up in a place by itself.", isCorrect: true, sentiment: "positive" },
       { text: "Touch the folded cloths in anger", nextScene: "anger_consequence", tag: "wrathful", feedback: "Anger blinds the eye to glory.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -97,7 +97,7 @@ export const emptyTombScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Argue: \"They have taken Him.\"", nextScene: "argue_consequence", tag: "fearful", feedback: "Listen first. Hope is speaking.", isCorrect: false, sentiment: "negative" },
       { text: "Demand the body be returned", nextScene: "demand_consequence", tag: "prideful", feedback: "He is not lost. He is risen.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and listen in silence", nextScene: "message", tag: "humble", feedback: "Their words fall like gentle rain.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and listen in silence", nextScene: "message", tag: "humble", feedback: "Luke 24:4-5 — Two men in dazzling apparel stood by the women and asked why they were seeking the living among the dead.", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {
@@ -124,7 +124,7 @@ export const emptyTombScenes: Record<string, StoryScene> = {
     text: "\"He is not here. He is risen,\nas He told you in Galilee.\"",
     choices: [
       { text: "Doubt: this cannot be true", nextScene: "doubt_consequence", tag: "fearful", feedback: "Remember what He promised.", isCorrect: false, sentiment: "negative" },
-      { text: "Remember His own words", nextScene: "remember", tag: "humble", feedback: "His voice rises in your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Remember His own words", nextScene: "remember", tag: "humble", feedback: "Luke 24:6-7 — The angels reminded the women that Jesus had told them He must be delivered into the hands of sinful men, and be crucified, and the third day rise again.", isCorrect: true, sentiment: "positive" },
       { text: "Boast that you knew all along", nextScene: "boast_consequence", tag: "prideful", feedback: "Humility carries this news.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -152,7 +152,7 @@ export const emptyTombScenes: Record<string, StoryScene> = {
     text: "The other women wait, pale with fear.\nWhat will you do with this hope?",
     choices: [
       { text: "Keep silent. Stay safe", nextScene: "silent_consequence", tag: "fearful", feedback: "Hope must be spoken aloud.", isCorrect: false, sentiment: "negative" },
-      { text: "Tell them. Go to the disciples", nextScene: "disciples", tag: "merciful", feedback: "You take their hands and run.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell them. Go to the disciples", nextScene: "disciples", tag: "merciful", feedback: "Luke 24:9 — The women returned from the tomb and reported all these things to the eleven and to all the rest.", isCorrect: true, sentiment: "positive" },
       { text: "Test them first with riddles", nextScene: "test_consequence", tag: "prideful", feedback: "Good news has no riddles.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -180,7 +180,7 @@ export const emptyTombScenes: Record<string, StoryScene> = {
     text: "Peter stares. John leans in.\n\"The Lord is risen,\" you say.",
     choices: [
       { text: "Blame them for hiding away", nextScene: "blame_consequence", tag: "wrathful", feedback: "Blame poisons holy news.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak with steady, hopeful joy", nextScene: "sunrise", tag: "merciful", feedback: "Peter rises and begins to run.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak with steady, hopeful joy", nextScene: "sunrise", tag: "merciful", feedback: "Luke 24:10 — Mary Magdalene, Joanna, Mary the mother of James and the other women with them told these things to the apostles.", isCorrect: true, sentiment: "positive" },
       { text: "Beg them to come prove it", nextScene: "beg_consequence", tag: "fearful", feedback: "They already believe enough to run.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -208,7 +208,7 @@ export const emptyTombScenes: Record<string, StoryScene> = {
     text: "The sun crests the hills. Death is undone.\nWhat fills your heart now?",
     choices: [
       { text: "Fear of what comes next", nextScene: "fear_end_consequence", tag: "fearful", feedback: "Hope, not fear, has the last word.", isCorrect: false, sentiment: "negative" },
-      { text: "Awe and quiet, rising joy", nextScene: "ending", tag: "humble", feedback: "You lift your face into the light.", isCorrect: true, sentiment: "positive" },
+      { text: "Awe and quiet, rising joy", nextScene: "ending", tag: "humble", feedback: "Matthew 28:8 — The women departed quickly from the tomb with fear and great joy, and ran to tell His disciples.", isCorrect: true, sentiment: "positive" },
       { text: "Pride that you were first", nextScene: "pride_end_consequence", tag: "prideful", feedback: "Joy belongs to everyone now.", isCorrect: false, sentiment: "negative" },
     ],
   },
