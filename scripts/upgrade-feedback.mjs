@@ -151,16 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  healingLeper: "The Healing of the Leper (Matthew 8:1-4, Mark 1:40-45, Luke 5:12-16)",
-  centurionServant: "The Centurion's Servant (Matthew 8:5-13, Luke 7:1-10)",
-  calmingStorm: "Jesus Calms the Storm (Matthew 8:23-27, Mark 4:35-41, Luke 8:22-25)",
-  demonPossessed: "The Demon-Possessed Man (Matthew 8:28-34, Mark 5:1-20, Luke 8:26-39)",
-  womanBlood: "The Woman with the Issue of Blood (Matthew 9:20-22, Mark 5:25-34, Luke 8:43-48)",
-  jairusDaughter: "Jairus' Daughter (Matthew 9:18-26, Mark 5:21-43, Luke 8:40-56)",
-  feeding5000: "The Feeding of the Five Thousand (Matthew 14:13-21, Mark 6:30-44, Luke 9:10-17, John 6:1-14)",
-  walkingWater: "Jesus Walks on Water (Matthew 14:22-33, Mark 6:45-52, John 6:16-21)",
-  blindMan: "The Man Born Blind (John 9:1-41)",
-  lazarus: "The Raising of Lazarus (John 11:1-44)",
+  sermonMount: "The Sermon on the Mount (Matthew 5-7, Luke 6:17-49)",
+  lordsPrayer: "The Lord's Prayer (Matthew 6:5-15, Luke 11:1-4)",
+  goodSamaritan: "The Good Samaritan (Luke 10:25-37)",
+  prodigalSon: "The Prodigal Son (Luke 15:11-32)",
+  richLazarus: "The Rich Man and Lazarus (Luke 16:19-31)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
