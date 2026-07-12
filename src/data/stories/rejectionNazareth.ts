@@ -11,7 +11,7 @@ export const rejectionNazarethScenes: Record<string, StoryScene> = {
     text: "Nazareth rises in the dawn.\nJesus walks the road of his youth.",
     choices: [
       { text: "Boast to the village he is here", nextScene: "boast_consequence", tag: "doubtful", feedback: "His coming needs no herald.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk beside him in quiet honor", nextScene: "synagogue", tag: "faithful", feedback: "You enter with reverence.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk beside him in quiet honor", nextScene: "synagogue", tag: "faithful", feedback: "Luke 4:16 — Jesus came to Nazareth, where he had been brought up.", isCorrect: true, sentiment: "positive" },
       { text: "Hurry past, ashamed of the place", nextScene: "ashamed_consequence", tag: "fearful", feedback: "Do not despise the small place.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,7 +38,7 @@ export const rejectionNazarethScenes: Record<string, StoryScene> = {
     title: "Sabbath in Nazareth",
     text: "The synagogue is quiet and warm.\nHe stands to read.",
     choices: [
-      { text: "Listen with an open heart", nextScene: "scroll", tag: "faithful", feedback: "You lean in.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen with an open heart", nextScene: "scroll", tag: "faithful", feedback: "Luke 4:16 — On the Sabbath day, Jesus went into the synagogue, as was his custom, and stood up to read.", isCorrect: true, sentiment: "positive" },
       { text: "Whisper about his family", nextScene: "whisper_consequence", tag: "doubtful", feedback: "Hear him first.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -58,7 +58,7 @@ export const rejectionNazarethScenes: Record<string, StoryScene> = {
     text: "\"The Spirit of the Lord is on me…\"\nHis voice fills the room.",
     choices: [
       { text: "Test him — \"Prove it now.\"", nextScene: "test_consequence", tag: "doubtful", feedback: "Faith does not bargain.", isCorrect: false, sentiment: "negative" },
-      { text: "Marvel at his gracious words", nextScene: "doubt", tag: "faithful", feedback: "Your heart stirs.", isCorrect: true, sentiment: "positive" },
+      { text: "Marvel at his gracious words", nextScene: "doubt", tag: "faithful", feedback: "Luke 4:17-21 — Jesus unrolled the scroll of the prophet Isaiah and read, then declared that this scripture was fulfilled in their hearing.", isCorrect: true, sentiment: "positive" },
       { text: "Walk out before he finishes", nextScene: "walkout_consequence", tag: "fearful", feedback: "Do not leave the light.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -86,7 +86,7 @@ export const rejectionNazarethScenes: Record<string, StoryScene> = {
     text: "Wonder cools. Eyes narrow.\n\"Where did this man learn this?\"",
     choices: [
       { text: "Join the doubting murmur", nextScene: "join_consequence", tag: "doubtful", feedback: "Do not breathe doubt's air.", isCorrect: false, sentiment: "negative" },
-      { text: "Hold steady in what you heard", nextScene: "carpenter", tag: "faithful", feedback: "Your heart keeps the word.", isCorrect: true, sentiment: "positive" },
+      { text: "Hold steady in what you heard", nextScene: "carpenter", tag: "faithful", feedback: "Matthew 13:54 — The people in the synagogue were astonished and asked, \"Where did this man get this wisdom and these miraculous powers?\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   join_consequence: {
@@ -105,7 +105,7 @@ export const rejectionNazarethScenes: Record<string, StoryScene> = {
     text: "\"Is this not the carpenter's son?\nWe know his brothers.\"",
     choices: [
       { text: "Agree — \"He is only one of us.\"", nextScene: "agree_consequence", tag: "doubtful", feedback: "Familiarity is not the truth of him.", isCorrect: false, sentiment: "negative" },
-      { text: "Remember the words, not the name", nextScene: "rejection", tag: "faithful", feedback: "You see past what you knew.", isCorrect: true, sentiment: "positive" },
+      { text: "Remember the words, not the name", nextScene: "rejection", tag: "faithful", feedback: "Matthew 13:55 — The people questioned if Jesus was not the carpenter's son and knew his mother and brothers.", isCorrect: true, sentiment: "positive" },
       { text: "Mock him for his old trade", nextScene: "mock_consequence", tag: "doubtful", feedback: "Honor is not given by mocking.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -132,7 +132,7 @@ export const rejectionNazarethScenes: Record<string, StoryScene> = {
     title: "They Turn Away",
     text: "The room grows cold.\nFaces close like shutters.",
     choices: [
-      { text: "Stay near him as they reject", nextScene: "explain", tag: "faithful", feedback: "You do not leave his side.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay near him as they reject", nextScene: "explain", tag: "faithful", feedback: "Matthew 13:57 — The people took offense at Jesus.", isCorrect: true, sentiment: "positive" },
       { text: "Slip into the crowd, unseen", nextScene: "slip_consequence", tag: "fearful", feedback: "Do not hide from love.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -152,7 +152,7 @@ export const rejectionNazarethScenes: Record<string, StoryScene> = {
     text: "\"No prophet is welcomed\nin his own hometown.\"",
     choices: [
       { text: "Argue that they will change", nextScene: "argue_consequence", tag: "doubtful", feedback: "Unbelief is a closed door.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive his quiet sorrow", nextScene: "leaving", tag: "faithful", feedback: "You feel what he feels.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive his quiet sorrow", nextScene: "leaving", tag: "faithful", feedback: "Luke 4:24 — Jesus said to them, \"Truly I tell you, no prophet is accepted in his hometown.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {
@@ -171,7 +171,7 @@ export const rejectionNazarethScenes: Record<string, StoryScene> = {
     text: "He turns toward the open road.\nHis steps are slow but sure.",
     choices: [
       { text: "Stay behind with the doubters", nextScene: "stay_consequence", tag: "fearful", feedback: "Do not stay where faith died.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk out with him in faith", nextScene: "ending", tag: "faithful", feedback: "You go where he goes.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk out with him in faith", nextScene: "ending", tag: "faithful", feedback: "Matthew 13:58 — Jesus did not do many miracles there because of their lack of faith.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stay_consequence: {

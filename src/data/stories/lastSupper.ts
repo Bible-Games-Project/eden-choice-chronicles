@@ -12,7 +12,7 @@ export const lastSupperScenes: Record<string, StoryScene> = {
     text: "The hour has come. Twelve faces wait by lamplight.\nYou step inside the prepared room.",
     choices: [
       { text: "Send them home for safety", nextScene: "send_consequence", tag: "fearful", feedback: "This hour was always meant.", isCorrect: false, sentiment: "negative" },
-      { text: "Welcome them to the table", nextScene: "gathered", tag: "loving", feedback: "Their eyes meet yours.", isCorrect: true, sentiment: "positive" },
+      { text: "Welcome them to the table", nextScene: "gathered", tag: "loving", feedback: "Luke 22:14 — Jesus sat down with the apostles when the hour came.", isCorrect: true, sentiment: "positive" },
       { text: "Speak of glory and crowns", nextScene: "glory_consequence", tag: "prideful", feedback: "Not glory. Service.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const lastSupperScenes: Record<string, StoryScene> = {
     text: "Dust covers their feet. No servant has come.\nA folded towel waits by the door.",
     choices: [
       { text: "Order Peter to wash the feet", nextScene: "order_consequence", tag: "prideful", feedback: "Not order. Show them.", isCorrect: false, sentiment: "negative" },
-      { text: "Rise and tie the towel on", nextScene: "washing", tag: "humble", feedback: "You kneel beside them.", isCorrect: true, sentiment: "positive" },
+      { text: "Rise and tie the towel on", nextScene: "washing", tag: "humble", feedback: "John 13:4 — Jesus rose from supper, laid aside His garments, and took a towel and girded Himself.", isCorrect: true, sentiment: "positive" },
       { text: "Leave the dust unclean", nextScene: "leave_consequence", tag: "evasive", feedback: "Love does not ignore.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -68,7 +68,7 @@ export const lastSupperScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Agree and stand back up", nextScene: "agree_consequence", tag: "evasive", feedback: "Then he has no part in you.", isCorrect: false, sentiment: "negative" },
       { text: "Rebuke him for his pride", nextScene: "rebuke_consequence", tag: "prideful", feedback: "Teach him gently, not harshly.", isCorrect: false, sentiment: "negative" },
-      { text: "Tell him he must be washed", nextScene: "bread_table", tag: "patient", feedback: "Peter offers his head and hands.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell him he must be washed", nextScene: "bread_table", tag: "patient", feedback: "John 13:8 — Jesus told Peter that if He did not wash him, Peter would have no part with Him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   agree_consequence: {
@@ -151,7 +151,7 @@ export const lastSupperScenes: Record<string, StoryScene> = {
     text: "Their eyes follow your every word.\nHow will they keep this night?",
     choices: [
       { text: "Tell them to forget the meal", nextScene: "forget_consequence", tag: "evasive", feedback: "No. Remember, always.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Do this in memory of me\"", nextScene: "betrayal_words", tag: "faithful", feedback: "The words settle deep in them.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Do this in memory of me\"", nextScene: "betrayal_words", tag: "faithful", feedback: "Luke 22:19 — Jesus commanded them to do this in remembrance of Him.", isCorrect: true, sentiment: "positive" },
       { text: "Demand a feast in your name", nextScene: "demand_consequence", tag: "prideful", feedback: "Memory, not spectacle.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -180,7 +180,7 @@ export const lastSupperScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Accuse Judas openly by name", nextScene: "accuse_consequence", tag: "rash", feedback: "His choice belongs to him.", isCorrect: false, sentiment: "negative" },
       { text: "Take back the hard saying", nextScene: "take_back_consequence", tag: "fearful", feedback: "Truth must stand tonight.", isCorrect: false, sentiment: "negative" },
-      { text: "Let the words fall and wait", nextScene: "disciples_ask", tag: "patient", feedback: "Silence wraps the table.", isCorrect: true, sentiment: "positive" },
+      { text: "Let the words fall and wait", nextScene: "disciples_ask", tag: "patient", feedback: "Matthew 26:21 — Jesus said, \"Assuredly, I say to you, one of you will betray Me.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   accuse_consequence: {
@@ -234,7 +234,7 @@ export const lastSupperScenes: Record<string, StoryScene> = {
     text: "The hour grows late. Lamps burn low.\nWhat last word will you give?",
     choices: [
       { text: "Leave without a final word", nextScene: "leave_silent_consequence", tag: "fearful", feedback: "They need this word most.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Love one another, as I have loved\"", nextScene: "ending", tag: "loving", feedback: "Their eyes shine with tears.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Love one another, as I have loved\"", nextScene: "ending", tag: "loving", feedback: "John 13:34 — Jesus commanded his disciples to love one another, just as he had loved them.", isCorrect: true, sentiment: "positive" },
       { text: "Warn them of every danger", nextScene: "warn_consequence", tag: "fearful", feedback: "Speak love, not only fear.", isCorrect: false, sentiment: "negative" },
     ],
   },
