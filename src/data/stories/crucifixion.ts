@@ -12,7 +12,7 @@ export const crucifixionScenes: Record<string, StoryScene> = {
     text: "Pilate washes his hands of you.\nThe crowd roars: \"Crucify him!\"",
     choices: [
       { text: "Curse the crowd in anger", nextScene: "curse_consequence", tag: "rash", feedback: "Not curses. The cup is yours.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive the verdict in silence", nextScene: "carrying", tag: "obedient", feedback: "You bow your head in peace.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the verdict in silence", nextScene: "carrying", tag: "obedient", feedback: "Matthew 27:27-31 — Jesus was led away to be crucified after Pilate washed his hands and released Barabbas.", isCorrect: true, sentiment: "positive" },
       { text: "Plead with Pilate for mercy", nextScene: "plead_consequence", tag: "fearful", feedback: "The Father's will is the verdict.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const crucifixionScenes: Record<string, StoryScene> = {
     text: "Rough wood bites your shoulder.\nThe road to Golgotha rises ahead.",
     choices: [
       { text: "Drop the beam and refuse", nextScene: "drop_consequence", tag: "fearful", feedback: "One step. Then another.", isCorrect: false, sentiment: "negative" },
-      { text: "Carry it step by trembling step", nextScene: "simon_scene", tag: "obedient", feedback: "You move forward in silent love.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry it step by trembling step", nextScene: "simon_scene", tag: "obedient", feedback: "John 19:17 — Jesus went out, bearing his own cross, to the place called The Place of a Skull.", isCorrect: true, sentiment: "positive" },
       { text: "Rage at the soldiers around you", nextScene: "rage_consequence", tag: "rash", feedback: "Strength is in surrender now.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -69,7 +69,7 @@ export const crucifixionScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Shame him for being chosen", nextScene: "shame_consequence", tag: "prideful", feedback: "Receive his help with grace.", isCorrect: false, sentiment: "negative" },
       { text: "Wave him off and walk alone", nextScene: "alone_consequence", tag: "prideful", feedback: "Love does not refuse help.", isCorrect: false, sentiment: "negative" },
-      { text: "Meet his eyes with quiet thanks", nextScene: "golgotha", tag: "humble", feedback: "Simon's strength carries you on.", isCorrect: true, sentiment: "positive" },
+      { text: "Meet his eyes with quiet thanks", nextScene: "golgotha", tag: "humble", feedback: "Matthew 27:32 — As they went out, they found a man of Cyrene, Simon by name; him they compelled to carry Jesus' cross.", isCorrect: true, sentiment: "positive" },
     ],
   },
   shame_consequence: {
@@ -95,7 +95,7 @@ export const crucifixionScenes: Record<string, StoryScene> = {
     title: "The Place of the Skull",
     text: "The hill rises grey and bare.\nSoldiers lay the cross at your feet.",
     choices: [
-      { text: "Refuse the bitter wine they offer", nextScene: "nailed", tag: "obedient", feedback: "You taste the cup fully, unclouded.", isCorrect: true, sentiment: "positive" },
+      { text: "Refuse the bitter wine they offer", nextScene: "nailed", tag: "obedient", feedback: "Mark 15:23 — They offered Jesus wine mixed with myrrh, but he did not take it.", isCorrect: true, sentiment: "positive" },
       { text: "Drink to dull the pain to come", nextScene: "drink_consequence", tag: "fearful", feedback: "The cup must be drunk awake.", isCorrect: false, sentiment: "negative" },
       { text: "Turn back down the hill", nextScene: "turn_back_consequence", tag: "fearful", feedback: "This hill is your throne.", isCorrect: false, sentiment: "negative" },
     ],
@@ -124,7 +124,7 @@ export const crucifixionScenes: Record<string, StoryScene> = {
     text: "Iron drives through wrist and foot.\nSoldiers gamble for your robe.",
     choices: [
       { text: "Cry out a curse upon them", nextScene: "nail_curse_consequence", tag: "rash", feedback: "Mercy speaks louder than wrath.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Forgive them; they do not know.\"", nextScene: "criminals", tag: "loving", feedback: "Your prayer falls like rain.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Forgive them; they do not know.\"", nextScene: "criminals", tag: "loving", feedback: "Luke 23:34 — Jesus said, \"Father, forgive them, for they know not what they do.\"", isCorrect: true, sentiment: "positive" },
       { text: "Plead one last time for freedom", nextScene: "plead_free_consequence", tag: "fearful", feedback: "Stay. The work is being done.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -153,7 +153,7 @@ export const crucifixionScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Mock the mocker in return", nextScene: "mock_consequence", tag: "rash", feedback: "Answer hatred with grace.", isCorrect: false, sentiment: "negative" },
       { text: "Ignore both and stay silent", nextScene: "ignore_consequence", tag: "evasive", feedback: "A penitent heart deserves answer.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Today, you are with me.\"", nextScene: "mary_below", tag: "loving", feedback: "Paradise opens for the broken.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Today, you are with me.\"", nextScene: "mary_below", tag: "loving", feedback: "Luke 23:43 — Jesus said to the penitent thief, \"Truly, I say to you, today you will be with me in Paradise.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -181,7 +181,7 @@ export const crucifixionScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Look away from their grief", nextScene: "look_away_consequence", tag: "fearful", feedback: "Their pain deserves your gaze.", isCorrect: false, sentiment: "negative" },
       { text: "Curse the day you were born", nextScene: "curse_birth_consequence", tag: "prideful", feedback: "Bless, do not curse, even now.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Woman, behold your son.\"", nextScene: "final_breath", tag: "loving", feedback: "John draws Mary close to himself.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Woman, behold your son.\"", nextScene: "final_breath", tag: "loving", feedback: "John 19:26 — When Jesus saw his mother and the disciple whom he loved standing nearby, he said to his mother, \"Woman, behold your son!\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   look_away_consequence: {
@@ -209,7 +209,7 @@ export const crucifixionScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Scream against the silence", nextScene: "scream_consequence", tag: "rash", feedback: "End in trust, not in fury.", isCorrect: false, sentiment: "negative" },
       { text: "Beg the Father to undo it", nextScene: "undo_consequence", tag: "fearful", feedback: "The yes was spoken in the garden.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Father, into your hands.\"", nextScene: "ending", tag: "obedient", feedback: "Peace rushes through the dark.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Father, into your hands.\"", nextScene: "ending", tag: "obedient", feedback: "Luke 23:46 — Jesus cried with a loud voice, \"Father, into your hands I commit my spirit!\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   scream_consequence: {

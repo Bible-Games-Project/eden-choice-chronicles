@@ -12,7 +12,7 @@ export const arrestJesusScenes: Record<string, StoryScene> = {
     text: "Torchlight floods the olive grove.\nJudas leads armed men toward you.",
     choices: [
       { text: "Hide among the olive trunks", nextScene: "hide_consequence", tag: "fearful", feedback: "The hour will not be hidden from.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand and face them openly", nextScene: "judas_arrives", tag: "obedient", feedback: "You step into the torchlight.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand and face them openly", nextScene: "judas_arrives", tag: "obedient", feedback: "John 18:4 — Jesus, knowing all that was going to happen to him, went out and asked them, \"Who is it you want?\"", isCorrect: true, sentiment: "positive" },
       { text: "Call angels to scatter them", nextScene: "angels_consequence", tag: "prideful", feedback: "Not by power, but by surrender.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -41,7 +41,7 @@ export const arrestJesusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Shout and shame his betrayal", nextScene: "shame_consequence", tag: "rash", feedback: "Meet betrayal with grace.", isCorrect: false, sentiment: "negative" },
       { text: "Run before he reaches you", nextScene: "run_consequence", tag: "fearful", feedback: "Stay. The cup is here.", isCorrect: false, sentiment: "negative" },
-      { text: "Call him 'friend' and wait", nextScene: "kiss", tag: "loving", feedback: "Your voice is soft, unbroken.", isCorrect: true, sentiment: "positive" },
+      { text: "Call him 'friend' and wait", nextScene: "kiss", tag: "loving", feedback: "Matthew 26:50 — Jesus said to Judas, \"Friend, why have you come?\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   shame_consequence: {
@@ -97,7 +97,7 @@ export const arrestJesusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Let the disciples be taken too", nextScene: "let_taken_consequence", tag: "fearful", feedback: "Shield them. The hour is yours alone.", isCorrect: false, sentiment: "negative" },
       { text: "Stand silent and let them guess", nextScene: "silent_consequence", tag: "evasive", feedback: "Speak. Name yourself.", isCorrect: false, sentiment: "negative" },
-      { text: "\"I am he. Let these men go.\"", nextScene: "peter_sword", tag: "faithful", feedback: "Your words fall like a quiet thunder.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I am he. Let these men go.\"", nextScene: "peter_sword", tag: "faithful", feedback: "John 18:8 — Jesus answered, \"I told you that I am he. If you are looking for me, then let these men go.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   let_taken_consequence: {
@@ -124,7 +124,7 @@ export const arrestJesusScenes: Record<string, StoryScene> = {
     text: "Peter lifts a sword above his head.\nIt flashes toward the high priest's servant.",
     choices: [
       { text: "Cheer Peter on to fight", nextScene: "cheer_consequence", tag: "rash", feedback: "This is not the kingdom's way.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Put your sword away, Peter.\"", nextScene: "heal_ear", tag: "peaceful", feedback: "Peter freezes, sword still raised.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Put your sword away, Peter.\"", nextScene: "heal_ear", tag: "peaceful", feedback: "Matthew 26:52 — Jesus said to Peter, \"Put your sword back in its place, for all who draw the sword will die by the sword.\"", isCorrect: true, sentiment: "positive" },
       { text: "Take the sword and fight beside him", nextScene: "fight_consequence", tag: "rash", feedback: "The kingdom is not won by blades.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -152,7 +152,7 @@ export const arrestJesusScenes: Record<string, StoryScene> = {
     text: "The servant clutches his bleeding ear.\nFear and pain shake his whole frame.",
     choices: [
       { text: "Walk past him to be arrested", nextScene: "walk_past_consequence", tag: "evasive", feedback: "Even now, mercy. Heal him.", isCorrect: false, sentiment: "negative" },
-      { text: "Touch his ear and heal him", nextScene: "disciples_flee", tag: "loving", feedback: "Warmth flows. The wound closes.", isCorrect: true, sentiment: "positive" },
+      { text: "Touch his ear and heal him", nextScene: "disciples_flee", tag: "loving", feedback: "Luke 22:51 — Jesus touched the servant's ear and healed him.", isCorrect: true, sentiment: "positive" },
       { text: "Curse the men who came for you", nextScene: "curse_consequence", tag: "rash", feedback: "Bless, do not curse, tonight.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -180,7 +180,7 @@ export const arrestJesusScenes: Record<string, StoryScene> = {
     text: "Your friends turn and run.\nCloaks drop. Footsteps fade into the dark.",
     choices: [
       { text: "Call them back in anger", nextScene: "call_back_consequence", tag: "rash", feedback: "Let mercy cover their fear.", isCorrect: false, sentiment: "negative" },
-      { text: "Let them go without a word", nextScene: "taken_away", tag: "loving", feedback: "You watch them with quiet love.", isCorrect: true, sentiment: "positive" },
+      { text: "Let them go without a word", nextScene: "taken_away", tag: "loving", feedback: "Matthew 26:56 — Then all the disciples deserted him and fled.", isCorrect: true, sentiment: "positive" },
       { text: "Curse them for abandoning you", nextScene: "curse_friends_consequence", tag: "prideful", feedback: "They will return. Forgive them now.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -209,7 +209,7 @@ export const arrestJesusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Struggle against the cords", nextScene: "struggle_consequence", tag: "fearful", feedback: "Walk with peace into the dawn.", isCorrect: false, sentiment: "negative" },
       { text: "Beg to be released one last time", nextScene: "beg_consequence", tag: "fearful", feedback: "The yes is already spoken.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk forward in steady silence", nextScene: "ending", tag: "obedient", feedback: "Your steps are sure and slow.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk forward in steady silence", nextScene: "ending", tag: "obedient", feedback: "John 18:12 — Then the detachment of soldiers with its commander and the Jewish officials arrested Jesus and bound him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   struggle_consequence: {
