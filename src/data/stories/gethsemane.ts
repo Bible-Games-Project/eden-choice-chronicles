@@ -12,7 +12,7 @@ export const gethsemaneScenes: Record<string, StoryScene> = {
     text: "Olive trees breathe in the moonlight.\nThe hour you knew was coming has come.",
     choices: [
       { text: "Turn back from the garden", nextScene: "back_consequence", tag: "fearful", feedback: "The Father waits inside.", isCorrect: false, sentiment: "negative" },
-      { text: "Enter quietly with the eleven", nextScene: "inner_circle", tag: "faithful", feedback: "You step beneath the boughs.", isCorrect: true, sentiment: "positive" },
+      { text: "Enter quietly with the eleven", nextScene: "inner_circle", tag: "faithful", feedback: "Matthew 26:36 — Jesus entered Gethsemane with His disciples.", isCorrect: true, sentiment: "positive" },
       { text: "Send them all back to the city", nextScene: "send_consequence", tag: "evasive", feedback: "Take at least the three with you.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const gethsemaneScenes: Record<string, StoryScene> = {
     text: "Peter, James, John look up at you.\n\"My soul is sorrowful unto death.\"",
     choices: [
       { text: "Hide your sorrow from them", nextScene: "hide_consequence", tag: "evasive", feedback: "Let them see the weight you bear.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Stay here. Watch and pray.\"", nextScene: "stone_alone", tag: "faithful", feedback: "They nod, eyes wide and afraid.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Stay here. Watch and pray.\"", nextScene: "stone_alone", tag: "faithful", feedback: "Matthew 26:38 — Jesus asked Peter, James, and John to stay and watch with Him.", isCorrect: true, sentiment: "positive" },
       { text: "Demand they fight off any threat", nextScene: "demand_consequence", tag: "rash", feedback: "Prayer, not swords, tonight.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -68,7 +68,7 @@ export const gethsemaneScenes: Record<string, StoryScene> = {
     text: "A pale moon-lit rock waits ahead.\nYou step away from your friends.",
     choices: [
       { text: "Stand and shout at the sky", nextScene: "shout_consequence", tag: "rash", feedback: "Kneel. Speak as a son.", isCorrect: false, sentiment: "negative" },
-      { text: "Fall to your knees in prayer", nextScene: "anguish", tag: "humble", feedback: "Your knees press the cold earth.", isCorrect: true, sentiment: "positive" },
+      { text: "Fall to your knees in prayer", nextScene: "anguish", tag: "humble", feedback: "Luke 22:41 — Jesus withdrew from them about a stone's throw and knelt down and prayed.", isCorrect: true, sentiment: "positive" },
       { text: "Demand the Father change His plan", nextScene: "demand_father_consequence", tag: "prideful", feedback: "Ask, do not demand.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -97,7 +97,7 @@ export const gethsemaneScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Refuse the cup outright", nextScene: "refuse_consequence", tag: "fearful", feedback: "Speak truth, then surrender.", isCorrect: false, sentiment: "negative" },
       { text: "Pretend the fear is not real", nextScene: "pretend_consequence", tag: "evasive", feedback: "Honesty opens the way to peace.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Father, if possible, take this cup\"", nextScene: "submission", tag: "honest", feedback: "Your words rise into the night.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Father, if possible, take this cup\"", nextScene: "submission", tag: "honest", feedback: "Matthew 26:39 — Jesus prayed, saying, \"My Father, if it be possible, let this cup pass from me.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_consequence: {
@@ -124,7 +124,7 @@ export const gethsemaneScenes: Record<string, StoryScene> = {
     text: "Silence answers from heaven.\nWhat shall you say next?",
     choices: [
       { text: "Curse the silence above", nextScene: "curse_consequence", tag: "rash", feedback: "Even silence is the Father near.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Yet not my will, but yours\"", nextScene: "find_sleeping_1", tag: "obedient", feedback: "A deep peace settles in your bones.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Yet not my will, but yours\"", nextScene: "find_sleeping_1", tag: "obedient", feedback: "Matthew 26:39 — Jesus continued His prayer, saying, \"Nevertheless, not as I will, but as You will.\"", isCorrect: true, sentiment: "positive" },
       { text: "Stand and walk away from prayer", nextScene: "walk_away_consequence", tag: "fearful", feedback: "Stay until the surrender is full.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -180,7 +180,7 @@ export const gethsemaneScenes: Record<string, StoryScene> = {
     text: "You walk back to the stone alone.\nWhat will you offer the Father now?",
     choices: [
       { text: "Beg only for an easier path", nextScene: "easier_consequence", tag: "fearful", feedback: "Trust, not bargain.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Your will be done, Father\"", nextScene: "find_sleeping_2", tag: "obedient", feedback: "The same yes, deeper this time.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Your will be done, Father\"", nextScene: "find_sleeping_2", tag: "obedient", feedback: "Matthew 26:42 — Jesus went away a second time and prayed, \"My Father, if this cannot pass unless I drink it, Your will be done.\"", isCorrect: true, sentiment: "positive" },
       { text: "Stand silent and refuse to pray", nextScene: "silent_consequence", tag: "evasive", feedback: "Prayer is the strength of this hour.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -207,7 +207,7 @@ export const gethsemaneScenes: Record<string, StoryScene> = {
     text: "They could not keep their eyes open.\nTheir heads rest against each other.",
     choices: [
       { text: "Mock them for their weakness", nextScene: "mock_consequence", tag: "prideful", feedback: "Their hearts are with you still.", isCorrect: false, sentiment: "negative" },
-      { text: "Let them rest, return to pray", nextScene: "final_resolve", tag: "loving", feedback: "You walk back without a word.", isCorrect: true, sentiment: "positive" },
+      { text: "Let them rest, return to pray", nextScene: "final_resolve", tag: "loving", feedback: "Matthew 26:43 — Jesus came and found them sleeping again, for their eyes were heavy.", isCorrect: true, sentiment: "positive" },
       { text: "Wake them and flee the garden", nextScene: "flee_consequence", tag: "fearful", feedback: "The hour is not for fleeing.", isCorrect: false, sentiment: "negative" },
     ],
   },

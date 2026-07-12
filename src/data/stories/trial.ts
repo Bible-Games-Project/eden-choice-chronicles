@@ -12,7 +12,7 @@ export const trialScenes: Record<string, StoryScene> = {
     text: "The high priest's hall burns with torches.\nAll eyes turn to you, bound and silent.",
     choices: [
       { text: "Curse the council for their malice", nextScene: "curse_consequence", tag: "rash", feedback: "Their judgment will judge them.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand quietly and meet their gaze", nextScene: "false_witnesses", tag: "humble", feedback: "Your silence fills the hall.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand quietly and meet their gaze", nextScene: "false_witnesses", tag: "humble", feedback: "Mark 14:60-61 — Jesus did not answer the high priest's question.", isCorrect: true, sentiment: "positive" },
       { text: "Beg them to release you", nextScene: "beg_consequence", tag: "fearful", feedback: "The cup is in your hand.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -41,7 +41,7 @@ export const trialScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Argue against every false word", nextScene: "argue_consequence", tag: "rash", feedback: "Lies collapse beneath silence.", isCorrect: false, sentiment: "negative" },
       { text: "Mock the men for their lies", nextScene: "mock_consequence", tag: "prideful", feedback: "Truth needs no mockery.", isCorrect: false, sentiment: "negative" },
-      { text: "Answer them with silence", nextScene: "high_priest_demands", tag: "humble", feedback: "You say nothing. They falter.", isCorrect: true, sentiment: "positive" },
+      { text: "Answer them with silence", nextScene: "high_priest_demands", tag: "humble", feedback: "Mark 14:61 — Jesus remained silent and gave no answer to the false witnesses.", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {
@@ -69,7 +69,7 @@ export const trialScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Deny it to save your life", nextScene: "deny_consequence", tag: "fearful", feedback: "Truth, even unto death.", isCorrect: false, sentiment: "negative" },
       { text: "Refuse to answer at all", nextScene: "refuse_consequence", tag: "evasive", feedback: "The hour calls for the great Yes.", isCorrect: false, sentiment: "negative" },
-      { text: "\"I am. You will see me coming.\"", nextScene: "to_pilate", tag: "faithful", feedback: "Caiaphas tears his robes in rage.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I am. You will see me coming.\"", nextScene: "to_pilate", tag: "faithful", feedback: "Mark 14:62 — Jesus answered Caiaphas, \"I am, and you will see the Son of Man sitting at the right hand of the Mighty One and coming on the clouds of heaven.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   deny_consequence: {
@@ -97,7 +97,7 @@ export const trialScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Drag your feet to slow them", nextScene: "drag_consequence", tag: "fearful", feedback: "Walk with steady peace.", isCorrect: false, sentiment: "negative" },
       { text: "Demand a fair Roman hearing", nextScene: "demand_consequence", tag: "rash", feedback: "Trust the Father, not Rome.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk in silent obedience", nextScene: "pilate_questions", tag: "obedient", feedback: "Your steps match theirs.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk in silent obedience", nextScene: "pilate_questions", tag: "obedient", feedback: "Matthew 27:2, Mark 15:1, Luke 23:1, John 18:28 — The Gospels record Jesus being led from Caiaphas to Pilate.", isCorrect: true, sentiment: "positive" },
     ],
   },
   drag_consequence: {
@@ -124,7 +124,7 @@ export const trialScenes: Record<string, StoryScene> = {
     text: "Pilate studies you. \"Are you a king?\"\nHis voice is curious, half afraid.",
     choices: [
       { text: "Mock his Roman power", nextScene: "mock_rome_consequence", tag: "prideful", feedback: "Speak truth, not insults.", isCorrect: false, sentiment: "negative" },
-      { text: "\"My kingdom is not of this world.\"", nextScene: "crowd_demands", tag: "faithful", feedback: "Pilate frowns, intrigued.", isCorrect: true, sentiment: "positive" },
+      { text: "\"My kingdom is not of this world.\"", nextScene: "crowd_demands", tag: "faithful", feedback: "John 18:36 — Jesus answered Pilate, \"My kingdom is not of this world. If it were, my servants would fight to prevent my arrest by the Jewish leaders. But now my kingdom is from another place.\"", isCorrect: true, sentiment: "positive" },
       { text: "Stay silent to confuse him", nextScene: "silent_pilate_consequence", tag: "evasive", feedback: "Here, truth must be spoken plainly.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -153,7 +153,7 @@ export const trialScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Call down judgment on the crowd", nextScene: "judgment_consequence", tag: "rash", feedback: "Forgive them. They do not know.", isCorrect: false, sentiment: "negative" },
       { text: "Plead with them to stop", nextScene: "plead_consequence", tag: "fearful", feedback: "The hour is set. Bear it in silence.", isCorrect: false, sentiment: "negative" },
-      { text: "Bear their cries in silence", nextScene: "pilate_washes", tag: "humble", feedback: "Their shouts wash over you.", isCorrect: true, sentiment: "positive" },
+      { text: "Bear their cries in silence", nextScene: "pilate_washes", tag: "humble", feedback: "Matthew 27:23, Mark 15:14, Luke 23:23 — Jesus did not respond to the crowd's shouts for his crucifixion.", isCorrect: true, sentiment: "positive" },
     ],
   },
   judgment_consequence: {
@@ -180,7 +180,7 @@ export const trialScenes: Record<string, StoryScene> = {
     text: "Pilate calls for water and washes his hands.\n\"I am innocent of this man's blood.\"",
     choices: [
       { text: "Accuse Pilate of cowardice", nextScene: "accuse_consequence", tag: "rash", feedback: "Let his own conscience speak.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive his words without protest", nextScene: "condemned", tag: "humble", feedback: "Your peace unsettles him deeper.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive his words without protest", nextScene: "condemned", tag: "humble", feedback: "Matthew 27:24-25 — Jesus remained silent as Pilate washed his hands and declared his innocence.", isCorrect: true, sentiment: "positive" },
       { text: "Demand he free you outright", nextScene: "demand_free_consequence", tag: "fearful", feedback: "The cup is in your hand still.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -208,7 +208,7 @@ export const trialScenes: Record<string, StoryScene> = {
     text: "Pilate hands you over to the soldiers.\nThe verdict is sealed in silence.",
     choices: [
       { text: "Cry out against the injustice", nextScene: "cry_out_consequence", tag: "rash", feedback: "Carry it with quiet love.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk forward with steady peace", nextScene: "ending", tag: "obedient", feedback: "Each step is a willing yes.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk forward with steady peace", nextScene: "ending", tag: "obedient", feedback: "Matthew 27:26-27, Mark 15:15-16, Luke 23:24-26, John 19:16 — The Gospels describe Jesus being led away by soldiers after Pilate handed him over.", isCorrect: true, sentiment: "positive" },
       { text: "Collapse and refuse to move", nextScene: "collapse_consequence", tag: "fearful", feedback: "Rise. The road is yours.", isCorrect: false, sentiment: "negative" },
     ],
   },
