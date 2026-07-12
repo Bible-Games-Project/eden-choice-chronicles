@@ -140,6 +140,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       "parable-sower", "parable-talents", "lost-sheep", "pharisee-tax", "ten-virgins",
       "nicodemus", "samaritan-woman", "woman-adultery", "zacchaeus", "rich-young-man",
       "debates-pharisees", "cleansing-temple", "rejection-nazareth", "triumphal-entry", "last-supper",
+      "gethsemane", "arrest-jesus", "trial", "peter-denies", "crucifixion",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
