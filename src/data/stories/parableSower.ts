@@ -11,7 +11,7 @@ export const parableSowerScenes: Record<string, StoryScene> = {
     text: "Jesus sits by the lake.\n\"Listen. A sower went out to sow.\"",
     choices: [
       { text: "Drift off in your thoughts", nextScene: "drift_consequence", tag: "doubtful", feedback: "Stay. The seed is for you.", isCorrect: false, sentiment: "negative" },
-      { text: "Lean in and listen closely", nextScene: "sower", tag: "faithful", feedback: "His voice softens.", isCorrect: true, sentiment: "positive" },
+      { text: "Lean in and listen closely", nextScene: "sower", tag: "faithful", feedback: "Matthew 13:9 — Jesus said, \"He who has ears, let him hear.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   drift_consequence: {
@@ -29,7 +29,7 @@ export const parableSowerScenes: Record<string, StoryScene> = {
     title: "The Sower",
     text: "A farmer walks the field,\nscattering seed with open hand.",
     choices: [
-      { text: "Watch where each seed lands", nextScene: "path", tag: "faithful", feedback: "Your eyes follow the seed.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch where each seed lands", nextScene: "path", tag: "faithful", feedback: "Matthew 13:3 — Jesus described the sower going out to sow his seed.", isCorrect: true, sentiment: "positive" },
       { text: "Decide the parable is dull", nextScene: "dull_consequence", tag: "doubtful", feedback: "Small things hide great truth.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -49,7 +49,7 @@ export const parableSowerScenes: Record<string, StoryScene> = {
     text: "Some seed falls on the hard path.\nBirds swoop down and take it away.",
     choices: [
       { text: "Blame the careless sower", nextScene: "blame_consequence", tag: "doubtful", feedback: "The sower scatters freely.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask why your heart is hard", nextScene: "rocky", tag: "faithful", feedback: "A quiet ache rises.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask why your heart is hard", nextScene: "rocky", tag: "faithful", feedback: "Matthew 13:19 — The seed along the path refers to one who hears the word but does not understand it, and the evil one snatches it away.", isCorrect: true, sentiment: "positive" },
       { text: "Shrug, it is only a seed", nextScene: "shrug_consequence", tag: "fearful", feedback: "Each seed is a whole word.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -77,7 +77,7 @@ export const parableSowerScenes: Record<string, StoryScene> = {
     text: "Some seed springs up quickly,\nbut the sun burns its shallow roots.",
     choices: [
       { text: "Trust only when life is easy", nextScene: "easy_consequence", tag: "fearful", feedback: "Roots grow in hard seasons.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray for roots that go deep", nextScene: "thorns", tag: "faithful", feedback: "You ask for hidden strength.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray for roots that go deep", nextScene: "thorns", tag: "faithful", feedback: "Matthew 13:21 — The seed on rocky ground refers to one who receives the word with joy, but it has no root and withers when tribulation or persecution arises.", isCorrect: true, sentiment: "positive" },
     ],
   },
   easy_consequence: {
@@ -97,7 +97,7 @@ export const parableSowerScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Hold tighter to your worries", nextScene: "worry_consequence", tag: "fearful", feedback: "Worry strangles the seed.", isCorrect: false, sentiment: "negative" },
       { text: "Cling harder to your wealth", nextScene: "wealth_consequence", tag: "doubtful", feedback: "Riches steal the light.", isCorrect: false, sentiment: "negative" },
-      { text: "Let the thorns go from your heart", nextScene: "good_soil", tag: "faithful", feedback: "Your hands unclench.", isCorrect: true, sentiment: "positive" },
+      { text: "Let the thorns go from your heart", nextScene: "good_soil", tag: "faithful", feedback: "Matthew 13:22 — The seed among thorns refers to one who hears the word, but the cares of the world and the deceitfulness of riches choke the word.", isCorrect: true, sentiment: "positive" },
     ],
   },
   worry_consequence: {
@@ -124,7 +124,7 @@ export const parableSowerScenes: Record<string, StoryScene> = {
     text: "Other seed falls on willing ground\nand bears thirty, sixty, a hundredfold.",
     choices: [
       { text: "Take the harvest for yourself", nextScene: "selfish_consequence", tag: "doubtful", feedback: "The harvest is to share.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive the word and grow with it", nextScene: "disciples", tag: "faithful", feedback: "Your heart opens wide.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the word and grow with it", nextScene: "disciples", tag: "faithful", feedback: "Matthew 13:23 — The seed on good soil refers to one who hears the word and understands it, bearing fruit a hundredfold, sixtyfold, or thirtyfold.", isCorrect: true, sentiment: "positive" },
     ],
   },
   selfish_consequence: {
@@ -143,7 +143,7 @@ export const parableSowerScenes: Record<string, StoryScene> = {
     text: "The disciples come close and ask,\n\"Teacher, tell us the meaning.\"",
     choices: [
       { text: "Walk away, sure you know", nextScene: "sure_consequence", tag: "doubtful", feedback: "Stay. You do not know yet.", isCorrect: false, sentiment: "negative" },
-      { text: "Sit with them and wait", nextScene: "ending", tag: "faithful", feedback: "You sit at his feet.", isCorrect: true, sentiment: "positive" },
+      { text: "Sit with them and wait", nextScene: "ending", tag: "faithful", feedback: "Matthew 13:10 — The disciples came to Jesus and asked why he spoke to the crowds in parables.", isCorrect: true, sentiment: "positive" },
     ],
   },
   sure_consequence: {

@@ -11,7 +11,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     text: "Jesus turns to you.\n\"A man entrusted his wealth to his servants.\"",
     choices: [
       { text: "Walk away, unconcerned", nextScene: "leave_consequence", tag: "doubtful", feedback: "Stay. This story is for you.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen with open heart", nextScene: "giving", tag: "faithful", feedback: "His voice steadies you.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen with open heart", nextScene: "giving", tag: "faithful", feedback: "Matthew 25:14 — Jesus tells the parable of a man who entrusted his property to his servants.", isCorrect: true, sentiment: "positive" },
     ],
   },
   leave_consequence: {
@@ -30,7 +30,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     text: "He hands out talents:\nfive, two, and one, each by ability.",
     choices: [
       { text: "Resent the smaller share", nextScene: "resent_consequence", tag: "fearful", feedback: "Each gift is fully yours.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive what is given to you", nextScene: "five", tag: "faithful", feedback: "Your hands open.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive what is given to you", nextScene: "five", tag: "faithful", feedback: "Matthew 25:15 — The master gave five talents to one servant, two to another, and one to the last, each according to his ability.", isCorrect: true, sentiment: "positive" },
     ],
   },
   resent_consequence: {
@@ -49,7 +49,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     text: "The first servant lifts five bags.\n\"I will go and trade at once.\"",
     choices: [
       { text: "Mock his ambition", nextScene: "mock_consequence", tag: "doubtful", feedback: "Courage is not pride.", isCorrect: false, sentiment: "negative" },
-      { text: "Honor his courage", nextScene: "two", tag: "faithful", feedback: "You nod with respect.", isCorrect: true, sentiment: "positive" },
+      { text: "Honor his courage", nextScene: "two", tag: "faithful", feedback: "Matthew 25:16 — The servant who received five talents immediately went and put his money to work and gained five more.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -68,7 +68,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     text: "The second weighs two coins.\nHe sets out quietly to work.",
     choices: [
       { text: "Tell him to wait for more", nextScene: "wait_consequence", tag: "fearful", feedback: "Begin with what you hold.", isCorrect: false, sentiment: "negative" },
-      { text: "Bless his small beginning", nextScene: "one", tag: "faithful", feedback: "Small starts grow far.", isCorrect: true, sentiment: "positive" },
+      { text: "Bless his small beginning", nextScene: "one", tag: "faithful", feedback: "Matthew 25:17 — The servant who received two talents also gained two more.", isCorrect: true, sentiment: "positive" },
     ],
   },
   wait_consequence: {
@@ -88,7 +88,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Tell him fear is wisdom", nextScene: "fear_consequence", tag: "fearful", feedback: "Fear hides what should shine.", isCorrect: false, sentiment: "negative" },
       { text: "Hide your own gift as well", nextScene: "hide_consequence", tag: "doubtful", feedback: "Buried gifts feed no one.", isCorrect: false, sentiment: "negative" },
-      { text: "Beg him to use it instead", nextScene: "return", tag: "faithful", feedback: "Your voice trembles for him.", isCorrect: true, sentiment: "positive" },
+      { text: "Beg him to use it instead", nextScene: "return", tag: "faithful", feedback: "Matthew 25:18 — The servant who received one talent went off, dug a hole in the ground, and hid his master’s money.", isCorrect: true, sentiment: "positive" },
     ],
   },
   fear_consequence: {
@@ -115,7 +115,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     text: "After a long time he comes back.\n\"Show me what you have done.\"",
     choices: [
       { text: "Make excuses for everyone", nextScene: "excuse_consequence", tag: "doubtful", feedback: "Account for yourself.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand and give your account", nextScene: "reward_five", tag: "faithful", feedback: "You step forward calmly.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand and give your account", nextScene: "reward_five", tag: "faithful", feedback: "Matthew 25:19 — After a long time the master of those servants returned and settled accounts with them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   excuse_consequence: {
@@ -134,7 +134,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     text: "The first brings ten talents.\n\"Well done, good and faithful servant.\"",
     choices: [
       { text: "Envy his great reward", nextScene: "envy_consequence", tag: "fearful", feedback: "His joy can be yours too.", isCorrect: false, sentiment: "negative" },
-      { text: "Rejoice with his master", nextScene: "reward_two", tag: "faithful", feedback: "Joy fills the room.", isCorrect: true, sentiment: "positive" },
+      { text: "Rejoice with his master", nextScene: "reward_two", tag: "faithful", feedback: "Matthew 25:21 — The master praised the servant who doubled his five talents, calling him a good and faithful servant.", isCorrect: true, sentiment: "positive" },
     ],
   },
   envy_consequence: {
@@ -153,7 +153,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     text: "The second brings four talents.\n\"Well done. Enter into joy.\"",
     choices: [
       { text: "Decide small gifts don't matter", nextScene: "small_consequence", tag: "doubtful", feedback: "Heaven counts faithfulness.", isCorrect: false, sentiment: "negative" },
-      { text: "See that faithfulness is praised", nextScene: "judgment_one", tag: "faithful", feedback: "A truth settles in you.", isCorrect: true, sentiment: "positive" },
+      { text: "See that faithfulness is praised", nextScene: "judgment_one", tag: "faithful", feedback: "Matthew 25:23 — The master praised the servant who doubled his two talents with the same words, calling him a good and faithful servant.", isCorrect: true, sentiment: "positive" },
     ],
   },
   small_consequence: {
@@ -172,7 +172,7 @@ export const parableTalentsScenes: Record<string, StoryScene> = {
     text: "The third holds out a dirty coin.\n\"I was afraid. I hid it away.\"",
     choices: [
       { text: "Defend his fear as humble", nextScene: "defend_consequence", tag: "doubtful", feedback: "Fear was never his master's wish.", isCorrect: false, sentiment: "negative" },
-      { text: "Mourn what was never used", nextScene: "ending", tag: "faithful", feedback: "Tears rise for the buried gift.", isCorrect: true, sentiment: "positive" },
+      { text: "Mourn what was never used", nextScene: "ending", tag: "faithful", feedback: "Matthew 25:25 — The third servant admitted he was afraid and hid his master's money in the ground.", isCorrect: true, sentiment: "positive" },
     ],
   },
   defend_consequence: {

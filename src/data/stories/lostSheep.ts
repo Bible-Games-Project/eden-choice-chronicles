@@ -11,7 +11,7 @@ export const lostSheepScenes: Record<string, StoryScene> = {
     text: "Jesus sits on the hill and asks,\n\"What man, having a hundred sheep...?\"",
     choices: [
       { text: "Turn away from the small story", nextScene: "turn_consequence", tag: "doubtful", feedback: "Small stories hold great love.", isCorrect: false, sentiment: "negative" },
-      { text: "Sit close and listen", nextScene: "flock", tag: "faithful", feedback: "His voice draws you in.", isCorrect: true, sentiment: "positive" },
+      { text: "Sit close and listen", nextScene: "flock", tag: "faithful", feedback: "Luke 15:3-4 — Jesus spoke this parable to them, asking about a man with a hundred sheep.", isCorrect: true, sentiment: "positive" },
     ],
   },
   turn_consequence: {
@@ -30,7 +30,7 @@ export const lostSheepScenes: Record<string, StoryScene> = {
     text: "A shepherd walks among his sheep,\nknowing each one by name.",
     choices: [
       { text: "Count only the strong ones", nextScene: "count_consequence", tag: "doubtful", feedback: "He counts every one.", isCorrect: false, sentiment: "negative" },
-      { text: "Watch him know each face", nextScene: "lost", tag: "faithful", feedback: "He sees them all.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch him know each face", nextScene: "lost", tag: "faithful", feedback: "John 10:14 — The good shepherd knows his sheep and is known by them.", isCorrect: true, sentiment: "positive" },
     ],
   },
   count_consequence: {
@@ -49,7 +49,7 @@ export const lostSheepScenes: Record<string, StoryScene> = {
     text: "A small lamb slips beyond the rocks,\nalone in the gathering dusk.",
     choices: [
       { text: "Say it deserves to be lost", nextScene: "blame_consequence", tag: "doubtful", feedback: "Lost is not deserved.", isCorrect: false, sentiment: "negative" },
-      { text: "Feel the shepherd's quiet ache", nextScene: "leave", tag: "faithful", feedback: "Your heart bends with his.", isCorrect: true, sentiment: "positive" },
+      { text: "Feel the shepherd's quiet ache", nextScene: "leave", tag: "faithful", feedback: "Matthew 18:12 — One of the hundred sheep went astray.", isCorrect: true, sentiment: "positive" },
       { text: "Hope the wolves find it first", nextScene: "cruel_consequence", tag: "fearful", feedback: "He would never wish that.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -77,7 +77,7 @@ export const lostSheepScenes: Record<string, StoryScene> = {
     text: "He sets the flock by a sheltered rock,\nand turns toward the dark hills.",
     choices: [
       { text: "Tell him the one is not worth it", nextScene: "worth_consequence", tag: "doubtful", feedback: "To him, every one is worth it.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk with him into the dusk", nextScene: "search", tag: "faithful", feedback: "You follow without a word.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk with him into the dusk", nextScene: "search", tag: "faithful", feedback: "Luke 15:4 — The shepherd left the ninety-nine in the wilderness and went after the one which was lost.", isCorrect: true, sentiment: "positive" },
     ],
   },
   worth_consequence: {
@@ -96,7 +96,7 @@ export const lostSheepScenes: Record<string, StoryScene> = {
     text: "Through mist and stone he calls its name,\nlantern raised against the night.",
     choices: [
       { text: "Give up when the path is hard", nextScene: "giveup_consequence", tag: "fearful", feedback: "He will not give up on you.", isCorrect: false, sentiment: "negative" },
-      { text: "Keep calling with him", nextScene: "found", tag: "faithful", feedback: "Your voice joins his.", isCorrect: true, sentiment: "positive" },
+      { text: "Keep calling with him", nextScene: "found", tag: "faithful", feedback: "Luke 15:4 — The shepherd went after the lost sheep until he found it.", isCorrect: true, sentiment: "positive" },
     ],
   },
   giveup_consequence: {
@@ -115,7 +115,7 @@ export const lostSheepScenes: Record<string, StoryScene> = {
     text: "At dawn he kneels in a quiet ravine,\nand lifts the trembling lamb.",
     choices: [
       { text: "Scold the lamb for wandering", nextScene: "scold_consequence", tag: "fearful", feedback: "He only cradles it.", isCorrect: false, sentiment: "negative" },
-      { text: "Weep at the gentleness", nextScene: "carry", tag: "faithful", feedback: "Tears come quietly.", isCorrect: true, sentiment: "positive" },
+      { text: "Weep at the gentleness", nextScene: "carry", tag: "faithful", feedback: "Luke 15:5 — When he had found it, he laid it on his shoulders, rejoicing.", isCorrect: true, sentiment: "positive" },
     ],
   },
   scold_consequence: {
@@ -134,7 +134,7 @@ export const lostSheepScenes: Record<string, StoryScene> = {
     text: "He lays the lamb across his shoulders,\nand walks the long road home.",
     choices: [
       { text: "Ask him to set it down to walk", nextScene: "walk_consequence", tag: "doubtful", feedback: "He carries what is weak.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk beside him in silence", nextScene: "celebration", tag: "faithful", feedback: "Joy needs no words.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk beside him in silence", nextScene: "celebration", tag: "faithful", feedback: "Luke 15:5 — The shepherd carried the lamb on his shoulders back to the flock.", isCorrect: true, sentiment: "positive" },
     ],
   },
   walk_consequence: {
@@ -153,7 +153,7 @@ export const lostSheepScenes: Record<string, StoryScene> = {
     text: "He calls his friends, eyes shining,\n\"Rejoice! I have found my lost one.\"",
     choices: [
       { text: "Envy the lamb's welcome", nextScene: "envy_consequence", tag: "doubtful", feedback: "The welcome is yours too.", isCorrect: false, sentiment: "negative" },
-      { text: "Rejoice with the shepherd", nextScene: "ending", tag: "faithful", feedback: "Your joy spills over.", isCorrect: true, sentiment: "positive" },
+      { text: "Rejoice with the shepherd", nextScene: "ending", tag: "faithful", feedback: "Luke 15:6 — The shepherd called together his friends and neighbors, saying, \"Rejoice with me; for I have found my sheep which was lost.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   envy_consequence: {
