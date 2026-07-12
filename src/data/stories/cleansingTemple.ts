@@ -11,7 +11,7 @@ export const cleansingTempleScenes: Record<string, StoryScene> = {
     text: "You enter the temple courts with Jesus.\nHis eyes are steady.",
     choices: [
       { text: "Wait outside, away from trouble", nextScene: "wait_consequence", tag: "fearful", feedback: "Do not turn away from the holy.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk in beside him with reverence", nextScene: "see_market", tag: "faithful", feedback: "You step into sacred ground.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk in beside him with reverence", nextScene: "see_market", tag: "faithful", feedback: "Matthew 21:12 — Jesus entered the temple courts and drove out all who were buying and selling there.", isCorrect: true, sentiment: "positive" },
       { text: "Run ahead to shout warnings", nextScene: "shout_consequence", tag: "doubtful", feedback: "Wait. Watch. Learn.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -40,7 +40,7 @@ export const cleansingTempleScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Shrug — \"This is how it is.\"", nextScene: "shrug_consequence", tag: "doubtful", feedback: "Do not bless what is broken.", isCorrect: false, sentiment: "negative" },
       { text: "Buy a dove to fit in", nextScene: "buy_consequence", tag: "fearful", feedback: "You cannot purchase holiness.", isCorrect: false, sentiment: "negative" },
-      { text: "Feel the wrongness with him", nextScene: "cord", tag: "faithful", feedback: "Your heart aches with his.", isCorrect: true, sentiment: "positive" },
+      { text: "Feel the wrongness with him", nextScene: "cord", tag: "faithful", feedback: "John 2:14 — Jesus found people selling cattle, sheep, and doves, and others sitting at tables exchanging money.", isCorrect: true, sentiment: "positive" },
     ],
   },
   shrug_consequence: {
@@ -67,7 +67,7 @@ export const cleansingTempleScenes: Record<string, StoryScene> = {
     text: "He weaves a cord of small ropes.\nHis purpose is clear.",
     choices: [
       { text: "Stop him — \"Do not cause trouble.\"", nextScene: "stop_consequence", tag: "fearful", feedback: "Righteous action is not trouble.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand near him, ready to follow", nextScene: "tables", tag: "faithful", feedback: "You are with him.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand near him, ready to follow", nextScene: "tables", tag: "faithful", feedback: "John 2:15 — Jesus made a whip out of cords, and drove all from the temple courts, both sheep and cattle.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stop_consequence: {
@@ -86,7 +86,7 @@ export const cleansingTempleScenes: Record<string, StoryScene> = {
     text: "Tables tip. Coins ring on stone.\nThe air shakes with holy fire.",
     choices: [
       { text: "Grab coins for yourself in the chaos", nextScene: "grab_consequence", tag: "doubtful", feedback: "Greed has no place here.", isCorrect: false, sentiment: "negative" },
-      { text: "Help clear the path for him", nextScene: "drive_out", tag: "faithful", feedback: "You move with him.", isCorrect: true, sentiment: "positive" },
+      { text: "Help clear the path for him", nextScene: "drive_out", tag: "faithful", feedback: "Matthew 21:12 — Jesus overturned the tables of the money changers and the benches of those selling doves.", isCorrect: true, sentiment: "positive" },
       { text: "Cover your ears and look away", nextScene: "cover_consequence", tag: "fearful", feedback: "Bear witness. Do not hide.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -114,7 +114,7 @@ export const cleansingTempleScenes: Record<string, StoryScene> = {
     text: "Merchants hurry away with their cages.\nDoves rise into open air.",
     choices: [
       { text: "Mock them as they retreat", nextScene: "mock_consequence", tag: "doubtful", feedback: "Justice is not cruelty.", isCorrect: false, sentiment: "negative" },
-      { text: "Open the cages, set doves free", nextScene: "proclaim", tag: "faithful", feedback: "What was sold flies free.", isCorrect: true, sentiment: "positive" },
+      { text: "Open the cages, set doves free", nextScene: "proclaim", tag: "faithful", feedback: "John 2:15 — Jesus poured out the coins of the money changers and overturned their tables.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -133,7 +133,7 @@ export const cleansingTempleScenes: Record<string, StoryScene> = {
     text: "\"My house shall be called\na house of prayer.\"",
     choices: [
       { text: "Argue that trade pays for repairs", nextScene: "argue_consequence", tag: "doubtful", feedback: "Holiness is not a budget.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive his words into your heart", nextScene: "disciples", tag: "faithful", feedback: "The court is for God.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive his words into your heart", nextScene: "disciples", tag: "faithful", feedback: "Matthew 21:13 — Jesus told them, \"It is written, 'My house will be called a house of prayer,' but you are making it 'a den of robbers.'\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {
@@ -152,7 +152,7 @@ export const cleansingTempleScenes: Record<string, StoryScene> = {
     text: "The disciples watch and remember:\n\"Zeal for your house consumes him.\"",
     choices: [
       { text: "Boast that you saw it first", nextScene: "boast_consequence", tag: "doubtful", feedback: "Witness without pride.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand quietly, take it in", nextScene: "restored", tag: "faithful", feedback: "His authority is plain.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand quietly, take it in", nextScene: "restored", tag: "faithful", feedback: "John 2:17 — His disciples remembered that it is written: \"Zeal for your house will consume me.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -171,7 +171,7 @@ export const cleansingTempleScenes: Record<string, StoryScene> = {
     text: "Dust settles. Light returns.\nThe court breathes again.",
     choices: [
       { text: "Refill the tables when he leaves", nextScene: "refill_consequence", tag: "doubtful", feedback: "Do not rebuild what he tore down.", isCorrect: false, sentiment: "negative" },
-      { text: "Pray here as it was meant", nextScene: "ending", tag: "faithful", feedback: "The house is for prayer.", isCorrect: true, sentiment: "positive" },
+      { text: "Pray here as it was meant", nextScene: "ending", tag: "faithful", feedback: "Luke 19:47 — Every day Jesus was teaching at the temple.", isCorrect: true, sentiment: "positive" },
     ],
   },
   refill_consequence: {

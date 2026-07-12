@@ -27,7 +27,7 @@ const ROOT = join(fileURLToPath(new URL(".", import.meta.url)), "..");
 const STORIES_DIR = join(ROOT, "src/data/stories");
 const LOCALES_DIR = join(ROOT, "src/locales");
 
-const STORIES = ["nicodemus", "samaritanWoman", "womanAdultery", "zacchaeus", "richYoungMan"];
+const STORIES = ["debatesPharisees", "cleansingTemple", "rejectionNazareth", "triumphalEntry", "lastSupper"];
 const NON_EN = ["es", "pt-BR", "fr", "de", "it", "pl", "ru", "tr", "ja", "ko", "ar"];
 
 const API_KEY = process.env.LOVABLE_API_KEY;
@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  nicodemus: "Nicodemus visits Jesus (John 3:1-21)",
-  samaritanWoman: "The Samaritan Woman at the Well (John 4:1-42)",
-  womanAdultery: "The Woman Caught in Adultery (John 8:1-11)",
-  zacchaeus: "Zacchaeus the Tax Collector (Luke 19:1-10)",
-  richYoungMan: "The Rich Young Ruler (Matthew 19:16-22, Mark 10:17-22, Luke 18:18-23)",
+  debatesPharisees: "Jesus' debates with the Pharisees (Matthew 22:15-46, Mark 12:13-40, Luke 20:20-47)",
+  cleansingTemple: "The Cleansing of the Temple (Matthew 21:12-17, Mark 11:15-18, Luke 19:45-48, John 2:13-22)",
+  rejectionNazareth: "Rejection at Nazareth (Matthew 13:53-58, Mark 6:1-6, Luke 4:16-30)",
+  triumphalEntry: "The Triumphal Entry into Jerusalem (Matthew 21:1-11, Mark 11:1-11, Luke 19:28-44, John 12:12-19)",
+  lastSupper: "The Last Supper (Matthew 26:17-30, Mark 14:12-26, Luke 22:7-38, John 13-17)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }

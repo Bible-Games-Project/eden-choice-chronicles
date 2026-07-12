@@ -10,7 +10,7 @@ export const debatesPhariseesScenes: Record<string, StoryScene> = {
     title: "They Come With Questions",
     text: "Pharisees draw near in the temple.\nTheir eyes are sharp.",
     choices: [
-      { text: "Stand calmly beside Jesus", nextScene: "trap_question", tag: "faithful", feedback: "Truth has no need to flinch.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand calmly beside Jesus", nextScene: "trap_question", tag: "faithful", feedback: "Matthew 22:15-16 — The Pharisees sent their disciples to Jesus, along with the Herodians, to try and trap him in his words.", isCorrect: true, sentiment: "positive" },
       { text: "Run and hide from them", nextScene: "hide_consequence", tag: "fearful", feedback: "Do not flee from honest light.", isCorrect: false, sentiment: "negative" },
       { text: "Shout insults to scare them", nextScene: "insult_consequence", tag: "doubtful", feedback: "Anger is not the answer.", isCorrect: false, sentiment: "negative" },
     ],
@@ -39,7 +39,7 @@ export const debatesPhariseesScenes: Record<string, StoryScene> = {
     text: "\"Is it lawful to pay tax\nto Caesar, or not?\"",
     choices: [
       { text: "Shout that taxes are evil", nextScene: "shout_consequence", tag: "doubtful", feedback: "The trap closes on quick answers.", isCorrect: false, sentiment: "negative" },
-      { text: "Watch Jesus answer in wisdom", nextScene: "coin", tag: "faithful", feedback: "He is never trapped.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch Jesus answer in wisdom", nextScene: "coin", tag: "faithful", feedback: "Matthew 22:17 — The Pharisees asked Jesus if it was lawful to pay taxes to Caesar.", isCorrect: true, sentiment: "positive" },
     ],
   },
   shout_consequence: {
@@ -59,7 +59,7 @@ export const debatesPhariseesScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Refuse to even look at it", nextScene: "refuse_consequence", tag: "fearful", feedback: "Look closely, hear closely.", isCorrect: false, sentiment: "negative" },
       { text: "Lie that the coin is yours", nextScene: "lie_consequence", tag: "doubtful", feedback: "Truth is the only path.", isCorrect: false, sentiment: "negative" },
-      { text: "Answer honest: \"Caesar's.\"", nextScene: "authority", tag: "faithful", feedback: "He nods, eyes calm.", isCorrect: true, sentiment: "positive" },
+      { text: "Answer honest: \"Caesar's.\"", nextScene: "authority", tag: "faithful", feedback: "Matthew 22:20-21 — Jesus asked whose image and inscription were on the coin, and they replied, \"Caesar's.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   refuse_consequence: {
@@ -86,7 +86,7 @@ export const debatesPhariseesScenes: Record<string, StoryScene> = {
     text: "\"Give Caesar what is his,\nand God what is God's.\"",
     choices: [
       { text: "Mock the wisdom as too clever", nextScene: "mock_consequence", tag: "doubtful", feedback: "Wisdom is not for mocking.", isCorrect: false, sentiment: "negative" },
-      { text: "Marvel at the clean answer", nextScene: "greatest_commandment", tag: "faithful", feedback: "The trap falls apart.", isCorrect: true, sentiment: "positive" },
+      { text: "Marvel at the clean answer", nextScene: "greatest_commandment", tag: "faithful", feedback: "Matthew 22:21 — Jesus told them to render to Caesar what is Caesar's, and to God what is God's.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -105,7 +105,7 @@ export const debatesPhariseesScenes: Record<string, StoryScene> = {
     text: "\"Teacher, which commandment\nin the law is greatest?\"",
     choices: [
       { text: "Guess the food and feast laws", nextScene: "guess_consequence", tag: "doubtful", feedback: "Those are not the heart.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen for love of God and man", nextScene: "hypocrisy", tag: "faithful", feedback: "The whole law in one breath.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen for love of God and man", nextScene: "hypocrisy", tag: "faithful", feedback: "Matthew 22:37-39 — Jesus stated that the greatest commandment is to love the Lord your God with all your heart, soul, and mind, and the second is to love your neighbor as yourself.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse to listen at all", nextScene: "deaf_consequence", tag: "fearful", feedback: "Open your ears.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -133,7 +133,7 @@ export const debatesPhariseesScenes: Record<string, StoryScene> = {
     text: "\"You wash the cup outside,\nbut inside you are full of pride.\"",
     choices: [
       { text: "Defend the proud men's honor", nextScene: "defend_consequence", tag: "doubtful", feedback: "Do not shield false hearts.", isCorrect: false, sentiment: "negative" },
-      { text: "Search your own heart honestly", nextScene: "crowd_amazed", tag: "faithful", feedback: "His words search you too.", isCorrect: true, sentiment: "positive" },
+      { text: "Search your own heart honestly", nextScene: "crowd_amazed", tag: "faithful", feedback: "Matthew 23:25-28 — Jesus criticized the Pharisees for cleaning the outside of the cup and dish, while inside they were full of greed and self-indulgence, comparing them to whitewashed tombs.", isCorrect: true, sentiment: "positive" },
     ],
   },
   defend_consequence: {
@@ -151,7 +151,7 @@ export const debatesPhariseesScenes: Record<string, StoryScene> = {
     title: "They Marvel",
     text: "The crowd stands still in wonder.\nNo one can trap him.",
     choices: [
-      { text: "Stay silent in awe with them", nextScene: "truth_remains", tag: "faithful", feedback: "Wonder is the start of wisdom.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay silent in awe with them", nextScene: "truth_remains", tag: "faithful", feedback: "Matthew 22:33 — When the crowds heard Jesus' answers, they were astonished at his teaching.", isCorrect: true, sentiment: "positive" },
       { text: "Boast that you knew all along", nextScene: "boast_consequence", tag: "doubtful", feedback: "Wonder, not pride, is the path.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -170,7 +170,7 @@ export const debatesPhariseesScenes: Record<string, StoryScene> = {
     title: "Truth Stands",
     text: "The Pharisees turn and leave.\nHis words remain in the air.",
     choices: [
-      { text: "Carry his truth in your heart", nextScene: "ending", tag: "faithful", feedback: "Truth makes a home in you.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry his truth in your heart", nextScene: "ending", tag: "faithful", feedback: "Matthew 22:46 — No one was able to answer Jesus, nor did anyone dare to ask him any more questions from that day on.", isCorrect: true, sentiment: "positive" },
       { text: "Forget it before you go home", nextScene: "forget_consequence", tag: "fearful", feedback: "Do not let truth slip away.", isCorrect: false, sentiment: "negative" },
     ],
   },
