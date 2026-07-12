@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  debatesPharisees: "Jesus' debates with the Pharisees (Matthew 22:15-46, Mark 12:13-40, Luke 20:20-47)",
-  cleansingTemple: "The Cleansing of the Temple (Matthew 21:12-17, Mark 11:15-18, Luke 19:45-48, John 2:13-22)",
-  rejectionNazareth: "Rejection at Nazareth (Matthew 13:53-58, Mark 6:1-6, Luke 4:16-30)",
-  triumphalEntry: "The Triumphal Entry into Jerusalem (Matthew 21:1-11, Mark 11:1-11, Luke 19:28-44, John 12:12-19)",
-  lastSupper: "The Last Supper (Matthew 26:17-30, Mark 14:12-26, Luke 22:7-38, John 13-17)",
+  gethsemane: "Jesus in Gethsemane (Matthew 26:36-46, Mark 14:32-42, Luke 22:39-46)",
+  arrestJesus: "The Arrest of Jesus (Matthew 26:47-56, Mark 14:43-52, Luke 22:47-53, John 18:1-12)",
+  trial: "The Trial of Jesus (Matthew 26:57-27:26, Mark 14:53-15:15, Luke 22:63-23:25, John 18:13-19:16)",
+  peterDenies: "Peter Denies Jesus (Matthew 26:69-75, Mark 14:66-72, Luke 22:54-62, John 18:15-27)",
+  crucifixion: "The Crucifixion of Jesus (Matthew 27:27-56, Mark 15:16-41, Luke 23:26-49, John 19:16-37)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
