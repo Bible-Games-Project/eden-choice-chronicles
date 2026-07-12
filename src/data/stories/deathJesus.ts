@@ -41,7 +41,7 @@ export const deathJesusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Shout proof of your power", nextScene: "shout_consequence", tag: "prideful", feedback: "Glory is not won by display.", isCorrect: false, sentiment: "negative" },
       { text: "Climb down to silence them", nextScene: "climb_consequence", tag: "rash", feedback: "Climbing down undoes salvation.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive their scorn in silence", nextScene: "two_thieves", tag: "humble", feedback: "Silence carries the weight of love.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive their scorn in silence", nextScene: "two_thieves", tag: "humble", feedback: "Matthew 27:39-44, Mark 15:29-32, and Luke 23:35-37 describe Jesus enduring the taunts and insults in silence.", isCorrect: true, sentiment: "positive" },
     ],
   },
   shout_consequence: {
@@ -67,7 +67,7 @@ export const deathJesusScenes: Record<string, StoryScene> = {
     title: "A Thief Turns",
     text: "One thief jeers. The other whispers,\n\"Remember me when you come as King.\"",
     choices: [
-      { text: "\"Today you will be with me.\"", nextScene: "mother_john", tag: "merciful", feedback: "Paradise opens for him.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Today you will be with me.\"", nextScene: "mother_john", tag: "merciful", feedback: "Luke 23:43 records Jesus telling the repentant thief, \"Truly I tell you, today you will be with me in paradise.\"", isCorrect: true, sentiment: "positive" },
       { text: "Ignore him and look away", nextScene: "ignore_consequence", tag: "wrathful", feedback: "No repentant heart is turned away.", isCorrect: false, sentiment: "negative" },
       { text: "Rebuke him for past sins", nextScene: "rebuke_consequence", tag: "prideful", feedback: "Mercy never measures the past.", isCorrect: false, sentiment: "negative" },
     ],
@@ -124,7 +124,7 @@ export const deathJesusScenes: Record<string, StoryScene> = {
     text: "At noon the sun is hidden.\nA cold shadow drinks the hill.",
     choices: [
       { text: "Demand the sun shine again", nextScene: "demand_consequence", tag: "prideful", feedback: "The darkness has a purpose.", isCorrect: false, sentiment: "negative" },
-      { text: "Bear the darkness in silence", nextScene: "my_god", tag: "humble", feedback: "Sin's weight settles on you.", isCorrect: true, sentiment: "positive" },
+      { text: "Bear the darkness in silence", nextScene: "my_god", tag: "humble", feedback: "Matthew 27:45, Mark 15:33, and Luke 23:44 state that darkness came over the whole land from noon until three in the afternoon, which Jesus endured.", isCorrect: true, sentiment: "positive" },
       { text: "Flee the cross in your spirit", nextScene: "flee_consequence", tag: "fearful", feedback: "You will not turn from this hour.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -152,7 +152,7 @@ export const deathJesusScenes: Record<string, StoryScene> = {
     text: "The Father feels far. Your soul aches.\nWhat words rise from the dark?",
     choices: [
       { text: "Accuse the Father of leaving", nextScene: "accuse_consequence", tag: "wrathful", feedback: "Trust still binds you to Him.", isCorrect: false, sentiment: "negative" },
-      { text: "\"My God, why have You left me?\"", nextScene: "veil_torn", tag: "humble", feedback: "Even the cry is faithful.", isCorrect: true, sentiment: "positive" },
+      { text: "\"My God, why have You left me?\"", nextScene: "veil_torn", tag: "humble", feedback: "Matthew 27:46 and Mark 15:34 record Jesus crying out, \"My God, my God, why have you forsaken me?\"", isCorrect: true, sentiment: "positive" },
       { text: "Stay silent and clench your jaw", nextScene: "silent_consequence", tag: "prideful", feedback: "Even psalms of sorrow are prayer.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -179,7 +179,7 @@ export const deathJesusScenes: Record<string, StoryScene> = {
     title: "The Work Is Done",
     text: "Strength fades. Salvation stands fulfilled.\nThe temple veil waits to be torn.",
     choices: [
-      { text: "\"I thirst.\" Then \"It is finished.\"", nextScene: "final_breath", tag: "humble", feedback: "From top to bottom, the veil tears.", isCorrect: true, sentiment: "positive" },
+      { text: "\"I thirst.\" Then \"It is finished.\"", nextScene: "final_breath", tag: "humble", feedback: "John 19:28 records Jesus saying, \"I am thirsty,\" and John 19:30 records Jesus saying, \"It is finished.\"", isCorrect: true, sentiment: "positive" },
       { text: "Beg for one more hour of life", nextScene: "beg_consequence", tag: "fearful", feedback: "The hour has come and is enough.", isCorrect: false, sentiment: "negative" },
       { text: "Boast of victory over enemies", nextScene: "boast_consequence", tag: "prideful", feedback: "Victory whispers; it does not boast.", isCorrect: false, sentiment: "negative" },
     ],
@@ -209,7 +209,7 @@ export const deathJesusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Curse those who killed you", nextScene: "curse_end_consequence", tag: "wrathful", feedback: "Love is the only word now.", isCorrect: false, sentiment: "negative" },
       { text: "Cling to life with all your strength", nextScene: "cling_consequence", tag: "fearful", feedback: "Trust opens the hand at last.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Father, into Your hands.\"", nextScene: "ending", tag: "humble", feedback: "You bow your head, and breathe out.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Father, into Your hands.\"", nextScene: "ending", tag: "humble", feedback: "Luke 23:46 records Jesus crying out with a loud voice, \"Father, into your hands I commit my spirit.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   curse_end_consequence: {

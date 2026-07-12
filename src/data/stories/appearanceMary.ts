@@ -12,7 +12,7 @@ export const appearanceMaryScenes: Record<string, StoryScene> = {
     text: "The tomb is open. He is gone.\nYour tears fall on the cold stone.",
     choices: [
       { text: "Run away in despair", nextScene: "run_consequence", tag: "fearful", feedback: "Stay. Hope is closer than you know.", isCorrect: false, sentiment: "negative" },
-      { text: "Stay and weep at the door", nextScene: "angels_ask", tag: "humble", feedback: "Your tears keep watch.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay and weep at the door", nextScene: "angels_ask", tag: "humble", feedback: "John 20:11 — Mary Magdalene stood outside the tomb weeping.", isCorrect: true, sentiment: "positive" },
       { text: "Curse those who took Him", nextScene: "curse_consequence", tag: "wrathful", feedback: "Anger blinds the eyes to wonder.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -41,7 +41,7 @@ export const appearanceMaryScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Boast you knew Him best", nextScene: "boast_consequence", tag: "prideful", feedback: "Grief is not a crown.", isCorrect: false, sentiment: "negative" },
       { text: "Demand they return His body", nextScene: "demand_consequence", tag: "wrathful", feedback: "They did not take Him.", isCorrect: false, sentiment: "negative" },
-      { text: "Answer them through your tears", nextScene: "stranger", tag: "humble", feedback: "Your voice trembles, honest.", isCorrect: true, sentiment: "positive" },
+      { text: "Answer them through your tears", nextScene: "stranger", tag: "humble", feedback: "John 20:13 — Mary Magdalene answered the angels, \"They have taken away my Lord, and I do not know where they have laid Him.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {
@@ -68,7 +68,7 @@ export const appearanceMaryScenes: Record<string, StoryScene> = {
     text: "You turn. A figure stands in soft light.\nYou think He is the gardener.",
     choices: [
       { text: "Ignore Him and look away", nextScene: "ignore_consequence", tag: "fearful", feedback: "Listen. He is about to speak.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak to Him in plain hope", nextScene: "gardener_dialog", tag: "humble", feedback: "Your hands open in pleading.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak to Him in plain hope", nextScene: "gardener_dialog", tag: "humble", feedback: "John 20:15 — Mary Magdalene, supposing Him to be the gardener, asked Him where He had laid Jesus.", isCorrect: true, sentiment: "positive" },
       { text: "Accuse Him of moving the body", nextScene: "accuse_consequence", tag: "wrathful", feedback: "Accusation closes the heart.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -96,7 +96,7 @@ export const appearanceMaryScenes: Record<string, StoryScene> = {
     text: "\"Sir, if you took Him, tell me where,\nand I will carry Him away.\"",
     choices: [
       { text: "Beg with anger and tears", nextScene: "beg_consequence", tag: "wrathful", feedback: "Lower your voice. Listen.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait quietly for His answer", nextScene: "name_called", tag: "humble", feedback: "The garden holds its breath.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait quietly for His answer", nextScene: "name_called", tag: "humble", feedback: "John 20:15 — Mary Magdalene asked the man she thought was the gardener to tell her where he had laid Jesus so she could take Him away.", isCorrect: true, sentiment: "positive" },
       { text: "Walk off to keep searching", nextScene: "walk_consequence", tag: "fearful", feedback: "The answer is right here.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -125,7 +125,7 @@ export const appearanceMaryScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Doubt your own ears", nextScene: "doubt_consequence", tag: "fearful", feedback: "Trust the voice you know.", isCorrect: false, sentiment: "negative" },
       { text: "Reason it must be someone else", nextScene: "reason_consequence", tag: "prideful", feedback: "Only He speaks like this.", isCorrect: false, sentiment: "negative" },
-      { text: "Turn fully toward His voice", nextScene: "recognition", tag: "humble", feedback: "Your whole heart turns.", isCorrect: true, sentiment: "positive" },
+      { text: "Turn fully toward His voice", nextScene: "recognition", tag: "humble", feedback: "John 20:16 — When Jesus called her name, Mary Magdalene turned and recognized Him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   doubt_consequence: {
@@ -152,7 +152,7 @@ export const appearanceMaryScenes: Record<string, StoryScene> = {
     text: "It is Him. Alive. Radiant.\n\"Rabboni!\" bursts from your lips.",
     choices: [
       { text: "Cling to Him with all your strength", nextScene: "cling_consequence", tag: "fearful", feedback: "Joy does not need to grasp.", isCorrect: false, sentiment: "negative" },
-      { text: "Fall and worship in awe", nextScene: "do_not_cling", tag: "humble", feedback: "Your knees bend in wonder.", isCorrect: true, sentiment: "positive" },
+      { text: "Fall and worship in awe", nextScene: "do_not_cling", tag: "humble", feedback: "John 20:16 — Mary Magdalene turned and said to Him, \"Rabboni!\" (which means Teacher).", isCorrect: true, sentiment: "positive" },
       { text: "Faint and look away in fear", nextScene: "faint_consequence", tag: "fearful", feedback: "Lift your eyes. He is here.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -180,7 +180,7 @@ export const appearanceMaryScenes: Record<string, StoryScene> = {
     text: "\"Go tell my brothers,\" He says.\n\"I ascend to my Father and yours.\"",
     choices: [
       { text: "Refuse. Stay here with Him", nextScene: "refuse_consequence", tag: "fearful", feedback: "Love sends. Love obeys.", isCorrect: false, sentiment: "negative" },
-      { text: "Go at once with His message", nextScene: "tell_disciples", tag: "merciful", feedback: "Your feet rise to run.", isCorrect: true, sentiment: "positive" },
+      { text: "Go at once with His message", nextScene: "tell_disciples", tag: "merciful", feedback: "John 20:17 — Jesus told Mary Magdalene not to cling to Him, but to go to His brothers and tell them He was ascending to His Father and their Father, to His God and their God.", isCorrect: true, sentiment: "positive" },
       { text: "Argue they will not believe you", nextScene: "argue_consequence", tag: "prideful", feedback: "Speak the truth anyway.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -207,7 +207,7 @@ export const appearanceMaryScenes: Record<string, StoryScene> = {
     title: "I Have Seen the Lord",
     text: "Hands trembling, you knock and speak:\n\"I have seen the Lord!\"",
     choices: [
-      { text: "Speak with quiet, steady joy", nextScene: "ending", tag: "merciful", feedback: "Your voice fills the room.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak with quiet, steady joy", nextScene: "ending", tag: "merciful", feedback: "John 20:18 — Mary Magdalene went and announced to the disciples, \"I have seen the Lord,\" and told them what He had said to her.", isCorrect: true, sentiment: "positive" },
       { text: "Boast you were chosen first", nextScene: "pride_end_consequence", tag: "prideful", feedback: "Joy belongs to everyone.", isCorrect: false, sentiment: "negative" },
       { text: "Whisper, afraid of their faces", nextScene: "whisper_consequence", tag: "fearful", feedback: "Speak boldly. He is risen.", isCorrect: false, sentiment: "negative" },
     ],
