@@ -11,7 +11,7 @@ export const samaritanWomanScenes: Record<string, StoryScene> = {
     text: "Jesus rests by Jacob's well at noon,\nweary from the long road.",
     choices: [
       { text: "Walk past, avoiding the stranger", nextScene: "avoid_consequence", tag: "fearful", feedback: "Truth waits for the open heart.", isCorrect: false, sentiment: "negative" },
-      { text: "Draw near with your water jar", nextScene: "drink_request", tag: "faithful", feedback: "You step into the sunlight.", isCorrect: true, sentiment: "positive" },
+      { text: "Draw near with your water jar", nextScene: "drink_request", tag: "faithful", feedback: "John 4:6-8 — Jesus, being weary from His journey, sat by the well and asked the Samaritan woman for a drink.", isCorrect: true, sentiment: "positive" },
     ],
   },
   avoid_consequence: {
@@ -29,7 +29,7 @@ export const samaritanWomanScenes: Record<string, StoryScene> = {
     title: "Give Me a Drink",
     text: "\"Give me a drink,\" he says softly.\nA Jew speaks kindly to a Samaritan.",
     choices: [
-      { text: "Offer water with quiet grace", nextScene: "living_water", tag: "faithful", feedback: "Kindness opens the way.", isCorrect: true, sentiment: "positive" },
+      { text: "Offer water with quiet grace", nextScene: "living_water", tag: "faithful", feedback: "John 4:9 — The Samaritan woman questioned Jesus, a Jew, asking for a drink from her.", isCorrect: true, sentiment: "positive" },
       { text: "Refuse, citing old divisions", nextScene: "refuse_consequence", tag: "doubtful", feedback: "Love crosses old walls.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -49,7 +49,7 @@ export const samaritanWomanScenes: Record<string, StoryScene> = {
     text: "\"If you knew the gift of God,\nyou would ask, and he would give living water.\"",
     choices: [
       { text: "Laugh at strange-sounding words", nextScene: "mock_consequence", tag: "doubtful", feedback: "Listen before you laugh.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask gently what he means", nextScene: "thirst", tag: "faithful", feedback: "A humble question opens truth.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask gently what he means", nextScene: "thirst", tag: "faithful", feedback: "John 4:10 — Jesus told the Samaritan woman that if she knew the gift of God, she would have asked Him for living water.", isCorrect: true, sentiment: "positive" },
       { text: "Demand he prove it now", nextScene: "demand_consequence", tag: "fearful", feedback: "Trust comes before sight.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -77,7 +77,7 @@ export const samaritanWomanScenes: Record<string, StoryScene> = {
     text: "\"This water leaves you thirsty again.\nMine becomes a spring of life.\"",
     choices: [
       { text: "Want only the well's water", nextScene: "well_consequence", tag: "fearful", feedback: "Reach for the deeper gift.", isCorrect: false, sentiment: "negative" },
-      { text: "Ask him for this living water", nextScene: "husband", tag: "faithful", feedback: "Your soul leans toward life.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask him for this living water", nextScene: "husband", tag: "faithful", feedback: "John 4:15 — The woman asked Jesus to give her this living water so she would not be thirsty again or have to keep coming to the well.", isCorrect: true, sentiment: "positive" },
     ],
   },
   well_consequence: {
@@ -96,7 +96,7 @@ export const samaritanWomanScenes: Record<string, StoryScene> = {
     text: "He speaks of your life as if he saw it.\nNothing is hidden from him.",
     choices: [
       { text: "Run from his honest gaze", nextScene: "flee_consequence", tag: "fearful", feedback: "He sees you and stays.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand and answer truthfully", nextScene: "worship", tag: "faithful", feedback: "Truth meets truth.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand and answer truthfully", nextScene: "worship", tag: "faithful", feedback: "John 4:17-18 — The woman told Jesus she had no husband, and Jesus revealed that she had five husbands and the man she was with was not her husband.", isCorrect: true, sentiment: "positive" },
     ],
   },
   flee_consequence: {
@@ -115,7 +115,7 @@ export const samaritanWomanScenes: Record<string, StoryScene> = {
     text: "\"True worshippers will worship the Father\nin spirit and in truth.\"",
     choices: [
       { text: "Argue over the right mountain", nextScene: "argue_consequence", tag: "doubtful", feedback: "Place is not the point.", isCorrect: false, sentiment: "negative" },
-      { text: "Open your heart to worship", nextScene: "messiah", tag: "faithful", feedback: "Worship rises within you.", isCorrect: true, sentiment: "positive" },
+      { text: "Open your heart to worship", nextScene: "messiah", tag: "faithful", feedback: "John 4:23-24 — Jesus explained to the woman that true worshipers will worship the Father in spirit and truth.", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {
@@ -134,7 +134,7 @@ export const samaritanWomanScenes: Record<string, StoryScene> = {
     text: "\"I who speak to you,\" he says, \"am he.\"\nThe Messiah stands before you.",
     choices: [
       { text: "Doubt and turn away", nextScene: "doubt_consequence", tag: "doubtful", feedback: "Trust what your heart knows.", isCorrect: false, sentiment: "negative" },
-      { text: "Believe him with quiet awe", nextScene: "village", tag: "faithful", feedback: "Light fills your chest.", isCorrect: true, sentiment: "positive" },
+      { text: "Believe him with quiet awe", nextScene: "village", tag: "faithful", feedback: "John 4:25-26 — The woman mentioned that the Messiah was coming, and Jesus declared to her, \"I who speak to you am He.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   doubt_consequence: {
@@ -153,7 +153,7 @@ export const samaritanWomanScenes: Record<string, StoryScene> = {
     text: "You leave the jar behind and run home.\nThis news cannot wait.",
     choices: [
       { text: "Keep the secret to yourself", nextScene: "hide_consequence", tag: "fearful", feedback: "Joy is meant to be shared.", isCorrect: false, sentiment: "negative" },
-      { text: "Call your neighbors to come", nextScene: "ending", tag: "faithful", feedback: "Your voice rings out.", isCorrect: true, sentiment: "positive" },
+      { text: "Call your neighbors to come", nextScene: "ending", tag: "faithful", feedback: "John 4:28-29 — The woman left her water jar and went into the town, telling the people to come and see a man who told her everything she ever did.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {

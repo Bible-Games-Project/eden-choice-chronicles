@@ -11,7 +11,7 @@ export const zacchaeusScenes: Record<string, StoryScene> = {
     text: "Jesus walks the road to Jericho.\nThe whole town comes to see.",
     choices: [
       { text: "Stay safe in your tax booth", nextScene: "hide_consequence", tag: "fearful", feedback: "He may pass and never return.", isCorrect: false, sentiment: "negative" },
-      { text: "Hurry out to find him", nextScene: "crowd", tag: "faithful", feedback: "Your heart pulls you forward.", isCorrect: true, sentiment: "positive" },
+      { text: "Hurry out to find him", nextScene: "crowd", tag: "faithful", feedback: "Luke 19:3 — Zacchaeus was trying to see Jesus.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -31,7 +31,7 @@ export const zacchaeusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Push roughly to the front", nextScene: "push_consequence", tag: "doubtful", feedback: "Force will not open the way.", isCorrect: false, sentiment: "negative" },
       { text: "Give up and walk away", nextScene: "quit_consequence", tag: "fearful", feedback: "Do not turn back so soon.", isCorrect: false, sentiment: "negative" },
-      { text: "Look for another way to see", nextScene: "tree", tag: "faithful", feedback: "Hope finds new paths.", isCorrect: true, sentiment: "positive" },
+      { text: "Look for another way to see", nextScene: "tree", tag: "faithful", feedback: "Luke 19:3-4 — Zacchaeus was too short to see over the crowd, so he ran ahead to find another way.", isCorrect: true, sentiment: "positive" },
     ],
   },
   push_consequence: {
@@ -58,7 +58,7 @@ export const zacchaeusScenes: Record<string, StoryScene> = {
     text: "An old sycamore leans over the road.\nIts branches reach low.",
     choices: [
       { text: "Worry what others might think", nextScene: "shame_consequence", tag: "fearful", feedback: "Let dignity wait for grace.", isCorrect: false, sentiment: "negative" },
-      { text: "Climb up to see him", nextScene: "seen", tag: "faithful", feedback: "You climb with joy.", isCorrect: true, sentiment: "positive" },
+      { text: "Climb up to see him", nextScene: "seen", tag: "faithful", feedback: "Luke 19:4 — Zacchaeus climbed a sycamore-fig tree to see Jesus as He was passing by.", isCorrect: true, sentiment: "positive" },
     ],
   },
   shame_consequence: {
@@ -77,7 +77,7 @@ export const zacchaeusScenes: Record<string, StoryScene> = {
     text: "Jesus stops and looks straight at you.\n\"Zacchaeus, come down.\"",
     choices: [
       { text: "Hide higher in the branches", nextScene: "hide_tree_consequence", tag: "fearful", feedback: "He has already seen you.", isCorrect: false, sentiment: "negative" },
-      { text: "Climb down at once with joy", nextScene: "invite", tag: "faithful", feedback: "Joy floods your chest.", isCorrect: true, sentiment: "positive" },
+      { text: "Climb down at once with joy", nextScene: "invite", tag: "faithful", feedback: "Luke 19:5-6 — Jesus told Zacchaeus to come down quickly, and Zacchaeus came down with joy.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_tree_consequence: {
@@ -96,7 +96,7 @@ export const zacchaeusScenes: Record<string, StoryScene> = {
     text: "\"Today I must stay at your house.\"\nThe words shake your heart.",
     choices: [
       { text: "Refuse, ashamed of your home", nextScene: "refuse_consequence", tag: "fearful", feedback: "He chooses your house gladly.", isCorrect: false, sentiment: "negative" },
-      { text: "Welcome him with full joy", nextScene: "grumble", tag: "faithful", feedback: "Light fills your face.", isCorrect: true, sentiment: "positive" },
+      { text: "Welcome him with full joy", nextScene: "grumble", tag: "faithful", feedback: "Luke 19:5-6 — Jesus said He must stay at Zacchaeus's house, and Zacchaeus welcomed Him joyfully.", isCorrect: true, sentiment: "positive" },
       { text: "Bargain for a different day", nextScene: "bargain_consequence", tag: "doubtful", feedback: "Today is the day of grace.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -124,7 +124,7 @@ export const zacchaeusScenes: Record<string, StoryScene> = {
     text: "The crowd mutters in disbelief.\n\"He goes in to a sinner's house.\"",
     choices: [
       { text: "Hide from their angry stares", nextScene: "stare_consequence", tag: "fearful", feedback: "Their voices cannot define you now.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand and let mercy speak", nextScene: "repent", tag: "faithful", feedback: "You stand in the light.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand and let mercy speak", nextScene: "repent", tag: "faithful", feedback: "Luke 19:7-8 — While the crowd grumbled, Zacchaeus stood up and addressed the Lord.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stare_consequence: {
@@ -143,7 +143,7 @@ export const zacchaeusScenes: Record<string, StoryScene> = {
     text: "Something new rises in you.\nWealth no longer holds your heart.",
     choices: [
       { text: "Keep your gold and stay quiet", nextScene: "keep_consequence", tag: "doubtful", feedback: "A changed heart cannot stay silent.", isCorrect: false, sentiment: "negative" },
-      { text: "Give half to the poor today", nextScene: "ending", tag: "faithful", feedback: "Freedom rushes through you.", isCorrect: true, sentiment: "positive" },
+      { text: "Give half to the poor today", nextScene: "ending", tag: "faithful", feedback: "Luke 19:8 — Zacchaeus told the Lord that he would give half of his possessions to the poor.", isCorrect: true, sentiment: "positive" },
       { text: "Promise nothing, just feast", nextScene: "feast_consequence", tag: "fearful", feedback: "True welcome bears fruit.", isCorrect: false, sentiment: "negative" },
     ],
   },

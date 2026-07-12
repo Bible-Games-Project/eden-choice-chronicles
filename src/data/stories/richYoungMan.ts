@@ -11,7 +11,7 @@ export const richYoungManScenes: Record<string, StoryScene> = {
     text: "You see Jesus on the road.\nA question burns inside you.",
     choices: [
       { text: "Run past, too proud to ask", nextScene: "pride_consequence", tag: "doubtful", feedback: "Pride silences the soul.", isCorrect: false, sentiment: "negative" },
-      { text: "Hurry forward to meet him", nextScene: "eternal_life", tag: "faithful", feedback: "Your heart leads you on.", isCorrect: true, sentiment: "positive" },
+      { text: "Hurry forward to meet him", nextScene: "eternal_life", tag: "faithful", feedback: "Mark 10:17 — The man ran up to Jesus and knelt before him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   pride_consequence: {
@@ -30,7 +30,7 @@ export const richYoungManScenes: Record<string, StoryScene> = {
     text: "You kneel. \"What must I do\nto inherit eternal life?\"",
     choices: [
       { text: "Demand a quick answer now", nextScene: "demand_consequence", tag: "doubtful", feedback: "Truth is not bought with haste.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait humbly for his words", nextScene: "commandments", tag: "faithful", feedback: "He looks at you kindly.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait humbly for his words", nextScene: "commandments", tag: "faithful", feedback: "Mark 10:18 — Jesus responded to the man's question about eternal life.", isCorrect: true, sentiment: "positive" },
       { text: "Boast of your good deeds first", nextScene: "boast_consequence", tag: "fearful", feedback: "Listen before you speak.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -57,7 +57,7 @@ export const richYoungManScenes: Record<string, StoryScene> = {
     title: "You Know Them",
     text: "\"Do not kill, steal, or lie.\nHonor your father and mother.\"",
     choices: [
-      { text: "Receive each word with care", nextScene: "claim", tag: "faithful", feedback: "The old words feel new.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive each word with care", nextScene: "claim", tag: "faithful", feedback: "Mark 10:19 — Jesus listed several commandments for the man.", isCorrect: true, sentiment: "positive" },
       { text: "Brush them off as too easy", nextScene: "easy_consequence", tag: "doubtful", feedback: "Do not pass them by.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -77,7 +77,7 @@ export const richYoungManScenes: Record<string, StoryScene> = {
     text: "\"All these I have kept\nsince I was a boy.\"",
     choices: [
       { text: "Lie about your hidden sins", nextScene: "lie_consequence", tag: "doubtful", feedback: "Do not deceive yourself.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak honest, with open heart", nextScene: "challenge", tag: "faithful", feedback: "He looks at you and loves you.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak honest, with open heart", nextScene: "challenge", tag: "faithful", feedback: "Mark 10:20 — The man told Jesus that he had kept all these commandments since his youth.", isCorrect: true, sentiment: "positive" },
     ],
   },
   lie_consequence: {
@@ -97,7 +97,7 @@ export const richYoungManScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Argue that wealth is a gift", nextScene: "argue_consequence", tag: "doubtful", feedback: "Gifts are meant to be shared.", isCorrect: false, sentiment: "negative" },
       { text: "Promise just a small portion", nextScene: "bargain_consequence", tag: "fearful", feedback: "He asked for all of you.", isCorrect: false, sentiment: "negative" },
-      { text: "Sit with the weight of his words", nextScene: "conflict", tag: "faithful", feedback: "The words sink deep.", isCorrect: true, sentiment: "positive" },
+      { text: "Sit with the weight of his words", nextScene: "conflict", tag: "faithful", feedback: "Mark 10:21 — Jesus told the man he lacked one thing: to sell his possessions, give to the poor, and follow Him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {
@@ -123,7 +123,7 @@ export const richYoungManScenes: Record<string, StoryScene> = {
     title: "The Heart Weighs",
     text: "Your gold feels heavy in your hand.\nYour soul feels heavier.",
     choices: [
-      { text: "Open your hands to let go", nextScene: "surrender_path", tag: "faithful", feedback: "Surrender feels close.", isCorrect: true, sentiment: "positive" },
+      { text: "Open your hands to let go", nextScene: "surrender_path", tag: "faithful", feedback: "Mark 10:22 — The man's face fell because he had great wealth.", isCorrect: true, sentiment: "positive" },
       { text: "Clutch your wealth even tighter", nextScene: "walk_away", tag: "fearful", feedback: "Your hand will not open.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -142,7 +142,7 @@ export const richYoungManScenes: Record<string, StoryScene> = {
     title: "Sorrowful",
     text: "You turn away, deeply sad.\nYour wealth holds you back.",
     choices: [
-      { text: "Run back and follow him", nextScene: "teaching", tag: "faithful", feedback: "Even sorrow can teach.", isCorrect: true, sentiment: "positive" },
+      { text: "Run back and follow him", nextScene: "teaching", tag: "faithful", feedback: "Mark 10:22 — The man went away sorrowful because he had many possessions.", isCorrect: true, sentiment: "positive" },
       { text: "Keep walking and forget him", nextScene: "forget_consequence", tag: "fearful", feedback: "Do not bury this moment.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -162,7 +162,7 @@ export const richYoungManScenes: Record<string, StoryScene> = {
     text: "\"How hard for the rich\nto enter the kingdom of God.\"",
     choices: [
       { text: "Despair, for who can be saved?", nextScene: "despair_consequence", tag: "fearful", feedback: "Hope is not lost.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust that all is possible with God", nextScene: "ending", tag: "faithful", feedback: "Grace makes a way.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust that all is possible with God", nextScene: "ending", tag: "faithful", feedback: "Mark 10:23 — Jesus taught his disciples how difficult it is for the rich to enter the kingdom of God.", isCorrect: true, sentiment: "positive" },
     ],
   },
   despair_consequence: {
