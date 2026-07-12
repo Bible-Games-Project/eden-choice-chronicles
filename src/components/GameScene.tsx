@@ -137,6 +137,7 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       "healing-leper", "centurion-servant", "calming-storm", "demon-possessed", "woman-blood",
       "jairus-daughter", "feeding-5000", "walking-water", "blind-man", "raising-lazarus",
       "sermon-mount", "lords-prayer", "good-samaritan", "prodigal-son", "rich-man-lazarus",
+      "parable-sower", "parable-talents", "lost-sheep", "pharisee-tax", "ten-virgins",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
