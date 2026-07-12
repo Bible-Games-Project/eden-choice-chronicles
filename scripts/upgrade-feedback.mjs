@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  parableSower: "The Parable of the Sower (Matthew 13:1-23, Mark 4:1-20, Luke 8:4-15)",
-  parableTalents: "The Parable of the Talents (Matthew 25:14-30)",
-  lostSheep: "The Parable of the Lost Sheep (Matthew 18:10-14, Luke 15:1-7)",
-  phariseeTax: "The Pharisee and the Tax Collector (Luke 18:9-14)",
-  tenVirgins: "The Parable of the Ten Virgins (Matthew 25:1-13)",
+  nicodemus: "Nicodemus visits Jesus (John 3:1-21)",
+  samaritanWoman: "The Samaritan Woman at the Well (John 4:1-42)",
+  womanAdultery: "The Woman Caught in Adultery (John 8:1-11)",
+  zacchaeus: "Zacchaeus the Tax Collector (Luke 19:1-10)",
+  richYoungMan: "The Rich Young Ruler (Matthew 19:16-22, Mark 10:17-22, Luke 18:18-23)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
