@@ -11,7 +11,7 @@ export const centurionServantScenes: Record<string, StoryScene> = {
     text: "Your servant lies dying.\nYou hear a teacher is near.",
     choices: [
       { text: "Send for a Roman doctor", nextScene: "doctor_consequence", tag: "doubtful", feedback: "There is another way.", isCorrect: false, sentiment: "negative" },
-      { text: "Go to find Jesus", nextScene: "seek", tag: "faithful", feedback: "Hope rises in you.", isCorrect: true, sentiment: "positive" },
+      { text: "Go to find Jesus", nextScene: "seek", tag: "faithful", feedback: "Luke 7:3 — The centurion sent elders of the Jews to Jesus, asking him to come and heal his servant.", isCorrect: true, sentiment: "positive" },
       { text: "Wait and do nothing", nextScene: "wait_consequence", tag: "fearful", feedback: "Time is short.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -38,7 +38,7 @@ export const centurionServantScenes: Record<string, StoryScene> = {
     title: "Before the Teacher",
     text: "You stand before him.\nA Roman among his people.",
     choices: [
-      { text: "\"Lord, my servant suffers.\"", nextScene: "agree", tag: "faithful", feedback: "He listens.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Lord, my servant suffers.\"", nextScene: "agree", tag: "faithful", feedback: "Luke 7:4 — The elders of the Jews earnestly pleaded with Jesus on the centurion's behalf, explaining his worthiness.", isCorrect: true, sentiment: "positive" },
       { text: "Command him by Rome", nextScene: "command_consequence", tag: "proud", feedback: "Not by force.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -58,7 +58,7 @@ export const centurionServantScenes: Record<string, StoryScene> = {
     text: "\"I will come and heal him.\"\nHe steps toward your home.",
     choices: [
       { text: "Lead him proudly home", nextScene: "proud_consequence", tag: "proud", feedback: "Pause and reflect.", isCorrect: false, sentiment: "negative" },
-      { text: "Stop. You are unworthy", nextScene: "faith", tag: "faithful", feedback: "True humility.", isCorrect: true, sentiment: "positive" },
+      { text: "Stop. You are unworthy", nextScene: "faith", tag: "faithful", feedback: "Luke 7:6 — The centurion sent friends to Jesus, saying he was not worthy for Jesus to come under his roof.", isCorrect: true, sentiment: "positive" },
     ],
   },
   proud_consequence: {
@@ -77,7 +77,7 @@ export const centurionServantScenes: Record<string, StoryScene> = {
     text: "\"I am not worthy.\"\nWhat will you ask?",
     choices: [
       { text: "Beg him to hurry", nextScene: "hurry_consequence", tag: "doubtful", feedback: "Trust deeper.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Only say the word.\"", nextScene: "praise", tag: "faithful", feedback: "Faith without sight.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Only say the word.\"", nextScene: "praise", tag: "faithful", feedback: "Luke 7:7 — The centurion believed that if Jesus merely spoke a word, his servant would be healed.", isCorrect: true, sentiment: "positive" },
       { text: "Demand a sign first", nextScene: "sign_consequence", tag: "doubtful", feedback: "Faith asks no proof.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -105,7 +105,7 @@ export const centurionServantScenes: Record<string, StoryScene> = {
     text: "He turns to the crowd amazed.\n\"I have not seen such faith.\"",
     choices: [
       { text: "Boast before the people", nextScene: "boast_consequence", tag: "proud", feedback: "Stay humble.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow in silent gratitude", nextScene: "heal", tag: "faithful", feedback: "Your heart trembles.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow in silent gratitude", nextScene: "heal", tag: "faithful", feedback: "Luke 7:9 — Jesus marveled at the centurion's faith and declared that he had not found such great faith, not even in Israel.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {

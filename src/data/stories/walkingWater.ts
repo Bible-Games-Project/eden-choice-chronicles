@@ -11,7 +11,7 @@ export const walkingWaterScenes: Record<string, StoryScene> = {
     text: "The boat drifts under the moon.\nThe wind begins to rise.",
     choices: [
       { text: "Sleep through the wind", nextScene: "sleep_consequence", tag: "doubtful", feedback: "Stay alert.", isCorrect: false, sentiment: "negative" },
-      { text: "Take up the oars", nextScene: "wind", tag: "faithful", feedback: "You pull hard.", isCorrect: true, sentiment: "positive" },
+      { text: "Take up the oars", nextScene: "wind", tag: "faithful", feedback: "Mark 6:48 — Jesus saw the disciples straining at the oars, because the wind was against them.", isCorrect: true, sentiment: "positive" },
       { text: "Turn back to shore", nextScene: "turnback_consequence", tag: "fearful", feedback: "He sent you across.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const walkingWaterScenes: Record<string, StoryScene> = {
     text: "Wind tears the sail.\nWaves slam the hull.",
     choices: [
       { text: "Curse the wind", nextScene: "curse_consequence", tag: "fearful", feedback: "Anger will not help.", isCorrect: false, sentiment: "negative" },
-      { text: "Row with the others", nextScene: "ghost", tag: "faithful", feedback: "You strain together.", isCorrect: true, sentiment: "positive" },
+      { text: "Row with the others", nextScene: "ghost", tag: "faithful", feedback: "Mark 6:48 — The disciples were straining at the oars, because the wind was against them.", isCorrect: true, sentiment: "positive" },
       { text: "Hide in the hull", nextScene: "hide_consequence", tag: "fearful", feedback: "Help your brothers.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -67,7 +67,7 @@ export const walkingWaterScenes: Record<string, StoryScene> = {
     text: "Someone walks on the water.\nThe disciples cry, \"A ghost!\"",
     choices: [
       { text: "Scream and hide your face", nextScene: "scream_consequence", tag: "fearful", feedback: "Look again.", isCorrect: false, sentiment: "negative" },
-      { text: "Look and listen", nextScene: "reassure", tag: "faithful", feedback: "You squint into the dark.", isCorrect: true, sentiment: "positive" },
+      { text: "Look and listen", nextScene: "reassure", tag: "faithful", feedback: "Matthew 14:26 — When the disciples saw him walking on the lake, they were terrified and said, \"It's a ghost!\" and cried out in fear.", isCorrect: true, sentiment: "positive" },
     ],
   },
   scream_consequence: {
@@ -114,7 +114,7 @@ export const walkingWaterScenes: Record<string, StoryScene> = {
     text: "Your foot hovers above the wave.\nWill you trust?",
     choices: [
       { text: "Stay safe in the boat", nextScene: "stay_consequence", tag: "fearful", feedback: "He called you out.", isCorrect: false, sentiment: "negative" },
-      { text: "Step onto the water", nextScene: "peter_sink", tag: "faithful", feedback: "The wave holds you.", isCorrect: true, sentiment: "positive" },
+      { text: "Step onto the water", nextScene: "peter_sink", tag: "faithful", feedback: "Matthew 14:29 — Then Peter got down out of the boat and walked on the water to Jesus.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stay_consequence: {
@@ -133,7 +133,7 @@ export const walkingWaterScenes: Record<string, StoryScene> = {
     text: "You see the wind.\nFear pulls you down.",
     choices: [
       { text: "Try to swim alone", nextScene: "swim_consequence", tag: "doubtful", feedback: "You cannot save yourself.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Lord, save me!\"", nextScene: "calm", tag: "faithful", feedback: "His hand catches yours.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Lord, save me!\"", nextScene: "calm", tag: "faithful", feedback: "Matthew 14:30 — But when he saw the wind, he was afraid and, beginning to sink, cried out, \"Lord, save me!\"", isCorrect: true, sentiment: "positive" },
       { text: "Curse your weakness", nextScene: "curse_self_consequence", tag: "fearful", feedback: "Cry to him.", isCorrect: false, sentiment: "negative" },
     ],
   },

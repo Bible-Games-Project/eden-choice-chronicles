@@ -11,7 +11,7 @@ export const lazarusScenes: Record<string, StoryScene> = {
     text: "A messenger gasps, breathless.\n\"Lord, the one you love is ill.\"",
     choices: [
       { text: "Urge Jesus to hurry", nextScene: "urge_consequence", tag: "doubtful", feedback: "Trust his timing.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait for his word", nextScene: "delay", tag: "faithful", feedback: "Jesus listens quietly.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait for his word", nextScene: "delay", tag: "faithful", feedback: "John 11:6 — Jesus stayed two days longer in the place where he was.", isCorrect: true, sentiment: "positive" },
       { text: "Dismiss the news", nextScene: "dismiss_consequence", tag: "fearful", feedback: "Hear him out.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const lazarusScenes: Record<string, StoryScene> = {
     text: "He stays where he is, two days.\n\"It is for God's glory.\"",
     choices: [
       { text: "Question his delay", nextScene: "question_consequence", tag: "doubtful", feedback: "He sees what you cannot.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust his purpose", nextScene: "travel", tag: "faithful", feedback: "Peace settles on you.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust his purpose", nextScene: "travel", tag: "faithful", feedback: "John 11:4 — Jesus said, \"This illness does not lead to death. It is for the glory of God, so that the Son of God may be glorified through it.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   question_consequence: {
@@ -58,7 +58,7 @@ export const lazarusScenes: Record<string, StoryScene> = {
     text: "\"Our friend Lazarus sleeps.\"\n\"I go to wake him.\"",
     choices: [
       { text: "Stay back in fear", nextScene: "stayback_consequence", tag: "fearful", feedback: "Go with him.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk with him to Bethany", nextScene: "martha", tag: "faithful", feedback: "You step onto the road.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk with him to Bethany", nextScene: "martha", tag: "faithful", feedback: "John 11:7 — Then after this he said to the disciples, \"Let us go to Judea again.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   stayback_consequence: {
@@ -77,7 +77,7 @@ export const lazarusScenes: Record<string, StoryScene> = {
     text: "\"If you had been here, Lord,\nmy brother would not have died.\"",
     choices: [
       { text: "Tell her to give up hope", nextScene: "giveup_consequence", tag: "doubtful", feedback: "Hope is not dead.", isCorrect: false, sentiment: "negative" },
-      { text: "\"He is the Resurrection\"", nextScene: "mary", tag: "faithful", feedback: "Her eyes lift.", isCorrect: true, sentiment: "positive" },
+      { text: "\"He is the Resurrection\"", nextScene: "mary", tag: "faithful", feedback: "John 11:25-26 — Jesus said to Martha, \"I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die.\"", isCorrect: true, sentiment: "positive" },
       { text: "Stay silent and turn away", nextScene: "silent_consequence", tag: "fearful", feedback: "Speak hope to her.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -105,7 +105,7 @@ export const lazarusScenes: Record<string, StoryScene> = {
     text: "Mary kneels at his feet, weeping.\nThe crowd around her grieves.",
     choices: [
       { text: "Scold their tears", nextScene: "scold_consequence", tag: "fearful", feedback: "Weep with them.", isCorrect: false, sentiment: "negative" },
-      { text: "Weep with them", nextScene: "weeps", tag: "faithful", feedback: "Your eyes blur.", isCorrect: true, sentiment: "positive" },
+      { text: "Weep with them", nextScene: "weeps", tag: "faithful", feedback: "John 11:33 — When Jesus saw Mary weeping, and the Jews who had come with her also weeping, he was deeply moved in his spirit and greatly troubled.", isCorrect: true, sentiment: "positive" },
     ],
   },
   scold_consequence: {
@@ -121,7 +121,7 @@ export const lazarusScenes: Record<string, StoryScene> = {
     title: "Jesus Wept",
     text: "He stands still, tears falling.\n\"See how he loved him.\"",
     choices: [
-      { text: "Lead him to the tomb", nextScene: "tomb", tag: "faithful", feedback: "He follows you.", isCorrect: true, sentiment: "positive" },
+      { text: "Lead him to the tomb", nextScene: "tomb", tag: "faithful", feedback: "John 11:34 — Jesus asked, \"Where have you laid him?\" They said to him, \"Lord, come and see.\"", isCorrect: true, sentiment: "positive" },
       { text: "Pull him from the crowd", nextScene: "pull_consequence", tag: "doubtful", feedback: "He came for this.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -141,7 +141,7 @@ export const lazarusScenes: Record<string, StoryScene> = {
     text: "\"Take away the stone,\" he says.\nMartha trembles. \"Lord, it stinks.\"",
     choices: [
       { text: "Leave the stone in place", nextScene: "leave_consequence", tag: "fearful", feedback: "Obey his word.", isCorrect: false, sentiment: "negative" },
-      { text: "Roll the stone away", nextScene: "call", tag: "faithful", feedback: "Hands push together.", isCorrect: true, sentiment: "positive" },
+      { text: "Roll the stone away", nextScene: "call", tag: "faithful", feedback: "John 11:39 — Jesus said, \"Take away the stone.\"", isCorrect: true, sentiment: "positive" },
       { text: "Argue with Jesus", nextScene: "argue_consequence", tag: "doubtful", feedback: "Believe and see.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -169,7 +169,7 @@ export const lazarusScenes: Record<string, StoryScene> = {
     text: "He lifts his hands and his voice.\n\"Lazarus, come out!\"",
     choices: [
       { text: "Cover your ears in fear", nextScene: "cover_consequence", tag: "fearful", feedback: "Watch and see.", isCorrect: false, sentiment: "negative" },
-      { text: "Watch the dark doorway", nextScene: "emerge", tag: "faithful", feedback: "You hold your breath.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch the dark doorway", nextScene: "emerge", tag: "faithful", feedback: "John 11:43 — Jesus cried out with a loud voice, \"Lazarus, come out!\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   cover_consequence: {

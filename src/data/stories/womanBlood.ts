@@ -11,7 +11,7 @@ export const womanBloodScenes: Record<string, StoryScene> = {
     text: "The Teacher walks through the press.\nTwelve years of pain ache in you.",
     choices: [
       { text: "Stay home, ashamed", nextScene: "stay_consequence", tag: "fearful", feedback: "Hope calls you forward.", isCorrect: false, sentiment: "negative" },
-      { text: "Slip into the crowd", nextScene: "approach", tag: "faithful", feedback: "Quiet courage rises.", isCorrect: true, sentiment: "positive" },
+      { text: "Slip into the crowd", nextScene: "approach", tag: "faithful", feedback: "Mark 5:27 — The woman came up in the crowd behind Jesus and touched his garment.", isCorrect: true, sentiment: "positive" },
       { text: "Cry out for coins", nextScene: "coins_consequence", tag: "doubtful", feedback: "He is your only hope.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const womanBloodScenes: Record<string, StoryScene> = {
     text: "Shoulders press, eyes do not see you.\nHis robe is near.",
     choices: [
       { text: "Call his name aloud", nextScene: "call_consequence", tag: "doubtful", feedback: "Faith may move in silence.", isCorrect: false, sentiment: "negative" },
-      { text: "Reach in quiet faith", nextScene: "touch", tag: "faithful", feedback: "If only I touch his cloak.", isCorrect: true, sentiment: "positive" },
+      { text: "Reach in quiet faith", nextScene: "touch", tag: "faithful", feedback: "Mark 5:27 — The woman came up in the crowd behind Jesus and touched his garment.", isCorrect: true, sentiment: "positive" },
     ],
   },
   call_consequence: {
@@ -58,7 +58,7 @@ export const womanBloodScenes: Record<string, StoryScene> = {
     text: "Your fingers brush the edge.\nA stillness floods your bones.",
     choices: [
       { text: "Pull back in fear", nextScene: "pull_consequence", tag: "fearful", feedback: "Something has happened.", isCorrect: false, sentiment: "negative" },
-      { text: "Believe you are healed", nextScene: "healed", tag: "faithful", feedback: "Warmth fills your body.", isCorrect: true, sentiment: "positive" },
+      { text: "Believe you are healed", nextScene: "healed", tag: "faithful", feedback: "Mark 5:28 — The woman said, \"If I touch even his garments, I will be made whole.\"", isCorrect: true, sentiment: "positive" },
       { text: "Doubt what you feel", nextScene: "doubt_consequence", tag: "doubtful", feedback: "Trust the touch.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -86,7 +86,7 @@ export const womanBloodScenes: Record<string, StoryScene> = {
     text: "Strength returns. Light fills you.\nThen he stops walking.",
     choices: [
       { text: "Slip away in silence", nextScene: "slip_consequence", tag: "fearful", feedback: "He is calling for you.", isCorrect: false, sentiment: "negative" },
-      { text: "Stay and listen", nextScene: "who_touched", tag: "faithful", feedback: "You stand still.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay and listen", nextScene: "who_touched", tag: "faithful", feedback: "Mark 5:33 — The woman, knowing what had happened to her, came in fear and trembling and fell down before Jesus.", isCorrect: true, sentiment: "positive" },
     ],
   },
   slip_consequence: {
@@ -105,7 +105,7 @@ export const womanBloodScenes: Record<string, StoryScene> = {
     text: "\"Who touched my garment?\"\nThe disciples shake their heads.",
     choices: [
       { text: "Hide behind another", nextScene: "hide_consequence", tag: "fearful", feedback: "Step into the light.", isCorrect: false, sentiment: "negative" },
-      { text: "Kneel and confess", nextScene: "confess", tag: "faithful", feedback: "You fall at his feet.", isCorrect: true, sentiment: "positive" },
+      { text: "Kneel and confess", nextScene: "confess", tag: "faithful", feedback: "Mark 5:33 — The woman, knowing what had happened to her, came in fear and trembling and fell down before Jesus and told him the whole truth.", isCorrect: true, sentiment: "positive" },
       { text: "Deny it was you", nextScene: "deny_consequence", tag: "doubtful", feedback: "Truth honours his work.", isCorrect: false, sentiment: "negative" },
     ],
   },
