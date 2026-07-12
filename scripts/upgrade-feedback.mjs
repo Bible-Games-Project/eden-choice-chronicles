@@ -151,11 +151,11 @@ Return a single JSON object mapping each input key to its feedback string.`;
 }
 
 const STORY_LABELS = {
-  gethsemane: "Jesus in Gethsemane (Matthew 26:36-46, Mark 14:32-42, Luke 22:39-46)",
-  arrestJesus: "The Arrest of Jesus (Matthew 26:47-56, Mark 14:43-52, Luke 22:47-53, John 18:1-12)",
-  trial: "The Trial of Jesus (Matthew 26:57-27:26, Mark 14:53-15:15, Luke 22:63-23:25, John 18:13-19:16)",
-  peterDenies: "Peter Denies Jesus (Matthew 26:69-75, Mark 14:66-72, Luke 22:54-62, John 18:15-27)",
-  crucifixion: "The Crucifixion of Jesus (Matthew 27:27-56, Mark 15:16-41, Luke 23:26-49, John 19:16-37)",
+  deathJesus: "The Death of Jesus (Matthew 27:45-56, Mark 15:33-41, Luke 23:44-49, John 19:28-37)",
+  emptyTomb: "The Empty Tomb (Matthew 28:1-10, Mark 16:1-8, Luke 24:1-12, John 20:1-10)",
+  appearanceMary: "Jesus Appears to Mary Magdalene (Mark 16:9-11, John 20:11-18)",
+  emmaus: "The Road to Emmaus (Luke 24:13-35)",
+  greatCommission: "The Great Commission (Matthew 28:16-20, Mark 16:14-20, Luke 24:44-53, Acts 1:6-11)",
 };
 
 function chunk(arr, n) { const out = []; for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n)); return out; }
