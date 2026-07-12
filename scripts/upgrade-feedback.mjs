@@ -27,7 +27,7 @@ const ROOT = join(fileURLToPath(new URL(".", import.meta.url)), "..");
 const STORIES_DIR = join(ROOT, "src/data/stories");
 const LOCALES_DIR = join(ROOT, "src/locales");
 
-const STORIES = ["nicodemus", "samaritanWoman", "womanAdultery", "zacchaeus", "richYoungMan"];
+const STORIES = ["debatesPharisees", "cleansingTemple", "rejectionNazareth", "triumphalEntry", "lastSupper"];
 const NON_EN = ["es", "pt-BR", "fr", "de", "it", "pl", "ru", "tr", "ja", "ko", "ar"];
 
 const API_KEY = process.env.LOVABLE_API_KEY;
