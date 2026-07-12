@@ -11,7 +11,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     text: "Jesus speaks quietly to the crowd.\n\"There was a rich man, and a poor man.\"",
     choices: [
       { text: "Turn away from the warning", nextScene: "turn_consequence", tag: "doubtful", feedback: "Stay. This is for you.", isCorrect: false, sentiment: "negative" },
-      { text: "Listen with a serious heart", nextScene: "luxury", tag: "faithful", feedback: "His voice grows quiet.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen with a serious heart", nextScene: "luxury", tag: "faithful", feedback: "Luke 16:19 — Jesus tells of a rich man and a poor man named Lazarus.", isCorrect: true, sentiment: "positive" },
     ],
   },
   turn_consequence: {
@@ -30,7 +30,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     text: "Inside, the rich man feasts each day,\nclothed in purple, glad and full.",
     choices: [
       { text: "Envy his soft, easy life", nextScene: "envy_consequence", tag: "doubtful", feedback: "Look at what he ignores.", isCorrect: false, sentiment: "negative" },
-      { text: "Wonder who waits outside", nextScene: "gate", tag: "faithful", feedback: "Your eyes drift past the door.", isCorrect: true, sentiment: "positive" },
+      { text: "Wonder who waits outside", nextScene: "gate", tag: "faithful", feedback: "Luke 16:19 — The rich man was clothed in purple and fine linen and feasted sumptuously every day.", isCorrect: true, sentiment: "positive" },
     ],
   },
   envy_consequence: {
@@ -50,7 +50,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Step over him quickly", nextScene: "step_consequence", tag: "fearful", feedback: "Do not pass him by.", isCorrect: false, sentiment: "negative" },
       { text: "Blame him for his fall", nextScene: "blame_consequence", tag: "doubtful", feedback: "Pain is not always guilt.", isCorrect: false, sentiment: "negative" },
-      { text: "Kneel and see his face", nextScene: "dogs", tag: "faithful", feedback: "Your heart breaks open.", isCorrect: true, sentiment: "positive" },
+      { text: "Kneel and see his face", nextScene: "dogs", tag: "faithful", feedback: "Luke 16:20 — Lazarus was laid at the rich man's gate, full of sores.", isCorrect: true, sentiment: "positive" },
     ],
   },
   step_consequence: {
@@ -77,7 +77,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     text: "Even the stray dogs come near\nto lick his open wounds.",
     choices: [
       { text: "Look away in disgust", nextScene: "disgust_consequence", tag: "doubtful", feedback: "Do not look away.", isCorrect: false, sentiment: "negative" },
-      { text: "Stay with him in his pain", nextScene: "indifference", tag: "faithful", feedback: "Your tears fall quietly.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay with him in his pain", nextScene: "indifference", tag: "faithful", feedback: "Luke 16:21 — Even the dogs came and licked Lazarus's sores.", isCorrect: true, sentiment: "positive" },
     ],
   },
   disgust_consequence: {
@@ -96,7 +96,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     text: "The rich man crosses his gate each day.\nHe does not see Lazarus.",
     choices: [
       { text: "Excuse the busy rich man", nextScene: "excuse_consequence", tag: "fearful", feedback: "No errand outweighs mercy.", isCorrect: false, sentiment: "negative" },
-      { text: "Grieve the cold, closed heart", nextScene: "death_lazarus", tag: "faithful", feedback: "You ache for both men.", isCorrect: true, sentiment: "positive" },
+      { text: "Grieve the cold, closed heart", nextScene: "death_lazarus", tag: "faithful", feedback: "Luke 16:19-21 — The rich man did not help Lazarus, who longed to be fed with what fell from the rich man's table.", isCorrect: true, sentiment: "positive" },
     ],
   },
   excuse_consequence: {
@@ -115,7 +115,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     text: "Lazarus dies. Angels lift him\ngently to Abraham's side.",
     choices: [
       { text: "Doubt this comfort is real", nextScene: "doubt_consequence", tag: "doubtful", feedback: "God sees the forgotten.", isCorrect: false, sentiment: "negative" },
-      { text: "Weep with quiet joy", nextScene: "death_rich", tag: "faithful", feedback: "Your soul lifts with him.", isCorrect: true, sentiment: "positive" },
+      { text: "Weep with quiet joy", nextScene: "death_rich", tag: "faithful", feedback: "Luke 16:22 — Lazarus died and was carried by the angels to Abraham's side.", isCorrect: true, sentiment: "positive" },
     ],
   },
   doubt_consequence: {
@@ -134,7 +134,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     text: "The rich man also dies.\nHe wakes in fire, in agony.",
     choices: [
       { text: "Mock his sudden ruin", nextScene: "mock_consequence", tag: "doubtful", feedback: "This is not for mockery.", isCorrect: false, sentiment: "negative" },
-      { text: "Tremble at the reversal", nextScene: "plea", tag: "faithful", feedback: "A holy fear fills you.", isCorrect: true, sentiment: "positive" },
+      { text: "Tremble at the reversal", nextScene: "plea", tag: "faithful", feedback: "Luke 16:22-23 — The rich man also died and was buried, and in Hades, being in torment, he lifted up his eyes.", isCorrect: true, sentiment: "positive" },
       { text: "Pity him without learning", nextScene: "pity_consequence", tag: "fearful", feedback: "Let his end teach you.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -162,7 +162,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     text: "\"Father Abraham, have mercy.\nSend Lazarus, just one drop.\"",
     choices: [
       { text: "Demand God reverse it now", nextScene: "demand_consequence", tag: "doubtful", feedback: "The chasm is fixed.", isCorrect: false, sentiment: "negative" },
-      { text: "Hear Abraham's sorrow", nextScene: "warning", tag: "faithful", feedback: "You listen carefully.", isCorrect: true, sentiment: "positive" },
+      { text: "Hear Abraham's sorrow", nextScene: "warning", tag: "faithful", feedback: "Luke 16:24 — The rich man cried out to Father Abraham to have mercy and send Lazarus to dip the tip of his finger in water and cool his tongue.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -181,7 +181,7 @@ export const richLazarusScenes: Record<string, StoryScene> = {
     text: "\"Send him to my five brothers.\nLet them not come to this place.\"",
     choices: [
       { text: "Wait for a sign from the dead", nextScene: "sign_consequence", tag: "fearful", feedback: "You already have the word.", isCorrect: false, sentiment: "negative" },
-      { text: "Hear Moses and the prophets", nextScene: "ending", tag: "faithful", feedback: "The truth is already given.", isCorrect: true, sentiment: "positive" },
+      { text: "Hear Moses and the prophets", nextScene: "ending", tag: "faithful", feedback: "Luke 16:29 — Abraham told the rich man that his brothers have Moses and the Prophets; they should listen to them.", isCorrect: true, sentiment: "positive" },
       { text: "Blame God for the silence", nextScene: "blame_god_consequence", tag: "doubtful", feedback: "He has not been silent.", isCorrect: false, sentiment: "negative" },
     ],
   },
