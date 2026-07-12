@@ -11,7 +11,7 @@ export const blindManScenes: Record<string, StoryScene> = {
     text: "You sit in the dust, begging.\nDisciples ask, \"Who sinned?\"",
     choices: [
       { text: "Curse them silently", nextScene: "curse_consequence", tag: "fearful", feedback: "Listen instead.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait and listen", nextScene: "reveal", tag: "faithful", feedback: "You hold still.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait and listen", nextScene: "reveal", tag: "faithful", feedback: "John 9:3 — Jesus answered that neither the man nor his parents sinned, but that the works of God might be displayed in him.", isCorrect: true, sentiment: "positive" },
       { text: "Beg them louder", nextScene: "beg_consequence", tag: "doubtful", feedback: "Be still and hear.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const blindManScenes: Record<string, StoryScene> = {
     text: "\"Neither this man nor his parents.\"\n\"God's works shall be seen.\"",
     choices: [
       { text: "Doubt his words", nextScene: "doubt_consequence", tag: "doubtful", feedback: "Hold on to hope.", isCorrect: false, sentiment: "negative" },
-      { text: "Hope quietly", nextScene: "mud", tag: "faithful", feedback: "Something stirs.", isCorrect: true, sentiment: "positive" },
+      { text: "Hope quietly", nextScene: "mud", tag: "faithful", feedback: "John 9:3 — Jesus said that the man's blindness was so that the works of God might be displayed in him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   doubt_consequence: {
@@ -59,7 +59,7 @@ export const blindManScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Pull away in fear", nextScene: "pull_consequence", tag: "fearful", feedback: "Let him touch you.", isCorrect: false, sentiment: "negative" },
       { text: "Wipe it off at once", nextScene: "wipe_consequence", tag: "doubtful", feedback: "Trust him.", isCorrect: false, sentiment: "negative" },
-      { text: "Hold still under his hand", nextScene: "send", tag: "faithful", feedback: "Cool clay rests there.", isCorrect: true, sentiment: "positive" },
+      { text: "Hold still under his hand", nextScene: "send", tag: "faithful", feedback: "John 9:6 — Jesus spat on the ground, made mud with the saliva, and spread the mud on the blind man's eyes.", isCorrect: true, sentiment: "positive" },
     ],
   },
   pull_consequence: {
@@ -86,7 +86,7 @@ export const blindManScenes: Record<string, StoryScene> = {
     text: "\"Go, wash in the pool of Siloam.\"\nThe way is long.",
     choices: [
       { text: "Stay where it is safe", nextScene: "stay_consequence", tag: "fearful", feedback: "Obey him.", isCorrect: false, sentiment: "negative" },
-      { text: "Walk to the pool", nextScene: "wash", tag: "faithful", feedback: "You feel the wall, and go.", isCorrect: true, sentiment: "positive" },
+      { text: "Walk to the pool", nextScene: "wash", tag: "faithful", feedback: "John 9:7 — Jesus told the man to go, wash in the pool of Siloam.", isCorrect: true, sentiment: "positive" },
     ],
   },
   stay_consequence: {
@@ -104,7 +104,7 @@ export const blindManScenes: Record<string, StoryScene> = {
     title: "The Pool of Siloam",
     text: "Water in your hands.\nYou bring it to your eyes.",
     choices: [
-      { text: "Wash and lift your eyes", nextScene: "see", tag: "faithful", feedback: "Light pours in.", isCorrect: true, sentiment: "positive" },
+      { text: "Wash and lift your eyes", nextScene: "see", tag: "faithful", feedback: "John 9:7 — The man went and washed, and came back seeing.", isCorrect: true, sentiment: "positive" },
       { text: "Wash and keep them shut", nextScene: "shut_consequence", tag: "doubtful", feedback: "Open them.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -122,7 +122,7 @@ export const blindManScenes: Record<string, StoryScene> = {
     text: "Sky. Stone. Your own hands.\nYou weep, laughing.",
     choices: [
       { text: "Hide it from the crowd", nextScene: "hide_consequence", tag: "fearful", feedback: "Tell them.", isCorrect: false, sentiment: "negative" },
-      { text: "Tell everyone you meet", nextScene: "pharisees", tag: "faithful", feedback: "Your voice rises.", isCorrect: true, sentiment: "positive" },
+      { text: "Tell everyone you meet", nextScene: "pharisees", tag: "faithful", feedback: "John 9:11 — The man told the Pharisees that a man called Jesus made mud, anointed his eyes, and told him to go to Siloam and wash.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -141,7 +141,7 @@ export const blindManScenes: Record<string, StoryScene> = {
     text: "They glare. \"Who opened your eyes?\"\nThe room is cold.",
     choices: [
       { text: "Lie to keep the peace", nextScene: "lie_consequence", tag: "fearful", feedback: "Tell the truth.", isCorrect: false, sentiment: "negative" },
-      { text: "\"A man called Jesus\"", nextScene: "testify", tag: "faithful", feedback: "Your voice is steady.", isCorrect: true, sentiment: "positive" },
+      { text: "\"A man called Jesus\"", nextScene: "testify", tag: "faithful", feedback: "John 9:11 — The man answered the Pharisees, saying, \"The man called Jesus made mud and anointed my eyes and said to me, 'Go to Siloam and wash'; so I went and washed and received my sight.\"", isCorrect: true, sentiment: "positive" },
       { text: "Stay silent in fear", nextScene: "silent_consequence", tag: "fearful", feedback: "Speak.", isCorrect: false, sentiment: "negative" },
     ],
   },

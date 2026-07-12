@@ -11,7 +11,7 @@ export const healingLeperScenes: Record<string, StoryScene> = {
     text: "You stand outside the village.\nA teacher passes by.",
     choices: [
       { text: "Stay hidden in shame", nextScene: "hide_consequence", tag: "fearful", feedback: "Do not turn away.", isCorrect: false, sentiment: "negative" },
-      { text: "Step toward him", nextScene: "approach", tag: "faithful", feedback: "Hope stirs in you.", isCorrect: true, sentiment: "positive" },
+      { text: "Step toward him", nextScene: "approach", tag: "faithful", feedback: "Mark 1:40 — A leper came to Jesus, imploring Him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -30,7 +30,7 @@ export const healingLeperScenes: Record<string, StoryScene> = {
     text: "Faces recoil. Voices hush.\nThe path narrows.",
     choices: [
       { text: "Shout in anger at them", nextScene: "anger_consequence", tag: "bitter", feedback: "Not now.", isCorrect: false, sentiment: "negative" },
-      { text: "Keep your eyes on Jesus", nextScene: "kneel", tag: "faithful", feedback: "He is your hope.", isCorrect: true, sentiment: "positive" },
+      { text: "Keep your eyes on Jesus", nextScene: "kneel", tag: "faithful", feedback: "Mark 1:40 — The leper came to Jesus and knelt before Him.", isCorrect: true, sentiment: "positive" },
       { text: "Turn back ashamed", nextScene: "turn_consequence", tag: "fearful", feedback: "Do not retreat.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -58,7 +58,7 @@ export const healingLeperScenes: Record<string, StoryScene> = {
     text: "You fall before him, trembling.\nHis eyes meet yours.",
     choices: [
       { text: "Demand to be healed", nextScene: "demand_consequence", tag: "proud", feedback: "Ask, do not demand.", isCorrect: false, sentiment: "negative" },
-      { text: "\"Lord, if you are willing...\"", nextScene: "plea", tag: "faithful", feedback: "Faith and humility.", isCorrect: true, sentiment: "positive" },
+      { text: "\"Lord, if you are willing...\"", nextScene: "plea", tag: "faithful", feedback: "Mark 1:40 — The leper said to Jesus, \"If you are willing, you can make me clean.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -77,7 +77,7 @@ export const healingLeperScenes: Record<string, StoryScene> = {
     text: "\"You can make me clean.\"\nHe looks at you with love.",
     choices: [
       { text: "Doubt and lower your head", nextScene: "doubt_consequence", tag: "doubtful", feedback: "Hold the hope.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait in quiet trust", nextScene: "touch", tag: "faithful", feedback: "He moves toward you.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait in quiet trust", nextScene: "touch", tag: "faithful", feedback: "Mark 1:41 — Jesus, moved with pity, stretched out His hand and touched the leper.", isCorrect: true, sentiment: "positive" },
     ],
   },
   doubt_consequence: {
@@ -97,7 +97,7 @@ export const healingLeperScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Pull away — you are unclean", nextScene: "pull_consequence", tag: "fearful", feedback: "Receive him.", isCorrect: false, sentiment: "negative" },
       { text: "Warn him to stay back", nextScene: "warn_consequence", tag: "fearful", feedback: "He chooses you.", isCorrect: false, sentiment: "negative" },
-      { text: "Let him touch you", nextScene: "heal", tag: "faithful", feedback: "Mercy meets skin.", isCorrect: true, sentiment: "positive" },
+      { text: "Let him touch you", nextScene: "heal", tag: "faithful", feedback: "Mark 1:41 — Jesus said to the leper, \"I am willing; be cleansed.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   pull_consequence: {
@@ -124,7 +124,7 @@ export const healingLeperScenes: Record<string, StoryScene> = {
     text: "\"Be clean.\"\nYour skin becomes new.",
     choices: [
       { text: "Run through the crowd boasting", nextScene: "boast_consequence", tag: "proud", feedback: "Honor him first.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow and give thanks", nextScene: "send", tag: "faithful", feedback: "Tears of joy.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow and give thanks", nextScene: "send", tag: "faithful", feedback: "Mark 1:42 — Immediately the leprosy left him, and he was cleansed.", isCorrect: true, sentiment: "positive" },
     ],
   },
   boast_consequence: {

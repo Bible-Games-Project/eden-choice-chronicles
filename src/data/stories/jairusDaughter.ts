@@ -12,7 +12,7 @@ export const jairusDaughterScenes: Record<string, StoryScene> = {
     choices: [
       { text: "Send a servant instead", nextScene: "servant_consequence", tag: "fearful", feedback: "Go to him yourself.", isCorrect: false, sentiment: "negative" },
       { text: "Hide your need from him", nextScene: "hide_consequence", tag: "doubtful", feedback: "He came for the broken.", isCorrect: false, sentiment: "negative" },
-      { text: "Fall at his feet, beg", nextScene: "plea", tag: "faithful", feedback: "Humble faith opens heaven.", isCorrect: true, sentiment: "positive" },
+      { text: "Fall at his feet, beg", nextScene: "plea", tag: "faithful", feedback: "Matthew 9:18 — Jairus fell at Jesus' feet and implored him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   servant_consequence: {
@@ -47,7 +47,7 @@ export const jairusDaughterScenes: Record<string, StoryScene> = {
     text: "Streets press tight. He stops walking.\nMinutes feel like years.",
     choices: [
       { text: "Push him to hurry", nextScene: "push_consequence", tag: "fearful", feedback: "Trust his timing.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait beside him quietly", nextScene: "news", tag: "faithful", feedback: "You breathe slow.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait beside him quietly", nextScene: "news", tag: "faithful", feedback: "Mark 5:35 — Jairus was still with Jesus when messengers arrived.", isCorrect: true, sentiment: "positive" },
     ],
   },
   push_consequence: {
@@ -66,7 +66,7 @@ export const jairusDaughterScenes: Record<string, StoryScene> = {
     text: "A servant arrives, eyes wet.\n\"Trouble the Teacher no more.\"",
     choices: [
       { text: "Turn away in despair", nextScene: "despair_consequence", tag: "fearful", feedback: "Do not be afraid.", isCorrect: false, sentiment: "negative" },
-      { text: "Believe, even now", nextScene: "encourage", tag: "faithful", feedback: "Only believe.", isCorrect: true, sentiment: "positive" },
+      { text: "Believe, even now", nextScene: "encourage", tag: "faithful", feedback: "Mark 5:36 — Jesus told Jairus, \"Do not fear, only believe.\"", isCorrect: true, sentiment: "positive" },
       { text: "Blame him for delay", nextScene: "blame_consequence", tag: "doubtful", feedback: "He is not finished.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -104,7 +104,7 @@ export const jairusDaughterScenes: Record<string, StoryScene> = {
     text: "Mourners wail. He sends them out.\n\"She is only sleeping.\"",
     choices: [
       { text: "Argue with his words", nextScene: "argue_consequence", tag: "doubtful", feedback: "Watch and see.", isCorrect: false, sentiment: "negative" },
-      { text: "Stay close and trust", nextScene: "raise", tag: "faithful", feedback: "You stand by him.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay close and trust", nextScene: "raise", tag: "faithful", feedback: "Mark 5:40 — Peter, James, and John, along with Jairus and his wife, were the only ones permitted to enter the room with Jesus.", isCorrect: true, sentiment: "positive" },
     ],
   },
   argue_consequence: {

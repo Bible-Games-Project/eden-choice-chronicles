@@ -11,7 +11,7 @@ export const demonPossessedScenes: Record<string, StoryScene> = {
     text: "The boat lands in strange country.\nA distant cry tears the silence.",
     choices: [
       { text: "Turn back to the boat", nextScene: "turn_back_consequence", tag: "fearful", feedback: "He calls you onward.", isCorrect: false, sentiment: "negative" },
-      { text: "Follow Jesus inland", nextScene: "tombs", tag: "faithful", feedback: "You step ashore with him.", isCorrect: true, sentiment: "positive" },
+      { text: "Follow Jesus inland", nextScene: "tombs", tag: "faithful", feedback: "Mark 5:1-2 — Jesus and his disciples landed in the region of the Gerasenes.", isCorrect: true, sentiment: "positive" },
       { text: "Hide behind the rocks", nextScene: "hide_consequence", tag: "fearful", feedback: "Do not flee his side.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const demonPossessedScenes: Record<string, StoryScene> = {
     text: "Broken chains scatter the ground.\nA man lives among the dead.",
     choices: [
       { text: "Mock his suffering", nextScene: "mock_consequence", tag: "cruel", feedback: "See him as Christ does.", isCorrect: false, sentiment: "negative" },
-      { text: "Look on him with pity", nextScene: "villagers", tag: "faithful", feedback: "Your heart breaks for him.", isCorrect: true, sentiment: "positive" },
+      { text: "Look on him with pity", nextScene: "villagers", tag: "faithful", feedback: "Mark 5:5 — The man lived among the tombs, crying out and cutting himself with stones.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -58,7 +58,7 @@ export const demonPossessedScenes: Record<string, StoryScene> = {
     text: "Villagers warn, \"No one can bind him.\"\nThey beg you to leave.",
     choices: [
       { text: "Heed their fear and flee", nextScene: "flee_consequence", tag: "fearful", feedback: "Stay with the Master.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust Jesus and remain", nextScene: "confront", tag: "faithful", feedback: "You hold your ground.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust Jesus and remain", nextScene: "confront", tag: "faithful", feedback: "Mark 5:3-4 — No one could bind the man, not even with chains, because he had often broken them.", isCorrect: true, sentiment: "positive" },
       { text: "Argue with the villagers", nextScene: "argue_consequence", tag: "doubtful", feedback: "Words will not help now.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -86,7 +86,7 @@ export const demonPossessedScenes: Record<string, StoryScene> = {
     text: "The man falls down before him.\n\"What do you want with me?\"",
     choices: [
       { text: "Step between them in fear", nextScene: "step_consequence", tag: "fearful", feedback: "Trust the Master's word.", isCorrect: false, sentiment: "negative" },
-      { text: "Watch Jesus speak", nextScene: "command", tag: "faithful", feedback: "Jesus is not afraid.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch Jesus speak", nextScene: "command", tag: "faithful", feedback: "Mark 5:6-7 — When the man saw Jesus from a distance, he ran and fell on his knees before him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   step_consequence: {
@@ -105,7 +105,7 @@ export const demonPossessedScenes: Record<string, StoryScene> = {
     text: "Jesus speaks, calm and clear.\n\"Come out of this man.\"",
     choices: [
       { text: "Doubt his authority", nextScene: "doubt_consequence", tag: "doubtful", feedback: "His word is power.", isCorrect: false, sentiment: "negative" },
-      { text: "Believe his command", nextScene: "pigs", tag: "faithful", feedback: "The unclean spirits obey.", isCorrect: true, sentiment: "positive" },
+      { text: "Believe his command", nextScene: "pigs", tag: "faithful", feedback: "Mark 5:8 — Jesus had already commanded the impure spirit, \"Come out of this man!\"", isCorrect: true, sentiment: "positive" },
       { text: "Cover your ears", nextScene: "cover_consequence", tag: "fearful", feedback: "Listen and believe.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -133,7 +133,7 @@ export const demonPossessedScenes: Record<string, StoryScene> = {
     text: "The herd rushes down the cliff.\nThe man lies still and silent.",
     choices: [
       { text: "Mourn the lost herd", nextScene: "mourn_consequence", tag: "doubtful", feedback: "A soul outweighs them all.", isCorrect: false, sentiment: "negative" },
-      { text: "Rejoice for the man", nextScene: "restored", tag: "faithful", feedback: "He is set free.", isCorrect: true, sentiment: "positive" },
+      { text: "Rejoice for the man", nextScene: "restored", tag: "faithful", feedback: "Mark 5:13 — The impure spirits came out and went into the pigs, and the herd rushed down the steep bank into the lake.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mourn_consequence: {

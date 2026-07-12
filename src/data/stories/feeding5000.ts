@@ -11,7 +11,7 @@ export const feeding5000Scenes: Record<string, StoryScene> = {
     text: "Thousands have climbed the hill.\nThey hunger for his every word.",
     choices: [
       { text: "Send them away hungry", nextScene: "send_away", tag: "fearful", feedback: "He has compassion on them.", isCorrect: false, sentiment: "negative" },
-      { text: "Watch him with compassion", nextScene: "compassion", tag: "faithful", feedback: "His heart sees their need.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch him with compassion", nextScene: "compassion", tag: "faithful", feedback: "Matthew 14:14 records that when Jesus landed and saw a large crowd, he had compassion on them and healed their sick.", isCorrect: true, sentiment: "positive" },
       { text: "Tell him to rest first", nextScene: "rest_consequence", tag: "doubtful", feedback: "He chooses mercy now.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -39,7 +39,7 @@ export const feeding5000Scenes: Record<string, StoryScene> = {
     text: "\"They have nothing to eat.\"\nThe disciples murmur in fear.",
     choices: [
       { text: "Count the coins we lack", nextScene: "count_consequence", tag: "doubtful", feedback: "Money is not the answer.", isCorrect: false, sentiment: "negative" },
-      { text: "Search the crowd for food", nextScene: "boy", tag: "faithful", feedback: "Even little can become much.", isCorrect: true, sentiment: "positive" },
+      { text: "Search the crowd for food", nextScene: "boy", tag: "faithful", feedback: "John 6:5-6 states that Jesus asked Philip where they could buy bread for the people to eat, testing him, for Jesus already knew what he was going to do.", isCorrect: true, sentiment: "positive" },
     ],
   },
   count_consequence: {
@@ -59,7 +59,7 @@ export const feeding5000Scenes: Record<string, StoryScene> = {
     choices: [
       { text: "Dismiss it as too little", nextScene: "dismiss_consequence", tag: "doubtful", feedback: "Bring it to him.", isCorrect: false, sentiment: "negative" },
       { text: "Mock the small gift", nextScene: "mock_consequence", tag: "fearful", feedback: "Heaven honors small hands.", isCorrect: false, sentiment: "negative" },
-      { text: "Bring it to Jesus", nextScene: "bless", tag: "faithful", feedback: "Faith places it in his hands.", isCorrect: true, sentiment: "positive" },
+      { text: "Bring it to Jesus", nextScene: "bless", tag: "faithful", feedback: "John 6:9 mentions Andrew telling Jesus about a boy with five barley loaves and two small fish.", isCorrect: true, sentiment: "positive" },
     ],
   },
   dismiss_consequence: {
@@ -86,7 +86,7 @@ export const feeding5000Scenes: Record<string, StoryScene> = {
     text: "He raises the bread to heaven.\nA hush falls on the hillside.",
     choices: [
       { text: "Walk away in unbelief", nextScene: "unbelief_consequence", tag: "doubtful", feedback: "Stay. Watch. Believe.", isCorrect: false, sentiment: "negative" },
-      { text: "Bow your head and trust", nextScene: "distribute", tag: "faithful", feedback: "Heaven answers.", isCorrect: true, sentiment: "positive" },
+      { text: "Bow your head and trust", nextScene: "distribute", tag: "faithful", feedback: "Matthew 14:19, Mark 6:41, Luke 9:16, and John 6:11 all record that Jesus looked up to heaven and gave thanks/blessed the food.", isCorrect: true, sentiment: "positive" },
     ],
   },
   unbelief_consequence: {
@@ -105,7 +105,7 @@ export const feeding5000Scenes: Record<string, StoryScene> = {
     text: "He breaks. He gives. He breaks again.\nThe baskets do not empty.",
     choices: [
       { text: "Hide some bread for yourself", nextScene: "hide_consequence", tag: "fearful", feedback: "Share freely. There is enough.", isCorrect: false, sentiment: "negative" },
-      { text: "Serve the crowd row by row", nextScene: "feast", tag: "faithful", feedback: "Abundance flows through you.", isCorrect: true, sentiment: "positive" },
+      { text: "Serve the crowd row by row", nextScene: "feast", tag: "faithful", feedback: "Matthew 14:19, Mark 6:41, Luke 9:16, and John 6:11 all state that Jesus broke the loaves and gave them to the disciples to distribute to the crowd.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -124,7 +124,7 @@ export const feeding5000Scenes: Record<string, StoryScene> = {
     text: "Families eat together on green grass.\nNo one rises hungry.",
     choices: [
       { text: "Leave the scraps to rot", nextScene: "waste_consequence", tag: "doubtful", feedback: "Nothing he gives is wasted.", isCorrect: false, sentiment: "negative" },
-      { text: "Gather the leftovers", nextScene: "baskets", tag: "faithful", feedback: "Twelve baskets remain.", isCorrect: true, sentiment: "positive" },
+      { text: "Gather the leftovers", nextScene: "baskets", tag: "faithful", feedback: "John 6:12 records that after everyone had eaten, Jesus told his disciples to gather the pieces that were left over.", isCorrect: true, sentiment: "positive" },
     ],
   },
   waste_consequence: {
