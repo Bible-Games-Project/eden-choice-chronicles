@@ -11,7 +11,7 @@ export const nicodemusScenes: Record<string, StoryScene> = {
     text: "Nicodemus comes quietly under the stars.\nHe seeks Jesus while the city sleeps.",
     choices: [
       { text: "Hide from this strange teacher", nextScene: "hide_consequence", tag: "fearful", feedback: "Truth is worth seeking.", isCorrect: false, sentiment: "negative" },
-      { text: "Approach him with open heart", nextScene: "greet", tag: "faithful", feedback: "You step into the lamplight.", isCorrect: true, sentiment: "positive" },
+      { text: "Approach him with open heart", nextScene: "greet", tag: "faithful", feedback: "John 3:2 — Nicodemus came to Jesus by night.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide_consequence: {
@@ -30,7 +30,7 @@ export const nicodemusScenes: Record<string, StoryScene> = {
     text: "\"Rabbi, we know you come from God,\"\nNicodemus says with quiet respect.",
     choices: [
       { text: "Flatter him to gain favor", nextScene: "flatter_consequence", tag: "doubtful", feedback: "Sincerity matters more.", isCorrect: false, sentiment: "negative" },
-      { text: "Speak the truth in humility", nextScene: "born_again", tag: "faithful", feedback: "Your honesty opens the way.", isCorrect: true, sentiment: "positive" },
+      { text: "Speak the truth in humility", nextScene: "born_again", tag: "faithful", feedback: "John 3:2 — Nicodemus acknowledged that Jesus was a teacher who had come from God.", isCorrect: true, sentiment: "positive" },
     ],
   },
   flatter_consequence: {
@@ -48,7 +48,7 @@ export const nicodemusScenes: Record<string, StoryScene> = {
     title: "Born Again",
     text: "Jesus says softly,\n\"You must be born again to see the kingdom.\"",
     choices: [
-      { text: "Ask sincerely what he means", nextScene: "spirit", tag: "faithful", feedback: "A humble question opens truth.", isCorrect: true, sentiment: "positive" },
+      { text: "Ask sincerely what he means", nextScene: "spirit", tag: "faithful", feedback: "John 3:4 — Nicodemus asked Jesus how a man could be born when he is old.", isCorrect: true, sentiment: "positive" },
       { text: "Dismiss it as impossible", nextScene: "dismiss_consequence", tag: "fearful", feedback: "Wait, and listen further.", isCorrect: false, sentiment: "negative" },
       { text: "Mock the strange teaching", nextScene: "mock_consequence", tag: "doubtful", feedback: "Mockery shuts the door.", isCorrect: false, sentiment: "negative" },
     ],
@@ -77,7 +77,7 @@ export const nicodemusScenes: Record<string, StoryScene> = {
     text: "\"The Spirit is like the wind,\" Jesus breathes.\n\"You hear it, but cannot trace it.\"",
     choices: [
       { text: "Demand to see it first", nextScene: "demand_consequence", tag: "doubtful", feedback: "Some truths are felt, not seen.", isCorrect: false, sentiment: "negative" },
-      { text: "Trust what you cannot see", nextScene: "heavenly", tag: "faithful", feedback: "Faith begins where sight ends.", isCorrect: true, sentiment: "positive" },
+      { text: "Trust what you cannot see", nextScene: "heavenly", tag: "faithful", feedback: "John 3:8 — Jesus explained that the Spirit works like the wind, unseen but felt.", isCorrect: true, sentiment: "positive" },
     ],
   },
   demand_consequence: {
@@ -95,7 +95,7 @@ export const nicodemusScenes: Record<string, StoryScene> = {
     title: "Heavenly Things",
     text: "\"If earthly words confuse you,\nhow will heavenly ones be received?\"",
     choices: [
-      { text: "Listen with a quiet mind", nextScene: "love", tag: "faithful", feedback: "Stillness welcomes truth.", isCorrect: true, sentiment: "positive" },
+      { text: "Listen with a quiet mind", nextScene: "love", tag: "faithful", feedback: "John 3:12 — Jesus questioned how Nicodemus would believe heavenly things if he did not believe earthly things.", isCorrect: true, sentiment: "positive" },
       { text: "Argue from your own learning", nextScene: "argue_consequence", tag: "doubtful", feedback: "Pride blocks the door.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -115,7 +115,7 @@ export const nicodemusScenes: Record<string, StoryScene> = {
     text: "\"God so loved the world he gave his Son,\nthat whoever believes may have life.\"",
     choices: [
       { text: "Reject so wide a love", nextScene: "reject_consequence", tag: "fearful", feedback: "His love is for all.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive his words in faith", nextScene: "light", tag: "faithful", feedback: "Love settles in your heart.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive his words in faith", nextScene: "light", tag: "faithful", feedback: "John 3:16 — Jesus taught that God loved the world so much that He gave His only Son.", isCorrect: true, sentiment: "positive" },
     ],
   },
   reject_consequence: {
@@ -134,7 +134,7 @@ export const nicodemusScenes: Record<string, StoryScene> = {
     text: "\"Whoever lives by truth comes to the light,\nso his deeds may shine.\"",
     choices: [
       { text: "Stay hidden in the dark", nextScene: "hide2_consequence", tag: "fearful", feedback: "The light is kinder than fear.", isCorrect: false, sentiment: "negative" },
-      { text: "Step softly into the light", nextScene: "reflect", tag: "faithful", feedback: "Warm light meets you.", isCorrect: true, sentiment: "positive" },
+      { text: "Step softly into the light", nextScene: "reflect", tag: "faithful", feedback: "John 3:21 — Jesus stated that whoever practices truth comes to the light.", isCorrect: true, sentiment: "positive" },
     ],
   },
   hide2_consequence: {
@@ -153,7 +153,7 @@ export const nicodemusScenes: Record<string, StoryScene> = {
     text: "Nicodemus walks home as dawn rises,\nthe words burning quietly inside.",
     choices: [
       { text: "Forget what you heard tonight", nextScene: "forget_consequence", tag: "fearful", feedback: "Truth asks to be kept.", isCorrect: false, sentiment: "negative" },
-      { text: "Carry his words in your heart", nextScene: "ending", tag: "faithful", feedback: "You hold them close.", isCorrect: true, sentiment: "positive" },
+      { text: "Carry his words in your heart", nextScene: "ending", tag: "faithful", feedback: "John 3:21 — Nicodemus heard Jesus' words and departed.", isCorrect: true, sentiment: "positive" },
     ],
   },
   forget_consequence: {

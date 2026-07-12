@@ -11,7 +11,7 @@ export const womanAdulteryScenes: Record<string, StoryScene> = {
     text: "Pharisees push a trembling woman\nbefore Jesus at the temple.",
     choices: [
       { text: "Join the angry crowd shouting", nextScene: "join_consequence", tag: "fearful", feedback: "Anger does not see the heart.", isCorrect: false, sentiment: "negative" },
-      { text: "Stand quietly and watch", nextScene: "accusation", tag: "faithful", feedback: "You watch with open eyes.", isCorrect: true, sentiment: "positive" },
+      { text: "Stand quietly and watch", nextScene: "accusation", tag: "faithful", feedback: "John 8:2-3 — Jesus was teaching in the temple courts when the scribes and Pharisees brought the woman to him.", isCorrect: true, sentiment: "positive" },
     ],
   },
   join_consequence: {
@@ -29,7 +29,7 @@ export const womanAdulteryScenes: Record<string, StoryScene> = {
     title: "The Accusation",
     text: "\"She was caught in sin,\" they cry.\nThe woman cannot lift her eyes.",
     choices: [
-      { text: "Look on her with compassion", nextScene: "trap", tag: "faithful", feedback: "Mercy begins with a gentle gaze.", isCorrect: true, sentiment: "positive" },
+      { text: "Look on her with compassion", nextScene: "trap", tag: "faithful", feedback: "John 8:4-5 — The scribes and Pharisees accused the woman of being caught in the act of adultery.", isCorrect: true, sentiment: "positive" },
       { text: "Turn your eyes away in scorn", nextScene: "scorn_consequence", tag: "doubtful", feedback: "She is still a soul before God.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -49,7 +49,7 @@ export const womanAdulteryScenes: Record<string, StoryScene> = {
     text: "\"The law says stone her.\nWhat do you say, teacher?\"",
     choices: [
       { text: "Demand he answer at once", nextScene: "demand_consequence", tag: "fearful", feedback: "Wisdom answers in its own time.", isCorrect: false, sentiment: "negative" },
-      { text: "Wait in silence for his answer", nextScene: "writing", tag: "faithful", feedback: "Silence makes room for truth.", isCorrect: true, sentiment: "positive" },
+      { text: "Wait in silence for his answer", nextScene: "writing", tag: "faithful", feedback: "John 8:5-6 — The scribes and Pharisees reminded Jesus that the Law of Moses commanded stoning for such a sin, asking for his judgment.", isCorrect: true, sentiment: "positive" },
       { text: "Side with the law-keepers", nextScene: "side_consequence", tag: "doubtful", feedback: "Law without mercy crushes.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -77,7 +77,7 @@ export const womanAdulteryScenes: Record<string, StoryScene> = {
     text: "Jesus bends and writes in the dust,\nas if he heard nothing at all.",
     choices: [
       { text: "Mock his strange silence", nextScene: "mock_consequence", tag: "doubtful", feedback: "His quiet speaks louder than shouts.", isCorrect: false, sentiment: "negative" },
-      { text: "Watch his finger trace the ground", nextScene: "without_sin", tag: "faithful", feedback: "Something holy is unfolding.", isCorrect: true, sentiment: "positive" },
+      { text: "Watch his finger trace the ground", nextScene: "without_sin", tag: "faithful", feedback: "John 8:6 — Jesus stooped down and wrote on the ground with his finger.", isCorrect: true, sentiment: "positive" },
     ],
   },
   mock_consequence: {
@@ -96,7 +96,7 @@ export const womanAdulteryScenes: Record<string, StoryScene> = {
     text: "He stands. \"Let him without sin\ncast the first stone.\"",
     choices: [
       { text: "Reach for a stone in pride", nextScene: "stone_consequence", tag: "fearful", feedback: "No hand is clean enough.", isCorrect: false, sentiment: "negative" },
-      { text: "Search your own heart honestly", nextScene: "accusers_leave", tag: "faithful", feedback: "Truth begins inside you.", isCorrect: true, sentiment: "positive" },
+      { text: "Search your own heart honestly", nextScene: "accusers_leave", tag: "faithful", feedback: "John 8:7 — Jesus straightened up and told them, \"Let any one of you who is without sin be the first to throw a stone at her.\"", isCorrect: true, sentiment: "positive" },
       { text: "Call him a soft-hearted fool", nextScene: "fool_consequence", tag: "doubtful", feedback: "Mercy is greater than scorn.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -123,7 +123,7 @@ export const womanAdulteryScenes: Record<string, StoryScene> = {
     title: "One by One",
     text: "The oldest leaves first. Then another.\nStones fall from open hands.",
     choices: [
-      { text: "Stay and witness the mercy", nextScene: "mercy", tag: "faithful", feedback: "Grace is happening here.", isCorrect: true, sentiment: "positive" },
+      { text: "Stay and witness the mercy", nextScene: "mercy", tag: "faithful", feedback: "John 8:9 — Those who heard Jesus' words began to go away one by one, beginning with the older ones.", isCorrect: true, sentiment: "positive" },
       { text: "Leave with the accusers", nextScene: "leave_consequence", tag: "fearful", feedback: "Stay and see what love does.", isCorrect: false, sentiment: "negative" },
     ],
   },
@@ -143,7 +143,7 @@ export const womanAdulteryScenes: Record<string, StoryScene> = {
     text: "\"Has no one condemned you?\"\n\"No one, Lord,\" she whispers.",
     choices: [
       { text: "Doubt that mercy is enough", nextScene: "doubt_consequence", tag: "doubtful", feedback: "Mercy is the beginning of life.", isCorrect: false, sentiment: "negative" },
-      { text: "Receive the mercy with awe", nextScene: "ending", tag: "faithful", feedback: "Grace fills the courtyard.", isCorrect: true, sentiment: "positive" },
+      { text: "Receive the mercy with awe", nextScene: "ending", tag: "faithful", feedback: "John 8:10-11 — Jesus asked the woman if anyone had condemned her, and when she replied no one, he told her, \"Neither do I condemn you; go and from now on sin no more.\"", isCorrect: true, sentiment: "positive" },
     ],
   },
   doubt_consequence: {
