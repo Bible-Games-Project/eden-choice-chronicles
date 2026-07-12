@@ -134,6 +134,8 @@ const GameScene = ({ text, choices, isFinal, onChoice, onComplete, stepCount, ba
       "david-bathsheba", "solomon-wisdom", "elijah-baal", "elisha-naaman", "fall-jerusalem",
       "annunciation", "birth-jesus", "shepherds", "wise-men", "flight-egypt",
       "jesus-temple", "baptism-jesus", "temptation-desert", "calling-disciples", "wedding-cana",
+      "healing-leper", "centurion-servant", "calming-storm", "demon-possessed", "woman-blood",
+      "jairus-daughter", "feeding-5000", "walking-water", "blind-man", "raising-lazarus",
     ]);
     if (!nextIsCorrect && storyId && EDU_STORIES.has(storyId)) {
       const correctChoice = choices.find((c) => isChoiceCorrect(c));
