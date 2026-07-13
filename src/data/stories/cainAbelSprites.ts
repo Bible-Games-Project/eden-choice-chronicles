@@ -23,5 +23,5 @@ export const cainAbelSprites: Record<string, SpriteConfig> = {
   invitation: { left: brothersWalking },
   field: { left: cainHorror },
   confrontation: { left: cainJudgment },
-  wanderer: { left: cainWanderer },
+  wanderer: { left: cainJudgment },
 };
