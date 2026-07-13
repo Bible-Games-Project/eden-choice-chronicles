@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, X, ZoomIn } from "lucide-react";
 
 import { creationSprites } from "@/data/creationSprites";
+import { OLD_TESTAMENT_STORIES, NT_JESUS_STORIES, StoryMeta } from "@/data/stories";
 
 interface SpriteEntry {
   story: string;
