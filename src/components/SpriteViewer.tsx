@@ -76,7 +76,13 @@ function buildSpriteList(): SpriteEntry[] {
 }
 
 const allSprites = buildSpriteList();
-const storyIds = [...new Set(allSprites.map((s) => s.story))].sort();
+const storyIds = [...new Set(allSprites.map((s) => s.story))].sort((a, b) => {
+  const indexA = ALL_STORY_IDS_IN_ORDER.indexOf(a);
+  const indexB = ALL_STORY_IDS_IN_ORDER.indexOf(b);
+  if (indexA === -1) return 1;
+  if (indexB === -1) return -1;
+  return indexA - indexB;
+});
 
 interface SpriteViewerProps {
   onBack: () => void;
