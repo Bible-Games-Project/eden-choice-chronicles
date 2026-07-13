@@ -132,7 +132,7 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
             <option value="">All stories</option>
             {storyIds.map((id) => (
               <option key={id} value={id}>
-                {humanize(id)}
+                {getStoryLabel(id)}
               </option>
             ))}
           </select>
@@ -143,7 +143,7 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
             {grouped.map(([storyId, sprites]) => (
               <section key={storyId}>
                 <h3 className="font-display text-sm tracking-widest uppercase text-gold/80 mb-2 px-1 sticky top-0 bg-[hsl(30,30%,14%)]/80 backdrop-blur-sm py-1 z-10">
-                  {humanize(storyId)} <span className="text-gold/40">({sprites.length})</span>
+                  {getStoryLabel(storyId)} <span className="text-gold/40">({sprites.length})</span>
                 </h3>
                 <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3">
                   {sprites.map((sprite, i) => (
