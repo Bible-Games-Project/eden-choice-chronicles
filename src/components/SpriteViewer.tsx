@@ -37,7 +37,18 @@ for (const [path, mod] of Object.entries(storyModules)) {
   ALL_SPRITE_REGISTRIES[storyId] = registry;
 }
 
-function humanize(id: string): string {
+const STORY_META_BY_ID = new Map<string, StoryMeta>(
+  [...OLD_TESTAMENT_STORIES, ...NT_JESUS_STORIES].map((s) => [s.id, s])
+);
+
+const ALL_STORY_IDS_IN_ORDER = [
+  ...OLD_TESTAMENT_STORIES.map((s) => s.id),
+  ...NT_JESUS_STORIES.map((s) => s.id),
+];
+
+function getStoryLabel(id: string): string {
+  const meta = STORY_META_BY_ID.get(id);
+  if (meta) return `${meta.number}. ${meta.title}`;
   return id
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
