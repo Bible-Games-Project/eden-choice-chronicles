@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, X, ZoomIn } from "lucide-react";
 
 import { creationSprites } from "@/data/creationSprites";
+import { OLD_TESTAMENT_STORIES, NT_JESUS_STORIES, StoryMeta } from "@/data/stories";
 
 interface SpriteEntry {
   story: string;
@@ -36,7 +37,18 @@ for (const [path, mod] of Object.entries(storyModules)) {
   ALL_SPRITE_REGISTRIES[storyId] = registry;
 }
 
-function humanize(id: string): string {
+const STORY_META_BY_ID = new Map<string, StoryMeta>(
+  [...OLD_TESTAMENT_STORIES, ...NT_JESUS_STORIES].map((s) => [s.id, s])
+);
+
+const ALL_STORY_IDS_IN_ORDER = [
+  ...OLD_TESTAMENT_STORIES.map((s) => s.id),
+  ...NT_JESUS_STORIES.map((s) => s.id),
+];
+
+function getStoryLabel(id: string): string {
+  const meta = STORY_META_BY_ID.get(id);
+  if (meta) return `${meta.number}. ${meta.title}`;
   return id
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
@@ -64,7 +76,13 @@ function buildSpriteList(): SpriteEntry[] {
 }
 
 const allSprites = buildSpriteList();
-const storyIds = [...new Set(allSprites.map((s) => s.story))].sort();
+const storyIds = [...new Set(allSprites.map((s) => s.story))].sort((a, b) => {
+  const indexA = ALL_STORY_IDS_IN_ORDER.indexOf(a);
+  const indexB = ALL_STORY_IDS_IN_ORDER.indexOf(b);
+  if (indexA === -1) return 1;
+  if (indexB === -1) return -1;
+  return indexA - indexB;
+});
 
 interface SpriteViewerProps {
   onBack: () => void;
@@ -114,7 +132,7 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
             <option value="">All stories</option>
             {storyIds.map((id) => (
               <option key={id} value={id}>
-                {humanize(id)}
+                {getStoryLabel(id)}
               </option>
             ))}
           </select>
@@ -125,7 +143,7 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
             {grouped.map(([storyId, sprites]) => (
               <section key={storyId}>
                 <h3 className="font-display text-sm tracking-widest uppercase text-gold/80 mb-2 px-1 sticky top-0 bg-[hsl(30,30%,14%)]/80 backdrop-blur-sm py-1 z-10">
-                  {humanize(storyId)} <span className="text-gold/40">({sprites.length})</span>
+                  {getStoryLabel(storyId)} <span className="text-gold/40">({sprites.length})</span>
                 </h3>
                 <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3">
                   {sprites.map((sprite, i) => (
