@@ -8,7 +8,6 @@ import cainWarned from "@/assets/sprites/cain-abel/cain-warned.webp";
 import brothersWalking from "@/assets/sprites/cain-abel/brothers-walking.webp";
 import cainHorror from "@/assets/sprites/cain-abel/cain-horror.webp";
 import cainJudgment from "@/assets/sprites/cain-abel/cain-judgment.webp";
-import cainWanderer from "@/assets/sprites/cain-abel/cain-wanderer.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
@@ -24,5 +23,5 @@ export const cainAbelSprites: Record<string, SpriteConfig> = {
   invitation: { left: brothersWalking },
   field: { left: cainHorror },
   confrontation: { left: cainJudgment },
-  wanderer: { left: cainWanderer },
+  wanderer: { left: cainJudgment },
 };
