@@ -21,6 +21,23 @@ const storyModules = import.meta.glob<Record<string, SpriteRegistry>>(
   { eager: true }
 );
 
+const STORY_ID_BY_SPRITE_MODULE_BASE: Record<string, string> = {
+  abraham: "call-abraham",
+  babel: "tower-babel",
+  balaam: "balaam-donkey",
+  emmaus: "road-emmaus",
+  feeding5000: "feeding-5000",
+  jericho: "fall-jericho",
+  lazarus: "raising-lazarus",
+  manna: "manna-desert",
+  noah: "noah-flood",
+  plagues: "plagues-egypt",
+  rebekah: "rebekah-servant",
+  redSea: "crossing-red-sea",
+  richLazarus: "rich-man-lazarus",
+  sodom: "sodom-gomorrah",
+};
+
 const ALL_SPRITE_REGISTRIES: Record<string, SpriteRegistry> = {
   creation: creationSprites,
 };
@@ -33,7 +50,7 @@ for (const [path, mod] of Object.entries(storyModules)) {
   const registry = mod[exportKey] as SpriteRegistry;
   // Derive a story id from filename: "abrahamEgyptSprites" -> "abraham-egypt"
   const baseName = fileName.replace(/Sprites$/, "");
-  const storyId = baseName.replace(/([A-Z])/g, "-$1").replace(/^-/, "").toLowerCase();
+  const storyId = STORY_ID_BY_SPRITE_MODULE_BASE[baseName] ?? baseName.replace(/([A-Z])/g, "-$1").replace(/^-/, "").toLowerCase();
   ALL_SPRITE_REGISTRIES[storyId] = registry;
 }
 
@@ -46,43 +63,46 @@ const ALL_STORY_IDS_IN_ORDER = [
   ...NT_JESUS_STORIES.map((s) => s.id),
 ];
 
+const OLD_TESTAMENT_STORY_IDS = new Set(OLD_TESTAMENT_STORIES.map((s) => s.id));
+
 function getStoryLabel(id: string): string {
   const meta = STORY_META_BY_ID.get(id);
-  if (meta) return `${meta.number}. ${meta.title}`;
+  if (meta) {
+    const storyNumber = OLD_TESTAMENT_STORY_IDS.has(id) ? meta.number : OLD_TESTAMENT_STORIES.length + meta.number;
+    return `${storyNumber}. ${meta.title}`;
+  }
   return id
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
 }
 
-function buildSpriteList(): SpriteEntry[] {
+function buildSpriteList(storyId: string): SpriteEntry[] {
   const entries: SpriteEntry[] = [];
   const seen = new Set<string>();
+  const scenes = ALL_SPRITE_REGISTRIES[storyId];
 
-  for (const [storyId, scenes] of Object.entries(ALL_SPRITE_REGISTRIES)) {
-    for (const [sceneId, config] of Object.entries(scenes)) {
-      if (config.left && !seen.has(config.left)) {
-        seen.add(config.left);
-        entries.push({ story: storyId, scene: sceneId, side: "left", src: config.left });
-      }
-      if (config.right && !seen.has(config.right)) {
-        seen.add(config.right);
-        entries.push({ story: storyId, scene: sceneId, side: "right", src: config.right });
-      }
+  if (!scenes) return entries;
+
+  for (const [sceneId, config] of Object.entries(scenes)) {
+    if (config.left && !seen.has(config.left)) {
+      seen.add(config.left);
+      entries.push({ story: storyId, scene: sceneId, side: "left", src: config.left });
+    }
+    if (config.right && !seen.has(config.right)) {
+      seen.add(config.right);
+      entries.push({ story: storyId, scene: sceneId, side: "right", src: config.right });
     }
   }
 
   return entries;
 }
 
-const allSprites = buildSpriteList();
-const storyIds = [...new Set(allSprites.map((s) => s.story))].sort((a, b) => {
-  const indexA = ALL_STORY_IDS_IN_ORDER.indexOf(a);
-  const indexB = ALL_STORY_IDS_IN_ORDER.indexOf(b);
-  if (indexA === -1) return 1;
-  if (indexB === -1) return -1;
-  return indexA - indexB;
-});
+const SPRITES_BY_STORY = new Map<string, SpriteEntry[]>(
+  ALL_STORY_IDS_IN_ORDER.map((storyId) => [storyId, buildSpriteList(storyId)])
+);
+const allSprites = ALL_STORY_IDS_IN_ORDER.flatMap((storyId) => SPRITES_BY_STORY.get(storyId) ?? []);
+const storyIds = ALL_STORY_IDS_IN_ORDER;
 
 interface SpriteViewerProps {
   onBack: () => void;
@@ -92,17 +112,16 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
   const [filterStory, setFilterStory] = useState<string | null>(null);
   const [zoomedSrc, setZoomedSrc] = useState<string | null>(null);
 
-  const filtered = filterStory ? allSprites.filter((s) => s.story === filterStory) : allSprites;
-
   // Group by story for display
   const grouped = useMemo(() => {
-    const map = new Map<string, SpriteEntry[]>();
-    for (const s of filtered) {
-      if (!map.has(s.story)) map.set(s.story, []);
-      map.get(s.story)!.push(s);
-    }
-    return [...map.entries()];
-  }, [filtered]);
+    const visibleStoryIds = filterStory ? [filterStory] : storyIds;
+    return visibleStoryIds.map((storyId) => [storyId, SPRITES_BY_STORY.get(storyId) ?? []] as const);
+  }, [filterStory]);
+
+  const visibleSpriteCount = useMemo(
+    () => grouped.reduce((total, [, sprites]) => total + sprites.length, 0),
+    [grouped]
+  );
 
   return (
     <div className="fixed inset-0 overflow-hidden">
@@ -118,7 +137,7 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
               Sprite Viewer
             </h2>
             <span className="font-body text-xs text-gold/50">
-              {filtered.length} sprites · {storyIds.length} stories
+              {visibleSpriteCount} sprites · {grouped.length} stories
             </span>
           </div>
         </div>
