@@ -11,7 +11,7 @@ import { SpriteConfig } from "@/data/creationSprites";
 // Small reusable sprite set for The Call of Abraham.
 export const abrahamSprites: Record<string, SpriteConfig> = {
   start: { left: abrahamUr },
-  the_call: { left: abrahamListening },
+  the_call: { left: abrahamWalking },
   the_promise: { left: abrahamListening },
   telling_sarah: { left: abrahamSarahTalk },
   preparing: { left: abrahamLeaving },
