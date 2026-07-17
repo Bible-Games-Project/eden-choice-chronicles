@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.biblegames.eden',
-  appName: 'Sacred Quest',
+  appName: 'Bible Unlocked',
   webDir: 'dist',
   ios: {
     contentInset: 'automatic',
