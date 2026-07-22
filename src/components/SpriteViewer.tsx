@@ -98,6 +98,10 @@ function buildSpriteList(storyId: string): SpriteEntry[] {
   return entries;
 }
 
+function getSpriteFileName(src: string): string {
+  return src.split("?")[0]?.split("/").pop() ?? src;
+}
+
 const SPRITES_BY_STORY = new Map<string, SpriteEntry[]>(
   ALL_STORY_IDS_IN_ORDER.map((storyId) => [storyId, buildSpriteList(storyId)])
 );
@@ -180,6 +184,13 @@ const SpriteViewer = ({ onBack }: SpriteViewerProps) => {
                         className="w-full h-full object-contain p-1"
                         loading="lazy"
                       />
+                      {storyId === "birth-moses" && (
+                        <div className="absolute inset-x-0 top-0 bg-black/80 px-1 py-0.5">
+                          <p className="font-mono text-[8px] leading-tight text-gold/90 break-all">
+                            {getSpriteFileName(sprite.src)}
+                          </p>
+                        </div>
+                      )}
                       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
                         <p className="text-[10px] text-gold/80 truncate font-body">{sprite.scene}</p>
                       </div>
