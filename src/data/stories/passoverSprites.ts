@@ -25,9 +25,9 @@ export const passoverSprites: Record<string, SpriteConfig> = {
   // Act III — Doorposts and meal
   doorposts_marked: { left: hebrewFather },
   boil_consequence: { left: hebrewMotherChild },
-  meal_prepared: { left: hebrewMotherChild },
-  ease_consequence: { left: hebrewMotherChild },
-  wander_consequence: { left: hebrewMotherChild },
+  meal_prepared: { left: hebrewFamily },
+  ease_consequence: { left: hebrewFamily },
+  wander_consequence: { left: hebrewFamily },
   // Act IV — Night
   stay_inside: { left: hebrewMotherChild },
   open_consequence: { left: hebrewMotherChild },
