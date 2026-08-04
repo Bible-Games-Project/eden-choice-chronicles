@@ -1,13 +1,16 @@
 import mosesLeading from "@/assets/sprites/manna/moses-leading.webp";
 import mosesPraying from "@/assets/sprites/manna/moses-praying.webp";
+import mosesInstructing from "@/assets/sprites/manna/moses-instructing.webp";
 import israelitesHungry from "@/assets/sprites/manna/israelites-hungry.webp";
 import israeliteGathering from "@/assets/sprites/manna/israelite-gathering.webp";
 import aaronElder from "@/assets/sprites/manna/aaron-elder.webp";
 import greedyGatherer from "@/assets/sprites/manna/greedy-gatherer.webp";
+import spoiledManna from "@/assets/sprites/manna/spoiled-manna.webp";
+import familyThankful from "@/assets/sprites/manna/family-thankful.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
-// Exactly ONE sprite per scene. Waist-up, transparent PNG.
+// Exactly ONE sprite per scene. Waist-up or knees-up, transparent PNG.
 export const mannaSprites: Record<string, SpriteConfig> = {
   // Act I
   start: { left: israelitesHungry },
@@ -27,13 +30,13 @@ export const mannaSprites: Record<string, SpriteConfig> = {
   boast_consequence: { left: mosesLeading },
   secret_consequence: { left: aaronElder },
   // Act V
-  manna_falls: { left: mosesLeading },
+  manna_falls: { left: israeliteGathering },
   forbid_consequence: { left: mosesLeading },
   // Act VI
-  gather_daily: { left: israeliteGathering },
-  hoarding_consequence: { left: greedyGatherer },
+  gather_daily: { left: mosesInstructing },
+  hoarding_consequence: { left: spoiledManna },
   selfish_consequence: { left: greedyGatherer },
   // Act VII
   next_morning: { left: israeliteGathering },
-  ending: { left: aaronElder },
+  ending: { left: familyThankful },
 };
