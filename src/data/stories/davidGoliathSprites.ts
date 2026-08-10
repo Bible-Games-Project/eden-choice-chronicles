@@ -15,8 +15,8 @@ import { SpriteConfig } from "@/data/creationSprites";
 // Exactly ONE sprite per scene, reusing a small set across the story progression.
 export const davidGoliathSprites: Record<string, SpriteConfig> = {
   start: { left: davidShepherd },
-  flee_consequence: { left: davidShepherd },
-  boast_consequence: { left: davidBread },
+  flee_consequence: { left: davidBread },
+  boast_consequence: { left: israelitesCelebrate },
   challenge: { left: goliathTaunting },
   hide_consequence: { left: israeliteSoldiersFear },
   curse_consequence: { left: davidFaith },
