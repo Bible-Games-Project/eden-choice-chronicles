@@ -5,10 +5,12 @@ import innkeeper from "@/assets/sprites/birth-jesus/innkeeper.webp";
 import maryResting from "@/assets/sprites/birth-jesus/mary-resting.webp";
 import josephKneeling from "@/assets/sprites/birth-jesus/joseph-kneeling.webp";
 import maryChild from "@/assets/sprites/birth-jesus/mary-child.webp";
+import holyFamily from "@/assets/sprites/birth-jesus/holy-family.webp";
+import babyJesus from "@/assets/sprites/birth-jesus/baby-jesus.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
-// Exactly ONE sprite per scene. Waist-up, transparent PNG.
+// Exactly ONE sprite per scene. Reusable set matching each story moment.
 export const birthJesusSprites: Record<string, SpriteConfig> = {
   start: { left: maryDonkey },
   push_consequence: { left: maryDonkey },
@@ -21,6 +23,6 @@ export const birthJesusSprites: Record<string, SpriteConfig> = {
   stable: { left: maryResting },
   complain_consequence: { left: josephKneeling },
   birth: { left: maryChild },
-  run_consequence: { left: josephKneeling },
-  manger: { left: maryChild },
+  run_consequence: { left: holyFamily },
+  manger: { left: babyJesus },
 };
