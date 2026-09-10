@@ -1,26 +1,27 @@
-import jesusBoarding from "@/assets/sprites/storm/jesus-boarding.webp";
-import disciplesRowing from "@/assets/sprites/storm/disciples-rowing.webp";
-import jesusSleeping from "@/assets/sprites/storm/jesus-sleeping.webp";
-import disciplesPanicked from "@/assets/sprites/storm/disciples-panicked.webp";
-import jesusRebuking from "@/assets/sprites/storm/jesus-rebuking.webp";
-import disciplesAmazed from "@/assets/sprites/storm/disciples-amazed.webp";
+import jesusDisciplesSettingOut from "@/assets/sprites/storm/jesus-disciples-setting-out.png";
+import disciplesStruggling from "@/assets/sprites/storm/disciples-struggling.png";
+import jesusSleeping from "@/assets/sprites/storm/jesus-sleeping.png";
+import disciplesWakingJesus from "@/assets/sprites/storm/disciples-waking-jesus.png";
+import jesusCommanding from "@/assets/sprites/storm/jesus-commanding.png";
+import jesusTeachingDisciples from "@/assets/sprites/storm/jesus-teaching-disciples.png";
+import disciplesAmazed from "@/assets/sprites/storm/disciples-amazed.png";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
-// Exactly ONE sprite per scene. Waist-up, transparent PNG.
+// Reusable transparent portraits: exactly 3 waist-up, remaining sprites knee-up.
 export const calmingStormSprites: Record<string, SpriteConfig> = {
-  start: { left: jesusBoarding },
-  refuse_consequence: { left: jesusBoarding },
-  wait_consequence: { left: jesusBoarding },
-  storm: { left: disciplesRowing },
-  curse_consequence: { left: disciplesRowing },
-  leap_consequence: { left: disciplesRowing },
+  start: { left: jesusDisciplesSettingOut },
+  refuse_consequence: { left: jesusDisciplesSettingOut },
+  wait_consequence: { left: jesusDisciplesSettingOut },
+  storm: { left: disciplesStruggling },
+  curse_consequence: { left: disciplesStruggling },
+  leap_consequence: { left: disciplesStruggling },
   sleep: { left: jesusSleeping },
   alone_consequence: { left: jesusSleeping },
-  wake: { left: disciplesPanicked },
-  blame_consequence: { left: disciplesPanicked },
-  silent_consequence: { left: disciplesPanicked },
-  calm: { left: jesusRebuking },
-  doubt_consequence: { left: jesusRebuking },
+  wake: { left: disciplesWakingJesus },
+  blame_consequence: { left: disciplesWakingJesus },
+  silent_consequence: { left: disciplesWakingJesus },
+  calm: { left: jesusCommanding },
+  doubt_consequence: { left: jesusTeachingDisciples },
   amaze: { left: disciplesAmazed },
 };
