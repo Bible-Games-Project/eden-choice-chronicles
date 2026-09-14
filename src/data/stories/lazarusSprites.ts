@@ -1,10 +1,10 @@
-import messengerNews from "@/assets/sprites/lazarus/messenger-news.webp";
-import jesusWaiting from "@/assets/sprites/lazarus/jesus-waiting.webp";
-import marthaGrieving from "@/assets/sprites/lazarus/martha-grieving.webp";
-import maryWeeping from "@/assets/sprites/lazarus/mary-weeping.webp";
-import jesusWeeping from "@/assets/sprites/lazarus/jesus-weeping.webp";
-import jesusCalling from "@/assets/sprites/lazarus/jesus-calling.webp";
-import lazarusEmerging from "@/assets/sprites/lazarus/lazarus-emerging.webp";
+import messengerNews from "@/assets/sprites/lazarus/messenger-news.png";
+import jesusTraveling from "@/assets/sprites/lazarus/jesus-traveling.png";
+import marthaJesus from "@/assets/sprites/lazarus/martha-jesus.png";
+import maryJesus from "@/assets/sprites/lazarus/mary-jesus.png";
+import jesusWeeping from "@/assets/sprites/lazarus/jesus-weeping.png";
+import jesusPrayingCommanding from "@/assets/sprites/lazarus/jesus-praying-commanding.png";
+import lazarusFamilyJoy from "@/assets/sprites/lazarus/lazarus-family-joy.png";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
@@ -12,21 +12,21 @@ export const lazarusSprites: Record<string, SpriteConfig> = {
   start: { left: messengerNews },
   urge_consequence: { left: messengerNews },
   dismiss_consequence: { left: messengerNews },
-  delay: { left: jesusWaiting },
-  question_consequence: { left: jesusWaiting },
-  travel: { left: jesusWaiting },
-  stayback_consequence: { left: jesusWaiting },
-  martha: { left: marthaGrieving },
-  giveup_consequence: { left: marthaGrieving },
-  silent_consequence: { left: marthaGrieving },
-  mary: { left: maryWeeping },
-  scold_consequence: { left: maryWeeping },
+  delay: { left: jesusTraveling },
+  question_consequence: { left: jesusTraveling },
+  travel: { left: jesusTraveling },
+  stayback_consequence: { left: jesusTraveling },
+  martha: { left: marthaJesus },
+  giveup_consequence: { left: marthaJesus },
+  silent_consequence: { left: marthaJesus },
+  mary: { left: maryJesus },
+  scold_consequence: { left: maryJesus },
   weeps: { left: jesusWeeping },
   pull_consequence: { left: jesusWeeping },
-  tomb: { left: jesusCalling },
-  leave_consequence: { left: jesusCalling },
-  argue_consequence: { left: jesusCalling },
-  call: { left: jesusCalling },
-  cover_consequence: { left: jesusCalling },
-  emerge: { left: lazarusEmerging },
+  tomb: { left: jesusPrayingCommanding },
+  leave_consequence: { left: jesusPrayingCommanding },
+  argue_consequence: { left: jesusPrayingCommanding },
+  call: { left: jesusPrayingCommanding },
+  cover_consequence: { left: jesusPrayingCommanding },
+  emerge: { left: lazarusFamilyJoy },
 };
