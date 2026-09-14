@@ -1,13 +1,15 @@
-import crowd from "@/assets/sprites/sermon-mount/crowd-approaching.webp";
-import beatitudes from "@/assets/sprites/sermon-mount/jesus-beatitudes.webp";
-import saltLight from "@/assets/sprites/sermon-mount/jesus-salt-light.webp";
-import mercy from "@/assets/sprites/sermon-mount/jesus-mercy.webp";
-import enemies from "@/assets/sprites/sermon-mount/jesus-enemies.webp";
-import trust from "@/assets/sprites/sermon-mount/jesus-trust.webp";
-import foundation from "@/assets/sprites/sermon-mount/jesus-foundation.webp";
+import crowd from "@/assets/sprites/sermon-mount/crowd-approaching.png";
+import beatitudes from "@/assets/sprites/sermon-mount/jesus-beatitudes.png";
+import saltLight from "@/assets/sprites/sermon-mount/jesus-salt-light.png";
+import mercy from "@/assets/sprites/sermon-mount/jesus-mercy.png";
+import enemies from "@/assets/sprites/sermon-mount/jesus-enemies.png";
+import trust from "@/assets/sprites/sermon-mount/jesus-trust.png";
+import foundation from "@/assets/sprites/sermon-mount/jesus-foundation.png";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
+// Reusable sprite set: exactly 3 waist-up (beatitudes, salt-light, foundation),
+// with the remaining 4 framed knees-up. No feet or environmental elements.
 export const sermonMountSprites: Record<string, SpriteConfig> = {
   start: { left: crowd },
   hurry_consequence: { left: crowd },
