@@ -174,3 +174,8 @@ Deploy workflows are reusable from `Bible-Games-Project/bgp-admin`.
 - Script: `scripts/validate-locales.mjs`
 - Compares every locale against `en/`. Reports missing files, missing keys, and extra keys.
 - Intended to run in CI and locally before commits.
+
+## Sprite replacement verification
+
+- Keep story sprite replacements limited to the story's bundled asset directory and sprite registry; preserve scene keys and all non-sprite behavior.
+- Use existing portraits as image-edit references to retain character identity, and inspect generated framing before installation; transparent padding cannot repair clipped anatomy.
