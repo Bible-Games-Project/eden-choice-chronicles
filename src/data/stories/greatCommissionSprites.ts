@@ -1,15 +1,15 @@
-import disciplesArriving from "@/assets/sprites/great-commission/disciples-arriving.webp";
-import jesusAppearing from "@/assets/sprites/great-commission/jesus-appearing.webp";
-import jesusAuthority from "@/assets/sprites/great-commission/jesus-authority.webp";
-import jesusCommission from "@/assets/sprites/great-commission/jesus-commission.webp";
-import jesusBaptize from "@/assets/sprites/great-commission/jesus-baptize.webp";
-import jesusTeaching from "@/assets/sprites/great-commission/jesus-teaching.webp";
-import jesusPromise from "@/assets/sprites/great-commission/jesus-promise.webp";
-import disciplesSent from "@/assets/sprites/great-commission/disciples-sent.webp";
+import disciplesArriving from "@/assets/sprites/great-commission/disciples-arriving.png";
+import jesusAppearing from "@/assets/sprites/great-commission/jesus-appearing.png";
+import jesusAuthority from "@/assets/sprites/great-commission/jesus-authority.png";
+import jesusCommission from "@/assets/sprites/great-commission/jesus-commission.png";
+import jesusBaptize from "@/assets/sprites/great-commission/jesus-baptize.png";
+import jesusTeaching from "@/assets/sprites/great-commission/jesus-teaching.png";
+import jesusPromise from "@/assets/sprites/great-commission/jesus-promise.png";
+import disciplesSent from "@/assets/sprites/great-commission/disciples-sent.png";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
-// Exactly ONE sprite per scene. Waist-up, transparent PNG.
+// Exactly one reusable transparent portrait per scene: three waist-up, five knee-up.
 export const greatCommissionSprites: Record<string, SpriteConfig> = {
   start: { left: disciplesArriving },
   linger_consequence: { left: disciplesArriving },
