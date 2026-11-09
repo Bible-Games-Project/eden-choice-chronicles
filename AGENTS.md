@@ -185,3 +185,12 @@ Deploy workflows are reusable from `Bible-Games-Project/bgp-admin`.
 - Nov 2026: a restyle of the sprites to the app icon style (gpt-image-1.5, ~0.05 USD
   per image, Jesus reference image for consistency) was tried on great-commission
   and rejected by the maintainer; the original sprites were restored.
+- Lovable (gpt-engineer-app) commits go to the `lovable-sync` branch, not `main`.
+  Before working on assets, check `git log main..origin/lovable-sync`: in Nov 2026
+  a month of sprite work (stories 90-100) sat there unmerged and the preview showed
+  old art. Merge it into `main` first.
+
+## Sprite replacement verification
+
+- Keep story sprite replacements limited to the story's bundled asset directory and sprite registry; preserve scene keys and all non-sprite behavior.
+- Use existing portraits as image-edit references to retain character identity, and inspect generated framing before installation; transparent padding cannot repair clipped anatomy.

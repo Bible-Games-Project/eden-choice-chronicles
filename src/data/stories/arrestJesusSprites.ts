@@ -1,11 +1,11 @@
-import judasLeading from "@/assets/sprites/arrest-jesus/judas-leading.webp";
-import guardsTorches from "@/assets/sprites/arrest-jesus/guards-torches.webp";
-import judasKiss from "@/assets/sprites/arrest-jesus/judas-kiss.webp";
-import jesusForward from "@/assets/sprites/arrest-jesus/jesus-forward.webp";
-import peterSword from "@/assets/sprites/arrest-jesus/peter-sword.webp";
-import jesusHealing from "@/assets/sprites/arrest-jesus/jesus-healing.webp";
-import disciplesFleeing from "@/assets/sprites/arrest-jesus/disciples-fleeing.webp";
-import jesusBound from "@/assets/sprites/arrest-jesus/jesus-bound.webp";
+import judasLeading from "@/assets/sprites/arrest-jesus/judas-leading.png";
+import guardsTorches from "@/assets/sprites/arrest-jesus/guards-torches.png";
+import judasKiss from "@/assets/sprites/arrest-jesus/judas-kiss.png";
+import jesusForward from "@/assets/sprites/arrest-jesus/jesus-forward.png";
+import peterSword from "@/assets/sprites/arrest-jesus/peter-sword.png";
+import jesusHealing from "@/assets/sprites/arrest-jesus/jesus-healing.png";
+import disciplesFleeing from "@/assets/sprites/arrest-jesus/disciples-fleeing.png";
+import jesusBound from "@/assets/sprites/arrest-jesus/jesus-bound.png";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

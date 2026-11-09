@@ -1,11 +1,11 @@
-import peterFollowing from "@/assets/sprites/peter-denies/peter-following.webp";
-import peterGate from "@/assets/sprites/peter-denies/peter-gate.webp";
-import peterFire from "@/assets/sprites/peter-denies/peter-fire.webp";
-import servantGirl from "@/assets/sprites/peter-denies/servant-girl.webp";
-import secondServant from "@/assets/sprites/peter-denies/second-servant.webp";
-import bystanderAccusing from "@/assets/sprites/peter-denies/bystander-accusing.webp";
-import peterGaze from "@/assets/sprites/peter-denies/peter-gaze.webp";
-import peterWeeping from "@/assets/sprites/peter-denies/peter-weeping.webp";
+import peterFollowing from "@/assets/sprites/peter-denies/peter-following.png";
+import peterGate from "@/assets/sprites/peter-denies/peter-gate.png";
+import peterFire from "@/assets/sprites/peter-denies/peter-fire.png";
+import servantGirl from "@/assets/sprites/peter-denies/servant-girl.png";
+import secondServant from "@/assets/sprites/peter-denies/second-servant.png";
+import bystanderAccusing from "@/assets/sprites/peter-denies/bystander-accusing.png";
+import jesusGaze from "@/assets/sprites/peter-denies/jesus-gaze.png";
+import peterWeeping from "@/assets/sprites/peter-denies/peter-weeping.png";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
@@ -29,9 +29,9 @@ export const peterDeniesSprites: Record<string, SpriteConfig> = {
   third_accusation: { left: bystanderAccusing },
   courage_consequence: { left: bystanderAccusing },
   flee_consequence: { left: bystanderAccusing },
-  rooster: { left: peterGaze },
-  lookaway_consequence: { left: peterGaze },
-  shout_consequence: { left: peterGaze },
+  rooster: { left: jesusGaze },
+  lookaway_consequence: { left: jesusGaze },
+  shout_consequence: { left: jesusGaze },
   weeping: { left: peterWeeping },
   harden_consequence: { left: peterWeeping },
   blame_consequence: { left: peterWeeping },

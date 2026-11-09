@@ -1,11 +1,11 @@
-import highPriests from "@/assets/sprites/trial/high-priests.webp";
-import falseWitnesses from "@/assets/sprites/trial/false-witnesses.webp";
-import jesusSilent from "@/assets/sprites/trial/jesus-silent.webp";
-import pilateQuestioning from "@/assets/sprites/trial/pilate-questioning.webp";
-import jesusTruth from "@/assets/sprites/trial/jesus-truth.webp";
-import crowdShouting from "@/assets/sprites/trial/crowd-shouting.webp";
-import pilateWashing from "@/assets/sprites/trial/pilate-washing.webp";
-import jesusCondemned from "@/assets/sprites/trial/jesus-condemned.webp";
+import highPriests from "@/assets/sprites/trial/high-priests.png";
+import falseWitnesses from "@/assets/sprites/trial/false-witnesses.png";
+import jesusSilent from "@/assets/sprites/trial/jesus-silent.png";
+import pilateQuestioning from "@/assets/sprites/trial/pilate-questioning.png";
+import jesusTruth from "@/assets/sprites/trial/jesus-truth.png";
+import crowdShouting from "@/assets/sprites/trial/crowd-shouting.png";
+import pilateWashing from "@/assets/sprites/trial/pilate-washing.png";
+import jesusCondemned from "@/assets/sprites/trial/jesus-condemned.png";
 
 import { SpriteConfig } from "@/data/creationSprites";
 
