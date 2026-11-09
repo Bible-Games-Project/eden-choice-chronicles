@@ -174,3 +174,29 @@ Deploy workflows are reusable from `Bible-Games-Project/bgp-admin`.
 - Script: `scripts/validate-locales.mjs`
 - Compares every locale against `en/`. Reports missing files, missing keys, and extra keys.
 - Intended to run in CI and locally before commits.
+
+## Character sprites (art restyle in progress)
+
+The maintainer is replacing every character sprite with a new style that matches
+the app icon (`icons/icon-512.webp`), with a hard budget of ~30 USD for all ~540
+sprites. Pilot done on `great-commission`; approved stories are redone the same way.
+
+- Only the waist-up character sprites change (`src/assets/sprites/**`). Never touch
+  scene backgrounds. Keep file names, so the `*Sprites.ts` imports stay valid.
+- Each sprite must show what happens in its main scene (read the story's scene text).
+- Generator: `scripts/sprite-gen/generate.mjs` + one `jobs-<story>.json` per story.
+  Run with bun (its fetch honours the sandbox proxy; node's doesn't), with `sharp`
+  installed outside the repo: `npm i sharp` in /tmp/tools, then
+  `SHARP_DIR=/tmp/tools bun scripts/sprite-gen/generate.mjs scripts/sprite-gen/jobs-x.json`.
+  It writes the PNG and the `.webp` the game imports.
+- Settings that fit the budget: `gpt-image-1.5`, quality `medium`, input fidelity
+  `low` ≈ 0.05 USD per image. High fidelity or extra reference images ~double it.
+- Consistency: recurring characters have `refs/<name>.png` + `refs/<name>.txt`
+  (fixed description added to every prompt). Jesus uses `refs/jesus` in all NT
+  stories; non-Jesus sprites use `refs/style-icon`. Check every result and redo
+  drifted ones (e.g. a golden glow turned Jesus' hair blond).
+- `bun run build` gets OOM-killed (SIGKILL) in the 1.2 GB build sandbox even on a
+  clean tree; the GitHub build is fine.
+- The dev-mode button is hidden in production builds (`.env.production`), which
+  includes the Cloudflare preview. Unlock it by tapping the version number in
+  Settings 10 times.
