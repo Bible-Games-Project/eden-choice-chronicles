@@ -197,6 +197,8 @@ sprites. Pilot done on `great-commission`; approved stories are redone the same 
   drifted ones (e.g. a golden glow turned Jesus' hair blond).
 - `bun run build` gets OOM-killed (SIGKILL) in the 1.2 GB build sandbox even on a
   clean tree; the GitHub build is fine.
-- The dev-mode button is hidden in production builds (`.env.production`), which
-  includes the Cloudflare preview. Unlock it by tapping the version number in
-  Settings 10 times.
+- The dev-tools buttons show in dev builds and on the `*.pages.dev` preview (hostname
+  check in `MainMenu.tsx`), never in store builds. Tapping the version number in
+  Settings 10 times also turns dev mode on.
+- `art-backup/<story>/` keeps the old sprite PNGs the maintainer wanted to keep
+  (outside `src/`, so they are not bundled).

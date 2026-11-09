@@ -4,6 +4,11 @@ import { useState } from "react";
 import SettingsPanel from "@/components/SettingsPanel";
 import { useSettings } from "@/hooks/useSettings";
 
+// The preview (bgp-*.pages.dev) is a production build, so the env flag is off
+// there; the maintainer still needs the dev tools on it. Store apps never run
+// on that host.
+const IS_PREVIEW_SITE = typeof window !== "undefined" && window.location.hostname.endsWith(".pages.dev");
+
 interface MainMenuProps {
   onSelectTestament: (testament: "old" | "new") => void;
   isNTUnlocked: boolean;
@@ -183,8 +188,8 @@ const MainMenu = ({ onSelectTestament, isNTUnlocked, otProgress, ntProgress, dev
           </motion.button>
         </div>
 
-        {/* Dev tools section — only shown when VITE_SHOW_DEV_BUTTON=true */}
-        {(import.meta.env.VITE_SHOW_DEV_BUTTON === "true" || devMode) && (
+        {/* Dev tools section — shown in dev builds, on the Cloudflare preview site, or once dev mode is on */}
+        {(import.meta.env.VITE_SHOW_DEV_BUTTON === "true" || IS_PREVIEW_SITE || devMode) && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
