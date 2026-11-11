@@ -1,11 +1,11 @@
-import jesusCondemned from "@/assets/sprites/crucifixion/jesus-condemned.png";
-import jesusCarrying from "@/assets/sprites/crucifixion/jesus-carrying.png";
-import simonHelps from "@/assets/sprites/crucifixion/simon-helps.png";
-import jesusGolgotha from "@/assets/sprites/crucifixion/jesus-golgotha.png";
-import jesusCross from "@/assets/sprites/crucifixion/jesus-cross.png";
-import criminalsCross from "@/assets/sprites/crucifixion/criminals-cross.png";
-import maryJohn from "@/assets/sprites/crucifixion/mary-john.png";
-import jesusFinal from "@/assets/sprites/crucifixion/jesus-final.png";
+import jesusCondemned from "@/assets/sprites/crucifixion/jesus-condemned.webp";
+import jesusCarrying from "@/assets/sprites/crucifixion/jesus-carrying.webp";
+import simonHelps from "@/assets/sprites/crucifixion/simon-helps.webp";
+import jesusGolgotha from "@/assets/sprites/crucifixion/jesus-golgotha.webp";
+import jesusCross from "@/assets/sprites/crucifixion/jesus-cross.webp";
+import criminalsCross from "@/assets/sprites/crucifixion/criminals-cross.webp";
+import maryJohn from "@/assets/sprites/crucifixion/mary-john.webp";
+import jesusFinal from "@/assets/sprites/crucifixion/jesus-final.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

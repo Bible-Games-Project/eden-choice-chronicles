@@ -1,10 +1,10 @@
-import jesusWalking from "@/assets/sprites/woman-blood/jesus-walking.png";
-import womanSuffering from "@/assets/sprites/woman-blood/woman-suffering.png";
-import womanReaching from "@/assets/sprites/woman-blood/woman-reaching.png";
-import jesusTurning from "@/assets/sprites/woman-blood/jesus-turning.png";
-import womanConfessing from "@/assets/sprites/woman-blood/woman-confessing.png";
-import jesusBlessing from "@/assets/sprites/woman-blood/jesus-blessing.png";
-import womanHealed from "@/assets/sprites/woman-blood/woman-healed.png";
+import jesusWalking from "@/assets/sprites/woman-blood/jesus-walking.webp";
+import womanSuffering from "@/assets/sprites/woman-blood/woman-suffering.webp";
+import womanReaching from "@/assets/sprites/woman-blood/woman-reaching.webp";
+import jesusTurning from "@/assets/sprites/woman-blood/jesus-turning.webp";
+import womanConfessing from "@/assets/sprites/woman-blood/woman-confessing.webp";
+import jesusBlessing from "@/assets/sprites/woman-blood/jesus-blessing.webp";
+import womanHealed from "@/assets/sprites/woman-blood/woman-healed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

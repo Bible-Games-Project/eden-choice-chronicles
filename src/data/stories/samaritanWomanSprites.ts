@@ -1,14 +1,14 @@
-import jesusResting from "@/assets/sprites/samaritan-woman/jesus-resting.png";
-import jesusAsking from "@/assets/sprites/samaritan-woman/jesus-asking.png";
-import jesusLivingWater from "@/assets/sprites/samaritan-woman/jesus-living-water.png";
-import jesusRevealing from "@/assets/sprites/samaritan-woman/jesus-revealing.png";
-import jesusMessiah from "@/assets/sprites/samaritan-woman/jesus-messiah.png";
-import womanArriving from "@/assets/sprites/samaritan-woman/woman-arriving.png";
-import womanSurprised from "@/assets/sprites/samaritan-woman/woman-surprised.png";
-import womanCurious from "@/assets/sprites/samaritan-woman/woman-curious.png";
-import womanRealization from "@/assets/sprites/samaritan-woman/woman-realization.png";
-import womanProclaiming from "@/assets/sprites/samaritan-woman/woman-proclaiming.png";
-import disciplesReturning from "@/assets/sprites/samaritan-woman/disciples-returning.png";
+import jesusResting from "@/assets/sprites/samaritan-woman/jesus-resting.webp";
+import jesusAsking from "@/assets/sprites/samaritan-woman/jesus-asking.webp";
+import jesusLivingWater from "@/assets/sprites/samaritan-woman/jesus-living-water.webp";
+import jesusRevealing from "@/assets/sprites/samaritan-woman/jesus-revealing.webp";
+import jesusMessiah from "@/assets/sprites/samaritan-woman/jesus-messiah.webp";
+import womanArriving from "@/assets/sprites/samaritan-woman/woman-arriving.webp";
+import womanSurprised from "@/assets/sprites/samaritan-woman/woman-surprised.webp";
+import womanCurious from "@/assets/sprites/samaritan-woman/woman-curious.webp";
+import womanRealization from "@/assets/sprites/samaritan-woman/woman-realization.webp";
+import womanProclaiming from "@/assets/sprites/samaritan-woman/woman-proclaiming.webp";
+import disciplesReturning from "@/assets/sprites/samaritan-woman/disciples-returning.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

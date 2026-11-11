@@ -1,13 +1,13 @@
-import womenSpices from "@/assets/sprites/empty-tomb/women-spices.png";
-import guardsShocked from "@/assets/sprites/empty-tomb/guards-shocked.png";
-import maryPeering from "@/assets/sprites/empty-tomb/mary-peering.png";
-import angelSpeaking from "@/assets/sprites/empty-tomb/angel-speaking.png";
-import womenAmazed from "@/assets/sprites/empty-tomb/women-amazed.png";
-import womenRunning from "@/assets/sprites/empty-tomb/women-running.png";
-import peterJohn from "@/assets/sprites/empty-tomb/peter-john.png";
-import jesusRisen from "@/assets/sprites/empty-tomb/jesus-risen.png";
-import jesusGreeting from "@/assets/sprites/empty-tomb/jesus-greeting.png";
-import maryJoy from "@/assets/sprites/empty-tomb/mary-joy.png";
+import womenSpices from "@/assets/sprites/empty-tomb/women-spices.webp";
+import guardsShocked from "@/assets/sprites/empty-tomb/guards-shocked.webp";
+import maryPeering from "@/assets/sprites/empty-tomb/mary-peering.webp";
+import angelSpeaking from "@/assets/sprites/empty-tomb/angel-speaking.webp";
+import womenAmazed from "@/assets/sprites/empty-tomb/women-amazed.webp";
+import womenRunning from "@/assets/sprites/empty-tomb/women-running.webp";
+import peterJohn from "@/assets/sprites/empty-tomb/peter-john.webp";
+import jesusRisen from "@/assets/sprites/empty-tomb/jesus-risen.webp";
+import jesusGreeting from "@/assets/sprites/empty-tomb/jesus-greeting.webp";
+import maryJoy from "@/assets/sprites/empty-tomb/mary-joy.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

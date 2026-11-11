@@ -1,10 +1,10 @@
-import centurionSeeking from "@/assets/sprites/centurion/centurion-seeking.png";
-import centurionFaith from "@/assets/sprites/centurion/centurion-faith.png";
-import jesusCenturionSpeaking from "@/assets/sprites/centurion/jesus-centurion-speaking.png";
-import jesusHealingWord from "@/assets/sprites/centurion/jesus-healing-word.png";
-import jesusAdmiringFaith from "@/assets/sprites/centurion/jesus-admiring-faith.png";
-import servantIll from "@/assets/sprites/centurion/servant-ill.png";
-import servantHealed from "@/assets/sprites/centurion/servant-healed.png";
+import centurionSeeking from "@/assets/sprites/centurion/centurion-seeking.webp";
+import centurionFaith from "@/assets/sprites/centurion/centurion-faith.webp";
+import jesusCenturionSpeaking from "@/assets/sprites/centurion/jesus-centurion-speaking.webp";
+import jesusHealingWord from "@/assets/sprites/centurion/jesus-healing-word.webp";
+import jesusAdmiringFaith from "@/assets/sprites/centurion/jesus-admiring-faith.webp";
+import servantIll from "@/assets/sprites/centurion/servant-ill.webp";
+import servantHealed from "@/assets/sprites/centurion/servant-healed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

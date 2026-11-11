@@ -1,10 +1,10 @@
-import jesusDisciplesSettingOut from "@/assets/sprites/storm/jesus-disciples-setting-out.png";
-import disciplesStruggling from "@/assets/sprites/storm/disciples-struggling.png";
-import jesusSleeping from "@/assets/sprites/storm/jesus-sleeping.png";
-import disciplesWakingJesus from "@/assets/sprites/storm/disciples-waking-jesus.png";
-import jesusCommanding from "@/assets/sprites/storm/jesus-commanding.png";
-import jesusTeachingDisciples from "@/assets/sprites/storm/jesus-teaching-disciples.png";
-import disciplesAmazed from "@/assets/sprites/storm/disciples-amazed.png";
+import jesusDisciplesSettingOut from "@/assets/sprites/storm/jesus-disciples-setting-out.webp";
+import disciplesStruggling from "@/assets/sprites/storm/disciples-struggling.webp";
+import jesusSleeping from "@/assets/sprites/storm/jesus-sleeping.webp";
+import disciplesWakingJesus from "@/assets/sprites/storm/disciples-waking-jesus.webp";
+import jesusCommanding from "@/assets/sprites/storm/jesus-commanding.webp";
+import jesusTeachingDisciples from "@/assets/sprites/storm/jesus-teaching-disciples.webp";
+import disciplesAmazed from "@/assets/sprites/storm/disciples-amazed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

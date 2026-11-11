@@ -1,10 +1,10 @@
-import disciplesAsking from "@/assets/sprites/lords-prayer/disciples-asking.png";
-import jesusOurFather from "@/assets/sprites/lords-prayer/jesus-our-father.png";
-import jesusDailyTrust from "@/assets/sprites/lords-prayer/jesus-daily-trust.png";
-import jesusForgiveness from "@/assets/sprites/lords-prayer/jesus-forgiveness.png";
-import jesusMercyOthers from "@/assets/sprites/lords-prayer/jesus-mercy-others.png";
-import jesusPrayerDeliverance from "@/assets/sprites/lords-prayer/jesus-prayer-deliverance.png";
-import disciplesUnderstanding from "@/assets/sprites/lords-prayer/disciples-understanding.png";
+import disciplesAsking from "@/assets/sprites/lords-prayer/disciples-asking.webp";
+import jesusOurFather from "@/assets/sprites/lords-prayer/jesus-our-father.webp";
+import jesusDailyTrust from "@/assets/sprites/lords-prayer/jesus-daily-trust.webp";
+import jesusForgiveness from "@/assets/sprites/lords-prayer/jesus-forgiveness.webp";
+import jesusMercyOthers from "@/assets/sprites/lords-prayer/jesus-mercy-others.webp";
+import jesusPrayerDeliverance from "@/assets/sprites/lords-prayer/jesus-prayer-deliverance.webp";
+import disciplesUnderstanding from "@/assets/sprites/lords-prayer/disciples-understanding.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

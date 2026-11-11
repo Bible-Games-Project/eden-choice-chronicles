@@ -1,11 +1,11 @@
-import jesusApproaching from "@/assets/sprites/triumphal-entry/jesus-approaching.png";
-import disciplesDonkey from "@/assets/sprites/triumphal-entry/disciples-donkey.png";
-import jesusDonkey from "@/assets/sprites/triumphal-entry/jesus-donkey.png";
-import crowdCloaks from "@/assets/sprites/triumphal-entry/crowd-cloaks.png";
-import crowdPalms from "@/assets/sprites/triumphal-entry/crowd-palms.png";
-import crowdHosanna from "@/assets/sprites/triumphal-entry/crowd-hosanna.png";
-import phariseesQuestioning from "@/assets/sprites/triumphal-entry/pharisees-questioning.png";
-import jesusEntering from "@/assets/sprites/triumphal-entry/jesus-entering.png";
+import jesusApproaching from "@/assets/sprites/triumphal-entry/jesus-approaching.webp";
+import disciplesDonkey from "@/assets/sprites/triumphal-entry/disciples-donkey.webp";
+import jesusDonkey from "@/assets/sprites/triumphal-entry/jesus-donkey.webp";
+import crowdCloaks from "@/assets/sprites/triumphal-entry/crowd-cloaks.webp";
+import crowdPalms from "@/assets/sprites/triumphal-entry/crowd-palms.webp";
+import crowdHosanna from "@/assets/sprites/triumphal-entry/crowd-hosanna.webp";
+import phariseesQuestioning from "@/assets/sprites/triumphal-entry/pharisees-questioning.webp";
+import jesusEntering from "@/assets/sprites/triumphal-entry/jesus-entering.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

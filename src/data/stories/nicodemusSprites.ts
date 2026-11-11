@@ -1,12 +1,12 @@
-import jesusWelcoming from "@/assets/sprites/nicodemus/jesus-welcoming.png";
-import nicodemusApproaching from "@/assets/sprites/nicodemus/nicodemus-approaching.png";
-import jesusExplaining from "@/assets/sprites/nicodemus/jesus-explaining.png";
-import nicodemusPuzzled from "@/assets/sprites/nicodemus/nicodemus-puzzled.png";
-import jesusSpirit from "@/assets/sprites/nicodemus/jesus-spirit.png";
-import jesusLove from "@/assets/sprites/nicodemus/jesus-love.png";
-import nicodemusReflecting from "@/assets/sprites/nicodemus/nicodemus-reflecting.png";
-import nicodemusDeparting from "@/assets/sprites/nicodemus/nicodemus-departing.png";
-import jesusRadiant from "@/assets/sprites/nicodemus/jesus-radiant.png";
+import jesusWelcoming from "@/assets/sprites/nicodemus/jesus-welcoming.webp";
+import nicodemusApproaching from "@/assets/sprites/nicodemus/nicodemus-approaching.webp";
+import jesusExplaining from "@/assets/sprites/nicodemus/jesus-explaining.webp";
+import nicodemusPuzzled from "@/assets/sprites/nicodemus/nicodemus-puzzled.webp";
+import jesusSpirit from "@/assets/sprites/nicodemus/jesus-spirit.webp";
+import jesusLove from "@/assets/sprites/nicodemus/jesus-love.webp";
+import nicodemusReflecting from "@/assets/sprites/nicodemus/nicodemus-reflecting.webp";
+import nicodemusDeparting from "@/assets/sprites/nicodemus/nicodemus-departing.webp";
+import jesusRadiant from "@/assets/sprites/nicodemus/jesus-radiant.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

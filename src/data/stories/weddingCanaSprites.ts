@@ -1,10 +1,10 @@
-import brideGroom from "@/assets/sprites/cana/bride-groom.png";
-import maryConcerned from "@/assets/sprites/cana/mary-concerned.png";
-import maryServants from "@/assets/sprites/cana/mary-servants.png";
-import jesusInstructing from "@/assets/sprites/cana/jesus-instructing.png";
-import servantsFilling from "@/assets/sprites/cana/servants-filling.png";
-import masterTasting from "@/assets/sprites/cana/master-tasting.png";
-import jesusMaryDisciples from "@/assets/sprites/cana/jesus-mary-disciples.png";
+import brideGroom from "@/assets/sprites/cana/bride-groom.webp";
+import maryConcerned from "@/assets/sprites/cana/mary-concerned.webp";
+import maryServants from "@/assets/sprites/cana/mary-servants.webp";
+import jesusInstructing from "@/assets/sprites/cana/jesus-instructing.webp";
+import servantsFilling from "@/assets/sprites/cana/servants-filling.webp";
+import masterTasting from "@/assets/sprites/cana/master-tasting.webp";
+import jesusMaryDisciples from "@/assets/sprites/cana/jesus-mary-disciples.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

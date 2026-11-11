@@ -1,11 +1,11 @@
-import maryWeeping from "@/assets/sprites/appearance-mary/mary-weeping.png";
-import twoAngels from "@/assets/sprites/appearance-mary/two-angels.png";
-import maryTurning from "@/assets/sprites/appearance-mary/mary-turning.png";
-import jesusGardener from "@/assets/sprites/appearance-mary/jesus-gardener.png";
-import maryPleading from "@/assets/sprites/appearance-mary/mary-pleading.png";
-import jesusCalling from "@/assets/sprites/appearance-mary/jesus-calling.png";
-import maryRecognition from "@/assets/sprites/appearance-mary/mary-recognition.png";
-import maryRunningJoy from "@/assets/sprites/appearance-mary/mary-running-joy.png";
+import maryWeeping from "@/assets/sprites/appearance-mary/mary-weeping.webp";
+import twoAngels from "@/assets/sprites/appearance-mary/two-angels.webp";
+import maryTurning from "@/assets/sprites/appearance-mary/mary-turning.webp";
+import jesusGardener from "@/assets/sprites/appearance-mary/jesus-gardener.webp";
+import maryPleading from "@/assets/sprites/appearance-mary/mary-pleading.webp";
+import jesusCalling from "@/assets/sprites/appearance-mary/jesus-calling.webp";
+import maryRecognition from "@/assets/sprites/appearance-mary/mary-recognition.webp";
+import maryRunningJoy from "@/assets/sprites/appearance-mary/mary-running-joy.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

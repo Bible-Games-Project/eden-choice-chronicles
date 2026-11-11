@@ -1,11 +1,11 @@
-import jesusRaised from "@/assets/sprites/death-jesus/jesus-raised.png";
-import jesusMocked from "@/assets/sprites/death-jesus/jesus-mocked.png";
-import jesusThief from "@/assets/sprites/death-jesus/jesus-thief.png";
-import jesusMary from "@/assets/sprites/death-jesus/jesus-mary.png";
-import jesusDarkness from "@/assets/sprites/death-jesus/jesus-darkness.png";
-import jesusCrying from "@/assets/sprites/death-jesus/jesus-crying.png";
-import jesusFinished from "@/assets/sprites/death-jesus/jesus-finished.png";
-import jesusFinal from "@/assets/sprites/death-jesus/jesus-final.png";
+import jesusRaised from "@/assets/sprites/death-jesus/jesus-raised.webp";
+import jesusMocked from "@/assets/sprites/death-jesus/jesus-mocked.webp";
+import jesusThief from "@/assets/sprites/death-jesus/jesus-thief.webp";
+import jesusMary from "@/assets/sprites/death-jesus/jesus-mary.webp";
+import jesusDarkness from "@/assets/sprites/death-jesus/jesus-darkness.webp";
+import jesusCrying from "@/assets/sprites/death-jesus/jesus-crying.webp";
+import jesusFinished from "@/assets/sprites/death-jesus/jesus-finished.webp";
+import jesusFinal from "@/assets/sprites/death-jesus/jesus-final.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

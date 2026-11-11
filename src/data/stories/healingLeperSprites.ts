@@ -1,10 +1,10 @@
-import jesusDisciplesTraveling from "@/assets/sprites/healing-leper/jesus-disciples-traveling.png";
-import leperDistant from "@/assets/sprites/healing-leper/leper-distant.png";
-import leperKneeling from "@/assets/sprites/healing-leper/leper-kneeling.png";
-import jesusCompassion from "@/assets/sprites/healing-leper/jesus-compassion.png";
-import jesusReaching from "@/assets/sprites/healing-leper/jesus-reaching.png";
-import jesusTouchingLeper from "@/assets/sprites/healing-leper/jesus-touching-leper.png";
-import leperHealed from "@/assets/sprites/healing-leper/leper-healed.png";
+import jesusDisciplesTraveling from "@/assets/sprites/healing-leper/jesus-disciples-traveling.webp";
+import leperDistant from "@/assets/sprites/healing-leper/leper-distant.webp";
+import leperKneeling from "@/assets/sprites/healing-leper/leper-kneeling.webp";
+import jesusCompassion from "@/assets/sprites/healing-leper/jesus-compassion.webp";
+import jesusReaching from "@/assets/sprites/healing-leper/jesus-reaching.webp";
+import jesusTouchingLeper from "@/assets/sprites/healing-leper/jesus-touching-leper.webp";
+import leperHealed from "@/assets/sprites/healing-leper/leper-healed.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

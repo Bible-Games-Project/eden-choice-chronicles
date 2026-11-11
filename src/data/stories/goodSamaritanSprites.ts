@@ -1,12 +1,12 @@
-import jesusParable from "@/assets/sprites/good-samaritan/jesus-teaching-parable.png";
-import travelerConfronted from "@/assets/sprites/good-samaritan/traveler-confronted.png";
-import travelerWounded from "@/assets/sprites/good-samaritan/traveler-wounded.png";
-import priest from "@/assets/sprites/good-samaritan/priest-passing.png";
-import levite from "@/assets/sprites/good-samaritan/levite-passing.png";
-import samaritanDiscovers from "@/assets/sprites/good-samaritan/samaritan-discovers-traveler.png";
-import samaritanTreating from "@/assets/sprites/good-samaritan/samaritan-treating-traveler.png";
-import samaritanInnkeeper from "@/assets/sprites/good-samaritan/samaritan-traveler-innkeeper.png";
-import jesusLikewise from "@/assets/sprites/good-samaritan/jesus-go-likewise.png";
+import jesusParable from "@/assets/sprites/good-samaritan/jesus-teaching-parable.webp";
+import travelerConfronted from "@/assets/sprites/good-samaritan/traveler-confronted.webp";
+import travelerWounded from "@/assets/sprites/good-samaritan/traveler-wounded.webp";
+import priest from "@/assets/sprites/good-samaritan/priest-passing.webp";
+import levite from "@/assets/sprites/good-samaritan/levite-passing.webp";
+import samaritanDiscovers from "@/assets/sprites/good-samaritan/samaritan-discovers-traveler.webp";
+import samaritanTreating from "@/assets/sprites/good-samaritan/samaritan-treating-traveler.webp";
+import samaritanInnkeeper from "@/assets/sprites/good-samaritan/samaritan-traveler-innkeeper.webp";
+import jesusLikewise from "@/assets/sprites/good-samaritan/jesus-go-likewise.webp";
 
 import { SpriteConfig } from "@/data/creationSprites";
 

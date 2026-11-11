@@ -177,6 +177,10 @@ Deploy workflows are reusable from `Bible-Games-Project/bgp-admin`.
 
 ## Build sandbox and dev tools
 
+- Google Play rejects bundles over 500 MB. Import sprites as `.webp`, never `.png`
+  (Lovable tends to import the 1 MB PNGs directly; convert with sharp, quality 85).
+  In Nov 2026 335 PNG imports pushed the app to ~506 MB; as WebP it is ~200 MB.
+
 - `bun run build` gets OOM-killed (SIGKILL) in the 1.2 GB build sandbox even on a
   clean tree; the GitHub build is fine. `npx tsc --noEmit -p tsconfig.app.json` works.
 - The dev-tools buttons show in dev builds and on the `*.pages.dev` preview (hostname
